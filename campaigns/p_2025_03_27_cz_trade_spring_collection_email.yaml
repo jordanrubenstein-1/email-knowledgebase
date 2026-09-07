@@ -1,0 +1,57 @@
+id: 4c9d181c-1e77-47cf-8388-a3edde083521
+name: P_2025_03_27_CZ_TRADE_Spring_Collection_Email
+brand: CZ
+channel: email
+category: product_launch
+type: seasonal
+theme: spring
+braze_id: 4c9d181c-1e77-47cf-8388-a3edde083521
+dates:
+  send_date: '2025-03-27'
+  inferred_send_type: local_time
+  first_sent: '2025-03-26T23:12:33+00:00'
+  last_sent: '2025-03-27T18:00:20+00:00'
+tags: []
+sends:
+- id: c70fd68e-ac51-4a63-81a8-3bd1ff488dde
+  channel: email
+  name: Variant 1
+  subject: Introducing Our Spring Collection
+  preheader: Earthy, effortless, and deeply refined.
+  html_file: html/p_2025_03_27_cz_trade_spring_collection_email.html
+  screenshot: screenshots/p_2025_03_27_cz_trade_spring_collection_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e1c959bd77e500678622c3/original.jpg?1742850393
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c9fea8302867006723107f/original.png?1741291176
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e1c92f1bbd7d0065ae1352/original.gif?1742850351
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e1c963943601007564d423/original.jpg?1742850403
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e1c9056c596a00647d4ece/original.jpg?1742850308
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e1c9516679660065d4dab4/original.jpg?1742850385
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e1c8fa271f2c0065811894/original.jpg?1742850298
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e1c9366679660065d4da32/original.jpg?1742850358
+- id: a16ac0f2-3bb1-4656-a242-a9e82ffab2b8
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 15794
+  total_delivered: 15502
+  total_opens: 8350
+  total_clicks: 185
+  open_rate: 0.5287
+  click_rate: 0.0117
+  total_revenue: 21726.0
+  total_bounces: 7
+  total_unsubscribes: 47
+  ga4:
+    sessions: 165
+    purchases: 2
+    revenue: 541.08
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.118850'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.308766'
+schedule_type: time_based

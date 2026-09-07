@@ -1,0 +1,23 @@
+id: 58ff0e12-21b9-47b7-9c7d-48a207949dcb
+name: Step 1
+brand: ID
+channel: sms
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: b3d1dae1-ed34-4728-b4d3-7bb31676ea6f
+canvas_name: 03_2025_SMS_TRG_SessionAbandonment
+flow_type: other_flow
+sequence_position: 1
+body: "Interior Define: Hey, we noticed you checking us out. Have you seen our best\
+  \ sellers yet? \nhttps://www.interiordefine.com/best-sellers?page=1&utm_source=braze_ID&utm_medium=sms&utm_campaign={{campaign.${name}}}&userid={{${user_id}}}"
+sends:
+- id: 58ff0e12-21b9-47b7-9c7d-48a207949dcb
+  channel: sms
+  name: Step 1
+  body: "Interior Define: Hey, we noticed you checking us out. Have you seen our best\
+    \ sellers yet? \nhttps://www.interiordefine.com/best-sellers?page=1&utm_source=braze_ID&utm_medium=sms&utm_campaign={{campaign.${name}}}&userid={{${user_id}}}"
+dates:
+  first_sent: null
+  last_sent: null
+performance_summary: {}

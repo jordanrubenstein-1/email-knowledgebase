@@ -1,0 +1,38 @@
+id: cec1a52d-257b-49c9-aba9-3bf8892ea0a4
+name: P_SMS_2025_12_24_BW_End_of_Year_Sale_Launch
+brand: BUR
+channel: sms
+category: product_launch
+type: sale
+theme: null
+braze_id: cec1a52d-257b-49c9-aba9-3bf8892ea0a4
+dates:
+  send_date: '2025-12-24'
+  inferred_send_type: local_time
+  first_sent: '2025-12-24T01:57:01+00:00'
+  last_sent: '2025-12-25T01:03:23+00:00'
+tags: []
+sends:
+- id: 682880fb-de21-46ef-90ee-53f262f729ba
+  channel: sms
+  name: Variant 1
+- id: 246fb976-1385-47bf-9a41-80d6c88b3a37
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 6451
+  total_delivered: 6353
+  total_opens: 0
+  total_clicks: 201
+  open_rate: 0.0
+  click_rate: 0.0312
+  total_revenue: 3461.0
+  ga4:
+    sessions: 161
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.803907'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

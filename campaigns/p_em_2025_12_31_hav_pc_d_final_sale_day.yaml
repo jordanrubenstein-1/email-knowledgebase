@@ -1,0 +1,35 @@
+id: 27ad2788-cba6-4715-95f9-a9bc443abee0
+name: P_EM_2025_12_31_HAV_PC_D_Final_Sale_Day
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 27ad2788-cba6-4715-95f9-a9bc443abee0
+dates:
+  send_date: '2025-12-31'
+  first_sent: '2025-12-31T01:09:53+00:00'
+  last_sent: '2025-12-31T18:15:38+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 2a88986e-4788-4b87-8c58-f30ee444eb05
+  channel: email
+  name: Variant 1
+  subject: Good Design. Better Timing.
+  preheader: Last chance to save on Havenly design services
+- id: 553ca2fa-4d7e-4c2f-95ab-7c84fbe21818
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 252118
+  total_delivered: 250636
+  total_opens: 100528
+  total_clicks: 422
+  open_rate: 0.3987
+  click_rate: 0.0017
+  total_bounces: 13
+  total_unsubscribes: 404
+schedule_type: time_based
+_filename: p_em_2025_12_31_hav_pc_d_final_sale_day.yaml

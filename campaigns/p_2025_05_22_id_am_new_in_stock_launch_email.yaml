@@ -1,0 +1,47 @@
+id: 7957c9fd-7ed2-4612-8b10-19a8fb1b521c
+name: P_2025_05_22_ID_AM_NEW_In_Stock_Launch_Email
+brand: ID
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 7957c9fd-7ed2-4612-8b10-19a8fb1b521c
+dates:
+  send_date: '2025-05-22'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-22T16:24:38+00:00'
+  last_sent: '2025-05-22T16:26:48+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: c45815f8-c039-4a3a-8853-1aeabcba3316
+  channel: email
+  name: Variant 1
+  subject: The Styles You Love. The Speed You Need.
+  preheader: Our new quick ship collection is live and 20% off, but not for long.
+- id: 12e010cd-5de7-40dc-b051-0fdda1255415
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 164275
+  total_delivered: 162125
+  total_opens: 37668
+  total_clicks: 473
+  open_rate: 0.2293
+  click_rate: 0.0029
+  total_revenue: 321151.0
+  total_bounces: 4
+  total_unsubscribes: 77
+  ga4:
+    sessions: 531
+    purchases: 4
+    revenue: 12250.09
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.089492'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.280390'
+schedule_type: time_based

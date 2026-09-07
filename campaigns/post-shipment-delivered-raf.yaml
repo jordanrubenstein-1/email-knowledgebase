@@ -1,0 +1,37 @@
+id: c48f359a-db03-4793-8b9a-6de575408d45
+name: Post Shipment Delivered RAF
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: c48f359a-db03-4793-8b9a-6de575408d45
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-05-04T19:00:00+00:00'
+  last_sent: '2026-05-06T21:00:00+00:00'
+tags: []
+sends:
+- id: a5da3eb2-2869-4485-91ae-7b88e4298e2e
+  channel: email
+  name: TRG_EM_2026_05_BW_PT_Post_Shipment_RAF_T1_V1
+  subject: A little thank you (and something for a friend)
+  preheader: ''
+  step_id: 7a2e2e58-d354-4faa-adc9-a88e995025a9
+performance_summary: {}
+canvas_steps:
+- id: 6e918b3a-c98f-48f4-b659-630ec4d0ee88
+  name: Step
+  type: delay
+- id: 7a2e2e58-d354-4faa-adc9-a88e995025a9
+  name: TRG_EM_2026_05_BW_PT_Post_Shipment_RAF_T1_V1
+  type: message
+  channel: email
+  subject: A little thank you (and something for a friend)
+  preheader: ''
+- id: b380169e-33f6-4222-9c8d-c44d009d30dd
+  name: Email available?
+  type: audience_paths
+_filename: post-shipment-delivered-raf.yaml

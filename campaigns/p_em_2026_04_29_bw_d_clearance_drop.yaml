@@ -1,0 +1,35 @@
+id: 52cf51ec-89e5-43f1-ab9e-d838f2ebf081
+name: P_EM_2026_04_29_BW_D_Clearance_Drop
+brand: BUR
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 52cf51ec-89e5-43f1-ab9e-d838f2ebf081
+dates:
+  send_date: '2026-04-29'
+  inferred_send_type: sto
+  first_sent: '2026-04-28T11:07:53+00:00'
+  last_sent: '2026-04-30T09:45:09+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 42582271-5690-489f-b480-c5681ef0cd46
+  channel: email
+  name: Variant 1
+  subject: Your last chance at 70% off
+  preheader: Shop final styles before they sell out.
+- id: 0b2475b1-1e15-4ce4-92bc-61e23a77e6da
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 230165
+  total_delivered: 228734
+  total_opens: 129763
+  total_clicks: 846
+  open_rate: 0.5638
+  click_rate: 0.0037
+  total_revenue: 62499.0
+  total_unsubscribes: 220
+_filename: p_em_2026_04_29_bw_d_clearance_drop.yaml
+schedule_type: time_based

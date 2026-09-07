@@ -1,0 +1,30 @@
+id: b61d54fd-3766-4035-b326-790f17531738
+name: 20250211_Span-Launch_SMS
+brand: BUR
+channel: sms
+category: product_launch
+type: product_launch
+theme: null
+braze_id: b61d54fd-3766-4035-b326-790f17531738
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2025-02-11T15:14:27+00:00'
+  last_sent: '2025-02-12T01:00:14+00:00'
+tags: []
+sends:
+- id: fee0f3a0-b97d-4042-bafe-2614bfdad21b
+  channel: other
+  name: Variant 1
+- id: b9c340ed-39a3-41d4-9d84-d1412b6127fd
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 166
+    purchases: 3
+    revenue: 3889.29
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.472856'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

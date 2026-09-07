@@ -1,0 +1,47 @@
+id: bac5c9bb-9f65-448c-ab4c-3114155e4363
+name: P_EM_2026_03_31_CZ_D_PR_Bath_Categories_PM
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: bac5c9bb-9f65-448c-ab4c-3114155e4363
+dates:
+  send_date: '2026-03-31'
+  inferred_send_type: local_time
+  first_sent: '2026-03-30T22:06:04+00:00'
+  last_sent: '2026-03-31T22:00:56+00:00'
+tags:
+- batch and blast
+- bath
+- d2c
+- designed
+- pm
+- prod
+sends:
+- id: b2fabc04-df15-4f2d-af4f-107bf66d2e0c
+  channel: email
+  name: Variant 1
+  subject: For slow mornings and long soaks
+  preheader: Bath essentials that bring ease to your daily routine.
+  html_file: html/p_em_2026_03_31_cz_d_pr_bath_categories_pm.html
+  screenshot: screenshots/p_em_2026_03_31_cz_d_pr_bath_categories_pm.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c9bee413a042006332ea95/original.png?1774829283
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c9beda662693006342f3e8/original.png?1774829273
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c9bef1c832b90063152253/original.png?1774829297
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c9bed29f845a0063ab2e05/original.png?1774829265
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c9bec418dd6c00633a9479/original.png?1774829251
+- id: 65ac2400-25e8-4059-90e6-77e14256be62
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 51568
+  total_delivered: 51506
+  total_opens: 24818
+  total_clicks: 541
+  open_rate: 0.4813
+  click_rate: 0.0105
+  total_bounces: 3
+  total_unsubscribes: 114
+schedule_type: time_based

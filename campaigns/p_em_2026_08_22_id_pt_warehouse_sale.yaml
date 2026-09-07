@@ -1,0 +1,33 @@
+id: a68f0291-3299-469d-bcdd-8d6e40bf1bb9
+name: P_EM_2026_08_22_ID_PT_Warehouse_Sale
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: a68f0291-3299-469d-bcdd-8d6e40bf1bb9
+dates:
+  send_date: '2026-08-22'
+  last_sent: '2026-08-22'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 74a45043-8cb3-46a0-975f-33c712bd0562
+  channel: email
+  name: Variant 1
+  subject: Ready to ship, ready for you
+- id: 13ef8352-ff6c-4ef7-9dc7-5edcc3bcee86
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 171308
+  total_delivered: 170409
+  total_opens: 63675
+  total_clicks: 2255
+  open_rate: 0.3717
+  click_rate: 0.0132
+  total_revenue: 306219.95
+  total_bounces: 6
+  total_unsubscribes: 276
+schedule_type: time_based
+_filename: p_em_2026_08_22_id_pt_warehouse_sale.yaml

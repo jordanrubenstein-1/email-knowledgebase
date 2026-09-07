@@ -1,0 +1,52 @@
+id: 87ff9f16-5b5a-4795-9df7-682bc5794e8a
+name: P_2024_11_02_HAV_Conv_The_Space_People_Forget_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 87ff9f16-5b5a-4795-9df7-682bc5794e8a
+dates:
+  send_date: '2024-11-02'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-02T03:44:48+00:00'
+  last_sent: '2024-11-02T17:15:03+00:00'
+tags: []
+sends:
+- id: b9a21ec8-526f-4276-a54c-a5d1212a6c09
+  channel: email
+  name: Variant 1
+  subject: 'The #1 space people forget to decorate'
+  preheader: '*raises hand*'
+  html_file: html/p_2024_11_02_hav_conv_the_space_people_forget_email.html
+  screenshot: screenshots/p_2024_11_02_hav_conv_the_space_people_forget_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67239e8a5ea6ac0066093eac/original.gif?1730387594
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67239ea0b025c800656dfa5a/original.jpg?1730387616
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67259ecaf3e8ca0065d0ad80/original.jpg?1730518730
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67239eaa5ea6ac0066093ee6/original.jpg?1730387626
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67239e7bb025c800656dfa07/original.jpg?1730387578
+- id: be59638c-dd96-4bee-bf59-48f2c0908dfb
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 34527
+  total_delivered: 34496
+  total_opens: 20296
+  total_clicks: 402
+  open_rate: 0.5878
+  click_rate: 0.0116
+  total_unsubscribes: 43
+  ga4:
+    sessions: 597
+    purchases: 2
+    revenue: 1698.23
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:48.798127'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:29.914185'
+schedule_type: time_based

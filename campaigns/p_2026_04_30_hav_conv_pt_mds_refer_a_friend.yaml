@@ -1,0 +1,32 @@
+id: 06abd9f9-e406-4d63-ae73-49aad4fe7d8b
+name: P_2026_04_30_HAV_CONV_PT_MDS_Refer_A_Friend
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 06abd9f9-e406-4d63-ae73-49aad4fe7d8b
+dates:
+  send_date: '2026-04-30'
+  first_sent: '2026-04-30T18:22:05+00:00'
+  last_sent: '2026-05-01T02:00:13+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: be283346-5edf-4151-8642-70f5752babda
+  channel: email
+  name: Variant 1
+  subject: Your friends deserve this, too
+- id: 8afe9dc6-2de5-4c95-96e0-857873836238
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1636
+  total_delivered: 1635
+  total_opens: 822
+  total_clicks: 7
+  open_rate: 0.5024
+  click_rate: 0.0043
+  total_unsubscribes: 2
+schedule_type: time_based
+_filename: p_2026_04_30_hav_conv_pt_mds_refer_a_friend.yaml

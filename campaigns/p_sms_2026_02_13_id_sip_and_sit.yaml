@@ -1,0 +1,30 @@
+id: a0e78d88-1d87-4270-8f15-b4dc755f61fa
+name: P_SMS_2026_02_13_ID_Sip_And_Sit
+brand: ID
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: a0e78d88-1d87-4270-8f15-b4dc755f61fa
+dates:
+  send_date: '2026-02-13'
+  inferred_send_type: local_time
+  first_sent: '2026-02-13T01:09:42+00:00'
+  last_sent: '2026-02-14T01:01:24+00:00'
+tags: []
+sends:
+- id: 161679a8-5d84-41e7-8b4d-6eedfe45e6d1
+  channel: sms
+  name: Variant 1
+- id: 7947c2b5-96e4-4e8f-b6a4-1b1274f7c4cb
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 10370
+  total_delivered: 9991
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 39854.98
+schedule_type: time_based

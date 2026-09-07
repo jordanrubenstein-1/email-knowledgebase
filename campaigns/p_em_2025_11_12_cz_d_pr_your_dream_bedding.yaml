@@ -1,0 +1,60 @@
+id: b4ac2a7f-ac88-405b-a354-d9b406105148
+name: P_EM_2025_11_12_CZ_D_PR_Your_Dream_Bedding
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: b4ac2a7f-ac88-405b-a354-d9b406105148
+dates:
+  send_date: '2025-11-12'
+  inferred_send_type: scheduled
+  first_sent: '2025-11-12T03:08:21+00:00'
+  last_sent: '2025-11-12T17:16:23+00:00'
+tags:
+- am
+- batch and blast
+- color
+- d2c
+- designed
+sends:
+- id: 2f46e2c1-b2bd-49b3-ab9c-bd5a64ca8e5e
+  channel: email
+  name: Variant 1
+  subject: Layers for Lingering
+  preheader: Curate a sanctuary of rest with our dreamiest bedding.
+  html_file: html/p_em_2025_11_12_cz_d_pr_your_dream_bedding.html
+  screenshot: screenshots/p_em_2025_11_12_cz_d_pr_your_dream_bedding.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6913b645b5017d00639b5f5b/original.png?1762899525
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6913b5dd6371060064fdfb2c/original.png?1762899420
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6913b63d90b5480063a5a0dc/original.png?1762899517
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6913b632eab27500630827b9/original.png?1762899506
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6913b64b53016800630049ce/original.png?1762899531
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6913b61e2ca2b30063aa0718/original.png?1762899486
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6913b5b093e0ce00632e82d8/original.gif?1762899375
+- id: 3f7d11d8-4b87-4475-b247-612f2ac5dd00
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 111800
+  total_delivered: 111309
+  total_opens: 57543
+  total_clicks: 654
+  open_rate: 0.5147
+  click_rate: 0.0058
+  total_bounces: 42
+  total_unsubscribes: 139
+  ga4:
+    sessions: 657
+    purchases: 11
+    revenue: 2140.3
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.949733'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.934711'
+schedule_type: time_based

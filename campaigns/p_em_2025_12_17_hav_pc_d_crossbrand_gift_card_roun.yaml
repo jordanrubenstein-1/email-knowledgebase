@@ -1,0 +1,56 @@
+id: d2f33d1b-30b5-4ec5-8a0f-a2e357c16d03
+name: P_EM_2025_12_17_HAV_PC_D_Crossbrand_Gift_Card_Round_up
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: d2f33d1b-30b5-4ec5-8a0f-a2e357c16d03
+dates:
+  send_date: '2025-12-17'
+  inferred_send_type: scheduled
+  first_sent: '2025-12-17T16:43:07+00:00'
+  last_sent: '2025-12-17T16:48:08+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: aa624364-60be-48f8-9918-c8ab7873a3ed
+  channel: email
+  name: Variant 1
+  subject: Good design, wrapped and ready 🎀
+  preheader: Shop gift cards across our brands and let them create a home that feels
+    just right.
+  html_file: html/p_em_2025_12_17_hav_pc_d_crossbrand_gift_card_round_up.html
+  screenshot: screenshots/p_em_2025_12_17_hav_pc_d_crossbrand_gift_card_round_up.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6942d590b1f3cb00633a26f0/original.png?1765987728
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6941f8d2a201d30063e8deeb/original.png?1765931218
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6941f9062d173500639202f6/original.png?1765931270
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6941f919ede4850065c3855d/original.png?1765931289
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6941f90f17d0dc0063b772b9/original.png?1765931278
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6941f937d60eb100634edf30/original.png?1765931318
+- id: c986abf1-aa48-4776-8f97-6a4818944268
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 253731
+  total_delivered: 252378
+  total_opens: 92115
+  total_clicks: 330
+  open_rate: 0.363
+  click_rate: 0.0013
+  total_bounces: 10
+  total_unsubscribes: 428
+  ga4:
+    sessions: 52
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:48.996835'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.684779'
+schedule_type: time_based

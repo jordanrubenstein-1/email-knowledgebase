@@ -1,0 +1,59 @@
+id: 185b5ce6-418f-4872-8295-281cc84cda41
+name: P_2025_04_20_CZ_Artful_Accents_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 185b5ce6-418f-4872-8295-281cc84cda41
+dates:
+  send_date: '2025-04-20'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-20T05:10:26+00:00'
+  last_sent: '2025-04-20T17:01:10+00:00'
+tags: []
+sends:
+- id: 0d2e80c7-7420-4ae9-8c4c-3db9bbb2416f
+  channel: email
+  name: Variant 1
+  subject: 15% Off Artful Accents
+  preheader: It’s the little things that make a big difference.
+  html_file: html/p_2025_04_20_cz_artful_accents_email.html
+  screenshot: screenshots/p_2025_04_20_cz_artful_accents_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f9a7f211ee1c0067116b6d/original.png?1744414705
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6802d81c3b2fea006283d16c/original.png?1745016859
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f9a7b46166da0067ff4990/original.png?1744414644
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f9a7c289573000677633b5/original.png?1744414658
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6802d847a0ebea0062caf8f7/original.png?1745016903
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6802d8383b2fea0080837d64/original.png?1745016888
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6802d852b4e8ee00643dd09f/original.png?1745016914
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6802d83dfaa56a0072dcce93/original.png?1745016893
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f9a7e573050c006489c4b7/original.png?1744414693
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6802d7e7faa56a0072dcce48/original.png?1745016807
+- id: 01814bbf-0486-43ec-ac7b-1c56315acc9d
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 94891
+  total_delivered: 94396
+  total_opens: 50222
+  total_clicks: 696
+  open_rate: 0.5293
+  click_rate: 0.0073
+  total_revenue: 70177.15
+  total_bounces: 5
+  total_unsubscribes: 100
+  ga4:
+    sessions: 1055
+    purchases: 7
+    revenue: 4333.77
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.156904'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.765934'
+schedule_type: time_based

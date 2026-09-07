@@ -1,0 +1,28 @@
+id: a7fdb693-9123-4405-99b1-e0dab005ca8f
+name: P_SMS_2026_05_07_CZ_Memorial_Day_Sale_Early_Access
+brand: CZ
+channel: sms
+category: sale_promo
+type: sale
+theme: null
+braze_id: a7fdb693-9123-4405-99b1-e0dab005ca8f
+dates:
+  send_date: '2026-05-07'
+  last_sent: '2026-05-07'
+tags: []
+sends:
+- id: 2f99a75a-50f0-432b-803b-e7b1faa01fc2
+  channel: sms
+  name: Variant 1
+- id: 6a6e5770-74ae-4664-8930-10f4d042f611
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 20334
+  total_delivered: 18130
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+_filename: p_sms_2026_05_07_cz_memorial_day_sale_early_access.yaml
+schedule_type: time_based

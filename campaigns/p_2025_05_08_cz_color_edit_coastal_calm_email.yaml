@@ -1,0 +1,55 @@
+id: 091ca35b-d68d-4f82-93d4-15e2c61da53a
+name: P_2025_05_08_CZ_Color_Edit_Coastal_Calm_Email
+brand: CZ
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 091ca35b-d68d-4f82-93d4-15e2c61da53a
+dates:
+  send_date: '2025-05-08'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-08T07:49:24+00:00'
+  last_sent: '2025-05-08T17:02:08+00:00'
+tags: []
+sends:
+- id: 2d34cc0c-dd12-44a5-8248-1e676351e0c0
+  channel: email
+  name: Variant 1
+  subject: The Coastal Calm Color Edit
+  preheader: Discover serene hues that evoke the tranquility of the coast.
+  html_file: html/p_2025_05_08_cz_color_edit_coastal_calm_email.html
+  screenshot: screenshots/p_2025_05_08_cz_color_edit_coastal_calm_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681a26080130570066ab62c9/original.png?1746544135
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681a1d1b292e8e008237dee7/original.png?1746541850
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681a2624074f6c0075e9f30b/original.png?1746544164
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681a2656074f6c0066e9f7d4/original.png?1746544213
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681a264350757e007408af20/original.png?1746544194
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681a24bf4735f90074e9d332/original.png?1746543806
+- id: 2c37898f-a4f0-40ef-877b-c1cd3b8492ee
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 94895
+  total_delivered: 94449
+  total_opens: 50036
+  total_clicks: 854
+  open_rate: 0.5273
+  click_rate: 0.009
+  total_revenue: 50535.94
+  total_bounces: 2
+  total_unsubscribes: 113
+  ga4:
+    sessions: 1518
+    purchases: 7
+    revenue: 4296.3
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.356603'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.808082'
+schedule_type: time_based

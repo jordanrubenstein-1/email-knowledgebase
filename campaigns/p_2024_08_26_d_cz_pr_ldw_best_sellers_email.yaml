@@ -1,0 +1,60 @@
+id: 39289de9-8bce-402a-9b04-025ae6f9d4d5
+name: P_2024_08_26_D_CZ_PR_LDW_Best_Sellers_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 39289de9-8bce-402a-9b04-025ae6f9d4d5
+dates:
+  send_date: '2024-08-26'
+  inferred_send_type: local_time
+  first_sent: '2024-08-25T18:00:05+00:00'
+  last_sent: '2024-08-26T17:00:18+00:00'
+tags: []
+sends:
+- id: c540afd9-03f7-4069-989a-0d1a62736b99
+  channel: email
+  name: Variant 1
+  subject: The Expert Edit
+  preheader: Take it from our experts. Shop our favorite designers' picks from the
+    Labor Day Event.
+  html_file: html/p_2024_08_26_d_cz_pr_ldw_best_sellers_email.html
+  screenshot: screenshots/p_2024_08_26_d_cz_pr_ldw_best_sellers_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c60ab0bbbdde0064776aae/original.jpg?1724254896
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c608d12488b300632f64b9/original.jpg?1724254417
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c778e0b96c340063bb080e/original.jpg?1724348640
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c3affed1cc8300655ea5fe/original.jpg?1724100606
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c3b12d9ee9190066b6d2d1/original.jpg?1724100909
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c607973e98c00067838b0f/original.jpg?1724254103
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7792e97dc840064625bfd/original.jpg?1724348718
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c3b15b5d73f90065335405/original.jpg?1724100955
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c60a9be5e09f006427213a/original.jpg?1724254875
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c609892488b300712f6373/original.jpg?1724254601
+- id: 0484110a-1044-419c-b8a6-1606c2057134
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 54620
+  total_delivered: 54517
+  total_opens: 34204
+  total_clicks: 875
+  open_rate: 0.6262
+  click_rate: 0.016
+  total_revenue: 92241.48
+  total_bounces: 1
+  total_unsubscribes: 182
+  ga4:
+    sessions: 788
+    purchases: 10
+    revenue: 6268.19
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.370848'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.028875'
+schedule_type: time_based

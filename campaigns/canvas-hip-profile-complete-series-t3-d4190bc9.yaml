@@ -1,0 +1,31 @@
+id: d4190bc9-f754-409f-93dc-95b5f507c0d0
+name: TRG_EM_2025_03_HAV_PC_PT_HIP_Profile_Complete_T3_V1
+brand: HAV
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: ff8f4c03-be24-43a9-8501-6e2468d9ec2e
+canvas_name: HIP Profile Complete Series
+flow_type: welcome_series
+sequence_position: 3
+subject: Last Call! Complete Your Room Profile to Start Your Havenly Project
+preheader: ''
+sends:
+- id: d4190bc9-f754-409f-93dc-95b5f507c0d0
+  channel: email
+  name: TRG_EM_2025_03_HAV_PC_PT_HIP_Profile_Complete_T3_V1
+  subject: Last Call! Complete Your Room Profile to Start Your Havenly Project
+  preheader: ''
+  html_file: html/canvas-hip-profile-complete-series-t3-d4190bc9.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-03-06T15:00:00Z'
+  last_sent: '2026-08-31T04:00:00Z'
+performance_summary:
+  total_sends: 332
+  total_delivered: 332
+  total_opens: 341
+  total_clicks: 72
+  open_rate: 1.0271
+  click_rate: 0.2169

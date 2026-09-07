@@ -1,0 +1,31 @@
+id: 652f1b93-6b7c-4c28-871c-262192a1bd5b
+name: P_PUSH_2026_03_19_HAV_PC_Spring_Into_Your_New_Space
+brand: HAV
+channel: push
+category: product_launch
+type: seasonal
+theme: spring
+braze_id: 652f1b93-6b7c-4c28-871c-262192a1bd5b
+dates:
+  send_date: '2026-03-19'
+  inferred_send_type: local_time
+  first_sent: '2026-03-19T03:40:57+00:00'
+  last_sent: '2026-03-20T01:02:08+00:00'
+tags: []
+sends:
+- id: 03ff1173-d61b-4233-ac2f-e948419de956
+  channel: push
+  name: Variant 1
+- id: a0749295-c29f-4337-8976-7491bf753f19
+  channel: push
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:48.814671'
+    source: snowflake
+    channel: push
+schedule_type: time_based

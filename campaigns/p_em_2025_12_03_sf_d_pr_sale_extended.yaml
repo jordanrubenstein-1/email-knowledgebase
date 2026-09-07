@@ -1,0 +1,46 @@
+id: b4c58d9a-8f14-41dd-9c63-d5de8ea29e5d
+name: P_EM_2025_12_03_SF_D_PR_Sale_Extended
+brand: STF
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: b4c58d9a-8f14-41dd-9c63-d5de8ea29e5d
+dates:
+  send_date: '2025-12-03'
+  inferred_send_type: local_time
+  first_sent: '2025-12-03T01:46:48+00:00'
+  last_sent: '2025-12-03T17:02:30+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: 94fb5659-57c3-4c45-ae3d-6daa301624b0
+  channel: email
+  name: Variant 1
+  subject: 'It’s Your Lucky Day: Cyber Week is HERE'
+  preheader: up to 30% off extended
+- id: 00d3d498-314a-4b3a-8c48-e39e6d110058
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39257
+  total_delivered: 39168
+  total_opens: 17145
+  total_clicks: 159
+  open_rate: 0.4367
+  click_rate: 0.0041
+  total_unsubscribes: 73
+  ga4:
+    sessions: 175
+    purchases: 1
+    revenue: 31.2
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.117104'
+    source: snowflake
+    channel: email
+schedule_type: time_based

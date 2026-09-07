@@ -1,0 +1,48 @@
+id: eed35638-33b8-4968-b564-4a0cd1798537
+name: P_2025_06_02_HAV_Conv_Items_in_Your_Cart_on_Sale_PT
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: eed35638-33b8-4968-b564-4a0cd1798537
+dates:
+  send_date: '2025-06-02'
+  inferred_send_type: local_time
+  first_sent: '2025-06-01T18:23:16+00:00'
+  last_sent: '2025-06-02T17:15:13+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: b2bb8926-6a78-427f-8332-ad5dd4d9c7c0
+  channel: email
+  name: Variant 1
+  subject: Discounts in Your Cart are Ending Soon
+  html_file: html/p_2025_06_02_hav_conv_items_in_your_cart_on_sale_pt.html
+  screenshot: screenshots/p_2025_06_02_hav_conv_items_in_your_cart_on_sale_pt.png
+  image_urls:
+  - https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/c731630f24214e43807c7369ca8ebacd/Havenly_Wordmark_RGB_Charcoal_Brown%20%281%29.png
+- id: 1a31caab-f218-4e00-b90a-d4e846dd7d3d
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1631
+  total_delivered: 1623
+  total_opens: 913
+  total_clicks: 38
+  open_rate: 0.5598
+  click_rate: 0.0233
+  total_unsubscribes: 9
+  ga4:
+    sessions: 39
+    purchases: 1
+    revenue: 3598.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.517533'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.644267'
+schedule_type: time_based

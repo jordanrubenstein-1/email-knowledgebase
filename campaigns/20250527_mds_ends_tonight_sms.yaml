@@ -1,0 +1,30 @@
+id: 162d07f2-e749-450b-91b2-c70239a6a647
+name: 20250527_MDS_Ends_Tonight_SMS
+brand: BUR
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: 162d07f2-e749-450b-91b2-c70239a6a647
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-05-27T02:05:29+00:00'
+  last_sent: '2025-05-28T01:00:33+00:00'
+tags: []
+sends:
+- id: 83d12a4c-9b34-46ef-89ec-ad25a1f922d5
+  channel: other
+  name: Variant 1
+- id: c37a7817-9bd0-48ae-a9d2-d0c64c8402c2
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 138
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.104806'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

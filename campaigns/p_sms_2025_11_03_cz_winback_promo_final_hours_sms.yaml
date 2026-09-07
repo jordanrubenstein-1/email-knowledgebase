@@ -1,0 +1,37 @@
+id: 6ab9d618-c487-43b5-b977-31059dbd9888
+name: P_SMS_2025_11_03_CZ_Winback_Promo_Final_Hours_SMS
+brand: CZ
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: 6ab9d618-c487-43b5-b977-31059dbd9888
+dates:
+  send_date: '2025-11-03'
+  inferred_send_type: local_time
+  first_sent: '2025-11-03T01:40:09+00:00'
+  last_sent: '2025-11-04T01:02:25+00:00'
+tags: []
+sends:
+- id: 123e40e2-3013-44f4-af9e-d5e48007f716
+  channel: sms
+  name: Variant 1
+- id: 20b8d71a-3c76-461e-af37-965d17d569f0
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 19481
+  total_delivered: 17989
+  total_opens: 0
+  total_clicks: 187
+  open_rate: 0.0
+  click_rate: 0.0096
+  ga4:
+    sessions: 187
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.348673'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

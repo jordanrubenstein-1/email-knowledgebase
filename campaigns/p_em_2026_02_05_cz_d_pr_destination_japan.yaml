@@ -1,0 +1,41 @@
+id: fa40d067-35ca-4d5e-822a-df72e69e5cea
+name: P_EM_2026_02_05_CZ_D_PR_Destination_Japan
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: fa40d067-35ca-4d5e-822a-df72e69e5cea
+dates:
+  send_date: '2026-02-05'
+  inferred_send_type: local_time
+  first_sent: '2026-02-05T00:09:49+00:00'
+  last_sent: '2026-02-06T00:02:24+00:00'
+tags: []
+sends:
+- id: 581c77a7-8c18-4e2d-aa81-06d125b22200
+  channel: email
+  name: Variant 1
+  subject: Your Ticket To Kyoto
+  preheader: The sacred city that perfects the art of slow living.
+  html_file: html/p_em_2026_02_05_cz_d_pr_destination_japan.html
+  screenshot: screenshots/p_em_2026_02_05_cz_d_pr_destination_japan.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69826c45ba9ea50064022fdc/original.png?1770155077
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69826c7a8df22200646c82a9/original.png?1770155130
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69826c03845a9000636e5a1a/original.png?1770155010
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69826c15def20d00648333c6/original.gif?1770155029
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69826c2d042cec00643d7fc8/original.png?1770155053
+- id: 3220174b-3e19-40c4-a881-603b000e9fe7
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 113348
+  total_delivered: 113160
+  total_opens: 57183
+  total_clicks: 1267
+  open_rate: 0.5045
+  click_rate: 0.0112
+  total_bounces: 9
+  total_unsubscribes: 113
+schedule_type: time_based

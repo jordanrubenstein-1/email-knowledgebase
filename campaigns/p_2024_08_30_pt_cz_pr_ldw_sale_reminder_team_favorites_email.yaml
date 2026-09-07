@@ -1,0 +1,37 @@
+id: 0fb29bc8-abf8-4d97-87a3-752fbc4f6634
+name: P_2024_08_30_PT_CZ_PR_LDW_Sale_Reminder_Team_Favorites_Email
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 0fb29bc8-abf8-4d97-87a3-752fbc4f6634
+dates:
+  send_date: '2024-08-30'
+  inferred_send_type: local_time
+  first_sent: '2024-08-29T18:00:02+00:00'
+  last_sent: '2024-08-30T17:00:18+00:00'
+tags:
+- batch and blast/promo
+sends:
+- id: e32097e6-a445-48b2-980f-0ee244cfbbe2
+  channel: email
+  name: Variant 1
+  subject: Our favorite styles are on sale
+  html_file: html/p_2024_08_30_pt_cz_pr_ldw_sale_reminder_team_favorites_email.html
+  screenshot: screenshots/p_2024_08_30_pt_cz_pr_ldw_sale_reminder_team_favorites_email.png
+- id: 29ece654-3add-4885-96bb-c4d820fbd6ed
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 76403
+  total_delivered: 76269
+  total_opens: 41738
+  total_clicks: 931
+  open_rate: 0.5463
+  click_rate: 0.0122
+  total_revenue: 187350.94
+  total_bounces: 13
+  total_unsubscribes: 180
+_filename: p_2024_08_30_pt_cz_pr_ldw_sale_reminder_team_favorites_email.yaml
+schedule_type: time_based

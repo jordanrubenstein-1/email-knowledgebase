@@ -1,0 +1,31 @@
+id: 7f9b0a25-855b-4030-845a-e74e27fb49ce
+name: P_EM_2026_07_HAV_CONV_PT_Designer_Tip_T1_V1
+brand: HAV
+channel: email
+category: editorial
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: e229d14e-4156-4f95-b471-8bcf0c8c393c
+canvas_name: Designer Tip
+flow_type: other_flow
+sequence_position: 1
+subject: Want to show your designer some love?
+preheader: ''
+sends:
+- id: 7f9b0a25-855b-4030-845a-e74e27fb49ce
+  channel: email
+  name: P_EM_2026_07_HAV_CONV_PT_Designer_Tip_T1_V1
+  subject: Want to show your designer some love?
+  preheader: ''
+  html_file: html/canvas-designer-tip-t1-7f9b0a25.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-08-03T13:00:00Z'
+  last_sent: '2026-08-31T03:00:00Z'
+performance_summary:
+  total_sends: 86
+  total_delivered: 86
+  total_opens: 55
+  total_clicks: 8
+  open_rate: 0.6395
+  click_rate: 0.093

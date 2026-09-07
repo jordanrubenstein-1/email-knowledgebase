@@ -1,0 +1,73 @@
+id: 67d3c537-92a4-4b2d-a83b-cd5fafa518d2
+name: P_EM_2025_09_29_CZ_D_PR_Fall_Collection_Launch_4
+brand: CZ
+channel: email
+category: product_launch
+type: seasonal
+theme: fall
+braze_id: 67d3c537-92a4-4b2d-a83b-cd5fafa518d2
+dates:
+  send_date: '2025-09-29'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-29T02:56:25+00:00'
+  last_sent: '2025-09-29T17:15:51+00:00'
+tags:
+- am
+- batch and blast
+- collect
+- d2c
+- designed
+- sale
+sends:
+- id: 4f3301a0-ce13-4bc7-8876-cea4dd1b0f3f
+  channel: email
+  name: Variant 1
+  subject: A Fall Collection Steeped In Poetry
+  preheader: Of craft, of comfort, of place.
+  html_file: html/p_em_2025_09_29_cz_d_pr_fall_collection_launch_4.html
+  screenshot: screenshots/p_em_2025_09_29_cz_d_pr_fall_collection_launch_4.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d6f3f37be03e006526e60f/original.png?1758917618
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d6f3ccd1ae520065faef76/original.gif?1758917580
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d6f3db483bc90067c9fcd6/original.png?1758917594
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d6f3c71de64000752e2da6/original.png?1758917574
+- id: e2ac0b06-de9c-4a6b-a50f-8c06fc28cfeb
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 112605
+  total_delivered: 111977
+  total_opens: 60430
+  total_clicks: 795
+  open_rate: 0.5367
+  click_rate: 0.0071
+  total_unsubscribes: 252
+  ga4:
+    sessions: 811
+    purchases: 4
+    revenue: 3120.9
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.073840'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-weekender-sale-2025-09-26
+    name: Weekender Sale
+    start_date: '2025-09-26'
+    end_date: '2025-09-30'
+    discount: 20% Off Sitewide
+    type: null
+  primary_sale:
+    id: cz-weekender-sale-2025-09-26
+    name: Weekender Sale
+    start_date: '2025-09-26'
+    end_date: '2025-09-30'
+    discount: 20% Off Sitewide
+    type: null
+  sale_name: Weekender Sale
+  sale_discount: 20% Off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:38.635620'
+schedule_type: time_based

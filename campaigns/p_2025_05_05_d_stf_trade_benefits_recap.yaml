@@ -1,0 +1,57 @@
+id: bfa51c36-0fa9-4bff-b44f-58f979bd7b5b
+name: P_2025_05_05_D_STF_TRADE_Benefits_Recap
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: bfa51c36-0fa9-4bff-b44f-58f979bd7b5b
+dates:
+  send_date: '2025-05-05'
+  inferred_send_type: local_time
+  first_sent: '2025-05-04T20:06:43+00:00'
+  last_sent: '2025-05-05T16:00:24+00:00'
+tags: []
+sends:
+- id: 9b331a56-e52b-4126-a559-2101554f437e
+  channel: email
+  name: Variant 1
+  subject: Your Access Awaits
+  preheader: for the designers and dreamers who don’t follow trends - but create them.
+  html_file: html/p_2025_05_05_d_stf_trade_benefits_recap.html
+  screenshot: screenshots/p_2025_05_05_d_stf_trade_benefits_recap.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6814be19c472e800660ab19c/original.png?1746189849
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6814bd6613436a00659a5500/original.png?1746189669
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6814bd87abd2260067f46934/original.png?1746189703
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6814be0294d0c3006763f6fb/original.png?1746189825
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/680be3e08b4cae00752e4151/original.png?1745609696
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6814bd79d1e4870067b92983/original.png?1746189689
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6814be2a39c12d00654738f6/original.png?1746189866
+- id: a9c927ff-960b-4482-9a4c-79e9c8ece0bb
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 2670
+  total_delivered: 2628
+  total_opens: 1438
+  total_clicks: 87
+  open_rate: 0.5386
+  click_rate: 0.0326
+  total_revenue: 2751.0
+  total_bounces: 1
+  total_unsubscribes: 17
+  ga4:
+    sessions: 123
+    purchases: 2
+    revenue: 2816.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.817596'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.928971'
+schedule_type: time_based

@@ -1,0 +1,42 @@
+id: 147b042f-e70b-4b1f-baae-486f40812b83
+name: P_EM_2026_04_13_SF_D_Category_Feature_Wallpaper
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 147b042f-e70b-4b1f-baae-486f40812b83
+dates:
+  send_date: '2026-04-13'
+  inferred_send_type: local_time
+  first_sent: '2026-04-12T20:06:19+00:00'
+  last_sent: '2026-04-13T19:02:50+00:00'
+tags:
+- Batch and Blast
+sends:
+- id: 02d98057-ac37-402f-be1e-4a8c1ed3014e
+  channel: email
+  name: Variant 1
+  subject: Plain walls could never
+  preheader: Wallpaper that brings bold patterns and rich texture.
+  html_file: html/p_em_2026_04_13_sf_d_category_feature_wallpaper.html
+  screenshot: screenshots/p_em_2026_04_13_sf_d_category_feature_wallpaper.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69d84fb1122b6200c452ac85/original.png?1775783856
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69d84fef2acba200ac745071/original.png?1775783917
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69d85ba601f0b800acd7e9f4/original.png?1775786917
+- id: dfa03905-b53c-4031-9bb0-d696f62cda05
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 36991
+  total_delivered: 36474
+  total_opens: 11450
+  total_clicks: 142
+  open_rate: 0.3095
+  click_rate: 0.0038
+  total_revenue: 2384.0
+  total_bounces: 2
+  total_unsubscribes: 32
+_filename: p_em_2026_04_13_sf_d_category_feature_wallpaper.yaml
+schedule_type: time_based

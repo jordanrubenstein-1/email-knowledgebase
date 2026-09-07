@@ -1,0 +1,68 @@
+id: klaviyo-PK83Jn
+name: Checks!
+brand: TI
+channel: email
+category: other
+type: announcement
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2019-07-16'
+  inferred_send_type: scheduled
+  first_sent: '2019-07-16T18:45:00+00:00'
+  last_sent: '2019-07-16T18:45:00+00:00'
+sends:
+- id: N6naFj
+  channel: email
+  name: Checks! Variation A
+  subject: New Fabrics
+  preheader: 'Shop our classic checks. '
+  html_file: html/checks.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/9eadeabe-1260-49e7-917b-0a7f876501f8.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/2e5b4e28-3a6f-4a47-9a4f-3836e87b3f94.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/b377fdf9-3091-48f3-9a5e-9de2a10684c4.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/a6965f40-1472-439e-ac87-bd65462015a0.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/445302ad-3726-4860-b324-78182f269bf4.jpeg
+  screenshot: screenshots/checks.png
+- id: QAsm9P
+  channel: email
+  name: Checks! Variation B
+  subject: Checks
+  preheader: 'In two new classic colors. '
+  html_file: html/checks.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/445302ad-3726-4860-b324-78182f269bf4.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/b377fdf9-3091-48f3-9a5e-9de2a10684c4.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/a6965f40-1472-439e-ac87-bd65462015a0.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/9eadeabe-1260-49e7-917b-0a7f876501f8.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/2e5b4e28-3a6f-4a47-9a4f-3836e87b3f94.png
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_unsubscribes: 0
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T14:56:52.992391'
+    source: snowflake
+    channel: email
+klaviyo_type: campaign
+klaviyo_campaign_id: PK83Jn
+klaviyo_message_id: N6naFj
+structure:
+  image_count: 5
+  link_count: 6
+  has_gif: false
+  hero_width: 600
+  layout_type: product_grid
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-03-12T11:18:48.955602'

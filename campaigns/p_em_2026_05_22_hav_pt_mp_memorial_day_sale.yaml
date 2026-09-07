@@ -1,0 +1,33 @@
+id: b87b7949-3929-4954-94d4-9b34b3ae666b
+name: P_EM_2026_05_22_HAV_PT_MP_Memorial_Day_Sale
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: b87b7949-3929-4954-94d4-9b34b3ae666b
+dates:
+  send_date: '2026-05-22'
+  first_sent: '2026-05-22T14:14:50+00:00'
+  last_sent: '2026-05-22T22:02:31+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: d120f3ae-fd6e-486b-a74a-535ef21065ae
+  channel: email
+  name: Variant 1
+  subject: Sale's on. Long weekend pricing
+  preheader: Up to 20% off Crate & Barrel and more.
+- id: 9dba8f52-8942-4756-a773-bc548fa17173
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41364
+  total_delivered: 41339
+  total_opens: 20396
+  total_clicks: 154
+  open_rate: 0.4931
+  click_rate: 0.0037
+  total_unsubscribes: 39
+schedule_type: time_based
+_filename: p_em_2026_05_22_hav_pt_mp_memorial_day_sale.yaml

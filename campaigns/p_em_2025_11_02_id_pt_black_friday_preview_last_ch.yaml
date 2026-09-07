@@ -1,0 +1,74 @@
+id: 94f49aad-73fd-441d-b462-ee42fca88f55
+name: P_EM_2025_11_02_ID_PT_Black_Friday_Preview_Last_Chance
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 94f49aad-73fd-441d-b462-ee42fca88f55
+dates:
+  send_date: '2025-11-02'
+  inferred_send_type: local_time
+  first_sent: '2025-11-02T02:08:13+00:00'
+  last_sent: '2025-11-03T02:05:27+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 0573d64b-febf-4737-9b44-06fe753651fd
+  channel: email
+  name: Variant 1
+  subject: Your Black Friday Discount Ends Soon
+- id: 641dbbc7-3ab4-41f8-a2ab-cbf581ca5d45
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 100865
+  total_delivered: 100111
+  total_opens: 46427
+  total_clicks: 608
+  open_rate: 0.4603
+  click_rate: 0.006
+  total_revenue: 230298.67
+  total_bounces: 1
+  total_unsubscribes: 181
+  ga4:
+    sessions: 762
+    purchases: 4
+    revenue: 14103.21
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.361485'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-black-friday-now-2025-10-27
+    name: Black Friday Now
+    start_date: '2025-10-27'
+    end_date: '2025-11-03'
+    discount: '25% Off $2999<
+
+      30% Off $3000+
+
+      Including In Stock'
+    type: null
+  primary_sale:
+    id: id-black-friday-now-2025-10-27
+    name: Black Friday Now
+    start_date: '2025-10-27'
+    end_date: '2025-11-03'
+    discount: '25% Off $2999<
+
+      30% Off $3000+
+
+      Including In Stock'
+    type: null
+  sale_name: Black Friday Now
+  sale_discount: '25% Off $2999<
+
+    30% Off $3000+
+
+    Including In Stock'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:34.298018'
+schedule_type: time_based

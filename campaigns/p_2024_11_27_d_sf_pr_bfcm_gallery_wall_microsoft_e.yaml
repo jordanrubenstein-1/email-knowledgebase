@@ -1,0 +1,74 @@
+id: 0a196e31-f6b2-43d4-a8ed-bcb9d1e2b81c
+name: P_2024_11_27_D_SF_PR_BFCM_Gallery_Wall_Microsoft_Email
+brand: STF
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: 0a196e31-f6b2-43d4-a8ed-bcb9d1e2b81c
+dates:
+  send_date: '2024-11-27'
+  inferred_send_type: local_time
+  first_sent: '2024-11-26T23:51:01+00:00'
+  last_sent: '2024-11-27T15:30:09+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: bbcb398c-ce6a-4cf1-88bb-2fd6ec93a0c5
+  channel: email
+  name: Variant 1
+  subject: Worth A Thousand Words
+  preheader: discover art now 20% off
+  html_file: html/p_2024_11_27_d_sf_pr_bfcm_gallery_wall_microsoft_email.html
+  screenshot: screenshots/p_2024_11_27_d_sf_pr_bfcm_gallery_wall_microsoft_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674624e183a99a0073159b69/original.jpg?1732650209
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6746256483a99a006415a531/original.gif?1732650339
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6744ae7dd917fe0073fd1336/original.gif?1732554365
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6746257edf2beb0065554f37/original.gif?1732650366
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6746255483a99a006415a50a/original.jpg?1732650324
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6744ae8d8ca5270065d14c13/original.gif?1732554381
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6744ae9cd917fe0065fd34be/original.gif?1732554396
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674625123b693300633fbbdd/original.gif?1732650258
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6746251f3b693300633fbbe9/original.gif?1732650271
+- id: 2f1552d5-1f10-41b5-b40e-4b8e009642ba
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 294
+  total_delivered: 292
+  total_opens: 90
+  total_clicks: 2
+  open_rate: 0.3061
+  click_rate: 0.0068
+  total_revenue: 214.5
+  ga4:
+    sessions: 3
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.028371'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: stf-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:42.056267'
+schedule_type: time_based

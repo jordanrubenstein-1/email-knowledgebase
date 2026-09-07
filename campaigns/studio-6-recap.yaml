@@ -1,0 +1,31 @@
+id: 9fd6b7ff-f644-44a3-a2af-c37bf361b4b2
+name: Studio 6 Recap
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 9fd6b7ff-f644-44a3-a2af-c37bf361b4b2
+braze_type: canvas
+campaign_type: Triggered Journey
+dates: {}
+tags: []
+sends:
+- id: 658fbfe6-3168-4c26-8472-263a2477850d
+  channel: email
+  name: OT_EM_2026_06_HAV_CONV_H_Studio6_Follow_Up_3D_Room_Generated
+  subject: Your room, ready to make it real?
+  preheader: Shop every piece from your final design—or get help bringing it all together.
+  step_id: 5c1de555-ce93-47cf-9f09-9e91acd77196
+performance_summary: {}
+canvas_steps:
+- id: 4d80c017-29f1-464c-a53e-0b1d5f32f07d
+  name: Step
+  type: delay
+- id: 5c1de555-ce93-47cf-9f09-9e91acd77196
+  name: OT_EM_2026_06_HAV_CONV_H_Studio6_Follow_Up_3D_Room_Generated
+  type: message
+  channel: email
+  subject: Your room, ready to make it real?
+  preheader: Shop every piece from your final design—or get help bringing it all together.
+_filename: studio-6-recap.yaml

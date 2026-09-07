@@ -1,0 +1,29 @@
+id: e537c43e-b94b-4e7f-8d71-f0a91f4866df
+name: Step 3
+brand: ID
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: a03f9f42-a59a-459d-aade-e37c3d67daa5
+canvas_name: Swatch Post Purchase Test
+flow_type: post_purchase
+sequence_position: 3
+subject: '{%- assign shopping = event_properties.shopping_for | default: '''' -%}{%-
+  if shopping != '''' -%}Want help choosing the right {{shopping | downcase}}?{%-
+  else -%}Want help choosing the right piece?{%- endif -%}'
+preheader: ''
+sends:
+- id: e537c43e-b94b-4e7f-8d71-f0a91f4866df
+  channel: email
+  name: Step 3
+  subject: '{%- assign shopping = event_properties.shopping_for | default: '''' -%}{%-
+    if shopping != '''' -%}Want help choosing the right {{shopping | downcase}}?{%-
+    else -%}Want help choosing the right piece?{%- endif -%}'
+  preheader: ''
+  html_file: html/canvas-swatch-post-purchase-test-t3-e537c43e.html
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2026-04-27T22:00:00Z'
+  last_sent: '2026-04-28T00:00:00Z'
+performance_summary: {}

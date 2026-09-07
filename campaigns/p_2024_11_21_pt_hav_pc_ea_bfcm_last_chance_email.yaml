@@ -1,0 +1,33 @@
+id: d24c54b7-1f02-4167-b3fe-0131f3b9b43b
+name: P_2024_11_21_PT_HAV_PC_EA_BFCM_Last_Chance_Email
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: black_friday
+braze_id: d24c54b7-1f02-4167-b3fe-0131f3b9b43b
+dates:
+  send_date: '2024-11-21'
+  first_sent: '2024-11-21T07:26:55+00:00'
+  last_sent: '2024-11-21T18:15:03+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 66f76627-6c17-48e3-87cf-2b84d2cd61c3
+  channel: email
+  name: Variant 1
+  subject: Last Call For First Dibs On Black Friday!
+- id: 683eed5e-6f2a-4c5e-82a9-79d86f0d6565
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 158175
+  total_delivered: 156495
+  total_opens: 74843
+  total_clicks: 813
+  open_rate: 0.4732
+  click_rate: 0.0051
+  total_bounces: 2
+  total_unsubscribes: 518
+schedule_type: time_based
+_filename: p_2024_11_21_pt_hav_pc_ea_bfcm_last_chance_email.yaml

@@ -1,0 +1,55 @@
+id: ced8220d-094a-4324-837c-5bb6ea47273a
+name: P_EM_2025_08_18_CZ_D_PR_Block_Print_Pillows_Quilts
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: ced8220d-094a-4324-837c-5bb6ea47273a
+dates:
+  send_date: '2025-08-18'
+  inferred_send_type: local_time
+  first_sent: '2025-08-17T23:49:53+00:00'
+  last_sent: '2025-08-18T17:03:30+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- prod
+sends:
+- id: 0e339982-f5a2-432d-85dc-38849965ba65
+  channel: email
+  name: Variant 1
+  subject: The Meadow Press Collection Is Here
+  preheader: Hand-blocked florals, echoing the quiet grace of pastoral landscapes.
+  html_file: html/p_em_2025_08_18_cz_d_pr_block_print_pillows_quilts.html
+  screenshot: screenshots/p_em_2025_08_18_cz_d_pr_block_print_pillows_quilts.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689f9f3e5c4b24007525abdd/original.png?1755291453
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689f9f49f0911500761b061e/original.png?1755291464
+- id: 3a49108b-b63c-46a0-8ae4-b81b535ff1af
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 101643
+  total_delivered: 101551
+  total_opens: 52798
+  total_clicks: 1116
+  open_rate: 0.5194
+  click_rate: 0.011
+  total_revenue: 84681.33
+  total_unsubscribes: 148
+  ga4:
+    sessions: 1499
+    purchases: 12
+    revenue: 5235.57
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.337752'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.459407'
+schedule_type: time_based

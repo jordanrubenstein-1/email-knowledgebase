@@ -1,0 +1,51 @@
+id: 119a5e00-c180-4c41-a70c-d9a8492a1864
+name: P_EM_2026_02_10_CZ_D_PR_Presidents_Day_Sale_Reg_Launch
+brand: CZ
+channel: email
+category: product_launch
+type: sale
+theme: null
+braze_id: 119a5e00-c180-4c41-a70c-d9a8492a1864
+dates:
+  send_date: '2026-02-10'
+  inferred_send_type: local_time
+  first_sent: '2026-02-09T21:42:46+00:00'
+  last_sent: '2026-02-10T20:02:22+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale/presidentsday2026
+- sale_feat
+sends:
+- id: 3efaea94-9755-46fa-8419-3aae7791d463
+  channel: email
+  name: Variant 1
+  subject: 'NOW OPEN: The Presidents Day Sale'
+  preheader: Up to 25% off furniture, bedding, rugs, and more.
+  html_file: html/p_em_2026_02_10_cz_d_pr_presidents_day_sale_reg_launch.html
+  screenshot: screenshots/p_em_2026_02_10_cz_d_pr_presidents_day_sale_reg_launch.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698a2f39de24990065977ec0/original.png?1770663736
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698a2ebd8fd6db0063b6068a/original.png?1770663612
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698a2f31efb9320063aaf6b7/original.png?1770663729
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698a2f415c440100655bd7d5/original.png?1770663745
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698a2f5fd909ec0063e2aef3/original.png?1770663775
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698a2eb03417600065f6a0ba/original.png?1770663599
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698a2f556611b900637f4e06/original.png?1770663764
+- id: 86bfef6e-fd67-4662-9b52-6ea94a39086c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 113282
+  total_delivered: 113147
+  total_opens: 55180
+  total_clicks: 777
+  open_rate: 0.4871
+  click_rate: 0.0069
+  total_bounces: 1
+  total_unsubscribes: 160
+_filename: p_em_2026_02_10_cz_d_pr_presidents_day_sale_reg_launch.yaml
+schedule_type: time_based

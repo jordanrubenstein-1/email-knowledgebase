@@ -1,0 +1,36 @@
+id: 412bddce-de35-4d58-a5f0-e4d584882013
+name: 20241212_Pet-Friendly
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 412bddce-de35-4d58-a5f0-e4d584882013
+dates:
+  inferred_send_type: local_time
+  first_sent: '2024-12-11T17:24:43+00:00'
+  last_sent: '2024-12-12T17:15:17+00:00'
+tags: []
+sends:
+- id: 24ba0f96-a994-4938-aa91-616930351c76
+  channel: email
+  name: Variant 1
+  subject: What makes our furniture so fur-friendly?
+  preheader: Designs that the entire family can enjoy.
+- id: 7d72d80d-419c-4768-aecf-e64df076c9c1
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 258
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.557676'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.357469'
+schedule_type: time_based

@@ -1,0 +1,63 @@
+id: 2f179ff4-5395-4a1a-9510-2a6aa7555a81
+name: P_EM_2025_07_28_ID_D_B2C_Contract_Grade
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 2f179ff4-5395-4a1a-9510-2a6aa7555a81
+dates:
+  send_date: '2025-07-28'
+  inferred_send_type: local_time
+  first_sent: '2025-07-27T18:24:03+00:00'
+  last_sent: '2025-07-28T17:15:19+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: b59f8327-a6ee-47eb-85c6-15eeeaf9ef00
+  channel: email
+  name: Variant 1
+  subject: Style You Love. Durability You Need.
+  preheader: Furniture that holds up beautifully, no matter what life throws at it.
+- id: 79577ede-016a-4545-b17f-8b1487760dae
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 190799
+  total_delivered: 188520
+  total_opens: 88525
+  total_clicks: 655
+  open_rate: 0.464
+  click_rate: 0.0034
+  total_revenue: 136990.25
+  total_bounces: 12
+  total_unsubscribes: 356
+  ga4:
+    sessions: 568
+    purchases: 1
+    revenue: 2510.56
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.433856'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-the-summer-sale-2025-07-24
+    name: The Summer Sale
+    start_date: '2025-07-24'
+    end_date: '2025-07-31'
+    discount: 20% off sitewide
+    type: null
+  primary_sale:
+    id: id-the-summer-sale-2025-07-24
+    name: The Summer Sale
+    start_date: '2025-07-24'
+    end_date: '2025-07-31'
+    discount: 20% off sitewide
+    type: null
+  sale_name: The Summer Sale
+  sale_discount: 20% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:35.130081'
+schedule_type: time_based

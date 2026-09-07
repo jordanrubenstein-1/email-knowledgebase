@@ -1,0 +1,35 @@
+id: 2bef2ded-f8f4-407a-8642-19eb0fdb024d
+name: P_EM_2025_11_11_HAV_CONV_D_Black_Friday_Early_Access
+brand: HAV
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 2bef2ded-f8f4-407a-8642-19eb0fdb024d
+dates:
+  send_date: '2025-11-11'
+  first_sent: '2025-11-11T01:21:50+00:00'
+  last_sent: '2025-11-12T01:15:16+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 87dceaf4-0e63-4f2a-bfe6-1b4a607bd3bf
+  channel: email
+  name: Variant 1
+  subject: VIP Early Access to our Black Friday Sale
+  preheader: Up to 15% off when you buy more!
+- id: 8b18946b-a754-4ceb-ac62-b1a8c7d92abd
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 34624
+  total_delivered: 34529
+  total_opens: 17836
+  total_clicks: 125
+  open_rate: 0.5151
+  click_rate: 0.0036
+  total_bounces: 1
+  total_unsubscribes: 32
+schedule_type: time_based
+_filename: p_em_2025_11_11_hav_conv_d_black_friday_early_access.yaml

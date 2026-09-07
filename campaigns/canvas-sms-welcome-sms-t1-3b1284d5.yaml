@@ -1,0 +1,39 @@
+id: 3b1284d5-e4c1-486e-8c9e-5c7fbc5d09c6
+name: TRG_SMS_2025_10_SF_Welcome_T1_V1
+brand: STF
+channel: sms
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 3b7ee19c-b120-453a-8302-731b5bbe56a7
+canvas_name: SMS Welcome
+flow_type: welcome_series
+sequence_position: 1
+body: 'St. Frank: Welcome! {% assign sale_start     = "2025-11-25 00:00:00" | date:
+  "%s" %}{% assign sale_end       = "2025-12-10 06:59:00" | date: "%s" %}{% assign
+  now        = ''now'' | date: "%s" %}{% if now >= sale_start and now < sale_end %}Bold
+  Looks for The St. Frank Black Friday Event! Effortless patterns up to 30% off.{%
+  else %}You can use the code FIRSTTIME20 at checkout for 20% off your first order
+  (exclusions apply).{% endif %} Shop now: https://www.stfrank.com/?utm_source=braze_SF&utm_medium=sms&utm_campaign={{campaign.${name}}}&userid={{${user_id}}}'
+sends:
+- id: 3b1284d5-e4c1-486e-8c9e-5c7fbc5d09c6
+  channel: sms
+  name: TRG_SMS_2025_10_SF_Welcome_T1_V1
+  body: 'St. Frank: Welcome! {% assign sale_start     = "2025-11-25 00:00:00" | date:
+    "%s" %}{% assign sale_end       = "2025-12-10 06:59:00" | date: "%s" %}{% assign
+    now        = ''now'' | date: "%s" %}{% if now >= sale_start and now < sale_end
+    %}Bold Looks for The St. Frank Black Friday Event! Effortless patterns up to 30%
+    off.{% else %}You can use the code FIRSTTIME20 at checkout for 20% off your first
+    order (exclusions apply).{% endif %} Shop now: https://www.stfrank.com/?utm_source=braze_SF&utm_medium=sms&utm_campaign={{campaign.${name}}}&userid={{${user_id}}}'
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-10-07T22:00:00Z'
+  last_sent: '2026-08-31T11:00:00Z'
+performance_summary:
+  total_sends: 1751
+  total_delivered: 1723
+  total_clicks: 231
+  click_rate: 0.1319
+  total_unsubscribes: 24
+  total_bounces: 3
+  total_revenue: 260603.79

@@ -1,0 +1,35 @@
+id: 1913c58a-1b10-4fad-9b1f-07b247ba69c4
+name: 2025_03_23_HAV_PC_D_Birthday_Sale_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 1913c58a-1b10-4fad-9b1f-07b247ba69c4
+dates:
+  send_date: '2025-03-23'
+  first_sent: '2025-03-22T17:21:51+00:00'
+  last_sent: '2025-03-23T18:15:01+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 4017b9d1-e8e3-4f92-be49-b6aa929fe74a
+  channel: email
+  name: Variant 1
+  subject: 'ICYMI: SALE EXTENDED!'
+  preheader: 50% off design services, plus $50 birthday cash (on us)!
+- id: 09066aba-92ba-45eb-b6e3-5b423ed5b86a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 198652
+  total_delivered: 194734
+  total_opens: 87330
+  total_clicks: 580
+  open_rate: 0.4396
+  click_rate: 0.0029
+  total_bounces: 12
+  total_unsubscribes: 327
+schedule_type: time_based
+_filename: 2025_03_23_hav_pc_d_birthday_sale_reminder_email.yaml

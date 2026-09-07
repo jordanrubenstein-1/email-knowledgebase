@@ -1,0 +1,33 @@
+id: 46bc6cb0-78df-4e8b-a040-814a487ca81c
+name: P_EM_2025_10_17_HAV_CONV_PT_AUTUMN_SALE
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: fall
+braze_id: 46bc6cb0-78df-4e8b-a040-814a487ca81c
+dates:
+  send_date: '2025-10-17'
+  first_sent: '2025-10-17T01:20:24+00:00'
+  last_sent: '2025-10-18T01:15:12+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 31579657-1d80-4d3c-a5f6-fdb60c5f0f62
+  channel: email
+  name: Variant 1
+  subject: One thing you can ✅  off before the holidays
+- id: a2f4d600-f563-40e6-a712-85c9274e1514
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 42158
+  total_delivered: 42089
+  total_opens: 22906
+  total_clicks: 85
+  open_rate: 0.5433
+  click_rate: 0.002
+  total_unsubscribes: 33
+schedule_type: time_based
+_filename: p_em_2025_10_17_hav_conv_pt_autumn_sale.yaml

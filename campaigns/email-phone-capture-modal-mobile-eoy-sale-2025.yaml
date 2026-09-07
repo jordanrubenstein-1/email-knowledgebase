@@ -1,0 +1,30 @@
+id: 20352eb7-74a4-4dd4-98e0-8b13fe942ac3
+name: Email & Phone Capture Modal Mobile - EOY Sale 2025
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 20352eb7-74a4-4dd4-98e0-8b13fe942ac3
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-12-22T19:00:00+00:00'
+  last_sent: '2026-01-06T06:00:00+00:00'
+tags: []
+sends:
+- id: 451cf00e-8538-46fd-9192-a7776c8db442
+  channel: other
+  name: Variant 1
+- id: cc82e8fa-170a-4d6f-a975-aec4035f1c30
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.899815'
+    source: snowflake
+    channel: email
+schedule_type: action_based

@@ -1,0 +1,55 @@
+id: 73c7788d-84bc-4a1f-a13d-6d3074d0304b
+name: P_2024_08_30_D_HAV_PC_PR_LDW_DSG_Sale_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 73c7788d-84bc-4a1f-a13d-6d3074d0304b
+dates:
+  send_date: '2024-08-30'
+  inferred_send_type: scheduled
+  first_sent: '2024-08-30T13:25:03+00:00'
+  last_sent: '2024-08-30T13:25:13+00:00'
+tags: []
+sends:
+- id: 20559c8d-b0fe-49fa-bc6d-496a4590afb0
+  channel: email
+  name: Variant 1
+  subject: On sale and booking fast 🔥
+  preheader: Shop 50% off design packages.
+  html_file: html/p_2024_08_30_d_hav_pc_pr_ldw_dsg_sale_reminder_email.html
+  screenshot: screenshots/p_2024_08_30_d_hav_pc_pr_ldw_dsg_sale_reminder_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d0ee85aa09e90090382c57/original.jpg?1724968581
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d0ee93aa09e90064382ec8/original.jpg?1724968594
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7b11c91a4fe0064718dda/original.jpg?1724363035
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7b11cfe4c430066f2f461/original.jpg?1724363035
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d0ee7a5c03420066af0eaf/original.gif?1724968570
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7b11c91a4fe0072717555/original.jpg?1724363035
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7b11c384d7e0066fac9ac/original.jpg?1724363035
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d0eec7faa0b10065cb5273/original.jpg?1724968647
+- id: 6b7a1deb-7a9a-41ef-9fc9-ed20a6212a34
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 8402
+  total_delivered: 8365
+  total_opens: 2644
+  total_clicks: 19
+  open_rate: 0.3147
+  click_rate: 0.0023
+  total_unsubscribes: 12
+  ga4:
+    sessions: 4
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:48.801559'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:29.957352'
+schedule_type: time_based

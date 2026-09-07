@@ -1,0 +1,47 @@
+id: b94baf8c-1384-4619-926f-d8e091c27cc0
+name: P_EM_2025_12_19_ID_EOY_D_PF_Sale_Friday_Retail
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: b94baf8c-1384-4619-926f-d8e091c27cc0
+dates:
+  send_date: '2025-12-19'
+  inferred_send_type: scheduled
+  first_sent: '2025-12-19T06:47:53+00:00'
+  last_sent: '2025-12-19T19:30:44+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 6dde94f4-af07-404e-80d7-8434bc9f3c42
+  channel: email
+  name: Variant 1
+  subject: Design Help, On Us
+  preheader: Meet with our experts in-store or virtually and save 25% off sitewide.
+- id: 89cc8563-ae8c-4b3a-8fc0-a53c9cb6e99e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 119412
+  total_delivered: 117479
+  total_opens: 44795
+  total_clicks: 148
+  open_rate: 0.3751
+  click_rate: 0.0012
+  total_revenue: 19944.75
+  total_bounces: 9
+  total_unsubscribes: 84
+  ga4:
+    sessions: 99
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.311946'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.838917'
+schedule_type: time_based

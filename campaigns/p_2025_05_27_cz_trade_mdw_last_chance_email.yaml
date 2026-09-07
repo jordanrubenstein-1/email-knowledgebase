@@ -1,0 +1,58 @@
+id: 57dc7e5c-8f1a-4db1-aaaf-1d2cab22cc24
+name: P_2025_05_27_CZ_Trade_MDW_Last_Chance_Email
+brand: CZ
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 57dc7e5c-8f1a-4db1-aaaf-1d2cab22cc24
+dates:
+  send_date: '2025-05-27'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-27T21:27:54+00:00'
+  last_sent: '2025-05-27T21:28:07+00:00'
+tags: []
+sends:
+- id: 299b2c06-0be1-4f90-8ceb-db039aab6222
+  channel: email
+  name: Variant 1
+  subject: 'LAST CALL: The Memorial Day Event'
+  preheader: Up to 30% off can’t last forever.
+  html_file: html/p_2025_05_27_cz_trade_mdw_last_chance_email.html
+  screenshot: screenshots/p_2025_05_27_cz_trade_mdw_last_chance_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683100be2eb0cd00641438c8/original.png?1748041917
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683100999f9c360067132c20/original.png?1748041880
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683100cf55a1e700642ae16b/original.png?1748041934
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683100fa5dc83200671fe5d5/original.png?1748041978
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6831011d5dc83200671fe5d6/original.png?1748042013
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683100749f9c360067132be7/original.png?1748041844
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683100ae55a1e700642ae13d/original.png?1748041902
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6831010e27b18e00641b15b1/original.png?1748041997
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683100820a616400642591b6/original.png?1748041858
+- id: bf7d857d-b679-4cb7-aea0-be3585252e61
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 16484
+  total_delivered: 16153
+  total_opens: 8583
+  total_clicks: 158
+  open_rate: 0.5207
+  click_rate: 0.0096
+  total_revenue: 33295.42
+  total_bounces: 5
+  total_unsubscribes: 52
+  ga4:
+    sessions: 110
+    purchases: 1
+    revenue: 197.45
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.564478'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.929878'
+schedule_type: time_based

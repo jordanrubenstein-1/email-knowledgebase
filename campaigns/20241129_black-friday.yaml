@@ -1,0 +1,53 @@
+id: 19d83be5-1770-4d5e-8d81-ad9aade9686f
+name: 20241129_Black-Friday
+brand: BUR
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 19d83be5-1770-4d5e-8d81-ad9aade9686f
+dates:
+  inferred_send_type: local_time
+  first_sent: '2024-11-28T22:20:02+00:00'
+  last_sent: '2024-11-29T20:16:15+00:00'
+tags: []
+sends:
+- id: cafd81ab-5bd4-4030-81a5-e7a1d29e8e2d
+  channel: other
+  name: Variant 1
+- id: cb136cc1-55b7-4e7f-96b8-5fbe345690ac
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.629369'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-20-off-2000-25-off-4000-30-off-4k-strikethrough-up-to-60-off-select-styles-2024-11-27
+    name: 20% off <$2000 / 25% off <$4000 / 30% off $4K+ (strikethrough) + up to 60%
+      off Select Styles
+    start_date: '2024-11-27'
+    end_date: '2024-12-03'
+    discount: null
+    type: null
+  primary_sale:
+    id: bur-20-off-2000-25-off-4000-30-off-4k-strikethrough-up-to-60-off-select-styles-2024-11-27
+    name: 20% off <$2000 / 25% off <$4000 / 30% off $4K+ (strikethrough) + up to 60%
+      off Select Styles
+    start_date: '2024-11-27'
+    end_date: '2024-12-03'
+    discount: null
+    type: null
+  sale_name: 20% off <$2000 / 25% off <$4000 / 30% off $4K+ (strikethrough) + up to
+    60% off Select Styles
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:43.832986'
+schedule_type: time_based

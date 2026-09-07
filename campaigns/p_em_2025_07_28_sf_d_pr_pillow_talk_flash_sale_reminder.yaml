@@ -1,0 +1,46 @@
+id: ad4b2afc-6a00-44ac-b465-a6579a1dc4a6
+name: P_EM_2025_07_28_SF_D_PR_Pillow_Talk_Flash_Sale_Reminder
+brand: STF
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: ad4b2afc-6a00-44ac-b465-a6579a1dc4a6
+dates:
+  send_date: '2025-07-28'
+  inferred_send_type: scheduled
+  first_sent: '2025-07-28T02:02:04+00:00'
+  last_sent: '2025-07-28T17:00:17+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: 9c2484e1-51b9-4432-843d-5b662d78c965
+  channel: email
+  name: Variant 1
+  subject: Pillow Perfect, Now On Sale
+  preheader: treat yourself to 20% off pillows
+  html_file: html/p_em_2025_07_28_sf_d_pr_pillow_talk_flash_sale_reminder.html
+  screenshot: screenshots/p_em_2025_07_28_sf_d_pr_pillow_talk_flash_sale_reminder.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68840d58b814b2006632302e/original.gif?1753484631
+- id: ffea752c-7276-4996-b906-18150344d89c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41826
+  total_delivered: 41746
+  total_opens: 19257
+  total_clicks: 271
+  open_rate: 0.4604
+  click_rate: 0.0065
+  total_revenue: 6977.0
+  total_bounces: 2
+  total_unsubscribes: 87
+_filename: p_em_2025_07_28_sf_d_pr_pillow_talk_flash_sale_reminder.yaml
+schedule_type: time_based

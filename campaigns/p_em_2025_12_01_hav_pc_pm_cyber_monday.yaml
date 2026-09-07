@@ -1,0 +1,35 @@
+id: 1ada3f19-a4f3-42c6-a7ba-2a8fb129b993
+name: P_EM_2025_12_01_HAV_PC_PM_Cyber_Monday
+brand: HAV
+channel: email
+category: sale_promo
+type: seasonal
+theme: null
+braze_id: 1ada3f19-a4f3-42c6-a7ba-2a8fb129b993
+dates:
+  send_date: '2025-12-01'
+  first_sent: '2025-12-01T02:09:42+00:00'
+  last_sent: '2025-12-02T03:00:47+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 0d52d9c6-4cc6-45f9-a4a6-5dcac62e392f
+  channel: email
+  name: Variant 1
+  subject: The Clock is Ticking
+  preheader: Only hours left to makeover your room for just $89
+- id: eba16989-3554-46e0-b54e-ee03241b3eff
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 89684
+  total_delivered: 89479
+  total_opens: 34763
+  total_clicks: 319
+  open_rate: 0.3876
+  click_rate: 0.0036
+  total_bounces: 3
+  total_unsubscribes: 283
+schedule_type: time_based
+_filename: p_em_2025_12_01_hav_pc_pm_cyber_monday.yaml

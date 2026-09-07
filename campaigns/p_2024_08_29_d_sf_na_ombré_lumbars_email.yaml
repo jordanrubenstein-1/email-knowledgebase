@@ -1,0 +1,59 @@
+id: 4ccea908-13b3-4b42-a8ba-103c553da555
+name: P_2024_08_29_D_SF_NA_Ombré_Lumbars_Email
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 4ccea908-13b3-4b42-a8ba-103c553da555
+dates:
+  send_date: '2024-08-29'
+  inferred_send_type: scheduled
+  first_sent: '2024-08-29T00:30:09+00:00'
+  last_sent: '2024-08-29T14:00:15+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: e5510237-86f3-4e05-9874-15efe5af50e3
+  channel: email
+  name: Variant 1
+  subject: 'JUST DROPPED: Ombré Lumbars'
+  preheader: new and on sale!
+  html_file: html/p_2024_08_29_d_sf_na_ombré_lumbars_email.html
+  screenshot: screenshots/p_2024_08_29_d_sf_na_ombré_lumbars_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c645f872f17700639e2416/original.jpg?1724270072
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ccb9cfa816df00649b4417/original.gif?1724692943
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c645f872f17700729e161a/original.jpg?1724270072
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c645f8b96cce00640955a1/original.gif?1724270072
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0058f1ba77/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c645f83825ac0065f6e159/original.gif?1724270072
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c646473825ac0065f6e23c/original.gif?1724270151
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ccb9d70785830064bb8149/original.gif?1724692951
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c645f8d274b40063a40829/original.jpg?1724270072
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c645f9e73c7a00650c5aba/original.gif?1724270072
+- id: 59a5e127-2a71-472d-9c21-e92e5cf9a6a3
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 4999
+  total_delivered: 4863
+  total_opens: 2524
+  total_clicks: 454
+  open_rate: 0.5049
+  click_rate: 0.0908
+  total_revenue: 2379.0
+  total_unsubscribes: 10
+  ga4:
+    sessions: 129
+    purchases: 1
+    revenue: 182.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.902361'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.794046'
+schedule_type: time_based

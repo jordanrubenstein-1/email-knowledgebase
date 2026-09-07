@@ -1,0 +1,35 @@
+id: b70ba90e-b436-4810-a431-26c2a6aa17fc
+name: P_2025_06_23_HAV_Conv_D_July_4th_Sale_Launch
+brand: HAV
+channel: email
+category: product_launch
+type: sale
+theme: null
+braze_id: b70ba90e-b436-4810-a431-26c2a6aa17fc
+dates:
+  send_date: '2025-06-23'
+  first_sent: '2025-06-22T18:24:33+00:00'
+  last_sent: '2025-06-23T17:15:12+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: bb6f2dcc-6ac6-4bae-903a-36c6f60fd716
+  channel: email
+  name: Variant 1
+  subject: Fill up your cart
+  preheader: 4th of July deals just dropped.
+- id: d22de423-daf0-47eb-b864-af2ff4b9bced
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 40428
+  total_delivered: 40351
+  total_opens: 21720
+  total_clicks: 293
+  open_rate: 0.5373
+  click_rate: 0.0072
+  total_bounces: 1
+  total_unsubscribes: 28
+schedule_type: time_based
+_filename: p_2025_06_23_hav_conv_d_july_4th_sale_launch.yaml

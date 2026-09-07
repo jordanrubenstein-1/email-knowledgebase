@@ -1,0 +1,59 @@
+id: af2a3451-29ce-4782-93ef-74c831416c13
+name: P_2025_04_02_D_STF_POTM_Fuchsia_Daisy_Suzani
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: af2a3451-29ce-4782-93ef-74c831416c13
+dates:
+  send_date: '2025-04-02'
+  inferred_send_type: local_time
+  first_sent: '2025-04-02T01:01:24+00:00'
+  last_sent: '2025-04-02T17:00:18+00:00'
+tags: []
+sends:
+- id: ca387e28-f094-41ad-a5de-847305d251ee
+  channel: email
+  name: Variant 1
+  subject: Fresh as a (fuchsia) daisy
+  preheader: get to know our print of the month
+  html_file: html/p_2025_04_02_d_stf_potm_fuchsia_daisy_suzani.html
+  screenshot: screenshots/p_2025_04_02_d_stf_potm_fuchsia_daisy_suzani.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ec4f13d3687c0065692669/original.png?1743539987
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ec4f7914d1e200932a6088/original.png?1743540089
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ec4f6f4b543300643eb660/original.png?1743540078
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ec4f819ca1d8006705daa2/original.png?1743540097
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ec4f61a54e3e00650ac014/original.png?1743540065
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ec4f2cef9c0400650cc8b0/original.gif?1743540012
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ec4fef358d570067025c6f/original.png?1743540207
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ec4fa263ed880077e29bf5/original.png?1743540129
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ec4fd7400eeb007765cd45/original.png?1743540183
+- id: 70bfc944-1f98-4069-9a37-8c4a3f59d440
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 11529
+  total_delivered: 11416
+  total_opens: 6964
+  total_clicks: 158
+  open_rate: 0.604
+  click_rate: 0.0137
+  total_revenue: 14306.0
+  total_bounces: 1
+  total_unsubscribes: 34
+  ga4:
+    sessions: 158
+    purchases: 1
+    revenue: 807.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.933594'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.924169'
+schedule_type: time_based

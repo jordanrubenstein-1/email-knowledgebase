@@ -1,0 +1,29 @@
+id: d37956ec-a403-4f1d-918c-acadb4c94842
+name: Set New Users Email Alias webhook
+brand: HAV
+channel: email
+category: other
+type: product_launch
+theme: null
+braze_id: d37956ec-a403-4f1d-918c-acadb4c94842
+dates:
+  first_sent: '2024-08-22T07:00:00+00:00'
+  last_sent: '2026-06-09T19:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: 219a99f7-0908-4cb8-b20f-95c3b4183b80
+  channel: other
+  name: Variant 1
+- id: 14b56f82-4189-4fe4-94c6-5d94d0697f3e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 5014
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+schedule_type: action_based
+_filename: set-new-users-email-alias-webhook.yaml

@@ -1,0 +1,64 @@
+id: 2f094bb7-cbf2-43ff-8842-ae8fe128375b
+name: P_EM_2025_07_07_SF_D_PR_Just_Like_That_Suzani_Fv
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 2f094bb7-cbf2-43ff-8842-ae8fe128375b
+dates:
+  send_date: '2025-07-07'
+  inferred_send_type: local_time
+  first_sent: '2025-07-06T18:05:08+00:00'
+  last_sent: '2025-07-07T17:00:38+00:00'
+tags:
+- Batch and Blast
+- am
+- collect
+- d2c
+- designed
+- sale
+sends:
+- id: ec337164-b316-4e95-a80e-c9474ffab7c2
+  channel: email
+  name: Variant 1
+  subject: Carrie'd away by this BIG moment
+  preheader: a couture cameo, styled by the ever-iconic arbiter of fashion
+  html_file: html/p_em_2025_07_07_sf_d_pr_just_like_that_suzani_fv.html
+  screenshot: screenshots/p_em_2025_07_07_sf_d_pr_just_like_that_suzani_fv.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6866c22749fe75007613022e/original.png?1751564839
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6866c23340eefd0074a39093/original.png?1751564851
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6866b4e074172d00670077e4/original.png?1751561440
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6866b50c96ec810086188e37/original.png?1751561484
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6866b4fcd4a64b0095308989/original.png?1751561468
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6866b4f64450f30075238181/original.png?1751561462
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6866b5149ebffd0076a63900/original.png?1751561492
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6866b3b4ec53f40065768a98/original.png?1751561139
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6866b417ec53f40065768eb0/original.png?1751561239
+- id: 101f76b5-3b4e-4855-bf92-fdebfcef5818
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39809
+  total_delivered: 39345
+  total_opens: 17872
+  total_clicks: 247
+  open_rate: 0.4489
+  click_rate: 0.0062
+  total_revenue: 12598.0
+  total_unsubscribes: 91
+  ga4:
+    sessions: 312
+    purchases: 1
+    revenue: 21.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.749723'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.925485'
+schedule_type: time_based

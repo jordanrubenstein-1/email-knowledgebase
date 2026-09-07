@@ -1,0 +1,33 @@
+id: c8af4efa-69c2-4c8b-a1bd-763a0392796f
+name: P_2024_10_21_HAV_Conv_Autumn_Event_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: fall
+braze_id: c8af4efa-69c2-4c8b-a1bd-763a0392796f
+dates:
+  send_date: '2024-10-21'
+  first_sent: '2024-10-20T21:07:23+00:00'
+  last_sent: '2024-10-21T17:15:03+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 5d50f8f6-c507-4bf3-be48-c11263a051ef
+  channel: email
+  name: Variant 1
+  subject: 'Ends tomorrow: Up to 25% off fan-favorite brands'
+  preheader: Plus even more savings!
+- id: 0a3cb9d9-043f-4327-ac64-909990781888
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 36700
+  total_delivered: 36666
+  total_opens: 20690
+  total_clicks: 185
+  open_rate: 0.5638
+  click_rate: 0.005
+  total_unsubscribes: 60
+schedule_type: time_based
+_filename: p_2024_10_21_hav_conv_autumn_event_reminder_email-c8af4efa.yaml

@@ -1,0 +1,58 @@
+id: e63ae239-5ec1-459f-988c-2f76fdcba7bb
+name: P_2024_11_16_HAV_PC_Before_After_Highlight_Reel_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: e63ae239-5ec1-459f-988c-2f76fdcba7bb
+dates:
+  send_date: '2024-11-16'
+  inferred_send_type: local_time
+  first_sent: '2024-11-16T02:14:20+00:00'
+  last_sent: '2024-11-16T18:15:06+00:00'
+tags: []
+sends:
+- id: d6d68e2a-3deb-4909-b2c5-76da961b6c29
+  channel: email
+  name: Variant 1
+  subject: Living room before & afters we 💞💞
+  preheader: Jaw, dropped.
+  html_file: html/p_2024_11_16_hav_pc_before_after_highlight_reel_email.html
+  screenshot: screenshots/p_2024_11_16_hav_pc_before_after_highlight_reel_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6737e00531dad20066f1482c/original.gif?1731715077
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6735125833d75e0065a8f892/original.gif?1731531352
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67351280797b4b0065550eba/original.gif?1731531391
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673512363e31b60065724a65/original.gif?1731531318
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6735123e1dc72e006563ff4b/original.gif?1731531326
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6737dfd0f77cc60064cd979f/original.gif?1731715024
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6737df6969dd3a0081761469/original.gif?1731714921
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6735126a57a63f006630630a/original.gif?1731531370
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67351260a67dd60063e65b9c/original.gif?1731531360
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6737dfb0cd64ad0064bc95e9/original.gif?1731714992
+- id: dd0bd055-e0cf-4505-b536-cbece5b6a470
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 158949
+  total_delivered: 157160
+  total_opens: 75917
+  total_clicks: 958
+  open_rate: 0.4776
+  click_rate: 0.006
+  total_bounces: 13
+  total_unsubscribes: 271
+  ga4:
+    sessions: 1222
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.063963'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.644394'
+schedule_type: time_based

@@ -1,0 +1,61 @@
+id: d750877c-9c8d-4ca8-845f-63f047725515
+name: P_2025_1_6_D_SF_Color_Of_The_Year_Palette_Editorial
+brand: STF
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: d750877c-9c8d-4ca8-845f-63f047725515
+dates:
+  send_date: '2025-01-06'
+  inferred_send_type: local_time
+  first_sent: '2025-01-05T17:08:56+00:00'
+  last_sent: '2025-01-06T17:00:09+00:00'
+tags: []
+sends:
+- id: d89af096-b3d9-48ac-a05a-4435b5b8d72f
+  channel: email
+  name: Variant 1
+  subject: The It Color
+  preheader: everyone is loving mocha mousse
+- id: f0a43ba8-ccff-4aa6-a252-04accdea73a6
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 3705
+  total_delivered: 3667
+  total_opens: 2113
+  total_clicks: 67
+  open_rate: 0.5703
+  click_rate: 0.0181
+  total_revenue: 1018.0
+  total_unsubscribes: 7
+  ga4:
+    sessions: 106
+    purchases: 1
+    revenue: 27.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.104915'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-end-of-year-sale-2025-01-01
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-05'
+    discount: 20% off Sitewide + 30% Off Last Chance Patterns
+    type: null
+  primary_sale:
+    id: stf-end-of-year-sale-2025-01-01
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-05'
+    discount: 20% off Sitewide + 30% Off Last Chance Patterns
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: 20% off Sitewide + 30% Off Last Chance Patterns
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:44.401582'
+schedule_type: time_based

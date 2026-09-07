@@ -1,0 +1,48 @@
+id: eb179dbe-010e-42a3-940b-9c6684349ba5
+name: P_EM_2026_04_01_CZ_D_PR_April_Edit_PM
+brand: CZ
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: eb179dbe-010e-42a3-940b-9c6684349ba5
+dates:
+  send_date: '2026-04-01'
+  inferred_send_type: local_time
+  first_sent: '2026-04-01T00:05:49+00:00'
+  last_sent: '2026-04-01T17:00:00+00:00'
+tags:
+- batch and blast
+- catalog
+- d2c
+- designed
+- pm
+sends:
+- id: 7bf2958e-97a7-4109-a0e9-494237405094
+  channel: email
+  name: Variant 1
+  subject: The April Edit is here
+  preheader: Everything we’re loving right now, all in one place.
+  html_file: html/p_em_2026_04_01_cz_d_pr_april_edit_pm.html
+  screenshot: screenshots/p_em_2026_04_01_cz_d_pr_april_edit_pm.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c9c0c2f4160a0063fb6aa2/original.png?1774829761
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c9c099662693006342f5d2/original.png?1774829720
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c9c0e621bfac0063349a0a/original.png?1774829797
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c9c04b9e34a40063737a0f/original.png?1774829643
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c9c05718dd6c00633a952f/original.png?1774829654
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c9c0cdc6065d006320c0a2/original.png?1774829772
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c9c087b7c5b800637f730d/original.png?1774829702
+- id: 1381a239-9980-4754-92c5-791a27eb9da4
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 90414
+  total_delivered: 90245
+  total_opens: 43177
+  total_clicks: 534
+  open_rate: 0.4775
+  click_rate: 0.0059
+  total_bounces: 3
+  total_unsubscribes: 124
+schedule_type: time_based

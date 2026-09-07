@@ -1,0 +1,9 @@
+{% assign sale_ea_start = "2025-08-19 00:00:00" | date: "%s" %}{% assign sale_reg_start = "2025-08-21 04:00:00" | date: "%s" %}{% assign sale_end       = "2025-09-09 04:00:00" | date: "%s" %}{% assign now        = 'now' | date: "%s" %}{% if now >= sale_ea_start and now < sale_reg_start %}    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+        <tr>
+        <td align="center" style="width: 100%"><a target="_blank" rel="noopener noreferrer"  href="https://burrow.com?lid={{${cblid} | lid: 'sjb5axeq1kt6'}}"><img alt="Early Access: The Labor Day Event. Up to 70% Off Plus Free Shipping" width="600" style="display: block; width: 100%; max-width: 100%; font-size: 20px; font-family: Arial, 'sans-serif'; color: #383633; background-color: #FFFFFF;" border="0" src="https://braze-images.com/appboy/communication/assets/image_assets/images/68a4c1bf7d7b1b00864f4c47/original.jpg?1755627967" /></a></td>
+      </tr>
+      </table>{% elsif now >= sale_reg_start and now <= sale_end %}<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+        <tr>
+        <td align="center" style="width: 100%"><a target="_blank" rel="noopener noreferrer"  href="https://burrow.com?lid={{${cblid} | lid: 'cdu5iw8od9r0'}}"><img alt="The Labor Day Event. 25% Off Sitewide Plus Free Shipping" width="600" style="display: block; width: 100%; max-width: 100%; font-size: 20px; font-family: Arial, 'sans-serif'; color: #383633; background-color: #FFFFFF;" border="0" src="https://braze-images.com/appboy/communication/assets/image_assets/images/68b4bd1e321aad0066a704bd/original.gif?1756675358" /></a></td>
+      </tr>
+      </table> {% else %}{% endif %}

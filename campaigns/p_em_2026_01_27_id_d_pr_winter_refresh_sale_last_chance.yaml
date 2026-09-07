@@ -1,0 +1,36 @@
+id: cf5e520f-5ecf-432b-a52e-ae781fecf6a8
+name: P_EM_2026_01_27_ID_D_PR_Winter_Refresh_Sale_Last_Chance
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: winter
+braze_id: cf5e520f-5ecf-432b-a52e-ae781fecf6a8
+dates:
+  send_date: '2026-01-27'
+  inferred_send_type: local_time
+  first_sent: '2026-01-26T20:38:24+00:00'
+  last_sent: '2026-01-27T17:04:27+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: b90ad07d-77fb-408a-8284-69b24c8ad166
+  channel: email
+  name: Variant 1
+  subject: 25% off sitewide before it’s gone.
+  preheader: Now or Never
+- id: b7e828d9-cc0a-45b0-af1a-a3d747f29974
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 211405
+  total_delivered: 210524
+  total_opens: 90682
+  total_clicks: 643
+  open_rate: 0.4289
+  click_rate: 0.003
+  total_revenue: 313204.44
+  total_bounces: 10
+  total_unsubscribes: 254
+_filename: p_em_2026_01_27_id_d_pr_winter_refresh_sale_last_chance.yaml
+schedule_type: time_based

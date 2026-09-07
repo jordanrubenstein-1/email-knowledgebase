@@ -1,0 +1,45 @@
+id: 617db3a4-0b09-459d-b5a6-958f4f5923ed
+name: P_EM_2025_10_30_CZ_D_PR_Launch_American_Craft_Capsule
+brand: CZ
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 617db3a4-0b09-459d-b5a6-958f4f5923ed
+dates:
+  send_date: '2025-10-30'
+  inferred_send_type: scheduled
+  first_sent: '2025-10-30T20:00:04+00:00'
+  last_sent: '2025-10-30T20:03:04+00:00'
+tags:
+- am
+- batch and blast
+- collect
+- d2c
+- designed
+- launch
+sends:
+- id: 3b3087a4-8266-4b13-b8df-bf6a4f79eb45
+  channel: email
+  name: Variant 1
+  subject: 'Introducing: The New Heritage '
+  preheader: A limited-edition capsule celebrating American artistry.
+  html_file: html/p_em_2025_10_30_cz_d_pr_launch_american_craft_capsule.html
+  screenshot: screenshots/p_em_2025_10_30_cz_d_pr_launch_american_craft_capsule.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6902842490451f0063c5f956/original.gif?1761772580
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690284306234c4006377ec9c/original.png?1761772590
+- id: 7a56cd05-5dfe-4d27-bc24-4bd7f13bcb40
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 31712
+  total_delivered: 31078
+  total_opens: 19015
+  total_clicks: 567
+  open_rate: 0.5996
+  click_rate: 0.0179
+  total_bounces: 1
+  total_unsubscribes: 80
+_filename: p_em_2025_10_30_cz_d_pr_launch_american_craft_capsule.yaml
+schedule_type: time_based

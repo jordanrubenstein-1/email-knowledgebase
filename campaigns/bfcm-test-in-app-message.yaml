@@ -1,0 +1,25 @@
+id: d62825b4-2ab9-4a57-bacc-6dfb4aa40ec6
+name: BFCM Test In-App Message
+brand: BUR
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: d62825b4-2ab9-4a57-bacc-6dfb4aa40ec6
+dates: {}
+tags:
+- bubble
+- website
+sends:
+- id: 64575b18-8786-4b64-bcef-bec7960e6e64
+  channel: other
+  name: Variant 1
+- id: 3d0210c1-714c-4f93-a49f-187131a9f0d4
+  channel: other
+  name: Control Group
+performance_summary: {}
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.071285'
+schedule_type: action_based

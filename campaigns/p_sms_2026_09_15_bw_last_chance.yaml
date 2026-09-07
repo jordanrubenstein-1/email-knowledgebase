@@ -1,0 +1,22 @@
+id: cb7ca691-f8b4-4d07-aef9-b8398102fb3e
+name: P_SMS_2026_09_15_BW_Last_Chance
+brand: BUR
+channel: sms
+category: reminder
+type: announcement
+theme: null
+braze_id: cb7ca691-f8b4-4d07-aef9-b8398102fb3e
+dates:
+  send_date: '2026-09-15'
+  last_sent: '2026-09-15'
+tags: []
+sends:
+- id: 87378f0c-6d80-4539-8ed9-d7838ae255ed
+  channel: sms
+  name: Variant 1
+- id: 90dd0253-23a5-4b0d-9c1e-ef678cc4cb3a
+  channel: sms
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: p_sms_2026_09_15_bw_last_chance.yaml

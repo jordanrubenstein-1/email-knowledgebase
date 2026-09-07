@@ -1,0 +1,33 @@
+id: 883401b4-efb3-4b1c-a5d6-557e1ee55f05
+name: P_2024_08_21_PT_HAV_PC_LD_Sale_Announcement_Email
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 883401b4-efb3-4b1c-a5d6-557e1ee55f05
+dates:
+  send_date: '2024-08-21'
+  first_sent: '2024-08-21T00:48:28+00:00'
+  last_sent: '2024-08-21T13:05:09+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 0b784a9e-d985-43a1-983c-e5a167472c7d
+  channel: email
+  name: Variant 1
+  subject: 'VIP EARLY ACCESS: 50% off design packages'
+- id: 1c496631-34fb-4413-bc63-fd261b82b5b2
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 22411
+  total_delivered: 22379
+  total_opens: 12656
+  total_clicks: 395
+  open_rate: 0.5647
+  click_rate: 0.0176
+  total_bounces: 3
+  total_unsubscribes: 256
+schedule_type: time_based
+_filename: p_2024_08_21_pt_hav_pc_ld_sale_announcement_email.yaml

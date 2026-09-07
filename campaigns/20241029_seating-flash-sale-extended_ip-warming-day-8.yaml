@@ -1,0 +1,26 @@
+id: 2b3163e6-9b19-4100-86d2-0b5fa5c8056b
+name: 20241029_Seating-Flash-Sale-Extended_IP-Warming-Day-8
+brand: BUR
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 2b3163e6-9b19-4100-86d2-0b5fa5c8056b
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2024-10-29T15:00:02+00:00'
+  last_sent: '2024-10-29T15:04:52+00:00'
+tags:
+- IP Warming
+sends:
+- id: 89b5e78c-6fc7-4277-af63-8c7c3398df27
+  channel: email
+  name: Variant 1
+  subject: We've extended our flash sale
+  preheader: Save 20% on sofas, sectionals and more.
+- id: 198c0778-9fe2-431a-909e-f164ca66f985
+  channel: other
+  name: Control Group
+performance_summary: {}
+_filename: 20241029_seating-flash-sale-extended_ip-warming-day-8.yaml
+schedule_type: time_based

@@ -1,0 +1,36 @@
+id: 4e29b18c-6354-4976-a972-487d82867b94
+name: P_2025_05_26_TRADE_ID_Memorial_Day_Sale_Reminder_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 4e29b18c-6354-4976-a972-487d82867b94
+dates:
+  send_date: '2025-05-26'
+  inferred_send_type: local_time
+  first_sent: '2025-05-25T19:22:07+00:00'
+  last_sent: '2025-05-26T18:15:12+00:00'
+tags:
+- TRADE-EMAIL
+sends:
+- id: 535695f5-c620-4806-81c7-09de68e5f6a1
+  channel: email
+  name: Variant 1
+  subject: 'HAPPENING NOW: 25% OFF '
+  preheader: Summer starts with sitewide savings. ☀️
+- id: cf42cb23-8e18-4062-9bff-7b2dfcc25918
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 18961
+  total_delivered: 18457
+  total_opens: 4989
+  total_clicks: 81
+  open_rate: 0.2631
+  click_rate: 0.0043
+  total_revenue: 297282.0
+  total_bounces: 1
+  total_unsubscribes: 25
+_filename: p_2025_05_26_trade_id_memorial_day_sale_reminder_email.yaml
+schedule_type: time_based

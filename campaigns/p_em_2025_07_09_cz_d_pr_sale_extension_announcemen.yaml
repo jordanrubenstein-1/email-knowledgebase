@@ -1,0 +1,65 @@
+id: bbab945e-fdfc-43c3-a98e-303898ac31df
+name: P_EM_2025_07_09_CZ_D_PR_Sale_Extension_Announcement
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: bbab945e-fdfc-43c3-a98e-303898ac31df
+dates:
+  send_date: '2025-07-09'
+  inferred_send_type: scheduled
+  first_sent: '2025-07-09T06:22:41+00:00'
+  last_sent: '2025-07-09T17:01:29+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale_feat
+sends:
+- id: 9f3608bb-659d-482a-8c00-ae65703fe7da
+  channel: email
+  name: Variant 1
+  subject: 20% Off Sitewide is Back
+  preheader: Because you deserve a second chance.
+  html_file: html/p_em_2025_07_09_cz_d_pr_sale_extension_announcement.html
+  screenshot: screenshots/p_em_2025_07_09_cz_d_pr_sale_extension_announcement.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686d394f7c1d700064f992e3/original.png?1751988558
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686c1d9062d6c80074541d0c/original.png?1751915919
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686c1cfd60511f00666da67f/original.png?1751915772
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686d391c37470f0066178027/original.png?1751988507
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686c1d3662d6c80083541c63/original.png?1751915830
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686c1d7162d6c80074541c96/original.png?1751915889
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686c1daac4f5820065c813d1/original.png?1751915946
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686c1d1ea9a8bd006526ca92/original.png?1751915806
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686c1d68a9a8bd006526cbe1/original.png?1751915880
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686c1db2a748490066f513d0/original.png?1751915954
+- id: be89444b-7ad6-498a-828b-3460c75db42d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 100808
+  total_delivered: 100317
+  total_opens: 51850
+  total_clicks: 659
+  open_rate: 0.5143
+  click_rate: 0.0065
+  total_revenue: 90264.63
+  total_bounces: 6
+  total_unsubscribes: 136
+  ga4:
+    sessions: 800
+    purchases: 10
+    revenue: 2570.21
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.176247'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.946419'
+schedule_type: time_based

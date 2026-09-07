@@ -1,0 +1,32 @@
+id: d9b1db42-1859-4f57-a705-ec556c44d4a8
+name: P_2024_12_2_PT_HAV_Conv_Cyber_Monday_Email
+brand: HAV
+channel: email
+category: sale_promo
+type: seasonal
+theme: null
+braze_id: d9b1db42-1859-4f57-a705-ec556c44d4a8
+dates:
+  send_date: '2024-12-02'
+  first_sent: '2024-12-02T22:58:58+00:00'
+  last_sent: '2024-12-02T22:59:10+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 420edced-16bc-48e0-b13e-23150953f09b
+  channel: email
+  name: Variant 1
+  subject: 'EXPIRES TONIGHT: your cyber monday offer'
+- id: acc0e635-af97-4c49-82a2-721c44746953
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 19258
+  total_delivered: 19247
+  total_opens: 12132
+  total_clicks: 286
+  open_rate: 0.63
+  click_rate: 0.0149
+  total_unsubscribes: 42
+schedule_type: time_based
+_filename: p_2024_12_2_pt_hav_conv_cyber_monday_email.yaml

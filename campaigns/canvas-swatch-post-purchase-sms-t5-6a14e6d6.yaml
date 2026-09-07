@@ -1,0 +1,35 @@
+id: 6a14e6d6-2b6c-401b-b359-fcd1450fdd35
+name: TRG_SMS_2026_02_CZ_Post_Purchase_Swatch_T4
+brand: CZ
+channel: sms
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 32c575cd-3a0e-4f9f-b087-095d4efba54b
+canvas_name: Swatch Post Purchase
+flow_type: post_purchase
+sequence_position: 5
+body: '{% assign Upholstery_Swatch = false %}{% for item in canvas_entry_properties.${products}
+  %}{% if item.product_name contains ''Upholstery Swatch'' %}{% assign Upholstery_Swatch
+  = true %}{% endif %}{% endfor %}{% if Upholstery_Swatch == false %}{% abort_message()
+  %}{% endif %}You''ve felt the fabric. Ready to see it at scale? Your The Citizenry
+  swatches are waiting to become something real. Shop now. https://www.the-citizenry.com/collections/custom-furniture?utm_source=braze_CZ&utm_campaign={{campaign.$(name)}}&utm_medium=sms'
+sends:
+- id: 6a14e6d6-2b6c-401b-b359-fcd1450fdd35
+  channel: sms
+  name: TRG_SMS_2026_02_CZ_Post_Purchase_Swatch_T4
+  body: '{% assign Upholstery_Swatch = false %}{% for item in canvas_entry_properties.${products}
+    %}{% if item.product_name contains ''Upholstery Swatch'' %}{% assign Upholstery_Swatch
+    = true %}{% endif %}{% endfor %}{% if Upholstery_Swatch == false %}{% abort_message()
+    %}{% endif %}You''ve felt the fabric. Ready to see it at scale? Your The Citizenry
+    swatches are waiting to become something real. Shop now. https://www.the-citizenry.com/collections/custom-furniture?utm_source=braze_CZ&utm_campaign={{campaign.$(name)}}&utm_medium=sms'
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-08-29T00:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 7
+  total_delivered: 6
+  total_clicks: 0
+  click_rate: 0.0
+  total_bounces: 1

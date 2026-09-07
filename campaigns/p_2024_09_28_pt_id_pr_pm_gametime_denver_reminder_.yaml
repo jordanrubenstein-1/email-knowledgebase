@@ -1,0 +1,44 @@
+id: 653b2de4-c051-4264-9274-2326d789d577
+name: P_2024_09_28_PT_ID_PR_PM_Gametime_Denver_Reminder_PT_Email
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 653b2de4-c051-4264-9274-2326d789d577
+dates:
+  send_date: '2024-09-28'
+  inferred_send_type: scheduled
+  first_sent: '2024-09-28T16:31:46+00:00'
+  last_sent: '2024-09-28T21:15:05+00:00'
+tags: []
+sends:
+- id: 2e09f0f8-5a6e-4d82-b6a4-30ee235187ec
+  channel: email
+  name: Variant 1
+  subject: Join us for Gametime @ Interior Define Denver
+- id: a44a3fa1-fee5-43d6-b17c-1179f1e41015
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 834
+  total_delivered: 832
+  total_opens: 357
+  total_clicks: 4
+  open_rate: 0.4281
+  click_rate: 0.0048
+  total_revenue: 12855.0
+  total_unsubscribes: 1
+  ga4:
+    sessions: 4
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.318431'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:45.050348'
+schedule_type: time_based

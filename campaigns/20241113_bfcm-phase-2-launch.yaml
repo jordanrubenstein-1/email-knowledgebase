@@ -1,0 +1,52 @@
+id: a9ac0b11-6928-4f0f-8808-a39936c67382
+name: 20241113_BFCM-Phase-2-Launch
+brand: BUR
+channel: email
+category: product_launch
+type: product_launch
+theme: black_friday
+braze_id: a9ac0b11-6928-4f0f-8808-a39936c67382
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2024-11-13T14:21:03+00:00'
+  last_sent: '2024-11-13T17:30:29+00:00'
+tags: []
+sends:
+- id: 2038b077-b47d-4c32-99c1-475f6e010855
+  channel: email
+  name: Variant 1
+  subject: Our biggest sale of the year starts now
+  preheader: The Black Friday Event is here.
+- id: 5fc58dba-d90d-4aa9-ab21-471d5ff4f39c
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 719
+    purchases: 4
+    revenue: 6419.37
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.327774'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-bfcm-giving-tues-2024-11-13
+    name: BFCM + Giving Tues
+    start_date: '2024-11-13'
+    end_date: '2024-11-26'
+    discount: null
+    type: null
+  primary_sale:
+    id: bur-bfcm-giving-tues-2024-11-13
+    name: BFCM + Giving Tues
+    start_date: '2024-11-13'
+    end_date: '2024-11-26'
+    discount: null
+    type: null
+  sale_name: BFCM + Giving Tues
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:40.595084'
+schedule_type: time_based

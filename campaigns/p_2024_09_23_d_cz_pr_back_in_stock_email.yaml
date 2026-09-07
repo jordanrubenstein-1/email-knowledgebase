@@ -1,0 +1,52 @@
+id: 6de9bc65-88f8-45b7-b0c0-4522649a822f
+name: P_2024_09_23_D_CZ_PR_Back_in_Stock_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 6de9bc65-88f8-45b7-b0c0-4522649a822f
+dates:
+  send_date: '2024-09-23'
+  inferred_send_type: local_time
+  first_sent: '2024-09-22T18:00:04+00:00'
+  last_sent: '2024-09-23T17:00:24+00:00'
+tags:
+- batch and blast
+sends:
+- id: 41c8003b-6650-40aa-a225-fedacdbc78dd
+  channel: email
+  name: Variant 1
+  subject: Look Who's Back
+  preheader: Now's your chance to claim these bestselling styles before they sell
+    out again.
+  html_file: html/p_2024_09_23_d_cz_pr_back_in_stock_email.html
+  screenshot: screenshots/p_2024_09_23_d_cz_pr_back_in_stock_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ec3b8cceb17d00664a7bab/original.gif?1726757772
+- id: 5bd116b4-517d-45ad-a6bd-d30f4321fecb
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 73228
+  total_delivered: 72691
+  total_opens: 41416
+  total_clicks: 972
+  open_rate: 0.5656
+  click_rate: 0.0133
+  total_revenue: 71998.61
+  total_bounces: 2
+  total_unsubscribes: 196
+  ga4:
+    sessions: 1123
+    purchases: 15
+    revenue: 7028.68
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.117562'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.291896'
+schedule_type: time_based

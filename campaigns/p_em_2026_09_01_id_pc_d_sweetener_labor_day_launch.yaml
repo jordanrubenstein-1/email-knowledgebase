@@ -1,0 +1,35 @@
+id: 295b16c6-a1c9-4173-82f2-9a81c3a3b59c
+name: P_EM_2026_09_01_ID_PC_D_Sweetener_Labor_Day_Launch
+brand: ID
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 295b16c6-a1c9-4173-82f2-9a81c3a3b59c
+dates:
+  send_date: '2026-09-01'
+  first_sent: '2026-08-31T22:01:23+00:00'
+  last_sent: '2026-09-01T12:00:00+00:00'
+  inferred_send_type: scheduled
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: c2454850-23fc-4be5-8ef3-ceee4e53beef
+  channel: email
+  name: Variant 1
+  subject: The Sale Got Better, Up to 35% off
+  preheader: Even better savings just dropped.
+- id: 632e5e16-bb64-4515-a818-53057b16aee1
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 63039
+  total_delivered: 62517
+  total_opens: 4084
+  total_clicks: 108
+  open_rate: 0.0648
+  click_rate: 0.0017
+  total_bounces: 3
+  total_unsubscribes: 14
+schedule_type: time_based
+_filename: p_em_2026_09_01_id_pc_d_sweetener_labor_day_launch.yaml

@@ -1,0 +1,37 @@
+id: 6b8e21a7-ac16-403a-b83d-efa27f281abb
+name: P_SMS_2026_02_10_SF_Outdoor_Pillows
+brand: STF
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: 6b8e21a7-ac16-403a-b83d-efa27f281abb
+dates:
+  send_date: '2026-02-10'
+  inferred_send_type: local_time
+  first_sent: '2026-02-10T01:06:43+00:00'
+  last_sent: '2026-02-11T00:00:22+00:00'
+tags: []
+sends:
+- id: b2dfff3d-16b3-46b9-918e-4d9ca0eeae9c
+  channel: sms
+  name: Variant 1
+- id: d93f7cda-60d5-44dd-b27a-f5ca9217c5dc
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 4143
+  total_delivered: 4069
+  total_opens: 0
+  total_clicks: 161
+  open_rate: 0.0
+  click_rate: 0.0389
+  ga4:
+    sessions: 159
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.830255'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

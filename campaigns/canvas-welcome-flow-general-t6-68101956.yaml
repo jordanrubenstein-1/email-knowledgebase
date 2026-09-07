@@ -1,0 +1,33 @@
+id: 68101956-b094-49ab-9261-2bada2bea98c
+name: TRG_EM_2026_08_BW_D_Welcome_T6_V3
+brand: BUR
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 2fccfb4d-7b98-460d-9d19-98e33e89aa25
+canvas_name: Welcome Flow - General
+flow_type: welcome_series
+sequence_position: 6
+subject: A different direction
+preheader: Same obsessive quality. A completely different look.
+sends:
+- id: 68101956-b094-49ab-9261-2bada2bea98c
+  channel: email
+  name: TRG_EM_2026_08_BW_D_Welcome_T6_V3
+  subject: A different direction
+  preheader: Same obsessive quality. A completely different look.
+  html_file: html/canvas-welcome-flow-general-t6-68101956.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-11-01T00:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 156
+  total_delivered: 155
+  total_opens: 49
+  total_clicks: 1
+  open_rate: 0.3141
+  click_rate: 0.0064
+  total_unsubscribes: 1
+  total_revenue: 4528.0

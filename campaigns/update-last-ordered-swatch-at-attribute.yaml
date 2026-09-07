@@ -1,0 +1,25 @@
+id: 43a6abf3-29d3-43d0-bc4f-49e9551c18f9
+name: Update Last Ordered Swatch At Attribute
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 43a6abf3-29d3-43d0-bc4f-49e9551c18f9
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-04-27T15:00:00+00:00'
+  last_sent: '2026-06-14T16:00:00+00:00'
+tags:
+- system
+sends: []
+performance_summary:
+  total_entries: 2849
+  note: Canvas entries found but no message sends in analytics period
+canvas_steps:
+- id: ebc326af-5101-4e0f-9777-038db33be290
+  name: Update last_ordered_swatch_at
+  type: user_update
+_filename: update-last-ordered-swatch-at-attribute.yaml

@@ -1,0 +1,35 @@
+id: 5604a16f-b201-4519-aab6-a33d7144f765
+name: P_EM_2025_09_11_HAV_CONV_D_Guest_Ready_Sale_Launch
+brand: HAV
+channel: email
+category: product_launch
+type: sale
+theme: null
+braze_id: 5604a16f-b201-4519-aab6-a33d7144f765
+dates:
+  send_date: '2025-09-11'
+  first_sent: '2025-09-10T20:48:00+00:00'
+  last_sent: '2025-09-11T17:15:31+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: e88c46db-f8f8-4904-a912-5c843281d588
+  channel: email
+  name: Variant 1
+  subject: STARTS TODAY! Up to 20% Off
+  preheader: Holiday guests will be here before you know it. Shop the Guest–Ready
+    Sale.
+- id: 0df63053-adfd-4f58-bcea-79b0ae60d142
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41948
+  total_delivered: 41916
+  total_opens: 22101
+  total_clicks: 146
+  open_rate: 0.5269
+  click_rate: 0.0035
+  total_unsubscribes: 68
+schedule_type: time_based
+_filename: p_em_2025_09_11_hav_conv_d_guest_ready_sale_launch.yaml

@@ -1,0 +1,35 @@
+id: 1b6ff876-296c-4b4e-833a-cdf9d7edb5b6
+name: P_EM_2025_10_04_HAV_CONV_D_Guest_Room
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 1b6ff876-296c-4b4e-833a-cdf9d7edb5b6
+dates:
+  send_date: '2025-10-04'
+  first_sent: '2025-10-04T01:21:28+00:00'
+  last_sent: '2025-10-05T01:15:46+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 31679ec1-37c9-4928-827e-480e40491e7a
+  channel: email
+  name: Variant 1
+  subject: It's time to stop ignoring your guest room... 👀
+  preheader: Hosting season is almost here!
+- id: 832b113a-70d7-441c-810e-743232419e30
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41979
+  total_delivered: 41915
+  total_opens: 22562
+  total_clicks: 177
+  open_rate: 0.5375
+  click_rate: 0.0042
+  total_bounces: 1
+  total_unsubscribes: 59
+schedule_type: time_based
+_filename: p_em_2025_10_04_hav_conv_d_guest_room.yaml

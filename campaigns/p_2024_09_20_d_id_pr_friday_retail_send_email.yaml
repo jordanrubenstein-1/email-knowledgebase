@@ -1,0 +1,50 @@
+id: 2677a1ee-ea1f-4911-9c2d-a0d0c188d9ff
+name: P_2024_09_20_D_ID_PR_Friday_Retail_Send_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 2677a1ee-ea1f-4911-9c2d-a0d0c188d9ff
+dates:
+  send_date: '2024-09-20'
+  inferred_send_type: scheduled
+  first_sent: '2024-09-20T02:17:20+00:00'
+  last_sent: '2024-09-20T15:15:02+00:00'
+tags: []
+sends:
+- id: c994d494-7747-4680-b543-2fcfea197b18
+  channel: email
+  name: Variant 1
+  subject: RSVP for free design services
+  preheader: Booking up fast this weekend!
+- id: 157f0a84-cb0c-4c64-a434-76f5b9199ee1
+  channel: other
+  name: Control Group
+- id: ff8fe9c0-a86c-41ff-aee4-f6cb43a869c5
+  channel: email
+  name: Variant 2
+  subject: RSVP for free design services
+  preheader: Booking up fast this weekend!
+performance_summary:
+  total_sends: 45746
+  total_delivered: 45548
+  total_opens: 19240
+  total_clicks: 356
+  open_rate: 0.4206
+  click_rate: 0.0078
+  total_revenue: 122390.0
+  total_unsubscribes: 84
+  ga4:
+    sessions: 460
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.857174'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.916930'
+schedule_type: time_based

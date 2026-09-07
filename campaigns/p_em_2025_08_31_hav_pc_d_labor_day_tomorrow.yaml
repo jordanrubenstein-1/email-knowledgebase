@@ -1,0 +1,35 @@
+id: 35e9707a-dc08-4d55-a415-f31e14b238b1
+name: P_EM_2025_08_31_HAV_PC_D_Labor_Day_Tomorrow
+brand: HAV
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 35e9707a-dc08-4d55-a415-f31e14b238b1
+dates:
+  send_date: '2025-08-31'
+  first_sent: '2025-08-30T18:21:11+00:00'
+  last_sent: '2025-08-31T18:15:16+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 29b5dbe9-1ad1-4eb2-a5d9-ae7139949dbe
+  channel: email
+  name: Variant 1
+  subject: Half Off. All Day.
+  preheader: Talk about a Sunday well spent.
+- id: 42703704-8f93-4a75-a6ee-79a170a42bf0
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 232847
+  total_delivered: 232064
+  total_opens: 96586
+  total_clicks: 451
+  open_rate: 0.4148
+  click_rate: 0.0019
+  total_bounces: 5
+  total_unsubscribes: 359
+schedule_type: time_based
+_filename: p_em_2025_08_31_hav_pc_d_labor_day_tomorrow.yaml

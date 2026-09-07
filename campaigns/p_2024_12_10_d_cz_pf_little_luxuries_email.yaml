@@ -1,0 +1,59 @@
+id: e874b6b3-20cc-4231-b051-584296b7ab0b
+name: P_2024_12_10_D_CZ_PF_Little_Luxuries_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: e874b6b3-20cc-4231-b051-584296b7ab0b
+dates:
+  send_date: '2024-12-10'
+  inferred_send_type: local_time
+  first_sent: '2024-12-09T23:48:48+00:00'
+  last_sent: '2024-12-10T17:01:05+00:00'
+tags: []
+sends:
+- id: 0ac7c293-aac1-4328-aeee-31d591e04b36
+  channel: email
+  name: Variant 1
+  subject: Heirloom-Quality Gifts Under $150
+  preheader: So good, they'll think you splurged.
+  html_file: html/p_2024_12_10_d_cz_pf_little_luxuries_email.html
+  screenshot: screenshots/p_2024_12_10_d_cz_pf_little_luxuries_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67577d99fed2e40065c24d89/original.jpg?1733787033
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67577e6cbc2a6c007390798c/original.jpg?1733787244
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67577ebe61e3c3008e494a9a/original.jpg?1733787326
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67577f449f28f70063457738/original.png?1733787460
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67577da59f28f7006345744b/original.jpg?1733787045
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67577df2a82208006562a8c0/original.jpg?1733787122
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67577e1db437de0063444609/original.jpg?1733787165
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67577ec761e3c3006349788d/original.jpg?1733787334
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67577ee29f28f70063457634/original.jpg?1733787361
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67577de6bc2a6c0064907a9b/original.jpg?1733787110
+- id: 75dc6d17-4315-492c-b24d-5c903fb043f5
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 96235
+  total_delivered: 95569
+  total_opens: 47602
+  total_clicks: 774
+  open_rate: 0.4946
+  click_rate: 0.008
+  total_revenue: 72756.91
+  total_bounces: 8
+  total_unsubscribes: 177
+  ga4:
+    sessions: 920
+    purchases: 6
+    revenue: 993.82
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.311609'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.196282'
+schedule_type: time_based

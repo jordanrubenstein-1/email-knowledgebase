@@ -1,0 +1,49 @@
+id: 7e1cae10-c3c4-4598-a59c-ee24228a7b8a
+name: P_EM_2025_11_24_HAV_CONV_PT_Best_Prices_of_the_Year_Here
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 7e1cae10-c3c4-4598-a59c-ee24228a7b8a
+dates:
+  send_date: '2025-11-24'
+  inferred_send_type: local_time
+  first_sent: '2025-11-23T19:24:49+00:00'
+  last_sent: '2025-11-24T19:15:33+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 98560fc6-deb0-4f29-b3ff-0764ce9ba662
+  channel: email
+  name: Variant 1
+  subject: Prices This Low? Only Once a Year
+  preheader: Up to 30% off full-price + up to 70% off sale (+ extra 5%).
+  html_file: html/p_em_2025_11_24_hav_conv_pt_best_prices_of_the_year_here.html
+  screenshot: screenshots/p_em_2025_11_24_hav_conv_pt_best_prices_of_the_year_here.png
+  image_urls:
+  - https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/c731630f24214e43807c7369ca8ebacd/Havenly_Wordmark_RGB_Charcoal_Brown%20%281%29.png
+- id: 87ca55c5-c06c-4c19-ab3a-a7f46f828b9e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 23795
+  total_delivered: 23766
+  total_opens: 11937
+  total_clicks: 149
+  open_rate: 0.5017
+  click_rate: 0.0063
+  total_unsubscribes: 34
+  ga4:
+    sessions: 169
+    purchases: 2
+    revenue: 560.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.046327'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.313113'
+schedule_type: time_based

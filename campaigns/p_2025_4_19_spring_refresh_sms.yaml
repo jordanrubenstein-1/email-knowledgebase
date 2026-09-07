@@ -1,0 +1,30 @@
+id: fb380e56-a9ba-4409-b3f1-225232487b8b
+name: P_2025_4_19_Spring_Refresh_SMS
+brand: ID
+channel: sms
+category: other
+type: seasonal
+theme: spring
+braze_id: fb380e56-a9ba-4409-b3f1-225232487b8b
+dates:
+  send_date: '2025-04-19'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-19T19:59:40+00:00'
+  last_sent: '2025-04-19T20:01:56+00:00'
+tags: []
+sends:
+- id: 436609bb-6a6b-4e85-8c81-141aaa9cd8f4
+  channel: other
+  name: Variant 1
+- id: 226a46f8-290d-4e69-9d5f-5bdfa415d56d
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 59418
+  total_delivered: 55899
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 22580.0
+schedule_type: time_based

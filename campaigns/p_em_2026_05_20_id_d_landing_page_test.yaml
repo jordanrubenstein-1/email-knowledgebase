@@ -1,0 +1,32 @@
+id: 549c5f32-1a1b-4e52-bd1e-386557f040ee
+name: P_EM_2026_05_20_ID_D_Landing_Page_Test
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 549c5f32-1a1b-4e52-bd1e-386557f040ee
+dates:
+  send_date: '2026-05-20'
+  inferred_send_type: scheduled
+  first_sent: '2026-05-20T15:40:22+00:00'
+  last_sent: '2026-05-20T15:49:58+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 824f5b83-d72b-4e2b-93b7-6f7e902a28a5
+  channel: email
+  name: Variant 1
+  subject: Landing Page UTM Test
+  preheader: Customize your own for up to 30% off.
+- id: 9e20b873-3b57-47b1-9871-3d059797fd7d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 4
+  total_delivered: 4
+  total_opens: 4
+  total_clicks: 4
+  open_rate: 1.0
+  click_rate: 1.0
+_filename: p_em_2026_05_20_id_d_landing_page_test.yaml

@@ -1,0 +1,55 @@
+id: d8d9ba0c-fd48-4771-9fa8-bc96077cfd62
+name: P_2024_09_03_D_HAV_PR_PC_LD_Sale_Last_ Chance_Email
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: d8d9ba0c-fd48-4771-9fa8-bc96077cfd62
+dates:
+  send_date: '2024-09-03'
+  inferred_send_type: local_time
+  first_sent: '2024-09-02T19:19:12+00:00'
+  last_sent: '2024-09-03T17:10:01+00:00'
+tags: []
+sends:
+- id: 25ae74ed-b505-4226-a3e2-495f793d3225
+  channel: email
+  name: Variant 1
+  subject: ENDS @ MIDNIGHT
+  preheader: Last chance for 50% off
+  html_file: html/p_2024_09_03_d_hav_pr_pc_ld_sale_last_-chance_email.html
+  screenshot: screenshots/p_2024_09_03_d_hav_pr_pc_ld_sale_last_-chance_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d07600278f3a00755bc190/original.gif?1724937728
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7b11cfe4c430066f2f461/original.jpg?1724363035
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7b11c91a4fe0064718dda/original.jpg?1724363035
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d0760eaaf1c400653e0c57/original.jpg?1724937741
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d0762aaaf1c400653e0cb3/original.jpg?1724937770
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7b11c91a4fe0072717555/original.jpg?1724363035
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7b11c384d7e0066fac9ac/original.jpg?1724363035
+- id: 7cf7c741-5d5f-4f4a-83a2-3dc5b6099ec2
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 84559
+  total_delivered: 83933
+  total_opens: 43903
+  total_clicks: 778
+  open_rate: 0.5192
+  click_rate: 0.0092
+  total_bounces: 7
+  total_unsubscribes: 734
+  ga4:
+    sessions: 391
+    purchases: 2
+    revenue: 1422.15
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:48.892394'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.164642'
+schedule_type: time_based

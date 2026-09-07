@@ -1,0 +1,58 @@
+id: 7bc6f73c-7388-440a-a425-16dbfe28b4fb
+name: 2025_03_26_D_HAV_Conv_D_Birthday_Sale_Surprise_Extension
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 7bc6f73c-7388-440a-a425-16dbfe28b4fb
+dates:
+  send_date: '2025-03-26'
+  inferred_send_type: scheduled
+  first_sent: '2025-03-26T13:15:03+00:00'
+  last_sent: '2025-03-26T13:15:59+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 22148d54-2d40-4686-9a9a-88301dc4f934
+  channel: email
+  name: Variant 1
+  subject: 'FOR YOU: Our Birthday Sale Is Back!'
+  preheader: Who doesn’t love a surprise party?
+  html_file: html/2025_03_26_d_hav_conv_d_birthday_sale_surprise_extension.html
+  screenshot: screenshots/2025_03_26_d_hav_conv_d_birthday_sale_surprise_extension.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d8b0d96d982100677a5ad5/original.png?1742254297
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d8b0c04887e7007568a85b/original.png?1742254271
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e2fdc1b3b7d800653a1cef/original.png?1742929344
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e2fdb53b5af00066748b57/original.png?1742929333
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d8b0985792150066ddddb2/original.png?1742254232
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e2fdebab48430065427285/original.gif?1742929387
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d8b079b648ef0076fbe126/original.png?1742254201
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d8b0a4b648ef0066fc00f2/original.png?1742254244
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d8b0fdfabcce00649a32c7/original.png?1742254332
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e2fe28ab48430065427333/original.png?1742929448
+- id: 2dc313da-eb3b-425c-8865-4d09ec653650
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 39279
+  total_delivered: 39130
+  total_opens: 21428
+  total_clicks: 162
+  open_rate: 0.5455
+  click_rate: 0.0041
+  total_unsubscribes: 52
+  ga4:
+    sessions: 152
+    purchases: 1
+    revenue: 775.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.396078'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.427611'
+schedule_type: time_based

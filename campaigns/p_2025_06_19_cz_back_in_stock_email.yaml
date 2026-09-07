@@ -1,0 +1,50 @@
+id: 0d13e492-475d-4c1f-8617-19599d2067f1
+name: P_2025_06_19_CZ_Back_In_Stock_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 0d13e492-475d-4c1f-8617-19599d2067f1
+dates:
+  send_date: '2025-06-19'
+  inferred_send_type: local_time
+  first_sent: '2025-06-19T00:56:57+00:00'
+  last_sent: '2025-06-19T17:01:20+00:00'
+tags: []
+sends:
+- id: 46407cf7-0e4e-424c-a5f9-0f931b2e5032
+  channel: email
+  name: Variant 1
+  subject: Look Who's Back (But Going Quick...)
+  preheader: Now's your chance to claim these best-selling styles.
+  html_file: html/p_2025_06_19_cz_back_in_stock_email.html
+  screenshot: screenshots/p_2025_06_19_cz_back_in_stock_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68531aa25e739e0077cf5fda/original.png?1750276769
+- id: 4a87e44e-c5a9-4827-bde8-9dc708947e87
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 101421
+  total_delivered: 100951
+  total_opens: 53095
+  total_clicks: 1286
+  open_rate: 0.5235
+  click_rate: 0.0127
+  total_revenue: 46992.6
+  total_bounces: 1
+  total_unsubscribes: 142
+  ga4:
+    sessions: 1606
+    purchases: 13
+    revenue: 5311.16
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.401394'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.338597'
+schedule_type: time_based

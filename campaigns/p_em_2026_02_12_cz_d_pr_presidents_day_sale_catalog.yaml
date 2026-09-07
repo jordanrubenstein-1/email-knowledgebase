@@ -1,0 +1,53 @@
+id: 7b9a1ae6-5a14-490d-b7e3-5d4601ad250d
+name: P_EM_2026_02_12_CZ_D_PR_Presidents_Day_Sale_Catalog
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 7b9a1ae6-5a14-490d-b7e3-5d4601ad250d
+dates:
+  send_date: '2026-02-12'
+  inferred_send_type: local_time
+  first_sent: '2026-02-11T17:23:56+00:00'
+  last_sent: '2026-02-12T17:15:41+00:00'
+tags:
+- am
+- batch and blast
+- catalog
+- d2c
+- designed
+- sale
+- sale/presidentsday2026
+sends:
+- id: d5a3832c-757f-4084-93c3-6042570e7956
+  channel: email
+  name: Variant 1
+  subject: 'JUST LANDED: The February Catalog'
+  preheader: 'Perfectly timed with Presidents Day Sale savings. '
+  html_file: html/p_em_2026_02_12_cz_d_pr_presidents_day_sale_catalog.html
+  screenshot: screenshots/p_em_2026_02_12_cz_d_pr_presidents_day_sale_catalog.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698a31f9dd475e0063383543/original.png?1770664440
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698a32019d670f006360ec26/original.png?1770664449
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698a32b94f31800063639025/original.png?1770664633
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698a5fd6907fe100655145a6/original.png?1770676182
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698a323e81e9b90063b69ff8/original.png?1770664510
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698a3297f2d1be00650d2a7d/original.png?1770664598
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698a32db68b3410063d64361/original.png?1770664666
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698a32cbd567de0063d1e6f1/original.png?1770664651
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698a32d4570bc9006322d9b1/original.png?1770664659
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698a321cdbad5900637caa86/original.png?1770664474
+- id: 07a32520-ff05-4474-9439-38d834927a7e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 57380
+  total_delivered: 57235
+  total_opens: 28865
+  total_clicks: 418
+  open_rate: 0.503
+  click_rate: 0.0073
+  total_unsubscribes: 77
+_filename: p_em_2026_02_12_cz_d_pr_presidents_day_sale_catalog.yaml
+schedule_type: time_based

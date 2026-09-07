@@ -1,0 +1,44 @@
+id: 087ea315-d266-4be8-928d-f30969d43963
+name: P_2024_08_16_D_ID_R_Friday_Retail_Send_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 087ea315-d266-4be8-928d-f30969d43963
+dates:
+  send_date: '2024-08-16'
+  inferred_send_type: scheduled
+  first_sent: '2024-08-16T13:05:02+00:00'
+  last_sent: '2024-08-16T13:05:11+00:00'
+tags: []
+sends:
+- id: bcb4f333-1ad7-4cd6-8f88-1bbe256aebc9
+  channel: email
+  name: Variant 1
+  subject: FREE Interior Design Consultations 👀
+  preheader: Book an in-person or virtual appointment today!
+- id: 935faebd-5e7d-420a-9970-121993cbb83d
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 125
+  total_delivered: 125
+  total_opens: 76
+  total_clicks: 31
+  open_rate: 0.608
+  click_rate: 0.248
+  total_unsubscribes: 2
+  ga4:
+    sessions: 42
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.003480'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.296915'
+schedule_type: time_based

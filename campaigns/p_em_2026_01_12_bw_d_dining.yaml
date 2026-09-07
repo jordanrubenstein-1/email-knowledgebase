@@ -1,0 +1,43 @@
+id: 18f828e4-1502-486d-99c4-168ba4f1e71b
+name: P_EM_2026_01_12_BW_D_Dining
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 18f828e4-1502-486d-99c4-168ba4f1e71b
+dates:
+  send_date: '2026-01-12'
+  inferred_send_type: local_time
+  first_sent: '2026-01-12T03:08:42+00:00'
+  last_sent: '2026-01-13T03:03:24+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 28dccd6f-8b32-493b-9e3d-d3667f87dac9
+  channel: email
+  name: Variant 1
+  subject: We’ve got dinner covered
+  preheader: Furniture that’s ready for weeknights, ready for guests.
+- id: a76a82a1-4c00-47cb-9c77-5044f3cdfd6f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 225032
+  total_delivered: 224249
+  total_opens: 127136
+  total_clicks: 471
+  open_rate: 0.565
+  click_rate: 0.0021
+  total_revenue: 24264.0
+  total_bounces: 9
+  total_unsubscribes: 210
+  ga4:
+    sessions: 289
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.390010'
+    source: snowflake
+    channel: email
+schedule_type: time_based

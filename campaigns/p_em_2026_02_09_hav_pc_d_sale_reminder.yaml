@@ -1,0 +1,35 @@
+id: f5915d42-ff1f-4d5e-88f1-1f311f8677da
+name: P_EM_2026_02_09_HAV_PC_D_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: f5915d42-ff1f-4d5e-88f1-1f311f8677da
+dates:
+  send_date: '2026-02-09'
+  first_sent: '2026-02-08T17:07:18+00:00'
+  last_sent: '2026-02-09T18:01:16+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: c708809a-eaf5-4d7a-877a-9654936d2c93
+  channel: email
+  name: Variant 1
+  subject: Design Help, Half the Price
+  preheader: '50% off packages during the Presidents Day Sale. '
+- id: e9dde6be-a2f5-4e31-ad5d-53e05c0acdb5
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 261862
+  total_delivered: 260293
+  total_opens: 101324
+  total_clicks: 481
+  open_rate: 0.3869
+  click_rate: 0.0018
+  total_bounces: 47
+  total_unsubscribes: 427
+schedule_type: time_based
+_filename: p_em_2026_02_09_hav_pc_d_sale_reminder.yaml

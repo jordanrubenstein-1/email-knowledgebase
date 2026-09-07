@@ -1,0 +1,32 @@
+id: 82704816-d6b8-4d1f-8291-b756036e7c52
+name: TRG_EM_2024_08_ID_D_Welcome_T2_V 2
+brand: ID
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 7630907f-cf55-432f-ad28-70531a271c87
+canvas_name: Welcome Series - August 2024
+flow_type: welcome_series
+sequence_position: 2
+subject: Up to 30% off and free swatches
+preheader: 'Our fabrics are made for real life. '
+sends:
+- id: 82704816-d6b8-4d1f-8291-b756036e7c52
+  channel: email
+  name: TRG_EM_2024_08_ID_D_Welcome_T2_V 2
+  subject: Up to 30% off and free swatches
+  preheader: 'Our fabrics are made for real life. '
+  html_file: html/canvas-welcome-series-august-2024-t2-82704816.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-29T03:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 319
+  total_delivered: 316
+  total_opens: 142
+  total_clicks: 4
+  open_rate: 0.4451
+  click_rate: 0.0125
+  total_unsubscribes: 1

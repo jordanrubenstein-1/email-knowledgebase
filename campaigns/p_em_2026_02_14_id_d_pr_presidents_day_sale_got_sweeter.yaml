@@ -1,0 +1,36 @@
+id: 32005be6-26d7-44f8-af60-5d8cc265501a
+name: P_EM_2026_02_14_ID_D_PR_Presidents_Day_Sale_Got_Sweeter
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 32005be6-26d7-44f8-af60-5d8cc265501a
+dates:
+  send_date: '2026-02-14'
+  inferred_send_type: local_time
+  first_sent: '2026-02-13T19:08:31+00:00'
+  last_sent: '2026-02-14T17:02:57+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 9bd1bf63-537e-4828-a4e2-b32544e7ec02
+  channel: email
+  name: Variant 1
+  subject: This Sale Just Leveled Up
+  preheader: Now up to 35% off, long weekend exclusive savings
+- id: 48f3b6e5-7373-4ace-b6af-1b6883275288
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 214977
+  total_delivered: 214113
+  total_opens: 95485
+  total_clicks: 773
+  open_rate: 0.4442
+  click_rate: 0.0036
+  total_revenue: 1179804.46
+  total_bounces: 4
+  total_unsubscribes: 168
+_filename: p_em_2026_02_14_id_d_pr_presidents_day_sale_got_sweeter.yaml
+schedule_type: time_based

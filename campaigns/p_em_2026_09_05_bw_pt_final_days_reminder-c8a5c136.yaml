@@ -1,0 +1,35 @@
+id: c8a5c136-aed0-42db-a20f-402038f70fd2
+name: P_EM_2026_09_05_BW_PT_Final_Days_Reminder
+brand: BUR
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: c8a5c136-aed0-42db-a20f-402038f70fd2
+dates:
+  send_date: '2026-09-05'
+  first_sent: '2026-09-05T22:00:19+00:00'
+  last_sent: '2026-09-05T22:07:01+00:00'
+  inferred_send_type: scheduled
+tags:
+- Batch&Blast
+sends:
+- id: 99c5918b-cd27-4d21-b4d2-9b8be4fca1fe
+  channel: email
+  name: Variant 1
+  subject: Just a few more days to shop the Labor Day Event
+- id: 5df66661-f143-4ba2-8521-4835183a3146
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 87032
+  total_delivered: 86763
+  total_opens: 26412
+  total_clicks: 383
+  open_rate: 0.3035
+  click_rate: 0.0044
+  total_revenue: 57525.0
+  total_bounces: 1
+  total_unsubscribes: 69
+schedule_type: time_based
+_filename: p_em_2026_09_05_bw_pt_final_days_reminder-c8a5c136.yaml

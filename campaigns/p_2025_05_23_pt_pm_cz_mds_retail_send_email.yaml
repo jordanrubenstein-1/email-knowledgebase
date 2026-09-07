@@ -1,0 +1,47 @@
+id: 768479f5-220d-4c4b-a4b4-8b22372657dc
+name: P_2025_05_23_PT_PM_CZ_MDS_Retail_Send_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 768479f5-220d-4c4b-a4b4-8b22372657dc
+dates:
+  send_date: '2025-05-23'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-23T20:15:41+00:00'
+  last_sent: '2025-05-23T20:16:34+00:00'
+tags: []
+sends:
+- id: 06cf7db3-8055-4b1d-a1bf-d40783f4c492
+  channel: email
+  name: Variant 1
+  subject: Visit your local store and take 20% off this weekend!
+  html_file: html/p_2025_05_23_pt_pm_cz_mds_retail_send_email.html
+  screenshot: screenshots/p_2025_05_23_pt_pm_cz_mds_retail_send_email.png
+- id: d476c111-af49-4e6c-923c-eb8fc2c3a1c1
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 7889
+  total_delivered: 7832
+  total_opens: 4701
+  total_clicks: 102
+  open_rate: 0.5959
+  click_rate: 0.0129
+  total_revenue: 26296.59
+  total_bounces: 18
+  total_unsubscribes: 105
+  ga4:
+    sessions: 155
+    purchases: 1
+    revenue: 870.12
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.572758'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.022643'
+schedule_type: time_based

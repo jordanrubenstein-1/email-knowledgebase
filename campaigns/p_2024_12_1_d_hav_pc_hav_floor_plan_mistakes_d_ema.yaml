@@ -1,0 +1,57 @@
+id: b8525ba0-4149-4c9e-b76f-0847dfa9673c
+name: P_2024_12_1_D_HAV_PC_HAV_Floor_Plan_Mistakes_D_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: b8525ba0-4149-4c9e-b76f-0847dfa9673c
+dates:
+  send_date: '2024-12-01'
+  inferred_send_type: local_time
+  first_sent: '2024-11-30T17:22:35+00:00'
+  last_sent: '2024-12-01T18:15:05+00:00'
+tags: []
+sends:
+- id: 25482d64-d215-41b9-a5b4-779d7edc971a
+  channel: email
+  name: Variant 1
+  subject: 'The #1 layout mistake, per designers'
+  preheader: Truth bomb.
+  html_file: html/p_2024_12_1_d_hav_pc_hav_floor_plan_mistakes_d_email.html
+  screenshot: screenshots/p_2024_12_1_d_hav_pc_hav_floor_plan_mistakes_d_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6735125833d75e0065a8f892/original.gif?1731531352
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6749f849bce40f006775a4b6/original.gif?1732900937
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6749f83d37f9eb0064811c3b/original.gif?1732900925
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67351280797b4b0065550eba/original.gif?1731531391
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673512363e31b60065724a65/original.gif?1731531318
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6735123e1dc72e006563ff4b/original.gif?1731531326
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6735126a57a63f006630630a/original.gif?1731531370
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67351260a67dd60063e65b9c/original.gif?1731531360
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67351273e284510074bb9e85/original.jpg?1731531379
+- id: c54731c1-7104-43eb-80a6-e0b926b4a2a9
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 163815
+  total_delivered: 161769
+  total_opens: 75239
+  total_clicks: 1801
+  open_rate: 0.4593
+  click_rate: 0.011
+  total_bounces: 3
+  total_unsubscribes: 430
+  ga4:
+    sessions: 2665
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.726045'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.820386'
+schedule_type: time_based

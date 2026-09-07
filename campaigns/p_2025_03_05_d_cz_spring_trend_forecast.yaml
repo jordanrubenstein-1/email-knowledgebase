@@ -1,0 +1,59 @@
+id: ec5dc62a-491a-4025-b677-06e2e503b61e
+name: P_2025_03_05_D_CZ_Spring_Trend_Forecast
+brand: CZ
+channel: email
+category: editorial
+type: seasonal
+theme: spring
+braze_id: ec5dc62a-491a-4025-b677-06e2e503b61e
+dates:
+  send_date: '2025-03-05'
+  inferred_send_type: local_time
+  first_sent: '2025-03-05T01:15:29+00:00'
+  last_sent: '2025-03-05T17:02:03+00:00'
+tags: []
+sends:
+- id: d2011d13-384a-4f80-bd0c-35581741804a
+  channel: email
+  name: Variant 1
+  subject: Your Spring Trend Report 🌷
+  preheader: Fresh style in full bloom.
+  html_file: html/p_2025_03_05_d_cz_spring_trend_forecast.html
+  screenshot: screenshots/p_2025_03_05_d_cz_spring_trend_forecast.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c77ad24c948b0077ec443d/original.png?1741126353
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c77c4891e8cd0065ed5db0/original.png?1741126728
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c77c622a3d4e00658fbce7/original.png?1741126753
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c793871eb92c00650bdcba/original.png?1741132678
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c77a989663710066cea309/original.png?1741126296
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c77aa57190340065e4f6c8/original.png?1741126309
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c77adf2a3d4e00658fb73d/original.png?1741126367
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c77c589d55e800652b8f31/original.png?1741126743
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c77c6800b57d00640e8aee/original.png?1741126759
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c77c0d4c948b0067ec7578/original.png?1741126669
+- id: d6a85a43-3297-4e6e-800f-386da9ce2100
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 91173
+  total_delivered: 89849
+  total_opens: 47672
+  total_clicks: 481
+  open_rate: 0.5229
+  click_rate: 0.0053
+  total_revenue: 54090.86
+  total_bounces: 584
+  total_unsubscribes: 127
+  ga4:
+    sessions: 501
+    purchases: 3
+    revenue: 2594.26
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.945484'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.808800'
+schedule_type: time_based

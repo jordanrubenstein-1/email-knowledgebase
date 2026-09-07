@@ -1,0 +1,53 @@
+id: a863a8e5-7d51-4e7a-8e6d-3c42fc9ccccc
+name: P_EM_2026_02_21_CZ_D_PR_Entryway_Styling_Presidents_Day_Sale_With_STO
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: a863a8e5-7d51-4e7a-8e6d-3c42fc9ccccc
+dates:
+  send_date: '2026-02-21'
+  inferred_send_type: sto
+  first_sent: '2026-02-20T10:09:14+00:00'
+  last_sent: '2026-02-22T09:05:18+00:00'
+tags:
+- batch and blast
+- d2c
+- designed
+- gtl
+- sale
+- sale/presidentsday2026
+sends:
+- id: 310ef4c4-ea45-4c18-935a-41cc522aaded
+  channel: email
+  name: Variant 1
+  subject: First Impressions Are Everything
+  preheader: Curate a welcoming entryway, now up to 25% off.
+  html_file: html/p_em_2026_02_21_cz_d_pr_entryway_styling_presidents_day_sale.html
+  screenshot: screenshots/p_em_2026_02_21_cz_d_pr_entryway_styling_presidents_day_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6995f250fa8c5a006392d171/original.png?1771434576
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6995f09c1753be00633b16df/original.png?1771434139
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6995f27a8809350064e2d396/original.png?1771434618
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6995f1a8fa8c5a006392cf98/original.png?1771434407
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6995f1b3d29d52006583fb53/original.png?1771434418
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6995f29235d91900646b4d2e/original.png?1771434642
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6995f1ce73e402006361eb65/original.png?1771434445
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6995f24a238e42006343e03f/original.png?1771434569
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6995f1e11753be00633b1966/original.png?1771434465
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6995f2365d269600650da443/original.png?1771434550
+- id: 6fec70e1-a210-4ff2-8e3f-47e3c857fcc4
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 29091
+  total_delivered: 29045
+  total_opens: 14827
+  total_clicks: 376
+  open_rate: 0.5097
+  click_rate: 0.0129
+  total_bounces: 1
+  total_unsubscribes: 48
+_filename: p_em_2026_02_21_cz_d_pr_entryway_styling_presidents_day_sale.yaml
+schedule_type: time_based

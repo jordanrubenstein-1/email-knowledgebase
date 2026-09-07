@@ -1,0 +1,61 @@
+id: f3c67824-9e6f-495c-8524-10dfe0d22dde
+name: P_2024_11_27_PT_CZ_PP_Order_Update_Delay_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: f3c67824-9e6f-495c-8524-10dfe0d22dde
+dates:
+  send_date: '2024-11-27'
+  inferred_send_type: local_time
+  first_sent: '2024-11-26T21:48:38+00:00'
+  last_sent: '2024-11-27T19:05:19+00:00'
+tags: []
+sends:
+- id: e8974451-b915-4d04-8f96-04afe0cc2bbc
+  channel: email
+  name: Variant 1
+  subject: 'Order Update: New Shipping Window'
+  html_file: html/p_2024_11_27_pt_cz_pp_order_update_delay_email.html
+  screenshot: screenshots/p_2024_11_27_pt_cz_pp_order_update_delay_email.png
+- id: 2a1a737b-d37b-4232-a196-0bfa2b55fb54
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 183
+  total_delivered: 181
+  total_opens: 163
+  total_clicks: 0
+  open_rate: 0.8907
+  click_rate: 0.0
+  total_revenue: 455.0
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.160786'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-01'
+    discount: null
+    type: null
+  primary_sale:
+    id: cz-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-01'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:39.839532'
+schedule_type: time_based

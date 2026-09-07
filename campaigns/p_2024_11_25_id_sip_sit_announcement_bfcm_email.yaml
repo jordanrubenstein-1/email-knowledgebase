@@ -1,0 +1,61 @@
+id: b287a709-14b4-4c40-af42-24d29311d16f
+name: P_2024_11_25_ID_Sip_Sit_Announcement_BFCM_Email
+brand: ID
+channel: email
+category: sale_promo
+type: product_launch
+theme: black_friday
+braze_id: b287a709-14b4-4c40-af42-24d29311d16f
+dates:
+  send_date: '2024-11-25'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-25T21:48:29+00:00'
+  last_sent: '2024-11-25T21:49:41+00:00'
+tags: []
+sends:
+- id: 469b3ca9-744a-40a7-a563-283325a63a72
+  channel: email
+  name: Variant 1
+  subject: Champagne, shopping, and up to 25% off
+  preheader: Weekend plans? Stop by your local Interior Define!
+- id: cf6ce05d-90ea-444e-8087-897b08e80ad8
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 8419
+  total_delivered: 8387
+  total_opens: 4827
+  total_clicks: 153
+  open_rate: 0.5733
+  click_rate: 0.0182
+  total_revenue: 18830.0
+  total_unsubscribes: 11
+  ga4:
+    sessions: 236
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.752617'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-03'
+    discount: null
+    type: null
+  primary_sale:
+    id: id-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-03'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:38.796530'
+schedule_type: time_based

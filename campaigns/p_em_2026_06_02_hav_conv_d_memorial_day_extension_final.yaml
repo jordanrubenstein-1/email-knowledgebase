@@ -1,0 +1,35 @@
+id: 22823915-752c-4701-8738-7897b449dcb1
+name: P_EM_2026_06_02_HAV_CONV_D_Memorial_Day_Extension_Final
+brand: HAV
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 22823915-752c-4701-8738-7897b449dcb1
+dates:
+  send_date: '2026-06-02'
+  first_sent: '2026-06-01T18:08:24+00:00'
+  last_sent: '2026-06-02T17:03:23+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: e1d72b9f-b32a-41dc-8fd2-8aa3b0973d2c
+  channel: email
+  name: Variant 1
+  subject: One last chance to save more
+  preheader: Memorial Day savings end tonight.
+- id: 08f26440-0f0c-4515-88d0-738f6d72ad6f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41860
+  total_delivered: 41728
+  total_opens: 19344
+  total_clicks: 73
+  open_rate: 0.4621
+  click_rate: 0.0017
+  total_bounces: 2
+  total_unsubscribes: 51
+schedule_type: time_based
+_filename: p_em_2026_06_02_hav_conv_d_memorial_day_extension_final.yaml

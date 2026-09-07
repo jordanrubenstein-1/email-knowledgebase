@@ -1,0 +1,35 @@
+id: 8843f8b7-b2b9-4a19-8c67-daf233c4b1b0
+name: P_EM_2026_01_23_HAV_PC_D_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 8843f8b7-b2b9-4a19-8c67-daf233c4b1b0
+dates:
+  send_date: '2026-01-23'
+  first_sent: '2026-01-22T23:20:29+00:00'
+  last_sent: '2026-01-23T19:03:16+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 54c3176a-d308-4262-bb7f-a2e56180b295
+  channel: email
+  name: Variant 1
+  subject: A Little Refresh Goes a Long Way
+  preheader: Especially when it’s on sale, shop now.
+- id: 48ad2f0c-4977-4218-90ff-4e795ba6ae79
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 207287
+  total_delivered: 205320
+  total_opens: 80754
+  total_clicks: 418
+  open_rate: 0.3896
+  click_rate: 0.002
+  total_bounces: 1037
+  total_unsubscribes: 522
+schedule_type: time_based
+_filename: p_em_2026_01_23_hav_pc_d_sale_reminder.yaml

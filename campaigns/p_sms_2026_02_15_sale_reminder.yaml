@@ -1,0 +1,21 @@
+id: f63f730b-fcec-482b-bb40-9f6c11ee0b62
+name: P_SMS_2026_02_15_Sale_Reminder
+brand: STF
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: f63f730b-fcec-482b-bb40-9f6c11ee0b62
+dates:
+  send_date: '2026-02-15'
+  last_sent: '2026-02-15'
+tags: []
+sends:
+- id: df6922bf-5985-4920-9ff2-0b06f6c1762e
+  channel: sms
+  name: Variant 1
+- id: 4254b520-20d8-4bb3-973a-b1a99b260b68
+  channel: sms
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based

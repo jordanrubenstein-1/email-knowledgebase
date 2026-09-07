@@ -1,0 +1,64 @@
+id: 3f804ddf-f0b6-4043-a79d-4a54de4eed8d
+name: P_EM_2025_07_11_SF_D_PR_En_Route
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 3f804ddf-f0b6-4043-a79d-4a54de4eed8d
+dates:
+  send_date: '2025-07-11'
+  inferred_send_type: local_time
+  first_sent: '2025-07-10T23:58:25+00:00'
+  last_sent: '2025-07-11T17:00:52+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- stl
+sends:
+- id: 8255e346-0b40-4121-ad55-7e4fdbc1f7a4
+  channel: email
+  name: Variant 1
+  subject: Ready for Check-In
+  preheader: give your guest room the five-star treatment.
+  html_file: html/p_em_2025_07_11_sf_d_pr_en_route.html
+  screenshot: screenshots/p_em_2025_07_11_sf_d_pr_en_route.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687015692998c80066af1141/original.png?1752175976
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687015e90a53500075dcf39d/original.png?1752176104
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687016bbfb8ad50082645e0f/original.png?1752176315
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6870168cbca8560085abbc1c/original.png?1752176267
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687016977e9351007472d812/original.png?1752176279
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686d653e75e4ec0065aff3bd/original.png?1751999806
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686d657573203c00763300dc/original.png?1751999861
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687015d2ae9bbe0067b0136e/original.png?1752176081
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686d65a68ffcc200650f1f6f/original.png?1751999910
+- id: 8adf7fb2-b657-47f9-9323-3575303aca26
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39674
+  total_delivered: 39206
+  total_opens: 17467
+  total_clicks: 231
+  open_rate: 0.4403
+  click_rate: 0.0058
+  total_revenue: 3175.0
+  total_bounces: 1
+  total_unsubscribes: 79
+  ga4:
+    sessions: 233
+    purchases: 3
+    revenue: 421.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.749047'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.911573'
+schedule_type: time_based

@@ -1,0 +1,37 @@
+id: dc0fbb1b-deb2-4fc7-a453-db8eb14a9c41
+name: P_SMS_2025_09_30_CZ_Weekender_Sale_Last_Chance_SMS
+brand: CZ
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: dc0fbb1b-deb2-4fc7-a453-db8eb14a9c41
+dates:
+  send_date: '2025-09-30'
+  inferred_send_type: local_time
+  first_sent: '2025-09-30T03:47:58+00:00'
+  last_sent: '2025-10-01T01:01:00+00:00'
+tags: []
+sends:
+- id: 89bfdd15-2162-42e8-8293-53cae35bc48f
+  channel: sms
+  name: Variant 1
+- id: 7216b4a8-f6f1-4db7-baf8-3025262ffab1
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 21464
+  total_delivered: 20726
+  total_opens: 0
+  total_clicks: 242
+  open_rate: 0.0
+  click_rate: 0.0113
+  ga4:
+    sessions: 183
+    purchases: 2
+    revenue: 422.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.756712'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

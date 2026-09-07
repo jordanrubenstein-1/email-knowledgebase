@@ -1,0 +1,74 @@
+id: 233bd059-f0a8-4e43-b51c-9858c82281eb
+name: 20250104_Accent-Highlight
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 233bd059-f0a8-4e43-b51c-9858c82281eb
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-01-03T17:20:18+00:00'
+  last_sent: '2025-01-04T17:15:15+00:00'
+tags: []
+sends:
+- id: ac06e31e-614e-49cf-9c0d-3682eacb77ef
+  channel: email
+  name: Variant 1
+  subject: Get to know our accent seating collections
+  preheader: Take a seat.
+- id: bd48ad1f-ca38-4f44-a261-d43b529c40e6
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 385
+    purchases: 2
+    revenue: 2437.51
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.650479'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  - id: bur-end-of-year-sale-extension-2025-01-01
+    name: End of Year Sale (EXTENSION)
+    start_date: '2024-12-20'
+    end_date: '2025-01-05'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:32.546267'
+schedule_type: time_based

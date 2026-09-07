@@ -1,0 +1,53 @@
+id: 543dc9c2-b5e5-41e8-9ae8-f79f5183ea13
+name: P_EM_2026_01_07_SF_D_PR_2026_Trend_Report
+brand: STF
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 543dc9c2-b5e5-41e8-9ae8-f79f5183ea13
+dates:
+  send_date: '2026-01-07'
+  inferred_send_type: local_time
+  first_sent: '2026-01-06T22:29:33+00:00'
+  last_sent: '2026-01-07T17:01:31+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: 15fd50cd-5db8-449a-b0dd-9c7d810a9ca6
+  channel: email
+  name: Variant 1
+  subject: All the rage for 2026
+  preheader: a first look at what’s next.
+  html_file: html/p_em_2026_01_07_sf_d_pr_2026_trend_report.html
+  screenshot: screenshots/p_em_2026_01_07_sf_d_pr_2026_trend_report.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/695cfb7862b8010065113b4b/original.gif?1767701368
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/695cfb92fffa8b00643650e1/original.png?1767701394
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/695cfb87f661490073e439f9/original.png?1767701383
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/695cfb9c4aea620064dfca35/original.png?1767701404
+- id: 26a16e2e-dec9-4a68-9932-5e3e2f200599
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 38801
+  total_delivered: 38674
+  total_opens: 14693
+  total_clicks: 176
+  open_rate: 0.3787
+  click_rate: 0.0045
+  total_unsubscribes: 62
+  ga4:
+    sessions: 164
+    purchases: 2
+    revenue: 1209.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.732755'
+    source: snowflake
+    channel: email
+schedule_type: time_based

@@ -1,0 +1,49 @@
+id: 7bce1cec-d6a7-4db8-9cde-ce776be0de47
+name: TRG_EM_2026_04_ID_PT_Swatch_Personalized_T7_V1
+brand: ID
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 9ac09497-6f79-498b-b320-e44a784c3340
+canvas_name: Swatch Post Purchase
+flow_type: post_purchase
+sequence_position: 7
+subject: '{%- assign style = canvas_entry_properties.design_style | default: ''''
+  -%}{%- if style contains ''Modern'' -%}{%- assign style_label = ''modern'' -%}{%-
+  elsif style contains ''Classic'' -%}{%- assign style_label = ''classic'' -%}{%-
+  elsif style contains ''Eclectic'' -%}{%- assign style_label = ''eclectic'' -%}{%-
+  elsif style contains ''Minimalist'' -%}{%- assign style_label = ''minimalist'' -%}{%-
+  elsif style contains ''Family-Friendly'' -%}{%- assign style_label = ''family-friendly''
+  -%}{%- else -%}{%- assign style_label = '''' -%}{%- endif -%}{%- if style_label
+  != '''' -%}Your {{style_label}} space is coming together{%- else -%}Your space is
+  coming together{%- endif -%}'
+preheader: ''
+sends:
+- id: 7bce1cec-d6a7-4db8-9cde-ce776be0de47
+  channel: email
+  name: TRG_EM_2026_04_ID_PT_Swatch_Personalized_T7_V1
+  subject: '{%- assign style = canvas_entry_properties.design_style | default: ''''
+    -%}{%- if style contains ''Modern'' -%}{%- assign style_label = ''modern'' -%}{%-
+    elsif style contains ''Classic'' -%}{%- assign style_label = ''classic'' -%}{%-
+    elsif style contains ''Eclectic'' -%}{%- assign style_label = ''eclectic'' -%}{%-
+    elsif style contains ''Minimalist'' -%}{%- assign style_label = ''minimalist''
+    -%}{%- elsif style contains ''Family-Friendly'' -%}{%- assign style_label = ''family-friendly''
+    -%}{%- else -%}{%- assign style_label = '''' -%}{%- endif -%}{%- if style_label
+    != '''' -%}Your {{style_label}} space is coming together{%- else -%}Your space
+    is coming together{%- endif -%}'
+  preheader: ''
+  html_file: html/canvas-swatch-post-purchase-t7-7bce1cec.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-04-28T21:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 21448
+  total_delivered: 21225
+  total_opens: 9155
+  total_clicks: 106
+  open_rate: 0.4268
+  click_rate: 0.0049
+  total_unsubscribes: 118
+  total_revenue: 282569.92

@@ -1,0 +1,81 @@
+id: 62a4287d-bc18-492b-9ded-ce0f05b681c7
+name: P_EM_2025_08_25_SF_D_PR_Destination_Tuscany
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 62a4287d-bc18-492b-9ded-ce0f05b681c7
+dates:
+  send_date: '2025-08-25'
+  inferred_send_type: local_time
+  first_sent: '2025-08-24T18:05:53+00:00'
+  last_sent: '2025-08-25T17:00:21+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- dest
+- sale
+sends:
+- id: 81e22596-7664-4028-8027-8bcc86d7842b
+  channel: email
+  name: Variant 1
+  subject: Tuscany, Without the Travel
+  preheader: bring home sunlit elegance and effortless style
+  html_file: html/p_em_2025_08_25_sf_d_pr_destination_tuscany.html
+  screenshot: screenshots/p_em_2025_08_25_sf_d_pr_destination_tuscany.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a8c8ce63d82a00957c7ece/original.png?1755891918
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a8c92087fe7a00653c92a5/original.png?1755891999
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a8c95677dc630097280d6a/original.png?1755892054
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a8c93d5936d70067aa5d22/original.png?1755892029
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a8c943ff055d006616b6aa/original.png?1755892035
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a8c9605a160500665ff371/original.png?1755892064
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a8c9c577dc63006728164b/original.png?1755892165
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a8c94e624a260096e7637e/original.png?1755892046
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a8c9bcff055d006616bd60/original.png?1755892155
+- id: 0b6270e1-9bc9-4471-b779-c9177486e19e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 40611
+  total_delivered: 40423
+  total_opens: 18191
+  total_clicks: 225
+  open_rate: 0.4479
+  click_rate: 0.0055
+  total_revenue: 17756.0
+  total_bounces: 3
+  total_unsubscribes: 100
+  ga4:
+    sessions: 257
+    purchases: 4
+    revenue: 917.69
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.964175'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-the-labor-day-event-2025-08-21
+    name: The Labor Day Event
+    start_date: '2025-08-21'
+    end_date: '2025-09-04'
+    discount: 25% off Sitewide
+    type: null
+  primary_sale:
+    id: stf-the-labor-day-event-2025-08-21
+    name: The Labor Day Event
+    start_date: '2025-08-21'
+    end_date: '2025-09-04'
+    discount: 25% off Sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 25% off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:39.835199'
+schedule_type: time_based

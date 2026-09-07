@@ -1,0 +1,30 @@
+id: 081f877b-70a8-43ae-aea0-281737965a4a
+name: 20250811_Sunset_Sale_Reminder_SMS
+brand: BUR
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: 081f877b-70a8-43ae-aea0-281737965a4a
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-08-11T02:08:12+00:00'
+  last_sent: '2025-08-12T01:00:14+00:00'
+tags: []
+sends:
+- id: 8690c3f8-0aaa-4fdd-a827-b1f56d1426e0
+  channel: other
+  name: Variant 1
+- id: 86494c6c-0458-455d-a570-710715d77e03
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 133
+    purchases: 2
+    revenue: 3665.88
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.552463'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

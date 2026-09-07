@@ -1,0 +1,61 @@
+id: cd9d311b-1e42-4841-886b-a1a23ea770b8
+name: P_EM_2025_09_01_ID_PT_PM_Labor_Day_Reminder_Cart_Abandoners
+brand: ID
+channel: email
+category: reminder
+type: lifecycle
+theme: null
+braze_id: cd9d311b-1e42-4841-886b-a1a23ea770b8
+dates:
+  send_date: '2025-09-01'
+  inferred_send_type: local_time
+  first_sent: '2025-09-01T03:21:07+00:00'
+  last_sent: '2025-09-02T02:15:03+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 92f890ef-2ff0-4c02-aff2-d2f8b9fa06a2
+  channel: email
+  name: Variant 1
+  subject: 'Time’s running out: your discounted cart expires soon'
+- id: 513f6925-4b4f-4b21-8a4f-5e4efe5de268
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 3529
+  total_delivered: 3496
+  total_opens: 1773
+  total_clicks: 27
+  open_rate: 0.5024
+  click_rate: 0.0077
+  total_revenue: 43110.0
+  total_unsubscribes: 16
+  ga4:
+    sessions: 27
+    purchases: 1
+    revenue: 491.21
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.804240'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-04'
+    discount: 25% off sitewide
+    type: null
+  primary_sale:
+    id: id-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-04'
+    discount: 25% off sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 25% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:39.371363'
+schedule_type: time_based

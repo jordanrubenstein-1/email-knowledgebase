@@ -1,0 +1,39 @@
+id: 9779324e-46e7-4534-8bd6-514c9a9810e4
+name: P_2024_2_10_D_SF_Rug_Survey_Email
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 9779324e-46e7-4534-8bd6-514c9a9810e4
+dates:
+  send_date: '2024-02-10'
+  inferred_send_type: local_time
+  first_sent: '2025-02-09T17:08:43+00:00'
+  last_sent: '2025-02-10T17:00:26+00:00'
+tags: []
+sends:
+- id: b206fd55-075f-49fb-95ee-b3928bcf32e8
+  channel: email
+  name: Variant 1
+  subject: We want to hear from you
+  preheader: Share your feedback for a chance to win a Havenly gift card.
+  html_file: html/p_2024_2_10_d_sf_rug_survey_email.html
+  screenshot: screenshots/p_2024_2_10_d_sf_rug_survey_email.png
+- id: 341c6428-8ec5-4a1d-a335-a93ff9fe0807
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.952463'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.410315'
+schedule_type: time_based

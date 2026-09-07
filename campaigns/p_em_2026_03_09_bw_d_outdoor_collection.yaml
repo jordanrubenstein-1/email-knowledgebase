@@ -1,0 +1,35 @@
+id: 658923d6-df7f-4eac-a0a5-cb0742816771
+name: P_EM_2026_03_09_BW_D_Outdoor_Collection
+brand: BUR
+channel: email
+category: product_launch
+type: announcement
+theme: null
+braze_id: 658923d6-df7f-4eac-a0a5-cb0742816771
+dates:
+  send_date: '2026-03-09'
+  inferred_send_type: scheduled
+  first_sent: '2026-03-09T20:09:40+00:00'
+  last_sent: '2026-03-09T20:12:08+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 16a72543-aa2b-4eb6-8ea9-e6bdf8795ab8
+  channel: email
+  name: Variant 1
+  subject: New Outdoor Has Arrived
+  preheader: Meet Cove, Benji, and Scout. Fresh arrivals made for outdoor season.
+- id: 631c87d6-67c0-4b29-bfaa-76ae449103f5
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 233747
+  total_delivered: 232538
+  total_opens: 125040
+  total_clicks: 698
+  open_rate: 0.5349
+  click_rate: 0.003
+  total_revenue: 47021.0
+  total_bounces: 3
+  total_unsubscribes: 175
+schedule_type: time_based

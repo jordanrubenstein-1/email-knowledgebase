@@ -1,0 +1,33 @@
+id: 620fc1c7-007b-4164-b894-a68415f79c53
+name: P_EM_2026_07_28_BW_PT_Summer_Sale_Quick_Ship
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: summer
+braze_id: 620fc1c7-007b-4164-b894-a68415f79c53
+dates:
+  send_date: '2026-07-28'
+  last_sent: '2026-07-28'
+tags:
+- Batch&Blast
+sends:
+- id: 316c6a84-88c5-437f-aa38-cef073f495dc
+  channel: email
+  name: Variant 1
+  subject: On sale and on its way fast
+- id: 0a288726-22eb-4671-b87a-bdd48205a462
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 98616
+  total_delivered: 98365
+  total_opens: 39468
+  total_clicks: 762
+  open_rate: 0.4002
+  click_rate: 0.0077
+  total_revenue: 105040.0
+  total_bounces: 6
+  total_unsubscribes: 270
+schedule_type: time_based
+_filename: p_em_2026_07_28_bw_pt_summer_sale_quick_ship.yaml

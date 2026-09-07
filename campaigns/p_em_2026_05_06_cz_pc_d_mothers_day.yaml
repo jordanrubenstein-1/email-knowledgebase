@@ -1,0 +1,51 @@
+id: 6de39e14-dde2-49ad-98a8-402d5c438647
+name: P_EM_2026_05_06_CZ_PC_D_Mothers_Day
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 6de39e14-dde2-49ad-98a8-402d5c438647
+dates:
+  send_date: '2026-05-06'
+  last_sent: '2026-05-06'
+tags:
+- batch and blast
+- d2c
+- designed
+- event
+- sale
+- sale/sleepsale2026
+sends:
+- id: f022ff8b-db52-4e3e-a262-368e7176342d
+  channel: email
+  name: Variant 1
+  subject: Give something heirloom-worthy this Mother's Day
+  preheader: Shop early. 25% off during the Memorial Day Sale.
+  html_file: html/p_em_2026_05_06_cz_pc_d_mothers_day.html
+  screenshot: screenshots/p_em_2026_05_06_cz_pc_d_mothers_day.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f8b27a547a1e007f2b699b/original.png?1777906298
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f8b24b860332007d7def9e/original.png?1777906250
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69fdd215d7bf960083c181bf/original.png?1778242068
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69fb8b28dac19700826342da/original.png?1778092840
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f8b2534d54aa007dcab418/original.png?1777906259
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f8b271769320007ead699c/original.png?1777906289
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69fb746c90b0bb0081abe23c/original.png?1778087019
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69fb8af966313c0083c35298/original.png?1778092793
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69fdd2056922e700838fa62f/original.png?1778242052
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69fb744c917f8f00835f2463/original.png?1778086987
+- id: 4928b715-ae68-42fc-bf05-afb0c92c28dc
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 42323
+  total_delivered: 42264
+  total_opens: 21500
+  total_clicks: 485
+  open_rate: 0.508
+  click_rate: 0.0115
+  total_bounces: 1
+  total_unsubscribes: 73
+_filename: p_em_2026_05_06_cz_pc_d_mothers_day.yaml
+schedule_type: time_based

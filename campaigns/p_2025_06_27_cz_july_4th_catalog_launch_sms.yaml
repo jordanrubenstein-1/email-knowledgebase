@@ -1,0 +1,38 @@
+id: 4f88c6b9-f4cf-4c7c-b692-8ab95e2534de
+name: P_2025_06_27_CZ_July_4th_Catalog_Launch_SMS
+brand: CZ
+channel: sms
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 4f88c6b9-f4cf-4c7c-b692-8ab95e2534de
+dates:
+  send_date: '2025-06-27'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-27T19:44:39+00:00'
+  last_sent: '2025-06-27T19:45:23+00:00'
+tags: []
+sends:
+- id: b6c1095d-c1cf-406d-bd33-cbb2c52e8dc7
+  channel: other
+  name: Variant 1
+- id: e37c3e35-a53f-4719-a0e5-65b0dafe7b0c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 23797
+  total_delivered: 22099
+  total_opens: 0
+  total_clicks: 301
+  open_rate: 0.0
+  click_rate: 0.0126
+  total_revenue: 11644.44
+  ga4:
+    sessions: 321
+    purchases: 1
+    revenue: 405.28
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.535263'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

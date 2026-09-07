@@ -1,0 +1,47 @@
+id: 80550446-8aa6-4b72-9ecf-968a94acc64c
+name: P_EM_2025_08_15_ID_D_Friday_Retail
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 80550446-8aa6-4b72-9ecf-968a94acc64c
+dates:
+  send_date: '2025-08-15'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-15T19:58:02+00:00'
+  last_sent: '2025-08-15T20:00:33+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 3864dc1c-df3f-4a16-bc27-1b6f0176023f
+  channel: email
+  name: Variant 1
+  subject: Free Design Help? Exclusive Discounts? Yes, Please.
+  preheader: Book your session with our design experts (spots are going fast).
+- id: b2137b27-c293-4d6d-bd74-4765c438ac6e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 81198
+  total_delivered: 80820
+  total_opens: 36894
+  total_clicks: 312
+  open_rate: 0.4544
+  click_rate: 0.0038
+  total_revenue: 81930.0
+  total_bounces: 2
+  total_unsubscribes: 212
+  ga4:
+    sessions: 378
+    purchases: 1
+    revenue: 2654.65
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.218915'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.757110'
+schedule_type: time_based

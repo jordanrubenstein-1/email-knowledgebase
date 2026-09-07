@@ -1,0 +1,36 @@
+id: fda20ce4-5c71-4a6e-acf8-2ad7e32a2af8
+name: P_EM_2026_05_13_ID_PC_D_TRADE_ID_CZ_Memorial_Day_Sale_Is_Live
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: fda20ce4-5c71-4a6e-acf8-2ad7e32a2af8
+dates:
+  send_date: '2026-05-13'
+  inferred_send_type: local_time
+  first_sent: '2026-05-12T23:01:50+00:00'
+  last_sent: '2026-05-13T19:02:39+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 503bb5c6-adce-4851-9bed-6213e0aa9773
+  channel: email
+  name: Variant 1
+  subject: Your Memorial Day savings won’t last long
+  preheader: Shop exclusive trade pricing before the event wraps.
+- id: 38af7c8a-9fb1-45f1-b641-3c1043d712a6
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 22097
+  total_delivered: 21408
+  total_opens: 10210
+  total_clicks: 135
+  open_rate: 0.4621
+  click_rate: 0.0061
+  total_revenue: 82602.99
+  total_bounces: 6
+  total_unsubscribes: 40
+_filename: p_em_2026_05_13_id_pc_d_trade_id_cz_memorial_day_sale_is_liv.yaml
+schedule_type: time_based

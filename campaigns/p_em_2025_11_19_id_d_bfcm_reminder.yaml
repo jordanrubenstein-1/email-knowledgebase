@@ -1,0 +1,69 @@
+id: f0e8b715-0489-434f-8ed9-5c85d001ce70
+name: P_EM_2025_11_19_ID_D_BFCM_Reminder
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: black_friday
+braze_id: f0e8b715-0489-434f-8ed9-5c85d001ce70
+dates:
+  send_date: '2025-11-19'
+  inferred_send_type: local_time
+  first_sent: '2025-11-18T22:16:53+00:00'
+  last_sent: '2025-11-19T17:15:27+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: f81795b3-8f54-4ad7-a042-58d3abd4cc1e
+  channel: email
+  name: Variant 1
+  subject: 'HAPPENING NOW: UP TO 30% OFF'
+  preheader: Shop the Black Friday Event
+- id: 5fe34ebd-55b7-49dd-8e20-9247b0184bf4
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 136411
+  total_delivered: 133681
+  total_opens: 57705
+  total_clicks: 676
+  open_rate: 0.423
+  click_rate: 0.005
+  total_revenue: 245361.64
+  total_bounces: 4
+  total_unsubscribes: 178
+  ga4:
+    sessions: 787
+    purchases: 5
+    revenue: 11727.48
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.171109'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-black-friday-cyber-monday-2025-11-13
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-11'
+    end_date: '2025-12-02'
+    discount: "25% Off $2999<\n30% Off $3000\nIncluding In Stock\n\nBlack Friday to\
+      \ Cyber Monday Only \n25% Off $2999<\n30% Off $3000-$3999\n35% Off $4000+\n\
+      Including In Stock"
+    type: null
+  primary_sale:
+    id: id-black-friday-cyber-monday-2025-11-13
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-11'
+    end_date: '2025-12-02'
+    discount: "25% Off $2999<\n30% Off $3000\nIncluding In Stock\n\nBlack Friday to\
+      \ Cyber Monday Only \n25% Off $2999<\n30% Off $3000-$3999\n35% Off $4000+\n\
+      Including In Stock"
+    type: null
+  sale_name: Black Friday / Cyber Monday
+  sale_discount: "25% Off $2999<\n30% Off $3000\nIncluding In Stock\n\nBlack Friday\
+    \ to Cyber Monday Only \n25% Off $2999<\n30% Off $3000-$3999\n35% Off $4000+\n\
+    Including In Stock"
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:43.535781'
+schedule_type: time_based

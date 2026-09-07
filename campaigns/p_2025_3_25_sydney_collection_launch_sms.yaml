@@ -1,0 +1,30 @@
+id: 58991bd1-ad54-4740-a173-d815d60c2eec
+name: P_2025_3_25_Sydney_Collection_Launch_SMS
+brand: ID
+channel: sms
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 58991bd1-ad54-4740-a173-d815d60c2eec
+dates:
+  send_date: '2025-03-25'
+  inferred_send_type: scheduled
+  first_sent: '2025-03-25T17:35:16+00:00'
+  last_sent: '2025-03-25T17:37:21+00:00'
+tags: []
+sends:
+- id: cd8fc8fe-a2fd-47d6-8a2e-f504753a1a98
+  channel: other
+  name: Variant 1
+- id: 0aa95930-d348-40d3-bfb9-b7e85326eb9a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 60285
+  total_delivered: 56743
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 30267.5
+schedule_type: time_based

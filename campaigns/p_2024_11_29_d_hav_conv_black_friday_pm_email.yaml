@@ -1,0 +1,33 @@
+id: c756824b-b20d-4ff0-b8f4-498a9af0b9ac
+name: P_2024_11_29_D_HAV_Conv_Black_Friday_PM_Email
+brand: HAV
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: c756824b-b20d-4ff0-b8f4-498a9af0b9ac
+dates:
+  send_date: '2024-11-29'
+  first_sent: '2024-11-29T19:57:01+00:00'
+  last_sent: '2024-11-30T02:15:11+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 2b2fe4a4-e72c-4822-b45b-62aa17da7cab
+  channel: email
+  name: Variant 1
+  subject: Don’t Have Black Friday FOMO
+  preheader: Up to 80% off + an extra 5% off select items!
+- id: b5837585-a38c-4754-86c8-ded84f90979b
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 18629
+  total_delivered: 18617
+  total_opens: 10969
+  total_clicks: 229
+  open_rate: 0.5888
+  click_rate: 0.0123
+  total_unsubscribes: 33
+schedule_type: time_based
+_filename: p_2024_11_29_d_hav_conv_black_friday_pm_email.yaml

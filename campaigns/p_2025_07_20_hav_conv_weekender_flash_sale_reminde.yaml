@@ -1,0 +1,49 @@
+id: 5a92feb8-9c23-4ddd-b4df-bbe9c69fb75b
+name: P_2025_07_20_HAV_Conv_Weekender_Flash_Sale_Reminder_PT
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 5a92feb8-9c23-4ddd-b4df-bbe9c69fb75b
+dates:
+  send_date: '2025-07-20'
+  inferred_send_type: local_time
+  first_sent: '2025-07-19T18:22:23+00:00'
+  last_sent: '2025-07-20T17:15:14+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 7b19ce33-d4c9-49bc-8ff7-f20bb2d7d3fc
+  channel: email
+  name: Variant 1
+  subject: 'RE: Our Weekender Flash Sale'
+  html_file: html/p_2025_07_20_hav_conv_weekender_flash_sale_reminder_pt.html
+  screenshot: screenshots/p_2025_07_20_hav_conv_weekender_flash_sale_reminder_pt.png
+  image_urls:
+  - https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/c731630f24214e43807c7369ca8ebacd/Havenly_Wordmark_RGB_Charcoal_Brown%20%281%29.png
+- id: 9dfa2947-1c05-4393-a261-9a36240a7389
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 40600
+  total_delivered: 40516
+  total_opens: 22652
+  total_clicks: 275
+  open_rate: 0.5579
+  click_rate: 0.0068
+  total_bounces: 1
+  total_unsubscribes: 53
+  ga4:
+    sessions: 312
+    purchases: 1
+    revenue: 758.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:48.943177'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.896330'
+schedule_type: time_based

@@ -1,0 +1,75 @@
+id: 324297b8-dc52-4ca2-b599-3ea2405d9533
+name: P_EM_2025_08_04_BW_D_Modularity_Resend
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 324297b8-dc52-4ca2-b599-3ea2405d9533
+dates:
+  send_date: '2025-08-04'
+  inferred_send_type: local_time
+  first_sent: '2025-08-03T23:24:17+00:00'
+  last_sent: '2025-08-04T17:15:24+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: e8dc9073-d911-4a60-bf6f-15936cdb069f
+  channel: email
+  name: Variant 1
+  subject: Get modular with it
+  preheader: Seating that shifts with your space
+- id: c3b5094c-c3b8-41ce-a3e9-07718d5feb3b
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 247622
+  total_delivered: 247095
+  total_opens: 143374
+  total_clicks: 406
+  open_rate: 0.579
+  click_rate: 0.0016
+  total_revenue: 10895.5
+  total_bounces: 6
+  total_unsubscribes: 303
+  ga4:
+    sessions: 175
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.863068'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:35.349493'
+schedule_type: time_based

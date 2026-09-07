@@ -1,0 +1,34 @@
+id: ea310f85-f833-4191-82a1-affd3fd77f90
+name: P_EM_2026_03_07_ID_D_PR_Outdoor_Resend
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: ea310f85-f833-4191-82a1-affd3fd77f90
+dates:
+  send_date: '2026-03-07'
+  inferred_send_type: local_time
+  first_sent: '2026-03-06T23:50:21+00:00'
+  last_sent: '2026-03-07T19:01:46+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 97bc7f45-b7c7-46e2-94a3-f932b1e6fbfb
+  channel: email
+  name: Variant 1
+  subject: YOUR outdoor space is ready for a refresh
+  preheader: 'Get ready for warmer weather. '
+- id: e408cf21-c649-4061-8321-0c8525fb9e0d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 19940
+  total_delivered: 19689
+  total_opens: 8444
+  total_clicks: 56
+  open_rate: 0.4235
+  click_rate: 0.0028
+  total_bounces: 2
+  total_unsubscribes: 14
+schedule_type: time_based

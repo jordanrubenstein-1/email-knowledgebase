@@ -1,0 +1,63 @@
+id: c2a790f2-bf18-412e-80dd-2edcefc4149e
+name: P_EM_2025_07_25_ID_D_Statement_Seating_EA
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: c2a790f2-bf18-412e-80dd-2edcefc4149e
+dates:
+  send_date: '2025-07-25'
+  inferred_send_type: scheduled
+  first_sent: '2025-07-25T07:00:20+00:00'
+  last_sent: '2025-07-25T17:15:14+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: bb47f9f4-d5bb-4e7f-8d17-2168693a832c
+  channel: email
+  name: Variant 1
+  subject: Steal the Scene
+  preheader: Statement chairs that do more than sit pretty.
+- id: ca260e4a-f7bb-40ea-87c3-25925311afb0
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 116765
+  total_delivered: 116586
+  total_opens: 52275
+  total_clicks: 673
+  open_rate: 0.4477
+  click_rate: 0.0058
+  total_revenue: 98517.0
+  total_bounces: 2
+  total_unsubscribes: 286
+  ga4:
+    sessions: 748
+    purchases: 3
+    revenue: 8550.61
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.914328'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-the-summer-sale-2025-07-24
+    name: The Summer Sale
+    start_date: '2025-07-24'
+    end_date: '2025-07-31'
+    discount: 20% off sitewide
+    type: null
+  primary_sale:
+    id: id-the-summer-sale-2025-07-24
+    name: The Summer Sale
+    start_date: '2025-07-24'
+    end_date: '2025-07-31'
+    discount: 20% off sitewide
+    type: null
+  sale_name: The Summer Sale
+  sale_discount: 20% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:40.630921'
+schedule_type: time_based

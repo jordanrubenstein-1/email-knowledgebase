@@ -1,0 +1,31 @@
+id: 8eca4013-2f3d-4ec3-a146-5088189de6fb
+name: P_PUSH_2026_04_15_HAV_PC_April_Reset_Sale_Reminder
+brand: HAV
+channel: push
+category: reminder
+type: sale
+theme: null
+braze_id: 8eca4013-2f3d-4ec3-a146-5088189de6fb
+dates:
+  send_date: '2026-04-15'
+  first_sent: '2026-04-15T21:00:18+00:00'
+  last_sent: '2026-04-15T21:00:50+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 5f243085-97c4-49fa-a873-869f1d6d727b
+  channel: push
+  name: Variant 1
+- id: 6e3b66cc-1f86-42fb-a93b-51247d35df34
+  channel: push
+  name: Control Group
+performance_summary:
+  total_sends: 66536
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_bounces: 269
+schedule_type: time_based
+_filename: p_push_2026_04_15_hav_pc_april_reset_sale_reminder.yaml

@@ -1,0 +1,62 @@
+id: 6d4f0ff3-2393-4418-945f-960c51439e7e
+name: P_2024_11_15_ID_BFCM_Sale_Announcement_Email
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: black_friday
+braze_id: 6d4f0ff3-2393-4418-945f-960c51439e7e
+dates:
+  send_date: '2024-11-15'
+  inferred_send_type: local_time
+  first_sent: '2024-11-15T01:46:58+00:00'
+  last_sent: '2024-11-15T17:15:02+00:00'
+tags: []
+sends:
+- id: 8dc721f3-2846-48c1-b09c-24cae4ae64be
+  channel: email
+  name: Variant 1
+  subject: 'It’s (Finally) Here: The Black Friday Event'
+  preheader: Get up to 25% off sitewide.
+- id: ce44b670-25e2-4fa5-9ad1-2811162fdb77
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 66134
+  total_delivered: 65663
+  total_opens: 21977
+  total_clicks: 1140
+  open_rate: 0.3323
+  click_rate: 0.0172
+  total_revenue: 277889.5
+  total_bounces: 1
+  total_unsubscribes: 93
+  ga4:
+    sessions: 2122
+    purchases: 20
+    revenue: 51846.22
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.217267'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-03'
+    discount: null
+    type: null
+  primary_sale:
+    id: id-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-03'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:32.751291'
+schedule_type: time_based

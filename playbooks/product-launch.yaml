@@ -1,0 +1,88 @@
+# Product Launch Playbook
+# Patterns for announcing and promoting new products
+
+id: product-launch
+name: "Product Launch Campaign"
+description: "Multi-phase approach to launching new products"
+channels: [email, sms, push]
+
+variants:
+
+  standard-launch:
+    duration: "7 days"
+    phases:
+      - phase: "Teaser"
+        days: [-3, -1]
+        description: "Build anticipation before launch"
+        sends:
+          - day: -3
+            channel: email
+            purpose: teaser
+            subject_pattern: "Something New Is Coming..."
+            notes: "Mystery, intrigue - don't reveal the product"
+          - day: -1
+            channel: email
+            purpose: teaser
+            subject_pattern: "Tomorrow: A New Way to {Benefit}"
+            notes: "Hint at benefits without full reveal"
+      - phase: "Launch"
+        days: [0]
+        description: "Big reveal and availability"
+        sends:
+          - day: 0
+            channel: email
+            purpose: announcement
+            timing: "Morning"
+            subject_pattern: "Introducing {Product}: {Key Benefit}"
+            notes: "Full product reveal, hero imagery"
+          - day: 0
+            channel: push
+            purpose: announcement
+            timing: "Afternoon"
+            notes: "Drive to product page"
+      - phase: "Follow-up"
+        days: [2, 5]
+        description: "Address objections, social proof"
+        sends:
+          - day: 2
+            channel: email
+            purpose: education
+            subject_pattern: "Why {Product} Changes Everything"
+            notes: "Deep dive on features/benefits"
+          - day: 5
+            channel: email
+            purpose: social_proof
+            subject_pattern: "See Why Customers Love {Product}"
+            notes: "Reviews, testimonials, UGC"
+
+  quick-launch:
+    duration: "3 days"
+    description: "For minor product additions or restocks"
+    timeline:
+      - day: 1
+        sends:
+          - channel: email
+            purpose: announcement
+            subject_pattern: "New Arrival: {Product}"
+      - day: 3
+        sends:
+          - channel: email
+            purpose: reminder
+            subject_pattern: "Have You Seen {Product} Yet?"
+
+best_practices:
+  - "Teaser phase builds anticipation but don't overdo it"
+  - "Launch email should focus on the 'why' not just the 'what'"
+  - "Include clear CTAs to product page"
+  - "Follow-up emails should address common questions"
+  - "Social proof is powerful for new products"
+
+image_requirements:
+  - slot: "product-hero"
+    notes: "High-quality product photography"
+  - slot: "lifestyle"
+    notes: "Product in use/context"
+  - slot: "features"
+    notes: "Feature callout graphics"
+
+example_campaigns: []

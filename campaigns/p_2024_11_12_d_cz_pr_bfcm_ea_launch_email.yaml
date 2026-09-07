@@ -1,0 +1,85 @@
+id: 0e5b06d6-b0a5-433c-977d-58698fde1e1a
+name: P_2024_11_12_D_CZ_PR_BFCM_EA_Launch_Email
+brand: CZ
+channel: email
+category: product_launch
+type: product_launch
+theme: black_friday
+braze_id: 0e5b06d6-b0a5-433c-977d-58698fde1e1a
+dates:
+  send_date: '2024-11-12'
+  inferred_send_type: local_time
+  first_sent: '2024-11-11T23:56:48+00:00'
+  last_sent: '2024-11-12T17:00:31+00:00'
+tags:
+- batch and blast/promo
+sends:
+- id: 27220971-202b-4317-973f-bb27931831e8
+  channel: email
+  name: Variant 1
+  subject: 'Early Access: Granted'
+  preheader: Be the first to shop up to 35% off sitewide.
+  html_file: html/p_2024_11_12_d_cz_pr_bfcm_ea_launch_email.html
+  screenshot: screenshots/p_2024_11_12_d_cz_pr_bfcm_ea_launch_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673254f9a5e79d006458e7ee/original.jpg?1731351801
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673247987ad5010066c64561/original.jpg?1731348376
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6732555285c0e3008307de3e/original.jpg?1731351890
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6732551bb860ab00665011a7/original.jpg?1731351834
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673247a7a5e79d006458b34c/original.jpg?1731348391
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67324789a5e79d006458b339/original.jpg?1731348361
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6732553097151e0063dc9e22/original.jpg?1731351856
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673255084684a40064b0e705/original.jpg?1731351816
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673255637ad5010074c65103/original.jpg?1731351906
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67325541b860ab00665011be/original.jpg?1731351873
+- id: 11682296-e372-4cb2-b653-283c43322b81
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 91708
+  total_delivered: 90926
+  total_opens: 45037
+  total_clicks: 2322
+  open_rate: 0.4911
+  click_rate: 0.0253
+  total_revenue: 290892.91
+  total_bounces: 152
+  total_unsubscribes: 100
+  ga4:
+    sessions: 5588
+    purchases: 118
+    revenue: 59646.3
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.849239'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-up-to-35-off-strikethrough-wed-11-27-extra-sweeteners-select-products-go-up-to-35-off-2024-11-12
+    name: 'Up to 35% off (strikethrough) Wed 11/27 extra sweeteners: select products
+      go up to 35% off'
+    start_date: '2024-11-12'
+    end_date: '2024-11-14'
+    discount: null
+    type: null
+  - id: cz-early-access-2024-11-12
+    name: Early Access
+    start_date: '2024-11-12'
+    end_date: '2024-11-14'
+    discount: null
+    type: null
+  primary_sale:
+    id: cz-up-to-35-off-strikethrough-wed-11-27-extra-sweeteners-select-products-go-up-to-35-off-2024-11-12
+    name: 'Up to 35% off (strikethrough) Wed 11/27 extra sweeteners: select products
+      go up to 35% off'
+    start_date: '2024-11-12'
+    end_date: '2024-11-14'
+    discount: null
+    type: null
+  sale_name: 'Up to 35% off (strikethrough) Wed 11/27 extra sweeteners: select products
+    go up to 35% off'
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:35.538031'
+schedule_type: time_based

@@ -1,0 +1,47 @@
+id: f3320af4-7403-4ef7-8ed5-15fe3cf0fb19
+name: P_EM_2025_10_04_ID_D_Made_For_Me
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: f3320af4-7403-4ef7-8ed5-15fe3cf0fb19
+dates:
+  send_date: '2025-10-04'
+  inferred_send_type: scheduled
+  first_sent: '2025-10-04T02:54:51+00:00'
+  last_sent: '2025-10-04T17:15:14+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 4bbe815b-9c95-45fb-9a85-bac9da369b3f
+  channel: email
+  name: Variant 1
+  subject: We ❤️ Your Style
+  preheader: Our trending pieces styled by you
+- id: 0b87c46a-cfce-4419-b19a-5946a39b1b6e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 200401
+  total_delivered: 198762
+  total_opens: 94545
+  total_clicks: 637
+  open_rate: 0.4718
+  click_rate: 0.0032
+  total_revenue: 72505.97
+  total_bounces: 6
+  total_unsubscribes: 270
+  ga4:
+    sessions: 745
+    purchases: 2
+    revenue: 3263.15
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.304852'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.751626'
+schedule_type: time_based

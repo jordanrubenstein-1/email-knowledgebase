@@ -1,0 +1,52 @@
+id: 5478a1e7-11d7-4e6a-8820-786f88062d5e
+name: P_EM_2025_09_16_HAV_PC_D_Holiday_Ready_Sale_Announcement
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: christmas
+braze_id: 5478a1e7-11d7-4e6a-8820-786f88062d5e
+dates:
+  send_date: '2025-09-16'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-16T05:24:20+00:00'
+  last_sent: '2025-09-16T18:15:10+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 6572f331-61eb-4ed3-b400-b43099d76c77
+  channel: email
+  name: Variant 1
+  subject: 'PSA: 50% OFF DESIGN SERVICES'
+  preheader: Start your design now, to be hosting-ready for the holidays.
+  html_file: html/p_em_2025_09_16_hav_pc_d_holiday_ready_sale_announcement.html
+  screenshot: screenshots/p_em_2025_09_16_hav_pc_d_holiday_ready_sale_announcement.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c890333c3f050065669acf/original.png?1757974578
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c89023aa575700640807fc/original.gif?1757974563
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c8902bc9f84d00653ba47f/original.png?1757974570
+- id: 1cd23d2d-1d0c-46e7-ad4c-9b674de1da35
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 228709
+  total_delivered: 225982
+  total_opens: 95332
+  total_clicks: 359
+  open_rate: 0.4168
+  click_rate: 0.0016
+  total_bounces: 15
+  total_unsubscribes: 549
+  ga4:
+    sessions: 311
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.773745'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.338190'
+schedule_type: time_based

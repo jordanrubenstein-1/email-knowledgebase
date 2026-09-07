@@ -1,0 +1,59 @@
+id: d676e784-8e98-4072-b1db-5bcd3e55db08
+name: P_2025_03_20_CZ_The_Spring_Event_Bedroom_Refresh_Email
+brand: CZ
+channel: email
+category: editorial
+type: seasonal
+theme: spring
+braze_id: d676e784-8e98-4072-b1db-5bcd3e55db08
+dates:
+  send_date: '2025-03-20'
+  inferred_send_type: scheduled
+  first_sent: '2025-03-20T05:46:07+00:00'
+  last_sent: '2025-03-20T17:01:44+00:00'
+tags: []
+sends:
+- id: 71fca937-9305-4961-a0af-96ed10526293
+  channel: email
+  name: Variant 1
+  subject: Your Spring Bedroom Refresh
+  preheader: Up to 30% off select styles for a limited time only.
+  html_file: html/p_2025_03_20_cz_the_spring_event_bedroom_refresh_email.html
+  screenshot: screenshots/p_2025_03_20_cz_the_spring_event_bedroom_refresh_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0d21872d82d0068a9187d/original.png?1741738520
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0da796380bd0064fa96f6/original.png?1741740664
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d30342903ad600661de33c/original.png?1741882177
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d9ebc90a2e2000657fbc59/original.png?1742334920
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d9eee924c4fc0076202fb0/original.png?1742335721
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d3035096fce90076a0d5d0/original.png?1741882191
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0da698bd1170075ffaeb3/original.png?1741740649
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0d1d27f0c140066a8824c/original.png?1741738449
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0d1edc7fe8a0066f3ef76/original.png?1741738477
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0d20d6380bd0074fa5c9a/original.png?1741738509
+- id: 73983959-575d-46bd-98a9-eb307a15ecd9
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 91570
+  total_delivered: 90786
+  total_opens: 47731
+  total_clicks: 602
+  open_rate: 0.5213
+  click_rate: 0.0066
+  total_revenue: 83184.66
+  total_bounces: 2
+  total_unsubscribes: 117
+  ga4:
+    sessions: 768
+    purchases: 14
+    revenue: 5027.32
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.783023'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.932430'
+schedule_type: time_based

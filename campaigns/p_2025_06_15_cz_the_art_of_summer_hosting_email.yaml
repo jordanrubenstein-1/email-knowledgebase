@@ -1,0 +1,55 @@
+id: 45fd458a-8f84-498b-99f6-dacc6494e0b4
+name: P_2025_06_15_CZ_The_Art_Of_Summer_Hosting_Email
+brand: CZ
+channel: email
+category: other
+type: seasonal
+theme: summer
+braze_id: 45fd458a-8f84-498b-99f6-dacc6494e0b4
+dates:
+  send_date: '2025-06-15'
+  inferred_send_type: local_time
+  first_sent: '2025-06-14T18:09:46+00:00'
+  last_sent: '2025-06-15T17:01:01+00:00'
+tags: []
+sends:
+- id: c99d82f7-8dfb-4b19-82ae-753b9c7b227c
+  channel: email
+  name: Variant 1
+  subject: A Table Set for Summer
+  preheader: Explore our tabletop edit–20% off a little longer.
+  html_file: html/p_2025_06_15_cz_the_art_of_summer_hosting_email.html
+  screenshot: screenshots/p_2025_06_15_cz_the_art_of_summer_hosting_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684c9e63cae7df006560e1e0/original.png?1749851746
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684c9e2b779e100065f4dfdc/original.png?1749851690
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684c9e36032ea0006772004b/original.png?1749851701
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684c9e24c2a45d0066a23bd3/original.png?1749851684
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684c9ec2c2a45d0076a22ba3/original.png?1749851841
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684c9eb2c8d3100067fa82d9/original.png?1749851825
+- id: 3c0eccb7-290e-4379-8eb3-0a25c369c73c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 101376
+  total_delivered: 100898
+  total_opens: 53056
+  total_clicks: 580
+  open_rate: 0.5234
+  click_rate: 0.0057
+  total_revenue: 69163.96
+  total_bounces: 1
+  total_unsubscribes: 132
+  ga4:
+    sessions: 576
+    purchases: 2
+    revenue: 530.37
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.677806'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.799068'
+schedule_type: time_based

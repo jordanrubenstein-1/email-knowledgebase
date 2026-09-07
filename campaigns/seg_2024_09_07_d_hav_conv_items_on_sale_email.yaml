@@ -1,0 +1,33 @@
+id: 74547447-bb8d-4b1a-bcff-ad52f6a6d077
+name: SEG_2024_09_07_D_HAV_CONV_Items_On_Sale_Email
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 74547447-bb8d-4b1a-bcff-ad52f6a6d077
+dates:
+  send_date: '2024-09-07'
+  first_sent: '2024-09-07T02:25:00+00:00'
+  last_sent: '2024-09-08T01:25:02+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 27f3f1fa-7fa6-442c-8e75-e5f7a498ac00
+  channel: email
+  name: Variant 1
+  subject: 'LAST CALL: Your design is on sale'
+  preheader: But not for much longer...
+- id: 06bc4760-6e56-481b-84b6-30fa7312e7ef
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 13835
+  total_delivered: 13808
+  total_opens: 8354
+  total_clicks: 342
+  open_rate: 0.6038
+  click_rate: 0.0247
+  total_unsubscribes: 43
+schedule_type: time_based
+_filename: seg_2024_09_07_d_hav_conv_items_on_sale_email.yaml

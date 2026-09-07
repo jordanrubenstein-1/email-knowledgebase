@@ -1,0 +1,33 @@
+id: 975aecd1-544b-4852-b295-5bee3f66de49
+name: P_EM_2026_05_08_BW_D_Memorial_Day_Early_Access_Launch
+brand: BUR
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 975aecd1-544b-4852-b295-5bee3f66de49
+dates:
+  send_date: '2026-05-08'
+  last_sent: '2026-05-08'
+tags:
+- Batch&Blast
+sends:
+- id: cd2b87f7-7255-4ccf-a664-64a7067f1cd2
+  channel: email
+  name: Variant 1
+  subject: 'You’re invited early: up to 50% off'
+  preheader: The Memorial Day sale starts with a Burrow Block Party.
+- id: 3926e2f9-c369-489d-8b78-a6d9c879fef3
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 66764
+  total_delivered: 66626
+  total_opens: 26610
+  total_clicks: 638
+  open_rate: 0.3986
+  click_rate: 0.0096
+  total_revenue: 69926.0
+  total_unsubscribes: 69
+_filename: p_em_2026_05_08_bw_d_memorial_day_early_access_launch.yaml
+schedule_type: time_based

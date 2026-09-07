@@ -1,0 +1,33 @@
+id: 6c000790-05a8-458e-b2ea-322323bb57c4
+name: P_EM_2026_04_22_ID_PC_PT_Trade_Cross_Brand_Version_A_Control_Reminder_1
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 6c000790-05a8-458e-b2ea-322323bb57c4
+dates:
+  send_date: '2026-04-22'
+  first_sent: '2026-04-22T02:27:16+00:00'
+  last_sent: '2026-04-22'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 55b2a011-bf10-4a8a-a374-8f8d1d5f0453
+  channel: email
+  name: Variant 1
+  subject: Don't miss what Interior Define has to offer
+  preheader: Your exclusive trade access to Interior Define is still waiting for you.
+- id: ab7a2293-418c-44c4-b5a5-0232ce75715f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 1191
+  total_delivered: 1174
+  total_opens: 605
+  total_clicks: 14
+  open_rate: 0.508
+  click_rate: 0.0118
+  total_unsubscribes: 8
+_filename: p_em_2026_04_22_id_pc_pt_trade_cross_brand_version_a_control.yaml
+schedule_type: time_based

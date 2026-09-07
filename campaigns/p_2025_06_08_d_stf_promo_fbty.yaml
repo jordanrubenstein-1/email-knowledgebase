@@ -1,0 +1,59 @@
+id: 4745fa90-6049-49a6-8cb5-ca345c6aa6fd
+name: P_2025_06_08_D_STF_Promo_FBTY
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 4745fa90-6049-49a6-8cb5-ca345c6aa6fd
+dates:
+  send_date: '2025-06-08'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-08T04:16:26+00:00'
+  last_sent: '2025-06-08T17:00:16+00:00'
+tags: []
+sends:
+- id: a025f73c-7874-41e8-883f-9daf43b83e0a
+  channel: email
+  name: Variant 1
+  subject: Made for Bold Living
+  preheader: striking fabric, designed to turn heads
+  html_file: html/p_2025_06_08_d_stf_promo_fbty.html
+  screenshot: screenshots/p_2025_06_08_d_stf_promo_fbty.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68432e48fea0550074fabe4b/original.png?1749233223
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68432f00121f5d0065c2ff70/original.png?1749233408
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68432f57121f5d0065c30231/original.png?1749233495
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68432e72599d3f0085021849/original.png?1749233266
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68432ea11f62880064b6ab23/original.png?1749233313
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68432ec0ea57ef0067f9eaf0/original.png?1749233344
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68432e42121f5d0065c2fb34/original.gif?1749233218
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68432f0c35bba00065bae811/original.png?1749233420
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68432e681f62880064b6aa86/original.png?1749233255
+- id: 798aa46f-2a9a-45c7-8213-cf180e350666
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 31112
+  total_delivered: 30766
+  total_opens: 14833
+  total_clicks: 248
+  open_rate: 0.4768
+  click_rate: 0.008
+  total_revenue: 4709.0
+  total_bounces: 1
+  total_unsubscribes: 71
+  ga4:
+    sessions: 261
+    purchases: 3
+    revenue: 1060.12
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.787984'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.164494'
+schedule_type: time_based

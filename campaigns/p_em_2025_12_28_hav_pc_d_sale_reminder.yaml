@@ -1,0 +1,35 @@
+id: b563f3b1-01f0-48fb-b92b-ed5746bed6c8
+name: P_EM_2025_12_28_HAV_PC_D_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: b563f3b1-01f0-48fb-b92b-ed5746bed6c8
+dates:
+  send_date: '2025-12-28'
+  first_sent: '2025-12-27T17:21:19+00:00'
+  last_sent: '2025-12-28T18:15:53+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 67b50af1-fa3f-4586-8fe3-073548b1b26a
+  channel: email
+  name: Variant 1
+  subject: 'Don’t Forget: 50% Off Is Still On!'
+  preheader: 'Ring in 2025 with your dream home transformation. '
+- id: a0776b1f-956f-475b-9dd9-96fd1df9d3e0
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 255461
+  total_delivered: 252750
+  total_opens: 100670
+  total_clicks: 491
+  open_rate: 0.3941
+  click_rate: 0.0019
+  total_bounces: 8
+  total_unsubscribes: 459
+schedule_type: time_based
+_filename: p_em_2025_12_28_hav_pc_d_sale_reminder.yaml

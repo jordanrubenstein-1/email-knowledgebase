@@ -1,0 +1,33 @@
+id: 5fc725a0-ce61-41ee-8e03-85a8e170502d
+name: P_2025_2_15_HAV_CONV_Summer_Design_Trend_Email
+brand: HAV
+channel: email
+category: editorial
+type: seasonal
+theme: summer
+braze_id: 5fc725a0-ce61-41ee-8e03-85a8e170502d
+dates:
+  send_date: '2025-02-15'
+  first_sent: '2025-02-15T06:31:19+00:00'
+  last_sent: '2025-02-15T17:15:07+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 58132dbf-831b-40d3-89cf-345fd47d067a
+  channel: email
+  name: Variant 1
+  subject: 'The #1 summer 2025 design trend 🔥'
+  preheader: You heard it here first
+- id: f4b577d8-6138-44e7-b4a5-1a34b4857808
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 37916
+  total_delivered: 37809
+  total_opens: 21961
+  total_clicks: 364
+  open_rate: 0.5792
+  click_rate: 0.0096
+  total_unsubscribes: 57
+schedule_type: time_based
+_filename: p_2025_2_15_hav_conv_summer_design_trend_email.yaml

@@ -1,0 +1,35 @@
+id: 47a12627-8f9d-4987-9083-0f1ca79a45a4
+name: P_EM_2026_02_06_BW_D_Presidents_Day_EA_Starts_NOW
+brand: BUR
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 47a12627-8f9d-4987-9083-0f1ca79a45a4
+dates:
+  send_date: '2026-02-06'
+  inferred_send_type: local_time
+  first_sent: '2026-02-06T00:18:04+00:00'
+  last_sent: '2026-02-06T17:15:46+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 2ec382ea-7367-40dc-84f8-e6ef4499a5ba
+  channel: email
+  name: Variant 1
+  subject: Your early access starts now
+  preheader: Up to 35% off sitewide during the Presidents Day Sale
+- id: 7a66f6dc-c9e0-4da3-aaf6-c4bf09bb0769
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 234978
+  total_delivered: 233251
+  total_opens: 120458
+  total_clicks: 578
+  open_rate: 0.5126
+  click_rate: 0.0025
+  total_revenue: 84293.0
+  total_bounces: 5
+  total_unsubscribes: 196
+schedule_type: time_based

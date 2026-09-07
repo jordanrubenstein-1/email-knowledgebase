@@ -1,0 +1,58 @@
+id: c9e36873-bfa3-4aa6-9f42-b4d2d4ff54c0
+name: P_2024_10_06_D_CZ_PR_Fall_Pillow_Pairings_Email
+brand: CZ
+channel: email
+category: other
+type: seasonal
+theme: fall
+braze_id: c9e36873-bfa3-4aa6-9f42-b4d2d4ff54c0
+dates:
+  send_date: '2024-10-06'
+  inferred_send_type: local_time
+  first_sent: '2024-10-05T17:00:12+00:00'
+  last_sent: '2024-10-06T17:00:35+00:00'
+tags:
+- batch and blast
+sends:
+- id: 5245d03e-284a-4923-8cc6-2cb1edef315f
+  channel: email
+  name: Variant 1
+  subject: Our Fail-Proof Pillow Combinations
+  preheader: Add a pop of personality with artful styles designed to mix-and-match.
+  html_file: html/p_2024_10_06_d_cz_pr_fall_pillow_pairings_email.html
+  screenshot: screenshots/p_2024_10_06_d_cz_pr_fall_pillow_pairings_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66fd7596eb449600642df882/original.jpg?1727886741
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66fd75b9eb449600732dea80/original.jpg?1727886776
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66fd75322f582f00648d16d4/original.jpg?1727886642
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66fd75572f582f00648d17c7/original.jpg?1727886678
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66fd75a6754a040073ec09ae/original.jpg?1727886758
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66fd7578eb449600642df7e0/original.jpg?1727886712
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66fd75457a40c00066afb655/original.jpg?1727886660
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66fd7523eb449600732de973/original.jpg?1727886627
+- id: 83e4553b-826f-4af3-ad20-6949ebb9e42c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 85537
+  total_delivered: 85038
+  total_opens: 45522
+  total_clicks: 897
+  open_rate: 0.5322
+  click_rate: 0.0105
+  total_revenue: 49825.52
+  total_bounces: 2
+  total_unsubscribes: 239
+  ga4:
+    sessions: 1000
+    purchases: 13
+    revenue: 5950.38
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.523189'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.849515'
+schedule_type: time_based

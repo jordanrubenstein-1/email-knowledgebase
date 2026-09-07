@@ -1,0 +1,34 @@
+id: 87b44345-5651-4d32-8d54-c814ab07473c
+name: P_2025_2_24_HAV_Conv_PDW_Sale_Last_Chance_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 87b44345-5651-4d32-8d54-c814ab07473c
+dates:
+  send_date: '2025-02-24'
+  first_sent: '2025-02-24T08:20:33+00:00'
+  last_sent: '2025-02-24T17:15:08+00:00'
+  inferred_send_type: scheduled
+tags:
+- BLASTS-2025
+sends:
+- id: a8439615-9c14-44f0-af88-24d5d59ba17b
+  channel: email
+  name: Variant 1
+  subject: This Is It (Seriously)
+  preheader: Last call for up to 15% off your favorite home brands.
+- id: b585e9a6-cb29-49ee-a513-4c4181ecc426
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 38253
+  total_delivered: 38195
+  total_opens: 21285
+  total_clicks: 148
+  open_rate: 0.5564
+  click_rate: 0.0039
+  total_unsubscribes: 51
+schedule_type: time_based
+_filename: p_2025_2_24_hav_conv_pdw_sale_last_chance_email.yaml

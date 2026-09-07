@@ -1,0 +1,30 @@
+id: 00ba4c2b-5693-439c-b0ca-132a9032dd4c
+name: P_2025_6_20_July_4th_Sale_Sectionals_SMS
+brand: ID
+channel: sms
+category: sale_promo
+type: sale
+theme: null
+braze_id: 00ba4c2b-5693-439c-b0ca-132a9032dd4c
+dates:
+  send_date: '2025-06-20'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-20T19:54:23+00:00'
+  last_sent: '2025-06-20T19:56:40+00:00'
+tags: []
+sends:
+- id: cbb9fa1a-0ab7-4f3d-b08a-a8d65b495db4
+  channel: other
+  name: Variant 1
+- id: d7a0e1a0-858c-40e3-8059-a1fa23a3ab6d
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 57012
+  total_delivered: 53495
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 15685.0
+schedule_type: time_based

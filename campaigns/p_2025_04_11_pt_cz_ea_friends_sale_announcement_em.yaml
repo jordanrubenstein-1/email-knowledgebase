@@ -1,0 +1,84 @@
+id: 4efa182a-38aa-44cd-8be6-b406d883b7ac
+name: P_2025_04_11_PT_CZ_EA_Friends_Sale_Announcement_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 4efa182a-38aa-44cd-8be6-b406d883b7ac
+dates:
+  send_date: '2025-04-11'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-11T14:45:12+00:00'
+  last_sent: '2025-04-11T16:28:56+00:00'
+tags: []
+sends:
+- id: a1412bf3-f4ac-4a90-97bd-7a61a41dc522
+  channel: email
+  name: Variant 1
+  subject: Early Sale Access, Just For You
+  preheader: Be the first to shop up to 50% off small-batch styles.
+  html_file: html/p_2025_04_11_pt_cz_ea_friends_sale_announcement_email.html
+  screenshot: screenshots/p_2025_04_11_pt_cz_ea_friends_sale_announcement_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f83def4631c700674e669c/original.png?1744322031
+- id: 10f627b5-c622-4366-b217-f200f867eeaf
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 95318
+  total_delivered: 94496
+  total_opens: 51095
+  total_clicks: 1428
+  open_rate: 0.536
+  click_rate: 0.015
+  total_revenue: 90264.54
+  total_bounces: 1
+  total_unsubscribes: 112
+  ga4:
+    sessions: 2754
+    purchases: 42
+    revenue: 21077.7
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.687843'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-citizenry-2025-04-11
+    name: The Citizenry
+    start_date: '2025-04-11'
+    end_date: '2025-04-13'
+    discount: 'Fresh Foundations
+
+      Up to 50% Off Select Rugs (tiered strikethrough)
+
+      15% Off Bedding, Pillows, and Accents (flat strikethrough)
+
+      No Trade Discount'
+    type: null
+  primary_sale:
+    id: cz-the-citizenry-2025-04-11
+    name: The Citizenry
+    start_date: '2025-04-11'
+    end_date: '2025-04-13'
+    discount: 'Fresh Foundations
+
+      Up to 50% Off Select Rugs (tiered strikethrough)
+
+      15% Off Bedding, Pillows, and Accents (flat strikethrough)
+
+      No Trade Discount'
+    type: null
+  sale_name: The Citizenry
+  sale_discount: 'Fresh Foundations
+
+    Up to 50% Off Select Rugs (tiered strikethrough)
+
+    15% Off Bedding, Pillows, and Accents (flat strikethrough)
+
+    No Trade Discount'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:33.900946'
+schedule_type: time_based

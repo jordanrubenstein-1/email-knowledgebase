@@ -1,0 +1,25 @@
+id: aed84ae1-901a-4579-a789-8cba6fc925d0
+name: P_EM_2026_09_06_TRADE_ID_PC_D_Labor_Day_Sale_Reminder
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: aed84ae1-901a-4579-a789-8cba6fc925d0
+dates:
+  send_date: '2026-09-06'
+  last_sent: '2026-09-06'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 860b939f-c8c1-42a1-9399-c29e8434f6db
+  channel: email
+  name: Variant 1
+  subject: 'Interior Define: Save 35% sitewide'
+  preheader: Shop the Labor Day Event before it's gone.
+- id: 2e4ef498-eb46-4f8f-86e5-3d1a8c43a7b1
+  channel: email
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: p_em_2026_09_06_trade_id_pc_d_labor_day_sale_reminder.yaml

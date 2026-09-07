@@ -1,0 +1,59 @@
+id: 6bb91fdb-32b7-45c9-bb8b-0f6591863a7d
+name: P_EM_2025_12_05_SF_D_PR_POTM_Teal_Vines
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 6bb91fdb-32b7-45c9-bb8b-0f6591863a7d
+dates:
+  send_date: '2025-12-05'
+  inferred_send_type: local_time
+  first_sent: '2025-12-04T21:17:42+00:00'
+  last_sent: '2025-12-05T17:02:57+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: 4347c412-bd88-4fde-a255-ccde8cf24656
+  channel: email
+  name: Variant 1
+  subject: 'In Print: Teal Vines Suzani'
+  preheader: 'this month’s obsession: now up to 30% off '
+  html_file: html/p_em_2025_12_05_sf_d_pr_potm_teal_vines.html
+  screenshot: screenshots/p_em_2025_12_05_sf_d_pr_potm_teal_vines.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6931814f05291e006336a0e3/original.png?1764852046
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69318180211e9c00659678b9/original.png?1764852096
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6931818732c9100063d135b6/original.png?1764852102
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69318169c9390500634895e8/original.png?1764852072
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69318172cb13d900653710e8/original.png?1764852081
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69318179e0849400631314e2/original.png?1764852089
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69318142e7266c0072d6225d/original.png?1764852033
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69318103b1a6020063eae3f5/original.png?1764851971
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6931812307709700635bff02/original.png?1764852003
+- id: 47cdef67-aa7b-491f-b9ac-b964db9d6dcd
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39802
+  total_delivered: 39592
+  total_opens: 17444
+  total_clicks: 179
+  open_rate: 0.4383
+  click_rate: 0.0045
+  total_bounces: 3
+  total_unsubscribes: 61
+  ga4:
+    sessions: 162
+    purchases: 2
+    revenue: 177.03
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.692586'
+    source: snowflake
+    channel: email
+schedule_type: time_based

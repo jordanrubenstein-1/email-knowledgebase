@@ -1,0 +1,33 @@
+id: 5a746b09-2e84-464c-94d0-19c92af2f0e2
+name: TRG_EM_2024_07_CZ_D_Welcome_T2
+brand: CZ
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 57657eee-e9b8-4613-a42c-3adb310acef0
+canvas_name: Soho Event RSVP Confirmation - Nov 2025
+flow_type: other_flow
+sequence_position: 2
+subject: Welcome to The Citizenry
+preheader: Thanks for joining the journey. Country by country, we travel the globe
+  to bring the world's best craftsmanship home to you.
+sends:
+- id: 5a746b09-2e84-464c-94d0-19c92af2f0e2
+  channel: email
+  name: TRG_EM_2024_07_CZ_D_Welcome_T2
+  subject: Welcome to The Citizenry
+  preheader: Thanks for joining the journey. Country by country, we travel the globe
+    to bring the world's best craftsmanship home to you.
+  html_file: html/canvas-soho-event-rsvp-confirmation-nov-2025-t2-5a746b09.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-11-05T22:00:00Z'
+  last_sent: '2025-11-15T16:00:00Z'
+performance_summary:
+  total_sends: 22
+  total_delivered: 22
+  total_opens: 18
+  total_clicks: 1
+  open_rate: 0.8182
+  click_rate: 0.0455

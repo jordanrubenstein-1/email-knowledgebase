@@ -1,0 +1,64 @@
+id: 33699cc2-6188-49e3-a36d-1cc343cc0e2d
+name: P_2025_07_17_ID_Trade_Private_Sale_Reminder_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 33699cc2-6188-49e3-a36d-1cc343cc0e2d
+dates:
+  send_date: '2025-07-17'
+  inferred_send_type: scheduled
+  first_sent: '2025-07-17T17:06:44+00:00'
+  last_sent: '2025-07-17T17:08:43+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: b78f1600-b2cf-4da7-b712-d7879becd9c6
+  channel: email
+  name: Variant 1
+  subject: 'Stack Your Savings: 20% Trade Discount + Extra 5% Off - Ends Monday!
+
+    '
+- id: cac9a19b-5e18-457e-9034-31606364b545
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 20039
+  total_delivered: 19534
+  total_opens: 10715
+  total_clicks: 241
+  open_rate: 0.5347
+  click_rate: 0.012
+  total_revenue: 65510.0
+  total_bounces: 1
+  total_unsubscribes: 56
+  ga4:
+    sessions: 249
+    purchases: 2
+    revenue: 5315.31
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.454507'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-private-sale-retail-only-2025-07-11
+    name: Private Sale - Retail Only
+    start_date: '2025-07-11'
+    end_date: '2025-07-21'
+    discount: 20% off sitewide
+    type: null
+  primary_sale:
+    id: id-private-sale-retail-only-2025-07-11
+    name: Private Sale - Retail Only
+    start_date: '2025-07-11'
+    end_date: '2025-07-21'
+    discount: 20% off sitewide
+    type: null
+  sale_name: Private Sale - Retail Only
+  sale_discount: 20% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:35.476532'
+schedule_type: time_based

@@ -1,0 +1,59 @@
+id: f9572f63-91ed-4e11-922d-9e63a34b394a
+name: P_2024_12_7_D_CZ_Heirloom_Gifts_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: f9572f63-91ed-4e11-922d-9e63a34b394a
+dates:
+  send_date: '2024-12-07'
+  inferred_send_type: local_time
+  first_sent: '2024-12-06T22:20:52+00:00'
+  last_sent: '2024-12-07T17:01:45+00:00'
+tags: []
+sends:
+- id: 0912ec46-52a8-4ee8-ac32-5d96c4d1571e
+  channel: email
+  name: Variant 1
+  subject: They'll Treasure These For Life
+  preheader: Shop heirloom-quality gifts.
+  html_file: html/p_2024_12_7_d_cz_heirloom_gifts_email.html
+  screenshot: screenshots/p_2024_12_7_d_cz_heirloom_gifts_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67536b702f76da00655f720a/original.jpg?1733520240
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67536aaeffad8300665cf25a/original.jpg?1733520046
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6753693affad8300755cd5c5/original.jpg?1733519673
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/675369e8c5e81700667d7b92/original.jpg?1733519848
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/675369822f76da00655f6f61/original.jpg?1733519746
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/675368bdc5e81700667d7933/original.jpg?1733519549
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67536882c5e81700747d630c/original.jpg?1733519489
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67536a1b90b2f80073171b83/original.jpg?1733519899
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67536b2f3c797a00668a220e/original.jpg?1733520175
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/675369202f76da00655f6e56/original.jpg?1733519648
+- id: 1dd24e65-8971-4153-acb7-304e7329218e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 96472
+  total_delivered: 95807
+  total_opens: 47470
+  total_clicks: 900
+  open_rate: 0.4921
+  click_rate: 0.0093
+  total_revenue: 56971.73
+  total_bounces: 2
+  total_unsubscribes: 229
+  ga4:
+    sessions: 1019
+    purchases: 2
+    revenue: 1145.23
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.826629'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:35.290022'
+schedule_type: time_based

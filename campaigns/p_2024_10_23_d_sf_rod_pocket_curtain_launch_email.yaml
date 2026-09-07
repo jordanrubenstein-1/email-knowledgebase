@@ -1,0 +1,46 @@
+id: 767f5a8b-bd61-4690-928e-a4c577f01cb6
+name: P_2024_10_23_D_SF_Rod_Pocket_Curtain_Launch_Email
+brand: STF
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 767f5a8b-bd61-4690-928e-a4c577f01cb6
+dates:
+  send_date: '2024-10-23'
+  inferred_send_type: local_time
+  first_sent: '2024-10-22T17:00:05+00:00'
+  last_sent: '2024-10-23T14:00:33+00:00'
+tags:
+- Batch and Blast/non-promo
+sends:
+- id: af7f3db1-5cc6-4ce0-b664-d351b75169bf
+  channel: email
+  name: Variant 1
+  subject: NEW Rod Pocket Curtains
+  preheader: ready for your windows
+- id: 9b03514a-e5e3-41a0-9bd6-1a62d80234cc
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 9671
+  total_delivered: 9646
+  total_opens: 3147
+  total_clicks: 169
+  open_rate: 0.3254
+  click_rate: 0.0175
+  total_revenue: 1184.1
+  total_unsubscribes: 3
+  ga4:
+    sessions: 131
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.103376'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.349184'
+schedule_type: time_based

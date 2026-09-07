@@ -1,0 +1,31 @@
+id: ee00bbe4-d116-4b53-b71d-f66b0bc67641
+name: P_SMS_2026_04_08_BW_Sun_Out_Flash_Sale_Ends_Tonight
+brand: BUR
+channel: sms
+category: sale_promo
+type: sale
+theme: null
+braze_id: ee00bbe4-d116-4b53-b71d-f66b0bc67641
+dates:
+  send_date: '2026-04-08'
+  inferred_send_type: local_time
+  first_sent: '2026-04-08T02:07:14+00:00'
+  last_sent: '2026-04-09T01:01:15+00:00'
+tags: []
+sends:
+- id: 476add79-6480-4970-a462-355898c6045b
+  channel: sms
+  name: Variant 1
+- id: e7004190-1fed-4bdc-935d-2fb2e9734864
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 7622
+  total_delivered: 7353
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 12425.0
+_filename: p_sms_2026_04_08_bw_sun_out_flash_sale_ends_tonight.yaml
+schedule_type: time_based

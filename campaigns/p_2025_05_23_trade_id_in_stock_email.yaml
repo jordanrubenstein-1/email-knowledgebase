@@ -1,0 +1,47 @@
+id: db3b7d8d-cb25-41ba-b34e-c7a4be109f81
+name: P_2025_05_23_TRADE_ID_In_Stock_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: db3b7d8d-cb25-41ba-b34e-c7a4be109f81
+dates:
+  send_date: '2025-05-23'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-23T16:08:58+00:00'
+  last_sent: '2025-05-23T16:09:27+00:00'
+tags:
+- TRADE-EMAIL
+sends:
+- id: f59a265f-c4f2-46e3-9e49-53875536fb0b
+  channel: email
+  name: Variant 1
+  subject: 'Just In: Styles You Love With The Speed You Need'
+  preheader: 20% off NEW additions to our Quick Ship collection.
+- id: 0128e1a6-d904-4b85-977b-f87aaa79a51b
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 18944
+  total_delivered: 18480
+  total_opens: 4989
+  total_clicks: 120
+  open_rate: 0.2634
+  click_rate: 0.0063
+  total_revenue: 116791.0
+  total_bounces: 3
+  total_unsubscribes: 16
+  ga4:
+    sessions: 68
+    purchases: 1
+    revenue: 2083.11
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.952278'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.107868'
+schedule_type: time_based

@@ -1,0 +1,56 @@
+id: df5178eb-9664-42f9-8757-6948dec8057d
+name: P_2024_10_22_HAV_PC_PM_Autumn_Event_Last_Chance_Email
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: fall
+braze_id: df5178eb-9664-42f9-8757-6948dec8057d
+dates:
+  send_date: '2024-10-22'
+  inferred_send_type: scheduled
+  first_sent: '2024-10-22T22:59:15+00:00'
+  last_sent: '2024-10-22T22:59:23+00:00'
+tags: []
+sends:
+- id: 4ebf2129-79de-4958-a4af-de69a3141398
+  channel: email
+  name: Variant 1
+  subject: Until next time…
+  preheader: Last chance at 50% OFF, buy now to save for Black Friday!
+  html_file: html/p_2024_10_22_hav_pc_pm_autumn_event_last_chance_email.html
+  screenshot: screenshots/p_2024_10_22_hav_pc_pm_autumn_event_last_chance_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6706afba4f69b60063dd7c98/original.jpg?1728491450
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67166168343c240083b60dd2/original.gif?1729519976
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6706afb19150e30064b13488/original.jpg?1728491441
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67166189343c240074b60e4c/original.jpg?1729520009
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6706afd44f69b60063dd7ccd/original.jpg?1728491475
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671661791a82220065ff0a05/original.jpg?1729519993
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6706afc8f07bbc0064e67df4/original.jpg?1728491463
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6706afe271a4d6006470b594/original.jpg?1728491490
+- id: 9da3c5e6-cc75-4984-91f7-578bb06fc0f9
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 20233
+  total_delivered: 20166
+  total_opens: 12314
+  total_clicks: 294
+  open_rate: 0.6086
+  click_rate: 0.0145
+  total_bounces: 4
+  total_unsubscribes: 68
+  ga4:
+    sessions: 265
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.187798'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:35.533493'
+schedule_type: time_based

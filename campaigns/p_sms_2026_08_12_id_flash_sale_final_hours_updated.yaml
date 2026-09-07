@@ -1,0 +1,30 @@
+id: 0d35440d-1668-4b78-967e-42c5ac313e5d
+name: P_SMS_2026_08_12_ID_Flash_Sale_Final_Hours_Updated
+brand: ID
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: 0d35440d-1668-4b78-967e-42c5ac313e5d
+dates:
+  send_date: '2026-08-12'
+  first_sent: '2026-08-12T15:55:45+00:00'
+  last_sent: '2026-08-12T22:03:09+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 85a035cf-a52f-4a50-8361-24bbf0f0700e
+  channel: sms
+  name: Variant 1
+- id: d6708b26-1b9c-4969-8125-eaa74c07d68f
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 70
+  total_delivered: 57
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+schedule_type: time_based
+_filename: p_sms_2026_08_12_id_flash_sale_final_hours_updated.yaml

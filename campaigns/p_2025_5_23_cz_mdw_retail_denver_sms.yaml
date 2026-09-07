@@ -1,0 +1,37 @@
+id: 0f1f3ed9-5bcc-4ca3-bf37-2326000fc14b
+name: P_2025_5_23_CZ_MDW_Retail_Denver_SMS
+brand: CZ
+channel: sms
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 0f1f3ed9-5bcc-4ca3-bf37-2326000fc14b
+dates:
+  send_date: '2025-05-23'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-23T18:24:26+00:00'
+  last_sent: '2025-05-23T18:24:32+00:00'
+tags: []
+sends:
+- id: 152ea03b-b3da-4e67-8082-21a23da9fee9
+  channel: other
+  name: Variant 1
+- id: 6f1e1362-fd4f-4cbd-9b16-2d4d63c21f9e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 217
+  total_delivered: 212
+  total_opens: 0
+  total_clicks: 12
+  open_rate: 0.0
+  click_rate: 0.0553
+  ga4:
+    sessions: 3
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.420340'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

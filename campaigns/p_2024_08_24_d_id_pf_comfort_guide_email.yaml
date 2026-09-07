@@ -1,0 +1,45 @@
+id: 8b943efe-5b79-464a-a920-83eb39b834ad
+name: P_2024_08_24_D_ID_PF_Comfort_Guide_Email
+brand: ID
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 8b943efe-5b79-464a-a920-83eb39b834ad
+dates:
+  send_date: '2024-08-24'
+  inferred_send_type: local_time
+  first_sent: '2024-08-23T22:59:40+00:00'
+  last_sent: '2024-08-24T14:05:01+00:00'
+tags: []
+sends:
+- id: 44031721-c2c2-476b-8364-c7de5b4ad233
+  channel: email
+  name: Variant 1
+  subject: Make yourself comfortable
+  preheader: And take up to 25% off while you’re at it.
+- id: 5b42c35d-1c0b-4efc-9847-957fe174593e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 34763
+  total_delivered: 34491
+  total_opens: 14287
+  total_clicks: 432
+  open_rate: 0.411
+  click_rate: 0.0124
+  total_bounces: 3
+  total_unsubscribes: 58
+  ga4:
+    sessions: 653
+    purchases: 4
+    revenue: 10017.5
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.396469'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.758110'
+schedule_type: time_based

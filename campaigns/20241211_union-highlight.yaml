@@ -1,0 +1,52 @@
+id: 9cb7c120-12e8-4db2-987d-3abb5bd6cc29
+name: 20241211_Union-Highlight
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 9cb7c120-12e8-4db2-987d-3abb5bd6cc29
+dates:
+  inferred_send_type: local_time
+  first_sent: '2024-12-10T19:36:58+00:00'
+  last_sent: '2024-12-11T17:15:09+00:00'
+tags: []
+sends:
+- id: d8fd5034-dce3-4c52-8fb4-9ef1d143544f
+  channel: email
+  name: Variant 1
+  subject: Sit back. Stretch out. Slow down.
+  preheader: Get to know our Union collection.
+- id: 5430f99a-14df-4162-9dd7-37e95b045b31
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 279
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.678645'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-cyber-week-ext-2024-12-04
+    name: Cyber Week Ext
+    start_date: '2024-12-04'
+    end_date: '2024-12-10'
+    discount: null
+    type: null
+  primary_sale:
+    id: bur-cyber-week-ext-2024-12-04
+    name: Cyber Week Ext
+    start_date: '2024-12-04'
+    end_date: '2024-12-10'
+    discount: null
+    type: null
+  sale_name: Cyber Week Ext
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:44.458498'
+schedule_type: time_based

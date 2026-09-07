@@ -1,0 +1,38 @@
+{% comment %}
+  Paragraph Component
+
+  Creates a text paragraph block for email body content.
+
+  Required variables:
+    text - The paragraph text (can include HTML)
+
+  Optional variables:
+    font_size    - Font size in pixels (default: 14)
+    font_family  - Font family (default: "'Open Sans',Arial,Sans-serif")
+    font_weight  - Font weight (default: 400)
+    color        - Text color (default: #101b24)
+    line_height  - Line height (default: inherit)
+    text_align   - Text alignment (default: center)
+    padding      - Cell padding in pixels (default: 10)
+    letter_spacing - Letter spacing (default: 0)
+
+  Usage:
+    {% assign text = 'Your paragraph text here.' %}
+    {% render 'paragraph' %}
+
+    {% assign text = 'Left-aligned body copy with custom styling.' %}
+    {% assign text_align = 'left' %}
+    {% assign font_size = 16 %}
+    {% render 'paragraph' %}
+{% endcomment %}
+
+{% assign font_size = font_size | default: 14 %}
+{% assign font_family = font_family | default: "'Open Sans',Arial,Sans-serif" %}
+{% assign font_weight = font_weight | default: 400 %}
+{% assign color = color | default: '#101b24' %}
+{% assign line_height = line_height | default: 'inherit' %}
+{% assign text_align = text_align | default: 'center' %}
+{% assign padding = padding | default: 10 %}
+{% assign letter_spacing = letter_spacing | default: 0 %}
+
+<table class="paragraph_block" width="100%" border="0" cellpadding="{{ padding }}" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;word-break:break-word"><tr><td class="pad"><div style="color:{{ color }};direction:ltr;font-family:{{ font_family }};font-size:{{ font_size }}px;font-weight:{{ font_weight }};letter-spacing:{{ letter_spacing }};line-height:{{ line_height }};text-align:{{ text_align }}"><p style="margin:0">{{ text }}</p></div></td></tr></table>

@@ -1,0 +1,24 @@
+id: 14061e57-3a1a-4e5f-6b20-a88a9b280794
+name: Order ETA Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 14061e57-3a1a-4e5f-6b20-a88a9b280794
+dates:
+  first_sent: '2025-01-08T19:00:00+00:00'
+  last_sent: '2025-09-09T12:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: ad10711e-aa0f-4dd0-b3be-76fed8928465
+  channel: email
+  name: Variant 1
+  subject: 'We have an update on your order - Order #{{api_trigger_properties.${order_number}}}'
+- id: 3e3b2fe7-41de-4393-b366-b8d0acccf0b3
+  channel: other
+  name: Control Group
+performance_summary: {}
+schedule_type: api_triggered
+_filename: order-eta-email.yaml

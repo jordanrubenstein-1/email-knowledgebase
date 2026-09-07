@@ -1,0 +1,31 @@
+id: c71cd8e8-188e-4fb3-b52f-1e9a684d71ef
+name: P_EM_2026_06_28_HAV_CONV_PT_Fourth_Of_July_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: c71cd8e8-188e-4fb3-b52f-1e9a684d71ef
+dates:
+  send_date: '2026-06-28'
+  last_sent: '2026-06-28'
+tags: []
+sends:
+- id: 31f2629e-0f9d-46b3-b2cf-efe368355e67
+  channel: email
+  name: Variant 1
+  subject: Save up to 20% on your Havenly design
+- id: 27f140e3-dd89-453a-b6f8-f0187ff44b79
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 42102
+  total_delivered: 42024
+  total_opens: 20736
+  total_clicks: 115
+  open_rate: 0.4925
+  click_rate: 0.0027
+  total_bounces: 1
+  total_unsubscribes: 42
+schedule_type: time_based
+_filename: p_em_2026_06_28_hav_conv_pt_fourth_of_july_sale_reminder.yaml

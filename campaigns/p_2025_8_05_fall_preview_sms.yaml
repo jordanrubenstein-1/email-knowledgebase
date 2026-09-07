@@ -1,0 +1,30 @@
+id: d8da16cb-c9ef-4df6-80cb-846bf0225771
+name: P_2025_8_05_Fall_Preview_SMS
+brand: ID
+channel: sms
+category: other
+type: seasonal
+theme: fall
+braze_id: d8da16cb-c9ef-4df6-80cb-846bf0225771
+dates:
+  send_date: '2025-08-05'
+  inferred_send_type: local_time
+  first_sent: '2025-08-05T00:18:29+00:00'
+  last_sent: '2025-08-05T23:10:20+00:00'
+tags: []
+sends:
+- id: 375b16f4-aa85-4170-b8c8-8e14dda5b8e1
+  channel: other
+  name: Variant 1
+- id: c5578f91-8c5e-47ce-a85b-d7133d3e259c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 54295
+  total_delivered: 52523
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 7820.0
+schedule_type: time_based

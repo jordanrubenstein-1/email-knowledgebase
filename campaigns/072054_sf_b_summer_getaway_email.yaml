@@ -1,0 +1,51 @@
+id: 677cadf4-647f-4049-b772-db999374e297
+name: 072054_SF_B_Summer_Getaway_Email
+brand: STF
+channel: email
+category: other
+type: seasonal
+theme: summer
+braze_id: 677cadf4-647f-4049-b772-db999374e297
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2024-07-21T13:15:02+00:00'
+  last_sent: '2024-07-21T13:19:51+00:00'
+tags:
+- Batch and Blast
+- Batch and Blast/non-promo
+sends:
+- id: e741c823-8759-483b-80f4-3d98e7f69814
+  channel: email
+  name: Variant 1
+  subject: Your Summer Getaway = Your Backyard
+  preheader: thanks to our outdoor pillows
+  html_file: html/072054_sf_b_summer_getaway_email.html
+  screenshot: screenshots/072054_sf_b_summer_getaway_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669c0e6ab2488e0079609f84/original.gif?1721503338
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669c0e6a1a4ac7006fd9c37e/original.gif?1721503338
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0058f1ba77/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669c0e6adf23f10065a260ae/original.gif?1721503338
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669c0e6adf23f1006fa25db7/original.gif?1721503338
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669c0e6a54b5f3005a49ccbf/original.jpg?1721503338
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669c0e6ab2488e006e60a738/original.gif?1721503338
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0063f11fb6/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669c0e6adf23f1005aa27177/original.gif?1721503338
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6681bde9255ebf0070d6be26/original.jpeg?1719778792
+- id: 58373aa2-5e3c-496e-9f46-669a4232ddf8
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 20
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.649037'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.142423'
+schedule_type: time_based

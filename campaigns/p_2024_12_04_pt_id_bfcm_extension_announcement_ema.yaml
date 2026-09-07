@@ -1,0 +1,61 @@
+id: 2702d629-fac4-4e05-80ae-fe78f5e516a9
+name: P_2024_12_04_PT_ID_BFCM_Extension_Announcement_Email
+brand: ID
+channel: email
+category: sale_promo
+type: product_launch
+theme: black_friday
+braze_id: 2702d629-fac4-4e05-80ae-fe78f5e516a9
+dates:
+  send_date: '2024-12-04'
+  inferred_send_type: scheduled
+  first_sent: '2024-12-04T08:11:09+00:00'
+  last_sent: '2024-12-04T17:15:18+00:00'
+tags: []
+sends:
+- id: 8c3f46a7-26de-445f-b4cd-840802f2e37c
+  channel: email
+  name: Variant 1
+  subject: Missed Black Friday? It’s your lucky day…
+- id: df34aeed-713f-4cdb-8ce2-714e665a3d11
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 81635
+  total_delivered: 80957
+  total_opens: 25763
+  total_clicks: 595
+  open_rate: 0.3156
+  click_rate: 0.0073
+  total_revenue: 183438.5
+  total_bounces: 3
+  total_unsubscribes: 291
+  ga4:
+    sessions: 651
+    purchases: 7
+    revenue: 15288.34
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.066136'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-cyber-week-ext-2024-12-04
+    name: Cyber Week Ext
+    start_date: '2024-12-04'
+    end_date: '2024-12-10'
+    discount: null
+    type: null
+  primary_sale:
+    id: id-cyber-week-ext-2024-12-04
+    name: Cyber Week Ext
+    start_date: '2024-12-04'
+    end_date: '2024-12-10'
+    discount: null
+    type: null
+  sale_name: Cyber Week Ext
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:42.358573'
+schedule_type: time_based

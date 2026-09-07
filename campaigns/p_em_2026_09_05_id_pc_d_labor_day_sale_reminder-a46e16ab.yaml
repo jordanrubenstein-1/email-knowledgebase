@@ -1,0 +1,36 @@
+id: a46e16ab-45f4-4842-a53c-377bd35f6c3c
+name: P_EM_2026_09_05_ID_PC_D_Labor_Day_Sale_Reminder
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: a46e16ab-45f4-4842-a53c-377bd35f6c3c
+dates:
+  send_date: '2026-09-05'
+  first_sent: '2026-09-05T22:00:16+00:00'
+  last_sent: '2026-09-05T22:08:53+00:00'
+  inferred_send_type: scheduled
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: f0f356be-eb54-4e1f-86a6-71b20f4153ed
+  channel: email
+  name: Variant 1
+  subject: 'UP TO 60% OFF: Your sofa, your call'
+  preheader: Good design shouldn't feel like a deadline.
+- id: e61e4721-7824-42e4-abb8-95d6422a9917
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 134187
+  total_delivered: 133556
+  total_opens: 36470
+  total_clicks: 824
+  open_rate: 0.2718
+  click_rate: 0.0061
+  total_revenue: 113124.99
+  total_bounces: 1
+  total_unsubscribes: 78
+schedule_type: time_based
+_filename: p_em_2026_09_05_id_pc_d_labor_day_sale_reminder-a46e16ab.yaml

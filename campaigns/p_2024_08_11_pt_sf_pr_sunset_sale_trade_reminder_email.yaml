@@ -1,0 +1,35 @@
+id: 19c5e03e-2eba-4fc5-a91f-ffa7834aa5c9
+name: P_2024_08_11_PT_SF_PR_Sunset_Sale_Trade_Reminder_Email
+brand: STF
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 19c5e03e-2eba-4fc5-a91f-ffa7834aa5c9
+dates:
+  send_date: '2024-08-11'
+  inferred_send_type: scheduled
+  first_sent: '2024-08-11T13:15:00+00:00'
+  last_sent: '2024-08-11T13:21:49+00:00'
+tags: []
+sends:
+- id: 263af2c3-83c6-44f5-8b20-c27d1d304b1b
+  channel: email
+  name: Variant 1
+  subject: 25% off just for YOU
+  preheader: exclusive trade discount
+  html_file: html/p_2024_08_11_pt_sf_pr_sunset_sale_trade_reminder_email.html
+  screenshot: screenshots/p_2024_08_11_pt_sf_pr_sunset_sale_trade_reminder_email.png
+- id: f38edddb-af9c-4276-9e58-2beeda489ab7
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 665
+  total_delivered: 662
+  total_opens: 135
+  total_clicks: 16
+  open_rate: 0.203
+  click_rate: 0.0241
+  total_revenue: 2152.0
+_filename: p_2024_08_11_pt_sf_pr_sunset_sale_trade_reminder_email.yaml
+schedule_type: time_based

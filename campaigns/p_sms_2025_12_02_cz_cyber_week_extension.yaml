@@ -1,0 +1,37 @@
+id: da80a175-7f8f-495f-8c0a-43f164fd3c15
+name: P_SMS_2025_12_02_CZ_Cyber_Week_Extension
+brand: CZ
+channel: sms
+category: sale_promo
+type: seasonal
+theme: null
+braze_id: da80a175-7f8f-495f-8c0a-43f164fd3c15
+dates:
+  send_date: '2025-12-02'
+  inferred_send_type: local_time
+  first_sent: '2025-12-02T03:29:06+00:00'
+  last_sent: '2025-12-03T01:01:42+00:00'
+tags: []
+sends:
+- id: 6493bb7d-35da-4645-bba1-16d7ab75ac97
+  channel: sms
+  name: Variant 1
+- id: 3759750d-2bd0-4802-a223-6ffc0bd9f2c4
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 20206
+  total_delivered: 17652
+  total_opens: 0
+  total_clicks: 201
+  open_rate: 0.0
+  click_rate: 0.0099
+  ga4:
+    sessions: 213
+    purchases: 1
+    revenue: 59.25
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.546830'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

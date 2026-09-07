@@ -1,0 +1,51 @@
+id: 11e18a90-4a8d-4d12-ac6e-866ac8f1335c
+name: TRG_EM_2026_04_ID_PT_Swatch_Personalized_T12_V1
+brand: ID
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 9ac09497-6f79-498b-b320-e44a784c3340
+canvas_name: Swatch Post Purchase
+flow_type: post_purchase
+sequence_position: 12
+subject: '{%- assign shopping = canvas_entry_properties.shopping_for | default: ''''
+  -%}{%- if shopping contains ''Sleeper Sofas'' -%}{%- assign item = ''sleeper sofa''
+  -%}{%- elsif shopping contains ''Sectionals'' -%}{%- assign item = ''sectional''
+  -%}{%- elsif shopping contains ''Sofas'' -%}{%- assign item = ''sofa'' -%}{%- elsif
+  shopping contains ''Chairs/Chaises'' -%}{%- assign item = ''chair or chaise'' -%}{%-
+  elsif shopping contains ''Ottomans'' -%}{%- assign item = ''ottoman'' -%}{%- elsif
+  shopping contains ''Beds'' -%}{%- assign item = ''bed'' -%}{%- elsif shopping contains
+  ''Dining'' -%}{%- assign item = ''dining furniture'' -%}{%- else -%}{%- assign item
+  = '''' -%}{%- endif -%}{%- if item != '''' -%}It''s time to finalize your {{ item
+  }}{%- else -%}It''s time to finalize your piece{%- endif -%}'
+preheader: ''
+sends:
+- id: 11e18a90-4a8d-4d12-ac6e-866ac8f1335c
+  channel: email
+  name: TRG_EM_2026_04_ID_PT_Swatch_Personalized_T12_V1
+  subject: '{%- assign shopping = canvas_entry_properties.shopping_for | default:
+    '''' -%}{%- if shopping contains ''Sleeper Sofas'' -%}{%- assign item = ''sleeper
+    sofa'' -%}{%- elsif shopping contains ''Sectionals'' -%}{%- assign item = ''sectional''
+    -%}{%- elsif shopping contains ''Sofas'' -%}{%- assign item = ''sofa'' -%}{%-
+    elsif shopping contains ''Chairs/Chaises'' -%}{%- assign item = ''chair or chaise''
+    -%}{%- elsif shopping contains ''Ottomans'' -%}{%- assign item = ''ottoman'' -%}{%-
+    elsif shopping contains ''Beds'' -%}{%- assign item = ''bed'' -%}{%- elsif shopping
+    contains ''Dining'' -%}{%- assign item = ''dining furniture'' -%}{%- else -%}{%-
+    assign item = '''' -%}{%- endif -%}{%- if item != '''' -%}It''s time to finalize
+    your {{ item }}{%- else -%}It''s time to finalize your piece{%- endif -%}'
+  preheader: ''
+  html_file: html/canvas-swatch-post-purchase-t12-11e18a90.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-04-28T21:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 9997
+  total_delivered: 9876
+  total_opens: 4192
+  total_clicks: 34
+  open_rate: 0.4193
+  click_rate: 0.0034
+  total_unsubscribes: 47
+  total_revenue: 21540.0

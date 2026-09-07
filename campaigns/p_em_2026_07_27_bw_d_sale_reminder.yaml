@@ -1,0 +1,36 @@
+id: c80a9c0e-a12a-4151-976d-7d58e8276365
+name: P_EM_2026_07_27_BW_D_Sale_Reminder
+brand: BUR
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: c80a9c0e-a12a-4151-976d-7d58e8276365
+dates:
+  send_date: '2026-07-27'
+  first_sent: '2026-07-27T20:03:12+00:00'
+  last_sent: '2026-07-28T03:00:51+00:00'
+  inferred_send_type: scheduled
+tags:
+- Batch&Blast
+sends:
+- id: 76e2c699-56eb-4ec2-83c9-1dee0dc79b0c
+  channel: email
+  name: Variant 1
+  subject: Now up to 50% off. New styles added.
+  preheader: The Summer Sale just got bigger.
+- id: ab7ea4df-e110-44b5-8126-0e5843feabb8
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 224177
+  total_delivered: 222984
+  total_opens: 115079
+  total_clicks: 609
+  open_rate: 0.5133
+  click_rate: 0.0027
+  total_revenue: 52500.0
+  total_bounces: 3
+  total_unsubscribes: 147
+schedule_type: time_based
+_filename: p_em_2026_07_27_bw_d_sale_reminder.yaml

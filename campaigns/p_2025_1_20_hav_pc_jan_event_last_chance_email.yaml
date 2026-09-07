@@ -1,0 +1,33 @@
+id: a6913510-cf11-4b22-8690-d46d39cc7c80
+name: P_2025_1_20_HAV_PC_Jan_Event_Last_Chance_Email
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: a6913510-cf11-4b22-8690-d46d39cc7c80
+dates:
+  send_date: '2025-01-20'
+  first_sent: '2025-01-19T17:21:55+00:00'
+  last_sent: '2025-01-20T18:15:04+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 466f87ce-0373-4d5a-950f-e3c037b6624b
+  channel: email
+  name: Variant 1
+  subject: Your exclusive discount code expires tonight…
+- id: cd475710-f8b8-4459-9122-3d5641c742dd
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 181043
+  total_delivered: 178275
+  total_opens: 85487
+  total_clicks: 581
+  open_rate: 0.4722
+  click_rate: 0.0032
+  total_bounces: 6
+  total_unsubscribes: 458
+schedule_type: time_based
+_filename: p_2025_1_20_hav_pc_jan_event_last_chance_email.yaml

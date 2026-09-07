@@ -1,0 +1,71 @@
+id: 4fd78e87-228c-4461-82cf-38d77a2ab9e6
+name: P_2025_05_09_ID_PT_MDW_Sale_EA_Announcement_Email
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 4fd78e87-228c-4461-82cf-38d77a2ab9e6
+dates:
+  send_date: '2025-05-09'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-09T07:09:31+00:00'
+  last_sent: '2025-05-09T17:15:10+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: c66ffded-7d0c-4852-96fb-95b6081209a7
+  channel: email
+  name: Variant 1
+  subject: 'Just For You: 25% Off Sitewide'
+- id: c7541bf9-d60a-4862-8208-b393ef321889
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 159337
+  total_delivered: 157300
+  total_opens: 38058
+  total_clicks: 851
+  open_rate: 0.2389
+  click_rate: 0.0053
+  total_revenue: 161570.25
+  total_bounces: 3
+  total_unsubscribes: 169
+  ga4:
+    sessions: 1218
+    purchases: 13
+    revenue: 35678.73
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.079596'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-sale-2025-05-09-2025-05-09
+    name: Sale 2025-05-09
+    start_date: '2025-05-09'
+    end_date: '2025-05-13'
+    discount: "The Memorial Day Event\nB2C: 25% off sitewide (no tiering)\nTrade:\
+      \ 25% <$3k / 30% ≥$3k\nDE-only backpocket early access (5/6 - 5/9): PREVIPMD25\
+      \ (b2c) and PRETRADEVIPMD (trade) \nEarly Access (5/9 - 5/13): No code; EA messaging\
+      \ and strikethrough live on-site from 5/9"
+    type: null
+  primary_sale:
+    id: id-sale-2025-05-09-2025-05-09
+    name: Sale 2025-05-09
+    start_date: '2025-05-09'
+    end_date: '2025-05-13'
+    discount: "The Memorial Day Event\nB2C: 25% off sitewide (no tiering)\nTrade:\
+      \ 25% <$3k / 30% ≥$3k\nDE-only backpocket early access (5/6 - 5/9): PREVIPMD25\
+      \ (b2c) and PRETRADEVIPMD (trade) \nEarly Access (5/9 - 5/13): No code; EA messaging\
+      \ and strikethrough live on-site from 5/9"
+    type: null
+  sale_name: Sale 2025-05-09
+  sale_discount: "The Memorial Day Event\nB2C: 25% off sitewide (no tiering)\nTrade:\
+    \ 25% <$3k / 30% ≥$3k\nDE-only backpocket early access (5/6 - 5/9): PREVIPMD25\
+    \ (b2c) and PRETRADEVIPMD (trade) \nEarly Access (5/9 - 5/13): No code; EA messaging\
+    \ and strikethrough live on-site from 5/9"
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:42.527115'
+schedule_type: time_based

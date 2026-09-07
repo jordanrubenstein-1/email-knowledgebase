@@ -1,0 +1,35 @@
+id: f6691a20-93c8-4c17-b787-a93cae70e22a
+name: P_EM_2025_07_30_HAV_PC_Summer_Sale_Extension_PM_PT
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: summer
+braze_id: f6691a20-93c8-4c17-b787-a93cae70e22a
+dates:
+  send_date: '2025-07-30'
+  first_sent: '2025-07-30T16:43:08+00:00'
+  last_sent: '2025-07-31T03:00:05+00:00'
+  inferred_send_type: scheduled
+tags:
+- BLASTS-2025
+sends:
+- id: cb7df328-ec32-4287-b74d-b495f2a66d32
+  channel: email
+  name: Variant 1
+  subject: 'It’s back: 50% off, but only for 2 days'
+  preheader: Get started today
+- id: 2ee61da9-0c94-4c36-aa83-6c6d8cab94c5
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 217248
+  total_delivered: 216734
+  total_opens: 95290
+  total_clicks: 359
+  open_rate: 0.4386
+  click_rate: 0.0017
+  total_bounces: 11
+  total_unsubscribes: 252
+schedule_type: time_based
+_filename: p_em_2025_07_30_hav_pc_summer_sale_extension_pm_pt.yaml

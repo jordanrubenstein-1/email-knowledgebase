@@ -1,0 +1,69 @@
+id: 96d67849-9abd-4f8b-989e-e290043653f0
+name: P_EM_2025_11_24_ID_PT_BFCM_Swatchees
+brand: ID
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: 96d67849-9abd-4f8b-989e-e290043653f0
+dates:
+  send_date: '2025-11-24'
+  inferred_send_type: local_time
+  first_sent: '2025-11-24T02:07:04+00:00'
+  last_sent: '2025-11-25T02:02:44+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 0c8a6496-1514-43a6-b511-dea5edf2e82c
+  channel: email
+  name: Variant 1
+  subject: Still deciding on your fabric, lock in your savings today
+  preheader: Our Black Friday Event is here, buy now and decide later
+- id: 688d92bc-2119-400a-97a9-71ea8823d019
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 19843
+  total_delivered: 19603
+  total_opens: 7726
+  total_clicks: 86
+  open_rate: 0.3894
+  click_rate: 0.0043
+  total_revenue: 176091.94
+  total_bounces: 1
+  total_unsubscribes: 55
+  ga4:
+    sessions: 99
+    purchases: 4
+    revenue: 11555.68
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.212673'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-black-friday-cyber-monday-2025-11-13
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-11'
+    end_date: '2025-12-02'
+    discount: "25% Off $2999<\n30% Off $3000\nIncluding In Stock\n\nBlack Friday to\
+      \ Cyber Monday Only \n25% Off $2999<\n30% Off $3000-$3999\n35% Off $4000+\n\
+      Including In Stock"
+    type: null
+  primary_sale:
+    id: id-black-friday-cyber-monday-2025-11-13
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-11'
+    end_date: '2025-12-02'
+    discount: "25% Off $2999<\n30% Off $3000\nIncluding In Stock\n\nBlack Friday to\
+      \ Cyber Monday Only \n25% Off $2999<\n30% Off $3000-$3999\n35% Off $4000+\n\
+      Including In Stock"
+    type: null
+  sale_name: Black Friday / Cyber Monday
+  sale_discount: "25% Off $2999<\n30% Off $3000\nIncluding In Stock\n\nBlack Friday\
+    \ to Cyber Monday Only \n25% Off $2999<\n30% Off $3000-$3999\n35% Off $4000+\n\
+    Including In Stock"
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:32.725311'
+schedule_type: time_based

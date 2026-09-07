@@ -1,0 +1,35 @@
+id: 7f36a631-33a4-43e3-a604-93120f1dbfb7
+name: P_EM_2026_03_24_BW_D_March_Madness_Storage_Highlight_STO_Variant
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 7f36a631-33a4-43e3-a604-93120f1dbfb7
+dates:
+  send_date: '2026-03-24'
+  inferred_send_type: sto
+  first_sent: '2026-03-23T10:09:57+00:00'
+  last_sent: '2026-03-25T07:30:10+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 497e9539-2a62-404e-b848-0d95dad1ebaa
+  channel: email
+  name: Variant 1
+  subject: Ready For Game Day  🏀
+  preheader: Up to 30% off your bracket-watching setup.
+- id: ede7eaea-842b-45d9-ab34-d565c13c7eb0
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 49044
+  total_delivered: 48875
+  total_opens: 19588
+  total_clicks: 104
+  open_rate: 0.3994
+  click_rate: 0.0021
+  total_revenue: 22349.0
+  total_unsubscribes: 69
+_filename: p_em_2026_03_24_bw_d_march_madness_storage_highlight_sto_var.yaml
+schedule_type: time_based

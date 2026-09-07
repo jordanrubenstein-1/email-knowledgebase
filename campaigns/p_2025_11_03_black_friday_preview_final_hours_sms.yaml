@@ -1,0 +1,30 @@
+id: daf99181-d98c-407d-833f-aeb0b1ca1cd2
+name: P_2025_11_03_Black_Friday_Preview_Final_Hours_SMS
+brand: ID
+channel: sms
+category: reminder
+type: announcement
+theme: null
+braze_id: daf99181-d98c-407d-833f-aeb0b1ca1cd2
+dates:
+  send_date: '2025-11-03'
+  inferred_send_type: local_time
+  first_sent: '2025-11-03T01:25:37+00:00'
+  last_sent: '2025-11-04T01:02:15+00:00'
+tags: []
+sends:
+- id: 9c180a98-680f-484c-9849-d4275502a937
+  channel: other
+  name: Variant 1
+- id: cce87594-69ec-4bfb-9b70-2e0eebcd2e17
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 51098
+  total_delivered: 48806
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 47741.96
+schedule_type: time_based

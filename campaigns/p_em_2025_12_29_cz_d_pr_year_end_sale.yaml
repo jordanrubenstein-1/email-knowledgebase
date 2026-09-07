@@ -1,0 +1,59 @@
+id: a13e2b53-58a9-4e07-8130-85a29031f125
+name: P_EM_2025_12_29_CZ_D_PR_Year_End_Sale
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: a13e2b53-58a9-4e07-8130-85a29031f125
+dates:
+  send_date: '2025-12-29'
+  inferred_send_type: local_time
+  first_sent: '2025-12-28T17:24:41+00:00'
+  last_sent: '2025-12-29T17:17:26+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale/yearend2025
+- sale_feat
+sends:
+- id: a1e2034d-df17-41e4-9662-cb9c223b68fa
+  channel: email
+  name: Variant 1
+  subject: Don’t Miss This
+  preheader: Shop up to 25% off sitewide now.
+  html_file: html/p_em_2025_12_29_cz_d_pr_year_end_sale.html
+  screenshot: screenshots/p_em_2025_12_29_cz_d_pr_year_end_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/694ac31292022f0065848329/original.png?1766507281
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/694ac28193f6a7006373324b/original.gif?1766507137
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/694ac2f394b3a60063de48ed/original.png?1766507250
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/694ac3029dc0480064690588/original.png?1766507265
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/694ac2bf43c2fd0064d02e3f/original.png?1766507198
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/694ac29e4c4f15007167d87d/original.png?1766507166
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/694ac2cd1701a0006470c519/original.png?1766507212
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/694ac2e1e9f1bc007351b438/original.png?1766507233
+- id: 9cca74a0-876f-4515-8d02-e5f69beb827d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 114312
+  total_delivered: 113906
+  total_opens: 57097
+  total_clicks: 689
+  open_rate: 0.4995
+  click_rate: 0.006
+  total_bounces: 1
+  total_unsubscribes: 211
+  ga4:
+    sessions: 628
+    purchases: 8
+    revenue: 1950.6
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.132371'
+    source: snowflake
+    channel: email
+schedule_type: time_based

@@ -1,0 +1,58 @@
+id: 7f53560f-72ed-46ac-b091-6375b1c4ec10
+name: P_2025_1_14_D_SF_Winter_Best_Sellers_Gmail_Email
+brand: STF
+channel: email
+category: other
+type: seasonal
+theme: winter
+braze_id: 7f53560f-72ed-46ac-b091-6375b1c4ec10
+dates:
+  send_date: '2025-01-14'
+  inferred_send_type: local_time
+  first_sent: '2025-01-14T00:43:20+00:00'
+  last_sent: '2025-01-14T16:00:15+00:00'
+tags: []
+sends:
+- id: 3e9662cc-024c-4fdf-9918-f06f280d207d
+  channel: email
+  name: Variant 1
+  subject: Best of the Best
+  preheader: our winter favorites
+  html_file: html/p_2025_1_14_d_sf_winter_best_sellers_gmail_email.html
+  screenshot: screenshots/p_2025_1_14_d_sf_winter_best_sellers_gmail_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6785773d8287340064777a45/original.gif?1736800061
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678578c159695200646bf36f/original.gif?1736800449
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6785786a7009bd0063c7db71/original.gif?1736800362
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678578a48443ec00644bfd29/original.gif?1736800420
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678578df0688f30066a0a297/original.jpg?1736800479
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678576a73f8e300064f8f6c6/original.jpg?1736799911
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67857853df07240064eb3407/original.gif?1736800339
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678576c4df07240073eb1611/original.gif?1736799940
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678577a88443ec00644bfb3a/original.gif?1736800168
+- id: 24bc79f1-ec90-449d-a103-d0d80aa43a5b
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 734
+  total_delivered: 734
+  total_opens: 564
+  total_clicks: 20
+  open_rate: 0.7684
+  click_rate: 0.0272
+  total_revenue: 843.0
+  total_unsubscribes: 2
+  ga4:
+    sessions: 20
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.711021'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.812989'
+schedule_type: time_based

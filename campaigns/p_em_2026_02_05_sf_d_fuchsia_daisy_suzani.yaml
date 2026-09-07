@@ -1,0 +1,54 @@
+id: 4a54807f-b974-43b5-b45c-f532f7eac811
+name: P_EM_2026_02_05_SF_D_Fuchsia_Daisy_Suzani
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 4a54807f-b974-43b5-b45c-f532f7eac811
+dates:
+  send_date: '2026-02-05'
+  inferred_send_type: local_time
+  first_sent: '2026-02-04T22:32:11+00:00'
+  last_sent: '2026-02-05T20:01:55+00:00'
+tags:
+- Batch and Blast
+- d2c
+- designed
+sends:
+- id: 92efe366-d7a2-41fd-9c60-50bb624ae3ec
+  channel: email
+  name: Variant 1
+  subject: This month’s obsession
+  preheader: a bold suzani print worth collecting
+  html_file: html/p_em_2026_02_05_sf_d_fuchsia_daisy_suzani.html
+  screenshot: screenshots/p_em_2026_02_05_sf_d_fuchsia_daisy_suzani.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69839f083e2d1600635b53da/original.png?1770233607
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69839e749d03e9006333aa9a/original.gif?1770233459
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69839f496c763300655575df/original.png?1770233673
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69839e993a1f680063a5bb43/original.png?1770233497
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69839f3ece1e7d0063e35bbe/original.png?1770233661
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69839e813a1f680063a5baed/original.png?1770233473
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69839ef9c3ca9d0063a4ec80/original.png?1770233593
+- id: 94f4212a-3622-42ca-89d2-84765281266c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39387
+  total_delivered: 38785
+  total_opens: 13056
+  total_clicks: 148
+  open_rate: 0.3315
+  click_rate: 0.0038
+  total_bounces: 3
+  total_unsubscribes: 32
+  ga4:
+    sessions: 143
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.843274'
+    source: snowflake
+    channel: email
+schedule_type: time_based

@@ -1,0 +1,36 @@
+id: e5c79d8b-974a-4316-9d3a-779d44bd0670
+name: P_EM_2026_05_31_ID_PC_D_Swatch_Talk_Summer_Blues
+brand: ID
+channel: email
+category: other
+type: seasonal
+theme: summer
+braze_id: e5c79d8b-974a-4316-9d3a-779d44bd0670
+dates:
+  send_date: '2026-05-31'
+  first_sent: '2026-05-30T19:09:34+00:00'
+  last_sent: '2026-05-31T18:04:36+00:00'
+  inferred_send_type: local_time
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 09b13034-af43-4da6-a31a-c917b8cf53ad
+  channel: email
+  name: Variant 1
+  subject: Blue is having its moment
+  preheader: Shop cool tones and save up to 30% off sitewide.
+- id: ffca1add-c7e4-43ad-b5fd-813635eb8e7d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 229303
+  total_delivered: 228471
+  total_opens: 92234
+  total_clicks: 625
+  open_rate: 0.4022
+  click_rate: 0.0027
+  total_revenue: 401443.93
+  total_bounces: 2
+  total_unsubscribes: 247
+schedule_type: time_based
+_filename: p_em_2026_05_31_id_pc_d_swatch_talk_summer_blues.yaml

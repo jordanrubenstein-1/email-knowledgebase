@@ -1,0 +1,36 @@
+id: badf3bd0-82f2-4142-b152-efeb8a820457
+name: P_EM_2025_09_04_ID_D_AM_Labor_Day_Event_Last_Chance
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: badf3bd0-82f2-4142-b152-efeb8a820457
+dates:
+  send_date: '2025-09-04'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-04T06:09:23+00:00'
+  last_sent: '2025-09-04T17:15:45+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 80bbc014-7236-45fa-86cd-ab18a3f3b839
+  channel: email
+  name: Variant 1
+  subject: 'Last Day: EVERYTHING is 25% Off'
+  preheader: 'Don’t sleep on it. Sale ends tonight! '
+- id: a07d4a0f-0a80-451f-8b19-1f009c27a6be
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 204336
+  total_delivered: 201291
+  total_opens: 98413
+  total_clicks: 692
+  open_rate: 0.4816
+  click_rate: 0.0034
+  total_revenue: 424550.0
+  total_bounces: 12
+  total_unsubscribes: 527
+_filename: p_em_2025_09_04_id_d_am_labor_day_event_last_chance.yaml
+schedule_type: time_based

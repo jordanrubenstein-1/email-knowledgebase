@@ -1,0 +1,45 @@
+id: c44a4a8f-5125-466b-8a7a-cdd1c0d9eb21
+name: P_2024_09_05_D_ID_PR_LD_Sale_Reminder_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: c44a4a8f-5125-466b-8a7a-cdd1c0d9eb21
+dates:
+  send_date: '2024-09-05'
+  inferred_send_type: local_time
+  first_sent: '2024-09-05T00:32:45+00:00'
+  last_sent: '2024-09-05T17:15:00+00:00'
+tags: []
+sends:
+- id: a8693e24-3527-4983-9974-8e9d120d343b
+  channel: email
+  name: Variant 1
+  subject: DON'T MISS OUT!
+  preheader: Shop the Labor Day Event
+- id: 8e5e0958-0a52-4449-8a7e-131444657b66
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 38634
+  total_delivered: 38552
+  total_opens: 14223
+  total_clicks: 392
+  open_rate: 0.3681
+  click_rate: 0.0101
+  total_bounces: 2
+  total_unsubscribes: 56
+  ga4:
+    sessions: 544
+    purchases: 2
+    revenue: 7093.4
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.716415'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.524905'
+schedule_type: time_based

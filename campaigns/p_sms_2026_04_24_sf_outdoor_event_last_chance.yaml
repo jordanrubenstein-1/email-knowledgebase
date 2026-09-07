@@ -1,0 +1,29 @@
+id: 513a190e-9cab-4bdb-8638-d7fc47684f34
+name: P_SMS_2026_04_24_SF_Outdoor_Event_Last_Chance
+brand: STF
+channel: sms
+category: reminder
+type: announcement
+theme: null
+braze_id: 513a190e-9cab-4bdb-8638-d7fc47684f34
+dates:
+  send_date: '2026-04-24'
+  last_sent: '2026-04-24'
+tags: []
+sends:
+- id: d0067e16-3987-471c-8ffb-e7d298b43396
+  channel: sms
+  name: Variant 1
+- id: 22083ab7-6020-47af-8ada-e58e56fc03cb
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 4239
+  total_delivered: 4140
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 338.8
+_filename: p_sms_2026_04_24_sf_outdoor_event_last_chance.yaml
+schedule_type: time_based

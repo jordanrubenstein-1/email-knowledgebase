@@ -1,0 +1,42 @@
+id: 1981763d-33e3-474f-b08b-5e0d1489de9a
+name: P_EM_2026_04_20_SF_D_Outdoor_Event_Launch
+brand: STF
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 1981763d-33e3-474f-b08b-5e0d1489de9a
+dates:
+  send_date: '2026-04-20'
+  last_sent: '2026-04-20'
+tags:
+- Batch and Blast
+sends:
+- id: f5a90d31-63b3-488c-8f8c-6df2c511634d
+  channel: email
+  name: Variant 1
+  subject: 20% off the pieces made for open-air living
+  preheader: Bold prints for patios, terraces, and gardens.
+  html_file: html/p_em_2026_04_20_sf_d_outdoor_event_launch.html
+  screenshot: screenshots/p_em_2026_04_20_sf_d_outdoor_event_launch.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69df38e3b8146800ac77940d/original.png?1776236770
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69df38a93b130700aca1a571/original.png?1776236713
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69df390350c87c00acb27124/original.png?1776236802
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69df38d657b59d00aa18f0c3/original.png?1776236757
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69df38828ea80900ac5a60a5/original.png?1776236674
+- id: 43481cf2-5cfa-479f-8f67-2f2be60cd232
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 36755
+  total_delivered: 36429
+  total_opens: 11628
+  total_clicks: 168
+  open_rate: 0.3164
+  click_rate: 0.0046
+  total_revenue: 127311.3
+  total_bounces: 2
+  total_unsubscribes: 29
+_filename: p_em_2026_04_20_sf_d_outdoor_event_launch.yaml
+schedule_type: time_based

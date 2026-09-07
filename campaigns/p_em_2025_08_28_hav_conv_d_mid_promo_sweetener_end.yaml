@@ -1,0 +1,56 @@
+id: 9b7c98bc-731c-47bd-9f9f-d6ebe3f01eba
+name: P_EM_2025_08_28_HAV_CONV_D_Mid_Promo_Sweetener_Ends_Tonight
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 9b7c98bc-731c-47bd-9f9f-d6ebe3f01eba
+dates:
+  send_date: '2025-08-28'
+  inferred_send_type: local_time
+  first_sent: '2025-08-27T19:28:01+00:00'
+  last_sent: '2025-08-28T17:15:18+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 2e00a5e3-e1bf-4a47-9b81-6e990d010759
+  channel: email
+  name: Variant 1
+  subject: Bigger Cart. Bigger Savings.
+  preheader: Final hours for bonus savings…
+  html_file: html/p_em_2025_08_28_hav_conv_d_mid_promo_sweetener_ends_tonight.html
+  screenshot: screenshots/p_em_2025_08_28_hav_conv_d_mid_promo_sweetener_ends_tonight.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68ae01364ba6230086765ff3/original.png?1756234038
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68ae0146c729c30065c8d0c5/original.png?1756234053
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68ae014de2b23b00875a4ce6/original.png?1756234061
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68ae0155e2b23b00675a4e5b/original.png?1756234069
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68aee0d0ffddca0076767df3/original.gif?1756291280
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68aee0c767264b0067d403d4/original.gif?1756291271
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68ae012d68fd030066326d73/original.png?1756234028
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68ae013d9f7bfa0064d655e3/original.png?1756234045
+- id: 1f44149a-b586-4d93-9611-6be81a6c2bae
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41194
+  total_delivered: 41127
+  total_opens: 21648
+  total_clicks: 94
+  open_rate: 0.5255
+  click_rate: 0.0023
+  total_unsubscribes: 43
+  ga4:
+    sessions: 90
+    purchases: 1
+    revenue: 1625.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.520405'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.743899'
+schedule_type: time_based

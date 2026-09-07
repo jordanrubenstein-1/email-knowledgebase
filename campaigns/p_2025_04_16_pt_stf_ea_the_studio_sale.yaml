@@ -1,0 +1,47 @@
+id: bd449576-af91-4f60-b54a-f2cdd873a850
+name: P_2025_04_16_PT_STF_EA_The_Studio_Sale
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: bd449576-af91-4f60-b54a-f2cdd873a850
+dates:
+  send_date: '2025-04-16'
+  inferred_send_type: local_time
+  first_sent: '2025-04-15T22:22:07+00:00'
+  last_sent: '2025-04-16T17:00:38+00:00'
+tags: []
+sends:
+- id: 5712e232-858f-478b-857f-532c4a649e5e
+  channel: email
+  name: Variant 1
+  subject: Be the first to shop up to 25% off
+  preheader: get the styles you’ve been eyeing before anyone else
+  html_file: html/p_2025_04_16_pt_stf_ea_the_studio_sale.html
+  screenshot: screenshots/p_2025_04_16_pt_stf_ea_the_studio_sale.png
+- id: ac0da7a6-6f47-4311-abfa-a8fd9056cb90
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 11755
+  total_delivered: 11631
+  total_opens: 6698
+  total_clicks: 263
+  open_rate: 0.5698
+  click_rate: 0.0224
+  total_revenue: 8466.0
+  total_unsubscribes: 30
+  ga4:
+    sessions: 330
+    purchases: 7
+    revenue: 2017.5
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.665919'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.675269'
+schedule_type: time_based

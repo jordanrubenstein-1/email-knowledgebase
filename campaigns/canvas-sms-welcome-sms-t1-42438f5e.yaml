@@ -1,0 +1,32 @@
+id: 42438f5e-fcec-4161-9430-2d1e56c3fc40
+name: TRG_SMS_2025_07_ID_Welcome_T1_V1
+brand: ID
+channel: sms
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 57b265fb-8444-432a-b2e8-2bbc0bb3592a
+canvas_name: SMS Welcome
+flow_type: welcome_series
+sequence_position: 1
+body: "Interior Define: Welcome to Interior Define! Use code WELCOME10-A6J8D3 for\
+  \ 10% off your first purchase. Happy Customizing! \nhttps://www.interiordefine.com/?utm_source=braze_ID&utm_medium=sms&utm_campaign={{campaign.${name}}}&userid={{${user_id}}}&bzt={{${email_address}\
+  \ | base64_encode | url_param_escape}}"
+sends:
+- id: 42438f5e-fcec-4161-9430-2d1e56c3fc40
+  channel: sms
+  name: TRG_SMS_2025_07_ID_Welcome_T1_V1
+  body: "Interior Define: Welcome to Interior Define! Use code WELCOME10-A6J8D3 for\
+    \ 10% off your first purchase. Happy Customizing! \nhttps://www.interiordefine.com/?utm_source=braze_ID&utm_medium=sms&utm_campaign={{campaign.${name}}}&userid={{${user_id}}}&bzt={{${email_address}\
+    \ | base64_encode | url_param_escape}}"
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-03-18T15:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 6135
+  total_delivered: 6126
+  total_clicks: 1329
+  click_rate: 0.2166
+  total_unsubscribes: 127
+  total_revenue: 286846.0

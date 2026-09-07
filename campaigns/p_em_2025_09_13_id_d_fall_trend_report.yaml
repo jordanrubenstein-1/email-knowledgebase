@@ -1,0 +1,63 @@
+id: 81f8c904-90db-4ae6-a067-d4ff54f88e12
+name: P_EM_2025_09_13_ID_D_Fall_Trend_Report
+brand: ID
+channel: email
+category: editorial
+type: seasonal
+theme: fall
+braze_id: 81f8c904-90db-4ae6-a067-d4ff54f88e12
+dates:
+  send_date: '2025-09-13'
+  inferred_send_type: local_time
+  first_sent: '2025-09-13T02:01:08+00:00'
+  last_sent: '2025-09-13T17:15:20+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 6d381cdc-a69b-4743-9a86-f2d5fcbd4325
+  channel: email
+  name: Variant 1
+  subject: The Fall Trend Report  🍂
+  preheader: Shop seasonal styles on sale.
+- id: 0665e227-b01a-46fa-8599-37f8b774f4a6
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 202958
+  total_delivered: 201744
+  total_opens: 98860
+  total_clicks: 507
+  open_rate: 0.4871
+  click_rate: 0.0025
+  total_revenue: 55765.22
+  total_bounces: 4
+  total_unsubscribes: 366
+  ga4:
+    sessions: 523
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.241616'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-private-sale-lifecycle-retail-only-2025-09-11
+    name: Private Sale - Lifecycle/Retail Only
+    start_date: '2025-09-11'
+    end_date: '2025-09-16'
+    discount: 20% off sitewide with code SEPTVIP
+    type: null
+  primary_sale:
+    id: id-private-sale-lifecycle-retail-only-2025-09-11
+    name: Private Sale - Lifecycle/Retail Only
+    start_date: '2025-09-11'
+    end_date: '2025-09-16'
+    discount: 20% off sitewide with code SEPTVIP
+    type: null
+  sale_name: Private Sale - Lifecycle/Retail Only
+  sale_discount: 20% off sitewide with code SEPTVIP
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:33.033270'
+schedule_type: time_based

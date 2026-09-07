@@ -1,0 +1,34 @@
+id: 64415fd5-6430-4d16-bb2e-154448bec3bb
+name: P_2025_05_23_HAV_Conv_D_Items_in_Your_Design_on_Sale
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 64415fd5-6430-4d16-bb2e-154448bec3bb
+dates:
+  send_date: '2025-05-23'
+  first_sent: '2025-05-23T14:39:28+00:00'
+  last_sent: '2025-05-24T02:01:35+00:00'
+  inferred_send_type: scheduled
+tags:
+- BLASTS-2025
+sends:
+- id: f7298f02-e66d-4bdb-895b-6b0065a55c5b
+  channel: email
+  name: Variant 1
+  subject: Items In Your Design Are Now on Sale
+  preheader: Get the best deals, only at Havenly.
+- id: 6c71b05b-d1be-4639-b981-abd888e8acc5
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 9607
+  total_delivered: 9592
+  total_opens: 5778
+  total_clicks: 251
+  open_rate: 0.6014
+  click_rate: 0.0261
+  total_unsubscribes: 3
+schedule_type: time_based
+_filename: p_2025_05_23_hav_conv_d_items_in_your_design_on_sale.yaml

@@ -1,0 +1,47 @@
+id: 42e18284-72cb-4916-9d1b-cf329c5048ee
+name: P_2025_06_28_ID_D_Perfect_Parings_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 42e18284-72cb-4916-9d1b-cf329c5048ee
+dates:
+  send_date: '2025-06-28'
+  inferred_send_type: local_time
+  first_sent: '2025-06-27T23:24:51+00:00'
+  last_sent: '2025-06-28T17:15:12+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 0e7d3497-aac0-457b-913a-4bdf9c2236ae
+  channel: email
+  name: Variant 1
+  subject: Designed to Sit Together
+  preheader: Our top sofa and chair pairings, now up to 25% off. No guesswork needed.
+- id: 0aa3ac51-6105-45bf-a297-48b8bb0afb5a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 111264
+  total_delivered: 109947
+  total_opens: 51525
+  total_clicks: 630
+  open_rate: 0.4631
+  click_rate: 0.0057
+  total_revenue: 192965.0
+  total_bounces: 4
+  total_unsubscribes: 270
+  ga4:
+    sessions: 682
+    purchases: 3
+    revenue: 9924.06
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.435573'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:35.148012'
+schedule_type: time_based

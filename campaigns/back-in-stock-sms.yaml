@@ -1,0 +1,33 @@
+id: d12891ba-b3d3-440e-99a2-0a894576f667
+name: Back In Stock SMS
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: d12891ba-b3d3-440e-99a2-0a894576f667
+braze_type: canvas
+campaign_type: Triggered Journey
+dates: {}
+tags: []
+sends: []
+performance_summary: {}
+canvas_steps:
+- id: 017f980a-86d0-4196-9829-bafc0adbabab
+  name: Step 1
+  type: delay
+- id: 278b3e51-75f0-4979-a51d-09d4bc2cb13d
+  name: SMS_Welcome_Step_1
+  type: message
+- id: d7a08461-fcbc-4238-954f-c8b6f546333e
+  name: Step
+  type: delay
+- id: f4c5161c-40c5-4b60-a104-42b489142269
+  name: SMS_Welcome_Step_2
+  type: message
+- id: 0817b136-028e-4e68-8f5a-6b259f28c105
+  name: Step 2
+  type: delay
+- id: 7f4bfbf0-4db4-48c8-b01a-0255621b5494
+  name: SMS_Welcome_Step_3
+  type: message

@@ -1,0 +1,30 @@
+id: 4f31fef4-1ac6-4777-9a6c-0bd3c1c2e376
+name: 20250609_Summer_Ready_Flash_Sale_Last_Chance_SMS
+brand: BUR
+channel: sms
+category: reminder
+type: sale
+theme: summer
+braze_id: 4f31fef4-1ac6-4777-9a6c-0bd3c1c2e376
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-06-09T02:06:52+00:00'
+  last_sent: '2025-06-10T01:00:15+00:00'
+tags: []
+sends:
+- id: 9172eb69-41b3-4de0-9a6d-5233ec9a69da
+  channel: other
+  name: Variant 1
+- id: 8291e7a9-9144-4ee1-91c1-b3f2820b778f
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 209
+    purchases: 1
+    revenue: 407.46
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.692990'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

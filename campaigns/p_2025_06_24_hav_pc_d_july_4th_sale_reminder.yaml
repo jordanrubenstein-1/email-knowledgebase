@@ -1,0 +1,35 @@
+id: 8fc4dd5f-1156-43f2-92b0-6c346c91ae04
+name: P_2025_06_24_HAV_PC_D_July_4th_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 8fc4dd5f-1156-43f2-92b0-6c346c91ae04
+dates:
+  send_date: '2025-06-24'
+  first_sent: '2025-06-23T21:49:06+00:00'
+  last_sent: '2025-06-24T18:15:08+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 676c1412-2959-4a3a-a60d-eede88608be7
+  channel: email
+  name: Variant 1
+  subject: Cheaper than your next date night
+  preheader: '50% off the #1 interior design service'
+- id: 7703943d-b975-4014-bf50-ffa1b5e04e4c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 223460
+  total_delivered: 220246
+  total_opens: 92609
+  total_clicks: 416
+  open_rate: 0.4144
+  click_rate: 0.0019
+  total_bounces: 26
+  total_unsubscribes: 441
+schedule_type: time_based
+_filename: p_2025_06_24_hav_pc_d_july_4th_sale_reminder.yaml

@@ -1,0 +1,45 @@
+id: 299ccf26-1e01-44c3-95f7-abb277f03e5a
+name: P_2024_09_26_D_ID_PR_Sale_Reminder_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 299ccf26-1e01-44c3-95f7-abb277f03e5a
+dates:
+  send_date: '2024-09-26'
+  inferred_send_type: scheduled
+  first_sent: '2024-09-26T06:06:16+00:00'
+  last_sent: '2024-09-26T17:15:03+00:00'
+tags: []
+sends:
+- id: dac1b798-6087-4c49-8419-f2a866674fb3
+  channel: email
+  name: Variant 1
+  subject: SHOP 20% OFF SITEWIDE
+  preheader: The September Sale is still going on!
+- id: b4e8e907-770a-41a7-8012-f0cf985322a0
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 53344
+  total_delivered: 52854
+  total_opens: 18003
+  total_clicks: 616
+  open_rate: 0.3375
+  click_rate: 0.0115
+  total_revenue: 452578.0
+  total_unsubscribes: 72
+  ga4:
+    sessions: 632
+    purchases: 1
+    revenue: 3732.71
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.813895'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.514506'
+schedule_type: time_based

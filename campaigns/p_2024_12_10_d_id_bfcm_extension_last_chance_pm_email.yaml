@@ -1,0 +1,34 @@
+id: 23e68700-a6d7-4621-9aa2-1af9f755dcad
+name: P_2024_12_10_D_ID_BFCM_Extension_Last_Chance_PM_Email
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: black_friday
+braze_id: 23e68700-a6d7-4621-9aa2-1af9f755dcad
+dates:
+  send_date: '2024-12-10'
+  inferred_send_type: local_time
+  first_sent: '2024-12-10T02:20:48+00:00'
+  last_sent: '2024-12-11T02:15:04+00:00'
+tags: []
+sends:
+- id: ddab7618-040a-4cbc-947d-0d485636e036
+  channel: email
+  name: Variant 1
+  subject: Going… Going… Goodbye Cyber Week
+  preheader: HOURS LEFT for up to 25% off sitewide!
+- id: 330e7f33-1508-41c6-830e-ecc992f8b765
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 16626
+  total_delivered: 16577
+  total_opens: 10146
+  total_clicks: 384
+  open_rate: 0.6102
+  click_rate: 0.0231
+  total_revenue: 98297.88
+  total_unsubscribes: 44
+_filename: p_2024_12_10_d_id_bfcm_extension_last_chance_pm_email.yaml
+schedule_type: time_based

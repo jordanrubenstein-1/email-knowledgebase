@@ -1,0 +1,33 @@
+id: 6e9f5239-4c07-474e-96f8-91656958f6f9
+name: P_2024_11_30_D_HAV_CON_Sale_Reminder_Living_Room_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 6e9f5239-4c07-474e-96f8-91656958f6f9
+dates:
+  send_date: '2024-11-30'
+  first_sent: '2024-11-30T01:10:29+00:00'
+  last_sent: '2024-11-30T17:15:07+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 60658e99-f184-42d6-ab92-d6bbea57fe33
+  channel: email
+  name: Variant 1
+  subject: Deals On Deals, Only At Havenly
+  preheader: Black Friday is over, but the sale is still on!
+- id: 9bc5a822-498a-43a9-88a2-bcaa69afbda7
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 35760
+  total_delivered: 35718
+  total_opens: 19735
+  total_clicks: 207
+  open_rate: 0.5519
+  click_rate: 0.0058
+  total_unsubscribes: 69
+schedule_type: time_based
+_filename: p_2024_11_30_d_hav_con_sale_reminder_living_room_email.yaml

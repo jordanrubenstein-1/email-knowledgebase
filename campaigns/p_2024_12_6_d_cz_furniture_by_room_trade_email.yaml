@@ -1,0 +1,56 @@
+id: e475bc54-258b-4bb0-8a8f-3b766f243962
+name: P_2024_12_6_D_CZ_Furniture_By_Room_Trade_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: e475bc54-258b-4bb0-8a8f-3b766f243962
+dates:
+  send_date: '2024-12-06'
+  inferred_send_type: local_time
+  first_sent: '2024-12-06T02:07:46+00:00'
+  last_sent: '2024-12-06T19:00:44+00:00'
+tags: []
+sends:
+- id: 4f1f1235-cce6-413f-88b5-887441dcc98e
+  channel: email
+  name: Variant 1
+  subject: Unlock Your Trade Discount
+  preheader: Get 20% off all furniture, all the time.
+  html_file: html/p_2024_12_6_d_cz_furniture_by_room_trade_email.html
+  screenshot: screenshots/p_2024_12_6_d_cz_furniture_by_room_trade_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67521ad965a62c006484d0aa/original.jpg?1733434072
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67521b049f3ee700647716af/original.jpg?1733434116
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67521afd48733600655e076f/original.jpg?1733434109
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6737f266b6d759006411bc0f/original.jpg?1731719781
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6737f258cada6c00640d636b/original.jpg?1731719768
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6737f24a31dad20066f15fc2/original.jpg?1731719754
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6737f27fb6d759006411bc10/original.jpg?1731719807
+- id: 5611bb30-5e8c-43bd-9bc1-9e0ebe5ff3a9
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 14643
+  total_delivered: 14442
+  total_opens: 7619
+  total_clicks: 276
+  open_rate: 0.5203
+  click_rate: 0.0188
+  total_revenue: 17982.97
+  total_bounces: 11
+  total_unsubscribes: 54
+  ga4:
+    sessions: 358
+    purchases: 5
+    revenue: 5984.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.114108'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.183197'
+schedule_type: time_based

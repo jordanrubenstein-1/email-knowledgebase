@@ -1,0 +1,32 @@
+id: 92460444-6ac3-4d41-bb37-050efea59b0b
+name: TRG_EM_2024_07_CZ_D_Welcome_Pillows_T2
+brand: CZ
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: c7ee8f4e-f9f7-4e59-87e1-ac78e49ddc23
+canvas_name: Welcome Flow - August 2024
+flow_type: welcome_series
+sequence_position: 6
+subject: Handcrafted pillows, made to layer
+preheader: Subtle pattern. Rich texture. Designed to layer.
+sends:
+- id: 92460444-6ac3-4d41-bb37-050efea59b0b
+  channel: email
+  name: TRG_EM_2024_07_CZ_D_Welcome_Pillows_T2
+  subject: Handcrafted pillows, made to layer
+  preheader: Subtle pattern. Rich texture. Designed to layer.
+  html_file: html/canvas-welcome-flow-august-2024-t6-92460444.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-24T19:00:00Z'
+  last_sent: '2026-07-27T17:00:00Z'
+performance_summary:
+  total_sends: 19
+  total_delivered: 19
+  total_opens: 14
+  total_clicks: 3
+  open_rate: 0.7368
+  click_rate: 0.1579
+  total_unsubscribes: 1

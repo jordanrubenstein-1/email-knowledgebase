@@ -1,0 +1,34 @@
+id: 20bed8a7-5e81-4a16-a203-694365faeb54
+name: P_EM_2025_12_02_HAV_CONV_Giving_Tuesday_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 20bed8a7-5e81-4a16-a203-694365faeb54
+dates:
+  send_date: '2025-12-02'
+  first_sent: '2025-12-02T02:08:53+00:00'
+  last_sent: '2025-12-03T02:02:15+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 41c8bd26-bb70-47ae-9411-d14b23906173
+  channel: email
+  name: Variant 1
+  subject: 'EXTENDED: Up to 70% Off Sitewide'
+  preheader: Make your purchase count this Giving Tuesday.
+- id: d85f5dd3-d683-4dba-8653-62cd2ad47790
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 23743
+  total_delivered: 23734
+  total_opens: 11667
+  total_clicks: 157
+  open_rate: 0.4914
+  click_rate: 0.0066
+  total_unsubscribes: 41
+schedule_type: time_based
+_filename: p_em_2025_12_02_hav_conv_giving_tuesday_reminder.yaml

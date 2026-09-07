@@ -1,0 +1,51 @@
+id: 7ed1ad7c-9007-4f55-ba8e-7eb0fc3808fb
+name: P_EM_2026_03_15_SF_D_PR_Oscars_Bestsellers
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 7ed1ad7c-9007-4f55-ba8e-7eb0fc3808fb
+dates:
+  send_date: '2026-03-15'
+  inferred_send_type: local_time
+  first_sent: '2026-03-15T01:05:59+00:00'
+  last_sent: '2026-03-16T01:01:06+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- print
+sends:
+- id: 4de1dc33-f526-4e68-8b97-fccb234603a3
+  channel: email
+  name: Variant 1
+  subject: And the Award Goes to...
+  preheader: our most-loved bestsellers take center stage
+  html_file: html/p_em_2026_03_15_sf_d_pr_oscars_bestsellers.html
+  screenshot: screenshots/p_em_2026_03_15_sf_d_pr_oscars_bestsellers.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b4601ce0efae0063ab60f9/original.png?1773428764
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b45fcf20818e00637be51d/original.png?1773428686
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b46cbd56cc7d0063a7b5f7/original.png?1773431997
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b4600df4f23500720bc908/original.png?1773428749
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b46036e213670063645a18/original.png?1773428790
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b45ff4c365d600639c34fb/original.png?1773428724
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b4607a12c29900736660b1/original.png?1773428858
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b46082ff9eb30064ee2414/original.png?1773428866
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b464fb6e5b43006347b2a2/original.png?1773430010
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b4604af251c90063376d94/original.png?1773428809
+- id: 7ef6f629-94d7-498b-a3cf-e5951aa9620a
+  channel: email
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 133
+    purchases: 3
+    revenue: 1688.8
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.780288'
+    source: snowflake
+    channel: email
+schedule_type: time_based

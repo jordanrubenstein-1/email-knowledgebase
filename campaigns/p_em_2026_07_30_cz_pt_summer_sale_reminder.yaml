@@ -1,0 +1,31 @@
+id: b79003cb-7a7b-4389-b4c4-d7ea896f7011
+name: P_EM_2026_07_30_CZ_PT_Summer_Sale_Reminder
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: summer
+braze_id: b79003cb-7a7b-4389-b4c4-d7ea896f7011
+dates:
+  send_date: '2026-07-30'
+  last_sent: '2026-07-30'
+tags: []
+sends:
+- id: 937f6ca5-d5cf-4404-8627-c947aff3f474
+  channel: email
+  name: Variant 1
+  subject: Time's running out to save
+- id: 5375d1b3-6d75-4595-8ccf-44d927c89691
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 119859
+  total_delivered: 119686
+  total_opens: 57776
+  total_clicks: 538
+  open_rate: 0.482
+  click_rate: 0.0045
+  total_bounces: 2
+  total_unsubscribes: 172
+schedule_type: time_based
+_filename: p_em_2026_07_30_cz_pt_summer_sale_reminder.yaml

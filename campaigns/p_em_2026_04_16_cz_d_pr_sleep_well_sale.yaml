@@ -1,0 +1,49 @@
+id: 835d13d6-8615-4630-85a9-19db59acb4eb
+name: P_EM_2026_04_16_CZ_D_PR_Sleep_Well_Sale
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 835d13d6-8615-4630-85a9-19db59acb4eb
+dates:
+  send_date: '2026-04-16'
+  inferred_send_type: sto
+  first_sent: '2026-04-15T11:08:45+00:00'
+  last_sent: '2026-04-17T09:30:19+00:00'
+tags:
+- batch and blast
+- d2c
+- designed
+- sale
+- sale/sleepsale2026
+- sale_feat
+sends:
+- id: ac298123-5b66-4d5d-a223-6545134e26a6
+  channel: email
+  name: Variant 1
+  subject: 'NOW OPEN: The Sleep Well Sale'
+  preheader: '20% off bedding, bath, & bed blankets. '
+  html_file: html/p_em_2026_04_16_cz_d_pr_sleep_well_sale.html
+  screenshot: screenshots/p_em_2026_04_16_cz_d_pr_sleep_well_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69d8202621ec9f00ac5c2d19/original.png?1775771686
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69d81fe7f1c0dd00aa187090/original.gif?1775771622
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69d82045471ac600aca183a2/original.png?1775771717
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69d8202e0eb1a400aa222dd7/original.png?1775771693
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69d820524590ae00ac50b2c3/original.png?1775771729
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69d8205d0d4b4b00aaa605cf/original.png?1775771740
+- id: a9711202-9938-43e6-bd70-25bd5260882c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 111891
+  total_delivered: 111628
+  total_opens: 51431
+  total_clicks: 731
+  open_rate: 0.4597
+  click_rate: 0.0065
+  total_bounces: 6
+  total_unsubscribes: 147
+_filename: p_em_2026_04_16_cz_d_pr_sleep_well_sale.yaml
+schedule_type: time_based

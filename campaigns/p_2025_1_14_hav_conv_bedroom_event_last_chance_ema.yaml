@@ -1,0 +1,55 @@
+id: 1e9baf31-b1b5-4e89-91d8-d7a34cfb83a7
+name: P_2025_1_14_HAV_Conv_Bedroom_Event_Last_Chance_Email
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 1e9baf31-b1b5-4e89-91d8-d7a34cfb83a7
+dates:
+  send_date: '2025-01-14'
+  inferred_send_type: scheduled
+  first_sent: '2025-01-14T17:08:39+00:00'
+  last_sent: '2025-01-14T17:09:06+00:00'
+tags: []
+sends:
+- id: bd3f5385-fffd-43b0-8f9e-d1e8c0ff3f57
+  channel: email
+  name: Variant 1
+  subject: Don’t Sleep On This Sale!
+  preheader: Last call for up to 20% off bed and bath favorites.
+  html_file: html/p_2025_1_14_hav_conv_bedroom_event_last_chance_email.html
+  screenshot: screenshots/p_2025_1_14_hav_conv_bedroom_event_last_chance_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67868ca23d16060064a305a8/original.png?1736871074
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67868c3c5b95a3007480147b/original.png?1736870972
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67868b613d16060064a30416/original.gif?1736870752
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678698a362d4420090e8ebcf/original.png?1736874146
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678698c6db29fb0065cdbd27/original.png?1736874182
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678698b3e040420065c360bd/original.png?1736874162
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67868b9d385e500065695b7e/original.png?1736870813
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67818a08f74cf70066cb4718/original.png?1736542728
+- id: 6361764e-ccf4-44d9-9122-8f746e285233
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 36994
+  total_delivered: 36940
+  total_opens: 20356
+  total_clicks: 153
+  open_rate: 0.5503
+  click_rate: 0.0041
+  total_unsubscribes: 54
+  ga4:
+    sessions: 202
+    purchases: 7
+    revenue: 31186.39
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.559264'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.390371'
+schedule_type: time_based

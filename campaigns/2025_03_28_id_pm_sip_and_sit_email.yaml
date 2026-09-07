@@ -1,0 +1,46 @@
+id: 32a36a34-7ebc-41e9-91a2-38c01f37baa0
+name: 2025_03_28_ID_PM_Sip_and_Sit_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 32a36a34-7ebc-41e9-91a2-38c01f37baa0
+dates:
+  send_date: '2025-03-28'
+  inferred_send_type: scheduled
+  first_sent: '2025-03-28T21:19:19+00:00'
+  last_sent: '2025-03-28T21:19:30+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 4e55b9f2-261d-442c-a1ae-38d3926f26b4
+  channel: email
+  name: Variant 1
+  subject: "Champagne, shopping, and 20% off everything! \U0001F942\r\n"
+  preheader: Weekend plans? Stop by your local Interior Define!
+- id: 78418a0e-c10b-4d53-a60e-27b246bb75cf
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 4771
+  total_delivered: 4715
+  total_opens: 827
+  total_clicks: 7
+  open_rate: 0.1733
+  click_rate: 0.0015
+  total_bounces: 8
+  total_unsubscribes: 1
+  ga4:
+    sessions: 8
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.580404'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.162946'
+schedule_type: time_based

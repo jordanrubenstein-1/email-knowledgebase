@@ -1,0 +1,47 @@
+id: c400cedd-805e-4435-b09b-0707fd7b84cd
+name: P_EM_2026_03_10_HAV_PC_D_The_Birthday_Sale_Continues
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: c400cedd-805e-4435-b09b-0707fd7b84cd
+dates:
+  send_date: '2026-03-10'
+  inferred_send_type: local_time
+  first_sent: '2026-03-10T01:23:30+00:00'
+  last_sent: '2026-03-10T21:01:39+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: ba62b7df-8000-4b07-9a9c-063145ef1886
+  channel: email
+  name: Variant 1
+  subject: 'Your Birthday Sale Refresh Awaits '
+  preheader: The sale is still on — save on a full design package before it's gone.
+  html_file: html/p_em_2026_03_10_hav_pc_d_the_birthday_sale_continues.html
+  screenshot: screenshots/p_em_2026_03_10_hav_pc_d_the_birthday_sale_continues.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69aee679eadc69007f168c68/original.png?1773069945
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69aee6aec12cd800638e7e36/original.png?1773069998
+- id: 12ce372d-d6a6-47d6-8e27-d73fc035e4fe
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 265534
+  total_delivered: 264215
+  total_opens: 99913
+  total_clicks: 509
+  open_rate: 0.3763
+  click_rate: 0.0019
+  total_bounces: 29
+  total_unsubscribes: 602
+  ga4:
+    sessions: 269
+    purchases: 1
+    revenue: 486.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:48.954016'
+    source: snowflake
+    channel: email
+schedule_type: time_based

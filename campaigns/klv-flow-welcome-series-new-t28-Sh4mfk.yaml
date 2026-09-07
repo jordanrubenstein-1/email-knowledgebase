@@ -1,0 +1,56 @@
+id: klaviyo-Sh4mfk
+name: TRG_EM_2026_02_TI_D_Welcome_NoSwatch_T2_V2
+brand: TI
+channel: email
+category: other
+type: product_launch
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: SmPgUp
+canvas_name: Welcome Series - NEW
+flow_type: welcome_series
+sequence_position: 28
+dates:
+  created: '2023-04-28'
+  inferred_send_type: sto
+  first_sent: '2023-04-28'
+  last_sent: '2026-06-24'
+sends:
+- id: Sh4mfk
+  channel: email
+  name: Message
+  subject: Let’s have a little fun
+  preheader: Prints that turn your home into your happy place.
+  html_file: html/klv-flow-welcome-series-new-t28-Sh4mfk.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/1dc9c011-dbea-42df-8d02-bb18d6125a4c.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/9eeaef97-944e-4e36-9ac7-62c625e3442b.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/c865c43a-fdc9-4c8b-b3aa-929bc6907df9.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/da6faa52-74ff-4237-a583-5c9d1a2de632.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/6d5de3db-0751-4d05-844a-1e146384d7f6.gif
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/cefc0fad-d72a-4423-a8e6-7414218c911b.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/ac8d59e1-4af3-4f7f-8f6a-f89c8e460b43.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/53f8043d-2c25-4858-aa94-9ea9c6c13866.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/084eecbb-7485-440b-9569-622e4af8e4a4.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/0269e2e7-8377-460a-b5d1-97ec2586bb51.png
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: Sh4mfk
+structure:
+  image_count: 25
+  link_count: 26
+  has_gif: true
+  hero_width: 600
+  layout_type: product_grid

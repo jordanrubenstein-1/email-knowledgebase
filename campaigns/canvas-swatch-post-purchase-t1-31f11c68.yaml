@@ -1,0 +1,33 @@
+id: 31f11c68-ee17-42e6-8a2a-8707aba0a457
+name: TRG_EM_2026_02_BW_D_Swatch_Post_Purchase_T1_V1
+brand: BUR
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: a84d40d3-bd21-4753-a859-04df7ccc06ff
+canvas_name: Swatch Post Purchase
+flow_type: post_purchase
+sequence_position: 1
+subject: 'Re: Your Recent Swatch Order'
+preheader: Here’s what happens next.
+sends:
+- id: 31f11c68-ee17-42e6-8a2a-8707aba0a457
+  channel: email
+  name: TRG_EM_2026_02_BW_D_Swatch_Post_Purchase_T1_V1
+  subject: 'Re: Your Recent Swatch Order'
+  preheader: Here’s what happens next.
+  html_file: html/canvas-swatch-post-purchase-t1-31f11c68.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-02-04T03:00:00Z'
+  last_sent: '2026-08-31T11:00:00Z'
+performance_summary:
+  total_sends: 1248
+  total_delivered: 1236
+  total_opens: 770
+  total_clicks: 76
+  open_rate: 0.617
+  click_rate: 0.0609
+  total_unsubscribes: 10
+  total_revenue: 81788.0

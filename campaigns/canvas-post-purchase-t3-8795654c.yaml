@@ -1,0 +1,33 @@
+id: 8795654c-cc2b-47b6-b498-8041fc5ecafc
+name: TRG_EM_2024_08_CZ_D_Post_Purchase_T2
+brand: CZ
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: ed85be62-ad24-41ee-8ff7-b2f667368156
+canvas_name: Post Purchase
+flow_type: post_purchase
+sequence_position: 3
+subject: See the impact of your purchase...
+preheader: You are supporting 3,178 master artisans across 23 countries.
+sends:
+- id: 8795654c-cc2b-47b6-b498-8041fc5ecafc
+  channel: email
+  name: TRG_EM_2024_08_CZ_D_Post_Purchase_T2
+  subject: See the impact of your purchase...
+  preheader: You are supporting 3,178 master artisans across 23 countries.
+  html_file: html/canvas-post-purchase-t3-8795654c.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-05-02T19:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 43435
+  total_delivered: 43333
+  total_opens: 30728
+  total_clicks: 1207
+  open_rate: 0.7074
+  click_rate: 0.0278
+  total_unsubscribes: 407
+  total_revenue: 246312.13

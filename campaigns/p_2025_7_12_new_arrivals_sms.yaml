@@ -1,0 +1,30 @@
+id: c03f7262-f695-4fe8-b461-7c0af4e7cb7e
+name: P_2025_7_12_New_Arrivals_SMS
+brand: ID
+channel: sms
+category: product_launch
+type: product_launch
+theme: null
+braze_id: c03f7262-f695-4fe8-b461-7c0af4e7cb7e
+dates:
+  send_date: '2025-07-12'
+  inferred_send_type: local_time
+  first_sent: '2025-07-12T01:20:04+00:00'
+  last_sent: '2025-07-13T00:15:08+00:00'
+tags: []
+sends:
+- id: 78da79ce-f432-4721-b0b5-ce6a888de9c6
+  channel: other
+  name: Variant 1
+- id: 892aad21-7caf-4d5c-adc9-11c7602b8f79
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 56878
+  total_delivered: 53402
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 11458.0
+schedule_type: time_based

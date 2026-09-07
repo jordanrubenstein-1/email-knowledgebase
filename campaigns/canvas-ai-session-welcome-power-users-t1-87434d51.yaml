@@ -1,0 +1,32 @@
+id: 87434d51-a218-4380-ad4d-49ef6453cf08
+name: TRG_EM_2026_03_HAV_PC_PT_AI_Session_Welcome_Power_User_T1_V1
+brand: HAV
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: a3e685a5-f7b1-4ff3-8193-d9a56c4db0e4
+canvas_name: AI Session Welcome - Power Users
+flow_type: welcome_series
+sequence_position: 1
+subject: An exclusive discount to take your design further
+preheader: Work with a designer to source, refine, and execute your plan.
+sends:
+- id: 87434d51-a218-4380-ad4d-49ef6453cf08
+  channel: email
+  name: TRG_EM_2026_03_HAV_PC_PT_AI_Session_Welcome_Power_User_T1_V1
+  subject: An exclusive discount to take your design further
+  preheader: Work with a designer to source, refine, and execute your plan.
+  html_file: html/canvas-ai-session-welcome-power-users-t1-87434d51.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-03-06T14:00:00Z'
+  last_sent: '2026-08-31T12:00:00Z'
+performance_summary:
+  total_sends: 625
+  total_delivered: 620
+  total_opens: 323
+  total_clicks: 25
+  open_rate: 0.5168
+  click_rate: 0.04
+  total_unsubscribes: 9

@@ -1,0 +1,36 @@
+id: ae46f61a-4a42-4d64-9de2-39655dd9c63c
+name: P_EM_2025_10_20_ID_D_Autumn_Event_Ends_Soon_Reminder
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: fall
+braze_id: ae46f61a-4a42-4d64-9de2-39655dd9c63c
+dates:
+  send_date: '2025-10-20'
+  inferred_send_type: scheduled
+  first_sent: '2025-10-20T20:37:51+00:00'
+  last_sent: '2025-10-21T02:45:06+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 5d562481-6fd1-4b02-8d3d-3a63c0836d57
+  channel: email
+  name: Variant 1
+  subject: Catch The Last of Fall Savings
+  preheader: 20% off savings ending soon
+- id: 2cb16120-909c-407f-acc7-abbbf46665cb
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 162680
+  total_delivered: 159603
+  total_opens: 77522
+  total_clicks: 522
+  open_rate: 0.4765
+  click_rate: 0.0032
+  total_revenue: 358610.79
+  total_bounces: 4
+  total_unsubscribes: 147
+_filename: p_em_2025_10_20_id_d_autumn_event_ends_soon_reminder.yaml
+schedule_type: time_based

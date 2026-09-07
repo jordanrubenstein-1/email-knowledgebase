@@ -1,0 +1,58 @@
+id: 3090a8a2-da9f-49e8-baa5-b6225404e72f
+name: P_2024_09_21_D_SF_CAT_Window_Curtains_Email
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 3090a8a2-da9f-49e8-baa5-b6225404e72f
+dates:
+  send_date: '2024-09-21'
+  inferred_send_type: local_time
+  first_sent: '2024-09-20T20:15:01+00:00'
+  last_sent: '2024-09-21T14:00:06+00:00'
+tags:
+- Batch and Blast/non-promo
+sends:
+- id: 8ec0e971-5a61-4e81-85fc-57f35d33c457
+  channel: email
+  name: Variant 1
+  subject: Our VIPs (Very Important Pleats)
+  preheader: explore our collection of French pleat curtains
+  html_file: html/p_2024_09_21_d_sf_cat_window_curtains_email.html
+  screenshot: screenshots/p_2024_09_21_d_sf_cat_window_curtains_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ed78d645419c0065953214/original.jpg?1726838998
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ed78d645419c0083952b33/original.gif?1726838998
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0058f1ba77/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ed79c945419c0065953385/original.jpg?1726839241
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ed78d79d1a3b007453039b/original.gif?1726838999
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ed78d788d347007296cc2d/original.jpg?1726838998
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ed78d688d347008096c579/original.gif?1726838998
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0063f11fb6/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6681bde9255ebf0070d6be26/original.jpeg?1719778792
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ed78d7b366220064bfa7ce/original.gif?1726838999
+- id: ea57d3ff-2ae2-4175-b50c-447163677ba2
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 158
+  total_delivered: 158
+  total_opens: 82
+  total_clicks: 48
+  open_rate: 0.519
+  click_rate: 0.3038
+  total_revenue: 96.0
+  ga4:
+    sessions: 13
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.878341'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.044284'
+schedule_type: time_based

@@ -1,0 +1,112 @@
+# Braze event & canvas volume anomaly watch-lists, per brand.
+#
+# Consumed by scripts/braze_automation/monitor_braze_anomalies.py.
+# Scoped to the 5 Braze brands (TI/TE are Klaviyo, not covered here).
+#
+# events: custom/behavioral events from USERS_BEHAVIORS_CUSTOMEVENT_SHARED
+#   (site/app-side events piped into Braze — the kind that silently stop
+#   firing when an integration breaks, with no obvious symptom on our side).
+#
+#   event_name: exact NAME value in USERS_BEHAVIORS_CUSTOMEVENT_SHARED (or a
+#     human label when source: purchase — see below)
+#   description: why this event matters (shown in comments/PRs, not in alerts)
+#   havenly_audience: "PC" or "CONV" — HAV only, omit for brand-wide events
+#   source: "purchase" — optional. Braze's native purchase event lives in a
+#     separate view (USERS_BEHAVIORS_PURCHASE_SHARED) with no event-name
+#     column at all (every row IS a purchase) — set this instead of relying
+#     on event_name to filter anything for these entries.
+#
+# canvases: lifecycle canvases whose *first email step* send volume is
+#   tracked. The first-email step is resolved dynamically each run via the
+#   Braze API (see resolve_first_email_step in anomaly_detector.py) — do NOT
+#   hardcode a step name here, it self-corrects across renames/reorders.
+#
+#   canvas_name: exact canvas name in Braze (used to look up canvas_id if
+#     canvas_id is not given)
+#   canvas_id: optional — skips the name lookup if already known
+#   first_email_step_override: optional escape hatch — set this to a literal
+#     CANVAS_STEP_NAME if the canvas is branched/multivariate enough that
+#     dynamic resolution picks the wrong step
+#   havenly_audience: "PC" or "CONV" — HAV only
+
+events:
+  ID:
+    - event_name: "Cart Viewed"
+      description: "Site cart view — top-of-funnel site tracking health check"
+    - event_name: "Product Viewed"
+      description: "PDP view — highest-volume site event, good canary for site-side tracking breaking entirely"
+    - event_name: "Swatch Added"
+      description: "Swatch added to cart — upstream of Swatch Order"
+    - event_name: "Swatch Order"
+      description: "Swatch order placed — drives the Swatch Post Purchase canvas entry"
+    - event_name: "Trade Application Approval"
+      description: "Trade application approved — low volume (~15-20/day), sets Trade audience attributes"
+    - event_name: "Order Completed"
+      description: "Site checkout completion — drives swatch auto-subscribe canvas; known risk (Trade orders don't fire it client-side)"
+  HAV:
+    - event_name: "design_fee"
+      description: "DPS design fee payment — core DPS conversion event"
+    - event_name: "merch_order_completed"
+      description: "Marketplace merch order completion"
+    - event_name: "launch_room"
+      description: "User launches a room/studio session"
+    - event_name: "design_process_complete"
+      description: "DPS design process completion milestone"
+    - event_name: "explore_with_ai"
+      description: "AI design exploration feature usage"
+    - event_name: "Product Added"
+      description: "Add to cart — top-of-funnel Marketplace tracking health check"
+    - event_name: "Studio 6 Canvas Generated"
+      description: "Studio 6 AI canvas generation"
+    - event_name: "Studio 6 Render Completed"
+      description: "Studio 6 render completion"
+    - event_name: "package_card_clicked"
+      description: "DPS package card click — package selection funnel"
+    - event_name: "package_cards_viewed"
+      description: "DPS package cards viewed — top of package selection funnel"
+  CZ:
+    - event_name: "custom_product_view"
+      description: "PDP view — highest-volume site event, good canary for site-side tracking breaking entirely"
+    - event_name: "waitlist_form_submit"
+      description: "Waitlist signup form submission"
+    - event_name: "ecommerce.order_placed"
+      description: "Site checkout completion"
+    - event_name: "ecommerce.cart_updated"
+      description: "Cart add/update — top-of-funnel site tracking health check"
+  BUR:
+    - event_name: "Product Viewed"
+      description: "PDP view — highest-volume site event, good canary for site-side tracking breaking entirely"
+    - event_name: "Cart Updated"
+      description: "Cart add/update — top-of-funnel site tracking health check"
+    - event_name: "Swatch Order Completed"
+      description: "Swatch order placed — low volume (~12/day)"
+    - event_name: "Braze purchase event"
+      description: "Native Braze purchase tracking — revenue attribution signal, distinct from any custom checkout event"
+      source: "purchase"
+  STF:
+    - event_name: "Product Added"
+      description: "Add to cart — top-of-funnel site tracking health check"
+    - event_name: "Product Viewed"
+      description: "PDP view — highest-volume site event, good canary for site-side tracking breaking entirely"
+    - event_name: "Braze purchase event"
+      description: "Native Braze purchase tracking — no ecommerce.order_placed exists for STF (that naming is CZ-specific); STF's checkout completion isn't a custom event"
+      source: "purchase"
+
+canvases:
+  ID: []
+  HAV: []
+  CZ: []
+  BUR: []
+  STF: []
+
+# Default anomaly thresholds — override per-entry by adding the same key
+# inside an event/canvas dict above.
+defaults:
+  drop_threshold_pct: 25       # Tier 2: alert if recent 2-day avg < this % of the 4-week non-sale baseline
+                               # (lowered from 50 → 25 on 2026-07-17: post-sale lulls after long sales, e.g. the
+                               # 4th of July early-access→main→extension run, routinely dip to 30-50% of baseline
+                               # and were firing false alarms. Tier 1 hard-zero still catches events that stop firing.)
+  freshness_skip_hours: 36     # below this: evaluate normally
+  freshness_stale_hours: 72    # above this: post a distinct "datashare may be stale" warning instead of evaluating
+  recent_window_days: 2
+  baseline_weeks: 4

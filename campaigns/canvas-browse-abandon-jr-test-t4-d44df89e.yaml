@@ -1,0 +1,31 @@
+id: d44df89e-d954-4564-84a5-2bb55cb643a8
+name: TRG_EM_2025_08_ID_D_Product_Browse_Abandon_T4_V2
+brand: ID
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 7a0b3741-1541-4f67-b013-bfa88886c99d
+canvas_name: Browse Abandon - JR Test
+flow_type: browse_abandonment
+sequence_position: 4
+subject: Every fabric, every detail - exactly how you want it
+preheader: Let’s finish what you started
+sends:
+- id: d44df89e-d954-4564-84a5-2bb55cb643a8
+  channel: email
+  name: TRG_EM_2025_08_ID_D_Product_Browse_Abandon_T4_V2
+  subject: Every fabric, every detail - exactly how you want it
+  preheader: Let’s finish what you started
+  html_file: html/canvas-browse-abandon-jr-test-t4-d44df89e.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-04-19T00:00:00Z'
+  last_sent: '2026-05-24T20:00:00Z'
+performance_summary:
+  total_sends: 15
+  total_delivered: 15
+  total_opens: 6
+  total_clicks: 0
+  open_rate: 0.4
+  click_rate: 0.0

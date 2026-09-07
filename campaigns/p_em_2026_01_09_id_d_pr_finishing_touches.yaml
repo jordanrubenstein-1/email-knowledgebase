@@ -1,0 +1,43 @@
+id: 32cf9ca3-445a-4b8a-b827-f8dc624dc984
+name: P_EM_2026_01_09_ID_D_PR_Finishing_Touches
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 32cf9ca3-445a-4b8a-b827-f8dc624dc984
+dates:
+  send_date: '2026-01-09'
+  inferred_send_type: local_time
+  first_sent: '2026-01-09T04:57:02+00:00'
+  last_sent: '2026-01-09T23:06:47+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 562e06cc-a2e4-460b-9110-3a99262c352b
+  channel: email
+  name: Variant 1
+  subject: Almost There
+  preheader: 'Add the accent pieces that finish the room. '
+- id: a7a7ed32-d486-4a4e-a567-82c37c8901cf
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 109883
+  total_delivered: 109730
+  total_opens: 45004
+  total_clicks: 696
+  open_rate: 0.4096
+  click_rate: 0.0063
+  total_revenue: 45647.99
+  total_bounces: 2
+  total_unsubscribes: 189
+  ga4:
+    sessions: 761
+    purchases: 3
+    revenue: 8313.76
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.594245'
+    source: snowflake
+    channel: email
+schedule_type: time_based

@@ -1,0 +1,45 @@
+id: 1801d9dd-4f0d-4cb3-ac64-b738714cbe03
+name: P_EM_2026_01_19_HAV_CONV_D_SALE_ITEMS_IN_YOUR_DESIGN
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 1801d9dd-4f0d-4cb3-ac64-b738714cbe03
+dates:
+  send_date: '2026-01-19'
+  inferred_send_type: local_time
+  first_sent: '2026-01-18T23:06:23+00:00'
+  last_sent: '2026-01-19T23:01:27+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: d2096c38-5541-4ec8-8cd3-f368737ed00d
+  channel: email
+  name: Variant 1
+  subject: Your Design, Now on Sale
+  preheader: Ring in the new year with pieces you love
+  html_file: html/p_em_2026_01_19_hav_conv_d_sale_items_in_your_design.html
+  screenshot: screenshots/p_em_2026_01_19_hav_conv_d_sale_items_in_your_design.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696adfd61205300065010566/original.gif?1768611798
+- id: 67077b9f-ee32-4364-acff-63f8e279dde3
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 8194
+  total_delivered: 8185
+  total_opens: 4613
+  total_clicks: 116
+  open_rate: 0.563
+  click_rate: 0.0142
+  total_unsubscribes: 14
+  ga4:
+    sessions: 87
+    purchases: 2
+    revenue: 4506.4
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.189582'
+    source: snowflake
+    channel: email
+schedule_type: time_based

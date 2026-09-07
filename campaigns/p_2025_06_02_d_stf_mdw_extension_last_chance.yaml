@@ -1,0 +1,46 @@
+id: 7901e6f4-bbe3-4e35-83cf-6e35b969a417
+name: P_2025_06_02_D_STF_MDW_Extension_Last_Chance
+brand: STF
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 7901e6f4-bbe3-4e35-83cf-6e35b969a417
+dates:
+  send_date: '2025-06-02'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-02T03:55:37+00:00'
+  last_sent: '2025-06-02T17:00:43+00:00'
+tags: []
+sends:
+- id: 5de4d898-67dd-46a7-a9db-97833a975f38
+  channel: email
+  name: Variant 1
+  subject: 'ENDS MIDNIGHT: 30% Off'
+  preheader: Final call for sitewide savings
+- id: 7feb4acc-2951-480f-8393-9c182144e707
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 29473
+  total_delivered: 29130
+  total_opens: 13925
+  total_clicks: 208
+  open_rate: 0.4725
+  click_rate: 0.0071
+  total_revenue: 14353.0
+  total_bounces: 2
+  total_unsubscribes: 79
+  ga4:
+    sessions: 197
+    purchases: 4
+    revenue: 1397.89
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.126887'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.922853'
+schedule_type: time_based

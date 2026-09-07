@@ -1,0 +1,54 @@
+id: a713c274-5bba-4b81-b5ce-3c4374c88e58
+name: P_2025_04_10_CZ_Meet_The_Maker_Gat_Creek_Email
+brand: CZ
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: a713c274-5bba-4b81-b5ce-3c4374c88e58
+dates:
+  send_date: '2025-04-10'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-10T06:29:26+00:00'
+  last_sent: '2025-04-10T17:00:31+00:00'
+tags: []
+sends:
+- id: 73212fa5-ae51-474b-84c5-51ea92c24067
+  channel: email
+  name: Variant 1
+  subject: From Master Artisans, To Your Home
+  preheader: Meet the makers behind the designs.
+  html_file: html/p_2025_04_10_cz_meet_the_maker_gat_creek_email.html
+  screenshot: screenshots/p_2025_04_10_cz_meet_the_maker_gat_creek_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f6c7dba385f600654104b0/original.jpg?1744226267
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f6c7e6bea9cb00659be703/original.jpg?1744226277
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f6c7803d22830065e2db2a/original.jpg?1744226176
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f6c794bea9cb00759bd418/original.gif?1744226195
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f6c786c454ff0064ca100b/original.jpg?1744226182
+- id: 111e0b89-754e-4b67-9b5f-ea9408bb6975
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 94729
+  total_delivered: 93742
+  total_opens: 49482
+  total_clicks: 462
+  open_rate: 0.5224
+  click_rate: 0.0049
+  total_revenue: 86851.96
+  total_bounces: 2
+  total_unsubscribes: 135
+  ga4:
+    sessions: 528
+    purchases: 5
+    revenue: 3989.53
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.391389'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.216892'
+schedule_type: time_based

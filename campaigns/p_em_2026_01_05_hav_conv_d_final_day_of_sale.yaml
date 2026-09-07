@@ -1,0 +1,35 @@
+id: c299d17b-0ecc-4117-8cfd-969456949a2f
+name: P_EM_2026_01_05_HAV_CONV_D_Final_Day_of_Sale
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: c299d17b-0ecc-4117-8cfd-969456949a2f
+dates:
+  send_date: '2026-01-05'
+  first_sent: '2026-01-04T17:24:51+00:00'
+  last_sent: '2026-01-05T17:16:01+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: aa61dd56-4b7c-4627-8cd5-2ea01ac07508
+  channel: email
+  name: Variant 1
+  subject: Design your New Year
+  preheader: 'Last chance: Up to 15% off. Start 2025 in a home you love.'
+- id: 72ff47f2-4d8a-47f8-9978-8d5a23e23452
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 43245
+  total_delivered: 43214
+  total_opens: 22610
+  total_clicks: 106
+  open_rate: 0.5228
+  click_rate: 0.0025
+  total_bounces: 1
+  total_unsubscribes: 127
+schedule_type: time_based
+_filename: p_em_2026_01_05_hav_conv_d_final_day_of_sale.yaml

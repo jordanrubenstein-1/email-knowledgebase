@@ -1,0 +1,43 @@
+id: 05ad3d55-5d20-4a73-92aa-53e0c8187729
+name: P_2024_10_18_D_CZ_PR_Giveaway_Balsam_Hill_Warmth_Wonder_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 05ad3d55-5d20-4a73-92aa-53e0c8187729
+dates:
+  send_date: '2024-10-18'
+  inferred_send_type: local_time
+  first_sent: '2024-10-18T00:07:53+00:00'
+  last_sent: '2024-10-18T17:00:32+00:00'
+tags:
+- batch and blast
+sends:
+- id: 7340388b-3f57-41d7-943c-1f5a02ac35aa
+  channel: email
+  name: Variant 1
+  subject: 'Up For Grabs: A $4.5K Shopping Spree'
+  preheader: Enter for a chance to win our favorite home, beauty, and self-care goods.
+  html_file: html/p_2024_10_18_d_cz_pr_giveaway_balsam_hill_warmth_wonder_emai.html
+  screenshot: screenshots/p_2024_10_18_d_cz_pr_giveaway_balsam_hill_warmth_wonder_emai.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67100bab953f1900645ea40a/original.jpg?1729104811
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67100bd735f9c300657aa1fe/original.jpg?1729104855
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67100bea953f1900735e9c10/original.jpg?1729104874
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67100bbd54de6700642304df/original.jpg?1729104829
+- id: a52e0502-3f9e-4511-bfec-7114363159d4
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 89877
+  total_delivered: 89339
+  total_opens: 44593
+  total_clicks: 1557
+  open_rate: 0.4962
+  click_rate: 0.0173
+  total_revenue: 106743.55
+  total_bounces: 7
+  total_unsubscribes: 95
+_filename: p_2024_10_18_d_cz_pr_giveaway_balsam_hill_warmth_wonder_emai.yaml
+schedule_type: time_based

@@ -1,0 +1,56 @@
+id: 699802a6-46e1-4107-8119-af809a1664f3
+name: Trade_2024_11_8_D_CZ_PR_CZ_Holiday_Catalog_Email
+brand: CZ
+channel: email
+category: other
+type: seasonal
+theme: christmas
+braze_id: 699802a6-46e1-4107-8119-af809a1664f3
+dates:
+  send_date: '2024-11-08'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-08T03:03:25+00:00'
+  last_sent: '2024-11-08T18:00:33+00:00'
+tags: []
+sends:
+- id: 98b31b21-150a-46b3-b07b-dbd95e182fa7
+  channel: email
+  name: Variant 1
+  subject: 'Trade Perk: Get a First Look'
+  preheader: Be the first to browse our new holiday catalog.
+  html_file: html/trade_2024_11_8_d_cz_pr_cz_holiday_catalog_email.html
+  screenshot: screenshots/trade_2024_11_8_d_cz_pr_cz_holiday_catalog_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672cf6cd9b3c890073956927/original.jpg?1731000013
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672cf6fa9b3c890065957242/original.jpg?1731000057
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672cf737c633c4006476276d/original.jpg?1731000119
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672cf745c633c4006476279f/original.jpg?1731000133
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672cf6e1c633c40064762655/original.jpg?1731000033
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672cf72087041900647528a3/original.jpg?1731000095
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672d19137adf2d0066ad67c4/original.png?1731008786
+- id: 15d9d220-d005-495f-983a-4d1b1fbfd5ac
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 14409
+  total_delivered: 14225
+  total_opens: 7435
+  total_clicks: 226
+  open_rate: 0.516
+  click_rate: 0.0157
+  total_revenue: 12775.0
+  total_bounces: 15
+  total_unsubscribes: 60
+  ga4:
+    sessions: 202
+    purchases: 2
+    revenue: 232.89
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.381643'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.280065'
+schedule_type: time_based

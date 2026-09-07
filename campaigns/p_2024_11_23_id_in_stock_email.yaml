@@ -1,0 +1,62 @@
+id: 38c042da-ed73-44d0-8f5f-27407ac2a3ef
+name: P_2024_11_23_ID_In_Stock_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 38c042da-ed73-44d0-8f5f-27407ac2a3ef
+dates:
+  send_date: '2024-11-23'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-23T06:57:32+00:00'
+  last_sent: '2024-11-23T17:15:07+00:00'
+tags: []
+sends:
+- id: ccd17a99-fb82-473f-ae90-8284d643c82c
+  channel: email
+  name: Variant 1
+  subject: Shop 30% Off Select Styles
+  preheader: The Black Friday Event is still going strong!
+- id: a4346ab7-7ed4-40da-ba3e-03f19e31d2a8
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 71102
+  total_delivered: 70484
+  total_opens: 23325
+  total_clicks: 1165
+  open_rate: 0.328
+  click_rate: 0.0164
+  total_revenue: 334228.5
+  total_bounces: 1
+  total_unsubscribes: 87
+  ga4:
+    sessions: 2549
+    purchases: 27
+    revenue: 77758.67
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.349367'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-03'
+    discount: null
+    type: null
+  primary_sale:
+    id: id-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-03'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:45.654385'
+schedule_type: time_based

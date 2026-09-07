@@ -1,0 +1,46 @@
+id: 874d9c84-39e9-4bb4-a18a-37bc4921ced7
+name: P_2025_1_19_D_SF_Winter_Refresh_Event_Shop_The_Look_Gmail_Email
+brand: STF
+channel: email
+category: sale_promo
+type: seasonal
+theme: winter
+braze_id: 874d9c84-39e9-4bb4-a18a-37bc4921ced7
+dates:
+  send_date: '2025-01-19'
+  inferred_send_type: local_time
+  first_sent: '2025-01-18T18:06:30+00:00'
+  last_sent: '2025-01-19T16:00:19+00:00'
+tags: []
+sends:
+- id: ac14b6da-b503-4cff-8bab-571c62de4a2f
+  channel: email
+  name: Variant 1
+  subject: 'Get The Look: Dopamine Decor'
+  preheader: refresh your space with 20% off
+  html_file: html/p_2025_1_19_d_sf_winter_refresh_event_shop_the_look_gmail_em.html
+  screenshot: screenshots/p_2025_1_19_d_sf_winter_refresh_event_shop_the_look_gmail_em.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678a646fe6af9000658b7fd2/original.gif?1737122927
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678a62fd0d9e4f006475c5f9/original.gif?1737122557
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678a62cdd0a7a500656b81f2/original.jpg?1737122509
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678a641f50f5c10065ef9571/original.gif?1737122847
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678a638b50f5c10065ef94ec/original.gif?1737122699
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678a635aa0266800649ed2a9/original.gif?1737122650
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678a62aadbd33900664a074d/original.jpg?1737122473
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678a6375b290780066e03bce/original.gif?1737122677
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678a6340dbd33900664a07cf/original.gif?1737122624
+- id: 0211a424-fefb-49d7-a15e-cc74ebba73e1
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 729
+  total_delivered: 729
+  total_opens: 576
+  total_clicks: 18
+  open_rate: 0.7901
+  click_rate: 0.0247
+  total_unsubscribes: 4
+_filename: p_2025_1_19_d_sf_winter_refresh_event_shop_the_look_gmail_em.yaml
+schedule_type: time_based

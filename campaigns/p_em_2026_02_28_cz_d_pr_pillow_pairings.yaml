@@ -1,0 +1,42 @@
+id: 4d10ea37-612d-4031-9ffb-a20bad801f13
+name: P_EM_2026_02_28_CZ_D_PR_Pillow_Pairings
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 4d10ea37-612d-4031-9ffb-a20bad801f13
+dates:
+  send_date: '2026-02-28'
+  inferred_send_type: local_time
+  first_sent: '2026-02-28T06:05:27+00:00'
+  last_sent: '2026-03-01T06:04:40+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- pillows
+- prod
+sends:
+- id: 99694a61-e12d-42b9-b58c-1e0a824fa8a3
+  channel: email
+  name: Variant 1
+  subject: The Art of the Mix
+  preheader: Layer them like you’ve been collecting them for years.
+  html_file: html/p_em_2026_02_28_cz_d_pr_pillow_pairings.html
+  screenshot: screenshots/p_em_2026_02_28_cz_d_pr_pillow_pairings.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/699f5b9260b1630063955088/original.gif?1772051346
+- id: 6620d928-a759-45d6-a6eb-be6647bc2805
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 57194
+  total_delivered: 57119
+  total_opens: 28303
+  total_clicks: 532
+  open_rate: 0.4949
+  click_rate: 0.0093
+  total_unsubscribes: 72
+schedule_type: time_based

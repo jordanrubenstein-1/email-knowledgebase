@@ -1,0 +1,62 @@
+id: 54110743-3a3f-4528-8429-6021c1275dcf
+name: P_EM_2025_09_03_ID_PT_Labor_Day_Ends_Tomorrow
+brand: ID
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 54110743-3a3f-4528-8429-6021c1275dcf
+dates:
+  send_date: '2025-09-03'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-03T05:41:14+00:00'
+  last_sent: '2025-09-03T17:15:16+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 388a1db7-9ff9-4ca3-bb34-abd49d555b3d
+  channel: email
+  name: Variant 1
+  subject: 'Last Chance: The Labor Day Event Ends Tomorrow ⏰'
+- id: eeff124a-55d6-41a9-a277-17d8fd30769f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 204351
+  total_delivered: 203787
+  total_opens: 99479
+  total_clicks: 646
+  open_rate: 0.4868
+  click_rate: 0.0032
+  total_revenue: 420812.0
+  total_bounces: 5
+  total_unsubscribes: 769
+  ga4:
+    sessions: 711
+    purchases: 5
+    revenue: 13573.08
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.174878'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-04'
+    discount: 25% off sitewide
+    type: null
+  primary_sale:
+    id: id-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-04'
+    discount: 25% off sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 25% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:43.648572'
+schedule_type: time_based

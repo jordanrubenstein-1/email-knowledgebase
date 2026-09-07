@@ -1,0 +1,54 @@
+id: 7c99eee0-629e-43a5-963b-a51b1d01a303
+name: P_2025_06_08_CZ_Color_Edit_Sunwashed_Isles_Email
+brand: CZ
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 7c99eee0-629e-43a5-963b-a51b1d01a303
+dates:
+  send_date: '2025-06-08'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-08T05:50:06+00:00'
+  last_sent: '2025-06-08T17:01:18+00:00'
+tags: []
+sends:
+- id: 69a7b0e1-bde4-415e-8eaa-9d1a6216162e
+  channel: email
+  name: Variant 1
+  subject: 'Color Edit: Sunwashed Isles'
+  preheader: A sun-drenched palette inspired by sun, sea, and stone.
+  html_file: html/p_2025_06_08_cz_color_edit_sunwashed_isles_email.html
+  screenshot: screenshots/p_2025_06_08_cz_color_edit_sunwashed_isles_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684371651111080067def6e3/original.png?1749250404
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684371d6e2e2c800652ab70c/original.png?1749250517
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684371b223f84a0065efe843/original.png?1749250482
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6843718a9507490067966389/original.png?1749250441
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6843716da1d5450065d26b4b/original.png?1749250413
+- id: 19441d07-c6ad-445a-8e92-1addef142f1f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 100653
+  total_delivered: 100199
+  total_opens: 53597
+  total_clicks: 885
+  open_rate: 0.5325
+  click_rate: 0.0088
+  total_revenue: 37689.8
+  total_bounces: 1
+  total_unsubscribes: 187
+  ga4:
+    sessions: 999
+    purchases: 3
+    revenue: 640.41
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.658956'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:45.109246'
+schedule_type: time_based

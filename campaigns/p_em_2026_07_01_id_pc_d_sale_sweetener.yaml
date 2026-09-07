@@ -1,0 +1,36 @@
+id: c7236be0-9192-460b-b42b-e5e0c0de3605
+name: P_EM_2026_07_01_ID_PC_D_Sale_Sweetener
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: c7236be0-9192-460b-b42b-e5e0c0de3605
+dates:
+  send_date: '2026-07-01'
+  first_sent: '2026-06-30T23:44:12+00:00'
+  last_sent: '2026-07-01T16:00:00+00:00'
+  inferred_send_type: local_time
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: bf600e15-8df2-425c-a298-7207b720a3fd
+  channel: email
+  name: Variant 1
+  subject: This sale just leveled up - now up to 35% off sitewide
+  preheader: The Fourth of July Event just got sweeter. Shop now.
+- id: 4918fd63-9b36-4299-ae3b-05d35bf850ed
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 232964
+  total_delivered: 231178
+  total_opens: 91587
+  total_clicks: 880
+  open_rate: 0.3931
+  click_rate: 0.0038
+  total_revenue: 412658.73
+  total_bounces: 8
+  total_unsubscribes: 218
+schedule_type: time_based
+_filename: p_em_2026_07_01_id_pc_d_sale_sweetener.yaml

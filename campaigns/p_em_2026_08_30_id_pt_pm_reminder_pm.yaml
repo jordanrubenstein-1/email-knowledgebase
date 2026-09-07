@@ -1,0 +1,32 @@
+id: 19e4b5ef-a55a-4870-aa11-a542eafa1a5b
+name: P_EM_2026_08_30_ID_PT_PM_Reminder_PM
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 19e4b5ef-a55a-4870-aa11-a542eafa1a5b
+dates:
+  send_date: '2026-08-30'
+  last_sent: '2026-08-30'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: dc5a66a1-46fa-4f71-8141-da8fe3cf981c
+  channel: email
+  name: Variant 1
+  subject: Reminder your cart is on sale
+- id: db10101b-87e3-4b62-bb5a-9f9fa70652ed
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 1279
+  total_delivered: 1275
+  total_opens: 580
+  total_clicks: 40
+  open_rate: 0.4535
+  click_rate: 0.0313
+  total_revenue: 15040.98
+  total_unsubscribes: 2
+schedule_type: time_based
+_filename: p_em_2026_08_30_id_pt_pm_reminder_pm.yaml

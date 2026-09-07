@@ -1,0 +1,49 @@
+id: 75df63a3-6f7f-42b9-9833-0294b0cb5fb3
+name: Step 2
+brand: CZ
+channel: sms
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: adbf31fe-eb82-4b9a-a27a-afa7ac1510b8
+canvas_name: Product Browse April 2025 - future state
+flow_type: browse_abandonment
+sequence_position: 2
+body: '{% assign time = ''now'' | time_zone: ${time_zone} %}{% assign hour = time
+  | date: ''%H'' | plus: 0 %}
+
+  {% if hour > 19 or hour < 8 %}
+
+  {% abort_message("Outside allowed time window") %}
+
+  {% endif %}
+
+  The Citizenry: Hi {{${first_name}  | default: "there"}}. This is Sarah with The
+  Citizenry. Thanks for stopping by! {{canvas_entry_properties.${variant_url}  | default:
+  "https://www.the-citizenry.com/"}}?utm_source=braze_CZ&utm_medium=sms&utm_campaign=browse_abandon_sms
+
+
+  Any questions I can answer for you?'
+sends:
+- id: 75df63a3-6f7f-42b9-9833-0294b0cb5fb3
+  channel: sms
+  name: Step 2
+  body: '{% assign time = ''now'' | time_zone: ${time_zone} %}{% assign hour = time
+    | date: ''%H'' | plus: 0 %}
+
+    {% if hour > 19 or hour < 8 %}
+
+    {% abort_message("Outside allowed time window") %}
+
+    {% endif %}
+
+    The Citizenry: Hi {{${first_name}  | default: "there"}}. This is Sarah with The
+    Citizenry. Thanks for stopping by! {{canvas_entry_properties.${variant_url}  |
+    default: "https://www.the-citizenry.com/"}}?utm_source=braze_CZ&utm_medium=sms&utm_campaign=browse_abandon_sms
+
+
+    Any questions I can answer for you?'
+dates:
+  first_sent: null
+  last_sent: null
+performance_summary: {}

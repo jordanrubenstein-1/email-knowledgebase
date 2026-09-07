@@ -1,0 +1,54 @@
+id: dec24653-1ef3-46b8-8c5f-4ce3ce09baa4
+name: P_EM_2026_02_22_CZ_D_PR_Decor_Presidents_Day_Sale_PM
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: dec24653-1ef3-46b8-8c5f-4ce3ce09baa4
+dates:
+  send_date: '2026-02-22'
+  inferred_send_type: local_time
+  first_sent: '2026-02-21T17:08:35+00:00'
+  last_sent: '2026-02-22T17:04:49+00:00'
+tags:
+- batch and blast
+- d2c
+- designed
+- pm
+- prod
+- prod/decor
+- sale
+- sale/presidentsday2026
+sends:
+- id: 0b816523-b262-4b34-854a-8a460ffd3539
+  channel: email
+  name: Variant 1
+  subject: Up to 25% Off Thoughtful Accents
+  preheader: Curated pieces shaped by craft and culture.
+  html_file: html/p_em_2026_02_22_cz_d_pr_decor_presidents_day_sale_pm.html
+  screenshot: screenshots/p_em_2026_02_22_cz_d_pr_decor_presidents_day_sale_pm.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6997754bbdbb82006330b82e/original.png?1771533642
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6997756327a3560065e0a1f5/original.png?1771533666
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6997751effc3340063b053ea/original.png?1771533598
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/699774f56006110074bbbd9a/original.png?1771533557
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/699774da6a8fb400631ed50c/original.png?1771533529
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/699774e91e338b00646e3a97/original.png?1771533545
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6997750123b29c006498850d/original.png?1771533569
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69977558248a2d00659c229b/original.png?1771533656
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69977509a475f10063cb98e8/original.png?1771533576
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6997751713aebf00640b24c5/original.png?1771533591
+- id: 728c648e-fcc6-4ff2-b00e-31510823b9fd
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 56260
+  total_delivered: 56202
+  total_opens: 28104
+  total_clicks: 560
+  open_rate: 0.4995
+  click_rate: 0.01
+  total_unsubscribes: 93
+_filename: p_em_2026_02_22_cz_d_pr_decor_presidents_day_sale_pm.yaml
+schedule_type: time_based

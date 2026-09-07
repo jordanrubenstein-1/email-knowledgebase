@@ -1,0 +1,81 @@
+id: klaviyo-01JCP1QS2SEB7Z1JSESFMCZ907
+name: '11/14/24: BFCM Beds Trade'
+brand: TI
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2024-11-14'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-14T20:12:33+00:00'
+  last_sent: '2024-11-14T20:12:33+00:00'
+sends:
+- id: 01JCP1QS3QG8Q684JTA982ACS8
+  channel: email
+  name: '11/14/24: BFCM Beds Trade'
+  subject: 'Trade Exclusive Savings: Up To 30% Off Sitewide'
+  preheader: Now's your chance to claim the best prices of the year.
+  html_file: html/111424-bfcm-beds-trade.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/ecf8db7b-7e4c-4791-b6f0-1cd21a5eeb78.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/a17f57dc-f9ba-4c14-be3e-a3684380e242.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/b63cb88c-b0e1-4afb-90a0-594804336f40.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/eb048962-6d40-41f5-a633-9fe0ec481682.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/48f8b0bf-f674-4de6-83a6-f00ae0bfb57e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/56d91f4c-0f59-4878-8a6a-bb9dfe4f2e6d.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/901e44d3-26b0-43f0-9da6-907a9e1359f9.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/993a96a6-5bdd-4078-afc9-c669b7e35aac.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/47eb794c-7315-44b6-a482-e695c6089257.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/085eb7e3-803e-4413-8e91-3f10f50ed303.jpeg
+  screenshot: screenshots/111424-bfcm-beds-trade.png
+performance_summary:
+  total_sends: 11207
+  total_delivered: 11142
+  total_opens: 4159
+  total_clicks: 46
+  unique_opens: 2583
+  unique_clicks: 30
+  open_rate: 0.2305
+  click_rate: 0.0027
+  total_open_rate: 0.3711
+  total_click_rate: 0.0041
+  total_unsubscribes: 12
+  total_bounces: 65
+klaviyo_type: campaign
+klaviyo_campaign_id: 01JCP1QS2SEB7Z1JSESFMCZ907
+klaviyo_message_id: 01JCP1QS3QG8Q684JTA982ACS8
+structure:
+  image_count: 24
+  link_count: 25
+  has_gif: false
+  hero_width: 600
+  layout_type: product_grid
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: ti-25-off-code-vipbf24-2024-11-12
+    name: 25% off (code VIPBF24)
+    start_date: '2024-11-12'
+    end_date: '2024-11-14'
+    discount: null
+    type: null
+  - id: ti-vip-early-access-2024-11-12
+    name: VIP Early Access
+    start_date: '2024-11-12'
+    end_date: '2024-11-14'
+    discount: null
+    type: null
+  primary_sale:
+    id: ti-25-off-code-vipbf24-2024-11-12
+    name: 25% off (code VIPBF24)
+    start_date: '2024-11-12'
+    end_date: '2024-11-14'
+    discount: null
+    type: null
+  sale_name: 25% off (code VIPBF24)
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-03-12T11:18:49.911311'

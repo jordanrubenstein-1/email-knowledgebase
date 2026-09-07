@@ -1,0 +1,38 @@
+id: a35687f6-a331-4e0e-b250-2dd3317c5c9b
+name: P_PUSH_2026_02_17_HAV_CONV_Presidents_Day_Sale_Extension
+brand: HAV
+channel: push
+category: sale_promo
+type: sale
+theme: null
+braze_id: a35687f6-a331-4e0e-b250-2dd3317c5c9b
+dates:
+  send_date: '2026-02-17'
+  inferred_send_type: local_time
+  first_sent: '2026-02-16T19:06:46+00:00'
+  last_sent: '2026-02-17T19:00:57+00:00'
+tags: []
+sends:
+- id: c723fa53-74f7-4f8d-b564-347616bfbbe3
+  channel: push
+  name: Variant 1
+- id: 4f0d4165-b69a-45d9-b6d9-b05948760f83
+  channel: push
+  name: Control Group
+performance_summary:
+  total_sends: 45922
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_bounces: 6
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.749177'
+    source: snowflake
+    channel: push
+schedule_type: time_based

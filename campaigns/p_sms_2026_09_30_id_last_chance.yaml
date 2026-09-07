@@ -1,0 +1,22 @@
+id: 32831ea3-0176-4bb3-a432-8d1f7fc18a00
+name: P_SMS_2026_09_30_ID_Last_Chance
+brand: ID
+channel: sms
+category: reminder
+type: announcement
+theme: null
+braze_id: 32831ea3-0176-4bb3-a432-8d1f7fc18a00
+dates:
+  send_date: '2026-09-30'
+  last_sent: '2026-09-30'
+tags: []
+sends:
+- id: c0726d31-4eae-41fc-839b-0281cbecc9fa
+  channel: sms
+  name: Variant 1
+- id: e837c17d-a448-4a24-88ba-6ea89211bf3e
+  channel: sms
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: p_sms_2026_09_30_id_last_chance.yaml

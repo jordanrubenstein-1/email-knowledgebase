@@ -1,0 +1,30 @@
+id: dfe12b36-818e-4b3b-b24a-06f46d5461eb
+name: OT_EM_2025_04_HAV_CONV_Cart_Created_From_Board_Quote
+brand: HAV
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: dfe12b36-818e-4b3b-b24a-06f46d5461eb
+dates:
+  first_sent: '2025-05-10T00:00:00+00:00'
+  last_sent: '2026-06-09T04:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: 793ab6a4-94fa-417c-a39b-a3f4c16c8664
+  channel: email
+  name: Variant 1
+  subject: Your Havenly Quote
+- id: 9b31a10f-2ec4-4a58-8f25-7b798fddd0f6
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 148
+  total_delivered: 148
+  total_opens: 128
+  total_clicks: 28
+  open_rate: 0.8649
+  click_rate: 0.1892
+schedule_type: api_triggered
+_filename: ot_em_2025_04_hav_conv_cart_created_from_board_quote.yaml

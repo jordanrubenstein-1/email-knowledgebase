@@ -1,0 +1,52 @@
+id: b407319d-3bc0-4a09-bf50-c3ce41afa060
+name: P_2024_12_13_D_CZ_Gifts_Last_Call_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: b407319d-3bc0-4a09-bf50-c3ce41afa060
+dates:
+  send_date: '2024-12-13'
+  inferred_send_type: local_time
+  first_sent: '2024-12-12T22:11:02+00:00'
+  last_sent: '2024-12-13T17:01:15+00:00'
+tags: []
+sends:
+- id: 04618592-3936-451d-bb23-72aa80f6fcfc
+  channel: email
+  name: Variant 1
+  subject: Order Now. Receive By Christmas Eve.
+  preheader: Final call for ground shipping on all orders!
+  html_file: html/p_2024_12_13_d_cz_gifts_last_call_email.html
+  screenshot: screenshots/p_2024_12_13_d_cz_gifts_last_call_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/675b2ea2eb1b9c0063b5a9d1/original.jpg?1734028961
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/675b2e91a4f83600641434cb/original.jpg?1734028945
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/675b2eb501a53c00657a6bc8/original.jpg?1734028981
+- id: 8546c4bb-4bf8-4997-971e-617d6fef5163
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 96178
+  total_delivered: 95514
+  total_opens: 47313
+  total_clicks: 572
+  open_rate: 0.4919
+  click_rate: 0.0059
+  total_revenue: 47633.76
+  total_bounces: 1
+  total_unsubscribes: 132
+  ga4:
+    sessions: 762
+    purchases: 7
+    revenue: 2678.05
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.784435'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.935977'
+schedule_type: time_based

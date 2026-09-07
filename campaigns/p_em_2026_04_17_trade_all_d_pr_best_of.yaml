@@ -1,0 +1,36 @@
+id: 59bda666-ba80-4fbe-bcbb-de63b6df9700
+name: P_EM_2026_04_17_TRADE_All_D_PR_Best_Of
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 59bda666-ba80-4fbe-bcbb-de63b6df9700
+dates:
+  send_date: '2026-04-17'
+  inferred_send_type: local_time
+  first_sent: '2026-04-17T01:35:26+00:00'
+  last_sent: '2026-04-17T19:02:13+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 2c458170-2c1f-45d8-b554-f7ff85de46cf
+  channel: email
+  name: Variant 1
+  subject: The crowd favorites are in
+  preheader: Our best-selling pieces of the year, all worth the hype.
+- id: fa0d98d4-787b-46dd-b3f0-c55871c96907
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 20653
+  total_delivered: 19994
+  total_opens: 8710
+  total_clicks: 69
+  open_rate: 0.4217
+  click_rate: 0.0033
+  total_revenue: 29925.0
+  total_bounces: 1
+  total_unsubscribes: 33
+_filename: p_em_2026_04_17_trade_all_d_pr_best_of.yaml
+schedule_type: time_based

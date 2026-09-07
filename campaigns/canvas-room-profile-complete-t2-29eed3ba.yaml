@@ -1,0 +1,32 @@
+id: 29eed3ba-67e2-4a21-b0f6-41136e0dfa06
+name: TRG_EM_2025_HAV_CONV_D_Complete_Profile_T2_V1A
+brand: HAV
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 0b34d65c-1f25-4039-aaf9-7dfb705c5a71
+canvas_name: Room Profile Complete
+flow_type: welcome_series
+sequence_position: 2
+subject: Design your home from your phone 📱
+preheader: Download the Havenly app!
+sends:
+- id: 29eed3ba-67e2-4a21-b0f6-41136e0dfa06
+  channel: email
+  name: TRG_EM_2025_HAV_CONV_D_Complete_Profile_T2_V1A
+  subject: Design your home from your phone 📱
+  preheader: Download the Havenly app!
+  html_file: html/canvas-room-profile-complete-t2-29eed3ba.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-10-01T13:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 8428
+  total_delivered: 8417
+  total_opens: 5826
+  total_clicks: 305
+  open_rate: 0.6913
+  click_rate: 0.0362
+  total_unsubscribes: 17

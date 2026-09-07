@@ -1,0 +1,33 @@
+id: 2dccc990-734f-4657-bbe8-6e7a3fa9246d
+name: P_EM_2026_03_29_HAV_CONV_PT_The_Birthday_Sale_Ends_Tomorrow
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 2dccc990-734f-4657-bbe8-6e7a3fa9246d
+dates:
+  send_date: '2026-03-29'
+  first_sent: '2026-03-28T17:07:26+00:00'
+  last_sent: '2026-03-29T17:05:00+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: e59f3962-897e-4764-821e-a5e1a28354d5
+  channel: email
+  name: Variant 1
+  subject: 'Last day: Up to 20% off the pieces you already love'
+- id: 95b9a877-6e86-419a-bf48-ac546b39fdc0
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 43316
+  total_delivered: 43289
+  total_opens: 21939
+  total_clicks: 148
+  open_rate: 0.5065
+  click_rate: 0.0034
+  total_unsubscribes: 37
+schedule_type: time_based
+_filename: p_em_2026_03_29_hav_conv_pt_the_birthday_sale_ends_tomorrow.yaml

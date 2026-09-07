@@ -1,0 +1,58 @@
+id: 97327c52-30f8-4264-9dad-8e942a2bfe53
+name: P_2025_05_18_D_STF_Promo_A_Lighter_Layer
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 97327c52-30f8-4264-9dad-8e942a2bfe53
+dates:
+  send_date: '2025-05-18'
+  inferred_send_type: sto
+  first_sent: '2025-05-17T11:07:33+00:00'
+  last_sent: '2025-05-19T06:30:08+00:00'
+tags: []
+sends:
+- id: 1798669b-9d38-4a48-888d-be12944f9117
+  channel: email
+  name: Variant 1
+  subject: 'Cult Classic Quilts: 30% Off'
+  preheader: get your new favorite bedding layer before it’s gone
+  html_file: html/p_2025_05_18_d_stf_promo_a_lighter_layer.html
+  screenshot: screenshots/p_2025_05_18_d_stf_promo_a_lighter_layer.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68278a6f40eb950067541584/original.png?1747421807
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68278ce9aeb6a90065a9ae13/original.gif?1747422441
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68278a65c90ba600741aa0aa/original.png?1747421797
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6827845af75c5e006695ff99/original.png?1747420249
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68278dff8a09be0066f8866f/original.png?1747422719
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68278a6ae0084800754f8e73/original.png?1747421802
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68278ce3da58d200657cd082/original.png?1747422434
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68278a77c0877400658e4b3d/original.png?1747421814
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68278a81da58d200657cc2cf/original.png?1747421825
+- id: 638c1881-fa7c-48ef-b01a-6322a2b3344c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 23024
+  total_delivered: 22762
+  total_opens: 11473
+  total_clicks: 362
+  open_rate: 0.4983
+  click_rate: 0.0157
+  total_revenue: 17500.0
+  total_unsubscribes: 41
+  ga4:
+    sessions: 453
+    purchases: 7
+    revenue: 2740.56
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.994580'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.823771'
+schedule_type: time_based

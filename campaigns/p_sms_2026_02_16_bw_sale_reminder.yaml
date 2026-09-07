@@ -1,0 +1,30 @@
+id: 1adad4e1-e0c9-4048-989a-6329f9169cc1
+name: P_SMS_2026_02_16_BW_Sale_Reminder
+brand: BUR
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: 1adad4e1-e0c9-4048-989a-6329f9169cc1
+dates:
+  send_date: '2026-02-16'
+  inferred_send_type: local_time
+  first_sent: '2026-02-16T01:07:15+00:00'
+  last_sent: '2026-02-17T01:01:21+00:00'
+tags: []
+sends:
+- id: 56562c51-efde-4f8d-88c8-b9d1fa97e479
+  channel: sms
+  name: Variant 1
+- id: b7d6e70a-8772-4d67-81f8-9163179ad934
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 6805
+  total_delivered: 6593
+  total_opens: 0
+  total_clicks: 189
+  open_rate: 0.0
+  click_rate: 0.0278
+  total_revenue: 18636.0
+schedule_type: time_based

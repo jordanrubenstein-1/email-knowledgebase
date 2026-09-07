@@ -1,0 +1,30 @@
+id: d41241cb-9282-475e-968f-bd817718cc19
+name: P_SMS_2026_03_06_BW_Modular_Seating_Sale_Final_Days
+brand: BUR
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: d41241cb-9282-475e-968f-bd817718cc19
+dates:
+  send_date: '2026-03-06'
+  inferred_send_type: local_time
+  first_sent: '2026-03-06T02:53:35+00:00'
+  last_sent: '2026-03-07T01:01:12+00:00'
+tags: []
+sends:
+- id: ed44f47e-8d4e-475d-9998-153ccacc86b3
+  channel: sms
+  name: Variant 1
+- id: 13490f0b-1828-4bce-bb31-48cc7a5f3073
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 6959
+  total_delivered: 6758
+  total_opens: 0
+  total_clicks: 200
+  open_rate: 0.0
+  click_rate: 0.0287
+  total_revenue: 17573.0
+schedule_type: time_based

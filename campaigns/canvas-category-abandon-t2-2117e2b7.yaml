@@ -1,0 +1,24 @@
+id: 2117e2b7-cfae-4cef-9d40-dcf3ba1b9897
+name: TRG_EM_2026_04_ID_D_Collection_Page_Abandon_T2_V1
+brand: ID
+channel: email
+category: product_launch
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 86f47b0c-8280-452e-9949-51ffb965d694
+canvas_name: Category Abandon
+flow_type: other_flow
+sequence_position: 2
+subject: Your collections are still here
+preheader: Pick up right where you left off.
+sends:
+- id: 2117e2b7-cfae-4cef-9d40-dcf3ba1b9897
+  channel: email
+  name: TRG_EM_2026_04_ID_D_Collection_Page_Abandon_T2_V1
+  subject: Your collections are still here
+  preheader: Pick up right where you left off.
+  html_file: html/canvas-category-abandon-t2-2117e2b7.html
+dates:
+  first_sent: null
+  last_sent: null
+performance_summary: {}

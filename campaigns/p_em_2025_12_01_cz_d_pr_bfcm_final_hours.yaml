@@ -1,0 +1,113 @@
+id: 2664088d-5534-4066-a38f-2d73e9d1b760
+name: P_EM_2025_12_01_CZ_D_PR_BFCM_Final_Hours
+brand: CZ
+channel: email
+category: reminder
+type: announcement
+theme: black_friday
+braze_id: 2664088d-5534-4066-a38f-2d73e9d1b760
+dates:
+  send_date: '2025-12-01'
+  inferred_send_type: local_time
+  first_sent: '2025-11-30T17:23:39+00:00'
+  last_sent: '2025-12-01T17:17:18+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale/bfcm
+sends:
+- id: 89313202-dd00-47d6-bfaf-8fee686255aa
+  channel: email
+  name: Variant 1
+  subject: Cyber Monday is HERE
+  preheader: Final day to bring home thoughtful design at 25% off.
+  html_file: html/p_em_2025_12_01_cz_d_pr_bfcm_final_hours.html
+  screenshot: screenshots/p_em_2025_12_01_cz_d_pr_bfcm_final_hours.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692a187596ac200063634564/original.png?1764366453
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6929fb2b051acc0064342f0e/original.png?1764358954
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6929fae0e2d1e70075dfa17c/original.png?1764358879
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692a185853ca54006343791c/original.png?1764366423
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692a185d735e090063e0a865/original.png?1764366429
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692a186a53ca54006343791f/original.png?1764366442
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692a186f62b8e80064a257fd/original.png?1764366446
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692a182125747d0063fbc4a7/original.png?1764366369
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692a17f9358d1e00641cf70d/original.gif?1764366329
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6929fb1471316800730fdfdf/original.png?1764358931
+- id: 09ada77f-91e0-415b-af73-35bf9940cdd4
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 114480
+  total_delivered: 114188
+  total_opens: 57341
+  total_clicks: 846
+  open_rate: 0.5009
+  click_rate: 0.0074
+  total_bounces: 2
+  total_unsubscribes: 223
+  ga4:
+    sessions: 877
+    purchases: 26
+    revenue: 10507.85
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.728170'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-black-friday-cyber-monday-2025-11-17
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-14'
+    end_date: '2025-12-01'
+    discount: '11/14 - 11/16 Early Access
+
+      11/17 - 12/1 Main Event
+
+      11/28 Black Friday Fund
+
+
+      25% Off Sitewide
+
+      Up to 70% Off Archive Sale
+
+      (Fresh Cuts of go forward, overstocked products)'
+    type: null
+  primary_sale:
+    id: cz-black-friday-cyber-monday-2025-11-17
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-14'
+    end_date: '2025-12-01'
+    discount: '11/14 - 11/16 Early Access
+
+      11/17 - 12/1 Main Event
+
+      11/28 Black Friday Fund
+
+
+      25% Off Sitewide
+
+      Up to 70% Off Archive Sale
+
+      (Fresh Cuts of go forward, overstocked products)'
+    type: null
+  sale_name: Black Friday / Cyber Monday
+  sale_discount: '11/14 - 11/16 Early Access
+
+    11/17 - 12/1 Main Event
+
+    11/28 Black Friday Fund
+
+
+    25% Off Sitewide
+
+    Up to 70% Off Archive Sale
+
+    (Fresh Cuts of go forward, overstocked products)'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:34.306170'
+schedule_type: time_based

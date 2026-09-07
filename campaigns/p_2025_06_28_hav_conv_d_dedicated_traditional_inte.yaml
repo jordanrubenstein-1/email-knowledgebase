@@ -1,0 +1,51 @@
+id: 859d1a18-e390-4144-a9f5-f0a51534f4fa
+name: P_2025_06_28_HAV_CONV_D_Dedicated_Traditional_Interior_Design
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 859d1a18-e390-4144-a9f5-f0a51534f4fa
+dates:
+  send_date: '2025-06-28'
+  inferred_send_type: local_time
+  first_sent: '2025-06-27T18:25:06+00:00'
+  last_sent: '2025-06-28T17:15:17+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 446f119c-e377-42c4-a779-1f8e9c84a3ee
+  channel: email
+  name: Variant 1
+  subject: This "stuffy" design trend got a chic makeover
+  preheader: It's back and better than ever.
+  html_file: html/p_2025_06_28_hav_conv_d_dedicated_traditional_interior_desig.html
+  screenshot: screenshots/p_2025_06_28_hav_conv_d_dedicated_traditional_interior_desig.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685dd0989e7b5a00743674bc/original.gif?1750978712
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685dd08a12ad1600676c798b/original.png?1750978698
+- id: 93ffd7de-4032-45e6-8dc7-c88abf84f2a9
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 40440
+  total_delivered: 40341
+  total_opens: 21883
+  total_clicks: 193
+  open_rate: 0.5411
+  click_rate: 0.0048
+  total_bounces: 1
+  total_unsubscribes: 47
+  ga4:
+    sessions: 286
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.127462'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.603929'
+schedule_type: time_based

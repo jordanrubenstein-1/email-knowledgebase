@@ -1,0 +1,33 @@
+id: 744507e4-9828-4181-98cb-674c106d938b
+name: OT_EM_2026_08_HAV_CONV_H_Designer_Tip_Details
+brand: HAV
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 744507e4-9828-4181-98cb-674c106d938b
+dates: {}
+tags: []
+sends:
+- id: 81b9442f-6f4e-4340-8bf9-de535a177b13
+  channel: email
+  name: Variant 1
+- id: 1dfcd2b1-1b17-4ddc-8cec-54437f93da5e
+  channel: email
+  name: Control Group
+performance_summary: {}
+schedule_type: api_triggered
+api_trigger_properties:
+  - clientFirstName
+  - clientLastName
+  - projectName
+  - roomId
+  - tipAmount
+  - tipUrl
+  - payoutMonth
+screenshot: screenshots/rendered/canvas-api-triggered-designer-tip-details-3d6dbe48.png
+figma_canvas_map:
+  board: HAV — Lifecycle Canvas Map
+  board_url: https://www.figma.com/board/UHfbjMJfByUpWQAXEw71Qu/HAV-%E2%80%94-Lifecycle-Canvas-Map
+  row: API-Triggered Transactional
+_filename: ot_em_2026_08_hav_conv_h_designer_tip_details.yaml

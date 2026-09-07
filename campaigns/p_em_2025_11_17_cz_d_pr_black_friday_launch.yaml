@@ -1,0 +1,131 @@
+id: 49a81151-8f32-4242-ac7d-3e730bffc634
+name: P_EM_2025_11_17_CZ_D_PR_Black_Friday_Launch
+brand: CZ
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 49a81151-8f32-4242-ac7d-3e730bffc634
+dates:
+  send_date: '2025-11-17'
+  inferred_send_type: local_time
+  first_sent: '2025-11-16T17:22:16+00:00'
+  last_sent: '2025-11-17T17:16:48+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale/bfcm
+- sale_feat
+sends:
+- id: f93b1622-9cf4-4d04-b3c4-cf2239b627e6
+  channel: email
+  name: Variant 1
+  subject: 25% Off Sitewide, For the First Time Ever
+  preheader: The Black Friday Event has begun.
+  html_file: html/p_em_2025_11_17_cz_d_pr_black_friday_launch.html
+  screenshot: screenshots/p_em_2025_11_17_cz_d_pr_black_friday_launch.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69172c2ac426790084065011/original.png?1763126314
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69173af2b295100065017223/original.png?1763130097
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69173b11c51fdf00644a28f7/original.png?1763130128
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69172c527a286c00634c1913/original.png?1763126354
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69172c8813badf0063da032e/original.png?1763126408
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69172c4c13c2ad00657ff91d/original.png?1763126347
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69172c5bf35c1c00656fb452/original.png?1763126363
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69172c94919d1f006343779d/original.png?1763126420
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69173ae8fa923b007599ed54/original.gif?1763130088
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69172ca2636a03006335f29a/original.png?1763126434
+- id: 85f5b224-9a99-40cb-9e2c-5ccbc3c5fcfa
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 112289
+  total_delivered: 111940
+  total_opens: 57187
+  total_clicks: 1524
+  open_rate: 0.5093
+  click_rate: 0.0136
+  total_bounces: 5
+  total_unsubscribes: 133
+  ga4:
+    sessions: 2089
+    purchases: 46
+    revenue: 16627.97
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.586781'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-black-friday-cyber-monday-2025-11-17
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-14'
+    end_date: '2025-12-01'
+    discount: '11/14 - 11/16 Early Access
+
+      11/17 - 12/1 Main Event
+
+      11/28 Black Friday Fund
+
+
+      25% Off Sitewide
+
+      Up to 70% Off Archive Sale
+
+      (Fresh Cuts of go forward, overstocked products)'
+    type: null
+  - id: cz-black-friday-cyber-monday-ea-2025-11-14
+    name: Black Friday / Cyber Monday (EA)
+    start_date: '2025-11-14'
+    end_date: '2025-11-16'
+    discount: '11/14 - 11/16 Early Access
+
+      11/17 - 12/1 Main Event
+
+      11/28 Black Friday Fund
+
+
+      25% Off Sitewide
+
+      Up to 70% Off Archive Sale
+
+      (Fresh Cuts of go forward, overstocked products)'
+    type: null
+  primary_sale:
+    id: cz-black-friday-cyber-monday-2025-11-17
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-14'
+    end_date: '2025-12-01'
+    discount: '11/14 - 11/16 Early Access
+
+      11/17 - 12/1 Main Event
+
+      11/28 Black Friday Fund
+
+
+      25% Off Sitewide
+
+      Up to 70% Off Archive Sale
+
+      (Fresh Cuts of go forward, overstocked products)'
+    type: null
+  sale_name: Black Friday / Cyber Monday
+  sale_discount: '11/14 - 11/16 Early Access
+
+    11/17 - 12/1 Main Event
+
+    11/28 Black Friday Fund
+
+
+    25% Off Sitewide
+
+    Up to 70% Off Archive Sale
+
+    (Fresh Cuts of go forward, overstocked products)'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:44.188118'
+schedule_type: time_based

@@ -1,0 +1,32 @@
+id: 8b483b82-69b3-4e9a-927d-215b08bfde60
+name: P_EM_2026_08_29_HAV_CONV_D_Labor_Day_Event_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 8b483b82-69b3-4e9a-927d-215b08bfde60
+dates:
+  send_date: '2026-08-29'
+  last_sent: '2026-08-29'
+tags:
+- BLASTS-2025
+sends:
+- id: e57278f3-0345-48b8-a36d-bd88f632c9eb
+  channel: email
+  name: Variant 1
+  subject: Your Labor Day savings are waiting
+  preheader: Up to 20% off, plus an extra 5% off select vendors.
+- id: 84aa63f7-e079-49ef-8876-9291abc155bb
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 42480
+  total_delivered: 42449
+  total_opens: 18546
+  total_clicks: 76
+  open_rate: 0.4366
+  click_rate: 0.0018
+  total_unsubscribes: 61
+schedule_type: time_based
+_filename: p_em_2026_08_29_hav_conv_d_labor_day_event_reminder.yaml

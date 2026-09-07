@@ -1,0 +1,36 @@
+id: b093ee1b-18d8-4a15-a113-aff635b694d4
+name: P_EM_2025_12_06_ID_D_Cyber_Week_Reminder_Designed_Version
+brand: ID
+channel: email
+category: reminder
+type: seasonal
+theme: null
+braze_id: b093ee1b-18d8-4a15-a113-aff635b694d4
+dates:
+  send_date: '2025-12-06'
+  inferred_send_type: local_time
+  first_sent: '2025-12-05T19:50:54+00:00'
+  last_sent: '2025-12-06T17:16:01+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 23956990-9653-4c09-9527-ca6c4f6604fd
+  channel: email
+  name: Variant 1
+  subject: Your Next Order = Up to 30% Off
+  preheader: Only during the Cyber Week Event
+- id: 32f96c2b-b957-4a14-894b-3268410d4625
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 104633
+  total_delivered: 104369
+  total_opens: 47792
+  total_clicks: 367
+  open_rate: 0.4568
+  click_rate: 0.0035
+  total_revenue: 91281.99
+  total_bounces: 8
+  total_unsubscribes: 128
+_filename: p_em_2025_12_06_id_d_cyber_week_reminder_designed_version.yaml
+schedule_type: time_based

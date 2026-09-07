@@ -1,0 +1,33 @@
+id: 8bb2c8b6-9dd2-4e85-8515-233c2492e6c2
+name: P_2024_09_30_D_HAV_CONV_AM_Sale_Last_Chance_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 8bb2c8b6-9dd2-4e85-8515-233c2492e6c2
+dates:
+  send_date: '2024-09-30'
+  first_sent: '2024-09-29T17:15:02+00:00'
+  last_sent: '2024-09-30T17:15:10+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 8d3de73c-9779-41ce-8cd4-68c5a08d5724
+  channel: email
+  name: Variant 1
+  subject: 'ENDS TONIGHT: The September Sale'
+  preheader: Stock up for the holidays
+- id: 165ce72c-81b1-4a7f-92c8-d0aaee4a47b8
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 35918
+  total_delivered: 35845
+  total_opens: 19988
+  total_clicks: 178
+  open_rate: 0.5565
+  click_rate: 0.005
+  total_unsubscribes: 74
+schedule_type: time_based
+_filename: p_2024_09_30_d_hav_conv_am_sale_last_chance_email.yaml

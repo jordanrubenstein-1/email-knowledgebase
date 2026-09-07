@@ -1,0 +1,33 @@
+id: 88e88dc8-9da1-46d2-8358-9c4a8e15fe8c
+name: P_EM_2026_09_06_HAV_CONV_D_HIP_Items_in_Your_Design_Are_on_Sale
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 88e88dc8-9da1-46d2-8358-9c4a8e15fe8c
+dates:
+  send_date: '2026-09-06'
+  first_sent: '2026-09-05T20:08:17+00:00'
+  last_sent: '2026-09-06T08:00:00+00:00'
+  inferred_send_type: scheduled
+tags:
+- BLASTS-2025
+sends:
+- id: 01e7481c-7fa1-40ec-9b65-b7eeaac4de70
+  channel: email
+  name: Variant 1
+  subject: Hurry! Items in your design are on sale
+  preheader: Biggest sale of the year!
+- id: f432371b-4af6-43d6-9966-fe8612f24934
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 1
+  total_delivered: 1
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+schedule_type: time_based
+_filename: p_em_2026_09_06_hav_conv_d_hip_items_in_your_design_are_on_s.yaml

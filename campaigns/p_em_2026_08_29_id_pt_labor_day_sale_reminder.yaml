@@ -1,0 +1,33 @@
+id: 50be45c6-c159-4dd3-a5e0-199978acce5a
+name: P_EM_2026_08_29_ID_PT_Labor_Day_Sale_Reminder
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 50be45c6-c159-4dd3-a5e0-199978acce5a
+dates:
+  send_date: '2026-08-29'
+  last_sent: '2026-08-29'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 8f2b6909-4611-4b00-8539-9734bc29db70
+  channel: email
+  name: Variant 1
+  subject: Sale still going, up to 30% off
+- id: 7c0a7c5b-ee44-4e96-891a-d5a823a09b7e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 133106
+  total_delivered: 132627
+  total_opens: 44607
+  total_clicks: 623
+  open_rate: 0.3351
+  click_rate: 0.0047
+  total_revenue: 235229.95
+  total_bounces: 1
+  total_unsubscribes: 214
+schedule_type: time_based
+_filename: p_em_2026_08_29_id_pt_labor_day_sale_reminder.yaml

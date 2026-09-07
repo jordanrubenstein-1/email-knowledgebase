@@ -1,0 +1,75 @@
+id: af7f89ac-e2cb-47ea-afd6-5a5cde96222b
+name: P_EM_2025_08_30_CZ_D_PR_Archive_Sale_PM
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: af7f89ac-e2cb-47ea-afd6-5a5cde96222b
+dates:
+  send_date: '2025-08-30'
+  inferred_send_type: local_time
+  first_sent: '2025-08-30T03:20:47+00:00'
+  last_sent: '2025-08-31T02:15:28+00:00'
+tags:
+- archive
+- batch and blast
+- d2c
+- designed
+- pm
+- sale
+sends:
+- id: 5643671c-e555-447c-aa9a-d4fdbad8b8bb
+  channel: email
+  name: Variant 1
+  subject: 'Fresh Cuts: Now Up To 65% Off'
+  preheader: But they won’t make it to next season.
+  html_file: html/p_em_2025_08_30_cz_d_pr_archive_sale_pm.html
+  screenshot: screenshots/p_em_2025_08_30_cz_d_pr_archive_sale_pm.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b0e968e010d40075431435/original.png?1756424552
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b0e93200633b00665e0d4a/original.gif?1756424498
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b0e93838d5fc00673d2f07/original.png?1756424503
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b0e8f8e4801d0073247dc5/original.gif?1756424440
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b0e913dd138d00749dfa37/original.png?1756424467
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b0e944e010d40066432055/original.png?1756424516
+- id: 6c1235ac-d56d-4ecb-97e2-85806b97e379
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 24410
+  total_delivered: 24377
+  total_opens: 16363
+  total_clicks: 1180
+  open_rate: 0.6703
+  click_rate: 0.0483
+  total_unsubscribes: 84
+  ga4:
+    sessions: 1393
+    purchases: 7
+    revenue: 1924.76
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.643815'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-02'
+    discount: 20% off Sitewide
+    type: null
+  primary_sale:
+    id: cz-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-02'
+    discount: 20% off Sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 20% off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:44.917786'
+schedule_type: time_based

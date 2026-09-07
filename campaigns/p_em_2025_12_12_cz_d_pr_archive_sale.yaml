@@ -1,0 +1,60 @@
+id: 86d2534c-2b8f-4a3b-b655-5a26c7dd3972
+name: P_EM_2025_12_12_CZ_D_PR_Archive_Sale
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 86d2534c-2b8f-4a3b-b655-5a26c7dd3972
+dates:
+  send_date: '2025-12-12'
+  inferred_send_type: local_time
+  first_sent: '2025-12-11T19:28:27+00:00'
+  last_sent: '2025-12-12T17:17:11+00:00'
+tags:
+- am
+- archive
+- batch and blast
+- d2c
+- designed
+sends:
+- id: 35f1ca7c-d1a1-4b04-be35-2f99b99293d0
+  channel: email
+  name: Variant 1
+  subject: A Final Edit From the Archive
+  preheader: Up to 70% off select handcrafted pieces.
+  html_file: html/p_em_2025_12_12_cz_d_pr_archive_sale.html
+  screenshot: screenshots/p_em_2025_12_12_cz_d_pr_archive_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/693b06643791c1006356ef42/original.png?1765475939
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/693b0655bb0f290063e8e909/original.gif?1765475925
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/693b06e96c32db006321888a/original.png?1765476072
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/693b06f79861e40063b2ba1b/original.png?1765476086
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/693b070ad05bb0006398ce11/original.png?1765476105
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/693b06b2383d650063ae4203/original.png?1765476018
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/693b066ebea846006345f271/original.png?1765475949
+- id: c0bc7ef2-a8a0-43d2-acd1-032bf814fbec
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 115289
+  total_delivered: 114633
+  total_opens: 56153
+  total_clicks: 996
+  open_rate: 0.4871
+  click_rate: 0.0086
+  total_bounces: 22
+  total_unsubscribes: 173
+  ga4:
+    sessions: 1140
+    purchases: 7
+    revenue: 1412.55
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.510853'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.234991'
+schedule_type: time_based

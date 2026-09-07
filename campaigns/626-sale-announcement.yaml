@@ -1,0 +1,61 @@
+id: klaviyo-01J15N5AMCNQ6EH5K5D4R8BERQ
+name: '6/26: Sale Announcement'
+brand: TI
+channel: email
+category: sale_promo
+type: sale
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2024-06-24'
+  inferred_send_type: scheduled
+  first_sent: '2024-06-26T07:15:00+00:00'
+  last_sent: '2024-06-26T07:15:00+00:00'
+sends:
+- id: 01J15N5ASXJ1KZKY62MKRG2Q9B
+  channel: email
+  name: '6/26: Sale Announcement'
+  subject: 'STARTS NOW: 20% off sitewide'
+  preheader: The Fourth of July Sale is here!
+  html_file: html/626-sale-announcement.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/6bca0ef1-331f-425b-9244-d7ab96d99c26.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/9a1ce88a-2909-4458-83c4-37ae4d1a5e42.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/48f8b0bf-f674-4de6-83a6-f00ae0bfb57e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/7f3030d9-c266-40b4-b585-dfa1c1a760b1.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/b6022cf0-e310-4a8c-ae4e-08e808eefacb.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/afe90fa5-3aba-4e55-8612-47b9e9ea8ae1.gif
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/4b5b4c57-a11b-45ec-9fab-6d90657989ea.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/91c4ecd5-47c0-48d8-98f8-fff1d7eec9e6.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/3b2397ca-ae1e-488d-af8c-87ba6a890cf8.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/5fad17d5-b803-4773-b43b-2dc9620a5ceb.jpeg
+  screenshot: screenshots/626-sale-announcement.png
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_unsubscribes: 0
+  ga4:
+    sessions: 359
+    purchases: 6
+    revenue: 3495.91
+    attribution_window_days: 7
+    last_synced: '2026-04-17T14:56:52.869262'
+    source: snowflake
+    channel: email
+klaviyo_type: campaign
+klaviyo_campaign_id: 01J15N5AMCNQ6EH5K5D4R8BERQ
+klaviyo_message_id: 01J15N5ASXJ1KZKY62MKRG2Q9B
+structure:
+  image_count: 23
+  link_count: 24
+  has_gif: true
+  hero_width: 600
+  layout_type: product_grid
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-03-12T11:18:48.757093'

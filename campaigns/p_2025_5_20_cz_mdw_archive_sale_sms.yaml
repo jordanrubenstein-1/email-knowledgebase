@@ -1,0 +1,38 @@
+id: 361d55fa-efae-4a1c-8ed9-796908147974
+name: P_2025_5_20_CZ_MDW_Archive_Sale_SMS
+brand: CZ
+channel: sms
+category: sale_promo
+type: sale
+theme: null
+braze_id: 361d55fa-efae-4a1c-8ed9-796908147974
+dates:
+  send_date: '2025-05-20'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-20T21:55:54+00:00'
+  last_sent: '2025-05-20T21:57:08+00:00'
+tags: []
+sends:
+- id: f2781b8f-a6f3-4ce2-b1ff-6bd334e53016
+  channel: other
+  name: Variant 1
+- id: ba9cc9a6-8c7e-463b-8064-41594109ac01
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 24085
+  total_delivered: 23452
+  total_opens: 0
+  total_clicks: 733
+  open_rate: 0.0
+  click_rate: 0.0304
+  total_revenue: 6971.1
+  ga4:
+    sessions: 1204
+    purchases: 8
+    revenue: 2742.19
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.425163'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

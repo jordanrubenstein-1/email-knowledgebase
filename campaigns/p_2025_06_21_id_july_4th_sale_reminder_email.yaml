@@ -1,0 +1,47 @@
+id: 670a8b35-a22b-40a7-9199-d0f1e59eff85
+name: P_2025_06_21_ID_July_4th_Sale_Reminder_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 670a8b35-a22b-40a7-9199-d0f1e59eff85
+dates:
+  send_date: '2025-06-21'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-21T05:43:50+00:00'
+  last_sent: '2025-06-21T17:15:09+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 39307ec7-ad3a-4e02-b223-2f98d26966a8
+  channel: email
+  name: Variant 1
+  subject: UP TO 25% OFF SITEWIDE IS HERE
+  preheader: The custom piece you’ve been eyeing? Now’s the time.
+- id: f19809d7-7c02-4e86-b40e-b6cecdd0ddf9
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 191048
+  total_delivered: 188778
+  total_opens: 85364
+  total_clicks: 1313
+  open_rate: 0.4468
+  click_rate: 0.0069
+  total_revenue: 168398.0
+  total_bounces: 3
+  total_unsubscribes: 448
+  ga4:
+    sessions: 1528
+    purchases: 7
+    revenue: 27432.74
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.050037'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.181131'
+schedule_type: time_based

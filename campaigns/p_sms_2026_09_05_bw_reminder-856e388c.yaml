@@ -1,0 +1,30 @@
+id: 856e388c-52c4-4be1-9c32-de25be12eb16
+name: P_SMS_2026_09_05_BW_Reminder
+brand: BUR
+channel: sms
+category: reminder
+type: announcement
+theme: null
+braze_id: 856e388c-52c4-4be1-9c32-de25be12eb16
+dates:
+  send_date: '2026-09-05'
+  first_sent: '2026-09-05T02:06:17+00:00'
+  last_sent: '2026-09-05T12:00:00+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 176cee9b-23bd-46b4-be01-69fd7730a692
+  channel: sms
+  name: Variant 1
+- id: acfdc707-2b0d-429a-b7b7-48f09318013f
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 151
+  total_delivered: 108
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+schedule_type: time_based
+_filename: p_sms_2026_09_05_bw_reminder-856e388c.yaml

@@ -1,0 +1,37 @@
+id: df148e9e-3e47-4ef9-9ff5-f1fe530bcd98
+name: P_SMS_2025_10_14_SF_Holiday_is_Here
+brand: STF
+channel: sms
+category: other
+type: seasonal
+theme: christmas
+braze_id: df148e9e-3e47-4ef9-9ff5-f1fe530bcd98
+dates:
+  send_date: '2025-10-14'
+  inferred_send_type: local_time
+  first_sent: '2025-10-14T00:57:25+00:00'
+  last_sent: '2025-10-14T17:30:08+00:00'
+tags: []
+sends:
+- id: 4bddab88-18f6-48ec-9a1d-e1d80e77c875
+  channel: sms
+  name: Variant 1
+- id: d6686f4a-9257-4ab6-b639-6c894a04654a
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 4528
+  total_delivered: 4459
+  total_opens: 0
+  total_clicks: 302
+  open_rate: 0.0
+  click_rate: 0.0667
+  ga4:
+    sessions: 320
+    purchases: 3
+    revenue: 507.44
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.651704'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

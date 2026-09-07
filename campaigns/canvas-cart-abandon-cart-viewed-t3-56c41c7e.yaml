@@ -1,0 +1,33 @@
+id: 56c41c7e-7a55-4d17-849b-eb992926435e
+name: TRG_EM_2026_05_ID_D_Cart_Abandon_T3_V1
+brand: ID
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 90ff3c97-7866-46d1-b1df-1a97c60ef691
+canvas_name: Cart Abandon - Cart Viewed
+flow_type: cart_abandonment
+sequence_position: 3
+subject: Your cart is saved. Flexible payments make it even easier
+preheader: ''
+sends:
+- id: 56c41c7e-7a55-4d17-849b-eb992926435e
+  channel: email
+  name: TRG_EM_2026_05_ID_D_Cart_Abandon_T3_V1
+  subject: Your cart is saved. Flexible payments make it even easier
+  preheader: ''
+  html_file: html/canvas-cart-abandon-cart-viewed-t3-56c41c7e.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-12-10T05:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 6069
+  total_delivered: 6019
+  total_opens: 3483
+  total_clicks: 155
+  open_rate: 0.5739
+  click_rate: 0.0255
+  total_unsubscribes: 23
+  total_revenue: 7450.0

@@ -1,0 +1,35 @@
+id: 3f448d82-3e12-4410-9833-72462382fd79
+name: P_EM_2026_01_26_ID_PT_PR_Winter_Retreat_Sale_Snow_Day_Shopping
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: winter
+braze_id: 3f448d82-3e12-4410-9833-72462382fd79
+dates:
+  send_date: '2026-01-26'
+  inferred_send_type: scheduled
+  first_sent: '2026-01-26T18:22:53+00:00'
+  last_sent: '2026-01-26T18:25:31+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: ae27cb15-e9f1-47c1-b92f-6bfc0ffc62ac
+  channel: email
+  name: Variant 1
+  subject: Stay in. Get cozy. Save 25% (ends tomorrow).
+- id: cafdf3e4-e79a-4ddc-854b-81e96fed63bc
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 193932
+  total_delivered: 191511
+  total_opens: 86521
+  total_clicks: 495
+  open_rate: 0.4461
+  click_rate: 0.0026
+  total_revenue: 407351.37
+  total_bounces: 12
+  total_unsubscribes: 355
+_filename: p_em_2026_01_26_id_pt_pr_winter_retreat_sale_snow_day_shoppi.yaml
+schedule_type: time_based

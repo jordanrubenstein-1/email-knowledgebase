@@ -1,0 +1,33 @@
+id: 30154a73-a68e-46ab-8e7e-d6614c1a890f
+name: TRG_EM_2024_08_ID_D_Welcome_T2_V1
+brand: ID
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 7630907f-cf55-432f-ad28-70531a271c87
+canvas_name: Welcome Series - August 2024
+flow_type: welcome_series
+sequence_position: 2
+subject: Red wine on a white sofa?
+preheader: We're not worried. Order FREE fabric swatches.
+sends:
+- id: 30154a73-a68e-46ab-8e7e-d6614c1a890f
+  channel: email
+  name: TRG_EM_2024_08_ID_D_Welcome_T2_V1
+  subject: Red wine on a white sofa?
+  preheader: We're not worried. Order FREE fabric swatches.
+  html_file: html/canvas-welcome-series-august-2024-t2-30154a73.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-29T03:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 629256
+  total_delivered: 488725
+  total_opens: 174480
+  total_clicks: 6864
+  open_rate: 0.2773
+  click_rate: 0.0109
+  total_unsubscribes: 6091
+  total_bounces: 39

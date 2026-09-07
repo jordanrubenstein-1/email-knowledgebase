@@ -1,0 +1,61 @@
+id: f1c2f122-1869-4b14-80f0-f4cc675b2385
+name: P_EM_2025_12_11_CZ_D_PR_Holiday_Shop
+brand: CZ
+channel: email
+category: other
+type: seasonal
+theme: christmas
+braze_id: f1c2f122-1869-4b14-80f0-f4cc675b2385
+dates:
+  send_date: '2025-12-11'
+  inferred_send_type: local_time
+  first_sent: '2025-12-10T21:28:59+00:00'
+  last_sent: '2025-12-11T17:16:45+00:00'
+tags:
+- am
+- batch and blast
+- collect
+- d2c
+- designed
+- holiday
+sends:
+- id: 9e606e14-143e-4947-84d4-6d4c73eed410
+  channel: email
+  name: Variant 1
+  subject: Last call for Christmas delivery
+  preheader: Holiday essentials, thoughtfully crafted and ready to ship.
+  html_file: html/p_em_2025_12_11_cz_d_pr_holiday_shop.html
+  screenshot: screenshots/p_em_2025_12_11_cz_d_pr_holiday_shop.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6939b1643c4d0400634d18a4/original.png?1765388643
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6939b13fefc39200630aa5cf/original.png?1765388606
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6939b106bbc53d006331c1af/original.png?1765388550
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6939b12a998c440063f9f1ac/original.png?1765388586
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6939b0ee98020a00640a3fa3/original.png?1765388525
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6939b1113c4d0400634d17fb/original.png?1765388561
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6939b16a998c440073f9bcc0/original.png?1765388649
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6939b11843f697006396c1b9/original.png?1765388568
+- id: e7a36e7b-9770-4a41-85b2-ddb043b9cbee
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 58085
+  total_delivered: 58028
+  total_opens: 29358
+  total_clicks: 528
+  open_rate: 0.5054
+  click_rate: 0.0091
+  total_unsubscribes: 102
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.717778'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.236485'
+schedule_type: time_based

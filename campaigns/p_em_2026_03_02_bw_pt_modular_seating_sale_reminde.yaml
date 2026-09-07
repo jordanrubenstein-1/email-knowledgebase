@@ -1,0 +1,34 @@
+id: 45469f57-8e63-478a-8232-aaffbc5a8929
+name: P_EM_2026_03_02_BW_PT_Modular_Seating_Sale_Reminder_Test
+brand: BUR
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 45469f57-8e63-478a-8232-aaffbc5a8929
+dates:
+  send_date: '2026-03-02'
+  inferred_send_type: local_time
+  first_sent: '2026-03-01T17:21:12+00:00'
+  last_sent: '2026-03-02T17:15:59+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 1248cdac-e9b5-4246-b462-7d433daf775e
+  channel: email
+  name: Variant 1
+  subject: '25% Modular Seating For a Limited Time '
+- id: e22b9615-b89c-4563-a1d1-a9548b5dbf9b
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 116979
+  total_delivered: 116207
+  total_opens: 62740
+  total_clicks: 336
+  open_rate: 0.5363
+  click_rate: 0.0029
+  total_revenue: 11284.0
+  total_bounces: 3
+  total_unsubscribes: 149
+schedule_type: time_based

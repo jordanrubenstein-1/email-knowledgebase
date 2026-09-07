@@ -1,0 +1,64 @@
+id: 289fa84d-4127-4de9-b809-d6bfff8ef3a8
+name: 20250111_Dining-Highlight
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 289fa84d-4127-4de9-b809-d6bfff8ef3a8
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-01-10T20:24:57+00:00'
+  last_sent: '2025-01-11T17:15:07+00:00'
+tags: []
+sends:
+- id: 13489842-bd6b-49f9-9217-bdcb54754b4c
+  channel: email
+  name: Variant 1
+  subject: Shop dining styles for the perfect dinner party
+  preheader: Tables, chairs, bar carts and more.
+- id: a79c9f11-81c0-489a-89fa-22acbccf0759
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 232
+    purchases: 1
+    revenue: 1107.56
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.761957'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:45.320685'
+schedule_type: time_based

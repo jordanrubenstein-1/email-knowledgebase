@@ -1,0 +1,23 @@
+id: 5bbfe99d-0dad-45d2-8ae3-2dd2d09fc00f
+name: PUSH_PC_09_01_Labor_Day_Event_Reminder
+brand: HAV
+channel: push
+category: reminder
+type: announcement
+theme: null
+braze_id: 5bbfe99d-0dad-45d2-8ae3-2dd2d09fc00f
+dates:
+  first_sent: '2025-09-01T00:18:50+00:00'
+  last_sent: '2025-09-01T23:10:28+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: d09b22dc-43fd-4da4-9411-d34e5b9951e1
+  channel: push
+  name: Variant 1
+- id: 725bc7d1-2593-43ae-be0a-d75e6777798c
+  channel: push
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: push_pc_09_01_labor_day_event_reminder.yaml

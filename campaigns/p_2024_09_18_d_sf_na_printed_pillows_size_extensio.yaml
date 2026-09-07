@@ -1,0 +1,59 @@
+id: 7b9889c1-5fdc-4bdc-a4fe-35eaa56cba59
+name: P_2024_09_18_D_SF_NA_Printed_Pillows_Size_Extension_2_Email
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 7b9889c1-5fdc-4bdc-a4fe-35eaa56cba59
+dates:
+  send_date: '2024-09-18'
+  inferred_send_type: local_time
+  first_sent: '2024-09-17T19:44:03+00:00'
+  last_sent: '2024-09-18T14:00:34+00:00'
+tags:
+- Batch and Blast/non-promo
+sends:
+- id: 4b1cbe8c-a76d-438a-afd2-0af6261ceb98
+  channel: email
+  name: Variant 1
+  subject: 'JUST LANDED: Pillows in Every Size'
+  preheader: you asked, we delivered
+  html_file: html/p_2024_09_18_d_sf_na_printed_pillows_size_extension_2_email.html
+  screenshot: screenshots/p_2024_09_18_d_sf_na_printed_pillows_size_extension_2_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e9cd4da77b0c00658d5236/original.gif?1726598476
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e9cd4da77b0c00828d422e/original.gif?1726598477
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0058f1ba77/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e9cd4d6a8e000080b19d2a/original.jpg?1726598477
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e9cd4dd4bd160084d25f04/original.gif?1726598477
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0063f11fb6/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e9cd4da77b0c00918d3fbf/original.gif?1726598477
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e9cd4d6a8e000064b1ab5d/original.gif?1726598476
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e9cd4d28fc5300745180f0/original.gif?1726598476
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e9d04b01ed460064e686fe/original.gif?1726599243
+- id: bd16bcd0-f7af-41f3-8129-8b3fb37e1a55
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 7624
+  total_delivered: 7466
+  total_opens: 2898
+  total_clicks: 109
+  open_rate: 0.3801
+  click_rate: 0.0143
+  total_revenue: 265.0
+  total_unsubscribes: 13
+  ga4:
+    sessions: 170
+    purchases: 1
+    revenue: 105.66
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.017950'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.850058'
+schedule_type: time_based

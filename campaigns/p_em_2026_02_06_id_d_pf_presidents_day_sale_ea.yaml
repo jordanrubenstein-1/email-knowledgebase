@@ -1,0 +1,35 @@
+id: a395e63a-847f-46ea-b818-490161d41272
+name: P_EM_2026_02_06_ID_D_PF_Presidents_Day_Sale_EA
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: a395e63a-847f-46ea-b818-490161d41272
+dates:
+  send_date: '2026-02-06'
+  inferred_send_type: local_time
+  first_sent: '2026-02-05T21:51:58+00:00'
+  last_sent: '2026-02-06T18:04:45+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 21d099d1-83ab-49ed-a4a8-068ffe79684a
+  channel: email
+  name: Variant 1
+  subject: 'You’re Invited: EARLY ACCESS'
+  preheader: Up to 30% off sitewide starts now (for you!)
+- id: 73111252-24ef-4c66-a0aa-b21cc6a0f728
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 212771
+  total_delivered: 212132
+  total_opens: 88132
+  total_clicks: 1515
+  open_rate: 0.4142
+  click_rate: 0.0071
+  total_revenue: 294287.9
+  total_bounces: 2
+  total_unsubscribes: 234
+schedule_type: time_based

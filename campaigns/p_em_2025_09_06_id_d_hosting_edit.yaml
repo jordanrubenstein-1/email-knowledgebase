@@ -1,0 +1,47 @@
+id: 12508b92-1cb4-46dd-902f-e14a0cd437c9
+name: P_EM_2025_09_06_ID_D_Hosting_Edit
+brand: ID
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 12508b92-1cb4-46dd-902f-e14a0cd437c9
+dates:
+  send_date: '2025-09-06'
+  inferred_send_type: local_time
+  first_sent: '2025-09-05T21:31:22+00:00'
+  last_sent: '2025-09-06T17:15:34+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 0d3e81c5-45ae-447a-b87a-62a60cb7d659
+  channel: email
+  name: Variant 1
+  subject: Don’t Worry, We Did the Math
+  preheader: Order now to save 25%—and get it just in time for the holidays.
+- id: ff24689d-f2cb-4c28-acf3-a613b83e90ce
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 203727
+  total_delivered: 202810
+  total_opens: 97765
+  total_clicks: 731
+  open_rate: 0.4799
+  click_rate: 0.0036
+  total_revenue: 326693.99
+  total_bounces: 8
+  total_unsubscribes: 547
+  ga4:
+    sessions: 897
+    purchases: 6
+    revenue: 13083.73
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.796528'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.221990'
+schedule_type: time_based

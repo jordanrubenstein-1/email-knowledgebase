@@ -1,0 +1,60 @@
+id: d897cb3a-164e-4ada-bbac-9a2715f57ee7
+name: P_2024_11_14_PT_ID_Cart_Abandon_BFCM_EA_Last_Chance_Email
+brand: ID
+channel: email
+category: reminder
+type: lifecycle
+theme: black_friday
+braze_id: d897cb3a-164e-4ada-bbac-9a2715f57ee7
+dates:
+  send_date: '2024-11-14'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-14T04:18:54+00:00'
+  last_sent: '2024-11-14T17:15:02+00:00'
+tags: []
+sends:
+- id: 845eaa93-8f3d-40ff-b938-519b9bef2c67
+  channel: email
+  name: Variant 1
+  subject: Last Chance! VIP EARLY ACCESS
+- id: 3e15249b-86c1-44a1-bac4-38693420d3a6
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 2850
+  total_delivered: 2822
+  total_opens: 1377
+  total_clicks: 55
+  open_rate: 0.4832
+  click_rate: 0.0193
+  total_revenue: 92348.75
+  total_unsubscribes: 9
+  ga4:
+    sessions: 90
+    purchases: 1
+    revenue: 4075.78
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.810455'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-vip-early-access-2024-11-12
+    name: VIP Early Access
+    start_date: '2024-11-12'
+    end_date: '2024-11-14'
+    discount: null
+    type: null
+  primary_sale:
+    id: id-vip-early-access-2024-11-12
+    name: VIP Early Access
+    start_date: '2024-11-12'
+    end_date: '2024-11-14'
+    discount: null
+    type: null
+  sale_name: VIP Early Access
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:39.407178'
+schedule_type: time_based

@@ -1,0 +1,35 @@
+id: a21436e2-5e7a-4acc-84c0-a84cd0e1de94
+name: P_2025_03_01_HAV_PC_What_Guests_Notice_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: a21436e2-5e7a-4acc-84c0-a84cd0e1de94
+dates:
+  send_date: '2025-03-01'
+  first_sent: '2025-03-01T16:48:32+00:00'
+  last_sent: '2025-03-01T16:50:50+00:00'
+  inferred_send_type: scheduled
+tags:
+- BLASTS-2025
+sends:
+- id: 60afa9f9-759e-45d5-9a6a-a9556079083e
+  channel: email
+  name: Variant 1
+  subject: 'The #1 thing guests notice about your kitchen 👀'
+  preheader: According to interior designers.
+- id: cd94be55-9149-45c2-9cdd-66397c3cad2d
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 191637
+  total_delivered: 188485
+  total_opens: 88303
+  total_clicks: 1180
+  open_rate: 0.4608
+  click_rate: 0.0062
+  total_bounces: 5
+  total_unsubscribes: 452
+schedule_type: time_based
+_filename: p_2025_03_01_hav_pc_what_guests_notice_email.yaml

@@ -1,0 +1,33 @@
+id: cdcf8a45-1bc4-423e-8299-cc181a53e265
+name: P_EM_2026_07_03_BW_PT_Sale_Continues_Fourth_Tomorrow
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: cdcf8a45-1bc4-423e-8299-cc181a53e265
+dates:
+  send_date: '2026-07-03'
+  last_sent: '2026-07-03'
+tags:
+- Batch&Blast
+sends:
+- id: 8005247b-74f1-4c24-894a-909a6c5121c7
+  channel: email
+  name: Variant 1
+  subject: Celebrate with up to 50% off
+- id: 5f1bdcd9-0653-4b2d-973e-1c4ca9fd4a3d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 229090
+  total_delivered: 227424
+  total_opens: 117108
+  total_clicks: 495
+  open_rate: 0.5112
+  click_rate: 0.0022
+  total_revenue: 136580.0
+  total_bounces: 11
+  total_unsubscribes: 182
+schedule_type: time_based
+_filename: p_em_2026_07_03_bw_pt_sale_continues_fourth_tomorrow.yaml

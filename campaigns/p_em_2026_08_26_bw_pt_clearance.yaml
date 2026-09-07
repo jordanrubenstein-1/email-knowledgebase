@@ -1,0 +1,33 @@
+id: 6165f890-c869-4844-87a8-c7913239af3d
+name: P_EM_2026_08_26_BW_PT_Clearance
+brand: BUR
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 6165f890-c869-4844-87a8-c7913239af3d
+dates:
+  send_date: '2026-08-26'
+  last_sent: '2026-08-26'
+tags:
+- Batch&Blast
+sends:
+- id: b71ca341-507b-4487-8c0f-e46395670a2b
+  channel: email
+  name: Variant 1
+  subject: The best deals are in clearance
+- id: b625a9e8-3715-41b7-b3d2-1fb51fcc6676
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 89144
+  total_delivered: 88921
+  total_opens: 34256
+  total_clicks: 1026
+  open_rate: 0.3843
+  click_rate: 0.0115
+  total_revenue: 159257.0
+  total_bounces: 2
+  total_unsubscribes: 133
+schedule_type: time_based
+_filename: p_em_2026_08_26_bw_pt_clearance.yaml

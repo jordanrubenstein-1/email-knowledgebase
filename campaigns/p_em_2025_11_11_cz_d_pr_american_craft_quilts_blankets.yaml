@@ -1,0 +1,50 @@
+id: db16856e-010f-498f-bb90-480de038171c
+name: P_EM_2025_11_11_CZ_D_PR_American_Craft_Quilts_Blankets
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: db16856e-010f-498f-bb90-480de038171c
+dates:
+  send_date: '2025-11-11'
+  inferred_send_type: scheduled
+  first_sent: '2025-11-11T17:01:49+00:00'
+  last_sent: '2025-11-11T17:13:49+00:00'
+tags:
+- am
+- batch and blast
+- bedding
+- bedding/quilts
+- collect
+- d2c
+- designed
+- prod
+sends:
+- id: 29f11816-ad2a-4214-b900-c95185422d7d
+  channel: email
+  name: Variant 1
+  subject: 'JUST LANDED: Heirloom Quilts for Cozy Season'
+  preheader: Made to layer, made to last.
+  html_file: html/p_em_2025_11_11_cz_d_pr_american_craft_quilts_blankets.html
+  screenshot: screenshots/p_em_2025_11_11_cz_d_pr_american_craft_quilts_blankets.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691272daa9e80100634da8e3/original.png?1762816729
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69136a7d66f3b10073280d04/original.png?1762880125
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6912729db438850074b5b586/original.png?1762816669
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6912720a74edfe00638b2798/original.png?1762816521
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691272b5acb7c20072daae6d/original.png?1762816692
+- id: 78375bfc-2048-4a4d-87a1-b89cb275f63e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 101868
+  total_delivered: 101125
+  total_opens: 57705
+  total_clicks: 1297
+  open_rate: 0.5665
+  click_rate: 0.0127
+  total_bounces: 2
+  total_unsubscribes: 156
+_filename: p_em_2025_11_11_cz_d_pr_american_craft_quilts_blankets.yaml
+schedule_type: time_based

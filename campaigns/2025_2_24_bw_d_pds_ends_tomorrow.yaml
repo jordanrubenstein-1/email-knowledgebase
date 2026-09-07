@@ -1,0 +1,75 @@
+id: 3ee761de-cc29-4343-8ec9-8e82a19f0acb
+name: 2025_2_24_BW_D_PDS_Ends_Tomorrow
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 3ee761de-cc29-4343-8ec9-8e82a19f0acb
+dates:
+  send_date: '2025-02-24'
+  inferred_send_type: local_time
+  first_sent: '2025-02-23T17:20:37+00:00'
+  last_sent: '2025-02-24T17:15:20+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 6d388f32-672b-40b9-aed2-ef9db439036e
+  channel: email
+  name: Variant 1
+  subject: The clock is ticking...
+  preheader: Our President's Day Sale ends tomorrow.
+- id: 34c1b86e-7f8a-4f5b-b86c-ef4a6c7cb951
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 266726
+  total_delivered: 264917
+  total_opens: 92344
+  total_clicks: 429
+  open_rate: 0.3462
+  click_rate: 0.0016
+  total_revenue: 22985.0
+  total_bounces: 1
+  total_unsubscribes: 163
+  ga4:
+    sessions: 248
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.456603'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:30.077092'
+schedule_type: time_based

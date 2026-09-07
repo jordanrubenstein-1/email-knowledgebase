@@ -1,0 +1,51 @@
+id: 8d38d988-499d-d538-0501-8183ddb48522
+name: OT_EM_2024_08_HAV_CONV_H_Concept_Ready
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 8d38d988-499d-d538-0501-8183ddb48522
+dates:
+  first_sent: '2024-08-23T00:00:00+00:00'
+  last_sent: '2026-06-09T19:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: f0de7720-fa93-4ae7-93e8-6908301e305d
+  channel: email
+  name: Variant 1
+  subject: Your Concept is ready!
+- id: 64b63b5c-0d01-4e97-830a-2deda1240652
+  channel: email
+  name: Control Group
+  subject: Your design concept is ready to review
+  preheader: 'Hi {{${first_name} | default: ''there''}}, Your designer has shared
+    your first design concept — it''s ready to view in your project.'
+- id: e7d2e62b-38c4-4439-8b89-06354bbb223c
+  channel: email
+  name: Variant 2
+  subject: Your design concept is ready to review
+  preheader: 'Hi {{${first_name} | default: ''there''}}, Your designer has shared
+    your first design concept — it''s ready to view in your project.'
+- id: 53255e37-52c0-4285-8b15-a145497c72bc
+  channel: email
+  name: Variant 3
+  subject: Your design concept is ready to review
+  preheader: 'Hi {{${first_name} | default: ''there''}}, Your designer has shared
+    your first design concept — it''s ready to view in your project.'
+- id: d0f06dd2-4fd6-4517-a677-4ea9f406d922
+  channel: email
+  name: Variant 4
+  subject: Your design concept is ready to review
+  preheader: 'Hi {{${first_name} | default: ''there''}}, Your designer has shared
+    your first design concept — it''s ready to view in your project.'
+performance_summary:
+  total_sends: 2786
+  total_delivered: 2784
+  total_opens: 2142
+  total_clicks: 403
+  open_rate: 0.7688
+  click_rate: 0.1447
+schedule_type: api_triggered
+_filename: ot_em_2024_08_hav_conv_h_concept_ready.yaml

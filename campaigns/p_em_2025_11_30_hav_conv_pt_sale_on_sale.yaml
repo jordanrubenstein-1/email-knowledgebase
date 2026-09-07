@@ -1,0 +1,33 @@
+id: 96c0a8b6-7612-4fb1-a2c5-0af30c2d4771
+name: P_EM_2025_11_30_HAV_CONV_PT_Sale_on_Sale
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 96c0a8b6-7612-4fb1-a2c5-0af30c2d4771
+dates:
+  send_date: '2025-11-30'
+  first_sent: '2025-11-30T02:06:34+00:00'
+  last_sent: '2025-12-01T02:02:39+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: f9ffe090-bc1f-4081-9d32-a9b498234f1e
+  channel: email
+  name: Variant 1
+  subject: Last Chance for These Black Friday Deals
+- id: 67a0db73-8144-4c3e-8648-3af8da5824c4
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 23601
+  total_delivered: 23582
+  total_opens: 12365
+  total_clicks: 199
+  open_rate: 0.5239
+  click_rate: 0.0084
+  total_unsubscribes: 47
+schedule_type: time_based
+_filename: p_em_2025_11_30_hav_conv_pt_sale_on_sale.yaml

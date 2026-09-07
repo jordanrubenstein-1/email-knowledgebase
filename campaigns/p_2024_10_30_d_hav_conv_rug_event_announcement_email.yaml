@@ -1,0 +1,33 @@
+id: 21ff4585-20ea-46d6-8c82-b643ceea42be
+name: P_2024_10_30_D_HAV_CONV_Rug_Event_Announcement_Email
+brand: HAV
+channel: email
+category: sale_promo
+type: product_launch
+theme: null
+braze_id: 21ff4585-20ea-46d6-8c82-b643ceea42be
+dates:
+  send_date: '2024-10-30'
+  first_sent: '2024-10-30T05:08:47+00:00'
+  last_sent: '2024-10-30T17:15:06+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 4cfdc080-c37d-4a33-8142-7249ad172eed
+  channel: email
+  name: Variant 1
+  subject: 'Starts Now: The Inaugural Rug Event'
+  preheader: Roll in the savings with 20% off premium rugs.
+- id: cd4d237b-8468-4111-b3de-94779d60962c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 34465
+  total_delivered: 34417
+  total_opens: 19638
+  total_clicks: 313
+  open_rate: 0.5698
+  click_rate: 0.0091
+  total_unsubscribes: 52
+schedule_type: time_based
+_filename: p_2024_10_30_d_hav_conv_rug_event_announcement_email.yaml

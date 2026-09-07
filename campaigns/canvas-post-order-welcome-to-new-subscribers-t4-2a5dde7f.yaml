@@ -1,0 +1,33 @@
+id: 2a5dde7f-21b1-4db4-bf7c-1afe48804728
+name: TRG_EM_2024_11_BW_D_Welcome_New_Purchaser_T4_V2
+brand: BUR
+channel: email
+category: product_launch
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 510265e9-c3e6-4a8c-8a88-917315c2d584
+canvas_name: Post Order Welcome to New Subscribers
+flow_type: welcome_series
+sequence_position: 4
+subject: Furniture in a flash.
+preheader: At your door in days, not months. Plus, free shipping.
+sends:
+- id: 2a5dde7f-21b1-4db4-bf7c-1afe48804728
+  channel: email
+  name: TRG_EM_2024_11_BW_D_Welcome_New_Purchaser_T4_V2
+  subject: Furniture in a flash.
+  preheader: At your door in days, not months. Plus, free shipping.
+  html_file: html/canvas-post-order-welcome-to-new-subscribers-t4-2a5dde7f.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-12-16T22:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 11543
+  total_delivered: 11462
+  total_opens: 6203
+  total_clicks: 324
+  open_rate: 0.5374
+  click_rate: 0.0281
+  total_unsubscribes: 214
+  total_revenue: 221766.0

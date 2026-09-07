@@ -1,0 +1,48 @@
+id: e9c474c5-e59d-44ef-a7d2-d8b98b006f86
+name: P_2024_09_03_PT_SF_PR_LDW_Last_Call_PM_Email
+brand: STF
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: e9c474c5-e59d-44ef-a7d2-d8b98b006f86
+dates:
+  send_date: '2024-09-03'
+  inferred_send_type: scheduled
+  first_sent: '2024-09-04T00:13:38+00:00'
+  last_sent: '2024-09-04T00:13:57+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: bd9f93e4-00df-400e-ac4a-14cde0068e2a
+  channel: email
+  name: Variant 1
+  subject: 'Final Hours: 20% Off Everything'
+  preheader: clock is ticking to save
+  html_file: html/p_2024_09_03_pt_sf_pr_ldw_last_call_pm_email.html
+  screenshot: screenshots/p_2024_09_03_pt_sf_pr_ldw_last_call_pm_email.png
+- id: 7b44bbd6-c990-4ee3-9053-57a0c1ec838e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 7847
+  total_delivered: 7661
+  total_opens: 2879
+  total_clicks: 198
+  open_rate: 0.3669
+  click_rate: 0.0252
+  total_revenue: 5641.1
+  total_unsubscribes: 129
+  ga4:
+    sessions: 151
+    purchases: 1
+    revenue: 214.5
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.004074'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.300311'
+schedule_type: time_based

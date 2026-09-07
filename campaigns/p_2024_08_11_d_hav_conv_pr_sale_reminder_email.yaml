@@ -1,0 +1,32 @@
+id: f82a517f-f75d-4ae3-b4d4-32c3eeed5477
+name: P_2024_08_11_D_HAV_CONV_PR_Sale_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: f82a517f-f75d-4ae3-b4d4-32c3eeed5477
+dates:
+  send_date: '2024-08-11'
+  first_sent: '2024-08-10T19:11:52+00:00'
+  last_sent: '2024-08-11T13:10:04+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 1d61eaaa-e76c-4edb-9732-ad119177a807
+  channel: email
+  name: Variant 1
+  subject: Psst, your favorite brands are on sale only at Havenly
+  preheader: Catch the last rays of savings 😎
+- id: ffa268b8-e358-49c6-b34f-893c2116597c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 44
+  total_delivered: 44
+  total_opens: 29
+  total_clicks: 1
+  open_rate: 0.6591
+  click_rate: 0.0227
+schedule_type: time_based
+_filename: p_2024_08_11_d_hav_conv_pr_sale_reminder_email.yaml

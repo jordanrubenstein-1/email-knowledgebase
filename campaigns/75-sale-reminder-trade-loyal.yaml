@@ -1,0 +1,58 @@
+id: klaviyo-01J21EY4JCP0ZTPQB1PSQHVCYH
+name: '7/5: Sale Reminder (trade loyal)'
+brand: TI
+channel: email
+category: reminder
+type: sale
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2024-07-05'
+  inferred_send_type: scheduled
+  first_sent: '2024-07-05T09:15:00+00:00'
+  last_sent: '2024-07-05T09:15:00+00:00'
+sends:
+- id: 01J21EY4QSQXB6W03E23C3FQ8Z
+  channel: email
+  name: '7/5: Sale Reminder (trade loyal)'
+  subject: 'ALL CUSTOM BEDS: Now 20% off'
+  preheader: Design your own on sale.
+  html_file: html/75-sale-reminder-trade-loyal.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/83ac3a72-8629-40e1-8103-37d6c4dcfb94.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/42db4102-79b5-4056-8a12-1ad303e3e0d3.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/48f8b0bf-f674-4de6-83a6-f00ae0bfb57e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/fde9ab8b-f5ab-44b9-9e93-71f61956b6c2.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/e0036767-8997-49b1-a066-9db45e949b7d.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/07ef1156-7a4a-41da-84c1-d1f9b9af8cd7.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/b688d8fd-a7f0-4df6-9cd0-97a7713146b3.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/b398c3ca-c7f5-41f2-bedc-27a54cf334fb.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/6a0bdb53-ef35-4b52-8a7b-5ee0a044e75c.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/dccf9ff5-8748-4e56-89b2-548bc39a42d2.jpeg
+  screenshot: screenshots/75-sale-reminder-trade-loyal.png
+performance_summary:
+  total_sends: 735
+  total_delivered: 721
+  total_opens: 277
+  total_clicks: 2
+  unique_opens: 185
+  unique_clicks: 2
+  open_rate: 0.2517
+  click_rate: 0.0027
+  total_open_rate: 0.3769
+  total_click_rate: 0.0027
+  total_unsubscribes: 0
+  total_bounces: 14
+klaviyo_type: campaign
+klaviyo_campaign_id: 01J21EY4JCP0ZTPQB1PSQHVCYH
+klaviyo_message_id: 01J21EY4QSQXB6W03E23C3FQ8Z
+structure:
+  image_count: 20
+  link_count: 22
+  has_gif: true
+  hero_width: 600
+  layout_type: product_grid
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-03-12T11:18:48.970337'

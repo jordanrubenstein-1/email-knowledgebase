@@ -1,0 +1,35 @@
+id: ac75dbc6-0e59-42c7-a049-12cf7f2aac12
+name: P_2024_10_25_D_SF_PR_Category_Sale_Announcement_AM_Email
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: ac75dbc6-0e59-42c7-a049-12cf7f2aac12
+dates:
+  send_date: '2024-10-25'
+  inferred_send_type: scheduled
+  first_sent: '2024-10-24T23:56:48+00:00'
+  last_sent: '2024-10-25T14:00:14+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: 6e92f1cd-541e-4d92-8d44-ffbec43feb56
+  channel: email
+  name: Variant 1
+  subject: 30% Off Wallpaper, Fabric, & Curtains STARTS NOW
+  preheader: all your favorite patterns on sale
+- id: f550cfac-072e-4679-b32f-368a749facb5
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 9650
+  total_delivered: 9602
+  total_opens: 2964
+  total_clicks: 101
+  open_rate: 0.3072
+  click_rate: 0.0105
+  total_revenue: 2950.3
+  total_unsubscribes: 3
+_filename: p_2024_10_25_d_sf_pr_category_sale_announcement_am_email.yaml
+schedule_type: time_based

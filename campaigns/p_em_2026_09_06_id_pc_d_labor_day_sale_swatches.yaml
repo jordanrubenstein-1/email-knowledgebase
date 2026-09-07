@@ -1,0 +1,33 @@
+id: ddc4ccaf-6690-43a4-97ab-fcb681b73afc
+name: P_EM_2026_09_06_ID_PC_D_Labor_Day_Sale_Swatches
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: ddc4ccaf-6690-43a4-97ab-fcb681b73afc
+dates:
+  send_date: '2026-09-06'
+  first_sent: '2026-09-06T03:08:24+00:00'
+  last_sent: '2026-09-06T12:00:00+00:00'
+  inferred_send_type: scheduled
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 02b3d8ec-2896-409f-a053-fa12ce99112b
+  channel: email
+  name: Variant 1
+  subject: Best. Sale. Ever.
+  preheader: Order free swatches and save up to 60%.
+- id: 20212097-432f-42b9-890d-c74a41177994
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 277
+  total_delivered: 270
+  total_opens: 10
+  total_clicks: 2
+  open_rate: 0.0361
+  click_rate: 0.0072
+schedule_type: time_based
+_filename: p_em_2026_09_06_id_pc_d_labor_day_sale_swatches.yaml

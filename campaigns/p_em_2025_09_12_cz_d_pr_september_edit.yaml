@@ -1,0 +1,62 @@
+id: dd48bd72-2bb4-4e83-867a-4950360a0192
+name: P_EM_2025_09_12_CZ_D_PR_September_Edit
+brand: CZ
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: dd48bd72-2bb4-4e83-867a-4950360a0192
+dates:
+  send_date: '2025-09-12'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-12T03:45:55+00:00'
+  last_sent: '2025-09-12T17:01:50+00:00'
+tags:
+- am
+- batch and blast
+- collect
+- d2c
+- designed
+sends:
+- id: e6ef82e3-1dd6-4257-9de2-14a920f65674
+  channel: email
+  name: Variant 1
+  subject: The September Edit
+  preheader: 'What to savor as the season shifts. '
+  html_file: html/p_em_2025_09_12_cz_d_pr_september_edit.html
+  screenshot: screenshots/p_em_2025_09_12_cz_d_pr_september_edit.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c3365fbd0cd70065b1cc61/original.png?1757623903
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c3368f063d6f0077e01b99/original.png?1757623950
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c3367952f8cc00750ac88c/original.png?1757623929
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c336d1bd0cd70065b1d453/original.png?1757624016
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c336392c4e77006468e163/original.png?1757623864
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c3364eec8bfb007595183d/original.png?1757623886
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c336ca063d6f0067e02129/original.png?1757624009
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c33632d5558200777ce055/original.png?1757623857
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c336a0734a5e006705c485/original.png?1757623967
+- id: 834242f3-205a-4556-b8ea-dc70e45fca0d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 113823
+  total_delivered: 113537
+  total_opens: 61383
+  total_clicks: 729
+  open_rate: 0.5393
+  click_rate: 0.0064
+  total_bounces: 15
+  total_unsubscribes: 249
+  ga4:
+    sessions: 614
+    purchases: 2
+    revenue: 773.3
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.894363'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.246088'
+schedule_type: time_based

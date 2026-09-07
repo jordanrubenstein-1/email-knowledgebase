@@ -1,0 +1,45 @@
+id: 6c1f2bf8-4a31-4b2c-9fd8-51f83a6ce3a9
+name: P_EM_2026_02_23_HAV_CONV_D_Presidents_Day_Sale_Ext_Ends
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 6c1f2bf8-4a31-4b2c-9fd8-51f83a6ce3a9
+dates:
+  send_date: '2026-02-23'
+  inferred_send_type: local_time
+  first_sent: '2026-02-22T22:08:12+00:00'
+  last_sent: '2026-02-23T22:01:26+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: e9ceeb65-303d-46f4-bbca-ccfefbffd51b
+  channel: email
+  name: Variant 1
+  subject: Final Hours. 70% Top Home Brands.
+  preheader: The Presidents Day Sale wraps tonight.
+  html_file: html/p_em_2026_02_23_hav_conv_d_presidents_day_sale_ext_ends.html
+  screenshot: screenshots/p_em_2026_02_23_hav_conv_d_presidents_day_sale_ext_ends.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6998801027aa8b0065b4896d/original.gif?1771601936
+- id: bf285aa0-ef64-4242-8232-5e347b724c71
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 43254
+  total_delivered: 43207
+  total_opens: 20977
+  total_clicks: 213
+  open_rate: 0.485
+  click_rate: 0.0049
+  total_unsubscribes: 67
+  ga4:
+    sessions: 298
+    purchases: 1
+    revenue: 242.99
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.261104'
+    source: snowflake
+    channel: email
+schedule_type: time_based

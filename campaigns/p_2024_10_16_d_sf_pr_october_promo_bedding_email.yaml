@@ -1,0 +1,59 @@
+id: 8f7b7e50-bbd5-4e6c-938b-56befa7b26e9
+name: P_2024_10_16_D_SF_PR_OCTOBER_PROMO_Bedding_Email
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 8f7b7e50-bbd5-4e6c-938b-56befa7b26e9
+dates:
+  send_date: '2024-10-16'
+  inferred_send_type: scheduled
+  first_sent: '2024-10-15T23:37:34+00:00'
+  last_sent: '2024-10-16T14:00:14+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: 2007e95a-f163-4295-9fd9-3987e8d21881
+  channel: email
+  name: Variant 1
+  subject: 25% Off Your Favorite Bedding
+  preheader: snag it now!
+  html_file: html/p_2024_10_16_d_sf_pr_october_promo_bedding_email.html
+  screenshot: screenshots/p_2024_10_16_d_sf_pr_october_promo_bedding_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/670d21a0068ab70066245a68/original.jpg?1728913824
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/670d2205a22e810066742b74/original.jpg?1728913925
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/670d2266a4e8eb0063e35be7/original.gif?1728914022
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0058f1ba77/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/670d22bfa4e8eb0072e34d0d/original.gif?1728914111
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0063f11fb6/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67054fa9c858050074d3cd2d/original.jpg?1728401321
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/670d2216b25fc00064541ad1/original.gif?1728913942
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/670d23ca25d0ab0065ef1887/original.gif?1728914378
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6681bde9255ebf0070d6be26/original.jpeg?1719778792
+- id: 7ffa448a-74c0-4acf-b6db-da88ba5960a1
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 9902
+  total_delivered: 9854
+  total_opens: 3084
+  total_clicks: 144
+  open_rate: 0.3115
+  click_rate: 0.0145
+  total_revenue: 2447.5
+  total_unsubscribes: 10
+  ga4:
+    sessions: 97
+    purchases: 2
+    revenue: 664.98
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.996891'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.893998'
+schedule_type: time_based

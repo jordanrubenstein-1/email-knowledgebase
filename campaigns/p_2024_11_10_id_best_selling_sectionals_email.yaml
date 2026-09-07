@@ -1,0 +1,45 @@
+id: bdee5e1b-6635-4062-868f-f566855c469b
+name: P_2024_11_10_ID_Best_Selling_Sectionals_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: bdee5e1b-6635-4062-868f-f566855c469b
+dates:
+  send_date: '2024-11-10'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-10T04:50:24+00:00'
+  last_sent: '2024-11-10T17:15:03+00:00'
+tags: []
+sends:
+- id: 6fbffaa9-0ded-4ab7-8758-4f34d99bc09f
+  channel: email
+  name: Variant 1
+  subject: 'Best of the best: sectionals'
+  preheader: Sometimes, we play favorites.
+- id: 2f6a8f21-0dce-446e-b8f4-b60ae4393165
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 63910
+  total_delivered: 63336
+  total_opens: 21490
+  total_clicks: 569
+  open_rate: 0.3363
+  click_rate: 0.0089
+  total_revenue: 175387.5
+  total_unsubscribes: 109
+  ga4:
+    sessions: 906
+    purchases: 3
+    revenue: 11019.64
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.732399'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.631219'
+schedule_type: time_based

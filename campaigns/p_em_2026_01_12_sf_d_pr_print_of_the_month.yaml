@@ -1,0 +1,56 @@
+id: a57d8b06-9ee3-45ca-835e-1109e59ed496
+name: P_EM_2026_01_12_SF_D_PR_Print_of_the_Month
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: a57d8b06-9ee3-45ca-835e-1109e59ed496
+dates:
+  send_date: '2026-01-12'
+  inferred_send_type: local_time
+  first_sent: '2026-01-11T20:07:18+00:00'
+  last_sent: '2026-01-12T20:01:29+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: 14b0c7fc-1e32-404b-a80e-fe5451334da7
+  channel: email
+  name: Variant 1
+  subject: Shell Psychedelic Kilim
+  preheader: get to know our print of the month
+  html_file: html/p_em_2026_01_12_sf_d_pr_print_of_the_month.html
+  screenshot: screenshots/p_em_2026_01_12_sf_d_pr_print_of_the_month.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6960738119d584006525e60d/original.png?1767928704
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6960732204889b006377a5df/original.png?1767928610
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6960738c63aaf200636700e9/original.png?1767928715
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6960725f8afca20063962f39/original.png?1767928414
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6960732bdd46f80063814ef9/original.png?1767928619
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69607309bb939400718b12e5/original.png?1767928584
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69607368ef836b00639cc5af/original.png?1767928679
+- id: ea34797d-ed5a-48b0-8adf-d3d6d52f0e8a
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 38839
+  total_delivered: 38667
+  total_opens: 13679
+  total_clicks: 279
+  open_rate: 0.3522
+  click_rate: 0.0072
+  total_unsubscribes: 50
+  ga4:
+    sessions: 290
+    purchases: 1
+    revenue: 278.85
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.859376'
+    source: snowflake
+    channel: email
+schedule_type: time_based

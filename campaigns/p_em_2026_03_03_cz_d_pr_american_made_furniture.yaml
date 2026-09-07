@@ -1,0 +1,47 @@
+id: c9a7770b-aec1-4996-86b1-14d5f121502b
+name: P_EM_2026_03_03_CZ_D_PR_American_Made_Furniture
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: c9a7770b-aec1-4996-86b1-14d5f121502b
+dates:
+  send_date: '2026-03-03'
+  inferred_send_type: local_time
+  first_sent: '2026-03-02T20:43:10+00:00'
+  last_sent: '2026-03-03T20:03:21+00:00'
+tags:
+- am
+- batch and blast
+- catalog
+- d2c
+- designed
+sends:
+- id: fe5cb7ab-a469-4915-a20e-3ad3c618221b
+  channel: email
+  name: Variant 1
+  subject: American-Made, Artisan-Crafted
+  preheader: Shaped by skilled hands and lasting tradition.
+  html_file: html/p_em_2026_03_03_cz_d_pr_american_made_furniture.html
+  screenshot: screenshots/p_em_2026_03_03_cz_d_pr_american_made_furniture.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a5b729bb08f10063c7a61f/original.png?1772468008
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a5b707bd87930063ccc6c4/original.png?1772467975
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a5b74e0a0f490072b919c0/original.png?1772468045
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a5b754f007b0007315525c/original.png?1772468052
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a5b7390ebf400063ccdb39/original.png?1772468024
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a5b70efffbc40063cc2297/original.png?1772467981
+- id: 3a8ce037-6431-4b2b-94d8-cf65df5dab7f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 112323
+  total_delivered: 111997
+  total_opens: 53346
+  total_clicks: 576
+  open_rate: 0.4749
+  click_rate: 0.0051
+  total_bounces: 3
+  total_unsubscribes: 175
+schedule_type: time_based

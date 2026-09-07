@@ -1,0 +1,62 @@
+id: b4852ac3-5efe-4a27-9c4f-bd7ed04f6ed0
+name: P_2024_11_17_ID_BFCM_Sale_Reminder_Dining_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: black_friday
+braze_id: b4852ac3-5efe-4a27-9c4f-bd7ed04f6ed0
+dates:
+  send_date: '2024-11-17'
+  inferred_send_type: local_time
+  first_sent: '2024-11-16T17:21:54+00:00'
+  last_sent: '2024-11-17T17:15:07+00:00'
+tags: []
+sends:
+- id: f3d0556a-2d03-4f03-bbfe-0c3f42e5110b
+  channel: email
+  name: Variant 1
+  subject: 'Now Serving: Up To 25% Off Dining'
+  preheader: Shop dining essentials at the best price of the year.
+- id: c9acfcb9-4d49-46a4-bae5-b69fff71d159
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 67067
+  total_delivered: 66419
+  total_opens: 21875
+  total_clicks: 589
+  open_rate: 0.3262
+  click_rate: 0.0088
+  total_revenue: 216738.0
+  total_bounces: 2
+  total_unsubscribes: 85
+  ga4:
+    sessions: 794
+    purchases: 2
+    revenue: 7885.68
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.297104'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-03'
+    discount: null
+    type: null
+  primary_sale:
+    id: id-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-03'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:44.830407'
+schedule_type: time_based

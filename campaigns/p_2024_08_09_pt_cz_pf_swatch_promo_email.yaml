@@ -1,0 +1,47 @@
+id: 97a39027-4ddc-4eb6-a1a4-0550df855316
+name: P_2024_08_09_PT_CZ_PF_Swatch_Promo_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 97a39027-4ddc-4eb6-a1a4-0550df855316
+dates:
+  send_date: '2024-08-09'
+  inferred_send_type: scheduled
+  first_sent: '2024-08-09T20:38:23+00:00'
+  last_sent: '2024-08-10T01:15:01+00:00'
+tags: []
+sends:
+- id: 306def43-0f51-4038-b6d8-d2a1c3dda0dd
+  channel: email
+  name: Variant 1
+  subject: 'VIP Perk: Something Big Is Coming'
+  html_file: html/p_2024_08_09_pt_cz_pf_swatch_promo_email.html
+  screenshot: screenshots/p_2024_08_09_pt_cz_pf_swatch_promo_email.png
+- id: 7372bf3e-9336-423e-8c47-31f9b59c8eba
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 36563
+  total_delivered: 36539
+  total_opens: 25708
+  total_clicks: 840
+  open_rate: 0.7031
+  click_rate: 0.023
+  total_revenue: 12732.97
+  total_bounces: 4
+  total_unsubscribes: 99
+  ga4:
+    sessions: 876
+    purchases: 35
+    revenue: 405.33
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.419731'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.672193'
+schedule_type: time_based

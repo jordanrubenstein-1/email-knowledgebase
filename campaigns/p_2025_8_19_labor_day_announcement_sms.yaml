@@ -1,0 +1,30 @@
+id: fc584889-1795-4367-a907-71d1be33974e
+name: P_2025_8_19_Labor_Day_Announcement_SMS
+brand: ID
+channel: sms
+category: sale_promo
+type: product_launch
+theme: null
+braze_id: fc584889-1795-4367-a907-71d1be33974e
+dates:
+  send_date: '2025-08-19'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-19T21:19:21+00:00'
+  last_sent: '2025-08-19T23:18:47+00:00'
+tags: []
+sends:
+- id: ca66fa4b-1cb4-4ce7-bdf8-5cb5f1a8f2a8
+  channel: other
+  name: Variant 1
+- id: 9c3fc219-dcbb-461f-b821-d5c0bb7d6e7c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 53770
+  total_delivered: 52023
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 36941.0
+schedule_type: time_based

@@ -1,0 +1,29 @@
+id: edacee0e-ba73-48b3-85d9-a80d8ec290a2
+name: P_SMS_2026_07_13_BW_Extension_Final_Hours
+brand: BUR
+channel: sms
+category: reminder
+type: announcement
+theme: null
+braze_id: edacee0e-ba73-48b3-85d9-a80d8ec290a2
+dates:
+  send_date: '2026-07-13'
+  last_sent: '2026-07-13'
+tags: []
+sends:
+- id: f585f5da-60eb-4d40-ac4c-4aefabbe8b13
+  channel: sms
+  name: Variant 1
+- id: 3a5ec4de-5000-448b-a70d-ba2cd6287917
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 11600
+  total_delivered: 10991
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 18640.0
+schedule_type: time_based
+_filename: p_sms_2026_07_13_bw_extension_final_hours.yaml

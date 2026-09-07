@@ -1,0 +1,81 @@
+id: daed0b3d-b587-4684-a3c4-d042a440f6be
+name: P_EM_2025_07_30_SF_D_PR_The_Layered_Bed
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: daed0b3d-b587-4684-a3c4-d042a440f6be
+dates:
+  send_date: '2025-07-30'
+  inferred_send_type: local_time
+  first_sent: '2025-07-29T21:44:08+00:00'
+  last_sent: '2025-07-30T17:01:00+00:00'
+tags:
+- Batch and Blast
+- am
+- bedding
+- d2c
+- designed
+- sale
+sends:
+- id: f2a3f2b9-ff5b-4323-b908-5ae9418a8f74
+  channel: email
+  name: Variant 1
+  subject: Layered in Luxe
+  preheader: master the art of beautiful bedding
+  html_file: html/p_em_2025_07_30_sf_d_pr_the_layered_bed.html
+  screenshot: screenshots/p_em_2025_07_30_sf_d_pr_the_layered_bed.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68892d73a6803800644442a7/original.png?1753820530
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68892ccbd0227900651c91d5/original.png?1753820362
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68892d87a6803800644443d2/original.png?1753820551
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68892cc3a680380064443908/original.png?1753820355
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68892d935ff6d80074a451b2/original.png?1753820563
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68892cb5b5819e00769ebfce/original.png?1753820341
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68892d99d0227900651c9d72/original.png?1753820569
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68892cd35ff6d80064a44c6c/original.png?1753820371
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68892c872a8d5c0065ece761/original.gif?1753820295
+- id: 393ec003-4e8f-487f-87c3-52cbebe1d228
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41650
+  total_delivered: 41586
+  total_opens: 18588
+  total_clicks: 198
+  open_rate: 0.4463
+  click_rate: 0.0048
+  total_revenue: 9253.0
+  total_bounces: 1
+  total_unsubscribes: 77
+  ga4:
+    sessions: 203
+    purchases: 2
+    revenue: 348.72
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.861922'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-the-pillow-event-2025-07-25
+    name: The Pillow Event
+    start_date: '2025-07-25'
+    end_date: '2025-07-31'
+    discount: 20% Off All Pillows
+    type: null
+  primary_sale:
+    id: stf-the-pillow-event-2025-07-25
+    name: The Pillow Event
+    start_date: '2025-07-25'
+    end_date: '2025-07-31'
+    discount: 20% Off All Pillows
+    type: null
+  sale_name: The Pillow Event
+  sale_discount: 20% Off All Pillows
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:36.543647'
+schedule_type: time_based

@@ -1,0 +1,54 @@
+id: 52893e6c-6139-4699-ab7c-ea39f3205613
+name: P_EM_2026_02_19_CZ_D_PR_Archive_Sale_Presidents_Day_PM
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 52893e6c-6139-4699-ab7c-ea39f3205613
+dates:
+  send_date: '2026-02-19'
+  inferred_send_type: local_time
+  first_sent: '2026-02-19T00:06:43+00:00'
+  last_sent: '2026-02-20T00:05:44+00:00'
+tags:
+- archive
+- batch and blast
+- d2c
+- designed
+- pm
+- sale
+- sale/presidentsday2026
+sends:
+- id: 3f475dfc-1841-412b-b993-0c6b249f6c39
+  channel: email
+  name: Variant 1
+  subject: Archive Finds Up to 70% Off
+  preheader: Plus up to 25% off sitewide for Presidents Day.
+  html_file: html/p_em_2026_02_19_cz_d_pr_archive_sale_presidents_day_pm.html
+  screenshot: screenshots/p_em_2026_02_19_cz_d_pr_archive_sale_presidents_day_pm.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6994a4650128e800653fc5ee/original.png?1771349093
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6994a42c9b3ec90065203344/original.png?1771349035
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6994a40afb01250063213acd/original.png?1771349001
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6994a3dc00f865006325be73/original.gif?1771348956
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6994a4fb039c430063d14a92/original.png?1771349242
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6994a435d653760063b913fb/original.png?1771349044
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6994a43d1ef64100645d6079/original.png?1771349053
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6994a51e057f8e0065789e09/original.png?1771349277
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6994a41fad4c040064674d3b/original.png?1771349022
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6994a4d8c011ac00639c8fa3/original.png?1771349208
+- id: 85d5f7ad-1616-47fe-badb-958dc56c4cf6
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 112275
+  total_delivered: 112071
+  total_opens: 54370
+  total_clicks: 1377
+  open_rate: 0.4843
+  click_rate: 0.0123
+  total_bounces: 4
+  total_unsubscribes: 137
+_filename: p_em_2026_02_19_cz_d_pr_archive_sale_presidents_day_pm.yaml
+schedule_type: time_based

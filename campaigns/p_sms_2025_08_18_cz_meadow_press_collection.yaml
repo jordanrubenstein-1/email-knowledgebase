@@ -1,0 +1,38 @@
+id: a493f3c6-a81f-4448-a377-d3fae68e045f
+name: P_SMS_2025_08_18_CZ_Meadow_Press_Collection
+brand: CZ
+channel: sms
+category: product_launch
+type: announcement
+theme: null
+braze_id: a493f3c6-a81f-4448-a377-d3fae68e045f
+dates:
+  send_date: '2025-08-18'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-18T20:21:53+00:00'
+  last_sent: '2025-08-18T20:23:17+00:00'
+tags: []
+sends:
+- id: 08cca712-5b9b-49c5-aa84-a0c530bada5c
+  channel: sms
+  name: Variant 1
+- id: 3279e6a5-ef2b-47d4-b2a9-faaaae9e5585
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 23141
+  total_delivered: 21706
+  total_opens: 0
+  total_clicks: 360
+  open_rate: 0.0
+  click_rate: 0.0156
+  total_revenue: 12463.87
+  ga4:
+    sessions: 373
+    purchases: 4
+    revenue: 1143.65
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.623778'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

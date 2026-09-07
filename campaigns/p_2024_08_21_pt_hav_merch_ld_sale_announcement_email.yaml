@@ -1,0 +1,32 @@
+id: c8a66f9b-3ef9-41db-9b08-df4569a3db63
+name: P_2024_08_21_PT_HAV_Merch_LD_Sale_Announcement_Email
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: c8a66f9b-3ef9-41db-9b08-df4569a3db63
+dates:
+  send_date: '2024-08-21'
+  first_sent: '2024-08-21T00:54:04+00:00'
+  last_sent: '2024-08-21T13:15:07+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 3085deff-8e96-45c1-b599-8d8010903f96
+  channel: email
+  name: Variant 1
+  subject: 'Confirmed: VIP EARLY ACCESS'
+- id: 35f6a6cf-5d58-457f-a991-d3640b3986a4
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 17824
+  total_delivered: 17815
+  total_opens: 10668
+  total_clicks: 526
+  open_rate: 0.5985
+  click_rate: 0.0295
+  total_unsubscribes: 23
+schedule_type: time_based
+_filename: p_2024_08_21_pt_hav_merch_ld_sale_announcement_email.yaml

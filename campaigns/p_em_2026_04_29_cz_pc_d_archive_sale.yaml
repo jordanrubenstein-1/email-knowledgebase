@@ -1,0 +1,47 @@
+id: 5dc48c14-91e5-4ea9-8dea-3595b32b7655
+name: P_EM_2026_04_29_CZ_PC_D_Archive_Sale
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 5dc48c14-91e5-4ea9-8dea-3595b32b7655
+dates:
+  send_date: '2026-04-29'
+  inferred_send_type: sto
+  first_sent: '2026-04-28T11:07:09+00:00'
+  last_sent: '2026-04-30T09:30:12+00:00'
+tags:
+- archive
+- batch and blast
+- d2c
+- designed
+sends:
+- id: 1dad94a1-4a86-4524-a2e5-5ed8fcc4ce0f
+  channel: email
+  name: Variant 1
+  subject: Rare finds from the archive
+  preheader: Up to 70% off styles that won’t be restocked.
+  html_file: html/p_em_2026_04_29_cz_pc_d_archive_sale.html
+  screenshot: screenshots/p_em_2026_04_29_cz_pc_d_archive_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ea1db3a75cf200c2d34890/original.png?1776950706
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ea1d8f558a8400c2d1c4f2/original.png?1776950670
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ea1d5cf8017d00c531e0f6/original.png?1776950620
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ea1d703fb81400c001b81b/original.png?1776950639
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ea1da160656900c247c962/original.png?1776950689
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ea1d4c2c1a0700c41096e7/original.gif?1776950603
+- id: f30c8e37-29d1-4fb0-8924-5fe039ec2c61
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 90696
+  total_delivered: 90534
+  total_opens: 46030
+  total_clicks: 1144
+  open_rate: 0.5075
+  click_rate: 0.0126
+  total_bounces: 4
+  total_unsubscribes: 120
+_filename: p_em_2026_04_29_cz_pc_d_archive_sale.yaml
+schedule_type: time_based

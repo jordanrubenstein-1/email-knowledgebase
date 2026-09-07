@@ -1,0 +1,38 @@
+id: 45485295-db37-42dc-b7de-74df324ee54d
+name: P_2025_07_09_CZ_4th_Of_July_Extension_SMS
+brand: CZ
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: 45485295-db37-42dc-b7de-74df324ee54d
+dates:
+  send_date: '2025-07-09'
+  inferred_send_type: scheduled
+  first_sent: '2025-07-09T22:24:39+00:00'
+  last_sent: '2025-07-09T22:25:34+00:00'
+tags: []
+sends:
+- id: cd591661-243a-45bb-8d6f-f19987b9bc4e
+  channel: other
+  name: Variant 1
+- id: 5dd2cd5c-100a-4787-896c-83d3fc7b635c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 23819
+  total_delivered: 23209
+  total_opens: 0
+  total_clicks: 245
+  open_rate: 0.0
+  click_rate: 0.0103
+  total_revenue: 9863.05
+  ga4:
+    sessions: 287
+    purchases: 1
+    revenue: 802.25
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.936862'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

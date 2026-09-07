@@ -1,0 +1,42 @@
+id: 517924ae-eec4-4ced-bc16-ecd37649b2f2
+name: P_EM_2025_10_26_PT_CZ_Anniversary_Sale_Extended_Ends_Tomorrow_PM
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 517924ae-eec4-4ced-bc16-ecd37649b2f2
+dates:
+  send_date: '2025-10-26'
+  inferred_send_type: scheduled
+  first_sent: '2025-10-26T13:10:20+00:00'
+  last_sent: '2025-10-27T02:03:35+00:00'
+tags:
+- batch and blast
+- collect
+- pm
+- pt
+- sale
+- sale_feat
+sends:
+- id: 4b2b0bc3-ddfd-4b39-b680-9c52ae68cd43
+  channel: email
+  name: Variant 1
+  subject: 20% off sitewide ends tomorrow
+  html_file: html/p_em_2025_10_26_pt_cz_anniversary_sale_extended_ends_tomorro.html
+  screenshot: screenshots/p_em_2025_10_26_pt_cz_anniversary_sale_extended_ends_tomorro.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f83def4631c700674e669c/original.png?1744322031
+- id: d0ef50e3-fc75-49f2-b7e0-6b0b0d823e1a
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 26439
+  total_delivered: 26399
+  total_opens: 17535
+  total_clicks: 572
+  open_rate: 0.6632
+  click_rate: 0.0216
+  total_unsubscribes: 45
+_filename: p_em_2025_10_26_pt_cz_anniversary_sale_extended_ends_tomorro.yaml
+schedule_type: time_based

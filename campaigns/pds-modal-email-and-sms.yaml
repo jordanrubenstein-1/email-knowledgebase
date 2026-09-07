@@ -1,0 +1,62 @@
+id: 4aebff2a-4e32-4e55-b3b1-25c7e3d7eeba
+name: PDS Modal - Email and SMS
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 4aebff2a-4e32-4e55-b3b1-25c7e3d7eeba
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-02-06T13:00:00+00:00'
+  last_sent: '2025-02-26T18:00:00+00:00'
+tags: []
+sends:
+- id: f4ebcd7b-ac70-484a-8497-4bfda237baf9
+  channel: other
+  name: Variant 1
+- id: d70b3f88-3bc0-4ce0-82c8-e1194da66556
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.969270'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:36.301685'
+schedule_type: action_based

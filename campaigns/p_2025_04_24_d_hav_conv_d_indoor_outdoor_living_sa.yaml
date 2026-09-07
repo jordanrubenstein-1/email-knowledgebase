@@ -1,0 +1,56 @@
+id: ab554983-17f2-4648-984b-450450572749
+name: P_2025_04_24_D_HAV_Conv_D_Indoor_Outdoor_Living_Sale_Launch
+brand: HAV
+channel: email
+category: product_launch
+type: sale
+theme: null
+braze_id: ab554983-17f2-4648-984b-450450572749
+dates:
+  send_date: '2025-04-24'
+  inferred_send_type: local_time
+  first_sent: '2025-04-23T21:01:06+00:00'
+  last_sent: '2025-04-24T17:17:24+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 42e3c858-33af-44f1-90b9-64c759a4ab1e
+  channel: email
+  name: Variant 1
+  subject: Up To 25% Off Starts Now!
+  preheader: Shop Havenly exclusive deals during our Indoor/Outdoor Living Sale
+  html_file: html/p_2025_04_24_d_hav_conv_d_indoor_outdoor_living_sale_launch.html
+  screenshot: screenshots/p_2025_04_24_d_hav_conv_d_indoor_outdoor_living_sale_launch.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68094bef4aeba0006340a481/original.png?1745439727
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68094be77b8b1200647da117/original.png?1745439719
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68094bbe9eee120064989af0/original.gif?1745439678
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68094bf8701164006215bb15/original.png?1745439735
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68094bd54aeba000814070b1/original.png?1745439701
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68094bdf44b0b80064bc0692/original.png?1745439711
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68094bcc3df1fc006352f460/original.png?1745439691
+- id: 0b3157eb-634d-4d5e-8aea-dfd2ec9bcbe7
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 39341
+  total_delivered: 39243
+  total_opens: 21265
+  total_clicks: 273
+  open_rate: 0.5405
+  click_rate: 0.0069
+  total_bounces: 1
+  total_unsubscribes: 38
+  ga4:
+    sessions: 404
+    purchases: 3
+    revenue: 4679.55
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:48.838088'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.449190'
+schedule_type: time_based

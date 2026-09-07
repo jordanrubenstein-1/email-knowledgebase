@@ -1,0 +1,52 @@
+id: 14ad1483-823d-41fe-bac4-f0c8a9157c89
+name: P_EM_2025_12_21_PT_CZ_PF_Gift_Card
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 14ad1483-823d-41fe-bac4-f0c8a9157c89
+dates:
+  send_date: '2025-12-21'
+  inferred_send_type: scheduled
+  first_sent: '2025-12-20T17:05:41+00:00'
+  last_sent: '2025-12-21T05:00:00+00:00'
+tags:
+- am
+- batch and blast
+- holiday
+- pt
+- sale
+sends:
+- id: 00026089-0422-4266-aec5-6a682563d368
+  channel: email
+  name: Variant 1
+  subject: A Gift They're Sure to Love
+  html_file: html/p_em_2025_12_21_pt_cz_pf_gift_card.html
+  screenshot: screenshots/p_em_2025_12_21_pt_cz_pf_gift_card.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f83def4631c700674e669c/original.png?1744322031
+- id: 1b63ecc0-604b-49a2-8b8b-793100c6a8d7
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 737
+  total_delivered: 734
+  total_opens: 146
+  total_clicks: 4
+  open_rate: 0.1981
+  click_rate: 0.0054
+  total_unsubscribes: 1
+  ga4:
+    sessions: 134
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.319575'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.219642'
+schedule_type: time_based

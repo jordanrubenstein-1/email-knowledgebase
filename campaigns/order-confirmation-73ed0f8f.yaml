@@ -1,0 +1,37 @@
+id: 73ed0f8f-58d4-4d27-a52a-1812082b44ed
+name: Order Confirmation
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 73ed0f8f-58d4-4d27-a52a-1812082b44ed
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-06-12T15:00:00+00:00'
+  last_sent: '2025-10-31T01:00:00+00:00'
+tags: []
+sends:
+- id: acd00408-9660-4ab6-8a15-1eb104b8b314
+  channel: email
+  name: OT_EM_2025_06_BW_H_Order_Confirmation_T1_V1
+  subject: ⚡ Order confirmation from Burrow
+  preheader: Your receipt, delivery details, and more.
+  step_id: d5d792a4-de49-4fe0-b07b-9ede592a045c
+performance_summary: {}
+canvas_steps:
+- id: d5d792a4-de49-4fe0-b07b-9ede592a045c
+  name: OT_EM_2025_06_BW_H_Order_Confirmation_T1_V1
+  type: message
+  channel: email
+  subject: ⚡ Order confirmation from Burrow
+  preheader: Your receipt, delivery details, and more.
+- id: 3034dae9-8de1-4514-9b29-7fabc8a67cc8
+  name: New
+  type: audience_paths
+- id: 4a86ae74-e213-4526-b638-4ed29140401a
+  name: Update purchaserSubscribedAt
+  type: user_update
+_filename: order-confirmation-73ed0f8f.yaml

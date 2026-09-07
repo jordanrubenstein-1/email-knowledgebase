@@ -1,0 +1,29 @@
+id: e44bf880-b2d1-44ce-99a5-3d6d0d0a0d9c
+name: P_SMS_2026_06_21_BW_Fathers_Day_EA_Last_Chance
+brand: BUR
+channel: sms
+category: reminder
+type: announcement
+theme: null
+braze_id: e44bf880-b2d1-44ce-99a5-3d6d0d0a0d9c
+dates:
+  send_date: '2026-06-21'
+  last_sent: '2026-06-21'
+tags: []
+sends:
+- id: 26a9d380-3bf8-49c4-a4c5-9ee6d4718caf
+  channel: sms
+  name: Variant 1
+- id: c53bf98f-1916-4141-909e-a690d2e67ad8
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 10729
+  total_delivered: 10184
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 19080.0
+schedule_type: time_based
+_filename: p_sms_2026_06_21_bw_fathers_day_ea_last_chance.yaml

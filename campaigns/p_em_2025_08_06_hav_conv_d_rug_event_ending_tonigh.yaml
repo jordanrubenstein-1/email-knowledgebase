@@ -1,0 +1,52 @@
+id: f8acbac4-b3c8-4fe1-b5f3-6086ffc24c3a
+name: P_EM_2025_08_06_HAV_CONV_D_Rug_Event_Ending_Tonight
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: f8acbac4-b3c8-4fe1-b5f3-6086ffc24c3a
+dates:
+  send_date: '2025-08-06'
+  inferred_send_type: local_time
+  first_sent: '2025-08-06T03:09:45+00:00'
+  last_sent: '2025-08-07T02:02:15+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 074e79e9-05fa-4e55-94d6-563906701105
+  channel: email
+  name: Variant 1
+  subject: FINAL HOURS
+  preheader: Up to 60% off designer rugs
+  html_file: html/p_em_2025_08_06_hav_conv_d_rug_event_ending_tonight.html
+  screenshot: screenshots/p_em_2025_08_06_hav_conv_d_rug_event_ending_tonight.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6892511eb519bb007470249a/original.gif?1754419486
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68925127e8576600642273af/original.png?1754419495
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6892517ee857660074227076/original.png?1754419582
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68925110f5e6080062b5a066/original.png?1754419471
+- id: e6ba9bd5-d372-4467-8fff-2743ae6e8dd6
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 40825
+  total_delivered: 40821
+  total_opens: 21613
+  total_clicks: 136
+  open_rate: 0.5294
+  click_rate: 0.0033
+  total_unsubscribes: 35
+  ga4:
+    sessions: 177
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:48.794561'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:29.862496'
+schedule_type: time_based

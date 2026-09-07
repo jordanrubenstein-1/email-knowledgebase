@@ -1,0 +1,63 @@
+id: efad5942-b796-435b-987e-39797370f4c7
+name: P_EM_2025_09_15_ID_D_Accent_Chair_Highlight
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: efad5942-b796-435b-987e-39797370f4c7
+dates:
+  send_date: '2025-09-15'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-15T03:21:10+00:00'
+  last_sent: '2025-09-15T17:15:16+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 0e293131-0b52-4119-87a8-47cd926a14e0
+  channel: email
+  name: Variant 1
+  subject: Steal the Scene
+  preheader: Statement chairs that do more than sit pretty.
+- id: 55ab78da-50d4-43ff-a9d0-61149ec9d410
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 202519
+  total_delivered: 201626
+  total_opens: 95571
+  total_clicks: 684
+  open_rate: 0.4719
+  click_rate: 0.0034
+  total_revenue: 96914.26
+  total_bounces: 1
+  total_unsubscribes: 431
+  ga4:
+    sessions: 771
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.255853'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-private-sale-lifecycle-retail-only-2025-09-11
+    name: Private Sale - Lifecycle/Retail Only
+    start_date: '2025-09-11'
+    end_date: '2025-09-16'
+    discount: 20% off sitewide with code SEPTVIP
+    type: null
+  primary_sale:
+    id: id-private-sale-lifecycle-retail-only-2025-09-11
+    name: Private Sale - Lifecycle/Retail Only
+    start_date: '2025-09-11'
+    end_date: '2025-09-16'
+    discount: 20% off sitewide with code SEPTVIP
+    type: null
+  sale_name: Private Sale - Lifecycle/Retail Only
+  sale_discount: 20% off sitewide with code SEPTVIP
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:33.218303'
+schedule_type: time_based

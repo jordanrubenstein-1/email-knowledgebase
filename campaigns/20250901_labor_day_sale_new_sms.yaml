@@ -1,0 +1,30 @@
+id: b100fe75-3e0a-4507-a6ba-48b62c01e592
+name: 20250901_Labor_Day_Sale_New_SMS
+brand: BUR
+channel: sms
+category: product_launch
+type: sale
+theme: null
+braze_id: b100fe75-3e0a-4507-a6ba-48b62c01e592
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2025-09-01T16:22:19+00:00'
+  last_sent: '2025-09-02T01:00:30+00:00'
+tags: []
+sends:
+- id: b10ce562-b3e0-4194-b443-f6ab5ad8439c
+  channel: other
+  name: Variant 1
+- id: 7e09e1a9-27ee-4bb5-a3e0-e8655f562afb
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 175
+    purchases: 3
+    revenue: 3581.16
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.723272'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

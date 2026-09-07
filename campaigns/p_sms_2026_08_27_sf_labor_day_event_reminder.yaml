@@ -1,0 +1,28 @@
+id: 4e2c978e-2118-4188-be5b-57ab4e66f186
+name: P_SMS_2026_08_27_SF_Labor_Day_Event_Reminder
+brand: STF
+channel: sms
+category: reminder
+type: announcement
+theme: null
+braze_id: 4e2c978e-2118-4188-be5b-57ab4e66f186
+dates:
+  send_date: '2026-08-27'
+  last_sent: '2026-08-27'
+tags: []
+sends:
+- id: 06b99af3-d523-4809-adc3-6bc844490ffa
+  channel: sms
+  name: Variant 1
+- id: 6a4deb5f-9e71-4ce6-a79b-000c9d293f8c
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 4468
+  total_delivered: 4377
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+schedule_type: time_based
+_filename: p_sms_2026_08_27_sf_labor_day_event_reminder.yaml

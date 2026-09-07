@@ -1,0 +1,59 @@
+id: 370fd339-298d-4d2c-a748-43bca630acb5
+name: P_2025_04_24_D_STF_UGC_Bedding
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 370fd339-298d-4d2c-a748-43bca630acb5
+dates:
+  send_date: '2025-04-24'
+  inferred_send_type: local_time
+  first_sent: '2025-04-23T18:07:03+00:00'
+  last_sent: '2025-04-24T17:00:15+00:00'
+tags: []
+sends:
+- id: 3a9c6186-d1d1-489d-b0c2-3eb94ff8a0c7
+  channel: email
+  name: Variant 1
+  subject: Get In Bed
+  preheader: bedrooms styled by you
+  html_file: html/p_2025_04_24_d_stf_ugc_bedding.html
+  screenshot: screenshots/p_2025_04_24_d_stf_ugc_bedding.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f98edae21de300677be5dd/original.png?1744408281
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f98de2d3b57e00650fb751/original.png?1744408034
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f98ea75375f300643e1657/original.png?1744408230
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f98df03833be00648fb0b5/original.png?1744408048
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f98d72b641890065a8ec01/original.png?1744407922
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f98efaa03e6500666072cf/original.png?1744408313
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f98dc5f08a6f0066b05b96/original.png?1744408004
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f98ef25375f300733e00fe/original.png?1744408306
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f98ebca03e65006660726d/original.png?1744408251
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f98de96166da0067ff1c25/original.png?1744408041
+- id: 991ee283-9fb2-4130-9b84-89ea3d252118
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 14178
+  total_delivered: 14062
+  total_opens: 7602
+  total_clicks: 191
+  open_rate: 0.5362
+  click_rate: 0.0135
+  total_revenue: 9940.0
+  total_bounces: 6
+  total_unsubscribes: 44
+  ga4:
+    sessions: 189
+    purchases: 1
+    revenue: 366.36
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.802268'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.505156'
+schedule_type: time_based

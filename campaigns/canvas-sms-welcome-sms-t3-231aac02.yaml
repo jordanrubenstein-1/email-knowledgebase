@@ -1,0 +1,26 @@
+id: 231aac02-9948-4e97-aae4-b4ceed551692
+name: TRG_SMS_2025_07_ID_Welcome_T3_V 2
+brand: ID
+channel: sms
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 57b265fb-8444-432a-b2e8-2bbc0bb3592a
+canvas_name: SMS Welcome
+flow_type: welcome_series
+sequence_position: 3
+body: 'Interior Define: These best sellers made us think of you! Check out our fan
+  favorites: https://www.interiordefine.com/best-sellers?utm_source=braze_ID&utm_medium=sms&utm_campaign={{campaign.${name}}}&userid={{${user_id}}}&bzt={{${email_address}
+  | base64_encode | url_param_escape}}'
+sends:
+- id: 231aac02-9948-4e97-aae4-b4ceed551692
+  channel: sms
+  name: TRG_SMS_2025_07_ID_Welcome_T3_V 2
+  body: 'Interior Define: These best sellers made us think of you! Check out our fan
+    favorites: https://www.interiordefine.com/best-sellers?utm_source=braze_ID&utm_medium=sms&utm_campaign={{campaign.${name}}}&userid={{${user_id}}}&bzt={{${email_address}
+    | base64_encode | url_param_escape}}'
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-03-18T15:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary: {}

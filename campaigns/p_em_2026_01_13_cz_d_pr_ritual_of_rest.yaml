@@ -1,0 +1,54 @@
+id: 4d3afd60-ddee-41b6-a26b-ee84462b3c92
+name: P_EM_2026_01_13_CZ_D_PR_Ritual_of_Rest
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 4d3afd60-ddee-41b6-a26b-ee84462b3c92
+dates:
+  send_date: '2026-01-13'
+  inferred_send_type: local_time
+  first_sent: '2026-01-12T20:15:51+00:00'
+  last_sent: '2026-01-13T19:02:25+00:00'
+tags:
+- am
+- batch and blast
+- bedding
+- d2c
+- designed
+- prod
+sends:
+- id: 20f5969b-7980-49ee-bc7b-0c0c59379ff7
+  channel: email
+  name: Variant 1
+  subject: A Ritual Worth Keeping
+  preheader: Build a bed that fosters real rest.
+  html_file: html/p_em_2026_01_13_cz_d_pr_ritual_of_rest.html
+  screenshot: screenshots/p_em_2026_01_13_cz_d_pr_ritual_of_rest.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69654eb99604bb0063085c74/original.png?1768246968
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69654e8bbfb98700636e156a/original.png?1768246922
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69654e47ab93f20063241c72/original.png?1768246855
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69654e212e5d3d00641b5c73/original.png?1768246816
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69654ea79aa6f60063f5d860/original.png?1768246950
+- id: e14261c5-5f32-4a3e-baa8-03ab49173f56
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 53197
+  total_delivered: 53107
+  total_opens: 26747
+  total_clicks: 531
+  open_rate: 0.5028
+  click_rate: 0.01
+  total_unsubscribes: 141
+  ga4:
+    sessions: 409
+    purchases: 7
+    revenue: 2323.2
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.967163'
+    source: snowflake
+    channel: email
+schedule_type: time_based

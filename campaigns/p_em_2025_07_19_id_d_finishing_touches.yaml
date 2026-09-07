@@ -1,0 +1,63 @@
+id: a7f478e9-f9bf-4595-9d23-1112a9e4b44a
+name: P_EM_2025_07_19_ID_D_Finishing_Touches
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: a7f478e9-f9bf-4595-9d23-1112a9e4b44a
+dates:
+  send_date: '2025-07-19'
+  inferred_send_type: scheduled
+  first_sent: '2025-07-19T05:11:56+00:00'
+  last_sent: '2025-07-19T17:15:10+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 79efd37c-ec8f-4593-8a73-aaf2845feee2
+  channel: email
+  name: Variant 1
+  subject: One More Thing...
+  preheader: The art of the add-on. Shop pieces that complete the picture.
+- id: 83b4676b-3867-4a92-abf3-2b414be3f233
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 118294
+  total_delivered: 116829
+  total_opens: 53363
+  total_clicks: 721
+  open_rate: 0.4511
+  click_rate: 0.0061
+  total_revenue: 145253.75
+  total_bounces: 5
+  total_unsubscribes: 351
+  ga4:
+    sessions: 902
+    purchases: 1
+    revenue: 2630.88
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.373827'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-private-sale-retail-only-2025-07-11
+    name: Private Sale - Retail Only
+    start_date: '2025-07-11'
+    end_date: '2025-07-21'
+    discount: 20% off sitewide
+    type: null
+  primary_sale:
+    id: id-private-sale-retail-only-2025-07-11
+    name: Private Sale - Retail Only
+    start_date: '2025-07-11'
+    end_date: '2025-07-21'
+    discount: 20% off sitewide
+    type: null
+  sale_name: Private Sale - Retail Only
+  sale_discount: 20% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:45.971340'
+schedule_type: time_based

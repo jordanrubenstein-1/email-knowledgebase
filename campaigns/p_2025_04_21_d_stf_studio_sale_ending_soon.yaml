@@ -1,0 +1,54 @@
+id: f5a28094-5fb9-409b-9771-d09dff2026ea
+name: P_2025_04_21_D_STF_Studio_Sale_Ending_Soon
+brand: STF
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: f5a28094-5fb9-409b-9771-d09dff2026ea
+dates:
+  send_date: '2025-04-21'
+  inferred_send_type: local_time
+  first_sent: '2025-04-20T18:05:46+00:00'
+  last_sent: '2025-04-21T17:00:11+00:00'
+tags: []
+sends:
+- id: 454401b3-8436-4a7e-ad05-19b972a1b388
+  channel: email
+  name: Variant 1
+  subject: One more day to shop up to 25% off
+  preheader: don’t miss out on shopping our Studio Sale
+  html_file: html/p_2025_04_21_d_stf_studio_sale_ending_soon.html
+  screenshot: screenshots/p_2025_04_21_d_stf_studio_sale_ending_soon.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6802d631bea63200621ecb7e/original.png?1745016368
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6802d5f099d2d70064377fc2/original.gif?1745016304
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6802d6223b2fea006283ca6b/original.png?1745016354
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6802d62a3b2fea0071838851/original.png?1745016361
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6802d5fb3b2fea006283ca48/original.png?1745016314
+- id: bab63740-9ed5-4c32-985e-e4ddaf6d069f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 12717
+  total_delivered: 12585
+  total_opens: 7055
+  total_clicks: 145
+  open_rate: 0.5548
+  click_rate: 0.0114
+  total_revenue: 16763.0
+  total_unsubscribes: 41
+  ga4:
+    sessions: 167
+    purchases: 4
+    revenue: 1431.54
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.835755'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:35.517379'
+schedule_type: time_based

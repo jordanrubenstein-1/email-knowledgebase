@@ -1,0 +1,35 @@
+id: 18d1ad6c-8857-4683-a539-36fbbdf9d752
+name: P_EM_2026_05_10_ID_PC_PT_Swatchees_Early_Access_Last_Chance
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 18d1ad6c-8857-4683-a539-36fbbdf9d752
+dates:
+  send_date: '2026-05-10'
+  inferred_send_type: scheduled
+  first_sent: '2026-05-09T21:09:24+00:00'
+  last_sent: '2026-05-10'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 0b75431e-8ad4-40b6-9ae8-92786f63eb41
+  channel: email
+  name: Variant 1
+  subject: 'Got your swatches, now get your sofa 35% off '
+- id: fab9c809-7a87-4fbb-84cd-c697ffd85bc8
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 129273
+  total_delivered: 129116
+  total_opens: 52738
+  total_clicks: 699
+  open_rate: 0.408
+  click_rate: 0.0054
+  total_revenue: 209537.95
+  total_bounces: 3
+  total_unsubscribes: 283
+_filename: p_em_2026_05_10_id_pc_pt_swatchees_early_access_last_chance.yaml
+schedule_type: time_based

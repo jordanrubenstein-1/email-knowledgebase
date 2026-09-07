@@ -1,0 +1,42 @@
+id: 4e5cd6dd-2624-41e5-aa06-9db5c224bc68
+name: TRG_SMS_2025_04_CZ_D_Waitlist_Release_T3
+brand: CZ
+channel: sms
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 19ab3b7b-022f-4dbb-80b3-3b7cad5ce31a
+canvas_name: Waitlist Release Campaign
+flow_type: other_flow
+sequence_position: 2
+body: '{% catalog_items the-citizenry_shopify_catalog {{canvas_entry_properties.${catalog_update}.item_id}}
+  %}{% assign qty = items[0].inventory_quantity | default: 0 | plus: 0 %}{% if qty
+  <= 0 %}{% abort_message(''waitlist release T3 SMS - item out of stock'') %}{% endif
+  %}
+
+  The Citizenry: Inventory''s moving fast—{{ items[0].product_title }} is still in
+  stock, but not for long. Grab yours: {{ items[0].product_url }}?v={{ items[0].shopify_variant_id
+  }}&utm_source=braze_CZ&utm_campaign={{campaign.$(name)}}&utm_medium=sms'
+sends:
+- id: 4e5cd6dd-2624-41e5-aa06-9db5c224bc68
+  channel: sms
+  name: TRG_SMS_2025_04_CZ_D_Waitlist_Release_T3
+  body: '{% catalog_items the-citizenry_shopify_catalog {{canvas_entry_properties.${catalog_update}.item_id}}
+    %}{% assign qty = items[0].inventory_quantity | default: 0 | plus: 0 %}{% if qty
+    <= 0 %}{% abort_message(''waitlist release T3 SMS - item out of stock'') %}{%
+    endif %}
+
+    The Citizenry: Inventory''s moving fast—{{ items[0].product_title }} is still
+    in stock, but not for long. Grab yours: {{ items[0].product_url }}?v={{ items[0].shopify_variant_id
+    }}&utm_source=braze_CZ&utm_campaign={{campaign.$(name)}}&utm_medium=sms'
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-16T21:00:00Z'
+  last_sent: '2026-08-23T00:00:00Z'
+performance_summary:
+  total_sends: 398
+  total_delivered: 375
+  total_clicks: 88
+  click_rate: 0.2211
+  total_unsubscribes: 1
+  total_bounces: 3

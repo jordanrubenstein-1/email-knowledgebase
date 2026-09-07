@@ -1,0 +1,33 @@
+id: 0afe75f8-277b-4846-be4c-dd14413b96d1
+name: P_EM_2026_07_12_BW_PT_Extension_Sale_Reminder
+brand: BUR
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 0afe75f8-277b-4846-be4c-dd14413b96d1
+dates:
+  send_date: '2026-07-12'
+  last_sent: '2026-07-12'
+tags:
+- Batch&Blast
+sends:
+- id: bed97acb-7278-483a-8f71-85770d5b70e9
+  channel: email
+  name: Variant 1
+  subject: This is it...
+- id: 6477d9d6-8048-4318-83f7-edde4cc7e165
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 228350
+  total_delivered: 227043
+  total_opens: 118806
+  total_clicks: 607
+  open_rate: 0.5203
+  click_rate: 0.0027
+  total_revenue: 85014.0
+  total_bounces: 5
+  total_unsubscribes: 218
+schedule_type: time_based
+_filename: p_em_2026_07_12_bw_pt_extension_sale_reminder.yaml

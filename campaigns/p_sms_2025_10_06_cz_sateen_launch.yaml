@@ -1,0 +1,37 @@
+id: 74d3705d-9111-4317-b8cf-72c9d0bcdf0b
+name: P_SMS_2025_10_06_CZ_Sateen_Launch
+brand: CZ
+channel: sms
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 74d3705d-9111-4317-b8cf-72c9d0bcdf0b
+dates:
+  send_date: '2025-10-06'
+  inferred_send_type: local_time
+  first_sent: '2025-10-06T03:33:16+00:00'
+  last_sent: '2025-10-07T01:00:51+00:00'
+tags: []
+sends:
+- id: 64671261-aefb-4d8e-86df-083306e6e0a0
+  channel: sms
+  name: Variant 1
+- id: e3d58b97-ebb9-45be-a4cb-febd9035a7a4
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 21365
+  total_delivered: 20512
+  total_opens: 0
+  total_clicks: 414
+  open_rate: 0.0
+  click_rate: 0.0194
+  ga4:
+    sessions: 301
+    purchases: 2
+    revenue: 507.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.651269'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

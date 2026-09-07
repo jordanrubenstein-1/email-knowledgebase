@@ -1,0 +1,30 @@
+id: 9484c728-f0dd-4b6f-834a-8c4f9d368ee5
+name: P_SMS_2025_10_14_ID_The_Autumn_Event_Reminder
+brand: ID
+channel: sms
+category: reminder
+type: announcement
+theme: fall
+braze_id: 9484c728-f0dd-4b6f-834a-8c4f9d368ee5
+dates:
+  send_date: '2025-10-14'
+  inferred_send_type: local_time
+  first_sent: '2025-10-14T04:02:27+00:00'
+  last_sent: '2025-10-15T01:00:54+00:00'
+tags: []
+sends:
+- id: dbdd21e8-9da8-4bd8-865b-c66a61c7223b
+  channel: sms
+  name: Variant 1
+- id: 54496bcc-ec67-4ec7-a1de-692b09a50399
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 51479
+  total_delivered: 49330
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 19323.98
+schedule_type: time_based

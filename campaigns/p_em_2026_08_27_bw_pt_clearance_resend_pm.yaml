@@ -1,0 +1,32 @@
+id: 6086ca83-1a78-44ab-af1e-edf71859453d
+name: P_EM_2026_08_27_BW_PT_Clearance_Resend_PM
+brand: BUR
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 6086ca83-1a78-44ab-af1e-edf71859453d
+dates:
+  send_date: '2026-08-27'
+  last_sent: '2026-08-27'
+tags:
+- Batch&Blast
+sends:
+- id: 3ddf754a-df4c-42c5-a167-6dc1a24de7fc
+  channel: email
+  name: Variant 1
+  subject: The hidden gems are in clearance
+- id: 1ce03157-29b0-452c-9450-9bd2df7fc1f9
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 88606
+  total_delivered: 88361
+  total_opens: 34141
+  total_clicks: 817
+  open_rate: 0.3853
+  click_rate: 0.0092
+  total_revenue: 170528.0
+  total_unsubscribes: 150
+schedule_type: time_based
+_filename: p_em_2026_08_27_bw_pt_clearance_resend_pm.yaml

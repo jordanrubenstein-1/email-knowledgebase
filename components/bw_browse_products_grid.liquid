@@ -1,0 +1,102 @@
+{% comment %}
+================================================================================
+BW Browse Abandon — Recently Browsed Products Grid
+================================================================================
+PASTE AS: HTML block in Braze drag-and-drop editor (Browse Abandon canvas steps)
+PLACE:    Replaces the single-product module in the current BW browse abandon email
+
+READS: custom_attribute.${recently_browsed_products}
+  Written by "BW - Track Browse Products" webhook canvas.
+  Fields used: product_id, product_title, image_url, url
+
+BEHAVIOR:
+  - Up to 8 products, newest first (array stored oldest-first → reversed here)
+  - Aborts the email message if the attribute is empty (user has no browse history)
+  - Each product renders as its own table with #681818 background; the gap between
+    cards acts as the visual separator — no explicit dividers needed
+
+MESSAGE_EXTRAS:
+  Sets "browsed_product_ids" = comma-separated shopify_product_ids of all
+  rendered products. Captured in Snowflake:
+    BRAZE_BRAZEWEST_BRAZE_RAW_EVENTS_AWS_US_EAST_1_XJ24206
+    .DATALAKE_SHARING.USERS_MESSAGES_EMAIL_SEND_SHARED.MESSAGE_EXTRAS
+  Use for purchase attribution: join sends → USERS_BEHAVIORS_PURCHASE_SHARED
+  on USER_ID within a 7-day window.
+
+BRANDING: Burrow — Arial, #383633 text, #F4F3F1 card bg, #681818 outer bg
+================================================================================
+{% endcomment %}
+
+{% assign products_all = custom_attribute.${recently_browsed_products} | default: empty %}
+{% assign products = products_all | reverse | slice: 0, 8 %}
+
+{% comment %} ── Abort if no browse history ───────────────────────────────────── {% endcomment %}
+{% if products.size == 0 %}
+  {% abort_message('no recently browsed products') %}
+{% endif %}
+
+{% comment %} ── MESSAGE_EXTRAS: all rendered product IDs ─────────────────────── {% endcomment %}
+{% assign browsed_ids = '' %}
+{% for product in products %}
+  {% if browsed_ids == '' %}
+    {% assign browsed_ids = product.product_id | default: '' %}
+  {% else %}
+    {% assign browsed_ids = browsed_ids | append: ',' | append: product.product_id %}
+  {% endif %}
+{% endfor %}
+{% if browsed_ids != blank %}
+  {%- message_extras :key "browsed_product_ids" :value "{{ browsed_ids }}" -%}
+{% endif %}
+
+{% for product in products %}
+{% assign img   = product.image_url     | default: '' %}
+{% assign url   = product.url           | default: '' %}
+{% assign title = product.product_title | default: 'View Product' %}
+{% assign pad_top = '20px' %}
+{% assign pad_bot = '20px' %}
+{% if forloop.first %}{% assign pad_top = '0px' %}{% endif %}
+{% if forloop.last  %}{% assign pad_bot = '0px' %}{% endif %}
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:600px; background-color:#681818;">
+  <tr>
+    <td align="center" style="padding:{{ pad_top }} 0px {{ pad_bot }} 0px;">
+
+      <!-- White Product Card -->
+      <table align="center" border="0" cellpadding="0" cellspacing="0" width="90%" style="max-width:542px; background-color:#F4F3F1; border-radius:10px;">
+        <tr>
+          <td align="center" style="padding:50px 0px 50px 0px;">
+
+            <table cellpadding="0" cellspacing="0" border="0" width="100%" align="center">
+
+              <!-- Product Image -->
+              <tr>
+                <td align="center" style="text-align:center; padding:0 0 15px 0;">
+                  <a target="_blank" rel="noopener noreferrer" href="{{ url }}">
+                    <img alt="{{ title | escape }}" width="430" src="{{ img }}" border="0"
+                         style="display:block; border:0; width:100%; max-width:430px; height:auto; margin:0 auto; background-color:#F4F3F1; font-family:Arial,Helvetica,sans-serif; font-size:11px; color:#383633;">
+                  </a>
+                </td>
+              </tr>
+
+              <!-- Product Name -->
+              <tr>
+                <td align="center" style="text-align:center; padding:0;">
+                  <h2 style="padding:0; margin:0; text-align:center; font-family:Arial,Helvetica,sans-serif; font-weight:normal; font-size:24px; line-height:28px; letter-spacing:-0.3px;">
+                    <a target="_blank" rel="noopener noreferrer" href="{{ url }}" style="text-decoration:none; color:#383633;">
+                      <span style="border-bottom:1px solid #383633;">{{ title }}</span>
+                    </a>
+                  </h2>
+                </td>
+              </tr>
+
+            </table>
+
+          </td>
+        </tr>
+      </table>
+
+    </td>
+  </tr>
+</table>
+
+{% endfor %}

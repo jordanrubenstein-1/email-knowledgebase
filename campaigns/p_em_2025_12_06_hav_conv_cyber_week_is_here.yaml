@@ -1,0 +1,34 @@
+id: c84d1391-b361-4f86-9a2f-227aabc256e4
+name: P_EM_2025_12_06_HAV_CONV_Cyber_Week_Is_Here
+brand: HAV
+channel: email
+category: sale_promo
+type: seasonal
+theme: null
+braze_id: c84d1391-b361-4f86-9a2f-227aabc256e4
+dates:
+  send_date: '2025-12-06'
+  first_sent: '2025-12-05T17:23:14+00:00'
+  last_sent: '2025-12-06T17:15:36+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: bd6bc139-345b-488d-93fa-32860ef4bd1d
+  channel: email
+  name: Variant 1
+  subject: Final days to rack up savings.
+  preheader: Cyber Week is ending soon. Lock in up to 15% off now!
+- id: 8edcb07a-9f40-4ccd-a609-4943b1e8ddac
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 23506
+  total_delivered: 23492
+  total_opens: 11785
+  total_clicks: 109
+  open_rate: 0.5014
+  click_rate: 0.0046
+  total_unsubscribes: 33
+schedule_type: time_based
+_filename: p_em_2025_12_06_hav_conv_cyber_week_is_here.yaml

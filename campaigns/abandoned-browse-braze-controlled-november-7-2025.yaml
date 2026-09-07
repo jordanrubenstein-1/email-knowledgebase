@@ -1,0 +1,70 @@
+id: 24f0ccb2-1d18-41f6-9436-e5300ddf8d3c
+name: Abandoned Browse (Braze controlled) - November 7, 2025
+brand: BUR
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: 24f0ccb2-1d18-41f6-9436-e5300ddf8d3c
+braze_type: canvas
+campaign_type: Triggered Journey
+dates: {}
+tags: []
+sends:
+- id: 619878b9-ac9b-48d6-89e1-5eb36ef7fe03
+  channel: email
+  name: TRG_EM_2025_11_BW_D_Abandon_Browse_T3_V1
+  subject: Still deciding?
+  preheader: Don't let this one get away.
+  step_id: 7afcc966-bd56-4ea9-a0a9-afdbe1490507
+- id: cd4c025d-3780-487b-ba78-82c2c908add5
+  channel: email
+  name: TRG_EM_2025_11_BW_D_Abandon_Browse_T4_V1
+  subject: We get it...
+  preheader: Sometimes you need options.
+  step_id: 00203feb-e106-4b70-b960-be1b9d8a0b92
+- id: 01a9960f-9faa-4a71-8d9f-a86fc282b87e
+  channel: email
+  name: TRG_EM_2025_11_BW_D_Abandon_Browse_T1_V1
+  subject: Pick up where you left off
+  preheader: Or did you mean to ghost us?
+  step_id: c404addd-c77f-4729-a99d-94c932f7974f
+performance_summary: {}
+canvas_steps:
+- id: 7afcc966-bd56-4ea9-a0a9-afdbe1490507
+  name: TRG_EM_2025_11_BW_D_Abandon_Browse_T3_V1
+  type: message
+  channel: email
+  subject: Still deciding?
+  preheader: Don't let this one get away.
+- id: 39fa1d20-b63e-4d41-abd4-87f5290a40f8
+  name: Step 1
+  type: delay
+- id: 00203feb-e106-4b70-b960-be1b9d8a0b92
+  name: TRG_EM_2025_11_BW_D_Abandon_Browse_T4_V1
+  type: message
+  channel: email
+  subject: We get it...
+  preheader: Sometimes you need options.
+- id: 14a19942-1f9b-408c-a3d8-dee585b7b89f
+  name: Step
+  type: delay
+- id: 79ef4c30-fbc6-43f2-aa19-5d03594dbfb7
+  name: Email available?
+  type: audience_paths
+- id: 531b8b29-f9b8-4170-b713-6aa95c860077
+  name: Step 2
+  type: action_paths
+- id: 395fff3f-eaf7-45f2-8a94-342d24b01896
+  name: In Cart/Browse Canvas?
+  type: audience_paths
+- id: c404addd-c77f-4729-a99d-94c932f7974f
+  name: TRG_EM_2025_11_BW_D_Abandon_Browse_T1_V1
+  type: message
+  channel: email
+  subject: Pick up where you left off
+  preheader: Or did you mean to ghost us?
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.551870'

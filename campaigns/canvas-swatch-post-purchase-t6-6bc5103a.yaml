@@ -1,0 +1,33 @@
+id: 6bc5103a-ad3b-4ab1-8ec5-dd78e2909f3a
+name: TRG_EM_2026_04_ID_D_Swatch_Sectional_Buying_Guide_T6_V1
+brand: ID
+channel: email
+category: editorial
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 9ac09497-6f79-498b-b320-e44a784c3340
+canvas_name: Swatch Post Purchase
+flow_type: post_purchase
+sequence_position: 6
+subject: Swatches in hand?
+preheader: Explore configurations designed to work with the fabrics you love.
+sends:
+- id: 6bc5103a-ad3b-4ab1-8ec5-dd78e2909f3a
+  channel: email
+  name: TRG_EM_2026_04_ID_D_Swatch_Sectional_Buying_Guide_T6_V1
+  subject: Swatches in hand?
+  preheader: Explore configurations designed to work with the fabrics you love.
+  html_file: html/canvas-swatch-post-purchase-t6-6bc5103a.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-04-28T21:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 22828
+  total_delivered: 22605
+  total_opens: 9253
+  total_clicks: 118
+  open_rate: 0.4053
+  click_rate: 0.0052
+  total_unsubscribes: 104
+  total_revenue: 368137.91

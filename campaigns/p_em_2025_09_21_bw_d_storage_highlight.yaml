@@ -1,0 +1,73 @@
+id: 22347cb1-6bd5-45a8-a456-519b5833c121
+name: P_EM_2025_09_21_BW_D_Storage_Highlight
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 22347cb1-6bd5-45a8-a456-519b5833c121
+dates:
+  send_date: '2025-09-21'
+  inferred_send_type: local_time
+  first_sent: '2025-09-20T18:23:30+00:00'
+  last_sent: '2025-09-21T17:15:22+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 5e6d403b-6b68-465e-9e84-41a95adcccdc
+  channel: email
+  name: Variant 1
+  subject: Get holiday-ready with 20% off sitewide
+  preheader: Save on storage, shelving & everything else
+- id: 441572eb-985d-4694-b5fa-f61d7dd0f13a
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 101339
+  total_delivered: 100741
+  total_opens: 44574
+  total_clicks: 206
+  open_rate: 0.4399
+  click_rate: 0.002
+  total_revenue: 26506.0
+  total_bounces: 1
+  total_unsubscribes: 160
+  ga4:
+    sessions: 124
+    purchases: 1
+    revenue: 101.99
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.694887'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-holiday-ready-sale-2025-09-17
+    name: Holiday-Ready Sale
+    start_date: '2025-09-17'
+    end_date: '2025-09-30'
+    discount: "20% off orders < $2k / 25% off orders > $2k\n + up to 50% off clearance"
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-holiday-ready-sale-2025-09-17
+    name: Holiday-Ready Sale
+    start_date: '2025-09-17'
+    end_date: '2025-09-30'
+    discount: "20% off orders < $2k / 25% off orders > $2k\n + up to 50% off clearance"
+    type: null
+  sale_name: Holiday-Ready Sale
+  sale_discount: "20% off orders < $2k / 25% off orders > $2k\n + up to 50% off clearance"
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:33.010330'
+schedule_type: time_based

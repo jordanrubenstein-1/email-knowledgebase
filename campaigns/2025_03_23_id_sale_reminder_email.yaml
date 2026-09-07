@@ -1,0 +1,47 @@
+id: 52ed4749-c3c1-43a8-8f2a-c188e66cccb9
+name: 2025_03_23_ID_Sale_Reminder_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 52ed4749-c3c1-43a8-8f2a-c188e66cccb9
+dates:
+  send_date: '2025-03-23'
+  inferred_send_type: local_time
+  first_sent: '2025-03-22T17:20:23+00:00'
+  last_sent: '2025-03-23T17:15:11+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 1766008a-2b53-4f8d-a0a1-2ddad879910d
+  channel: email
+  name: Variant 1
+  subject: Refresh Your Home For 20% Off
+  preheader: Don’t miss The Spring Event.
+- id: 4aa0f8b2-a40f-41a9-b5b1-fb3a373c4f2a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 145538
+  total_delivered: 143491
+  total_opens: 35271
+  total_clicks: 498
+  open_rate: 0.2423
+  click_rate: 0.0034
+  total_revenue: 254331.0
+  total_bounces: 3
+  total_unsubscribes: 101
+  ga4:
+    sessions: 464
+    purchases: 4
+    revenue: 9509.87
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.246553'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.094908'
+schedule_type: time_based

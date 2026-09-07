@@ -1,0 +1,59 @@
+id: 0031fde8-6c31-42b7-84ae-b0e3cfc86fe8
+name: P_EM_2025_06_27_CZ_D_BSL_Best_Sellers
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 0031fde8-6c31-42b7-84ae-b0e3cfc86fe8
+dates:
+  send_date: '2025-06-27'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-27T06:38:27+00:00'
+  last_sent: '2025-06-27T17:01:57+00:00'
+tags: []
+sends:
+- id: 2d793a38-d26a-4592-894a-0fa6ae2cb80f
+  channel: email
+  name: Variant 1
+  subject: 20% Off Our Most-Coveted Styles
+  preheader: They’re best sellers for a reason.
+  html_file: html/p_em_2025_06_27_cz_d_bsl_best_sellers.html
+  screenshot: screenshots/p_em_2025_06_27_cz_d_bsl_best_sellers.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685dc9b643e02d008379dbe2/original.png?1750976950
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685dc6b7e37d910065e0ab56/original.png?1750976183
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685dc9a6c7b538006740a6bf/original.png?1750976934
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685dc9b0b2ae16006566f2f8/original.png?1750976943
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685dc61608f07700654cc5b9/original.png?1750976021
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685dc9ccb01c6a00752ed65a/original.png?1750976972
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685dc99fc5ae89006524c4f8/original.png?1750976927
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685dc605bba43f0065e1343f/original.png?1750976005
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685dc686bba43f0065e13679/original.png?1750976133
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685dc9bde37d910065e0c4af/original.png?1750976957
+- id: 9645c911-3638-4656-897c-f5885de9f4aa
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 99842
+  total_delivered: 99360
+  total_opens: 51654
+  total_clicks: 486
+  open_rate: 0.5174
+  click_rate: 0.0049
+  total_revenue: 86002.1
+  total_bounces: 4
+  total_unsubscribes: 113
+  ga4:
+    sessions: 504
+    purchases: 9
+    revenue: 2786.28
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.109989'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.169727'
+schedule_type: time_based

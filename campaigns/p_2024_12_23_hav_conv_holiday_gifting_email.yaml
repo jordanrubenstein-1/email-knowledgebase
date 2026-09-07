@@ -1,0 +1,33 @@
+id: 9492f32c-5b6e-4acf-aaf5-3f29d614cf96
+name: P_2024_12_23_HAV_Conv_Holiday_Gifting_Email
+brand: HAV
+channel: email
+category: other
+type: seasonal
+theme: christmas
+braze_id: 9492f32c-5b6e-4acf-aaf5-3f29d614cf96
+dates:
+  send_date: '2024-12-23'
+  first_sent: '2024-12-23T05:55:24+00:00'
+  last_sent: '2024-12-23T17:15:06+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: bb39bd9e-367b-44fb-af5e-8c7b3f3ea4f8
+  channel: email
+  name: Variant 1
+  subject: Waited Until The Last Minute?
+  preheader: We’ve got the perfect gift idea…
+- id: e56f0fd1-2e2e-458f-846d-a6770af39f90
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 36132
+  total_delivered: 35940
+  total_opens: 20171
+  total_clicks: 84
+  open_rate: 0.5583
+  click_rate: 0.0023
+  total_unsubscribes: 48
+schedule_type: time_based
+_filename: p_2024_12_23_hav_conv_holiday_gifting_email.yaml

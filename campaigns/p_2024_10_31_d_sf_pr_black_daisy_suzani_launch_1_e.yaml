@@ -1,0 +1,82 @@
+id: 54a24966-6b39-4aef-b631-358c456675df
+name: P_2024_10_31_D_SF_PR_Black_Daisy_Suzani_Launch_1_Email
+brand: STF
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 54a24966-6b39-4aef-b631-358c456675df
+dates:
+  send_date: '2024-10-31'
+  inferred_send_type: scheduled
+  first_sent: '2024-10-30T23:24:46+00:00'
+  last_sent: '2024-10-31T14:00:23+00:00'
+tags:
+- Batch and Blast
+sends:
+- id: 5f29e6e5-6155-49cc-bf4d-63d297de7a87
+  channel: email
+  name: Variant 1
+  subject: 'NEW PATTERN: Black Daisy Suzani'
+  preheader: get to know our latest floral
+  html_file: html/p_2024_10_31_d_sf_pr_black_daisy_suzani_launch_1_email.html
+  screenshot: screenshots/p_2024_10_31_d_sf_pr_black_daisy_suzani_launch_1_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672271813cc0d70066be8b3b/original.gif?1730310529
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67226eec6b10d00073ac20d7/original.jpg?1730309867
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67226efd6b10d00064ac3c1a/original.jpg?1730309885
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67226f77a4311300647ce73d/original.gif?1730310007
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67227092a30fc90063b768ae/original.gif?1730310290
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672270085922450081e0a4d3/original.gif?1730310152
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6722709fa4311300737ce754/original.gif?1730310303
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67226f84a4311300647ce76d/original.gif?1730310020
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6722703f5922450073e0a704/original.jpg?1730310207
+- id: 79ba867a-bba4-4fbc-840f-7f098b8288c1
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 9591
+  total_delivered: 9541
+  total_opens: 2950
+  total_clicks: 99
+  open_rate: 0.3076
+  click_rate: 0.0103
+  total_revenue: 1779.0
+  total_bounces: 2
+  total_unsubscribes: 4
+  ga4:
+    sessions: 137
+    purchases: 2
+    revenue: 1779.6
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.042845'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-30-off-fabric-wallpaper-curtains-category-strikethrough-2024-10-25
+    name: 30% off fabric/wallpaper/curtains category (strikethrough)
+    start_date: '2024-10-25'
+    end_date: '2024-10-30'
+    discount: null
+    type: null
+  - id: stf-flash-sale-2024-10-25
+    name: Flash Sale
+    start_date: '2024-10-25'
+    end_date: '2024-10-30'
+    discount: null
+    type: null
+  primary_sale:
+    id: stf-30-off-fabric-wallpaper-curtains-category-strikethrough-2024-10-25
+    name: 30% off fabric/wallpaper/curtains category (strikethrough)
+    start_date: '2024-10-25'
+    end_date: '2024-10-30'
+    discount: null
+    type: null
+  sale_name: 30% off fabric/wallpaper/curtains category (strikethrough)
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:42.664533'
+schedule_type: time_based

@@ -1,0 +1,53 @@
+id: 74bd350b-034e-4ee3-92cf-0bbfb2a45bd3
+name: P_2024_10_27_D_CZ_PR_Irish_Edit_Email
+brand: CZ
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 74bd350b-034e-4ee3-92cf-0bbfb2a45bd3
+dates:
+  send_date: '2024-10-27'
+  inferred_send_type: local_time
+  first_sent: '2024-10-26T17:00:25+00:00'
+  last_sent: '2024-10-27T17:00:17+00:00'
+tags:
+- batch and blast
+sends:
+- id: c55e51da-04ca-48cc-a708-6d48fbf26feb
+  channel: email
+  name: Variant 1
+  subject: Explore Ireland
+  preheader: Breathtaking scenery, untamable landscapes, and enchanting villages.
+  html_file: html/p_2024_10_27_d_cz_pr_irish_edit_email.html
+  screenshot: screenshots/p_2024_10_27_d_cz_pr_irish_edit_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6717e4e376f0600064bcc81c/original.jpg?1729619171
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6717e3eeb339f20065602814/original.jpg?1729618926
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6717e46cdf976e0065cfcb9f/original.jpg?1729619052
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6717e4291eb5310064413e35/original.jpg?1729618984
+- id: 1b35e504-f153-4561-b422-bc01bbdebc33
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 91090
+  total_delivered: 90540
+  total_opens: 45381
+  total_clicks: 1249
+  open_rate: 0.4982
+  click_rate: 0.0137
+  total_revenue: 69137.38
+  total_unsubscribes: 160
+  ga4:
+    sessions: 1865
+    purchases: 6
+    revenue: 1934.15
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.642245'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.477633'
+schedule_type: time_based

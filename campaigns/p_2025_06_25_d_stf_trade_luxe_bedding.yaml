@@ -1,0 +1,45 @@
+id: 97fdd018-b594-4b60-8536-e97a5b0d437d
+name: P_2025_06_25_D_STF_TRADE_Luxe_Bedding
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 97fdd018-b594-4b60-8536-e97a5b0d437d
+dates:
+  send_date: '2025-06-25'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-25T03:53:47+00:00'
+  last_sent: '2025-06-25T16:00:29+00:00'
+tags: []
+sends:
+- id: 367f5f99-9975-4f8b-9ad0-09eb0616073a
+  channel: email
+  name: Variant 1
+  subject: Luxe Bedding 25% off
+  preheader: Claim dibs on your favorite pattern during our July 4th Sale
+- id: 606960f7-96f7-4277-b82b-40442a901966
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 3328
+  total_delivered: 3264
+  total_opens: 1739
+  total_clicks: 51
+  open_rate: 0.5225
+  click_rate: 0.0153
+  total_revenue: 1817.0
+  total_unsubscribes: 29
+  ga4:
+    sessions: 56
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.098661'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.105276'
+schedule_type: time_based

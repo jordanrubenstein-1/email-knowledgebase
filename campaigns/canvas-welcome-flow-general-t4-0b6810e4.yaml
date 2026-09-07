@@ -1,0 +1,33 @@
+id: 0b6810e4-0cad-4c6b-9d59-0091380bb82c
+name: TRG_EM_2025_12_BW_D_Welcome_T4_V2
+brand: BUR
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 2fccfb4d-7b98-460d-9d19-98e33e89aa25
+canvas_name: Welcome Flow - General
+flow_type: welcome_series
+sequence_position: 4
+subject: Furniture in a flash.
+preheader: At your door in days, not months. Plus, free shipping.
+sends:
+- id: 0b6810e4-0cad-4c6b-9d59-0091380bb82c
+  channel: email
+  name: TRG_EM_2025_12_BW_D_Welcome_T4_V2
+  subject: Furniture in a flash.
+  preheader: At your door in days, not months. Plus, free shipping.
+  html_file: html/canvas-welcome-flow-general-t4-0b6810e4.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-11-01T00:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 19719
+  total_delivered: 19343
+  total_opens: 8313
+  total_clicks: 324
+  open_rate: 0.4216
+  click_rate: 0.0164
+  total_unsubscribes: 113
+  total_revenue: 348817.8

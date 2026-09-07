@@ -1,0 +1,30 @@
+id: b288fac0-0674-4e75-98e2-024462eed9c5
+name: 20250720_Seating_Flash_Sale_Reminder_SMS
+brand: BUR
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: b288fac0-0674-4e75-98e2-024462eed9c5
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-07-20T02:07:41+00:00'
+  last_sent: '2025-07-21T01:00:58+00:00'
+tags: []
+sends:
+- id: b7b4f1ed-fd14-4205-a5b1-d7e3c6cc5d7f
+  channel: other
+  name: Variant 1
+- id: 3f8ac031-6f05-43f1-8536-7860419d3546
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 198
+    purchases: 2
+    revenue: 2945.53
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.841721'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

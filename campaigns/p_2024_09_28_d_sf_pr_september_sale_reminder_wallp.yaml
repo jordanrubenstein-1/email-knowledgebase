@@ -1,0 +1,59 @@
+id: 14d0351e-6bc5-4fb8-aa16-cea8d4626309
+name: P_2024_09_28_D_SF_PR_September_Sale_Reminder_Wallpaper_Email
+brand: STF
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 14d0351e-6bc5-4fb8-aa16-cea8d4626309
+dates:
+  send_date: '2024-09-28'
+  inferred_send_type: local_time
+  first_sent: '2024-09-27T20:44:58+00:00'
+  last_sent: '2024-09-28T14:00:28+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: b5a6db73-eca5-47e1-9088-9efa2220fafb
+  channel: email
+  name: Variant 1
+  subject: Treat yourself to 30% off wallpaper
+  preheader: don’t miss out on our September Sale
+  html_file: html/p_2024_09_28_d_sf_pr_september_sale_reminder_wallpaper_email.html
+  screenshot: screenshots/p_2024_09_28_d_sf_pr_september_sale_reminder_wallpaper_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66f18cfbbed158009160f8aa/original.gif?1727106299
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0058f1ba77/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66f178a472e286007266d121/original.gif?1727101092
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66f18cfb70a9c70066dd8d74/original.gif?1727106299
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0063f11fb6/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66f1848a8da4960064584cc4/original.gif?1727104138
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6681bde9255ebf0070d6be26/original.jpeg?1719778792
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66f18cfb25cec50082b6a3d9/original.gif?1727106299
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66f18cfb25cec50073b6a47a/original.jpg?1727106299
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66f178a4bb134600645ca169/original.jpg?1727101092
+- id: 12efb409-b42f-44ab-b201-ecdc360b7ee8
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 10710
+  total_delivered: 10471
+  total_opens: 2671
+  total_clicks: 76
+  open_rate: 0.2494
+  click_rate: 0.0071
+  total_revenue: 7321.8
+  total_unsubscribes: 12
+  ga4:
+    sessions: 73
+    purchases: 1
+    revenue: 410.63
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.663941'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.527624'
+schedule_type: time_based

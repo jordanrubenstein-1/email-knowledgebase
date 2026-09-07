@@ -1,0 +1,22 @@
+id: 50182a94-0a1d-479e-a043-12c76258c1b7
+name: Email & Phone Capture Modal - Spring Event 2026
+brand: CZ
+channel: email
+category: sale_promo
+type: seasonal
+theme: spring
+braze_id: 50182a94-0a1d-479e-a043-12c76258c1b7
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-03-17T06:00:00+00:00'
+  last_sent: '2026-03-28T21:00:00+00:00'
+tags: []
+sends:
+- id: 70360e64-0117-4d69-93d9-a1640c340dfa
+  channel: other
+  name: Control Group
+- id: 4bdb0220-a768-46dd-95b2-35467f90496d
+  channel: other
+  name: Variant 1
+performance_summary: {}
+schedule_type: action_based

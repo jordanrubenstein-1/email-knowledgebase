@@ -1,0 +1,36 @@
+id: ffcaa25e-cc21-4878-8a87-69f6755371e9
+name: P_EM_2026_08_26_ID_PC_D_Warehouse_Sale
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: ffcaa25e-cc21-4878-8a87-69f6755371e9
+dates:
+  send_date: '2026-08-26'
+  first_sent: '2026-08-25T21:51:54+00:00'
+  last_sent: '2026-08-26T17:04:25+00:00'
+  inferred_send_type: local_time
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: a7af7791-5999-4a40-8662-b424118fc914
+  channel: email
+  name: Variant 1
+  subject: 'Warehouse Sale: Up to 60% Off'
+  preheader: Ready-to-ship pieces, limited quantities available.
+- id: a96ae648-6c90-4665-ad0a-6b8dafc84a35
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 169839
+  total_delivered: 168894
+  total_opens: 58754
+  total_clicks: 1788
+  open_rate: 0.3459
+  click_rate: 0.0105
+  total_revenue: 224539.48
+  total_bounces: 3
+  total_unsubscribes: 190
+schedule_type: time_based
+_filename: p_em_2026_08_26_id_pc_d_warehouse_sale.yaml

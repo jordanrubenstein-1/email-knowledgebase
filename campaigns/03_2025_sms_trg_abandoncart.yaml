@@ -1,0 +1,38 @@
+id: bf630311-5771-410c-b7ee-59a88327710a
+name: 03_2025_SMS_TRG_AbandonCart
+brand: ID
+channel: sms
+category: other
+type: lifecycle
+theme: null
+braze_id: bf630311-5771-410c-b7ee-59a88327710a
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-03-26T18:00:00+00:00'
+  last_sent: '2025-12-13T14:00:00+00:00'
+tags:
+- sms
+sends: []
+performance_summary:
+  total_entries: 3116
+  note: Canvas entries found but no email sends in analytics period
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.357157'
+    source: snowflake
+    channel: sms
+canvas_steps:
+- id: 4c8f8271-2501-4d97-9767-0ccadb5cbc8d
+  name: Step
+  type: delay
+- id: d46bb98b-49c7-45cb-99ce-fe7abe956826
+  name: Step 1
+  type: decision_split
+- id: 1ad21286-a6e8-45ab-9d5c-a511585af75f
+  name: TRG_2025_ID_Cart_Abandon_T1_SMS_1
+  type: message

@@ -1,0 +1,67 @@
+id: d64d3f22-6c04-40a9-97f3-81b4a2e5f046
+name: SEG_2024_11_26_PT_CZ_NYC_Brunch_Browse_Event_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: d64d3f22-6c04-40a9-97f3-81b4a2e5f046
+dates:
+  send_date: '2024-11-26'
+  inferred_send_type: local_time
+  first_sent: '2024-11-25T22:22:09+00:00'
+  last_sent: '2024-11-26T17:15:03+00:00'
+tags: []
+sends:
+- id: 3e3c53f4-e4fb-4792-a1c0-02a6c8b67609
+  channel: email
+  name: Variant 1
+  subject: Saturday plans? Brunch & browse with us!
+  html_file: html/seg_2024_11_26_pt_cz_nyc_brunch_browse_event_email.html
+  screenshot: screenshots/seg_2024_11_26_pt_cz_nyc_brunch_browse_event_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674143bc3797580066bfd89b/original.png?1732330427
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674143b1880a0c0065dd8b03/original.png?1732330416
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674143c8e91a3f00666d38e1/original.png?1732330439
+- id: 6051867e-d99a-4dd3-a623-f685e686419c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 12790
+  total_delivered: 12778
+  total_opens: 7420
+  total_clicks: 55
+  open_rate: 0.5801
+  click_rate: 0.0043
+  total_revenue: 20003.0
+  total_bounces: 2
+  total_unsubscribes: 10
+  ga4:
+    sessions: 67
+    purchases: 2
+    revenue: 339.56
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.623839'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-01'
+    discount: null
+    type: null
+  primary_sale:
+    id: cz-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-01'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:44.691127'
+schedule_type: time_based

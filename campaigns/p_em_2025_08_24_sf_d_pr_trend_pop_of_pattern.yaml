@@ -1,0 +1,81 @@
+id: 20d9c105-8ca2-4a77-ac83-df12bc87dbe0
+name: P_EM_2025_08_24_SF_D_PR_Trend_Pop_Of_Pattern
+brand: STF
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 20d9c105-8ca2-4a77-ac83-df12bc87dbe0
+dates:
+  send_date: '2025-08-24'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-24T03:11:06+00:00'
+  last_sent: '2025-08-24T17:00:22+00:00'
+tags:
+- Batch and Blast
+- am
+- curtains
+- d2c
+- designed
+- prod
+- sale
+sends:
+- id: 0c4c4454-2c0e-4341-bb32-8dc0f06059a6
+  channel: email
+  name: Variant 1
+  subject: 'TRENDING: A Pop of Pattern'
+  preheader: 'curtain call: 25% off'
+  html_file: html/p_em_2025_08_24_sf_d_pr_trend_pop_of_pattern.html
+  screenshot: screenshots/p_em_2025_08_24_sf_d_pr_trend_pop_of_pattern.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a8bf0798e3580067ca62bb/original.png?1755889414
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a8c3eb76d51e0065b9e42e/original.png?1755890667
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a8c3788633e900938cea84/original.gif?1755890552
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a8bee9f1f5520084f83468/original.png?1755889385
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a8bf0ba1c15c008562f479/original.png?1755889419
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a8bee2a1c15c00656301e2/original.png?1755889378
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a8bef698e3580067ca61a7/original.png?1755889398
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a8bef0c93f0d0077b9b362/original.png?1755889391
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a8beffc93f0d0067b9bc75/original.png?1755889407
+- id: 664a8a43-99d4-4e28-8b36-cfcab537e2bb
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41011
+  total_delivered: 40535
+  total_opens: 18707
+  total_clicks: 241
+  open_rate: 0.4561
+  click_rate: 0.0059
+  total_revenue: 18712.0
+  total_unsubscribes: 66
+  ga4:
+    sessions: 282
+    purchases: 4
+    revenue: 3363.88
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.748198'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-the-labor-day-event-2025-08-21
+    name: The Labor Day Event
+    start_date: '2025-08-21'
+    end_date: '2025-09-04'
+    discount: 25% off Sitewide
+    type: null
+  primary_sale:
+    id: stf-the-labor-day-event-2025-08-21
+    name: The Labor Day Event
+    start_date: '2025-08-21'
+    end_date: '2025-09-04'
+    discount: 25% off Sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 25% off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:32.878915'
+schedule_type: time_based

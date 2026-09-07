@@ -1,0 +1,56 @@
+id: klaviyo-WRmvpp
+name: 4. Furniture should be fun
+brand: TI
+channel: email
+category: other
+type: product_launch
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: RyH7dk
+canvas_name: 'TEST [NEW] Order Delivered: GIFT WRAP/NOTEBOOKS Post Purchase Flow (AfterShip)'
+flow_type: post_purchase
+sequence_position: 3
+dates:
+  created: '2021-12-08'
+  inferred_send_type: scheduled
+  first_sent: '2021-12-08'
+  last_sent: '2021-12-08'
+sends:
+- id: WRmvpp
+  channel: email
+  name: Message
+  subject: 'How to: make decorating fun 💫'
+  preheader: ''
+  html_file: html/klv-flow-test-new-order-delivered-gift--t03-WRmvpp.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/e64b630a-d5bc-4203-9947-4e37380bee69.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/24c25193-25bb-40d2-b6fd-948efa50146f.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/cf7f5171-9c7c-4d58-9408-f8608dbb4c3d.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/ba171c00-a7e8-4191-8a15-4124c4c830e8.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/59c35080-1901-4034-a045-8eeb3eca5e6c.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/3b3c9ae8-dd14-43a3-aea0-de50c19d0524.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/9eadeabe-1260-49e7-917b-0a7f876501f8.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/2e5b4e28-3a6f-4a47-9a4f-3836e87b3f94.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/cc32de4b-c73a-4e7e-b1d6-8dda4b85b1d4.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/efc79951-ab82-4798-b6b5-95b803f03f17.png
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: WRmvpp
+structure:
+  image_count: 11
+  link_count: 11
+  has_gif: false
+  hero_width: 600
+  layout_type: product_grid

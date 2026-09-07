@@ -1,0 +1,40 @@
+id: FILL_IN_AFTER_CREATION
+name: CZ - Track Browse Products
+brand: CZ
+channel: email
+category: other
+type: announcement
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  first_sent: null
+  last_sent: null
+tags: []
+sends: []
+performance_summary: {}
+notes: >
+  Fires on custom_product_view with immediate re-entry allowed.
+  Runs in parallel with the existing "CZ - Track Product Viewed" canvas.
+  Single Webhook step (no delay) — body: components/cz_browse_products_webhook.liquid.
+
+  Braze webhook step config:
+    Method: POST
+    URL:    https://rest.iad-06.braze.com/users/track  (verify cluster for CZ workspace)
+    Headers:
+      Authorization: Bearer YOUR_CZ_REST_API_KEY
+      Content-Type: application/json
+
+  Writes two user attributes:
+    - recently_browsed_products (Array of Objects, max 8)
+        Deduped by shopify_product_id; newest variant wins; oldest dropped when full.
+        Only in-stock products stored (quantity_available > 0 at time of view).
+    - browse_affinity_categories (Array of Strings, max 8)
+        product_type values from the 8-item window, sorted by view frequency desc.
+
+  Abort conditions (handled inside webhook Liquid):
+    - SKU not found in the-citizenry_shopify_catalog
+    - quantity_available == 0
+canvas_steps:
+  - id: FILL_IN_AFTER_CREATION
+    name: Update browse products
+    type: webhook

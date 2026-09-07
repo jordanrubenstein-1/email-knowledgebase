@@ -1,0 +1,75 @@
+id: klaviyo-01JEPVWRV0SEQXR8DC0DT1N79C
+name: '12/10: BFCM Ext Last Chance AM NEW'
+brand: TI
+channel: email
+category: sale_promo
+type: product_launch
+theme: black_friday
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2024-12-09'
+  inferred_send_type: scheduled
+  first_sent: '2024-12-10T07:00:00+00:00'
+  last_sent: '2024-12-10T07:00:00+00:00'
+sends:
+- id: 01JEPVWRW07Y73XWRQCXDBNZKZ
+  channel: email
+  name: '12/10: BFCM Ext Last Chance AM NEW'
+  subject: 'LAST DAY: 25% off sitewide ends tonight!'
+  preheader: We don’t like goodbyes either.
+  html_file: html/1210-bfcm-ext-last-chance-am-new.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/f9432fa4-6f2d-4dc8-89a5-c86f4edfe552.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/88c707c3-4d50-4308-b95c-afa635d035d9.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/a1167000-813c-4eec-bd7e-72d85e57e252.gif
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/488671ec-7c7d-4421-bdb4-228ad862ad8b.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/cf48b5ab-98ee-4a78-9540-28ae43fac3ea.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/48f8b0bf-f674-4de6-83a6-f00ae0bfb57e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/badabe64-d50b-4e3a-9613-2cc0880e1af0.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/665954fa-f53d-4527-adeb-4f9038393b6b.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/f9797113-8670-4164-8517-e6d7cd90b55a.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/968d9574-d110-40c9-b59b-aabf8a89f2b7.gif
+  screenshot: screenshots/1210-bfcm-ext-last-chance-am-new.png
+performance_summary:
+  total_sends: 104698
+  total_delivered: 104208
+  total_opens: 34709
+  total_clicks: 1038
+  unique_opens: 25108
+  unique_clicks: 266
+  open_rate: 0.2398
+  click_rate: 0.0025
+  total_open_rate: 0.3315
+  total_click_rate: 0.0099
+  total_unsubscribes: 53
+  total_bounces: 490
+klaviyo_type: campaign
+klaviyo_campaign_id: 01JEPVWRV0SEQXR8DC0DT1N79C
+klaviyo_message_id: 01JEPVWRW07Y73XWRQCXDBNZKZ
+structure:
+  image_count: 25
+  link_count: 26
+  has_gif: true
+  hero_width: 600
+  layout_type: product_grid
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: ti-cyber-week-ext-2024-12-03
+    name: Cyber Week Ext
+    start_date: '2024-12-03'
+    end_date: '2024-12-10'
+    discount: null
+    type: null
+  primary_sale:
+    id: ti-cyber-week-ext-2024-12-03
+    name: Cyber Week Ext
+    start_date: '2024-12-03'
+    end_date: '2024-12-10'
+    discount: null
+    type: null
+  sale_name: Cyber Week Ext
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-03-12T11:18:50.152760'

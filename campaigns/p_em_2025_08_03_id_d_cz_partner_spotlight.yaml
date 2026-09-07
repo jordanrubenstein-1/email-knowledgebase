@@ -1,0 +1,47 @@
+id: 1915f2e1-9dc3-492c-bf14-5c385c6fdc28
+name: P_EM_2025_08_03_ID_D_CZ_Partner_Spotlight
+brand: ID
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 1915f2e1-9dc3-492c-bf14-5c385c6fdc28
+dates:
+  send_date: '2025-08-03'
+  inferred_send_type: local_time
+  first_sent: '2025-08-02T18:23:10+00:00'
+  last_sent: '2025-08-03T17:15:19+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 5eadfcb0-3feb-4fb1-a5e5-1ecab6a9a5b8
+  channel: email
+  name: Variant 1
+  subject: Meet The Citizenry
+  preheader: Artisan-made home goods with soul, story, and staying power.
+- id: ea11dec5-b1e4-4163-8de1-1301c5aa1832
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 113401
+  total_delivered: 113202
+  total_opens: 50845
+  total_clicks: 918
+  open_rate: 0.4484
+  click_rate: 0.0081
+  total_revenue: 91580.0
+  total_bounces: 1
+  total_unsubscribes: 200
+  ga4:
+    sessions: 50
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.408813'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.853548'
+schedule_type: time_based

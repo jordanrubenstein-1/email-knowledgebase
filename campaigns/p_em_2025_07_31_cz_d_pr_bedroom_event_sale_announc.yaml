@@ -1,0 +1,65 @@
+id: 99d19d76-70a2-49e2-b6de-c8be0f37fe06
+name: P_EM_2025_07_31_CZ_D_PR_Bedroom_Event_Sale_Announcement
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 99d19d76-70a2-49e2-b6de-c8be0f37fe06
+dates:
+  send_date: '2025-07-31'
+  inferred_send_type: local_time
+  first_sent: '2025-07-30T18:07:10+00:00'
+  last_sent: '2025-07-31T17:01:54+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale_feat
+sends:
+- id: 051e9130-70dd-493a-90ca-80f4614ef43c
+  channel: email
+  name: Variant 1
+  subject: The Bedroom Event Ends Tonight
+  preheader: Last chance to save 20% on your sleep sanctuary.
+  html_file: html/p_em_2025_07_31_cz_d_pr_bedroom_event_sale_announcement.html
+  screenshot: screenshots/p_em_2025_07_31_cz_d_pr_bedroom_event_sale_announcement.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6883f8be2045280075b29a0d/original.png?1753479358
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6883f8afa962a500765afff1/original.png?1753479343
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6883f887fef78100747c0597/original.png?1753479303
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68814a229df06d0066a3a7a5/original.png?1753303586
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6883f82bbca77c0066fa018b/original.png?1753479210
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6883f8a8bed28a00660dc764/original.png?1753479336
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68814a349df06d0066a3a84e/original.png?1753303604
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6883f8b8bca77c0066fa03ce/original.png?1753479352
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68814a544d816b006596b810/original.png?1753303636
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6883f8a1b8552e0075e70cce/original.png?1753479329
+- id: 9138cac2-0167-4552-8150-041de64e49bf
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 101570
+  total_delivered: 100900
+  total_opens: 51722
+  total_clicks: 534
+  open_rate: 0.5092
+  click_rate: 0.0053
+  total_revenue: 51197.3
+  total_bounces: 585
+  total_unsubscribes: 146
+  ga4:
+    sessions: 591
+    purchases: 14
+    revenue: 8611.13
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.388450'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.186213'
+schedule_type: time_based

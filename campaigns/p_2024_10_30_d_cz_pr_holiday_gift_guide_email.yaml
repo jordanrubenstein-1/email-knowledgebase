@@ -1,0 +1,52 @@
+id: 0c0392dc-eaaa-4cdc-acb5-869adaecd7f3
+name: P_2024_10_30_D_CZ_PR_Holiday_Gift_Guide_Email
+brand: CZ
+channel: email
+category: editorial
+type: seasonal
+theme: christmas
+braze_id: 0c0392dc-eaaa-4cdc-acb5-869adaecd7f3
+dates:
+  send_date: '2024-10-30'
+  inferred_send_type: local_time
+  first_sent: '2024-10-29T17:00:09+00:00'
+  last_sent: '2024-10-30T17:00:35+00:00'
+tags:
+- batch and blast
+sends:
+- id: 9aa32924-4f69-463b-96d5-dd8b54a6c181
+  channel: email
+  name: Variant 1
+  subject: The 2024 Gift Guide
+  preheader: Heirloom-quality gifts to be treasured for years to come.
+  html_file: html/p_2024_10_30_d_cz_pr_holiday_gift_guide_email.html
+  screenshot: screenshots/p_2024_10_30_d_cz_pr_holiday_gift_guide_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671fc609b236ea00653e30e8/original.jpg?1730135561
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671fc61ab5a89b0066323216/original.jpg?1730135578
+- id: 92b66079-b3eb-4004-9474-d37f87c5bafa
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 91396
+  total_delivered: 90809
+  total_opens: 41621
+  total_clicks: 1514
+  open_rate: 0.4554
+  click_rate: 0.0166
+  total_revenue: 64355.07
+  total_bounces: 1
+  total_unsubscribes: 110
+  ga4:
+    sessions: 2148
+    purchases: 11
+    revenue: 3691.97
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.922205'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.619265'
+schedule_type: time_based

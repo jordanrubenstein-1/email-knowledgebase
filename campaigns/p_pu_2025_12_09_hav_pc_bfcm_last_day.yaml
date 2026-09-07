@@ -1,0 +1,31 @@
+id: cd724b65-0e49-4a86-a948-10217367d79a
+name: P_PU_2025_12_09_HAV_PC_BFCM_Last_Day
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: black_friday
+braze_id: cd724b65-0e49-4a86-a948-10217367d79a
+dates:
+  send_date: '2025-12-09'
+  first_sent: '2025-12-09T01:07:31+00:00'
+  last_sent: '2025-12-10T01:01:12+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 4510480d-a0a9-4620-a12d-b5c6728c8ca2
+  channel: other
+  name: Variant 1
+- id: 5d9d8dc8-8b9b-44d9-91cb-3fd7307936bc
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 70384
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_bounces: 633
+schedule_type: time_based
+_filename: p_pu_2025_12_09_hav_pc_bfcm_last_day.yaml

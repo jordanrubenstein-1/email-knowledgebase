@@ -1,0 +1,43 @@
+id: 5bf8d6d3-dfcd-4da4-8373-b4578f298997
+name: P_EM_2025_12_31_ID_D_PF_Guest_Room_Refresh
+brand: ID
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 5bf8d6d3-dfcd-4da4-8373-b4578f298997
+dates:
+  send_date: '2025-12-31'
+  inferred_send_type: local_time
+  first_sent: '2025-12-31T00:18:46+00:00'
+  last_sent: '2025-12-31T17:16:34+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 354a2198-f084-4637-86a1-f7cdda967161
+  channel: email
+  name: Variant 1
+  subject: A Better Stay Starts Here
+  preheader: Guest room inspo designed for hosting the people you love most.
+- id: 2569c0a1-795f-43fa-a31d-7405d9c1c0ce
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 122180
+  total_delivered: 121585
+  total_opens: 48227
+  total_clicks: 471
+  open_rate: 0.3947
+  click_rate: 0.0039
+  total_revenue: 316372.87
+  total_bounces: 3
+  total_unsubscribes: 232
+  ga4:
+    sessions: 389
+    purchases: 1
+    revenue: 1965.29
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.064926'
+    source: snowflake
+    channel: email
+schedule_type: time_based

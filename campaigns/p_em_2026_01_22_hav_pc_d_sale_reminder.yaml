@@ -1,0 +1,35 @@
+id: cadfca22-d959-4d56-a935-7c4f4609a62a
+name: P_EM_2026_01_22_HAV_PC_D_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: cadfca22-d959-4d56-a935-7c4f4609a62a
+dates:
+  send_date: '2026-01-22'
+  first_sent: '2026-01-21T20:00:37+00:00'
+  last_sent: '2026-01-22T18:00:35+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 790962d2-3017-46c9-ae0e-6a6d1b618f4f
+  channel: email
+  name: Variant 1
+  subject: Good Design Survives the Thaw
+  preheader: Save 50% on design made to last past spring.
+- id: a7488967-ad44-4666-b8b0-7e3ccc54fb70
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 257947
+  total_delivered: 256667
+  total_opens: 102051
+  total_clicks: 486
+  open_rate: 0.3956
+  click_rate: 0.0019
+  total_bounces: 8
+  total_unsubscribes: 485
+schedule_type: time_based
+_filename: p_em_2026_01_22_hav_pc_d_sale_reminder.yaml

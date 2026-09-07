@@ -1,0 +1,31 @@
+id: adc0b454-3854-42e3-9b29-645ff7baf971
+name: P_SMS_2026_05_01_ID_Memorial_Day_Preview_Sale
+brand: ID
+channel: sms
+category: sale_promo
+type: sale
+theme: null
+braze_id: adc0b454-3854-42e3-9b29-645ff7baf971
+dates:
+  send_date: '2026-05-01'
+  inferred_send_type: local_time
+  first_sent: '2026-05-01T02:07:38+00:00'
+  last_sent: '2026-05-02T01:02:09+00:00'
+tags: []
+sends:
+- id: 68624b34-3712-4e67-8b73-06f0a16c9af7
+  channel: sms
+  name: Variant 1
+- id: 0f036b7d-2d24-4fcb-8ac1-590de5ecd19d
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 50058
+  total_delivered: 47529
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 27255.0
+_filename: p_sms_2026_05_01_id_memorial_day_preview_sale.yaml
+schedule_type: time_based

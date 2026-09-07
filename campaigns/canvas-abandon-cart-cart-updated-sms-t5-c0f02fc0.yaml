@@ -1,0 +1,33 @@
+id: c0f02fc0-b70e-424d-87b0-e9af56ed24db
+name: TRG_SMS_2026_01_BW_D_Cart_Abandon_T5_V3
+brand: BUR
+channel: sms
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 8ca874dc-0ab7-4657-b4cf-abba50624472
+canvas_name: Abandon Cart - Cart Updated
+flow_type: cart_abandonment
+sequence_position: 5
+body: 'Burrow: Don''t leave good design behind. Your Burrow pieces are still waiting—and
+  many can ship in days. https://burrow.com?utm_source=burrow&utm_medium=sms&utm_campaign={{campaign.${name}}}&bzt={{${email_address}
+  | base64_encode | url_param_escape}}'
+sends:
+- id: c0f02fc0-b70e-424d-87b0-e9af56ed24db
+  channel: sms
+  name: TRG_SMS_2026_01_BW_D_Cart_Abandon_T5_V3
+  body: 'Burrow: Don''t leave good design behind. Your Burrow pieces are still waiting—and
+    many can ship in days. https://burrow.com?utm_source=burrow&utm_medium=sms&utm_campaign={{campaign.${name}}}&bzt={{${email_address}
+    | base64_encode | url_param_escape}}'
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-01-17T12:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 2323
+  total_delivered: 2237
+  total_clicks: 176
+  click_rate: 0.0758
+  total_unsubscribes: 36
+  total_bounces: 24
+  total_revenue: 24031.0

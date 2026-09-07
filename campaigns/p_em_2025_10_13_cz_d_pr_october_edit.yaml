@@ -1,0 +1,77 @@
+id: 3df0c778-fa2b-4140-ae6f-2d3339a65306
+name: P_EM_2025_10_13_CZ_D_PR_October_Edit
+brand: CZ
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 3df0c778-fa2b-4140-ae6f-2d3339a65306
+dates:
+  send_date: '2025-10-13'
+  inferred_send_type: local_time
+  first_sent: '2025-10-12T17:22:21+00:00'
+  last_sent: '2025-10-13T17:15:47+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale_feat
+sends:
+- id: e628fd0d-b64d-4ac9-96c7-8faa81e6c00f
+  channel: email
+  name: Variant 1
+  subject: The October Edit
+  preheader: A curated look into the fall season.
+  html_file: html/p_em_2025_10_13_cz_d_pr_october_edit.html
+  screenshot: screenshots/p_em_2025_10_13_cz_d_pr_october_edit.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e856eb99d31d006327cdd5/original.png?1760057066
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e857136b6a72006503243b/original.png?1760057106
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e856d187e13100634a38b8/original.png?1760057041
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e8570687e13100634a3940/original.png?1760057094
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e857266e6bb30063f54b48/original.png?1760057126
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e856c26b6a720075031a3a/original.png?1760057025
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e856d9d9aa5600637110f3/original.png?1760057048
+- id: 33b7af5a-1116-4c0a-8db6-546207dfe105
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 111774
+  total_delivered: 111492
+  total_opens: 59185
+  total_clicks: 797
+  open_rate: 0.5295
+  click_rate: 0.0071
+  total_bounces: 2
+  total_unsubscribes: 182
+  ga4:
+    sessions: 785
+    purchases: 2
+    revenue: 1891.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.471047'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-anniversary-sale-2025-10-09
+    name: The Anniversary Sale
+    start_date: '2025-10-09'
+    end_date: '2025-10-22'
+    discount: 20% Off Sitewide
+    type: null
+  primary_sale:
+    id: cz-the-anniversary-sale-2025-10-09
+    name: The Anniversary Sale
+    start_date: '2025-10-09'
+    end_date: '2025-10-22'
+    discount: 20% Off Sitewide
+    type: null
+  sale_name: The Anniversary Sale
+  sale_discount: 20% Off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:42.759908'
+schedule_type: time_based

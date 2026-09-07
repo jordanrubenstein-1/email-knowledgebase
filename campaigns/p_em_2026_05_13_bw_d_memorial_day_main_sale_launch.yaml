@@ -1,0 +1,33 @@
+id: 711283c9-af0b-4ef7-ad13-536923a162ff
+name: P_EM_2026_05_13_BW_D_Memorial_Day_Main_Sale_Launch
+brand: BUR
+channel: email
+category: product_launch
+type: sale
+theme: null
+braze_id: 711283c9-af0b-4ef7-ad13-536923a162ff
+dates:
+  send_date: '2026-05-13'
+  last_sent: '2026-05-13'
+tags:
+- Batch&Blast
+sends:
+- id: a9eb4e0d-95ac-4e98-a3b6-eca2b7c85460
+  channel: email
+  name: Variant 1
+  subject: 'NOW LIVE: Up to 50% off sitewide'
+  preheader: The Memorial Day sale is here.
+- id: 504d5cb3-2ae1-4f5c-bdd5-3a4e24fcbdb4
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 67006
+  total_delivered: 66799
+  total_opens: 26551
+  total_clicks: 475
+  open_rate: 0.3962
+  click_rate: 0.0071
+  total_revenue: 48160.0
+  total_unsubscribes: 70
+_filename: p_em_2026_05_13_bw_d_memorial_day_main_sale_launch.yaml
+schedule_type: time_based

@@ -1,0 +1,76 @@
+id: 5967b29d-1c61-42a3-91ff-eaca56ac4f06
+name: P_2024_11_24_D_CZ_PR_BFCM_Rugs_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: 5967b29d-1c61-42a3-91ff-eaca56ac4f06
+dates:
+  send_date: '2024-11-24'
+  inferred_send_type: local_time
+  first_sent: '2024-11-23T17:08:41+00:00'
+  last_sent: '2024-11-24T17:00:51+00:00'
+tags:
+- batch and blast/promo
+sends:
+- id: 0cc36bb3-3c7f-498a-abd0-b9c5d95767de
+  channel: email
+  name: Variant 1
+  subject: Heirloom Rugs At A Can’t-Beat Price
+  preheader: Up to 30% off best-selling rugs for a limited time.
+  html_file: html/p_2024_11_24_d_cz_pr_bfcm_rugs_email.html
+  screenshot: screenshots/p_2024_11_24_d_cz_pr_bfcm_rugs_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6737da9cf77cc60064cd8d24/original.jpg?1731713692
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6740a033c4f5090065441578/original.jpg?1732288562
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6737dc5069dd3a0064763677/original.jpg?1731714128
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6740a0ad89bd2600659085b1/original.jpg?1732288685
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67409f031ccd5300634d2307/original.jpg?1732288259
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6737da7aba81cd0072147beb/original.jpg?1731713658
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6740a01da4584200645ea6e2/original.jpg?1732288541
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6737daa54152060066fe9f11/original.jpg?1731713701
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67409f54ca8c6800637f3fc2/original.jpg?1732288340
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6737dca47452b600631f5395/original.png?1731714211
+- id: 098f7b04-0439-430d-88cd-5872df8aef52
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 93319
+  total_delivered: 92708
+  total_opens: 45019
+  total_clicks: 1044
+  open_rate: 0.4824
+  click_rate: 0.0112
+  total_revenue: 159906.49
+  total_bounces: 1
+  total_unsubscribes: 122
+  ga4:
+    sessions: 1488
+    purchases: 17
+    revenue: 13140.21
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.824885'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-01'
+    discount: null
+    type: null
+  primary_sale:
+    id: cz-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-01'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:35.283301'
+schedule_type: time_based

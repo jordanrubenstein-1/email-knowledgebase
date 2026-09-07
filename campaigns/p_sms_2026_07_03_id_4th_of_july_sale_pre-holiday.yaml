@@ -1,0 +1,29 @@
+id: d8c25e0c-0360-466c-936f-5dd264aa4954
+name: P_SMS_2026_07_03_ID_4th_Of_July_Sale_Pre-Holiday
+brand: ID
+channel: sms
+category: sale_promo
+type: sale
+theme: christmas
+braze_id: d8c25e0c-0360-466c-936f-5dd264aa4954
+dates:
+  send_date: '2026-07-03'
+  last_sent: '2026-07-03'
+tags: []
+sends:
+- id: d93ce428-d1cb-4c60-84d9-895287248ec9
+  channel: sms
+  name: Variant 1
+- id: 42d22113-518b-45af-b35b-145421bc7a8a
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 52099
+  total_delivered: 47880
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 33760.0
+schedule_type: time_based
+_filename: p_sms_2026_07_03_id_4th_of_july_sale_pre-holiday.yaml

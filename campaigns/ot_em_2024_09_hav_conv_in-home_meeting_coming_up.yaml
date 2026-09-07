@@ -1,0 +1,32 @@
+id: 39ceb3da-2781-6928-3b06-aa4a77eed4d6
+name: OT_EM_2024_09_HAV_CONV_In-Home_Meeting_Coming_Up
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 39ceb3da-2781-6928-3b06-aa4a77eed4d6
+dates:
+  first_sent: '2024-08-26T21:00:00+00:00'
+  last_sent: '2026-06-09T14:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: 55228d80-d938-4a7c-afc5-efda0be6c561
+  channel: email
+  name: Variant 1
+  subject: Your in-home meeting with {{api_trigger_properties.${designer_name}}} is
+    coming up!
+  preheader: Here are the details for your meeting.
+- id: 95df9057-ceee-4d20-8108-2a21396b4dc9
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 31
+  total_delivered: 31
+  total_opens: 30
+  total_clicks: 4
+  open_rate: 0.9677
+  click_rate: 0.129
+schedule_type: api_triggered
+_filename: ot_em_2024_09_hav_conv_in-home_meeting_coming_up.yaml

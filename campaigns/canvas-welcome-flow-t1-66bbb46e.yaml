@@ -1,0 +1,33 @@
+id: 66bbb46e-7433-4f69-910c-e0de2092972a
+name: TRG_EM_2025_11_SF_D_Welcome_New_Customer_T1_V2
+brand: STF
+channel: email
+category: product_launch
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 2c9aee9c-afec-4670-aec1-09cc5466245c
+canvas_name: Welcome Flow
+flow_type: welcome_series
+sequence_position: 1
+subject: Welcome to the Inner Circle
+preheader: Bold design starts here.
+sends:
+- id: 66bbb46e-7433-4f69-910c-e0de2092972a
+  channel: email
+  name: TRG_EM_2025_11_SF_D_Welcome_New_Customer_T1_V2
+  subject: Welcome to the Inner Circle
+  preheader: Bold design starts here.
+  html_file: html/canvas-welcome-flow-t1-66bbb46e.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-07-30T16:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 39227
+  total_delivered: 38343
+  total_opens: 22846
+  total_clicks: 2238
+  open_rate: 0.5824
+  click_rate: 0.0571
+  total_unsubscribes: 659
+  total_bounces: 378

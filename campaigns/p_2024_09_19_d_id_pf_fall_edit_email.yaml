@@ -1,0 +1,46 @@
+id: 0237fc0a-97f1-413f-8ced-e3ff9ffbc91d
+name: P_2024_09_19_D_ID_PF_Fall_Edit_Email
+brand: ID
+channel: email
+category: editorial
+type: seasonal
+theme: fall
+braze_id: 0237fc0a-97f1-413f-8ced-e3ff9ffbc91d
+dates:
+  send_date: '2024-09-19'
+  inferred_send_type: scheduled
+  first_sent: '2024-09-19T01:13:04+00:00'
+  last_sent: '2024-09-19T15:15:04+00:00'
+tags: []
+sends:
+- id: 24d887be-8274-4b35-821b-596d1fba3f4f
+  channel: email
+  name: Variant 1
+  subject: 'JUST LANDED: The Fall Edit'
+  preheader: Shop seasonal styles 🍂
+- id: 1237067e-a755-47ba-932f-93febde19fbf
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 45435
+  total_delivered: 45229
+  total_opens: 16438
+  total_clicks: 537
+  open_rate: 0.3618
+  click_rate: 0.0118
+  total_revenue: 104630.0
+  total_bounces: 2
+  total_unsubscribes: 82
+  ga4:
+    sessions: 708
+    purchases: 2
+    revenue: 4060.94
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.869975'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.054825'
+schedule_type: time_based

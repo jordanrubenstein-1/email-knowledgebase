@@ -1,0 +1,58 @@
+id: 56c81968-4cb6-4a75-9b22-12bbb6ee0d5b
+name: P_EM_2025_11_10_CZ_D_PR_Color_Edit_Winter_Orchard
+brand: CZ
+channel: email
+category: editorial
+type: seasonal
+theme: winter
+braze_id: 56c81968-4cb6-4a75-9b22-12bbb6ee0d5b
+dates:
+  send_date: '2025-11-10'
+  inferred_send_type: local_time
+  first_sent: '2025-11-09T17:20:47+00:00'
+  last_sent: '2025-11-10T17:15:51+00:00'
+tags:
+- am
+- batch and blast
+- color
+- d2c
+- designed
+sends:
+- id: 29a1f37e-1029-41d4-8d2e-81cda65f96be
+  channel: email
+  name: Variant 1
+  subject: 'Color Edit: Winter Orchard'
+  preheader: Quiet tones of ivory, sage, aegean, and rust.
+  html_file: html/p_em_2025_11_10_cz_d_pr_color_edit_winter_orchard.html
+  screenshot: screenshots/p_em_2025_11_10_cz_d_pr_color_edit_winter_orchard.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690e4f58b5964d0063c3e141/original.png?1762545495
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690e4f7d1a0e9b006463e64e/original.png?1762545532
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690e4f68510d6e0063b1ae96/original.png?1762545511
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690e4f2a4a2345006305943f/original.png?1762545449
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690e4f239beb7900631ec58b/original.png?1762545443
+- id: 56ccc504-9dbb-435d-b0af-f9dbae55d631
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 101776
+  total_delivered: 101038
+  total_opens: 58230
+  total_clicks: 1153
+  open_rate: 0.5721
+  click_rate: 0.0113
+  total_bounces: 2
+  total_unsubscribes: 156
+  ga4:
+    sessions: 1288
+    purchases: 19
+    revenue: 6594.35
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.676463'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.773831'
+schedule_type: time_based

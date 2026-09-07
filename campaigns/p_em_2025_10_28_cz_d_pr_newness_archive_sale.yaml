@@ -1,0 +1,59 @@
+id: 8fe3d3bb-741b-4fda-b456-b6f1138bed62
+name: P_EM_2025_10_28_CZ_D_PR_Newness_Archive_Sale
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 8fe3d3bb-741b-4fda-b456-b6f1138bed62
+dates:
+  send_date: '2025-10-28'
+  inferred_send_type: scheduled
+  first_sent: '2025-10-28T04:13:40+00:00'
+  last_sent: '2025-10-28T17:15:33+00:00'
+tags:
+- am
+- archive
+- batch and blast
+- d2c
+- designed
+sends:
+- id: d52607b0-0b94-4fcd-bd0f-d10b18b08f56
+  channel: email
+  name: Variant 1
+  subject: 75+ New Archive Sale Finds
+  preheader: Shop up to 65% off before these styles are gone for good.
+  html_file: html/p_em_2025_10_28_cz_d_pr_newness_archive_sale.html
+  screenshot: screenshots/p_em_2025_10_28_cz_d_pr_newness_archive_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6900031d5ff6700074d5b434/original.png?1761608477
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690003161863940073e9bbab/original.png?1761608470
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6900033e5ff6700074d5b459/original.png?1761608510
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6900033498edcc0063f11f65/original.png?1761608499
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6900030e4f3b16006379a9f2/original.gif?1761608462
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690003278f69510063129004/original.png?1761608487
+- id: 5858c666-ab0e-4c91-8d40-82352700fba9
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 101806
+  total_delivered: 101057
+  total_opens: 58174
+  total_clicks: 1382
+  open_rate: 0.5714
+  click_rate: 0.0136
+  total_bounces: 3
+  total_unsubscribes: 166
+  ga4:
+    sessions: 1764
+    purchases: 19
+    revenue: 5294.15
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.025072'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.004417'
+schedule_type: time_based

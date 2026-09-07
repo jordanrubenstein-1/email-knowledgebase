@@ -1,0 +1,30 @@
+id: 9baa09b1-5708-4c18-a5cd-b978f5e651bb
+name: P_SMS_2026_09_05_ID_Labor_Day_Sale_Sweetener_Reminder
+brand: ID
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: 9baa09b1-5708-4c18-a5cd-b978f5e651bb
+dates:
+  send_date: '2026-09-05'
+  first_sent: '2026-09-05T02:05:49+00:00'
+  last_sent: '2026-09-05T12:00:00+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 6bb14389-2925-414c-bc52-976b399579ec
+  channel: sms
+  name: Variant 1
+- id: 0baffe91-c365-4a74-bac9-7d4bd94ba3ad
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 37
+  total_delivered: 25
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+schedule_type: time_based
+_filename: p_sms_2026_09_05_id_labor_day_sale_sweetener_remind-9baa09b1.yaml

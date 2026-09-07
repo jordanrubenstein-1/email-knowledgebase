@@ -1,0 +1,33 @@
+id: 885d9d40-c497-44c7-80ed-ad8b1f2811d5
+name: P_EM_2026_02_16_HAV_PC_PT_Presidents_Day_Sale_Ends
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 885d9d40-c497-44c7-80ed-ad8b1f2811d5
+dates:
+  send_date: '2026-02-16'
+  first_sent: '2026-02-16T03:05:26+00:00'
+  last_sent: '2026-02-17T04:00:12+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 8325ca31-2cc3-4793-83f0-806a6b843793
+  channel: email
+  name: Variant 1
+  subject: 'Ends @ midnight: 50% off design packages'
+- id: fb353793-bf46-4dfb-880c-cc110291fb52
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 261904
+  total_delivered: 261264
+  total_opens: 106483
+  total_clicks: 534
+  open_rate: 0.4066
+  click_rate: 0.002
+  total_unsubscribes: 444
+schedule_type: time_based
+_filename: p_em_2026_02_16_hav_pc_pt_presidents_day_sale_ends.yaml

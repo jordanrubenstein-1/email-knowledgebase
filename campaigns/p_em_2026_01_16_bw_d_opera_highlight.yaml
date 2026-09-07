@@ -1,0 +1,43 @@
+id: 4c628d94-0570-49d7-8996-34e2492102aa
+name: P_EM_2026_01_16_BW_D_Opera_Highlight
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 4c628d94-0570-49d7-8996-34e2492102aa
+dates:
+  send_date: '2026-01-16'
+  inferred_send_type: local_time
+  first_sent: '2026-01-15T23:06:45+00:00'
+  last_sent: '2026-01-16T23:04:15+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: ccc7806c-f084-42b0-a046-499e45ca2e16
+  channel: email
+  name: Variant 1
+  subject: 'Winter Refresh Sale: Up to 35% off'
+  preheader: Upgrade your game-day setup, delivered before kickoff.
+- id: 23d075ba-30b6-48ce-ba77-84b80204dada
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 95153
+  total_delivered: 94786
+  total_opens: 39932
+  total_clicks: 370
+  open_rate: 0.4197
+  click_rate: 0.0039
+  total_revenue: 69284.0
+  total_bounces: 4
+  total_unsubscribes: 146
+  ga4:
+    sessions: 340
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.782101'
+    source: snowflake
+    channel: email
+schedule_type: time_based

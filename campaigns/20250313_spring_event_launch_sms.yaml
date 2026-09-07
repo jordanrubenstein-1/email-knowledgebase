@@ -1,0 +1,30 @@
+id: 20ee4a88-743b-478b-8dc3-d0c638190ba3
+name: 20250313_Spring_Event_Launch_SMS
+brand: BUR
+channel: sms
+category: product_launch
+type: seasonal
+theme: spring
+braze_id: 20ee4a88-743b-478b-8dc3-d0c638190ba3
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-03-13T01:08:56+00:00'
+  last_sent: '2025-03-14T01:00:20+00:00'
+tags: []
+sends:
+- id: 0ff7cde2-1b69-484f-b5ee-38e9ee5c3813
+  channel: other
+  name: Variant 1
+- id: 05a5106c-d62f-4317-85b9-1b583acb1160
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 198
+    purchases: 3
+    revenue: 1187.71
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.510130'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

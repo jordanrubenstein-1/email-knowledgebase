@@ -1,0 +1,30 @@
+id: 04063da0-b199-4afa-b276-18ad13810e80
+name: 20250513_Memorial_Day_Sale_Launch_SMS
+brand: BUR
+channel: sms
+category: product_launch
+type: sale
+theme: null
+braze_id: 04063da0-b199-4afa-b276-18ad13810e80
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-05-14T02:06:34+00:00'
+  last_sent: '2025-05-15T01:00:12+00:00'
+tags: []
+sends:
+- id: 96913215-e3e6-4bc4-8e4d-aa23fd81da72
+  channel: other
+  name: Variant 1
+- id: 620b8710-5cbe-4580-8047-3b316ea6ef66
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 194
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.713156'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

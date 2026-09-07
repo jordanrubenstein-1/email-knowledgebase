@@ -1,0 +1,36 @@
+id: 2c511e72-446a-42e0-8760-c91f1cfbce3d
+name: P_EM_2026_04_29_ID_PC_D_TI_ID_Trade_Appreciation_Sale_Launch
+brand: ID
+channel: email
+category: product_launch
+type: sale
+theme: null
+braze_id: 2c511e72-446a-42e0-8760-c91f1cfbce3d
+dates:
+  send_date: '2026-04-29'
+  inferred_send_type: local_time
+  first_sent: '2026-04-28T22:46:09+00:00'
+  last_sent: '2026-04-29T19:03:29+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: e0834bfd-23bf-4083-b75a-d9271668414d
+  channel: email
+  name: Variant 1
+  subject: The Trade Appreciation Sale is here
+  preheader: Shop exclusive savings across Havenly brands.
+- id: fe92910f-2755-4879-9bb1-42078323ac94
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 22114
+  total_delivered: 21416
+  total_opens: 10650
+  total_clicks: 182
+  open_rate: 0.4816
+  click_rate: 0.0082
+  total_revenue: 73464.97
+  total_bounces: 5
+  total_unsubscribes: 41
+_filename: p_em_2026_04_29_id_pc_d_ti_id_trade_appreciation_sale_launch.yaml
+schedule_type: time_based

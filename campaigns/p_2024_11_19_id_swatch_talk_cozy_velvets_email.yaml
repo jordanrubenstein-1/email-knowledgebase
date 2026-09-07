@@ -1,0 +1,62 @@
+id: 82cd75af-5981-4ed8-bafa-03349842916c
+name: P_2024_11_19_ID_Swatch_Talk_Cozy_Velvets_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 82cd75af-5981-4ed8-bafa-03349842916c
+dates:
+  send_date: '2024-11-19'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-19T04:27:11+00:00'
+  last_sent: '2024-11-19T17:15:06+00:00'
+tags: []
+sends:
+- id: aa1135d8-f41f-4698-acfb-0145df9fd9f5
+  channel: email
+  name: Variant 1
+  subject: It’s Always Velvet Season
+  preheader: Order free swatches to find your perfect match.
+- id: 99c4bc9b-07ec-49fe-8f53-de130a6eab1a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 68300
+  total_delivered: 67776
+  total_opens: 22850
+  total_clicks: 496
+  open_rate: 0.3346
+  click_rate: 0.0073
+  total_revenue: 173486.25
+  total_bounces: 2
+  total_unsubscribes: 154
+  ga4:
+    sessions: 667
+    purchases: 3
+    revenue: 12114.94
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.944759'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-03'
+    discount: null
+    type: null
+  primary_sale:
+    id: id-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-03'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:41.018286'
+schedule_type: time_based

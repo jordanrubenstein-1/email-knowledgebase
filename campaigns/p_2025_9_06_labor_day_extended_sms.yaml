@@ -1,0 +1,30 @@
+id: 90e5ed30-c383-43ab-8870-1a508500855d
+name: P_2025_9_06_Labor_Day_Extended_SMS
+brand: ID
+channel: sms
+category: reminder
+type: announcement
+theme: null
+braze_id: 90e5ed30-c383-43ab-8870-1a508500855d
+dates:
+  send_date: '2025-09-06'
+  inferred_send_type: local_time
+  first_sent: '2025-09-06T00:18:58+00:00'
+  last_sent: '2025-09-06T23:10:07+00:00'
+tags: []
+sends:
+- id: c744dafc-f1e4-44bb-ab1f-3a52cd278cd7
+  channel: other
+  name: Variant 1
+- id: e2f6b0e6-f806-41fc-a17d-8329a9186e5d
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 52825
+  total_delivered: 51087
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 19567.0
+schedule_type: time_based

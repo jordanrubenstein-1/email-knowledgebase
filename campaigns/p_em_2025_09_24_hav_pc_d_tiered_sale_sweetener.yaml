@@ -1,0 +1,35 @@
+id: 20e221c0-54fc-4722-a2d3-f5b8b809e0ae
+name: P_EM_2025_09_24_HAV_PC_D_TIERED_SALE_SWEETENER
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 20e221c0-54fc-4722-a2d3-f5b8b809e0ae
+dates:
+  send_date: '2025-09-24'
+  first_sent: '2025-09-24T02:21:52+00:00'
+  last_sent: '2025-09-25T02:15:17+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 9ed98523-1132-479e-a785-e85521a35a5b
+  channel: email
+  name: Variant 1
+  subject: BONUS SAVINGS JUST DROPPED
+  preheader: 48 hours only! Shop Now.
+- id: c000abb5-02ef-4652-9d04-a34e6ad3f700
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 237505
+  total_delivered: 234540
+  total_opens: 97069
+  total_clicks: 602
+  open_rate: 0.4087
+  click_rate: 0.0025
+  total_bounces: 7
+  total_unsubscribes: 393
+schedule_type: time_based
+_filename: p_em_2025_09_24_hav_pc_d_tiered_sale_sweetener.yaml

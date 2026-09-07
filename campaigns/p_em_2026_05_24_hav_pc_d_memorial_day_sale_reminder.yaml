@@ -1,0 +1,35 @@
+id: 9080353e-6047-410c-aa2f-d6720eb70608
+name: P_EM_2026_05_24_HAV_PC_D_Memorial_Day_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 9080353e-6047-410c-aa2f-d6720eb70608
+dates:
+  send_date: '2026-05-24'
+  first_sent: '2026-05-23T18:22:21+00:00'
+  last_sent: '2026-05-24T18:15:13+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 505d2aa5-84b4-4d63-8110-2840a7d04d22
+  channel: email
+  name: Variant 1
+  subject: Stop scrolling. Start designing.
+  preheader: Designer help + Memorial Day savings = your best room yet.
+- id: b1953538-c57a-41c4-a2f2-c773ce059613
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 284373
+  total_delivered: 283322
+  total_opens: 104602
+  total_clicks: 398
+  open_rate: 0.3678
+  click_rate: 0.0014
+  total_bounces: 6
+  total_unsubscribes: 415
+schedule_type: time_based
+_filename: p_em_2026_05_24_hav_pc_d_memorial_day_sale_reminder.yaml

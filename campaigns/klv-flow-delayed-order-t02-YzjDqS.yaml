@@ -1,0 +1,52 @@
+id: klaviyo-YzjDqS
+name: 'Email #1 Test #1 July 28, 2022 Variation A'
+brand: TI
+channel: email
+category: other
+type: announcement
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: RpkW38
+canvas_name: Delayed Order
+flow_type: other_flow
+sequence_position: 2
+dates:
+  created: '2021-01-21'
+  inferred_send_type: sto
+  first_sent: '2021-01-21'
+  last_sent: '2025-07-15'
+sends:
+- id: YzjDqS
+  channel: email
+  name: Message
+  subject: We are still working on your order.
+  preheader: ''
+  html_file: html/klv-flow-delayed-order-t02-YzjDqS.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/92d4f85a-e648-4016-9732-56d261c5e3e0.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/b398c3ca-c7f5-41f2-bedc-27a54cf334fb.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/69a68883-3bce-41ac-802d-c532d6fa1f13.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/dccf9ff5-8748-4e56-89b2-548bc39a42d2.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/eca135b9-dda2-4bd5-b0ec-1ad5df376ab2.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/48f8b0bf-f674-4de6-83a6-f00ae0bfb57e.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: YzjDqS
+structure:
+  image_count: 6
+  link_count: 9
+  has_gif: false
+  hero_width: 600
+  layout_type: product_grid

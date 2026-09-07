@@ -1,0 +1,35 @@
+id: a3e4507d-7156-4ec8-84d5-65524bee6e9a
+name: P_EM_2025_11_14_HAV_CONV_D_Black_Friday_Sale_Continues
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: a3e4507d-7156-4ec8-84d5-65524bee6e9a
+dates:
+  send_date: '2025-11-14'
+  first_sent: '2025-11-14T01:21:59+00:00'
+  last_sent: '2025-11-15T01:15:37+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 82e9e142-ef5f-44e2-a507-c8f24ba47024
+  channel: email
+  name: Variant 1
+  subject: 'Don’t Wait: Save Up to 30%'
+  preheader: Grab your favorites while they last!
+- id: 8782dde5-ea99-499d-a8f5-cb387167d527
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 34540
+  total_delivered: 34488
+  total_opens: 17696
+  total_clicks: 109
+  open_rate: 0.5123
+  click_rate: 0.0032
+  total_bounces: 1
+  total_unsubscribes: 29
+schedule_type: time_based
+_filename: p_em_2025_11_14_hav_conv_d_black_friday_sale_continues.yaml

@@ -1,0 +1,31 @@
+id: 731c468c-9ff6-43c4-ba2b-a05ac5486fb1
+name: TRG_2024_09_HAV_Blog_Welcome_Email
+brand: HAV
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: f4446b87-15c2-4e66-b464-9bd5951a52c3
+canvas_name: Blog Welcome Series
+flow_type: welcome_series
+sequence_position: 1
+subject: 'Welcome! + your 15% off code '
+preheader: Design magic ahead
+sends:
+- id: 731c468c-9ff6-43c4-ba2b-a05ac5486fb1
+  channel: email
+  name: TRG_2024_09_HAV_Blog_Welcome_Email
+  subject: 'Welcome! + your 15% off code '
+  preheader: Design magic ahead
+  html_file: html/canvas-blog-welcome-series-t1-731c468c.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-09-13T21:00:00Z'
+  last_sent: '2024-09-23T18:00:00Z'
+performance_summary:
+  total_sends: 54
+  total_delivered: 54
+  total_opens: 31
+  total_clicks: 9
+  open_rate: 0.5741
+  click_rate: 0.1667

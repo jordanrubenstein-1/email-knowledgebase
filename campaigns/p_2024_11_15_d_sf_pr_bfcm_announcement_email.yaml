@@ -1,0 +1,81 @@
+id: 809176fe-fa4d-427e-8439-84162b7b6c0c
+name: P_2024_11_15_D_SF_PR_BFCM_Announcement_Email
+brand: STF
+channel: email
+category: sale_promo
+type: product_launch
+theme: black_friday
+braze_id: 809176fe-fa4d-427e-8439-84162b7b6c0c
+dates:
+  send_date: '2024-11-15'
+  inferred_send_type: local_time
+  first_sent: '2024-11-14T17:09:03+00:00'
+  last_sent: '2024-11-15T15:00:23+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: 29b58325-3c35-40a7-8c6f-e5c9994d1ff5
+  channel: email
+  name: Variant 1
+  subject: 'It’s On: The Black Friday Event'
+  preheader: up to 35% off sitewide starts now
+  html_file: html/p_2024_11_15_d_sf_pr_bfcm_announcement_email.html
+  screenshot: screenshots/p_2024_11_15_d_sf_pr_bfcm_announcement_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67323a7d5fda0b006456249b/original.gif?1731345021
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67323a414180570081c1422f/original.gif?1731344961
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67323aac3e12d0006590d3e9/original.jpg?1731345068
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67323a5a4180570063c14d39/original.gif?1731344986
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67323a6bda16890064c3dd7f/original.gif?1731345002
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67323a4c8be85800669bff19/original.gif?1731344972
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67323a89f678ac0066d01e06/original.gif?1731345033
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67323abbb480bb006442231d/original.gif?1731345083
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6734f7fbaf1f65006448517c/original.gif?1731524603
+- id: 78653caf-15d8-472e-9929-3d98089a38ef
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 8538
+  total_delivered: 8485
+  total_opens: 2926
+  total_clicks: 140
+  open_rate: 0.3427
+  click_rate: 0.0164
+  total_revenue: 17786.4
+  total_unsubscribes: 10
+  ga4:
+    sessions: 163
+    purchases: 5
+    revenue: 1439.3
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.788635'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-early-access-2024-11-12
+    name: Early Access
+    start_date: '2024-11-12'
+    end_date: '2024-11-14'
+    discount: null
+    type: null
+  - id: stf-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: stf-early-access-2024-11-12
+    name: Early Access
+    start_date: '2024-11-12'
+    end_date: '2024-11-14'
+    discount: null
+    type: null
+  sale_name: Early Access
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:34.168468'
+schedule_type: time_based

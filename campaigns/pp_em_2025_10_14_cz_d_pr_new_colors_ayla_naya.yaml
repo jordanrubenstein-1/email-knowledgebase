@@ -1,0 +1,83 @@
+id: 4ba2d905-ce90-47bd-be0a-6cc2fdcfc377
+name: PP_EM_2025_10_14_CZ_D_PR_New_Colors_Ayla_Naya
+brand: CZ
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 4ba2d905-ce90-47bd-be0a-6cc2fdcfc377
+dates:
+  send_date: '2025-10-14'
+  inferred_send_type: scheduled
+  first_sent: '2025-10-14T04:04:27+00:00'
+  last_sent: '2025-10-14T17:17:28+00:00'
+tags:
+- am
+- batch and blast
+- bedding
+- d2c
+- designed
+- get the look
+- gtl
+- prod
+- sale
+sends:
+- id: 3c6f526c-98bb-4c70-8765-d229cb91bc3c
+  channel: email
+  name: Variant 1
+  subject: Your Dream Bedroom, 20% Off
+  preheader: Curate your sleep sanctuary layer by layer
+  html_file: html/pp_em_2025_10_14_cz_d_pr_new_colors_ayla_naya.html
+  screenshot: screenshots/pp_em_2025_10_14_cz_d_pr_new_colors_ayla_naya.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68ed6a397785c5006504e430/original.png?1760389688
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68ed6adb7785c5006504e7ad/original.png?1760389851
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68ed6aae76a63c00636b8abc/original.png?1760389806
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68ed6b29e5e01f007492af53/original.png?1760389929
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68ed6abb76b7590073825223/original.png?1760389818
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68ed6a0c7785c5008504df18/original.png?1760389644
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68ed6a5f76b75900638254f5/original.png?1760389727
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68ed69d81b9f3d00832a62a0/original.png?1760389591
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68ed6ae779eaaa0063c513fc/original.png?1760389862
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68ed6aca76b7590063825937/original.png?1760389834
+- id: 260d3087-cb21-41a8-996a-25d06f4ddc8f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 111404
+  total_delivered: 111125
+  total_opens: 57519
+  total_clicks: 785
+  open_rate: 0.5163
+  click_rate: 0.007
+  total_bounces: 10
+  total_unsubscribes: 181
+  ga4:
+    sessions: 875
+    purchases: 10
+    revenue: 3581.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.640770'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-anniversary-sale-2025-10-09
+    name: The Anniversary Sale
+    start_date: '2025-10-09'
+    end_date: '2025-10-22'
+    discount: 20% Off Sitewide
+    type: null
+  primary_sale:
+    id: cz-the-anniversary-sale-2025-10-09
+    name: The Anniversary Sale
+    start_date: '2025-10-09'
+    end_date: '2025-10-22'
+    discount: 20% Off Sitewide
+    type: null
+  sale_name: The Anniversary Sale
+  sale_discount: 20% Off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:44.911493'
+schedule_type: time_based

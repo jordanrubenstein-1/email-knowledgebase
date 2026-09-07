@@ -1,0 +1,32 @@
+id: 1eeb1520-5db6-4919-92a7-1fd449d4bed7
+name: TRG_EM_2025_HAV_CONV_D_Complete_Profile_T4_V1A
+brand: HAV
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 0b34d65c-1f25-4039-aaf9-7dfb705c5a71
+canvas_name: Room Profile Complete
+flow_type: welcome_series
+sequence_position: 4
+subject: It's a Great Day to Start Your Room Makeover
+preheader: Complete your room profile today.
+sends:
+- id: 1eeb1520-5db6-4919-92a7-1fd449d4bed7
+  channel: email
+  name: TRG_EM_2025_HAV_CONV_D_Complete_Profile_T4_V1A
+  subject: It's a Great Day to Start Your Room Makeover
+  preheader: Complete your room profile today.
+  html_file: html/canvas-room-profile-complete-t4-1eeb1520.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-10-01T13:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 6693
+  total_delivered: 6684
+  total_opens: 4441
+  total_clicks: 138
+  open_rate: 0.6635
+  click_rate: 0.0206
+  total_unsubscribes: 18

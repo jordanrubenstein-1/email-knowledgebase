@@ -1,0 +1,30 @@
+id: ff786746-1f85-4878-8293-b6a850e26f42
+name: P_SMS_2025_12_02_ID_Giving_Tuesday
+brand: ID
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: ff786746-1f85-4878-8293-b6a850e26f42
+dates:
+  send_date: '2025-12-02'
+  inferred_send_type: local_time
+  first_sent: '2025-12-02T03:18:48+00:00'
+  last_sent: '2025-12-03T01:02:46+00:00'
+tags: []
+sends:
+- id: 501c6b2c-82ad-4be7-91a5-fafb848f7332
+  channel: sms
+  name: Variant 1
+- id: 75cb949c-c57b-466d-9b53-d2e513713a44
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 50518
+  total_delivered: 45427
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 23836.98
+schedule_type: time_based

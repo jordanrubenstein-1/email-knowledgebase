@@ -1,0 +1,48 @@
+id: d81087c1-b32d-4f8a-8f97-20fc5243e6be
+name: P_2025_06_14_ID_The_Blue_Edit_Email
+brand: ID
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: d81087c1-b32d-4f8a-8f97-20fc5243e6be
+dates:
+  send_date: '2025-06-14'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-14T08:24:36+00:00'
+  last_sent: '2025-06-14T17:15:19+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: a705f7b3-5186-4b25-8375-e44a3eef2676
+  channel: email
+  name: Variant 1
+  subject: Still Thinking About Blue
+  preheader: 'Everyone talks about the color of the moment. We prefer the one that
+    never left. '
+- id: 443bee38-88af-4ac1-9567-5d401900169b
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 176141
+  total_delivered: 174070
+  total_opens: 40072
+  total_clicks: 410
+  open_rate: 0.2275
+  click_rate: 0.0023
+  total_revenue: 55859.0
+  total_bounces: 3
+  total_unsubscribes: 91
+  ga4:
+    sessions: 293
+    purchases: 1
+    revenue: 2149.31
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.125563'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.746725'
+schedule_type: time_based

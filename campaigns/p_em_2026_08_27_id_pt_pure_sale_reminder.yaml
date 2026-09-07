@@ -1,0 +1,33 @@
+id: 4dd1bf6a-8a68-4d6f-844c-64d24d82fe0e
+name: P_EM_2026_08_27_ID_PT_Pure_Sale_Reminder
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 4dd1bf6a-8a68-4d6f-844c-64d24d82fe0e
+dates:
+  send_date: '2026-08-27'
+  last_sent: '2026-08-27'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 1d467348-0d2c-4973-961a-e224d3fe99a8
+  channel: email
+  name: Variant 1
+  subject: 'Reminder: up to 30% off sitewide'
+- id: 49ae5399-b5d6-4584-a5ad-d904a13a4603
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 132218
+  total_delivered: 131860
+  total_opens: 46641
+  total_clicks: 599
+  open_rate: 0.3528
+  click_rate: 0.0045
+  total_revenue: 277034.46
+  total_bounces: 1
+  total_unsubscribes: 199
+schedule_type: time_based
+_filename: p_em_2026_08_27_id_pt_pure_sale_reminder.yaml

@@ -1,0 +1,85 @@
+id: f58b8f74-85a8-4010-9918-16eee3daaa9b
+name: P_EM_2025_09_03_BW_D_Labor_Day_Event_Surprise_Ext
+brand: BUR
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: f58b8f74-85a8-4010-9918-16eee3daaa9b
+dates:
+  send_date: '2025-09-03'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-03T02:35:23+00:00'
+  last_sent: '2025-09-03T17:15:33+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 35b90501-a193-4c9d-a2f6-949310360baa
+  channel: email
+  name: Variant 1
+  subject: 'Hop In: Up To 70% Off Is Back!'
+  preheader: Good news—we extended our Labor Day Sale.
+- id: 29b16c53-7609-4f1f-af60-a667d5d721ba
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 243736
+  total_delivered: 241912
+  total_opens: 138694
+  total_clicks: 494
+  open_rate: 0.569
+  click_rate: 0.002
+  total_revenue: 28101.5
+  total_bounces: 8
+  total_unsubscribes: 297
+  ga4:
+    sessions: 407
+    purchases: 5
+    revenue: 7200.82
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.525562'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-the-labor-day-event-2025-09-03
+    name: The Labor Day Event
+    start_date: '2025-09-03'
+    end_date: '2025-09-09'
+    discount: '20% off sitewide
+
+      Up to 70% off Clearance
+
+      Free shipping >$2k'
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-the-labor-day-event-2025-09-03
+    name: The Labor Day Event
+    start_date: '2025-09-03'
+    end_date: '2025-09-09'
+    discount: '20% off sitewide
+
+      Up to 70% off Clearance
+
+      Free shipping >$2k'
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: '20% off sitewide
+
+    Up to 70% off Clearance
+
+    Free shipping >$2k'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:31.039983'
+schedule_type: time_based

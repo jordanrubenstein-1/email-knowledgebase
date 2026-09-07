@@ -1,0 +1,56 @@
+id: klaviyo-RKFDg6
+name: trade-approved_email-01
+brand: TE
+channel: email
+category: other
+type: lifecycle
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: U62z3r
+canvas_name: trade_program-welcome-migration
+flow_type: welcome_series
+sequence_position: 8
+dates:
+  created: '2026-08-25'
+  inferred_send_type: scheduled
+  first_sent: '2026-08-25'
+  last_sent: '2026-08-25'
+sends:
+- id: RKFDg6
+  channel: email
+  name: Message
+  subject: Welcome to The Expert!
+  preheader: Shop faster. Save more. Stress Less.
+  html_file: html/klv-flow-trade_program-welcome-migratio-t08-RKFDg6.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/adf6b0b1-e173-40ed-ab20-928814e78d39.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/d2a49a4b-18b2-4ea2-94fe-12df64c4e0b1.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/7396415b-fdc8-4c36-a3f1-9cc484efe6fd.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/8a9e44f8-34bb-44c7-9e9b-a1a0eec5784e.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/6dee0bd8-e046-419b-a767-875eddee398b.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/43b96bcd-6137-4779-9950-2b2dd99b7491.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/204a4de5-0f9b-41aa-bc56-6785ab53c32b.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/6c03d4ec-4eaf-4cf6-bd0f-e6531a0898e5.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/e5ab2f68-2071-4ffc-b556-f75dd41be76f.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/0ad5e7dc-8257-4a57-b3eb-fe9d629fe585.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: RKFDg6
+structure:
+  image_count: 22
+  link_count: 25
+  has_gif: false
+  hero_width: 600
+  layout_type: product_grid

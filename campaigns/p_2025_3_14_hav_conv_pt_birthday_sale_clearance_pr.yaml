@@ -1,0 +1,49 @@
+id: 371880e0-1001-4cee-8ded-69dffff9b737
+name: P_2025_3_14_HAV_Conv_PT_Birthday_Sale_Clearance_Promo
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 371880e0-1001-4cee-8ded-69dffff9b737
+dates:
+  send_date: '2025-03-14'
+  inferred_send_type: local_time
+  first_sent: '2025-03-13T18:32:36+00:00'
+  last_sent: '2025-03-14T17:15:11+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: af4417c6-76e8-4b91-9d3f-67d51ff868bf
+  channel: email
+  name: Variant 1
+  subject: Did someone say SALE ON SALE? (We did.)
+  html_file: html/p_2025_3_14_hav_conv_pt_birthday_sale_clearance_promo.html
+  screenshot: screenshots/p_2025_3_14_hav_conv_pt_birthday_sale_clearance_promo.png
+  image_urls:
+  - https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/c731630f24214e43807c7369ca8ebacd/Havenly_Wordmark_RGB_Charcoal_Brown%20%281%29.png
+- id: e7f66d77-4471-497b-a94e-50471022cdd5
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 38732
+  total_delivered: 38612
+  total_opens: 22315
+  total_clicks: 290
+  open_rate: 0.5761
+  click_rate: 0.0075
+  total_bounces: 2
+  total_unsubscribes: 62
+  ga4:
+    sessions: 329
+    purchases: 3
+    revenue: 787.54
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.853980'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:45.630674'
+schedule_type: time_based

@@ -1,0 +1,31 @@
+id: 379746b5-98c1-4019-80ee-9f3fe356d11b
+name: P_SMS_2026_04_29_BW_Quick_Ship_Summer_Coming
+brand: BUR
+channel: sms
+category: other
+type: seasonal
+theme: summer
+braze_id: 379746b5-98c1-4019-80ee-9f3fe356d11b
+dates:
+  send_date: '2026-04-29'
+  inferred_send_type: local_time
+  first_sent: '2026-04-29T02:09:58+00:00'
+  last_sent: '2026-04-30T01:01:03+00:00'
+tags: []
+sends:
+- id: 49c6e1a2-c647-42f3-9516-818f69b22d4c
+  channel: sms
+  name: Variant 1
+- id: 0d93d9e5-7cb9-4438-955a-2ebc0c13cfd4
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 8507
+  total_delivered: 8161
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 24342.0
+_filename: p_sms_2026_04_29_bw_quick_ship_summer_coming.yaml
+schedule_type: time_based

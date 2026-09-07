@@ -1,0 +1,34 @@
+id: 5fdc2ac3-2b5a-435a-9fd3-054483e5c4a1
+name: TRADE_2024_10_22_D_Autumn_Event_Last_Chance_Combined_Email
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: fall
+braze_id: 5fdc2ac3-2b5a-435a-9fd3-054483e5c4a1
+dates:
+  send_date: '2024-10-22'
+  inferred_send_type: scheduled
+  first_sent: '2024-10-22T16:52:28+00:00'
+  last_sent: '2024-10-22T16:52:36+00:00'
+tags: []
+sends:
+- id: 4f0a33ae-639a-4224-91f1-44680686520f
+  channel: email
+  name: Variant 1
+  subject: 'ENDING SOON: Trade Exclusive Discounts!'
+  preheader: From our family of brands.
+- id: 5fa8f205-ccc8-4170-84a6-a43d4ba8e2b5
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 2793
+  total_delivered: 2756
+  total_opens: 1289
+  total_clicks: 65
+  open_rate: 0.4615
+  click_rate: 0.0233
+  total_revenue: 18200.0
+  total_unsubscribes: 5
+_filename: trade_2024_10_22_d_autumn_event_last_chance_combined_email.yaml
+schedule_type: time_based

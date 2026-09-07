@@ -1,0 +1,67 @@
+id: a84d40d3-bd21-4753-a859-04df7ccc06ff
+name: Swatch Post Purchase
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: a84d40d3-bd21-4753-a859-04df7ccc06ff
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-02-04T03:00:00+00:00'
+  last_sent: '2026-05-06T07:00:00+00:00'
+tags: []
+sends:
+- id: 31f11c68-ee17-42e6-8a2a-8707aba0a457
+  channel: email
+  name: TRG_EM_2026_02_BW_D_Swatch_Post_Purchase_T1_V1
+  subject: 'Re: Your Recent Swatch Order'
+  preheader: Here’s what happens next.
+  step_id: 4a37822c-20ed-4da7-95af-1c727363e6e8
+- id: 8407a055-4281-4a2a-b98f-e4ebb7789565
+  channel: email
+  name: TRG_EM_2026_02_BW_D_Swatch_Post_Purchase_T3_V1
+  subject: Start With Our Best Sellers
+  preheader: You can’t go wrong with these favorites.
+  step_id: 6fbc8d51-feda-4823-80ba-eb2ee13844c1
+- id: 2baac239-b45a-4bb7-8821-8d52b595d78a
+  channel: email
+  name: TRG_EM_2026_02_BW_D_Swatch_Post_Purchase_T2_V1
+  subject: Meet The Fabrics
+  preheader: Your swatches are fabric engineered for comfort and performance
+  step_id: cab6a8be-8852-4717-b566-eadca3c652c8
+performance_summary: {}
+canvas_steps:
+- id: 30ccb777-10a0-450f-aa08-4681c3173cdc
+  name: Step
+  type: delay
+- id: ade756f8-ecb5-43e2-bf48-07e94451df9f
+  name: Step 2
+  type: delay
+- id: 4ebc8fb1-9c75-4b47-8470-1f0e3d757487
+  name: Step 3
+  type: delay
+- id: 4a37822c-20ed-4da7-95af-1c727363e6e8
+  name: TRG_EM_2026_02_BW_D_Swatch_Post_Purchase_T1_V1
+  type: message
+  channel: email
+  subject: 'Re: Your Recent Swatch Order'
+  preheader: Here’s what happens next.
+- id: 6fbc8d51-feda-4823-80ba-eb2ee13844c1
+  name: TRG_EM_2026_02_BW_D_Swatch_Post_Purchase_T3_V1
+  type: message
+  channel: email
+  subject: Start With Our Best Sellers
+  preheader: You can’t go wrong with these favorites.
+- id: cab6a8be-8852-4717-b566-eadca3c652c8
+  name: TRG_EM_2026_02_BW_D_Swatch_Post_Purchase_T2_V1
+  type: message
+  channel: email
+  subject: Meet The Fabrics
+  preheader: Your swatches are fabric engineered for comfort and performance
+- id: 2127a2e6-1ab0-4785-9193-c460cd7c4e0a
+  name: Email Available?
+  type: audience_paths
+_filename: swatch-post-purchase-a84d40d3.yaml

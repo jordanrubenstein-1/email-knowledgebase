@@ -1,0 +1,59 @@
+id: 4e98be31-a556-43c7-8db3-41f70287bf64
+name: P_EM_2025_11_21_HAV_CONV_Exclusive_Savings_Sale_Roundup
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 4e98be31-a556-43c7-8db3-41f70287bf64
+dates:
+  send_date: '2025-11-21'
+  inferred_send_type: local_time
+  first_sent: '2025-11-20T19:39:34+00:00'
+  last_sent: '2025-11-21T19:15:36+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 5e340d80-2b2c-4790-b169-73c556b2ff5e
+  channel: email
+  name: Variant 1
+  subject: We Rounded Up The Best Black Friday Furniture Deals
+  preheader: You’re welcome.
+  html_file: html/p_em_2025_11_21_hav_conv_exclusive_savings_sale_roundup.html
+  screenshot: screenshots/p_em_2025_11_21_hav_conv_exclusive_savings_sale_roundup.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691f68c5fc8e5b0064fb6e0a/original.png?1763666117
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691f687ae0dd880063acf9c6/original.gif?1763666042
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691fa8ceb38eb10063792b50/original.png?1763682510
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691f6872e7e2060063e4babd/original.png?1763666033
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691f68bddcd88c00632a8399/original.png?1763666108
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691f68ac0a146e00639e0909/original.png?1763666092
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691f9669b7e37800739d0a02/original.png?1763677800
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691f68e3d3a3f10063000740/original.png?1763666147
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691f68cf84326e00637e9298/original.png?1763666127
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691f690380dc74006590afa2/original.png?1763666179
+- id: e0c3a728-b3f8-4c0a-a84a-3878794ff2b9
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 24014
+  total_delivered: 23994
+  total_opens: 11731
+  total_clicks: 276
+  open_rate: 0.4885
+  click_rate: 0.0115
+  total_bounces: 1
+  total_unsubscribes: 34
+  ga4:
+    sessions: 400
+    purchases: 4
+    revenue: 4864.39
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.069846'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.742526'
+schedule_type: time_based

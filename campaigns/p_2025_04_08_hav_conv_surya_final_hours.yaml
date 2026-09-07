@@ -1,0 +1,33 @@
+id: 8c9789d4-78d7-429e-9f2e-d799b0e1061e
+name: P_2025_04_08_HAV_CONV_Surya_Final_Hours
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 8c9789d4-78d7-429e-9f2e-d799b0e1061e
+dates:
+  send_date: '2025-04-08'
+  first_sent: '2025-04-07T18:22:19+00:00'
+  last_sent: '2025-04-08T17:15:06+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: bd40372f-0a32-4dc3-875b-2d3cd8262553
+  channel: email
+  name: Variant 1
+  subject: 'Check out now: up to 30% off Surya ends soon!'
+- id: b4679d3b-2926-485b-af58-47284fc76d71
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 39339
+  total_delivered: 39250
+  total_opens: 22131
+  total_clicks: 234
+  open_rate: 0.5626
+  click_rate: 0.0059
+  total_unsubscribes: 65
+schedule_type: time_based
+_filename: p_2025_04_08_hav_conv_surya_final_hours.yaml

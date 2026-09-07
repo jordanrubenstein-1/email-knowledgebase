@@ -1,0 +1,30 @@
+id: d8db6ab5-2749-457c-b493-2ee16c3c1dce
+name: 20250806_Fall_Preview_SMS
+brand: BUR
+channel: sms
+category: other
+type: seasonal
+theme: fall
+braze_id: d8db6ab5-2749-457c-b493-2ee16c3c1dce
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-08-06T02:09:26+00:00'
+  last_sent: '2025-08-07T01:01:05+00:00'
+tags: []
+sends:
+- id: 8f50ed2e-b020-473f-a9f0-601fe8c9ac14
+  channel: other
+  name: Variant 1
+- id: 72fff6f6-c35b-4d69-afeb-10d565d46fe4
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 222
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.027852'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

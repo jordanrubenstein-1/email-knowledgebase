@@ -1,0 +1,29 @@
+id: b1ef9144-2e45-4559-bf0e-1e3a6e2b89ba
+name: P_2024_10_18_PT_CZ_PR_ Anniversary_Sale_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: b1ef9144-2e45-4559-bf0e-1e3a6e2b89ba
+dates:
+  send_date: '2024-10-18'
+  last_sent: '2024-10-18'
+tags:
+- batch and blast/promo
+sends:
+- id: da798d0a-6441-4f65-9a01-62d99f5c327e
+  channel: email
+  name: Variant 1
+  subject: 'Final Weekend: Up to 20% Off'
+  html_file: html/p_2024_10_18_pt_cz_pr_-anniversary_sale_email.html
+  screenshot: screenshots/p_2024_10_18_pt_cz_pr_-anniversary_sale_email.png
+- id: 1d5a1756-9145-408b-9b14-140a94703bdb
+  channel: other
+  name: Control Group
+performance_summary: {}
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.466007'
+schedule_type: time_based

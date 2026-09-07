@@ -1,0 +1,119 @@
+id: 0ae879ec-6af3-47b9-8021-867ee9998146
+name: Design Fee Abandon
+brand: HAV
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: 0ae879ec-6af3-47b9-8021-867ee9998146
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-30T03:00:00+00:00'
+  last_sent: '2025-12-13T14:00:00+00:00'
+tags:
+- Automated-Lifecycle-Campaigns
+sends:
+- id: d1fdb358-aabb-474b-b2d0-b98a112827cd
+  channel: email
+  name: TRG_EM_2024_09_HAV_CONV_PT_Design_Fee_Abandon_T1_V1
+  subject: I can't wait to get started!
+  preheader: ''
+  step_id: 6465a191-b4c4-4ae6-b91d-ad56b4a87a27
+- id: 748e9cf6-9821-4b72-a62b-8c745b0e45e6
+  channel: email
+  name: TRG_EM_2024_09_HAV_CONV_PT_Design_Fee_Abandon_T2_V1
+  subject: Don't forget your design package!
+  preheader: ''
+  step_id: 6e29bee0-ef29-4356-bb8d-1a9752202d91
+- id: 2902f96a-f5e9-4a7d-85f8-f29395883de3
+  channel: email
+  name: TRG_EM_2024_09_HAV_CONV_PT_Design_Fee_Abandon_T1_V1
+  subject: We can't wait to get started!
+  preheader: ''
+  step_id: ceeb8e9a-200e-4431-b53d-301d7de3a5d6
+- id: a19dbbc2-90ec-46d2-865e-d6f300c78690
+  channel: email
+  name: TRG_EM_2024_09_HAV_CONV_PT_Design_Fee_Abandon_T2_V1
+  subject: Don't forget your design package!
+  preheader: ''
+  step_id: 4a9ba895-90fc-42e5-81ea-4269e68e026f
+performance_summary:
+  total_entries: 1894
+  total_sends: 3171
+  total_delivered: 3147
+  total_opens: 2207
+  total_clicks: 139
+  open_rate: 0.696
+  click_rate: 0.0438
+  total_unsubscribes: 63
+  total_bounces: 8
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.482281'
+    source: snowflake
+    channel: email
+canvas_steps:
+- id: 6465a191-b4c4-4ae6-b91d-ad56b4a87a27
+  name: TRG_EM_2024_09_HAV_CONV_PT_Design_Fee_Abandon_T1_V1
+  type: message
+  channel: email
+  subject: I can't wait to get started!
+  preheader: ''
+- id: bb7f5657-84d1-4d42-98be-3a38bd3e3c66
+  name: Step 1
+  type: delay
+- id: 14af3f14-196f-417b-ae15-e2d5cdbe09fb
+  name: Step 2
+  type: decision_split
+- id: 6e29bee0-ef29-4356-bb8d-1a9752202d91
+  name: TRG_EM_2024_09_HAV_CONV_PT_Design_Fee_Abandon_T2_V1
+  type: message
+  channel: email
+  subject: Don't forget your design package!
+  preheader: ''
+- id: 0a03362a-b6b8-4abf-a866-a6ba4b93647f
+  name: Step 4
+  type: delay
+- id: ceeb8e9a-200e-4431-b53d-301d7de3a5d6
+  name: TRG_EM_2024_09_HAV_CONV_PT_Design_Fee_Abandon_T1_V1
+  type: message
+  channel: email
+  subject: We can't wait to get started!
+  preheader: ''
+- id: 929cb64c-14f8-482b-80de-d6ad7e74efff
+  name: Step 5
+  type: delay
+- id: 4a9ba895-90fc-42e5-81ea-4269e68e026f
+  name: TRG_EM_2024_09_HAV_CONV_PT_Design_Fee_Abandon_T2_V1
+  type: message
+  channel: email
+  subject: Don't forget your design package!
+  preheader: ''
+- id: bba5eb59-e779-4523-9b4f-b5f2ff55f023
+  name: Step
+  type: decision_split
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: hav_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: hav_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:39.991441'

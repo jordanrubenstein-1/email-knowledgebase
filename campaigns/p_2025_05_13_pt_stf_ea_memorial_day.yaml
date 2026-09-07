@@ -1,0 +1,64 @@
+id: 2808a061-4968-4109-ba7f-e737fb80a805
+name: P_2025_05_13_PT_STF_EA_Memorial_Day
+brand: STF
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 2808a061-4968-4109-ba7f-e737fb80a805
+dates:
+  send_date: '2025-05-13'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-13T03:04:34+00:00'
+  last_sent: '2025-05-13T17:01:06+00:00'
+tags: []
+sends:
+- id: 1a6d468f-ef1f-4c4d-b4e9-2fcea7ec03d0
+  channel: email
+  name: Variant 1
+  subject: 'Just For You: 30% Off Sitewide'
+  preheader: be the first to shop our Memorial Day Event
+- id: 4321b880-12ff-4181-979b-b9d0aa10978b
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 20405
+  total_delivered: 20192
+  total_opens: 10244
+  total_clicks: 394
+  open_rate: 0.502
+  click_rate: 0.0193
+  total_revenue: 21051.5
+  total_unsubscribes: 44
+  ga4:
+    sessions: 524
+    purchases: 15
+    revenue: 6724.26
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.066732'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-st-frank-2025-05-13
+    name: St Frank
+    start_date: '2025-05-13'
+    end_date: '2025-05-13'
+    discount: "The Memorial Day Event\n30% off sitewide (B2C) \n35% off Trade\nEarly\
+      \ Access: No code; EA messaging and strikethrough live on-site from 5/13"
+    type: null
+  primary_sale:
+    id: stf-st-frank-2025-05-13
+    name: St Frank
+    start_date: '2025-05-13'
+    end_date: '2025-05-13'
+    discount: "The Memorial Day Event\n30% off sitewide (B2C) \n35% off Trade\nEarly\
+      \ Access: No code; EA messaging and strikethrough live on-site from 5/13"
+    type: null
+  sale_name: St Frank
+  sale_discount: "The Memorial Day Event\n30% off sitewide (B2C) \n35% off Trade\n\
+    Early Access: No code; EA messaging and strikethrough live on-site from 5/13"
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:43.356651'
+schedule_type: time_based

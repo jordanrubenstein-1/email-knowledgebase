@@ -1,0 +1,76 @@
+id: 4e8c15bb-cc30-48b9-8807-a68c2403b38a
+name: P_2024_12_01_D_CZ_BFCM_December_Edit
+brand: CZ
+channel: email
+category: editorial
+type: announcement
+theme: black_friday
+braze_id: 4e8c15bb-cc30-48b9-8807-a68c2403b38a
+dates:
+  send_date: '2024-12-01'
+  inferred_send_type: local_time
+  first_sent: '2024-11-30T17:06:37+00:00'
+  last_sent: '2024-12-01T17:01:08+00:00'
+tags:
+- batch and blast/promo
+sends:
+- id: fdc7cae3-313f-4cbd-8f2b-a624762eefd8
+  channel: email
+  name: Variant 1
+  subject: The December Edit
+  preheader: Cheers to ending the year on a festive note.
+  html_file: html/p_2024_12_01_d_cz_bfcm_december_edit.html
+  screenshot: screenshots/p_2024_12_01_d_cz_bfcm_december_edit.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6747c2758c230d006358841e/original.jpg?1732756085
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6748928037bce30065b87ae4/original.jpg?1732809344
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67489281791a9000646d09f5/original.jpg?1732809345
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67489281592c170066f616ff/original.jpg?1732809344
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674896164de32700632a1ded/original.jpg?1732810261
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6748928028db800064ee5308/original.jpg?1732809344
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6747c2768fa813006589053f/original.jpg?1732756085
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6747c25f0fe679006331008e/original.jpg?1732756063
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67489280592c170083f5ee06/original.jpg?1732809344
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674892814de32700632a1aad/original.jpg?1732809345
+- id: 69f99081-745a-4d02-b60c-fe4a02fdb27f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 94531
+  total_delivered: 93897
+  total_opens: 45203
+  total_clicks: 843
+  open_rate: 0.4782
+  click_rate: 0.0089
+  total_revenue: 280785.48
+  total_bounces: 3
+  total_unsubscribes: 209
+  ga4:
+    sessions: 1167
+    purchases: 13
+    revenue: 7454.77
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.522480'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-01'
+    discount: null
+    type: null
+  primary_sale:
+    id: cz-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-01'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:43.403403'
+schedule_type: time_based

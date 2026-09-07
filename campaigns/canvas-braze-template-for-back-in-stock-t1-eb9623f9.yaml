@@ -1,0 +1,24 @@
+id: eb9623f9-8eff-496c-8e73-c2a0153160b1
+name: In-Product Msg & Email
+brand: CZ
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: e2317c1c-435a-4abb-9f74-b2dd8b4e3b7c
+canvas_name: Braze Template For Back In Stock
+flow_type: back_in_stock
+sequence_position: 1
+subject: Don't forget about these new arrivals!
+preheader: ''
+sends:
+- id: eb9623f9-8eff-496c-8e73-c2a0153160b1
+  channel: email
+  name: In-Product Msg & Email
+  subject: Don't forget about these new arrivals!
+  preheader: ''
+  html_file: html/canvas-braze-template-for-back-in-stock-t1-eb9623f9.html
+dates:
+  first_sent: null
+  last_sent: null
+performance_summary: {}

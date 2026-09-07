@@ -1,0 +1,46 @@
+id: 516e69dc-f87f-4b42-a249-8bca4301c35b
+name: P_2025_03_16_ID_New_Arrivals_Roundup
+brand: ID
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 516e69dc-f87f-4b42-a249-8bca4301c35b
+dates:
+  send_date: '2025-03-16'
+  inferred_send_type: local_time
+  first_sent: '2025-03-16T00:55:57+00:00'
+  last_sent: '2025-03-16T17:15:09+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 57feb1e3-26af-4ef6-9d32-050e67b4bbf0
+  channel: email
+  name: Variant 1
+  subject: New In. On Sale.
+  preheader: Get 20% off our latest arrivals.
+- id: dcec87f3-3f1b-4577-a034-fe0183ecb103
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 129081
+  total_delivered: 127640
+  total_opens: 33662
+  total_clicks: 585
+  open_rate: 0.2608
+  click_rate: 0.0045
+  total_revenue: 185154.95
+  total_unsubscribes: 115
+  ga4:
+    sessions: 808
+    purchases: 5
+    revenue: 8995.64
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.179743'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.329637'
+schedule_type: time_based

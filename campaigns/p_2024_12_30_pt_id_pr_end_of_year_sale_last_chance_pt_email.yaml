@@ -1,0 +1,34 @@
+id: f466a6b7-360b-4978-85fa-8a11684627b8
+name: P_2024_12_30_PT_ID_PR_End_of_Year_Sale_Last_Chance_PT_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: f466a6b7-360b-4978-85fa-8a11684627b8
+dates:
+  send_date: '2024-12-30'
+  inferred_send_type: scheduled
+  first_sent: '2024-12-30T14:15:02+00:00'
+  last_sent: '2024-12-30T14:17:07+00:00'
+tags: []
+sends:
+- id: e2a74100-e2a1-410d-9758-630951299fb5
+  channel: email
+  name: Variant 1
+  subject: 'ONLY HOURS LEFT: 20% off sitewide!'
+- id: 1a2f4ce9-4d27-413f-8429-f043a4f65acf
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 92487
+  total_delivered: 91636
+  total_opens: 24591
+  total_clicks: 374
+  open_rate: 0.2659
+  click_rate: 0.004
+  total_revenue: 185932.5
+  total_bounces: 1
+  total_unsubscribes: 119
+_filename: p_2024_12_30_pt_id_pr_end_of_year_sale_last_chance_pt_email.yaml
+schedule_type: time_based

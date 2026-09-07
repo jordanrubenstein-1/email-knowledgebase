@@ -1,0 +1,68 @@
+# Secrets
+.env
+.streamlit/secrets.toml
+streamlit-deploy-*/.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.venv_run/
+venv/
+
+# uv
+.python-version
+
+# OS
+.DS_Store
+
+# Node
+node_modules/
+package-lock.json
+
+# Imports (raw API data)
+imports/
+
+# Campaign screenshots (12GB - too large for git, regenerate with backfill_html_screenshots.py)
+# Use wildcard (not trailing slash) so rendered/ subdirectory can be un-ignored below
+campaigns/screenshots/*
+!campaigns/screenshots/rendered/
+campaigns/screenshots/rendered/*.processed.html
+
+# Claude Code
+.claude/*
+!.claude/settings.json
+
+# Debug screenshots (Playwright automation artifacts)
+debug_*.png
+scripts/debug_*.png
+
+# Braze automation
+scripts/braze_automation/.session_state.json
+scripts/braze_automation/.webhook_secret
+scripts/braze_automation/screenshot_*.png
+scripts/braze_automation/error_*.png
+scripts/braze_automation/ui_*.png
+scripts/braze_automation/debug_*.png
+scripts/braze_automation/fail_dup_*.png
+
+# Local-only automation state (rewritten every run by a LaunchAgent against
+# this one machine's checkout — git tracking serves no purpose, unlike the
+# GitLab-CI-driven anomaly-alert state files which must be committed to
+# persist across each job's fresh clone)
+data/lee_task_completion_notifications.yaml
+
+# Generated artifacts
+scripts/analysis/link_check_results.txt
+scripts/gen_*_slide.js
+
+# Playwright
+.playwright-mcp/
+
+# Git bundles
+*.bundle
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/

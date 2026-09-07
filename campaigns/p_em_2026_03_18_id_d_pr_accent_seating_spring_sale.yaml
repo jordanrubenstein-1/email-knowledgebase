@@ -1,0 +1,35 @@
+id: 29359c52-c990-46f6-acd9-d79dfd712ed2
+name: P_EM_2026_03_18_ID_D_PR_Accent_Seating_Spring_Sale
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: spring
+braze_id: 29359c52-c990-46f6-acd9-d79dfd712ed2
+dates:
+  send_date: '2026-03-18'
+  inferred_send_type: scheduled
+  first_sent: '2026-03-18T03:29:00+00:00'
+  last_sent: '2026-03-18T17:02:54+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 1cd27264-b3ff-4bc6-adb6-d15815ef3573
+  channel: email
+  name: Variant 1
+  subject: '25% off sitewide: Spring Refresh Sale'
+  preheader: Shop the seating designed to stand out or layer in.
+- id: 9ab8f7ae-d0fd-4d0d-a8be-d2fe5d8839ad
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 128182
+  total_delivered: 127876
+  total_opens: 48260
+  total_clicks: 463
+  open_rate: 0.3765
+  click_rate: 0.0036
+  total_revenue: 129212.94
+  total_bounces: 5
+  total_unsubscribes: 175
+schedule_type: time_based

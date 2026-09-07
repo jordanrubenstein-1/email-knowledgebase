@@ -1,0 +1,47 @@
+id: 4c69014f-3eb8-4809-862e-dee000d64b46
+name: P_EM_2025_12_11_ID_D_In_Stock
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 4c69014f-3eb8-4809-862e-dee000d64b46
+dates:
+  send_date: '2025-12-11'
+  inferred_send_type: local_time
+  first_sent: '2025-12-10T22:48:54+00:00'
+  last_sent: '2025-12-11T17:16:32+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 71eb7dd2-0ca0-46cb-a35e-74ee9b7a77ee
+  channel: email
+  name: Variant 1
+  subject: No Waiting Required
+  preheader: Our most-loved designs are in stock and shipping fast.
+- id: 5b360939-c03f-452b-8f95-9b6190a2a314
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 123298
+  total_delivered: 123192
+  total_opens: 48191
+  total_clicks: 942
+  open_rate: 0.3908
+  click_rate: 0.0076
+  total_revenue: 44346.74
+  total_bounces: 5
+  total_unsubscribes: 208
+  ga4:
+    sessions: 1362
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.660179'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.995571'
+schedule_type: time_based

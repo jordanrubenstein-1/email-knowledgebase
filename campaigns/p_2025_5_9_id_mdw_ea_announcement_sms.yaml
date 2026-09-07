@@ -1,0 +1,30 @@
+id: 64f4b698-f545-4e51-962f-6439a8ee5760
+name: P_2025_5_9_ID_MDW_EA_Announcement_SMS
+brand: ID
+channel: sms
+category: sale_promo
+type: product_launch
+theme: null
+braze_id: 64f4b698-f545-4e51-962f-6439a8ee5760
+dates:
+  send_date: '2025-05-09'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-09T21:14:16+00:00'
+  last_sent: '2025-05-09T21:16:22+00:00'
+tags: []
+sends:
+- id: 84f6de56-8ea8-4e06-bc77-627d86fdef5e
+  channel: other
+  name: Variant 1
+- id: 4cc0209e-22be-42d3-a0fa-2a2f522b3522
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 58521
+  total_delivered: 54904
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 14389.25
+schedule_type: time_based

@@ -1,0 +1,59 @@
+id: 4efe6ce8-069e-4c95-b1da-163eb150ccd3
+name: P_2024_09_12_D_CZ_PR_Towels_Feature_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 4efe6ce8-069e-4c95-b1da-163eb150ccd3
+dates:
+  send_date: '2024-09-12'
+  inferred_send_type: local_time
+  first_sent: '2024-09-12T00:59:56+00:00'
+  last_sent: '2024-09-12T17:00:23+00:00'
+tags:
+- batch and blast
+sends:
+- id: 6d97046d-f2aa-4b67-8380-db3c34373975
+  channel: email
+  name: Variant 1
+  subject: Indulge In This Everyday Luxury
+  preheader: From plush terry to lightweight waffle weave, find your perfect towel
+    match.
+  html_file: html/p_2024_09_12_d_cz_pr_towels_feature_email.html
+  screenshot: screenshots/p_2024_09_12_d_cz_pr_towels_feature_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e1a615e904660066ebafcc/original.jpg?1726064149
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e1a69de33161006520da26/original.jpg?1726064285
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e1a6224a697900651c8b95/original.jpg?1726064162
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e1a677e33161006520d9f2/original.jpg?1726064247
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e1a8722296190064a19ea6/original.jpg?1726064754
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e1a87e4a697900721c8cf8/original.jpg?1726064765
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e1a66696d25b0065cf8586/original.jpg?1726064229
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e1a6aae33161006520da32/original.jpg?1726064297
+- id: 88d77efb-79ba-4e02-802b-96c05dfbe898
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 73135
+  total_delivered: 73030
+  total_opens: 41648
+  total_clicks: 777
+  open_rate: 0.5695
+  click_rate: 0.0106
+  total_revenue: 28267.67
+  total_bounces: 4
+  total_unsubscribes: 142
+  ga4:
+    sessions: 503
+    purchases: 5
+    revenue: 3101.69
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.071662'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.604011'
+schedule_type: time_based

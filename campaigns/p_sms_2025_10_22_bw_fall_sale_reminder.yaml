@@ -1,0 +1,38 @@
+id: 40897a7c-0ff1-4e01-97da-58cd6aff232c
+name: P_SMS_2025_10_22_BW_Fall_Sale_Reminder
+brand: BUR
+channel: sms
+category: reminder
+type: sale
+theme: fall
+braze_id: 40897a7c-0ff1-4e01-97da-58cd6aff232c
+dates:
+  send_date: '2025-10-22'
+  inferred_send_type: local_time
+  first_sent: '2025-10-22T01:09:15+00:00'
+  last_sent: '2025-10-23T01:00:21+00:00'
+tags: []
+sends:
+- id: 616af345-4b30-4048-8aa5-f2a9c9774f69
+  channel: sms
+  name: Variant 1
+- id: 3fb9d6a9-e0cd-466b-9fbf-0a52f40cbdc6
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 6222
+  total_delivered: 6129
+  total_opens: 0
+  total_clicks: 212
+  open_rate: 0.0
+  click_rate: 0.0341
+  total_revenue: 14458.0
+  ga4:
+    sessions: 100
+    purchases: 1
+    revenue: 853.8
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.693864'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

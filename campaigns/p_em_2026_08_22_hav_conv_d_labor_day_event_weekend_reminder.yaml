@@ -1,0 +1,33 @@
+id: fa619b81-f372-4a6a-be66-c9a40a7d7adb
+name: P_EM_2026_08_22_HAV_CONV_D_Labor_Day_Event_Weekend_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: fa619b81-f372-4a6a-be66-c9a40a7d7adb
+dates:
+  send_date: '2026-08-22'
+  last_sent: '2026-08-22'
+tags:
+- BLASTS-2025
+sends:
+- id: 76dbe106-dd66-40f7-b9ec-c2a6f3323411
+  channel: email
+  name: Variant 1
+  subject: 'This weekend: up to 20% off'
+  preheader: Plus an extra 5% off select vendors on sale.
+- id: 25881295-2b52-450f-a15d-83c3d7da8af0
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 42479
+  total_delivered: 42403
+  total_opens: 19833
+  total_clicks: 77
+  open_rate: 0.4669
+  click_rate: 0.0018
+  total_bounces: 3
+  total_unsubscribes: 52
+schedule_type: time_based
+_filename: p_em_2026_08_22_hav_conv_d_labor_day_event_weekend_reminder.yaml

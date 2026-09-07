@@ -1,0 +1,17 @@
+{% assign event_properties_line_items_var = {event_properties.${line_items}} %}
+{% assign contains_tableware_var = false %}
+
+{% for item in event_properties_line_items_var %}
+  {% catalog_items the-citizenry_shopify_catalog item.shopify_product_id %}
+  {% if items[0].product_type == 'Tableware' %}
+    {% assign contains_tableware_var = true %}
+  {% endif %}
+{% endfor %}
+
+{% if contains_tableware_var %}
+  <p>Great news! Some of your selected items are from our exclusive Tableware collection. Enjoy your shopping!</p>
+{% else %}
+  <p>No Tableware items found in the order</p>
+
+<!-- {% abort_message('No Tableware items found in the order') %}-->
+{% endif %}

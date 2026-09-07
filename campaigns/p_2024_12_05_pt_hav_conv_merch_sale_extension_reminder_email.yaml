@@ -1,0 +1,32 @@
+id: b4cdcd72-b7bb-455d-8e15-1228deea94dd
+name: P_2024_12_05_PT_HAV_Conv_Merch_Sale_Extension_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: b4cdcd72-b7bb-455d-8e15-1228deea94dd
+dates:
+  send_date: '2024-12-05'
+  first_sent: '2024-12-05T07:10:33+00:00'
+  last_sent: '2024-12-05T17:15:08+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 39cc3aea-92de-45e2-822c-b175037bf7f6
+  channel: email
+  name: Variant 1
+  subject: 'Re: Your Extended Cyber Week Offer'
+- id: 4414e11a-82ad-45d6-a2ee-6e1f7933f9f9
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 35979
+  total_delivered: 35914
+  total_opens: 22754
+  total_clicks: 416
+  open_rate: 0.6324
+  click_rate: 0.0116
+  total_unsubscribes: 87
+schedule_type: time_based
+_filename: p_2024_12_05_pt_hav_conv_merch_sale_extension_reminder_email.yaml

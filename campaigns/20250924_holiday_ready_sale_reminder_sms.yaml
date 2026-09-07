@@ -1,0 +1,30 @@
+id: eaa68f41-52e4-43c1-a6e2-4eec475fda4f
+name: 20250924_Holiday_Ready_Sale_Reminder_SMS
+brand: BUR
+channel: sms
+category: reminder
+type: sale
+theme: christmas
+braze_id: eaa68f41-52e4-43c1-a6e2-4eec475fda4f
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-09-24T03:21:10+00:00'
+  last_sent: '2025-09-25T01:02:08+00:00'
+tags: []
+sends:
+- id: c33cfc8d-4d8e-41c2-a6fb-0a805b80ffac
+  channel: other
+  name: Variant 1
+- id: fba25d59-52e8-4136-98db-fd1efbc228e4
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 79
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.340912'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

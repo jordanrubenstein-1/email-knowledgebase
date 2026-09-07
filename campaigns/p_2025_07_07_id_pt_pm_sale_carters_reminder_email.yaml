@@ -1,0 +1,46 @@
+id: fcf6fa3f-7f95-44fa-be74-759af3a9591c
+name: P_2025_07_07_ID_PT_PM_Sale_Carters_Reminder_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: fcf6fa3f-7f95-44fa-be74-759af3a9591c
+dates:
+  send_date: '2025-07-07'
+  inferred_send_type: scheduled
+  first_sent: '2025-07-07T22:52:59+00:00'
+  last_sent: '2025-07-07T22:53:18+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: f231dae3-e3b2-448a-babc-68a694bc1667
+  channel: email
+  name: Variant 1
+  subject: 'ENDS TOMORROW: Your cart is up to 25% off'
+- id: 8813dd2c-e111-425a-b9ce-ac14e6ceaf95
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 4340
+  total_delivered: 4311
+  total_opens: 2288
+  total_clicks: 29
+  open_rate: 0.5272
+  click_rate: 0.0067
+  total_revenue: 98410.0
+  total_bounces: 1
+  total_unsubscribes: 5
+  ga4:
+    sessions: 22
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.459920'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:35.507400'
+schedule_type: time_based

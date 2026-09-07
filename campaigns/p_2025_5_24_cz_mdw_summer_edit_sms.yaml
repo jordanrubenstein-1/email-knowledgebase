@@ -1,0 +1,38 @@
+id: a337875b-d439-4b8e-a15f-c1a45c38219f
+name: P_2025_5_24_CZ_MDW_Summer_Edit_SMS
+brand: CZ
+channel: sms
+category: editorial
+type: seasonal
+theme: summer
+braze_id: a337875b-d439-4b8e-a15f-c1a45c38219f
+dates:
+  send_date: '2025-05-24'
+  inferred_send_type: local_time
+  first_sent: '2025-05-24T01:18:00+00:00'
+  last_sent: '2025-05-25T00:10:12+00:00'
+tags: []
+sends:
+- id: 2d3cc9a2-2c5b-4ddf-8b13-c4b8eda83b8e
+  channel: other
+  name: Variant 1
+- id: 5b5dc597-4c51-46c4-a3aa-5c9ba933f3ef
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 24095
+  total_delivered: 23436
+  total_opens: 0
+  total_clicks: 377
+  open_rate: 0.0
+  click_rate: 0.0156
+  total_revenue: 26212.83
+  ga4:
+    sessions: 505
+    purchases: 7
+    revenue: 1869.26
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.452018'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

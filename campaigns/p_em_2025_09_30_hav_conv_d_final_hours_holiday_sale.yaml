@@ -1,0 +1,34 @@
+id: 7eac3762-9138-44f6-92aa-74c30d9e8dbb
+name: P_EM_2025_09_30_HAV_CONV_D_Final_Hours_Holiday_Sale
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: christmas
+braze_id: 7eac3762-9138-44f6-92aa-74c30d9e8dbb
+dates:
+  send_date: '2025-09-30'
+  first_sent: '2025-09-30T02:08:35+00:00'
+  last_sent: '2025-10-01T02:00:59+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: d68b4b94-189a-4cef-b962-28c6896a7eec
+  channel: email
+  name: Variant 1
+  subject: FINAL HOURS TO SAVE BIG
+  preheader: This is your last chance to get your home holiday-ready.
+- id: 0fddaa17-85f0-4c2c-a5e8-91791b51d663
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41941
+  total_delivered: 41913
+  total_opens: 21752
+  total_clicks: 94
+  open_rate: 0.5186
+  click_rate: 0.0022
+  total_unsubscribes: 42
+schedule_type: time_based
+_filename: p_em_2025_09_30_hav_conv_d_final_hours_holiday_sale.yaml

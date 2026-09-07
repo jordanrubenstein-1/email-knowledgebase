@@ -1,0 +1,27 @@
+id: e63767c0-c103-4404-8858-7477f9234080
+name: Test_AbandonedCart_Tableware
+brand: CZ
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: e63767c0-c103-4404-8858-7477f9234080
+dates: {}
+tags: []
+sends:
+- id: 08456d6b-566b-4c99-adf0-96cca6cf874f
+  channel: email
+  name: Variant 1
+  subject: Abandoned Cart with tableware
+  html_file: html/test_abandonedcart_tableware.html
+  screenshot: screenshots/test_abandonedcart_tableware.png
+- id: 817452a4-5c54-4831-815c-c9aee9435555
+  channel: other
+  name: Control Group
+- id: be8cd83d-ca72-49dd-bfde-97d289643ad5
+  channel: email
+  name: Variant 2
+  subject: Abandoned Cart with tableware
+performance_summary: {}
+_filename: test_abandonedcart_tableware-e63767c0.yaml
+schedule_type: action_based

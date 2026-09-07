@@ -1,0 +1,97 @@
+# Template for Plain Text Email Campaign Configuration
+# Copy this file and fill in the details to create a new campaign
+#
+# GUARDRAILS - These will be automatically validated:
+# 1. Personalization: Body must start with "Hi {{${first_name} | default: 'there'}}"
+# 2. CTA Links: All links must be on brand domain (not external)
+# 3. Body Structure: Must have at least 2 paragraphs and 100+ characters
+# 4. Preheader: Required (correlates with +8.7pt open rate)
+# 5. Subject Quality: Warnings for ALL CAPS, percent signs, questions (brand-specific)
+# 6. Repetition: Warnings if subject/preheader/body repeat same content
+# 7. Link Count: Warning if more than 2 links (0-2 links perform 92% better)
+#
+# See validation output for specific recommendations based on brand and content.
+
+campaign:
+  # Campaign metadata
+  # Name convention: [TYPE]_[CHANNEL]_[YYYY]_[MM]_[DD]_[BRAND]_[DESIGN]_[HAV_AUDIENCE?]_[CONTENT_TYPE?]_Description
+  # Types: P (Promotional), OT (Transactional), CX, WTL, SEG
+  # Channels: EM, SMS, PUSH | Design: D (Designed), H (HTML), PT (Plain-Text)
+  # Brands: HAV, CZ, SF, ID, TI, BW (Burrow), TRADE
+  # HAV audience (HAV only): PC (Pre-Converted), CONV (Converted)
+  # Content types (optional): BIS, CLR, CS, GTL, PF, RTS, UGC, etc.
+  name: "P_EM_2026_01_15_HAV_PT_PC_Sale_Reminder"  # Required: Campaign name following naming convention
+  brand: "HAV"  # Required: Brand code (HAV, CZ, ID, BUR/BW, STF/SF, TI)
+  category: "reminder"  # Required: reminder, sale_promo, editorial, product_launch, other
+  type: "announcement"  # Required: sale, seasonal, product_launch, lifecycle, announcement
+  
+  # Send schedule
+  send:
+    date: "2025-01-15"  # Required: Send date in YYYY-MM-DD format
+    time: "14:00"  # Required: Send time in 24-hour format (HH:MM)
+    timezone: "America/New_York"  # Required: IANA timezone (e.g., "America/New_York", "UTC")
+    
+  # Email content
+  email:
+    # Subject line best practices:
+    # - Use "You/Your" for +2.2pt open rate (especially CZ: +6.8pt)
+    # - Avoid ALL CAPS (-4.4pt open, except BUR where it works)
+    # - Avoid percent signs (-3.4pt open rate)
+    # - Avoid questions (-2.7pt open rate)
+    # - Optimal length: 10-100 characters
+    subject: "Your discount is now up to 70% off"  # Required: Email subject line
+    
+    # Preheader best practices:
+    # - REQUIRED: Correlates with +8.7pt open rate vs no preheader
+    # - Optimal length: 60-90 characters (47.6% open rate)
+    # - Should be complementary to subject, not repetitive
+    # - Add new information rather than restating subject
+    preheader: "Shop our best deals before they're gone"  # Required: Email preheader text (60-90 chars optimal)
+    
+    # Body best practices:
+    # - MUST start with: Hi {{${first_name} | default: 'there'}},
+    # - Must have at least 2 paragraphs (separated by blank lines or <br> tags)
+    # - Minimum 100 characters
+    # - Can include HTML formatting (<br>, <a> tags) - plain text emails use HTML editor
+    # - Avoid repeating subject line or preheader verbatim
+    body: |  # Required: Plain text email body
+      Hi {{${first_name} | default: 'there'}},
+      
+      This is your first paragraph. It should provide context and value to the reader.
+      
+      This is your second paragraph. It should continue the message and include a clear call-to-action. Make sure you have at least 2 paragraphs separated by blank lines.
+    
+    # Call-to-action links
+    # Best practices:
+    # - At least one CTA link required
+    # - All URLs must be on brand domain (not external)
+    # - 0-2 links perform 92% better than 2-5 links (1.81% vs 0.94% click rate)
+    # - Use action-oriented text (Shop, View, Discover) vs generic "Click here"
+    # Brand domains:
+    #   HAV: havenly.com
+    #   CZ: the-citizenry.com
+    #   ID: interiordefine.com
+    #   BUR: burrow.com
+    #   STF: stfrank.com
+    #   TI: theinside.com
+    cta_links:  # Required: At least one CTA link (0-2 recommended for best performance)
+      - text: "Shop Now"  # Required: Link text (use action verbs)
+        url: "https://example.com/shop"  # Required: Full URL (must be on brand domain)
+        priority: 1  # Optional: Priority order (lower numbers first)
+  
+  # Audience configuration
+  audience:
+    type: "segment"  # Required: segment, connected_audience, or user_list
+    id: "segment-uuid-here"  # Required if type is "segment": Braze segment ID
+    
+    # Alternative audience options (use one):
+    # external_user_ids: ["user1", "user2"]  # For user_list type
+    # connected_audience_id: "audience-uuid"  # For connected_audience type
+  
+  # Campaign settings
+  settings:
+    subscription_group: "Marketing"  # Required: "Marketing" or "Transactional"
+    frequency_capping:  # Optional: Frequency capping settings
+      enabled: true
+      max_sends: 1  # Maximum number of sends per user
+      period_days: 7  # Period in days for frequency cap

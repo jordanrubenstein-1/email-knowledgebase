@@ -1,0 +1,42 @@
+id: fe87b291-2052-4d65-9940-162c1cea76c8
+name: P_EM_2026_04_06_SF_D_Category_Feature_Pillows
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: fe87b291-2052-4d65-9940-162c1cea76c8
+dates:
+  send_date: '2026-04-06'
+  inferred_send_type: scheduled
+  first_sent: '2026-04-06T13:53:27+00:00'
+  last_sent: '2026-04-07T00:02:20+00:00'
+tags:
+- Batch and Blast
+sends:
+- id: 69205c75-a74e-426b-876e-80c16384f9fd
+  channel: email
+  name: Variant 1
+  subject: A strong argument for more pillows
+  preheader: 'Layer bold color and and even bolder prints. '
+  html_file: html/p_em_2026_04_06_sf_d_category_feature_pillows.html
+  screenshot: screenshots/p_em_2026_04_06_sf_d_category_feature_pillows.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69cffcc4a2b83800ab5d1cc5/original.png?1775238339
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69cffcc68e375100aac3fec5/original.png?1775238341
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69cffcb593cf8d00a90e482a/original.png?1775238325
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69cffcc662753d00a9bc934d/original.png?1775238341
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69cffccd1033e900a8c4ae99/original.png?1775238348
+- id: d433c3c6-5480-4ebf-b8f3-439acbaca0bd
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 36944
+  total_delivered: 36418
+  total_opens: 11732
+  total_clicks: 164
+  open_rate: 0.3176
+  click_rate: 0.0044
+  total_revenue: 64996.0
+  total_unsubscribes: 25
+schedule_type: time_based

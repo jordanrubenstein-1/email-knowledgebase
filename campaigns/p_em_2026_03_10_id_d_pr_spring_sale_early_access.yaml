@@ -1,0 +1,35 @@
+id: 4e1f0857-0b8b-4a0d-9e98-240cadddf8c6
+name: P_EM_2026_03_10_ID_D_PR_Spring_Sale_Early_Access
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: spring
+braze_id: 4e1f0857-0b8b-4a0d-9e98-240cadddf8c6
+dates:
+  send_date: '2026-03-10'
+  inferred_send_type: local_time
+  first_sent: '2026-03-09T20:56:32+00:00'
+  last_sent: '2026-03-10T17:04:17+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: eac43ec7-0c83-41ee-bae9-c4ba72c45602
+  channel: email
+  name: Variant 1
+  subject: 'JUST FOR YOU: Early Access'
+  preheader: 25% off sitewide during the Spring Refresh Sale.
+- id: 1b5f21bf-bc50-4a58-b418-10f8ba2435d1
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 218637
+  total_delivered: 217063
+  total_opens: 92379
+  total_clicks: 1198
+  open_rate: 0.4225
+  click_rate: 0.0055
+  total_revenue: 243215.93
+  total_bounces: 9
+  total_unsubscribes: 272
+schedule_type: time_based

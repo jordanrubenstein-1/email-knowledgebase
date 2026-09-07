@@ -1,0 +1,47 @@
+id: 2e1f6f81-d0f8-48d2-a7de-ec30993dd122
+name: P_2025_07_05_ID_D_In_Stock_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 2e1f6f81-d0f8-48d2-a7de-ec30993dd122
+dates:
+  send_date: '2025-07-05'
+  inferred_send_type: local_time
+  first_sent: '2025-07-04T18:22:00+00:00'
+  last_sent: '2025-07-05T17:15:14+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 11b6acf7-5235-453a-9eec-eb27348f5e24
+  channel: email
+  name: Variant 1
+  subject: NEW In Stock. Now 20% off.
+  preheader: Best sellers delivered in 1-3 weeks.
+- id: a744fe74-d036-4286-b5b4-8a4d328f9872
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 197137
+  total_delivered: 194837
+  total_opens: 90060
+  total_clicks: 937
+  open_rate: 0.4568
+  click_rate: 0.0048
+  total_revenue: 265687.0
+  total_bounces: 6
+  total_unsubscribes: 333
+  ga4:
+    sessions: 1208
+    purchases: 4
+    revenue: 16372.02
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.528513'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.506497'
+schedule_type: time_based

@@ -1,0 +1,32 @@
+id: 296e3b84-bf91-4d3f-ba21-e6e5ad043d85
+name: SEG_2024_10_29_HAV_PT_50_Retention_Offer_Email
+brand: HAV
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 296e3b84-bf91-4d3f-ba21-e6e5ad043d85
+dates:
+  send_date: '2024-10-29'
+  first_sent: '2024-10-29T23:50:35+00:00'
+  last_sent: '2024-10-29T23:52:04+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 86ecef2b-15e2-44a7-a22a-769215ed8c4d
+  channel: email
+  name: Variant 1
+  subject: 'Just for you: $50 off to design another room!'
+- id: 9fa362a3-891c-424d-98f2-b0abccf2220e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 8720
+  total_delivered: 8710
+  total_opens: 5769
+  total_clicks: 52
+  open_rate: 0.6616
+  click_rate: 0.006
+  total_unsubscribes: 18
+schedule_type: time_based
+_filename: seg_2024_10_29_hav_pt_50_retention_offer_email.yaml

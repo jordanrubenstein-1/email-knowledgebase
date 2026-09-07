@@ -1,0 +1,63 @@
+id: 778e7803-23b8-4c59-bdd2-9322a93f040e
+name: P_2024_11_13_D_SF_PR_BFCM_How_to_Style_New_Suzanis_Email
+brand: STF
+channel: email
+category: editorial
+type: product_launch
+theme: black_friday
+braze_id: 778e7803-23b8-4c59-bdd2-9322a93f040e
+dates:
+  send_date: '2024-11-13'
+  inferred_send_type: local_time
+  first_sent: '2024-11-12T23:57:23+00:00'
+  last_sent: '2024-11-13T15:00:24+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: 86e9998e-4492-44d9-926e-96fec680eb26
+  channel: email
+  name: Variant 1
+  subject: It’s always suzani season
+  preheader: plus, save up to 35% off for Black Friday VIP Early Access
+- id: 34c9838b-d19a-415e-845f-2b2d8e4a371d
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 8559
+  total_delivered: 8508
+  total_opens: 2903
+  total_clicks: 111
+  open_rate: 0.3392
+  click_rate: 0.013
+  total_revenue: 39300.15
+  total_bounces: 5
+  total_unsubscribes: 9
+  ga4:
+    sessions: 134
+    purchases: 3
+    revenue: 4139.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.109035'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-early-access-2024-11-12
+    name: Early Access
+    start_date: '2024-11-12'
+    end_date: '2024-11-14'
+    discount: null
+    type: null
+  primary_sale:
+    id: stf-early-access-2024-11-12
+    name: Early Access
+    start_date: '2024-11-12'
+    end_date: '2024-11-14'
+    discount: null
+    type: null
+  sale_name: Early Access
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:44.539834'
+schedule_type: time_based

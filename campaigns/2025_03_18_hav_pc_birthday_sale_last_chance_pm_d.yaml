@@ -1,0 +1,35 @@
+id: b3b29a93-c254-4fb5-b934-76a79d7ba977
+name: 2025_03_18_HAV_PC_Birthday_Sale_Last_Chance_PM_D
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: b3b29a93-c254-4fb5-b934-76a79d7ba977
+dates:
+  send_date: '2025-03-18'
+  first_sent: '2025-03-18T02:07:41+00:00'
+  last_sent: '2025-03-19T03:00:15+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: da7b2eca-84ef-4c65-904e-8d39ea371d80
+  channel: email
+  name: Variant 1
+  subject: 'HOURS LEFT: 50% off design services'
+  preheader: Final chance to save during our Birthday Sale.
+- id: 02503e12-0145-467b-816f-0097ce446afc
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 197583
+  total_delivered: 194157
+  total_opens: 86478
+  total_clicks: 335
+  open_rate: 0.4377
+  click_rate: 0.0017
+  total_bounces: 4
+  total_unsubscribes: 229
+schedule_type: time_based
+_filename: 2025_03_18_hav_pc_birthday_sale_last_chance_pm_d.yaml

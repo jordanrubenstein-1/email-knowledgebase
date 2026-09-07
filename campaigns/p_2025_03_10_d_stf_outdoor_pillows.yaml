@@ -1,0 +1,59 @@
+id: 41c623d5-c270-4bfb-af42-0da9ca26127f
+name: P_2025_03_10_D_STF_Outdoor_Pillows
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 41c623d5-c270-4bfb-af42-0da9ca26127f
+dates:
+  send_date: '2025-03-10'
+  inferred_send_type: local_time
+  first_sent: '2025-03-09T17:08:28+00:00'
+  last_sent: '2025-03-10T17:00:13+00:00'
+tags: []
+sends:
+- id: 354edd06-4227-4866-8d9a-3eaac1d39315
+  channel: email
+  name: Variant 1
+  subject: 'Fresh Batch: Outdoor Pillows'
+  preheader: just in time for al-fresco season
+  html_file: html/p_2025_03_10_d_stf_outdoor_pillows.html
+  screenshot: screenshots/p_2025_03_10_d_stf_outdoor_pillows.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cb680f273c9d0064fa0f78/original.png?1741383695
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cb67eac039b50067f0cc3d/original.png?1741383657
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cb67f17daa8600664ec3e0/original.png?1741383665
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cb67f8efdb710067167829/original.png?1741383672
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cb6806342038006590b74f/original.png?1741383686
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cb67ff86a503006688fce8/original.png?1741383679
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cb67c086a503006688fc58/original.png?1741383615
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cb67ac82269f0066ea8bda/original.gif?1741383596
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cb67d9ffea6300675477fa/original.png?1741383640
+- id: 6199692f-161d-447c-acc0-ed5904667605
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 11022
+  total_delivered: 10897
+  total_opens: 6330
+  total_clicks: 259
+  open_rate: 0.5743
+  click_rate: 0.0235
+  total_revenue: 20347.0
+  total_bounces: 1
+  total_unsubscribes: 52
+  ga4:
+    sessions: 309
+    purchases: 4
+    revenue: 1119.3
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.915420'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.380178'
+schedule_type: time_based

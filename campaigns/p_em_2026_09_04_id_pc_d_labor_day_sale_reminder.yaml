@@ -1,0 +1,36 @@
+id: c0b923f1-9f23-401f-8f8f-f74fd34c96c1
+name: P_EM_2026_09_04_ID_PC_D_Labor_Day_Sale_Reminder
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: c0b923f1-9f23-401f-8f8f-f74fd34c96c1
+dates:
+  send_date: '2026-09-04'
+  first_sent: '2026-09-04T22:02:08+00:00'
+  last_sent: '2026-09-04T22:14:19+00:00'
+  inferred_send_type: scheduled
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 64c14e15-d2ec-46aa-ab48-1d138bfa887d
+  channel: email
+  name: Variant 1
+  subject: 'Our best discount ever: up to 35% off'
+  preheader: The Labor Day Event is on.
+- id: 10eee52b-72ef-445d-b706-37dcb837c845
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 173299
+  total_delivered: 172566
+  total_opens: 46354
+  total_clicks: 593
+  open_rate: 0.2675
+  click_rate: 0.0034
+  total_revenue: 74179.99
+  total_bounces: 3
+  total_unsubscribes: 76
+schedule_type: time_based
+_filename: p_em_2026_09_04_id_pc_d_labor_day_sale_reminder.yaml

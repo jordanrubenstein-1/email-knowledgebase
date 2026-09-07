@@ -1,0 +1,312 @@
+id: 9ac09497-6f79-498b-b320-e44a784c3340
+name: Swatch Post Purchase
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 9ac09497-6f79-498b-b320-e44a784c3340
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-04-28T21:00:00+00:00'
+  last_sent: '2026-06-14T16:00:00+00:00'
+tags: []
+sends:
+- id: bb39daf7-393c-47bd-84c2-6c7c5d7ee678
+  channel: email
+  name: TRG_EM_2026_04_ID_D_Swatch_UGC_Three_Homes_T9_V1
+  subject: 3 homes that started with swatches, just like yours
+  preheader: ''
+  step_id: 080949e1-7c8d-4558-ad19-11dcf91c3ac0
+- id: 6dcb010c-4bab-4ece-823d-aeb7875e4d93
+  channel: email
+  name: TRG_EM_2026_04_ID_D_Swatch_Best_Sellers_T3_V1a
+  subject: Your swatches + our best sellers = a match
+  preheader: ''
+  step_id: 37ec31a7-4bcb-47d9-b1ab-356f4afc5cf7
+- id: 103134e0-4b57-4192-bc4b-66efafa4094e
+  channel: email
+  name: TRG_EM_2026_04_ID_D_Swatch_Performance_Fabrics_T8_V1a
+  subject: 'FABRIC TEST: Wine & muddy paws'
+  preheader: ''
+  step_id: bf1bc441-fc8b-40eb-86ec-81ad638b1e10
+- id: 44f2df61-1a1e-4bb7-8a43-1992d766e4de
+  channel: email
+  name: TRG_EM_2026_04_ID_D_Swatch_Fabrics_T1_V1
+  subject: Found your fabric match?
+  preheader: ''
+  step_id: a726a7c8-4d3a-4d57-8591-7043985b0371
+- id: 5fd16036-8108-49de-9787-53b361a074ae
+  channel: email
+  name: TRG_EM_2026_04_ID_D_Swatch_Best_Sellers_T3_V1b
+  subject: Best sellers that pair perfectly with your swatches
+  preheader: ''
+  step_id: 3101bae4-c4ee-4f01-b949-0caa53a074d0
+- id: f3c7841d-be1d-4c0e-b436-081716768801
+  channel: email
+  name: TRG_EM_2026_04_ID_D_Swatch_Performance_Fabrics_T8_V1b
+  subject: 'Fabric test: how does your swatch hold up to wine & muddy paws?'
+  preheader: ''
+  step_id: d92defb4-1dc7-498f-a99a-7b2d23ec5ee1
+- id: eedbcb63-8fe5-48e2-9f97-6fba97677a9a
+  channel: email
+  name: TRG_EM_2026_04_ID_PT_Swatch_Chat_T5_V1
+  subject: Just ask. A designer is ready to chat right now.
+  preheader: Don't guess. Just ask us.
+  step_id: 42b56891-235f-48bc-88ac-100e00e05742
+- id: 6bc5103a-ad3b-4ab1-8ec5-dd78e2909f3a
+  channel: email
+  name: TRG_EM_2026_04_ID_D_Swatch_Sectional_Buying_Guide_T6_V1
+  subject: Swatches in hand?
+  preheader: Explore configurations designed to work with the fabrics you love.
+  step_id: f1a47ebc-6909-4e2e-9b6e-9ffdcc94d69d
+- id: 7bce1cec-d6a7-4db8-9cde-ce776be0de47
+  channel: email
+  name: TRG_EM_2026_04_ID_PT_Swatch_Personalized_T7_V1
+  subject: '{%- assign style = canvas_entry_properties.design_style | default: ''''
+    -%}{%- if style contains ''Modern'' -%}{%- assign style_label = ''modern'' -%}{%-
+    elsif style contains ''Classic'' -%}{%- assign style_label = ''classic'' -%}{%-
+    elsif style contains ''Eclectic'' -%}{%- assign style_label = ''eclectic'' -%}{%-
+    elsif style contains ''Minimalist'' -%}{%- assign style_label = ''minimalist''
+    -%}{%- elsif style contains ''Family-Friendly'' -%}{%- assign style_label = ''family-friendly''
+    -%}{%- else -%}{%- assign style_label = '''' -%}{%- endif -%}{%- if style_label
+    != '''' -%}Your {{style_label}} space is coming together{%- else -%}Your space
+    is coming together{%- endif -%}'
+  preheader: ''
+  step_id: 83495d03-2b4f-4dfa-bf98-f7527e468ae0
+- id: c936cf03-64da-4009-9ed0-215be5b5def7
+  channel: email
+  name: TRG_EM_2026_04_ID_D_Swatch_Visit_Store_T4_V1
+  subject: Your free design consultation
+  preheader: Book time with an Interior Define expert.
+  step_id: ebd79b17-1ef2-4789-a654-b6ab1b15a2b6
+- id: 7a643db6-8fd2-4633-a32f-8fa0eaea5f0a
+  channel: email
+  name: TRG_EM_2026_04_ID_PT_Swatch_Personalized_T10_V1
+  subject: '{%- assign shopping = canvas_entry_properties.shopping_for | default:
+    '''' -%}{%- if shopping contains ''Sleeper Sofas'' -%}{%- assign item = ''sleeper
+    sofa'' -%}{%- elsif shopping contains ''Sectionals'' -%}{%- assign item = ''sectional''
+    -%}{%- elsif shopping contains ''Sofas'' -%}{%- assign item = ''sofa'' -%}{%-
+    elsif shopping contains ''Chairs/Chaises'' -%}{%- assign item = ''chair or chaise''
+    -%}{%- elsif shopping contains ''Ottomans'' -%}{%- assign item = ''ottoman'' -%}{%-
+    elsif shopping contains ''Beds'' -%}{%- assign item = ''bed'' -%}{%- elsif shopping
+    contains ''Dining'' -%}{%- assign item = ''dining furniture'' -%}{%- else -%}{%-
+    assign item = '''' -%}{%- endif -%}{%- if item != '''' -%}Want help choosing the
+    right {{ item }}?{%- else -%}Want help choosing the right piece?{%- endif -%}'
+  preheader: ''
+  step_id: b34ac477-f553-4ddf-8984-d680c0ba60d8
+- id: 29c75b9f-5e15-4443-888e-6d2f1f4238cf
+  channel: email
+  name: TRG_EM_2026_04_ID_D_Swatch_BNDL_T11_V1
+  subject: Order now. Finalize your fabric on your own time.
+  preheader: A bit more time with your swatches while we prep your piece
+  step_id: ea91fbf4-5861-4692-a7a8-2b1a2c14d4d2
+- id: 11e18a90-4a8d-4d12-ac6e-866ac8f1335c
+  channel: email
+  name: TRG_EM_2026_04_ID_PT_Swatch_Personalized_T12_V1
+  subject: '{%- assign shopping = canvas_entry_properties.shopping_for | default:
+    '''' -%}{%- if shopping contains ''Sleeper Sofas'' -%}{%- assign item = ''sleeper
+    sofa'' -%}{%- elsif shopping contains ''Sectionals'' -%}{%- assign item = ''sectional''
+    -%}{%- elsif shopping contains ''Sofas'' -%}{%- assign item = ''sofa'' -%}{%-
+    elsif shopping contains ''Chairs/Chaises'' -%}{%- assign item = ''chair or chaise''
+    -%}{%- elsif shopping contains ''Ottomans'' -%}{%- assign item = ''ottoman'' -%}{%-
+    elsif shopping contains ''Beds'' -%}{%- assign item = ''bed'' -%}{%- elsif shopping
+    contains ''Dining'' -%}{%- assign item = ''dining furniture'' -%}{%- else -%}{%-
+    assign item = '''' -%}{%- endif -%}{%- if item != '''' -%}It''s time to finalize
+    your {{ item }}{%- else -%}It''s time to finalize your piece{%- endif -%}'
+  preheader: ''
+  step_id: 2980eafa-b57a-46ea-a496-eab5bd85ff26
+- id: a6dddefd-9ad1-4058-b54d-95199a09c364
+  channel: email
+  name: TRG_EM_2026_04_ID_PT_Swatch_Personalized_T2_V1
+  subject: '{%- assign shopping = canvas_entry_properties.shopping_for | default:
+    '''' -%}{%- if shopping contains ''Sleeper Sofas'' -%}{%- assign item = ''sleeper
+    sofa'' -%}{%- elsif shopping contains ''Sectionals'' -%}{%- assign item = ''sectional''
+    -%}{%- elsif shopping contains ''Sofas'' -%}{%- assign item = ''sofa'' -%}{%-
+    elsif shopping contains ''Chairs/Chaises'' -%}{%- assign item = ''chair or chaise''
+    -%}{%- elsif shopping contains ''Ottomans'' -%}{%- assign item = ''ottoman'' -%}{%-
+    elsif shopping contains ''Beds'' -%}{%- assign item = ''bed'' -%}{%- elsif shopping
+    contains ''Dining'' -%}{%- assign item = ''dining furniture'' -%}{%- else -%}{%-
+    assign item = '''' -%}{%- endif -%}{%- if item != '''' -%}Found "the one" for
+    your {{ item }}?{%- else -%}Found "the one" for your space?{%- endif -%}'
+  preheader: ''
+  step_id: f7663c9a-0e2a-414a-ab13-9c618fd8f3cd
+performance_summary:
+  total_entries: 2299
+  total_sends: 19010
+  total_delivered: 18826
+  total_opens: 7602
+  total_clicks: 118
+  open_rate: 0.3999
+  click_rate: 0.0062
+  total_revenue: 304813.97
+  total_conversions: 67
+  total_unsubscribes: 101
+canvas_steps:
+- id: 080949e1-7c8d-4558-ad19-11dcf91c3ac0
+  name: TRG_EM_2026_04_ID_D_Swatch_UGC_Three_Homes_T9_V1
+  type: message
+  channel: email
+  subject: 3 homes that started with swatches, just like yours
+  preheader: ''
+- id: d6495fac-f7da-43c2-bafe-7ddbb97b4b85
+  name: Step 1
+  type: delay
+- id: 37ec31a7-4bcb-47d9-b1ab-356f4afc5cf7
+  name: TRG_EM_2026_04_ID_D_Swatch_Best_Sellers_T3_V1a
+  type: message
+  channel: email
+  subject: Your swatches + our best sellers = a match
+  preheader: ''
+- id: bf1bc441-fc8b-40eb-86ec-81ad638b1e10
+  name: TRG_EM_2026_04_ID_D_Swatch_Performance_Fabrics_T8_V1a
+  type: message
+  channel: email
+  subject: 'FABRIC TEST: Wine & muddy paws'
+  preheader: ''
+- id: 608d3872-dd87-4e54-9299-94617f1e2877
+  name: Step
+  type: delay
+- id: a726a7c8-4d3a-4d57-8591-7043985b0371
+  name: TRG_EM_2026_04_ID_D_Swatch_Fabrics_T1_V1
+  type: message
+  channel: email
+  subject: Found your fabric match?
+  preheader: ''
+- id: 4969a6a1-3098-423a-a60b-9200cbf00df1
+  name: Step 2
+  type: delay
+- id: e0ad9690-1f49-44cd-8bb7-bba0d708e6c7
+  name: Step 3
+  type: delay
+- id: af48445d-8912-4326-b39a-695273b78eed
+  name: Email available?
+  type: audience_paths
+- id: 4adca753-edc1-46f0-95c3-bbda94b41370
+  name: Step 5
+  type: delay
+- id: 8e1d1933-3b6a-4e10-b715-b3bde08fa50e
+  name: Step 6
+  type: experiment_paths
+- id: 3101bae4-c4ee-4f01-b949-0caa53a074d0
+  name: TRG_EM_2026_04_ID_D_Swatch_Best_Sellers_T3_V1b
+  type: message
+  channel: email
+  subject: Best sellers that pair perfectly with your swatches
+  preheader: ''
+- id: 2fba053c-14f8-42d3-87b5-118c7fd28467
+  name: Step 7
+  type: experiment_paths
+- id: d92defb4-1dc7-498f-a99a-7b2d23ec5ee1
+  name: TRG_EM_2026_04_ID_D_Swatch_Performance_Fabrics_T8_V1b
+  type: message
+  channel: email
+  subject: 'Fabric test: how does your swatch hold up to wine & muddy paws?'
+  preheader: ''
+- id: 42b56891-235f-48bc-88ac-100e00e05742
+  name: TRG_EM_2026_04_ID_PT_Swatch_Chat_T5_V1
+  type: message
+  channel: email
+  subject: Just ask. A designer is ready to chat right now.
+  preheader: Don't guess. Just ask us.
+- id: 9e8842fc-6bd7-48fa-a0c5-5d4e52195a19
+  name: Step 4
+  type: delay
+- id: f1a47ebc-6909-4e2e-9b6e-9ffdcc94d69d
+  name: TRG_EM_2026_04_ID_D_Swatch_Sectional_Buying_Guide_T6_V1
+  type: message
+  channel: email
+  subject: Swatches in hand?
+  preheader: Explore configurations designed to work with the fabrics you love.
+- id: 0b1dd26b-35eb-4bff-aac5-397520c750cb
+  name: Step 8
+  type: delay
+- id: 83495d03-2b4f-4dfa-bf98-f7527e468ae0
+  name: TRG_EM_2026_04_ID_PT_Swatch_Personalized_T7_V1
+  type: message
+  channel: email
+  subject: '{%- assign style = canvas_entry_properties.design_style | default: ''''
+    -%}{%- if style contains ''Modern'' -%}{%- assign style_label = ''modern'' -%}{%-
+    elsif style contains ''Classic'' -%}{%- assign style_label = ''classic'' -%}{%-
+    elsif style contains ''Eclectic'' -%}{%- assign style_label = ''eclectic'' -%}{%-
+    elsif style contains ''Minimalist'' -%}{%- assign style_label = ''minimalist''
+    -%}{%- elsif style contains ''Family-Friendly'' -%}{%- assign style_label = ''family-friendly''
+    -%}{%- else -%}{%- assign style_label = '''' -%}{%- endif -%}{%- if style_label
+    != '''' -%}Your {{style_label}} space is coming together{%- else -%}Your space
+    is coming together{%- endif -%}'
+  preheader: ''
+- id: 3934591a-03cf-40f3-a794-f0b4c530da1d
+  name: Step 9
+  type: delay
+- id: ebd79b17-1ef2-4789-a654-b6ab1b15a2b6
+  name: TRG_EM_2026_04_ID_D_Swatch_Visit_Store_T4_V1
+  type: message
+  channel: email
+  subject: Your free design consultation
+  preheader: Book time with an Interior Define expert.
+- id: a02c5244-8c1f-439b-8ede-994960af1f98
+  name: Step 10
+  type: delay
+- id: ac3e81f5-fad0-4afe-b30c-28c8d011df90
+  name: Step 11
+  type: delay
+- id: b34ac477-f553-4ddf-8984-d680c0ba60d8
+  name: TRG_EM_2026_04_ID_PT_Swatch_Personalized_T10_V1
+  type: message
+  channel: email
+  subject: '{%- assign shopping = canvas_entry_properties.shopping_for | default:
+    '''' -%}{%- if shopping contains ''Sleeper Sofas'' -%}{%- assign item = ''sleeper
+    sofa'' -%}{%- elsif shopping contains ''Sectionals'' -%}{%- assign item = ''sectional''
+    -%}{%- elsif shopping contains ''Sofas'' -%}{%- assign item = ''sofa'' -%}{%-
+    elsif shopping contains ''Chairs/Chaises'' -%}{%- assign item = ''chair or chaise''
+    -%}{%- elsif shopping contains ''Ottomans'' -%}{%- assign item = ''ottoman'' -%}{%-
+    elsif shopping contains ''Beds'' -%}{%- assign item = ''bed'' -%}{%- elsif shopping
+    contains ''Dining'' -%}{%- assign item = ''dining furniture'' -%}{%- else -%}{%-
+    assign item = '''' -%}{%- endif -%}{%- if item != '''' -%}Want help choosing the
+    right {{ item }}?{%- else -%}Want help choosing the right piece?{%- endif -%}'
+  preheader: ''
+- id: 66081116-b3fe-419c-ac09-e11788f2689e
+  name: Step 12
+  type: delay
+- id: ea91fbf4-5861-4692-a7a8-2b1a2c14d4d2
+  name: TRG_EM_2026_04_ID_D_Swatch_BNDL_T11_V1
+  type: message
+  channel: email
+  subject: Order now. Finalize your fabric on your own time.
+  preheader: A bit more time with your swatches while we prep your piece
+- id: 5fc85563-799c-4c1f-b50b-a8305fd31403
+  name: Step 13
+  type: delay
+- id: 2980eafa-b57a-46ea-a496-eab5bd85ff26
+  name: TRG_EM_2026_04_ID_PT_Swatch_Personalized_T12_V1
+  type: message
+  channel: email
+  subject: '{%- assign shopping = canvas_entry_properties.shopping_for | default:
+    '''' -%}{%- if shopping contains ''Sleeper Sofas'' -%}{%- assign item = ''sleeper
+    sofa'' -%}{%- elsif shopping contains ''Sectionals'' -%}{%- assign item = ''sectional''
+    -%}{%- elsif shopping contains ''Sofas'' -%}{%- assign item = ''sofa'' -%}{%-
+    elsif shopping contains ''Chairs/Chaises'' -%}{%- assign item = ''chair or chaise''
+    -%}{%- elsif shopping contains ''Ottomans'' -%}{%- assign item = ''ottoman'' -%}{%-
+    elsif shopping contains ''Beds'' -%}{%- assign item = ''bed'' -%}{%- elsif shopping
+    contains ''Dining'' -%}{%- assign item = ''dining furniture'' -%}{%- else -%}{%-
+    assign item = '''' -%}{%- endif -%}{%- if item != '''' -%}It''s time to finalize
+    your {{ item }}{%- else -%}It''s time to finalize your piece{%- endif -%}'
+  preheader: ''
+- id: f7663c9a-0e2a-414a-ab13-9c618fd8f3cd
+  name: TRG_EM_2026_04_ID_PT_Swatch_Personalized_T2_V1
+  type: message
+  channel: email
+  subject: '{%- assign shopping = canvas_entry_properties.shopping_for | default:
+    '''' -%}{%- if shopping contains ''Sleeper Sofas'' -%}{%- assign item = ''sleeper
+    sofa'' -%}{%- elsif shopping contains ''Sectionals'' -%}{%- assign item = ''sectional''
+    -%}{%- elsif shopping contains ''Sofas'' -%}{%- assign item = ''sofa'' -%}{%-
+    elsif shopping contains ''Chairs/Chaises'' -%}{%- assign item = ''chair or chaise''
+    -%}{%- elsif shopping contains ''Ottomans'' -%}{%- assign item = ''ottoman'' -%}{%-
+    elsif shopping contains ''Beds'' -%}{%- assign item = ''bed'' -%}{%- elsif shopping
+    contains ''Dining'' -%}{%- assign item = ''dining furniture'' -%}{%- else -%}{%-
+    assign item = '''' -%}{%- endif -%}{%- if item != '''' -%}Found "the one" for
+    your {{ item }}?{%- else -%}Found "the one" for your space?{%- endif -%}'
+  preheader: ''
+_filename: swatch-post-purchase-9ac09497.yaml

@@ -1,0 +1,39 @@
+id: ab029eb3-acd4-4fa4-b928-f963fb18d17b
+name: P_EM_2026_05_27_CZ_PC_D_Memorial_Day_Sale_Extension_Launch
+brand: CZ
+channel: email
+category: product_launch
+type: sale
+theme: null
+braze_id: ab029eb3-acd4-4fa4-b928-f963fb18d17b
+dates:
+  send_date: '2026-05-27'
+  last_sent: '2026-05-27'
+tags:
+- batch and blast
+- d2c
+- designed
+- instock
+- pm
+- sale
+- sale/mds2026
+sends:
+- id: f70db6f6-c3d8-4e3b-a2da-e024571c03b6
+  channel: email
+  name: Variant 1
+  subject: 25% off isn't over yet
+  preheader: The Memorial Day Sale has been extended.
+- id: 3c4abb2b-6c72-4942-b0b2-33b360062ff7
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 115389
+  total_delivered: 114989
+  total_opens: 53360
+  total_clicks: 557
+  open_rate: 0.4624
+  click_rate: 0.0048
+  total_bounces: 3
+  total_unsubscribes: 148
+_filename: p_em_2026_05_27_cz_pc_d_memorial_day_sale_extension_launch.yaml
+schedule_type: time_based

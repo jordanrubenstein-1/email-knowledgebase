@@ -1,0 +1,132 @@
+{{content_blocks.${MASTER_HEADER} | id: 'cb1'}}
+{{content_blocks.${nav_us} | id: 'cb2'}}
+                <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; background-color: #F7EEE3">
+                    <tr>
+                        <td>
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 90%">
+                                <tr>
+                                    <td class="pad3020" align="center" style="padding: 40px 0px 20px 0px;"><p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">Hi {{api_trigger_properties.${firstName} | default: "there"}},</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+				
+				{% if {{api_trigger_properties.${delayMsgNum}}} == "1" %}
+				<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; background-color: #F7EEE3">
+                    <tr>
+                        <td>
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 90%">
+                                <tr>
+                                    <td class="pad0035" align="center" style="padding: 0px 0px 40px 0px;">
+                                    <p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">This is your leadership team here at Burrow. We wanted to reach out to provide an update on your order.</p>
+                                    <br>
+									<p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">At this time, your Burrow {{api_trigger_properties.${itemName}}} will be shipping out later than we originally expected. Currently, your {{api_trigger_properties.${itemName}}} order is slated to ship out during the week of {{api_trigger_properties.${estimatedShipDate}}}. We’re so sorry for the added wait and we’ll keep you posted if anything&nbsp;changes.</p>
+									<br>
+									<p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">With that in mind, we’re hoping to be as transparent as possible. We’ve outlined the situation and some questions you may have, below. If there’s anything else we can help with, please send a separate email to <a href="mailto:support@burrow.com" style="font-family: 'NeuzeitSLTW01-BookHeavy', Arial, 'sans-serif'; color:#383633; text-decoration: none">support@burrow.com</a> and we'll get back to you as soon as&nbsp;possible.</p>
+									<br>
+									<p style="Margin: 0; padding: 0; text-align: left; font-family: 'NeuzeitSLTW01-BookHeavy', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">What caused this delay?</p>
+									<p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">Our supply chain has been significantly impacted as demand for both materials and shipping containers remains at an all-time high. Everything from our fabrics, to hardware, and lumber have been delayed recently – and ports across the U.S. are experiencing significant bottlenecks. We’re continuing to work through these shortages and backlogs with our manufacturers in real-time, but unfortunately, are falling short despite our very best&nbsp;efforts.</p>
+									<br>
+									<p style="Margin: 0; padding: 0; text-align: left; font-family: 'NeuzeitSLTW01-BookHeavy', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">Why didn’t you tell me until now?</p>
+									<p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">We know the extended wait is inconvenient, and want to assure you that we’re committed to communicating real-time updates as we receive them. We’re doing our best to get your order out the door as soon as we can – but it’s possible it could be delayed again. Once your order ships, you’ll be sent an email with tracking information so you can watch your shipment’s&nbsp;progress.</p>
+									<br>
+									<p style="Margin: 0; padding: 0; text-align: left; font-family: 'NeuzeitSLTW01-BookHeavy', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">Is it too late to cancel my order?</p>
+									<p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">Not at all. If you’d like to cancel, please email <a href="mailto:support@burrow.com" style="text-decoration: none; color: #383633">support@burrow.com</a> with your order number and we’ll issue a refund ASAP to be reflected on your bank statement within 5&#8209;7 business days. We’re sorry to have let you down, and we hope you’ll give us another chance in the future. Please note: once an order is canceled, it will be removed from the&nbsp;queue.</p>
+									<br>
+									<p style="Margin: 0; padding: 0; text-align: left; font-family: 'NeuzeitSLTW01-BookHeavy', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">Will the order get delayed again?</p>
+									<p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">Your new delivery estimate is based on the latest and most accurate information we have, but unfortunately, there is a possibility that orders might experience further delays. We guarantee we’ll keep you informed the moment we have an update – and we appreciate your continued patience and support as we work through these supply chain&nbsp;complications.</p>
+									<br>
+									<p style="Margin: 0; padding: 0; text-align: left; font-family: 'NeuzeitSLTW01-BookHeavy', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">Is there anything I can do to expedite my&nbsp;order?</p>
+									<p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">Orders are shipped in the sequence they were placed – and therefore, we’re not able to expedite nor change your order in the queue right now. If you need something sooner, you can check out products listed on our <a class="cta-underline" href="https://burrow.com/ready-to-ship?utm_source=burrow&utm_medium=email&utm_campaign=cx-delay&utm_content=comm1-ready-to-ship&lid=ln5wtnzj40ur" style="text-decoration: none; color: #383633; border-bottom: 1px solid #383633"><!--[if (gte mso 9)|(IE)]><span style="color: #FFFFFF; text-decoration: underline;"><![endif]-->Ready to Ship<!--[if (gte mso 9)|(IE)]></span><![endif]--></a> page – all of which are in-stock and ready to be shipped within four&nbsp;weeks.</p>
+									<br>
+									<p style="Margin: 0; padding: 0; text-align: left; font-family: 'NeuzeitSLTW01-BookHeavy', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">Why do you continue to launch new products and promote&nbsp;sales?</p>
+									<p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">Like many companies, we plan our product launches and sales months in advance – incorporating customer needs and feedback into each moment. We are consistently adding new partners to diversify our supply chain and manufacturing footprint. These investments allow us to offer more products overall and create more efficient shipping timelines. All that said, our goal is to keep launching new products – while also allowing customers like you to take advantage of the best possible prices during our seasonal promotions. Rest assured, our shipping timelines take each of these considerations into account so our new products and sales do not impact your current&nbsp;order.</p>
+									<br>
+									<p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">Warm Regards,</p>
+									<p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">The Burrow Team</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+				{% elsif {{api_trigger_properties.${delayMsgNum}}} = 2 %}
+				
+				<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; background-color: #F7EEE3">
+                    <tr>
+                        <td>
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 90%">
+                                <tr>
+                                    <td class="padpad0035" align="center" style="padding: 0px 0px 40px 0px;">
+                                    <p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">This is your leadership team here at Burrow. I am writing with another update on your {{api_trigger_properties.${itemName}}}.</p>
+                                    <br>
+									<p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">Unfortunately, due to additional supply chain complications your order is now scheduled to ship out during the week of {{api_trigger_properties.${estimatedShipDate}}}.</p>
+									<br>
+									<p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">We understand that this is disheartening to hear and apologize again for the inconvenience. We are doing our very best to communicate all order impacts as soon as we discover them – so that you have the most up&#8209;to&#8209;date information.</p>
+									<br>
+									<p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">If there’s anything else we can help with, please send a separate email to <a href="mailto:support@burrow.com" style="text-decoration: none; color: #383633">support@burrow.com</a> and we'll get back to you as soon as&nbsp;possible.</p>
+									<br>
+									<p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">Thank you for your understanding. And please stay tuned for tracking information, once it becomes&nbsp;available.</p>
+									<br>
+									<p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">Warm Regards,</p>
+									<p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">The Burrow Team</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+
+				{% elsif {{api_trigger_properties.${delayMsgNum}}} = 3 %}
+				<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; background-color: #F7EEE3">
+                    <tr>
+                        <td>
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 90%">
+                                <tr>
+                                    <td class="pad0035" align="center" style="padding: 0px 0px 40px 0px;">
+                                    <p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">Hey this is the leadership team here at Burrow. We emailed you earlier regarding your order – and I'm stepping in to share some disappointing news, as additional information has just become available to&nbsp;us.</p>
+                                    <br>
+									<p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">Currently, we now expect your {{api_trigger_properties.${itemName}}} to be shipped the week of {{api_trigger_properties.${estimatedShipDate}}}.</p>
+									<br>
+									<p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">I know this is frustrating – but we’ve experienced an additional delay in production due to supply chain disruptions. We want to express how sorry we are for the added delay. We'll be in touch with tracking details once it has&nbsp;shipped.</p>
+									<br>
+									<p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">If there’s anything else we can help with, please send a separate email to <a href="mailto:support@burrow.com" style="text-decoration: none; color: #383633">support@burrow.com</a> and we'll get back to you as soon as&nbsp;possible.</p>
+									<br>
+									<p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">We’re grateful for your continued patience and thank you for trusting us to outfit your&nbsp;home.</p>
+									<br>
+									<p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">Best wishes,</p>
+									<p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">Burrow Leadership Team</p>
+                                  </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+
+				{% elsif {{api_trigger_properties.${delayMsgNum}}} = 4 %}
+				<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; background-color: #F7EEE3">
+                    <tr>
+                        <td>
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 90%">
+                                <tr>
+                                    <td class="pad0035" align="center" style="padding: 0px 0px 40px 0px;">
+                                    <p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">Hey its the leadership team at Burrow. I realize we have already written to you multiple times regarding the status of your {{api_trigger_properties.${itemName}}}.</p>
+                                    <br>
+									<p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">We are in constant communication with our suppliers – but as it stands, we are still awaiting the materials required to fulfill your order. We understand this is well beyond the expected date and we are working as fast as possible with our manufacturers to get it out of the&nbsp;door.</p>
+									<br>
+									<p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">At the present rate of production we are expected to fulfill your order by {{api_trigger_properties.${estimatedShipDate format="long"}}}.</p>
+									<br>
+									<p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">This is not the experience we want for our customers and we understand if you wish to cancel your order. Please let us know if this is the case and we will prioritize your request and refund you as soon as&nbsp;possible.</p>
+									<br>
+									<p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">Our best,</p>
+									<p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">Burrow Leadership Team</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+{% endif %}				
+{{content_blocks.${footer_us} | id: 'cb3'}}

@@ -1,0 +1,58 @@
+id: db18515f-8cb0-46f3-94bd-75cf1ea8f1cc
+name: P_2024_08_12_D_CZ_PF_Runner_Feature_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: db18515f-8cb0-46f3-94bd-75cf1ea8f1cc
+dates:
+  send_date: '2024-08-12'
+  inferred_send_type: local_time
+  first_sent: '2024-08-11T19:09:53+00:00'
+  last_sent: '2024-08-12T16:50:03+00:00'
+tags: []
+sends:
+- id: f7887242-09af-4db9-8e1d-81af6c2995f6
+  channel: email
+  name: Variant 1
+  subject: The Runner Rundown
+  preheader: Hallways. Kitchens. Bathrooms. We've got you covered with our collection
+    of best-selling runners.
+  html_file: html/p_2024_08_12_d_cz_pf_runner_feature_email.html
+  screenshot: screenshots/p_2024_08_12_d_cz_pf_runner_feature_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b626b1a947e70065130ebf/original.jpg?1723213489
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b62652c6e4f70063eeb827/original.jpg?1723213394
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b39d4f0eadd500702101c5/original.jpg?1723047247
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b39db83e02360061d9a76f/original.jpg?1723047351
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b39e0fff83e0006179f020/original.jpg?1723047439
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b39e20247cd100626d7e0a/original.jpg?1723047456
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b39dcb339463006387ba85/original.jpg?1723047371
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b39d313e02360070d98e9a/original.jpg?1723047217
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b39cddff83e0007f79e1a7/original.jpg?1723047133
+- id: 2ddb8bb6-6e66-4440-a41a-03c0203e5313
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 37556
+  total_delivered: 37526
+  total_opens: 23862
+  total_clicks: 920
+  open_rate: 0.6354
+  click_rate: 0.0245
+  total_revenue: 14730.97
+  total_unsubscribes: 60
+  ga4:
+    sessions: 866
+    purchases: 3
+    revenue: 2587.82
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.380358'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.276421'
+schedule_type: time_based

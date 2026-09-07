@@ -1,0 +1,25 @@
+id: c76631e5-bd1d-4420-9609-52ae323afc4f
+name: 20241121_BFCM-Range-Highlight
+brand: BUR
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: c76631e5-bd1d-4420-9609-52ae323afc4f
+dates: {}
+tags: []
+sends:
+- id: a591af59-8538-4d88-b96b-2895a85c60ae
+  channel: email
+  name: Variant 1
+  subject: This best seller is on major sale
+  preheader: Sink in to our Range collection.
+- id: 5be07523-4aee-4f12-9aa7-dd01e589d59d
+  channel: other
+  name: Control Group
+performance_summary: {}
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.605295'
+schedule_type: time_based

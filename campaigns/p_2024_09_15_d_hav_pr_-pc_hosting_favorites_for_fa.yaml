@@ -1,0 +1,58 @@
+id: 0be7187d-1eeb-4a4c-85e7-4a05526456b1
+name: P_2024_09_15_D_HAV_PR_ PC_Hosting_Favorites_for_Fall _Email
+brand: HAV
+channel: email
+category: other
+type: seasonal
+theme: fall
+braze_id: 0be7187d-1eeb-4a4c-85e7-4a05526456b1
+dates:
+  send_date: '2024-09-15'
+  inferred_send_type: local_time
+  first_sent: '2024-09-14T18:45:55+00:00'
+  last_sent: '2024-09-15T17:15:03+00:00'
+tags: []
+sends:
+- id: e15a78f4-1e86-4b1f-afe8-c9e4e302e343
+  channel: email
+  name: Variant 1
+  subject: Host with the most!
+  preheader: The holidays are just around the corner
+  html_file: html/p_2024_09_15_d_hav_pr_-pc_hosting_favorites_for_fall-_email.html
+  screenshot: screenshots/p_2024_09_15_d_hav_pr_-pc_hosting_favorites_for_fall-_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e334fc3321a600639f8e59/original.jpg?1726166268
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e3357aa5d740006385d095/original.jpg?1726166394
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e334653321a600729f7ead/original.jpg?1726166116
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e334ab0d4e3b0074541542/original.jpg?1726166187
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e3356da5d740006385d089/original.jpg?1726166381
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e33596a5d740007285c019/original.jpg?1726166421
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e333f20d4e3b00655418da/original.jpg?1726166001
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e334800c87a5006584cd4a/original.jpg?1726166144
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e3351b0c87a5006584ced5/original.jpg?1726166299
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e335b4c70379006603f1ba/original.jpg?1726166451
+- id: c2b01fc3-c024-4eae-804f-bf1acfa406ec
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 90058
+  total_delivered: 89040
+  total_opens: 47877
+  total_clicks: 632
+  open_rate: 0.5316
+  click_rate: 0.007
+  total_bounces: 1
+  total_unsubscribes: 596
+  ga4:
+    sessions: 424
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.350435'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.758862'
+schedule_type: time_based

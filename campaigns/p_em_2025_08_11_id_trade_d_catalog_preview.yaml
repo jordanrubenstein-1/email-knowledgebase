@@ -1,0 +1,63 @@
+id: 83737f0d-b3ee-4fb3-980d-e63135de7c64
+name: P_EM_2025_08_11_ID_TRADE_D_Catalog_Preview
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 83737f0d-b3ee-4fb3-980d-e63135de7c64
+dates:
+  send_date: '2025-08-11'
+  inferred_send_type: local_time
+  first_sent: '2025-08-11T00:22:58+00:00'
+  last_sent: '2025-08-11T19:00:16+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: acbf51d5-4544-4ccd-8c64-4bc9d565c3ac
+  channel: email
+  name: Variant 1
+  subject: Something New from Interior Define
+  preheader: Shop our August catalog and get 25% off for a limited time.
+- id: 670e453c-70c5-4cac-b15f-dcbb04291fd3
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 19834
+  total_delivered: 19265
+  total_opens: 9963
+  total_clicks: 102
+  open_rate: 0.5023
+  click_rate: 0.0051
+  total_revenue: 121618.0
+  total_bounces: 2
+  total_unsubscribes: 48
+  ga4:
+    sessions: 135
+    purchases: 1
+    revenue: 2070.47
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.338565'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off sitewide
+    type: null
+  primary_sale:
+    id: id-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off sitewide
+    type: null
+  sale_name: The Sunset Sale
+  sale_discount: 20% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:34.050848'
+schedule_type: time_based

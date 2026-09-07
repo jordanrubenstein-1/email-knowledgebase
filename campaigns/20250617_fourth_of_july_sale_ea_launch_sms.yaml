@@ -1,0 +1,30 @@
+id: ee17a07b-d002-4e9a-9500-6ac9f9048904
+name: 20250617_Fourth_of_July_Sale_EA_Launch_SMS
+brand: BUR
+channel: sms
+category: product_launch
+type: sale
+theme: null
+braze_id: ee17a07b-d002-4e9a-9500-6ac9f9048904
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-06-17T02:05:18+00:00'
+  last_sent: '2025-06-18T01:00:11+00:00'
+tags: []
+sends:
+- id: d69609f1-3309-4cf1-a9d1-237a6ddf3935
+  channel: other
+  name: Variant 1
+- id: 870aca32-c3af-4d7d-8b38-227a81565ccf
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 323
+    purchases: 2
+    revenue: 2079.35
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.858753'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

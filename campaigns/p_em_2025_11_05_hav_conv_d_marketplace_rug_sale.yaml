@@ -1,0 +1,35 @@
+id: c2573f71-b549-4a41-a0ea-ea6ebe619dcb
+name: P_EM_2025_11_05_HAV_CONV_D_MARKETPLACE_RUG_SALE
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: c2573f71-b549-4a41-a0ea-ea6ebe619dcb
+dates:
+  send_date: '2025-11-05'
+  first_sent: '2025-11-05T01:22:22+00:00'
+  last_sent: '2025-11-06T01:16:03+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: f0ae547b-e83d-4439-82f9-d717c91909cf
+  channel: email
+  name: Variant 1
+  subject: FINAL DAYS for up to 60% off rugs.
+  preheader: Shop now for best selection
+- id: dc144502-7092-4155-ba11-1044427f0901
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 16773
+  total_delivered: 16754
+  total_opens: 7658
+  total_clicks: 99
+  open_rate: 0.4566
+  click_rate: 0.0059
+  total_bounces: 1
+  total_unsubscribes: 27
+schedule_type: time_based
+_filename: p_em_2025_11_05_hav_conv_d_marketplace_rug_sale.yaml

@@ -1,0 +1,35 @@
+id: 43498d04-1c96-4bac-967b-93063b897cdf
+name: P_EM_2026_02_12_ID_D_PR_Statement_Seating_Presidents_Day_Sale_PM
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 43498d04-1c96-4bac-967b-93063b897cdf
+dates:
+  send_date: '2026-02-12'
+  inferred_send_type: local_time
+  first_sent: '2026-02-12T00:08:37+00:00'
+  last_sent: '2026-02-13T00:04:00+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: a2884424-3436-4ab9-9e97-64184b9b6a0e
+  channel: email
+  name: Variant 1
+  subject: Up to 30% Off Accent Chairs
+  preheader: Seating designed to elevate every corner.
+- id: 8c29c12f-4e4c-4288-9e47-bb9e13822d08
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 126251
+  total_delivered: 126118
+  total_opens: 50136
+  total_clicks: 625
+  open_rate: 0.3971
+  click_rate: 0.005
+  total_revenue: 469277.77
+  total_bounces: 5
+  total_unsubscribes: 159
+schedule_type: time_based

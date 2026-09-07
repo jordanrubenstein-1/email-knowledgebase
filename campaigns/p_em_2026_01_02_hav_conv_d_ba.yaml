@@ -1,0 +1,34 @@
+id: 6e0041ee-b53e-4774-b706-9b2fda741a68
+name: P_EM_2026_01_02_HAV_CONV_D_BA
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 6e0041ee-b53e-4774-b706-9b2fda741a68
+dates:
+  send_date: '2026-01-02'
+  first_sent: '2026-01-01T17:21:58+00:00'
+  last_sent: '2026-01-02T17:16:09+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 41dd10f5-39cf-4416-8375-be67ad9ea120
+  channel: email
+  name: Variant 1
+  subject: Make 2026 Your Happily Ever AFTER
+  preheader: It's the perfect time to redesign with up to 15% off sitewide
+- id: 2ff48f37-220a-4f89-a95d-a75c432f0e0f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 43241
+  total_delivered: 43228
+  total_opens: 22491
+  total_clicks: 88
+  open_rate: 0.5201
+  click_rate: 0.002
+  total_unsubscribes: 76
+schedule_type: time_based
+_filename: p_em_2026_01_02_hav_conv_d_ba.yaml

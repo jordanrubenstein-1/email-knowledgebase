@@ -1,0 +1,46 @@
+id: f6c117d0-0167-4a5c-bbba-abf53f8a9020
+name: P_2024_09_30_D_ID_Sale_Last_Chance_AM_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: f6c117d0-0167-4a5c-bbba-abf53f8a9020
+dates:
+  send_date: '2024-09-30'
+  inferred_send_type: local_time
+  first_sent: '2024-09-29T17:15:02+00:00'
+  last_sent: '2024-09-30T17:15:13+00:00'
+tags: []
+sends:
+- id: 9ca88c0f-e5ec-458d-be4e-0e175e777be7
+  channel: email
+  name: Variant 1
+  subject: 'ENDS @ MIDNIGHT: 20% off sitewide'
+  preheader: Last chance to shop the September Sale
+- id: e38341d0-364b-4d4e-a54a-6ae7639f1f4f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 54309
+  total_delivered: 53613
+  total_opens: 18609
+  total_clicks: 414
+  open_rate: 0.3427
+  click_rate: 0.0076
+  total_revenue: 617950.91
+  total_bounces: 2
+  total_unsubscribes: 117
+  ga4:
+    sessions: 517
+    purchases: 8
+    revenue: 21041.53
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.614555'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.631635'
+schedule_type: time_based

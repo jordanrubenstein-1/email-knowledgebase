@@ -1,0 +1,32 @@
+id: 249a831b-4f37-4eed-aa97-8b6a1eccf15a
+name: P_2025_2_17_HAV_Conv_PM_PT_ PDW_Sale_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 249a831b-4f37-4eed-aa97-8b6a1eccf15a
+dates:
+  send_date: '2025-02-17'
+  first_sent: '2025-02-17T02:23:17+00:00'
+  last_sent: '2025-02-18T02:15:09+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 41b4d5cb-da55-45ce-9cce-71c875d1b34d
+  channel: email
+  name: Variant 1
+  subject: Up to 70% off ends soon…
+- id: cdaecea8-55cb-45b1-91b9-888e205160ce
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 15251
+  total_delivered: 15240
+  total_opens: 9721
+  total_clicks: 115
+  open_rate: 0.6374
+  click_rate: 0.0075
+  total_unsubscribes: 29
+schedule_type: time_based
+_filename: p_2025_2_17_hav_conv_pm_pt_-pdw_sale_reminder_email.yaml

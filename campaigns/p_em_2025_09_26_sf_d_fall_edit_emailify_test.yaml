@@ -1,0 +1,42 @@
+id: 649d986f-ad33-4434-8867-5421047b5db1
+name: P_EM_2025_09_26_SF_D_Fall_Edit_Emailify_Test
+brand: STF
+channel: email
+category: editorial
+type: seasonal
+theme: fall
+braze_id: 649d986f-ad33-4434-8867-5421047b5db1
+dates:
+  send_date: '2025-09-26'
+  last_sent: '2025-09-26'
+tags: []
+sends:
+- id: 743f2b3e-3bb6-4fcc-88a7-86e7930ca46d
+  channel: email
+  name: ️ Emailify Template
+  subject: 'Just In: The Fall Edit'
+- id: 9168fd98-448f-48f8-81de-5ffa54ec3857
+  channel: email
+  name: Control Group
+performance_summary: {}
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-the-autumn-event-2025-09-24
+    name: The Autumn Event
+    start_date: '2025-09-24'
+    end_date: '2025-09-30'
+    discount: 20% Off Sitewide
+    type: null
+  primary_sale:
+    id: stf-the-autumn-event-2025-09-24
+    name: The Autumn Event
+    start_date: '2025-09-24'
+    end_date: '2025-09-30'
+    discount: 20% Off Sitewide
+    type: null
+  sale_name: The Autumn Event
+  sale_discount: 20% Off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:43.741262'
+schedule_type: time_based

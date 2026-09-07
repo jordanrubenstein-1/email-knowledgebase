@@ -1,0 +1,58 @@
+id: fbd35446-154b-4a8d-b416-9586b579adfe
+name: 2025_2_13_D_SF_PR_Curtains_Launch_Gmail
+brand: STF
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: fbd35446-154b-4a8d-b416-9586b579adfe
+dates:
+  send_date: '2025-02-13'
+  inferred_send_type: local_time
+  first_sent: '2025-02-13T23:00:25+00:00'
+  last_sent: '2025-02-14T15:45:02+00:00'
+tags: []
+sends:
+- id: 2fa2888f-2eb5-4654-891c-b1117d5499cb
+  channel: email
+  name: Variant 1
+  subject: Cue the Curtain! NEW Prints Are Here
+  preheader: shop French pleat and rod pocket curtains in fresh patterns
+  html_file: html/2025_2_13_d_sf_pr_curtains_launch_gmail.html
+  screenshot: screenshots/2025_2_13_d_sf_pr_curtains_launch_gmail.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ae43d81586ad00648678e9/original.jpg?1739473879
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ae443375d8eb0075f768db/original.jpg?1739473970
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ae44a775d8eb0065f77588/original.jpg?1739474087
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ae437b1586ad006486780c/original.jpg?1739473787
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ae436eaac5f20075aebdeb/original.jpg?1739473774
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ae43ac1586ad00738676fb/original.jpg?1739473836
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ae432275d8eb0065f7727d/original.jpg?1739473697
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ae448df716440085f74fd3/original.jpg?1739474060
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ae445829ea390066e2748d/original.jpg?1739474008
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ae430a75d8eb0065f771ff/original.jpg?1739473673
+- id: a6eaed67-cea0-40cb-80e2-1917be449c1a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1024
+  total_delivered: 1023
+  total_opens: 789
+  total_clicks: 29
+  open_rate: 0.7705
+  click_rate: 0.0283
+  total_revenue: 1504.0
+  total_unsubscribes: 5
+  ga4:
+    sessions: 43
+    purchases: 2
+    revenue: 42.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.969875'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.028383'
+schedule_type: time_based

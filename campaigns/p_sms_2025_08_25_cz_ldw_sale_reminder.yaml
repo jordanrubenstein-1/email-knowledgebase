@@ -1,0 +1,38 @@
+id: 9e5d70e9-68c1-4dd2-82b5-403e74342973
+name: P_SMS_2025_08_25_CZ_LDW_Sale_Reminder
+brand: CZ
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: 9e5d70e9-68c1-4dd2-82b5-403e74342973
+dates:
+  send_date: '2025-08-25'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-25T20:39:10+00:00'
+  last_sent: '2025-08-25T20:40:10+00:00'
+tags: []
+sends:
+- id: 8a37ca35-e0a7-480c-82d1-9b9e8144529d
+  channel: sms
+  name: Variant 1
+- id: 4ce66f11-2dd6-4c17-a87b-b066eaefb705
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 22926
+  total_delivered: 22453
+  total_opens: 0
+  total_clicks: 328
+  open_rate: 0.0
+  click_rate: 0.0143
+  total_revenue: 11743.87
+  ga4:
+    sessions: 282
+    purchases: 3
+    revenue: 2106.93
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.715743'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

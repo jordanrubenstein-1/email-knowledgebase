@@ -1,0 +1,62 @@
+id: 206838cc-ea7a-47f3-a031-08a0af622c01
+name: P_EM_2025_12_20_CZ_D_PR_Runners
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 206838cc-ea7a-47f3-a031-08a0af622c01
+dates:
+  send_date: '2025-12-20'
+  inferred_send_type: local_time
+  first_sent: '2025-12-19T17:09:13+00:00'
+  last_sent: '2025-12-20T17:05:49+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- prod
+- rugs
+sends:
+- id: 7fc10f59-7f46-4b73-9ba6-5105b77846d6
+  channel: email
+  name: Variant 1
+  subject: Where Life Happens Most
+  preheader: Handwoven rugs designed to live beautifully, every step of the way.
+  html_file: html/p_em_2025_12_20_cz_d_pr_runners.html
+  screenshot: screenshots/p_em_2025_12_20_cz_d_pr_runners.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6944610edf1d940063845b7d/original.png?1766088973
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6944617abd832f006384bd7b/original.png?1766089082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/694461727afc410064fa3f54/original.png?1766089073
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6944612f20b6fa006339918b/original.png?1766089007
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6944611e20b6fa006339918a/original.png?1766088990
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6944613dbfce6b0063a2da13/original.png?1766089021
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6944614f036ac80065314652/original.png?1766089039
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6941aed47061970063de337e/original.png?1765912276
+- id: 0bc953d6-1891-45bf-bee5-2cdea1a6c179
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 118176
+  total_delivered: 117232
+  total_opens: 44318
+  total_clicks: 501
+  open_rate: 0.375
+  click_rate: 0.0042
+  total_bounces: 371
+  total_unsubscribes: 150
+  ga4:
+    sessions: 464
+    purchases: 2
+    revenue: 293.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.291408'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.883587'
+schedule_type: time_based

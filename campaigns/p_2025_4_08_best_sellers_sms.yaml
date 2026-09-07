@@ -1,0 +1,30 @@
+id: 4b86d49c-889e-4a50-8f87-d1f026f5e41e
+name: P_2025_4_08_Best_Sellers_SMS
+brand: ID
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: 4b86d49c-889e-4a50-8f87-d1f026f5e41e
+dates:
+  send_date: '2025-04-08'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-08T21:00:28+00:00'
+  last_sent: '2025-04-08T21:03:25+00:00'
+tags: []
+sends:
+- id: aacab254-74c0-4804-a78e-1d61cd9f7607
+  channel: other
+  name: Variant 1
+- id: 5b411901-033f-4df6-9ff5-973f17a104c6
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 59892
+  total_delivered: 56381
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 17810.0
+schedule_type: time_based

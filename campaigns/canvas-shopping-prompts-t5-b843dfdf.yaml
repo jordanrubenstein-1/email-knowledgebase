@@ -1,0 +1,32 @@
+id: b843dfdf-f70e-4966-b971-9a6199332ec7
+name: TRG_EM_2024_08_HAV_CONV_D_Finished_Design_T5_V1
+brand: HAV
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: bc3f414e-9d08-434f-b9df-bbe85d4fa045
+canvas_name: Shopping Prompts
+flow_type: other_flow
+sequence_position: 5
+subject: Don't forget to complete your design!
+preheader: Your finished design deserves a finished room. Shop your picks today.
+sends:
+- id: b843dfdf-f70e-4966-b971-9a6199332ec7
+  channel: email
+  name: TRG_EM_2024_08_HAV_CONV_D_Finished_Design_T5_V1
+  subject: Don't forget to complete your design!
+  preheader: Your finished design deserves a finished room. Shop your picks today.
+  html_file: html/canvas-shopping-prompts-t5-b843dfdf.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-28T03:00:00Z'
+  last_sent: '2026-08-31T12:00:00Z'
+performance_summary:
+  total_sends: 28772
+  total_delivered: 28747
+  total_opens: 21345
+  total_clicks: 1192
+  open_rate: 0.7419
+  click_rate: 0.0414
+  total_unsubscribes: 28

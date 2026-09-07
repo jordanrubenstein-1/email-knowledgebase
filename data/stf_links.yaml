@@ -1,0 +1,66 @@
+# STF (St. Frank) canonical link map — single source for both SMS and email brief LPs.
+# All URLs verified HTTP 200 as of 2026-05-29.
+#
+# keywords: used for SMS keyword-based link resolution (build_sms_campaign.py)
+# label:    used to look up LPs in email briefing (STF_EMAIL_IDEAS in create_calendar_tasks.py)
+
+categories:
+  - url: https://www.stfrank.com/
+    label: Homepage
+    keywords: ["sale", "event", "promo", "discount", "off", "sitewide"]
+  - url: https://www.stfrank.com/collections/best-seller
+    label: Best Sellers
+    keywords: ["best seller", "bestseller", "popular"]
+  - url: https://www.stfrank.com/collections/new-arrivals
+    label: New Arrivals
+    keywords: ["new arrival", "new arrivals", "new in", "just arrived"]
+
+product_categories:
+  - url: https://www.stfrank.com/collections/suzani
+    label: Suzani
+    keywords: ["suzani", "pattern spotlight", "potm", "print of the month"]
+  # NOTE: /collections/prints is a broken page — do not use. Use /collections/suzani for
+  # print/POTM content, or the specific print's collection page if one exists.
+  - url: https://www.stfrank.com/collections/kuba-cloth
+    label: Kuba Cloth
+    keywords: ["kuba", "kuba cloth"]
+  - url: https://www.stfrank.com/collections/pillows
+    label: Pillows
+    keywords: ["pillow", "pillows", "throw pillow"]
+  - url: https://www.stfrank.com/collections/outdoor-pillows
+    label: Outdoor Pillows
+    keywords: ["outdoor pillow", "outdoor pillows"]
+  - url: https://www.stfrank.com/collections/rugs
+    label: Rugs
+    keywords: ["rug", "rugs"]
+  - url: https://www.stfrank.com/collections/wallpaper
+    label: Wallpaper
+    keywords: ["wallpaper"]
+  - url: https://www.stfrank.com/collections/window-treatments
+    label: Curtains
+    keywords: ["curtain", "curtains", "drape", "drapes", "window treatment"]
+  - url: https://www.stfrank.com/collections/swatches
+    label: Swatches
+    keywords: ["swatch", "swatches", "free swatch"]
+  - url: https://www.stfrank.com/collections/surfboards
+    label: Surfboards
+    keywords: ["surfboard", "surfboards"]
+  - url: https://www.stfrank.com/collections/fabric-by-the-yard
+    label: Fabric by the Yard
+    keywords: ["fabric by the yard", "fbty"]
+  - url: https://www.stfrank.com/collections/outdoor-fabric
+    label: Outdoor Fabric
+    keywords: ["outdoor fabric"]
+  - url: https://www.stfrank.com/collections/furniture
+    label: Furniture
+    keywords: ["furniture", "studio", "upholstered", "suzani"]
+  - url: https://www.stfrank.com/collections/bedding
+    label: Bedding
+    keywords: ["bedding", "sheets", "duvet"]
+    # STF has an ongoing bedding stock issue (flagged 2026-08-31) — do NOT let auto-briefing
+    # pick Bedding as a topic/category for a new send. This entry stays so that a send a
+    # human deliberately and manually briefs for bedding still auto-builds with the correct
+    # link. See CLAUDE.md STF Link Map for the standing rule.
+  - url: https://www.stfrank.com/collections/quilts-throws
+    label: Throws
+    keywords: ["throw", "throws", "quilt", "quilts"]

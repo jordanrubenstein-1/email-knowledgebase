@@ -1,0 +1,36 @@
+id: 007a08c0-8044-4589-85aa-84b3a11246a4
+name: P_EM_2026_05_16_BW_D_Quick_Ship_Memorial_Day_Sale
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 007a08c0-8044-4589-85aa-84b3a11246a4
+dates:
+  send_date: '2026-05-16'
+  inferred_send_type: sto
+  first_sent: '2026-05-15T11:05:22+00:00'
+  last_sent: '2026-05-17T09:45:20+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 0d5627c5-683b-464e-8bd9-3a4f4934d844
+  channel: email
+  name: Variant 1
+  subject: Up to 50% off and delivered in as little as a week
+  preheader: Memorial Day deals ship fast.
+- id: 6280c6f8-433a-4164-9253-9a93fc5a1da4
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 163024
+  total_delivered: 161337
+  total_opens: 87091
+  total_clicks: 412
+  open_rate: 0.5342
+  click_rate: 0.0025
+  total_revenue: 55689.0
+  total_bounces: 5
+  total_unsubscribes: 104
+_filename: p_em_2026_05_16_bw_d_quick_ship_memorial_day_sale.yaml
+schedule_type: time_based

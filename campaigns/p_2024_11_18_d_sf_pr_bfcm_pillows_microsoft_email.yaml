@@ -1,0 +1,62 @@
+id: bd73624b-6e35-4bc4-b891-b056756944b2
+name: P_2024_11_18_D_SF_PR_BFCM_Pillows_Microsoft_Email
+brand: STF
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: bd73624b-6e35-4bc4-b891-b056756944b2
+dates:
+  send_date: '2024-11-18'
+  inferred_send_type: local_time
+  first_sent: '2024-11-17T17:37:36+00:00'
+  last_sent: '2024-11-18T14:30:10+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: 4610d42a-7ce4-40e1-a986-46b021a97dfc
+  channel: email
+  name: Variant 1
+  subject: 'Pillow talk: shop 30% off best-selling pillows'
+  preheader: get it by the holidays
+- id: 9a18a216-a854-46e5-9459-4c6b52fe4197
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 112
+  total_delivered: 112
+  total_opens: 39
+  total_clicks: 2
+  open_rate: 0.3482
+  click_rate: 0.0179
+  total_revenue: 185.5
+  total_unsubscribes: 1
+  ga4:
+    sessions: 2
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.089255'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: stf-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:43.863717'
+schedule_type: time_based

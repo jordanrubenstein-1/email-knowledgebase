@@ -1,0 +1,33 @@
+id: 0095a0aa-e4ff-471a-95d9-df2d1781f927
+name: P_2024_08_29_PT_HAV_SEG_Brands_Extra_Offer_Email
+brand: HAV
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 0095a0aa-e4ff-471a-95d9-df2d1781f927
+dates:
+  send_date: '2024-08-29'
+  first_sent: '2024-08-28T23:25:19+00:00'
+  last_sent: '2024-08-29T16:30:02+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 50eb7247-175f-4550-acc4-d41cd7267fc2
+  channel: email
+  name: Variant 1
+  subject: Great Deals on C&B, CB2, and Article!
+- id: 9aeb9838-16e1-48f1-a443-5dc1c6cca674
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 3675
+  total_delivered: 3666
+  total_opens: 2179
+  total_clicks: 94
+  open_rate: 0.5929
+  click_rate: 0.0256
+  total_bounces: 3
+  total_unsubscribes: 25
+schedule_type: time_based
+_filename: p_2024_08_29_pt_hav_seg_brands_extra_offer_email.yaml

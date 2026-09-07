@@ -1,0 +1,31 @@
+id: e3548795-9e90-47dc-8fdf-3caca78b0ba6
+name: P_SMS_2026_03_20_SF_Spring_Sale_Launch
+brand: STF
+channel: sms
+category: product_launch
+type: sale
+theme: spring
+braze_id: e3548795-9e90-47dc-8fdf-3caca78b0ba6
+dates:
+  send_date: '2026-03-20'
+  inferred_send_type: local_time
+  first_sent: '2026-03-19T21:07:28+00:00'
+  last_sent: '2026-03-20T18:02:38+00:00'
+tags: []
+sends:
+- id: 927a83be-5660-46a3-ad80-22053963adaf
+  channel: sms
+  name: Variant 1
+- id: 55944434-a4c4-4a2f-8a84-a70d6dd784fc
+  channel: sms
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 134
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.825836'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

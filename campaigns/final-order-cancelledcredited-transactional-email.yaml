@@ -1,0 +1,61 @@
+id: c4909617-a46e-7fb6-6398-06060e875792
+name: Final Order Cancelled&Credited Transactional Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: c4909617-a46e-7fb6-6398-06060e875792
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-23T16:00:00+00:00'
+  last_sent: '2025-12-20T20:00:00+00:00'
+tags: []
+sends:
+- id: 9e86c659-a9cd-48fc-8890-58f37e73667e
+  channel: email
+  name: Variant 1
+  subject: 'Havenly Order {{api_trigger_properties.${order}.orderNumber}}: Credit
+    Issued'
+  preheader: Discover alternative options for your out-of-stock item!
+  html_file: html/final-order-cancelledcredited-transactional-email.html
+  screenshot: screenshots/final-order-cancelledcredited-transactional-email.png
+- id: 77a698b0-7f84-4f0c-84fd-d587c1673baa
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 271
+  total_delivered: 271
+  total_opens: 256
+  total_clicks: 5
+  open_rate: 0.9446
+  click_rate: 0.0185
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.601197'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: hav_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: hav_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:41.964822'
+schedule_type: api_triggered

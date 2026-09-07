@@ -1,0 +1,58 @@
+id: c12d4e2c-945b-4501-84c2-be3841de9fbc
+name: P_2025_05_27_CZ_PM_MDW_Last_Chance_Email
+brand: CZ
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: c12d4e2c-945b-4501-84c2-be3841de9fbc
+dates:
+  send_date: '2025-05-27'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-27T22:10:02+00:00'
+  last_sent: '2025-05-27T22:10:44+00:00'
+tags: []
+sends:
+- id: df53b789-8837-48ee-9b05-65ac8457c696
+  channel: email
+  name: Variant 1
+  subject: 'LAST CALL: The Memorial Day Event'
+  preheader: 20% off sitewide can’t last forever.
+  html_file: html/p_2025_05_27_cz_pm_mdw_last_chance_email.html
+  screenshot: screenshots/p_2025_05_27_cz_pm_mdw_last_chance_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830fea355a1e700742a9c5b/original.png?1748041378
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830fe982a95bd00676e0a23/original.png?1748041368
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6825045d7d6ee7006773b8b8/original.png?1747256413
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830fecf8dfebb0065e4ea89/original.png?1748041423
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682504ed7de3bc007266a2f0/original.png?1747256557
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6825051173e6540066fdea3c/original.png?1747256592
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682504674aef320065a1dd7b/original.png?1747256423
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682504341c57270084958b20/original.png?1747256372
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682504447d6ee7006773b877/original.png?1747256388
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830fe9d8ebff300758d8add/original.png?1748041373
+- id: 3234d7e7-6124-4d79-965e-a6e016814997
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 24092
+  total_delivered: 24067
+  total_opens: 15484
+  total_clicks: 505
+  open_rate: 0.6427
+  click_rate: 0.021
+  total_revenue: 107082.9
+  total_unsubscribes: 43
+  ga4:
+    sessions: 467
+    purchases: 14
+    revenue: 3722.18
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.795845'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:35.009781'
+schedule_type: time_based

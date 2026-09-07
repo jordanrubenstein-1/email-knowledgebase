@@ -1,0 +1,98 @@
+id: b18a3a8c-72cb-4985-b7b3-3c6eb4457753
+name: P_2025_02_07_ID_PDS_Early_Access_Launch_Email
+brand: ID
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: b18a3a8c-72cb-4985-b7b3-3c6eb4457753
+dates:
+  send_date: '2025-02-07'
+  inferred_send_type: scheduled
+  first_sent: '2025-02-07T17:03:23+00:00'
+  last_sent: '2025-02-07T17:06:05+00:00'
+tags: []
+sends:
+- id: b2707bb5-aefd-4dd2-a07c-3cf02c6ad734
+  channel: email
+  name: Variant 1
+  subject: 'You’re Invited: SALE EARLY ACCESS'
+  preheader: Up to 25% off sitewide starts now (for you!)
+- id: 3929ac8e-052a-47a0-8230-2a7a1cd2e4c3
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 108563
+  total_delivered: 107447
+  total_opens: 28170
+  total_clicks: 966
+  open_rate: 0.2595
+  click_rate: 0.0089
+  total_revenue: 213938.0
+  total_bounces: 2
+  total_unsubscribes: 66
+  ga4:
+    sessions: 1694
+    purchases: 18
+    revenue: 44272.75
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.007056'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-b2c-20-off-3k-25-off-3k-sitewide-strikethrough-in-cart-code-based-early-access-pres25-trade-25-off-3k-30-off-3k-sitewide-strikethrough-in-cart-code-based-early-access-pres25trade-99-shipping-on-orders-3k-de-only-last-4-days-2025-02-07
+    name: 'B2C: 20% off <$3K / 25% off $3K+ sitewide (strikethrough in cart) | code-based
+      early access: PRES25
+
+      Trade: 25% off <$3K / 30% off $3K+ sitewide (strikethrough in cart) | code-based
+      early access: PRES25TRADE
+
+      $99 Shipping on orders >$3k DE only last 4 days'
+    start_date: '2025-02-07'
+    end_date: '2025-02-09'
+    discount: 'B2C: 20% off <$3K / 25% off $3K+ sitewide (strikethrough in cart) |
+      code-based early access: PRES25
+
+      Trade: 25% off <$3K / 30% off $3K+ sitewide (strikethrough in cart) | code-based
+      early access: PRES25TRADE
+
+      $99 Shipping on orders >$3k DE only last 4 days'
+    type: null
+  primary_sale:
+    id: id-b2c-20-off-3k-25-off-3k-sitewide-strikethrough-in-cart-code-based-early-access-pres25-trade-25-off-3k-30-off-3k-sitewide-strikethrough-in-cart-code-based-early-access-pres25trade-99-shipping-on-orders-3k-de-only-last-4-days-2025-02-07
+    name: 'B2C: 20% off <$3K / 25% off $3K+ sitewide (strikethrough in cart) | code-based
+      early access: PRES25
+
+      Trade: 25% off <$3K / 30% off $3K+ sitewide (strikethrough in cart) | code-based
+      early access: PRES25TRADE
+
+      $99 Shipping on orders >$3k DE only last 4 days'
+    start_date: '2025-02-07'
+    end_date: '2025-02-09'
+    discount: 'B2C: 20% off <$3K / 25% off $3K+ sitewide (strikethrough in cart) |
+      code-based early access: PRES25
+
+      Trade: 25% off <$3K / 30% off $3K+ sitewide (strikethrough in cart) | code-based
+      early access: PRES25TRADE
+
+      $99 Shipping on orders >$3k DE only last 4 days'
+    type: null
+  sale_name: 'B2C: 20% off <$3K / 25% off $3K+ sitewide (strikethrough in cart) |
+    code-based early access: PRES25
+
+    Trade: 25% off <$3K / 30% off $3K+ sitewide (strikethrough in cart) | code-based
+    early access: PRES25TRADE
+
+    $99 Shipping on orders >$3k DE only last 4 days'
+  sale_discount: 'B2C: 20% off <$3K / 25% off $3K+ sitewide (strikethrough in cart)
+    | code-based early access: PRES25
+
+    Trade: 25% off <$3K / 30% off $3K+ sitewide (strikethrough in cart) | code-based
+    early access: PRES25TRADE
+
+    $99 Shipping on orders >$3k DE only last 4 days'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:41.648989'
+schedule_type: time_based

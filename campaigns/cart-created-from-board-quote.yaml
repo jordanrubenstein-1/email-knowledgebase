@@ -1,0 +1,43 @@
+id: dfe12b36-818e-4b3b-b24a-06f46d5461eb
+name: Cart Created from Board Quote
+brand: HAV
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: dfe12b36-818e-4b3b-b24a-06f46d5461eb
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-05-10T00:00:00+00:00'
+  last_sent: '2025-12-20T23:00:00+00:00'
+tags: []
+sends:
+- id: 793ab6a4-94fa-417c-a39b-a3f4c16c8664
+  channel: email
+  name: Variant 1
+  subject: Your Havenly Quote
+  html_file: html/cart-created-from-board-quote.html
+  screenshot: screenshots/cart-created-from-board-quote.png
+- id: 9b31a10f-2ec4-4a58-8f25-7b798fddd0f6
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 138
+  total_delivered: 138
+  total_opens: 131
+  total_clicks: 23
+  open_rate: 0.9493
+  click_rate: 0.1667
+  ga4:
+    sessions: 253
+    purchases: 16
+    revenue: 83542.95
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.195487'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:35.645909'
+schedule_type: api_triggered

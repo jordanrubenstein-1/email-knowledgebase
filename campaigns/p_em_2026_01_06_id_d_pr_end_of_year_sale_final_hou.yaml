@@ -1,0 +1,43 @@
+id: 776d5932-aa92-4e5d-8b76-d2df65f08fd2
+name: P_EM_2026_01_06_ID_D_PR_End_of_Year_Sale_Final_Hours
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 776d5932-aa92-4e5d-8b76-d2df65f08fd2
+dates:
+  send_date: '2026-01-06'
+  inferred_send_type: local_time
+  first_sent: '2026-01-05T19:01:13+00:00'
+  last_sent: '2026-01-06T17:24:06+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 5cda05d4-68eb-43f4-9409-c7bad3a87ade
+  channel: email
+  name: Variant 1
+  subject: 25% OFF ENDS AT MIDNIGHT
+  preheader: Shop The End of Year Event
+- id: 403b4cde-3384-4322-afd0-5aa53caab3ad
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 105524
+  total_delivered: 104660
+  total_opens: 47061
+  total_clicks: 339
+  open_rate: 0.446
+  click_rate: 0.0032
+  total_revenue: 83955.16
+  total_bounces: 6
+  total_unsubscribes: 172
+  ga4:
+    sessions: 392
+    purchases: 4
+    revenue: 14702.08
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.259937'
+    source: snowflake
+    channel: email
+schedule_type: time_based

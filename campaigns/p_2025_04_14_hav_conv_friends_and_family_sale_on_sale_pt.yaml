@@ -1,0 +1,33 @@
+id: 368d6708-b21b-4858-8bbb-80e6b7ee5fcc
+name: P_2025_04_14_HAV_Conv_Friends_and_Family_Sale_on_Sale_PT
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 368d6708-b21b-4858-8bbb-80e6b7ee5fcc
+dates:
+  send_date: '2025-04-14'
+  first_sent: '2025-04-13T18:22:53+00:00'
+  last_sent: '2025-04-14T17:17:14+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 4e1e34df-3f61-4837-b41e-4b5f5e2da3ec
+  channel: email
+  name: Variant 1
+  subject: 'PSA: our sale is on sale!'
+- id: 90727748-e9bc-4288-bff1-a06178ff295c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 39347
+  total_delivered: 39225
+  total_opens: 22353
+  total_clicks: 263
+  open_rate: 0.5681
+  click_rate: 0.0067
+  total_unsubscribes: 57
+schedule_type: time_based
+_filename: p_2025_04_14_hav_conv_friends_and_family_sale_on_sale_pt.yaml

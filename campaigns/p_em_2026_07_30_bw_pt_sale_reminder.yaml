@@ -1,0 +1,35 @@
+id: e927ba5b-e05c-4c97-8bb4-67b401010a24
+name: P_EM_2026_07_30_BW_PT_Sale_Reminder
+brand: BUR
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: e927ba5b-e05c-4c97-8bb4-67b401010a24
+dates:
+  send_date: '2026-07-30'
+  first_sent: '2026-07-30T19:59:54+00:00'
+  last_sent: '2026-07-31T02:05:35+00:00'
+  inferred_send_type: scheduled
+tags:
+- Batch&Blast
+sends:
+- id: 2c2778b5-68e9-4ce9-9487-9faae0a7b5c1
+  channel: email
+  name: Variant 1
+  subject: Final days to save up to 50% sitewide
+- id: eff48c98-ca55-4591-9371-1420e72cd987
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 224127
+  total_delivered: 222609
+  total_opens: 118072
+  total_clicks: 485
+  open_rate: 0.5268
+  click_rate: 0.0022
+  total_revenue: 70712.0
+  total_bounces: 2
+  total_unsubscribes: 135
+schedule_type: time_based
+_filename: p_em_2026_07_30_bw_pt_sale_reminder.yaml

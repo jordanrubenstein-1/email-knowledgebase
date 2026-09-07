@@ -1,0 +1,32 @@
+id: 348548dc-884a-4780-aafe-0cda610758e4
+name: TRG_EM_2026_03_CZ_D_Post_Purchase_T3
+brand: CZ
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: ed85be62-ad24-41ee-8ff7-b2f667368156
+canvas_name: Post Purchase
+flow_type: post_purchase
+sequence_position: 5
+subject: Share The Citizenry, Enjoy $50 On Us
+preheader: ''
+sends:
+- id: 348548dc-884a-4780-aafe-0cda610758e4
+  channel: email
+  name: TRG_EM_2026_03_CZ_D_Post_Purchase_T3
+  subject: Share The Citizenry, Enjoy $50 On Us
+  preheader: ''
+  html_file: html/canvas-post-purchase-t5-348548dc.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-05-02T19:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 4026
+  total_delivered: 4021
+  total_opens: 2757
+  total_clicks: 79
+  open_rate: 0.6848
+  click_rate: 0.0196
+  total_unsubscribes: 44

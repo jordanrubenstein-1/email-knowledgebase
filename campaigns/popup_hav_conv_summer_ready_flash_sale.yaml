@@ -1,0 +1,23 @@
+id: 220e26d4-b95a-4665-ba8b-862ad2d5ee28
+name: Popup_HAV_CONV_Summer_Ready_Flash_Sale
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: summer
+braze_id: 220e26d4-b95a-4665-ba8b-862ad2d5ee28
+dates:
+  first_sent: '2026-06-05T06:00:00+00:00'
+  last_sent: '2026-06-09T05:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: 15751442-1b54-4ca1-936a-f9ad7e996507
+  channel: other
+  name: Control Group
+- id: 79207fd6-f943-4d85-8d8b-5e326c200b0a
+  channel: other
+  name: Variant 1
+performance_summary: {}
+schedule_type: action_based
+_filename: popup_hav_conv_summer_ready_flash_sale.yaml

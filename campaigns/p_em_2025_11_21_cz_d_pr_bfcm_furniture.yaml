@@ -1,0 +1,115 @@
+id: a4f10760-9c14-4f00-8af7-e2f244abd1d9
+name: P_EM_2025_11_21_CZ_D_PR_BFCM_Furniture
+brand: CZ
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: a4f10760-9c14-4f00-8af7-e2f244abd1d9
+dates:
+  send_date: '2025-11-21'
+  inferred_send_type: scheduled
+  first_sent: '2025-11-21T03:51:57+00:00'
+  last_sent: '2025-11-21T17:15:40+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- furniture
+- prod
+- sale
+- sale/bfcm
+sends:
+- id: 487b24b8-ce28-4834-bfc8-f6550e0730c1
+  channel: email
+  name: Variant 1
+  subject: 25% Off Handcrafted Furniture
+  preheader: Best-selling pieces at the best prices ever.
+  html_file: html/p_em_2025_11_21_cz_d_pr_bfcm_furniture.html
+  screenshot: screenshots/p_em_2025_11_21_cz_d_pr_bfcm_furniture.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691ca22d90b4780063003d81/original.png?1763484204
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691ca285787f6a0063c1baad/original.png?1763484292
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691ca258f738ac00648fe819/original.png?1763484247
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691ca267746f540065158048/original.png?1763484262
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691ca299ee25b0006370aa17/original.png?1763484312
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691ca274f738ac00738f67ab/original.png?1763484275
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691ca2a571fb0b0073dafc45/original.png?1763484324
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691ca236ee25b0006370a9a5/original.png?1763484213
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691ca1d56e01a9006326b107/original.png?1763484117
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691ca2895f148b006553d736/original.png?1763484297
+- id: f0f86a7e-cb55-4941-b638-384e9598c7c9
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 59052
+  total_delivered: 58979
+  total_opens: 31483
+  total_clicks: 771
+  open_rate: 0.5331
+  click_rate: 0.0131
+  total_bounces: 1
+  total_unsubscribes: 100
+  ga4:
+    sessions: 798
+    purchases: 16
+    revenue: 7324.1
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.178653'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-black-friday-cyber-monday-2025-11-17
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-14'
+    end_date: '2025-12-01'
+    discount: '11/14 - 11/16 Early Access
+
+      11/17 - 12/1 Main Event
+
+      11/28 Black Friday Fund
+
+
+      25% Off Sitewide
+
+      Up to 70% Off Archive Sale
+
+      (Fresh Cuts of go forward, overstocked products)'
+    type: null
+  primary_sale:
+    id: cz-black-friday-cyber-monday-2025-11-17
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-14'
+    end_date: '2025-12-01'
+    discount: '11/14 - 11/16 Early Access
+
+      11/17 - 12/1 Main Event
+
+      11/28 Black Friday Fund
+
+
+      25% Off Sitewide
+
+      Up to 70% Off Archive Sale
+
+      (Fresh Cuts of go forward, overstocked products)'
+    type: null
+  sale_name: Black Friday / Cyber Monday
+  sale_discount: '11/14 - 11/16 Early Access
+
+    11/17 - 12/1 Main Event
+
+    11/28 Black Friday Fund
+
+
+    25% Off Sitewide
+
+    Up to 70% Off Archive Sale
+
+    (Fresh Cuts of go forward, overstocked products)'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:39.964254'
+schedule_type: time_based

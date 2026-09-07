@@ -1,0 +1,33 @@
+id: 69382de8-af8e-4e32-8d00-b4ba90cda769
+name: P_2024_10_10_HAV_PC _Autumn_Event_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: fall
+braze_id: 69382de8-af8e-4e32-8d00-b4ba90cda769
+dates:
+  send_date: '2024-10-10'
+  first_sent: '2024-10-10T00:30:23+00:00'
+  last_sent: '2024-10-10T18:15:05+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: e3fbc014-66cf-4d90-8313-8570bca5261e
+  channel: email
+  name: Variant 1
+  subject: 'Reminder: 50% Off All Design Services'
+  preheader: Don’t miss out!
+- id: ce588b5b-a4d7-4ae7-9b25-2be106b2f13d
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 146735
+  total_delivered: 145522
+  total_opens: 69791
+  total_clicks: 414
+  open_rate: 0.4756
+  click_rate: 0.0028
+  total_unsubscribes: 303
+schedule_type: time_based
+_filename: p_2024_10_10_hav_pc-_autumn_event_reminder_email.yaml

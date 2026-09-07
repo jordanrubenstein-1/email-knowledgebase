@@ -1,0 +1,35 @@
+id: 8415ba37-ccc9-4257-97ed-70fa7d2ff47f
+name: P_2025_06_09_BW_Summer_Ready_Flash_Sale_Ends_Tonight
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: summer
+braze_id: 8415ba37-ccc9-4257-97ed-70fa7d2ff47f
+dates:
+  send_date: '2025-06-09'
+  inferred_send_type: local_time
+  first_sent: '2025-06-08T18:22:32+00:00'
+  last_sent: '2025-06-09T17:15:14+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 01f043e0-7ea1-4c34-9036-47c1403efc05
+  channel: email
+  name: Variant 1
+  subject: Our flash sale ends TONIGHT
+  preheader: Only a few more hours left to save
+- id: 642a1899-df5b-40f1-b7a0-f67a6bcc251d
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 258620
+  total_delivered: 256881
+  total_opens: 93608
+  total_clicks: 532
+  open_rate: 0.362
+  click_rate: 0.0021
+  total_revenue: 36791.0
+  total_unsubscribes: 88
+_filename: p_2025_06_09_bw_summer_ready_flash_sale_ends_tonight.yaml
+schedule_type: time_based

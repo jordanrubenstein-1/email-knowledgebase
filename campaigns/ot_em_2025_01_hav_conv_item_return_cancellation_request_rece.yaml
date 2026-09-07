@@ -1,0 +1,30 @@
+id: f80e14e6-d740-65ba-9bf7-496946e46c14
+name: OT_EM_2025_01_HAV_CONV_Item_Return_Cancellation_Request_Received
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: f80e14e6-d740-65ba-9bf7-496946e46c14
+dates:
+  first_sent: '2025-01-08T19:00:00+00:00'
+  last_sent: '2026-06-09T16:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: d8999e67-5335-4c17-9a1e-9865b741684f
+  channel: email
+  name: Variant 1
+  subject: 'We received your return/cancellation request - Order #{{api_trigger_properties.${order_number}}}'
+- id: 0d7ed4f3-0b9c-4aff-86c4-fbfd2f29b222
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 127
+  total_delivered: 127
+  total_opens: 150
+  total_clicks: 6
+  open_rate: 1.1811
+  click_rate: 0.0472
+schedule_type: api_triggered
+_filename: ot_em_2025_01_hav_conv_item_return_cancellation_request_rece.yaml

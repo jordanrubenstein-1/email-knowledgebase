@@ -1,0 +1,35 @@
+id: 633e2470-9db4-44e8-93bd-a6121058bae5
+name: P_EM_2025_12_08_HAV_CONV_Cyber_Week_Final_Days
+brand: HAV
+channel: email
+category: reminder
+type: seasonal
+theme: null
+braze_id: 633e2470-9db4-44e8-93bd-a6121058bae5
+dates:
+  send_date: '2025-12-08'
+  first_sent: '2025-12-07T17:23:06+00:00'
+  last_sent: '2025-12-08T17:16:14+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 2381596f-eeea-4c2a-ad1e-51f14c3a24ac
+  channel: email
+  name: Variant 1
+  subject: Cyber Monday savings end SOON!
+  preheader: Get a home you love at a price that’s even better.
+- id: 18ca722d-4c20-4eb9-9fd2-f1a8365df406
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 43649
+  total_delivered: 43627
+  total_opens: 22411
+  total_clicks: 90
+  open_rate: 0.5134
+  click_rate: 0.0021
+  total_bounces: 1
+  total_unsubscribes: 63
+schedule_type: time_based
+_filename: p_em_2025_12_08_hav_conv_cyber_week_final_days.yaml

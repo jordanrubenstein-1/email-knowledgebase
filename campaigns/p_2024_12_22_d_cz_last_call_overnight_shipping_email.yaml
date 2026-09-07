@@ -1,0 +1,44 @@
+id: 1de746ac-92ef-4a84-a8e6-1d730d5ce796
+name: P_2024_12_22_D_CZ_Last_Call_Overnight_Shipping_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 1de746ac-92ef-4a84-a8e6-1d730d5ce796
+dates:
+  send_date: '2024-12-22'
+  inferred_send_type: local_time
+  first_sent: '2024-12-21T17:06:51+00:00'
+  last_sent: '2024-12-22T17:01:11+00:00'
+tags: []
+sends:
+- id: d855ed04-69b6-4e18-9d29-b43973071ef6
+  channel: email
+  name: Variant 1
+  subject: Last Call for Delivery by 12/24
+  preheader: Order by 11:59pm EST with overnight shipping.
+  html_file: html/p_2024_12_22_d_cz_last_call_overnight_shipping_email.html
+  screenshot: screenshots/p_2024_12_22_d_cz_last_call_overnight_shipping_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676474a9be2bec006692db76/original.jpg?1734636713
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676474c62e8ded00642f85ad/original.jpg?1734636742
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676471a618321200648d36fd/original.jpg?1734635941
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6764756c49f110006574d788/original.jpg?1734636908
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6764755618321200648d40f3/original.jpg?1734636885
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6764748cd29e7a006414e5aa/original.jpg?1734636684
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676474668309060063dacce5/original.jpg?1734636646
+- id: c6f4c4e7-7efc-4717-9331-e3d71cce432b
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 96104
+  total_delivered: 95427
+  total_opens: 47785
+  total_clicks: 511
+  open_rate: 0.4972
+  click_rate: 0.0053
+  total_revenue: 62976.49
+  total_unsubscribes: 121
+_filename: p_2024_12_22_d_cz_last_call_overnight_shipping_email.yaml
+schedule_type: time_based

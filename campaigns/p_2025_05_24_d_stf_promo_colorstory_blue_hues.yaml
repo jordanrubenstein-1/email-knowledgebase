@@ -1,0 +1,59 @@
+id: 9c1bb386-2e68-4a20-9428-08b1fa242551
+name: P_2025_05_24_D_STF_Promo_Colorstory_Blue_Hues
+brand: STF
+channel: email
+category: editorial
+type: sale
+theme: null
+braze_id: 9c1bb386-2e68-4a20-9428-08b1fa242551
+dates:
+  send_date: '2025-05-24'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-24T02:39:09+00:00'
+  last_sent: '2025-05-24T17:01:34+00:00'
+tags: []
+sends:
+- id: bcfad4ed-3b4d-4d87-921d-700793ea4f6d
+  channel: email
+  name: Variant 1
+  subject: Dive Into Ocean Hues
+  preheader: Bring the essence of the sea home—now 30% off
+  html_file: html/p_2025_05_24_d_stf_promo_colorstory_blue_hues.html
+  screenshot: screenshots/p_2025_05_24_d_stf_promo_colorstory_blue_hues.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830e5f51c37d600647451cb/original.png?1748035060
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830e675f599860076c49504/original.png?1748035189
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830e59b1ba3a30064a600b6/original.png?1748034970
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830e6661c37d60064745368/original.png?1748035174
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830e5a21c37d6006474505d/original.png?1748034977
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830e601959e94007657f75b/original.png?1748035073
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830e67c1c37d600647453b3/original.png?1748035196
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830e6611c37d60064745349/original.png?1748035168
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830e683f599860066c4a1a8/original.png?1748035203
+- id: 3e4b017b-e91c-4960-80f4-8a1809a46934
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 26110
+  total_delivered: 25785
+  total_opens: 13002
+  total_clicks: 291
+  open_rate: 0.498
+  click_rate: 0.0111
+  total_revenue: 32884.0
+  total_bounces: 33
+  total_unsubscribes: 72
+  ga4:
+    sessions: 304
+    purchases: 5
+    revenue: 399.05
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.006762'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.387582'
+schedule_type: time_based

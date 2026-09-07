@@ -1,0 +1,36 @@
+id: 7f568013-6e63-4774-b2d7-c4bbdc6adaaa
+name: P_EM_2026_07_21_TRADE_TI_PC_D_New_Arrivals_Updated
+brand: TI
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 7f568013-6e63-4774-b2d7-c4bbdc6adaaa
+dates:
+  send_date: '2026-07-21'
+  first_sent: '2026-07-20T20:06:48+00:00'
+  last_sent: '2026-07-21T16:00:00+00:00'
+  inferred_send_type: local_time
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: aa81175c-a012-48d9-b1bb-9518ae64fc5f
+  channel: email
+  name: Variant 1
+  subject: Fresh prints from The Inside just landed
+  preheader: NEW arrivals to refresh any room this summer.
+- id: 11ad79bf-38de-4c27-b1bf-e8fa82b479a8
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 22080
+  total_delivered: 20870
+  total_opens: 3383
+  total_clicks: 52
+  open_rate: 0.1532
+  click_rate: 0.0024
+  total_revenue: 1395.0
+  total_bounces: 9
+  total_unsubscribes: 15
+schedule_type: time_based
+_filename: p_em_2026_07_21_trade_ti_pc_d_new_arrivals_updated.yaml

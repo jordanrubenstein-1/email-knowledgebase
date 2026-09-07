@@ -1,0 +1,47 @@
+id: c901c78e-0ebb-4c0f-b066-14b312c456b8
+name: P_EM_2026_03_14_HAV_PC_D_See_Your_Room_Reimagined_For_Free
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: c901c78e-0ebb-4c0f-b066-14b312c456b8
+dates:
+  send_date: '2026-03-14'
+  inferred_send_type: local_time
+  first_sent: '2026-03-14T02:09:30+00:00'
+  last_sent: '2026-03-15T02:02:56+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 9791a680-d149-4c3d-a3d1-d6324685a3b4
+  channel: email
+  name: Variant 1
+  subject: See Your Room Totally Transformed
+  preheader: Before and after — for free, in seconds.
+  html_file: html/p_em_2026_03_14_hav_pc_d_see_your_room_reimagined_for_free.html
+  screenshot: screenshots/p_em_2026_03_14_hav_pc_d_see_your_room_reimagined_for_free.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b18a88e333ca0063134145/original.png?1773243016
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b18a7b32adb70063a42ee6/original.png?1773243002
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b18b212788f10082f487fa/original.png?1773243168
+- id: d33f4a99-b1a1-434d-a8ce-3ed68775a907
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 81912
+  total_delivered: 81238
+  total_opens: 38651
+  total_clicks: 602
+  open_rate: 0.4719
+  click_rate: 0.0073
+  total_unsubscribes: 112
+  ga4:
+    sessions: 496
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.773000'
+    source: snowflake
+    channel: email
+schedule_type: time_based

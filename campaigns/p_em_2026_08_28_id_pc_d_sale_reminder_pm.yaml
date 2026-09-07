@@ -1,0 +1,35 @@
+id: 2fa40a9e-d366-4fdc-bd5f-926e1c34ca43
+name: P_EM_2026_08_28_ID_PC_D_Sale_Reminder_PM
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 2fa40a9e-d366-4fdc-bd5f-926e1c34ca43
+dates:
+  send_date: '2026-08-28'
+  first_sent: '2026-08-28T03:06:42+00:00'
+  last_sent: '2026-08-28T11:00:00+00:00'
+  inferred_send_type: scheduled
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: ccb5252a-fd75-4190-b60c-c3f41cad05c8
+  channel: email
+  name: Variant 1
+  subject: This Week in the Showroom
+  preheader: See what our stylists are loving.
+- id: 979eee3a-bf75-4486-95b2-2a1aac4257c7
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 4912
+  total_delivered: 4910
+  total_opens: 2031
+  total_clicks: 39
+  open_rate: 0.4135
+  click_rate: 0.0079
+  total_revenue: 58118.99
+  total_unsubscribes: 10
+schedule_type: time_based
+_filename: p_em_2026_08_28_id_pc_d_sale_reminder_pm.yaml

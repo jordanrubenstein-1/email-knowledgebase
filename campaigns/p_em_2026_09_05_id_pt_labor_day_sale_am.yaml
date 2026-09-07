@@ -1,0 +1,34 @@
+id: 6550d7fc-0594-484c-b780-cc2a585a8698
+name: P_EM_2026_09_05_ID_PT_Labor_Day_Sale_AM
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 6550d7fc-0594-484c-b780-cc2a585a8698
+dates:
+  send_date: '2026-09-05'
+  first_sent: '2026-09-04T23:42:00+00:00'
+  last_sent: '2026-09-05T11:00:00+00:00'
+  inferred_send_type: scheduled
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 04e79320-417b-46b4-a6b3-218e80709bdd
+  channel: email
+  name: Variant 1
+  subject: Labor Day Sale is Live; savings up to 60+% off
+- id: ef7fc5cf-1dc0-4b1f-967e-922821cc1f56
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 53685
+  total_delivered: 53520
+  total_opens: 8770
+  total_clicks: 173
+  open_rate: 0.1634
+  click_rate: 0.0032
+  total_revenue: 2360.0
+  total_unsubscribes: 29
+schedule_type: time_based
+_filename: p_em_2026_09_05_id_pt_labor_day_sale_am.yaml

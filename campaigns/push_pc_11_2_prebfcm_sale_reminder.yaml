@@ -1,0 +1,23 @@
+id: 0dd4497c-a3dd-45b0-ba80-aa60938611fe
+name: PUSH_PC_11_2_PreBFCM_Sale_Reminder
+brand: HAV
+channel: push
+category: reminder
+type: sale
+theme: black_friday
+braze_id: 0dd4497c-a3dd-45b0-ba80-aa60938611fe
+dates:
+  first_sent: '2024-11-02T00:10:01+00:00'
+  last_sent: '2024-11-03T00:10:03+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: c1c52748-ebc6-4c82-b5fc-31583ffe08ac
+  channel: push
+  name: Variant 1
+- id: 045954c9-eb4c-4492-a354-fc757cbe5bd3
+  channel: push
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: push_pc_11_2_prebfcm_sale_reminder.yaml

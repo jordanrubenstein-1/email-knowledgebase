@@ -1,0 +1,34 @@
+id: 1e7d406b-6da6-4e66-a721-92e083a48150
+name: P_EM_2026_02_07_HAV_CONV_D_Before_and_After
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 1e7d406b-6da6-4e66-a721-92e083a48150
+dates:
+  send_date: '2026-02-07'
+  first_sent: '2026-02-06T23:07:58+00:00'
+  last_sent: '2026-02-07T23:02:47+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 50040800-d5be-46cc-aeee-4f111909450b
+  channel: email
+  name: Variant 1
+  subject: Your space, but better (for less)
+  preheader: Presidents Day markdowns on designer-curated favorites
+- id: 94510a7c-00d5-49e0-a6a0-b272ba67faf0
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 34736
+  total_delivered: 34643
+  total_opens: 18442
+  total_clicks: 98
+  open_rate: 0.5309
+  click_rate: 0.0028
+  total_unsubscribes: 39
+schedule_type: time_based
+_filename: p_em_2026_02_07_hav_conv_d_before_and_after.yaml

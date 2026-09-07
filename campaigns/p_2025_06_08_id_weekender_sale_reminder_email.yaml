@@ -1,0 +1,46 @@
+id: 81783c36-993d-46a9-a0f3-3974469194cc
+name: P_2025_06_08_ID_Weekender_Sale_Reminder_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 81783c36-993d-46a9-a0f3-3974469194cc
+dates:
+  send_date: '2025-06-08'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-08T05:47:39+00:00'
+  last_sent: '2025-06-08T17:15:10+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 743e6e85-9983-430d-b15a-007abee3af9f
+  channel: email
+  name: Variant 1
+  subject: FYI We’re Having a Sale
+  preheader: For those who click, something special awaits.
+- id: a60fea54-8426-4819-9012-45dc3383a382
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 171053
+  total_delivered: 169047
+  total_opens: 40088
+  total_clicks: 640
+  open_rate: 0.2344
+  click_rate: 0.0037
+  total_revenue: 129058.0
+  total_unsubscribes: 111
+  ga4:
+    sessions: 779
+    purchases: 1
+    revenue: 1113.72
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.760345'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.868114'
+schedule_type: time_based

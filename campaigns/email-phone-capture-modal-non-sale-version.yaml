@@ -1,0 +1,32 @@
+id: 4d1d8601-593a-42dc-aa92-0aeef1fcb9f8
+name: Email & Phone Capture Modal - Non-Sale Version
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 4d1d8601-593a-42dc-aa92-0aeef1fcb9f8
+dates:
+  first_sent: '2025-03-18T13:00:00+00:00'
+  last_sent: '2026-06-17T05:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: 73a36cc9-0111-471e-8a02-ec365a73f375
+  channel: other
+  name: Variant 1
+- id: 5e6dfb45-6663-4a65-aeea-2bc61c287520
+  channel: other
+  name: Control Group
+- id: 70fd70ff-49bf-4a66-94d3-250a77315efc
+  channel: other
+  name: Variant 2
+- id: 0fc18b74-b1cc-446e-a480-b1b921fc7b7d
+  channel: other
+  name: Variant 3
+- id: 1dee3ab2-9a61-47e5-ab34-31f2bcc6ba40
+  channel: other
+  name: Variant 4
+performance_summary: {}
+schedule_type: action_based
+_filename: email-phone-capture-modal-non-sale-version.yaml

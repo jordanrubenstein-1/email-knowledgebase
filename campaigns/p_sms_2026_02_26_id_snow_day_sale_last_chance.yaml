@@ -1,0 +1,30 @@
+id: 1a943551-1320-4cc8-8cab-2329763e587b
+name: P_SMS_2026_02_26_ID_Snow_Day_Sale_Last_Chance
+brand: ID
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: 1a943551-1320-4cc8-8cab-2329763e587b
+dates:
+  send_date: '2026-02-26'
+  inferred_send_type: local_time
+  first_sent: '2026-02-26T01:05:12+00:00'
+  last_sent: '2026-02-27T01:03:38+00:00'
+tags: []
+sends:
+- id: 1a608bfe-0033-466b-ae6a-a18db59d61fe
+  channel: sms
+  name: Variant 1
+- id: 31b10bf1-3ff5-46f8-9750-4c2f0f915ac2
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 49577
+  total_delivered: 47335
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 25379.99
+schedule_type: time_based

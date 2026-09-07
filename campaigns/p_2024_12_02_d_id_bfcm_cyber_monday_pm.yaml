@@ -1,0 +1,61 @@
+id: cbd1b501-49cd-41ab-a000-66f6b282d69f
+name: P_2024_12_02_D_ID_BFCM_Cyber_Monday_PM
+brand: ID
+channel: email
+category: sale_promo
+type: seasonal
+theme: black_friday
+braze_id: cbd1b501-49cd-41ab-a000-66f6b282d69f
+dates:
+  send_date: '2024-12-02'
+  inferred_send_type: scheduled
+  first_sent: '2024-12-02T19:06:37+00:00'
+  last_sent: '2024-12-03T02:00:25+00:00'
+tags: []
+sends:
+- id: 2ec03f25-073e-4c4b-950e-3d490acb7f3b
+  channel: email
+  name: Variant 1
+  subject: We Don’t Want This Monday To End
+  preheader: Up to 25% off sitewide won’t last forever.
+- id: 0a98a74d-e6b7-46bd-8ba9-79f1afe6b392
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 16529
+  total_delivered: 16483
+  total_opens: 9765
+  total_clicks: 347
+  open_rate: 0.5908
+  click_rate: 0.021
+  total_revenue: 238850.5
+  total_unsubscribes: 59
+  ga4:
+    sessions: 430
+    purchases: 5
+    revenue: 15635.13
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.333672'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-03'
+    discount: null
+    type: null
+  primary_sale:
+    id: id-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-03'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:34.025179'
+schedule_type: time_based

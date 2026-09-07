@@ -1,0 +1,30 @@
+id: c5a5c4fd-75b7-40c5-966e-452761f28a9a
+name: 20250410_Friends_and_Family_Launch_SMS
+brand: BUR
+channel: sms
+category: product_launch
+type: product_launch
+theme: null
+braze_id: c5a5c4fd-75b7-40c5-966e-452761f28a9a
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-04-10T02:05:07+00:00'
+  last_sent: '2025-04-11T01:00:27+00:00'
+tags: []
+sends:
+- id: ad81a5ca-5310-4e13-8684-e68e71d239a6
+  channel: other
+  name: Variant 1
+- id: 2acdf3e9-5ed5-4fe8-b732-aa93276a2db7
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 237
+    purchases: 9
+    revenue: 12795.61
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.515304'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

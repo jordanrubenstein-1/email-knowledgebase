@@ -1,0 +1,23 @@
+id: 78f3519a-77a8-42c4-b055-95d853f537f3
+name: BFCM Lightbox - Email and SMS
+brand: BUR
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: 78f3519a-77a8-42c4-b055-95d853f537f3
+dates: {}
+tags: []
+sends:
+- id: 12bd95ee-5fd6-404a-90ca-07e8d89a592d
+  channel: other
+  name: Variant 1
+- id: b5d5362a-c7de-4c9c-95c5-e3fe351d6341
+  channel: other
+  name: Control Group
+performance_summary: {}
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.258334'
+schedule_type: action_based

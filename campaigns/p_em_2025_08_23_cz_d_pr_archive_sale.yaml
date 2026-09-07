@@ -1,0 +1,78 @@
+id: d4acc734-3942-47c6-a2bd-a94ba5ef420a
+name: P_EM_2025_08_23_CZ_D_PR_Archive_Sale
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: d4acc734-3942-47c6-a2bd-a94ba5ef420a
+dates:
+  send_date: '2025-08-23'
+  inferred_send_type: local_time
+  first_sent: '2025-08-23T00:08:16+00:00'
+  last_sent: '2025-08-23T23:02:08+00:00'
+tags:
+- am
+- archive
+- batch and blast
+- d2c
+- designed
+- sale
+sends:
+- id: a0b1939f-4b66-4faf-8f7d-3c21b18ded0e
+  channel: email
+  name: Variant 1
+  subject: 'Fresh Cuts: New pieces, now up to 65% off'
+  preheader: Shop Archive Sale favorites before they're gone for good.
+  html_file: html/p_em_2025_08_23_cz_d_pr_archive_sale.html
+  screenshot: screenshots/p_em_2025_08_23_cz_d_pr_archive_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a7a12eb946810065814756/original.png?1755816238
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a7a127225f5a00979a74cd/original.png?1755816230
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a7a11b1604dc00649a5854/original.png?1755816218
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a7a0e8225f5a00679a7d9a/original.png?1755816168
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a7a110177acd006794baef/original.png?1755816208
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a7a0f41604dc00649a55db/original.gif?1755816180
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a7a1b6383196007578b8a8/original.png?1755816373
+- id: 1fcafa7b-cb30-4198-b389-5fa1accb8ae7
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 71705
+  total_delivered: 71602
+  total_opens: 41430
+  total_clicks: 2642
+  open_rate: 0.5778
+  click_rate: 0.0368
+  total_revenue: 142014.65
+  total_bounces: 21
+  total_unsubscribes: 1145
+  ga4:
+    sessions: 2498
+    purchases: 29
+    revenue: 13045.36
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.891271'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-02'
+    discount: 20% off Sitewide
+    type: null
+  primary_sale:
+    id: cz-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-02'
+    discount: 20% off Sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 20% off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:36.218030'
+schedule_type: time_based

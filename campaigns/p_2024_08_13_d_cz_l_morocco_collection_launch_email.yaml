@@ -1,0 +1,42 @@
+id: 60115419-2110-46e1-875e-8ad0a458c010
+name: P_2024_08_13_D_CZ_L_Morocco_Collection_Launch_Email
+brand: CZ
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 60115419-2110-46e1-875e-8ad0a458c010
+dates:
+  send_date: '2024-08-13'
+  inferred_send_type: local_time
+  first_sent: '2024-08-13T00:01:39+00:00'
+  last_sent: '2024-08-13T16:45:00+00:00'
+tags: []
+sends:
+- id: 3001792f-ac1b-4093-bfbe-6286d1f48844
+  channel: email
+  name: Variant 1
+  subject: 'Introducing: The Morocco Collection'
+  preheader: Celebrating the rich history of Moroccan craft culture.
+  html_file: html/p_2024_08_13_d_cz_l_morocco_collection_launch_email.html
+  screenshot: screenshots/p_2024_08_13_d_cz_l_morocco_collection_launch_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b61719f36b1100659d3bfe/original.jpg?1723209497
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b616dae7183b0064598ddc/original.jpg?1723209434
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b6173011d791006637be30/original.gif?1723209520
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b637c40e8e0b006525ba92/original.jpg?1723217860
+- id: c7baf465-7e7c-4d07-9608-9b337e136f06
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 37631
+  total_delivered: 37595
+  total_opens: 24392
+  total_clicks: 1292
+  open_rate: 0.6482
+  click_rate: 0.0343
+  total_revenue: 31385.79
+  total_bounces: 2
+  total_unsubscribes: 68
+_filename: p_2024_08_13_d_cz_l_morocco_collection_launch_email.yaml
+schedule_type: time_based

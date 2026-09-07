@@ -1,0 +1,47 @@
+id: 74be4b2a-d1c1-4374-acdb-7c0bda8e8b91
+name: P_2025_2_18_D_STF_PD_Sale_Reminder_Last_Chance_Gmail
+brand: STF
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 74be4b2a-d1c1-4374-acdb-7c0bda8e8b91
+dates:
+  send_date: '2025-02-18'
+  inferred_send_type: local_time
+  first_sent: '2025-02-17T17:53:14+00:00'
+  last_sent: '2025-02-18T15:45:04+00:00'
+tags: []
+sends:
+- id: f28218bd-402d-4273-bb67-fa25c14e3b0b
+  channel: email
+  name: Variant 1
+  subject: 'FINAL CALL: 20% Off Sitewide'
+  preheader: don’t miss out on your chance to save during our Presidents Day Sale
+  html_file: html/p_2025_2_18_d_stf_pd_sale_reminder_last_chance_gmail.html
+  screenshot: screenshots/p_2025_2_18_d_stf_pd_sale_reminder_last_chance_gmail.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b10bc50d08c100675679b4/original.jpg?1739656133
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b10baadf0e99006668eabf/original.gif?1739656106
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b10c2ddf0e99006668ead4/original.jpg?1739656237
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b10c0f0d08c100675679bd/original.jpg?1739656206
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b10c07f6ba7b00651967f4/original.jpg?1739656198
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b10c4f0143f600652532a1/original.jpg?1739656270
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b10c46df0e99006668eada/original.jpg?1739656261
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b10c16df0e99006668ead3/original.jpg?1739656214
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b10bff3f90a90065f32625/original.jpg?1739656191
+- id: 1129cc91-7cd9-4c22-bac0-a3d1dd8fea9c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1080
+  total_delivered: 1079
+  total_opens: 781
+  total_clicks: 16
+  open_rate: 0.7231
+  click_rate: 0.0148
+  total_revenue: 1900.0
+  total_unsubscribes: 4
+_filename: p_2025_2_18_d_stf_pd_sale_reminder_last_chance_gmail.yaml
+schedule_type: time_based

@@ -1,0 +1,33 @@
+id: adacc9df-90de-4e3e-9f47-4ec4c0eee6ff
+name: TRG_EM_2025_03_HAV_PC_PT_HIP_Profile_Complete_T1_V1
+brand: HAV
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: ff8f4c03-be24-43a9-8501-6e2468d9ec2e
+canvas_name: HIP Profile Complete Series
+flow_type: welcome_series
+sequence_position: 1
+subject: Welcome to Havenly! Next steps for getting started
+preheader: ''
+sends:
+- id: adacc9df-90de-4e3e-9f47-4ec4c0eee6ff
+  channel: email
+  name: TRG_EM_2025_03_HAV_PC_PT_HIP_Profile_Complete_T1_V1
+  subject: Welcome to Havenly! Next steps for getting started
+  preheader: ''
+  html_file: html/canvas-hip-profile-complete-series-t1-adacc9df.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-03-06T15:00:00Z'
+  last_sent: '2026-08-31T04:00:00Z'
+performance_summary:
+  total_sends: 1794
+  total_delivered: 1791
+  total_opens: 1711
+  total_clicks: 511
+  open_rate: 0.9537
+  click_rate: 0.2848
+  total_unsubscribes: 2
+  total_bounces: 1

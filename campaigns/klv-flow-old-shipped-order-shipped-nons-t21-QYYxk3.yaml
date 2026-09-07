@@ -1,0 +1,52 @@
+id: klaviyo-QYYxk3
+name: 'Email #1 SOFA/SECTIONAL SHIPPING CONFIRMATION'
+brand: TI
+channel: email
+category: other
+type: announcement
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: TvpEbu
+canvas_name: '[OLD] Shipped: Order Shipped NONSWATCH v2'
+flow_type: swatch_followup
+sequence_position: 21
+dates:
+  created: '2020-11-17'
+  inferred_send_type: sto
+  first_sent: '2020-11-17'
+  last_sent: '2021-08-26'
+sends:
+- id: QYYxk3
+  channel: email
+  name: Message
+  subject: Your order {{ event|lookup:'order_id' }} is ready!
+  preheader: Here's what to expect.
+  html_file: html/klv-flow-old-shipped-order-shipped-nons-t21-QYYxk3.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/55eca31e-a04c-48f9-8eac-4b885ed820c1.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/57a764a8-7297-4f6d-bf9b-d3a2b9de4b7d.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/9eadeabe-1260-49e7-917b-0a7f876501f8.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/2e5b4e28-3a6f-4a47-9a4f-3836e87b3f94.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/cc32de4b-c73a-4e7e-b1d6-8dda4b85b1d4.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/efc79951-ab82-4798-b6b5-95b803f03f17.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/064365fc-fd1a-4c06-a73a-24199f09400f.png
+performance_summary:
+  total_sends: 79
+  total_delivered: 79
+  total_opens: 752
+  total_clicks: 115
+  unique_opens: 61
+  unique_clicks: 32
+  open_rate: 0.7722
+  click_rate: 0.4051
+  total_open_rate: 9.519
+  total_click_rate: 1.4557
+  total_unsubscribes: 0
+klaviyo_type: flow
+klaviyo_message_id: QYYxk3
+structure:
+  image_count: 7
+  link_count: 7
+  has_gif: false
+  hero_width: 600
+  layout_type: product_grid

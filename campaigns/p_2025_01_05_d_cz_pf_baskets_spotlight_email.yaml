@@ -1,0 +1,57 @@
+id: 4498303c-db95-46cd-912a-30add9b14cfa
+name: P_2025_01_05_D_CZ_PF_Baskets_Spotlight_Email
+brand: CZ
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 4498303c-db95-46cd-912a-30add9b14cfa
+dates:
+  send_date: '2025-01-05'
+  inferred_send_type: local_time
+  first_sent: '2025-01-04T17:06:25+00:00'
+  last_sent: '2025-01-05T17:00:49+00:00'
+tags: []
+sends:
+- id: 803e0622-f0e1-4995-8c36-8fe9b25077fa
+  channel: email
+  name: Variant 1
+  subject: The Storage Edit
+  preheader: New year, new organization rituals.
+  html_file: html/p_2025_01_05_d_cz_pf_baskets_spotlight_email.html
+  screenshot: screenshots/p_2025_01_05_d_cz_pf_baskets_spotlight_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67785540f6ec830066514aec/original.jpg?1735939391
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677855fe1276840064fc5632/original.jpg?1735939582
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677855bae9f75200664609d3/original.jpg?1735939514
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6778561dc4adfa0064e88fdc/original.jpg?1735939612
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677855075ec5d200634a2d25/original.gif?1735939335
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677855591276840064fc55b1/original.jpg?1735939416
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677855ebe9f75200664609f4/original.jpg?1735939563
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6778563666d01a0066c7900d/original.jpg?1735939638
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677855a866d01a0066c78f97/original.jpg?1735939496
+- id: b1224e0d-9529-4a44-bc0a-f9dd6f5e675b
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 96004
+  total_delivered: 95310
+  total_opens: 48321
+  total_clicks: 923
+  open_rate: 0.5033
+  click_rate: 0.0096
+  total_revenue: 63972.88
+  total_unsubscribes: 210
+  ga4:
+    sessions: 1142
+    purchases: 8
+    revenue: 3007.28
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.393824'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.415236'
+schedule_type: time_based

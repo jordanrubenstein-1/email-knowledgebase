@@ -1,0 +1,46 @@
+id: 18677bae-08d4-4c11-9570-c558c5a01dc1
+name: P_2025_04_20_ID_In_Stock_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 18677bae-08d4-4c11-9570-c558c5a01dc1
+dates:
+  send_date: '2025-04-20'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-20T05:13:38+00:00'
+  last_sent: '2025-04-20T17:15:14+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: d8ae6d13-e1ca-4863-9274-82629561970e
+  channel: email
+  name: Variant 1
+  subject: IN STOCK & 30% OFF
+  preheader: Shop select designer pieces, all on sale and all with faster delivery.
+- id: e3dc1c19-0d65-46ab-89bb-8b0cf6cf714d
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 155357
+  total_delivered: 153048
+  total_opens: 36088
+  total_clicks: 990
+  open_rate: 0.2323
+  click_rate: 0.0064
+  total_revenue: 258023.0
+  total_unsubscribes: 77
+  ga4:
+    sessions: 1819
+    purchases: 15
+    revenue: 47195.15
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.263935'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.331015'
+schedule_type: time_based

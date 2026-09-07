@@ -1,0 +1,57 @@
+id: 52796f37-094a-44f5-be36-06aeaa6abecc
+name: P_EM_2026_01_22_CZ_D_PR_Shop_By_Categories_PM
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 52796f37-094a-44f5-be36-06aeaa6abecc
+dates:
+  send_date: '2026-01-22'
+  inferred_send_type: local_time
+  first_sent: '2026-01-22T00:05:19+00:00'
+  last_sent: '2026-01-23T00:05:11+00:00'
+tags:
+- batch and blast
+- d2c
+- designed
+- pm
+- sale
+- sale/winterRefesh2026
+- sale_feat
+sends:
+- id: a37894d5-c2b6-437e-8cda-606a2f80fd1c
+  channel: email
+  name: Variant 1
+  subject: 20% Off Your Dream Bedroom
+  preheader: Curate your rest sanctuary, one layer at a time.
+  html_file: html/p_em_2026_01_22_cz_d_pr_shop_by_categories_pm.html
+  screenshot: screenshots/p_em_2026_01_22_cz_d_pr_shop_by_categories_pm.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696fdcf693b89e0063b0cfa0/original.png?1768938742
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696fdce203ffba0062840de3/original.png?1768938721
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696fdd1403490e0065d6e6c0/original.png?1768938771
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696fdd32328213007377ef69/original.png?1768938802
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696fdccd91981100647693f7/original.gif?1768938701
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696fdd1e4bbc2a00648209b2/original.png?1768938782
+- id: 41790db8-4747-4a9e-b81a-bfb33e52a837
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 113915
+  total_delivered: 111992
+  total_opens: 53714
+  total_clicks: 743
+  open_rate: 0.4715
+  click_rate: 0.0065
+  total_bounces: 1454
+  total_unsubscribes: 144
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.454136'
+    source: snowflake
+    channel: email
+schedule_type: time_based

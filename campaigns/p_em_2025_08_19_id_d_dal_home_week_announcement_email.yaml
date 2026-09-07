@@ -1,0 +1,36 @@
+id: af8a4f8d-6cd2-4500-b485-84248f170bc4
+name: P_EM_2025_08_19_ID_D_DAL_Home_Week_Announcement_Email
+brand: ID
+channel: email
+category: other
+type: product_launch
+theme: null
+braze_id: af8a4f8d-6cd2-4500-b485-84248f170bc4
+dates:
+  send_date: '2025-08-19'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-19T20:05:05+00:00'
+  last_sent: '2025-08-19T20:06:00+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 612ea63c-f785-45b2-a5c0-20692770e793
+  channel: email
+  name: Variant 1
+  subject: Dallas, You’re Invited!
+  preheader: Celebrate Home Week with us at our Dallas stores on Knox Street.
+- id: aef0bded-09a1-4844-a720-1bc28c001e9f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 3149
+  total_delivered: 3111
+  total_opens: 1796
+  total_clicks: 19
+  open_rate: 0.5703
+  click_rate: 0.006
+  total_revenue: 1290.0
+  total_bounces: 3
+  total_unsubscribes: 3
+_filename: p_em_2025_08_19_id_d_dal_home_week_announcement_email.yaml
+schedule_type: time_based

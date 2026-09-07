@@ -1,0 +1,35 @@
+id: 7772ce22-9851-4ab5-adef-88a0bc1bdc6f
+name: TRG_EM_2026_06_ID_D_Finish_Your_Living_Room_CZ_T1_V1
+brand: ID
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 63a4e8fe-22ac-4956-a70d-c02d7735a509
+canvas_name: Post Purchase Crossbrand
+flow_type: post_purchase
+sequence_position: 1
+subject: Finishing touches for your new living room
+preheader: Pillows from St. Frank and The Inside, rugs and throws from The Citizenry
+  — curated to complete your space.
+sends:
+- id: 7772ce22-9851-4ab5-adef-88a0bc1bdc6f
+  channel: email
+  name: TRG_EM_2026_06_ID_D_Finish_Your_Living_Room_CZ_T1_V1
+  subject: Finishing touches for your new living room
+  preheader: Pillows from St. Frank and The Inside, rugs and throws from The Citizenry
+    — curated to complete your space.
+  html_file: html/canvas-post-purchase-crossbrand-t1-7772ce22.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-06-08T17:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 1844
+  total_delivered: 1843
+  total_opens: 1210
+  total_clicks: 40
+  open_rate: 0.6562
+  click_rate: 0.0217
+  total_unsubscribes: 5
+  total_revenue: 11365.0

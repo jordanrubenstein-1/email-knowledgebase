@@ -1,0 +1,55 @@
+id: 7eac3762-9138-44f6-92aa-74c30d9e8dbb
+name: P_EM_2025_09_30_HAV_CONV_D_Final_Hours_Holiday_Sale
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: christmas
+braze_id: 7eac3762-9138-44f6-92aa-74c30d9e8dbb
+dates:
+  send_date: '2025-09-30'
+  inferred_send_type: local_time
+  first_sent: '2025-09-30T02:08:35+00:00'
+  last_sent: '2025-10-01T02:00:59+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: d68b4b94-189a-4cef-b962-28c6896a7eec
+  channel: email
+  name: Variant 1
+  subject: FINAL HOURS TO SAVE BIG
+  preheader: This is your last chance to get your home holiday-ready.
+  html_file: html/p_em_2025_09_30_hav_conv_d_final_hours_holiday_sale.html
+  screenshot: screenshots/p_em_2025_09_30_hav_conv_d_final_hours_holiday_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68daf691c5959000641d329c/original.png?1759180433
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68daf57627a59a0072a4be9b/original.gif?1759180150
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68daf69e34772900642b6987/original.png?1759180446
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68daf629b0983300635ae182/original.png?1759180329
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68daf6ad2707e80063d2408b/original.png?1759180460
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68daf57fb0983300635adad5/original.png?1759180158
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68daf6972707e80063d24051/original.png?1759180438
+- id: 0fddaa17-85f0-4c2c-a5e8-91791b51d663
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41941
+  total_delivered: 41913
+  total_opens: 21752
+  total_clicks: 94
+  open_rate: 0.5186
+  click_rate: 0.0022
+  total_unsubscribes: 42
+  ga4:
+    sessions: 120
+    purchases: 1
+    revenue: 3298.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:48.856843'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.702753'
+schedule_type: time_based

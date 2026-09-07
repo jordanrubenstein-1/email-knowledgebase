@@ -1,0 +1,59 @@
+id: 5153b567-4f7e-45de-aafd-f4eb16ab35a7
+name: P_EM_2026_02_27_SF_D_PR_Destination_Morocco
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 5153b567-4f7e-45de-aafd-f4eb16ab35a7
+dates:
+  send_date: '2026-02-27'
+  inferred_send_type: local_time
+  first_sent: '2026-02-27T06:09:25+00:00'
+  last_sent: '2026-02-28T06:02:01+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: 8f8f0cac-e0d8-4698-a22b-98e71c2ee393
+  channel: email
+  name: Variant 1
+  subject: In A Mediterranean State of Mind
+  preheader: 'destination Morocco: layered, sun-warmed, sculptural'
+  html_file: html/p_em_2026_02_27_sf_d_pr_destination_morocco.html
+  screenshot: screenshots/p_em_2026_02_27_sf_d_pr_destination_morocco.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a06da466326900745b268b/original.png?1772121508
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a06db5baaebd00632246ef/original.png?1772121524
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a06f40f82d6800739cb2a2/original.png?1772121919
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a06d9aae1f5d00639b81fd/original.png?1772121498
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a06dac2dbd340063ca1dd2/original.png?1772121515
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a06f5ce423be008300d5fd/original.png?1772121947
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a06f6d64855b0063b8c035/original.png?1772121964
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a06d911ea1f00063132e42/original.png?1772121488
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a06dc0b28cbc0063e7727b/original.png?1772121535
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a06f1bd37d3e0064e3d2dd/original.png?1772121882
+- id: 0418ffe1-7148-4ba5-841b-70dc83054f82
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 36803
+  total_delivered: 36519
+  total_opens: 12562
+  total_clicks: 231
+  open_rate: 0.3413
+  click_rate: 0.0063
+  total_unsubscribes: 25
+  ga4:
+    sessions: 271
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.893705'
+    source: snowflake
+    channel: email
+schedule_type: time_based

@@ -1,0 +1,34 @@
+id: e87d71b9-b8bd-471b-9ffe-60bbea4ea7e7
+name: P_EM_2026_05_10_HAV_CONV_D_Memorial_Day_EA_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: e87d71b9-b8bd-471b-9ffe-60bbea4ea7e7
+dates:
+  send_date: '2026-05-10'
+  first_sent: '2026-05-09T21:07:33+00:00'
+  last_sent: '2026-05-10T20:02:48+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 5c3b27b5-03c3-4fd2-8590-78b7a71cdfb8
+  channel: email
+  name: Variant 1
+  subject: Early access won’t last
+  preheader: Unlock up to 20% off before everyone else!
+- id: 730da943-b9fa-489a-a4a9-0b7b70588271
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 14849
+  total_delivered: 14843
+  total_opens: 7318
+  total_clicks: 57
+  open_rate: 0.4928
+  click_rate: 0.0038
+  total_unsubscribes: 27
+schedule_type: time_based
+_filename: p_em_2026_05_10_hav_conv_d_memorial_day_ea_reminder.yaml

@@ -1,0 +1,29 @@
+id: b33ef958-e1db-4786-8c81-d970ccee89f7
+name: P_SMS_2026_02_27_CZ_Pillows
+brand: CZ
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: b33ef958-e1db-4786-8c81-d970ccee89f7
+dates:
+  send_date: '2026-02-27'
+  inferred_send_type: local_time
+  first_sent: '2026-02-27T05:07:58+00:00'
+  last_sent: '2026-02-28T05:02:00+00:00'
+tags: []
+sends:
+- id: 158006a2-4d68-4c21-bf00-bd47b5e644ed
+  channel: sms
+  name: Variant 1
+- id: d40850d9-ac37-46ed-b2f6-f109feda2282
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 15151
+  total_delivered: 14786
+  total_opens: 0
+  total_clicks: 476
+  open_rate: 0.0
+  click_rate: 0.0314
+schedule_type: time_based

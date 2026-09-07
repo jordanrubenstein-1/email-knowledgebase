@@ -1,0 +1,59 @@
+id: b47d431a-72b2-4900-ab42-ce1a33e4a583
+name: P_2025_1_17_D_CZ_WRE_GTL_Bath_Oasis_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: b47d431a-72b2-4900-ab42-ce1a33e4a583
+dates:
+  send_date: '2025-01-17'
+  inferred_send_type: local_time
+  first_sent: '2025-01-16T23:24:11+00:00'
+  last_sent: '2025-01-17T17:02:00+00:00'
+tags: []
+sends:
+- id: 62dfedb2-d0b8-458c-944c-d7285d3ac67c
+  channel: email
+  name: Variant 1
+  subject: Curate An At-Home Spa
+  preheader: Indulge in 20% off bath essentials.
+  html_file: html/p_2025_1_17_d_cz_wre_gtl_bath_oasis_email.html
+  screenshot: screenshots/p_2025_1_17_d_cz_wre_gtl_bath_oasis_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6787eb4b2cc51900652616a8/original.jpg?1736960842
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6787ebed4701db00827dde44/original.jpg?1736961004
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6787eb08e350140065ee7abd/original.jpg?1736960776
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6787e235ca71ad006610de0b/original.jpg?1736958516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6787e945f852ed00644163d9/original.jpg?1736960325
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6787e285f852ed007341553b/original.jpg?1736958597
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6787e7058dc51c00657497ba/original.jpg?1736959748
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6787e2105c51210075aa8915/original.jpg?1736958480
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6787e303ae3c9e00655842d7/original.jpg?1736958722
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6787e2e44701db00647de34b/original.jpg?1736958692
+- id: 20fc8dc8-0472-4e11-96d8-623411e105b3
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 94980
+  total_delivered: 94273
+  total_opens: 45203
+  total_clicks: 741
+  open_rate: 0.4759
+  click_rate: 0.0078
+  total_revenue: 60323.48
+  total_bounces: 6
+  total_unsubscribes: 109
+  ga4:
+    sessions: 944
+    purchases: 6
+    revenue: 2288.43
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.458757'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.130458'
+schedule_type: time_based

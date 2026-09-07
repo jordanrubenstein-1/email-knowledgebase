@@ -1,0 +1,35 @@
+id: 2d19b664-8f49-4211-83d0-ab7698711669
+name: P_EM_2026_04_14_ID_D_PR_April_Reset_Mid_Sale_Reminder_STO_Control
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 2d19b664-8f49-4211-83d0-ab7698711669
+dates:
+  send_date: '2026-04-14'
+  inferred_send_type: local_time
+  first_sent: '2026-04-13T21:05:23+00:00'
+  last_sent: '2026-04-14T20:02:13+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 98aa6f14-0391-448e-89f4-0c2203155818
+  channel: email
+  name: Variant 1
+  subject: 25% off sitewide is still on
+  preheader: 'One week left: don''t miss your chance to save.'
+- id: 503ccf32-ff76-45a5-a2cd-e91b2d95946f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 112945
+  total_delivered: 112448
+  total_opens: 44535
+  total_clicks: 328
+  open_rate: 0.3943
+  click_rate: 0.0029
+  total_revenue: 108611.95
+  total_unsubscribes: 132
+_filename: p_em_2026_04_14_id_d_pr_april_reset_mid_sale_reminder_sto_co.yaml
+schedule_type: time_based

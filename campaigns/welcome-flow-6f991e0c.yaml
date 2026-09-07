@@ -1,0 +1,70 @@
+id: 6f991e0c-2df8-4de2-b5f0-dd0f1a32eb89
+name: Welcome Flow
+brand: CZ
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: 6f991e0c-2df8-4de2-b5f0-dd0f1a32eb89
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-02T22:00:00+00:00'
+  last_sent: '2024-08-23T23:00:00+00:00'
+tags: []
+sends:
+- id: 230bb685-e23a-4ab8-ae8b-38450eccab67
+  channel: email
+  name: TRG_2024_07_CZ_Welcome_T1_Email
+  subject: Welcome to The Citizenry
+  preheader: Thanks for joining the journey. Country by country, we travel the globe
+    to bring the world's best craftsmanship home to you.
+  step_id: 42ac1a5b-4a2d-4d7f-8d52-9d8b5fdb299f
+- id: 54712b8c-4e9a-49b2-96e7-8c7a526269ef
+  channel: email
+  name: TRG_2024_07_CZ_Welcome_T2_Email
+  subject: The Well-Traveled Home
+  preheader: Bring home the best craftsmanship from around the globe. Fair Trade.
+    Guaranteed.
+  step_id: cfb2c584-62e0-4d23-b4cd-b35f234c0636
+- id: 387802b5-ef1e-47ab-b7da-f5a45be882b2
+  channel: email
+  name: TRG_2024_07_CZ_Welcome_T3_Email
+  subject: Iconic For A Reason
+  preheader: Elevate your home with our iconic linen bedding. Sustainably made in
+    Portugal.
+  step_id: 65518658-34c6-4c05-8537-9513c9d194f0
+performance_summary: {}
+canvas_steps:
+- id: 42ac1a5b-4a2d-4d7f-8d52-9d8b5fdb299f
+  name: TRG_2024_07_CZ_Welcome_T1_Email
+  type: message
+  channel: email
+  subject: Welcome to The Citizenry
+  preheader: Thanks for joining the journey. Country by country, we travel the globe
+    to bring the world's best craftsmanship home to you.
+- id: 6c5d6b8e-c0f7-49af-98c0-a593d9c0d2b2
+  name: Step 1
+  type: delay
+- id: cfb2c584-62e0-4d23-b4cd-b35f234c0636
+  name: TRG_2024_07_CZ_Welcome_T2_Email
+  type: message
+  channel: email
+  subject: The Well-Traveled Home
+  preheader: Bring home the best craftsmanship from around the globe. Fair Trade.
+    Guaranteed.
+- id: ddcc68e0-f829-493a-a133-1cde85a85b7e
+  name: Step
+  type: delay
+- id: 65518658-34c6-4c05-8537-9513c9d194f0
+  name: TRG_2024_07_CZ_Welcome_T3_Email
+  type: message
+  channel: email
+  subject: Iconic For A Reason
+  preheader: Elevate your home with our iconic linen bedding. Sustainably made in
+    Portugal.
+- id: 455660e8-1c56-485c-b2a7-02a76b09fdc6
+  name: Step 2
+  type: delay
+_filename: welcome-flow-6f991e0c.yaml

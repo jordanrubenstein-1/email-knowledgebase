@@ -1,0 +1,485 @@
+id: 945fdaa8-3323-43e2-99e7-fd161daf0fbc
+name: TRG_SMS_2025_07_ID_Welcome_T7_V1
+brand: ID
+channel: sms
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 57b265fb-8444-432a-b2e8-2bbc0bb3592a
+canvas_name: SMS Welcome
+flow_type: welcome_series
+sequence_position: 7
+body: '{% assign billing_zip_var = {{custom_attribute.${billing_zip}}} %}
+
+  {% assign zip_prefix = billing_zip_var | slice: 0, 3 %}
+
+  {% assign valid_santa_monica_prefixes = ''{{content_blocks.${Geo_SantaMonica_CA}
+  | id: ''cb1''}}'' | split: '','' %}
+
+  {% assign is_valid_santa_monica_prefix = false %}
+
+  {% for prefix in valid_santa_monica_prefixes %}
+
+  {% if zip_prefix == prefix %}
+
+  {% assign is_valid_santa_monica_prefix = true %}
+
+  {% endif %}
+
+  {% endfor %}
+
+  {% assign valid_san_francisco_prefixes = ''{{content_blocks.${Geo_SanFrancisco_CA}
+  | id: ''cb8''}}'' | split: '','' %}
+
+  {% assign is_valid_san_francisco_prefix = false %}
+
+  {% for prefix in valid_san_francisco_prefixes %}
+
+  {% if zip_prefix == prefix %}
+
+  {% assign is_valid_san_francisco_prefix = true %}
+
+  {% endif %}
+
+  {% endfor %}
+
+  {% assign valid_los_angeles_prefixes = ''{{content_blocks.${Geo_LosAngeles_CA} |
+  id: ''cb23''}}'' | split: '','' %}
+
+  {% assign is_valid_los_angeles_prefix = false %}
+
+  {% for prefix in valid_los_angeles_prefixes %}
+
+  {% if zip_prefix == prefix %}
+
+  {% assign is_valid_los_angeles_prefix = true %}
+
+  {% endif %}
+
+  {% endfor %}
+
+  {% assign valid_denver_prefixes = ''{{content_blocks.${Geo_Denver_CO} | id: ''cb24''}}''
+  | split: '','' %}
+
+  {% assign is_valid_denver_prefix = false %}
+
+  {% for prefix in valid_denver_prefixes %}
+
+  {% if zip_prefix == prefix %}
+
+  {% assign is_valid_denver_prefix = true %}
+
+  {% endif %}
+
+  {% endfor %}
+
+  {% assign valid_chicago_prefixes = ''{{content_blocks.${Geo_Chicago_IL} | id: ''cb34''}}''
+  | split: '','' %}
+
+  {% assign is_valid_chicago_prefix = false %}
+
+  {% for prefix in valid_chicago_prefixes %}
+
+  {% if zip_prefix == prefix %}
+
+  {% assign is_valid_chicago_prefix = true %}
+
+  {% endif %}
+
+  {% endfor %}
+
+  {% assign valid_baltimore_prefixes = ''{{content_blocks.${Geo_Baltimore_MD} | id:
+  ''cb35''}}'' | split: '','' %}
+
+  {% assign is_valid_baltimore_prefix = false %}
+
+  {% for prefix in valid_baltimore_prefixes %}
+
+  {% if zip_prefix == prefix %}
+
+  {% assign is_valid_baltimore_prefix = true %}
+
+  {% endif %}
+
+  {% endfor %}
+
+  {% assign valid_boston_prefixes = ''{{content_blocks.${Geo_Boston_MA} | id: ''cb36''}}''
+  | split: '','' %}
+
+  {% assign is_valid_boston_prefix = false %}
+
+  {% for prefix in valid_boston_prefixes %}
+
+  {% if zip_prefix == prefix %}
+
+  {% assign is_valid_boston_prefix = true %}
+
+  {% endif %}
+
+  {% endfor %}
+
+  {% assign valid_minneapolis_prefixes = ''{{content_blocks.${Geo_Minneapolis_MN}
+  | id: ''cb37''}}'' | split: '','' %}
+
+  {% assign is_valid_minneapolis_prefix = false %}
+
+  {% for prefix in valid_minneapolis_prefixes %}
+
+  {% if zip_prefix == prefix %}
+
+  {% assign is_valid_minneapolis_prefix = true %}
+
+  {% endif %}
+
+  {% endfor %}
+
+  {% assign valid_new_york_prefixes = ''{{content_blocks.${Geo_Newyork_NY} | id: ''cb38''}}''
+  | split: '','' %}
+
+  {% assign is_valid_new_york_prefix = false %}
+
+  {% for prefix in valid_new_york_prefixes %}
+
+  {% if zip_prefix == prefix %}
+
+  {% assign is_valid_new_york_prefix = true %}
+
+  {% endif %}
+
+  {% endfor %}
+
+  {% assign valid_charlotte_prefixes = ''{{content_blocks.${Geo_Charlotte_NC} | id:
+  ''cb39''}}'' | split: '','' %}
+
+  {% assign is_valid_charlotte_prefix = false %}
+
+  {% for prefix in valid_charlotte_prefixes %}
+
+  {% if zip_prefix == prefix %}
+
+  {% assign is_valid_charlotte_prefix = true %}
+
+  {% endif %}
+
+  {% endfor %}
+
+  {% assign valid_philadelphia_prefixes = ''{{content_blocks.${Geo_Philadelphia_PA}
+  | id: ''cb40''}}'' | split: '','' %}
+
+  {% assign is_valid_philadelphia_prefix = false %}
+
+  {% for prefix in valid_philadelphia_prefixes %}
+
+  {% if zip_prefix == prefix %}
+
+  {% assign is_valid_philadelphia_prefix = true %}
+
+  {% endif %}
+
+  {% endfor %}
+
+  {% assign valid_tysons_corner_prefixes = ''{{content_blocks.${Geo_TysonsCorner_VA}
+  | id: ''cb41''}}'' | split: '','' %}
+
+  {% assign is_valid_tysons_corner_prefix = false %}
+
+  {% for prefix in valid_tysons_corner_prefixes %}
+
+  {% if zip_prefix == prefix %}
+
+  {% assign is_valid_tysons_corner_prefix = true %}
+
+  {% endif %}
+
+  {% endfor %}
+
+  {% assign valid_seattle_prefixes = ''{{content_blocks.${Geo_Seattle_WA} | id: ''cb42''}}''
+  | split: '','' %}
+
+  {% assign is_valid_seattle_prefix = false %}
+
+  {% for prefix in valid_seattle_prefixes %}
+
+  {% if zip_prefix == prefix %}
+
+  {% assign is_valid_seattle_prefix = true %}
+
+  {% endif %}
+
+  {% endfor %}
+
+  {% assign valid_dallas_prefixes = ''{{content_blocks.${Geo_Dallas_TX} | id: ''cb43''}}''
+  | split: '','' %}
+
+  {% assign is_valid_dallas_prefix = false %}
+
+  {% for prefix in valid_dallas_prefixes %}
+
+  {% if zip_prefix == prefix %}
+
+  {% assign is_valid_dallas_prefix = true %}
+
+  {% endif %}
+
+  {% endfor %}Interior Define: Come visit us! Meet with design experts, test out our
+  furniture in person, and grab free fabric swatches at your local Interior Define
+  studio. {% if is_valid_santa_monica_prefix or is_valid_san_francisco_prefix or is_valid_los_angeles_prefix
+  or is_valid_denver_prefix  or is_valid_chicago_prefix or is_valid_baltimore_prefix
+  or is_valid_boston_prefix or is_valid_minneapolis_prefix or is_valid_new_york_prefix
+  or is_valid_charlotte_prefix or is_valid_philadelphia_prefix or is_valid_tysons_corner_prefix
+  or is_valid_seattle_prefix or is_valid_dallas_prefix %}Visit your local store{%
+  else %}Find a store{% endif %}: https://www.interiordefine.com/locations{% if is_valid_santa_monica_prefix
+  %}/santa-monica-wilshire{% elsif is_valid_san_francisco_prefix %}/san-francisco{%
+  elsif is_valid_los_angeles_prefix %}/los-angeles{% elsif is_valid_denver_prefix
+  %}/denver{% elsif is_valid_chicago_prefix %}/chicago{% elsif is_valid_baltimore_prefix
+  %}/baltimore{% elsif is_valid_boston_prefix %}/boston{% elsif is_valid_minneapolis_prefix
+  %}/minneapolis{% elsif is_valid_new_york_prefix %}/new-york{% elsif is_valid_charlotte_prefix
+  %}/charlotte{% elsif is_valid_philadelphia_prefix %}/philadelphia{% elsif is_valid_tysons_corner_prefix
+  %}/washington-dc-tysons-corner{% elsif is_valid_seattle_prefix %}/seattle{% elsif
+  is_valid_dallas_prefix %}/dallas{% endif %}?utm_source=braze_ID&utm_medium=sms&utm_campaign={{campaign.${name}}}&userid={{${user_id}}}&bzt={{${email_address}
+  | base64_encode | url_param_escape}}'
+sends:
+- id: 945fdaa8-3323-43e2-99e7-fd161daf0fbc
+  channel: sms
+  name: TRG_SMS_2025_07_ID_Welcome_T7_V1
+  body: '{% assign billing_zip_var = {{custom_attribute.${billing_zip}}} %}
+
+    {% assign zip_prefix = billing_zip_var | slice: 0, 3 %}
+
+    {% assign valid_santa_monica_prefixes = ''{{content_blocks.${Geo_SantaMonica_CA}
+    | id: ''cb1''}}'' | split: '','' %}
+
+    {% assign is_valid_santa_monica_prefix = false %}
+
+    {% for prefix in valid_santa_monica_prefixes %}
+
+    {% if zip_prefix == prefix %}
+
+    {% assign is_valid_santa_monica_prefix = true %}
+
+    {% endif %}
+
+    {% endfor %}
+
+    {% assign valid_san_francisco_prefixes = ''{{content_blocks.${Geo_SanFrancisco_CA}
+    | id: ''cb8''}}'' | split: '','' %}
+
+    {% assign is_valid_san_francisco_prefix = false %}
+
+    {% for prefix in valid_san_francisco_prefixes %}
+
+    {% if zip_prefix == prefix %}
+
+    {% assign is_valid_san_francisco_prefix = true %}
+
+    {% endif %}
+
+    {% endfor %}
+
+    {% assign valid_los_angeles_prefixes = ''{{content_blocks.${Geo_LosAngeles_CA}
+    | id: ''cb23''}}'' | split: '','' %}
+
+    {% assign is_valid_los_angeles_prefix = false %}
+
+    {% for prefix in valid_los_angeles_prefixes %}
+
+    {% if zip_prefix == prefix %}
+
+    {% assign is_valid_los_angeles_prefix = true %}
+
+    {% endif %}
+
+    {% endfor %}
+
+    {% assign valid_denver_prefixes = ''{{content_blocks.${Geo_Denver_CO} | id: ''cb24''}}''
+    | split: '','' %}
+
+    {% assign is_valid_denver_prefix = false %}
+
+    {% for prefix in valid_denver_prefixes %}
+
+    {% if zip_prefix == prefix %}
+
+    {% assign is_valid_denver_prefix = true %}
+
+    {% endif %}
+
+    {% endfor %}
+
+    {% assign valid_chicago_prefixes = ''{{content_blocks.${Geo_Chicago_IL} | id:
+    ''cb34''}}'' | split: '','' %}
+
+    {% assign is_valid_chicago_prefix = false %}
+
+    {% for prefix in valid_chicago_prefixes %}
+
+    {% if zip_prefix == prefix %}
+
+    {% assign is_valid_chicago_prefix = true %}
+
+    {% endif %}
+
+    {% endfor %}
+
+    {% assign valid_baltimore_prefixes = ''{{content_blocks.${Geo_Baltimore_MD} |
+    id: ''cb35''}}'' | split: '','' %}
+
+    {% assign is_valid_baltimore_prefix = false %}
+
+    {% for prefix in valid_baltimore_prefixes %}
+
+    {% if zip_prefix == prefix %}
+
+    {% assign is_valid_baltimore_prefix = true %}
+
+    {% endif %}
+
+    {% endfor %}
+
+    {% assign valid_boston_prefixes = ''{{content_blocks.${Geo_Boston_MA} | id: ''cb36''}}''
+    | split: '','' %}
+
+    {% assign is_valid_boston_prefix = false %}
+
+    {% for prefix in valid_boston_prefixes %}
+
+    {% if zip_prefix == prefix %}
+
+    {% assign is_valid_boston_prefix = true %}
+
+    {% endif %}
+
+    {% endfor %}
+
+    {% assign valid_minneapolis_prefixes = ''{{content_blocks.${Geo_Minneapolis_MN}
+    | id: ''cb37''}}'' | split: '','' %}
+
+    {% assign is_valid_minneapolis_prefix = false %}
+
+    {% for prefix in valid_minneapolis_prefixes %}
+
+    {% if zip_prefix == prefix %}
+
+    {% assign is_valid_minneapolis_prefix = true %}
+
+    {% endif %}
+
+    {% endfor %}
+
+    {% assign valid_new_york_prefixes = ''{{content_blocks.${Geo_Newyork_NY} | id:
+    ''cb38''}}'' | split: '','' %}
+
+    {% assign is_valid_new_york_prefix = false %}
+
+    {% for prefix in valid_new_york_prefixes %}
+
+    {% if zip_prefix == prefix %}
+
+    {% assign is_valid_new_york_prefix = true %}
+
+    {% endif %}
+
+    {% endfor %}
+
+    {% assign valid_charlotte_prefixes = ''{{content_blocks.${Geo_Charlotte_NC} |
+    id: ''cb39''}}'' | split: '','' %}
+
+    {% assign is_valid_charlotte_prefix = false %}
+
+    {% for prefix in valid_charlotte_prefixes %}
+
+    {% if zip_prefix == prefix %}
+
+    {% assign is_valid_charlotte_prefix = true %}
+
+    {% endif %}
+
+    {% endfor %}
+
+    {% assign valid_philadelphia_prefixes = ''{{content_blocks.${Geo_Philadelphia_PA}
+    | id: ''cb40''}}'' | split: '','' %}
+
+    {% assign is_valid_philadelphia_prefix = false %}
+
+    {% for prefix in valid_philadelphia_prefixes %}
+
+    {% if zip_prefix == prefix %}
+
+    {% assign is_valid_philadelphia_prefix = true %}
+
+    {% endif %}
+
+    {% endfor %}
+
+    {% assign valid_tysons_corner_prefixes = ''{{content_blocks.${Geo_TysonsCorner_VA}
+    | id: ''cb41''}}'' | split: '','' %}
+
+    {% assign is_valid_tysons_corner_prefix = false %}
+
+    {% for prefix in valid_tysons_corner_prefixes %}
+
+    {% if zip_prefix == prefix %}
+
+    {% assign is_valid_tysons_corner_prefix = true %}
+
+    {% endif %}
+
+    {% endfor %}
+
+    {% assign valid_seattle_prefixes = ''{{content_blocks.${Geo_Seattle_WA} | id:
+    ''cb42''}}'' | split: '','' %}
+
+    {% assign is_valid_seattle_prefix = false %}
+
+    {% for prefix in valid_seattle_prefixes %}
+
+    {% if zip_prefix == prefix %}
+
+    {% assign is_valid_seattle_prefix = true %}
+
+    {% endif %}
+
+    {% endfor %}
+
+    {% assign valid_dallas_prefixes = ''{{content_blocks.${Geo_Dallas_TX} | id: ''cb43''}}''
+    | split: '','' %}
+
+    {% assign is_valid_dallas_prefix = false %}
+
+    {% for prefix in valid_dallas_prefixes %}
+
+    {% if zip_prefix == prefix %}
+
+    {% assign is_valid_dallas_prefix = true %}
+
+    {% endif %}
+
+    {% endfor %}Interior Define: Come visit us! Meet with design experts, test out
+    our furniture in person, and grab free fabric swatches at your local Interior
+    Define studio. {% if is_valid_santa_monica_prefix or is_valid_san_francisco_prefix
+    or is_valid_los_angeles_prefix or is_valid_denver_prefix  or is_valid_chicago_prefix
+    or is_valid_baltimore_prefix or is_valid_boston_prefix or is_valid_minneapolis_prefix
+    or is_valid_new_york_prefix or is_valid_charlotte_prefix or is_valid_philadelphia_prefix
+    or is_valid_tysons_corner_prefix or is_valid_seattle_prefix or is_valid_dallas_prefix
+    %}Visit your local store{% else %}Find a store{% endif %}: https://www.interiordefine.com/locations{%
+    if is_valid_santa_monica_prefix %}/santa-monica-wilshire{% elsif is_valid_san_francisco_prefix
+    %}/san-francisco{% elsif is_valid_los_angeles_prefix %}/los-angeles{% elsif is_valid_denver_prefix
+    %}/denver{% elsif is_valid_chicago_prefix %}/chicago{% elsif is_valid_baltimore_prefix
+    %}/baltimore{% elsif is_valid_boston_prefix %}/boston{% elsif is_valid_minneapolis_prefix
+    %}/minneapolis{% elsif is_valid_new_york_prefix %}/new-york{% elsif is_valid_charlotte_prefix
+    %}/charlotte{% elsif is_valid_philadelphia_prefix %}/philadelphia{% elsif is_valid_tysons_corner_prefix
+    %}/washington-dc-tysons-corner{% elsif is_valid_seattle_prefix %}/seattle{% elsif
+    is_valid_dallas_prefix %}/dallas{% endif %}?utm_source=braze_ID&utm_medium=sms&utm_campaign={{campaign.${name}}}&userid={{${user_id}}}&bzt={{${email_address}
+    | base64_encode | url_param_escape}}'
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-03-18T15:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 1199
+  total_delivered: 1189
+  total_clicks: 214
+  click_rate: 0.1785
+  total_unsubscribes: 26
+  total_bounces: 2
+  total_revenue: 8625.0

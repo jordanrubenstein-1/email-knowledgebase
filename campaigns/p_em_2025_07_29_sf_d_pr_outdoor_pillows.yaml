@@ -1,0 +1,82 @@
+id: bbf250b6-bf90-4a1e-ad75-80162f8e05f3
+name: P_EM_2025_07_29_SF_D_PR_Outdoor_Pillows
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: bbf250b6-bf90-4a1e-ad75-80162f8e05f3
+dates:
+  send_date: '2025-07-29'
+  inferred_send_type: local_time
+  first_sent: '2025-07-29T01:25:36+00:00'
+  last_sent: '2025-07-29T17:00:18+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- pillows
+- sale
+- sale-feat
+sends:
+- id: 1487aa97-fc1f-4c46-aea7-7b4b4c2da0f6
+  channel: email
+  name: Variant 1
+  subject: A Refined Open-Air Affair
+  preheader: 20% off outdoor pillows
+  html_file: html/p_em_2025_07_29_sf_d_pr_outdoor_pillows.html
+  screenshot: screenshots/p_em_2025_07_29_sf_d_pr_outdoor_pillows.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68880619c545b50077c97adc/original.jpg?1753744920
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6888064511eda400641b47d7/original.jpg?1753744965
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6888094fee7d30006780d901/original.jpg?1753745743
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6888066211eda400731b33a0/original.jpg?1753744994
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688805e81cdecb0065279ff7/original.png?1753744872
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6888067bb4c6a20087c5df66/original.jpg?1753745019
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688806a245084600666f4bdc/original.png?1753745057
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6888063dee84710065f8a07d/original.jpg?1753744957
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688805f7773be700878fab4e/original.png?1753744886
+- id: b397a339-61a1-4ecd-89ca-852eb0cf05d4
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41711
+  total_delivered: 41641
+  total_opens: 18942
+  total_clicks: 150
+  open_rate: 0.4541
+  click_rate: 0.0036
+  total_revenue: 9034.0
+  total_bounces: 2
+  total_unsubscribes: 80
+  ga4:
+    sessions: 158
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.972432'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-the-pillow-event-2025-07-25
+    name: The Pillow Event
+    start_date: '2025-07-25'
+    end_date: '2025-07-31'
+    discount: 20% Off All Pillows
+    type: null
+  primary_sale:
+    id: stf-the-pillow-event-2025-07-25
+    name: The Pillow Event
+    start_date: '2025-07-25'
+    end_date: '2025-07-31'
+    discount: 20% Off All Pillows
+    type: null
+  sale_name: The Pillow Event
+  sale_discount: 20% Off All Pillows
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:40.093453'
+schedule_type: time_based

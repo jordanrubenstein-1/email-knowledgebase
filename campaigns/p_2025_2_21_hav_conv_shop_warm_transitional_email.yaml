@@ -1,0 +1,33 @@
+id: 58961a25-1ab9-459b-8919-7b516e6ce063
+name: P_2025_2_21_HAV_CONV_Shop_Warm_Transitional_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 58961a25-1ab9-459b-8919-7b516e6ce063
+dates:
+  send_date: '2025-02-21'
+  first_sent: '2025-02-21T05:08:58+00:00'
+  last_sent: '2025-02-21T17:15:16+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 68e43f66-6b9c-42ae-bb58-0c8af6d6f7f4
+  channel: email
+  name: Variant 1
+  subject: 'Now Trending: Warm Transitional'
+  preheader: Shop the edit.
+- id: 759d2d15-755e-41f7-be1b-153390900691
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 38401
+  total_delivered: 38291
+  total_opens: 21903
+  total_clicks: 347
+  open_rate: 0.5704
+  click_rate: 0.009
+  total_unsubscribes: 39
+schedule_type: time_based
+_filename: p_2025_2_21_hav_conv_shop_warm_transitional_email.yaml

@@ -1,0 +1,47 @@
+id: 46c5c9c5-ba12-46eb-bec3-527b86d13e37
+name: P_EM_2026_03_13_CZ_D_PR_UGC_Bedding
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 46c5c9c5-ba12-46eb-bec3-527b86d13e37
+dates:
+  send_date: '2026-03-13'
+  inferred_send_type: local_time
+  first_sent: '2026-03-12T23:08:10+00:00'
+  last_sent: '2026-03-13T23:06:13+00:00'
+tags:
+- am
+- batch and blast
+- bedding
+- d2c
+- designed
+- ugc
+sends:
+- id: 9cccb032-3c3e-444d-9e39-14fc68632ae8
+  channel: email
+  name: Variant 1
+  subject: The Art of Rest
+  preheader: In honor of Sleep Week, discover bedding crafted for deeper rest.
+  html_file: html/p_em_2026_03_13_cz_d_pr_ugc_bedding.html
+  screenshot: screenshots/p_em_2026_03_13_cz_d_pr_ugc_bedding.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b2ce2e50a680006495b907/original.png?1773325869
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b2ce38ff5a2e0063545919/original.png?1773325878
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b2ce9e7d6fda006328ffe7/original.png?1773325981
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b2cea8012c150064232562/original.png?1773325992
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b2ce8fd59abc00630b3f20/original.png?1773325966
+- id: ffe1db2a-b006-4c65-8131-b9691e9a17e7
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 113025
+  total_delivered: 112341
+  total_opens: 54298
+  total_clicks: 569
+  open_rate: 0.4804
+  click_rate: 0.005
+  total_bounces: 4
+  total_unsubscribes: 129
+schedule_type: time_based

@@ -1,0 +1,24 @@
+id: 1281671e-a814-4f02-873b-465d3d6d529a
+name: TRG_EM_2026_07_BW_D_Dining_Chair_Rec_T1_V1
+brand: BUR
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 8c4b641f-5882-4cd7-9f53-5be5f0584570
+canvas_name: Post Purchase - Dining Chair Buyer No Table
+flow_type: post_purchase
+sequence_position: 1
+subject: Your new table is missing something
+preheader: ''
+sends:
+- id: 1281671e-a814-4f02-873b-465d3d6d529a
+  channel: email
+  name: TRG_EM_2026_07_BW_D_Dining_Chair_Rec_T1_V1
+  subject: Your new table is missing something
+  preheader: ''
+  html_file: html/canvas-post-purchase-dining-chair-buyer-no-table-t1-1281671e.html
+dates:
+  first_sent: null
+  last_sent: null
+performance_summary: {}

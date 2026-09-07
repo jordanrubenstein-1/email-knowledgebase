@@ -1,0 +1,54 @@
+id: 7e077094-32ef-462b-83c2-8aaedee19661
+name: 2025_03_30_HAV_Conv_D_Rendering_Roundup_Living_Room
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 7e077094-32ef-462b-83c2-8aaedee19661
+dates:
+  send_date: '2025-03-30'
+  inferred_send_type: scheduled
+  first_sent: '2025-03-30T13:15:02+00:00'
+  last_sent: '2025-03-30T13:16:21+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 8a3c1631-9bf5-4449-a08c-bb1b7bd1fce8
+  channel: email
+  name: Variant 1
+  subject: You Should Love Your Living Room
+  preheader: Design inspo loading...
+  html_file: html/2025_03_30_hav_conv_d_rendering_roundup_living_room.html
+  screenshot: screenshots/2025_03_30_hav_conv_d_rendering_roundup_living_room.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e72a9b8aa7890066a35c3a/original.png?1743202971
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e72ad40ac9710067f1a4a5/original.png?1743203027
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e72ae00f697500644f9adc/original.png?1743203040
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e72a758946990067c8e182/original.png?1743202933
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e72ac55426aa0065ad387c/original.png?1743203012
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e72aabc3abb8006727b37a/original.png?1743202987
+- id: 2c44c42c-3487-4fab-9d09-8a88e6d509b3
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 39426
+  total_delivered: 39311
+  total_opens: 22207
+  total_clicks: 266
+  open_rate: 0.5633
+  click_rate: 0.0067
+  total_unsubscribes: 41
+  ga4:
+    sessions: 423
+    purchases: 3
+    revenue: 2298.55
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.522262'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.765010'
+schedule_type: time_based

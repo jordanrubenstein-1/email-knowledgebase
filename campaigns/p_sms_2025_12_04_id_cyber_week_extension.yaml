@@ -1,0 +1,30 @@
+id: c8c0a6d9-10b0-43b0-aa99-09bcf99881c5
+name: P_SMS_2025_12_04_ID_Cyber_Week_Extension
+brand: ID
+channel: sms
+category: sale_promo
+type: seasonal
+theme: null
+braze_id: c8c0a6d9-10b0-43b0-aa99-09bcf99881c5
+dates:
+  send_date: '2025-12-04'
+  inferred_send_type: local_time
+  first_sent: '2025-12-04T01:06:36+00:00'
+  last_sent: '2025-12-05T01:02:24+00:00'
+tags: []
+sends:
+- id: 616a3819-5d56-4fcd-81ff-5730446423b6
+  channel: sms
+  name: Variant 1
+- id: 191ca0d0-4a19-4fec-8f29-cb4a3414e4d9
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 50323
+  total_delivered: 48280
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 9350.99
+schedule_type: time_based

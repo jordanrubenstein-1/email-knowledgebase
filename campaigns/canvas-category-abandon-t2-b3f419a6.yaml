@@ -1,0 +1,33 @@
+id: b3f419a6-64e8-49b8-859d-6743d616e7ad
+name: TRG_EM_2026_05_ID_D_Category_Page_Abandon_T2_V1
+brand: ID
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 86f47b0c-8280-452e-9949-51ffb965d694
+canvas_name: Category Abandon
+flow_type: other_flow
+sequence_position: 2
+subject: Your options, narrowed down
+preheader: Shop the categories that fit your space, then make it yours.
+sends:
+- id: b3f419a6-64e8-49b8-859d-6743d616e7ad
+  channel: email
+  name: TRG_EM_2026_05_ID_D_Category_Page_Abandon_T2_V1
+  subject: Your options, narrowed down
+  preheader: Shop the categories that fit your space, then make it yours.
+  html_file: html/canvas-category-abandon-t2-b3f419a6.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-05-17T03:00:00Z'
+  last_sent: '2026-08-28T19:00:00Z'
+performance_summary:
+  total_sends: 2712
+  total_delivered: 2699
+  total_opens: 1563
+  total_clicks: 48
+  open_rate: 0.5763
+  click_rate: 0.0177
+  total_unsubscribes: 5
+  total_revenue: 66436.97

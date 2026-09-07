@@ -1,0 +1,30 @@
+id: 5a52f826-d363-4731-a973-ba7bd45a738e
+name: P_2025_4_13_Friends_Family_Sale_Reminder_SMS
+brand: ID
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: 5a52f826-d363-4731-a973-ba7bd45a738e
+dates:
+  send_date: '2025-04-13'
+  inferred_send_type: local_time
+  first_sent: '2025-04-12T22:55:52+00:00'
+  last_sent: '2025-04-13T21:50:05+00:00'
+tags: []
+sends:
+- id: c5734fce-c9a3-4de4-83b8-c2ed74a4afa2
+  channel: other
+  name: Variant 1
+- id: 4657a790-8a1e-4c0d-b8d1-c6c32f97cbed
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 59623
+  total_delivered: 56111
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 14702.5
+schedule_type: time_based

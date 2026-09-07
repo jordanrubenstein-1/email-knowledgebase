@@ -1,0 +1,58 @@
+id: ee2dfcca-634c-49ed-9fe1-8ef75e092b22
+name: P_EM_2025_12_23_SF_D_PR_Gift_Cards_and_Sale
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: ee2dfcca-634c-49ed-9fe1-8ef75e092b22
+dates:
+  send_date: '2025-12-23'
+  inferred_send_type: scheduled
+  first_sent: '2025-12-23T03:38:33+00:00'
+  last_sent: '2025-12-23T17:02:52+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: 8b9ab54b-ca14-41c1-bdd3-d9362b1c245c
+  channel: email
+  name: Variant 1
+  subject: This one’s easy ✔️
+  preheader: A St. Frank gift card, for those with great taste.
+  html_file: html/p_em_2025_12_23_sf_d_pr_gift_cards_and_sale.html
+  screenshot: screenshots/p_em_2025_12_23_sf_d_pr_gift_cards_and_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6949d72ddec8890063a645b7/original.png?1766446892
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6949d734603e5c00639df193/original.png?1766446900
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6949d71eefbc4d00639baaf7/original.png?1766446878
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69495e430d44f90063b1533a/original.png?1766415938
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6949d7265393bd00732f5141/original.png?1766446886
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69495e0a35287f0063e39733/original.gif?1766415882
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6949d7083ec9dd0065c7966d/original.png?1766446856
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6949d70f9af67d0063b7f424/original.png?1766446863
+- id: e1059cab-3944-44c9-9354-2d8cb5837bc2
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39421
+  total_delivered: 39098
+  total_opens: 15652
+  total_clicks: 82
+  open_rate: 0.397
+  click_rate: 0.0021
+  total_bounces: 1
+  total_unsubscribes: 35
+  ga4:
+    sessions: 65
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.014067'
+    source: snowflake
+    channel: email
+schedule_type: time_based

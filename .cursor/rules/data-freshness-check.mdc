@@ -1,0 +1,72 @@
+---
+description: Before any analysis involving a date range, verify underlying data is fresh and refresh if needed.
+alwaysApply: true
+---
+
+# Data Freshness Check
+
+When the user asks a question that involves campaign performance, GA4 metrics, engagement stats, send-time analysis, sale performance, or any comparison across a date range, **check that the local data covers that range and is up to date before analyzing**.
+
+## 1. Detect Whether Fresh Data Is Needed
+
+The request likely requires fresh data if it mentions:
+- A specific date range ("January 2026", "last 30 days", "Q4 2025")
+- Performance metrics (sessions, revenue, opens, clicks, open rate, click rate)
+- GA4 / Snowflake data (sessions, purchases, revenue, add-to-carts)
+- Sale vs non-sale comparisons
+- Brand-level performance comparisons over time
+
+**Sale schedule freshness is always required** when any of the following apply:
+- Categorizing, sorting, or labeling campaigns as sale vs non-sale
+- Analyzing performance by sale period, sale type, or sale vs non-sale
+- Building or reviewing a campaign calendar that references promo periods
+- Tagging campaigns with sale context (using `sale_matcher`)
+- Any query that touches Havenly DPS vs Marketplace distinction
+
+If the request is purely about email content, structure, or subject lines (no metrics and no sale categorization), freshness checks can be skipped.
+
+## 2. Freshness Checks by Data Source
+
+Run these checks **before** starting analysis. Sample 3-5 campaign YAML files in the requested date range.
+
+### Sale Schedules (Promo Calendar) — CHECK FIRST
+**Always check this before any work that categorizes campaigns as sale/non-sale.** Stale promo data means campaigns get mis-categorized.
+
+- Check `last_updated` in `data/sale_schedules.yaml`.
+- **Stale if:** older than 7 days, OR the requested date range extends past the last sale entry's `end_date`.
+- **Refresh:** `uv run python scripts/import_sale_schedules.py --source sync`
+  - Auto-discovers current/future tabs from the Promo Calendar Google Sheet and merges with historical data.
+  - Requires `GOOGLE_SHEETS_API_KEY` and `PROMO_CALENDAR_SHEET_ID` in `.env`.
+  - Use `--dry-run` first to preview what will be imported.
+- **After refresh:** verify the sync output covers the brands and date range needed. Note the sync date in any report output (e.g., "Promo calendar synced as of 2026-02-10").
+
+### Campaign YAMLs (Braze)
+- Glob `campaigns/*.yaml` and check `dates.first_sent` for coverage of the requested range.
+- If few or no campaigns exist for the date range, data needs importing.
+- **Refresh:** `uv run python scripts/import_braze.py --brand <BRAND> --skip-existing`
+
+### Braze Analytics (open/click rates)
+- Check if `performance_summary.open_rate` exists on sampled campaigns.
+- If missing on multiple campaigns, analytics need backfilling.
+- **Refresh:** `uv run python scripts/backfill_analytics.py --brand <BRAND>`
+
+### GA4 Metrics (sessions, revenue from Snowflake)
+- Check `performance_summary.ga4.last_synced` on sampled campaigns.
+- If the field is missing, or the timestamp is more than 3 days old, GA4 data is stale.
+- **Refresh:** `uv run python scripts/import_ga4_metrics_snowflake.py --brand <BRAND> --days <N>`
+  - Set `--days` to cover the full requested range plus a buffer (e.g., range is 31 days, use `--days 45`).
+  - Use `--all` only if multiple brands are needed; prefer `--brand` to keep it fast.
+
+## 3. Refresh Workflow
+
+1. **Tell the user** which data sources look stale and what you plan to refresh.
+2. **Ask for confirmation** before running import scripts (they hit external APIs and may take a few minutes).
+3. **Run the scoped refresh** — always use `--brand` and `--days` flags to avoid full re-imports.
+4. **Verify** the refresh succeeded (check script output for error counts, updated file counts).
+5. **Report back** with a summary: what was refreshed, how many campaigns were updated, and the confirmed date range of the data.
+
+## 4. After Refresh
+
+- Proceed with the analysis using the now-current data.
+- In the report output, note the data freshness date (e.g., "GA4 data synced as of 2026-02-07", "Promo calendar synced as of 2026-02-10").
+- If any source could not be refreshed (API errors, missing credentials), warn the user and note which metrics may be incomplete.

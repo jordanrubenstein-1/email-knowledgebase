@@ -1,0 +1,30 @@
+id: 5169495e-3d16-418d-a972-4c8155d49a2d
+name: P_SMS_2026_04_16_CZ_Sleep_Well_Sale_Launch
+brand: CZ
+channel: sms
+category: product_launch
+type: sale
+theme: null
+braze_id: 5169495e-3d16-418d-a972-4c8155d49a2d
+dates:
+  send_date: '2026-04-16'
+  inferred_send_type: local_time
+  first_sent: '2026-04-16T02:06:27+00:00'
+  last_sent: '2026-04-17T01:02:40+00:00'
+tags: []
+sends:
+- id: 3b4f550a-5b1e-468f-808b-99a46a18662d
+  channel: sms
+  name: Variant 1
+- id: f3b078ee-c399-4f1c-b6d5-e7deb48b76e3
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 20185
+  total_delivered: 18812
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+_filename: p_sms_2026_04_16_cz_sleep_well_sale_launch.yaml
+schedule_type: time_based

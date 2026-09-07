@@ -1,0 +1,56 @@
+id: ae8a6a1e-ff9b-4524-bb21-92cc19b7cef2
+name: P_2025_2_27_HAV_Conv_Last_Layer_Sale_Announcement_Email
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: ae8a6a1e-ff9b-4524-bb21-92cc19b7cef2
+dates:
+  send_date: '2025-02-27'
+  inferred_send_type: scheduled
+  first_sent: '2025-02-27T17:15:11+00:00'
+  last_sent: '2025-02-27T17:24:14+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: fdd5c1bb-a1f1-47b9-90e3-722344cb20f6
+  channel: email
+  name: Variant 1
+  subject: 'STARTS NOW: up to 20% off!'
+  preheader: Save on decor and accent furniture, exclusively at Havenly.
+  html_file: html/p_2025_2_27_hav_conv_last_layer_sale_announcement_email.html
+  screenshot: screenshots/p_2025_2_27_hav_conv_last_layer_sale_announcement_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67bfacaff4cc8300646f0cce/original.png?1740614830
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67bfacd64b358e00745c8cac/original.png?1740614870
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67bfac9a62164f0064576ab4/original.png?1740614810
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67bface6de98c80064bc7f44/original.png?1740614884
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67bfacb7de98c80064bc7f1f/original.png?1740614838
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67bfaccc4b358e00745c8cab/original.png?1740614860
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67bfb3c9b05b1300630a7b5c/original.png?1740616649
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67bfac8b4b358e00645cc734/original.gif?1740614795
+- id: 9d95afbe-f347-4c29-a6ba-71f80162ef05
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 38414
+  total_delivered: 38331
+  total_opens: 20776
+  total_clicks: 186
+  open_rate: 0.5408
+  click_rate: 0.0048
+  total_unsubscribes: 38
+  ga4:
+    sessions: 283
+    purchases: 1
+    revenue: 605.55
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.657242'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.893982'
+schedule_type: time_based

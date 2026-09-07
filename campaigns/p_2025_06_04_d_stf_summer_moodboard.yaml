@@ -1,0 +1,59 @@
+id: 5f13677b-de29-4bc3-bd8c-03a1dc9a456b
+name: P_2025_06_04_D_STF_Summer_Moodboard
+brand: STF
+channel: email
+category: other
+type: seasonal
+theme: summer
+braze_id: 5f13677b-de29-4bc3-bd8c-03a1dc9a456b
+dates:
+  send_date: '2025-06-04'
+  inferred_send_type: local_time
+  first_sent: '2025-06-03T21:44:52+00:00'
+  last_sent: '2025-06-04T17:00:16+00:00'
+tags: []
+sends:
+- id: 814dc6e7-5938-42c5-970b-229961efd73a
+  channel: email
+  name: Variant 1
+  subject: Your Summer Mood Board
+  preheader: shop styles we are loving this season
+  html_file: html/p_2025_06_04_d_stf_summer_moodboard.html
+  screenshot: screenshots/p_2025_06_04_d_stf_summer_moodboard.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683f382dfd2b090065eb11c7/original.png?1748973612
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683f381370d9e30065b87a04/original.png?1748973587
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683f383370b5f50065b60228/original.png?1748973619
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683f38716290b70095cd3f1e/original.png?1748973680
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683f388b9c9b780075355265/original.png?1748973707
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683f3845ff8ca40076f21ac1/original.png?1748973636
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683f384a70b5f50065b6025f/original.png?1748973641
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683f38aaa5700e00660b93b2/original.png?1748973738
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683f37f49c9b7800753550dc/original.gif?1748973556
+- id: 9bc936f2-80ff-4af9-950b-167db0be95dc
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 29345
+  total_delivered: 28988
+  total_opens: 14049
+  total_clicks: 171
+  open_rate: 0.4788
+  click_rate: 0.0058
+  total_revenue: 5599.0
+  total_bounces: 2
+  total_unsubscribes: 73
+  ga4:
+    sessions: 215
+    purchases: 2
+    revenue: 300.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.734023'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.607447'
+schedule_type: time_based

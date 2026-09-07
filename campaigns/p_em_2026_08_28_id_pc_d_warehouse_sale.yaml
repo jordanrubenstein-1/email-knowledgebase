@@ -1,0 +1,36 @@
+id: 257eab5e-5bdc-4fde-8b50-71dc79e79e28
+name: P_EM_2026_08_28_ID_PC_D_Warehouse_Sale
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 257eab5e-5bdc-4fde-8b50-71dc79e79e28
+dates:
+  send_date: '2026-08-28'
+  first_sent: '2026-08-27T20:51:39+00:00'
+  last_sent: '2026-08-28T12:00:00+00:00'
+  inferred_send_type: local_time
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 6a898d52-1338-4e32-bf44-3a1ad7842a28
+  channel: email
+  name: Variant 1
+  subject: 'Warehouse Sale: Up to 60% Off'
+  preheader: 'New markdowns just added: limited quantities, no restock.'
+- id: cd766d47-0fd5-474a-bbdf-8c838e7f6788
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 132908
+  total_delivered: 132012
+  total_opens: 44803
+  total_clicks: 1404
+  open_rate: 0.3371
+  click_rate: 0.0106
+  total_revenue: 280377.94
+  total_bounces: 3
+  total_unsubscribes: 108
+schedule_type: time_based
+_filename: p_em_2026_08_28_id_pc_d_warehouse_sale.yaml

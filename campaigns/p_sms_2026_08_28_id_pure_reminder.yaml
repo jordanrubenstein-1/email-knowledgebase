@@ -1,0 +1,29 @@
+id: 2fac2281-6682-4acc-9c4c-164fce30e90a
+name: P_SMS_2026_08_28_ID_Pure_Reminder
+brand: ID
+channel: sms
+category: reminder
+type: announcement
+theme: null
+braze_id: 2fac2281-6682-4acc-9c4c-164fce30e90a
+dates:
+  send_date: '2026-08-28'
+  last_sent: '2026-08-28'
+tags: []
+sends:
+- id: e4200b25-28fe-453e-82d2-a1655d934e9e
+  channel: sms
+  name: Variant 1
+- id: b17834e8-a0ab-45ab-b26c-b7017ee1e40f
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 10057
+  total_delivered: 8317
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 8303.99
+schedule_type: time_based
+_filename: p_sms_2026_08_28_id_pure_reminder.yaml

@@ -1,0 +1,31 @@
+id: b00c0e65-a1ba-4de1-88dc-933893c23bdc
+name: P_SMS_2026_03_28_ID_SMS_Spring_Sale_Store_Sip_And_Sit
+brand: ID
+channel: sms
+category: sale_promo
+type: sale
+theme: spring
+braze_id: b00c0e65-a1ba-4de1-88dc-933893c23bdc
+dates:
+  send_date: '2026-03-28'
+  inferred_send_type: local_time
+  first_sent: '2026-03-27T19:05:34+00:00'
+  last_sent: '2026-03-28T19:01:19+00:00'
+tags: []
+sends:
+- id: 5a08803a-1f67-4ab9-b61c-2abda27ee35d
+  channel: sms
+  name: Variant 1
+- id: 7a8b4364-cc78-4806-ad9b-e32ed4f5f163
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 49516
+  total_delivered: 47505
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 50321.98
+_filename: p_sms_2026_03_28_id_sms_spring_sale_store_sip_and_sit.yaml
+schedule_type: time_based

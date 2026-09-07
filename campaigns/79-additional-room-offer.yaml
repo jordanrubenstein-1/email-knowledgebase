@@ -1,0 +1,37 @@
+id: ae9dc5b7-9b02-44cb-bd36-969b96641213
+name: $79 Additional Room Offer
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: ae9dc5b7-9b02-44cb-bd36-969b96641213
+braze_type: canvas
+campaign_type: Triggered Journey
+dates: {}
+tags: []
+sends:
+- id: a6c2c792-7db1-4410-8b07-67c92d5f6de0
+  channel: email
+  name: P_EM_2026_07_HAV_CONV_PT_Additional_Room_Offer_T1_V1
+  subject: A thank you gift from us to you
+  preheader: ''
+  step_id: b11d79d5-8eb9-4e3f-9615-2445b15f6616
+performance_summary: {}
+canvas_steps:
+- id: 104f775d-5bc6-410a-86c1-5181ef9c1be3
+  name: Step
+  type: delay
+- id: b11d79d5-8eb9-4e3f-9615-2445b15f6616
+  name: P_EM_2026_07_HAV_CONV_PT_Additional_Room_Offer_T1_V1
+  type: message
+  channel: email
+  subject: A thank you gift from us to you
+  preheader: ''
+- id: b5aead41-630a-47e3-ac66-b9f9843b1fa6
+  name: P_PUSH_2026_07_HAV_CONV_Additional_Room_Offer_T2_V1
+  type: message
+- id: 98371718-fa82-4861-ba95-2c63331375fa
+  name: Step 1
+  type: delay
+_filename: 79-additional-room-offer.yaml

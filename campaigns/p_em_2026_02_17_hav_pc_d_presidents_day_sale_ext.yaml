@@ -1,0 +1,36 @@
+id: 0364d13d-eabc-417a-a844-8e94f52e2f8c
+name: P_EM_2026_02_17_HAV_PC_D_Presidents_Day_Sale_Ext
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 0364d13d-eabc-417a-a844-8e94f52e2f8c
+dates:
+  send_date: '2026-02-17'
+  first_sent: '2026-02-17T04:07:51+00:00'
+  last_sent: '2026-02-18T05:01:37+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 06e322a9-21e0-4e6e-aa69-bd63147a5ef0
+  channel: email
+  name: Variant 1
+  subject: 'Plot twist: it’s still on'
+  preheader: Our Presidents Day sale just got a surprise extension. Let’s make it
+    count.
+- id: 48a0bb46-f2da-4386-80c9-085ad44618ef
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 261961
+  total_delivered: 261375
+  total_opens: 103723
+  total_clicks: 420
+  open_rate: 0.3959
+  click_rate: 0.0016
+  total_bounces: 12
+  total_unsubscribes: 482
+schedule_type: time_based
+_filename: p_em_2026_02_17_hav_pc_d_presidents_day_sale_ext.yaml

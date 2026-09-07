@@ -1,0 +1,30 @@
+id: e7706842-3124-442c-b348-6b166d9df351
+name: 20250830_Labor_Day_LA_Store_Send_SMS
+brand: BUR
+channel: sms
+category: sale_promo
+type: announcement
+theme: null
+braze_id: e7706842-3124-442c-b348-6b166d9df351
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-08-30T02:06:31+00:00'
+  last_sent: '2025-08-30T22:02:22+00:00'
+tags: []
+sends:
+- id: 5e20784d-a422-4d26-8117-b393fa58cc26
+  channel: other
+  name: Variant 1
+- id: d119551a-d618-40df-9b6a-621248da0523
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 6
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.567391'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

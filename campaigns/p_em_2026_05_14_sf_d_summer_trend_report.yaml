@@ -1,0 +1,37 @@
+id: 0214cc96-3848-4b9d-8338-8752bd648fe8
+name: P_EM_2026_05_14_SF_D_Summer_Trend_Report
+brand: STF
+channel: email
+category: editorial
+type: seasonal
+theme: summer
+braze_id: 0214cc96-3848-4b9d-8338-8752bd648fe8
+dates:
+  send_date: '2026-05-14'
+  inferred_send_type: local_time
+  first_sent: '2026-05-13T19:29:07+00:00'
+  last_sent: '2026-05-14T17:15:34+00:00'
+tags:
+- Batch and Blast
+sends:
+- id: 15782475-0765-4d28-9f7c-2c76cc5ed93c
+  channel: email
+  name: Variant 1
+  subject: The summer trend report
+  preheader: Expressive patterns, purposeful color, and the details that define a
+    room.
+- id: a32ef356-6531-4dc3-9d31-38ba987f65fa
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 36476
+  total_delivered: 36318
+  total_opens: 11879
+  total_clicks: 109
+  open_rate: 0.3257
+  click_rate: 0.003
+  total_revenue: 3786.0
+  total_bounces: 1
+  total_unsubscribes: 23
+_filename: p_em_2026_05_14_sf_d_summer_trend_report.yaml
+schedule_type: time_based

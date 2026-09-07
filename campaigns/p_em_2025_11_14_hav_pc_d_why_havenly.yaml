@@ -1,0 +1,37 @@
+id: 5dcaca83-f9af-4a43-8d79-6bf396995067
+name: P_EM_2025_11_14_HAV_PC_D_Why_Havenly
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 5dcaca83-f9af-4a43-8d79-6bf396995067
+dates:
+  send_date: '2025-11-14'
+  first_sent: '2025-11-13T21:51:44+00:00'
+  last_sent: '2025-11-14T20:15:12+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: a7c29e83-3ce2-47ae-bdc4-aef9ea73f24d
+  channel: email
+  name: Variant 1
+  subject: 'Why Does Everyone Choose Havenly?
+
+    '
+  preheader: Just ask our 200,000+ happy clients.
+- id: dcd7aeaf-364d-4b75-be44-feda14d45105
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 250043
+  total_delivered: 249402
+  total_opens: 99484
+  total_clicks: 428
+  open_rate: 0.3979
+  click_rate: 0.0017
+  total_bounces: 24
+  total_unsubscribes: 389
+schedule_type: time_based
+_filename: p_em_2025_11_14_hav_pc_d_why_havenly.yaml

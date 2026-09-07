@@ -1,0 +1,23 @@
+id: de932c94-e9fb-49c9-9ae3-b1250b9aa7df
+name: Step 1
+brand: STF
+channel: sms
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: b7707245-0a55-4c51-b3a5-988d04f9bb03
+canvas_name: SMS Order Confirmation Flow - July 2025
+flow_type: post_purchase
+sequence_position: 1
+body: 'We like your style! Your order number is ____. View order status or updates
+  here: https://www.stfrank.com/cart?utm_source=braze_SF&utm_medium=sms&utm_campaign={{campaign.${name}}}&userid={{${user_id}}}'
+sends:
+- id: de932c94-e9fb-49c9-9ae3-b1250b9aa7df
+  channel: sms
+  name: Step 1
+  body: 'We like your style! Your order number is ____. View order status or updates
+    here: https://www.stfrank.com/cart?utm_source=braze_SF&utm_medium=sms&utm_campaign={{campaign.${name}}}&userid={{${user_id}}}'
+dates:
+  first_sent: null
+  last_sent: null
+performance_summary: {}

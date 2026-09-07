@@ -1,0 +1,57 @@
+id: 618fd7d9-2510-4ab9-9064-f7ee41b6f628
+name: P_2025_2_1_D_SF_Treat_Yourself_Email_Gmail
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 618fd7d9-2510-4ab9-9064-f7ee41b6f628
+dates:
+  send_date: '2025-02-01'
+  inferred_send_type: local_time
+  first_sent: '2025-01-31T17:35:52+00:00'
+  last_sent: '2025-02-01T15:30:07+00:00'
+tags: []
+sends:
+- id: 44d7ddbd-b859-4429-8645-29a630afe3df
+  channel: email
+  name: Variant 1
+  subject: Time To Treat Yourself
+  preheader: indulge in little luxuries
+  html_file: html/p_2025_2_1_d_sf_treat_yourself_email_gmail.html
+  screenshot: screenshots/p_2025_2_1_d_sf_treat_yourself_email_gmail.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bf1b05a90850074f001bc/original.png?1738273200
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bf0f3cf44740084747433/original.png?1738273010
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bf184cf44740064748ba5/original.png?1738273155
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bf14ccf44740064748b7f/original.png?1738273099
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bf203e4a1260082ea3eab/original.png?1738273283
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bf298950c9a00656a8d19/original.png?1738273431
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bf280cf44740064748e1b/original.png?1738273408
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bf0d7d3cc950073a2669a/original.png?1738272982
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bf21b8287540064515c61/original.png?1738273307
+- id: d07ac1bd-a450-4d09-b930-f87cc7f9384e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 892
+  total_delivered: 891
+  total_opens: 717
+  total_clicks: 24
+  open_rate: 0.8038
+  click_rate: 0.0269
+  total_unsubscribes: 4
+  ga4:
+    sessions: 43
+    purchases: 1
+    revenue: 472.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.812960'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.705577'
+schedule_type: time_based

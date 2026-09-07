@@ -1,0 +1,46 @@
+id: klaviyo-XJWHQx
+name: TRG_EM_2024_01_TI_D_CAT_Beds_Assembly_Regency_T1_V1
+brand: TI
+channel: email
+category: other
+type: announcement
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: VWwQk4
+canvas_name: 'Assembly Instructions: Beds REGENCY'
+flow_type: other_flow
+sequence_position: 1
+dates:
+  created: '2021-06-23'
+  inferred_send_type: sto
+  first_sent: '2021-06-23'
+  last_sent: '2025-07-15'
+sends:
+- id: XJWHQx
+  channel: email
+  name: Message
+  subject: Assembly instructions for your bed.
+  preheader: ''
+  html_file: html/klv-flow-assembly-instructions-beds-reg-t01-XJWHQx.html
+  image_urls: []
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: XJWHQx
+structure:
+  image_count: 0
+  link_count: 3
+  has_gif: false
+  hero_width: null
+  layout_type: text_only

@@ -1,0 +1,32 @@
+id: 8d9168f8-4b41-405d-9df0-d9ecc76842a7
+name: P_EM_2026_09_04_CZ_PT_Archive_Sale
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 8d9168f8-4b41-405d-9df0-d9ecc76842a7
+dates:
+  send_date: '2026-09-04'
+  first_sent: '2026-09-04T03:07:52+00:00'
+  last_sent: '2026-09-05T02:02:25+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: b3b66184-637c-47d6-b11c-6607052347cc
+  channel: email
+  name: Variant 1
+  subject: Just added to the Archive Sale
+- id: db1efb94-7f7f-4d67-817c-f6d29285610f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 36982
+  total_delivered: 36950
+  total_opens: 17146
+  total_clicks: 998
+  open_rate: 0.4636
+  click_rate: 0.027
+  total_unsubscribes: 53
+schedule_type: time_based
+_filename: p_em_2026_09_04_cz_pt_archive_sale.yaml

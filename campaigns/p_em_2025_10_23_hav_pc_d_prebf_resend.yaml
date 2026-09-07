@@ -1,0 +1,35 @@
+id: 25228d86-72e0-45e9-958d-6e0eedef4d88
+name: P_EM_2025_10_23_HAV_PC_D_PREBF_RESEND
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 25228d86-72e0-45e9-958d-6e0eedef4d88
+dates:
+  send_date: '2025-10-23'
+  first_sent: '2025-10-22T22:52:11+00:00'
+  last_sent: '2025-10-23T20:15:12+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 0b96a4e3-0a0b-4e82-a1e1-a1b4847442bf
+  channel: email
+  name: Variant 1
+  subject: Shop the Pre Black Friday Sale
+  preheader: Our best deal ever, only $89.
+- id: e217dc57-5e3e-4751-b395-3d203455b938
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 241960
+  total_delivered: 241251
+  total_opens: 96904
+  total_clicks: 429
+  open_rate: 0.4005
+  click_rate: 0.0018
+  total_bounces: 2
+  total_unsubscribes: 361
+schedule_type: time_based
+_filename: p_em_2025_10_23_hav_pc_d_prebf_resend.yaml

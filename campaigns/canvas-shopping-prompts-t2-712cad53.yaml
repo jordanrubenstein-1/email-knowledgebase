@@ -1,0 +1,35 @@
+id: 712cad53-d96b-4bcc-a823-c429f4add6c1
+name: TRG_EM_2025_08_HAV_CONV_D_Finished_Design_T2_V1
+brand: HAV
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: bc3f414e-9d08-434f-b9df-bbe85d4fa045
+canvas_name: Shopping Prompts
+flow_type: other_flow
+sequence_position: 2
+subject: Congrats on your finished design! 🎉
+preheader: Your designer picked these pieces just for you. Now it's time to make them
+  yours.
+sends:
+- id: 712cad53-d96b-4bcc-a823-c429f4add6c1
+  channel: email
+  name: TRG_EM_2025_08_HAV_CONV_D_Finished_Design_T2_V1
+  subject: Congrats on your finished design! 🎉
+  preheader: Your designer picked these pieces just for you. Now it's time to make
+    them yours.
+  html_file: html/canvas-shopping-prompts-t2-712cad53.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-28T03:00:00Z'
+  last_sent: '2026-08-31T12:00:00Z'
+performance_summary:
+  total_sends: 31768
+  total_delivered: 31744
+  total_opens: 26568
+  total_clicks: 3138
+  open_rate: 0.8363
+  click_rate: 0.0988
+  total_unsubscribes: 32
+  total_bounces: 2

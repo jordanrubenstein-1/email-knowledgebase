@@ -1,0 +1,44 @@
+id: 5b86a1b8-232f-4ae7-a3bb-27ad9028f0a2
+name: SMS
+brand: CZ
+channel: sms
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: e2317c1c-435a-4abb-9f74-b2dd8b4e3b7c
+canvas_name: Braze Template For Back In Stock
+flow_type: back_in_stock
+sequence_position: 3
+body: 'Hey {{${first_name} | default: ''there''}}!
+
+  {% catalog_items !!YOURCATALOGHERE!! {{canvas_entry_properties.${catalog_update}.item_id}}
+  %}
+
+  Good news! 😀!{{ items[0].Product_Name }} is back in stock, hurry now to secure yours!
+
+
+  {{ items[0]. Product_Link }}
+
+
+  Reply STOP to stop texts at any time.'
+sends:
+- id: 5b86a1b8-232f-4ae7-a3bb-27ad9028f0a2
+  channel: sms
+  name: SMS
+  body: 'Hey {{${first_name} | default: ''there''}}!
+
+    {% catalog_items !!YOURCATALOGHERE!! {{canvas_entry_properties.${catalog_update}.item_id}}
+    %}
+
+    Good news! 😀!{{ items[0].Product_Name }} is back in stock, hurry now to secure
+    yours!
+
+
+    {{ items[0]. Product_Link }}
+
+
+    Reply STOP to stop texts at any time.'
+dates:
+  first_sent: null
+  last_sent: null
+performance_summary: {}

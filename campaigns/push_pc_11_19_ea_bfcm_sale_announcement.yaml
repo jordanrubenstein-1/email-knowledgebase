@@ -1,0 +1,23 @@
+id: eb1cdb31-bf9d-448a-9b9e-6c4532d55ef1
+name: PUSH_PC_11_19_EA_BFCM_Sale_Announcement
+brand: HAV
+channel: push
+category: sale_promo
+type: sale
+theme: black_friday
+braze_id: eb1cdb31-bf9d-448a-9b9e-6c4532d55ef1
+dates:
+  first_sent: '2024-11-19T23:59:55+00:00'
+  last_sent: '2024-11-20T00:00:11+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: d6c37970-b797-497b-81d5-ddade7d9e72f
+  channel: push
+  name: Variant 1
+- id: 20730113-af56-4b56-9c52-2981e56b3cbf
+  channel: push
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: push_pc_11_19_ea_bfcm_sale_announcement.yaml

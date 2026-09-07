@@ -1,0 +1,37 @@
+id: deaeb959-6bea-43b2-a018-1e29fcf9132c
+name: P_SMS_2025_10_31_CZ_Winback_Promo_SMS
+brand: CZ
+channel: sms
+category: sale_promo
+type: sale
+theme: null
+braze_id: deaeb959-6bea-43b2-a018-1e29fcf9132c
+dates:
+  send_date: '2025-10-31'
+  inferred_send_type: local_time
+  first_sent: '2025-10-31T04:08:21+00:00'
+  last_sent: '2025-11-01T01:01:38+00:00'
+tags: []
+sends:
+- id: 0119508e-6b0d-4a56-bc3f-985b2ba82796
+  channel: sms
+  name: Variant 1
+- id: 9a7711f8-8ff3-43ac-9c5a-cb47bbd93d17
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 6234
+  total_delivered: 5845
+  total_opens: 0
+  total_clicks: 63
+  open_rate: 0.0
+  click_rate: 0.0101
+  ga4:
+    sessions: 51
+    purchases: 1
+    revenue: 179.2
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.058753'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

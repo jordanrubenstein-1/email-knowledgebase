@@ -1,0 +1,33 @@
+id: 9453876f-571e-4cbd-8055-4e38f50b1a3d
+name: P_2024_11_19_PT_HAV_PC_EA_BFCM_Sale_Announcement_Email
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: black_friday
+braze_id: 9453876f-571e-4cbd-8055-4e38f50b1a3d
+dates:
+  send_date: '2024-11-19'
+  first_sent: '2024-11-19T02:40:48+00:00'
+  last_sent: '2024-11-19T18:15:04+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: e24c3381-395d-4ac4-8ac5-f20b6f56664b
+  channel: email
+  name: Variant 1
+  subject: Your Black Friday Early Access Code Is Inside…
+- id: 7a011244-805a-4623-82f2-379610b4b3f1
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 160871
+  total_delivered: 158927
+  total_opens: 77585
+  total_clicks: 1045
+  open_rate: 0.4823
+  click_rate: 0.0065
+  total_bounces: 29
+  total_unsubscribes: 578
+schedule_type: time_based
+_filename: p_2024_11_19_pt_hav_pc_ea_bfcm_sale_announcement_email.yaml

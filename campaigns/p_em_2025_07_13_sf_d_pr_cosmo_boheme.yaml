@@ -1,0 +1,63 @@
+id: 2daae1b3-0e7e-45ae-b1c6-006a2ad2aff5
+name: P_EM_2025_07_13_SF_D_PR_Cosmo_Boheme
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 2daae1b3-0e7e-45ae-b1c6-006a2ad2aff5
+dates:
+  send_date: '2025-07-13'
+  inferred_send_type: local_time
+  first_sent: '2025-07-12T23:34:37+00:00'
+  last_sent: '2025-07-13T17:00:14+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- stl
+sends:
+- id: 605be3df-cf24-4344-b1ed-7d4c93a160c3
+  channel: email
+  name: Variant 1
+  subject: Step Into the World of Cosmo Bohème
+  preheader: our signature pov on the art of expressive living
+  html_file: html/p_em_2025_07_13_sf_d_pr_cosmo_boheme.html
+  screenshot: screenshots/p_em_2025_07_13_sf_d_pr_cosmo_boheme.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687133190d58d3006584fc08/original.png?1752249113
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6871365c8dc55800747437f1/original.png?1752249946
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6871328bd7a57200674700ea/original.gif?1752248971
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6871330df13a510065be0a59/original.png?1752249101
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687132ab093a6900937051e9/original.png?1752249002
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687133020d58d3006584fa77/original.png?1752249089
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68713324d7a5720067470a1e/original.png?1752249124
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6871332cd7a5720067470a25/original.png?1752249132
+- id: 9dcfc008-518f-4b75-b516-7de955f85fa3
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 42430
+  total_delivered: 41920
+  total_opens: 19468
+  total_clicks: 362
+  open_rate: 0.4588
+  click_rate: 0.0085
+  total_revenue: 2211.0
+  total_bounces: 24
+  total_unsubscribes: 141
+  ga4:
+    sessions: 436
+    purchases: 5
+    revenue: 788.89
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.951190'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.391698'
+schedule_type: time_based

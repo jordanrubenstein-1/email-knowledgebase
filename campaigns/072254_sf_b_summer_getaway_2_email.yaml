@@ -1,0 +1,40 @@
+id: c77b3f7f-da12-4950-8850-6b14c9b12dfd
+name: 072254_SF_B_Summer_Getaway_2_Email
+brand: STF
+channel: email
+category: other
+type: seasonal
+theme: summer
+braze_id: c77b3f7f-da12-4950-8850-6b14c9b12dfd
+dates: {}
+tags:
+- Batch and Blast
+- Batch and Blast/non-promo
+sends:
+- id: 71681d64-5ff3-46c9-a613-4bca5326acd0
+  channel: email
+  name: Variant 1
+  subject: Your Summer Getaway = Your Backyard
+  preheader: thanks to our outdoor pillows
+  html_file: html/072254_sf_b_summer_getaway_2_email.html
+  screenshot: screenshots/072254_sf_b_summer_getaway_2_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669c0e6ab2488e0079609f84/original.gif?1721503338
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669c0e6a1a4ac7006fd9c37e/original.gif?1721503338
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0058f1ba77/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669c0e6adf23f10065a260ae/original.gif?1721503338
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669c0e6adf23f1006fa25db7/original.gif?1721503338
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669c0e6a54b5f3005a49ccbf/original.jpg?1721503338
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669c0e6ab2488e006e60a738/original.gif?1721503338
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0063f11fb6/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669c0e6adf23f1005aa27177/original.gif?1721503338
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6681bde9255ebf0070d6be26/original.jpeg?1719778792
+- id: 66477b99-f2f0-4abb-b105-91b341f66aa4
+  channel: other
+  name: Control Group
+performance_summary: {}
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.860531'
+schedule_type: time_based

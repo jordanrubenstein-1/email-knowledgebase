@@ -1,0 +1,25 @@
+id: b4a2949d-389f-4d43-b550-2017579188b2
+name: TRG_EM_2024_08_CZ_D_Cart_Abandon_T3
+brand: CZ
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 95ea26e4-af1f-4f3c-b7d4-23c6e799c7d2
+canvas_name: Cart Abandon test
+flow_type: cart_abandonment
+sequence_position: 1
+subject: Your cart is waiting...
+preheader: You are almost there
+sends:
+- id: b4a2949d-389f-4d43-b550-2017579188b2
+  channel: email
+  name: TRG_EM_2024_08_CZ_D_Cart_Abandon_T3
+  subject: Your cart is waiting...
+  preheader: You are almost there
+  html_file: html/canvas-cart-abandon-test-t1-b4a2949d.html
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2025-11-03T02:00:00Z'
+  last_sent: '2025-11-03T05:00:00Z'
+performance_summary: {}

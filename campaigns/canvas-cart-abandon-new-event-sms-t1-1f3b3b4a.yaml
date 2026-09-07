@@ -1,0 +1,96 @@
+id: 1f3b3b4a-9a32-4436-b061-d5c203074f91
+name: TRG_SMS_2024_08_CZ_D_Cart_Abandon_T1_V2
+brand: CZ
+channel: sms
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 77b6b89f-771e-4cf7-910d-ce69f6a70f23
+canvas_name: Cart Abandon - New Event
+flow_type: cart_abandonment
+sequence_position: 1
+body: '{% assign time = ''now'' | time_zone: ${time_zone} %}{% assign hour = time
+  | date: ''%H'' | plus: 0 %}
+
+  {% if hour > 20 or hour < 8 %}
+
+  {% abort_message("Outside allowed time window") %}
+
+  {% endif %}{% shopping_cart {{context.${cart_id}}} %}
+
+  {% assign product_list = shopping_cart.products %}
+
+  {% assign pairs = '''' %}
+
+  {% for item in product_list%}
+
+  {% assign pair = item.variant_id | append : '':'' | append: item.quantity %}
+
+  {% if forloop.first %}
+
+  {% assign pairs = pair %}
+
+  {% else %}
+
+  {% assign pairs = pairs | append: "," | append: pair %}
+
+  {% endif %}
+
+  {% endfor %}
+
+  {% assign base = "https://www.the-citizenry.com" %}
+
+  {% assign cart_url = base | append: "/cart/" | append: pairs %}
+
+  The Citizenry: Going, going... Handcrafted in small batches, don''t miss out on
+  the styles you were eyeing. Check your cart now: {{ cart_url }}?utm_source=braze_cz&utm_medium=sms&utm_campaign={{campaign.${name}}}'
+sends:
+- id: 1f3b3b4a-9a32-4436-b061-d5c203074f91
+  channel: sms
+  name: TRG_SMS_2024_08_CZ_D_Cart_Abandon_T1_V2
+  body: '{% assign time = ''now'' | time_zone: ${time_zone} %}{% assign hour = time
+    | date: ''%H'' | plus: 0 %}
+
+    {% if hour > 20 or hour < 8 %}
+
+    {% abort_message("Outside allowed time window") %}
+
+    {% endif %}{% shopping_cart {{context.${cart_id}}} %}
+
+    {% assign product_list = shopping_cart.products %}
+
+    {% assign pairs = '''' %}
+
+    {% for item in product_list%}
+
+    {% assign pair = item.variant_id | append : '':'' | append: item.quantity %}
+
+    {% if forloop.first %}
+
+    {% assign pairs = pair %}
+
+    {% else %}
+
+    {% assign pairs = pairs | append: "," | append: pair %}
+
+    {% endif %}
+
+    {% endfor %}
+
+    {% assign base = "https://www.the-citizenry.com" %}
+
+    {% assign cart_url = base | append: "/cart/" | append: pairs %}
+
+    The Citizenry: Going, going... Handcrafted in small batches, don''t miss out on
+    the styles you were eyeing. Check your cart now: {{ cart_url }}?utm_source=braze_cz&utm_medium=sms&utm_campaign={{campaign.${name}}}'
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-11-20T14:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 1281
+  total_delivered: 1250
+  total_clicks: 153
+  click_rate: 0.1194
+  total_unsubscribes: 53
+  total_bounces: 9

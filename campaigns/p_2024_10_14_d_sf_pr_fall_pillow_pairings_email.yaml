@@ -1,0 +1,59 @@
+id: 154c63d4-cf7c-4fec-b86a-4fe3435f9943
+name: P_2024_10_14_D_SF_PR_Fall_Pillow_Pairings_Email
+brand: STF
+channel: email
+category: other
+type: seasonal
+theme: fall
+braze_id: 154c63d4-cf7c-4fec-b86a-4fe3435f9943
+dates:
+  send_date: '2024-10-14'
+  inferred_send_type: local_time
+  first_sent: '2024-10-13T17:00:07+00:00'
+  last_sent: '2024-10-14T14:00:22+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: d5a2d088-966a-4c19-bd45-2605af70129c
+  channel: email
+  name: Variant 1
+  subject: 'Perfect Match: Fall Pillow Pairings'
+  preheader: pillows that were made for eachother
+  html_file: html/p_2024_10_14_d_sf_pr_fall_pillow_pairings_email.html
+  screenshot: screenshots/p_2024_10_14_d_sf_pr_fall_pillow_pairings_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6681bde9255ebf0070d6be26/original.jpeg?1719778792
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67055b84efa913008486d428/original.gif?1728404355
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67055b84fd488a007540a9cf/original.jpg?1728404356
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d2072ed7005a83200b/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668828085d4867005b380d70/original.jpg?1720199176
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66882808c84d43005953de9b/original.jpg?1720199176
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0063f11fb6/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d2cf6ae5005ac74b8b/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67055b83efa913007586da01/original.gif?1728404355
+- id: 64e37201-1005-484d-9216-912c078c50be
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 9946
+  total_delivered: 9897
+  total_opens: 3192
+  total_clicks: 182
+  open_rate: 0.3209
+  click_rate: 0.0183
+  total_revenue: 6491.75
+  total_unsubscribes: 9
+  ga4:
+    sessions: 101
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.781434'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.934977'
+schedule_type: time_based

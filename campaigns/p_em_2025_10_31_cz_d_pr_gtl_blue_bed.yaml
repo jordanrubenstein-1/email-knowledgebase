@@ -1,0 +1,77 @@
+id: 090a31c7-f74d-4228-9ff4-c95fe0274c09
+name: P_EM_2025_10_31_CZ_D_PR_GTL_Blue_Bed
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 090a31c7-f74d-4228-9ff4-c95fe0274c09
+dates:
+  send_date: '2025-10-31'
+  inferred_send_type: scheduled
+  first_sent: '2025-10-31T04:04:54+00:00'
+  last_sent: '2025-10-31T17:16:30+00:00'
+tags:
+- am
+- batch and blast
+- bedding
+- d2c
+- designed
+- gtl
+- prod
+sends:
+- id: 9242495f-a48f-461a-b479-4117f26e178d
+  channel: email
+  name: Variant 1
+  subject: A study in serenity.
+  preheader: Dress your bed for its softest season yet.
+  html_file: html/p_em_2025_10_31_cz_d_pr_gtl_blue_bed.html
+  screenshot: screenshots/p_em_2025_10_31_cz_d_pr_gtl_blue_bed.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690394bdcc272a0073500d3d/original.png?1761842365
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6903946d8c79d80063d5ac4f/original.png?1761842284
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690394338c79d80063d5a9eb/original.png?1761842226
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690394a8614c320065206586/original.png?1761842344
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690394dc4948ef00633a0039/original.png?1761842396
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690394cead56bd006390dc1e/original.png?1761842382
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690394d4cc272a0063500df0/original.png?1761842388
+- id: 20b4668d-ef12-49c8-a59a-25eee10443c7
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 101679
+  total_delivered: 100924
+  total_opens: 57905
+  total_clicks: 672
+  open_rate: 0.5695
+  click_rate: 0.0066
+  total_unsubscribes: 156
+  ga4:
+    sessions: 622
+    purchases: 8
+    revenue: 3253.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.257560'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-winback-campaign-2025-10-30
+    name: Winback Campaign
+    start_date: '2025-10-30'
+    end_date: '2025-11-03'
+    discount: 20% off via code
+    type: null
+  primary_sale:
+    id: cz-winback-campaign-2025-10-30
+    name: Winback Campaign
+    start_date: '2025-10-30'
+    end_date: '2025-11-03'
+    discount: 20% off via code
+    type: null
+  sale_name: Winback Campaign
+  sale_discount: 20% off via code
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:40.543046'
+schedule_type: time_based

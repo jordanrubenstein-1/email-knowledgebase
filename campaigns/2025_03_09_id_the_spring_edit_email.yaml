@@ -1,0 +1,47 @@
+id: 38fdb448-6098-44ea-830c-4450223d4fb1
+name: 2025_03_09_ID_The_Spring_Edit_Email
+brand: ID
+channel: email
+category: editorial
+type: seasonal
+theme: spring
+braze_id: 38fdb448-6098-44ea-830c-4450223d4fb1
+dates:
+  send_date: '2025-03-09'
+  inferred_send_type: local_time
+  first_sent: '2025-03-08T18:08:52+00:00'
+  last_sent: '2025-03-09T17:15:08+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 1379f76d-b5ff-462d-bac3-3f300a2d72dd
+  channel: email
+  name: Variant 1
+  subject: THE SPRING EDIT 🌷
+  preheader: Breathe new life into your space for the season.
+- id: b21eca4d-67d5-434a-92b1-c1c1c3f547fb
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 123668
+  total_delivered: 122340
+  total_opens: 30275
+  total_clicks: 602
+  open_rate: 0.2448
+  click_rate: 0.0049
+  total_revenue: 124342.25
+  total_bounces: 3
+  total_unsubscribes: 92
+  ga4:
+    sessions: 581
+    purchases: 2
+    revenue: 3216.43
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.685369'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.231438'
+schedule_type: time_based

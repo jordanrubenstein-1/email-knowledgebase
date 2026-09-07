@@ -1,0 +1,32 @@
+id: b563e3a9-346a-4eff-8555-b788ba7c4b06
+name: TRG_2025_D_HAV_CON_PT_Complete_Profile_T6_B_Email
+brand: HAV
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 0b34d65c-1f25-4039-aaf9-7dfb705c5a71
+canvas_name: Room Profile Complete
+flow_type: welcome_series
+sequence_position: 6
+subject: Ready to start your design?
+preheader: ''
+sends:
+- id: b563e3a9-346a-4eff-8555-b788ba7c4b06
+  channel: email
+  name: TRG_2025_D_HAV_CON_PT_Complete_Profile_T6_B_Email
+  subject: Ready to start your design?
+  preheader: ''
+  html_file: html/canvas-room-profile-complete-t6-b563e3a9.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-10-01T13:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 3236
+  total_delivered: 3221
+  total_opens: 2385
+  total_clicks: 140
+  open_rate: 0.737
+  click_rate: 0.0433
+  total_unsubscribes: 3

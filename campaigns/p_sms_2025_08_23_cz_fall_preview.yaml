@@ -1,0 +1,38 @@
+id: 6388e561-60d4-4c69-b5f1-bd0bbbd493c1
+name: P_SMS_2025_08_23_CZ_Fall_Preview
+brand: CZ
+channel: sms
+category: other
+type: seasonal
+theme: fall
+braze_id: 6388e561-60d4-4c69-b5f1-bd0bbbd493c1
+dates:
+  send_date: '2025-08-23'
+  inferred_send_type: local_time
+  first_sent: '2025-08-23T01:16:30+00:00'
+  last_sent: '2025-08-24T00:10:09+00:00'
+tags: []
+sends:
+- id: cdd41a98-2606-4a11-b3a0-24897d0d1db6
+  channel: sms
+  name: Variant 1
+- id: a58275f2-f9fc-46ff-9069-43921f82c1e4
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 22970
+  total_delivered: 22504
+  total_opens: 0
+  total_clicks: 487
+  open_rate: 0.0
+  click_rate: 0.0212
+  total_revenue: 12556.37
+  ga4:
+    sessions: 493
+    purchases: 2
+    revenue: 960.25
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.342353'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

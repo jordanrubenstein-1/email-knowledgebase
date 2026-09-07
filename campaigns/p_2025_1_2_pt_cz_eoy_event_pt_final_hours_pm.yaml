@@ -1,0 +1,63 @@
+id: 32f273a1-5573-48bd-ac26-36282d05b9e1
+name: P_2025_1_2_PT_CZ_EOY_Event_PT_Final_Hours_PM
+brand: CZ
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 32f273a1-5573-48bd-ac26-36282d05b9e1
+dates:
+  send_date: '2025-01-02'
+  inferred_send_type: local_time
+  first_sent: '2025-01-02T02:07:16+00:00'
+  last_sent: '2025-01-03T02:00:26+00:00'
+tags: []
+sends:
+- id: 1d455c1d-a45f-4c6e-b24b-56598c71ef5c
+  channel: email
+  name: Variant 1
+  subject: 'Final reminder: up to 60% off ends tonight'
+  html_file: html/p_2025_1_2_pt_cz_eoy_event_pt_final_hours_pm.html
+  screenshot: screenshots/p_2025_1_2_pt_cz_eoy_event_pt_final_hours_pm.png
+- id: 6740bfb5-84da-4969-86a5-5cf85cc2fbb1
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 28021
+  total_delivered: 27985
+  total_opens: 19168
+  total_clicks: 1344
+  open_rate: 0.6841
+  click_rate: 0.048
+  total_revenue: 78405.55
+  total_bounces: 2
+  total_unsubscribes: 149
+  ga4:
+    sessions: 2100
+    purchases: 28
+    revenue: 11252.38
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.584208'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-23'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: cz_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-23'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:32.564989'
+schedule_type: time_based

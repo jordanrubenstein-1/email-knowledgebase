@@ -1,0 +1,51 @@
+id: f35945a4-572b-439e-b82a-1ca7820cf3a3
+name: P_2025_1_24_D_CZ_LA_Fire_Relief_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: f35945a4-572b-439e-b82a-1ca7820cf3a3
+dates:
+  send_date: '2025-01-24'
+  inferred_send_type: local_time
+  first_sent: '2025-01-23T23:59:21+00:00'
+  last_sent: '2025-01-24T17:00:33+00:00'
+tags: []
+sends:
+- id: 8a4c8d56-61c5-4d92-8c15-e68dd01c225b
+  channel: email
+  name: Variant 1
+  subject: For those rebuilding in LA, we're here to help
+  preheader: Sign up today to receive free furniture & bedding.
+  html_file: html/p_2025_1_24_d_cz_la_fire_relief_email.html
+  screenshot: screenshots/p_2025_1_24_d_cz_la_fire_relief_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6792c73919f9a9006411cd14/original.png?1737672504
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6792c74478bfd700644e6109/original.png?1737672516
+- id: 91ba131d-b1d7-490f-b066-cb5ba89d9d55
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 82567
+  total_delivered: 81969
+  total_opens: 40242
+  total_clicks: 568
+  open_rate: 0.4874
+  click_rate: 0.0069
+  total_revenue: 45036.91
+  total_bounces: 4
+  total_unsubscribes: 93
+  ga4:
+    sessions: 158
+    purchases: 2
+    revenue: 335.91
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.680334'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.820458'
+schedule_type: time_based

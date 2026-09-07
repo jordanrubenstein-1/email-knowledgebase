@@ -1,0 +1,46 @@
+id: 30005a4d-fc99-4f62-b6da-20fc975990ed
+name: P_EM_2025_10_02_TRADE_Appreciation_Week
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 30005a4d-fc99-4f62-b6da-20fc975990ed
+dates:
+  send_date: '2025-10-02'
+  inferred_send_type: scheduled
+  first_sent: '2025-10-02T05:10:46+00:00'
+  last_sent: '2025-10-02T19:01:04+00:00'
+tags: []
+sends:
+- id: b57599e3-60f4-4df2-ab79-aad93d550b1c
+  channel: email
+  name: Variant 1
+  subject: 'TRADE ONLY: 25% Off Starts Now'
+  preheader: ' Enjoy an extra 5% savings during our Trade Appreciation Sale.'
+- id: 8a583728-06d7-490d-8321-618c3700eea8
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 19879
+  total_delivered: 19302
+  total_opens: 9738
+  total_clicks: 140
+  open_rate: 0.4899
+  click_rate: 0.007
+  total_revenue: 42027.0
+  total_bounces: 4
+  total_unsubscribes: 27
+  ga4:
+    sessions: 201
+    purchases: 1
+    revenue: 2127.83
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.195142'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.997019'
+schedule_type: time_based

@@ -1,0 +1,35 @@
+id: b721d6fb-641d-45c7-8dc5-103ed383830c
+name: P_EM_2025_09_25_HAV_PC_D_Get_Guest_Ready_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: b721d6fb-641d-45c7-8dc5-103ed383830c
+dates:
+  send_date: '2025-09-25'
+  first_sent: '2025-09-25T02:24:38+00:00'
+  last_sent: '2025-09-26T02:15:14+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: c04d534f-d5bf-433f-8d3b-cebaee92935e
+  channel: email
+  name: Variant 1
+  subject: Start your Havenly Design today
+  preheader: So you can shop Black Friday deals later.
+- id: 7a772617-4788-44d5-9883-ee0b5c9320a6
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 235769
+  total_delivered: 234546
+  total_opens: 96333
+  total_clicks: 381
+  open_rate: 0.4086
+  click_rate: 0.0016
+  total_bounces: 8
+  total_unsubscribes: 435
+schedule_type: time_based
+_filename: p_em_2025_09_25_hav_pc_d_get_guest_ready_sale_reminder.yaml

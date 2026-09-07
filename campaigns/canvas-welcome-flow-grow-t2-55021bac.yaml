@@ -1,0 +1,34 @@
+id: 55021bac-c641-47a4-8ec1-896ea2d8a7eb
+name: TRG_EM_2024_11_BW_D_Grow_Welcome_T2_V1
+brand: BUR
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 307124fd-04f2-467f-8a83-8228c8810da8
+canvas_name: Welcome Flow - Grow
+flow_type: welcome_series
+sequence_position: 2
+subject: Meet our bestselling sofa collections
+preheader: '{{content_blocks.${2025Q3_Welcome_PH_Email1_Promo}}}'
+sends:
+- id: 55021bac-c641-47a4-8ec1-896ea2d8a7eb
+  channel: email
+  name: TRG_EM_2024_11_BW_D_Grow_Welcome_T2_V1
+  subject: Meet our bestselling sofa collections
+  preheader: '{{content_blocks.${2025Q3_Welcome_PH_Email1_Promo}}}'
+  html_file: html/canvas-welcome-flow-grow-t2-55021bac.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-11-23T17:00:00Z'
+  last_sent: '2025-09-03T04:00:00Z'
+performance_summary:
+  total_sends: 337270
+  total_delivered: 336758
+  total_opens: 125039
+  total_clicks: 3594
+  open_rate: 0.3707
+  click_rate: 0.0107
+  total_unsubscribes: 3217
+  total_bounces: 6
+  total_revenue: 80448.0

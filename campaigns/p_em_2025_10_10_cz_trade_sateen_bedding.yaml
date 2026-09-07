@@ -1,0 +1,61 @@
+id: 70d1fcfd-5db8-43a3-8ced-4231b617dd06
+name: P_EM_2025_10_10_CZ_TRADE_Sateen_Bedding
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 70d1fcfd-5db8-43a3-8ced-4231b617dd06
+dates:
+  send_date: '2025-10-10'
+  inferred_send_type: local_time
+  first_sent: '2025-10-10T01:40:20+00:00'
+  last_sent: '2025-10-10T19:01:08+00:00'
+tags: []
+sends:
+- id: a64cdbf4-b405-4d0e-b85e-390ebcdc3e8e
+  channel: email
+  name: Variant 1
+  subject: 'JUST IN From The Citizenry: Sateen Bedding'
+  preheader: Exceptionally soft and luxuriously smooth.
+- id: e632df9f-ba58-481a-863d-f2efe4b95119
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 19938
+  total_delivered: 19346
+  total_opens: 9700
+  total_clicks: 55
+  open_rate: 0.4865
+  click_rate: 0.0028
+  total_revenue: 29449.0
+  total_bounces: 3
+  total_unsubscribes: 45
+  ga4:
+    sessions: 60
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.673396'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-anniversary-sale-2025-10-09
+    name: The Anniversary Sale
+    start_date: '2025-10-09'
+    end_date: '2025-10-22'
+    discount: 20% Off Sitewide
+    type: null
+  primary_sale:
+    id: cz-the-anniversary-sale-2025-10-09
+    name: The Anniversary Sale
+    start_date: '2025-10-09'
+    end_date: '2025-10-22'
+    discount: 20% Off Sitewide
+    type: null
+  sale_name: The Anniversary Sale
+  sale_discount: 20% Off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:33.719506'

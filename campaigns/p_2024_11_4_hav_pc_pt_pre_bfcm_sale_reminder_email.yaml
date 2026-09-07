@@ -1,0 +1,33 @@
+id: 80e801f9-67ad-49fc-bd1a-1a847b88c771
+name: P_2024_11_4_HAV_PC_PT_Pre_BFCM_Sale_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: black_friday
+braze_id: 80e801f9-67ad-49fc-bd1a-1a847b88c771
+dates:
+  send_date: '2024-11-04'
+  first_sent: '2024-11-04T05:05:40+00:00'
+  last_sent: '2024-11-04T18:15:00+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 8c2a88ce-f340-403c-bc8b-74aaabc8b926
+  channel: email
+  name: Variant 1
+  subject: Hi, get 50% off design services now!
+- id: cc6309a2-9873-42b9-b343-2379db401e01
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 153915
+  total_delivered: 152357
+  total_opens: 75005
+  total_clicks: 529
+  open_rate: 0.4873
+  click_rate: 0.0034
+  total_bounces: 6
+  total_unsubscribes: 422
+schedule_type: time_based
+_filename: p_2024_11_4_hav_pc_pt_pre_bfcm_sale_reminder_email.yaml

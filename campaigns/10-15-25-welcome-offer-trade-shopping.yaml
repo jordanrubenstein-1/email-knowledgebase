@@ -1,0 +1,52 @@
+id: klaviyo-01K7HRAGB1FH89GGBHHWJ6HKNG
+name: 10-15-25 | Welcome Offer - Trade | Shopping
+brand: TE
+channel: email
+category: other
+type: lifecycle
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2025-10-14'
+  inferred_send_type: scheduled
+  first_sent: '2025-10-16T15:45:43.941345+00:00'
+  last_sent: '2025-10-16T15:45:43.941345+00:00'
+sends:
+- id: 01K7HRAGE4HWAK7WGBSH532HN8
+  channel: email
+  name: 10-15-25 | Welcome Offer - Trade | Shopping Variation A
+  subject: $350 to get you started
+  preheader: Meet Favorites—plus more ways to work smarter.
+  html_file: html/10-15-25-welcome-offer-trade-shopping.html
+  image_urls:
+  - https://ci3.googleusercontent.com/mail-sig/AIorK4z_ra2s81NF2fyWDJbPlocO8HNHZtZVNl4SBMDq_reWJbndIxACgcNXEep3zHkwlWLn_T40cMMcnd2q
+- id: 01K7PTW31YZW82EV0TAE9AMG2V
+  channel: email
+  name: 10-15-25 | Welcome Offer - Trade | Shopping Variation B
+  subject: 'This month only: $350 to get you started'
+  preheader: Meet Favorites—plus more ways to work smarter.
+  html_file: html/10-15-25-welcome-offer-trade-shopping.html
+  image_urls:
+  - https://ci3.googleusercontent.com/mail-sig/AIorK4z_ra2s81NF2fyWDJbPlocO8HNHZtZVNl4SBMDq_reWJbndIxACgcNXEep3zHkwlWLn_T40cMMcnd2q
+performance_summary:
+  total_sends: 273
+  total_delivered: 272
+  total_opens: 417
+  total_clicks: 10
+  open_rate: 0.6923
+  click_rate: 0.0256
+  total_unsubscribes: 2
+  total_bounces: 1
+  unique_opens: 189
+  unique_clicks: 7
+  total_open_rate: 1.5275
+  total_click_rate: 0.0366
+klaviyo_type: campaign
+klaviyo_campaign_id: 01K7HRAGB1FH89GGBHHWJ6HKNG
+klaviyo_message_id: 01K7HRAGE4HWAK7WGBSH532HN8
+structure:
+  image_count: 1
+  link_count: 2
+  has_gif: false
+  hero_width: 200
+  layout_type: hero_only

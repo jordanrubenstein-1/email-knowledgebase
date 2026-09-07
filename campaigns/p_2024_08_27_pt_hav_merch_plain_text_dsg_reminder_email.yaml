@@ -1,0 +1,32 @@
+id: ea23721b-893c-4d80-9070-2f022e2c1751
+name: P_2024_08_27_PT_HAV_Merch_Plain_Text_DSG_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: ea23721b-893c-4d80-9070-2f022e2c1751
+dates:
+  send_date: '2024-08-27'
+  first_sent: '2024-08-26T23:17:03+00:00'
+  last_sent: '2024-08-27T13:25:06+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: d9ecd49f-9dc7-4049-8808-4278e5ae2356
+  channel: email
+  name: Variant 1
+  subject: Your discount is now up to 70% off
+- id: e3af8f70-133f-48d6-9c84-17338a8170a9
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 4410
+  total_delivered: 4408
+  total_opens: 2141
+  total_clicks: 17
+  open_rate: 0.4855
+  click_rate: 0.0039
+  total_unsubscribes: 6
+schedule_type: time_based
+_filename: p_2024_08_27_pt_hav_merch_plain_text_dsg_reminder_email.yaml

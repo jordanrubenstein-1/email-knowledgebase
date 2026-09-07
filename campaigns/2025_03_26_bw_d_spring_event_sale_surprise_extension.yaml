@@ -1,0 +1,36 @@
+id: c2ec70c9-b548-4c1e-9aca-81fb97d7f024
+name: 2025_03_26_BW_D_Spring_Event_Sale_Surprise_Extension
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: spring
+braze_id: c2ec70c9-b548-4c1e-9aca-81fb97d7f024
+dates:
+  send_date: '2025-03-26'
+  inferred_send_type: local_time
+  first_sent: '2025-03-25T19:43:58+00:00'
+  last_sent: '2025-03-26T17:15:18+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: c52b40d9-bad8-4add-a3c3-83b885d421ff
+  channel: email
+  name: Variant 1
+  subject: The sale is back on!
+  preheader: Don't miss out on savings of up to 25%.
+- id: 38cfebf7-015c-472e-9de6-0e4e56e5f9a6
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 263614
+  total_delivered: 261499
+  total_opens: 88215
+  total_clicks: 494
+  open_rate: 0.3346
+  click_rate: 0.0019
+  total_revenue: 35144.0
+  total_bounces: 1
+  total_unsubscribes: 135
+_filename: 2025_03_26_bw_d_spring_event_sale_surprise_extension.yaml
+schedule_type: time_based

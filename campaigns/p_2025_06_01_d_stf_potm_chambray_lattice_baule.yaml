@@ -1,0 +1,58 @@
+id: 8557f879-16d2-4505-a017-07025e1c6eb9
+name: P_2025_06_01_D_STF_POTM_Chambray_Lattice_Baule
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 8557f879-16d2-4505-a017-07025e1c6eb9
+dates:
+  send_date: '2025-06-01'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-01T12:37:52+00:00'
+  last_sent: '2025-06-01T17:01:21+00:00'
+tags: []
+sends:
+- id: 3262f046-aaac-412d-92f0-5b354836914a
+  channel: email
+  name: Variant 1
+  subject: The Print Everyone’s Raving About
+  preheader: Chambray Lattice, 30% off for a limited time
+  html_file: html/p_2025_06_01_d_stf_potm_chambray_lattice_baule.html
+  screenshot: screenshots/p_2025_06_01_d_stf_potm_chambray_lattice_baule.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683a39a02d68350065777489/original.png?1748646304
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68379b6239e2320064241593/original.png?1748474722
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68379b68f511c30065a49b95/original.png?1748474727
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683a372a0d38df006471f12a/original.png?1748645674
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683a36c23113e600647bc1e9/original.png?1748645570
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683a37103113e600647bc238/original.png?1748645648
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683a39973113e600647bc7bc/original.png?1748646295
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683a374de2b763006674aeb0/original.png?1748645709
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68379b06101c520085168a6f/original.png?1748474630
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683a36fb3113e600747bbf87/original.png?1748645627
+- id: c9765881-7fc3-43d6-8d01-218f9be7f161
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 29060
+  total_delivered: 28749
+  total_opens: 14112
+  total_clicks: 291
+  open_rate: 0.4856
+  click_rate: 0.01
+  total_revenue: 15860.0
+  total_unsubscribes: 82
+  ga4:
+    sessions: 290
+    purchases: 6
+    revenue: 924.75
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.024377'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.976965'
+schedule_type: time_based

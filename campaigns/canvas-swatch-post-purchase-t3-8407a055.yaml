@@ -1,0 +1,33 @@
+id: 8407a055-4281-4a2a-b98f-e4ebb7789565
+name: TRG_EM_2026_02_BW_D_Swatch_Post_Purchase_T3_V1
+brand: BUR
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: a84d40d3-bd21-4753-a859-04df7ccc06ff
+canvas_name: Swatch Post Purchase
+flow_type: post_purchase
+sequence_position: 3
+subject: Start With Our Best Sellers
+preheader: You can’t go wrong with these favorites.
+sends:
+- id: 8407a055-4281-4a2a-b98f-e4ebb7789565
+  channel: email
+  name: TRG_EM_2026_02_BW_D_Swatch_Post_Purchase_T3_V1
+  subject: Start With Our Best Sellers
+  preheader: You can’t go wrong with these favorites.
+  html_file: html/canvas-swatch-post-purchase-t3-8407a055.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-02-04T03:00:00Z'
+  last_sent: '2026-08-31T11:00:00Z'
+performance_summary:
+  total_sends: 955
+  total_delivered: 950
+  total_opens: 422
+  total_clicks: 13
+  open_rate: 0.4419
+  click_rate: 0.0136
+  total_unsubscribes: 8
+  total_revenue: 14788.0

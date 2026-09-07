@@ -1,0 +1,37 @@
+id: 73943900-fd6b-40f2-8f8c-e97e7ac0d7c8
+name: P_SMS_2026_01_24_CZ_Winter_Retreat_Reminder_SMS
+brand: CZ
+channel: sms
+category: reminder
+type: seasonal
+theme: winter
+braze_id: 73943900-fd6b-40f2-8f8c-e97e7ac0d7c8
+dates:
+  send_date: '2026-01-24'
+  inferred_send_type: local_time
+  first_sent: '2026-01-24T01:08:15+00:00'
+  last_sent: '2026-01-25T01:01:34+00:00'
+tags: []
+sends:
+- id: c708c4c7-49ba-403d-a413-ac2ca4ad8030
+  channel: sms
+  name: Variant 1
+- id: 765cd17a-e409-4f98-96cb-81cda008b78b
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 19410
+  total_delivered: 17714
+  total_opens: 0
+  total_clicks: 208
+  open_rate: 0.0
+  click_rate: 0.0107
+  ga4:
+    sessions: 171
+    purchases: 1
+    revenue: 118.3
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.634615'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

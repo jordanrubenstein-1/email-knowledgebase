@@ -1,0 +1,47 @@
+id: 9628bedd-bc1e-4d8f-bd72-8f6dd0bb95a6
+name: P_2025_07_01_ID_D_Shop_the_Catalog_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 9628bedd-bc1e-4d8f-bd72-8f6dd0bb95a6
+dates:
+  send_date: '2025-07-01'
+  inferred_send_type: scheduled
+  first_sent: '2025-07-01T15:30:16+00:00'
+  last_sent: '2025-07-01T15:34:25+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 33b4aea9-84c3-4ce0-843f-899798fba554
+  channel: email
+  name: Variant 1
+  subject: 'Out Now: Our Latest Catalog 👀'
+  preheader: 'Discover this season’s top picks — at up to 25% off. '
+- id: 0fcaa52f-daf3-4d93-8210-edb7d8b5cb6f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 112616
+  total_delivered: 111269
+  total_opens: 51305
+  total_clicks: 809
+  open_rate: 0.4556
+  click_rate: 0.0072
+  total_revenue: 232459.0
+  total_bounces: 5
+  total_unsubscribes: 251
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.556982'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.931054'
+schedule_type: time_based

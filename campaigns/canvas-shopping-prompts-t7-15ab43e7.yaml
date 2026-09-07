@@ -1,0 +1,32 @@
+id: 15ab43e7-da0e-4b61-93e6-498e266137a3
+name: TRG_EM_2025_08_HAV_CONV_PT_Finished_Design_T7_V1
+brand: HAV
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: bc3f414e-9d08-434f-b9df-bbe85d4fa045
+canvas_name: Shopping Prompts
+flow_type: other_flow
+sequence_position: 7
+subject: We handle the hard part
+preheader: ''
+sends:
+- id: 15ab43e7-da0e-4b61-93e6-498e266137a3
+  channel: email
+  name: TRG_EM_2025_08_HAV_CONV_PT_Finished_Design_T7_V1
+  subject: We handle the hard part
+  preheader: ''
+  html_file: html/canvas-shopping-prompts-t7-15ab43e7.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-28T03:00:00Z'
+  last_sent: '2026-08-31T12:00:00Z'
+performance_summary:
+  total_sends: 10969
+  total_delivered: 10966
+  total_opens: 7664
+  total_clicks: 160
+  open_rate: 0.6987
+  click_rate: 0.0146
+  total_unsubscribes: 30

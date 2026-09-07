@@ -1,0 +1,35 @@
+id: 20e25301-f00c-4b42-b858-d6d1567137dc
+name: P_2025_05_14_HAV_PC_D_Memorial_Day_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 20e25301-f00c-4b42-b858-d6d1567137dc
+dates:
+  send_date: '2025-05-14'
+  first_sent: '2025-05-13T21:38:17+00:00'
+  last_sent: '2025-05-14T18:15:01+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: aeaec1d7-738d-4d91-845f-b2684f9a3a46
+  channel: email
+  name: Variant 1
+  subject: HALF OFF Design Services
+  preheader: Buy a room design for just $99.
+- id: 96d1798c-5e36-428b-97f8-c531c79300a9
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 213298
+  total_delivered: 210028
+  total_opens: 89512
+  total_clicks: 431
+  open_rate: 0.4197
+  click_rate: 0.002
+  total_bounces: 14
+  total_unsubscribes: 354
+schedule_type: time_based
+_filename: p_2025_05_14_hav_pc_d_memorial_day_sale_reminder.yaml

@@ -1,0 +1,50 @@
+id: cfe1dca0-e6b7-4510-bdbb-22d8363e64c6
+name: 2025_3_15_Hav_CONV_Home_Dated_Millennial_Beige_Blog
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: cfe1dca0-e6b7-4510-bdbb-22d8363e64c6
+dates:
+  send_date: '2025-03-15'
+  inferred_send_type: local_time
+  first_sent: '2025-03-14T17:24:00+00:00'
+  last_sent: '2025-03-15T17:15:14+00:00'
+tags:
+- Read-the-Blog
+sends:
+- id: 0a10a57d-8abc-4c7a-b295-7b3ab12574ef
+  channel: email
+  name: Variant 1
+  subject: The Millennial Beige Farewell Tour
+  preheader: 13 designer-approved ways to add life & personality.
+  html_file: html/2025_3_15_hav_conv_home_dated_millennial_beige_blog.html
+  screenshot: screenshots/2025_3_15_hav_conv_home_dated_millennial_beige_blog.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d37255588b350066a82ecc/original.gif?1741910613
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d37243f2a0d50067301909/original.png?1741910595
+- id: 358fb0cb-9c2b-4555-8046-6e86300ddf77
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 38728
+  total_delivered: 38609
+  total_opens: 22174
+  total_clicks: 380
+  open_rate: 0.5726
+  click_rate: 0.0098
+  total_unsubscribes: 33
+  ga4:
+    sessions: 543
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.154880'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:35.059142'
+schedule_type: time_based

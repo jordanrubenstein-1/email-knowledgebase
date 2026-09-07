@@ -1,0 +1,34 @@
+id: a125ad63-1124-4fc9-85eb-13785206442b
+name: P_EM_2026_07_HAV_PC_PT_HIP_T1_V1
+brand: HAV
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: f239f6ee-81df-41d9-a0d4-069bb7f8ae2b
+canvas_name: HIP
+flow_type: other_flow
+sequence_position: 1
+subject: 'In-Person Interior Design Is Now In {{custom_attribute.${hip_market} | default:
+  ''Your City''}}'
+preheader: ''
+sends:
+- id: a125ad63-1124-4fc9-85eb-13785206442b
+  channel: email
+  name: P_EM_2026_07_HAV_PC_PT_HIP_T1_V1
+  subject: 'In-Person Interior Design Is Now In {{custom_attribute.${hip_market} |
+    default: ''Your City''}}'
+  preheader: ''
+  html_file: html/canvas-hip-t1-a125ad63.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-07-24T15:00:00Z'
+  last_sent: '2026-08-31T07:00:00Z'
+performance_summary:
+  total_sends: 1073
+  total_delivered: 1070
+  total_opens: 670
+  total_clicks: 42
+  open_rate: 0.6244
+  click_rate: 0.0391
+  total_unsubscribes: 16

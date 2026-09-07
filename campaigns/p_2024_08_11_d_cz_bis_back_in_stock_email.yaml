@@ -1,0 +1,51 @@
+id: 7ffb9ae5-47bb-4c8c-85a8-f20ec72302e7
+name: P_2024_08_11_D_CZ_BIS_Back_In_Stock_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 7ffb9ae5-47bb-4c8c-85a8-f20ec72302e7
+dates:
+  send_date: '2024-08-11'
+  inferred_send_type: local_time
+  first_sent: '2024-08-10T18:05:01+00:00'
+  last_sent: '2024-08-11T17:05:04+00:00'
+tags: []
+sends:
+- id: 8ba1d2a7-da83-4e22-844b-833aeb1b0ffa
+  channel: email
+  name: Variant 1
+  subject: Sold Out No More
+  preheader: These sold-out styles are (finally) back in stock, but won't stick around
+    for long.
+  html_file: html/p_2024_08_11_d_cz_bis_back_in_stock_email.html
+  screenshot: screenshots/p_2024_08_11_d_cz_bis_back_in_stock_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b269b27e60250061769e93/original.gif?1722968498
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b269a37e60250061769e7f/original.jpg?1722968483
+- id: 7bc9d65b-031c-4489-91bf-bf8bf82838c1
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 37498
+  total_delivered: 37370
+  total_opens: 24667
+  total_clicks: 1641
+  open_rate: 0.6578
+  click_rate: 0.0438
+  total_revenue: 23310.94
+  total_unsubscribes: 69
+  ga4:
+    sessions: 2036
+    purchases: 20
+    revenue: 10918.7
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.931741'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.722264'
+schedule_type: time_based

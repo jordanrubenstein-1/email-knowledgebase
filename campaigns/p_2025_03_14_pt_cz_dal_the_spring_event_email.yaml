@@ -1,0 +1,46 @@
+id: a7d41eda-fc7e-4b7c-bcdc-164048997c99
+name: P_2025_03_14_PT_CZ_DAL_The_Spring_Event_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: seasonal
+theme: spring
+braze_id: a7d41eda-fc7e-4b7c-bcdc-164048997c99
+dates:
+  send_date: '2025-03-14'
+  inferred_send_type: scheduled
+  first_sent: '2025-03-15T06:03:01+00:00'
+  last_sent: '2025-03-15T17:00:36+00:00'
+tags: []
+sends:
+- id: 240ae816-c5d4-4013-87ee-e8b5986ac25a
+  channel: email
+  name: Variant 1
+  subject: 'Dallas: welcome spring with up to 30% off!'
+  html_file: html/p_2025_03_14_pt_cz_dal_the_spring_event_email.html
+  screenshot: screenshots/p_2025_03_14_pt_cz_dal_the_spring_event_email.png
+- id: fe288beb-a423-496d-896c-ba6acb053d9c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1057
+  total_delivered: 1046
+  total_opens: 611
+  total_clicks: 19
+  open_rate: 0.5781
+  click_rate: 0.018
+  total_bounces: 1
+  total_unsubscribes: 4
+  ga4:
+    sessions: 25
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.097718'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.969733'
+schedule_type: time_based

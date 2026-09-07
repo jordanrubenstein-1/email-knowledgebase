@@ -1,0 +1,58 @@
+id: 2419296e-6a82-402e-b535-9c05bbc8e1ff
+name: P_2025_1_20_D_SF_FABRIC_WINTER_REFRESH_SALE_Email
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: winter
+braze_id: 2419296e-6a82-402e-b535-9c05bbc8e1ff
+dates:
+  send_date: '2025-01-20'
+  inferred_send_type: local_time
+  first_sent: '2025-01-19T17:08:26+00:00'
+  last_sent: '2025-01-20T17:00:26+00:00'
+tags: []
+sends:
+- id: 19bf9723-66c1-4069-833d-645c16cb0214
+  channel: email
+  name: Variant 1
+  subject: Get In Project Mode with 20% Off
+  preheader: shop fabric on sale now!
+  html_file: html/p_2025_1_20_d_sf_fabric_winter_refresh_sale_email.html
+  screenshot: screenshots/p_2025_1_20_d_sf_fabric_winter_refresh_sale_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678ab9bdd6aed40065923a8b/original.jpg?1737144765
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678ab86c28e0af00651dae27/original.gif?1737144428
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678ab8d4cdcb570064a15ebd/original.gif?1737144532
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678ab75a560c8500669c5f56/original.jpg?1737144153
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678ab8ad560c8500669c6330/original.gif?1737144493
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678ab6dd385c820092d7c4a8/original.jpg?1737144029
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678a62aadbd33900664a074d/original.jpg?1737122473
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678ab7a0d6aed400659234ea/original.gif?1737144224
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678ab90d385c820065d7de2c/original.jpg?1737144589
+- id: 537632fd-60ee-450b-b237-81fb572c6bf9
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 3697
+  total_delivered: 3645
+  total_opens: 1869
+  total_clicks: 39
+  open_rate: 0.5055
+  click_rate: 0.0105
+  total_revenue: 45.0
+  total_unsubscribes: 7
+  ga4:
+    sessions: 31
+    purchases: 1
+    revenue: 217.25
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.982655'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.429545'
+schedule_type: time_based

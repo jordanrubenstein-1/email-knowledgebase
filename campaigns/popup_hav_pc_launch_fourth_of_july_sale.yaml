@@ -1,0 +1,23 @@
+id: d32a7a8c-8b5e-4368-a559-95706802fcc8
+name: Popup_HAV_PC_Launch_Fourth_of_July_Sale
+brand: HAV
+channel: email
+category: product_launch
+type: sale
+theme: null
+braze_id: d32a7a8c-8b5e-4368-a559-95706802fcc8
+dates:
+  first_sent: '2026-06-17T00:00:00+00:00'
+  last_sent: '2026-06-17T16:00:00+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: f0d34e81-bb73-4b62-b30b-36b02d842e82
+  channel: other
+  name: Control Group
+- id: aab9b3b1-b5f8-41e8-9620-8d9a9292336e
+  channel: other
+  name: Variant 1
+performance_summary: {}
+schedule_type: action_based
+_filename: popup_hav_pc_launch_fourth_of_july_sale.yaml

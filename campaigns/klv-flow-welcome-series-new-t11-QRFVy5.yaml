@@ -1,0 +1,56 @@
+id: klaviyo-QRFVy5
+name: 'Welcome Email #5 - $45 off'
+brand: TI
+channel: email
+category: other
+type: product_launch
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: SmPgUp
+canvas_name: Welcome Series - NEW
+flow_type: welcome_series
+sequence_position: 11
+dates:
+  created: '2023-04-28'
+  inferred_send_type: sto
+  first_sent: '2023-04-28'
+  last_sent: '2026-06-24'
+sends:
+- id: QRFVy5
+  channel: email
+  name: Message
+  subject: $45 off, just for you.
+  preheader: Shop now
+  html_file: html/klv-flow-welcome-series-new-t11-QRFVy5.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/67f7b99c-c60d-409e-a117-17b67d51ac73.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/3503a5b8-cf0b-4929-a2cc-28648b47ac5d.gif
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/ad5bd3ed-c42f-4c81-8489-b9adf8ff9aec.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/8dd4f1ba-d9ac-489a-83b3-53c02e42fe60.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/3efedaa5-cb0f-443e-8696-2c13f839c3ba.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/eefaedf9-2b31-4f12-a822-cd26458a25cb.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/d9b284dd-4e69-4f98-8722-487e1732a0a7.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/f78bb85c-518e-4db2-8271-89cf30facdda.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/d4f39174-0426-4451-8e47-15ac89f110f7.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/89ba4f74-8937-481a-bcc8-a51080b33802.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: QRFVy5
+structure:
+  image_count: 15
+  link_count: 16
+  has_gif: true
+  hero_width: 600
+  layout_type: product_grid

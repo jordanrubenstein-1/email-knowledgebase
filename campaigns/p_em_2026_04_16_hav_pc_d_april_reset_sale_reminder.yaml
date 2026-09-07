@@ -1,0 +1,35 @@
+id: 95ff9ec4-bc0c-4860-a990-729fe495f2ac
+name: P_EM_2026_04_16_HAV_PC_D_April_Reset_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 95ff9ec4-bc0c-4860-a990-729fe495f2ac
+dates:
+  send_date: '2026-04-16'
+  first_sent: '2026-04-15T23:08:35+00:00'
+  last_sent: '2026-04-16T23:00:41+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 1469d7ba-d174-4b94-93b4-d60b45c34fcd
+  channel: email
+  name: Variant 1
+  subject: 'Your April reset is still on '
+  preheader: 50% off Havenly interior design packages.
+- id: d5b5417f-2e7b-40e5-8ff4-5e2b57c436e6
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 280275
+  total_delivered: 278707
+  total_opens: 101915
+  total_clicks: 618
+  open_rate: 0.3636
+  click_rate: 0.0022
+  total_bounces: 4
+  total_unsubscribes: 608
+schedule_type: time_based
+_filename: p_em_2026_04_16_hav_pc_d_april_reset_sale_reminder.yaml

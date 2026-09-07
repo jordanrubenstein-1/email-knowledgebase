@@ -1,0 +1,45 @@
+id: 1343d4dc-f757-4559-9030-74f0996a0ff3
+name: P_EM_2025_08_12_ID_D_L_August_Catalog
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 1343d4dc-f757-4559-9030-74f0996a0ff3
+dates:
+  send_date: '2025-08-12'
+  last_sent: '2025-08-12'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 94b27487-5074-4188-946e-b135de02a1cc
+  channel: email
+  name: Variant 1
+  subject: Psst... It's Time to Check Your Mailbox 📬
+  preheader: From our catalog to your cart — shop this season’s must-haves at 20%
+    off.
+- id: 4e67a074-d98d-4b75-9bca-22f1c21fcb17
+  channel: email
+  name: Control Group
+performance_summary: {}
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off sitewide
+    type: null
+  primary_sale:
+    id: id-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off sitewide
+    type: null
+  sale_name: The Sunset Sale
+  sale_discount: 20% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:33.043939'
+schedule_type: time_based

@@ -1,0 +1,106 @@
+id: 8ca874dc-0ab7-4657-b4cf-abba50624472
+name: Abandon Cart - Cart Updated
+brand: BUR
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: 8ca874dc-0ab7-4657-b4cf-abba50624472
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-01-17T12:00:00+00:00'
+  last_sent: '2026-04-09T18:00:00+00:00'
+tags:
+- cart abandon
+sends:
+- id: 0f358f66-fcf2-4153-8844-b448f51f0396
+  channel: email
+  name: TRG_EM_2026_02_BW_D_Cart_Abandon_T3_V4
+  subject: Your cart is waiting
+  preheader: No surprises, no stress, check out now.
+  step_id: c02cff14-2298-4b21-97f6-6a302eac28d4
+- id: 476ef1ef-afbe-432f-81a6-dc9c4bd167f4
+  channel: email
+  name: TRG_EM_2026_02_BW_D_Cart_Abandon_T4_V4
+  subject: Let’s Wrap This Up
+  preheader: Your cart is ready when you are.
+  step_id: 130f668b-f983-47cb-afbe-b5e6757a4416
+- id: f5afc812-5e13-4662-af67-ae590b9c65ea
+  channel: email
+  name: TRG_EM_2026_02_BW_D_Cart_Abandon_T6_V4
+  subject: One Last Nudge
+  preheader: Your cart hasn’t gone anywhere.
+  step_id: aa829818-6b56-4486-8026-e99e28e87da5
+- id: 7a696095-3d6a-4c5f-9d68-b5f7b4cc9c60
+  channel: email
+  name: TRG_EM_2026_02_BW_D_Cart_Abandon_T1_V4
+  subject: Just circling back
+  preheader: Your cart has saved your picks, the rest is simple.
+  step_id: 15f54889-2331-4bec-98b0-b61c72737cc6
+performance_summary: {}
+canvas_steps:
+- id: 47ae9d26-ef45-4c02-8f32-5a6ebdc7f640
+  name: Step 4
+  type: delay
+- id: 1b3af885-5124-463a-a6ab-7c43a9153bb9
+  name: Step 5
+  type: delay
+- id: 7556c10b-4ba1-46c7-8007-43b8f0c6a130
+  name: Step 3
+  type: delay
+- id: 7a329c03-e98e-4012-a743-46c44e4d6986
+  name: Step
+  type: delay
+- id: ca2f7511-3f7c-4b28-805d-bcac5c2f7976
+  name: Step 6
+  type: delay
+- id: 0a4deb30-9ab5-470d-868b-bdbe0c6417e6
+  name: TRG_SMS_2026_01_BW_D_Cart_Abandon_T5_V3
+  type: message
+- id: d299ace8-2c94-4b7a-b551-e6806431e6e4
+  name: TRG_SMS_2026_01_BW_D_Cart_Abandon_T2_V3
+  type: message
+- id: 582e8404-6ebf-41ad-a1a8-32bfff19e304
+  name: Step 1
+  type: delay
+- id: 082a2aaf-acf7-4569-97c8-60ebb2e1d4bd
+  name: SMS Opted In?
+  type: audience_paths
+- id: eb68f9af-b9e3-4caf-bfb2-450e371a6fab
+  name: SMS Opted In?
+  type: audience_paths
+- id: c02cff14-2298-4b21-97f6-6a302eac28d4
+  name: TRG_EM_2026_02_BW_D_Cart_Abandon_T3_V4
+  type: message
+  channel: email
+  subject: Your cart is waiting
+  preheader: No surprises, no stress, check out now.
+- id: 130f668b-f983-47cb-afbe-b5e6757a4416
+  name: TRG_EM_2026_02_BW_D_Cart_Abandon_T4_V4
+  type: message
+  channel: email
+  subject: Let’s Wrap This Up
+  preheader: Your cart is ready when you are.
+- id: aa829818-6b56-4486-8026-e99e28e87da5
+  name: TRG_EM_2026_02_BW_D_Cart_Abandon_T6_V4
+  type: message
+  channel: email
+  subject: One Last Nudge
+  preheader: Your cart hasn’t gone anywhere.
+- id: 15f54889-2331-4bec-98b0-b61c72737cc6
+  name: TRG_EM_2026_02_BW_D_Cart_Abandon_T1_V4
+  type: message
+  channel: email
+  subject: Just circling back
+  preheader: Your cart has saved your picks, the rest is simple.
+- id: 18a66dd7-629b-4c91-9334-707a6775f571
+  name: Email available?
+  type: audience_paths
+- id: d3835f79-7714-484c-b0d5-3784c8e4c947
+  name: Email available?
+  type: audience_paths
+- id: c62dc6e3-0b0b-42c9-8ef0-160d4691d25d
+  name: Email available?
+  type: audience_paths

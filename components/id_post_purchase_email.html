@@ -1,0 +1,718 @@
+{% comment %}
+  ID Post-Purchase — "Meet the family" cross-sell email
+  Covers three collections: Sloan (SLON), James (JMES), Maxwell (MXWL).
+  Canvas entry properties: products[0].sku, products[0].variant
+  Module source docs:
+    docs/id_rec_modules/sloan_post_purchase_rec_module.liquid
+    docs/id_rec_modules/james_post_purchase_rec_module.liquid
+    docs/id_rec_modules/maxwell_post_purchase_rec_module.liquid
+{% endcomment %}
+
+{% comment %}--- Parse SKU, collection, fabric, and leg from canvas entry properties ---{% endcomment %}
+{% assign sku     = canvas_entry_properties.${products}[0].sku     | default: "" %}
+{% assign variant = canvas_entry_properties.${products}[0].variant | default: "" %}
+{% assign sku_parts    = sku | split: "." %}
+{% assign col          = sku_parts[0] %}
+{% assign options_str  = variant | remove_first: sku | remove_first: "-" %}
+{% assign option_parts = options_str | split: "-" %}
+{% assign color        = option_parts[0] | append: "-" | append: option_parts[1] %}
+
+{% comment %}3-part fabric codes: OTE-SUNDAY-103, AK-618-xx, I-73338-xx{% endcomment %}
+{% if option_parts[0] == "OTE" or option_parts[0] == "AK" or option_parts[0] == "I" %}
+  {% assign color = option_parts[0] | append: "-" | append: option_parts[1] | append: "-" | append: option_parts[2] %}
+{% endif %}
+
+{% comment %}Leg parsing — token containing "Leg" + next token, upcased{% endcomment %}
+{% assign legs = "" %}
+{% for i in (0..15) %}
+  {% assign _part = option_parts[i] %}
+  {% if _part contains "Leg" and legs == "" %}
+    {% assign _next = i | plus: 1 %}
+    {% assign legs = _part | append: "-" | append: option_parts[_next] | upcase %}
+  {% endif %}
+{% endfor %}
+{% if legs == "" %}{% assign legs = "LEG001-1" %}{% endif %}
+
+{% assign _cyl = "https://content.cylindo.com/api/v2/4472/products/" %}
+
+{% comment %}=============================================================
+   SLOAN (SLON)
+   Slots: Sleeper / Leather / Ottoman / Chaise
+============================================================{% endcomment %}
+{% if col == "SLON" %}
+
+  {% comment %}Sleeper leg mapping — Cylindo only has LEG007-1/2/3 for Sleeper{% endcomment %}
+  {% if legs == "LEG001-1" or legs == "LEG002-4" or legs == "LEG014-3" or legs == "LEG016-1" %}
+    {% assign sleeper_leg = "LEG007-1" %}
+  {% elsif legs == "LEG001-3" or legs == "LEG002-3" or legs == "LEG008-2" or legs == "LEG014-2" or legs == "LEG016-3" or legs == "LEG009-3" %}
+    {% assign sleeper_leg = "LEG007-3" %}
+  {% else %}
+    {% assign sleeper_leg = "LEG007-2" %}
+  {% endif %}
+
+  {% comment %}Sleeper fabric — all 122 source fabrics available; no fallback needed{% endcomment %}
+  {% assign sleeper_fabric = color %}
+
+  {% comment %}Leather leg — LEG016-2 not in feed → LEG001-2{% endcomment %}
+  {% if legs == "LEG016-2" %}
+    {% assign leather_leg = "LEG001-2" %}
+  {% else %}
+    {% assign leather_leg = legs %}
+  {% endif %}
+
+  {% comment %}Chaise fabric — HS-002, WH-001, WH-003, WH-004, WH-005 not on Chaise → MER-002 (WH-002 IS available){% endcomment %}
+  {% if color == "HS-002" or color == "WH-001" or color == "WH-003" or color == "WH-004" or color == "WH-005" %}
+    {% assign chaise_fabric = "MER-002" %}
+  {% else %}
+    {% assign chaise_fabric = color %}
+  {% endif %}
+
+  {% comment %}Cylindo image URLs — all with &size=600{% endcomment %}
+  {% assign img_sleeper = _cyl | append: "SLON.FABRIC.SOFA.SLEEPR/frames/1/SLON.FABRIC.SOFA.SLEEPR.png?size=600&background=FFFFFF&feature=COLOR:" | append: sleeper_fabric | append: "&feature=CUSHIONS:CUSHION-2&feature=FINISH:" | append: sleeper_leg %}
+  {% assign img_leather = _cyl | append: "SLON.LEATHR.SOFA.STNDRD/frames/1/SLON.LEATHR.SOFA.STNDRD.png?size=600&background=FFFFFF&feature=COLOR:2210A&feature=DEPTH:DEPTH-36&feature=FINISH:" | append: leather_leg | append: "&feature=CUSHIONS:CUSHION-2" %}
+  {% assign img_ottoman = _cyl | append: "SLON.FABRIC.OTTO.STNDRD/frames/1/SLON.FABRIC.OTTO.STNDRD.png?size=600&background=FFFFFF&feature=FINISH:" | append: legs | append: "&feature=COLOR:" | append: color %}
+  {% assign img_chaise  = _cyl | append: "SLON.FABRIC.CHSE.CHAISE/frames/1/SLON.FABRIC.CHSE.CHAISE.png?size=600&background=FFFFFF&feature=COLOR:" | append: chaise_fabric | append: "&feature=CHAISE%20LENGTH:CHAISE-63&feature=FINISH:" | append: legs %}
+
+  {% comment %}PDP links — catalog-driven (pre-selects fabric + leg){% endcomment %}
+
+  {% comment %}Sleeper{% endcomment %}
+  {% catalog_items product_config SLON_SLEEPR %}{% assign _sleepr_prod = catalog_items[0] %}
+  {% catalog_items fabric_ids {{ "SLON_SLEEPR_" | append: sleeper_fabric }} %}{% assign _sleepr_fab = catalog_items[0] %}
+  {% catalog_items leg_ids {{ "SLON_SLEEPR_" | append: sleeper_leg }} %}{% assign _sleepr_leg = catalog_items[0] %}
+  {% if _sleepr_fab.material_type_id and _sleepr_leg.legs_type_id %}
+    {% assign url_sleeper = _sleepr_prod.base_url
+      | append: "?legs-type=" | append: _sleepr_leg.legs_type_id
+      | append: "&material-type=" | append: _sleepr_fab.material_type_id
+      | append: "&options-" | append: _sleepr_prod.fabric_attr_id | append: "=" | append: _sleepr_fab.material_type_id
+      | append: "&options-" | append: _sleepr_prod.leg_attr_id | append: "=" | append: _sleepr_leg.legs_type_id
+      | append: "&" | append: _sleepr_prod.fixed_params %}
+  {% else %}
+    {% assign url_sleeper = _sleepr_prod.base_url %}
+  {% endif %}
+
+  {% comment %}Leather (always 2210A showcase){% endcomment %}
+  {% catalog_items product_config SLON_LEATHR %}{% assign _leathr_prod = catalog_items[0] %}
+  {% catalog_items fabric_ids SLON_LEATHR_2210A %}{% assign _leathr_fab = catalog_items[0] %}
+  {% catalog_items leg_ids {{ "SLON_LEATHR_" | append: leather_leg }} %}{% assign _leathr_leg = catalog_items[0] %}
+  {% if _leathr_fab.material_type_id and _leathr_leg.legs_type_id %}
+    {% assign url_leather = _leathr_prod.base_url
+      | append: "?legs-type=" | append: _leathr_leg.legs_type_id
+      | append: "&material-type=" | append: _leathr_fab.material_type_id
+      | append: "&options-" | append: _leathr_prod.fabric_attr_id | append: "=" | append: _leathr_fab.material_type_id
+      | append: "&options-" | append: _leathr_prod.leg_attr_id | append: "=" | append: _leathr_leg.legs_type_id
+      | append: "&" | append: _leathr_prod.fixed_params %}
+  {% else %}
+    {% assign url_leather = _leathr_prod.base_url %}
+  {% endif %}
+
+  {% comment %}Ottoman{% endcomment %}
+  {% catalog_items product_config SLON_OTTO %}{% assign _otto_prod = catalog_items[0] %}
+  {% catalog_items fabric_ids {{ "SLON_OTTO_" | append: color }} %}{% assign _otto_fab = catalog_items[0] %}
+  {% catalog_items leg_ids {{ "SLON_OTTO_" | append: legs }} %}{% assign _otto_leg = catalog_items[0] %}
+  {% if _otto_fab.material_type_id and _otto_leg.legs_type_id %}
+    {% assign url_ottoman = _otto_prod.base_url
+      | append: "?legs-type=" | append: _otto_leg.legs_type_id
+      | append: "&material-type=" | append: _otto_fab.material_type_id
+      | append: "&options-" | append: _otto_prod.fabric_attr_id | append: "=" | append: _otto_fab.material_type_id
+      | append: "&options-" | append: _otto_prod.leg_attr_id | append: "=" | append: _otto_leg.legs_type_id
+      | append: "&" | append: _otto_prod.fixed_params %}
+  {% else %}
+    {% assign url_ottoman = _otto_prod.base_url %}
+  {% endif %}
+
+  {% comment %}Chaise{% endcomment %}
+  {% catalog_items product_config SLON_CHSE %}{% assign _chse_prod = catalog_items[0] %}
+  {% catalog_items fabric_ids {{ "SLON_CHSE_" | append: chaise_fabric }} %}{% assign _chse_fab = catalog_items[0] %}
+  {% catalog_items leg_ids {{ "SLON_CHSE_" | append: legs }} %}{% assign _chse_leg = catalog_items[0] %}
+  {% if _chse_fab.material_type_id and _chse_leg.legs_type_id %}
+    {% assign url_chaise = _chse_prod.base_url
+      | append: "?legs-type=" | append: _chse_leg.legs_type_id
+      | append: "&material-type=" | append: _chse_fab.material_type_id
+      | append: "&options-" | append: _chse_prod.fabric_attr_id | append: "=" | append: _chse_fab.material_type_id
+      | append: "&options-" | append: _chse_prod.leg_attr_id | append: "=" | append: _chse_leg.legs_type_id
+      | append: "&" | append: _chse_prod.fixed_params %}
+  {% else %}
+    {% assign url_chaise = _chse_prod.base_url %}
+  {% endif %}
+
+{% comment %}=============================================================
+   JAMES (JMES)
+   Slots: Sleeper / Leather (fixed 2210A) / Twin Sleeper / Ottoman
+   James has NO legs — Cylindo URLs omit feature=FINISH; PDP URLs omit legs-type param.
+============================================================{% endcomment %}
+{% elsif col == "JMES" %}
+
+  {% comment %}No fabric fallback for any James product — all 122 fabrics available{% endcomment %}
+
+  {% comment %}Cylindo image URLs — no feature=FINISH; all with &size=600{% endcomment %}
+  {% assign img_sleeper = _cyl | append: "JMES.FABRIC.SOFA.SLEEPR/frames/1/JMES.FABRIC.SOFA.SLEEPR.png?size=600&background=FFFFFF&feature=COLOR:" | append: color %}
+  {% assign img_leather = _cyl | append: "JMES.LEATHR.SOFA.3SEAT/frames/1/JMES.LEATHR.SOFA.3SEAT.png?size=600&background=FFFFFF&feature=COLOR:2210A" %}
+  {% assign img_sstwin  = _cyl | append: "JMES.FABRIC.SOFA.SSTWIN/frames/1/JMES.FABRIC.SOFA.SSTWIN.png?size=600&background=FFFFFF&feature=COLOR:" | append: color %}
+  {% comment %}Ottoman Cylindo SKU: JMES.FABRIC.OTTO.SQUARE.STORAGE (requires STORAGE:CLOSE){% endcomment %}
+  {% assign img_ottoman = _cyl | append: "JMES.FABRIC.OTTO.SQUARE.STORAGE/frames/1/JMES.FABRIC.OTTO.SQUARE.STORAGE.png?size=600&background=FFFFFF&feature=COLOR:" | append: color | append: "&feature=STORAGE:CLOSE" %}
+
+  {% comment %}PDP links — catalog-driven, fabric only (no legs for James){% endcomment %}
+
+  {% comment %}Sleeper{% endcomment %}
+  {% catalog_items product_config JMES_SLEEPR %}{% assign _sleepr_prod = catalog_items[0] %}
+  {% catalog_items fabric_ids {{ "JMES_SLEEPR_" | append: color }} %}{% assign _sleepr_fab = catalog_items[0] %}
+  {% if _sleepr_fab.material_type_id %}
+    {% assign url_sleeper = _sleepr_prod.base_url
+      | append: "?material-type=" | append: _sleepr_fab.material_type_id
+      | append: "&options-" | append: _sleepr_prod.fabric_attr_id | append: "=" | append: _sleepr_fab.material_type_id
+      | append: "&" | append: _sleepr_prod.fixed_params %}
+  {% else %}
+    {% assign url_sleeper = _sleepr_prod.base_url %}
+  {% endif %}
+
+  {% comment %}Leather (always 2210A showcase){% endcomment %}
+  {% catalog_items product_config JMES_LEATHR %}{% assign _leathr_prod = catalog_items[0] %}
+  {% catalog_items fabric_ids JMES_LEATHR_2210A %}{% assign _leathr_fab = catalog_items[0] %}
+  {% if _leathr_fab.material_type_id %}
+    {% assign url_leather = _leathr_prod.base_url
+      | append: "?material-type=" | append: _leathr_fab.material_type_id
+      | append: "&options-" | append: _leathr_prod.fabric_attr_id | append: "=" | append: _leathr_fab.material_type_id
+      | append: "&" | append: _leathr_prod.fixed_params %}
+  {% else %}
+    {% assign url_leather = _leathr_prod.base_url %}
+  {% endif %}
+
+  {% comment %}Twin Sleeper{% endcomment %}
+  {% catalog_items product_config JMES_SSTWIN %}{% assign _sstwin_prod = catalog_items[0] %}
+  {% catalog_items fabric_ids {{ "JMES_SSTWIN_" | append: color }} %}{% assign _sstwin_fab = catalog_items[0] %}
+  {% if _sstwin_fab.material_type_id %}
+    {% assign url_sstwin = _sstwin_prod.base_url
+      | append: "?material-type=" | append: _sstwin_fab.material_type_id
+      | append: "&options-" | append: _sstwin_prod.fabric_attr_id | append: "=" | append: _sstwin_fab.material_type_id
+      | append: "&" | append: _sstwin_prod.fixed_params %}
+  {% else %}
+    {% assign url_sstwin = _sstwin_prod.base_url %}
+  {% endif %}
+
+  {% comment %}Ottoman{% endcomment %}
+  {% catalog_items product_config JMES_OTTO %}{% assign _otto_prod = catalog_items[0] %}
+  {% catalog_items fabric_ids {{ "JMES_OTTO_" | append: color }} %}{% assign _otto_fab = catalog_items[0] %}
+  {% if _otto_fab.material_type_id %}
+    {% assign url_ottoman = _otto_prod.base_url
+      | append: "?material-type=" | append: _otto_fab.material_type_id
+      | append: "&options-" | append: _otto_prod.fabric_attr_id | append: "=" | append: _otto_fab.material_type_id
+      | append: "&" | append: _otto_prod.fixed_params %}
+  {% else %}
+    {% assign url_ottoman = _otto_prod.base_url %}
+  {% endif %}
+
+{% comment %}=============================================================
+   MAXWELL (MXWL)
+   Slots: Tall / Slipcovered / Leather (fixed 2210A) / Ottoman
+============================================================{% endcomment %}
+{% elsif col == "MXWL" %}
+
+  {% comment %}Slipcovered — buyer's fabric (WH-002 not on slipcover → CAS-016); leg016-x passes through, others → LEG016-1{% endcomment %}
+  {% if color == "WH-002" %}
+    {% assign slpcov_fabric = "CAS-016" %}
+  {% else %}
+    {% assign slpcov_fabric = color %}
+  {% endif %}
+  {% if legs == "LEG016-1" or legs == "LEG016-2" or legs == "LEG016-3" %}
+    {% assign slpcov_leg = legs %}
+  {% else %}
+    {% assign slpcov_leg = "LEG016-1" %}
+  {% endif %}
+
+  {% comment %}Leather — always 2210A; LEG002-3 not on Maxwell Leather → LEG002-4{% endcomment %}
+  {% if legs == "LEG002-3" %}
+    {% assign leather_leg = "LEG002-4" %}
+  {% else %}
+    {% assign leather_leg = legs %}
+  {% endif %}
+
+  {% comment %}Ottoman fabric — ANG-003 not on Maxwell Ottoman → MER-002 (OMNI-016 IS available){% endcomment %}
+  {% if color == "ANG-003" %}
+    {% assign otto_fabric = "MER-002" %}
+  {% else %}
+    {% assign otto_fabric = color %}
+  {% endif %}
+
+  {% comment %}Cylindo image URLs — all with &size=600{% endcomment %}
+  {% assign img_tall    = _cyl | append: "MXWL.FABRIC.SOFA.STNDRD.TALL/frames/1/MXWL.FABRIC.SOFA.STNDRD.TALL.png?size=600&background=FFFFFF&feature=COLOR:" | append: color | append: "&feature=CUSHIONS:CUSHION-2&feature=FINISH:" | append: legs %}
+  {% assign img_slpcov  = _cyl | append: "MXWL.SLPCOV.SOFA.STNDRD/frames/1/MXWL.SLPCOV.SOFA.STNDRD.png?size=600&background=FFFFFF&feature=COLOR:" | append: slpcov_fabric | append: "&feature=FINISH:" | append: slpcov_leg %}
+  {% assign img_leather = _cyl | append: "MXWL.LEATHR.SOFA.STNDRD/frames/1/MXWL.LEATHR.SOFA.STNDRD.png?size=600&background=FFFFFF&feature=COLOR:2210A&feature=CUSHIONS:CUSHION-2&feature=FINISH:" | append: leather_leg %}
+  {% assign img_ottoman = _cyl | append: "MXWL.FABRIC.OTTO.STNDRD/frames/1/MXWL.FABRIC.OTTO.STNDRD.png?size=600&background=FFFFFF&feature=COLOR:" | append: otto_fabric | append: "&feature=FINISH:" | append: legs %}
+
+  {% comment %}PDP links — catalog-driven (pre-selects fabric + leg){% endcomment %}
+
+  {% comment %}Tall (buyer's fabric + leg; sparse catalog coverage → often base_url){% endcomment %}
+  {% catalog_items product_config MXWL_TALL %}{% assign _tall_prod = catalog_items[0] %}
+  {% catalog_items fabric_ids {{ "MXWL_TALL_" | append: color }} %}{% assign _tall_fab = catalog_items[0] %}
+  {% catalog_items leg_ids {{ "MXWL_TALL_" | append: legs }} %}{% assign _tall_leg = catalog_items[0] %}
+  {% if _tall_fab.material_type_id and _tall_leg.legs_type_id %}
+    {% assign url_tall = _tall_prod.base_url
+      | append: "?legs-type=" | append: _tall_leg.legs_type_id
+      | append: "&material-type=" | append: _tall_fab.material_type_id
+      | append: "&options-" | append: _tall_prod.fabric_attr_id | append: "=" | append: _tall_fab.material_type_id
+      | append: "&options-" | append: _tall_prod.leg_attr_id | append: "=" | append: _tall_leg.legs_type_id
+      | append: "&" | append: _tall_prod.fixed_params %}
+  {% else %}
+    {% assign url_tall = _tall_prod.base_url %}
+  {% endif %}
+
+  {% comment %}Slipcovered (buyer's fabric or WH-002 fallback; buyer's LEG016-x or fallback LEG016-1){% endcomment %}
+  {% catalog_items product_config MXWL_SLPCOV %}{% assign _slpcov_prod = catalog_items[0] %}
+  {% catalog_items fabric_ids {{ "MXWL_SLPCOV_" | append: slpcov_fabric }} %}{% assign _slpcov_fab = catalog_items[0] %}
+  {% catalog_items leg_ids {{ "MXWL_SLPCOV_" | append: slpcov_leg }} %}{% assign _slpcov_leg = catalog_items[0] %}
+  {% if _slpcov_fab.material_type_id and _slpcov_leg.legs_type_id %}
+    {% assign url_slpcov = _slpcov_prod.base_url
+      | append: "?legs-type=" | append: _slpcov_leg.legs_type_id
+      | append: "&material-type=" | append: _slpcov_fab.material_type_id
+      | append: "&options-" | append: _slpcov_prod.fabric_attr_id | append: "=" | append: _slpcov_fab.material_type_id
+      | append: "&options-" | append: _slpcov_prod.leg_attr_id | append: "=" | append: _slpcov_leg.legs_type_id
+      | append: "&" | append: _slpcov_prod.fixed_params %}
+  {% else %}
+    {% assign url_slpcov = _slpcov_prod.base_url %}
+  {% endif %}
+
+  {% comment %}Leather (always 2210A; buyer's leg with LEG002-3 → LEG002-4 fallback){% endcomment %}
+  {% catalog_items product_config MXWL_LEATHR %}{% assign _leathr_prod = catalog_items[0] %}
+  {% catalog_items fabric_ids MXWL_LEATHR_2210A %}{% assign _leathr_fab = catalog_items[0] %}
+  {% catalog_items leg_ids {{ "MXWL_LEATHR_" | append: leather_leg }} %}{% assign _leathr_leg = catalog_items[0] %}
+  {% if _leathr_fab.material_type_id and _leathr_leg.legs_type_id %}
+    {% assign url_leather = _leathr_prod.base_url
+      | append: "?legs-type=" | append: _leathr_leg.legs_type_id
+      | append: "&material-type=" | append: _leathr_fab.material_type_id
+      | append: "&options-" | append: _leathr_prod.fabric_attr_id | append: "=" | append: _leathr_fab.material_type_id
+      | append: "&options-" | append: _leathr_prod.leg_attr_id | append: "=" | append: _leathr_leg.legs_type_id
+      | append: "&" | append: _leathr_prod.fixed_params %}
+  {% else %}
+    {% assign url_leather = _leathr_prod.base_url %}
+  {% endif %}
+
+  {% comment %}Ottoman (buyer's fabric with ANG-003/OMNI-016 fallback; full leg coverage){% endcomment %}
+  {% catalog_items product_config MXWL_OTTO %}{% assign _otto_prod = catalog_items[0] %}
+  {% catalog_items fabric_ids {{ "MXWL_OTTO_" | append: otto_fabric }} %}{% assign _otto_fab = catalog_items[0] %}
+  {% catalog_items leg_ids {{ "MXWL_OTTO_" | append: legs }} %}{% assign _otto_leg = catalog_items[0] %}
+  {% if _otto_fab.material_type_id and _otto_leg.legs_type_id %}
+    {% assign url_ottoman = _otto_prod.base_url
+      | append: "?legs-type=" | append: _otto_leg.legs_type_id
+      | append: "&material-type=" | append: _otto_fab.material_type_id
+      | append: "&options-" | append: _otto_prod.fabric_attr_id | append: "=" | append: _otto_fab.material_type_id
+      | append: "&options-" | append: _otto_prod.leg_attr_id | append: "=" | append: _otto_leg.legs_type_id
+      | append: "&" | append: _otto_prod.fixed_params %}
+  {% else %}
+    {% assign url_ottoman = _otto_prod.base_url %}
+  {% endif %}
+
+{% endif %}
+
+{% comment %}--- Slot type labels for cross-sell measurement via message_extras ---{% endcomment %}
+{% if col == "SLON" %}
+  {% assign slot1_type = "sleeper" %}
+  {% assign slot2_type = "leather_sofa" %}
+  {% assign slot3_type = "ottoman" %}
+  {% assign slot4_type = "chaise" %}
+{% elsif col == "JMES" %}
+  {% assign slot1_type = "sleeper" %}
+  {% assign slot2_type = "leather_sofa" %}
+  {% assign slot3_type = "twin_sleeper" %}
+  {% assign slot4_type = "ottoman" %}
+{% elsif col == "MXWL" %}
+  {% assign slot1_type = "tall" %}
+  {% assign slot2_type = "slipcovered" %}
+  {% assign slot3_type = "leather_sofa" %}
+  {% assign slot4_type = "ottoman" %}
+{% endif %}
+{% message_extras :vars %}
+  collection: {{ col }}
+  buyer_fabric: {{ color }}
+  buyer_legs: {{ legs }}
+  slot1_type: {{ slot1_type }}
+  slot2_type: {{ slot2_type }}
+  slot3_type: {{ slot3_type }}
+  slot4_type: {{ slot4_type }}
+{% endmessage_extras %}
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="x-apple-disable-message-reformatting">
+  <meta name="format-detection" content="telephone=no, date=no, address=no, email=no, url=no">
+  <title>Interior Define —
+    {% if col == "SLON" %}The Sloan Collection
+    {% elsif col == "JMES" %}The James Collection
+    {% elsif col == "MXWL" %}The Maxwell Collection
+    {% else %}Custom Furniture{% endif %}
+  </title>
+  <!--[if mso]>
+  <noscript><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml></noscript>
+  <![endif]-->
+  <!--[if gte mso 9]>
+  <style>
+    a:link    { mso-style-priority:99; color:inherit; }
+    a:visited { mso-style-priority:99; color:inherit; }
+    table, td, p, div, span, a { mso-hyphenate:none; }
+    sup, sub { font-size:100% !important; }
+  </style>
+  <![endif]-->
+  <style type="text/css">
+    /* --- Client resets --- */
+    body, table, td, a { -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
+    table, td { mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse; }
+    img { -ms-interpolation-mode:bicubic; border:0; display:block; height:auto; line-height:100%; outline:none; text-decoration:none; }
+    a { color:#1871D8; }
+    a[x-apple-data-detectors] { color:inherit !important; text-decoration:none !important; }
+    u + .body-wrap a { color:inherit !important; text-decoration:none !important; }
+    #MessageViewBody a { color:inherit !important; text-decoration:none !important; }
+
+    /* --- Base --- */
+    body { margin:0 !important; padding:0 !important; background-color:#f0f0f0; }
+
+    /* --- Mobile --- */
+    @media screen and (max-width:620px) {
+      .outer-pad { padding:0 !important; }
+      .pad-hz    { padding-left:20px !important; padding-right:20px !important; }
+      .see-all-l { padding:16px 20px !important; }
+      .see-all-r { padding:16px 20px 16px 0 !important; }
+      .cell-text { padding:12px 12px 16px !important; }
+    }
+  </style>
+</head>
+
+<body class="body-wrap" style="margin:0; padding:0; background-color:#f0f0f0;">
+
+  <!-- Preheader -->
+  <div style="display:none; max-height:0; overflow:hidden; mso-hide:all; font-size:1px; line-height:1px; color:#f0f0f0;">{% if col == "SLON" %}You chose the Sloan. Now meet the rest of the family — built to match, made to order.{% elsif col == "JMES" %}You chose the James. Now meet the rest of the family — built to match, made to order.{% elsif col == "MXWL" %}You chose the Maxwell. Now meet the rest of the family — built to match, made to order.{% else %}Meet the rest of the family — built to match, made to order.{% endif %}&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;</div>
+
+{% if col == "SLON" or col == "JMES" or col == "MXWL" %}
+
+  <!-- Outer wrapper -->
+  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color:#f0f0f0;">
+    <tr>
+      <td align="center" class="outer-pad" style="padding:24px 10px;">
+
+        <!--[if mso]>
+        <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+        <tr><td>
+        <![endif]-->
+
+        <!-- Email container -->
+        <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center"
+               style="max-width:600px; width:100%; background-color:#ffffff; font-family:Arial,sans-serif; color:#101b24;">
+
+          <!-- ======================================================
+               HEADER
+               ====================================================== -->
+          <tr>
+            <td class="pad-hz" style="padding:22px 32px 20px; border-bottom:1px solid #e6e6e6;">
+              <a href="https://www.interiordefine.com/" style="text-decoration:none;">
+                <p style="margin:0; font-family:Arial,sans-serif; font-size:12px; font-weight:700; letter-spacing:4px; color:#101b24; text-transform:uppercase; mso-line-height-rule:exactly; line-height:16px;">INTERIOR DEFINE</p>
+              </a>
+            </td>
+          </tr>
+
+          <!-- ======================================================
+               HERO — collection-conditional copy
+               ====================================================== -->
+          <tr>
+            <td class="pad-hz" style="padding:32px 32px 28px; border-bottom:1px solid #e6e6e6;">
+
+              {% if col == "SLON" %}
+              <p style="margin:0 0 10px; font-family:Arial,sans-serif; font-size:10px; font-weight:700; letter-spacing:2.5px; color:#999999; text-transform:uppercase; mso-line-height-rule:exactly; line-height:14px;">THE SLOAN COLLECTION</p>
+              <h1 style="margin:0 0 16px; font-family:Arial,sans-serif; font-size:28px; font-weight:700; line-height:1.2; color:#101b24; mso-line-height-rule:exactly;">You chose well. Now meet the rest of the family.</h1>
+              <p style="margin:0; font-family:Arial,sans-serif; font-size:14px; line-height:1.6; color:#555555; mso-line-height-rule:exactly;">The Sloan collection is built to grow with your space &#8212; every piece made to order in the same fabric, the same finish, and the same exacting detail as the sofa on its way to you.</p>
+
+              {% elsif col == "JMES" %}
+              <p style="margin:0 0 10px; font-family:Arial,sans-serif; font-size:10px; font-weight:700; letter-spacing:2.5px; color:#999999; text-transform:uppercase; mso-line-height-rule:exactly; line-height:14px;">THE JAMES COLLECTION</p>
+              <h1 style="margin:0 0 16px; font-family:Arial,sans-serif; font-size:28px; font-weight:700; line-height:1.2; color:#101b24; mso-line-height-rule:exactly;">You chose well. Now meet the rest of the family.</h1>
+              <p style="margin:0; font-family:Arial,sans-serif; font-size:14px; line-height:1.6; color:#555555; mso-line-height-rule:exactly;">The James collection is built to grow with your space &#8212; every piece made to order in the same fabric and the same exacting detail as the sofa on its way to you.</p>
+
+              {% elsif col == "MXWL" %}
+              <p style="margin:0 0 10px; font-family:Arial,sans-serif; font-size:10px; font-weight:700; letter-spacing:2.5px; color:#999999; text-transform:uppercase; mso-line-height-rule:exactly; line-height:14px;">THE MAXWELL COLLECTION</p>
+              <h1 style="margin:0 0 16px; font-family:Arial,sans-serif; font-size:28px; font-weight:700; line-height:1.2; color:#101b24; mso-line-height-rule:exactly;">You chose well. Now meet the rest of the family.</h1>
+              <p style="margin:0; font-family:Arial,sans-serif; font-size:14px; line-height:1.6; color:#555555; mso-line-height-rule:exactly;">The Maxwell collection is built to grow with your space &#8212; every piece made to order in the same fabric, the same finish, and the same exacting detail as the sofa on its way to you.</p>
+              {% endif %}
+
+            </td>
+          </tr>
+
+          <!-- ======================================================
+               PRODUCT GRID  (2×2, 50/50)
+               cellspacing="2" on #e8e8e8 bg creates the 2px gutters
+               ====================================================== -->
+          <tr>
+            <td style="padding:0; background-color:#e8e8e8; line-height:0; font-size:0;">
+
+              <table role="presentation" cellspacing="2" cellpadding="0" border="0" width="100%" bgcolor="#e8e8e8"
+                     style="background-color:#e8e8e8;">
+
+                {% if col == "SLON" %}
+                <!-- ============ SLOAN GRID ============ -->
+                <!-- Row 1: Sleeper | Leather -->
+                <tr>
+                  <!-- Slot 1: Sloan Sleeper -->
+                  <td width="50%" valign="top" bgcolor="#ffffff" style="background-color:#ffffff; vertical-align:top; line-height:normal; font-size:0;">
+                    <a href="{{ url_sleeper }}" style="display:block; line-height:0; font-size:0; text-decoration:none;" target="_blank">
+                      <img src="{{ img_sleeper }}" width="297" alt="Sloan Sleeper Sofa"
+                           style="display:block; width:100%; height:auto; background-color:#ebebeb;" />
+                    </a>
+                    <div class="cell-text" style="padding:14px 18px 20px; font-size:14px; line-height:normal;">
+                      <p style="margin:0 0 5px; font-family:Arial,sans-serif; font-size:9px; font-weight:700; letter-spacing:2px; color:#aaaaaa; text-transform:uppercase; mso-line-height-rule:exactly; line-height:13px;">SLOAN SLEEPER</p>
+                      <p style="margin:0 0 8px; font-family:Georgia,'Times New Roman',serif; font-size:14px; font-style:italic; font-weight:700; color:#101b24; mso-line-height-rule:exactly; line-height:1.3;">The room that does it all.</p>
+                      <p style="margin:0 0 12px; font-family:Arial,sans-serif; font-size:13px; line-height:1.5; color:#555555; mso-line-height-rule:exactly;">Same Sloan silhouette, queen bed inside. For the guest room that refuses to look like one.</p>
+                      <a href="{{ url_sleeper }}" style="font-family:Arial,sans-serif; font-size:13px; color:#1871D8; text-decoration:underline;" target="_blank">Shop the Sloan Sleeper &#8594;</a>
+                    </div>
+                  </td>
+
+                  <!-- Slot 2: Sloan Leather -->
+                  <td width="50%" valign="top" bgcolor="#ffffff" style="background-color:#ffffff; vertical-align:top; line-height:normal; font-size:0;">
+                    <a href="{{ url_leather }}" style="display:block; line-height:0; font-size:0; text-decoration:none;" target="_blank">
+                      <img src="{{ img_leather }}" width="297" alt="Sloan Leather Sofa"
+                           style="display:block; width:100%; height:auto; background-color:#ebebeb;" />
+                    </a>
+                    <div class="cell-text" style="padding:14px 18px 20px; font-size:14px; line-height:normal;">
+                      <p style="margin:0 0 5px; font-family:Arial,sans-serif; font-size:9px; font-weight:700; letter-spacing:2px; color:#aaaaaa; text-transform:uppercase; mso-line-height-rule:exactly; line-height:13px;">SLOAN LEATHER</p>
+                      <p style="margin:0 0 8px; font-family:Georgia,'Times New Roman',serif; font-size:14px; font-style:italic; font-weight:700; color:#101b24; mso-line-height-rule:exactly; line-height:1.3;">A different material. The same timeless lines.</p>
+                      <p style="margin:0 0 12px; font-family:Arial,sans-serif; font-size:13px; line-height:1.5; color:#555555; mso-line-height-rule:exactly;">The Sloan in leather &#8212; rich, considered, and built to last decades.</p>
+                      <a href="{{ url_leather }}" style="font-family:Arial,sans-serif; font-size:13px; color:#1871D8; text-decoration:underline;" target="_blank">Shop Sloan Leather &#8594;</a>
+                    </div>
+                  </td>
+                </tr>
+
+                <!-- Row 2: Ottoman | Chaise -->
+                <tr>
+                  <!-- Slot 3: Sloan Ottoman -->
+                  <td width="50%" valign="top" bgcolor="#ffffff" style="background-color:#ffffff; vertical-align:top; line-height:normal; font-size:0;">
+                    <a href="{{ url_ottoman }}" style="display:block; line-height:0; font-size:0; text-decoration:none;" target="_blank">
+                      <img src="{{ img_ottoman }}" width="297" alt="Sloan Ottoman"
+                           style="display:block; width:100%; height:auto; background-color:#ebebeb;" />
+                    </a>
+                    <div class="cell-text" style="padding:14px 18px 20px; font-size:14px; line-height:normal;">
+                      <p style="margin:0 0 5px; font-family:Arial,sans-serif; font-size:9px; font-weight:700; letter-spacing:2px; color:#aaaaaa; text-transform:uppercase; mso-line-height-rule:exactly; line-height:13px;">SLOAN OTTOMAN</p>
+                      <p style="margin:0 0 8px; font-family:Georgia,'Times New Roman',serif; font-size:14px; font-style:italic; font-weight:700; color:#101b24; mso-line-height-rule:exactly; line-height:1.3;">The piece that brings it together.</p>
+                      <p style="margin:0 0 12px; font-family:Arial,sans-serif; font-size:13px; line-height:1.5; color:#555555; mso-line-height-rule:exactly;">Built to match your sofa down to the fabric and finish. Use it as a footrest or an extra seat.</p>
+                      <a href="{{ url_ottoman }}" style="font-family:Arial,sans-serif; font-size:13px; color:#1871D8; text-decoration:underline;" target="_blank">Shop the Sloan Ottoman &#8594;</a>
+                    </div>
+                  </td>
+
+                  <!-- Slot 4: Sloan Chaise -->
+                  <td width="50%" valign="top" bgcolor="#ffffff" style="background-color:#ffffff; vertical-align:top; line-height:normal; font-size:0;">
+                    <a href="{{ url_chaise }}" style="display:block; line-height:0; font-size:0; text-decoration:none;" target="_blank">
+                      <img src="{{ img_chaise }}" width="297" alt="Sloan Chaise Lounge"
+                           style="display:block; width:100%; height:auto; background-color:#ebebeb;" />
+                    </a>
+                    <div class="cell-text" style="padding:14px 18px 20px; font-size:14px; line-height:normal;">
+                      <p style="margin:0 0 5px; font-family:Arial,sans-serif; font-size:9px; font-weight:700; letter-spacing:2px; color:#aaaaaa; text-transform:uppercase; mso-line-height-rule:exactly; line-height:13px;">SLOAN CHAISE</p>
+                      <p style="margin:0 0 8px; font-family:Georgia,'Times New Roman',serif; font-size:14px; font-style:italic; font-weight:700; color:#101b24; mso-line-height-rule:exactly; line-height:1.3;">More room to stretch out.</p>
+                      <p style="margin:0 0 12px; font-family:Arial,sans-serif; font-size:13px; line-height:1.5; color:#555555; mso-line-height-rule:exactly;">The Sloan chaise lounge in your fabric and finish &#8212; a longer seat for reading, lounging, or anchoring the other end of the room.</p>
+                      <a href="{{ url_chaise }}" style="font-family:Arial,sans-serif; font-size:13px; color:#1871D8; text-decoration:underline;" target="_blank">Shop the Sloan Chaise &#8594;</a>
+                    </div>
+                  </td>
+                </tr>
+
+                {% elsif col == "JMES" %}
+                <!-- ============ JAMES GRID ============ -->
+                <!-- Row 1: Sleeper | Leather -->
+                <tr>
+                  <!-- Slot 1: James Sleeper -->
+                  <td width="50%" valign="top" bgcolor="#ffffff" style="background-color:#ffffff; vertical-align:top; line-height:normal; font-size:0;">
+                    <a href="{{ url_sleeper }}" style="display:block; line-height:0; font-size:0; text-decoration:none;" target="_blank">
+                      <img src="{{ img_sleeper }}" width="297" alt="James Sleeper Sofa"
+                           style="display:block; width:100%; height:auto; background-color:#ebebeb;" />
+                    </a>
+                    <div class="cell-text" style="padding:14px 18px 20px; font-size:14px; line-height:normal;">
+                      <p style="margin:0 0 5px; font-family:Arial,sans-serif; font-size:9px; font-weight:700; letter-spacing:2px; color:#aaaaaa; text-transform:uppercase; mso-line-height-rule:exactly; line-height:13px;">JAMES SLEEPER</p>
+                      <p style="margin:0 0 8px; font-family:Georgia,'Times New Roman',serif; font-size:14px; font-style:italic; font-weight:700; color:#101b24; mso-line-height-rule:exactly; line-height:1.3;">The room that does it all.</p>
+                      <p style="margin:0 0 12px; font-family:Arial,sans-serif; font-size:13px; line-height:1.5; color:#555555; mso-line-height-rule:exactly;">Same James silhouette, queen bed inside. For the guest room that refuses to look like one.</p>
+                      <a href="{{ url_sleeper }}" style="font-family:Arial,sans-serif; font-size:13px; color:#1871D8; text-decoration:underline;" target="_blank">Shop the James Sleeper &#8594;</a>
+                    </div>
+                  </td>
+
+                  <!-- Slot 2: James Leather -->
+                  <td width="50%" valign="top" bgcolor="#ffffff" style="background-color:#ffffff; vertical-align:top; line-height:normal; font-size:0;">
+                    <a href="{{ url_leather }}" style="display:block; line-height:0; font-size:0; text-decoration:none;" target="_blank">
+                      <img src="{{ img_leather }}" width="297" alt="James Leather Sofa"
+                           style="display:block; width:100%; height:auto; background-color:#ebebeb;" />
+                    </a>
+                    <div class="cell-text" style="padding:14px 18px 20px; font-size:14px; line-height:normal;">
+                      <p style="margin:0 0 5px; font-family:Arial,sans-serif; font-size:9px; font-weight:700; letter-spacing:2px; color:#aaaaaa; text-transform:uppercase; mso-line-height-rule:exactly; line-height:13px;">JAMES LEATHER</p>
+                      <p style="margin:0 0 8px; font-family:Georgia,'Times New Roman',serif; font-size:14px; font-style:italic; font-weight:700; color:#101b24; mso-line-height-rule:exactly; line-height:1.3;">A different material. The same timeless lines.</p>
+                      <p style="margin:0 0 12px; font-family:Arial,sans-serif; font-size:13px; line-height:1.5; color:#555555; mso-line-height-rule:exactly;">The James in leather &#8212; rich, considered, and built to last decades.</p>
+                      <a href="{{ url_leather }}" style="font-family:Arial,sans-serif; font-size:13px; color:#1871D8; text-decoration:underline;" target="_blank">Shop James Leather &#8594;</a>
+                    </div>
+                  </td>
+                </tr>
+
+                <!-- Row 2: Twin Sleeper | Ottoman -->
+                <tr>
+                  <!-- Slot 3: James Twin Sleeper -->
+                  <td width="50%" valign="top" bgcolor="#ffffff" style="background-color:#ffffff; vertical-align:top; line-height:normal; font-size:0;">
+                    <a href="{{ url_sstwin }}" style="display:block; line-height:0; font-size:0; text-decoration:none;" target="_blank">
+                      <img src="{{ img_sstwin }}" width="297" alt="James Twin Sleeper"
+                           style="display:block; width:100%; height:auto; background-color:#ebebeb;" />
+                    </a>
+                    <div class="cell-text" style="padding:14px 18px 20px; font-size:14px; line-height:normal;">
+                      <p style="margin:0 0 5px; font-family:Arial,sans-serif; font-size:9px; font-weight:700; letter-spacing:2px; color:#aaaaaa; text-transform:uppercase; mso-line-height-rule:exactly; line-height:13px;">JAMES TWIN SLEEPER</p>
+                      <p style="margin:0 0 8px; font-family:Georgia,'Times New Roman',serif; font-size:14px; font-style:italic; font-weight:700; color:#101b24; mso-line-height-rule:exactly; line-height:1.3;">Your guest room, solved.</p>
+                      <p style="margin:0 0 12px; font-family:Arial,sans-serif; font-size:13px; line-height:1.5; color:#555555; mso-line-height-rule:exactly;">The James with a pull-out twin inside &#8212; for the room that needs to be two things at once. Same silhouette, made to order in your fabric.</p>
+                      <a href="{{ url_sstwin }}" style="font-family:Arial,sans-serif; font-size:13px; color:#1871D8; text-decoration:underline;" target="_blank">Shop the James Twin Sleeper &#8594;</a>
+                    </div>
+                  </td>
+
+                  <!-- Slot 4: James Ottoman -->
+                  <td width="50%" valign="top" bgcolor="#ffffff" style="background-color:#ffffff; vertical-align:top; line-height:normal; font-size:0;">
+                    <a href="{{ url_ottoman }}" style="display:block; line-height:0; font-size:0; text-decoration:none;" target="_blank">
+                      <img src="{{ img_ottoman }}" width="297" alt="James Ottoman"
+                           style="display:block; width:100%; height:auto; background-color:#ebebeb;" />
+                    </a>
+                    <div class="cell-text" style="padding:14px 18px 20px; font-size:14px; line-height:normal;">
+                      <p style="margin:0 0 5px; font-family:Arial,sans-serif; font-size:9px; font-weight:700; letter-spacing:2px; color:#aaaaaa; text-transform:uppercase; mso-line-height-rule:exactly; line-height:13px;">JAMES OTTOMAN</p>
+                      <p style="margin:0 0 8px; font-family:Georgia,'Times New Roman',serif; font-size:14px; font-style:italic; font-weight:700; color:#101b24; mso-line-height-rule:exactly; line-height:1.3;">The piece that brings it together.</p>
+                      <p style="margin:0 0 12px; font-family:Arial,sans-serif; font-size:13px; line-height:1.5; color:#555555; mso-line-height-rule:exactly;">Built to match your sofa fabric. Storage inside, style outside.</p>
+                      <a href="{{ url_ottoman }}" style="font-family:Arial,sans-serif; font-size:13px; color:#1871D8; text-decoration:underline;" target="_blank">Shop the James Ottoman &#8594;</a>
+                    </div>
+                  </td>
+                </tr>
+
+                {% elsif col == "MXWL" %}
+                <!-- ============ MAXWELL GRID ============ -->
+                <!-- Row 1: Tall | Slipcovered -->
+                <tr>
+                  <!-- Slot 1: Maxwell Tall -->
+                  <td width="50%" valign="top" bgcolor="#ffffff" style="background-color:#ffffff; vertical-align:top; line-height:normal; font-size:0;">
+                    <a href="{{ url_tall }}" style="display:block; line-height:0; font-size:0; text-decoration:none;" target="_blank">
+                      <img src="{{ img_tall }}" width="297" alt="Maxwell Tall Sofa"
+                           style="display:block; width:100%; height:auto; background-color:#ebebeb;" />
+                    </a>
+                    <div class="cell-text" style="padding:14px 18px 20px; font-size:14px; line-height:normal;">
+                      <p style="margin:0 0 5px; font-family:Arial,sans-serif; font-size:9px; font-weight:700; letter-spacing:2px; color:#aaaaaa; text-transform:uppercase; mso-line-height-rule:exactly; line-height:13px;">MAXWELL TALL</p>
+                      <p style="margin:0 0 8px; font-family:Georgia,'Times New Roman',serif; font-size:14px; font-style:italic; font-weight:700; color:#101b24; mso-line-height-rule:exactly; line-height:1.3;">A higher seat changes everything.</p>
+                      <p style="margin:0 0 12px; font-family:Arial,sans-serif; font-size:13px; line-height:1.5; color:#555555; mso-line-height-rule:exactly;">The Tall Maxwell sits at an 18&quot; seat height versus the standard 16&quot; &#8212; easier to sit down, easier to get up, and a noticeably different proportion for taller rooms or taller people.</p>
+                      <a href="{{ url_tall }}" style="font-family:Arial,sans-serif; font-size:13px; color:#1871D8; text-decoration:underline;" target="_blank">Shop the Maxwell Tall &#8594;</a>
+                    </div>
+                  </td>
+
+                  <!-- Slot 2: Maxwell Slipcovered -->
+                  <td width="50%" valign="top" bgcolor="#ffffff" style="background-color:#ffffff; vertical-align:top; line-height:normal; font-size:0;">
+                    <a href="{{ url_slpcov }}" style="display:block; line-height:0; font-size:0; text-decoration:none;" target="_blank">
+                      <img src="{{ img_slpcov }}" width="297" alt="Maxwell Slipcovered Sofa"
+                           style="display:block; width:100%; height:auto; background-color:#ebebeb;" />
+                    </a>
+                    <div class="cell-text" style="padding:14px 18px 20px; font-size:14px; line-height:normal;">
+                      <p style="margin:0 0 5px; font-family:Arial,sans-serif; font-size:9px; font-weight:700; letter-spacing:2px; color:#aaaaaa; text-transform:uppercase; mso-line-height-rule:exactly; line-height:13px;">MAXWELL SLIPCOVERED</p>
+                      <p style="margin:0 0 8px; font-family:Georgia,'Times New Roman',serif; font-size:14px; font-style:italic; font-weight:700; color:#101b24; mso-line-height-rule:exactly; line-height:1.3;">The same Maxwell. A softer look.</p>
+                      <p style="margin:0 0 12px; font-family:Arial,sans-serif; font-size:13px; line-height:1.5; color:#555555; mso-line-height-rule:exactly;">The Maxwell in a slipcover finish &#8212; a more relaxed, casual silhouette. Made to order in your fabric.</p>
+                      <a href="{{ url_slpcov }}" style="font-family:Arial,sans-serif; font-size:13px; color:#1871D8; text-decoration:underline;" target="_blank">Shop Maxwell Slipcovered &#8594;</a>
+                    </div>
+                  </td>
+                </tr>
+
+                <!-- Row 2: Leather | Ottoman -->
+                <tr>
+                  <!-- Slot 3: Maxwell Leather -->
+                  <td width="50%" valign="top" bgcolor="#ffffff" style="background-color:#ffffff; vertical-align:top; line-height:normal; font-size:0;">
+                    <a href="{{ url_leather }}" style="display:block; line-height:0; font-size:0; text-decoration:none;" target="_blank">
+                      <img src="{{ img_leather }}" width="297" alt="Maxwell Leather Sofa"
+                           style="display:block; width:100%; height:auto; background-color:#ebebeb;" />
+                    </a>
+                    <div class="cell-text" style="padding:14px 18px 20px; font-size:14px; line-height:normal;">
+                      <p style="margin:0 0 5px; font-family:Arial,sans-serif; font-size:9px; font-weight:700; letter-spacing:2px; color:#aaaaaa; text-transform:uppercase; mso-line-height-rule:exactly; line-height:13px;">MAXWELL LEATHER</p>
+                      <p style="margin:0 0 8px; font-family:Georgia,'Times New Roman',serif; font-size:14px; font-style:italic; font-weight:700; color:#101b24; mso-line-height-rule:exactly; line-height:1.3;">A different material. The same timeless lines.</p>
+                      <p style="margin:0 0 12px; font-family:Arial,sans-serif; font-size:13px; line-height:1.5; color:#555555; mso-line-height-rule:exactly;">The Maxwell in leather &#8212; rich, considered, and built to last decades.</p>
+                      <a href="{{ url_leather }}" style="font-family:Arial,sans-serif; font-size:13px; color:#1871D8; text-decoration:underline;" target="_blank">Shop Maxwell Leather &#8594;</a>
+                    </div>
+                  </td>
+
+                  <!-- Slot 4: Maxwell Ottoman -->
+                  <td width="50%" valign="top" bgcolor="#ffffff" style="background-color:#ffffff; vertical-align:top; line-height:normal; font-size:0;">
+                    <a href="{{ url_ottoman }}" style="display:block; line-height:0; font-size:0; text-decoration:none;" target="_blank">
+                      <img src="{{ img_ottoman }}" width="297" alt="Maxwell Ottoman"
+                           style="display:block; width:100%; height:auto; background-color:#ebebeb;" />
+                    </a>
+                    <div class="cell-text" style="padding:14px 18px 20px; font-size:14px; line-height:normal;">
+                      <p style="margin:0 0 5px; font-family:Arial,sans-serif; font-size:9px; font-weight:700; letter-spacing:2px; color:#aaaaaa; text-transform:uppercase; mso-line-height-rule:exactly; line-height:13px;">MAXWELL OTTOMAN</p>
+                      <p style="margin:0 0 8px; font-family:Georgia,'Times New Roman',serif; font-size:14px; font-style:italic; font-weight:700; color:#101b24; mso-line-height-rule:exactly; line-height:1.3;">The piece that brings it together.</p>
+                      <p style="margin:0 0 12px; font-family:Arial,sans-serif; font-size:13px; line-height:1.5; color:#555555; mso-line-height-rule:exactly;">Built to match your sofa down to the fabric and finish. Use it as a footrest or an extra seat.</p>
+                      <a href="{{ url_ottoman }}" style="font-family:Arial,sans-serif; font-size:13px; color:#1871D8; text-decoration:underline;" target="_blank">Shop the Maxwell Ottoman &#8594;</a>
+                    </div>
+                  </td>
+                </tr>
+                {% endif %}
+
+              </table>
+
+            </td>
+          </tr>
+
+          <!-- ======================================================
+               SEE EVERYTHING CTA BAR — collection-conditional
+               ====================================================== -->
+          <tr>
+            <td style="border-top:1px solid #e6e6e6; border-bottom:1px solid #e6e6e6; padding:0;">
+              {% if col == "SLON" %}
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                  <td style="padding:0;">
+                    <a href="https://www.interiordefine.com/sloan-collection?page=1" class="see-all-l" style="display:block; padding:17px 32px; font-family:Arial,sans-serif; font-size:15px; font-weight:400; color:#101b24; text-decoration:none; mso-line-height-rule:exactly; line-height:20px;" target="_blank">See everything Sloan</a>
+                  </td>
+                  <td style="padding:0; text-align:right; white-space:nowrap;">
+                    <a href="https://www.interiordefine.com/sloan-collection?page=1" class="see-all-r" style="display:block; padding:17px 32px 17px 0; font-family:Arial,sans-serif; font-size:15px; color:#101b24; text-decoration:none; text-align:right; mso-line-height-rule:exactly; line-height:20px;" target="_blank">&#8594;</a>
+                  </td>
+                </tr>
+              </table>
+              {% elsif col == "JMES" %}
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                  <td style="padding:0;">
+                    <a href="https://www.interiordefine.com/james-collection?page=1" class="see-all-l" style="display:block; padding:17px 32px; font-family:Arial,sans-serif; font-size:15px; font-weight:400; color:#101b24; text-decoration:none; mso-line-height-rule:exactly; line-height:20px;" target="_blank">See everything James</a>
+                  </td>
+                  <td style="padding:0; text-align:right; white-space:nowrap;">
+                    <a href="https://www.interiordefine.com/james-collection?page=1" class="see-all-r" style="display:block; padding:17px 32px 17px 0; font-family:Arial,sans-serif; font-size:15px; color:#101b24; text-decoration:none; text-align:right; mso-line-height-rule:exactly; line-height:20px;" target="_blank">&#8594;</a>
+                  </td>
+                </tr>
+              </table>
+              {% elsif col == "MXWL" %}
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                  <td style="padding:0;">
+                    <a href="https://www.interiordefine.com/maxwell-collection?page=1" class="see-all-l" style="display:block; padding:17px 32px; font-family:Arial,sans-serif; font-size:15px; font-weight:400; color:#101b24; text-decoration:none; mso-line-height-rule:exactly; line-height:20px;" target="_blank">See everything Maxwell</a>
+                  </td>
+                  <td style="padding:0; text-align:right; white-space:nowrap;">
+                    <a href="https://www.interiordefine.com/maxwell-collection?page=1" class="see-all-r" style="display:block; padding:17px 32px 17px 0; font-family:Arial,sans-serif; font-size:15px; color:#101b24; text-decoration:none; text-align:right; mso-line-height-rule:exactly; line-height:20px;" target="_blank">&#8594;</a>
+                  </td>
+                </tr>
+              </table>
+              {% endif %}
+            </td>
+          </tr>
+
+          <!-- ======================================================
+               FOOTER
+               ====================================================== -->
+          <tr>
+            <td class="pad-hz" style="padding:20px 32px 24px; text-align:center; background-color:#ffffff;">
+              <p style="margin:0; font-family:Arial,sans-serif; font-size:9px; line-height:1.7; color:#aaaaaa; mso-line-height-rule:exactly;">
+                &#169; Interior Define &bull; 3200 Cherry Creek South Drive, Suite 210, Denver, CO 80209
+              </p>
+              <p style="margin:4px 0 0; font-family:Arial,sans-serif; font-size:9px; line-height:1.7; color:#aaaaaa; mso-line-height-rule:exactly;">
+                <a href="{{${set_user_to_unsubscribed_url}}}" style="color:#aaaaaa; text-decoration:underline;">Unsubscribe</a>
+              </p>
+            </td>
+          </tr>
+
+        </table>
+        <!-- End email container -->
+
+        <!--[if mso]>
+        </td></tr>
+        </table>
+        <![endif]-->
+
+      </td>
+    </tr>
+  </table>
+
+{% endif %}
+
+</body>
+</html>

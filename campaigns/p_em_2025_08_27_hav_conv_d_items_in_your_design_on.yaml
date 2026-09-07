@@ -1,0 +1,49 @@
+id: bac47d98-5367-4c1a-8dd8-0d40de6ef522
+name: P_EM_2025_08_27_HAV_CONV_D_Items_in_Your_Design_on_Sweetner
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: bac47d98-5367-4c1a-8dd8-0d40de6ef522
+dates:
+  send_date: '2025-08-27'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-27T15:04:40+00:00'
+  last_sent: '2025-08-27T15:08:40+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 55d33d64-22ad-47af-b0d7-7b5b4317db1a
+  channel: email
+  name: Variant 1
+  subject: Your Design, Now With Extra Savings
+  preheader: But for two days only!
+  html_file: html/p_em_2025_08_27_hav_conv_d_items_in_your_design_on_sweetner.html
+  screenshot: screenshots/p_em_2025_08_27_hav_conv_d_items_in_your_design_on_sweetner.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68ae0389e2b23b00675a659c/original.gif?1756234633
+- id: 8ba62b9c-7c44-481a-9a56-5a30e4957c1c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 8747
+  total_delivered: 8737
+  total_opens: 4960
+  total_clicks: 149
+  open_rate: 0.5671
+  click_rate: 0.017
+  total_unsubscribes: 9
+  ga4:
+    sessions: 101
+    purchases: 1
+    revenue: 279.45
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:48.865748'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.789023'
+schedule_type: time_based

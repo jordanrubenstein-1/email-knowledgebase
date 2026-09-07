@@ -1,0 +1,62 @@
+id: e4394cdc-9868-4776-aa2f-01e5276d8e3e
+name: P_2024_12_1_PT_SF_PR_BFCM_Reminder_Gmail_Email
+brand: STF
+channel: email
+category: reminder
+type: announcement
+theme: black_friday
+braze_id: e4394cdc-9868-4776-aa2f-01e5276d8e3e
+dates:
+  send_date: '2024-12-01'
+  inferred_send_type: local_time
+  first_sent: '2024-11-30T18:07:50+00:00'
+  last_sent: '2024-12-01T16:00:38+00:00'
+tags: []
+sends:
+- id: 39c8d6a8-f677-46bf-ba02-cba96c6dd41d
+  channel: email
+  name: Variant 1
+  subject: 'What''s in our cart: Black Friday Event edition'
+  html_file: html/p_2024_12_1_pt_sf_pr_bfcm_reminder_gmail_email.html
+  screenshot: screenshots/p_2024_12_1_pt_sf_pr_bfcm_reminder_gmail_email.png
+- id: e7913b3c-a0ce-4b76-beae-dd302f0c4840
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 2265
+  total_delivered: 2263
+  total_opens: 1230
+  total_clicks: 35
+  open_rate: 0.543
+  click_rate: 0.0155
+  total_revenue: 4054.0
+  total_unsubscribes: 4
+  ga4:
+    sessions: 43
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.965012'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: stf-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:39.889092'
+schedule_type: time_based

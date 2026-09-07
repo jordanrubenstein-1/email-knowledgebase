@@ -1,0 +1,37 @@
+id: 919538a1-04e3-4a26-bfd3-04ef7535f3f4
+name: P_SMS_2025_12_15_Gifts _Cards
+brand: STF
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: 919538a1-04e3-4a26-bfd3-04ef7535f3f4
+dates:
+  send_date: '2025-12-15'
+  inferred_send_type: local_time
+  first_sent: '2025-12-15T01:08:40+00:00'
+  last_sent: '2025-12-15T23:03:24+00:00'
+tags: []
+sends:
+- id: fd67ce4e-2ee8-4ad0-9084-c63f3a1a9744
+  channel: sms
+  name: Variant 1
+- id: 6172f20a-aeda-4ebb-a857-fc7d49a40c3f
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 4260
+  total_delivered: 4196
+  total_opens: 0
+  total_clicks: 41
+  open_rate: 0.0
+  click_rate: 0.0096
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.082725'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

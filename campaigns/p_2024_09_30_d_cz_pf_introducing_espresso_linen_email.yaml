@@ -1,0 +1,42 @@
+id: 8fa57557-91b9-4828-b3f5-831b6b113910
+name: P_2024_09_30_D_CZ_PF_Introducing_Espresso_Linen_Email
+brand: CZ
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 8fa57557-91b9-4828-b3f5-831b6b113910
+dates:
+  send_date: '2024-09-30'
+  inferred_send_type: local_time
+  first_sent: '2024-09-29T17:00:02+00:00'
+  last_sent: '2024-09-30T17:00:00+00:00'
+tags: []
+sends:
+- id: ad4eea11-7482-4ec5-bfe7-eb26143d19fb
+  channel: email
+  name: Variant 1
+  subject: Meet Our Newest Linen Color
+  preheader: Introducing our newest bedding hue, warm and cozy for the season.
+  html_file: html/p_2024_09_30_d_cz_pf_introducing_espresso_linen_email.html
+  screenshot: screenshots/p_2024_09_30_d_cz_pf_introducing_espresso_linen_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66f57b81bce30d0072acad5c/original.jpg?1727363968
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66f57b98dc29670064fb6c29/original.jpg?1727363991
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66f57bad9b2266007323c844/original.jpg?1727364013
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66f57b6c9b2266006423cbf6/original.jpg?1727363948
+- id: c0596db2-cd12-49ef-b1c4-3c3dffae0f9a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 78829
+  total_delivered: 78036
+  total_opens: 42637
+  total_clicks: 638
+  open_rate: 0.5409
+  click_rate: 0.0081
+  total_revenue: 91011.08
+  total_bounces: 11
+  total_unsubscribes: 137
+_filename: p_2024_09_30_d_cz_pf_introducing_espresso_linen_email.yaml
+schedule_type: time_based

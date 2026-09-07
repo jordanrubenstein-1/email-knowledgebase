@@ -1,0 +1,46 @@
+id: 12b21305-4a34-4972-9d60-be4675ef3cfc
+name: P_2024_11_3_ID_Loungeworthy_Silhouettes_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 12b21305-4a34-4972-9d60-be4675ef3cfc
+dates:
+  send_date: '2024-11-03'
+  inferred_send_type: local_time
+  first_sent: '2024-11-03T01:49:21+00:00'
+  last_sent: '2024-11-03T17:15:05+00:00'
+tags: []
+sends:
+- id: 91f617e1-4f38-44b2-9caf-54631d00d50d
+  channel: email
+  name: Variant 1
+  subject: 'Now Trending: Cozy Sundays'
+  preheader: Lounge-worthy pieces we can’t get enough of.
+- id: 2ccf5134-5f65-4a77-9819-77ea29557374
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 61258
+  total_delivered: 60832
+  total_opens: 22019
+  total_clicks: 531
+  open_rate: 0.3594
+  click_rate: 0.0087
+  total_revenue: 112417.5
+  total_bounces: 1
+  total_unsubscribes: 96
+  ga4:
+    sessions: 716
+    purchases: 1
+    revenue: 3269.93
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.905828'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.561817'
+schedule_type: time_based

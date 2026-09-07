@@ -1,0 +1,59 @@
+id: 5ad56e9c-1535-4ba2-bf89-4f07e93d8401
+name: P_EM_2025_07_13_CZ_D_PR_Color_Edit_Sunbaked_Terracotta
+brand: CZ
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 5ad56e9c-1535-4ba2-bf89-4f07e93d8401
+dates:
+  send_date: '2025-07-13'
+  inferred_send_type: local_time
+  first_sent: '2025-07-12T22:05:16+00:00'
+  last_sent: '2025-07-13T21:01:30+00:00'
+tags:
+- am
+- batch and blast
+- color
+- d2c
+- designed
+sends:
+- id: a6c8c714-1559-4b2e-8fce-e31ae68b44a8
+  channel: email
+  name: Variant 1
+  subject: The Color of the Season
+  preheader: A warm, earthy hue that adds a natural richness.
+  html_file: html/p_em_2025_07_13_cz_d_pr_color_edit_sunbaked_terracotta.html
+  screenshot: screenshots/p_em_2025_07_13_cz_d_pr_color_edit_sunbaked_terracotta.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6871875f49dee70065c3d7c0/original.png?1752270686
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6871869d4a361100662fc5c1/original.png?1752270492
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687186b049dee70065c3d51d/original.png?1752270511
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687187a1c7894800766571c3/original.png?1752270752
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68718785ad69ce0065c5481b/original.png?1752270725
+- id: 7a296aa0-44d6-475d-a882-0a185f6b3e33
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 100079
+  total_delivered: 99517
+  total_opens: 53109
+  total_clicks: 941
+  open_rate: 0.5307
+  click_rate: 0.0094
+  total_revenue: 56821.54
+  total_bounces: 2
+  total_unsubscribes: 147
+  ga4:
+    sessions: 1140
+    purchases: 3
+    revenue: 1246.12
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.564833'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.325887'
+schedule_type: time_based

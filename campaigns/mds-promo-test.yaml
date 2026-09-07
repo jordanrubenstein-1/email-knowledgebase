@@ -1,0 +1,49 @@
+id: 78fa1aeb-ff4d-40d8-882a-5ff5778c8900
+name: MDS Promo test
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 78fa1aeb-ff4d-40d8-882a-5ff5778c8900
+braze_type: canvas
+campaign_type: Triggered Journey
+dates: {}
+tags: []
+sends: []
+performance_summary: {}
+canvas_steps:
+- id: 4f7f5fdc-f7a7-4000-a45e-23f925d39cf0
+  name: Step 1
+  type: audience_paths
+- id: 031c7d57-a024-4b49-a031-f5e82c89f654
+  name: Step 10
+  type: message
+- id: 043ea1d5-3878-4101-84d5-3c72b4d2d8b4
+  name: Step 5
+  type: message
+- id: ae858d6c-ae15-4e92-85b5-724a41bc4c18
+  name: Step 2
+  type: message
+- id: 9666ee8c-2e7b-4172-9611-7dc2c4a21b1e
+  name: Step 3
+  type: delay
+- id: 1302ae29-4813-4c02-9893-0ad52c5c9381
+  name: Step 4
+  type: delay
+- id: 5fd0659c-e060-427a-8278-9ae2c04873a7
+  name: Step 6
+  type: delay
+- id: 0ca1d049-d61c-4e13-a56e-96233a05e227
+  name: Step
+  type: audience_paths
+- id: 20b916e5-7f4c-403a-9118-2d86557fadc5
+  name: Step 8
+  type: delay
+- id: 4c61a6a5-3e55-405f-84aa-ac4889d93b00
+  name: Step 7
+  type: delay
+- id: 391f98e5-3427-4a49-a860-b07a97d61258
+  name: Step 9
+  type: delay
+_filename: mds-promo-test.yaml

@@ -1,0 +1,29 @@
+id: d14cf1d6-2b88-4ff0-9706-e35bad4dbd86
+name: P_SMS_2026_05_19_BW_Memorial_Day_Sale_Mid-Sale
+brand: BUR
+channel: sms
+category: sale_promo
+type: sale
+theme: null
+braze_id: d14cf1d6-2b88-4ff0-9706-e35bad4dbd86
+dates:
+  send_date: '2026-05-19'
+  last_sent: '2026-05-19'
+tags: []
+sends:
+- id: d1e2c9b0-9955-4718-894f-fbdbaf61bacd
+  channel: sms
+  name: Variant 1
+- id: df5790d5-d58b-48a4-a339-1571be53625c
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 9619
+  total_delivered: 9192
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 25569.0
+_filename: p_sms_2026_05_19_bw_memorial_day_sale_mid-sale.yaml
+schedule_type: time_based

@@ -1,0 +1,59 @@
+id: 9dab5b77-815e-41b6-9d9f-2c9381501695
+name: P_2025_03_14_D_CZ_Spring_Event_Launch
+brand: CZ
+channel: email
+category: product_launch
+type: seasonal
+theme: spring
+braze_id: 9dab5b77-815e-41b6-9d9f-2c9381501695
+dates:
+  send_date: '2025-03-14'
+  inferred_send_type: scheduled
+  first_sent: '2025-03-14T05:35:16+00:00'
+  last_sent: '2025-03-14T17:02:12+00:00'
+tags: []
+sends:
+- id: 2398d3b9-ba1a-4a72-a95f-995e63f2eecf
+  channel: email
+  name: Variant 1
+  subject: Spring Into SALE!
+  preheader: Get up to 30% off during our Spring Event.
+  html_file: html/p_2025_03_14_d_cz_spring_event_launch.html
+  screenshot: screenshots/p_2025_03_14_d_cz_spring_event_launch.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0d21872d82d0068a9187d/original.png?1741738520
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0da796380bd0064fa96f6/original.png?1741740664
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d30342903ad600661de33c/original.png?1741882177
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d17243239b9d0067587eaa/original.png?1741779522
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d171c98344b10075c378d1/original.png?1741779400
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d3035096fce90076a0d5d0/original.png?1741882191
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d171bb33f3fb00664de902/original.png?1741779386
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0d6b83f7a830067be4efd/original.png?1741739704
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0da698bd1170075ffaeb3/original.png?1741740649
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0d6e48bd1170066ffe255/original.png?1741739748
+- id: b0e213c7-db7b-4419-ab01-ecc3a64232aa
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 91085
+  total_delivered: 90312
+  total_opens: 47557
+  total_clicks: 908
+  open_rate: 0.5221
+  click_rate: 0.01
+  total_revenue: 78906.47
+  total_bounces: 2
+  total_unsubscribes: 106
+  ga4:
+    sessions: 1627
+    purchases: 22
+    revenue: 9071.9
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.013708'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.803615'
+schedule_type: time_based

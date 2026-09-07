@@ -1,0 +1,70 @@
+id: 854adecb-ab18-4f30-85eb-4a8e9de3cac0
+name: P_EM_2025_08_21_CZ_PT_Dallas_Event_Reminder
+brand: CZ
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 854adecb-ab18-4f30-85eb-4a8e9de3cac0
+dates:
+  send_date: '2025-08-21'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-21T22:44:20+00:00'
+  last_sent: '2025-08-21T22:47:43+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- pt
+- sale
+- sale_feat
+sends:
+- id: 6f846bd7-4bdc-4d58-9ef1-b82eb9433fe2
+  channel: email
+  name: Variant 1
+  subject: 'Today is the day: FREE embroidery!'
+  preheader: See you there, Dallas.
+  html_file: html/p_em_2025_08_21_cz_pt_dallas_event_reminder.html
+  screenshot: screenshots/p_em_2025_08_21_cz_pt_dallas_event_reminder.png
+- id: 4fa9c3df-33a2-4302-b44f-0af3447f3759
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 3380
+  total_delivered: 3295
+  total_opens: 1999
+  total_clicks: 55
+  open_rate: 0.5914
+  click_rate: 0.0163
+  total_revenue: 63.2
+  total_bounces: 26
+  total_unsubscribes: 77
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.806955'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-02'
+    discount: 20% off Sitewide
+    type: null
+  primary_sale:
+    id: cz-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-02'
+    discount: 20% off Sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 20% off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:35.175662'
+schedule_type: time_based

@@ -1,0 +1,36 @@
+id: d608069f-ca24-4dee-802d-8c52e0f1c79a
+name: P_EM_2026_05_17_BW_D_Sleepers_Summer_Guest_Prep
+brand: BUR
+channel: email
+category: other
+type: seasonal
+theme: summer
+braze_id: d608069f-ca24-4dee-802d-8c52e0f1c79a
+dates:
+  send_date: '2026-05-17'
+  inferred_send_type: sto
+  first_sent: '2026-05-16T11:06:51+00:00'
+  last_sent: '2026-05-18T09:46:02+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 5de2f752-63ad-442c-9098-bdc06a48a46e
+  channel: email
+  name: Variant 1
+  subject: Summer guests are coming
+  preheader: Sleeper sofas are 35% off during our Memorial Day Sale.
+- id: 433fee97-9915-4b05-8954-ec400bf08617
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 162332
+  total_delivered: 161354
+  total_opens: 87501
+  total_clicks: 298
+  open_rate: 0.539
+  click_rate: 0.0018
+  total_revenue: 57485.0
+  total_bounces: 2
+  total_unsubscribes: 174
+_filename: p_em_2026_05_17_bw_d_sleepers_summer_guest_prep.yaml
+schedule_type: time_based

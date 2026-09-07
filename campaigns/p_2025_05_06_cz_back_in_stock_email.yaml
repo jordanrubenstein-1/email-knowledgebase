@@ -1,0 +1,52 @@
+id: 0ed782a8-1b44-4c0a-b1f0-cbee0fcc8a42
+name: P_2025_05_06_CZ_Back_In_Stock_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 0ed782a8-1b44-4c0a-b1f0-cbee0fcc8a42
+dates:
+  send_date: '2025-05-06'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-06T06:48:34+00:00'
+  last_sent: '2025-05-06T17:02:23+00:00'
+tags: []
+sends:
+- id: 2e4c8667-92f7-4ef3-92da-708398de8c3f
+  channel: email
+  name: Variant 1
+  subject: So Glad You're Back
+  preheader: Shop these just-restocked favorites while you still can.
+  html_file: html/p_2025_05_06_cz_back_in_stock_email.html
+  screenshot: screenshots/p_2025_05_06_cz_back_in_stock_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6818c96e18ed4100669c9be8/original.png?1746454893
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6818c96436fad4008368e70f/original.png?1746454883
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6818c97dfbf58b0075902617/original.png?1746454908
+- id: 7ebd078e-970b-4683-851c-9aa1c5d8e2b2
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 95228
+  total_delivered: 94763
+  total_opens: 48935
+  total_clicks: 930
+  open_rate: 0.5139
+  click_rate: 0.0098
+  total_revenue: 44906.11
+  total_bounces: 3
+  total_unsubscribes: 149
+  ga4:
+    sessions: 1330
+    purchases: 10
+    revenue: 3508.48
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.452757'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.642056'
+schedule_type: time_based

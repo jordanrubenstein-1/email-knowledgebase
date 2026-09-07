@@ -1,0 +1,37 @@
+id: 4f6ff98c-763c-4a09-9f2b-5ce85719aa9a
+name: P_2025_1_26_D_SF_LA_Fire_Relief_Email
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 4f6ff98c-763c-4a09-9f2b-5ce85719aa9a
+dates:
+  send_date: '2025-01-26'
+  inferred_send_type: local_time
+  first_sent: '2025-01-25T17:06:38+00:00'
+  last_sent: '2025-01-26T17:00:15+00:00'
+tags: []
+sends:
+- id: f6f16c89-dfa7-4e72-8fd2-72e8edaa83c9
+  channel: email
+  name: Variant 1
+  subject: 'Project Comfort: we stand with LA'
+  preheader: Sign up today for free furnishings and design support
+- id: ebf52661-e7d4-49ae-801f-8d1cfb1a93f6
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.079952'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.608862'
+schedule_type: time_based

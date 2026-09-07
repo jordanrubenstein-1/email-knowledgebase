@@ -1,0 +1,34 @@
+id: 70bfc020-8001-415b-92a4-4ab5b16920d4
+name: P_EM_2026_08_07_ID_PT_PM_MA_Tax_Free_Updated
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 70bfc020-8001-415b-92a4-4ab5b16920d4
+dates:
+  send_date: '2026-08-07'
+  first_sent: '2026-08-08T14:00:25+00:00'
+  last_sent: '2026-08-08T14:07:07+00:00'
+  inferred_send_type: scheduled
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 26e366b0-e3ba-4d76-8dfa-d17c52381f5b
+  channel: email
+  name: Variant 1
+  subject: Hey Boston, it's tax-free weekend
+- id: 0a5d03b2-076e-43b8-8728-ce98a9e222c1
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 4007
+  total_delivered: 4048
+  total_opens: 1767
+  total_clicks: 27
+  open_rate: 0.441
+  click_rate: 0.0067
+  total_revenue: 47802.99
+  total_unsubscribes: 4
+schedule_type: time_based
+_filename: p_em_2026_08_07_id_pt_pm_ma_tax_free_updated.yaml

@@ -1,0 +1,74 @@
+id: 94940b91-b8ef-4dd9-ae9f-25a825b71941
+name: 2025_04_20_BW_Birthday_Bestsellers_PM
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 94940b91-b8ef-4dd9-ae9f-25a825b71941
+dates:
+  send_date: '2025-04-20'
+  inferred_send_type: local_time
+  first_sent: '2025-04-20T03:07:42+00:00'
+  last_sent: '2025-04-21T02:01:29+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: e0cbc78e-0e4a-495e-94bb-01dbef45c91e
+  channel: email
+  name: Variant 1
+  subject: Save up to 25% and get free shipping on our birthday.
+  preheader: Our gift to you.
+- id: f91c1b3c-37cc-40d1-93c6-4e185fb334bd
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 261729
+  total_delivered: 260113
+  total_opens: 88441
+  total_clicks: 603
+  open_rate: 0.3379
+  click_rate: 0.0023
+  total_revenue: 70142.0
+  total_unsubscribes: 81
+  ga4:
+    sessions: 286
+    purchases: 1
+    revenue: 307.6
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.852295'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:35.140144'
+schedule_type: time_based

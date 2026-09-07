@@ -1,0 +1,62 @@
+id: def309d0-346a-417f-a567-7596f668376c
+name: Labor Day - Email & Phone Capture Modal
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: def309d0-346a-417f-a567-7596f668376c
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-08-19T21:00:00+00:00'
+  last_sent: '2025-08-25T19:00:00+00:00'
+tags: []
+sends:
+- id: 27f9b565-b0b6-4d5c-b51d-431c62275d56
+  channel: other
+  name: Variant 1
+- id: 75cddcf4-a24b-4466-b107-bf217cb91459
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.378267'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:41.036975'
+schedule_type: action_based

@@ -1,0 +1,50 @@
+id: f943977d-fe32-4d05-a38c-86accb28bd01
+name: P_EM_2026_03_13_HAV_CONV_D_Spring_2026_Color_Trends
+brand: HAV
+channel: email
+category: editorial
+type: seasonal
+theme: spring
+braze_id: f943977d-fe32-4d05-a38c-86accb28bd01
+dates:
+  send_date: '2026-03-13'
+  inferred_send_type: local_time
+  first_sent: '2026-03-13T00:08:46+00:00'
+  last_sent: '2026-03-14T00:04:00+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: da0c7477-efc9-4017-b7b3-ff4f910b666c
+  channel: email
+  name: Variant 1
+  subject: Spring Color Mood
+  preheader: Save on your room refresh
+  html_file: html/p_em_2026_03_13_hav_conv_d_spring_2026_color_trends.html
+  screenshot: screenshots/p_em_2026_03_13_hav_conv_d_spring_2026_color_trends.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b1912e118e7c0063c03a4d/original.png?1773244717
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b191051c93cb00631cb349/original.png?1773244676
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b191211d02c200638078ac/original.png?1773244704
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b191125522ba0063f99ead/original.png?1773244689
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b190dd51a2300063a11686/original.png?1773244637
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b19139b4273100638fa039/original.png?1773244729
+- id: 9c1959b8-9efa-4969-91d8-e3bed7295e9e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 43252
+  total_delivered: 43229
+  total_opens: 21624
+  total_clicks: 122
+  open_rate: 0.5
+  click_rate: 0.0028
+  total_unsubscribes: 35
+  ga4:
+    sessions: 105
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.287580'
+    source: snowflake
+    channel: email
+schedule_type: time_based

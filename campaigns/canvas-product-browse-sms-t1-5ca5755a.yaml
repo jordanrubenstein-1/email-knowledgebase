@@ -1,0 +1,36 @@
+id: 5ca5755a-bf01-4d6b-a320-53023c32ee0a
+name: TRG_SMS_2025_07_SF_PBA_New_Customer_Promo_T1_V1
+brand: STF
+channel: sms
+category: product_launch
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 712708ef-db98-4f34-9917-ee2e004ac1e1
+canvas_name: Product Browse
+flow_type: browse_abandonment
+sequence_position: 1
+body: 'St. Frank: You have great taste! We noticed you eyeing something on our site
+  and don''t want you to miss out. Shop your favorites now before they''re gone.
+
+
+  Use code FIRSTTIME for 10% off orders of $150+ (exclusions apply): https://www.stfrank.com?utm_source=braze_sf&utm_medium=sms&utm_campaign={{campaign.${name}}}'
+sends:
+- id: 5ca5755a-bf01-4d6b-a320-53023c32ee0a
+  channel: sms
+  name: TRG_SMS_2025_07_SF_PBA_New_Customer_Promo_T1_V1
+  body: 'St. Frank: You have great taste! We noticed you eyeing something on our site
+    and don''t want you to miss out. Shop your favorites now before they''re gone.
+
+
+    Use code FIRSTTIME for 10% off orders of $150+ (exclusions apply): https://www.stfrank.com?utm_source=braze_sf&utm_medium=sms&utm_campaign={{campaign.${name}}}'
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-07-21T00:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 611
+  total_delivered: 603
+  total_clicks: 11
+  click_rate: 0.018
+  total_unsubscribes: 8
+  total_bounces: 1

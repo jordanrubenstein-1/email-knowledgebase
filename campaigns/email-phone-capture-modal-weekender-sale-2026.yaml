@@ -1,0 +1,23 @@
+id: 8c9278e3-0957-4cee-9ae0-bfb59bdd0464
+name: Email & Phone Capture Modal - Weekender Sale 2026
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 8c9278e3-0957-4cee-9ae0-bfb59bdd0464
+dates:
+  first_sent: '2026-06-05T06:00:00+00:00'
+  last_sent: '2026-06-05T16:00:00+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: c24cfdbc-6f1e-4415-ab12-30c7c34d7ea3
+  channel: other
+  name: Control Group
+- id: 8ac37a79-ee3b-4b08-b9b1-db623014c6df
+  channel: other
+  name: Variant 1
+performance_summary: {}
+schedule_type: action_based
+_filename: email-phone-capture-modal-weekender-sale-2026.yaml

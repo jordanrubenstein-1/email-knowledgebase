@@ -1,0 +1,30 @@
+id: 99b31f5b-dd3c-41c7-a50a-baf958c489b9
+name: P_SMS_2026_02_06_BW_Presidents_Day_EA
+brand: BUR
+channel: sms
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 99b31f5b-dd3c-41c7-a50a-baf958c489b9
+dates:
+  send_date: '2026-02-06'
+  inferred_send_type: local_time
+  first_sent: '2026-02-06T00:24:04+00:00'
+  last_sent: '2026-02-07T00:02:24+00:00'
+tags: []
+sends:
+- id: a9c9bc9b-cb12-4c4a-a60c-e0bbebd6b4d7
+  channel: sms
+  name: Variant 1
+- id: 4c1cc6cc-4839-478b-bfa7-d6bb31f36b24
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 6668
+  total_delivered: 6560
+  total_opens: 0
+  total_clicks: 286
+  open_rate: 0.0
+  click_rate: 0.0429
+  total_revenue: 21288.0
+schedule_type: time_based

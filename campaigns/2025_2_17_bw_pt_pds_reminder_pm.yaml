@@ -1,0 +1,75 @@
+id: b9f54045-929a-4f5d-b31e-9c853c3c34f3
+name: 2025_2_17_BW_PT_PDS_Reminder_PM
+brand: BUR
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: b9f54045-929a-4f5d-b31e-9c853c3c34f3
+dates:
+  send_date: '2025-02-17'
+  inferred_send_type: local_time
+  first_sent: '2025-02-17T03:08:53+00:00'
+  last_sent: '2025-02-18T03:00:37+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 538614fe-ed92-4191-80ce-0bbc9c39c60b
+  channel: email
+  name: Variant 1
+  subject: Save up to 25% sitewide
+  preheader: Deals to make the holiday just a little sweeter.
+- id: 03aefc7e-b02b-454e-94f1-a81c54283493
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 266692
+  total_delivered: 265190
+  total_opens: 145310
+  total_clicks: 556
+  open_rate: 0.5449
+  click_rate: 0.0021
+  total_revenue: 82515.0
+  total_bounces: 2
+  total_unsubscribes: 248
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.597647'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:43.524000'
+schedule_type: time_based

@@ -1,0 +1,74 @@
+id: 7f095de4-ad18-40e8-8388-01cd18271f6b
+name: P_EM_2025_08_29_BW_PT_Labor_Day_Event_Store_Soho
+brand: BUR
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 7f095de4-ad18-40e8-8388-01cd18271f6b
+dates:
+  send_date: '2025-08-29'
+  inferred_send_type: local_time
+  first_sent: '2025-08-29T05:31:16+00:00'
+  last_sent: '2025-08-29T23:01:30+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 62135ef6-bae6-438e-84ba-a58a4aff854a
+  channel: email
+  name: Variant 1
+  subject: SoHo, don’t miss our Labor Day Sale!
+  preheader: Stop by for savings all weekend long.
+- id: a0288c8c-0cc3-4484-9c35-69722eced00e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 8413
+  total_delivered: 8259
+  total_opens: 1820
+  total_clicks: 14
+  open_rate: 0.2163
+  click_rate: 0.0017
+  total_bounces: 1
+  total_unsubscribes: 13
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.715739'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:33.275423'
+schedule_type: time_based

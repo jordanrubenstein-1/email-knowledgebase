@@ -1,0 +1,59 @@
+id: 220c6130-5ca6-46a5-9d5e-869c4e10c5e5
+name: P_2024_09_05_D_SF_PF_Ombré_Lumbars_Bedding_Combinations_Email
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 220c6130-5ca6-46a5-9d5e-869c4e10c5e5
+dates:
+  send_date: '2024-09-05'
+  inferred_send_type: scheduled
+  first_sent: '2024-09-04T23:07:25+00:00'
+  last_sent: '2024-09-05T14:00:34+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: 4f99cce7-1ac6-43b1-a1fc-fc13fc7fb772
+  channel: email
+  name: Variant 1
+  subject: Styling our NEW ombré lumbars
+  preheader: complete your bedroom look with 20% off
+  html_file: html/p_2024_09_05_d_sf_pf_ombré_lumbars_bedding_combinations_emai.html
+  screenshot: screenshots/p_2024_09_05_d_sf_pf_ombré_lumbars_bedding_combinations_emai.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d86f268d29290072626672/original.gif?1725460262
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d86fee015e980064f1575a/original.gif?1725460462
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d86f2661c365006422771c/original.jpg?1725460262
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0058f1ba77/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d86fee9600fd0080714daf/original.gif?1725460462
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d86f2619c6f000724568ff/original.gif?1725460262
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d86f250ff4280082e94cc3/original.gif?1725460261
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d86f258d29290072626671/original.gif?1725460261
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0063f11fb6/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d8705761c36500732277cd/original.gif?1725460567
+- id: 3ff45c22-0963-4507-aa9a-442ef2865a46
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 7718
+  total_delivered: 7594
+  total_opens: 2983
+  total_clicks: 341
+  open_rate: 0.3865
+  click_rate: 0.0442
+  total_revenue: 2089.5
+  total_unsubscribes: 14
+  ga4:
+    sessions: 60
+    purchases: 1
+    revenue: 419.89
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.786656'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.108548'
+schedule_type: time_based

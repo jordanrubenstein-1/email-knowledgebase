@@ -1,0 +1,46 @@
+id: 37ec295d-68c2-43a2-afe2-87e552abac65
+name: P_2025_06_27_ID_PT_PM_Sip_Sit_Reminder_Email
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 37ec295d-68c2-43a2-afe2-87e552abac65
+dates:
+  send_date: '2025-06-27'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-27T21:43:50+00:00'
+  last_sent: '2025-06-27T21:44:10+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 4adffa40-a717-4d8a-ab76-81027a69b60e
+  channel: email
+  name: Variant 1
+  subject: Champagne, shopping, and up to 25% off! Stop by your local Interior Define
+    this weekend.
+- id: bf19ea41-fd60-47ac-ae2c-339dbd0bf058
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 6235
+  total_delivered: 6174
+  total_opens: 5135
+  total_clicks: 18
+  open_rate: 0.8236
+  click_rate: 0.0029
+  total_bounces: 2
+  total_unsubscribes: 10
+  ga4:
+    sessions: 13
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.441456'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:35.208108'
+schedule_type: time_based

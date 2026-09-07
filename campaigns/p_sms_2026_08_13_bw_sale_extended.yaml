@@ -1,0 +1,31 @@
+id: 03100267-c617-4042-8ddb-97dd42d2ceb1
+name: P_SMS_2026_08_13_BW_Sale_Extended
+brand: BUR
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: 03100267-c617-4042-8ddb-97dd42d2ceb1
+dates:
+  send_date: '2026-08-13'
+  first_sent: '2026-08-13T02:06:00+00:00'
+  last_sent: '2026-08-14T01:02:31+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: b999a472-2d33-4fd6-97a1-fcd5c58fe90b
+  channel: sms
+  name: Variant 1
+- id: 0e9dec3e-4237-4185-ae3f-d25cb66d1b0d
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 12216
+  total_delivered: 11512
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 5320.0
+schedule_type: time_based
+_filename: p_sms_2026_08_13_bw_sale_extended.yaml

@@ -1,0 +1,61 @@
+id: e659c7be-f0dd-4805-8d70-bca80379f170
+name: P_EM_2025_09_25_TI_TRADE_The_Insider_Report
+brand: TI
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: e659c7be-f0dd-4805-8d70-bca80379f170
+dates:
+  send_date: '2025-09-25'
+  inferred_send_type: local_time
+  first_sent: '2025-09-24T20:09:11+00:00'
+  last_sent: '2025-09-25T19:00:22+00:00'
+tags: []
+sends:
+- id: 249b8010-d136-40c2-99cf-9c3e7a52c1eb
+  channel: email
+  name: Variant 1
+  subject: The Inside(r) Report
+  preheader: This season’s must-see styles.
+- id: da573f06-855e-4112-be76-e62d1ee400cc
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 19961
+  total_delivered: 19376
+  total_opens: 9796
+  total_clicks: 96
+  open_rate: 0.4908
+  click_rate: 0.0048
+  total_revenue: 73453.75
+  total_bounces: 7
+  total_unsubscribes: 51
+  ga4:
+    sessions: 108
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T14:56:52.943629'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: ti-the-fall-refresh-2025-09-18
+    name: The Fall Refresh
+    start_date: '2025-09-18'
+    end_date: '2025-09-30'
+    discount: 20% off Sitewide
+    type: null
+  primary_sale:
+    id: ti-the-fall-refresh-2025-09-18
+    name: The Fall Refresh
+    start_date: '2025-09-18'
+    end_date: '2025-09-30'
+    discount: 20% off Sitewide
+    type: null
+  sale_name: The Fall Refresh
+  sale_discount: 20% off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-03-12T11:18:48.872414'

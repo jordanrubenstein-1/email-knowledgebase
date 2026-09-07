@@ -1,0 +1,51 @@
+id: 0f82f9a8-e250-49d5-aeff-498ccf0b793a
+name: 072024_SF_B_Adventurous_Art_Email
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 0f82f9a8-e250-49d5-aeff-498ccf0b793a
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2024-07-20T13:15:00+00:00'
+  last_sent: '2024-07-20T13:17:55+00:00'
+tags:
+- Batch and Blast
+- Batch and Blast/non-promo
+sends:
+- id: 0e7ddb5a-a1c3-46c0-ae56-358cebece467
+  channel: email
+  name: Variant 1
+  subject: Off The Wall
+  preheader: adventurous art awaits
+  html_file: html/072024_sf_b_adventurous_art_email.html
+  screenshot: screenshots/072024_sf_b_adventurous_art_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669ac49c209509005ae1f38b/original.jpg?1721418908
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0058f1ba77/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669ae17bb2488e005a60a80b/original.jpg?1721426299
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669ae3ad681c60005a34e589/original.jpg?1721426861
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669ae3d354b5f3005a494ed7/original.jpg?1721426899
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669ae3c554b5f3005a494ed6/original.jpg?1721426884
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669ac4d7d21a0700597bd7c3/original.jpg?1721418967
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0063f11fb6/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669ac4c7d21a0700647b784f/original.jpg?1721418951
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669ae238d21a0700597c8a3d/original.jpg?1721426488
+- id: 798ba26b-c6a5-4fab-a13d-8641c311350f
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 8
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.903944'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.841014'
+schedule_type: time_based

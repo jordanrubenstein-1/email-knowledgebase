@@ -1,0 +1,38 @@
+id: 06b5a999-644f-445b-b3bf-724308ee4ab3
+name: P_2025_4_26_CZ_Soho_GWP_SMS
+brand: CZ
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: 06b5a999-644f-445b-b3bf-724308ee4ab3
+dates:
+  send_date: '2025-04-26'
+  inferred_send_type: local_time
+  first_sent: '2025-04-25T22:20:12+00:00'
+  last_sent: '2025-04-26T18:15:05+00:00'
+tags: []
+sends:
+- id: 9b800fe6-26f4-471e-ac4a-51faa55d050c
+  channel: other
+  name: Variant 1
+- id: 6f5ad004-294c-4427-b745-1007046ee6c4
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 311
+  total_delivered: 310
+  total_opens: 0
+  total_clicks: 10
+  open_rate: 0.0
+  click_rate: 0.0322
+  total_revenue: 458.0
+  ga4:
+    sessions: 5
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.441454'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

@@ -1,0 +1,59 @@
+id: 9fb962ba-2213-4d62-b5e6-ad875265b64c
+name: P_EM_2026_02_10_SF_D_PF_Outdoor_Pillows
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 9fb962ba-2213-4d62-b5e6-ad875265b64c
+dates:
+  send_date: '2026-02-10'
+  inferred_send_type: local_time
+  first_sent: '2026-02-09T23:08:11+00:00'
+  last_sent: '2026-02-10T23:00:36+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: e4799129-e137-47d9-90ef-e55c5abd91a4
+  channel: email
+  name: Variant 1
+  subject: The season ahead, in full color ☀️
+  preheader: stock up for warmer days.
+  html_file: html/p_em_2026_02_10_sf_d_pf_outdoor_pillows.html
+  screenshot: screenshots/p_em_2026_02_10_sf_d_pf_outdoor_pillows.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698a28c8c1d5190064498164/original.jpg?1770662088
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698a287d433aa000741a036e/original.jpg?1770662012
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698a2815eb814e00745a1bd0/original.jpg?1770661909
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698a28941a7c49006375bc25/original.jpg?1770662035
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698a28b1d155bb0063bdcdde/original.jpg?1770662065
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698a28a054c67d0063e3ac5a/original.jpg?1770662048
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698a28c0b7d7c8006377536e/original.jpg?1770662079
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698a278261660800632552fa/original.jpg?1770661761
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698a280892a0a00064b02ec1/original.jpg?1770661895
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698a282b5111ed00631371cb/original.jpg?1770661931
+- id: a3c4a25a-c8ce-4010-99f9-ab8a19354aef
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 38785
+  total_delivered: 38715
+  total_opens: 12857
+  total_clicks: 129
+  open_rate: 0.3315
+  click_rate: 0.0033
+  total_unsubscribes: 25
+  ga4:
+    sessions: 130
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.771913'
+    source: snowflake
+    channel: email
+schedule_type: time_based

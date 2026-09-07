@@ -1,0 +1,60 @@
+id: ae75a05a-a402-49cb-9591-c5f9f207f961
+name: P_2024_11_28_PT_ID_PR_PM_Sip_And_Sit_Reminder_Email
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: ae75a05a-a402-49cb-9591-c5f9f207f961
+dates:
+  send_date: '2024-11-28'
+  inferred_send_type: local_time
+  first_sent: '2024-11-28T00:58:58+00:00'
+  last_sent: '2024-11-28T22:45:06+00:00'
+tags: []
+sends:
+- id: 1466ae0c-f222-4d2f-aa9e-894ad8c1eb73
+  channel: email
+  name: Variant 1
+  subject: 'Reminder: mimosas on us this weekend!'
+- id: 0efb3010-94c8-47b1-ab07-4b5104684938
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 8420
+  total_delivered: 8390
+  total_opens: 4987
+  total_clicks: 126
+  open_rate: 0.5923
+  click_rate: 0.015
+  total_revenue: 61502.0
+  total_unsubscribes: 18
+  ga4:
+    sessions: 156
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.865332'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-03'
+    discount: null
+    type: null
+  primary_sale:
+    id: id-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-03'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:40.003741'
+schedule_type: time_based

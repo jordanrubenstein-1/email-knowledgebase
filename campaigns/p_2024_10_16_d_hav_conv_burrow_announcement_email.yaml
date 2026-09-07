@@ -1,0 +1,34 @@
+id: 387f0381-3b12-4fee-b184-2b255193d937
+name: P_2024_10_16_D_HAV_CONV_Burrow_Announcement_Email
+brand: HAV
+channel: email
+category: other
+type: product_launch
+theme: null
+braze_id: 387f0381-3b12-4fee-b184-2b255193d937
+dates:
+  send_date: '2024-10-16'
+  first_sent: '2024-10-16T20:13:41+00:00'
+  last_sent: '2024-10-16T20:13:53+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 00f51327-b4a8-4105-8527-7539adaa01ad
+  channel: email
+  name: Variant 1
+  subject: We have BIG news!
+  preheader: Burrow is joining Havenly Brands
+- id: 97896206-4537-4a42-9b11-e44299d427bf
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 36609
+  total_delivered: 36562
+  total_opens: 21951
+  total_clicks: 436
+  open_rate: 0.5996
+  click_rate: 0.0119
+  total_bounces: 2
+  total_unsubscribes: 59
+schedule_type: time_based
+_filename: p_2024_10_16_d_hav_conv_burrow_announcement_email.yaml

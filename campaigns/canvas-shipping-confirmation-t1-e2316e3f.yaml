@@ -1,0 +1,34 @@
+id: e2316e3f-2818-4ddb-8956-3d33c1aa1611
+name: OT_EM_2025_06_BW_H_Shipping_Confirmation_T1_V1
+brand: BUR
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 0383fe4f-c61f-4f02-b573-8506f2167063
+canvas_name: Shipping Confirmation
+flow_type: other_flow
+sequence_position: 1
+subject: 🚚 Shipping confirmation from Burrow
+preheader: Your order is on the way.
+sends:
+- id: e2316e3f-2818-4ddb-8956-3d33c1aa1611
+  channel: email
+  name: OT_EM_2025_06_BW_H_Shipping_Confirmation_T1_V1
+  subject: 🚚 Shipping confirmation from Burrow
+  preheader: Your order is on the way.
+  html_file: html/canvas-shipping-confirmation-t1-e2316e3f.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-06-21T03:00:00Z'
+  last_sent: '2025-11-04T13:00:00Z'
+performance_summary:
+  total_sends: 17683
+  total_delivered: 17669
+  total_opens: 18653
+  total_clicks: 9787
+  open_rate: 1.0549
+  click_rate: 0.5535
+  total_unsubscribes: 18
+  total_bounces: 4
+  total_revenue: 742424.52

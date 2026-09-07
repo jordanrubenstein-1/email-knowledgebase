@@ -1,0 +1,58 @@
+id: cec5f586-d9ea-487f-8325-0733762d9148
+name: P_EM_2025_08_08_HAV_CONV_D_The_Sunset_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: cec5f586-d9ea-487f-8325-0733762d9148
+dates:
+  send_date: '2025-08-08'
+  inferred_send_type: local_time
+  first_sent: '2025-08-07T20:03:51+00:00'
+  last_sent: '2025-08-08T17:17:14+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: a0eeab00-b9e7-4c61-bb1a-d26c69a4b0fb
+  channel: email
+  name: Variant 1
+  subject: The time to buy is NOW!
+  preheader: Save more when you shop at Havenly
+  html_file: html/p_em_2025_08_08_hav_conv_d_the_sunset_sale_reminder.html
+  screenshot: screenshots/p_em_2025_08_08_hav_conv_d_the_sunset_sale_reminder.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68947e518f45700081ea7198/original.png?1754562128
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68947ec1f88b2900630ab37b/original.png?1754562241
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68947e658f45700061ea8828/original.png?1754562148
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68947ed85a687d00633ee0cb/original.png?1754562263
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68947ecb06fbda0072cb1414/original.png?1754562251
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68947ee068724e0063f690b9/original.png?1754562272
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68947eae879af40072a5e4dd/original.png?1754562222
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68947e2415a76c0063eb6b34/original.gif?1754562084
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68947e3a3fe43f006151572d/original.png?1754562106
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68947eb606fbda0063cb2bc0/original.png?1754562230
+- id: fd2e8f57-447e-47ce-a400-f8df556f8cbc
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 40809
+  total_delivered: 40803
+  total_opens: 21675
+  total_clicks: 118
+  open_rate: 0.5311
+  click_rate: 0.0029
+  total_unsubscribes: 46
+  ga4:
+    sessions: 82
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.223734'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.026659'
+schedule_type: time_based

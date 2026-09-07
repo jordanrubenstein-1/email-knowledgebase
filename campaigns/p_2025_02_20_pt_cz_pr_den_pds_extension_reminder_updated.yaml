@@ -1,0 +1,42 @@
+id: 773ba7e3-572b-4fb7-bafe-cb4b4258805a
+name: P_2025_02_20_PT_CZ_PR_DEN_PDS_Extension_Reminder_Updated
+brand: CZ
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 773ba7e3-572b-4fb7-bafe-cb4b4258805a
+dates:
+  send_date: '2025-02-20'
+  inferred_send_type: local_time
+  first_sent: '2025-02-20T01:08:04+00:00'
+  last_sent: '2025-02-20T23:00:22+00:00'
+tags: []
+sends:
+- id: 3693a44e-bc9c-412d-8b37-0a0dd565805f
+  channel: email
+  name: Variant 1
+  subject: Denver, we extended our Presidents Day Event!
+  html_file: html/p_2025_02_20_pt_cz_pr_den_pds_extension_reminder_updated.html
+  screenshot: screenshots/p_2025_02_20_pt_cz_pr_den_pds_extension_reminder_updated.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b654faf0ffa200656d5b17/original.png?1740002553
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b657e38365b60067731624/original.png?1740003297
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b65504d783060066dae454/original.png?1740002563
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b65a13d5d05e008350f75b/original.png?1740003859
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b658a725aeeb006419b965/original.png?1740003494
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b657ff8365b60077730256/original.png?1740003326
+- id: 593c68a2-8e82-4c3e-b702-4ce5ed021757
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 2000
+  total_delivered: 1988
+  total_opens: 1133
+  total_clicks: 9
+  open_rate: 0.5665
+  click_rate: 0.0045
+  total_revenue: 720.4
+  total_unsubscribes: 3
+_filename: p_2025_02_20_pt_cz_pr_den_pds_extension_reminder_updated.yaml
+schedule_type: time_based

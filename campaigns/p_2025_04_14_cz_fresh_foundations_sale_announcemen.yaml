@@ -1,0 +1,59 @@
+id: 818502dd-d86f-4245-9840-f4e1080b993c
+name: P_2025_04_14_CZ_Fresh_Foundations_Sale_Announcement_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 818502dd-d86f-4245-9840-f4e1080b993c
+dates:
+  send_date: '2025-04-14'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-14T16:20:35+00:00'
+  last_sent: '2025-04-14T18:02:16+00:00'
+tags: []
+sends:
+- id: b41c0cc4-9f8a-4a44-8cf3-7658a22b1204
+  channel: email
+  name: Variant 1
+  subject: Up To 50% Off Small-Batch Styles
+  preheader: Welcome a seasonal refresh with our Fresh Foundations Sale.
+  html_file: html/p_2025_04_14_cz_fresh_foundations_sale_announcement_email.html
+  screenshot: screenshots/p_2025_04_14_cz_fresh_foundations_sale_announcement_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f9a6ba895730006776331e/original.png?1744414393
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f9a7f211ee1c0067116b6d/original.png?1744414705
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f9a7b46166da0067ff4990/original.png?1744414644
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f9a6c0f971b6006838ec88/original.png?1744414400
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f9a7c289573000677633b5/original.png?1744414658
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f9a6901822b40065f29cd8/original.gif?1744414352
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f9a6768957300067763268/original.png?1744414326
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f9a8ee6166da0067ff4bd6/original.png?1744414958
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f9a8e6d7d9c30066681a40/original.png?1744414950
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f9a6d3bbdccd0065b59c3c/original.png?1744414418
+- id: db330ba9-3618-42f1-8933-20f8c22cd274
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 95358
+  total_delivered: 94535
+  total_opens: 49473
+  total_clicks: 1227
+  open_rate: 0.5188
+  click_rate: 0.0129
+  total_revenue: 93184.34
+  total_bounces: 2
+  total_unsubscribes: 92
+  ga4:
+    sessions: 1981
+    purchases: 28
+    revenue: 15788.22
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.701870'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.032683'
+schedule_type: time_based

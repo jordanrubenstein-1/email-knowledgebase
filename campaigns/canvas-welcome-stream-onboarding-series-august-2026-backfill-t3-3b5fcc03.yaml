@@ -1,0 +1,32 @@
+id: 3b5fcc03-e1d2-4764-a616-9ede445c1764
+name: TRG_EM_2024_08_HAV_CONV_D_Onboarding_T3_V1_backfill
+brand: HAV
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: d6437a77-1b60-43c6-a44f-3ccf8935c40f
+canvas_name: Welcome Stream / Onboarding Series - August 2026 Backfill
+flow_type: welcome_series
+sequence_position: 3
+subject: Design inspo this way ➡️
+preheader: We got you.
+sends:
+- id: 3b5fcc03-e1d2-4764-a616-9ede445c1764
+  channel: email
+  name: TRG_EM_2024_08_HAV_CONV_D_Onboarding_T3_V1_backfill
+  subject: Design inspo this way ➡️
+  preheader: We got you.
+  html_file: html/canvas-welcome-stream-onboarding-series-august-2026-backfill-t3-3b5fcc03.html
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2026-08-26T18:00:00Z'
+  last_sent: '2026-08-26T18:00:00Z'
+performance_summary:
+  total_sends: 245
+  total_delivered: 243
+  total_opens: 81
+  total_clicks: 3
+  open_rate: 0.3306
+  click_rate: 0.0122
+  total_unsubscribes: 3

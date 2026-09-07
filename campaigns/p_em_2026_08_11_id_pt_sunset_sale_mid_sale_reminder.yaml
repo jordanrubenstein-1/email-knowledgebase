@@ -1,0 +1,33 @@
+id: 0453af1e-ee62-4d78-b7bb-6c8a4b7d0978
+name: P_EM_2026_08_11_ID_PT_Sunset_Sale_Mid_Sale_Reminder
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 0453af1e-ee62-4d78-b7bb-6c8a4b7d0978
+dates:
+  send_date: '2026-08-11'
+  last_sent: '2026-08-11'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: c410741a-c408-4d3e-af87-5e937d6990b7
+  channel: email
+  name: Variant 1
+  subject: 'Reminder: the Sunset Sale is still 25% off sitewide'
+- id: 08cc7d66-85f6-457c-b122-7ee78bbbc8a1
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 236041
+  total_delivered: 235145
+  total_opens: 93580
+  total_clicks: 628
+  open_rate: 0.3965
+  click_rate: 0.0027
+  total_revenue: 415665.93
+  total_bounces: 3
+  total_unsubscribes: 282
+schedule_type: time_based
+_filename: p_em_2026_08_11_id_pt_sunset_sale_mid_sale_reminder.yaml

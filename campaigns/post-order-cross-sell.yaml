@@ -1,0 +1,51 @@
+id: f27e8dd7-731b-4f12-bdfd-182bc2b6e883
+name: Post Order Cross Sell
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: f27e8dd7-731b-4f12-bdfd-182bc2b6e883
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: local_time
+  first_sent: '2026-05-05T23:00:00+00:00'
+  last_sent: '2026-05-06T21:00:00+00:00'
+tags: []
+sends:
+- id: abfae1b7-d5d9-4639-b405-58a06474c906
+  channel: email
+  name: TRG_EM_2026_05_BW_PT_Post_Order_Finish_Your_Outdoor_Space
+  subject: The outdoor space is coming together. Here's the rest.
+  preheader: Outdoor pillows and rugs from St. Frank and The Inside — curated to complete
+    your new space.
+  step_id: 42ebd587-8c6c-4f99-88f9-ce0f3d061db8
+performance_summary: {}
+canvas_steps:
+- id: 99716699-d269-48d3-9ce7-6206d6d0638f
+  name: Step 2
+  type: delay
+- id: 42ebd587-8c6c-4f99-88f9-ce0f3d061db8
+  name: TRG_EM_2026_05_BW_PT_Post_Order_Finish_Your_Outdoor_Space
+  type: message
+  channel: email
+  subject: The outdoor space is coming together. Here's the rest.
+  preheader: Outdoor pillows and rugs from St. Frank and The Inside — curated to complete
+    your new space.
+- id: 9f803a48-fb7d-42da-8c3e-68b5638f0b2a
+  name: Qualifying purchase?
+  type: audience_paths
+- id: d961726e-c7ca-44d5-8d9e-40b7f1882eda
+  name: Step 1
+  type: context
+- id: 6c299157-5027-478b-9b47-26d9505abb1d
+  name: Email available
+  type: audience_paths
+- id: c039ee81-404d-4ff5-8b0b-be5190553347
+  name: Step 3
+  type: delay
+- id: 4b33bad7-d78b-4ab7-8659-e500c2e0a62b
+  name: Step
+  type: delay
+_filename: post-order-cross-sell.yaml

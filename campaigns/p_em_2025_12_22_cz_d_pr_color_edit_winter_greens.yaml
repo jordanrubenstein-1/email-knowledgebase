@@ -1,0 +1,47 @@
+id: a11746a2-56c3-4d67-978e-69d0c7175e27
+name: P_EM_2025_12_22_CZ_D_PR_Color_Edit_Winter_Greens
+brand: CZ
+channel: email
+category: editorial
+type: seasonal
+theme: winter
+braze_id: a11746a2-56c3-4d67-978e-69d0c7175e27
+dates:
+  send_date: '2025-12-22'
+  last_sent: '2025-12-22'
+tags:
+- am
+- batch and blast
+- color
+- d2c
+- designed
+sends:
+- id: 026d4c05-b9a3-4494-858f-d6dc7ad34ac1
+  channel: email
+  name: Variant 1
+  subject: 'The Winter Edit '
+  preheader: Subtle greens and warm neutrals, shaped by nature.
+  html_file: html/p_em_2025_12_22_cz_d_pr_color_edit_winter_greens.html
+  screenshot: screenshots/p_em_2025_12_22_cz_d_pr_color_edit_winter_greens.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/694463b87c643200638c8d22/original.png?1766089656
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/694463d14ee89d006387ea69/original.png?1766089680
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/694463a18af6250063072c58/original.png?1766089632
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69446384e4dea00063af44de/original.png?1766089603
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/694463b220b6fa0063399859/original.png?1766089649
+- id: 26e7b749-322c-4ff7-bfad-a580563b7519
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 56206
+  total_delivered: 56143
+  total_opens: 29261
+  total_clicks: 637
+  open_rate: 0.5206
+  click_rate: 0.0113
+  total_unsubscribes: 111
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.140246'
+schedule_type: time_based

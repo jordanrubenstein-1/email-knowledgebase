@@ -1,0 +1,21 @@
+id: a1dcd9e4-b6a8-4b75-8089-649f263242ba
+name: '[WORKING] You Got a Gift Email'
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: a1dcd9e4-b6a8-4b75-8089-649f263242ba
+dates: {}
+tags: []
+sends:
+- id: 5418e61b-dd39-457f-a307-12833e3973a0
+  channel: email
+  name: Variant 1
+  subject: You got a gift!
+- id: 5d8acd3e-e788-4aa6-bc7b-0e666a7ab94d
+  channel: other
+  name: Control Group
+performance_summary: {}
+schedule_type: api_triggered
+_filename: working-you-got-a-gift-email.yaml

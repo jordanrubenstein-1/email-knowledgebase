@@ -1,0 +1,35 @@
+id: a1197051-2ac3-4037-971a-42767af8d694
+name: P_EM_2025_12_09_HAV_PC_D_BFCM_Last_Day
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: black_friday
+braze_id: a1197051-2ac3-4037-971a-42767af8d694
+dates:
+  send_date: '2025-12-09'
+  first_sent: '2025-12-08T23:07:22+00:00'
+  last_sent: '2025-12-09T18:15:17+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 3aad3527-6557-4829-8cc7-5d9718315e40
+  channel: email
+  name: Variant 1
+  subject: Last day. No really, this is it.
+  preheader: Our best deal ever ends tonight. Don’t miss the one you waited for.
+- id: 75479119-a09a-413e-9c1c-b1eb62dfbc0b
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 254133
+  total_delivered: 251624
+  total_opens: 99520
+  total_clicks: 397
+  open_rate: 0.3916
+  click_rate: 0.0016
+  total_bounces: 6
+  total_unsubscribes: 419
+schedule_type: time_based
+_filename: p_em_2025_12_09_hav_pc_d_bfcm_last_day.yaml

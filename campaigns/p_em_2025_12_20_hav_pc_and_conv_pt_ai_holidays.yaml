@@ -1,0 +1,35 @@
+id: 1392fa1a-aaea-4e72-a139-e082fa82f312
+name: P_EM_2025_12_20_HAV_PC_AND_CONV_PT_AI_Holidays
+brand: HAV
+channel: email
+category: other
+type: seasonal
+theme: christmas
+braze_id: 1392fa1a-aaea-4e72-a139-e082fa82f312
+dates:
+  send_date: '2025-12-20'
+  first_sent: '2025-12-19T19:43:44+00:00'
+  last_sent: '2025-12-20T18:01:10+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 894d4849-b547-49b9-9582-70c6cd6d13b7
+  channel: email
+  name: Variant 1
+  subject: A little design time for you
+  preheader: Half-off rooms, plus savings on the pieces you love.
+- id: 90bd4217-893e-4427-990e-1fdd54e38cdd
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 297401
+  total_delivered: 293923
+  total_opens: 125815
+  total_clicks: 552
+  open_rate: 0.423
+  click_rate: 0.0019
+  total_bounces: 21
+  total_unsubscribes: 421
+schedule_type: time_based
+_filename: p_em_2025_12_20_hav_pc_and_conv_pt_ai_holidays.yaml

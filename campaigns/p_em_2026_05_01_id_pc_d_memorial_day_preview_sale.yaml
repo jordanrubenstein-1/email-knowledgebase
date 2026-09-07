@@ -1,0 +1,36 @@
+id: 58d1dda9-60f6-4e2d-aa96-a1bfb20cc0dd
+name: P_EM_2026_05_01_ID_PC_D_Memorial_Day_Preview_Sale
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 58d1dda9-60f6-4e2d-aa96-a1bfb20cc0dd
+dates:
+  send_date: '2026-05-01'
+  inferred_send_type: local_time
+  first_sent: '2026-04-30T22:38:44+00:00'
+  last_sent: '2026-05-01T18:06:36+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 49d1c079-1b6c-4bca-b74c-74405bc83586
+  channel: email
+  name: Variant 1
+  subject: You saw it here first. 30% off sitewide
+  preheader: Memorial Day savings start now. Shop the preview.
+- id: fcd0a496-c394-4cd7-8d72-626f4586a7e0
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 225173
+  total_delivered: 224064
+  total_opens: 95294
+  total_clicks: 1457
+  open_rate: 0.4232
+  click_rate: 0.0065
+  total_revenue: 168555.9
+  total_bounces: 12
+  total_unsubscribes: 200
+_filename: p_em_2026_05_01_id_pc_d_memorial_day_preview_sale.yaml
+schedule_type: time_based

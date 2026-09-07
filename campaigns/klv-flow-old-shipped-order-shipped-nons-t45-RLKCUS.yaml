@@ -1,0 +1,52 @@
+id: klaviyo-RLKCUS
+name: 'Email #6 [IF FURNITURE] Test #1 July 28, 2022 Variation B'
+brand: TI
+channel: email
+category: other
+type: announcement
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: TvpEbu
+canvas_name: '[OLD] Shipped: Order Shipped NONSWATCH v2'
+flow_type: swatch_followup
+sequence_position: 45
+dates:
+  created: '2020-11-17'
+  inferred_send_type: sto
+  first_sent: '2020-11-17'
+  last_sent: '2021-08-26'
+sends:
+- id: RLKCUS
+  channel: email
+  name: Message
+  subject: Our furniture favorites.
+  preheader: Make it fun.
+  html_file: html/klv-flow-old-shipped-order-shipped-nons-t45-RLKCUS.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/f4c0c7ef-43b1-4d03-b1f9-8d89d86d5aca.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/1904049b-bf19-4e17-b384-125552f5cf4a.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/f6cad7c9-7bbc-4519-90d1-8c034b5c100c.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/29c118f0-f710-40b9-985b-8f3ea5f7d7ab.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/7b9d8a0e-c920-43df-bb9d-d3b54b2656ef.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/0a09754a-7b20-46ea-990c-786a3922c406.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/eb60fad0-da4e-4b34-a2df-c5d59d1b00f0.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/a238c79d-28f2-490e-a8c3-895ef4ed2b98.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/9eadeabe-1260-49e7-917b-0a7f876501f8.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/2e5b4e28-3a6f-4a47-9a4f-3836e87b3f94.png
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: RLKCUS
+structure:
+  image_count: 13
+  link_count: 13
+  has_gif: false
+  hero_width: 600
+  layout_type: product_grid

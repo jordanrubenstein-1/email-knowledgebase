@@ -1,0 +1,44 @@
+id: 424d8e1f-5bca-4df0-a4c2-81e0b811862e
+name: P_EM_2026_03_11_CZ_D_PR_2026_Color_Edit_Greens_STO
+brand: CZ
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 424d8e1f-5bca-4df0-a4c2-81e0b811862e
+dates:
+  send_date: '2026-03-11'
+  inferred_send_type: sto
+  first_sent: '2026-03-10T10:06:16+00:00'
+  last_sent: '2026-03-12T09:25:25+00:00'
+tags:
+- batch and blast
+- color
+- d2c
+- designed
+- sto
+sends:
+- id: 3c447e16-a909-4d19-98da-c2eeaa70c209
+  channel: email
+  name: Variant 1
+  subject: The Green Edit  🌱
+  preheader: A color story rooted in nature.
+  html_file: html/p_em_2026_03_11_cz_d_pr_2026_color_edit_greens_sto.html
+  screenshot: screenshots/p_em_2026_03_11_cz_d_pr_2026_color_edit_greens_sto.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69af2e9745810100634f7d90/original.png?1773088406
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69af2ebaffef6700637e0a74/original.png?1773088441
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69af2e8f7a550e006404aebf/original.png?1773088399
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69af2eadb4f939006316e4bd/original.png?1773088427
+- id: 4af442df-7616-4707-826b-262023a88494
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 28908
+  total_delivered: 28864
+  total_opens: 14060
+  total_clicks: 412
+  open_rate: 0.4864
+  click_rate: 0.0143
+  total_unsubscribes: 56
+schedule_type: time_based

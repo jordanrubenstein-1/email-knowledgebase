@@ -1,0 +1,40 @@
+id: c933b5f0-bff3-4e4e-ab1d-e4329f7da497
+name: P_EM_2026_05_12_CZ_PC_D_Memorial_Day_Sale_EA_Last_Day
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: c933b5f0-bff3-4e4e-ab1d-e4329f7da497
+dates:
+  send_date: '2026-05-12'
+  inferred_send_type: local_time
+  first_sent: '2026-05-11T19:05:47+00:00'
+  last_sent: '2026-05-12T18:07:01+00:00'
+tags:
+- batch and blast
+- d2c
+- designed
+- sale
+- sale/mds2026
+- sale_feat
+sends:
+- id: aa838480-e144-4110-9573-9cb2a3d2ca9c
+  channel: email
+  name: Variant 1
+  subject: 'Last chance for early access '
+  preheader: After tonight, everyone's in. Shop 25% off now.
+- id: 74e30dcb-690c-4401-a32a-734055f142f1
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 114392
+  total_delivered: 113867
+  total_opens: 54093
+  total_clicks: 601
+  open_rate: 0.4729
+  click_rate: 0.0053
+  total_bounces: 9
+  total_unsubscribes: 111
+_filename: p_em_2026_05_12_cz_pc_d_memorial_day_sale_ea_last_day.yaml
+schedule_type: time_based

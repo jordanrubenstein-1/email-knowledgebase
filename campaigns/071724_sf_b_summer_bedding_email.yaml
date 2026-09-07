@@ -1,0 +1,38 @@
+id: 6c3a8f06-fd55-4a08-aa57-4bdcfc4b1fc9
+name: 071724_SF_B_Summer_Bedding_Email
+brand: STF
+channel: email
+category: other
+type: seasonal
+theme: summer
+braze_id: 6c3a8f06-fd55-4a08-aa57-4bdcfc4b1fc9
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2024-07-17T13:15:01+00:00'
+  last_sent: '2024-07-17T13:15:15+00:00'
+tags:
+- Batch and Blast
+- Batch and Blast/non-promo
+sends:
+- id: 9391879b-57fb-4507-8424-dd81faf3bff0
+  channel: email
+  name: Variant 1
+  subject: Cool Sheets for Hot Nights
+  preheader: bedding so cool, you’ll forget it’s summer
+- id: eb2c078f-f609-45a1-9296-b269cf9ed4de
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 45
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.140998'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:45.387078'
+schedule_type: time_based

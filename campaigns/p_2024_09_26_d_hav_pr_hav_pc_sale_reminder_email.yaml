@@ -1,0 +1,34 @@
+id: 9b040e7a-39ca-47aa-8f6d-d5d2754f50e0
+name: P_2024_09_26_D_HAV_PR_HAV_PC_Sale_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 9b040e7a-39ca-47aa-8f6d-d5d2754f50e0
+dates:
+  send_date: '2024-09-26'
+  first_sent: '2024-09-26T06:13:02+00:00'
+  last_sent: '2024-09-26T17:15:02+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 741fc425-50fa-471c-9da8-bc3d0a5a9797
+  channel: email
+  name: Variant 1
+  subject: Half off a home refresh
+  preheader: Take 50% OFF design services
+- id: 7b5877cb-caeb-4e21-9f54-b6dde83ad937
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 142338
+  total_delivered: 141302
+  total_opens: 69551
+  total_clicks: 643
+  open_rate: 0.4886
+  click_rate: 0.0045
+  total_bounces: 3
+  total_unsubscribes: 456
+schedule_type: time_based
+_filename: p_2024_09_26_d_hav_pr_hav_pc_sale_reminder_email.yaml

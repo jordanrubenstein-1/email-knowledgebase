@@ -1,0 +1,33 @@
+id: ac981992-0a1a-4a5d-9270-332d79fafeca
+name: P_EM_2026_06_20_HAV_D_CONV_Fourth_of_July_EA_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: ac981992-0a1a-4a5d-9270-332d79fafeca
+dates:
+  send_date: '2026-06-20'
+  last_sent: '2026-06-20'
+tags:
+- BLASTS-2025
+sends:
+- id: 130d7a32-a6f8-4d89-a0d6-e61d14832e87
+  channel: email
+  name: Variant 1
+  subject: Early access to our Fourth of July Sale
+  preheader: Buy more, save more. Up to 20% off now.
+- id: ad36d5f4-304b-4ddd-9ef6-598e6079032b
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41922
+  total_delivered: 41870
+  total_opens: 20282
+  total_clicks: 73
+  open_rate: 0.4838
+  click_rate: 0.0017
+  total_bounces: 1
+  total_unsubscribes: 41
+schedule_type: time_based
+_filename: p_em_2026_06_20_hav_d_conv_fourth_of_july_ea_reminder.yaml

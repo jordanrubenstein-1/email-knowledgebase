@@ -1,0 +1,43 @@
+id: d530b35f-8f4f-46ed-8281-aab9db8b8be7
+name: P_EM_2026_04_13_CZ_D_PR_Back_In_Stock
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: d530b35f-8f4f-46ed-8281-aab9db8b8be7
+dates:
+  send_date: '2026-04-13'
+  last_sent: '2026-04-13'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- instock
+sends:
+- id: afbae96d-d36e-4639-9605-34fca5b6a896
+  channel: email
+  name: Variant 1
+  subject: Your favorites are back
+  preheader: Claim them before they're gone (again)...
+  html_file: html/p_em_2026_04_13_cz_d_pr_back_in_stock.html
+  screenshot: screenshots/p_em_2026_04_13_cz_d_pr_back_in_stock.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69d668c22546a50064f32542/original.png?1775659202
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69d668d58d17c00064f98bc2/original.png?1775659220
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69d668ab2f7cad006423d4f2/original.png?1775659178
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69d668db5994070072a7fbb3/original.png?1775659226
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69d668e9a1587b0064aa17df/original.png?1775659240
+- id: 1f55fb37-8077-4d2e-8432-aa42638790d9
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 90860
+  total_delivered: 90651
+  total_opens: 41973
+  total_clicks: 933
+  open_rate: 0.462
+  click_rate: 0.0103
+  total_unsubscribes: 119
+schedule_type: time_based

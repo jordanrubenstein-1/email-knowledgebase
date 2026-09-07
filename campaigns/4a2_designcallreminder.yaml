@@ -1,0 +1,24 @@
+id: c229425d-fbad-4c35-aa4f-1ad510d2d61b
+name: 4a2_DesignCallReminder
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: c229425d-fbad-4c35-aa4f-1ad510d2d61b
+dates: {}
+tags: []
+sends:
+- id: 0f177c2e-78d2-4da6-aa7c-85067362440a
+  channel: email
+  name: Variant 1
+  subject: 'Reminder: your Havenly design call is tomorrow'
+  preheader: 'Hi {{api_trigger_properties.${first_name} | default: ''there''}}, Just
+    a friendly reminder that your Havenly design call is coming up tomorrow — we’re
+    looking forward to chatting!'
+- id: 39f6b1d9-db99-430e-9aa5-efadd321c9f9
+  channel: other
+  name: Control Group
+performance_summary: {}
+schedule_type: api_triggered
+_filename: 4a2_designcallreminder.yaml

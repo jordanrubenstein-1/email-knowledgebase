@@ -1,0 +1,35 @@
+id: 19f53d9d-48a2-4ff9-acb2-bf6dc61c1a12
+name: P_EM_2025_09_04_BW_PT_PM_Labor_Day_Event_Surprise_Ext
+brand: BUR
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 19f53d9d-48a2-4ff9-acb2-bf6dc61c1a12
+dates:
+  send_date: '2025-09-04'
+  inferred_send_type: local_time
+  first_sent: '2025-09-04T03:05:49+00:00'
+  last_sent: '2025-09-05T02:00:42+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 748d1ef5-d03b-4fa9-9da6-4120c6a3ae4c
+  channel: email
+  name: Variant 1
+  subject: Surprise! 25% Off Is Back.
+  preheader: Extra time to save during our Labor Day Sale
+- id: 97b425c9-f23c-446a-905a-6ab0e6144a2a
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 20228
+  total_delivered: 20167
+  total_opens: 11376
+  total_clicks: 325
+  open_rate: 0.5624
+  click_rate: 0.0161
+  total_revenue: 18456.35
+  total_unsubscribes: 79
+_filename: p_em_2025_09_04_bw_pt_pm_labor_day_event_surprise_ext.yaml
+schedule_type: time_based

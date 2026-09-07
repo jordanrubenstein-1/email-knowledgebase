@@ -1,0 +1,76 @@
+id: e8e90540-c703-42e1-b423-3cf228c43de9
+name: P_2024_11_21_D_CZ_PR_BFCM_125_Alpaca_Throws_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: e8e90540-c703-42e1-b423-3cf228c43de9
+dates:
+  send_date: '2024-11-21'
+  inferred_send_type: local_time
+  first_sent: '2024-11-20T23:53:49+00:00'
+  last_sent: '2024-11-21T17:01:50+00:00'
+tags:
+- batch and blast/promo
+sends:
+- id: d6da80e0-8db3-4a9f-89c0-31ff29f4d23b
+  channel: email
+  name: Variant 1
+  subject: 'This Never Happens: $125 Alpaca Throws'
+  preheader: Shop our iconic alpaca throws at the best price of the year.
+  html_file: html/p_2024_11_21_d_cz_pr_bfcm_125_alpaca_throws_email.html
+  screenshot: screenshots/p_2024_11_21_d_cz_pr_bfcm_125_alpaca_throws_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673cb021386e7f0064199f4c/original.jpg?1732030497
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6737da9cf77cc60064cd8d24/original.jpg?1731713692
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673e1c71423e050063a12c1d/original.png?1732123761
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673cb07c7136f500664bd31f/original.jpg?1732030587
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6737dc5069dd3a0064763677/original.jpg?1731714128
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673cb095eb30760065647b47/original.jpg?1732030613
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6737da7aba81cd0072147beb/original.jpg?1731713658
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673cb0507b6bce0066cf4c1c/original.jpg?1732030544
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673cafb87136f500664bd19d/original.jpg?1732030392
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6737daa54152060066fe9f11/original.jpg?1731713701
+- id: 6b4c8d1d-e18c-48b3-873e-1fea7f477162
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 92915
+  total_delivered: 92319
+  total_opens: 43028
+  total_clicks: 1377
+  open_rate: 0.4631
+  click_rate: 0.0148
+  total_revenue: 166046.73
+  total_bounces: 1
+  total_unsubscribes: 92
+  ga4:
+    sessions: 2635
+    purchases: 51
+    revenue: 16359.93
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.544906'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-01'
+    discount: null
+    type: null
+  primary_sale:
+    id: cz-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-01'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:32.059696'
+schedule_type: time_based

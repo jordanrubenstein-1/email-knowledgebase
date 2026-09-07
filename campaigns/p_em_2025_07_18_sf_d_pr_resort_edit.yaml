@@ -1,0 +1,64 @@
+id: cc14d9c5-244b-468e-9514-791144c5522a
+name: P_EM_2025_07_18_SF_D_PR_Resort_Edit
+brand: STF
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: cc14d9c5-244b-468e-9514-791144c5522a
+dates:
+  send_date: '2025-07-18'
+  inferred_send_type: local_time
+  first_sent: '2025-07-18T00:03:22+00:00'
+  last_sent: '2025-07-18T17:00:44+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- stl
+sends:
+- id: fce080fa-311a-4ee0-91df-608d7f3df5e8
+  channel: email
+  name: Variant 1
+  subject: Your Italian Getaway
+  preheader: luxe resort vibes, curated for your space.
+  html_file: html/p_em_2025_07_18_sf_d_pr_resort_edit.html
+  screenshot: screenshots/p_em_2025_07_18_sf_d_pr_resort_edit.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68794c1978722f007456c0a1/original.png?1752779801
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68794c22f0a24f0074121e8b/original.png?1752779810
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68794a1cc856d3008463bdfd/original.gif?1752779292
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68794a5728389400665b5a4b/original.png?1752779350
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68794bf70278fc006742c2dc/original.png?1752779767
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68794a4d535f440065734dd4/original.png?1752779340
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68794c06b766a800667c50f3/original.png?1752779782
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68794bc878722f007456bf7c/original.png?1752779720
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68794c115b0aaa0075e35d83/original.png?1752779793
+- id: a675d0b8-0fc5-4a35-9e1e-02a594264fb7
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 42048
+  total_delivered: 41548
+  total_opens: 18801
+  total_clicks: 322
+  open_rate: 0.4471
+  click_rate: 0.0077
+  total_revenue: 5150.0
+  total_bounces: 3
+  total_unsubscribes: 104
+  ga4:
+    sessions: 359
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.669577'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.756026'
+schedule_type: time_based

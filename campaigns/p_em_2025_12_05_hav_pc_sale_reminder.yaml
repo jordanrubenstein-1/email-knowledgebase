@@ -1,0 +1,35 @@
+id: e127d2d3-aed4-4796-b06c-89845d13016e
+name: P_EM_2025_12_05_HAV_PC_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: e127d2d3-aed4-4796-b06c-89845d13016e
+dates:
+  send_date: '2025-12-05'
+  first_sent: '2025-12-04T21:19:40+00:00'
+  last_sent: '2025-12-05T18:15:16+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 42c61de3-e5ba-4d27-a75a-ec94795ca55c
+  channel: email
+  name: Variant 1
+  subject: LOVE your space for LESS 🩵
+  preheader: Book now before our lowest price ever disappears.
+- id: 88985a07-7dd6-4385-868e-6b9fee721dea
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 252500
+  total_delivered: 251404
+  total_opens: 100785
+  total_clicks: 343
+  open_rate: 0.3991
+  click_rate: 0.0014
+  total_bounces: 18
+  total_unsubscribes: 514
+schedule_type: time_based
+_filename: p_em_2025_12_05_hav_pc_sale_reminder.yaml

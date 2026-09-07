@@ -1,0 +1,59 @@
+id: b3e4d0e1-6524-4515-85cd-2fa54a35e656
+name: P_2025_06_13_D_STF_Destination_Lake_Como
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: b3e4d0e1-6524-4515-85cd-2fa54a35e656
+dates:
+  send_date: '2025-06-13'
+  inferred_send_type: local_time
+  first_sent: '2025-06-12T22:42:31+00:00'
+  last_sent: '2025-06-13T17:00:15+00:00'
+tags:
+- Batch and Blast
+sends:
+- id: 0669ff10-7299-44a5-b380-491258890d1e
+  channel: email
+  name: Variant 1
+  subject: Ciao Amore
+  preheader: Fall for designs inspired by Lake Como
+  html_file: html/p_2025_06_13_d_stf_destination_lake_como.html
+  screenshot: screenshots/p_2025_06_13_d_stf_destination_lake_como.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684b3c50318530009459a768/original.png?1749761104
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684b3c6ebc3221006586b24a/original.png?1749761134
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684b3c7e318530007659aa8f/original.png?1749761149
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684b3c0c7dfe47006481b3e5/original.png?1749761036
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684b3c667dfe47007281b1bf/original.png?1749761126
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684b3bd57b1dd20065d9c996/original.png?1749760980
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684b3bad3feb3700653b612e/original.png?1749760940
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684b3b5e2ab162006550e0f1/original.png?1749760862
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684b3a9d47262b0065710be9/original.gif?1749760669
+- id: b890e1cd-dfac-4d0f-bc93-8ea2040a1428
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 32324
+  total_delivered: 31956
+  total_opens: 15638
+  total_clicks: 335
+  open_rate: 0.4838
+  click_rate: 0.0104
+  total_revenue: 2650.8
+  total_unsubscribes: 54
+  ga4:
+    sessions: 392
+    purchases: 2
+    revenue: 287.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.854298'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.261207'
+schedule_type: time_based

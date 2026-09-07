@@ -1,0 +1,55 @@
+id: dc26defb-6d76-4318-8275-2322cbf75e79
+name: P_2025_03_21_CZ_NYC_DEN_DAL_Retail_Roundup_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: dc26defb-6d76-4318-8275-2322cbf75e79
+dates:
+  send_date: '2025-03-21'
+  inferred_send_type: scheduled
+  first_sent: '2025-03-21T21:02:19+00:00'
+  last_sent: '2025-03-21T21:04:17+00:00'
+tags: []
+sends:
+- id: 182cfc92-a8c6-4383-aa9c-d6c96bf63b9f
+  channel: email
+  name: Variant 1
+  subject: Step Into Our World
+  preheader: Stop by this weekend to claim up to 30% off during The Spring Event.
+  html_file: html/p_2025_03_21_cz_nyc_den_dal_retail_roundup_email.html
+  screenshot: screenshots/p_2025_03_21_cz_nyc_den_dal_retail_roundup_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dc792b75ba570066d9e78e/original.png?1742502187
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dc79189bbd9e0066d04edf/original.png?1742502167
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dc7922fb32620064bae306/original.png?1742502177
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dc78f175ba570066d9e67e/original.png?1742502129
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dc78f8708ede00662d14a6/original.png?1742502136
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dc790e2f3f850075a0bb8b/original.png?1742502158
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dc7901708ede00662d14db/original.png?1742502144
+- id: 5c1ecac7-bd92-442b-a663-3bb9a8f0d031
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 920
+  total_delivered: 913
+  total_opens: 517
+  total_clicks: 9
+  open_rate: 0.562
+  click_rate: 0.0098
+  total_revenue: 828.79
+  total_unsubscribes: 4
+  ga4:
+    sessions: 7
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.405344'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.502554'
+schedule_type: time_based

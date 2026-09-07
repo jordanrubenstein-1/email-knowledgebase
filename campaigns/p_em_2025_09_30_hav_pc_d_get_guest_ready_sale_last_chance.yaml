@@ -1,0 +1,35 @@
+id: 0effc2b5-7dc9-403e-8ebb-d3618d264e0c
+name: P_EM_2025_09_30_HAV_PC_D_Get_Guest_Ready_Sale_Last_Chance
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 0effc2b5-7dc9-403e-8ebb-d3618d264e0c
+dates:
+  send_date: '2025-09-30'
+  first_sent: '2025-09-30T01:22:23+00:00'
+  last_sent: '2025-10-01T02:15:05+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: a0942de4-1967-4a4b-ba33-0fd6a586d508
+  channel: email
+  name: Variant 1
+  subject: FINAL HOURS FOR 50% OFF
+  preheader: This is your last chance to get your home holiday-ready.
+- id: fc49b942-06e2-4bd8-b8f1-64b9dfacca86
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 237292
+  total_delivered: 235479
+  total_opens: 96824
+  total_clicks: 339
+  open_rate: 0.408
+  click_rate: 0.0014
+  total_bounces: 7
+  total_unsubscribes: 354
+schedule_type: time_based
+_filename: p_em_2025_09_30_hav_pc_d_get_guest_ready_sale_last_chance.yaml

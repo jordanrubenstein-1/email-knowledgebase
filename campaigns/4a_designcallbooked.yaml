@@ -1,0 +1,24 @@
+id: 42b4bc36-87f6-4aaf-b506-9e136e0cce7a
+name: 4a_DesignCallBooked
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 42b4bc36-87f6-4aaf-b506-9e136e0cce7a
+dates: {}
+tags: []
+sends:
+- id: 48508463-4da9-4d9c-929e-df2a48f4ed9d
+  channel: email
+  name: Variant 1
+  subject: Your design call is booked — here’s how to prepare
+  preheader: 'Hi {{api_trigger_properties.${first_name} | default: ''there''}}, Your
+    design journey is officially underway 🎉 Your upcoming Zoom call with your Havenly
+    designer is confirmed, and we can''t wait to get started.'
+- id: d2967c49-b8c9-4d13-b9cc-9ab4f91c6998
+  channel: other
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: 4a_designcallbooked.yaml

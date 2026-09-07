@@ -1,0 +1,33 @@
+id: 24e3f0ab-d3cf-48f3-bdb3-3c36939737c2
+name: P_EM_2026_06_26_HAV_D_PC_Fourth_of_July_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 24e3f0ab-d3cf-48f3-bdb3-3c36939737c2
+dates:
+  send_date: '2026-06-26'
+  last_sent: '2026-06-26'
+tags:
+- BLASTS-2025
+sends:
+- id: e003cf2b-c3c5-4828-b552-6b9d0d726e6f
+  channel: email
+  name: Variant 1
+  subject: Don't miss 50% off interior design
+  preheader: Our Fourth of July Sale is still going. Get started before it ends.
+- id: a1582ec8-ad05-46cf-b2e9-99889f424801
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 285318
+  total_delivered: 284053
+  total_opens: 101988
+  total_clicks: 331
+  open_rate: 0.3575
+  click_rate: 0.0012
+  total_bounces: 11
+  total_unsubscribes: 375
+schedule_type: time_based
+_filename: p_em_2026_06_26_hav_d_pc_fourth_of_july_sale_reminder.yaml

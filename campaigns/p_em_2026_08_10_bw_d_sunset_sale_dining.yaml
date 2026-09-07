@@ -1,0 +1,34 @@
+id: e17fd5f6-99e5-498f-b6a0-3dac197a8e00
+name: P_EM_2026_08_10_BW_D_Sunset_Sale_Dining
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: e17fd5f6-99e5-498f-b6a0-3dac197a8e00
+dates:
+  send_date: '2026-08-10'
+  last_sent: '2026-08-10'
+tags:
+- Batch&Blast
+sends:
+- id: d39d0c69-5e27-4934-9d1a-b28de3b3947b
+  channel: email
+  name: Variant 1
+  subject: Your new dining setup is up to 30% off
+  preheader: Shop dining, seating, and more before this limited-time offer ends.
+- id: 6780660e-d5f3-498d-84ad-029a96ed718b
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 225351
+  total_delivered: 224398
+  total_opens: 113811
+  total_clicks: 468
+  open_rate: 0.505
+  click_rate: 0.0021
+  total_revenue: 65301.0
+  total_bounces: 12
+  total_unsubscribes: 155
+schedule_type: time_based
+_filename: p_em_2026_08_10_bw_d_sunset_sale_dining.yaml

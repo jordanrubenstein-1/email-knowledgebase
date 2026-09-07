@@ -1,0 +1,78 @@
+id: klaviyo-WvhvNz
+name: 'BF Sale: Bestsellers'
+brand: TI
+channel: email
+category: sale_promo
+type: sale
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2020-11-23'
+  inferred_send_type: scheduled
+  first_sent: '2020-11-24T14:00:00+00:00'
+  last_sent: '2020-11-24T14:00:00+00:00'
+sends:
+- id: UWgThn
+  channel: email
+  name: 'BF Sale: Bestsellers Variation A'
+  subject: 'On sale now: our best sellers.'
+  preheader: ''
+  html_file: html/bf-sale-bestsellers.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/807912b8-b874-46c0-8628-c4e81d277c7b.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/cc32de4b-c73a-4e7e-b1d6-8dda4b85b1d4.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/064365fc-fd1a-4c06-a73a-24199f09400f.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/a2f4d012-40c2-4abb-badf-ce0cdc49d9ec.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/88749dae-100c-4826-b633-38e59bd7472b.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/ea550023-e744-4a07-b289-280142540198.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/a344b7ce-2df6-4f4d-baba-54899a2b46a9.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/9eadeabe-1260-49e7-917b-0a7f876501f8.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/2e5b4e28-3a6f-4a47-9a4f-3836e87b3f94.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/efc79951-ab82-4798-b6b5-95b803f03f17.png
+  screenshot: screenshots/bf-sale-bestsellers.png
+- id: Yx8Eik
+  channel: email
+  name: 'BF Sale: Bestsellers Variation B'
+  subject: Black Friday best sellers.
+  preheader: ''
+  html_file: html/bf-sale-bestsellers.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/ea550023-e744-4a07-b289-280142540198.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/a2f4d012-40c2-4abb-badf-ce0cdc49d9ec.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/c931a9b2-93ff-46a6-b97f-5b41d993def5.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/807912b8-b874-46c0-8628-c4e81d277c7b.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/88749dae-100c-4826-b633-38e59bd7472b.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/a344b7ce-2df6-4f4d-baba-54899a2b46a9.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/9eadeabe-1260-49e7-917b-0a7f876501f8.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/2e5b4e28-3a6f-4a47-9a4f-3836e87b3f94.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/cc32de4b-c73a-4e7e-b1d6-8dda4b85b1d4.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/efc79951-ab82-4798-b6b5-95b803f03f17.png
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_unsubscribes: 0
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T14:56:53.221313'
+    source: snowflake
+    channel: email
+klaviyo_type: campaign
+klaviyo_campaign_id: WvhvNz
+klaviyo_message_id: UWgThn
+structure:
+  image_count: 11
+  link_count: 12
+  has_gif: false
+  hero_width: 600
+  layout_type: product_grid
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-03-12T11:18:49.395197'

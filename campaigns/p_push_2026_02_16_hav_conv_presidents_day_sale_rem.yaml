@@ -1,0 +1,38 @@
+id: 9c810cb7-3f49-476c-be1e-c3050ac88e7e
+name: P_PUSH_2026_02_16_HAV_CONV_Presidents_Day_Sale_Reminder
+brand: HAV
+channel: push
+category: reminder
+type: sale
+theme: null
+braze_id: 9c810cb7-3f49-476c-be1e-c3050ac88e7e
+dates:
+  send_date: '2026-02-16'
+  inferred_send_type: local_time
+  first_sent: '2026-02-16T05:09:13+00:00'
+  last_sent: '2026-02-17T05:04:31+00:00'
+tags: []
+sends:
+- id: ced26389-6720-42f0-94cf-05b1ce3742f9
+  channel: push
+  name: Variant 1
+- id: fdb7a6e1-10bf-45fe-a74a-8b2430b878ee
+  channel: push
+  name: Control Group
+performance_summary:
+  total_sends: 46034
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_bounces: 156
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.335205'
+    source: snowflake
+    channel: push
+schedule_type: time_based

@@ -1,0 +1,33 @@
+id: f7894b44-98b2-4f47-9089-30b49a0ffbdd
+name: P_2024_09_03_HAV_DPS_PM_PT_Last_Chance_Email
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: f7894b44-98b2-4f47-9089-30b49a0ffbdd
+dates:
+  send_date: '2024-09-03'
+  first_sent: '2024-09-03T20:18:49+00:00'
+  last_sent: '2024-09-04T02:20:01+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 9036f1fa-cfb9-4b1a-803c-a658bd3ae41c
+  channel: email
+  name: Variant 1
+  subject: Your 50% off code expires tonight
+- id: 9db91cc2-1e9e-4e27-92e3-ddf97cfc35bb
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 54649
+  total_delivered: 54400
+  total_opens: 43499
+  total_clicks: 544
+  open_rate: 0.796
+  click_rate: 0.01
+  total_bounces: 1
+  total_unsubscribes: 398
+schedule_type: time_based
+_filename: p_2024_09_03_hav_dps_pm_pt_last_chance_email.yaml

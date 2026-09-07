@@ -1,0 +1,56 @@
+id: klaviyo-Tb2443
+name: sh-ab_email-01
+brand: TE
+channel: email
+category: other
+type: lifecycle
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: RnAaxy
+canvas_name: flow-sh_abandoned-browse2
+flow_type: other_flow
+sequence_position: 1
+dates:
+  created: '2025-03-19'
+  inferred_send_type: scheduled
+  first_sent: '2025-03-19'
+  last_sent: '2025-03-19'
+sends:
+- id: Tb2443
+  channel: email
+  name: Message
+  subject: Did we catch your eye?
+  preheader: We can help make it official.
+  html_file: html/klv-flow-flow-sh_abandoned-browse2-t01-Tb2443.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/dac146b7-7dfc-4851-8cf1-d7978d5e7110.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/5ffe4de3-5aae-4a77-9b5f-dd787427dbc2.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/e0d872a0-23d3-4fe4-b6e9-580e573d34e8.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/99347f2e-d38b-4347-8d48-816025d64016.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/46001010-0bc0-4946-97e0-f3aa96ac907e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/c3175a9a-6a2f-422c-8343-7aab0929b113.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/3b235deb-3878-47a4-b2f2-c98fdb111d55.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/728bfe14-f298-404f-8d02-a9a082a645fa.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/36fe14fd-5b5c-41d0-a534-229feed2515c.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/12fcebd7-970f-4757-9e4f-1101b89aab3b.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: Tb2443
+structure:
+  image_count: 17
+  link_count: 24
+  has_gif: false
+  hero_width: 100
+  layout_type: product_grid

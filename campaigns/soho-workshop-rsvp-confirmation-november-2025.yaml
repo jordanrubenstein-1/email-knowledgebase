@@ -1,0 +1,34 @@
+id: 21b1375c-431e-4d79-84f4-bd8e2c26f163
+name: Soho Workshop RSVP Confirmation - November, 2025
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 21b1375c-431e-4d79-84f4-bd8e2c26f163
+braze_type: canvas
+campaign_type: Triggered Journey
+dates: {}
+tags: []
+sends:
+- id: e46a0d22-b098-4fa0-87ce-11a65121cb9b
+  channel: email
+  name: Step 1
+  subject: You’re on the List
+  preheader: We can’t wait to celebrate with you
+  step_id: 40783eb9-0eb0-4347-b233-26786384a9c0
+performance_summary: {}
+canvas_steps:
+- id: 31718853-7bf9-4490-bdce-c8368dface5a
+  name: Step
+  type: delay
+- id: 40783eb9-0eb0-4347-b233-26786384a9c0
+  name: Step 1
+  type: message
+  channel: email
+  subject: You’re on the List
+  preheader: We can’t wait to celebrate with you
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.843636'

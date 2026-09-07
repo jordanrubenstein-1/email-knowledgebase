@@ -1,0 +1,44 @@
+id: 88355aba-5a40-4b76-b452-2cd270ddb36d
+name: P_EM_2026_03_19_CZ_D_PR_Spring_Sale_Launch
+brand: CZ
+channel: email
+category: product_launch
+type: sale
+theme: spring
+braze_id: 88355aba-5a40-4b76-b452-2cd270ddb36d
+dates:
+  send_date: '2026-03-19'
+  inferred_send_type: local_time
+  first_sent: '2026-03-18T23:52:11+00:00'
+  last_sent: '2026-03-19T17:08:30+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale/spring2026
+sends:
+- id: 7b9a8081-dc54-4ed8-a5f6-07aade9f764c
+  channel: email
+  name: Variant 1
+  subject: Shop Up to 25% Off Sitewide
+  preheader: Our most-loved collections on sale now.
+  html_file: html/p_em_2026_03_19_cz_d_pr_spring_sale_launch.html
+  screenshot: screenshots/p_em_2026_03_19_cz_d_pr_spring_sale_launch.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69baa84c383d69006424743e/original.png?1773840459
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69baa82b42d479006327a3fc/original.png?1773840427
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69baa8367abb0c0063578b61/original.png?1773840438
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69baa8268b22b800633b3815/original.png?1773840421
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69baa83d8999040064e24236/original.png?1773840444
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69baa82178c83f00734327f5/original.png?1773840417
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69bae515e95c03006336574e/original.png?1773856021
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69baa85122528900633a95b8/original.png?1773840464
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69bae4f05c82190064d8971f/original.gif?1773855984
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69bae4f795dc4b0073a84667/original.png?1773855991
+- id: c5efdb8f-c5c6-4d50-8fd5-579b072cd0a0
+  channel: email
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based

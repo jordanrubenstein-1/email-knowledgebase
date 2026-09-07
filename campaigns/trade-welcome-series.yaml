@@ -1,0 +1,31 @@
+id: acd1c042-11f5-40d4-9abd-82a3cb2682c6
+name: Trade Welcome Series
+brand: CZ
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: acd1c042-11f5-40d4-9abd-82a3cb2682c6
+braze_type: canvas
+campaign_type: Triggered Journey
+dates: {}
+tags: []
+sends:
+- id: fd5ba62b-fa51-47a6-a6f8-1c1173058463
+  channel: email
+  name: Step
+  subject: You're on the list!
+  preheader: You'll be the first to know when the next batch lands
+  step_id: 022f6de4-e47f-4063-8c97-5ba7138a1577
+performance_summary: {}
+canvas_steps:
+- id: 022f6de4-e47f-4063-8c97-5ba7138a1577
+  name: Step
+  type: message
+  channel: email
+  subject: You're on the list!
+  preheader: You'll be the first to know when the next batch lands
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.435218'

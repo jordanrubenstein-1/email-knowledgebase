@@ -1,0 +1,80 @@
+id: ff8f4c03-be24-43a9-8501-6e2468d9ec2e
+name: HIP Profile Complete Series
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: ff8f4c03-be24-43a9-8501-6e2468d9ec2e
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-03-06T15:00:00+00:00'
+  last_sent: '2025-12-12T22:00:00+00:00'
+tags: []
+sends:
+- id: adacc9df-90de-4e3e-9f47-4ec4c0eee6ff
+  channel: email
+  name: TRG_EM_2025_03_HAV_PC_PT_HIP_Profile_Complete_T1_V1
+  subject: Welcome to Havenly! Next steps for getting started
+  preheader: ''
+  step_id: 2d43dee0-2f14-42aa-8e75-a96bd2a0d638
+- id: ee7f313d-6327-49ff-84d0-6a039f2b7ec5
+  channel: email
+  name: TRG_EM_2025_03_HAV_PC_PT_HIP_Profile_Complete_T2_V1
+  subject: 'Reminder from Havenly: Complete your room profile to get started!'
+  preheader: ''
+  step_id: 80bdab75-9177-49fc-822d-90935a5eaa5e
+- id: d4190bc9-f754-409f-93dc-95b5f507c0d0
+  channel: email
+  name: TRG_EM_2025_03_HAV_PC_PT_HIP_Profile_Complete_T3_V1
+  subject: Last Call! Complete Your Room Profile to Start Your Havenly Project
+  preheader: ''
+  step_id: b5bee90b-2a83-46a7-bbcb-7c4c8fe0d6ac
+performance_summary:
+  total_entries: 20
+  total_sends: 53
+  total_delivered: 53
+  total_opens: 48
+  total_clicks: 9
+  open_rate: 0.9057
+  click_rate: 0.1698
+  total_conversions: 18
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.845095'
+    source: snowflake
+    channel: email
+canvas_steps:
+- id: 2d43dee0-2f14-42aa-8e75-a96bd2a0d638
+  name: TRG_EM_2025_03_HAV_PC_PT_HIP_Profile_Complete_T1_V1
+  type: message
+  channel: email
+  subject: Welcome to Havenly! Next steps for getting started
+  preheader: ''
+- id: f642b193-b7a5-4d0e-8892-ce1f557f93fc
+  name: Step 1
+  type: delay
+- id: 80bdab75-9177-49fc-822d-90935a5eaa5e
+  name: TRG_EM_2025_03_HAV_PC_PT_HIP_Profile_Complete_T2_V1
+  type: message
+  channel: email
+  subject: 'Reminder from Havenly: Complete your room profile to get started!'
+  preheader: ''
+- id: d339b56f-3301-4c89-b0f6-612a06f3cbc6
+  name: Step 3
+  type: delay
+- id: b5bee90b-2a83-46a7-bbcb-7c4c8fe0d6ac
+  name: TRG_EM_2025_03_HAV_PC_PT_HIP_Profile_Complete_T3_V1
+  type: message
+  channel: email
+  subject: Last Call! Complete Your Room Profile to Start Your Havenly Project
+  preheader: ''
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:45.478034'

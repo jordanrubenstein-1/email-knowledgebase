@@ -1,0 +1,57 @@
+id: c00497de-0756-4a90-a093-867a7b47ac18
+name: P_2025_05_04_CZ_May_Edit_Email
+brand: CZ
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: c00497de-0756-4a90-a093-867a7b47ac18
+dates:
+  send_date: '2025-05-04'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-04T07:41:59+00:00'
+  last_sent: '2025-05-04T17:02:28+00:00'
+tags: []
+sends:
+- id: b8e04c63-cb96-4eb6-9544-6b44dc1a84e8
+  channel: email
+  name: Variant 1
+  subject: The May Edit
+  preheader: Everything we’re looking forward to this month.
+  html_file: html/p_2025_05_04_cz_may_edit_email.html
+  screenshot: screenshots/p_2025_05_04_cz_may_edit_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68154128589afa006535d32c/original.png?1746223400
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68154173b8037000740e120f/original.png?1746223474
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68154198f190c80066449295/original.png?1746223512
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6815412e3afe2e0075355f5e/original.png?1746223406
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68154136f190c800664491cc/original.png?1746223414
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6815418e589afa006535d3e4/original.gif?1746223502
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68154180f190c8006644927c/original.png?1746223487
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681541a623c0b900772dff15/original.png?1746223525
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681541b4c0ce830064e9acda/original.png?1746223539
+- id: bd766031-3306-43c6-828a-e5080dea699c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 94890
+  total_delivered: 94438
+  total_opens: 50536
+  total_clicks: 637
+  open_rate: 0.5326
+  click_rate: 0.0067
+  total_revenue: 77605.67
+  total_unsubscribes: 136
+  ga4:
+    sessions: 807
+    purchases: 9
+    revenue: 3667.68
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.507415'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.216731'
+schedule_type: time_based

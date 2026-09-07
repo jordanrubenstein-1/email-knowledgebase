@@ -1,0 +1,33 @@
+id: 529574b0-45ca-458c-9080-8cca3ee17dea
+name: TRG_EM_2026_03_HAV_CONV_PT_Design_Fee_Abandon_T2_V2
+brand: HAV
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 0ae879ec-6af3-47b9-8021-867ee9998146
+canvas_name: Design Fee Abandon
+flow_type: design_abandonment
+sequence_position: 2
+subject: I can't wait to get started!
+preheader: ''
+sends:
+- id: 529574b0-45ca-458c-9080-8cca3ee17dea
+  channel: email
+  name: TRG_EM_2026_03_HAV_CONV_PT_Design_Fee_Abandon_T2_V2
+  subject: I can't wait to get started!
+  preheader: ''
+  html_file: html/canvas-design-fee-abandon-t2-529574b0.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-30T03:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 6148
+  total_delivered: 6115
+  total_opens: 4068
+  total_clicks: 779
+  open_rate: 0.6617
+  click_rate: 0.1267
+  total_unsubscribes: 82
+  total_bounces: 4

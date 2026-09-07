@@ -1,0 +1,24 @@
+id: efbd626f-5a58-4b50-9987-f6093d4ecb47
+name: P_EM_2026_09_03_ID_PT_AM_Reminder
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: efbd626f-5a58-4b50-9987-f6093d4ecb47
+dates:
+  send_date: '2026-09-03'
+  last_sent: '2026-09-03'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: de3e8795-1c0f-4b34-b1fe-13d14aa3f2ee
+  channel: email
+  name: Variant 1
+  subject: Reminder up to 35% off sitewide
+- id: 0b5ad5bc-0d04-4f73-9734-12f2b48fd8c1
+  channel: email
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: p_em_2026_09_03_id_pt_am_reminder.yaml

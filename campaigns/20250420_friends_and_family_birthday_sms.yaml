@@ -1,0 +1,30 @@
+id: a32a11d4-a3e9-4fc2-9c89-e39b1e5983d9
+name: 20250420_Friends_and_Family_Birthday_SMS
+brand: BUR
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: a32a11d4-a3e9-4fc2-9c89-e39b1e5983d9
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-04-20T02:05:36+00:00'
+  last_sent: '2025-04-21T01:00:50+00:00'
+tags: []
+sends:
+- id: 64c70124-be49-491a-af3d-e550d7088192
+  channel: other
+  name: Variant 1
+- id: a5a1127f-cab1-443c-b653-c3313812f81f
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 383
+    purchases: 4
+    revenue: 3459.28
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.252313'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

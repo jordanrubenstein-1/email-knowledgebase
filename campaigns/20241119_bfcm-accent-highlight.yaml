@@ -1,0 +1,52 @@
+id: b7e8f8ad-a61e-45f2-b3c5-921879d2193c
+name: 20241119_BFCM-Accent-Highlight
+brand: BUR
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: b7e8f8ad-a61e-45f2-b3c5-921879d2193c
+dates:
+  inferred_send_type: local_time
+  first_sent: '2024-11-18T21:07:41+00:00'
+  last_sent: '2024-11-19T19:30:11+00:00'
+tags: []
+sends:
+- id: b05ae895-06f4-45ad-bd24-4fbeb6da3ceb
+  channel: email
+  name: Variant 1
+  subject: Take a seat
+  preheader: Shop accent chairs, on sale now.
+- id: 32589fd5-ce7a-438c-a8df-e76f659fd386
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 485
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.632316'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-bfcm-giving-tues-2024-11-13
+    name: BFCM + Giving Tues
+    start_date: '2024-11-13'
+    end_date: '2024-11-26'
+    discount: null
+    type: null
+  primary_sale:
+    id: bur-bfcm-giving-tues-2024-11-13
+    name: BFCM + Giving Tues
+    start_date: '2024-11-13'
+    end_date: '2024-11-26'
+    discount: null
+    type: null
+  sale_name: BFCM + Giving Tues
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:32.339664'
+schedule_type: time_based

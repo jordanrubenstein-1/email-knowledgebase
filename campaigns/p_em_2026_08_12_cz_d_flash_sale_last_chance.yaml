@@ -1,0 +1,32 @@
+id: 3b1b2305-0241-4cd5-98c7-f769a4f14675
+name: P_EM_2026_08_12_CZ_D_Flash_Sale_Last_Chance
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 3b1b2305-0241-4cd5-98c7-f769a4f14675
+dates:
+  send_date: '2026-08-12'
+  last_sent: '2026-08-12'
+tags: []
+sends:
+- id: 7fc03c13-6cda-4d70-9cd0-149a99e279ce
+  channel: email
+  name: Variant 1
+  subject: 'LAST CALL: 20% off sitewide'
+  preheader: Ends soon. Shop before it's gone.
+- id: 9ccfb97b-e4bd-422c-9dea-a2917fb65c09
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 120070
+  total_delivered: 119607
+  total_opens: 57467
+  total_clicks: 674
+  open_rate: 0.4786
+  click_rate: 0.0056
+  total_bounces: 10
+  total_unsubscribes: 131
+schedule_type: time_based
+_filename: p_em_2026_08_12_cz_d_flash_sale_last_chance.yaml

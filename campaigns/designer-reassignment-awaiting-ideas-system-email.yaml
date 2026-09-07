@@ -1,0 +1,24 @@
+id: b0fdc9c9-94b9-01cf-601d-228875ddef02
+name: Designer Reassignment (Awaiting Ideas) System Email
+brand: HAV
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: b0fdc9c9-94b9-01cf-601d-228875ddef02
+dates:
+  first_sent: '2024-08-23T17:00:00+00:00'
+  last_sent: '2026-02-17T21:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: a832c80a-662a-4f19-9c73-6084aaedc8cb
+  channel: email
+  name: Variant 1
+  subject: A new designer has been assigned to you!
+- id: f5999038-e153-4d41-9561-069f4e5f0401
+  channel: other
+  name: Control Group
+performance_summary: {}
+schedule_type: api_triggered
+_filename: designer-reassignment-awaiting-ideas-system-email.yaml

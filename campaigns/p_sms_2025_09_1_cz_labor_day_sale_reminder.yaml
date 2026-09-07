@@ -1,0 +1,37 @@
+id: 3d8ba714-0694-4612-bb6f-cb2290c51264
+name: P_SMS_2025_09_1_CZ_Labor_Day_Sale_Reminder
+brand: CZ
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: 3d8ba714-0694-4612-bb6f-cb2290c51264
+dates:
+  send_date: '2025-09-01'
+  inferred_send_type: local_time
+  first_sent: '2025-09-01T01:14:51+00:00'
+  last_sent: '2025-09-02T00:05:43+00:00'
+tags: []
+sends:
+- id: 128f4307-e9b7-4250-a9d4-7e592d9fcbb5
+  channel: sms
+  name: Variant 1
+- id: 0a3f5e55-9e92-4604-a7a4-cb1d7f18330a
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 22119
+  total_delivered: 21487
+  total_opens: 0
+  total_clicks: 262
+  open_rate: 0.0
+  click_rate: 0.0118
+  ga4:
+    sessions: 219
+    purchases: 4
+    revenue: 2006.1
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.923627'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

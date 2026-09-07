@@ -1,0 +1,33 @@
+id: d58aa9c7-2658-4332-8f75-867b48292907
+name: OT_EM_2025_06_BW_H_Out_For_Delivery_T1_V1
+brand: BUR
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: e331670c-513d-41e2-b0d7-051ab2577e75
+canvas_name: Out For Delivery
+flow_type: other_flow
+sequence_position: 1
+subject: '🏠 Delivery update: Some or all of your order arrives today!'
+preheader: See what is scheduled for delivery.
+sends:
+- id: d58aa9c7-2658-4332-8f75-867b48292907
+  channel: email
+  name: OT_EM_2025_06_BW_H_Out_For_Delivery_T1_V1
+  subject: '🏠 Delivery update: Some or all of your order arrives today!'
+  preheader: See what is scheduled for delivery.
+  html_file: html/canvas-out-for-delivery-t1-d58aa9c7.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-06-21T09:00:00Z'
+  last_sent: '2025-11-04T14:00:00Z'
+performance_summary:
+  total_sends: 24936
+  total_delivered: 24924
+  total_opens: 23902
+  total_clicks: 8769
+  open_rate: 0.9585
+  click_rate: 0.3517
+  total_unsubscribes: 7
+  total_revenue: 735422.81

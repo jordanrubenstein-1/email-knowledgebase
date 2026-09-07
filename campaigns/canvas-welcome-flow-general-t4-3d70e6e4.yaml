@@ -1,0 +1,33 @@
+id: 3d70e6e4-b199-4685-99ef-1f8df1ad1265
+name: TRG_EM_2024_11_BW_D_Welcome_T4_V1
+brand: BUR
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 2fccfb4d-7b98-460d-9d19-98e33e89aa25
+canvas_name: Welcome Flow - General
+flow_type: welcome_series
+sequence_position: 4
+subject: Tell Us About Yourself
+preheader: We’d Love to Learn More About You
+sends:
+- id: 3d70e6e4-b199-4685-99ef-1f8df1ad1265
+  channel: email
+  name: TRG_EM_2024_11_BW_D_Welcome_T4_V1
+  subject: Tell Us About Yourself
+  preheader: We’d Love to Learn More About You
+  html_file: html/canvas-welcome-flow-general-t4-3d70e6e4.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-11-01T00:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 23513
+  total_delivered: 23103
+  total_opens: 10617
+  total_clicks: 448
+  open_rate: 0.4515
+  click_rate: 0.0191
+  total_unsubscribes: 158
+  total_revenue: 172644.6

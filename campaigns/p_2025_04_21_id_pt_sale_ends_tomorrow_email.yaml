@@ -1,0 +1,45 @@
+id: df078430-ade5-436c-82e0-5a17bd3cfaad
+name: P_2025_04_21_ID_PT_Sale_Ends_Tomorrow_Email
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: df078430-ade5-436c-82e0-5a17bd3cfaad
+dates:
+  send_date: '2025-04-21'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-21T04:58:00+00:00'
+  last_sent: '2025-04-21T17:15:10+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: ef56e2d5-bc77-4071-86d2-2eff6c18fec4
+  channel: email
+  name: Variant 1
+  subject: 'Ends tomorrow: 20% off sitewide!'
+- id: cfd7600e-c7b9-4507-bcf4-5b72de22aa31
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 155624
+  total_delivered: 153374
+  total_opens: 36725
+  total_clicks: 421
+  open_rate: 0.236
+  click_rate: 0.0027
+  total_revenue: 286152.0
+  total_unsubscribes: 148
+  ga4:
+    sessions: 406
+    purchases: 3
+    revenue: 6863.16
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.182519'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.804218'
+schedule_type: time_based

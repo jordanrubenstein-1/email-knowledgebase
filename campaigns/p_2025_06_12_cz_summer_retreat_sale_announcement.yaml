@@ -1,0 +1,90 @@
+id: 59d97cb2-2b92-42cf-8407-016ee7e9cdac
+name: P_2025_06_12_CZ_Summer_Retreat_Sale_Announcement
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: summer
+braze_id: 59d97cb2-2b92-42cf-8407-016ee7e9cdac
+dates:
+  send_date: '2025-06-12'
+  inferred_send_type: local_time
+  first_sent: '2025-06-12T01:15:11+00:00'
+  last_sent: '2025-06-12T17:02:02+00:00'
+tags: []
+sends:
+- id: ba9512d2-6e90-41f7-bbbd-b61f0a029deb
+  channel: email
+  name: Variant 1
+  subject: 'Now Open: The Summer Retreat Sale'
+  preheader: Save 20% off bedding & bath essentials
+  html_file: html/p_2025_06_12_cz_summer_retreat_sale_announcement.html
+  screenshot: screenshots/p_2025_06_12_cz_summer_retreat_sale_announcement.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6849ec45bbdc2e00653ef836/original.png?1749675077
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6849ecd4b0b1e20065502841/original.png?1749675220
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6849eba931a2a800659291b7/original.png?1749674921
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6849ebcf31a2a80065929406/original.png?1749674959
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6849ecb6f72e1d0067cd1ef3/original.png?1749675189
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6849ec15aabe510067c4f6c6/original.png?1749675029
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6849ec9052f2aa0074816937/original.png?1749675152
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6849ebbb31a2a8006592925c/original.png?1749674939
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6849ebdeb0b1e20075501ea1/original.png?1749674973
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6849ec4c48bd4c0067e0d9e4/original.png?1749675084
+- id: 109d231f-78e5-4313-bf30-825ea3335cec
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 101098
+  total_delivered: 100632
+  total_opens: 52896
+  total_clicks: 881
+  open_rate: 0.5232
+  click_rate: 0.0087
+  total_revenue: 75215.12
+  total_bounces: 5
+  total_unsubscribes: 137
+  ga4:
+    sessions: 1056
+    purchases: 33
+    revenue: 16789.02
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.525378'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-citizenry-2025-06-12
+    name: The Citizenry
+    start_date: '2025-06-12'
+    end_date: '2025-06-12'
+    discount: 'The Summer Retreat Sale -- NO CODE NEEDED
+
+      20% Off Bedding, Bath, Baskets, Tableware, and Select Furniture (stocked funiture
+      only), + Up to 65% off Archive Sale
+
+      Trade: No Additional Offer'
+    type: null
+  primary_sale:
+    id: cz-the-citizenry-2025-06-12
+    name: The Citizenry
+    start_date: '2025-06-12'
+    end_date: '2025-06-12'
+    discount: 'The Summer Retreat Sale -- NO CODE NEEDED
+
+      20% Off Bedding, Bath, Baskets, Tableware, and Select Furniture (stocked funiture
+      only), + Up to 65% off Archive Sale
+
+      Trade: No Additional Offer'
+    type: null
+  sale_name: The Citizenry
+  sale_discount: 'The Summer Retreat Sale -- NO CODE NEEDED
+
+    20% Off Bedding, Bath, Baskets, Tableware, and Select Furniture (stocked funiture
+    only), + Up to 65% off Archive Sale
+
+    Trade: No Additional Offer'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:43.422472'
+schedule_type: time_based

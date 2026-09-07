@@ -1,0 +1,62 @@
+id: c2e132ba-4c40-45cc-ad64-884a414edd23
+name: P_2025_01_06_ID_The_Winter_Edit_Email
+brand: ID
+channel: email
+category: editorial
+type: seasonal
+theme: winter
+braze_id: c2e132ba-4c40-45cc-ad64-884a414edd23
+dates:
+  send_date: '2025-01-06'
+  inferred_send_type: local_time
+  first_sent: '2025-01-05T20:28:31+00:00'
+  last_sent: '2025-01-06T17:15:04+00:00'
+tags: []
+sends:
+- id: f81db8eb-dc5e-4af1-b94b-acc863ef7cfe
+  channel: email
+  name: Variant 1
+  subject: 'NEW: The Winter Edit ❄️'
+  preheader: Designer picks for the season
+- id: 80e59faa-eac4-4e68-be58-41f159946246
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 94133
+  total_delivered: 93282
+  total_opens: 26772
+  total_clicks: 673
+  open_rate: 0.2844
+  click_rate: 0.0071
+  total_revenue: 107357.34
+  total_bounces: 3
+  total_unsubscribes: 189
+  ga4:
+    sessions: 919
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.889307'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-end-of-year-sale-extension-2025-01-03
+    name: End of Year Sale (EXTENSION)
+    start_date: '2024-12-26'
+    end_date: '2025-01-06'
+    discount: 25% off sitewide
+    type: null
+  primary_sale:
+    id: id-end-of-year-sale-extension-2025-01-03
+    name: End of Year Sale (EXTENSION)
+    start_date: '2024-12-26'
+    end_date: '2025-01-06'
+    discount: 25% off sitewide
+    type: null
+  sale_name: End of Year Sale (EXTENSION)
+  sale_discount: 25% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:40.419453'
+schedule_type: time_based

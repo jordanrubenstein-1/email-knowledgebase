@@ -1,0 +1,35 @@
+id: 29477357-f2c4-4733-bf40-d11c5fe9b570
+name: P_2025_07_08_HAV_PC_D_Fourth_of_July_Sale_Extension_Ends_Tonight
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 29477357-f2c4-4733-bf40-d11c5fe9b570
+dates:
+  send_date: '2025-07-08'
+  first_sent: '2025-07-07T18:23:12+00:00'
+  last_sent: '2025-07-08T18:15:04+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 5de19a70-3aca-4d86-bedd-826a98f6621f
+  channel: email
+  name: Variant 1
+  subject: 50% off ends TONIGHT
+  preheader: You’ve waited long enough.
+- id: 945b2f8a-f97e-4962-bff6-50f1c605f12f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 226356
+  total_delivered: 222923
+  total_opens: 92545
+  total_clicks: 282
+  open_rate: 0.4088
+  click_rate: 0.0012
+  total_bounces: 43
+  total_unsubscribes: 430
+schedule_type: time_based
+_filename: p_2025_07_08_hav_pc_d_fourth_of_july_sale_extension_ends_ton.yaml

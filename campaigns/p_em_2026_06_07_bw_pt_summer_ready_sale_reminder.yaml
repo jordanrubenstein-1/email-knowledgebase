@@ -1,0 +1,32 @@
+id: 530f2433-e559-4a6d-8311-93b6e65fd7ac
+name: P_EM_2026_06_07_BW_PT_Summer_Ready_Sale_Reminder
+brand: BUR
+channel: email
+category: reminder
+type: sale
+theme: summer
+braze_id: 530f2433-e559-4a6d-8311-93b6e65fd7ac
+dates:
+  send_date: '2026-06-07'
+  last_sent: '2026-06-07'
+tags: []
+sends:
+- id: 3ab80baf-cab5-4d8e-8b58-5100652b6e0b
+  channel: email
+  name: Variant 1
+  subject: The Summer Ready Sale is on
+- id: d0ed1c74-172e-453f-b393-5269a9252787
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 230612
+  total_delivered: 229497
+  total_opens: 120204
+  total_clicks: 625
+  open_rate: 0.5212
+  click_rate: 0.0027
+  total_revenue: 35666.0
+  total_bounces: 29
+  total_unsubscribes: 189
+schedule_type: time_based
+_filename: p_em_2026_06_07_bw_pt_summer_ready_sale_reminder.yaml

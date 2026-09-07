@@ -1,0 +1,75 @@
+id: klaviyo-01JEEG5F29J0XR853HE94NGYAN
+name: '12/9: BFCM Ext: BNDL Re-Send'
+brand: TI
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2024-12-06'
+  inferred_send_type: scheduled
+  first_sent: '2024-12-09T07:00:00+00:00'
+  last_sent: '2024-12-09T07:00:00+00:00'
+sends:
+- id: 01JEEG5F3D8ZH6XK7JRT32RS1J
+  channel: email
+  name: '12/9: BFCM Ext: BNDL Re-Send'
+  subject: Decisions Are Hard. We Can Help.
+  preheader: Shop 25% off now, pick a fabric later!
+  html_file: html/129-bfcm-ext-bndl-re-send.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/c5349ce2-993d-4912-81a1-def6a6e7cfcf.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/cb797afd-cba5-4b2a-bbc7-c97aac729d62.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/fb9c5d31-8105-4304-8064-c096ca0bffa0.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/d71bccdb-946f-4200-bbc8-58e870e60678.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/91b3c069-38d1-4578-9309-82b739dc4bc4.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/48f8b0bf-f674-4de6-83a6-f00ae0bfb57e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/fc02d579-56ce-4878-a4b5-78c75c7afabf.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/8ec81978-23df-4a24-b2d4-d3d8c39039c0.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/ae28487e-1bda-48c7-865b-0cc622fea62f.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/968d9574-d110-40c9-b59b-aabf8a89f2b7.gif
+  screenshot: screenshots/129-bfcm-ext-bndl-re-send.png
+performance_summary:
+  total_sends: 104467
+  total_delivered: 103967
+  total_opens: 34146
+  total_clicks: 777
+  unique_opens: 24743
+  unique_clicks: 230
+  open_rate: 0.2368
+  click_rate: 0.0022
+  total_open_rate: 0.3269
+  total_click_rate: 0.0074
+  total_unsubscribes: 50
+  total_bounces: 500
+klaviyo_type: campaign
+klaviyo_campaign_id: 01JEEG5F29J0XR853HE94NGYAN
+klaviyo_message_id: 01JEEG5F3D8ZH6XK7JRT32RS1J
+structure:
+  image_count: 27
+  link_count: 28
+  has_gif: true
+  hero_width: 600
+  layout_type: product_grid
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: ti-cyber-week-ext-2024-12-03
+    name: Cyber Week Ext
+    start_date: '2024-12-03'
+    end_date: '2024-12-10'
+    discount: null
+    type: null
+  primary_sale:
+    id: ti-cyber-week-ext-2024-12-03
+    name: Cyber Week Ext
+    start_date: '2024-12-03'
+    end_date: '2024-12-10'
+    discount: null
+    type: null
+  sale_name: Cyber Week Ext
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-03-12T11:18:49.524583'

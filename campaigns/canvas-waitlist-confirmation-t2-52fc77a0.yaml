@@ -1,0 +1,25 @@
+id: 52fc77a0-6d1f-44fe-a622-6c6c9a58b73e
+name: TRG_EM_2024_CZ_D_WC_Waitlist_Confirmation_2
+brand: CZ
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 0946fb1a-e2ca-4c08-9b5a-d8d5474cefaa
+canvas_name: Waitlist Confirmation
+flow_type: other_flow
+sequence_position: 2
+subject: You're on the list!
+preheader: You'll be the first to know when the next batch lands
+sends:
+- id: 52fc77a0-6d1f-44fe-a622-6c6c9a58b73e
+  channel: email
+  name: TRG_EM_2024_CZ_D_WC_Waitlist_Confirmation_2
+  subject: You're on the list!
+  preheader: You'll be the first to know when the next batch lands
+  html_file: html/canvas-waitlist-confirmation-t2-52fc77a0.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-18T04:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary: {}

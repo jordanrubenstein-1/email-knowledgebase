@@ -1,0 +1,35 @@
+id: 23fcbab8-7d50-40e3-94e1-c5664d6c0c86
+name: SEG_2024_09_20_PT_CZ_CZ_NYC_Fall_Design_Series_Events_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: seasonal
+theme: fall
+braze_id: 23fcbab8-7d50-40e3-94e1-c5664d6c0c86
+dates:
+  send_date: '2024-09-20'
+  inferred_send_type: local_time
+  first_sent: '2024-09-19T19:00:02+00:00'
+  last_sent: '2024-09-20T15:00:24+00:00'
+tags: []
+sends:
+- id: 5d5d9296-7218-4f31-b953-11b5d58e9fdf
+  channel: email
+  name: Variant 1
+  subject: 'Join Us: Fall Floral Workshop at Soho Flagship'
+  html_file: html/seg_2024_09_20_pt_cz_cz_nyc_fall_design_series_events_email.html
+  screenshot: screenshots/seg_2024_09_20_pt_cz_cz_nyc_fall_design_series_events_email.png
+- id: 5351ccfa-36c0-487a-a307-01012c8c2cbd
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 13411
+  total_delivered: 13402
+  total_opens: 8107
+  total_clicks: 54
+  open_rate: 0.6045
+  click_rate: 0.004
+  total_revenue: 5204.97
+  total_unsubscribes: 6
+_filename: seg_2024_09_20_pt_cz_cz_nyc_fall_design_series_events_email.yaml
+schedule_type: time_based

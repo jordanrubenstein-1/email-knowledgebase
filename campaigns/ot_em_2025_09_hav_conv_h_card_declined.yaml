@@ -1,0 +1,30 @@
+id: c404ab69-aaa9-17e6-3360-a8bbb9e7e040
+name: OT_EM_2025_09_HAV_CONV_H_Card_Declined
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: c404ab69-aaa9-17e6-3360-a8bbb9e7e040
+dates:
+  first_sent: '2025-01-08T19:00:00+00:00'
+  last_sent: '2026-06-07T18:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: 3e09a244-5f1a-4855-8b91-af49203a585c
+  channel: email
+  name: Variant 1
+  subject: 'Action Needed: Payment Method Declined'
+- id: 697df3a6-772d-4eb3-bb3e-0d08b60277fa
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 10
+  total_delivered: 10
+  total_opens: 9
+  total_clicks: 3
+  open_rate: 0.9
+  click_rate: 0.3
+schedule_type: api_triggered
+_filename: ot_em_2025_09_hav_conv_h_card_declined.yaml

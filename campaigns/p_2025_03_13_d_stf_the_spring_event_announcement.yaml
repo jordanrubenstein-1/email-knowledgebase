@@ -1,0 +1,54 @@
+id: 33024c5b-c805-4e5c-8790-480858303f61
+name: P_2025_03_13_D_STF_The_Spring_Event_Announcement
+brand: STF
+channel: email
+category: sale_promo
+type: seasonal
+theme: spring
+braze_id: 33024c5b-c805-4e5c-8790-480858303f61
+dates:
+  send_date: '2025-03-13'
+  inferred_send_type: local_time
+  first_sent: '2025-03-12T17:06:57+00:00'
+  last_sent: '2025-03-13T17:00:41+00:00'
+tags: []
+sends:
+- id: 69b0b50d-13f4-4ea9-8994-bb4a0238f3a9
+  channel: email
+  name: Variant 1
+  subject: It’s On! Shop up to 25% off
+  preheader: Refresh your nest during our Spring Event
+  html_file: html/p_2025_03_13_d_stf_the_spring_event_announcement.html
+  screenshot: screenshots/p_2025_03_13_d_stf_the_spring_event_announcement.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0bcb8fe3cc60067f387d9/original.png?1741733047
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0bcd0155ada00642039cb/original.png?1741733071
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0bcc253e0f50067fb6a73/original.png?1741733058
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d1fd22b0644900658288fd/original.gif?1741815074
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0bca1fe3cc60067f387bb/original.png?1741733025
+- id: 8e286eba-19c5-49a1-a8f4-17bb25b98f5e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 11083
+  total_delivered: 10956
+  total_opens: 6284
+  total_clicks: 278
+  open_rate: 0.567
+  click_rate: 0.0251
+  total_revenue: 19744.0
+  total_unsubscribes: 44
+  ga4:
+    sessions: 353
+    purchases: 8
+    revenue: 1345.45
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.971309'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.066167'
+schedule_type: time_based

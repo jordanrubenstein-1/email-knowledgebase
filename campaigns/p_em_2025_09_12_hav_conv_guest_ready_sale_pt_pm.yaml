@@ -1,0 +1,33 @@
+id: 0b92384b-4d63-4e81-af00-6a6ac7e4fc2c
+name: P_EM_2025_09_12_HAV_CONV_Guest_Ready_Sale_PT_PM
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 0b92384b-4d63-4e81-af00-6a6ac7e4fc2c
+dates:
+  send_date: '2025-09-12'
+  first_sent: '2025-09-12T19:09:18+00:00'
+  last_sent: '2025-09-13T01:17:08+00:00'
+  inferred_send_type: scheduled
+tags:
+- BLASTS-2025
+sends:
+- id: 7cf6266e-534e-4d16-ba61-67e478d9096e
+  channel: email
+  name: Variant 1
+  subject: Welcome guests in style (and save up to 20%)
+- id: 90b01dd4-2813-4071-8fbc-273bdac499b3
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41579
+  total_delivered: 41546
+  total_opens: 24059
+  total_clicks: 203
+  open_rate: 0.5786
+  click_rate: 0.0049
+  total_unsubscribes: 48
+schedule_type: time_based
+_filename: p_em_2025_09_12_hav_conv_guest_ready_sale_pt_pm.yaml

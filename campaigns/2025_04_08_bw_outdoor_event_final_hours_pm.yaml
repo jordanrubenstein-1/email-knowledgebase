@@ -1,0 +1,79 @@
+id: a24e16a4-5166-4200-9d7d-9bb4d5cdf038
+name: 2025_04_08_BW_Outdoor_Event_Final_Hours_PM
+brand: BUR
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: a24e16a4-5166-4200-9d7d-9bb4d5cdf038
+dates:
+  send_date: '2025-04-08'
+  inferred_send_type: local_time
+  first_sent: '2025-04-08T03:07:59+00:00'
+  last_sent: '2025-04-09T02:02:56+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 5c41cfd3-c885-4e65-8a57-ad7701921acf
+  channel: email
+  name: Variant 1
+  subject: The sun is setting on 20% off…
+  preheader: The Outdoor Event ends at midnight.
+- id: 5af8ed63-5414-4ff5-9a33-931a06de7df4
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 262324
+  total_delivered: 260628
+  total_opens: 90000
+  total_clicks: 358
+  open_rate: 0.3431
+  click_rate: 0.0014
+  total_revenue: 60544.0
+  total_bounces: 1
+  total_unsubscribes: 87
+  ga4:
+    sessions: 214
+    purchases: 1
+    revenue: 798.68
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.059144'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-burrow-2025-04-09
+    name: Burrow
+    start_date: '2025-04-09'
+    end_date: '2025-04-09'
+    discount: "Friends and Family\nTiered sale: 20% off orders <$2k / 25% off orders\
+      \ ≥ $2k \nCode-based early access for retail only: FRIENDS25\nFree shipping\
+      \ on all orders"
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-burrow-2025-04-09
+    name: Burrow
+    start_date: '2025-04-09'
+    end_date: '2025-04-09'
+    discount: "Friends and Family\nTiered sale: 20% off orders <$2k / 25% off orders\
+      \ ≥ $2k \nCode-based early access for retail only: FRIENDS25\nFree shipping\
+      \ on all orders"
+    type: null
+  sale_name: Burrow
+  sale_discount: "Friends and Family\nTiered sale: 20% off orders <$2k / 25% off orders\
+    \ ≥ $2k \nCode-based early access for retail only: FRIENDS25\nFree shipping on\
+    \ all orders"
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:37.275363'
+schedule_type: time_based

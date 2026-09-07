@@ -1,0 +1,36 @@
+id: bae13144-ff1d-4141-8ad9-4bd07c3faea5
+name: P_EM_2026_01_02_ID_D_End_of_Year_Sale_Final_Hours_Designed_Version
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: bae13144-ff1d-4141-8ad9-4bd07c3faea5
+dates:
+  send_date: '2026-01-02'
+  inferred_send_type: local_time
+  first_sent: '2026-01-01T17:22:05+00:00'
+  last_sent: '2026-01-02T17:16:30+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 653286fb-cad9-472e-9639-007f0057654e
+  channel: email
+  name: Variant 1
+  subject: Final Hours to Save 25%
+  preheader: Our End of Year Event ends tonight.
+- id: 5492f7f8-62e8-45b7-99ad-3baffe5a4aa4
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 105405
+  total_delivered: 104505
+  total_opens: 46851
+  total_clicks: 300
+  open_rate: 0.4445
+  click_rate: 0.0028
+  total_revenue: 130098.97
+  total_bounces: 3
+  total_unsubscribes: 163
+_filename: p_em_2026_01_02_id_d_end_of_year_sale_final_hours_designed_v.yaml
+schedule_type: time_based

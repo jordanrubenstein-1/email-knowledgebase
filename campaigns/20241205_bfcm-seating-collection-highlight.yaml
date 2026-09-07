@@ -1,0 +1,52 @@
+id: 1a0ea1a1-ea19-46a8-affa-37b7405034db
+name: 20241205_BFCM-Seating-Collection-Highlight
+brand: BUR
+channel: email
+category: product_launch
+type: announcement
+theme: black_friday
+braze_id: 1a0ea1a1-ea19-46a8-affa-37b7405034db
+dates:
+  inferred_send_type: local_time
+  first_sent: '2024-12-04T21:24:51+00:00'
+  last_sent: '2024-12-05T17:15:12+00:00'
+tags: []
+sends:
+- id: c31750de-0c83-44cd-b280-5191de81d2cb
+  channel: email
+  name: Variant 1
+  subject: Modular seating, delivered to your door
+  preheader: Plus 25% off during Cyber Week sale.
+- id: 53d997f2-30f2-4f54-b1f0-3f73fd625006
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 483
+    purchases: 1
+    revenue: 2167.56
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.558785'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-cyber-week-ext-2024-12-04
+    name: Cyber Week Ext
+    start_date: '2024-12-04'
+    end_date: '2024-12-10'
+    discount: null
+    type: null
+  primary_sale:
+    id: bur-cyber-week-ext-2024-12-04
+    name: Cyber Week Ext
+    start_date: '2024-12-04'
+    end_date: '2024-12-10'
+    discount: null
+    type: null
+  sale_name: Cyber Week Ext
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:31.368168'
+schedule_type: time_based

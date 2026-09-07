@@ -1,0 +1,35 @@
+id: 44b7db78-91d9-4582-b9b3-f5bc570d6f42
+name: P_2024_11_21_ID_BFCM_Sale_Reminder_Sofas_Sectionals_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: black_friday
+braze_id: 44b7db78-91d9-4582-b9b3-f5bc570d6f42
+dates:
+  send_date: '2024-11-21'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-21T07:45:02+00:00'
+  last_sent: '2024-11-21T17:15:03+00:00'
+tags: []
+sends:
+- id: 6eec96c6-0398-402d-bd03-d5ca1a5284f0
+  channel: email
+  name: Variant 1
+  subject: The Best Sofas & Sectionals At The Best Price
+  preheader: Here’s your sign to finally place that order.
+- id: 0afaa274-0fca-4a97-af47-7564ae96674e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 69455
+  total_delivered: 68929
+  total_opens: 22058
+  total_clicks: 585
+  open_rate: 0.3176
+  click_rate: 0.0084
+  total_revenue: 258102.17
+  total_bounces: 1
+  total_unsubscribes: 113
+_filename: p_2024_11_21_id_bfcm_sale_reminder_sofas_sectionals_email.yaml
+schedule_type: time_based

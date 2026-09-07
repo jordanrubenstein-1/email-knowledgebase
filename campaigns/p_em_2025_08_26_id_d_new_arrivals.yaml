@@ -1,0 +1,63 @@
+id: 626ceb19-f563-4133-90d4-18dbb54457a4
+name: P_EM_2025_08_26_ID_D_New_Arrivals
+brand: ID
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 626ceb19-f563-4133-90d4-18dbb54457a4
+dates:
+  send_date: '2025-08-26'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-26T04:44:03+00:00'
+  last_sent: '2025-08-26T17:15:15+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: e87e82b9-a983-4618-9f1c-c9259b6bb033
+  channel: email
+  name: Variant 1
+  subject: New & On Sale
+  preheader: The season’s newest arrivals, ready to come home with you.
+- id: 591805c1-906a-4ec6-9a2a-9ffedf577123
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 203840
+  total_delivered: 201415
+  total_opens: 100278
+  total_clicks: 1063
+  open_rate: 0.4919
+  click_rate: 0.0052
+  total_revenue: 296742.0
+  total_bounces: 5
+  total_unsubscribes: 529
+  ga4:
+    sessions: 1414
+    purchases: 7
+    revenue: 19594.71
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.092190'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-04'
+    discount: 25% off sitewide
+    type: null
+  primary_sale:
+    id: id-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-04'
+    discount: 25% off sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 25% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:31.465484'
+schedule_type: time_based

@@ -1,0 +1,33 @@
+id: 9e3ca820-c160-4cd5-bf1d-db8dd01598e5
+name: P_2024_08_05_CZ_D_PR_New_Arrivals_Email
+brand: CZ
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 9e3ca820-c160-4cd5-bf1d-db8dd01598e5
+dates:
+  send_date: '2024-08-05'
+  last_sent: '2024-08-05'
+tags:
+- batch and blast
+sends:
+- id: 83a71fe8-8328-4b13-8fa1-2b8ebbb9da93
+  channel: email
+  name: Variant 1
+  subject: New Arrivals
+  preheader: Discover our latest arrivals from around the globe.
+  html_file: html/p_2024_08_05_cz_d_pr_new_arrivals_email.html
+  screenshot: screenshots/p_2024_08_05_cz_d_pr_new_arrivals_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66aceb33a4d376005c0608e3/original.gif?1722608435
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66aceb03610f510078b530cc/original.jpg?1722608387
+- id: 956e259b-df09-497f-b904-19dd774d6b7a
+  channel: other
+  name: Control Group
+performance_summary: {}
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.168903'
+schedule_type: time_based

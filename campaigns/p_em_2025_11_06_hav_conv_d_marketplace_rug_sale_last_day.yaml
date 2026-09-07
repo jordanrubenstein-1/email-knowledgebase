@@ -1,0 +1,34 @@
+id: 9888635d-1fe4-4a85-b923-40bf0de561d6
+name: P_EM_2025_11_06_HAV_CONV_D_MARKETPLACE_RUG_SALE_LAST_DAY
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 9888635d-1fe4-4a85-b923-40bf0de561d6
+dates:
+  send_date: '2025-11-06'
+  first_sent: '2025-11-06T01:24:10+00:00'
+  last_sent: '2025-11-07T01:15:28+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 1ab9c51b-8420-4c8f-a408-98c8f97c974d
+  channel: email
+  name: Variant 1
+  subject: Tomorrow’s Too Late.
+  preheader: Your final chance to save up to 60% on designer rugs.
+- id: ff3068a2-4bd1-4b64-98cc-272251ba4faa
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 16718
+  total_delivered: 16707
+  total_opens: 7725
+  total_clicks: 84
+  open_rate: 0.4621
+  click_rate: 0.005
+  total_unsubscribes: 18
+schedule_type: time_based
+_filename: p_em_2025_11_06_hav_conv_d_marketplace_rug_sale_last_day.yaml

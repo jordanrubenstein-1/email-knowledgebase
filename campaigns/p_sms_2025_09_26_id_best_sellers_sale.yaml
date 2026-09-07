@@ -1,0 +1,30 @@
+id: ec88afce-a1c4-4c65-8cb0-247a1d5229c1
+name: P_SMS_2025_09_26_ID_Best_Sellers_Sale
+brand: ID
+channel: sms
+category: sale_promo
+type: sale
+theme: null
+braze_id: ec88afce-a1c4-4c65-8cb0-247a1d5229c1
+dates:
+  send_date: '2025-09-26'
+  inferred_send_type: local_time
+  first_sent: '2025-09-26T04:10:44+00:00'
+  last_sent: '2025-09-26T20:30:22+00:00'
+tags: []
+sends:
+- id: b8dcd294-273b-4008-948a-bd6cce3d92c7
+  channel: sms
+  name: Variant 1
+- id: 6d40490c-b128-4531-95d5-954c186cd46c
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 52119
+  total_delivered: 49621
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 10175.0
+schedule_type: time_based

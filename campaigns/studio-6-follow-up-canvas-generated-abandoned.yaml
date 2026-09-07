@@ -1,0 +1,41 @@
+id: 3f609845-f3c2-4ca6-b9a7-ff881590f36b
+name: Studio 6 Follow Up Canvas Generated Abandoned
+brand: HAV
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: 3f609845-f3c2-4ca6-b9a7-ff881590f36b
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2026-06-16T13:00:00+00:00'
+  last_sent: '2026-06-16T14:00:00+00:00'
+tags: []
+sends:
+- id: a7a0474d-e16f-472c-bd66-7fcb8e5ce93f
+  channel: email
+  name: OT_EM_2026_06_HAV_PC_H_Studio6_Follow_Up_3D_Room_Abandoned
+  subject: We made something for your room
+  preheader: ''
+  step_id: fdbb8960-fe00-4409-9403-d5a46a7430ce
+performance_summary:
+  total_entries: 2
+  total_sends: 2
+  total_delivered: 2
+  total_opens: 1
+  total_clicks: 1
+  open_rate: 0.5
+  click_rate: 0.5
+canvas_steps:
+- id: b5d7e616-d17b-4419-a65c-3ed1b7d5500d
+  name: Step
+  type: delay
+- id: fdbb8960-fe00-4409-9403-d5a46a7430ce
+  name: OT_EM_2026_06_HAV_PC_H_Studio6_Follow_Up_3D_Room_Abandoned
+  type: message
+  channel: email
+  subject: We made something for your room
+  preheader: ''
+_filename: studio-6-follow-up-canvas-generated-abandoned.yaml

@@ -1,0 +1,34 @@
+id: b20f276d-32bb-4b9b-ac50-69ba8a526a36
+name: P_2024_10_27_HAV_Conv_Shop_Edit_Holidays_Email
+brand: HAV
+channel: email
+category: editorial
+type: seasonal
+theme: christmas
+braze_id: b20f276d-32bb-4b9b-ac50-69ba8a526a36
+dates:
+  send_date: '2024-10-27'
+  first_sent: '2024-10-26T23:33:56+00:00'
+  last_sent: '2024-10-27T17:15:03+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 301f6600-f0f1-4d92-82e8-cf84c2c9f7ed
+  channel: email
+  name: Variant 1
+  subject: It’s beginning to look a lot like holiday
+  preheader: Celebrate the season with designer-loved pieces.
+- id: 68782048-cb71-48bb-9dec-2f9cea68a69e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 34447
+  total_delivered: 34416
+  total_opens: 20382
+  total_clicks: 254
+  open_rate: 0.5917
+  click_rate: 0.0074
+  total_bounces: 2
+  total_unsubscribes: 53
+schedule_type: time_based
+_filename: p_2024_10_27_hav_conv_shop_edit_holidays_email-b20f276d.yaml

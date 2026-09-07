@@ -1,0 +1,41 @@
+id: e7cd4e53-4cc5-4c5d-83e1-d1af0cc1a28b
+name: P_EM_2026_03_16_HAV_CONV_D_Havenly_Lighting_Collection
+brand: HAV
+channel: email
+category: product_launch
+type: announcement
+theme: null
+braze_id: e7cd4e53-4cc5-4c5d-83e1-d1af0cc1a28b
+dates:
+  send_date: '2026-03-16'
+  inferred_send_type: local_time
+  first_sent: '2026-03-16T02:06:14+00:00'
+  last_sent: '2026-03-17T02:01:38+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 48d861b0-4888-42e1-b415-66c0d4800809
+  channel: email
+  name: Variant 1
+  subject: Introducing Lumens Lighting
+  preheader: Designer-curated pieces + Birthday Sale savings
+  html_file: html/p_em_2026_03_16_hav_conv_d_havenly_lighting_collection.html
+  screenshot: screenshots/p_em_2026_03_16_hav_conv_d_havenly_lighting_collection.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b456c5b552610063b8ff15/original.png?1773426373
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b456a58322b10063575803/original.gif?1773426341
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b456b990f03f0064cee8b9/original.gif?1773426360
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b456550bafd00073a1fa09/original.png?1773426261
+- id: 3ea411a1-3f06-480d-afff-ecdb3afc9117
+  channel: email
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 168
+    purchases: 2
+    revenue: 516.32
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.206726'
+    source: snowflake
+    channel: email
+schedule_type: time_based

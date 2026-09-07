@@ -1,0 +1,109 @@
+id: a7a8c5b1-0f04-4383-9e73-bccbffe06075
+name: P_2025_02_20_PT_CZ_PR_NYC_PDS_Extension_Reminder
+brand: CZ
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: a7a8c5b1-0f04-4383-9e73-bccbffe06075
+dates:
+  send_date: '2025-02-20'
+  inferred_send_type: local_time
+  first_sent: '2025-02-20T01:07:20+00:00'
+  last_sent: '2025-02-21T01:00:24+00:00'
+tags: []
+sends:
+- id: 743b2894-6589-4bcc-9f35-e9c0d6904d58
+  channel: email
+  name: Variant 1
+  subject: NYC, we extended our Presidents Day Event!
+  html_file: html/p_2025_02_20_pt_cz_pr_nyc_pds_extension_reminder.html
+  screenshot: screenshots/p_2025_02_20_pt_cz_pr_nyc_pds_extension_reminder.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b654faf0ffa200656d5b17/original.png?1740002553
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b657e38365b60067731624/original.png?1740003297
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b65504d783060066dae454/original.png?1740002563
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b65a13d5d05e008350f75b/original.png?1740003859
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b658a725aeeb006419b965/original.png?1740003494
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b657ff8365b60077730256/original.png?1740003326
+- id: 562b23e0-4dd6-45b4-a30c-cbd879332e9f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 12079
+  total_delivered: 12047
+  total_opens: 7150
+  total_clicks: 45
+  open_rate: 0.5919
+  click_rate: 0.0037
+  total_revenue: 4499.48
+  total_bounces: 1
+  total_unsubscribes: 15
+  ga4:
+    sessions: 59
+    purchases: 1
+    revenue: 1826.94
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.924639'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-citizenry-2025-02-19
+    name: The Citizenry
+    start_date: '2025-02-19'
+    end_date: '2025-02-24'
+    discount: 'Up to 20% Off Select Categories
+
+      20% Off Rugs + Bedding, 15% Off Furniture, Baskets, + Accents
+
+      + Up to 60% off Archive Sale
+
+
+      EXTENSION OFFER
+
+      Up to 20% Select Categories
+
+      20% off Bedding, 15% Off Furniture
+
+      + Up to 60% off Archive Sale'
+    type: null
+  primary_sale:
+    id: cz-the-citizenry-2025-02-19
+    name: The Citizenry
+    start_date: '2025-02-19'
+    end_date: '2025-02-24'
+    discount: 'Up to 20% Off Select Categories
+
+      20% Off Rugs + Bedding, 15% Off Furniture, Baskets, + Accents
+
+      + Up to 60% off Archive Sale
+
+
+      EXTENSION OFFER
+
+      Up to 20% Select Categories
+
+      20% off Bedding, 15% Off Furniture
+
+      + Up to 60% off Archive Sale'
+    type: null
+  sale_name: The Citizenry
+  sale_discount: 'Up to 20% Off Select Categories
+
+    20% Off Rugs + Bedding, 15% Off Furniture, Baskets, + Accents
+
+    + Up to 60% off Archive Sale
+
+
+    EXTENSION OFFER
+
+    Up to 20% Select Categories
+
+    20% off Bedding, 15% Off Furniture
+
+    + Up to 60% off Archive Sale'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:36.690010'
+schedule_type: time_based

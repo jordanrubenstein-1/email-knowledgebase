@@ -1,0 +1,31 @@
+id: 31ad305f-931b-a73b-e338-2c836bdcac37
+name: OT_EM_2025_03_HAV_CONV_H_Order_Confirmation_Design_Package
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 31ad305f-931b-a73b-e338-2c836bdcac37
+dates:
+  first_sent: '2024-08-26T21:00:00+00:00'
+  last_sent: '2026-06-09T19:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: 3450cbf3-559f-4106-bf85-6c54956b2b67
+  channel: email
+  name: Variant 1
+  subject: Design Package Payment Confirmation
+- id: 4903ed2f-c927-4d4c-a39a-d33737b6c56f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 1057
+  total_delivered: 1052
+  total_opens: 1020
+  total_clicks: 114
+  open_rate: 0.965
+  click_rate: 0.1079
+  total_bounces: 3
+schedule_type: api_triggered
+_filename: ot_em_2025_03_hav_conv_h_order_confirmation_design_package.yaml

@@ -1,0 +1,46 @@
+id: fe71b216-6209-4137-a86e-0a737ef36c86
+name: P_EM_2026_03_06_CZ_D_PR_UGC_With_STO
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: fe71b216-6209-4137-a86e-0a737ef36c86
+dates:
+  send_date: '2026-03-06'
+  inferred_send_type: sto
+  first_sent: '2026-03-05T10:08:10+00:00'
+  last_sent: '2026-03-07T09:25:12+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- ugc
+sends:
+- id: f5524505-3aaa-4141-bae8-80eaf9b31111
+  channel: email
+  name: Variant 1
+  subject: Wait Until You See This
+  preheader: Our community styled spring in the best way.
+  html_file: html/p_em_2026_03_06_cz_d_pr_ugc_with_sto.html
+  screenshot: screenshots/p_em_2026_03_06_cz_d_pr_ugc_with_sto.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a74173e36fdb00639faaa3/original.png?1772568946
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a741602030fb0063afb785/original.png?1772568927
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a742ee36e66400636dca98/original.png?1772569325
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a742bc6079c000649a83a7/original.png?1772569275
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a7430b36e66400636dca9c/original.png?1772569355
+- id: 77c04291-4552-4ad8-95e3-3ae696be87a7
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 29017
+  total_delivered: 28981
+  total_opens: 14105
+  total_clicks: 353
+  open_rate: 0.4861
+  click_rate: 0.0122
+  total_bounces: 4
+  total_unsubscribes: 38
+schedule_type: time_based

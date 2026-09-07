@@ -1,0 +1,39 @@
+id: a314b238-7026-4878-81c8-2b23d6cabaa6
+name: P_2025_2_18_HAV_PC_PDW_Surprise_Ext_Announcement_Email
+brand: HAV
+channel: email
+category: other
+type: product_launch
+theme: null
+braze_id: a314b238-7026-4878-81c8-2b23d6cabaa6
+dates:
+  send_date: '2025-02-18'
+  first_sent: '2025-02-18T04:56:54+00:00'
+  last_sent: '2025-02-18T18:15:05+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: b9ff88d5-7a94-451a-8e58-a933063c42f7
+  channel: email
+  name: Variant 1
+  subject: Presidents Day Sale, EXTENDED!
+  preheader: We’d never let you miss out on 50% off.
+- id: aff71e29-578a-4d1c-8c09-e76b6a887c93
+  channel: other
+  name: Control Group
+- id: e43c116c-6cc4-41ed-9306-3afc77a3d0b6
+  channel: email
+  name: Variant 2
+  subject: Presidents Day Sale, EXTENDED!
+  preheader: We’d never let you miss out on 50% off.
+performance_summary:
+  total_sends: 184863
+  total_delivered: 181804
+  total_opens: 84614
+  total_clicks: 459
+  open_rate: 0.4577
+  click_rate: 0.0025
+  total_bounces: 6
+  total_unsubscribes: 357
+schedule_type: time_based
+_filename: p_2025_2_18_hav_pc_pdw_surprise_ext_announcement_email.yaml

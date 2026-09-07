@@ -1,0 +1,53 @@
+id: 49bd636b-2a8d-4453-bc88-f6e023f7e735
+name: P_2024_11_11_HAV_PC_Pre_BFCM_Sale_Last_Chance_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: black_friday
+braze_id: 49bd636b-2a8d-4453-bc88-f6e023f7e735
+dates:
+  send_date: '2024-11-11'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-11T06:28:29+00:00'
+  last_sent: '2024-11-11T18:15:04+00:00'
+tags: []
+sends:
+- id: 1c72cd13-8739-41cf-8cf1-4f1503db9a10
+  channel: email
+  name: Variant 1
+  subject: We’d hate for you to miss this…
+  preheader: Last chance for 50% off design services
+  html_file: html/p_2024_11_11_hav_pc_pre_bfcm_sale_last_chance_email.html
+  screenshot: screenshots/p_2024_11_11_hav_pc_pre_bfcm_sale_last_chance_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672d13f9a2c69a00710a1421/original.png?1731007480
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672d13d8a2c69a00640a1b9b/original.png?1731007448
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672a80d7caa0390065ccbe32/original.jpg?1730838743
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672d13e79060bc0074a87293/original.gif?1731007463
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672d140b9060bc0066a8744e/original.png?1731007499
+- id: c82b1ba2-6fbc-4195-b346-4fda26575eb0
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 155882
+  total_delivered: 154295
+  total_opens: 74543
+  total_clicks: 587
+  open_rate: 0.4782
+  click_rate: 0.0038
+  total_bounces: 2
+  total_unsubscribes: 525
+  ga4:
+    sessions: 467
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.235443'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.146621'
+schedule_type: time_based

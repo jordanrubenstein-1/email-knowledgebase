@@ -1,0 +1,35 @@
+id: 06351f4b-725e-4398-aa18-e0d86ede5da9
+name: P_EM_2025_12_11_HAV_CONV_D_Gifting
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 06351f4b-725e-4398-aa18-e0d86ede5da9
+dates:
+  send_date: '2025-12-11'
+  first_sent: '2025-12-10T21:50:49+00:00'
+  last_sent: '2025-12-11T17:16:00+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 1a0385a1-4daa-4b1c-af82-a72d4539cf00
+  channel: email
+  name: Variant 1
+  subject: Don’t miss Christmas delivery 🎄
+  preheader: 'PSA procrastinators: Gift cards ordered by the 18th arrive in time to
+    save Christmas. '
+- id: f4141113-bc76-4193-b9a1-ea3c8b76c5f2
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 43633
+  total_delivered: 43609
+  total_opens: 22409
+  total_clicks: 61
+  open_rate: 0.5136
+  click_rate: 0.0014
+  total_unsubscribes: 64
+schedule_type: time_based
+_filename: p_em_2025_12_11_hav_conv_d_gifting.yaml

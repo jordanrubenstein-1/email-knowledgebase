@@ -1,0 +1,59 @@
+id: 6fb6d0be-e246-4ea4-8182-c55ccde80edc
+name: P_2024_08_19_D_SF_RTS_Quick_Ship_Email
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 6fb6d0be-e246-4ea4-8182-c55ccde80edc
+dates:
+  send_date: '2024-08-19'
+  inferred_send_type: local_time
+  first_sent: '2024-08-18T19:52:47+00:00'
+  last_sent: '2024-08-19T13:50:03+00:00'
+tags:
+- Batch and Blast/non-promo
+sends:
+- id: 94655c86-c13d-48e3-b45f-f9d99b2f3228
+  channel: email
+  name: Variant 1
+  subject: On the way! Ready-to-ship styles
+  preheader: why wait?
+  html_file: html/p_2024_08_19_d_sf_rts_quick_ship_email.html
+  screenshot: screenshots/p_2024_08_19_d_sf_rts_quick_ship_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66bf8a6eda84b2006564b532/original.gif?1723828846
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66bf8a6e1cf632006496bab0/original.gif?1723828846
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0058f1ba77/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66bf8a6e1cf632008b96b405/original.gif?1723828846
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66bf8a6e42c6a30071bc51fa/original.gif?1723828846
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66bf8a6eda84b2009264aab9/original.gif?1723828846
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66bf8a6eda84b2008364abbc/original.jpg?1723828846
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66bf8a6e42c6a3007fbc5218/original.gif?1723828846
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0063f11fb6/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66bf8a6e6613550074570bde/original.gif?1723828846
+- id: f8b8dda6-3c90-47cc-8caa-4f22bb5773c0
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 4035
+  total_delivered: 4023
+  total_opens: 1279
+  total_clicks: 324
+  open_rate: 0.317
+  click_rate: 0.0803
+  total_revenue: 3906.0
+  total_unsubscribes: 7
+  ga4:
+    sessions: 135
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.801647'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.481319'
+schedule_type: time_based

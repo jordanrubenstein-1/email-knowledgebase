@@ -1,0 +1,38 @@
+id: 51e2b60e-3691-4081-bbe3-248bd106ac44
+name: P_SMS_2025_10_06_BW_Union_Highlight
+brand: BUR
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: 51e2b60e-3691-4081-bbe3-248bd106ac44
+dates:
+  send_date: '2025-10-06'
+  inferred_send_type: local_time
+  first_sent: '2025-10-06T03:27:02+00:00'
+  last_sent: '2025-10-07T01:01:04+00:00'
+tags: []
+sends:
+- id: a5fd3c5c-4f67-4002-9124-d0953be41ce5
+  channel: sms
+  name: Variant 1
+- id: adcb3349-9880-4015-9417-0a30ced70c47
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 6402
+  total_delivered: 6229
+  total_opens: 0
+  total_clicks: 1532
+  open_rate: 0.0
+  click_rate: 0.2393
+  total_revenue: 3131.0
+  ga4:
+    sessions: 288
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.642920'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

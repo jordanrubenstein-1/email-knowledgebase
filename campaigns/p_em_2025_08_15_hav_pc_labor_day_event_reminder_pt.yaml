@@ -1,0 +1,36 @@
+id: 3ce40663-ce98-4983-8170-3c4efac3d70f
+name: P_EM_2025_08_15_HAV_PC_Labor_Day_Event_Reminder_PT
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 3ce40663-ce98-4983-8170-3c4efac3d70f
+dates:
+  send_date: '2025-08-15'
+  first_sent: '2025-08-15T17:35:16+00:00'
+  last_sent: '2025-08-15T17:37:49+00:00'
+  inferred_send_type: scheduled
+tags:
+- BLASTS-2025
+sends:
+- id: 3502b254-d977-42d1-ad77-5e27c9a677fe
+  channel: email
+  name: Variant 1
+  subject: Make room for memories this fall
+  preheader: 50% off design services happening now, Labor Day furniture and decor
+    deals right around the corner
+- id: 927e67ba-dcc8-4355-a3e1-5ef603242702
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 231462
+  total_delivered: 230830
+  total_opens: 98873
+  total_clicks: 399
+  open_rate: 0.4272
+  click_rate: 0.0017
+  total_bounces: 12
+  total_unsubscribes: 406
+schedule_type: time_based
+_filename: p_em_2025_08_15_hav_pc_labor_day_event_reminder_pt.yaml

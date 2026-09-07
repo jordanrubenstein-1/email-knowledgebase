@@ -1,0 +1,35 @@
+id: d9c9ae0f-f53a-452d-93d3-8de200854533
+name: P_2025_05_15_HAV_PC_Hideaway
+brand: HAV
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: d9c9ae0f-f53a-452d-93d3-8de200854533
+dates:
+  send_date: '2025-05-15'
+  first_sent: '2025-05-15T03:05:26+00:00'
+  last_sent: '2025-05-16T03:00:26+00:00'
+  inferred_send_type: local_time
+tags:
+- HideawayEmails
+sends:
+- id: c77c81ec-1660-4592-b2f3-c33692cd986f
+  channel: email
+  name: Variant 1
+  subject: 9 common kitchen reno regrets
+  preheader: Been there, done that.
+- id: 6acd4ee1-36c1-4492-92d2-8cba4a00d7c4
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 170779
+  total_delivered: 168222
+  total_opens: 74870
+  total_clicks: 1218
+  open_rate: 0.4384
+  click_rate: 0.0071
+  total_bounces: 10
+  total_unsubscribes: 143
+schedule_type: time_based
+_filename: p_2025_05_15_hav_pc_hideaway.yaml

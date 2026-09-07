@@ -1,0 +1,82 @@
+id: cb00a3dc-6b0c-446c-b38b-1e8f6662d8f2
+name: P_EM_2025_08_09_SF_D_PR_Trend_Pattern_Drenching
+brand: STF
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: cb00a3dc-6b0c-446c-b38b-1e8f6662d8f2
+dates:
+  send_date: '2025-08-09'
+  inferred_send_type: local_time
+  first_sent: '2025-08-08T22:34:11+00:00'
+  last_sent: '2025-08-09T17:00:48+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- print
+- prod
+- sale
+sends:
+- id: 29b30ead-a300-41a6-8dc2-319b1101bfa0
+  channel: email
+  name: Variant 1
+  subject: Walls Worth The Drama
+  preheader: pattern drench your space at 20% off
+  html_file: html/p_em_2025_08_09_sf_d_pr_trend_pattern_drenching.html
+  screenshot: screenshots/p_em_2025_08_09_sf_d_pr_trend_pattern_drenching.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6893b60a407827007455f642/original.png?1754510858
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68950db38a934700730dec69/original.png?1754598835
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689507978ee6620063a38607/original.png?1754597271
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6893b625aae5f00072576264/original.png?1754510884
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6893b611fb8c0c0073f2e055/original.png?1754510865
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6893b62e407827008455f5e3/original.png?1754510894
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68950da0393808007287da8e/original.gif?1754598816
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6893b5fbc28b7a009423c60e/original.png?1754510843
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6893b63547b20f00644649ff/original.png?1754510901
+- id: f3a87e8b-dbac-4b4d-9eb0-a365c756cb40
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41184
+  total_delivered: 41106
+  total_opens: 19232
+  total_clicks: 195
+  open_rate: 0.467
+  click_rate: 0.0047
+  total_revenue: 11848.0
+  total_bounces: 2
+  total_unsubscribes: 62
+  ga4:
+    sessions: 212
+    purchases: 2
+    revenue: 557.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.867744'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off Sitewide
+    type: null
+  primary_sale:
+    id: stf-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off Sitewide
+    type: null
+  sale_name: The Sunset Sale
+  sale_discount: 20% off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:36.643587'
+schedule_type: time_based

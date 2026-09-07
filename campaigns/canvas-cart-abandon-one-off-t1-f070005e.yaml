@@ -1,0 +1,32 @@
+id: f070005e-9403-498f-8a21-ea577a806204
+name: TRG_EM_2024_08_CZ_D_Cart_Abandon_One_Off_T3
+brand: CZ
+channel: email
+category: sale_promo
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: fe28bf55-5ec6-4894-a475-6df678331ae1
+canvas_name: Cart Abandon One Off
+flow_type: cart_abandonment
+sequence_position: 1
+subject: Your cart is waiting...
+preheader: You are almost there
+sends:
+- id: f070005e-9403-498f-8a21-ea577a806204
+  channel: email
+  name: TRG_EM_2024_08_CZ_D_Cart_Abandon_One_Off_T3
+  subject: Your cart is waiting...
+  preheader: You are almost there
+  html_file: html/canvas-cart-abandon-one-off-t1-f070005e.html
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2025-11-18T19:00:00Z'
+  last_sent: '2025-11-18T19:00:00Z'
+performance_summary:
+  total_sends: 3015
+  total_delivered: 3004
+  total_opens: 1768
+  total_clicks: 72
+  open_rate: 0.5864
+  click_rate: 0.0239
+  total_unsubscribes: 13

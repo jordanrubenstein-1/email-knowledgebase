@@ -1,0 +1,30 @@
+id: ad0fbe2d-838a-4f76-9a9f-e8a43868d6e9
+name: P_2025_3_31_Spring_Event_Last_Chance_SMS
+brand: ID
+channel: sms
+category: reminder
+type: seasonal
+theme: spring
+braze_id: ad0fbe2d-838a-4f76-9a9f-e8a43868d6e9
+dates:
+  send_date: '2025-03-31'
+  inferred_send_type: scheduled
+  first_sent: '2025-03-31T22:46:44+00:00'
+  last_sent: '2025-03-31T22:47:36+00:00'
+tags: []
+sends:
+- id: a8da88a4-f777-4000-8769-542cd1c36ef5
+  channel: other
+  name: Variant 1
+- id: ce9ffc3f-0442-43f2-ac57-615af2beab2b
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 60139
+  total_delivered: 53260
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 27528.0
+schedule_type: time_based

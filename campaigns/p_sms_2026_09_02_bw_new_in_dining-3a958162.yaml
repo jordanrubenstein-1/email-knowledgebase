@@ -1,0 +1,31 @@
+id: 3a958162-4d00-4753-8166-bc9948b62678
+name: P_SMS_2026_09_02_BW_New_In_Dining
+brand: BUR
+channel: sms
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 3a958162-4d00-4753-8166-bc9948b62678
+dates:
+  send_date: '2026-09-02'
+  first_sent: '2026-09-02T20:29:42+00:00'
+  last_sent: '2026-09-03T01:02:06+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 6ec0671b-0328-41bc-ba58-ba849738a0e2
+  channel: sms
+  name: Variant 1
+- id: 3de87b18-a8aa-42fc-a451-506cbf4ab46c
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 2761
+  total_delivered: 2620
+  total_opens: 0
+  total_clicks: 37
+  open_rate: 0.0
+  click_rate: 0.0134
+  total_revenue: 2047.0
+schedule_type: time_based
+_filename: p_sms_2026_09_02_bw_new_in_dining-3a958162.yaml

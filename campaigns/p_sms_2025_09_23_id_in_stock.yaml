@@ -1,0 +1,30 @@
+id: bbc2a357-31c7-4cfa-8f8d-99c1e88ccc0f
+name: P_SMS_2025_09_23_ID_In_Stock
+brand: ID
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: bbc2a357-31c7-4cfa-8f8d-99c1e88ccc0f
+dates:
+  send_date: '2025-09-23'
+  inferred_send_type: local_time
+  first_sent: '2025-09-23T03:39:33+00:00'
+  last_sent: '2025-09-24T01:01:58+00:00'
+tags: []
+sends:
+- id: c3004be1-ce6f-4e14-b2c7-b8e7bad7eca1
+  channel: sms
+  name: Variant 1
+- id: 32201b28-9d95-4acc-b019-eb9b28edd08c
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 52242
+  total_delivered: 50221
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 1620.0
+schedule_type: time_based

@@ -1,0 +1,58 @@
+id: klaviyo-01J1T0S08V92NE94QYY9R15HAS
+name: '7/4: Happy 4th + Sale Reminder'
+brand: TI
+channel: email
+category: reminder
+type: sale
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2024-07-02'
+  inferred_send_type: scheduled
+  first_sent: '2024-07-04T07:15:00+00:00'
+  last_sent: '2024-07-04T07:15:00+00:00'
+sends:
+- id: 01J1T0S0E8X4PD1GZNVB83GPCX
+  channel: email
+  name: '7/4: Happy 4th + Sale Reminder'
+  subject: Happy 4th! Here’s 20% OFF 💙
+  preheader: 'Sale ends soon. '
+  html_file: html/74-happy-4th-sale-reminder.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/83ac3a72-8629-40e1-8103-37d6c4dcfb94.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/10d7d716-3542-4227-9554-ed94afa6ac4b.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/42db4102-79b5-4056-8a12-1ad303e3e0d3.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/48f8b0bf-f674-4de6-83a6-f00ae0bfb57e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/890377ae-f582-4325-9029-2bd52d554750.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/38051eba-b616-478b-beba-85cf52bf0ddf.gif
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/e837328a-ce28-4c1d-a499-4dd88655ddbe.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/9ebe6773-d56a-46f1-9084-1c11fe37d152.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/fde9ab8b-f5ab-44b9-9e93-71f61956b6c2.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/e0036767-8997-49b1-a066-9db45e949b7d.jpeg
+  screenshot: screenshots/74-happy-4th-sale-reminder.png
+performance_summary:
+  total_sends: 104358
+  total_delivered: 103651
+  total_opens: 28113
+  total_clicks: 1522
+  unique_opens: 20659
+  unique_clicks: 649
+  open_rate: 0.198
+  click_rate: 0.0062
+  total_open_rate: 0.2694
+  total_click_rate: 0.0146
+  total_unsubscribes: 46
+  total_bounces: 707
+klaviyo_type: campaign
+klaviyo_campaign_id: 01J1T0S08V92NE94QYY9R15HAS
+klaviyo_message_id: 01J1T0S0E8X4PD1GZNVB83GPCX
+structure:
+  image_count: 21
+  link_count: 22
+  has_gif: true
+  hero_width: 600
+  layout_type: product_grid
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-03-12T11:18:48.889974'

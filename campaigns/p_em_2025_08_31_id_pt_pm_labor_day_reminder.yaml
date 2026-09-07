@@ -1,0 +1,63 @@
+id: 584e7ee5-eafd-473c-9c64-c93d04f4ecb7
+name: P_EM_2025_08_31_ID_PT_PM_Labor_Day_Reminder
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 584e7ee5-eafd-473c-9c64-c93d04f4ecb7
+dates:
+  send_date: '2025-08-31'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-31T16:33:02+00:00'
+  last_sent: '2025-09-01T01:02:47+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 2dd4f7c1-a468-461e-ae2d-0512de2eb66d
+  channel: email
+  name: Variant 1
+  subject: 'Reminder: Final days to lock in 25% off'
+  preheader: Order now, choose your fabric later - don’t miss out.
+- id: 7121480f-09da-41e7-bc69-906904753f01
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 181583
+  total_delivered: 180490
+  total_opens: 91335
+  total_clicks: 1482
+  open_rate: 0.503
+  click_rate: 0.0082
+  total_revenue: 401396.0
+  total_bounces: 19
+  total_unsubscribes: 1842
+  ga4:
+    sessions: 1169
+    purchases: 14
+    revenue: 36153.71
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.073272'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-04'
+    discount: 25% off sitewide
+    type: null
+  primary_sale:
+    id: id-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-04'
+    discount: 25% off sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 25% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:42.460641'
+schedule_type: time_based

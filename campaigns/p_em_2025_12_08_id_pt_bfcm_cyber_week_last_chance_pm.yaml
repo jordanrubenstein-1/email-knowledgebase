@@ -1,0 +1,36 @@
+id: 2e2de6ae-46cb-4812-8453-08df6adeb434
+name: P_EM_2025_12_08_ID_PT_BFCM_Cyber_Week_Last_Chance_PM
+brand: ID
+channel: email
+category: reminder
+type: seasonal
+theme: black_friday
+braze_id: 2e2de6ae-46cb-4812-8453-08df6adeb434
+dates:
+  send_date: '2025-12-08'
+  inferred_send_type: local_time
+  first_sent: '2025-12-08T02:07:59+00:00'
+  last_sent: '2025-12-09T02:03:19+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: d692fbb0-b2cf-4cb5-ae92-3f71befac86b
+  channel: email
+  name: Variant 1
+  subject: Save Now. Pick Your Fabric Later.
+  preheader: Buy now, choose fabric later.
+- id: fed4ccaa-d654-459b-859d-fa09644d92b4
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 122960
+  total_delivered: 122869
+  total_opens: 52602
+  total_clicks: 421
+  open_rate: 0.4278
+  click_rate: 0.0034
+  total_revenue: 256119.94
+  total_bounces: 4
+  total_unsubscribes: 216
+_filename: p_em_2025_12_08_id_pt_bfcm_cyber_week_last_chance_pm.yaml
+schedule_type: time_based

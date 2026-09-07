@@ -1,0 +1,56 @@
+id: klaviyo-Wq2pag
+name: trade-approved_email-07
+brand: TE
+channel: email
+category: other
+type: lifecycle
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: Uv8WNd
+canvas_name: trade_program-welcome
+flow_type: welcome_series
+sequence_position: 6
+dates:
+  created: '2024-09-03'
+  inferred_send_type: sto
+  first_sent: '2024-09-03'
+  last_sent: '2025-09-02'
+sends:
+- id: Wq2pag
+  channel: email
+  name: Message
+  subject: The final touch
+  preheader: Elevate your projects with unique accents.
+  html_file: html/klv-flow-trade_program-welcome-t06-Wq2pag.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/dac146b7-7dfc-4851-8cf1-d7978d5e7110.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/3bb647b2-a6bf-4f18-bdf9-3d96c33d5267.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/8bec3d7f-d9b1-4958-a670-9828f3dee30c.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/4e4951f1-481b-4057-ba27-8fb753448e04.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/ca827baf-679b-4694-9d04-e13cc2204449.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/f277c0e9-e8fd-4abd-b820-88a8bef6ca24.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/389b711e-d071-42f3-a55e-f586cc01a271.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/04639ceb-b50a-476d-aa6d-3be950a3d93b.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/e477bd22-7307-4d89-9dd7-092d11783aef.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/416dfe32-e7ae-4ced-a867-0eed2885ab7c.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: Wq2pag
+structure:
+  image_count: 31
+  link_count: 36
+  has_gif: false
+  hero_width: 100
+  layout_type: product_grid

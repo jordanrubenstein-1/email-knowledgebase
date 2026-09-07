@@ -1,0 +1,54 @@
+id: b7c0d2f5-c64f-4e58-8e20-0b3018fcc45a
+name: P_2024_09_09_D_HAV_PR_CON_PM_Missed_Sale_Last_Chance_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: b7c0d2f5-c64f-4e58-8e20-0b3018fcc45a
+dates:
+  send_date: '2024-09-09'
+  inferred_send_type: scheduled
+  first_sent: '2024-09-09T19:50:08+00:00'
+  last_sent: '2024-09-10T02:05:02+00:00'
+tags: []
+sends:
+- id: e1bb4820-ec93-453e-8c64-5db2a185a1ce
+  channel: email
+  name: Variant 1
+  subject: 'NO REGRETS: Last chance for Labor Day deals'
+  preheader: Checkout before midnight.
+  html_file: html/p_2024_09_09_d_hav_pr_con_pm_missed_sale_last_chance_email.html
+  screenshot: screenshots/p_2024_09_09_d_hav_pr_con_pm_missed_sale_last_chance_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7acf6c05c770066f73242/original.jpg?1724361973
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7aba591a4fe006471811c/original.jpg?1724361637
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7aba5fe4c430066f2e757/original.jpg?1724361637
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66df4ca92a20b400649f5efd/original.jpg?1725910185
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66df4cb4721d2b0074ff2902/original.jpg?1725910196
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66df508d5d26f700663621b0/original.jpg?1725911180
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66df4c9d44992300642e0b76/original.gif?1725910173
+- id: 5cc79bbb-8f00-4656-8e69-b567d75ac011
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 23630
+  total_delivered: 23592
+  total_opens: 16633
+  total_clicks: 167
+  open_rate: 0.7039
+  click_rate: 0.0071
+  total_unsubscribes: 58
+  ga4:
+    sessions: 217
+    purchases: 5
+    revenue: 1463.34
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.363437'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.966361'
+schedule_type: time_based

@@ -1,0 +1,32 @@
+id: 8906df2c-21c4-46cd-b8b5-bb8d3d673049
+name: P_EM_2025_09_16_HAV_CONV_PT_Hackathon_InviteAccepted
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 8906df2c-21c4-46cd-b8b5-bb8d3d673049
+dates:
+  send_date: '2025-09-16'
+  last_sent: '2025-09-16'
+tags:
+- BLASTS-2025
+sends:
+- id: 6cd223a7-744e-4991-b94b-2ce7d3fbe605
+  channel: email
+  name: Variant 1
+  subject: You’ve been selected! Welcome to Havenly Club ✨
+  html_file: html/p_em_2025_09_16_hav_conv_pt_hackathon_inviteaccepted.html
+  screenshot: screenshots/p_em_2025_09_16_hav_conv_pt_hackathon_inviteaccepted.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c46cefb2a1a800759b2066/original.png?1757703407
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69384dedb0ee0500658e1a2d/original.png?1765297644
+- id: 62568ae4-7cee-473d-b0b2-44c4b418aa9f
+  channel: email
+  name: Control Group
+performance_summary: {}
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:35.151944'
+schedule_type: time_based

@@ -1,0 +1,67 @@
+id: 7704d53d-65a6-4ece-82ee-c6afa86071be
+name: P_EM_2025_09_30_SF_D_PF_Autumn_Sale_Last_Chance
+brand: STF
+channel: email
+category: reminder
+type: sale
+theme: fall
+braze_id: 7704d53d-65a6-4ece-82ee-c6afa86071be
+dates:
+  send_date: '2025-09-30'
+  inferred_send_type: local_time
+  first_sent: '2025-09-29T20:14:59+00:00'
+  last_sent: '2025-09-30T17:00:33+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: 2054f0a7-6376-435d-9e02-3ebfa8c3153f
+  channel: email
+  name: Variant 1
+  subject: 'LAST CHANCE: The Autumn Event'
+  preheader: don’t say we didn’t warn you…
+- id: efe5a2aa-9133-49b0-b3cd-93dbb94d2c1a
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39538
+  total_delivered: 39224
+  total_opens: 17833
+  total_clicks: 176
+  open_rate: 0.451
+  click_rate: 0.0045
+  total_bounces: 1
+  total_unsubscribes: 86
+  ga4:
+    sessions: 176
+    purchases: 6
+    revenue: 3861.71
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.092880'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-the-autumn-event-2025-09-24
+    name: The Autumn Event
+    start_date: '2025-09-24'
+    end_date: '2025-09-30'
+    discount: 20% Off Sitewide
+    type: null
+  primary_sale:
+    id: stf-the-autumn-event-2025-09-24
+    name: The Autumn Event
+    start_date: '2025-09-24'
+    end_date: '2025-09-30'
+    discount: 20% Off Sitewide
+    type: null
+  sale_name: The Autumn Event
+  sale_discount: 20% Off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:43.907703'
+schedule_type: time_based

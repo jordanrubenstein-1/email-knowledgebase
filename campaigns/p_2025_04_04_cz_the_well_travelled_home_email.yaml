@@ -1,0 +1,56 @@
+id: da16931e-a018-4a7c-a21e-079696241872
+name: P_2025_04_04_CZ_The_Well_Travelled_Home_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: da16931e-a018-4a7c-a21e-079696241872
+dates:
+  send_date: '2025-04-04'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-04T15:43:49+00:00'
+  last_sent: '2025-04-04T17:23:53+00:00'
+tags: []
+sends:
+- id: 9432845d-49d6-4d36-a868-b5b835456647
+  channel: email
+  name: Variant 1
+  subject: The Art of the Well-Traveled Home
+  preheader: Curate a space inspired by the journeys you take.
+  html_file: html/p_2025_04_04_cz_the_well_travelled_home_email.html
+  screenshot: screenshots/p_2025_04_04_cz_the_well_travelled_home_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67eea18cb29c700067a7b0fa/original.png?1743692172
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ee9b70b29c700067a795e9/original.png?1743690607
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ee9b5ab29c700067a79580/original.png?1743690586
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67eea1836d2ad0006425c4a2/original.png?1743692162
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ee9b62adabdb0066a4e55a/original.png?1743690594
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ee9b81d59b13007403dd48/original.png?1743690624
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ee9b8badabdb0076a4e281/original.png?1743690635
+- id: f43f9426-be38-49a1-a34a-61c1eb0787d5
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 95297
+  total_delivered: 94440
+  total_opens: 49793
+  total_clicks: 711
+  open_rate: 0.5225
+  click_rate: 0.0075
+  total_revenue: 59753.54
+  total_bounces: 44
+  total_unsubscribes: 131
+  ga4:
+    sessions: 912
+    purchases: 7
+    revenue: 4489.71
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.972654'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.233500'
+schedule_type: time_based

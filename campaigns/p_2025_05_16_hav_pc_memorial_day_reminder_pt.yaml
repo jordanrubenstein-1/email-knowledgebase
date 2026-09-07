@@ -1,0 +1,35 @@
+id: 00f71983-5593-4bb9-9774-e7175f78f49d
+name: P_2025_05_16_HAV_PC_Memorial_Day_Reminder_PT
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 00f71983-5593-4bb9-9774-e7175f78f49d
+dates:
+  send_date: '2025-05-16'
+  first_sent: '2025-05-15T19:48:10+00:00'
+  last_sent: '2025-05-16T18:15:08+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 19881397-b00f-4505-91ad-5fa4aa5f4403
+  channel: email
+  name: Variant 1
+  subject: Kick off your weekend with savings
+  preheader: Save 50% on design packages during our Memorial Day Sale.
+- id: 79df31df-83ba-4166-819b-216b492107ce
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 214197
+  total_delivered: 210851
+  total_opens: 93858
+  total_clicks: 322
+  open_rate: 0.4382
+  click_rate: 0.0015
+  total_bounces: 8
+  total_unsubscribes: 349
+schedule_type: time_based
+_filename: p_2025_05_16_hav_pc_memorial_day_reminder_pt.yaml

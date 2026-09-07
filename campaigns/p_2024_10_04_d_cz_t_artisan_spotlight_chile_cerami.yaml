@@ -1,0 +1,57 @@
+id: f2b3622c-0946-46a2-8043-6974dc5fc829
+name: P_2024_10_04_D_CZ_T_Artisan_Spotlight_Chile_Ceramics_Email
+brand: CZ
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: f2b3622c-0946-46a2-8043-6974dc5fc829
+dates:
+  send_date: '2024-10-04'
+  inferred_send_type: local_time
+  first_sent: '2024-10-03T17:00:02+00:00'
+  last_sent: '2024-10-04T17:00:28+00:00'
+tags:
+- batch and blast
+sends:
+- id: cced7665-6373-4eff-925c-685b72717324
+  channel: email
+  name: Variant 1
+  subject: From Chile To Your Home
+  preheader: Clean lines. Sculptural designs. Modern design meets timeless craftsmanship.
+  html_file: html/p_2024_10_04_d_cz_t_artisan_spotlight_chile_ceramics_email.html
+  screenshot: screenshots/p_2024_10_04_d_cz_t_artisan_spotlight_chile_ceramics_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66faf157fb04180063c6b5e8/original.jpg?1727721814
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66fd604c78343f0064c2be1e/original.jpg?1727881292
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66faf131ff5c0c00639260e2/original.jpg?1727721777
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66faf1b4a253ea0064cfaaca/original.jpg?1727721908
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66faf2067f164f0063d6e445/original.jpg?1727721990
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66faf1a0747f25006360e9de/original.jpg?1727721888
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66faf1e8a253ea0080cf8e67/original.jpg?1727721959
+- id: 48a26bb5-14b9-4798-bcc9-cd473fabc389
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 84917
+  total_delivered: 84421
+  total_opens: 45066
+  total_clicks: 864
+  open_rate: 0.5307
+  click_rate: 0.0102
+  total_revenue: 54105.79
+  total_bounces: 1
+  total_unsubscribes: 271
+  ga4:
+    sessions: 891
+    purchases: 7
+    revenue: 3141.19
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.034805'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.132992'
+schedule_type: time_based

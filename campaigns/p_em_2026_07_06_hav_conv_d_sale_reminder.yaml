@@ -1,0 +1,32 @@
+id: acbae91a-0e6b-4f1a-a80b-acd908a32045
+name: P_EM_2026_07_06_HAV_CONV_D_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: acbae91a-0e6b-4f1a-a80b-acd908a32045
+dates:
+  send_date: '2026-07-06'
+  last_sent: '2026-07-06'
+tags:
+- BLASTS-2025
+sends:
+- id: 4bb74f77-5adb-481e-98fc-7ef7b26b0ee1
+  channel: email
+  name: Variant 1
+  subject: Your Fourth of July savings are waiting
+  preheader: 'Up to 20% off is still on. '
+- id: c2e28f9b-0b07-45bb-923e-023e85f1d4ba
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 42157
+  total_delivered: 42093
+  total_opens: 20241
+  total_clicks: 75
+  open_rate: 0.4801
+  click_rate: 0.0018
+  total_unsubscribes: 57
+schedule_type: time_based
+_filename: p_em_2026_07_06_hav_conv_d_sale_reminder.yaml

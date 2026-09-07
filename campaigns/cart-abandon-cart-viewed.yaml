@@ -1,0 +1,166 @@
+id: 90ff3c97-7866-46d1-b1df-1a97c60ef691
+name: Cart Abandon - Cart Viewed
+brand: ID
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: 90ff3c97-7866-46d1-b1df-1a97c60ef691
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-12-10T05:00:00+00:00'
+  last_sent: '2026-06-14T16:00:00+00:00'
+tags: []
+sends:
+- id: 92faf972-b5f6-4bc5-b739-6786a04328e6
+  channel: email
+  name: TRG_EM_2024_08_ID_D_Cart_Abandon_T5_V3
+  subject: Don’t let your cart expire
+  preheader: '{% assign eoy_sale_start = "2025-12-18 07:00:00" | date: "%s" %}{% assign
+    eoy_sale_end       = "2026-01-06 07:00:00" | date: "%s" %}{% assign now        =
+    ''now'' | date: "%s" %}{% if now >= eoy_sale_start and now <= eoy_sale_end %}Your
+    25% off ends soon{% else %}Your selections are still saved for you{% endif %}
+
+    '
+  step_id: 4a4e0c57-df38-4bcc-90af-1122ae8d764b
+- id: 2037984c-a6f8-4926-bb1a-9c0b81c7d34f
+  channel: email
+  name: TRG_EM_2024_08_ID_D_Cart_Abandon_T4_V3
+  subject: 'Still thinking about it? '
+  preheader: 'Bring it home today
+
+    '
+  step_id: 115e36e6-6598-4c69-8717-06fe6afad47e
+- id: 8fb1a917-d6f3-4537-88f8-c9288228c8f3
+  channel: email
+  name: TRG_EM_2024_08_ID_D_Cart_Abandon_T2_V2
+  subject: Great choice - you'll love this!
+  preheader: 'On the fence? Get expert design advice
+
+    '
+  step_id: b68058b9-7af6-410e-8f45-19779383ac51
+- id: 692b18af-6c34-4ce9-8476-e1bd7e305a88
+  channel: email
+  name: TRG_EM_2024_08_ID_D_Cart_Abandon_T1_V2
+  subject: We saved your cart
+  preheader: 'Check out now
+
+    '
+  step_id: 8e0a5990-557e-41b2-879e-58ed12950018
+- id: 56c41c7e-7a55-4d17-849b-eb992926435e
+  channel: email
+  name: TRG_EM_2026_05_ID_D_Cart_Abandon_T3_V1
+  subject: Your cart is saved. Flexible payments make it even easier
+  preheader: ''
+  step_id: 7eb49d39-bf67-4327-b946-6fa64e5102ed
+performance_summary:
+  total_entries: 19167
+  total_sends: 4938
+  total_delivered: 4888
+  total_opens: 2725
+  total_clicks: 150
+  open_rate: 0.5518
+  click_rate: 0.0304
+  total_revenue: 491155.94
+  total_conversions: 161
+  total_unsubscribes: 15
+  total_bounces: 1
+canvas_steps:
+- id: 8282cc1a-7c0a-4744-b8b3-4060e3a7fdfd
+  name: Step
+  type: delay
+- id: f09c5a99-2dbe-4ee7-9f4b-37780caebd19
+  name: Step 4
+  type: delay
+- id: 8db1aeb5-89af-4aaf-99f9-5d864b653dc2
+  name: Step 5
+  type: decision_split
+- id: 97e1e8dd-ddcd-4415-8331-b13aa25cf90f
+  name: Step 1
+  type: delay
+- id: 9ab08109-b766-4565-9117-18f66e110107
+  name: Step 3
+  type: decision_split
+- id: 4a4e0c57-df38-4bcc-90af-1122ae8d764b
+  name: TRG_EM_2024_08_ID_D_Cart_Abandon_T5_V3
+  type: message
+  channel: email
+  subject: Don’t let your cart expire
+  preheader: '{% assign eoy_sale_start = "2025-12-18 07:00:00" | date: "%s" %}{% assign
+    eoy_sale_end       = "2026-01-06 07:00:00" | date: "%s" %}{% assign now        =
+    ''now'' | date: "%s" %}{% if now >= eoy_sale_start and now <= eoy_sale_end %}Your
+    25% off ends soon{% else %}Your selections are still saved for you{% endif %}
+
+    '
+- id: 765e7c3b-e5be-4f4e-8e3f-a092f5af0ca0
+  name: Step 7
+  type: delay
+- id: 115e36e6-6598-4c69-8717-06fe6afad47e
+  name: TRG_EM_2024_08_ID_D_Cart_Abandon_T4_V3
+  type: message
+  channel: email
+  subject: 'Still thinking about it? '
+  preheader: 'Bring it home today
+
+    '
+- id: b68058b9-7af6-410e-8f45-19779383ac51
+  name: TRG_EM_2024_08_ID_D_Cart_Abandon_T2_V2
+  type: message
+  channel: email
+  subject: Great choice - you'll love this!
+  preheader: 'On the fence? Get expert design advice
+
+    '
+- id: 8e0a5990-557e-41b2-879e-58ed12950018
+  name: TRG_EM_2024_08_ID_D_Cart_Abandon_T1_V2
+  type: message
+  channel: email
+  subject: We saved your cart
+  preheader: 'Check out now
+
+    '
+- id: aae0e1bc-54fc-4bf5-ab02-33833e2cf5a1
+  name: Step 9
+  type: decision_split
+- id: 6d7ae0c1-0a27-4881-ba6e-ce9d6887370e
+  name: Step 10
+  type: audience_paths
+- id: 6c8dc917-ec2d-43fa-925d-c824072348cf
+  name: Step 11
+  type: audience_paths
+- id: 73308d98-910f-42a8-b934-b1927411c2e4
+  name: Step 6
+  type: action_paths
+- id: c0e8ea27-142f-4bfd-9091-5d8ed56c66a8
+  name: Step 12
+  type: decision_split
+- id: d4a4975f-0ec4-48d2-9e62-f71aed46c21a
+  name: TRG_SMS_2024_08_ID_Cart_Abandon_T1_V1
+  type: message
+- id: 9b991d1d-54aa-491a-bbd0-4a005ff9b85f
+  name: Step 8
+  type: delay
+- id: 91d8d80e-93d2-468b-855f-9a1d57f59807
+  name: SMS Subscribed?
+  type: audience_paths
+- id: a7b07ae0-bebb-4a56-a064-adb217985a20
+  name: Step 13
+  type: decision_split
+- id: 7eb49d39-bf67-4327-b946-6fa64e5102ed
+  name: TRG_EM_2026_05_ID_D_Cart_Abandon_T3_V1
+  type: message
+  channel: email
+  subject: Your cart is saved. Flexible payments make it even easier
+  preheader: ''
+- id: 8b751c02-c808-4e0c-93c1-47ca9a51132f
+  name: Step 2
+  type: delay
+- id: acbbaf1b-0736-4841-9b50-1448b9705d6d
+  name: Cart value <$3k?
+  type: audience_paths
+- id: 153575a3-5667-4d9e-99d8-a9f7a9375d71
+  name: Calculate cart value
+  type: context
+_filename: cart-abandon-cart-viewed.yaml

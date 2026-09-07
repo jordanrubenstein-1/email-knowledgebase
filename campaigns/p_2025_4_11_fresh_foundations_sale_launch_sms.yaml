@@ -1,0 +1,38 @@
+id: 5043bcab-d9b4-4f4e-9536-54abe860ec7d
+name: P_2025_4_11_Fresh_Foundations_Sale_Launch_SMS
+brand: CZ
+channel: sms
+category: product_launch
+type: sale
+theme: null
+braze_id: 5043bcab-d9b4-4f4e-9536-54abe860ec7d
+dates:
+  send_date: '2025-04-11'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-11T21:42:06+00:00'
+  last_sent: '2025-04-11T21:43:22+00:00'
+tags: []
+sends:
+- id: 4c95d384-8f46-4e13-b0f2-dcf8829f8ed7
+  channel: other
+  name: Variant 1
+- id: 5fb4bfdd-63a8-47e7-afaa-122899cb47f4
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 24461
+  total_delivered: 23821
+  total_opens: 0
+  total_clicks: 900
+  open_rate: 0.0
+  click_rate: 0.0368
+  total_revenue: 14815.53
+  ga4:
+    sessions: 1416
+    purchases: 10
+    revenue: 5699.27
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.533172'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

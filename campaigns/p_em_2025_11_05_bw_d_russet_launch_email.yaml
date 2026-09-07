@@ -1,0 +1,75 @@
+id: 247474c3-8622-4935-a8b3-5763593b9bc9
+name: P_EM_2025_11_05_BW_D_RUSSET_LAUNCH_EMAIL
+brand: BUR
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 247474c3-8622-4935-a8b3-5763593b9bc9
+dates:
+  send_date: '2025-11-05'
+  inferred_send_type: local_time
+  first_sent: '2025-11-05T01:50:13+00:00'
+  last_sent: '2025-11-05T17:16:10+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: f2f22042-ea64-49c2-9ff7-5e53689f600f
+  channel: email
+  name: Variant 1
+  subject: 'NEW: Our Softest Collection EVER'
+  preheader: Want to sit on a cloud?
+- id: d3932a25-b243-4c5c-a384-95d1e5c2af54
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 253127
+  total_delivered: 250777
+  total_opens: 138511
+  total_clicks: 824
+  open_rate: 0.5472
+  click_rate: 0.0033
+  total_revenue: 26277.0
+  total_bounces: 19
+  total_unsubscribes: 403
+  ga4:
+    sessions: 679
+    purchases: 1
+    revenue: 1914.36
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.135636'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:38.045742'
+schedule_type: time_based

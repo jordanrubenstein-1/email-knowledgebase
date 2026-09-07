@@ -1,0 +1,62 @@
+id: db62e9a6-2aef-4962-a8fb-9f4f61f9f544
+name: P_EM_2025_09_22_ID_D_Living_Room_Layout_Guide
+brand: ID
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: db62e9a6-2aef-4962-a8fb-9f4f61f9f544
+dates:
+  send_date: '2025-09-22'
+  inferred_send_type: local_time
+  first_sent: '2025-09-21T18:23:51+00:00'
+  last_sent: '2025-09-22T17:15:11+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 80785cc2-fe3f-44d9-a339-85681700acd8
+  channel: email
+  name: Variant 1
+  subject: 'Design 101: Living Room Layout Guide'
+  preheader: Our top tips to create your perfect space.
+- id: b37e7399-d056-488f-b800-1faa3b2dbd1f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 201369
+  total_delivered: 200042
+  total_opens: 95185
+  total_clicks: 670
+  open_rate: 0.4727
+  click_rate: 0.0033
+  total_revenue: 132079.99
+  total_unsubscribes: 328
+  ga4:
+    sessions: 806
+    purchases: 2
+    revenue: 13313.67
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.138826'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-holiday-ready-sale-2025-09-18
+    name: Holiday-Ready Sale
+    start_date: '2025-09-18'
+    end_date: '2025-09-30'
+    discount: 20% off sitewide
+    type: null
+  primary_sale:
+    id: id-holiday-ready-sale-2025-09-18
+    name: Holiday-Ready Sale
+    start_date: '2025-09-18'
+    end_date: '2025-09-30'
+    discount: 20% off sitewide
+    type: null
+  sale_name: Holiday-Ready Sale
+  sale_discount: 20% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:43.094526'
+schedule_type: time_based

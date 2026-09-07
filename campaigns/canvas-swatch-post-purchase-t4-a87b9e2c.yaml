@@ -1,0 +1,32 @@
+id: a87b9e2c-1a5c-48c2-9f53-2afbf6342719
+name: TRG_EM_2025_03_CZ_D_Post_Purchase_Swatch_T2
+brand: CZ
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 32c575cd-3a0e-4f9f-b087-095d4efba54b
+canvas_name: Swatch Post Purchase
+flow_type: post_purchase
+sequence_position: 4
+subject: So, What Happens Next?
+preheader: First comes swatch, then comes the real thing.
+sends:
+- id: a87b9e2c-1a5c-48c2-9f53-2afbf6342719
+  channel: email
+  name: TRG_EM_2025_03_CZ_D_Post_Purchase_Swatch_T2
+  subject: So, What Happens Next?
+  preheader: First comes swatch, then comes the real thing.
+  html_file: html/canvas-swatch-post-purchase-t4-a87b9e2c.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-08-29T00:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 255
+  total_delivered: 254
+  total_opens: 194
+  total_clicks: 5
+  open_rate: 0.7608
+  click_rate: 0.0196
+  total_unsubscribes: 1

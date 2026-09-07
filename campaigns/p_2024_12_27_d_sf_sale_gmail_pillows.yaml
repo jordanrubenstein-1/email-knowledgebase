@@ -1,0 +1,67 @@
+id: aab1260a-df3d-473c-b1ee-f0f9e49bd60d
+name: P_2024_12_27_D_SF_Sale_Gmail_Pillows
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: aab1260a-df3d-473c-b1ee-f0f9e49bd60d
+dates:
+  send_date: '2024-12-27'
+  inferred_send_type: local_time
+  first_sent: '2024-12-26T18:08:38+00:00'
+  last_sent: '2024-12-27T16:00:32+00:00'
+tags: []
+sends:
+- id: 25069ff7-ee75-4e71-aaed-6adfd5c896ef
+  channel: email
+  name: Variant 1
+  subject: Pile on Print at 20% Off
+  preheader: snag your faves during our End of Year Sale
+- id: 4aa6ae8d-432d-4359-a8cf-d5906a18e903
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 772
+  total_delivered: 772
+  total_opens: 600
+  total_clicks: 21
+  open_rate: 0.7772
+  click_rate: 0.0272
+  total_revenue: 675.0
+  total_unsubscribes: 1
+  ga4:
+    sessions: 288
+    purchases: 1
+    revenue: 165.5
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.074138'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-end-of-year-sale-2025-01-01
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-05'
+    discount: 20% off Sitewide + 30% Off Last Chance Patterns
+    type: null
+  - id: stf_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: stf-end-of-year-sale-2025-01-01
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-05'
+    discount: 20% off Sitewide + 30% Off Last Chance Patterns
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: 20% off Sitewide + 30% Off Last Chance Patterns
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:43.482294'
+schedule_type: time_based

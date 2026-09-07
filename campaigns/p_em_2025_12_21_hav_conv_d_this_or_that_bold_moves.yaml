@@ -1,0 +1,35 @@
+id: e193d4cf-41de-42d6-8b99-fd5e135f6caf
+name: P_EM_2025_12_21_HAV_CONV_D_This_or_That_Bold_Moves
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: e193d4cf-41de-42d6-8b99-fd5e135f6caf
+dates:
+  send_date: '2025-12-21'
+  first_sent: '2025-12-20T17:22:54+00:00'
+  last_sent: '2025-12-21T17:15:41+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 86839f94-b57d-40e6-b3ba-3757500bb591
+  channel: email
+  name: Variant 1
+  subject: 'Let’s find your look '
+  preheader: 'Bold or understated? It’s up to you. '
+- id: f8964f9b-ef1a-417f-b813-b5cd4f4893fd
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 43418
+  total_delivered: 43383
+  total_opens: 22580
+  total_clicks: 140
+  open_rate: 0.5201
+  click_rate: 0.0032
+  total_bounces: 1
+  total_unsubscribes: 55
+schedule_type: time_based
+_filename: p_em_2025_12_21_hav_conv_d_this_or_that_bold_moves.yaml

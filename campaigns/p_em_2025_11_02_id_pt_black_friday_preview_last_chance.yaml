@@ -1,0 +1,35 @@
+id: 94f49aad-73fd-441d-b462-ee42fca88f55
+name: P_EM_2025_11_02_ID_PT_Black_Friday_Preview_Last_Chance
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 94f49aad-73fd-441d-b462-ee42fca88f55
+dates:
+  send_date: '2025-11-02'
+  inferred_send_type: local_time
+  first_sent: '2025-11-02T02:08:13+00:00'
+  last_sent: '2025-11-03T02:05:27+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 0573d64b-febf-4737-9b44-06fe753651fd
+  channel: email
+  name: Variant 1
+  subject: Your Black Friday Discount Ends Soon
+- id: 641dbbc7-3ab4-41f8-a2ab-cbf581ca5d45
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 100865
+  total_delivered: 100111
+  total_opens: 46427
+  total_clicks: 608
+  open_rate: 0.4603
+  click_rate: 0.006
+  total_revenue: 230298.67
+  total_bounces: 1
+  total_unsubscribes: 181
+_filename: p_em_2025_11_02_id_pt_black_friday_preview_last_chance.yaml
+schedule_type: time_based

@@ -1,0 +1,47 @@
+id: d6938536-5ab5-4740-aa2e-fde79b1f9da0
+name: P_2025_03_29_ID_Trend_Curved_Furniture_Email
+brand: ID
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: d6938536-5ab5-4740-aa2e-fde79b1f9da0
+dates:
+  send_date: '2025-03-29'
+  inferred_send_type: scheduled
+  first_sent: '2025-03-29T02:16:09+00:00'
+  last_sent: '2025-03-29T17:15:11+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 21f4b3f8-2edc-46d6-bd41-5c9760073e62
+  channel: email
+  name: Variant 1
+  subject: 'Trending Now: Soft Curves, Perfected for Your Home'
+  preheader: All yours for 20% off (but not for long).
+- id: 75309a7a-fe21-4f5b-9947-6f6fef34767d
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 147602
+  total_delivered: 145526
+  total_opens: 35291
+  total_clicks: 579
+  open_rate: 0.2391
+  click_rate: 0.0039
+  total_revenue: 302887.75
+  total_bounces: 4
+  total_unsubscribes: 96
+  ga4:
+    sessions: 635
+    purchases: 2
+    revenue: 6120.42
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.169682'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.531051'
+schedule_type: time_based

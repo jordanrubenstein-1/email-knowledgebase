@@ -1,0 +1,36 @@
+id: 570ba536-aea5-48b1-9faf-7760290532ee
+name: P_EM_2025_09_23_BW_PT_Holiday_Ready_Sale_Reminder_Resend
+brand: BUR
+channel: email
+category: reminder
+type: sale
+theme: christmas
+braze_id: 570ba536-aea5-48b1-9faf-7760290532ee
+dates:
+  send_date: '2025-09-23'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-23T23:00:08+00:00'
+  last_sent: '2025-09-23T23:06:55+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 608f18f9-a512-480d-b375-9851da6112c3
+  channel: email
+  name: Variant 1
+  subject: The Holiday-Ready Sale just got BIGGER
+  preheader: You don't want to miss this...
+- id: 69c5a50b-f62b-4487-bc63-9aeba8d62ec1
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 240513
+  total_delivered: 237380
+  total_opens: 141629
+  total_clicks: 686
+  open_rate: 0.5889
+  click_rate: 0.0029
+  total_revenue: 23490.0
+  total_bounces: 8
+  total_unsubscribes: 217
+_filename: p_em_2025_09_23_bw_pt_holiday_ready_sale_reminder_resend.yaml
+schedule_type: time_based

@@ -1,0 +1,74 @@
+id: 0c842d0b-aff4-4de3-ae30-3e5ca44eff52
+name: 2025_07_16_BW_Outdoor_Dining_Highlight
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 0c842d0b-aff4-4de3-ae30-3e5ca44eff52
+dates:
+  send_date: '2025-07-16'
+  inferred_send_type: local_time
+  first_sent: '2025-07-15T19:07:59+00:00'
+  last_sent: '2025-07-16T18:15:07+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 97ea9ded-26e8-4f55-8d57-75e90763b69b
+  channel: email
+  name: Variant 1
+  subject: Set the table
+  preheader: our dining collection has all the right ingredients
+- id: 277665f7-8c86-46f0-bc0e-cdcd91ac0810
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 255852
+  total_delivered: 253965
+  total_opens: 146642
+  total_clicks: 415
+  open_rate: 0.5732
+  click_rate: 0.0016
+  total_revenue: 1052.0
+  total_unsubscribes: 317
+  ga4:
+    sessions: 219
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.706064'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:44.776022'
+schedule_type: time_based

@@ -1,0 +1,33 @@
+id: 93854022-11b6-4551-8a70-4422707abd4a
+name: TRG_EM_2026_08_BW_D_Welcome_T2_V3
+brand: BUR
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 2fccfb4d-7b98-460d-9d19-98e33e89aa25
+canvas_name: Welcome Flow - General
+flow_type: welcome_series
+sequence_position: 2
+subject: Meet the Nomad Sofa
+preheader: Modular, ships in days, and built exactly the way you want it.
+sends:
+- id: 93854022-11b6-4551-8a70-4422707abd4a
+  channel: email
+  name: TRG_EM_2026_08_BW_D_Welcome_T2_V3
+  subject: Meet the Nomad Sofa
+  preheader: Modular, ships in days, and built exactly the way you want it.
+  html_file: html/canvas-welcome-flow-general-t2-93854022.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-11-01T00:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 336
+  total_delivered: 335
+  total_opens: 141
+  total_clicks: 12
+  open_rate: 0.4196
+  click_rate: 0.0357
+  total_unsubscribes: 8
+  total_revenue: 3668.0

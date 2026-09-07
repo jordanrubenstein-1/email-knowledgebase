@@ -1,0 +1,55 @@
+<!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:600px;" width="600"><tr><td style="line-height:0;font-size:0;mso-line-height-rule:exactly;"><v:image style="border:0;height:{{ height|default(450) }}px;mso-position-horizontal:center;position:absolute;top:0;width:600px;z-index:-3;" src="{{ image_url }}" xmlns:v="urn:schemas-microsoft-com:vml" /><v:rect style="border:0;height:{{ height|default(450) }}px;mso-position-horizontal:center;position:absolute;top:0;width:600px;z-index:-4;" fillcolor="#000000" stroke="false" strokecolor="none" strokeweight="0" xmlns:v="urn:schemas-microsoft-com:vml" /><![endif]-->
+<div class="h" style="margin:0 auto;max-width:600px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+<tbody>
+<tr style="vertical-align:top;">
+<td background="{{ image_url }}" style="background:#000000 url('{{ image_url }}') no-repeat center center / cover;background-size:cover;background-position:center center;background-repeat:no-repeat;padding:50px 80px {{ bottom_padding|default(200) }}px 80px;vertical-align:middle;height:{{ height|default(450) }}px;" height="{{ height|default(450) }}">
+<!--[if mso | IE]><table border="0" cellpadding="0" cellspacing="0" style="width:600px;" width="600"><tr><td style="padding-top:0;padding-left:80px;padding-right:80px;padding-bottom:0;"><![endif]-->
+<div style="margin:0px auto;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;margin:0;">
+<tbody>
+<tr>
+<td>
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;margin:0;">
+<tbody>
+
+<tr>
+<td align="center" class="x xr m" style="font-size:0;padding-bottom:16px;word-break:break-word;">
+<div style="font-family:'Arial', sans-serif;font-size:20px;font-weight:400;line-height:115%;text-align:center;color:#ffffff;"><p style="Margin:0;mso-line-height-alt:23px;font-size:20px;line-height:115%;">{{ title }}</p></div>
+</td>
+</tr>
+
+{% if body %}
+<tr>
+<td align="center" class="x rl m" style="font-size:0;padding-bottom:16px;word-break:break-word;">
+<div style="font-family:'Inter', 'Arial', sans-serif;font-size:16px;font-weight:400;line-height:138%;text-align:center;color:#ffffff;"><p style="Margin:0;mso-line-height-alt:22px;font-size:16px;line-height:138%;">{{ body }}</p></div>
+</td>
+</tr>
+{% endif %}
+
+{% if link_text and link_url %}
+<tr>
+<td align="center" class="v ck" style="font-size:0;padding-bottom:0;word-break:break-word;">
+<div class="il">
+<a class="l" href="{{ link_url }}" target="_blank" style="display:inline-block;color:#fcfcfc;font-family:'Arial', sans-serif;font-size:13px;font-weight:normal;line-height:0;text-decoration:none;text-transform:none;padding:0;">
+<span style="font-size:14px;font-family:'Arial', sans-serif;font-weight:400;color:#fcfcfc;line-height:118%;text-decoration:underline;mso-line-height-alt:13px;">{{ link_text }}</span>
+</a>
+</div>
+</td>
+</tr>
+{% endif %}
+
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso | IE]></td></tr></table><![endif]-->

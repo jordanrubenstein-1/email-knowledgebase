@@ -1,0 +1,57 @@
+id: 44bc5101-89d1-49ea-a257-722fb0be498f
+name: P_2025_06_17_CZ_June_Catalog_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 44bc5101-89d1-49ea-a257-722fb0be498f
+dates:
+  send_date: '2025-06-17'
+  inferred_send_type: local_time
+  first_sent: '2025-06-16T23:43:59+00:00'
+  last_sent: '2025-06-17T17:01:51+00:00'
+tags: []
+sends:
+- id: 9857c879-3d0a-4961-afe4-49aa263dc3b1
+  channel: email
+  name: Variant 1
+  subject: 'OUT NOW: The June Catalog'
+  preheader: Step into a new season with us.
+  html_file: html/p_2025_06_17_cz_june_catalog_email.html
+  screenshot: screenshots/p_2025_06_17_cz_june_catalog_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685030524fed4200656ce0f9/original.png?1750085714
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6850307cd6336b00651614c2/original.png?1750085755
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685030404c90790065805f88/original.png?1750085695
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6850a02d8d86960065e4a7fb/original.png?1750114348
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68502fd8d6336b006516102b/original.png?1750085591
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68503093736cf800650dea62/original.png?1750085779
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6850306e4c907900758058a4/original.png?1750085741
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68502ff9bc76790065ae1dba/original.png?1750085624
+- id: dfc3bca7-f7fa-4a35-876c-3da055797432
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 101414
+  total_delivered: 100935
+  total_opens: 52427
+  total_clicks: 782
+  open_rate: 0.517
+  click_rate: 0.0077
+  total_revenue: 33548.34
+  total_bounces: 3
+  total_unsubscribes: 128
+  ga4:
+    sessions: 829
+    purchases: 5
+    revenue: 3512.4
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.657729'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:45.105624'
+schedule_type: time_based

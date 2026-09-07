@@ -1,0 +1,47 @@
+id: c4fa13ae-69c8-4dbc-ad87-1bd3656415cb
+name: P_2025_06_25_ID_Swatch_Talk_Neutrals_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: c4fa13ae-69c8-4dbc-ad87-1bd3656415cb
+dates:
+  send_date: '2025-06-25'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-25T05:21:19+00:00'
+  last_sent: '2025-06-25T17:15:14+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: aae9288c-627e-4cc7-957a-0ae5f2e03b65
+  channel: email
+  name: Variant 1
+  subject: Basic or classic? You tell us.
+  preheader: Our most-loved neutrals – up to 25% off for a limited time.
+- id: acfe8015-6d80-4b47-8c51-444dc8324f9a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 109948
+  total_delivered: 108628
+  total_opens: 50637
+  total_clicks: 551
+  open_rate: 0.4606
+  click_rate: 0.005
+  total_revenue: 254275.69
+  total_bounces: 3
+  total_unsubscribes: 380
+  ga4:
+    sessions: 469
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.412013'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.879324'
+schedule_type: time_based

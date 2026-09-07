@@ -1,0 +1,33 @@
+id: e7d3f14d-360e-4fa7-ba7a-969856eb608b
+name: TRG_EM_2026_08_BW_D_Welcome_T3_V3
+brand: BUR
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 2fccfb4d-7b98-460d-9d19-98e33e89aa25
+canvas_name: Welcome Flow - General
+flow_type: welcome_series
+sequence_position: 3
+subject: Don't take our word for it
+preheader: Over 200,000 customers. Here's what they actually think.
+sends:
+- id: e7d3f14d-360e-4fa7-ba7a-969856eb608b
+  channel: email
+  name: TRG_EM_2026_08_BW_D_Welcome_T3_V3
+  subject: Don't take our word for it
+  preheader: Over 200,000 customers. Here's what they actually think.
+  html_file: html/canvas-welcome-flow-general-t3-e7d3f14d.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-11-01T00:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 293
+  total_delivered: 292
+  total_opens: 114
+  total_clicks: 6
+  open_rate: 0.3891
+  click_rate: 0.0205
+  total_unsubscribes: 3
+  total_revenue: 4099.0

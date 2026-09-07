@@ -1,0 +1,56 @@
+id: d9af6cad-ed12-4449-82af-32bde61242d6
+name: P_EM_2026_01_06_CZ_D_PR_Refresh_Every_Room
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: d9af6cad-ed12-4449-82af-32bde61242d6
+dates:
+  send_date: '2026-01-06'
+  inferred_send_type: local_time
+  first_sent: '2026-01-05T19:11:03+00:00'
+  last_sent: '2026-01-06T17:16:46+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- gtl
+sends:
+- id: 63577662-14b9-49ed-981f-4a226c6d3f0f
+  channel: email
+  name: Variant 1
+  subject: Simple Pieces. Big Changes.
+  preheader: Give your space a fresh start for the year ahead.
+  html_file: html/p_em_2026_01_06_cz_d_pr_refresh_every_room.html
+  screenshot: screenshots/p_em_2026_01_06_cz_d_pr_refresh_every_room.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69585855e2b4520064477372/original.png?1767397461
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69585821a2be3e0064ec18aa/original.png?1767397408
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/695857e36281910065cf34d1/original.png?1767397347
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/695858134b108300646dd6b2/original.png?1767397395
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/695857d4099de600646443a2/original.gif?1767397331
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6958583a1b6755006430e733/original.png?1767397433
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6958584783831c0063ecfe64/original.png?1767397447
+- id: 14d5b975-ff97-4c09-a695-40b77bf65f52
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 114823
+  total_delivered: 114248
+  total_opens: 58498
+  total_clicks: 815
+  open_rate: 0.5095
+  click_rate: 0.0071
+  total_bounces: 22
+  total_unsubscribes: 270
+  ga4:
+    sessions: 721
+    purchases: 4
+    revenue: 6453.1
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.344944'
+    source: snowflake
+    channel: email
+schedule_type: time_based

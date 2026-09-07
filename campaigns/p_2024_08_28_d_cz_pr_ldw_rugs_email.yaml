@@ -1,0 +1,60 @@
+id: 853bac2e-e5b6-42bb-bdc2-09fbc0a5083e
+name: P_2024_08_28_D_CZ_PR_LDW_Rugs_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 853bac2e-e5b6-42bb-bdc2-09fbc0a5083e
+dates:
+  send_date: '2024-08-28'
+  inferred_send_type: local_time
+  first_sent: '2024-08-27T22:21:42+00:00'
+  last_sent: '2024-08-28T17:00:18+00:00'
+tags:
+- batch and blast/promo
+sends:
+- id: 6169b0d3-adff-4fa8-a8db-f4e39c783bf9
+  channel: email
+  name: Variant 1
+  subject: Your Dream Rug, Now 30% Off
+  preheader: Our deepest discounts yet. Shop 30% off iconic rugs.
+  html_file: html/p_2024_08_28_d_cz_pr_ldw_rugs_email.html
+  screenshot: screenshots/p_2024_08_28_d_cz_pr_ldw_rugs_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c778e0b96c340063bb080e/original.jpg?1724348640
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c3affed1cc8300655ea5fe/original.jpg?1724100606
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ce311c3cac4c00741041cc/original.jpg?1724789020
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ce318e2769a400748c75dd/original.jpg?1724789134
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c3b12d9ee9190066b6d2d1/original.jpg?1724100909
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7792e97dc840064625bfd/original.jpg?1724348718
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c3b15b5d73f90065335405/original.jpg?1724100955
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ce30c9039c3f00646ab30a/original.jpg?1724788937
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ce3016039c3f00736a9274/original.jpg?1724788758
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c3b18241ab69006449dc3c/original.jpg?1724100994
+- id: 95230e10-b916-404e-8ffc-0c8579eddb59
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 76072
+  total_delivered: 75638
+  total_opens: 38288
+  total_clicks: 1421
+  open_rate: 0.5033
+  click_rate: 0.0187
+  total_revenue: 131635.44
+  total_bounces: 4
+  total_unsubscribes: 174
+  ga4:
+    sessions: 1656
+    purchases: 16
+    revenue: 15333.66
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.509601'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.231424'
+schedule_type: time_based

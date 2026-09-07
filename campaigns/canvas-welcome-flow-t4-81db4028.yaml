@@ -1,0 +1,32 @@
+id: 81db4028-d505-4a64-b9b5-815debef90b8
+name: TRG_EM_2025_11_SF_D_Welcome_Return_Customer_T4_V1
+brand: STF
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 2c9aee9c-afec-4670-aec1-09cc5466245c
+canvas_name: Welcome Flow
+flow_type: welcome_series
+sequence_position: 4
+subject: We ❤️ Your Style
+preheader: your homes. our pieces. serious inspiration.
+sends:
+- id: 81db4028-d505-4a64-b9b5-815debef90b8
+  channel: email
+  name: TRG_EM_2025_11_SF_D_Welcome_Return_Customer_T4_V1
+  subject: We ❤️ Your Style
+  preheader: your homes. our pieces. serious inspiration.
+  html_file: html/canvas-welcome-flow-t4-81db4028.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-07-30T16:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 593
+  total_delivered: 591
+  total_opens: 389
+  total_clicks: 20
+  open_rate: 0.656
+  click_rate: 0.0337
+  total_unsubscribes: 10

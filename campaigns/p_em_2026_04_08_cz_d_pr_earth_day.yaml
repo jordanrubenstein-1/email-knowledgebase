@@ -1,0 +1,46 @@
+id: 14e393ce-dcf8-422e-9d90-58ad53ff95b9
+name: P_EM_2026_04_08_CZ_D_PR_Earth_Day
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 14e393ce-dcf8-422e-9d90-58ad53ff95b9
+dates:
+  send_date: '2026-04-08'
+  inferred_send_type: local_time
+  first_sent: '2026-04-08T02:09:59+00:00'
+  last_sent: '2026-04-09T01:04:46+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- event
+sends:
+- id: 69d3fd17-b9ef-415e-bab5-a4dd582d6226
+  channel: email
+  name: Variant 1
+  subject: Why good materials matter
+  preheader: Discover the natural origins behind your favorite Citizenry pieces.
+  html_file: html/p_em_2026_04_08_cz_d_pr_earth_day.html
+  screenshot: screenshots/p_em_2026_04_08_cz_d_pr_earth_day.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69cfc0f686213d00ab77c2fd/original.png?1775223029
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69cfc0637bf05000c57147d6/original.png?1775222882
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69cfc0e269571e00c59ca67c/original.png?1775223009
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69cfc079fc4a9b00c7495340/original.png?1775222904
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69cfc0d0f2a39300ac00ed02/original.png?1775222991
+- id: 35587805-b0e4-4157-89b9-3eff526ed2c1
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 113533
+  total_delivered: 112838
+  total_opens: 53451
+  total_clicks: 530
+  open_rate: 0.4708
+  click_rate: 0.0047
+  total_bounces: 3
+  total_unsubscribes: 180
+schedule_type: time_based

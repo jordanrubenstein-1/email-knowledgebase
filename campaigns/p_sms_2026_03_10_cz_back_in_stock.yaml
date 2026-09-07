@@ -1,0 +1,29 @@
+id: ddf60132-3d42-4b2b-a366-91f9f37271d9
+name: P_SMS_2026_03_10_CZ_Back_In_Stock
+brand: CZ
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: ddf60132-3d42-4b2b-a366-91f9f37271d9
+dates:
+  send_date: '2026-03-10'
+  inferred_send_type: local_time
+  first_sent: '2026-03-09T22:09:35+00:00'
+  last_sent: '2026-03-10T21:03:21+00:00'
+tags: []
+sends:
+- id: da0b921a-ec98-4e2b-9e12-8a509b288d8a
+  channel: sms
+  name: Variant 1
+- id: 6eadac12-adc7-4a12-89dc-233a96cb9d87
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 20398
+  total_delivered: 17013
+  total_opens: 0
+  total_clicks: 366
+  open_rate: 0.0
+  click_rate: 0.0179
+schedule_type: time_based

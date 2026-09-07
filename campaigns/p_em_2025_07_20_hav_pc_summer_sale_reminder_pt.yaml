@@ -1,0 +1,35 @@
+id: 64e9ace8-95a3-4329-b528-5a67cf04a264
+name: P_EM_2025_07_20_HAV_PC_Summer_Sale_Reminder_PT
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: summer
+braze_id: 64e9ace8-95a3-4329-b528-5a67cf04a264
+dates:
+  send_date: '2025-07-20'
+  first_sent: '2025-07-19T18:23:20+00:00'
+  last_sent: '2025-07-20T18:15:20+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 1b23eba1-01b2-429e-ba52-c502502d5800
+  channel: email
+  name: Variant 1
+  subject: Looking for a Sunday pick me up?
+  preheader: How about 40% off interior design services?
+- id: 48603595-3455-46a1-9eb0-47540d487836
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 229606
+  total_delivered: 226072
+  total_opens: 97419
+  total_clicks: 370
+  open_rate: 0.4243
+  click_rate: 0.0016
+  total_bounces: 6
+  total_unsubscribes: 540
+schedule_type: time_based
+_filename: p_em_2025_07_20_hav_pc_summer_sale_reminder_pt.yaml

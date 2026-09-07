@@ -1,0 +1,49 @@
+id: 9411e521-0910-478f-b921-ec8851798a5a
+name: P_2024_11_23_Conv_HAV_Add_Life_To_Your_Dining_Room_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 9411e521-0910-478f-b921-ec8851798a5a
+dates:
+  send_date: '2024-11-23'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-23T07:31:56+00:00'
+  last_sent: '2024-11-23T17:15:05+00:00'
+tags: []
+sends:
+- id: 2ebbc2f8-d14b-43b1-97f8-49ee5a9eba0e
+  channel: email
+  name: Variant 1
+  subject: Spruce up your dining room in 5 minutes
+  preheader: With our 8 easy hacks.
+  html_file: html/p_2024_11_23_conv_hav_add_life_to_your_dining_room_email.html
+  screenshot: screenshots/p_2024_11_23_conv_hav_add_life_to_your_dining_room_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6740c783bddeb3007487bab9/original.gif?1732298627
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674183a5e91a3f00666d52c7/original.gif?1732346789
+- id: 1c20ffd0-6d31-4765-8b59-31e4d366db24
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 35335
+  total_delivered: 35160
+  total_opens: 20440
+  total_clicks: 464
+  open_rate: 0.5785
+  click_rate: 0.0131
+  total_unsubscribes: 50
+  ga4:
+    sessions: 706
+    purchases: 2
+    revenue: 1923.84
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.514065'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.613743'
+schedule_type: time_based

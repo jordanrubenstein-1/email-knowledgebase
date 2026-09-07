@@ -1,0 +1,24 @@
+id: d56fac69-ed61-40b6-ab8e-e9794ef1d59a
+name: TRG_EM_2025_08_SF_D_Post_Purchase_Swatch_T1_V1
+brand: STF
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 6b119551-87be-423c-9e81-d368015e2234
+canvas_name: Swatch Post Purchase
+flow_type: post_purchase
+sequence_position: 1
+subject: Good Things Are En Route
+preheader: your swatches are on their way—cue the moodboarding
+sends:
+- id: d56fac69-ed61-40b6-ab8e-e9794ef1d59a
+  channel: email
+  name: TRG_EM_2025_08_SF_D_Post_Purchase_Swatch_T1_V1
+  subject: Good Things Are En Route
+  preheader: your swatches are on their way—cue the moodboarding
+  html_file: html/canvas-swatch-post-purchase-t1-d56fac69.html
+dates:
+  first_sent: null
+  last_sent: null
+performance_summary: {}

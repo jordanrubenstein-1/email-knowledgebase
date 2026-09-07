@@ -1,0 +1,30 @@
+id: 15581243-0a57-445a-ae91-f00e064f988a
+name: P_SMS_2025_12_09_ID_Cyber_Week_Final_Hours
+brand: ID
+channel: sms
+category: reminder
+type: seasonal
+theme: null
+braze_id: 15581243-0a57-445a-ae91-f00e064f988a
+dates:
+  send_date: '2025-12-09'
+  inferred_send_type: local_time
+  first_sent: '2025-12-09T01:06:58+00:00'
+  last_sent: '2025-12-10T01:00:58+00:00'
+tags: []
+sends:
+- id: e7d520cc-e079-48c2-a465-5918882ba0ce
+  channel: sms
+  name: Variant 1
+- id: f7ad47ed-4405-4e6b-8f4d-22fe6d09eb59
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 50094
+  total_delivered: 47570
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 3520.0
+schedule_type: time_based

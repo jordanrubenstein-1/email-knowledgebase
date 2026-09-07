@@ -1,0 +1,25 @@
+id: c099730e-38db-446f-90f4-2f5325904ad4
+name: P_EM_2026_05_25_HAV_CONV_D_Memorial_Day_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: c099730e-38db-446f-90f4-2f5325904ad4
+dates:
+  send_date: '2026-05-25'
+  last_sent: '2026-05-25'
+tags:
+- BLASTS-2025
+sends:
+- id: 3d7c9c6e-3cb9-4d08-b02b-c8921ad3fc3a
+  channel: email
+  name: Variant 1
+  subject: One last thing before the weekend ends
+  preheader: Our Memorial Day Sale closes tomorrow
+- id: d2edb3e2-bb18-4a59-8cc4-8dda2fcae25a
+  channel: email
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: p_em_2026_05_25_hav_conv_d_memorial_day_sale_reminder.yaml

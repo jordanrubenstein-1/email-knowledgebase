@@ -1,0 +1,36 @@
+id: a658fbec-dfc0-4ba3-bc09-3a97458b619d
+name: P_2025_06_07_PT_PM_CZ_Lapsed_Non_Purchaser_Offer_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: a658fbec-dfc0-4ba3-bc09-3a97458b619d
+dates:
+  send_date: '2025-06-07'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-07T19:42:12+00:00'
+  last_sent: '2025-06-08T02:10:07+00:00'
+tags: []
+sends:
+- id: 6a6406e7-3669-49e4-b19e-e2ff38c3832a
+  channel: email
+  name: Variant 1
+  subject: Our summer special discount, just for you
+  html_file: html/p_2025_06_07_pt_pm_cz_lapsed_non_purchaser_offer_email.html
+  screenshot: screenshots/p_2025_06_07_pt_pm_cz_lapsed_non_purchaser_offer_email.png
+- id: d9fcb251-8fff-4c3f-b8c4-b600da5e8fb8
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 6748
+  total_delivered: 6688
+  total_opens: 3948
+  total_clicks: 84
+  open_rate: 0.5851
+  click_rate: 0.0124
+  total_revenue: 4893.0
+  total_bounces: 30
+  total_unsubscribes: 85
+_filename: p_2025_06_07_pt_pm_cz_lapsed_non_purchaser_offer_email.yaml
+schedule_type: time_based

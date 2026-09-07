@@ -1,0 +1,34 @@
+id: f6eb27ad-16e3-489f-ad20-f0e162417158
+name: Email Capture Pop-Up
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: f6eb27ad-16e3-489f-ad20-f0e162417158
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-07-22T21:00:00+00:00'
+  last_sent: '2024-07-24T22:00:00+00:00'
+tags: []
+sends:
+- id: 23219440-c364-4e53-819b-db47083ffcd4
+  channel: other
+  name: Variant 1
+- id: ec64c88e-c518-4dea-8b98-b94714ce3d8f
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.920732'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.550466'
+schedule_type: action_based

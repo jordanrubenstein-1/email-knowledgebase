@@ -1,0 +1,50 @@
+id: 156ec543-bc67-46fe-ad99-169e12b9fa60
+name: P_2025_1_11_HAV_Conv_Living_Room_Design_Mistakes_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 156ec543-bc67-46fe-ad99-169e12b9fa60
+dates:
+  send_date: '2025-01-11'
+  inferred_send_type: local_time
+  first_sent: '2025-01-10T23:04:44+00:00'
+  last_sent: '2025-01-11T17:15:05+00:00'
+tags: []
+sends:
+- id: 1c4161e5-6660-44e7-8419-16e3554bc3b2
+  channel: email
+  name: Variant 1
+  subject: 'The #1 living room design mistake is...'
+  preheader: And a $0 fix
+  html_file: html/p_2025_1_11_hav_conv_living_room_design_mistakes_email.html
+  screenshot: screenshots/p_2025_1_11_hav_conv_living_room_design_mistakes_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678187d553d6a200637d90c7/original.gif?1736542165
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67818a08f74cf70066cb4718/original.png?1736542728
+- id: 88cfa2ec-552d-4814-8394-e7caecb9ac31
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 36861
+  total_delivered: 36768
+  total_opens: 21445
+  total_clicks: 978
+  open_rate: 0.5818
+  click_rate: 0.0265
+  total_bounces: 1
+  total_unsubscribes: 47
+  ga4:
+    sessions: 1649
+    purchases: 5
+    revenue: 8051.04
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.864905'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:45.907191'
+schedule_type: time_based

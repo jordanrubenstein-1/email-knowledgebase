@@ -1,0 +1,30 @@
+id: 53362b36-b7f9-483b-980b-d9dce375a6b0
+name: Bulk In-App Message Upload Result
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 53362b36-b7f9-483b-980b-d9dce375a6b0
+dates:
+  first_sent: '2024-10-18T20:00:00+00:00'
+  last_sent: '2026-05-24T15:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: d0f533dd-d157-416d-9074-83529e1d36d5
+  channel: email
+  name: Variant 1
+  subject: Bulk In-App Message Upload Result
+- id: 8cef7f36-bcfc-4ea0-b6b0-82c3c5030acf
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 2
+  total_delivered: 2
+  total_opens: 2
+  total_clicks: 0
+  open_rate: 1.0
+  click_rate: 0.0
+schedule_type: api_triggered
+_filename: bulk-in-app-message-upload-result.yaml

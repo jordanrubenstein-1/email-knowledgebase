@@ -1,0 +1,75 @@
+id: 1f02cf4d-e899-490c-8d0c-0e325e55c02f
+name: P_EM_2025_08_29_BW_D_Labor_Day_Final_Weekend_Reminder
+brand: BUR
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 1f02cf4d-e899-490c-8d0c-0e325e55c02f
+dates:
+  send_date: '2025-08-29'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-29T05:28:55+00:00'
+  last_sent: '2025-08-29T17:15:39+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 32109355-f228-4444-88f1-569bb7832f87
+  channel: email
+  name: Variant 1
+  subject: 'FINAL WEEKEND TO SAVE! '
+  preheader: Nobody likes FOMO. Up to 70% off ends soon.
+- id: 2620c462-6963-439a-83aa-3de865755626
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 243094
+  total_delivered: 241184
+  total_opens: 138409
+  total_clicks: 533
+  open_rate: 0.5694
+  click_rate: 0.0022
+  total_revenue: 64380.26
+  total_bounces: 6
+  total_unsubscribes: 259
+  ga4:
+    sessions: 313
+    purchases: 6
+    revenue: 7061.64
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.577795'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:31.582170'
+schedule_type: time_based

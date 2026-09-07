@@ -1,0 +1,59 @@
+id: 2feee373-7219-4d6e-91e3-98c26ea4c66c
+name: P_2025_2_18_D_CZ_PD_AM_Last_Chance
+brand: CZ
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 2feee373-7219-4d6e-91e3-98c26ea4c66c
+dates:
+  send_date: '2025-02-18'
+  inferred_send_type: local_time
+  first_sent: '2025-02-17T17:09:21+00:00'
+  last_sent: '2025-02-18T17:01:08+00:00'
+tags: []
+sends:
+- id: 45716dc0-4451-4f26-b5fe-a7373e04b33b
+  channel: email
+  name: Variant 1
+  subject: 'Ends Today: Up To 20% Off'
+  preheader: It’s your last chance to save.
+  html_file: html/p_2025_2_18_d_cz_pd_am_last_chance.html
+  screenshot: screenshots/p_2025_2_18_d_cz_pd_am_last_chance.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b108c2e096370067e457a3/original.png?1739655362
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b1095c28e689006645ef91/original.png?1739655516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b108af4cbf7e0064cf8d97/original.png?1739655343
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b109542a08b600679de9f7/original.png?1739655508
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b108bc4cbf7e0073cf8236/original.png?1739655356
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b109072a08b600679de9ee/original.png?1739655431
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b108c84cbf7e0064cf8d98/original.png?1739655368
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b10867a75f820065efbc59/original.gif?1739655270
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b108d0b0f7620085012c2e/original.png?1739655376
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b1087e0143f600652531ab/original.png?1739655293
+- id: 1ab4af10-1438-4efa-89d6-64394bb76ec3
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 96854
+  total_delivered: 96121
+  total_opens: 47912
+  total_clicks: 545
+  open_rate: 0.4947
+  click_rate: 0.0056
+  total_revenue: 105224.45
+  total_bounces: 3
+  total_unsubscribes: 105
+  ga4:
+    sessions: 663
+    purchases: 15
+    revenue: 5223.92
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.392614'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.256959'
+schedule_type: time_based

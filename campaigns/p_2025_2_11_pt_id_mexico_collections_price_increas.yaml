@@ -1,0 +1,44 @@
+id: 5454bda2-11e7-4a2b-a520-216aea78afcc
+name: P_2025_2_11_PT_ID_Mexico_Collections_Price_Increase_Email
+brand: ID
+channel: email
+category: product_launch
+type: announcement
+theme: null
+braze_id: 5454bda2-11e7-4a2b-a520-216aea78afcc
+dates:
+  send_date: '2025-02-11'
+  inferred_send_type: scheduled
+  first_sent: '2025-02-11T22:53:25+00:00'
+  last_sent: '2025-02-11T22:54:03+00:00'
+tags: []
+sends:
+- id: 2412fb69-50b0-40e1-a04e-9874047fc20e
+  channel: email
+  name: Variant 1
+  subject: Final days to lock in quick ship pieces at current prices
+- id: 7237e41d-5369-4bc6-b630-b177722416cc
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 20818
+  total_delivered: 20751
+  total_opens: 12793
+  total_clicks: 557
+  open_rate: 0.6145
+  click_rate: 0.0268
+  total_revenue: 94564.4
+  total_unsubscribes: 52
+  ga4:
+    sessions: 803
+    purchases: 4
+    revenue: 11183.32
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.119536'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.915205'
+schedule_type: time_based

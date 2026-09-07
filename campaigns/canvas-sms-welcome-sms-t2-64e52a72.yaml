@@ -1,0 +1,44 @@
+id: 64e52a72-decf-462f-bb77-72f87d2ef1e9
+name: TRG_SMS_2025_04_01_CZ_D_Welcome_T2
+brand: CZ
+channel: sms
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: fa5f443d-568e-4267-9e17-e8a794649eba
+canvas_name: SMS Welcome
+flow_type: welcome_series
+sequence_position: 2
+body: 'The Citizenry: Want to make it official? Add us to your contacts so you never
+  miss a notification.
+
+
+  Explore our collections:
+
+  https://www.the-citizenry.com/?utm_source=braze_CZ&utm_medium=sms&utm_campaign={{campaign.${name}}}&userid={{${user_id}}}'
+sends:
+- id: 64e52a72-decf-462f-bb77-72f87d2ef1e9
+  channel: sms
+  name: TRG_SMS_2025_04_01_CZ_D_Welcome_T2
+  body: 'The Citizenry: Want to make it official? Add us to your contacts so you never
+    miss a notification.
+
+
+    Explore our collections:
+
+    https://www.the-citizenry.com/?utm_source=braze_CZ&utm_medium=sms&utm_campaign={{campaign.${name}}}&userid={{${user_id}}}'
+  media_items:
+  - https://braze-images.com/appboy/communication/assets/contact_card_assets/files/68af1cab2012220093ee265f/original.vcf?1756306603
+dates:
+  send_date: '2025-04-01'
+  inferred_send_type: sto
+  first_sent: '2025-04-01T23:00:00Z'
+  last_sent: '2026-08-10T15:00:00Z'
+performance_summary:
+  total_sends: 5897
+  total_delivered: 5734
+  total_clicks: 340
+  click_rate: 0.0577
+  total_unsubscribes: 291
+  total_bounces: 52
+  total_revenue: 35036.81

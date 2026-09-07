@@ -1,0 +1,33 @@
+id: 7828ef78-d2d9-489a-9699-d53ac62b1203
+name: TRG_EM_2024_08_ID_D_Swatch_Performance_Fabrics_T3_V1
+brand: ID
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 985f2ea2-f92d-461c-8276-effcef79f7ec
+canvas_name: Swatch Post Purchase
+flow_type: post_purchase
+sequence_position: 3
+subject: 'FABRIC TEST: Wine & muddy paws'
+preheader: ''
+sends:
+- id: 7828ef78-d2d9-489a-9699-d53ac62b1203
+  channel: email
+  name: TRG_EM_2024_08_ID_D_Swatch_Performance_Fabrics_T3_V1
+  subject: 'FABRIC TEST: Wine & muddy paws'
+  preheader: ''
+  html_file: html/canvas-swatch-post-purchase-t3-7828ef78.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-30T13:00:00Z'
+  last_sent: '2026-04-28T21:00:00Z'
+performance_summary:
+  total_sends: 104738
+  total_delivered: 103788
+  total_opens: 39959
+  total_clicks: 1276
+  open_rate: 0.3815
+  click_rate: 0.0122
+  total_unsubscribes: 349
+  total_bounces: 1

@@ -1,0 +1,33 @@
+id: 9d4a318f-7aa5-4c51-951a-c6f5b77af140
+name: TRG_SMS_2026_01_BW_D_Cart_Abandon_T2_V3
+brand: BUR
+channel: sms
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 8ca874dc-0ab7-4657-b4cf-abba50624472
+canvas_name: Abandon Cart - Cart Updated
+flow_type: cart_abandonment
+sequence_position: 2
+body: 'Burrow: Your cart''s ready when you are. Thoughtfully made furniture that sets
+  up easily and ships fast. https://burrow.com?utm_source=burrow&utm_medium=sms&utm_campaign={{campaign.${name}}}&bzt={{${email_address}
+  | base64_encode | url_param_escape}}'
+sends:
+- id: 9d4a318f-7aa5-4c51-951a-c6f5b77af140
+  channel: sms
+  name: TRG_SMS_2026_01_BW_D_Cart_Abandon_T2_V3
+  body: 'Burrow: Your cart''s ready when you are. Thoughtfully made furniture that
+    sets up easily and ships fast. https://burrow.com?utm_source=burrow&utm_medium=sms&utm_campaign={{campaign.${name}}}&bzt={{${email_address}
+    | base64_encode | url_param_escape}}'
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-01-17T12:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 3299
+  total_delivered: 3139
+  total_clicks: 436
+  click_rate: 0.1322
+  total_unsubscribes: 36
+  total_bounces: 33
+  total_revenue: 160419.0

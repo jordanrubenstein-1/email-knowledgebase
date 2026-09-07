@@ -1,0 +1,75 @@
+id: e55887ba-1e24-42ac-b55d-1f0b2f339a9c
+name: P_2024_11_20_D_SF_PR_BFCM_Bedding_Email
+brand: STF
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: e55887ba-1e24-42ac-b55d-1f0b2f339a9c
+dates:
+  send_date: '2024-11-20'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-20T00:20:54+00:00'
+  last_sent: '2024-11-20T15:00:21+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: ec07e384-39c0-4cb0-bdf7-b72f521999fb
+  channel: email
+  name: Variant 1
+  subject: Time for some beauty sleep
+  preheader: indulge in 30% off ultra-luxurious bedding
+  html_file: html/p_2024_11_20_d_sf_pr_bfcm_bedding_email.html
+  screenshot: screenshots/p_2024_11_20_d_sf_pr_bfcm_bedding_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673cc0ffcc1ffd006320012f/original.gif?1732034815
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673cc0d50bee5b0064f6fc9b/original.gif?1732034773
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673cc23a7d86bf0066f9cbf3/original.gif?1732035130
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673cc0df988b740063238f7c/original.gif?1732034783
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673cc10eda00900066830cb4/original.gif?1732034830
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673cc266da00900066830f9d/original.gif?1732035174
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673cc17f9b766c0064f530e8/original.gif?1732034943
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673cc03e3f253c00642792d4/original.jpg?1732034621
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673cc0239b766c0064f52cda/original.jpg?1732034595
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673cc132dcb34200631f59c4/original.gif?1732034866
+- id: e1bb8f90-be61-48ce-aa91-1773368d087c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 3761
+  total_delivered: 3724
+  total_opens: 1797
+  total_clicks: 62
+  open_rate: 0.4778
+  click_rate: 0.0165
+  total_revenue: 324.25
+  total_unsubscribes: 4
+  ga4:
+    sessions: 64
+    purchases: 2
+    revenue: 498.32
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.746233'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: stf-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:32.850276'
+schedule_type: time_based

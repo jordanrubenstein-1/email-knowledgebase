@@ -1,0 +1,30 @@
+id: ec7f448c-1b1a-4a48-b6fb-c79102910826
+name: P_2025_9_30_Holiday_Ready_Sale_Last_Chance_SMS
+brand: ID
+channel: sms
+category: reminder
+type: sale
+theme: christmas
+braze_id: ec7f448c-1b1a-4a48-b6fb-c79102910826
+dates:
+  send_date: '2025-09-30'
+  inferred_send_type: local_time
+  first_sent: '2025-09-30T03:39:07+00:00'
+  last_sent: '2025-09-30T20:30:29+00:00'
+tags: []
+sends:
+- id: 1e167a5a-211b-4760-9186-26493c361b1d
+  channel: other
+  name: Variant 1
+- id: 280e8ab4-44ea-4af8-8a97-29d9071da51f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 51963
+  total_delivered: 50013
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 35028.98
+schedule_type: time_based

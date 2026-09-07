@@ -1,0 +1,31 @@
+id: 104d387f-1c15-4062-9c65-a660f853a1a3
+name: TRG_EM_2025_HAV_CONV_D_Complete_Profile_Kitchen_T5_V1A
+brand: HAV
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 0b34d65c-1f25-4039-aaf9-7dfb705c5a71
+canvas_name: Room Profile Complete
+flow_type: welcome_series
+sequence_position: 5
+subject: Your after is waiting...
+preheader: Complete your room profile today.
+sends:
+- id: 104d387f-1c15-4062-9c65-a660f853a1a3
+  channel: email
+  name: TRG_EM_2025_HAV_CONV_D_Complete_Profile_Kitchen_T5_V1A
+  subject: Your after is waiting...
+  preheader: Complete your room profile today.
+  html_file: html/canvas-room-profile-complete-t5-104d387f.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-10-01T13:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 81
+  total_delivered: 81
+  total_opens: 48
+  total_clicks: 2
+  open_rate: 0.5926
+  click_rate: 0.0247

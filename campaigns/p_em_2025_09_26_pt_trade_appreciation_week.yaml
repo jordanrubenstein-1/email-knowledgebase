@@ -1,0 +1,60 @@
+id: b97e0e4c-e74b-4ae4-8cab-cc8bb83675aa
+name: P_EM_2025_09_26_PT_TRADE_Appreciation_Week
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: b97e0e4c-e74b-4ae4-8cab-cc8bb83675aa
+dates:
+  send_date: '2025-09-26'
+  inferred_send_type: local_time
+  first_sent: '2025-09-26T03:53:28+00:00'
+  last_sent: '2025-09-26T19:00:29+00:00'
+tags: []
+sends:
+- id: 8187d27a-fdaf-4e46-aeec-242af3d5d30b
+  channel: email
+  name: Variant 1
+  subject: Get Ready—Special Savings for Trade Appreciation Week
+- id: 28338194-7aaf-40d8-93c6-088e0002647c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 19937
+  total_delivered: 19419
+  total_opens: 10097
+  total_clicks: 230
+  open_rate: 0.5064
+  click_rate: 0.0115
+  total_revenue: 43830.0
+  total_unsubscribes: 112
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.546684'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-holiday-ready-sale-2025-09-18
+    name: Holiday-Ready Sale
+    start_date: '2025-09-18'
+    end_date: '2025-09-30'
+    discount: 20% off sitewide
+    type: null
+  primary_sale:
+    id: id-holiday-ready-sale-2025-09-18
+    name: Holiday-Ready Sale
+    start_date: '2025-09-18'
+    end_date: '2025-09-30'
+    discount: 20% off sitewide
+    type: null
+  sale_name: Holiday-Ready Sale
+  sale_discount: 20% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:36.825344'
+schedule_type: time_based

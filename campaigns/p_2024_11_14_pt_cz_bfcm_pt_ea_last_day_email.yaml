@@ -1,0 +1,72 @@
+id: d9bc5dc5-81f0-4471-a6e1-fe6362cdc841
+name: P_2024_11_14_PT_CZ_BFCM_PT_EA_Last_Day_Email
+brand: CZ
+channel: email
+category: reminder
+type: announcement
+theme: black_friday
+braze_id: d9bc5dc5-81f0-4471-a6e1-fe6362cdc841
+dates:
+  send_date: '2024-11-14'
+  inferred_send_type: local_time
+  first_sent: '2024-11-14T01:17:24+00:00'
+  last_sent: '2024-11-14T17:01:49+00:00'
+tags:
+- batch and blast/promo
+sends:
+- id: ca86fb4e-e115-424d-86e4-6fc6b0de9ee7
+  channel: email
+  name: Variant 1
+  subject: Don’t Wait! Your Early Access Ends Tonight
+  html_file: html/p_2024_11_14_pt_cz_bfcm_pt_ea_last_day_email.html
+  screenshot: screenshots/p_2024_11_14_pt_cz_bfcm_pt_ea_last_day_email.png
+- id: fb66d79f-8ea5-4b48-9120-327091fb58ac
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 91618
+  total_delivered: 91059
+  total_opens: 45929
+  total_clicks: 946
+  open_rate: 0.5013
+  click_rate: 0.0103
+  total_revenue: 204325.58
+  total_unsubscribes: 151
+  ga4:
+    sessions: 1816
+    purchases: 38
+    revenue: 29318.14
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.829185'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-up-to-35-off-strikethrough-wed-11-27-extra-sweeteners-select-products-go-up-to-35-off-2024-11-12
+    name: 'Up to 35% off (strikethrough) Wed 11/27 extra sweeteners: select products
+      go up to 35% off'
+    start_date: '2024-11-12'
+    end_date: '2024-11-14'
+    discount: null
+    type: null
+  - id: cz-early-access-2024-11-12
+    name: Early Access
+    start_date: '2024-11-12'
+    end_date: '2024-11-14'
+    discount: null
+    type: null
+  primary_sale:
+    id: cz-up-to-35-off-strikethrough-wed-11-27-extra-sweeteners-select-products-go-up-to-35-off-2024-11-12
+    name: 'Up to 35% off (strikethrough) Wed 11/27 extra sweeteners: select products
+      go up to 35% off'
+    start_date: '2024-11-12'
+    end_date: '2024-11-14'
+    discount: null
+    type: null
+  sale_name: 'Up to 35% off (strikethrough) Wed 11/27 extra sweeteners: select products
+    go up to 35% off'
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:35.298223'
+schedule_type: time_based

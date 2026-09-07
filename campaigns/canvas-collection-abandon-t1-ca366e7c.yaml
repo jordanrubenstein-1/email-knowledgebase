@@ -1,0 +1,35 @@
+id: ca366e7c-9f43-492f-b46f-1b48be2d20c6
+name: TRG_EM_2026_04_ID_D_Collection_Page_Abandon_T1_V1
+brand: ID
+channel: email
+category: product_launch
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 9ab577da-72e5-4f23-adfe-665afa9040c4
+canvas_name: Collection Abandon
+flow_type: browse_abandonment
+sequence_position: 1
+subject: It's waiting — and it's built to order
+preheader: Choose your fabric, finish, and size. Every piece is made to fit your space.
+sends:
+- id: ca366e7c-9f43-492f-b46f-1b48be2d20c6
+  channel: email
+  name: TRG_EM_2026_04_ID_D_Collection_Page_Abandon_T1_V1
+  subject: It's waiting — and it's built to order
+  preheader: Choose your fabric, finish, and size. Every piece is made to fit your
+    space.
+  html_file: html/canvas-collection-abandon-t1-ca366e7c.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-04-07T18:00:00Z'
+  last_sent: '2026-08-28T18:00:00Z'
+performance_summary:
+  total_sends: 10190
+  total_delivered: 10151
+  total_opens: 6247
+  total_clicks: 185
+  open_rate: 0.6131
+  click_rate: 0.0182
+  total_unsubscribes: 46
+  total_bounces: 1
+  total_revenue: 1561750.37

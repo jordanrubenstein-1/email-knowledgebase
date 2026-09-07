@@ -1,0 +1,63 @@
+id: e367e884-8325-42d7-ac26-57643c6e9876
+name: P_EM_2025_08_25_ID_D_Labor_Day_Event_Reminder
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: e367e884-8325-42d7-ac26-57643c6e9876
+dates:
+  send_date: '2025-08-25'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-25T05:20:57+00:00'
+  last_sent: '2025-08-25T17:15:24+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 9bcd152f-ca6c-4e5c-9c00-0272880b983c
+  channel: email
+  name: Variant 1
+  subject: Cozy Up Your Living Room With 25% Off
+  preheader: Shop The Labor Day Event
+- id: 1aaf172d-c6d4-4302-acaa-fee626e6b577
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 203866
+  total_delivered: 201457
+  total_opens: 97423
+  total_clicks: 899
+  open_rate: 0.4779
+  click_rate: 0.0044
+  total_revenue: 305807.85
+  total_bounces: 4
+  total_unsubscribes: 571
+  ga4:
+    sessions: 1013
+    purchases: 6
+    revenue: 23681.54
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.879398'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-04'
+    discount: 25% off sitewide
+    type: null
+  primary_sale:
+    id: id-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-04'
+    discount: 25% off sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 25% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:40.256084'
+schedule_type: time_based

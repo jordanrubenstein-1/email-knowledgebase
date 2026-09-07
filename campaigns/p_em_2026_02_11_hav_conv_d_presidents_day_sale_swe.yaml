@@ -1,0 +1,36 @@
+id: d8f2fa97-12b8-4446-926b-6ca87c9d5584
+name: P_EM_2026_02_11_HAV_CONV_D_Presidents_Day_Sale_Sweetener
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: d8f2fa97-12b8-4446-926b-6ca87c9d5584
+dates:
+  send_date: '2026-02-11'
+  last_sent: '2026-02-11'
+tags:
+- BLASTS-2025
+sends:
+- id: ef7b25fb-c71e-47d3-9ddb-4b70e6c62a88
+  channel: email
+  name: Variant 1
+  subject: The Same Sale Just Got Sweeter
+  preheader: Two. Days. Only. Extra savings added to the Presidents Day Sale.
+  html_file: html/p_em_2026_02_11_hav_conv_d_presidents_day_sale_sweetener.html
+  screenshot: screenshots/p_em_2026_02_11_hav_conv_d_presidents_day_sale_sweetener.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698b8727535b980064dd34f8/original.gif?1770751783
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698b871b739a350063572271/original.png?1770751771
+- id: f5bedada-285c-4e0f-82e8-d21c19df9633
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 35151
+  total_delivered: 35097
+  total_opens: 17533
+  total_clicks: 56
+  open_rate: 0.4988
+  click_rate: 0.0016
+  total_unsubscribes: 28
+schedule_type: time_based

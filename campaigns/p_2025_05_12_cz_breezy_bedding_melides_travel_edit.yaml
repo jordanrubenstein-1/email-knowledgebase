@@ -1,0 +1,52 @@
+id: 5a76c5e7-f3dd-4937-b664-692646dee5db
+name: P_2025_05_12_CZ_Breezy_Bedding_Melides_Travel_Edit_Email
+brand: CZ
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 5a76c5e7-f3dd-4937-b664-692646dee5db
+dates:
+  send_date: '2025-05-12'
+  inferred_send_type: local_time
+  first_sent: '2025-05-10T18:09:59+00:00'
+  last_sent: '2025-05-11T17:02:41+00:00'
+tags: []
+sends:
+- id: 403e3542-ec89-42c8-99a0-14701a12654c
+  channel: email
+  name: Variant 1
+  subject: 'The Portugal Collection: Seaglass Linen'
+  preheader: Inspired by the laid-back coastal town of Melides, Portugal.
+  html_file: html/p_2025_05_12_cz_breezy_bedding_melides_travel_edit_email.html
+  screenshot: screenshots/p_2025_05_12_cz_breezy_bedding_melides_travel_edit_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681e696c931ab00073a21bad/original.gif?1746823532
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681e69aafb3aea0095d35fb8/original.jpg?1746823594
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681e697d931ab00064a2289b/original.jpg?1746823549
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681e6988721bea0065f5410a/original.jpg?1746823560
+- id: 54867384-7baa-4b49-8ad4-b239929adfaa
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 95844
+  total_delivered: 92753
+  total_opens: 51037
+  total_clicks: 1171
+  open_rate: 0.5325
+  click_rate: 0.0122
+  total_revenue: 82878.52
+  total_unsubscribes: 127
+  ga4:
+    sessions: 1640
+    purchases: 9
+    revenue: 4082.52
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.653136'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.515876'
+schedule_type: time_based

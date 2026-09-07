@@ -1,0 +1,34 @@
+id: e53fd7b1-6adf-4067-a61d-250b81c18729
+name: P_EM_2025_09_01_HAV_CONV_D_BMSM
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: e53fd7b1-6adf-4067-a61d-250b81c18729
+dates:
+  send_date: '2025-09-01'
+  first_sent: '2025-08-31T18:20:17+00:00'
+  last_sent: '2025-09-01T17:16:04+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 579a76bb-ab5e-4300-84a6-dea5b9bf5185
+  channel: email
+  name: Variant 1
+  subject: Open For The Best Labor Day Deals
+  preheader: You can’t find these savings anywhere else.
+- id: 2afe0101-e922-426b-b785-fdacede4d82c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41214
+  total_delivered: 41200
+  total_opens: 22020
+  total_clicks: 144
+  open_rate: 0.5343
+  click_rate: 0.0035
+  total_unsubscribes: 47
+schedule_type: time_based
+_filename: p_em_2025_09_01_hav_conv_d_bmsm.yaml

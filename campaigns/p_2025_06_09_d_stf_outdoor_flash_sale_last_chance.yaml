@@ -1,0 +1,54 @@
+id: 81bd855a-b6d4-4ec9-8608-6b262a8e1b84
+name: P_2025_06_09_D_STF_Outdoor_Flash_Sale_Last_Chance
+brand: STF
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 81bd855a-b6d4-4ec9-8608-6b262a8e1b84
+dates:
+  send_date: '2025-06-09'
+  inferred_send_type: local_time
+  first_sent: '2025-06-08T18:06:12+00:00'
+  last_sent: '2025-06-09T17:00:28+00:00'
+tags: []
+sends:
+- id: 32777b30-164c-4d98-8d2d-f6ccd1913d8e
+  channel: email
+  name: Variant 1
+  subject: 'ENDING TONIGHT: 25% Off Outdoor Essentials'
+  preheader: gone in a FLASH
+  html_file: html/p_2025_06_09_d_stf_outdoor_flash_sale_last_chance.html
+  screenshot: screenshots/p_2025_06_09_d_stf_outdoor_flash_sale_last_chance.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684332b9428e9600642ba572/original.gif?1749234361
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68433348428e9600642ba9b7/original.png?1749234504
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68433333d36cc40084082970/original.png?1749234482
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6843333f35bba00065bb0dfa/original.png?1749234494
+- id: 00d31f09-89b6-4bb4-83df-d81ccae076ed
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 31166
+  total_delivered: 30817
+  total_opens: 14669
+  total_clicks: 170
+  open_rate: 0.4707
+  click_rate: 0.0055
+  total_revenue: 6823.0
+  total_bounces: 2
+  total_unsubscribes: 76
+  ga4:
+    sessions: 283
+    purchases: 4
+    revenue: 1412.52
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.676471'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.969705'
+schedule_type: time_based

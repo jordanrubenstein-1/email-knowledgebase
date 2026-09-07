@@ -1,0 +1,37 @@
+id: 1c5cba24-11f5-480b-a459-c5c065983aef
+name: P_SMS_2025_10_09_CZ_Anniversary_Sale_Launch
+brand: CZ
+channel: sms
+category: product_launch
+type: sale
+theme: null
+braze_id: 1c5cba24-11f5-480b-a459-c5c065983aef
+dates:
+  send_date: '2025-10-09'
+  inferred_send_type: local_time
+  first_sent: '2025-10-09T01:08:16+00:00'
+  last_sent: '2025-10-10T01:00:34+00:00'
+tags: []
+sends:
+- id: 3b41c847-cb3b-48f9-b825-a3bb8021baed
+  channel: sms
+  name: Variant 1
+- id: 76504fb0-6275-4499-83a0-61cc33f09f0b
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 21281
+  total_delivered: 20411
+  total_opens: 0
+  total_clicks: 220
+  open_rate: 0.0
+  click_rate: 0.0103
+  ga4:
+    sessions: 181
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.979075'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

@@ -1,0 +1,47 @@
+id: 0132751f-c092-4b20-a623-5c424cb271d3
+name: P_2025_1_20_D_SF_FABRIC_WINTER_REFRESH_SALE_Gmail_Email
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: winter
+braze_id: 0132751f-c092-4b20-a623-5c424cb271d3
+dates:
+  send_date: '2025-01-20'
+  inferred_send_type: local_time
+  first_sent: '2025-01-19T18:09:12+00:00'
+  last_sent: '2025-01-20T16:00:15+00:00'
+tags: []
+sends:
+- id: 5dbe4ac6-6be4-4303-8ac9-ff35d9d2b581
+  channel: email
+  name: Variant 1
+  subject: Get In Project Mode with 20% Off
+  preheader: shop fabric on sale now!
+  html_file: html/p_2025_1_20_d_sf_fabric_winter_refresh_sale_gmail_email.html
+  screenshot: screenshots/p_2025_1_20_d_sf_fabric_winter_refresh_sale_gmail_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678ab9bdd6aed40065923a8b/original.jpg?1737144765
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678ab86c28e0af00651dae27/original.gif?1737144428
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678ab8d4cdcb570064a15ebd/original.gif?1737144532
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678ab75a560c8500669c5f56/original.jpg?1737144153
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678ab8ad560c8500669c6330/original.gif?1737144493
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678ab6dd385c820092d7c4a8/original.jpg?1737144029
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678a62aadbd33900664a074d/original.jpg?1737122473
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678ab7a0d6aed400659234ea/original.gif?1737144224
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678ab90d385c820065d7de2c/original.jpg?1737144589
+- id: b5ef1ae5-a91b-4c70-864a-7e16da15ff1f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 728
+  total_delivered: 728
+  total_opens: 571
+  total_clicks: 15
+  open_rate: 0.7843
+  click_rate: 0.0206
+  total_revenue: 444.0
+  total_unsubscribes: 1
+_filename: p_2025_1_20_d_sf_fabric_winter_refresh_sale_gmail_email.yaml
+schedule_type: time_based

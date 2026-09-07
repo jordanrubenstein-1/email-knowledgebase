@@ -1,0 +1,35 @@
+id: 87c6932a-6aa6-41a8-82c8-9fbd81839b82
+name: P_EM_2026_08_27_HAV_CONV_D_Labor_Day_Event_Sweetener
+brand: HAV
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 87c6932a-6aa6-41a8-82c8-9fbd81839b82
+dates:
+  send_date: '2026-08-27'
+  first_sent: '2026-08-26T19:04:35+00:00'
+  last_sent: '2026-08-27T17:15:40+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 6244bf10-9b74-4243-ae97-51efd9725bd7
+  channel: email
+  name: Variant 1
+  subject: A little something sweet for Labor Day
+  preheader: Save an extra 5% off select vendors already on sale.
+- id: fd63f5cf-309b-45e9-8e89-f88a19436732
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 42197
+  total_delivered: 42136
+  total_opens: 18956
+  total_clicks: 66
+  open_rate: 0.4492
+  click_rate: 0.0016
+  total_bounces: 1
+  total_unsubscribes: 42
+schedule_type: time_based
+_filename: p_em_2026_08_27_hav_conv_d_labor_day_event_sweetener.yaml

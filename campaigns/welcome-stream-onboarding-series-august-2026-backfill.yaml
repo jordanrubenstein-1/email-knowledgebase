@@ -1,0 +1,136 @@
+id: d6437a77-1b60-43c6-a44f-3ccf8935c40f
+name: Welcome Stream / Onboarding Series - August 2026 Backfill
+brand: HAV
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: d6437a77-1b60-43c6-a44f-3ccf8935c40f
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2026-08-26T18:00:00+00:00'
+  last_sent: '2026-08-26T18:00:00+00:00'
+tags:
+- Automated-Lifecycle-Campaigns
+- welcome
+sends:
+- id: 6010c1cb-99af-480c-b154-e5a117cc325d
+  channel: email
+  name: TRG_EM_2024_08_HAV_CONV_D_Onboarding_T1_V1_backfill
+  subject: We are glad you are here
+  preheader: Welcome to Havenly
+  step_id: ed8efde8-e9cc-4095-95fd-7785d04dc18a
+- id: 3b5fcc03-e1d2-4764-a616-9ede445c1764
+  channel: email
+  name: TRG_EM_2024_08_HAV_CONV_D_Onboarding_T3_V1_backfill
+  subject: Design inspo this way ➡️
+  preheader: We got you.
+  step_id: 3be42886-059c-439c-9cad-636211f251bd
+- id: 3aa19950-dd48-4742-a30a-f3a4ff5de778
+  channel: email
+  name: TRG_EM_2024_08_HAV_CONV_D_Onboarding_T2_V1_backfill
+  subject: Your dream home is waiting
+  preheader: Let's get started!
+  step_id: 86ea4842-671b-4eb9-8f15-1df59359a7f9
+- id: 3b17299c-1c82-4f27-ad27-81ae8dd2d3ad
+  channel: email
+  name: TRG_EM_2024_08_HAV_CONV_D_Onboarding_T4_V1_backfill
+  subject: Our favorite design style of the moment? 🥁
+  preheader: Shop the edit.
+  step_id: 12ae84d0-8933-402e-9b07-269fbca0f25b
+- id: 3fd62cea-bcba-4dc1-83d9-0868dc7dfb82
+  channel: email
+  name: TRG_EM_2024_09_HAV_CONV_PT_Onboarding_HIP_Welcome_T1_V1_backfill
+  subject: 'Welcome to Havenly In-Person! 🎉
+
+    '
+  preheader: ''
+  step_id: a8f200d6-14ed-4d98-9df5-b0af9ec2b19b
+- id: f6ee9344-b661-48e8-b7a3-416539ada873
+  channel: email
+  name: TRG_EM_2024_08_HAV_CONV_D_Onboarding_T4_V 2
+  subject: Our favorite design style of the moment? 🥁
+  preheader: Shop the edit.
+  step_id: 82192069-79e5-41c7-8275-8ae234d3aea6
+performance_summary:
+  total_entries: 299
+  total_sends: 554
+  total_delivered: 524
+  total_opens: 197
+  total_clicks: 9
+  open_rate: 0.3556
+  click_rate: 0.0162
+  total_unsubscribes: 16
+  total_bounces: 26
+canvas_steps:
+- id: ed8efde8-e9cc-4095-95fd-7785d04dc18a
+  name: TRG_EM_2024_08_HAV_CONV_D_Onboarding_T1_V1_backfill
+  type: message
+  channel: email
+  subject: We are glad you are here
+  preheader: Welcome to Havenly
+- id: 3be42886-059c-439c-9cad-636211f251bd
+  name: TRG_EM_2024_08_HAV_CONV_D_Onboarding_T3_V1_backfill
+  type: message
+  channel: email
+  subject: Design inspo this way ➡️
+  preheader: We got you.
+- id: 86ea4842-671b-4eb9-8f15-1df59359a7f9
+  name: TRG_EM_2024_08_HAV_CONV_D_Onboarding_T2_V1_backfill
+  type: message
+  channel: email
+  subject: Your dream home is waiting
+  preheader: Let's get started!
+- id: 290cb4e1-9ff1-45de-9451-86e03fd29e57
+  name: Step 2
+  type: delay
+- id: c72ff1c4-2e7a-4164-a4d1-f094896e3d5f
+  name: Step 1
+  type: delay
+- id: 04a5f09f-baeb-4f38-98d0-4e642b21487b
+  name: Step
+  type: delay
+- id: 1f5a12d4-8540-43bc-ab66-d4c0fcb272b1
+  name: Step 3
+  type: delay
+- id: 12ae84d0-8933-402e-9b07-269fbca0f25b
+  name: TRG_EM_2024_08_HAV_CONV_D_Onboarding_T4_V1_backfill
+  type: message
+  channel: email
+  subject: Our favorite design style of the moment? 🥁
+  preheader: Shop the edit.
+- id: 1fe3d29f-7f59-427f-8bf2-7b0c2c785eb2
+  name: Step 4
+  type: decision_split
+- id: a8f200d6-14ed-4d98-9df5-b0af9ec2b19b
+  name: TRG_EM_2024_09_HAV_CONV_PT_Onboarding_HIP_Welcome_T1_V1_backfill
+  type: message
+  channel: email
+  subject: 'Welcome to Havenly In-Person! 🎉
+
+    '
+  preheader: ''
+- id: 89dd0c96-cf40-499e-a6c0-1891bab56c7a
+  name: Explored AI?
+  type: audience_paths
+- id: 04f7531e-0c10-4bb9-a788-e7a494508675
+  name: Step 5
+  type: delay
+- id: 9cf3cb8f-9825-4880-a7aa-35d5352ca050
+  name: Email available?
+  type: audience_paths
+- id: 82192069-79e5-41c7-8275-8ae234d3aea6
+  name: TRG_EM_2024_08_HAV_CONV_D_Onboarding_T4_V 2
+  type: message
+  channel: email
+  subject: Our favorite design style of the moment? 🥁
+  preheader: Shop the edit.
+- id: ae0bcbb7-052b-4370-bbff-51d8f0290ba2
+  name: Unsubscribe bouncers
+  type: user_update
+- id: 32af8b16-a74f-4fd6-969c-fe674e22e98a
+  name: Hasn't bounced
+  type: audience_paths
+_filename: welcome-stream-onboarding-series-august-2026-backfill.yaml

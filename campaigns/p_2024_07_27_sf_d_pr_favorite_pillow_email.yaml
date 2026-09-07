@@ -1,0 +1,46 @@
+id: 4895ba38-0782-4f34-97bb-1026f8e2a64b
+name: P_2024_07_27_SF_D_PR_Favorite_Pillow_Email
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 4895ba38-0782-4f34-97bb-1026f8e2a64b
+dates:
+  send_date: '2024-07-27'
+  inferred_send_type: scheduled
+  first_sent: '2024-07-27T13:15:00+00:00'
+  last_sent: '2024-07-27T13:15:15+00:00'
+tags: []
+sends:
+- id: 247f1225-3c77-4924-89dc-a339d53b463c
+  channel: email
+  name: Variant 1
+  subject: Your Favorite Pillow Is On Sale
+  preheader: shop 20% off
+- id: d3f71dae-8881-4ec2-ad0c-75180827b2f4
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 8674
+  total_delivered: 8649
+  total_opens: 1784
+  total_clicks: 92
+  open_rate: 0.2057
+  click_rate: 0.0106
+  total_revenue: 5176.0
+  total_bounces: 1
+  total_unsubscribes: 4
+  ga4:
+    sessions: 36
+    purchases: 1
+    revenue: 672.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.101458'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.324596'
+schedule_type: time_based

@@ -1,0 +1,62 @@
+id: 2af673e3-b31b-46e9-9a68-2cdccb467049
+name: P_EM_2025_10_06_SF_D_PF_POTM_Black_Daisy_Suzani
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 2af673e3-b31b-46e9-9a68-2cdccb467049
+dates:
+  send_date: '2025-10-06'
+  inferred_send_type: local_time
+  first_sent: '2025-10-05T17:09:43+00:00'
+  last_sent: '2025-10-06T17:00:19+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- print
+sends:
+- id: 41399915-d447-4e89-a163-f7c8d1136fec
+  channel: email
+  name: Variant 1
+  subject: 'In Print This October '
+  preheader: bold florals, deep hues, and effortless fall drama.
+  html_file: html/p_em_2025_10_06_sf_d_pf_potm_black_daisy_suzani.html
+  screenshot: screenshots/p_em_2025_10_06_sf_d_pf_potm_black_daisy_suzani.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e0499943c4de00631fd25b/original.png?1759529369
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e049a4a7fd9a0063dadefe/original.png?1759529380
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e048d3d8de180064efc135/original.png?1759529171
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e049fc43c4de00631fd2ab/original.png?1759529468
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e049e6c606580063180443/original.png?1759529446
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e048ea24765a00635afaf0/original.png?1759529193
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e049bd43c4de00731fd018/original.png?1759529405
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e04a0481737800654bf4f2/original.png?1759529476
+- id: 229c267d-f5ff-46cc-ae1b-d47cb44424d2
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 40190
+  total_delivered: 39522
+  total_opens: 17914
+  total_clicks: 210
+  open_rate: 0.4457
+  click_rate: 0.0052
+  total_bounces: 2
+  total_unsubscribes: 58
+  ga4:
+    sessions: 258
+    purchases: 2
+    revenue: 289.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.678340'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.004098'
+schedule_type: time_based

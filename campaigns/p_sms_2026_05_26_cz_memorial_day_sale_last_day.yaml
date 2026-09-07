@@ -1,0 +1,28 @@
+id: e4a8d47d-0a34-4a63-b3dd-9db0c86b67bb
+name: P_SMS_2026_05_26_CZ_Memorial_Day_Sale_Last_Day
+brand: CZ
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: e4a8d47d-0a34-4a63-b3dd-9db0c86b67bb
+dates:
+  send_date: '2026-05-26'
+  last_sent: '2026-05-26'
+tags: []
+sends:
+- id: 4f35000a-151d-4f6f-96c3-3fc42728cc81
+  channel: sms
+  name: Variant 1
+- id: a25e4719-a5c3-40b6-a256-65be02af06e1
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 20672
+  total_delivered: 18622
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+schedule_type: time_based
+_filename: p_sms_2026_05_26_cz_memorial_day_sale_last_day.yaml

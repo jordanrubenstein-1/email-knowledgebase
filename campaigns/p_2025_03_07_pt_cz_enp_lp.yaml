@@ -1,0 +1,46 @@
+id: 933450f7-a915-4d70-8ece-c587fd1a2a36
+name: P_2025_03_07_PT_CZ_ENP_LP
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 933450f7-a915-4d70-8ece-c587fd1a2a36
+dates:
+  send_date: '2025-03-07'
+  inferred_send_type: scheduled
+  first_sent: '2025-03-07T17:56:45+00:00'
+  last_sent: '2025-03-07T19:09:01+00:00'
+tags: []
+sends:
+- id: 2358f2e5-5252-4a9b-afed-3b10a4c7f6a8
+  channel: email
+  name: Variant 1
+  subject: Your exclusive discount code is inside...
+  html_file: html/p_2025_03_07_pt_cz_enp_lp.html
+  screenshot: screenshots/p_2025_03_07_pt_cz_enp_lp.png
+- id: c86fa63a-4fc3-40dc-a8e3-68f42975e863
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 67390
+  total_delivered: 67223
+  total_opens: 43176
+  total_clicks: 560
+  open_rate: 0.6407
+  click_rate: 0.0083
+  total_revenue: 53311.94
+  total_unsubscribes: 104
+  ga4:
+    sessions: 857
+    purchases: 14
+    revenue: 5343.68
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.975279'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.279560'
+schedule_type: time_based

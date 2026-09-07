@@ -1,0 +1,87 @@
+id: bb72fe7f-7944-435a-ae12-f65783ebd16a
+name: P_2025_07_08_ID_AM_July_4th_Sale_Last_Chance_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: bb72fe7f-7944-435a-ae12-f65783ebd16a
+dates:
+  send_date: '2025-07-08'
+  inferred_send_type: scheduled
+  first_sent: '2025-07-08T02:44:10+00:00'
+  last_sent: '2025-07-08T17:15:09+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 6a71c58c-40fa-4242-ba20-6f8c43882646
+  channel: email
+  name: Variant 1
+  subject: Rise, shine, and save up to 25% off.
+  preheader: The sale of the summer ENDS TODAY. Get in before it’s gone.
+- id: b4d9941e-71ca-4177-b4d9-254067e039d8
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 198307
+  total_delivered: 196018
+  total_opens: 89443
+  total_clicks: 829
+  open_rate: 0.451
+  click_rate: 0.0042
+  total_revenue: 380228.74
+  total_bounces: 5
+  total_unsubscribes: 416
+  ga4:
+    sessions: 726
+    purchases: 5
+    revenue: 18219.45
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.308388'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-the-fourth-of-july-sale-no-code-needed-20-off-3k-25-off-3k-25-off-up-to-3k-30-off-3k-for-trade-2025-07-08
+    name: 'The Fourth of July Sale - NO CODE NEEDED
+
+      20% off < $3K, 25% off > $3K
+
+      25% off up to $3K, 30% off > $3K for Trade'
+    start_date: '2025-07-08'
+    end_date: '2025-07-08'
+    discount: 'The Fourth of July Sale - NO CODE NEEDED
+
+      20% off < $3K, 25% off > $3K
+
+      25% off up to $3K, 30% off > $3K for Trade'
+    type: null
+  primary_sale:
+    id: id-the-fourth-of-july-sale-no-code-needed-20-off-3k-25-off-3k-25-off-up-to-3k-30-off-3k-for-trade-2025-07-08
+    name: 'The Fourth of July Sale - NO CODE NEEDED
+
+      20% off < $3K, 25% off > $3K
+
+      25% off up to $3K, 30% off > $3K for Trade'
+    start_date: '2025-07-08'
+    end_date: '2025-07-08'
+    discount: 'The Fourth of July Sale - NO CODE NEEDED
+
+      20% off < $3K, 25% off > $3K
+
+      25% off up to $3K, 30% off > $3K for Trade'
+    type: null
+  sale_name: 'The Fourth of July Sale - NO CODE NEEDED
+
+    20% off < $3K, 25% off > $3K
+
+    25% off up to $3K, 30% off > $3K for Trade'
+  sale_discount: 'The Fourth of July Sale - NO CODE NEEDED
+
+    20% off < $3K, 25% off > $3K
+
+    25% off up to $3K, 30% off > $3K for Trade'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:33.768177'
+schedule_type: time_based

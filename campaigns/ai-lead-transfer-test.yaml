@@ -1,0 +1,23 @@
+id: e7b76f71-ebd1-4673-a4f6-ee6144e69d2c
+name: AI Lead Transfer - Test
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: e7b76f71-ebd1-4673-a4f6-ee6144e69d2c
+dates: {}
+tags: []
+sends:
+- id: 8631cd0d-ed1f-42e8-b6fb-8f5c10e046ec
+  channel: email
+  name: Variant 1
+  subject: '{{custom_attribute.${ai_email_subject_line}}}
+
+    '
+- id: 3136a2ae-18af-4db0-9f25-659923d58143
+  channel: other
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: ai-lead-transfer-test.yaml

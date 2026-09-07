@@ -1,0 +1,37 @@
+id: 57d4ab94-73fb-4f0f-9ef6-18e5754f7e7f
+name: P_2024_08_30_D_ID_PR_LDW_Accent_Chairs_DSG_Email
+brand: ID
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 57d4ab94-73fb-4f0f-9ef6-18e5754f7e7f
+dates:
+  send_date: '2024-08-30'
+  inferred_send_type: scheduled
+  first_sent: '2024-08-30T02:11:20+00:00'
+  last_sent: '2024-08-30T14:25:00+00:00'
+tags: []
+sends:
+- id: 2c41c4ad-ce05-4ec0-8d43-14869b32e661
+  channel: email
+  name: Variant 1
+  subject: Accent Chairs | Up to 25% off
+  preheader: Best-selling seating is on sale for a limited time.
+- id: 71a82d9f-3e8d-498f-a3d4-a1a1038e4892
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.059171'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.250856'
+schedule_type: time_based

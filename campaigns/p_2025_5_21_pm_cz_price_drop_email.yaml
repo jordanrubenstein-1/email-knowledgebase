@@ -1,0 +1,56 @@
+id: d07446ed-8f2a-424e-9ea4-4cb574b8b4b4
+name: P_2025_5_21_PM_CZ_Price_Drop_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: d07446ed-8f2a-424e-9ea4-4cb574b8b4b4
+dates:
+  send_date: '2025-05-21'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-21T22:59:52+00:00'
+  last_sent: '2025-05-21T23:11:42+00:00'
+tags:
+- batch and blast/promo
+sends:
+- id: fc658617-4128-4933-bd5b-df114ade71f8
+  channel: email
+  name: Variant 1
+  subject: That Style You Love? It's On Sale
+  preheader: Don't miss our Memorial Day Event, happening now.
+  html_file: html/p_2025_5_21_pm_cz_price_drop_email.html
+  screenshot: screenshots/p_2025_5_21_pm_cz_price_drop_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6717c06c07b094007275ce31/original.gif?1729609836
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6717c0ff25ffbb00919d1752/original.gif?1729609983
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6717c115f7d0eb0063f47c8a/original.gif?1729610005
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6717c10b9c35f00075d6bc41/original.gif?1729609995
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6717c1bb25ffbb00669d1d99/original.gif?1729610171
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6717c1a2b79c7f0065c64a3b/original.gif?1729610146
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6717c1229c35f00066d6cc1e/original.jpg?1729610018
+- id: 9b4fb508-6ffb-46db-a56a-ccf28ce37c1f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 8843
+  total_delivered: 8809
+  total_opens: 5261
+  total_clicks: 171
+  open_rate: 0.5949
+  click_rate: 0.0193
+  total_revenue: 80389.5
+  total_unsubscribes: 40
+  ga4:
+    sessions: 40
+    purchases: 1
+    revenue: 203.18
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.619315'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.620341'
+schedule_type: time_based

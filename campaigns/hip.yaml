@@ -1,0 +1,31 @@
+id: f239f6ee-81df-41d9-a0d4-069bb7f8ae2b
+name: HIP
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: f239f6ee-81df-41d9-a0d4-069bb7f8ae2b
+braze_type: canvas
+campaign_type: Triggered Journey
+dates: {}
+tags: []
+sends:
+- id: a125ad63-1124-4fc9-85eb-13785206442b
+  channel: email
+  name: P_EM_2026_07_HAV_CONV_PT_HIP_T1_V1
+  subject: In-Person Interior Design Is Now In {{custom_attribute.${hip_market}}}
+  preheader: ''
+  step_id: 3e86075c-16f2-4773-a24b-60708e80a16d
+performance_summary: {}
+canvas_steps:
+- id: c1c6d07b-8cda-4f4c-923a-e4409fae38c7
+  name: Step
+  type: delay
+- id: 3e86075c-16f2-4773-a24b-60708e80a16d
+  name: P_EM_2026_07_HAV_CONV_PT_HIP_T1_V1
+  type: message
+  channel: email
+  subject: In-Person Interior Design Is Now In {{custom_attribute.${hip_market}}}
+  preheader: ''
+_filename: hip.yaml

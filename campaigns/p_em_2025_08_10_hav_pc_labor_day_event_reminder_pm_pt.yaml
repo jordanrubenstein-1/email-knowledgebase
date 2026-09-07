@@ -1,0 +1,35 @@
+id: eca42613-bf1e-40ba-b032-a74967de8f1a
+name: P_EM_2025_08_10_HAV_PC_Labor_Day_Event_Reminder_PM_PT
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: eca42613-bf1e-40ba-b032-a74967de8f1a
+dates:
+  send_date: '2025-08-10'
+  first_sent: '2025-08-10T03:06:33+00:00'
+  last_sent: '2025-08-11T03:00:24+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 732928a3-e609-431f-84b1-b59389e177c1
+  channel: email
+  name: Variant 1
+  subject: 'Get Fall-Ready: 50% Off Design Services 🍂'
+  preheader: Start your design project now and your “after” will be ready for Fall.
+- id: c38dbde7-d103-4371-87ee-061468f0d32f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 230532
+  total_delivered: 230004
+  total_opens: 99727
+  total_clicks: 430
+  open_rate: 0.4326
+  click_rate: 0.0019
+  total_bounces: 7
+  total_unsubscribes: 554
+schedule_type: time_based
+_filename: p_em_2025_08_10_hav_pc_labor_day_event_reminder_pm_pt.yaml

@@ -1,0 +1,58 @@
+id: 28916fb4-7309-4829-8b06-9c5a61d51026
+name: P_2024_11_23_HAV_PC_This_or_That_Holiday_Edition_Email
+brand: HAV
+channel: email
+category: editorial
+type: seasonal
+theme: christmas
+braze_id: 28916fb4-7309-4829-8b06-9c5a61d51026
+dates:
+  send_date: '2024-11-23'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-24T05:33:14+00:00'
+  last_sent: '2024-11-24T18:15:05+00:00'
+tags: []
+sends:
+- id: c66586e5-6649-4fc5-b8be-5bce7ce370a3
+  channel: email
+  name: Variant 1
+  subject: 'This or That: Holiday Edition'
+  preheader: Born to be Camp Chic. Forced to be Moody Cabin.
+  html_file: html/p_2024_11_23_hav_pc_this_or_that_holiday_edition_email.html
+  screenshot: screenshots/p_2024_11_23_hav_pc_this_or_that_holiday_edition_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67367f77990e3f0065819942/original.png?1731624823
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67367e5cbc72a400667ef803/original.png?1731624540
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67367e70f545b50066164561/original.png?1731624560
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6740c16db131420066214a2f/original.png?1732297068
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67368432288b0900660794b7/original.gif?1731626034
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67367e959cff220065632696/original.png?1731624597
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6740c1c13457110065fc8590/original.png?1732297153
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6740c13122e61f00645f2457/original.png?1732297009
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6740c19f2b103600649afdc5/original.png?1732297119
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6740c1de4939e2006653b6ce/original.png?1732297181
+- id: 61c480fc-454f-4272-84b1-44f116ceb442
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 159857
+  total_delivered: 156887
+  total_opens: 73544
+  total_clicks: 720
+  open_rate: 0.4601
+  click_rate: 0.0045
+  total_bounces: 3
+  total_unsubscribes: 319
+  ga4:
+    sessions: 651
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.574350'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.663101'
+schedule_type: time_based

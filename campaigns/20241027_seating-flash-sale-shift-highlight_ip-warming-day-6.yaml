@@ -1,0 +1,26 @@
+id: a29c91b9-9d92-4d93-9292-43cdd4ebe3ac
+name: 20241027_Seating-Flash-Sale-Shift-Highlight_IP-Warming-Day-6
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: a29c91b9-9d92-4d93-9292-43cdd4ebe3ac
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2024-10-27T14:00:04+00:00'
+  last_sent: '2024-10-27T14:02:57+00:00'
+tags:
+- IP Warming
+sends:
+- id: a9952981-4ee3-476f-9672-1d5869f702f2
+  channel: email
+  name: Variant 1
+  subject: Take 20% off our sleeper sofa
+  preheader: Save money, and your sleepovers.
+- id: 50ef39a3-8e76-483f-96a8-eeb2a2477ed9
+  channel: other
+  name: Control Group
+performance_summary: {}
+_filename: 20241027_seating-flash-sale-shift-highlight_ip-warming-day-6.yaml
+schedule_type: time_based

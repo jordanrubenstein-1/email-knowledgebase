@@ -1,0 +1,47 @@
+id: 045584b4-677c-42ec-a72f-12fe3931c6b7
+name: P_2025_05_21_PT_STF_Memorial_Day_Event_PM
+brand: STF
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 045584b4-677c-42ec-a72f-12fe3931c6b7
+dates:
+  send_date: '2025-05-21'
+  inferred_send_type: local_time
+  first_sent: '2025-05-21T03:09:45+00:00'
+  last_sent: '2025-05-22T02:00:20+00:00'
+tags: []
+sends:
+- id: 7e4486de-26db-4116-a493-5345ae925538
+  channel: email
+  name: Variant 1
+  subject: Still Thinking It Over? 30% Off Ends Soon
+  html_file: html/p_2025_05_21_pt_stf_memorial_day_event_pm.html
+  screenshot: screenshots/p_2025_05_21_pt_stf_memorial_day_event_pm.png
+- id: e1f222fc-ad75-4734-b54b-f8e0164c182c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 3418
+  total_delivered: 3413
+  total_opens: 2466
+  total_clicks: 136
+  open_rate: 0.7215
+  click_rate: 0.0398
+  total_revenue: 1841.0
+  total_bounces: 1
+  total_unsubscribes: 23
+  ga4:
+    sessions: 103
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.755428'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.182951'
+schedule_type: time_based

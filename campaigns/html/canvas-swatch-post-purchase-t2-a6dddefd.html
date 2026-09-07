@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+body{margin:0;padding:0}
+p{margin:0 0 14px 0;line-height:1.5}
+a{color:#1871D8;text-decoration:underline}
+</style>
+</head>
+<body style="margin:0;padding:0;background-color:#ffffff;">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="background-color:#ffffff;">
+<tr><td align="center">
+<table width="600" border="0" cellpadding="20" cellspacing="0">
+<tr><td style="color:#101b24;font-family:Arial,sans-serif;font-size:14px;font-weight:400;line-height:150%;text-align:left;">
+
+{% assign shopping = canvas_entry_properties.shopping_for | default: "" %}{% assign style = canvas_entry_properties.design_style | default: "" %}
+
+<p>Hi {{${first_name} | default: 'there'}},</p>
+
+<p>Your swatches should have arrived by now — seeing fabrics in your space can make a big difference.</p>
+
+{% if shopping contains "Sleeper Sofas" %}
+<p>Since you're shopping for a <a href="https://www.interiordefine.com/living/all-custom-sofas/custom-sleeper-sofas?page=1&lid=svhaivdwh3rs">sleeper sofa</a>, try placing your swatches where it will live so you can see how each fabric feels in your space day-to-day.</p>
+{% elsif shopping contains "Sectionals" %}
+<p>Since you're shopping for a <a href="https://www.interiordefine.com/living/all-custom-sectionals?page=1&lid=zik9vevbx1gs">sectional</a>, try placing your swatches near your existing furniture to see how everything works together.</p>
+{% elsif shopping contains "Sofas" %}
+<p>Since you're shopping for a <a href="https://www.interiordefine.com/living/all-custom-sofas?page=1&lid=2nko499kadnm">sofa</a>, try comparing your swatches next to pillows and rugs to get a sense of texture and scale.</p>
+{% elsif shopping contains "Chairs/Chaises" %}
+<p>Since you're shopping for a <a href="https://www.interiordefine.com/living/all-custom-chairs?page=1&lid=cxawb91nyeb6">chair</a> or <a href="https://www.interiordefine.com/living/all-custom-chairs/custom-chaise-lounges?page=1&lid=111lr617f8ic">chaise</a>, placing swatches in that exact spot can help you picture the final layout.</p>
+{% elsif shopping contains "Ottomans" %}
+<p>Since you're shopping for an <a href="https://www.interiordefine.com/living/all-custom-ottomans?page=1&lid=pzfu7b9tbkab">ottoman</a>, see how each fabric complements the other pieces in your room.</p>
+{% elsif shopping contains "Beds" %}
+<p>Since you're shopping for a <a href="https://www.interiordefine.com/bedroom/all-beds?page=1&lid=bd7lhi9jlxla">bed</a>, try laying your swatches near your bedding to visualize the full look.</p>
+{% elsif shopping contains "Dining" %}
+<p>Since you're shopping for <a href="https://www.interiordefine.com/dining?page=1&lid=mks4bgrx347h">dining furniture</a>, check how the fabrics pair with your table and surrounding decor.</p>
+{% endif %}
+
+{% if style contains "Modern" %}
+<p>If you're leaning <a href="https://www.interiordefine.com/lukas-collection?page=1&lid=sdotx09dejbn">modern</a>, clean lines tend to let the fabric really shine—so it's worth paying attention to texture and tone.</p>
+{% elsif style contains "Classic" %}
+<p>If your style is more <a href="https://www.interiordefine.com/sloan-collection?page=1&lid=i8swv3chkwqk">classic</a>, look for fabrics that feel timeless and easy to live with across seasons.</p>
+{% elsif style contains "Eclectic" %}
+<p>If you love an <a href="https://www.interiordefine.com/skylar-collection?page=1&lid=60qknp0r80wa">eclectic</a> look, this is a great opportunity to go bold or mix textures.</p>
+{% elsif style contains "Minimalist" %}
+<p>If you prefer a <a href="https://www.interiordefine.com/winslow-collection?page=1&lid=96zcshab81jh">minimalist</a> feel, subtle textures and balanced tones can make a big impact.</p>
+{% elsif style contains "Family-Friendly" %}
+<p>If you're prioritizing a family-friendly space, <a href="https://www.interiordefine.com/performance-fabrics-guide?lid=d9wueqm6h25c">performance fabrics</a> are a great option for durability and easy care.</p>
+{% endif %}
+
+<p>Our design experts have been with you through every step of this process. <a href="https://www.interiordefine.com?lid=agv3hdgynikr#hs-chat-open">Reach back out</a> anytime — they'd love to help you land on the perfect choice.</p>
+
+<p>You can reply here to get reconnected or you can reply to any of the emails they’ve sent.</p>
+
+<p>Best,<br>The Interior Define Team</p>
+
+</td></tr>
+<tr><td style="color:#101b24;font-family:Arial,sans-serif;font-size:9px;font-weight:400;line-height:normal;text-align:left;">
+
+<p>Copyright &copy; {{ 'now' | date: '%Y' }}, Interior Define, All rights reserved.<br>
+3200 Cherry Creek South Drive, Suite 210, Denver, CO 80209</p>
+
+<p>If you would rather not receive future emails from us, you may <a href="{{${set_user_to_unsubscribed_url}}}" style="color:#1871D8;text-decoration:underline;">unsubscribe</a>.</p>
+
+</td></tr>
+</table>
+</td></tr>
+</table>
+</body>
+</html>

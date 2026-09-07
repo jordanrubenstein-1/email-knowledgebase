@@ -1,0 +1,58 @@
+id: 88461983-df3f-41d5-be6c-f4913d187a7c
+name: P_2024_09_24_D_HAV_PR_CON_Sept_Sale_Announcement_Email
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 88461983-df3f-41d5-be6c-f4913d187a7c
+dates:
+  send_date: '2024-09-24'
+  inferred_send_type: scheduled
+  first_sent: '2024-09-24T06:25:09+00:00'
+  last_sent: '2024-09-24T17:15:02+00:00'
+tags: []
+sends:
+- id: aa979e65-10e1-4b2a-8f2c-72e09250a9eb
+  channel: email
+  name: Variant 1
+  subject: The September Sale is live 💥
+  preheader: Save on all full-priced items
+  html_file: html/p_2024_09_24_d_hav_pr_con_sept_sale_announcement_email.html
+  screenshot: screenshots/p_2024_09_24_d_hav_pr_con_sept_sale_announcement_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66f256f4f771870072a9b510/original.jpg?1727158004
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66f256ced7e08c0064ca646a/original.jpg?1727157966
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66f2568bf771870064a9cba1/original.jpg?1727157899
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66f256e8e3e50e00654e1fc6/original.jpg?1727157992
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66f25696d7e08c0064ca6375/original.jpg?1727157910
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66f256dcf771870064a9cc63/original.jpg?1727157980
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66f256bde3e50e00654e1f77/original.jpg?1727157949
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66f255e0c8ba750064a2efb7/original.jpg?1727157728
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66f25657e3e50e00654e1eae/original.jpg?1727157847
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66f25672c8ba750064a2f2cc/original.jpg?1727157874
+- id: ca238503-d409-4afd-9893-5d72e60999f3
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 35670
+  total_delivered: 35636
+  total_opens: 20241
+  total_clicks: 377
+  open_rate: 0.5675
+  click_rate: 0.0106
+  total_bounces: 1
+  total_unsubscribes: 88
+  ga4:
+    sessions: 566
+    purchases: 3
+    revenue: 2652.76
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.617189'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.234853'
+schedule_type: time_based

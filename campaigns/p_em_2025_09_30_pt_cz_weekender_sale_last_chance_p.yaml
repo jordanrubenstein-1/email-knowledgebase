@@ -1,0 +1,69 @@
+id: 241376af-9790-4103-9858-54d7f984a167
+name: P_EM_2025_09_30_PT_CZ_Weekender_Sale_Last_Chance_PM
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 241376af-9790-4103-9858-54d7f984a167
+dates:
+  send_date: '2025-09-30'
+  inferred_send_type: local_time
+  first_sent: '2025-09-30T03:46:29+00:00'
+  last_sent: '2025-10-01T02:03:07+00:00'
+tags:
+- batch and blast
+- pm
+- pt
+- sale
+- sale_feat
+sends:
+- id: 91fe3d69-1328-4aef-a5db-a525a3a730d1
+  channel: email
+  name: Variant 1
+  subject: 'Last chance: 20% off sitewide officially ends tonight'
+  html_file: html/p_em_2025_09_30_pt_cz_weekender_sale_last_chance_pm.html
+  screenshot: screenshots/p_em_2025_09_30_pt_cz_weekender_sale_last_chance_pm.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f83def4631c700674e669c/original.png?1744322031
+- id: d11fffcc-e577-4e40-bf0f-1ce15b479fa5
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 26218
+  total_delivered: 26149
+  total_opens: 17614
+  total_clicks: 495
+  open_rate: 0.6718
+  click_rate: 0.0189
+  total_bounces: 1
+  total_unsubscribes: 51
+  ga4:
+    sessions: 451
+    purchases: 13
+    revenue: 4047.3
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.785910'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-weekender-sale-2025-09-26
+    name: Weekender Sale
+    start_date: '2025-09-26'
+    end_date: '2025-09-30'
+    discount: 20% Off Sitewide
+    type: null
+  primary_sale:
+    id: cz-weekender-sale-2025-09-26
+    name: Weekender Sale
+    start_date: '2025-09-26'
+    end_date: '2025-09-30'
+    discount: 20% Off Sitewide
+    type: null
+  sale_name: Weekender Sale
+  sale_discount: 20% Off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:34.945700'
+schedule_type: time_based

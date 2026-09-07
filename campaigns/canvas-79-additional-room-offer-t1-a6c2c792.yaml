@@ -1,0 +1,31 @@
+id: a6c2c792-7db1-4410-8b07-67c92d5f6de0
+name: P_EM_2026_07_HAV_CONV_PT_Additional_Room_Offer_T1_V1
+brand: HAV
+channel: email
+category: sale_promo
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: ae9dc5b7-9b02-44cb-bd36-969b96641213
+canvas_name: $79 Additional Room Offer
+flow_type: other_flow
+sequence_position: 1
+subject: A thank you gift from us to you
+preheader: ''
+sends:
+- id: a6c2c792-7db1-4410-8b07-67c92d5f6de0
+  channel: email
+  name: P_EM_2026_07_HAV_CONV_PT_Additional_Room_Offer_T1_V1
+  subject: A thank you gift from us to you
+  preheader: ''
+  html_file: html/canvas-79-additional-room-offer-t1-a6c2c792.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-07-16T00:00:00Z'
+  last_sent: '2026-08-20T12:00:00Z'
+performance_summary:
+  total_sends: 49
+  total_delivered: 49
+  total_opens: 47
+  total_clicks: 0
+  open_rate: 0.9592
+  click_rate: 0.0

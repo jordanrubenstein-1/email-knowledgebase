@@ -1,0 +1,68 @@
+id: edc4d721-0523-4cb6-b953-18b551080f7c
+name: P_EM_2025_10_13_PT_STF_PF_Gallery_Sale
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: edc4d721-0523-4cb6-b953-18b551080f7c
+dates:
+  send_date: '2025-10-13'
+  inferred_send_type: local_time
+  first_sent: '2025-10-12T17:05:31+00:00'
+  last_sent: '2025-10-13T17:00:36+00:00'
+tags:
+- Batch and Blast
+- am
+- pt
+- sale
+- sale-feat
+sends:
+- id: 58b1780a-c3d4-4526-9c18-976b39b7b726
+  channel: email
+  name: Variant 1
+  subject: Time to hang something beautiful — 25% off
+  preheader: the Gallery Sale is here
+  html_file: html/p_em_2025_10_13_pt_stf_pf_gallery_sale.html
+  screenshot: screenshots/p_em_2025_10_13_pt_stf_pf_gallery_sale.png
+- id: df80de84-1b7d-452a-94e4-6a3df3431ab6
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39555
+  total_delivered: 39264
+  total_opens: 18061
+  total_clicks: 265
+  open_rate: 0.4566
+  click_rate: 0.0067
+  total_bounces: 3
+  total_unsubscribes: 72
+  ga4:
+    sessions: 265
+    purchases: 2
+    revenue: 81.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.929871'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-the-gallery-sale-2025-10-09
+    name: The Gallery Sale
+    start_date: '2025-10-09'
+    end_date: '2025-10-21'
+    discount: 25% off Art + Wallpaper + Curtains
+    type: null
+  primary_sale:
+    id: stf-the-gallery-sale-2025-10-09
+    name: The Gallery Sale
+    start_date: '2025-10-09'
+    end_date: '2025-10-21'
+    discount: 25% off Art + Wallpaper + Curtains
+    type: null
+  sale_name: The Gallery Sale
+  sale_discount: 25% off Art + Wallpaper + Curtains
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:38.817952'
+schedule_type: time_based

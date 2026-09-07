@@ -1,0 +1,58 @@
+id: 0f408931-3e69-465e-aba4-76973fd11fbd
+name: P_2025_1_13_D_SF_Surf_Email
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 0f408931-3e69-465e-aba4-76973fd11fbd
+dates:
+  send_date: '2025-01-13'
+  inferred_send_type: local_time
+  first_sent: '2025-01-12T17:05:51+00:00'
+  last_sent: '2025-01-13T17:00:09+00:00'
+tags: []
+sends:
+- id: ae1866e3-f600-41ad-a5bf-5576d3915f96
+  channel: email
+  name: Variant 1
+  subject: 'Winter Escape: Hit the Waves'
+  preheader: explore our patterned surfboards
+  html_file: html/p_2025_1_13_d_sf_surf_email.html
+  screenshot: screenshots/p_2025_1_13_d_sf_surf_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677fd8bb1ea7820064861387/original.gif?1736431803
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677fd829fea3f50065c10676/original.gif?1736431657
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677fd805e7bd9a006499645b/original.jpg?1736431621
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677fd87cc045ef0075f5a68d/original.gif?1736431740
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677fd7a22d0d0f00642475e6/original.gif?1736431522
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677fd8eee7bd9a0073995b5e/original.gif?1736431854
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677fd84220d1de00631fac1b/original.gif?1736431682
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678035f197214e0074171c7f/original.jpg?1736455664
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677fd861eb3d7800663677af/original.gif?1736431712
+- id: 28946d6e-86aa-41e6-9d47-a3500fa63289
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 3691
+  total_delivered: 3639
+  total_opens: 1884
+  total_clicks: 37
+  open_rate: 0.5104
+  click_rate: 0.01
+  total_revenue: 1052.0
+  total_unsubscribes: 5
+  ga4:
+    sessions: 30
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.053860'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.928226'
+schedule_type: time_based

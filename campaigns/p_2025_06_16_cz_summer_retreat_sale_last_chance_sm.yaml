@@ -1,0 +1,38 @@
+id: f2c5efdc-75c3-4293-876d-a6aa0b646af8
+name: P_2025_06_16_CZ_Summer_Retreat_Sale_Last_Chance_SMS
+brand: CZ
+channel: sms
+category: reminder
+type: sale
+theme: summer
+braze_id: f2c5efdc-75c3-4293-876d-a6aa0b646af8
+dates:
+  send_date: '2025-06-16'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-16T17:51:39+00:00'
+  last_sent: '2025-06-17T00:05:14+00:00'
+tags: []
+sends:
+- id: 0e4abd5e-0cf0-41f2-9b16-4aae08c46b43
+  channel: other
+  name: Variant 1
+- id: 3a28fd4e-f3c6-4d65-8479-7f6ef18942be
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 23811
+  total_delivered: 23168
+  total_opens: 0
+  total_clicks: 278
+  open_rate: 0.0
+  click_rate: 0.0117
+  total_revenue: 8939.26
+  ga4:
+    sessions: 293
+    purchases: 2
+    revenue: 873.01
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.075530'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

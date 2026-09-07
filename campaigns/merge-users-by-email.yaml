@@ -1,0 +1,92 @@
+id: 21432ec4-23a8-4249-9105-da3ca290eea1
+name: Merge Users by Email
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 21432ec4-23a8-4249-9105-da3ca290eea1
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-07-15T22:00:00+00:00'
+  last_sent: '2025-04-15T21:00:00+00:00'
+tags: []
+sends:
+- id: eaacb786-ea8c-45ca-ab5d-4dd771c67cfd
+  channel: other
+  name: Variant 1
+- id: 799b0610-2b63-48ea-b7d3-d6c9953f22a4
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.960291'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-st-frank-2025-02-19
+    name: St Frank
+    start_date: '2025-02-19'
+    end_date: '2025-02-24'
+    discount: Sitewide 20% off B2C, Trade 25%
+    type: null
+  - id: stf-end-of-year-sale-2025-01-01
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-05'
+    discount: 20% off Sitewide + 30% Off Last Chance Patterns
+    type: null
+  - id: stf-30-off-fabric-wallpaper-curtains-category-strikethrough-2024-10-25
+    name: 30% off fabric/wallpaper/curtains category (strikethrough)
+    start_date: '2024-10-25'
+    end_date: '2024-10-30'
+    discount: null
+    type: null
+  - id: stf-flash-sale-2024-10-25
+    name: Flash Sale
+    start_date: '2024-10-25'
+    end_date: '2024-10-30'
+    discount: null
+    type: null
+  - id: stf-early-access-2024-11-12
+    name: Early Access
+    start_date: '2024-11-12'
+    end_date: '2024-11-14'
+    discount: null
+    type: null
+  - id: stf-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  - id: stf-cyber-week-ext-2024-12-03
+    name: Cyber Week Ext
+    start_date: '2024-12-03'
+    end_date: '2024-12-10'
+    discount: null
+    type: null
+  - id: stf_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: stf-st-frank-2025-02-19
+    name: St Frank
+    start_date: '2025-02-19'
+    end_date: '2025-02-24'
+    discount: Sitewide 20% off B2C, Trade 25%
+    type: null
+  sale_name: St Frank
+  sale_discount: Sitewide 20% off B2C, Trade 25%
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:39.605419'
+schedule_type: action_based

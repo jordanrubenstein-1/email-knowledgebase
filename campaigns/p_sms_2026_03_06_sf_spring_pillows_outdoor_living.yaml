@@ -1,0 +1,37 @@
+id: 8adbf29e-13ea-4a59-9ff8-eeef71e070a3
+name: P_SMS_2026_03_06_SF_Spring_Pillows_Outdoor_Living
+brand: STF
+channel: sms
+category: other
+type: seasonal
+theme: spring
+braze_id: 8adbf29e-13ea-4a59-9ff8-eeef71e070a3
+dates:
+  send_date: '2026-03-06'
+  inferred_send_type: local_time
+  first_sent: '2026-03-05T23:07:42+00:00'
+  last_sent: '2026-03-06T21:01:02+00:00'
+tags: []
+sends:
+- id: 2a9d5faf-5f69-45ce-afbb-82985b87c135
+  channel: sms
+  name: Variant 1
+- id: 72dc61dd-5292-4a04-8ad2-ee0597077aa4
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 4168
+  total_delivered: 4097
+  total_opens: 0
+  total_clicks: 108
+  open_rate: 0.0
+  click_rate: 0.0259
+  ga4:
+    sessions: 116
+    purchases: 1
+    revenue: 660.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.767791'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

@@ -1,0 +1,25 @@
+id: dd915a42-e4dc-4cd0-9f88-593c21a88aec
+name: TRG_Sale_2024_ID_Cart_Abandon_T3_Email
+brand: ID
+channel: email
+category: sale_promo
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: b6076d51-b7fd-432c-a79c-be2acf40bb52
+canvas_name: Cart Abandon test
+flow_type: cart_abandonment
+sequence_position: 3
+subject: Leave something behind?
+preheader: Bring it home today with up to 25% off
+sends:
+- id: dd915a42-e4dc-4cd0-9f88-593c21a88aec
+  channel: email
+  name: TRG_Sale_2024_ID_Cart_Abandon_T3_Email
+  subject: Leave something behind?
+  preheader: Bring it home today with up to 25% off
+  html_file: html/canvas-cart-abandon-test-t3-dd915a42.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-11-13T20:00:00Z'
+  last_sent: '2025-11-21T19:00:00Z'
+performance_summary: {}

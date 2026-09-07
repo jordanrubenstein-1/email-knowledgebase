@@ -1,0 +1,34 @@
+id: 9db37bb8-b743-4f70-a52c-176b6c84d421
+name: P_2025_03_04_HAV_Conv_Last_Layer_Sale_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 9db37bb8-b743-4f70-a52c-176b6c84d421
+dates:
+  send_date: '2025-03-04'
+  first_sent: '2025-03-04T20:14:04+00:00'
+  last_sent: '2025-03-04T20:14:36+00:00'
+  inferred_send_type: scheduled
+tags:
+- BLASTS-2025
+sends:
+- id: fa5f5466-d8d3-4925-b48c-4e5ec1577e82
+  channel: email
+  name: Variant 1
+  subject: Refresh your space for up to 20% off
+  preheader: Save on decor and accent furniture, exclusively at Havenly.
+- id: af4f29c0-fa1b-4caa-970a-b3a672fd736c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 38435
+  total_delivered: 38337
+  total_opens: 21063
+  total_clicks: 160
+  open_rate: 0.548
+  click_rate: 0.0042
+  total_unsubscribes: 44
+schedule_type: time_based
+_filename: p_2025_03_04_hav_conv_last_layer_sale_reminder_email.yaml

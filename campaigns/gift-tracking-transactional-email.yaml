@@ -1,0 +1,59 @@
+id: d8142e74-3335-c894-00cc-c5d73c971a1e
+name: Gift Tracking Transactional Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: d8142e74-3335-c894-00cc-c5d73c971a1e
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-12-05T16:00:00+00:00'
+  last_sent: '2025-12-19T20:00:00+00:00'
+tags: []
+sends:
+- id: 4ab99387-087b-4c19-9541-fb33ece396dc
+  channel: email
+  name: Variant 1
+  subject: Your Havenly gift card is en route!
+  html_file: html/gift-tracking-transactional-email.html
+  screenshot: screenshots/gift-tracking-transactional-email.png
+- id: 19fcfe09-ae1a-4169-a5c6-82588f063e78
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 36
+  total_delivered: 36
+  total_opens: 32
+  total_clicks: 9
+  open_rate: 0.8889
+  click_rate: 0.25
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:48.938040'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: hav_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: hav_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:31.833428'
+schedule_type: api_triggered

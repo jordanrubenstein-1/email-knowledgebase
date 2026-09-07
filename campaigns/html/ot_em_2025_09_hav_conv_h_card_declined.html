@@ -1,0 +1,101 @@
+<body
+  style="-moz-box-sizing: border-box; -ms-text-size-adjust: 100%; -webkit-box-sizing: border-box; -webkit-text-size-adjust: 100%; Margin: 0; box-sizing: border-box; color: #0a0a0a; font-family: Helvetica, Arial, serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0; min-width: 100%; padding: 0; text-align: left; width: 100% !important;">
+  <style type="text/css">
+    @media only screen {
+      html {
+        min-height: 100%;
+        background: #fafafa
+      }
+    }
+  </style>
+  <table class="body"
+    style="Margin: 0; background: #fafafa; border-collapse: collapse; border-spacing: 0; color: #0a0a0a; font-family: Helvetica, Arial, serif; font-size: 16px; font-weight: normal; height: 100%; line-height: 1.3; margin: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+    <tr style="padding: 0; text-align: left; vertical-align: top;">
+      <td align="center" class="center"
+        style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica, Arial, serif; font-size: 16px; font-weight: normal; hyphens: auto; line-height: 1.3; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"
+        valign="top">
+        <center data-parsed="" style="min-width: 739px; width: 100%;">
+          <table align="center" class="container float-center"
+            style="Margin: 0 auto; background: #fafafa; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 739px;">
+            <tbody>
+              <tr style="padding: 0; text-align: left; vertical-align: top;">
+                <td
+                  style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica, Arial, serif; font-size: 16px; font-weight: normal; hyphens: auto; line-height: 1.3; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                  <!-- START HEADER -->
+                  {{content_blocks.${api_trig_header} | id: 'cb1'}}
+                  <!-- END HEADER -->
+
+                  <!-- START 30px tall spacer -->
+                  <table class="spacer"
+                    style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+                    <tbody>
+                      <tr style="padding: 0; text-align: left; vertical-align: top;">
+                        <td height="45px"
+                          style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica, Arial, serif; font-size: 30px; font-weight: normal; hyphens: auto; line-height: 45px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: center; vertical-align: top; word-wrap: break-word;">
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- END 30px tall spacer -->
+
+                  <!-- 740px Text -->
+                  <table width="740" class="deviceWidth" border="0" cellpadding="0" cellspacing="0" align="left">
+                    <tr>
+                      <td valign="top" align="left" class="bodycopy"
+                        style="font-family: 'Sailec-Regular', Helvetica, Arial, sans-serif; font-size:16px; letter-spacing:0.01em; line-height:2em; color:#000000; text-align:left; padding:50px 74px 50px 74px; background-color:#ffffff; hyphens: none">
+                        Hi {{ api_trigger_properties.first_name }},
+                        <br><br>We had a problem processing your payment on order <strong>#{{
+                          api_trigger_properties.order_number }}</strong>.
+                        <br><br>We were unable to charge your {{ api_trigger_properties.card_type }} ending in {{
+                        api_trigger_properties.last_four_digits }}{% if api_trigger_properties.card_declined_message
+                        %}<strong>
+                          {{ api_trigger_properties.card_declined_message }}</strong>{% endif %}<br><br>
+                        To proceed with your order, please <a
+                          href="https://havenly.com/users/account?lid=w94r6jn84t9b#payment"
+                          style="color:#AF6D47;cursor:pointer;font-family:'Sailec-Regular', Helvetica, Arial, serif;text-align:left;"
+                          target="_blank">update your payment method</a> within 24 hours. <strong>If we do not receive
+                          an
+                          updated payment within 24 hours, your order will be canceled.</strong><br><br>
+                        If you have any questions, don't hesitate to reach out. Email us at <a
+                          href="mailto:hello@havenly.com"
+                          style="color:#AF6D47;cursor:pointer;font-family:'Sailec-Regular', Helvetica, Arial, serif;text-align:left;"
+                          target="_blank">hello@havenly.com</a> or call 888.978.3152.
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- end 740px Text -->
+
+                  <!-- START FOOTER -->
+                  <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" class="w100pct"
+                    width="640" style="width: 640px;">
+                    <tbody>
+                      <tr>
+                        <td align="center">
+                          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                            width="100%">
+                            <tbody>
+                              <tr>
+                                <td align="center"><img class="w100pct"
+                                    style="border: 0; width: 600px;display: block; padding-top: 20px" width="600" alt=""
+                                    src="https://marketing-image-production.s3.amazonaws.com/uploads/83e36a69beac7859d0c8b959148a072bdce4bca0479dee1124b6deb4cedc9ad61ffd625b7b56ca06b64fb9b34b38fef5c8347f51f5b992eb5f4860ecb18cd54f.jpg" />
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <!-- END FOOTER -->
+{{content_blocks.${address_without_unsubscribe} | id: 'cb2'}}
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </center>
+      </td>
+    </tr>
+  </table>
+</body>

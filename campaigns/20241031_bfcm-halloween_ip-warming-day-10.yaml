@@ -1,0 +1,53 @@
+id: 5c5e8c07-24c8-4171-8205-35a4e2b7de39
+name: 20241031_BFCM-Halloween_IP-Warming-Day-10
+brand: BUR
+channel: email
+category: sale_promo
+type: seasonal
+theme: halloween
+braze_id: 5c5e8c07-24c8-4171-8205-35a4e2b7de39
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2024-10-31T13:30:00+00:00'
+  last_sent: '2024-10-31T13:33:48+00:00'
+tags:
+- IP Warming
+sends:
+- id: 488cb635-ea67-45c2-b241-391044950662
+  channel: email
+  name: Variant 1
+  subject: 'Our treat: up to 50% off sitewide'
+  preheader: No tricks, all savings!
+- id: 313f61a8-efc5-4238-a79b-7f42b6381a46
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 1345
+    purchases: 5
+    revenue: 10513.25
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.692900'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-pre-black-fri-2024-10-30
+    name: Pre Black Fri
+    start_date: '2024-10-30'
+    end_date: '2024-11-12'
+    discount: null
+    type: null
+  primary_sale:
+    id: bur-pre-black-fri-2024-10-30
+    name: Pre Black Fri
+    start_date: '2024-10-30'
+    end_date: '2024-11-12'
+    discount: null
+    type: null
+  sale_name: Pre Black Fri
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:44.574802'
+schedule_type: time_based

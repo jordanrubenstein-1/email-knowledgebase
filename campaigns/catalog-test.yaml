@@ -1,0 +1,33 @@
+id: f09c6df8-8e5d-4bea-bb91-ae3e5c5b369f
+name: Catalog test
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: f09c6df8-8e5d-4bea-bb91-ae3e5c5b369f
+dates: {}
+tags: []
+sends:
+- id: 4698292d-436b-403f-84a4-0ea7e18329c4
+  channel: email
+  name: '20260423'
+  subject: Content block test
+- id: e340aff7-b515-4b5e-b4e2-6469423c81ff
+  channel: other
+  name: Control Group
+- id: bcf61423-a652-4343-94b8-df562cb93d8f
+  channel: email
+  name: '20260426'
+  subject: Content block test
+- id: 3b1c3e0c-bf3b-452c-93ab-572c4486287b
+  channel: email
+  name: Variant 2
+  subject: Content block test
+- id: 7652036f-22b9-4d33-9c54-17663dc81b3a
+  channel: email
+  name: b&b
+  subject: Content block test
+performance_summary: {}
+_filename: catalog-test.yaml
+schedule_type: time_based

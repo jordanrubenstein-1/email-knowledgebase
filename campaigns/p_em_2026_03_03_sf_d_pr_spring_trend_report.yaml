@@ -1,0 +1,59 @@
+id: cc427e2d-41c8-4316-9c74-1e7f5bac79bb
+name: P_EM_2026_03_03_SF_D_PR_Spring_Trend_Report
+brand: STF
+channel: email
+category: editorial
+type: seasonal
+theme: spring
+braze_id: cc427e2d-41c8-4316-9c74-1e7f5bac79bb
+dates:
+  send_date: '2026-03-03'
+  inferred_send_type: local_time
+  first_sent: '2026-03-02T20:37:25+00:00'
+  last_sent: '2026-03-03T20:00:34+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- print
+sends:
+- id: 637808e6-5d16-4dc9-a8bf-632657b6084f
+  channel: email
+  name: Variant 1
+  subject: The Spring Report
+  preheader: a palette of washed indigo, moss, and peach
+  html_file: html/p_em_2026_03_03_sf_d_pr_spring_trend_report.html
+  screenshot: screenshots/p_em_2026_03_03_sf_d_pr_spring_trend_report.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a5d3577bd9ab00637f0d2a/original.png?1772475223
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a5d324e65d9000635eedb3/original.png?1772475171
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a5d640a7ec1f0063d94cb4/original.png?1772475967
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/693b277255157a0063d91b5c/original.png?1765484402
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a5d2dc3c2aea0074ff789f/original.gif?1772475100
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a5d5edbf04e60063f0d920/original.png?1772475884
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/693b275678f9640063bfba58/original.png?1765484374
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a5d611d676d000631ba4ab/original.png?1772475921
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a5d573c5bb1300635e7d43/original.png?1772475762
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/693b277bf15c900064ac6a6f/original.png?1765484410
+- id: b0cd6f2e-9ea5-4d9a-a57e-9dc2518d19b6
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 36601
+  total_delivered: 36427
+  total_opens: 11956
+  total_clicks: 195
+  open_rate: 0.3267
+  click_rate: 0.0053
+  total_bounces: 1
+  total_unsubscribes: 29
+  ga4:
+    sessions: 208
+    purchases: 1
+    revenue: 330.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.993303'
+    source: snowflake
+    channel: email
+schedule_type: time_based

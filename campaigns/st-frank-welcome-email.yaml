@@ -1,0 +1,25 @@
+id: 2cefc710-b981-4d7f-a501-e4158d0a496a
+name: St Frank Welcome Email
+brand: STF
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: 2cefc710-b981-4d7f-a501-e4158d0a496a
+dates: {}
+tags:
+- Triggered
+- Welcome
+sends:
+- id: 78b7ccd2-5561-4682-9b42-4993148a885f
+  channel: other
+  name: Control Group
+- id: 448c433f-4d39-4c14-8f1f-cd701378eb64
+  channel: other
+  name: Variant 1
+performance_summary: {}
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.109958'
+schedule_type: time_based

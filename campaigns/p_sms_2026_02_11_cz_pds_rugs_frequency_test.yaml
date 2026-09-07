@@ -1,0 +1,29 @@
+id: 10f1f54c-710c-49ee-a028-252f51eb96a1
+name: P_SMS_2026_02_11_CZ_PDS_Rugs_Frequency_Test
+brand: CZ
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: 10f1f54c-710c-49ee-a028-252f51eb96a1
+dates:
+  send_date: '2026-02-11'
+  inferred_send_type: local_time
+  first_sent: '2026-02-11T01:05:24+00:00'
+  last_sent: '2026-02-12T01:00:12+00:00'
+tags: []
+sends:
+- id: 6aa754b2-8aae-49eb-9de2-2f6ce8c0802a
+  channel: sms
+  name: Variant 1
+- id: ab574a22-bfbb-4c41-b203-0c944c564b8b
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 3822
+  total_delivered: 3655
+  total_opens: 0
+  total_clicks: 90
+  open_rate: 0.0
+  click_rate: 0.0235
+schedule_type: time_based

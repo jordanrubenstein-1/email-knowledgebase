@@ -1,0 +1,68 @@
+id: d476c5ee-05de-4f54-b80e-f61355f2a3c2
+name: P_2025_05_14_PT_PM_CZ_MDS_EA_Last_Chance_Email
+brand: CZ
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: d476c5ee-05de-4f54-b80e-f61355f2a3c2
+dates:
+  send_date: '2025-05-14'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-14T23:52:45+00:00'
+  last_sent: '2025-05-14T23:52:52+00:00'
+tags: []
+sends:
+- id: 0a4602bf-0dfb-4d97-b12e-774628c56cfa
+  channel: email
+  name: Variant 1
+  subject: Don’t forget your cart! Memorial Day sale early access ends tonight
+  html_file: html/p_2025_05_14_pt_pm_cz_mds_ea_last_chance_email.html
+  screenshot: screenshots/p_2025_05_14_pt_pm_cz_mds_ea_last_chance_email.png
+- id: ed98883c-0e63-48c7-8516-ca6f6e5cac70
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 3784
+  total_delivered: 3766
+  total_opens: 2332
+  total_clicks: 150
+  open_rate: 0.6163
+  click_rate: 0.0396
+  total_revenue: 44373.24
+  total_unsubscribes: 8
+  ga4:
+    sessions: 487
+    purchases: 9
+    revenue: 5397.93
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.869482'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-citizenry-2025-05-13
+    name: The Citizenry
+    start_date: '2025-05-13'
+    end_date: '2025-05-14'
+    discount: "The Memorial Day Event \n20% off Sitewide (Trade 25% off sitewide)\
+      \ inc MTO\nUp to 65% Archive Sale\nRETAIL ONLY EA VIA CODE - 5/7-5/12\nEarly\
+      \ Access: No code; EA messaging and strikethrough live on-site from 5/13"
+    type: null
+  primary_sale:
+    id: cz-the-citizenry-2025-05-13
+    name: The Citizenry
+    start_date: '2025-05-13'
+    end_date: '2025-05-14'
+    discount: "The Memorial Day Event \n20% off Sitewide (Trade 25% off sitewide)\
+      \ inc MTO\nUp to 65% Archive Sale\nRETAIL ONLY EA VIA CODE - 5/7-5/12\nEarly\
+      \ Access: No code; EA messaging and strikethrough live on-site from 5/13"
+    type: null
+  sale_name: The Citizenry
+  sale_discount: "The Memorial Day Event \n20% off Sitewide (Trade 25% off sitewide)\
+    \ inc MTO\nUp to 65% Archive Sale\nRETAIL ONLY EA VIA CODE - 5/7-5/12\nEarly Access:\
+    \ No code; EA messaging and strikethrough live on-site from 5/13"
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:35.932811'
+schedule_type: time_based

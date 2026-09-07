@@ -1,0 +1,33 @@
+id: 9c09567f-1177-4abc-8103-15b1ff877f1c
+name: TRG_EM_2024_08_ID_D_Welcome_T1_V 2
+brand: ID
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 7630907f-cf55-432f-ad28-70531a271c87
+canvas_name: Welcome Series - August 2024
+flow_type: welcome_series
+sequence_position: 1
+subject: Hi there, we're Interior Define.
+preheader: And we're up to 30% off for a limited time.
+sends:
+- id: 9c09567f-1177-4abc-8103-15b1ff877f1c
+  channel: email
+  name: TRG_EM_2024_08_ID_D_Welcome_T1_V 2
+  subject: Hi there, we're Interior Define.
+  preheader: And we're up to 30% off for a limited time.
+  html_file: html/canvas-welcome-series-august-2024-t1-9c09567f.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-29T03:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 215
+  total_delivered: 211
+  total_opens: 112
+  total_clicks: 7
+  open_rate: 0.5209
+  click_rate: 0.0326
+  total_unsubscribes: 9
+  total_bounces: 2

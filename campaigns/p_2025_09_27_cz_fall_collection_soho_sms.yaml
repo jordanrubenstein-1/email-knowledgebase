@@ -1,0 +1,37 @@
+id: b05c0c6e-dd6c-4e81-91bc-7823b7bd10f9
+name: P_2025_09_27_CZ_Fall_Collection_Soho_SMS
+brand: CZ
+channel: sms
+category: product_launch
+type: seasonal
+theme: fall
+braze_id: b05c0c6e-dd6c-4e81-91bc-7823b7bd10f9
+dates:
+  send_date: '2025-09-27'
+  inferred_send_type: local_time
+  first_sent: '2025-09-26T21:37:43+00:00'
+  last_sent: '2025-09-27T20:30:06+00:00'
+tags: []
+sends:
+- id: 85321a03-187e-418c-9223-3637f616f5b5
+  channel: other
+  name: Variant 1
+- id: 7fb088dd-2003-4974-bd87-daec9aba7373
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1057
+  total_delivered: 1024
+  total_opens: 0
+  total_clicks: 38
+  open_rate: 0.0
+  click_rate: 0.036
+  ga4:
+    sessions: 41
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.006240'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

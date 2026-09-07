@@ -1,0 +1,47 @@
+id: fbac6338-8c94-4fe2-bfe0-c102c818744e
+name: P_2025_04_05_ID_Best_Sellers_Roundup_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: fbac6338-8c94-4fe2-bfe0-c102c818744e
+dates:
+  send_date: '2025-04-05'
+  inferred_send_type: local_time
+  first_sent: '2025-04-04T19:00:44+00:00'
+  last_sent: '2025-04-05T17:15:08+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 77d23a9f-c9a6-4ea8-b940-92b6233f260c
+  channel: email
+  name: Variant 1
+  subject: Interior Define's MOST WANTED
+  preheader: Shop customer-approved best sellers.
+- id: 922c0ab8-8093-4de2-aac1-55930d4c0f2e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 149958
+  total_delivered: 147824
+  total_opens: 35491
+  total_clicks: 579
+  open_rate: 0.2367
+  click_rate: 0.0039
+  total_revenue: 109847.0
+  total_bounces: 2
+  total_unsubscribes: 92
+  ga4:
+    sessions: 702
+    purchases: 2
+    revenue: 5559.34
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.049145'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.877168'
+schedule_type: time_based

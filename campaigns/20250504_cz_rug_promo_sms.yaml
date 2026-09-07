@@ -1,0 +1,29 @@
+id: 6c505de8-513c-4573-ad9a-24edfb6a0e01
+name: 20250504_CZ_Rug_Promo_SMS
+brand: CZ
+channel: sms
+category: sale_promo
+type: sale
+theme: null
+braze_id: 6c505de8-513c-4573-ad9a-24edfb6a0e01
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-05-04T02:05:58+00:00'
+  last_sent: '2025-05-04T22:01:20+00:00'
+tags: []
+sends:
+- id: d3d45939-c0ff-4700-837f-b188fb4f1d4a
+  channel: other
+  name: Variant 1
+- id: 59e3c6c2-6cbc-40d7-9167-d7929bfdc0c1
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 35
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.505589'
+    source: snowflake
+    channel: sms

@@ -1,0 +1,35 @@
+id: 7b720611-89ad-4bbb-b720-8a9c3d17e9e9
+name: P_EM_2025_12_27_HAV_CONV_D_Color_of_the_Year
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 7b720611-89ad-4bbb-b720-8a9c3d17e9e9
+dates:
+  send_date: '2025-12-27'
+  first_sent: '2025-12-26T17:25:00+00:00'
+  last_sent: '2025-12-27T17:15:58+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 222d890d-4945-462a-81d2-e687140b201a
+  channel: email
+  name: Variant 1
+  subject: The Color of the Year❕
+  preheader: 'Explore White: from warm to crisp to creamy.'
+- id: f1209cca-fa20-4a62-8083-11c5f9e7a34c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 43277
+  total_delivered: 43238
+  total_opens: 23024
+  total_clicks: 257
+  open_rate: 0.532
+  click_rate: 0.0059
+  total_bounces: 1
+  total_unsubscribes: 67
+schedule_type: time_based
+_filename: p_em_2025_12_27_hav_conv_d_color_of_the_year.yaml

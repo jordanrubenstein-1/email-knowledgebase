@@ -1,0 +1,35 @@
+id: 7ea8569b-ce23-4d77-a061-d3193c653cd5
+name: P_EM_2026_03_03_HAV_PC_D_The_Birthday_Sale_Starts_Now
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 7ea8569b-ce23-4d77-a061-d3193c653cd5
+dates:
+  send_date: '2026-03-03'
+  first_sent: '2026-03-03T04:02:34+00:00'
+  last_sent: '2026-03-03T18:00:55+00:00'
+  inferred_send_type: scheduled
+tags:
+- BLASTS-2025
+sends:
+- id: 54ba1171-964e-4ffc-959c-1b591e6aaec9
+  channel: email
+  name: Variant 1
+  subject: 🎂 Our Birthday Sale Starts NOW
+  preheader: Celebrate with us and save on everything you love.
+- id: d51f40ea-74d8-4755-b8ea-42c1253ca1ad
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 261991
+  total_delivered: 259173
+  total_opens: 100236
+  total_clicks: 557
+  open_rate: 0.3826
+  click_rate: 0.0021
+  total_bounces: 19
+  total_unsubscribes: 510
+schedule_type: time_based
+_filename: p_em_2026_03_03_hav_pc_d_the_birthday_sale_starts_now.yaml

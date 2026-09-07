@@ -1,0 +1,32 @@
+id: 0219ba85-ee16-455a-8fe4-524995a69977
+name: P_2025_2_17_D_STF_Presidents_Day_Sale_Ending_Soon_Microsoft
+brand: STF
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 0219ba85-ee16-455a-8fe4-524995a69977
+dates:
+  send_date: '2025-02-17'
+  inferred_send_type: local_time
+  first_sent: '2025-02-16T17:36:36+00:00'
+  last_sent: '2025-02-17T15:30:17+00:00'
+tags: []
+sends:
+- id: 1718b05b-b1ee-451f-aad4-4ef3fc76ed6e
+  channel: email
+  name: Variant 1
+  subject: Ending Soon! 20% Off Sitewide
+  preheader: you’re not gonna want to miss this!
+- id: 537ad88b-fc65-4dd9-b8a6-37f5c6f1e587
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 154
+  total_delivered: 154
+  total_opens: 33
+  total_clicks: 2
+  open_rate: 0.2143
+  click_rate: 0.013
+_filename: p_2025_2_17_d_stf_presidents_day_sale_ending_soon_microsoft.yaml
+schedule_type: time_based

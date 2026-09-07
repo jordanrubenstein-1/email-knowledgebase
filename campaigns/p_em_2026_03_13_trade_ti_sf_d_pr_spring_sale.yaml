@@ -1,0 +1,43 @@
+id: ab320b0f-1391-4a3e-8956-74707f661770
+name: P_EM_2026_03_13_TRADE_TI_SF_D_PR_Spring_Sale
+brand: TI
+channel: email
+category: sale_promo
+type: sale
+theme: spring
+braze_id: ab320b0f-1391-4a3e-8956-74707f661770
+dates:
+  send_date: '2026-03-13'
+  inferred_send_type: local_time
+  first_sent: '2026-03-12T21:37:43+00:00'
+  last_sent: '2026-03-13T19:01:24+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 3a91582b-a4eb-4dc8-a297-9a1c297bbd1e
+  channel: email
+  name: Variant 1
+  subject: Shop the Spring Event
+  preheader: core basics, layering pieces, and seasonal colorways your clients will
+    love.
+- id: eda0eae7-65cf-4af9-a0ec-84d2218fbf33
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 20462
+  total_delivered: 19823
+  total_opens: 9162
+  total_clicks: 116
+  open_rate: 0.4478
+  click_rate: 0.0057
+  total_revenue: 45790.0
+  total_bounces: 5
+  total_unsubscribes: 41
+  ga4:
+    sessions: 26
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T14:56:53.206078'
+    source: snowflake
+    channel: email

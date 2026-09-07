@@ -1,0 +1,75 @@
+id: klaviyo-01JDQ4P3M277GHVENJ3HCZ0KG8
+name: '11/28: BFCM UGC Gratitude'
+brand: TI
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2024-11-27'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-28T07:00:00+00:00'
+  last_sent: '2024-11-28T07:00:00+00:00'
+sends:
+- id: 01JDQ4P3N2PY95T4CRXJVXC9RV
+  channel: email
+  name: '11/28: BFCM UGC Gratitude'
+  subject: Thank You For Having Us
+  preheader: We love being a part of your home.
+  html_file: html/1128-bfcm-ugc-gratitude.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/c5349ce2-993d-4912-81a1-def6a6e7cfcf.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/281ca2e3-6184-4608-b629-c0c074c545de.gif
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/cb797afd-cba5-4b2a-bbc7-c97aac729d62.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/62164431-b0d2-4622-a82e-361b985d3533.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/91b3c069-38d1-4578-9309-82b739dc4bc4.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/48f8b0bf-f674-4de6-83a6-f00ae0bfb57e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/0d11f9e6-f589-4c9d-b7de-126fcbb966cf.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/ae28487e-1bda-48c7-865b-0cc622fea62f.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/8ec81978-23df-4a24-b2d4-d3d8c39039c0.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/968d9574-d110-40c9-b59b-aabf8a89f2b7.gif
+  screenshot: screenshots/1128-bfcm-ugc-gratitude.png
+performance_summary:
+  total_sends: 104469
+  total_delivered: 103871
+  total_opens: 34413
+  total_clicks: 952
+  unique_opens: 24242
+  unique_clicks: 221
+  open_rate: 0.232
+  click_rate: 0.0021
+  total_open_rate: 0.3294
+  total_click_rate: 0.0091
+  total_unsubscribes: 44
+  total_bounces: 598
+klaviyo_type: campaign
+klaviyo_campaign_id: 01JDQ4P3M277GHVENJ3HCZ0KG8
+klaviyo_message_id: 01JDQ4P3N2PY95T4CRXJVXC9RV
+structure:
+  image_count: 22
+  link_count: 23
+  has_gif: true
+  hero_width: 600
+  layout_type: product_grid
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: ti-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: ti-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-03-12T11:18:48.802933'

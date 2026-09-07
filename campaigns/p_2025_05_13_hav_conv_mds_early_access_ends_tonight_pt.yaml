@@ -1,0 +1,33 @@
+id: 13fcac55-ba87-411a-9417-0b55662b3df2
+name: P_2025_05_13_HAV_Conv_MDS_Early_Access_Ends_Tonight_PT
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 13fcac55-ba87-411a-9417-0b55662b3df2
+dates:
+  send_date: '2025-05-13'
+  first_sent: '2025-05-12T18:23:51+00:00'
+  last_sent: '2025-05-13T17:15:09+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: bdd4d7bf-f824-4ef7-8a37-7b3b80df2c43
+  channel: email
+  name: Variant 1
+  subject: Savings up to 20% ends TONIGHT!
+- id: 52ef2dee-20fc-428e-a767-0ce442e7ff26
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 39613
+  total_delivered: 39542
+  total_opens: 21910
+  total_clicks: 162
+  open_rate: 0.5531
+  click_rate: 0.0041
+  total_unsubscribes: 50
+schedule_type: time_based
+_filename: p_2025_05_13_hav_conv_mds_early_access_ends_tonight_pt.yaml

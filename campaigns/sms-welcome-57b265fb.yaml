@@ -1,0 +1,188 @@
+id: 57b265fb-8444-432a-b2e8-2bbc0bb3592a
+name: SMS Welcome
+brand: ID
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: 57b265fb-8444-432a-b2e8-2bbc0bb3592a
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-03-18T15:00:00+00:00'
+  last_sent: '2026-06-14T15:00:00+00:00'
+tags:
+- sms
+sends: []
+performance_summary:
+  total_entries: 915
+  total_sends: 5887
+  total_delivered: 5507
+  total_opens: 0
+  total_clicks: 300
+  open_rate: 0.0
+  click_rate: 0.051
+  total_revenue: 33480.0
+  total_conversions: 9
+canvas_steps:
+- id: d89263b8-96b8-4869-9797-425b25c2c35c
+  name: Delay
+  type: delay
+- id: c944f75a-4efa-4747-a503-3db85045989f
+  name: TRG_SMS_2025_07_ID_Welcome_T1_V1
+  type: message
+- id: 964fe11b-a336-40dc-bc55-ddee6e2072b2
+  name: Step
+  type: delay
+- id: dd9e3ff6-4c8c-4fa5-8339-d2f82a6076f1
+  name: TRG_SMS_2025_07_ID_Welcome_T2_V1
+  type: message
+- id: 53f9bdf3-611e-4a6b-a9a8-1de35d40f291
+  name: Step 1
+  type: audience_paths
+- id: 556acbff-403d-4522-858c-c0b8984ab03d
+  name: TRG_SMS_2025_07_ID_Welcome_T7_V1
+  type: message
+- id: f219423c-de87-4d28-8b59-d3124d1f0994
+  name: TRG_SMS_2025_07_ID_Welcome_T3_V1
+  type: message
+- id: 26f8f90e-a604-45be-9ed1-4a8fab3ce62a
+  name: TRG_SMS_2025_07_ID_Welcome_T8_V1
+  type: message
+- id: da70635d-e7fe-46dc-9b7d-e335fbaf9c5e
+  name: Step 6
+  type: delay
+- id: f26b7129-0845-4c03-9023-845761ae63bf
+  name: Step 5
+  type: delay
+- id: f2467703-f967-4adb-93a2-cc874f56d26e
+  name: TRG_SMS_2025_07_ID_Welcome_T4_V1
+  type: message
+- id: da9707b3-e142-42ce-9e34-7015bae835e3
+  name: TRG_SMS_2025_07_ID_Welcome_T5_V1
+  type: message
+- id: fab50dae-a010-42f4-9378-b50ae1f0982b
+  name: Step 3
+  type: delay
+- id: 8822dd86-1488-4764-aeaf-05785d133b53
+  name: TRG_SMS_2025_07_ID_Welcome_T6_V1
+  type: message
+- id: 0d092a38-c27a-4442-8d75-f6bcee2c10cf
+  name: Step 4
+  type: delay
+- id: 375adc3b-c512-4819-b33c-70e5bb43876d
+  name: Step 2
+  type: delay
+- id: ae8e3d46-fdbe-4db6-8099-c00c6a9ea696
+  name: Step 7
+  type: delay
+- id: b5282410-8505-4318-9e0e-0e3edbb2e01e
+  name: Step 10
+  type: delay
+- id: 003dc0c5-ab0f-4e6d-85d8-6cc178f61757
+  name: TRG_SMS_2025_07_ID_Welcome_T3_V1
+  type: message
+- id: 69005459-648a-498c-80fb-d175fad0f02a
+  name: TRG_SMS_2025_07_ID_Welcome_T8_V1
+  type: message
+- id: bf3f185d-64a5-4d25-8195-2c304680ae61
+  name: TRG_SMS_2025_07_ID_Welcome_T7_V1
+  type: message
+- id: f4a39cf3-6fa6-4451-ac22-e31613d05b14
+  name: Delay 1
+  type: delay
+- id: b8f66469-ec8f-4d1b-8a54-afaf4aef3d90
+  name: Step 14
+  type: delay
+- id: 49b5a5b7-68cd-4cd1-9744-2205127c696d
+  name: TRG_SMS_2025_07_ID_Welcome_T6_V1
+  type: message
+- id: c4ae2cf0-2e44-474b-80a9-c44439149b6c
+  name: Step 12
+  type: delay
+- id: 8256774c-c80b-4834-9d6b-fe4a49e6c015
+  name: Step 9
+  type: delay
+- id: 44af79e4-856f-4f4c-93a9-4f9a9100e38a
+  name: TRG_SMS_2025_07_ID_Welcome_T4_V2
+  type: message
+- id: 96b66f6c-dcdc-4692-b523-0e2dd9e4ebd1
+  name: TRG_SMS_2025_07_ID_Welcome_T5_V1
+  type: message
+- id: f771f13c-8003-4ece-8d5b-5e24a5a94d4b
+  name: Step 11
+  type: delay
+- id: 6fb041a3-b852-40d6-ad53-14f5b56b3b04
+  name: Step 8
+  type: audience_paths
+- id: dfa83613-c1b4-4d16-9d1f-17c1702e2126
+  name: TRG_SMS_2025_07_ID_Welcome_T1_V2
+  type: message
+- id: 1f410bca-9ef1-4bf0-8f5d-8f27dd7fbba5
+  name: Step 13
+  type: delay
+- id: d253664f-56d9-4ec1-bd49-8419d2d14887
+  name: TRG_SMS_2025_07_ID_Welcome_T2_V1
+  type: message
+- id: a448dc1a-54ed-4586-a508-77f820b6e0d5
+  name: Step 15
+  type: delay
+- id: eeb61505-eb2f-4fd7-b1d8-4f56dad506a3
+  name: TRG_SMS_2025_07_ID_Welcome_Sale_T4_V2
+  type: message
+- id: b76b91fe-c7d4-4b3d-b8ff-0b5d7cb7d289
+  name: TRG_SMS_2025_07_ID_Welcome_Sale_T1_V2
+  type: message
+- id: c8e49bd5-d5a3-43a9-95f6-bf959b074f44
+  name: Step 17
+  type: delay
+- id: 794af517-89ef-42b1-ba5b-17cde3f6aa3f
+  name: Step 20
+  type: delay
+- id: 9e0784ea-c6f4-4dd5-a181-91bedcf4eae4
+  name: TRG_SMS_2025_07_ID_Welcome_T2_V 2
+  type: message
+- id: a76d7d3e-e8e2-4963-bb25-45c89a51b0d0
+  name: Step 21
+  type: delay
+- id: 9160296b-bd54-4425-bccc-4580993114c0
+  name: Step 18
+  type: delay
+- id: 7fe1c5b8-c872-46a6-888e-e972cd3ba63b
+  name: TRG_SMS_2025_07_ID_Welcome_T6_V 2
+  type: message
+- id: 6b753c57-7c72-4843-b40a-c2cc56fb298c
+  name: Step 23
+  type: delay
+- id: 1bfc1149-0243-41b5-adac-7eb156d64161
+  name: TRG_SMS_2025_07_ID_Welcome_T8_V 2
+  type: message
+- id: 7a019abb-90a9-473e-a1de-9db37984e89d
+  name: TRG_SMS_2025_07_ID_Welcome_T5_V 2
+  type: message
+- id: 7b9a5e99-8a1e-460a-b8cd-aaed4d65690d
+  name: Step 19
+  type: delay
+- id: c7b52776-ce7b-4100-bc78-1468ca39f0c9
+  name: Delay 2
+  type: delay
+- id: 72a637df-aa5b-4ad0-b96f-ef20745bd21a
+  name: Step 16
+  type: audience_paths
+- id: 172213c5-f30b-4525-b18a-89b6cc6ab290
+  name: TRG_SMS_2025_07_ID_Welcome_T4_V 3
+  type: message
+- id: 28df9c18-ff59-49f1-9284-42c4fcbfa732
+  name: TRG_SMS_2025_07_ID_Welcome_T1_V 3
+  type: message
+- id: d785fd4b-b3b0-4779-af60-9ced3406be28
+  name: TRG_SMS_2025_07_ID_Welcome_T3_V 2
+  type: message
+- id: c5d41eba-9305-4004-aa8d-34af19df0ed2
+  name: Step 22
+  type: delay
+- id: a4f41455-ef38-4db2-8bff-818e086f82f1
+  name: TRG_SMS_2025_07_ID_Welcome_T7_V 2
+  type: message
+_filename: sms-welcome-57b265fb.yaml

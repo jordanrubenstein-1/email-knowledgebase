@@ -1,0 +1,105 @@
+id: d471c722-f0ce-475d-9766-c446b37f2e05
+name: Test_AbandonedCart_ProductType_Webhook
+brand: CZ
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: d471c722-f0ce-475d-9766-c446b37f2e05
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-05-04T04:00:00+00:00'
+  last_sent: '2025-08-27T20:00:00+00:00'
+tags: []
+sends:
+- id: 4f844253-ef06-45bf-958c-f99e1abf3120
+  channel: other
+  name: Control Group
+- id: be6879e1-8955-4ebd-908e-09348198e3cc
+  channel: other
+  name: Variant 1
+- id: d6adb5e6-b5aa-44ce-8a38-2af86c1ee811
+  channel: other
+  name: Variant 2
+- id: be6ea2a6-c5b9-4b99-ab19-a313a21b1b63
+  channel: other
+  name: Variant 3
+- id: bb047866-41f4-4de8-9056-53519a66713b
+  channel: other
+  name: Variant 4
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.968485'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-citizenry-2025-05-13
+    name: The Citizenry
+    start_date: '2025-05-13'
+    end_date: '2025-05-14'
+    discount: "The Memorial Day Event \n20% off Sitewide (Trade 25% off sitewide)\
+      \ inc MTO\nUp to 65% Archive Sale\nRETAIL ONLY EA VIA CODE - 5/7-5/12\nEarly\
+      \ Access: No code; EA messaging and strikethrough live on-site from 5/13"
+    type: null
+  - id: cz-the-citizenry-2025-06-12
+    name: The Citizenry
+    start_date: '2025-06-12'
+    end_date: '2025-06-12'
+    discount: 'The Summer Retreat Sale -- NO CODE NEEDED
+
+      20% Off Bedding, Bath, Baskets, Tableware, and Select Furniture (stocked funiture
+      only), + Up to 65% off Archive Sale
+
+      Trade: No Additional Offer'
+    type: null
+  - id: cz-the-citizenry-2025-07-08
+    name: The Citizenry
+    start_date: '2025-07-08'
+    end_date: '2025-07-08'
+    discount: 'The Fourth of July Event - NO CODE NEEDED
+
+      20% Off Sitewide, lean into In Stock/Ready to Ship
+
+      25% Off Sitewide for Trade'
+    type: null
+  - id: cz-the-bedroom-event-2025-07-23
+    name: The Bedroom Event
+    start_date: '2025-07-23'
+    end_date: '2025-07-24'
+    discount: 20% off Bedding, Pillows, Bedroom Furniture
+    type: null
+  - id: cz-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: Up to 65% Off Select Categories - Focus on Archive Sale and In Stock
+      Product
+    type: null
+  - id: cz-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-02'
+    discount: 20% off Sitewide
+    type: null
+  primary_sale:
+    id: cz-the-citizenry-2025-05-13
+    name: The Citizenry
+    start_date: '2025-05-13'
+    end_date: '2025-05-14'
+    discount: "The Memorial Day Event \n20% off Sitewide (Trade 25% off sitewide)\
+      \ inc MTO\nUp to 65% Archive Sale\nRETAIL ONLY EA VIA CODE - 5/7-5/12\nEarly\
+      \ Access: No code; EA messaging and strikethrough live on-site from 5/13"
+    type: null
+  sale_name: The Citizenry
+  sale_discount: "The Memorial Day Event \n20% off Sitewide (Trade 25% off sitewide)\
+    \ inc MTO\nUp to 65% Archive Sale\nRETAIL ONLY EA VIA CODE - 5/7-5/12\nEarly Access:\
+    \ No code; EA messaging and strikethrough live on-site from 5/13"
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:37.219984'
+schedule_type: action_based

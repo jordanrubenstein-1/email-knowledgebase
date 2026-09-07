@@ -1,0 +1,69 @@
+id: 864d8700-e1cf-4274-b6ce-a8095f6eb9f9
+name: P_EM_2025_08_27_PT_CZ_Fresh_Cuts_Archive_Sale_PM
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 864d8700-e1cf-4274-b6ce-a8095f6eb9f9
+dates:
+  send_date: '2025-08-27'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-28T00:57:12+00:00'
+  last_sent: '2025-08-28T01:24:59+00:00'
+tags:
+- archive
+- pm
+- pt
+- sale
+sends:
+- id: 7e0fc9ad-f813-417c-828d-8e6797c09ec5
+  channel: email
+  name: Variant 1
+  subject: 'New Styles Just Added: Shop up to 65% off before they’re gone'
+  html_file: html/p_em_2025_08_27_pt_cz_fresh_cuts_archive_sale_pm.html
+  screenshot: screenshots/p_em_2025_08_27_pt_cz_fresh_cuts_archive_sale_pm.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f83def4631c700674e669c/original.png?1744322031
+- id: 720b6f9a-c5a6-4b21-b410-c3ad1b57b423
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 24432
+  total_delivered: 24385
+  total_opens: 17143
+  total_clicks: 1514
+  open_rate: 0.7017
+  click_rate: 0.062
+  total_revenue: 30784.69
+  total_bounces: 1
+  total_unsubscribes: 218
+  ga4:
+    sessions: 1713
+    purchases: 23
+    revenue: 16505.9
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.714234'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-02'
+    discount: 20% off Sitewide
+    type: null
+  primary_sale:
+    id: cz-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-02'
+    discount: 20% off Sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 20% off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:34.197798'
+schedule_type: time_based

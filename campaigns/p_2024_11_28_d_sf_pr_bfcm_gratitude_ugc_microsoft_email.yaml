@@ -1,0 +1,39 @@
+id: 490026c5-9506-4895-a8cd-bd7b27ec20c5
+name: P_2024_11_28_D_SF_PR_BFCM_Gratitude_UGC_Microsoft_Email
+brand: STF
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: 490026c5-9506-4895-a8cd-bd7b27ec20c5
+dates:
+  send_date: '2024-11-28'
+  inferred_send_type: local_time
+  first_sent: '2024-11-27T22:41:13+00:00'
+  last_sent: '2024-11-28T15:30:04+00:00'
+tags: []
+sends:
+- id: 96b3e881-9998-4225-8c30-d5cfb608fced
+  channel: email
+  name: Variant 1
+  subject: We love making your house a home
+  preheader: grateful today, and every day
+  html_file: html/p_2024_11_28_d_sf_pr_bfcm_gratitude_ugc_microsoft_email.html
+  screenshot: screenshots/p_2024_11_28_d_sf_pr_bfcm_gratitude_ugc_microsoft_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6747864dad1f350065b974a6/original.gif?1732740685
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674787221c09b10064ad4891/original.gif?1732740898
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67478fe4cb57c70066d0f8f3/original.gif?1732743140
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+- id: 748b9d5b-0b34-4da1-b38c-b17418a0a5a5
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 300
+  total_delivered: 300
+  total_opens: 103
+  total_clicks: 1
+  open_rate: 0.3433
+  click_rate: 0.0033
+_filename: p_2024_11_28_d_sf_pr_bfcm_gratitude_ugc_microsoft_email.yaml
+schedule_type: time_based

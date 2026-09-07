@@ -1,0 +1,36 @@
+id: 4c596723-1f50-42e3-aba9-315ab6d10d51
+name: TRG_EM_2024_08_CZ_D_Post_Purchase_T1
+brand: CZ
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: ed85be62-ad24-41ee-8ff7-b2f667368156
+canvas_name: Post Purchase
+flow_type: post_purchase
+sequence_position: 1
+subject: 'Complete the Look: The Well-Traveled Home'
+preheader: From master artisans to your home. All ethically crafted and thoughtfully
+  designed.
+sends:
+- id: 4c596723-1f50-42e3-aba9-315ab6d10d51
+  channel: email
+  name: TRG_EM_2024_08_CZ_D_Post_Purchase_T1
+  subject: 'Complete the Look: The Well-Traveled Home'
+  preheader: From master artisans to your home. All ethically crafted and thoughtfully
+    designed.
+  html_file: html/canvas-post-purchase-t1-4c596723.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-05-02T19:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 45405
+  total_delivered: 45297
+  total_opens: 32662
+  total_clicks: 2502
+  open_rate: 0.7193
+  click_rate: 0.0551
+  total_unsubscribes: 1533
+  total_bounces: 1
+  total_revenue: 134651.2

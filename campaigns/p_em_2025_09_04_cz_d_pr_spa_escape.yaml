@@ -1,0 +1,63 @@
+id: 530b2fa8-c0c7-4fbf-acfe-0cef4829fdb7
+name: P_EM_2025_09_04_CZ_D_PR_Spa_Escape
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 530b2fa8-c0c7-4fbf-acfe-0cef4829fdb7
+dates:
+  send_date: '2025-09-04'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-04T06:11:33+00:00'
+  last_sent: '2025-09-04T17:02:37+00:00'
+tags:
+- am
+- batch and blast
+- bath
+- d2c
+- designed
+- get the look
+- gtl
+- prod
+- sale
+sends:
+- id: afe7814e-8a00-41f8-8a5a-835fd589a4ba
+  channel: email
+  name: Variant 1
+  subject: The Spa Edit
+  preheader: Essentials to elevate your everyday.
+  html_file: html/p_em_2025_09_04_cz_d_pr_spa_escape.html
+  screenshot: screenshots/p_em_2025_09_04_cz_d_pr_spa_escape.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b7ba7121a518006521b174/original.png?1756871281
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b8b113c531ac006778687c/original.gif?1756934419
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b7ba79c8f38d00651b01f4/original.png?1756871288
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b7ba85c8f38d00751af5e7/original.png?1756871300
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b7bad0a8d8b00067e279a8/original.png?1756871375
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b7bac372f2190066bf6d06/original.png?1756871362
+- id: 808325e6-27ef-4383-a69c-1df5df45a676
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 114700
+  total_delivered: 114073
+  total_opens: 61326
+  total_clicks: 1073
+  open_rate: 0.5347
+  click_rate: 0.0094
+  total_bounces: 17
+  total_unsubscribes: 394
+  ga4:
+    sessions: 1105
+    purchases: 11
+    revenue: 3864.6
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.083820'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.772574'
+schedule_type: time_based

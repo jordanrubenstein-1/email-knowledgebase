@@ -1,0 +1,58 @@
+id: 102d2689-618b-4e79-8d83-7d6c28558ef0
+name: P_2025_2_14_D_CZ_PD_Iconic_Rugs
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 102d2689-618b-4e79-8d83-7d6c28558ef0
+dates:
+  send_date: '2025-02-14'
+  inferred_send_type: local_time
+  first_sent: '2025-02-14T01:41:26+00:00'
+  last_sent: '2025-02-14T17:02:37+00:00'
+tags: []
+sends:
+- id: 85fc77b2-3308-415a-be63-3ad3cb053a23
+  channel: email
+  name: Variant 1
+  subject: 20% Off Iconic Rugs
+  preheader: Save on heirloom rugs during our Presidents Day Event.
+  html_file: html/p_2025_2_14_d_cz_pd_iconic_rugs.html
+  screenshot: screenshots/p_2025_2_14_d_cz_pd_iconic_rugs.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ae9b27f5e3eb00666995d4/original.png?1739496231
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ae9b451c3a980065444603/original.png?1739496260
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ae9b4f1c3a980075443f28/original.png?1739496271
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ae9b5a7bc3cf0067f498e9/original.png?1739496282
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ae9b3b5f3ed300641d61a9/original.png?1739496250
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ae9da27e8d870067ec90a0/original.png?1739496866
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ae9b692649e0006634b35c/original.png?1739496297
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ae9b6ff5e3eb00666996b1/original.png?1739496303
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ae9b2029cc11006591f063/original.png?1739496224
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ae9b2f5f3ed300641d6192/original.png?1739496238
+- id: 39ab5e1e-04da-4d34-93ba-593dd96d3aaa
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 96298
+  total_delivered: 95567
+  total_opens: 47492
+  total_clicks: 647
+  open_rate: 0.4932
+  click_rate: 0.0067
+  total_revenue: 115035.77
+  total_unsubscribes: 109
+  ga4:
+    sessions: 954
+    purchases: 5
+    revenue: 5254.7
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.628005'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.736015'
+schedule_type: time_based

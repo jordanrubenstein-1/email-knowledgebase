@@ -1,0 +1,34 @@
+id: f29ccf5b-4f04-44bf-8db8-1c29e92a018d
+name: P_EM_2025_08_13_HAV_CONV_D_Sunset_Sale_Ends_Tonight
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: f29ccf5b-4f04-44bf-8db8-1c29e92a018d
+dates:
+  send_date: '2025-08-13'
+  first_sent: '2025-08-12T20:54:03+00:00'
+  last_sent: '2025-08-13T17:15:02+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 6018794c-24b4-4ac2-a69e-951ab000302a
+  channel: email
+  name: Variant 1
+  subject: FINAL HOURS
+  preheader: Last chance for sitewide savings.
+- id: 2ca498af-bcf0-4a44-9896-eacf970b28f5
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 40855
+  total_delivered: 40849
+  total_opens: 21496
+  total_clicks: 101
+  open_rate: 0.5262
+  click_rate: 0.0025
+  total_unsubscribes: 58
+schedule_type: time_based
+_filename: p_em_2025_08_13_hav_conv_d_sunset_sale_ends_tonight.yaml

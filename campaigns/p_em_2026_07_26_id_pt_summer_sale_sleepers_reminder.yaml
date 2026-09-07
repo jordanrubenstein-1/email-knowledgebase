@@ -1,0 +1,33 @@
+id: 44221d79-2152-4f4e-9648-3a6d1d519cd0
+name: P_EM_2026_07_26_ID_PT_Summer_Sale_Sleepers_Reminder
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: summer
+braze_id: 44221d79-2152-4f4e-9648-3a6d1d519cd0
+dates:
+  send_date: '2026-07-26'
+  last_sent: '2026-07-26'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 6c4525af-081c-4542-b936-231561f8c45e
+  channel: email
+  name: Variant 1
+  subject: 'RE: your early access'
+- id: c4f51472-2f5f-4e75-b373-b60d047fab67
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 134103
+  total_delivered: 133899
+  total_opens: 50476
+  total_clicks: 650
+  open_rate: 0.3764
+  click_rate: 0.0048
+  total_revenue: 198975.96
+  total_bounces: 2
+  total_unsubscribes: 196
+schedule_type: time_based
+_filename: p_em_2026_07_26_id_pt_summer_sale_sleepers_reminder.yaml

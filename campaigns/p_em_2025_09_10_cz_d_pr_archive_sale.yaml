@@ -1,0 +1,59 @@
+id: cf93db56-707f-4732-ad4c-95da96d8686a
+name: P_EM_2025_09_10_CZ_D_PR_Archive_Sale
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: cf93db56-707f-4732-ad4c-95da96d8686a
+dates:
+  send_date: '2025-09-10'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-10T06:16:15+00:00'
+  last_sent: '2025-09-10T17:03:17+00:00'
+tags:
+- am
+- archive
+- batch and blast
+- d2c
+- designed
+sends:
+- id: c0b34445-0be3-4996-9102-ee88e959e3db
+  channel: email
+  name: Variant 1
+  subject: Step Into The Archive
+  preheader: Just in—up to 65% off fresh cuts.
+  html_file: html/p_em_2025_09_10_cz_d_pr_archive_sale.html
+  screenshot: screenshots/p_em_2025_09_10_cz_d_pr_archive_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c06ccfa8318f0075e6bf15/original.png?1757441230
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c06c177266460086accaab/original.gif?1757441047
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c06c9c24efd000868f8705/original.png?1757441180
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c06c9348b19300654e3868/original.png?1757441170
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c06c2748b19300654e32dd/original.png?1757441062
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c06ca4a8318f0065e6bf63/original.png?1757441188
+- id: 6dae476a-4ec4-4c40-a4a3-e66fb2c2525a
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 103409
+  total_delivered: 102791
+  total_opens: 61598
+  total_clicks: 1313
+  open_rate: 0.5957
+  click_rate: 0.0127
+  total_bounces: 4
+  total_unsubscribes: 260
+  ga4:
+    sessions: 1598
+    purchases: 14
+    revenue: 3767.77
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.077939'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.721117'
+schedule_type: time_based

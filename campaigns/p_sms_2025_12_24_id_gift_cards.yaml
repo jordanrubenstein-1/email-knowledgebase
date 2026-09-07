@@ -1,0 +1,30 @@
+id: 3bd225b0-9076-4f8c-91d4-d553a9070fa9
+name: P_SMS_2025_12_24_ID_Gift_Cards
+brand: ID
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: 3bd225b0-9076-4f8c-91d4-d553a9070fa9
+dates:
+  send_date: '2025-12-24'
+  inferred_send_type: local_time
+  first_sent: '2025-12-24T01:06:20+00:00'
+  last_sent: '2025-12-25T01:03:17+00:00'
+tags: []
+sends:
+- id: e77f2b69-af10-4030-b9d0-14c3123dea73
+  channel: sms
+  name: Variant 1
+- id: f0cb96b3-4abb-47b0-8d08-ad3c3634cdd9
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 49912
+  total_delivered: 47983
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 2545.0
+schedule_type: time_based

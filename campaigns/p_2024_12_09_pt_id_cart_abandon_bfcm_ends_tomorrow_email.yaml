@@ -1,0 +1,33 @@
+id: 5dce65a0-fa90-475b-a673-d542e2317bf0
+name: P_2024_12_09_PT_ID_Cart_Abandon_BFCM_Ends_Tomorrow_Email
+brand: ID
+channel: email
+category: sale_promo
+type: lifecycle
+theme: black_friday
+braze_id: 5dce65a0-fa90-475b-a673-d542e2317bf0
+dates:
+  send_date: '2024-12-09'
+  inferred_send_type: scheduled
+  first_sent: '2024-12-09T06:17:33+00:00'
+  last_sent: '2024-12-09T17:15:05+00:00'
+tags: []
+sends:
+- id: a88795ce-e32e-4c62-9186-5992e366ff12
+  channel: email
+  name: Variant 1
+  subject: Your cart is up to 25% off (for one more day)!
+- id: e5080506-775c-4325-8189-5f46ec677f60
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 3265
+  total_delivered: 3233
+  total_opens: 1441
+  total_clicks: 31
+  open_rate: 0.4413
+  click_rate: 0.0095
+  total_revenue: 80870.0
+  total_unsubscribes: 7
+_filename: p_2024_12_09_pt_id_cart_abandon_bfcm_ends_tomorrow_email.yaml
+schedule_type: time_based

@@ -1,0 +1,59 @@
+id: d682be30-9999-453f-b11e-3ff505a8b4aa
+name: P_2025_1_19_D_CZ_WRE_Towel_Guide_Email
+brand: CZ
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: d682be30-9999-453f-b11e-3ff505a8b4aa
+dates:
+  send_date: '2025-01-19'
+  inferred_send_type: local_time
+  first_sent: '2025-01-18T17:06:33+00:00'
+  last_sent: '2025-01-19T17:00:58+00:00'
+tags: []
+sends:
+- id: 7952aac9-0385-475a-8223-95d6bf1bff52
+  channel: email
+  name: Variant 1
+  subject: The Fresh Towel Guide
+  preheader: New essentials for the new year. All 20% off.
+  html_file: html/p_2025_1_19_d_cz_wre_towel_guide_email.html
+  screenshot: screenshots/p_2025_1_19_d_cz_wre_towel_guide_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6787fe0af12ec80065f1a9df/original.jpg?1736965641
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6787fc6d7e0b4b00659af153/original.jpg?1736965229
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678801cbbd71470065a9307d/original.jpg?1736966603
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6787fdcfb75aa500741c2fef/original.jpg?1736965582
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6787e235ca71ad006610de0b/original.jpg?1736958516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6787fbd511434b0065ff94d5/original.jpg?1736965077
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6787e285f852ed007341553b/original.jpg?1736958597
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6787fa831c356700658933fc/original.jpg?1736964739
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6787e2105c51210075aa8915/original.jpg?1736958480
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6787e303ae3c9e00655842d7/original.jpg?1736958722
+- id: b654f5bb-0a87-455c-8adb-5c69c7d69de6
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 95105
+  total_delivered: 94408
+  total_opens: 46689
+  total_clicks: 818
+  open_rate: 0.4909
+  click_rate: 0.0086
+  total_revenue: 79914.34
+  total_bounces: 1
+  total_unsubscribes: 135
+  ga4:
+    sessions: 1080
+    purchases: 9
+    revenue: 2580.36
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.478504'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.337725'
+schedule_type: time_based

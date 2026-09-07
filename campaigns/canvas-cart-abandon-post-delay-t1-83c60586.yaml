@@ -1,0 +1,32 @@
+id: 83c60586-0b22-4e4f-8820-f5fd0eee41b3
+name: TRG_EM_2025_11_CZ_D_Cart_Abandon_T2
+brand: CZ
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 7d7ede55-9c19-4799-9e95-6f7a99dd600f
+canvas_name: Cart Abandon Post Delay
+flow_type: cart_abandonment
+sequence_position: 1
+subject: Your Cart is Ready
+preheader: ''
+sends:
+- id: 83c60586-0b22-4e4f-8820-f5fd0eee41b3
+  channel: email
+  name: TRG_EM_2025_11_CZ_D_Cart_Abandon_T2
+  subject: Your Cart is Ready
+  preheader: ''
+  html_file: html/canvas-cart-abandon-post-delay-t1-83c60586.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-11-11T03:00:00Z'
+  last_sent: '2025-11-20T14:00:00Z'
+performance_summary:
+  total_sends: 45
+  total_delivered: 45
+  total_opens: 31
+  total_clicks: 6
+  open_rate: 0.6889
+  click_rate: 0.1333
+  total_unsubscribes: 1

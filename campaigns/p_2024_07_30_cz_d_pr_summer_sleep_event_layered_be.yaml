@@ -1,0 +1,59 @@
+id: 487e98a0-dc79-42c1-9951-5ba81ae7d1ad
+name: P_2024_07_30_CZ_D_PR_Summer_Sleep_Event_Layered_Bed_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: seasonal
+theme: summer
+braze_id: 487e98a0-dc79-42c1-9951-5ba81ae7d1ad
+dates:
+  send_date: '2024-07-30'
+  inferred_send_type: scheduled
+  first_sent: '2024-07-30T12:15:02+00:00'
+  last_sent: '2024-07-30T12:15:14+00:00'
+tags: []
+sends:
+- id: c993c844-d138-4ec0-8197-5cc93e03ba4b
+  channel: email
+  name: Variant 1
+  subject: The Layered Bed
+  preheader: All your favorite bedding essentials, up to 20% off.
+  html_file: html/p_2024_07_30_cz_d_pr_summer_sleep_event_layered_bed_email.html
+  screenshot: screenshots/p_2024_07_30_cz_d_pr_summer_sleep_event_layered_bed_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a7f44c4176ec005f0b2d3f/original.jpg?1722283084
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a7f4c05f43f5006d60b431/original.jpg?1722283199
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a26d242ec015006d617fca/original.jpg?1721920804
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a813b0b85bdc006c17368d/original.jpg?1722291120
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a26d241e288c005defbb80/original.jpg?1721920804
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a7f467693a4e005d092b7d/original.jpg?1722283111
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a26d2473a605005d618727/original.jpg?1721920804
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a813c14176ec005f0b8a2f/original.jpg?1722291136
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a26d242ec015005e61a9ac/original.jpg?1721920804
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a26d249441a3005de55065/original.jpg?1721920804
+- id: eade2788-db9f-4e36-abe2-67f9149a161d
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 4214
+  total_delivered: 4115
+  total_opens: 2378
+  total_clicks: 233
+  open_rate: 0.5643
+  click_rate: 0.0553
+  total_revenue: 30387.26
+  total_bounces: 11
+  total_unsubscribes: 12
+  ga4:
+    sessions: 354
+    purchases: 4
+    revenue: 851.78
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.672572'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:45.305159'
+schedule_type: time_based

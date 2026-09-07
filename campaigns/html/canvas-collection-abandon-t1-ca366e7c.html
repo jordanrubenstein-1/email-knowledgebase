@@ -1,0 +1,91 @@
+{% comment %}
+  ================================================
+  ID Collections Browse Abandon — T1
+  Canvas: Browse Abandon - Collections Page
+  Step: TRG_EM_2026_04_ID_D_Collections_Browse_Abandon_T1_V1
+
+  Logic:
+  - Pass 1: count valid slices (max 3), capture first name for preheader
+  - Abort if zero valid slices
+  - Pass 2: render up to 3 matching collection images, each linked to col.category_url
+
+  Valid collections (24): those with designer slices
+  Skip silently: quick ship, sectionals, sofas, apartment therapy collections,
+    the everygirl collections, simon, hayes, josie, marlow, charly, lowen, jason, lennox, etc.
+  ================================================
+{% endcomment %}
+
+{% assign top_cols = custom_attribute.${top_collections} %}
+
+{% comment %} PASS 1: count valid slices and capture first name for dynamic preheader {% endcomment %}
+{% assign valid_count = 0 %}
+{% assign first_valid = "" %}
+{% for col in top_cols %}
+  {% assign n = col.category_name | downcase %}
+  {% if n == "fiona" or n == "scarlett" or n == "dixon" or n == "alexander" or n == "ella" or n == "gaby" or n == "winslow" or n == "james" or n == "tatum" or n == "hayley" or n == "skylar" or n == "maxwell" or n == "sloan" or n == "rose" or n == "asher" or n == "saylor" or n == "ms. chesterfield" or n == "lukas" or n == "caitlin" or n == "beckham" or n == "lee" or n == "oslo" or n == "jasper" or n == "sydney" %}
+    {% assign valid_count = valid_count | plus: 1 %}
+    {% if valid_count == 1 %}{% assign first_valid = col.category_name | capitalize %}{% endif %}
+  {% endif %}
+{% endfor %}
+
+{% if valid_count == 0 %}{{abort_message("no supported collection slices")}}{% endif %}
+
+
+{% comment %} HEADER {% endcomment %}
+{{content_blocks.${sale_b2c_banner} | id: 'cb8'}}
+{{content_blocks.${collections_banner_1} | id: 'cb9'}}
+
+{% comment %} PASS 2: render up to 3 valid slices in position order {% endcomment %}
+{% assign shown = 0 %}
+{% for col in top_cols %}
+{% if shown < 3 %}
+{% assign n = col.category_name | downcase %}
+{% if n == "fiona" or n == "scarlett" or n == "dixon" or n == "alexander" or n == "ella" or n == "gaby" or n == "winslow" or n == "james" or n == "tatum" or n == "hayley" or n == "skylar" or n == "maxwell" or n == "sloan" or n == "rose" or n == "asher" or n == "saylor" or n == "ms. chesterfield" or n == "lukas" or n == "caitlin" or n == "beckham" or n == "lee" or n == "oslo" or n == "jasper" or n == "sydney" %}
+{% assign shown = shown | plus: 1 %}
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:600px;background-color:#f6f3ec;">
+  <tr>
+    <td align="center">
+      <a href="{{ col.category_url }}" target="_blank" rel="noopener noreferrer">
+        {% if n == "alexander" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d4e03038ccbe006464be65/original.png?1775558704" alt="Alexander Collection" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "asher" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d4e031867de500641cdc4f/original.png?1775558704" alt="Asher Collection" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "beckham" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d4e0315787d90065b1d531/original.png?1775558704" alt="Beckham Collection" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "caitlin" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d4e03112b9c00064f99b54/original.png?1775558704" alt="Caitlin Collection" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "dixon" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d4e034b545740064265436/original.png?1775558707" alt="Dixon Collection" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "ella" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d4e0345d585000646833a2/original.png?1775558707" alt="Ella Collection" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "fiona" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d4e03173b89a00645b145f/original.png?1775558704" alt="Fiona Collection" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "gaby" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d4e0316e1f5c0064836a68/original.png?1775558704" alt="Gaby Collection" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "hayley" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d4e034aefa2800641299b0/original.png?1775558707" alt="Hayley Collection" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "james" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d4e0345524e5006507887f/original.png?1775558707" alt="James Collection" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "jasper" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d4e034587df50064aee4b5/original.png?1775558707" alt="Jasper Collection" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "lee" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d4e0377caf380064b0517b/original.png?1775558710" alt="Lee Collection" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "lukas" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d4e03738eb750064f55cf4/original.png?1775558710" alt="Lukas Collection" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "maxwell" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d4e0340dc9b200647ecc3e/original.png?1775558707" alt="Maxwell Collection" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "ms. chesterfield" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d4e03797e1b200642e3cc5/original.png?1775558710" alt="Ms. Chesterfield Collection" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "oslo" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d4e03738ae3e0064d98abb/original.png?1775558710" alt="Oslo Collection" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "rose" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d4e0376920500064e8a847/original.png?1775558710" alt="Rose Collection" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "saylor" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d4e036aae38000643d5d68/original.png?1775558710" alt="Saylor Collection" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "scarlett" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d4e03a099d9d0064353c29/original.png?1775558713" alt="Scarlett Collection" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "skylar" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d4e03aa551260065f9a51d/original.png?1775558713" alt="Skylar Collection" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "sloan" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d4e03aeac18a0064d722c8/original.png?1775558713" alt="Sloan Collection" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "sydney" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d4e03a020f7b0064a5e487/original.png?1775558713" alt="Sydney Collection" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "tatum" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d4e03a89ce110064de7782/original.png?1775558713" alt="Tatum Collection" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "winslow" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d4e03a7f8cdd00656a9c06/original.png?1775558713" alt="Winslow Collection" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% endif %}
+      </a>
+    </td>
+  </tr>
+</table>
+{% if shown < valid_count and shown < 3 %}
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:600px;background-color:#f6f3ec;">
+  <tr>
+    <td style="padding:0 24px;height:1px;background-color:#d9d4c9;font-size:0;line-height:0;">&nbsp;</td>
+  </tr>
+</table>
+{% endif %}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+{% comment %} FOOTER {% endcomment %}
+{{content_blocks.${b2c_footer} | id: 'cb6'}}
+{{content_blocks.${unsubscribe} | id: 'cb7'}}

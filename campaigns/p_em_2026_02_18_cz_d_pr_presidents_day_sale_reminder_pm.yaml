@@ -1,0 +1,50 @@
+id: 360714ed-9ee1-4588-b1f7-caf1b66a9620
+name: P_EM_2026_02_18_CZ_D_PR_Presidents_Day_Sale_Reminder_PM
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 360714ed-9ee1-4588-b1f7-caf1b66a9620
+dates:
+  send_date: '2026-02-18'
+  inferred_send_type: local_time
+  first_sent: '2026-02-17T23:06:33+00:00'
+  last_sent: '2026-02-18T23:06:10+00:00'
+tags:
+- batch and blast
+- d2c
+- designed
+- pm
+- sale
+- sale/presidentsday2026
+- sale_feat
+sends:
+- id: 629a1c81-bf8e-4c38-9e91-6ef163d1d7a4
+  channel: email
+  name: Variant 1
+  subject: 'SHOP NOW: Up to 25% Off Sitewide'
+  preheader: The Presidents Day Sale is still on.
+  html_file: html/p_em_2026_02_18_cz_d_pr_presidents_day_sale_reminder_pm.html
+  screenshot: screenshots/p_em_2026_02_18_cz_d_pr_presidents_day_sale_reminder_pm.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6994a2b9da3ae40063e13c50/original.png?1771348665
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6994a235966fc100638b45e4/original.png?1771348533
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6994a289a339cd0073ab45f4/original.png?1771348616
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6994a2c09c0ca40063e8aa45/original.png?1771348672
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6994a21e49fc3d00647531cd/original.gif?1771348510
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6994a2a221ec9c00649e1931/original.png?1771348642
+- id: e48dad0a-bfa2-4752-99f4-da4bec5a0802
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 112248
+  total_delivered: 112032
+  total_opens: 55048
+  total_clicks: 591
+  open_rate: 0.4904
+  click_rate: 0.0053
+  total_bounces: 4
+  total_unsubscribes: 137
+_filename: p_em_2026_02_18_cz_d_pr_presidents_day_sale_reminder_pm.yaml
+schedule_type: time_based

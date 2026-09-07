@@ -1,0 +1,54 @@
+id: klaviyo-VS5C9c
+name: TRG_EM_2024_01_TI_D_Waitlist_T1_V1
+brand: TI
+channel: email
+category: other
+type: announcement
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: QZpZKU
+canvas_name: 'Waitlist: Added to Waitlist'
+flow_type: other_flow
+sequence_position: 1
+dates:
+  created: '2021-07-29'
+  inferred_send_type: sto
+  first_sent: '2021-07-29'
+  last_sent: '2025-07-15'
+sends:
+- id: VS5C9c
+  channel: email
+  name: Message
+  subject: Thanks for joining the waitlist.
+  preheader: ''
+  html_file: html/klv-flow-waitlist-added-to-waitlist-t01-VS5C9c.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/824eb0a5-40f3-4a16-8700-16398e77d0f7.gif
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/6ea5f851-b854-41f9-a686-f8381491d76c.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/92d4f85a-e648-4016-9732-56d261c5e3e0.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/b398c3ca-c7f5-41f2-bedc-27a54cf334fb.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/69a68883-3bce-41ac-802d-c532d6fa1f13.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/dccf9ff5-8748-4e56-89b2-548bc39a42d2.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/eca135b9-dda2-4bd5-b0ec-1ad5df376ab2.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/48f8b0bf-f674-4de6-83a6-f00ae0bfb57e.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: VS5C9c
+structure:
+  image_count: 9
+  link_count: 10
+  has_gif: true
+  hero_width: 600
+  layout_type: product_grid

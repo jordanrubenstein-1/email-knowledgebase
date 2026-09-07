@@ -1,0 +1,35 @@
+id: d03d1a09-6935-4648-973d-d0e0b1900230
+name: P_EM_2025_08_23_HAV_PC_D_Home_Buying_Regret
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: d03d1a09-6935-4648-973d-d0e0b1900230
+dates:
+  send_date: '2025-08-23'
+  first_sent: '2025-08-22T22:16:22+00:00'
+  last_sent: '2025-08-23T18:15:11+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 42ada083-d642-42a3-930a-b7e34f743f0d
+  channel: email
+  name: Variant 1
+  subject: 'The #1 millennial home buying regret'
+  preheader: Take notes.
+- id: 37f6790a-e541-4abc-a3b4-8994d21dac8e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 231010
+  total_delivered: 230444
+  total_opens: 97577
+  total_clicks: 1363
+  open_rate: 0.4224
+  click_rate: 0.0059
+  total_bounces: 6
+  total_unsubscribes: 386
+schedule_type: time_based
+_filename: p_em_2025_08_23_hav_pc_d_home_buying_regret.yaml

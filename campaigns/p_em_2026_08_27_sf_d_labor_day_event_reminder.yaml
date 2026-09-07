@@ -1,0 +1,35 @@
+id: fabc0d62-93f7-481d-a11e-9ac4ee93f12b
+name: P_EM_2026_08_27_SF_D_Labor_Day_Event_Reminder
+brand: STF
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: fabc0d62-93f7-481d-a11e-9ac4ee93f12b
+dates:
+  send_date: '2026-08-27'
+  first_sent: '2026-08-26T18:46:29+00:00'
+  last_sent: '2026-08-27T17:15:39+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 6654712b-18ae-485d-a93f-e150cf34ab4e
+  channel: email
+  name: Variant 1
+  subject: Your concierge for bold design
+  preheader: Claim 20% off sitewide for Labor Day.
+- id: 8f9bf519-f1a1-4dac-aabe-7a2e7d67f5a7
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 36023
+  total_delivered: 35873
+  total_opens: 10444
+  total_clicks: 124
+  open_rate: 0.2899
+  click_rate: 0.0034
+  total_revenue: 2332.8
+  total_bounces: 1
+  total_unsubscribes: 22
+schedule_type: time_based
+_filename: p_em_2026_08_27_sf_d_labor_day_event_reminder.yaml

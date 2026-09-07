@@ -1,0 +1,33 @@
+id: 239d3957-155c-47ac-a05e-b15a06ceb7e7
+name: P_2024_10_15_HAV_PC _Plain_Text_Sale_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 239d3957-155c-47ac-a05e-b15a06ceb7e7
+dates:
+  send_date: '2024-10-15'
+  first_sent: '2024-10-15T04:26:25+00:00'
+  last_sent: '2024-10-15T18:15:02+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: bded053e-6c1f-46ec-9cb9-96ee8ac4075b
+  channel: email
+  name: Variant 1
+  subject: Enjoy 50% Off Interior Design Services this Fall!
+- id: 3a3a3056-17ec-4b95-b426-34b73b170135
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 130594
+  total_delivered: 129393
+  total_opens: 63233
+  total_clicks: 351
+  open_rate: 0.4842
+  click_rate: 0.0027
+  total_bounces: 9
+  total_unsubscribes: 319
+schedule_type: time_based
+_filename: p_2024_10_15_hav_pc-_plain_text_sale_reminder_email.yaml

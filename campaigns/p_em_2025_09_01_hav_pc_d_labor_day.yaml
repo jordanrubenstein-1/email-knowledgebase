@@ -1,0 +1,35 @@
+id: 1964c0b0-a373-4b7b-8863-03df7f3dfc98
+name: P_EM_2025_09_01_HAV_PC_D_LABOR_DAY
+brand: HAV
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 1964c0b0-a373-4b7b-8863-03df7f3dfc98
+dates:
+  send_date: '2025-09-01'
+  first_sent: '2025-08-31T18:47:12+00:00'
+  last_sent: '2025-09-01T18:15:18+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: b2fe6d2b-d9fe-4ad4-8d35-8c2d21870a7e
+  channel: email
+  name: Variant 1
+  subject: Want 50% Off? Today Is The Day.
+  preheader: Your dream home. Half the price.
+- id: c57484d0-d2af-4bdf-adf2-35089b08f5da
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 233059
+  total_delivered: 232149
+  total_opens: 96153
+  total_clicks: 308
+  open_rate: 0.4126
+  click_rate: 0.0013
+  total_bounces: 4
+  total_unsubscribes: 415
+schedule_type: time_based
+_filename: p_em_2025_09_01_hav_pc_d_labor_day.yaml

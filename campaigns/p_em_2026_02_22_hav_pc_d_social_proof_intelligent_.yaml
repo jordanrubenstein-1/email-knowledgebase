@@ -1,0 +1,51 @@
+id: 2cc29e2e-3b85-4181-8ca4-2562135a39d9
+name: P_EM_2026_02_22_HAV_PC_D_Social_Proof_INTELLIGENT_TIMING
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 2cc29e2e-3b85-4181-8ca4-2562135a39d9
+dates:
+  created: '2026-02-18'
+  send_date: '2026-02-22'
+  inferred_send_type: sto
+  first_sent: '2026-02-21T10:09:49+00:00'
+  last_sent: '2026-02-23T08:40:47+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: cee07ec1-2cad-415f-bec5-d2e62c578ff3
+  channel: email
+  name: Variant 1
+  subject: Join 200,000 people who love their new spaces
+  preheader: 'Stress-free, personalized interior design: on sale now!'
+  html_file: html/p_em_2026_02_22_hav_pc_d_social_proof_intelligent_timing.html
+  screenshot: screenshots/p_em_2026_02_22_hav_pc_d_social_proof_intelligent_timing.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/699601a529ebe200630c006a/original.png?1771438500
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6996015c982d1900633d655b/original.png?1771438428
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6996016991158b00631128d7/original.png?1771438440
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6996018f433ab60063e81e42/original.png?1771438478
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6996019b44face0063230689/original.gif?1771438490
+- id: 1a6a1302-6121-4e33-8f57-0d4117903a3e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 132729
+  total_delivered: 131365
+  total_opens: 49032
+  total_clicks: 185
+  open_rate: 0.3694
+  click_rate: 0.0014
+  total_bounces: 14
+  total_unsubscribes: 164
+  ga4:
+    sessions: 91
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.748457'
+    source: snowflake
+    channel: email
+schedule_type: time_based

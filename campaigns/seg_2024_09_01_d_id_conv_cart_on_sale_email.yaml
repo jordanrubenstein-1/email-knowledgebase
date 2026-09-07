@@ -1,0 +1,27 @@
+id: aa5129c4-8915-4f8c-b720-8b051ecded46
+name: SEG_2024_09_01_D_ID_CONV_Cart_On_Sale_Email
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: aa5129c4-8915-4f8c-b720-8b051ecded46
+dates:
+  send_date: '2024-09-01'
+  last_sent: '2024-09-01'
+tags: []
+sends:
+- id: 98860421-832b-4b81-b543-ff064023e18f
+  channel: email
+  name: Variant 1
+  subject: YOUR CART IS ON SALE 🚨
+  preheader: But not for long!
+- id: 1b97ad6d-a437-4569-a207-3a5637fc6d76
+  channel: other
+  name: Control Group
+performance_summary: {}
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.886099'
+schedule_type: time_based

@@ -1,0 +1,59 @@
+id: 98ed2aac-7a82-44a9-b49d-b4bb79107313
+name: P_2024_09_02_D_SF_PR_LDW_Reminder_Pillows_Feature_AM_Email
+brand: STF
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 98ed2aac-7a82-44a9-b49d-b4bb79107313
+dates:
+  send_date: '2024-09-02'
+  inferred_send_type: scheduled
+  first_sent: '2024-09-02T13:05:01+00:00'
+  last_sent: '2024-09-02T13:05:19+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: ead9fc96-c84f-42b8-b13f-8192fec9b126
+  channel: email
+  name: Variant 1
+  subject: 'ENDING SOON: 20% OFF'
+  preheader: don’t miss out on sale shopping
+  html_file: html/p_2024_09_02_d_sf_pr_ldw_reminder_pillows_feature_am_email.html
+  screenshot: screenshots/p_2024_09_02_d_sf_pr_ldw_reminder_pillows_feature_am_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ce4749b1331200747d4ebe/original.gif?1724794697
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf6368f3870c0064781480/original.gif?1724867431
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf636863716c0074a32029/original.gif?1724867431
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0058f1ba77/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ce474a9d74aa0071cb2826/original.jpg?1724794697
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf636863716c0092a31f33/original.gif?1724867431
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf63680c63800064edcf75/original.jpg?1724867431
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d204f85102130073f9b749/original.jpg?1725039864
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ce47499d74aa0064cb37e7/original.gif?1724794697
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf6368ad17c7008fddb22a/original.gif?1724867431
+- id: c2119f1c-8233-47be-b4e3-ff286370a508
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 7865
+  total_delivered: 7706
+  total_opens: 2749
+  total_clicks: 517
+  open_rate: 0.3495
+  click_rate: 0.0657
+  total_revenue: 8905.6
+  total_unsubscribes: 13
+  ga4:
+    sessions: 197
+    purchases: 2
+    revenue: 323.5
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.757761'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.214020'
+schedule_type: time_based

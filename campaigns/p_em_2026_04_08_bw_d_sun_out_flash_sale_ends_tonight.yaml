@@ -1,0 +1,36 @@
+id: b25d5fc9-02b5-4467-a5e8-5f18b4f1e370
+name: P_EM_2026_04_08_BW_D_Sun_Out_Flash_Sale_Ends_Tonight
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: b25d5fc9-02b5-4467-a5e8-5f18b4f1e370
+dates:
+  send_date: '2026-04-08'
+  inferred_send_type: local_time
+  first_sent: '2026-04-07T18:05:44+00:00'
+  last_sent: '2026-04-08T17:04:31+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 17a086f5-cbc5-4b43-b6b6-48453ece9208
+  channel: email
+  name: Variant 1
+  subject: Savings are fading away...
+  preheader: 'Last chance to shop 25% off. '
+- id: 549c06a9-a109-4669-aa6d-03012bca287b
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 95094
+  total_delivered: 94806
+  total_opens: 36916
+  total_clicks: 336
+  open_rate: 0.3882
+  click_rate: 0.0035
+  total_revenue: 42509.0
+  total_bounces: 1
+  total_unsubscribes: 103
+_filename: p_em_2026_04_08_bw_d_sun_out_flash_sale_ends_tonight.yaml
+schedule_type: time_based

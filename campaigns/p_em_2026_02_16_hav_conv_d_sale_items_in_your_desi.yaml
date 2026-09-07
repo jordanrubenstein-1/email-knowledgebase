@@ -1,0 +1,46 @@
+id: ab73dbae-3920-4817-a711-db96b93da82d
+name: P_EM_2026_02_16_HAV_CONV_D_SALE_ITEMS_IN_YOUR_DESIGN
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: ab73dbae-3920-4817-a711-db96b93da82d
+dates:
+  send_date: '2026-02-16'
+  inferred_send_type: local_time
+  first_sent: '2026-02-16T02:08:20+00:00'
+  last_sent: '2026-02-17T02:01:24+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 7382e804-254c-4f9d-bc47-173dda1354c1
+  channel: email
+  name: Variant 1
+  subject: Presidents Day Savings, Your Design Included
+  preheader: The pieces you picked are up to 70% off.
+  html_file: html/p_em_2026_02_16_hav_conv_d_sale_items_in_your_design.html
+  screenshot: screenshots/p_em_2026_02_16_hav_conv_d_sale_items_in_your_design.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698f1feac69ff40063d1dfcb/original.png?1770987497
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698f1ffcc12e550064b9e5e2/original.gif?1770987515
+- id: 9ecad71a-f157-4901-8440-b91e525a00ba
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 8254
+  total_delivered: 8241
+  total_opens: 4619
+  total_clicks: 86
+  open_rate: 0.5596
+  click_rate: 0.0104
+  total_unsubscribes: 12
+  ga4:
+    sessions: 60
+    purchases: 3
+    revenue: 7734.76
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.030003'
+    source: snowflake
+    channel: email
+schedule_type: time_based

@@ -1,0 +1,33 @@
+id: bc2e2154-1e6a-4276-b400-d4e728445919
+name: P_EM_2026_08_30_HAV_PC_D_Labor_Day_Event_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: bc2e2154-1e6a-4276-b400-d4e728445919
+dates:
+  send_date: '2026-08-30'
+  last_sent: '2026-08-30'
+tags:
+- BLASTS-2025
+sends:
+- id: 1dc51850-4bd7-4621-87f4-eaef071c29bc
+  channel: email
+  name: Variant 1
+  subject: Your dream room is 50% off
+  preheader: Work 1:1 with a designer at half the price.
+- id: 282557f3-4f93-4653-a379-7c6ec1c64577
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 284395
+  total_delivered: 282657
+  total_opens: 82665
+  total_clicks: 354
+  open_rate: 0.2907
+  click_rate: 0.0012
+  total_bounces: 12
+  total_unsubscribes: 221
+schedule_type: time_based
+_filename: p_em_2026_08_30_hav_pc_d_labor_day_event_reminder.yaml

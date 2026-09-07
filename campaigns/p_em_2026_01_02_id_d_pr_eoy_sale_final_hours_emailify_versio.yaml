@@ -1,0 +1,36 @@
+id: 2f56d02b-8e95-4822-a1bf-0ec32ae9bfa2
+name: P_EM_2026_01_02_ID_D_PR_EOY_Sale_Final_Hours_Emailify_Version
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 2f56d02b-8e95-4822-a1bf-0ec32ae9bfa2
+dates:
+  send_date: '2026-01-02'
+  inferred_send_type: local_time
+  first_sent: '2026-01-01T17:22:57+00:00'
+  last_sent: '2026-01-02T17:16:04+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 73906b24-1d57-4b31-b453-46177cf0c70c
+  channel: email
+  name: Control Group
+- id: 47b96dbd-f8bb-44a3-8f42-9371ffea9acb
+  channel: email
+  name: Unnamed Variant
+  subject: Final Hours to Save 25%
+  preheader: Our End of Year Event ends tonight.
+performance_summary:
+  total_sends: 105269
+  total_delivered: 104421
+  total_opens: 47298
+  total_clicks: 307
+  open_rate: 0.4493
+  click_rate: 0.0029
+  total_revenue: 118303.94
+  total_bounces: 3
+  total_unsubscribes: 223
+_filename: p_em_2026_01_02_id_d_pr_eoy_sale_final_hours_emailify_versio.yaml
+schedule_type: time_based

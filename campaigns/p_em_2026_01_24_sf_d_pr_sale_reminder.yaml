@@ -1,0 +1,37 @@
+id: b6c03f66-cc1a-41e8-aef4-acab6c046531
+name: P_EM_2026_01_24_SF_D_PR_Sale_Reminder
+brand: STF
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: b6c03f66-cc1a-41e8-aef4-acab6c046531
+dates:
+  send_date: '2026-01-24'
+  last_sent: '2026-01-24'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: 32298f97-d1ec-46e1-af4e-38badc7ded9d
+  channel: email
+  name: Variant 1
+  subject: 'DON’T MISS OUT: Up to 20% Off Sitewide'
+  preheader: shop the winter refresh event
+  html_file: html/p_em_2026_01_24_sf_d_pr_sale_reminder.html
+  screenshot: screenshots/p_em_2026_01_24_sf_d_pr_sale_reminder.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696fcadff07625006398b3c9/original.png?1768934111
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696fcb31ae6a3d00658d2785/original.png?1768934192
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696fc9f78f269000635e194f/original.png?1768933879
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696fcad6730ba100646d0b38/original.png?1768934101
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696fcb286a3ba40064473cf1/original.png?1768934184
+- id: 7445660e-00cb-4386-8752-200eb8117d07
+  channel: email
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based

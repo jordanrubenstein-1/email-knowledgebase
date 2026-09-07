@@ -1,0 +1,24 @@
+id: d8142e74-3335-c894-00cc-c5d73c971a1e
+name: OT_EM_2024_09_HAV_CONV_Gift_Card_Sent_Tracking
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: d8142e74-3335-c894-00cc-c5d73c971a1e
+dates:
+  first_sent: '2024-12-05T16:00:00+00:00'
+  last_sent: '2025-12-30T21:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: 4ab99387-087b-4c19-9541-fb33ece396dc
+  channel: email
+  name: Variant 1
+  subject: Your Havenly gift card is en route!
+- id: 19fcfe09-ae1a-4169-a5c6-82588f063e78
+  channel: email
+  name: Control Group
+performance_summary: {}
+schedule_type: api_triggered
+_filename: ot_em_2024_09_hav_conv_gift_card_sent_tracking.yaml

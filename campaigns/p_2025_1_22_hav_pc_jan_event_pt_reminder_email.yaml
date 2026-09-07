@@ -1,0 +1,33 @@
+id: fbe51e8a-7181-41b5-8c60-67358326664b
+name: P_2025_1_22_HAV_PC_Jan_Event_PT_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: fbe51e8a-7181-41b5-8c60-67358326664b
+dates:
+  send_date: '2025-01-22'
+  first_sent: '2025-01-22T00:30:38+00:00'
+  last_sent: '2025-01-22T18:15:04+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 0a6c5519-ce59-421b-b53e-cecbc713d5f0
+  channel: email
+  name: Variant 1
+  subject: Don't miss out on 40% off
+- id: cb9a492c-edbc-4b3d-99b0-9a8e559a8413
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 180890
+  total_delivered: 177936
+  total_opens: 84437
+  total_clicks: 440
+  open_rate: 0.4668
+  click_rate: 0.0024
+  total_bounces: 7
+  total_unsubscribes: 423
+schedule_type: time_based
+_filename: p_2025_1_22_hav_pc_jan_event_pt_reminder_email.yaml

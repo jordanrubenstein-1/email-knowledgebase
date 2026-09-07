@@ -1,0 +1,29 @@
+id: 11060930-aafe-47dc-84b7-55f965385918
+name: TRG_EM_2024_09_HAV_CONV_PT_Onboarding_HIP_Welcome_T1_V1
+brand: HAV
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 1218c66f-b068-4451-ba86-fba3dfccee37
+canvas_name: Welcome Stream / Onboarding Series
+flow_type: welcome_series
+sequence_position: 1
+subject: 'Welcome to Havenly In-Person! 🎉
+
+  '
+preheader: ''
+sends:
+- id: 11060930-aafe-47dc-84b7-55f965385918
+  channel: email
+  name: TRG_EM_2024_09_HAV_CONV_PT_Onboarding_HIP_Welcome_T1_V1
+  subject: 'Welcome to Havenly In-Person! 🎉
+
+    '
+  preheader: ''
+  html_file: html/canvas-welcome-stream-onboarding-series-t1-11060930.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-28T03:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary: {}

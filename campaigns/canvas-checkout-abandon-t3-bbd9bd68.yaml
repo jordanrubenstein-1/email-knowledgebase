@@ -1,0 +1,25 @@
+id: bbd9bd68-2ad7-4c6d-9e81-9f094d53a480
+name: TRG_EM_2024_08_CZ_D_Cart_Abandon_T4
+brand: CZ
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: fc4d8fed-126c-46d2-ab34-21225eea8e55
+canvas_name: Checkout Abandon
+flow_type: checkout_abandonment
+sequence_position: 3
+subject: Your Cart is Ready
+preheader: ''
+sends:
+- id: bbd9bd68-2ad7-4c6d-9e81-9f094d53a480
+  channel: email
+  name: TRG_EM_2024_08_CZ_D_Cart_Abandon_T4
+  subject: Your Cart is Ready
+  preheader: ''
+  html_file: html/canvas-checkout-abandon-t3-bbd9bd68.html
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2025-11-13T15:00:00Z'
+  last_sent: '2025-11-13T15:00:00Z'
+performance_summary: {}

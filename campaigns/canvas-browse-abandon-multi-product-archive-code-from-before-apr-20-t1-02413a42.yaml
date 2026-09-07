@@ -1,0 +1,25 @@
+id: 02413a42-8a6f-4228-85c8-bbe4c8125222
+name: TRG_EM_2025_08_ID_D_Product_Browse_Abandon_T1_V2
+brand: ID
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 651d9a46-7b15-4761-9425-1153ec2e06c3
+canvas_name: Browse Abandon - Multi Product - archive - code from before Apr 2026
+  YMAL
+flow_type: browse_abandonment
+sequence_position: 1
+subject: Ready to make it yours?
+preheader: You were eyeing it…
+sends:
+- id: 02413a42-8a6f-4228-85c8-bbe4c8125222
+  channel: email
+  name: TRG_EM_2025_08_ID_D_Product_Browse_Abandon_T1_V2
+  subject: Ready to make it yours?
+  preheader: You were eyeing it…
+  html_file: html/canvas-browse-abandon-multi-product-archive-code-from-before-apr-20-t1-02413a42.html
+dates:
+  first_sent: null
+  last_sent: null
+performance_summary: {}

@@ -1,0 +1,56 @@
+id: klaviyo-PkVCHT
+name: 'Email #1'
+brand: TI
+channel: email
+category: other
+type: announcement
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: NFxzVQ
+canvas_name: 'Shipped: Order Shipped NONSWATCH OLD'
+flow_type: swatch_followup
+sequence_position: 1
+dates:
+  created: '2019-04-18'
+  inferred_send_type: sto
+  first_sent: '2019-04-18'
+  last_sent: '2022-02-23'
+sends:
+- id: PkVCHT
+  channel: email
+  name: Message
+  subject: Great news! Items from order {{ event|lookup:'order_id' }} shipped.
+  preheader: Track your items here.
+  html_file: html/klv-flow-shipped-order-shipped-nonswatc-t01-PkVCHT.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/9e545215-c894-4e26-b4d8-7f1bb77ee4f9.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/f7f69d59-b01a-4c51-b99c-cb51e1849524.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/84884f30-dc52-4661-ae46-c327088c0132.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/809768ed-9d29-437c-a66b-f9698f7051e8.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/b34535e4-26eb-4cca-b9e8-9e5e844e626f.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/d30dc4c4-a46a-4c9f-88d8-3adad0413e3f.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/867ea0db-aa40-4ba3-982e-8320582091c3.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/384a8387-109b-4326-a40b-ef0073efa4ea.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/13bff18c-6a71-4885-a5a8-eb00fe4fb0f2.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/555203fb-c917-49ee-a67e-91942cc42522.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: PkVCHT
+structure:
+  image_count: 17
+  link_count: 15
+  has_gif: false
+  hero_width: 600
+  layout_type: product_grid

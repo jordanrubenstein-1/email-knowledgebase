@@ -1,0 +1,35 @@
+id: 30cc790e-9113-4252-831b-095d3aeee57e
+name: P_EM_2025_09_07_HAV_PC_D_Warm_Transitional
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 30cc790e-9113-4252-831b-095d3aeee57e
+dates:
+  send_date: '2025-09-07'
+  first_sent: '2025-09-06T18:24:45+00:00'
+  last_sent: '2025-09-07T18:15:19+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 7780a5d1-e8a8-4018-b670-6588c4c88f9e
+  channel: email
+  name: Variant 1
+  subject: 'TRENDING: Warm Transitional'
+  preheader: Shop this designer-approved style.
+- id: 1230c403-1a5c-4ed2-86ab-07192a76ed0b
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 233554
+  total_delivered: 232669
+  total_opens: 97284
+  total_clicks: 1048
+  open_rate: 0.4165
+  click_rate: 0.0045
+  total_bounces: 7
+  total_unsubscribes: 519
+schedule_type: time_based
+_filename: p_em_2025_09_07_hav_pc_d_warm_transitional.yaml

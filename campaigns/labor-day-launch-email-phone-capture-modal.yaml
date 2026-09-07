@@ -1,0 +1,78 @@
+id: 664275cc-eab4-4c6e-b207-4c8196424c5e
+name: Labor Day Launch - Email & Phone Capture Modal
+brand: BUR
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 664275cc-eab4-4c6e-b207-4c8196424c5e
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-08-21T04:00:00+00:00'
+  last_sent: '2025-09-12T03:00:00+00:00'
+tags: []
+sends:
+- id: 10427111-be68-4429-9804-5496dadf42a4
+  channel: other
+  name: Variant 1
+- id: b2e319c3-942b-4b77-a965-28244b369b80
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.637642'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-the-labor-day-event-2025-09-03
+    name: The Labor Day Event
+    start_date: '2025-09-03'
+    end_date: '2025-09-09'
+    discount: '20% off sitewide
+
+      Up to 70% off Clearance
+
+      Free shipping >$2k'
+    type: null
+  - id: bur-subscriber-flash-sale-lifecycle-retail-only-2025-09-11
+    name: Subscriber Flash Sale - Lifecycle/Retail Only
+    start_date: '2025-09-11'
+    end_date: '2025-09-16'
+    discount: 20% off sitewide with code SEPTVIP
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-the-labor-day-event-2025-09-03
+    name: The Labor Day Event
+    start_date: '2025-09-03'
+    end_date: '2025-09-09'
+    discount: '20% off sitewide
+
+      Up to 70% off Clearance
+
+      Free shipping >$2k'
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: '20% off sitewide
+
+    Up to 70% off Clearance
+
+    Free shipping >$2k'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:32.437384'
+schedule_type: action_based

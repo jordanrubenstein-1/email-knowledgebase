@@ -1,0 +1,25 @@
+id: 07274ea7-ec6f-4e39-910b-f3023565e888
+name: Step 1
+brand: ID
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: a03f9f42-a59a-459d-aade-e37c3d67daa5
+canvas_name: Swatch Post Purchase Test
+flow_type: post_purchase
+sequence_position: 1
+subject: Just ask. A designer is ready to chat right now.
+preheader: Don't guess. Just ask us.
+sends:
+- id: 07274ea7-ec6f-4e39-910b-f3023565e888
+  channel: email
+  name: Step 1
+  subject: Just ask. A designer is ready to chat right now.
+  preheader: Don't guess. Just ask us.
+  html_file: html/canvas-swatch-post-purchase-test-t1-07274ea7.html
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2026-04-27T22:00:00Z'
+  last_sent: '2026-04-28T00:00:00Z'
+performance_summary: {}

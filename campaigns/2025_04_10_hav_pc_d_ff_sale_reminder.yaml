@@ -1,0 +1,40 @@
+id: 7bc9964e-352f-4991-9bd6-cbb610759d09
+name: 2025_04_10_HAV_PC_D_F&F_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 7bc9964e-352f-4991-9bd6-cbb610759d09
+dates:
+  send_date: '2025-04-10'
+  first_sent: '2025-04-09T19:39:53+00:00'
+  last_sent: '2025-04-10T18:15:03+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: c8eb4c81-598c-4a61-bc26-e6c36bb254f2
+  channel: email
+  name: Variant 1
+  subject: Forgetting Something?
+  preheader: There’s still time for 40% off room designs!
+- id: 96ec6ffd-d83a-47a6-ba40-c4acc6bf7265
+  channel: other
+  name: Control Group
+- id: 28a05bc4-1b00-4f33-a1ba-0923bb538310
+  channel: email
+  name: Variant 2
+  subject: Forgetting Something?
+  preheader: There’s still time for 40% off room designs!
+performance_summary:
+  total_sends: 202853
+  total_delivered: 199081
+  total_opens: 87079
+  total_clicks: 344
+  open_rate: 0.4293
+  click_rate: 0.0017
+  total_bounces: 10
+  total_unsubscribes: 332
+schedule_type: time_based
+_filename: 2025_04_10_hav_pc_d_ff_sale_reminder.yaml

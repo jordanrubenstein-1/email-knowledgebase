@@ -1,0 +1,62 @@
+id: b8a97a6a-83c9-4311-bd73-fbef19083dc9
+name: P_EM_2025_07_21_SF_D_PR_Milan_Edit
+brand: STF
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: b8a97a6a-83c9-4311-bd73-fbef19083dc9
+dates:
+  send_date: '2025-07-21'
+  inferred_send_type: local_time
+  first_sent: '2025-07-20T18:08:30+00:00'
+  last_sent: '2025-07-21T17:01:26+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- dest
+sends:
+- id: 9dfc495c-2231-4117-b0de-0630f32bac79
+  channel: email
+  name: Variant 1
+  subject: Ciao, Milano
+  preheader: inside the city that defines design
+  html_file: html/p_em_2025_07_21_sf_d_pr_milan_edit.html
+  screenshot: screenshots/p_em_2025_07_21_sf_d_pr_milan_edit.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687a9cdcef50e300678cf6f1/original.png?1752866011
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687a9cd1a9a0ec0064d2dc46/original.png?1752866001
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687a9ada4ffdd300640ec92a/original.png?1752865498
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687a9aee25ee5900651b02b7/original.png?1752865518
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687a9ae0a3e1760065599554/original.png?1752865504
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687a9ae8a036b300662b5c5e/original.png?1752865512
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687a9af5561df7006555ddb3/original.png?1752865525
+- id: 909f912f-91bf-4550-a58b-7ea8af6dbddd
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 43024
+  total_delivered: 42513
+  total_opens: 19580
+  total_clicks: 376
+  open_rate: 0.4551
+  click_rate: 0.0087
+  total_revenue: 5581.0
+  total_bounces: 1
+  total_unsubscribes: 158
+  ga4:
+    sessions: 371
+    purchases: 1
+    revenue: 1421.25
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.000826'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.143586'
+schedule_type: time_based

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Havenly</title>
+  <!--[if mso]>
+  <noscript>
+    <xml>
+      <o:OfficeDocumentSettings>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+  </noscript>
+  <![endif]-->
+</head>
+<body style="margin: 0; padding: 0; background-color: #f4f4f4;">
+  <!-- Row 1: Blue-bordered content block (600px total: 90px border each side, 420px white) -->
+  <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="600" style="max-width: 600px; width: 100%; margin: 0 auto;">
+    <!-- Top blue border -->
+    <tr>
+      <td bgcolor="#304561" style="background-color: #304561; height: 90px; font-size: 1px; line-height: 1px;" colspan="3">&nbsp;</td>
+    </tr>
+    <tr>
+      <!-- Left blue border -->
+      <td bgcolor="#304561" style="background-color: #304561; width: 90px; font-size: 1px; line-height: 1px;" width="90">&nbsp;</td>
+      <!-- White content (420px) -->
+      <td bgcolor="#FFFFFF" style="background-color: #FFFFFF; width: 420px; padding: 24px 32px; vertical-align: top;" width="420">
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="max-width: 100%; margin: 0 auto;">
+          <!-- Havenly logo - centered -->
+          <tr>
+            <td style="padding: 0 0 16px 0; text-align: center;">
+              <a href="https://havenly.com/?lid=2zlhijzl5gkf"><img src="https://braze-images.com/appboy/communication/assets/image_assets/images/697ce0b41dead00063d9b3c5/original.png?1769791668" alt="HAVENLY" width="100" height="auto" style="display: block; max-width: 100%; height: auto; margin: 0 auto;" /></a>
+            </td>
+          </tr>
+          <!-- Greeting -->
+          <tr>
+            <td style="padding: 12px 0 16px 0; font-family: Helvetica, Arial, sans-serif; font-size: 15px; font-weight: normal; line-height: 24px; color: #000000; text-align: left;">
+              Hi {{api_trigger_properties.${first_name} | default: 'there'}},
+            </td>
+          </tr>
+          <!-- Intro -->
+          <tr>
+            <td style="padding: 0 0 16px 0; font-family: Helvetica, Arial, sans-serif; font-size: 15px; font-weight: normal; line-height: 24px; color: #000000; text-align: left;">
+              Just a friendly reminder that your Havenly design call is coming up tomorrow — we're looking forward to chatting!
+            </td>
+          </tr>
+          <!-- Call details -->
+          <tr>
+            <td style="padding: 0 0 8px 0; font-family: Helvetica, Arial, sans-serif; font-size: 15px; font-weight: bold; line-height: 24px; color: #000000; text-align: left;">
+              Call details:
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 0 0 16px 0; font-family: Helvetica, Arial, sans-serif; font-size: 15px; font-weight: normal; line-height: 24px; color: #000000; text-align: left;">
+              • <strong>Date:</strong> {{api_trigger_properties.${call_date}}}<br />
+              • <strong>Time:</strong> {{api_trigger_properties.${call_time}}}<br />
+              • <strong>Join here:</strong> <a href="{{api_trigger_properties.${zoom_link}}}" style="color: #000000; text-decoration: underline;">{{api_trigger_properties.${zoom_link}}}</a>
+            </td>
+          </tr>
+          <!-- Quick prep checklist -->
+          <tr>
+            <td style="padding: 0 0 8px 0; font-family: Helvetica, Arial, sans-serif; font-size: 15px; font-weight: bold; line-height: 24px; color: #000000; text-align: left;">
+              Quick prep checklist:
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 0 0 24px 0; font-family: Helvetica, Arial, sans-serif; font-size: 15px; font-weight: normal; line-height: 24px; color: #000000; text-align: left;">
+              ✔ Upload any photos or measurements<br />
+              ✔ Review and gather any additional inspiration<br />
+              ✔ Plan to join from a computer or larger screen so your designer can share their screen and walk through initial ideas<br />
+              ✔ Think about your goals, budget, and timeline
+            </td>
+          </tr>
+          <!-- Being prepared paragraph -->
+          <tr>
+            <td style="padding: 0 0 24px 0; font-family: Helvetica, Arial, sans-serif; font-size: 15px; font-weight: normal; line-height: 24px; color: #000000; text-align: left;">
+              Being prepared helps your designer make the most of your time together and ensures the conversation is tailored to your space and style.
+            </td>
+          </tr>
+          <!-- Reschedule line -->
+          <tr>
+            <td style="padding: 0 0 24px 0; font-family: Helvetica, Arial, sans-serif; font-size: 15px; font-weight: normal; line-height: 24px; color: #000000; text-align: left;">
+              Need to make a change? You can reschedule or message your designer anytime from your <a href="{{api_trigger_properties.${project_link}}}" style="color: #000000; text-decoration: underline; font-weight: bold;">project page</a>.
+            </td>
+          </tr>
+          <!-- See you soon -->
+          <tr>
+            <td style="padding: 0 0 8px 0; font-family: Helvetica, Arial, sans-serif; font-size: 15px; font-weight: normal; line-height: 24px; color: #000000; text-align: left;">
+              See you soon!
+            </td>
+          </tr>
+          <!-- Signature -->
+          <tr>
+            <td style="padding: 0 0 24px 0; font-family: Helvetica, Arial, sans-serif; font-size: 15px; font-weight: normal; line-height: 24px; color: #000000; text-align: left;">
+              — The Havenly Team
+            </td>
+          </tr>
+          <!-- CTA Button -->
+          <tr>
+            <td style="padding: 6px 0 0 0; text-align: center;">
+              <a href="{{api_trigger_properties.${zoom_link}}}" style="display: inline-block; font-family: 'Saans', Helvetica, Arial, sans-serif; font-size: 18px; line-height: 22px; font-weight: 600; letter-spacing: 0.79px; color: #FFFFFF; text-decoration: none; border: 2px solid #CD8F52; padding: 14px 32px; background-color: #CD8F52; border-radius: 50px; white-space: nowrap;">JOIN THE CALL</a>
+            </td>
+          </tr>
+        </table>
+      </td>
+      <!-- Right blue border -->
+      <td bgcolor="#304561" style="background-color: #304561; width: 90px; font-size: 1px; line-height: 1px;" width="90">&nbsp;</td>
+    </tr>
+    <!-- Bottom blue border -->
+    <tr>
+      <td bgcolor="#304561" style="background-color: #304561; height: 90px; font-size: 1px; line-height: 1px;" colspan="3">&nbsp;</td>
+    </tr>
+  </table>
+  <!-- Unsubscribe footer -->
+  <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="max-width: 600px; width: 100%; margin: 0 auto; background-color: #f4f4f4;">
+    <tr>
+      <td align="center" style="padding: 0 20px; background-color: #f4f4f4;">
+{{content_blocks.${address_without_unsubscribe} | id: 'cb5'}}      </td>
+    </tr>
+  </table>
+</body>
+</html>

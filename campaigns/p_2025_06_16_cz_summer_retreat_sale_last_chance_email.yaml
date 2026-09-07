@@ -1,0 +1,48 @@
+id: 99d20373-defa-4dae-b1b4-110bf3d519cd
+name: P_2025_06_16_CZ_Summer_Retreat_Sale_Last_Chance_Email
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: summer
+braze_id: 99d20373-defa-4dae-b1b4-110bf3d519cd
+dates:
+  send_date: '2025-06-16'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-16T05:41:12+00:00'
+  last_sent: '2025-06-16T17:02:34+00:00'
+tags: []
+sends:
+- id: feaeace1-cbba-43a3-9550-b4538f8631a9
+  channel: email
+  name: Variant 1
+  subject: Last Call for 20% Off
+  preheader: The Summer Retreat Sale ends tonight.
+  html_file: html/p_2025_06_16_cz_summer_retreat_sale_last_chance_email.html
+  screenshot: screenshots/p_2025_06_16_cz_summer_retreat_sale_last_chance_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684ca2f59a2a740066970702/original.png?1749852916
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684ca2e8ba7ade0076c47e09/original.png?1749852904
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684ca2fa9a2a74006697070a/original.png?1749852922
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684ca2d8d76dc300656a8412/original.png?1749852888
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684ca5b723d3cb00651a89d5/original.png?1749853623
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684ca5c7cae7df0065610dd5/original.png?1749853639
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684ca5d8ea807b0065bffa9e/original.png?1749853656
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684ca2c6d4d6320077c00ac3/original.png?1749852870
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684ca2e3d76dc300746a78d3/original.png?1749852899
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684ca2d3d4d6320068c02c47/original.png?1749852883
+- id: 749bad38-ffed-41b4-985b-c3fbd308e306
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 100981
+  total_delivered: 100514
+  total_opens: 52740
+  total_clicks: 661
+  open_rate: 0.5223
+  click_rate: 0.0065
+  total_revenue: 51558.27
+  total_bounces: 2
+  total_unsubscribes: 134
+_filename: p_2025_06_16_cz_summer_retreat_sale_last_chance_email.yaml
+schedule_type: time_based

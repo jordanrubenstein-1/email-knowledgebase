@@ -1,0 +1,33 @@
+id: 901b3e3a-e10f-4358-8f2a-ab6556a2e848
+name: P_EM_2026_08_24_BW_PT_Resend_PM
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 901b3e3a-e10f-4358-8f2a-ab6556a2e848
+dates:
+  send_date: '2026-08-24'
+  last_sent: '2026-08-24'
+tags:
+- Batch&Blast
+sends:
+- id: 0b04be2e-72f9-4f5b-8014-1c9c8f2258d0
+  channel: email
+  name: Variant 1
+  subject: Good news. The sale got extended.
+- id: f510bfdd-ef59-4b89-9abc-8a31ad6c7ec6
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 89987
+  total_delivered: 89721
+  total_opens: 35883
+  total_clicks: 690
+  open_rate: 0.3988
+  click_rate: 0.0077
+  total_revenue: 149002.0
+  total_bounces: 2
+  total_unsubscribes: 156
+schedule_type: time_based
+_filename: p_em_2026_08_24_bw_pt_resend_pm.yaml

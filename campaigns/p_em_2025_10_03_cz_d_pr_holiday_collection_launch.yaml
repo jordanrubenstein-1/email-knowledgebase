@@ -1,0 +1,58 @@
+id: 4096b448-e669-49e5-be7f-7337ea43c64b
+name: P_EM_2025_10_03_CZ_D_PR_Holiday_Collection_Launch
+brand: CZ
+channel: email
+category: product_launch
+type: seasonal
+theme: christmas
+braze_id: 4096b448-e669-49e5-be7f-7337ea43c64b
+dates:
+  send_date: '2025-10-03'
+  inferred_send_type: local_time
+  first_sent: '2025-10-02T22:03:09+00:00'
+  last_sent: '2025-10-03T17:15:12+00:00'
+tags:
+- am
+- batch and blast
+- collect
+- d2c
+- designed
+sends:
+- id: 29b59b60-a470-466f-bb63-4a9cf4d5575d
+  channel: email
+  name: Variant 1
+  subject: 'Now Open: The Holiday Shop'
+  preheader: 'Artful pieces for a season of joy. '
+  html_file: html/p_em_2025_10_03_cz_d_pr_holiday_collection_launch.html
+  screenshot: screenshots/p_em_2025_10_03_cz_d_pr_holiday_collection_launch.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68dee7d66fd5140063dd8216/original.png?1759438805
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68dee79fb13f4a00650a12f1/original.gif?1759438751
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68dee7ce7556610073a3fffc/original.png?1759438797
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68dee7de980e7300632a6531/original.png?1759438813
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68dee7c6c1e8320063e00ef6/original.png?1759438789
+- id: 9dbf6451-05f4-48d8-a081-61662b3b3595
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 112498
+  total_delivered: 112036
+  total_opens: 60103
+  total_clicks: 1215
+  open_rate: 0.5343
+  click_rate: 0.0108
+  total_bounces: 22
+  total_unsubscribes: 176
+  ga4:
+    sessions: 1383
+    purchases: 5
+    revenue: 968.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.369805'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.129545'
+schedule_type: time_based

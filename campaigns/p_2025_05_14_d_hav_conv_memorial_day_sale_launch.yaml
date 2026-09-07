@@ -1,0 +1,34 @@
+id: 97091117-04a5-4f59-9da5-941ccb6993d2
+name: P_2025_05_14_D_HAV_Conv_Memorial_Day_Sale_Launch
+brand: HAV
+channel: email
+category: product_launch
+type: sale
+theme: null
+braze_id: 97091117-04a5-4f59-9da5-941ccb6993d2
+dates:
+  send_date: '2025-05-14'
+  first_sent: '2025-05-13T21:30:18+00:00'
+  last_sent: '2025-05-14T17:15:15+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 367eda9d-10bd-4900-abae-92595f5f79f4
+  channel: email
+  name: Variant 1
+  subject: The Memorial Day Event is officially live.
+  preheader: Summer is heating up and so are the savings.
+- id: 212f68de-9fbb-400b-a8c5-951dd4863188
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 39640
+  total_delivered: 39568
+  total_opens: 21339
+  total_clicks: 181
+  open_rate: 0.5383
+  click_rate: 0.0046
+  total_unsubscribes: 38
+schedule_type: time_based
+_filename: p_2025_05_14_d_hav_conv_memorial_day_sale_launch.yaml

@@ -1,0 +1,59 @@
+id: f18c2e3b-c0a5-4547-878b-b76d1973b4ad
+name: P_2025_1_20_D_CZ_WRE_Layer_by_Layer_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: f18c2e3b-c0a5-4547-878b-b76d1973b4ad
+dates:
+  send_date: '2025-01-20'
+  inferred_send_type: local_time
+  first_sent: '2025-01-19T17:06:49+00:00'
+  last_sent: '2025-01-20T17:01:49+00:00'
+tags: []
+sends:
+- id: 16da0da9-5855-4478-b1bb-13ba3fe17484
+  channel: email
+  name: Variant 1
+  subject: Build Your Dream Bed For 20% Off
+  preheader: Don't sleep on The Winter Retreat Event.
+  html_file: html/p_2025_1_20_d_cz_wre_layer_by_layer_email.html
+  screenshot: screenshots/p_2025_1_20_d_cz_wre_layer_by_layer_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678a7b291981b30065a52f9c/original.jpg?1737128745
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678a7a0aaabad60064efe88f/original.jpg?1737128458
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678a7a57a0266800649f1c1b/original.jpg?1737128535
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6787e235ca71ad006610de0b/original.jpg?1736958516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678a7b76037b6800744bd5e6/original.jpg?1737128821
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6787e285f852ed007341553b/original.jpg?1736958597
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678a7b03b290780075e042e6/original.jpg?1737128707
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6787e2105c51210075aa8915/original.jpg?1736958480
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678a7bbbb290780066e0803f/original.jpg?1737128891
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6787e303ae3c9e00655842d7/original.jpg?1736958722
+- id: 8af6ab9b-b385-4d83-b4f7-1dcc7dc83637
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 95168
+  total_delivered: 94465
+  total_opens: 46774
+  total_clicks: 700
+  open_rate: 0.4915
+  click_rate: 0.0074
+  total_revenue: 82270.29
+  total_bounces: 3
+  total_unsubscribes: 149
+  ga4:
+    sessions: 817
+    purchases: 8
+    revenue: 1968.3
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.748111'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.582178'
+schedule_type: time_based

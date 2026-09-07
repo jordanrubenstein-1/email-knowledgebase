@@ -1,0 +1,37 @@
+id: df91e1bc-e1e5-4a1d-b2d9-0cb8ff85c83c
+name: TRG_SMS_2025_07_ID_Welcome_T8_V1
+brand: ID
+channel: sms
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 57b265fb-8444-432a-b2e8-2bbc0bb3592a
+canvas_name: SMS Welcome
+flow_type: welcome_series
+sequence_position: 8
+body: 'Interior Define: We welcome furry friends on our furniture — sharp claws, muddy
+  paws, and shedding seasons are no match for our performance fabrics. Read the Guide:
+  https://www.interiordefine.com/performance-fabrics-guide?utm_source=braze_ID&utm_medium=sms&utm_campaign={{campaign.${name}}}&userid={{${user_id}}}&bzt={{${email_address}
+  | base64_encode | url_param_escape}}'
+sends:
+- id: df91e1bc-e1e5-4a1d-b2d9-0cb8ff85c83c
+  channel: sms
+  name: TRG_SMS_2025_07_ID_Welcome_T8_V1
+  body: 'Interior Define: We welcome furry friends on our furniture — sharp claws,
+    muddy paws, and shedding seasons are no match for our performance fabrics. Read
+    the Guide: https://www.interiordefine.com/performance-fabrics-guide?utm_source=braze_ID&utm_medium=sms&utm_campaign={{campaign.${name}}}&userid={{${user_id}}}&bzt={{${email_address}
+    | base64_encode | url_param_escape}}'
+  media_items:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68644826951b7d00654b39cf/original.png?1751402533
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-03-18T15:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 13640
+  total_delivered: 12486
+  total_clicks: 512
+  click_rate: 0.0375
+  total_unsubscribes: 117
+  total_bounces: 472
+  total_revenue: 140897.91

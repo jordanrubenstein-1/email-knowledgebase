@@ -1,0 +1,56 @@
+id: klaviyo-H9erkq
+name: TRG_EM_2024_01_TI_Trade_D_Shipping_Confirmation_Swatch_Order_T2_V1
+brand: TI
+channel: email
+category: other
+type: announcement
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: QyPJqw
+canvas_name: '[TRADE] Swatch Order -- SHIPPED'
+flow_type: swatch_followup
+sequence_position: 1
+dates:
+  created: '2020-03-09'
+  inferred_send_type: sto
+  first_sent: '2020-03-09'
+  last_sent: '2026-04-22'
+sends:
+- id: H9erkq
+  channel: email
+  name: Message
+  subject: Your free swatches have arrived.
+  preheader: Questions? Let us help!
+  html_file: html/klv-flow-trade-swatch-order-shipped-t01-H9erkq.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/8f4b960f-2bc6-4c1d-bc9d-81a619cba5ea.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/0e372e2c-bf08-476e-9542-d09d3ba983d4.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/125898ba-73cd-421c-a298-47a1fab0c69d.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/4bdd8ea9-7dc5-48a2-ad86-04a53434c8a1.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/17413e7a-22d2-444a-a7b8-6a6ed954c4af.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/5b46fe0f-7a12-4519-87ce-4caa7c28d539.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/d069db59-1314-4879-8c7f-630c42cc9f43.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/35c1a2b7-2374-4991-84ab-4e950fd9a5c7.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/92d4f85a-e648-4016-9732-56d261c5e3e0.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/b398c3ca-c7f5-41f2-bedc-27a54cf334fb.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: H9erkq
+structure:
+  image_count: 14
+  link_count: 15
+  has_gif: false
+  hero_width: 600
+  layout_type: product_grid

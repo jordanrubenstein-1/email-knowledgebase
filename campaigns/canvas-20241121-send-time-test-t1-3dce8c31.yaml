@@ -1,0 +1,33 @@
+id: 3dce8c31-b7b2-46c4-bcd5-ae04e8dd0ed6
+name: 20241121_BFCM-Range-Highlight_Early
+brand: BUR
+channel: email
+category: sale_promo
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: fb5d33d5-ee87-4cd4-bb16-b3bc86db6da0
+canvas_name: 20241121 Send Time Test
+flow_type: other_flow
+sequence_position: 1
+subject: This best seller is on major sale
+preheader: Sink in to our Range collection.
+sends:
+- id: 3dce8c31-b7b2-46c4-bcd5-ae04e8dd0ed6
+  channel: email
+  name: 20241121_BFCM-Range-Highlight_Early
+  subject: This best seller is on major sale
+  preheader: Sink in to our Range collection.
+  html_file: html/canvas-20241121-send-time-test-t1-3dce8c31.html
+dates:
+  inferred_send_type: local_time
+  first_sent: '2024-11-21T00:00:00Z'
+  last_sent: '2024-11-21T17:00:00Z'
+performance_summary:
+  total_sends: 131344
+  total_delivered: 131045
+  total_opens: 88632
+  total_clicks: 457
+  open_rate: 0.6748
+  click_rate: 0.0035
+  total_unsubscribes: 357
+  total_revenue: 40482.75

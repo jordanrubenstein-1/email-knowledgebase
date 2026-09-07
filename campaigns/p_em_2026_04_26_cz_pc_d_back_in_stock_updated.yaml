@@ -1,0 +1,52 @@
+id: 411b44a0-498d-480e-ba60-00ae84120e49
+name: P_EM_2026_04_26_CZ_PC_D_Back_in_Stock_Updated
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 411b44a0-498d-480e-ba60-00ae84120e49
+dates:
+  send_date: '2026-04-26'
+  inferred_send_type: local_time
+  first_sent: '2026-04-26T00:09:42+00:00'
+  last_sent: '2026-04-26T23:02:46+00:00'
+tags:
+- batch and blast
+- d2c
+- designed
+- instock
+- sale
+- sale/sleepsale2026
+sends:
+- id: ef5ab0d9-1224-4cf6-97fa-405d9df3d4e4
+  channel: email
+  name: Variant 1
+  subject: The return of the ones that sold out first
+  preheader: Restocked and 20% off during our Spring Flash Sale.
+  html_file: html/p_em_2026_04_26_cz_pc_d_back_in_stock_updated.html
+  screenshot: screenshots/p_em_2026_04_26_cz_pc_d_back_in_stock_updated.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ebd16366015e007f28f9bb/original.png?1777062243
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ebd0698f88310081345daa/original.png?1777061993
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69e79df475a0b900c430fec0/original.png?1776786932
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ebf41409999f007d6f9d4a/original.png?1777071123
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ebd1f833c69f0081a74100/original.png?1777062392
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ebd07718b4bf007f02943e/original.png?1777062005
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ebd1daae9b1e00b8bd9f38/original.png?1777062362
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ebd138b3e72400814d4fa5/original.png?1777062200
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ebd170ae9b1e0081bda512/original.png?1777062255
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ebd1e5bd845b009ae69b87/original.png?1777062372
+- id: ec93b0fa-e1d8-45b1-90d8-60bd4a2d6790
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 113744
+  total_delivered: 113223
+  total_opens: 59791
+  total_clicks: 1417
+  open_rate: 0.5257
+  click_rate: 0.0125
+  total_unsubscribes: 97
+_filename: p_em_2026_04_26_cz_pc_d_back_in_stock_updated.yaml
+schedule_type: time_based

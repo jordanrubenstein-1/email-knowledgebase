@@ -1,0 +1,29 @@
+id: 9f8ce5de-62e9-4057-a4e3-0bf596f11aa4
+name: P_SMS_2026_02_23_CZ_Presidents_Day_Sale_Final_Hours
+brand: CZ
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: 9f8ce5de-62e9-4057-a4e3-0bf596f11aa4
+dates:
+  send_date: '2026-02-23'
+  inferred_send_type: local_time
+  first_sent: '2026-02-23T04:09:47+00:00'
+  last_sent: '2026-02-24T04:01:14+00:00'
+tags: []
+sends:
+- id: 53a87b82-57e0-4cec-8717-3b09e87860f6
+  channel: sms
+  name: Variant 1
+- id: 7e8c12da-3ea3-4bc3-abd2-022018fe41ea
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 19051
+  total_delivered: 18443
+  total_opens: 0
+  total_clicks: 212
+  open_rate: 0.0
+  click_rate: 0.0111
+schedule_type: time_based

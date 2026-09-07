@@ -1,0 +1,48 @@
+id: 82c946b5-201b-454a-951d-fa11b78972e3
+name: P_2024_12_05_PT_HAV_PC_Sale_Extension_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 82c946b5-201b-454a-951d-fa11b78972e3
+dates:
+  send_date: '2024-12-05'
+  inferred_send_type: scheduled
+  first_sent: '2024-12-05T06:44:59+00:00'
+  last_sent: '2024-12-05T18:15:03+00:00'
+tags: []
+sends:
+- id: ed313bc9-21bc-402e-ae25-5b1f9dd3f3b8
+  channel: email
+  name: Variant 1
+  subject: 'Re: Your Extended Cyber Week Offer'
+  html_file: html/p_2024_12_05_pt_hav_pc_sale_extension_reminder_email.html
+  screenshot: screenshots/p_2024_12_05_pt_hav_pc_sale_extension_reminder_email.png
+  image_urls:
+  - https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/c731630f24214e43807c7369ca8ebacd/Havenly_Wordmark_RGB_Charcoal_Brown%20%281%29.png
+- id: 3e9b2a43-782c-45bb-91ff-a349714811e5
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 161752
+  total_delivered: 159650
+  total_opens: 79002
+  total_clicks: 930
+  open_rate: 0.4884
+  click_rate: 0.0057
+  total_bounces: 5
+  total_unsubscribes: 667
+  ga4:
+    sessions: 806
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:48.911477'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.457176'
+schedule_type: time_based

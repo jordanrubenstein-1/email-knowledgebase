@@ -1,0 +1,59 @@
+id: c1ec1371-84b7-43d4-9b64-6880872efed9
+name: P_2024_07_31_SF_D_PR_Summer_Tent_Sale_Reminder_Email
+brand: STF
+channel: email
+category: reminder
+type: sale
+theme: summer
+braze_id: c1ec1371-84b7-43d4-9b64-6880872efed9
+dates:
+  send_date: '2024-07-31'
+  inferred_send_type: local_time
+  first_sent: '2024-07-30T23:05:38+00:00'
+  last_sent: '2024-07-31T14:15:10+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: a2db048e-5025-4ae1-994d-fbf7dd0dc265
+  channel: email
+  name: Variant 1
+  subject: Last Day For 20% Off Pillows!
+  preheader: use code PILLOWTALK24 to save
+  html_file: html/p_2024_07_31_sf_d_pr_summer_tent_sale_reminder_email.html
+  screenshot: screenshots/p_2024_07_31_sf_d_pr_summer_tent_sale_reminder_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a9267909c22f006b0d4e64/original.jpg?1722361465
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a92679a027e2007c48f7bc/original.jpg?1722361465
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a9261efc9749005ca35731/original.gif?1722361374
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a926796cfeb4005db2cda8/original.jpg?1722361465
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0058f1ba77/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0063f11fb6/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a92679a027e2005f491024/original.jpg?1722361465
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6681bde9255ebf0070d6be26/original.jpeg?1719778792
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a926796cfeb4007bb2b661/original.jpg?1722361465
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66882808c84d43005953de9b/original.jpg?1720199176
+- id: 64016210-b8da-4c8c-a12d-37790dc28fdf
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 6730
+  total_delivered: 6691
+  total_opens: 1541
+  total_clicks: 50
+  open_rate: 0.229
+  click_rate: 0.0074
+  total_revenue: 6350.0
+  total_unsubscribes: 7
+  ga4:
+    sessions: 14
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.654671'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.224019'
+schedule_type: time_based

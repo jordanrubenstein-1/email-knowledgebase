@@ -1,0 +1,24 @@
+id: 0f314567-6a18-4c88-b139-d2aae5bbeff0
+name: TRG_2025_02_SF_Welcome_T2_Email
+brand: STF
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: e3b1e8fb-f127-4cda-9b6a-97546f7bc2e5
+canvas_name: SMS Welcome Flow
+flow_type: welcome_series
+sequence_position: 2
+subject: You've still got 20% off, our treat
+preheader: it's a great day to shop
+sends:
+- id: 0f314567-6a18-4c88-b139-d2aae5bbeff0
+  channel: email
+  name: TRG_2025_02_SF_Welcome_T2_Email
+  subject: You've still got 20% off, our treat
+  preheader: it's a great day to shop
+  html_file: html/canvas-sms-welcome-flow-t2-0f314567.html
+dates:
+  first_sent: null
+  last_sent: null
+performance_summary: {}

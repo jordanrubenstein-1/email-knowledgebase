@@ -1,0 +1,33 @@
+id: 7d58958c-966a-40bd-8e80-5b59a860992b
+name: P_2024_12_2_D_HAV_CON_Cyber_Monday_AM_Email
+brand: HAV
+channel: email
+category: sale_promo
+type: seasonal
+theme: null
+braze_id: 7d58958c-966a-40bd-8e80-5b59a860992b
+dates:
+  send_date: '2024-12-02'
+  first_sent: '2024-12-02T06:31:16+00:00'
+  last_sent: '2024-12-02T17:15:08+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 2c68ac84-8246-4fef-96ef-8da681fccc8a
+  channel: email
+  name: Variant 1
+  subject: Last Call For The Best Deals ⏰
+  preheader: Cyber Monday only happens once a year.
+- id: 106c0af0-b83d-4c0d-9fc8-624f24525611
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 35955
+  total_delivered: 35913
+  total_opens: 19375
+  total_clicks: 172
+  open_rate: 0.5389
+  click_rate: 0.0048
+  total_unsubscribes: 83
+schedule_type: time_based
+_filename: p_2024_12_2_d_hav_con_cyber_monday_am_email.yaml

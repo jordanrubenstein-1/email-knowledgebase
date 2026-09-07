@@ -1,0 +1,30 @@
+id: 89712733-2fe1-43ce-a7a1-208de8a8362e
+name: P_2025_7_08_4th_Of_July_Sale_Last_Chance_SMS
+brand: ID
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: 89712733-2fe1-43ce-a7a1-208de8a8362e
+dates:
+  send_date: '2025-07-08'
+  inferred_send_type: scheduled
+  first_sent: '2025-07-08T20:39:03+00:00'
+  last_sent: '2025-07-08T22:36:52+00:00'
+tags: []
+sends:
+- id: 494f447f-48d6-41c2-8748-02406134a520
+  channel: other
+  name: Variant 1
+- id: ae7745b3-8fc4-41a9-9b8a-be8ce6f47aa1
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 57124
+  total_delivered: 53654
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 58475.0
+schedule_type: time_based

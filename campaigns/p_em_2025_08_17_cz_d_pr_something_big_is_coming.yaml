@@ -1,0 +1,55 @@
+id: b22e4f47-82b7-481c-9a2f-338e49ad6ea9
+name: P_EM_2025_08_17_CZ_D_PR_Something_Big_Is_Coming
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: b22e4f47-82b7-481c-9a2f-338e49ad6ea9
+dates:
+  send_date: '2025-08-17'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-17T09:02:49+00:00'
+  last_sent: '2025-08-17T19:01:00+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+sends:
+- id: d290e1ca-828a-4a51-9cce-4bf3c8a90921
+  channel: email
+  name: Variant 1
+  subject: 'It’s Almost Time… '
+  preheader: Fill your cart now—your future self will thank you.
+  html_file: html/p_em_2025_08_17_cz_d_pr_something_big_is_coming.html
+  screenshot: screenshots/p_em_2025_08_17_cz_d_pr_something_big_is_coming.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689f9d878f825b0075a1254f/original.png?1755291014
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689f988cafbec90067093941/original.png?1755289739
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689f9d75393d5200757b1e2c/original.png?1755290996
+- id: b28ce4e3-8809-498d-a4ec-906830111312
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 99132
+  total_delivered: 99036
+  total_opens: 52605
+  total_clicks: 452
+  open_rate: 0.5307
+  click_rate: 0.0046
+  total_revenue: 82852.29
+  total_unsubscribes: 116
+  ga4:
+    sessions: 377
+    purchases: 2
+    revenue: 347.38
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.263398'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.670320'
+schedule_type: time_based

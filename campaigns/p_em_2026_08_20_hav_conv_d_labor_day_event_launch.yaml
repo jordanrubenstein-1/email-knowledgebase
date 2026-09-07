@@ -1,0 +1,35 @@
+id: 34aced4e-889f-440f-809b-20cd1aaff8e3
+name: P_EM_2026_08_20_HAV_CONV_D_Labor_Day_Event_Launch
+brand: HAV
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 34aced4e-889f-440f-809b-20cd1aaff8e3
+dates:
+  send_date: '2026-08-20'
+  first_sent: '2026-08-19T11:08:09+00:00'
+  last_sent: '2026-08-20T12:00:00+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 1a5ecb92-3260-4aca-bf77-546c082a23c0
+  channel: email
+  name: Variant 1
+  subject: The Labor Day Sale Is Here
+  preheader: Up to 20% off sitewide, plus an extra 5% off select vendors.
+- id: 73e42d2a-2427-4747-b849-7c58b94e55b4
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 42394
+  total_delivered: 42356
+  total_opens: 19736
+  total_clicks: 86
+  open_rate: 0.4655
+  click_rate: 0.002
+  total_bounces: 1
+  total_unsubscribes: 54
+schedule_type: time_based
+_filename: p_em_2026_08_20_hav_conv_d_labor_day_event_launch.yaml

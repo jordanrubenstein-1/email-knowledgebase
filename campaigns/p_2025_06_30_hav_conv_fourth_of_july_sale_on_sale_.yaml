@@ -1,0 +1,49 @@
+id: 64958bb0-ee50-411c-8729-362611ae3c76
+name: P_2025_06_30_HAV_Conv_Fourth_of_July_Sale_on_Sale_PT
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 64958bb0-ee50-411c-8729-362611ae3c76
+dates:
+  send_date: '2025-06-30'
+  inferred_send_type: local_time
+  first_sent: '2025-06-29T18:21:28+00:00'
+  last_sent: '2025-06-30T17:16:02+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 7dc2c707-2f0f-49a5-be60-5892b2c3283e
+  channel: email
+  name: Variant 1
+  subject: Even better deals
+  preheader: Shop Havenly exclusive offers NOW.
+  html_file: html/p_2025_06_30_hav_conv_fourth_of_july_sale_on_sale_pt.html
+  screenshot: screenshots/p_2025_06_30_hav_conv_fourth_of_july_sale_on_sale_pt.png
+  image_urls:
+  - https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/c731630f24214e43807c7369ca8ebacd/Havenly_Wordmark_RGB_Charcoal_Brown%20%281%29.png
+- id: 77b5a0fd-9b9e-44f9-a79c-719334f05383
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 40448
+  total_delivered: 40356
+  total_opens: 22083
+  total_clicks: 118
+  open_rate: 0.546
+  click_rate: 0.0029
+  total_unsubscribes: 60
+  ga4:
+    sessions: 103
+    purchases: 1
+    revenue: 3079.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.662275'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.940084'
+schedule_type: time_based

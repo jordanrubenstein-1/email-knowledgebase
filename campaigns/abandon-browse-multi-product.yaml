@@ -1,0 +1,100 @@
+id: 63b722cb-a64c-494f-aa54-d22c72cc8959
+name: Abandon Browse - Multi Product
+brand: BUR
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: 63b722cb-a64c-494f-aa54-d22c72cc8959
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-05-08T01:00:00+00:00'
+  last_sent: '2026-05-19T20:00:00+00:00'
+tags:
+- abandon browse
+sends:
+- id: 9c36bc73-84e6-43b0-93b7-5646794e8f8c
+  channel: email
+  name: TRG_EM_2026_02_BW_D_Abandon_Browse_T3_V3
+  subject: Choosing furniture takes time
+  preheader: We’ll keep things simple when you come back.
+  step_id: 764e49f2-9b10-4794-ac24-da925c128a03
+- id: 2e9b7807-f1b7-4bf2-a8bc-7aa1f84fef57
+  channel: email
+  name: TRG_EM_2026_02_BW_D_Abandon_Browse_T1_V3
+  subject: Still thinking it over?
+  preheader: Your picks are right where you left them.
+  step_id: d6228f60-1895-40a6-8c6a-2d288ea8f4d3
+- id: 87c4dd97-f6da-4fe7-8b03-f31019b907a4
+  channel: email
+  name: TRG_EM_2026_02_BW_D_Abandon_Browse_T3_V3
+  subject: We Like Your Style
+  preheader: And we saved your cart.
+  step_id: e85bc8d4-01f6-4dc8-87af-54d8d2ce1791
+performance_summary:
+  total_entries: 64959
+  total_sends: 7928
+  total_delivered: 7721
+  total_opens: 3124
+  total_clicks: 270
+  open_rate: 0.394
+  click_rate: 0.0341
+  total_revenue: 690203.0
+  total_conversions: 308
+  total_unsubscribes: 37
+  total_bounces: 3
+canvas_steps:
+- id: 9fde952c-e5ca-427c-a294-246674235ce3
+  name: Step 1
+  type: delay
+- id: b814f82c-bfaa-4551-9930-ce376ae9be6c
+  name: Step
+  type: delay
+- id: f6d2f859-0208-47a5-8bfa-23bcc63b4f8d
+  name: Step 3
+  type: delay
+- id: 37a5bf39-3b45-4f40-85b8-5912af4005ea
+  name: SMS Opted In?
+  type: audience_paths
+- id: 722eb7eb-a5ad-449d-b9a0-5753d72b849c
+  name: TRG_SMS_2026_01_BW_Abandon_Browse_T5_V1
+  type: message
+- id: bbe9507f-825d-4413-8825-0512e55f0bfe
+  name: Step 4
+  type: delay
+- id: 1c3740dd-b7b5-4692-a271-ce5d14b95c52
+  name: TRG_SMS_2026_01_BW_Abandon_Browse_T2_V1
+  type: message
+- id: a151b501-93f0-4b44-97f9-b91677398244
+  name: Step 5
+  type: delay
+- id: 764e49f2-9b10-4794-ac24-da925c128a03
+  name: TRG_EM_2026_02_BW_D_Abandon_Browse_T3_V3
+  type: message
+  channel: email
+  subject: Choosing furniture takes time
+  preheader: We’ll keep things simple when you come back.
+- id: d6228f60-1895-40a6-8c6a-2d288ea8f4d3
+  name: TRG_EM_2026_02_BW_D_Abandon_Browse_T1_V3
+  type: message
+  channel: email
+  subject: Still thinking it over?
+  preheader: Your picks are right where you left them.
+- id: e85bc8d4-01f6-4dc8-87af-54d8d2ce1791
+  name: TRG_EM_2026_02_BW_D_Abandon_Browse_T3_V3
+  type: message
+  channel: email
+  subject: We Like Your Style
+  preheader: And we saved your cart.
+- id: ce1b9338-9441-4ec7-b7be-3cb82dbed39e
+  name: Email available?
+  type: audience_paths
+- id: c342ba51-d1b7-4e43-bf15-a2d343beb8ba
+  name: Email available? 1
+  type: audience_paths
+- id: e5940204-a598-4ab5-b006-43b5cbcabca5
+  name: SMS Opted In?
+  type: audience_paths
+_filename: abandon-browse-multi-product.yaml

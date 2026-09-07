@@ -1,0 +1,35 @@
+id: f8b3feda-6747-4689-b9b7-a1f8fd103ebd
+name: P_2025_05_13_PT_CZ_Memorial_Day_EA_Announcement_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: product_launch
+theme: null
+braze_id: f8b3feda-6747-4689-b9b7-a1f8fd103ebd
+dates:
+  send_date: '2025-05-13'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-13T08:18:14+00:00'
+  last_sent: '2025-05-13T17:02:33+00:00'
+tags: []
+sends:
+- id: 81fda22f-b312-4c08-8730-e0ff743be606
+  channel: email
+  name: Variant 1
+  subject: 'VIP Early Access: 20% Off Sitewide Starts Now'
+  html_file: html/p_2025_05_13_pt_cz_memorial_day_ea_announcement_email.html
+  screenshot: screenshots/p_2025_05_13_pt_cz_memorial_day_ea_announcement_email.png
+- id: 5316f014-82f1-4212-a00e-7343ea9af21f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 85825
+  total_delivered: 85566
+  total_opens: 51779
+  total_clicks: 990
+  open_rate: 0.6033
+  click_rate: 0.0115
+  total_revenue: 136813.32
+  total_unsubscribes: 145
+_filename: p_2025_05_13_pt_cz_memorial_day_ea_announcement_email.yaml
+schedule_type: time_based

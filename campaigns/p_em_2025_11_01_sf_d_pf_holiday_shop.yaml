@@ -1,0 +1,60 @@
+id: c1ce9582-53a0-41c0-8ad1-8a5eab90507c
+name: P_EM_2025_11_01_SF_D_PF_Holiday_Shop
+brand: STF
+channel: email
+category: other
+type: seasonal
+theme: christmas
+braze_id: c1ce9582-53a0-41c0-8ad1-8a5eab90507c
+dates:
+  send_date: '2025-11-01'
+  inferred_send_type: local_time
+  first_sent: '2025-10-31T18:17:54+00:00'
+  last_sent: '2025-11-01T17:01:24+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- holidayshop
+sends:
+- id: e1000959-08f4-4d7d-b6a4-cb4277a3b9cf
+  channel: email
+  name: Variant 1
+  subject: Unwrap Your Holiday Style
+  preheader: holiday decor in bold prints
+  html_file: html/p_em_2025_11_01_sf_d_pf_holiday_shop.html
+  screenshot: screenshots/p_em_2025_11_01_sf_d_pf_holiday_shop.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68f8040586be6400632d1d3c/original.jpg?1761084421
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68f803ffe0d5c40063f1c19c/original.jpg?1761084415
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68f80414e9c94c00732aceee/original.jpg?1761084436
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6904e2e8f2b2f60064fc662e/original.png?1761927911
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68f8040fec5824007402d1a3/original.jpg?1761084430
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68f803c5e0d5c40063f1be1c/original.jpg?1761084357
+- id: 15570868-6d7e-45ee-9aec-af405633ef12
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39756
+  total_delivered: 39423
+  total_opens: 17883
+  total_clicks: 178
+  open_rate: 0.4498
+  click_rate: 0.0045
+  total_bounces: 4
+  total_unsubscribes: 50
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.055770'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.056076'
+schedule_type: time_based

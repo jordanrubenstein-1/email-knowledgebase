@@ -1,0 +1,61 @@
+id: d1770651-e9fc-4091-8ffb-8aca96dc2894
+name: P_EM_2025_11_03_CZ_TRADE_Upholstery_Swatch_Push
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: d1770651-e9fc-4091-8ffb-8aca96dc2894
+dates:
+  send_date: '2025-11-03'
+  inferred_send_type: local_time
+  first_sent: '2025-11-03T01:13:55+00:00'
+  last_sent: '2025-11-03T19:01:06+00:00'
+tags: []
+sends:
+- id: d3b67213-7b60-4cdb-92d1-1976605360cf
+  channel: email
+  name: Variant 1
+  subject: 5 Citizenry Swatches On Us
+  preheader: Get a head start on major savings (coming soon)...
+- id: 09ceb192-541f-41a8-9826-62e3c4d360df
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 19889
+  total_delivered: 19328
+  total_opens: 9590
+  total_clicks: 135
+  open_rate: 0.4822
+  click_rate: 0.0068
+  total_revenue: 63924.99
+  total_bounces: 3
+  total_unsubscribes: 45
+  ga4:
+    sessions: 114
+    purchases: 4
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.445253'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-winback-campaign-2025-10-30
+    name: Winback Campaign
+    start_date: '2025-10-30'
+    end_date: '2025-11-03'
+    discount: 20% off via code
+    type: null
+  primary_sale:
+    id: cz-winback-campaign-2025-10-30
+    name: Winback Campaign
+    start_date: '2025-10-30'
+    end_date: '2025-11-03'
+    discount: 20% off via code
+    type: null
+  sale_name: Winback Campaign
+  sale_discount: 20% off via code
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:30.986398'

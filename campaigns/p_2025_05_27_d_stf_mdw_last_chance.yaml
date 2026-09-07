@@ -1,0 +1,57 @@
+id: 290f8cfc-40bf-48df-b1e3-6bb9ab6e4fe6
+name: P_2025_05_27_D_STF_MDW_Last_Chance
+brand: STF
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 290f8cfc-40bf-48df-b1e3-6bb9ab6e4fe6
+dates:
+  send_date: '2025-05-27'
+  inferred_send_type: local_time
+  first_sent: '2025-05-26T18:05:45+00:00'
+  last_sent: '2025-05-27T17:00:38+00:00'
+tags: []
+sends:
+- id: 309d8991-f35b-46f6-883f-eb55244ed55d
+  channel: email
+  name: Variant 1
+  subject: 'ENDING TONIGHT: 30% Off Sitewide'
+  preheader: last chance
+  html_file: html/p_2025_05_27_d_stf_mdw_last_chance.html
+  screenshot: screenshots/p_2025_05_27_d_stf_mdw_last_chance.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830eb7c27b18e00641ad01f/original.png?1748036475
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830eb598f3d7d0066f4c2ca/original.gif?1748036440
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830eb7655a1e700642aa120/original.png?1748036470
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830eb6cf599860066c4d14d/original.png?1748036459
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830eb8555a1e700642aa135/original.png?1748036485
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830eb80f599860066c4d156/original.png?1748036480
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830eb7137c4230064478e50/original.png?1748036464
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830eb8a9f9c36006712e514/original.png?1748036489
+- id: ba3c13fb-202b-4a21-abd2-39b2161d5c09
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 26047
+  total_delivered: 25743
+  total_opens: 12675
+  total_clicks: 217
+  open_rate: 0.4866
+  click_rate: 0.0083
+  total_revenue: 22145.0
+  total_unsubscribes: 56
+  ga4:
+    sessions: 243
+    purchases: 10
+    revenue: 3241.14
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.778110'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.830700'
+schedule_type: time_based

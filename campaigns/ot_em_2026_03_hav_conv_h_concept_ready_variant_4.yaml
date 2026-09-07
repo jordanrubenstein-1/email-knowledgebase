@@ -1,0 +1,23 @@
+id: c3220e24-8b54-4b38-b4f0-ecffbf3b92cb
+name: OT_EM_2026_03_HAV_CONV_H_Concept_Ready_Variant_4
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: c3220e24-8b54-4b38-b4f0-ecffbf3b92cb
+dates: {}
+tags: []
+sends:
+- id: 2a9a4f57-9721-4e91-8b63-150463741a55
+  channel: email
+  name: Control Group
+- id: c80e997d-1b70-4dfb-99ff-9616a6c8425d
+  channel: email
+  name: Variant 3
+  subject: Your design concept is ready to review
+  preheader: 'Hi {{${first_name} | default: ''there''}}, Your designer has shared
+    your first design concept — it''s ready to view in your project.'
+performance_summary: {}
+schedule_type: api_triggered
+_filename: ot_em_2026_03_hav_conv_h_concept_ready_variant_4.yaml

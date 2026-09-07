@@ -1,0 +1,48 @@
+id: d6daca27-e64e-4b25-aef4-32e9574b6e5b
+name: SEG_2025_03_30_D_HAV_CONV_Cart_Abandon_Birthday_Sale
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: d6daca27-e64e-4b25-aef4-32e9574b6e5b
+dates:
+  send_date: '2025-03-30'
+  inferred_send_type: local_time
+  first_sent: '2025-03-29T21:23:37+00:00'
+  last_sent: '2025-03-30T21:15:07+00:00'
+tags: []
+sends:
+- id: 9c4ac9b9-cef0-4c71-9b9f-e947f810ce77
+  channel: email
+  name: Variant 1
+  subject: Items In Your Design Are Up To 20% Off
+  preheader: Shop the lowest prices on your favorite brands.
+  html_file: html/seg_2025_03_30_d_hav_conv_cart_abandon_birthday_sale.html
+  screenshot: screenshots/seg_2025_03_30_d_hav_conv_cart_abandon_birthday_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e5b00c2ce82400651d291c/original.gif?1743106060
+- id: 929eea4d-eb75-46cd-aec3-e17cb558db9a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1484
+  total_delivered: 1470
+  total_opens: 814
+  total_clicks: 45
+  open_rate: 0.5485
+  click_rate: 0.0303
+  total_unsubscribes: 2
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.345739'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.723211'
+schedule_type: time_based

@@ -1,0 +1,38 @@
+id: bf0e169c-8555-4fbe-8e3d-7f38bd2fe3dd
+name: P_SMS_2026_01_08_BW_Sleeper
+brand: BUR
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: bf0e169c-8555-4fbe-8e3d-7f38bd2fe3dd
+dates:
+  send_date: '2026-01-08'
+  inferred_send_type: local_time
+  first_sent: '2026-01-08T01:05:04+00:00'
+  last_sent: '2026-01-09T01:01:00+00:00'
+tags: []
+sends:
+- id: dd866a24-2b22-476b-9e1b-dc79ef9c075f
+  channel: sms
+  name: Variant 1
+- id: 51b4e0a3-aec3-4df4-a1bf-077fa51ce462
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 6512
+  total_delivered: 6407
+  total_opens: 0
+  total_clicks: 537
+  open_rate: 0.0
+  click_rate: 0.0825
+  total_revenue: 5777.0
+  ga4:
+    sessions: 461
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.865233'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

@@ -1,0 +1,38 @@
+id: 58d95727-67a7-4fbb-b9f8-5aa38194e8a1
+name: P_SMS_2025_08_19_CZ_Labor_Day_Announcement
+brand: CZ
+channel: sms
+category: sale_promo
+type: product_launch
+theme: null
+braze_id: 58d95727-67a7-4fbb-b9f8-5aa38194e8a1
+dates:
+  send_date: '2025-08-19'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-19T21:10:42+00:00'
+  last_sent: '2025-08-19T21:12:17+00:00'
+tags: []
+sends:
+- id: 22c21bd4-7721-4525-ba3b-1d2b4d6cf3f6
+  channel: sms
+  name: Variant 1
+- id: cd219884-6c0f-4c19-b782-6671d3c20cd4
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 23099
+  total_delivered: 22734
+  total_opens: 0
+  total_clicks: 386
+  open_rate: 0.0
+  click_rate: 0.0167
+  total_revenue: 10846.79
+  ga4:
+    sessions: 393
+    purchases: 2
+    revenue: 721.34
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.478742'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

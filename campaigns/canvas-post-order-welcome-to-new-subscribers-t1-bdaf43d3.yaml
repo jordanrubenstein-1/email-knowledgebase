@@ -1,0 +1,42 @@
+id: bdaf43d3-6fe6-4ac5-8676-303894395cd3
+name: TRG_EM_2024_11_BW_D_Welcome_New_Purchaser_T1_V1
+brand: BUR
+channel: email
+category: product_launch
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: bfd26abe-5df3-412a-9a94-fc8d62a227c5
+canvas_name: Post Order Welcome to New Subscribers
+flow_type: welcome_series
+sequence_position: 1
+subject: Welcome to Burrow!
+preheader: You're in.
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-10-31T02:00:00Z'
+  last_sent: '2025-12-13T14:00:00Z'
+performance_summary:
+  total_sends: 1040
+  total_delivered: 1029
+  total_opens: 797
+  total_clicks: 102
+  open_rate: 0.7663
+  click_rate: 0.0981
+  total_unsubscribes: 47
+  total_bounces: 6
+  total_revenue: 13879.0
+  ga4:
+    sessions: 206
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 14
+    last_synced: '2026-02-06T16:28:53.217925'
+    source: snowflake
+    channel: email
+sends:
+- id: bdaf43d3-6fe6-4ac5-8676-303894395cd3
+  channel: email
+  name: TRG_EM_2024_11_BW_D_Welcome_New_Purchaser_T1_V1
+  subject: Welcome to Burrow!
+  preheader: You're in.
+  html_file: html/canvas-post-order-welcome-to-new-subscribers-archived-december-2025-t1-bdaf43d3.html

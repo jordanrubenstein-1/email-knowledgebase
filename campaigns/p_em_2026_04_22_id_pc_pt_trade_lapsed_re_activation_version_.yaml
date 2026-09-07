@@ -1,0 +1,35 @@
+id: 38f4f55a-3076-4125-bc82-3f610b047cf9
+name: P_EM_2026_04_22_ID_PC_PT_Trade_Lapsed_Re_Activation_Version_B _Treatment_Reminder
+  1
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 38f4f55a-3076-4125-bc82-3f610b047cf9
+dates:
+  send_date: '2026-04-22'
+  first_sent: '2026-04-22T02:38:47+00:00'
+  last_sent: '2026-04-22'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 41e1c1eb-625f-42f8-bb75-8b60579aa64f
+  channel: email
+  name: Variant 1
+  subject: Don't miss your exclusive Interior Define offer
+  preheader: Your 35% off code is still waiting for you.
+- id: ef02c08e-3db1-4e44-89a1-ab1c371da522
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 1382
+  total_delivered: 1363
+  total_opens: 643
+  total_clicks: 12
+  open_rate: 0.4653
+  click_rate: 0.0087
+  total_revenue: 6830.0
+  total_unsubscribes: 2
+_filename: p_em_2026_04_22_id_pc_pt_trade_lapsed_re_activation_version_.yaml
+schedule_type: time_based

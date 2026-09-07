@@ -1,0 +1,78 @@
+id: klaviyo-RHjnpd
+name: Memorial Day Sale Reminder
+brand: TI
+channel: email
+category: reminder
+type: sale
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2022-05-24'
+  inferred_send_type: scheduled
+  first_sent: '2022-05-27T15:00:00+00:00'
+  last_sent: '2022-05-27T15:00:00+00:00'
+sends:
+- id: UC7A98
+  channel: email
+  name: Memorial Day Sale Reminder Variation A
+  subject: Claim up to 20% off.
+  preheader: Shop custom furniture, on sale now.
+  html_file: html/memorial-day-sale-reminder.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/e6965cf3-0cba-42df-92d2-bf8e3fa7fd67.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/cbf2f351-e63d-4c84-9184-00630e06f3c1.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/cc32de4b-c73a-4e7e-b1d6-8dda4b85b1d4.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/20443f61-4240-4625-9712-2d7055446548.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/9ca95d54-3e2a-424c-bcea-f1ce9802fa55.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/064365fc-fd1a-4c06-a73a-24199f09400f.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/2bddf4db-2066-4880-849c-4e45c2ca5e78.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/6bc5c58d-7416-4737-bdee-81753326f0f3.gif
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/c731b8ea-1064-4edf-acf2-581eaaf73c01.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/c6e66da8-9dfd-44f5-a56b-a9eb1df5b6fc.jpeg
+  screenshot: screenshots/memorial-day-sale-reminder.png
+- id: X3ywge
+  channel: email
+  name: Memorial Day Sale Reminder Variation B
+  subject: 'Don''t forget: up to 20% off.'
+  preheader: 'Shop custom furniture, on sale now. '
+  html_file: html/memorial-day-sale-reminder.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/6bc5c58d-7416-4737-bdee-81753326f0f3.gif
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/cbf2f351-e63d-4c84-9184-00630e06f3c1.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/20443f61-4240-4625-9712-2d7055446548.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/c731b8ea-1064-4edf-acf2-581eaaf73c01.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/c6e66da8-9dfd-44f5-a56b-a9eb1df5b6fc.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/e6965cf3-0cba-42df-92d2-bf8e3fa7fd67.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/9ca95d54-3e2a-424c-bcea-f1ce9802fa55.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/2bddf4db-2066-4880-849c-4e45c2ca5e78.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/9eadeabe-1260-49e7-917b-0a7f876501f8.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/2e5b4e28-3a6f-4a47-9a4f-3836e87b3f94.png
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_unsubscribes: 0
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T14:56:52.296112'
+    source: snowflake
+    channel: email
+klaviyo_type: campaign
+klaviyo_campaign_id: RHjnpd
+klaviyo_message_id: UC7A98
+structure:
+  image_count: 13
+  link_count: 14
+  has_gif: true
+  hero_width: 600
+  layout_type: product_grid
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-03-12T11:18:47.835003'

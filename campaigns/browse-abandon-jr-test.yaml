@@ -1,0 +1,85 @@
+id: 7a0b3741-1541-4f67-b013-bfa88886c99d
+name: Browse Abandon - JR Test
+brand: ID
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: 7a0b3741-1541-4f67-b013-bfa88886c99d
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-04-19T00:00:00+00:00'
+  last_sent: '2026-05-24T20:00:00+00:00'
+tags: []
+sends:
+- id: a0241205-8fe4-4a75-afeb-ed5821fcbd82
+  channel: email
+  name: TRG_EM_2025_08_ID_D_Product_Browse_Abandon_T1_V2
+  subject: test Ready to make it yours?
+  preheader: You were eyeing it…
+  step_id: 6145f304-9978-4943-86f3-7d67c2fd52c2
+- id: c6d88fd4-a66f-4d89-a769-9235ec79dcba
+  channel: email
+  name: TRG_EM_2025_08_ID_D_Product_Browse_Abandon_T2_V2
+  subject: Your next move?
+  preheader: Add it to your cart
+  step_id: 77bc76cf-96a1-49f4-8a81-782bae32e786
+- id: ec81ac3d-341a-4bcd-9344-83143311cf99
+  channel: email
+  name: TRG_EM_2025_08_ID_D_Product_Browse_Abandon_T3_V2
+  subject: 'From browsing to building: let’s go'
+  preheader: Get started on your own or use our free design services
+  step_id: 09acb605-66c3-4842-b905-ccff0b6329a6
+- id: d44df89e-d954-4564-84a5-2bb55cb643a8
+  channel: email
+  name: TRG_EM_2025_08_ID_D_Product_Browse_Abandon_T4_V2
+  subject: Every fabric, every detail - exactly how you want it
+  preheader: Let’s finish what you started
+  step_id: 8400e055-48f5-4f13-952c-1d29d65a9b14
+performance_summary: {}
+canvas_steps:
+- id: f2389027-34da-4e9a-ae55-5bc45bd4fb81
+  name: Step 2
+  type: user_update
+- id: 6145f304-9978-4943-86f3-7d67c2fd52c2
+  name: TRG_EM_2025_08_ID_D_Product_Browse_Abandon_T1_V2
+  type: message
+  channel: email
+  subject: test Ready to make it yours?
+  preheader: You were eyeing it…
+- id: 77bc76cf-96a1-49f4-8a81-782bae32e786
+  name: TRG_EM_2025_08_ID_D_Product_Browse_Abandon_T2_V2
+  type: message
+  channel: email
+  subject: Your next move?
+  preheader: Add it to your cart
+- id: 09acb605-66c3-4842-b905-ccff0b6329a6
+  name: TRG_EM_2025_08_ID_D_Product_Browse_Abandon_T3_V2
+  type: message
+  channel: email
+  subject: 'From browsing to building: let’s go'
+  preheader: Get started on your own or use our free design services
+- id: 8400e055-48f5-4f13-952c-1d29d65a9b14
+  name: TRG_EM_2025_08_ID_D_Product_Browse_Abandon_T4_V2
+  type: message
+  channel: email
+  subject: Every fabric, every detail - exactly how you want it
+  preheader: Let’s finish what you started
+- id: 7f83c32d-0e54-457c-a1c2-9f392f9218e6
+  name: Step 5
+  type: delay
+- id: b6e9454e-06c4-4459-ac79-8fb001432c38
+  name: Step 4
+  type: delay
+- id: 891844b5-ee3f-46c7-8d21-5e02773e2902
+  name: Step 6
+  type: delay
+- id: d8135c9a-62ba-4686-95d2-f105507a32f9
+  name: Step 3
+  type: action_paths
+- id: 2706d204-f9df-4a80-b8b1-0a30ba283b8d
+  name: Email available?
+  type: audience_paths
+_filename: browse-abandon-jr-test.yaml

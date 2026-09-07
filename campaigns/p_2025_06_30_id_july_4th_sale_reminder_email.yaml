@@ -1,0 +1,46 @@
+id: 522a900a-e1e9-4dd3-a21a-4b9a37374328
+name: P_2025_06_30_ID_July_4th_Sale_Reminder_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 522a900a-e1e9-4dd3-a21a-4b9a37374328
+dates:
+  send_date: '2025-06-30'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-30T05:53:56+00:00'
+  last_sent: '2025-06-30T17:16:00+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 7e2e6a10-d442-4849-af1f-802e1d11e76c
+  channel: email
+  name: Variant 1
+  subject: July 4th Plans? Shopping This Sale
+  preheader: Up to 25% off ends soon.
+- id: 65b2cc18-0bc3-4dd4-8c24-ccba804ea8d8
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 193550
+  total_delivered: 191352
+  total_opens: 86205
+  total_clicks: 837
+  open_rate: 0.4454
+  click_rate: 0.0043
+  total_revenue: 232107.0
+  total_unsubscribes: 445
+  ga4:
+    sessions: 775
+    purchases: 5
+    revenue: 10202.2
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.279643'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.547492'
+schedule_type: time_based

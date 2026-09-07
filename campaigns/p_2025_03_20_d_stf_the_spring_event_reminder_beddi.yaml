@@ -1,0 +1,58 @@
+id: 061c7a6d-2d08-4913-b1e8-cd31ac541954
+name: P_2025_03_20_D_STF_The_Spring_Event_Reminder_Bedding
+brand: STF
+channel: email
+category: reminder
+type: seasonal
+theme: spring
+braze_id: 061c7a6d-2d08-4913-b1e8-cd31ac541954
+dates:
+  send_date: '2025-03-20'
+  inferred_send_type: scheduled
+  first_sent: '2025-03-20T02:22:04+00:00'
+  last_sent: '2025-03-20T17:00:40+00:00'
+tags: []
+sends:
+- id: ca826aac-873e-490a-92c2-9b0c47ce7d61
+  channel: email
+  name: Variant 1
+  subject: Bedding of your dreams now 20% off
+  preheader: don’t hit snooze on this offer
+  html_file: html/p_2025_03_20_d_stf_the_spring_event_reminder_bedding.html
+  screenshot: screenshots/p_2025_03_20_d_stf_the_spring_event_reminder_bedding.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67db34ec0ac6c20065195e8b/original.png?1742419179
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67db350ad48c0f0066d4f8f5/original.png?1742419210
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67db35520ac6c20065195fb7/original.png?1742419281
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67db3526fced240065d99cf7/original.png?1742419237
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67db34fb5d45c80065842863/original.png?1742419194
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67db353d5b86e30065ab3e6b/original.png?1742419261
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67db3557354c590065f8e214/original.png?1742419287
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67db354ced7b5d00759eb9de/original.png?1742419275
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67db35455b86e30075ab3539/original.png?1742419268
+- id: 16a87a51-2ba4-4191-a5a4-d852deecb488
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 11146
+  total_delivered: 11033
+  total_opens: 6568
+  total_clicks: 157
+  open_rate: 0.5893
+  click_rate: 0.0141
+  total_revenue: 7583.0
+  total_unsubscribes: 30
+  ga4:
+    sessions: 197
+    purchases: 2
+    revenue: 622.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.707211'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.693145'
+schedule_type: time_based

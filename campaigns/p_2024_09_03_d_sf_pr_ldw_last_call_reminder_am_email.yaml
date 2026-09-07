@@ -1,0 +1,48 @@
+id: ef47a35d-9adc-499d-848b-5253e9813fdf
+name: P_2024_09_03_D_SF_PR_LDW_Last_Call_Reminder_AM_Email
+brand: STF
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: ef47a35d-9adc-499d-848b-5253e9813fdf
+dates:
+  send_date: '2024-09-03'
+  inferred_send_type: local_time
+  first_sent: '2024-09-02T18:00:02+00:00'
+  last_sent: '2024-09-03T14:00:32+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: c0a22a3b-445c-4cce-a24d-141bddf29df8
+  channel: email
+  name: Variant 1
+  subject: 'LAST CALL: 20% OFF'
+  preheader: our Labor Day Event ends tonight!
+  html_file: html/p_2024_09_03_d_sf_pr_ldw_last_call_reminder_am_email.html
+  screenshot: screenshots/p_2024_09_03_d_sf_pr_ldw_last_call_reminder_am_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf6879e3d3fb0075146063/original.gif?1724868729
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0058f1ba77/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf6879eb75e70065fedcf7/original.jpg?1724868729
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf6879314d480080cc061d/original.jpg?1724868729
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf65a3397d3100811f717f/original.gif?1724868003
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf65a3eb75e70083fed19d/original.gif?1724868003
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0063f11fb6/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf6879314d480063cc0b81/original.gif?1724868729
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d205d15102130064f9be5b/original.gif?1725040081
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf6879b450e30064f19e49/original.gif?1724868729
+- id: afcc6436-45d6-4545-aba1-f72a1f78dad9
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 7844
+  total_delivered: 7636
+  total_opens: 3026
+  total_clicks: 490
+  open_rate: 0.3858
+  click_rate: 0.0625
+  total_revenue: 7860.1
+  total_unsubscribes: 13
+_filename: p_2024_09_03_d_sf_pr_ldw_last_call_reminder_am_email.yaml
+schedule_type: time_based

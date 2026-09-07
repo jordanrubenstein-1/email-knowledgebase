@@ -1,0 +1,38 @@
+id: 2a7246c0-5279-4e06-a7a9-c4839fcf6a07
+name: P_2025_07_31_CZ_The_Bedroom_Event_Last_Chance_SMS
+brand: CZ
+channel: sms
+category: reminder
+type: announcement
+theme: null
+braze_id: 2a7246c0-5279-4e06-a7a9-c4839fcf6a07
+dates:
+  send_date: '2025-07-31'
+  inferred_send_type: local_time
+  first_sent: '2025-07-31T01:17:39+00:00'
+  last_sent: '2025-08-01T00:10:06+00:00'
+tags: []
+sends:
+- id: d1295707-1472-4c4c-b822-bc530dd077a5
+  channel: other
+  name: Variant 1
+- id: fafebb08-fa91-4d50-9f94-5f0149f7a76c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 23323
+  total_delivered: 22967
+  total_opens: 0
+  total_clicks: 347
+  open_rate: 0.0
+  click_rate: 0.0149
+  total_revenue: 2365.09
+  ga4:
+    sessions: 317
+    purchases: 4
+    revenue: 607.07
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.320783'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

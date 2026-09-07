@@ -1,0 +1,32 @@
+id: 3b8b760c-f958-4e6c-8d97-c68fea59404c
+name: TRG_EM_2024_08_ID_D_Welcome_Sofa_Spotlight_T3_V 2
+brand: ID
+channel: email
+category: editorial
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 7630907f-cf55-432f-ad28-70531a271c87
+canvas_name: Welcome Series - August 2024
+flow_type: welcome_series
+sequence_position: 3
+subject: 'Sofa spotlight: 3 best sellers on sale now. '
+preheader: 'Completely customizable and at a great price for a limited time. '
+sends:
+- id: 3b8b760c-f958-4e6c-8d97-c68fea59404c
+  channel: email
+  name: TRG_EM_2024_08_ID_D_Welcome_Sofa_Spotlight_T3_V 2
+  subject: 'Sofa spotlight: 3 best sellers on sale now. '
+  preheader: 'Completely customizable and at a great price for a limited time. '
+  html_file: html/canvas-welcome-series-august-2024-t3-3b8b760c.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-29T03:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 371
+  total_delivered: 367
+  total_opens: 174
+  total_clicks: 10
+  open_rate: 0.469
+  click_rate: 0.027
+  total_unsubscribes: 5

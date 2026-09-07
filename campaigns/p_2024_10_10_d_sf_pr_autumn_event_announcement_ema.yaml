@@ -1,0 +1,60 @@
+id: 60116ab4-2b0c-492d-900b-5a333e0e8eda
+name: P_2024_10_10_D_SF_PR_Autumn_Event_Announcement_Email
+brand: STF
+channel: email
+category: sale_promo
+type: product_launch
+theme: fall
+braze_id: 60116ab4-2b0c-492d-900b-5a333e0e8eda
+dates:
+  send_date: '2024-10-10'
+  inferred_send_type: scheduled
+  first_sent: '2024-10-09T23:19:51+00:00'
+  last_sent: '2024-10-10T14:01:22+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: 60ff91ea-63fc-4a81-bc2c-b5d79891f5ea
+  channel: email
+  name: Variant 1
+  subject: Cozy Up To 25% Off Bedding & Pillows
+  preheader: shop our Autumn Event
+  html_file: html/p_2024_10_10_d_sf_pr_autumn_event_announcement_email.html
+  screenshot: screenshots/p_2024_10_10_d_sf_pr_autumn_event_announcement_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6681bde9255ebf0070d6be26/original.jpeg?1719778792
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6705409f3326f60075cb333b/original.gif?1728397471
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/670540a0ab0d93008173f028/original.jpg?1728397471
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d2072ed7005a83200b/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6705409fab0d93006473f660/original.jpg?1728397471
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668828085d4867005b380d70/original.jpg?1720199176
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66882808c84d43005953de9b/original.jpg?1720199176
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0063f11fb6/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d2cf6ae5005ac74b8b/original.jpg?1720752082
+- id: d566f3e0-5b6e-4501-8e0e-011c91199c40
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 10073
+  total_delivered: 10010
+  total_opens: 3233
+  total_clicks: 231
+  open_rate: 0.321
+  click_rate: 0.0229
+  total_revenue: 4166.25
+  total_bounces: 2
+  total_unsubscribes: 13
+  ga4:
+    sessions: 183
+    purchases: 1
+    revenue: 266.25
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.846848'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:35.995288'
+schedule_type: time_based

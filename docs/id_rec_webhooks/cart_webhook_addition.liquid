@@ -1,0 +1,49 @@
+{% comment %}
+================================================================================
+CART WEBHOOK ADDITION — id_rec_category_l2
+================================================================================
+PURPOSE: Add `id_rec_category_l2` to the existing Cart Viewed webhook output.
+         This attribute is the unified "what to recommend" signal. For cart, it
+         is the L2 category of the highest-value item in the cart (already
+         computed as `top_cat_clean` by the existing webhook logic).
+
+WHERE TO ADD: Paste the Liquid below at the very end of the existing Cart Viewed
+              webhook, immediately before the final closing `}` of the attributes
+              JSON object. The existing webhook already computes `top_cat_clean`
+              (e.g. "Furniture > Sofas") — this addition reads that variable and
+              writes the L2 slice as a new attribute.
+
+EXAMPLE:
+  top_cat_clean = "Furniture > Sofas"       → id_rec_category_l2 = "Sofas"
+  top_cat_clean = "Furniture > Sectionals > Corner Sectionals"
+                                             → id_rec_category_l2 = "Sectionals"
+  top_cat_clean = "Rugs"                    → id_rec_category_l2 = "Rugs"
+
+HOW IT WORKS:
+  Split on " > " and take index [1] (the L2 segment). If there is no " > "
+  (i.e. top_cat_clean is already a bare category like "Rugs"), index [1] is nil,
+  so we default to index [0] (the whole string).
+
+ATTRIBUTE WRITTEN: `id_rec_category_l2` (STRING) on the Braze user profile.
+  This overwrites any previous value — most recent cart event wins automatically.
+  Browse abandon, batch, and post-purchase canvases also write this attribute;
+  the most recently fired canvas's value is always current.
+================================================================================
+{% endcomment %}
+
+{% comment %} ── Extract L2 from top_cat_clean ─────────────────────────────── {% endcomment %}
+{% assign top_cat_parts  = top_cat_clean | split: ' > ' %}
+{% assign top_cat_l2     = top_cat_parts[1] | default: top_cat_parts[0] | default: '' %}
+
+{% comment %}
+  Add the following key–value pair to the existing attributes JSON object,
+  just before the closing brace.  Example of the insertion point:
+
+      "cart_products": {{ cart_products_json }},
+      "id_rec_category_l2": "{{ top_cat_l2 | replace: '"','' }}"   ← ADD THIS
+    }
+  ]
+}
+
+  Note: the replace filter strips any embedded quotes that could break JSON.
+{% endcomment %}

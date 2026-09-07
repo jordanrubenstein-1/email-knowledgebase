@@ -1,0 +1,35 @@
+id: bedcb7c7-bfce-4472-bd24-d87fc20cdb9b
+name: P_2025_03_10_ID_PT_Lapsed_NP_Offer_Last_Chance_Email
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: bedcb7c7-bfce-4472-bd24-d87fc20cdb9b
+dates:
+  send_date: '2025-03-10'
+  inferred_send_type: scheduled
+  first_sent: '2025-03-11T00:04:38+00:00'
+  last_sent: '2025-03-11T00:06:53+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: a4b71bb0-a8ee-4896-9ab3-d60733e9fc43
+  channel: email
+  name: Variant 1
+  subject: 'Expires tomorrow: your exclusive discount code'
+- id: 10a24c8a-e7ec-4713-bdcd-7d92b3e1a154
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 116198
+  total_delivered: 114951
+  total_opens: 29149
+  total_clicks: 419
+  open_rate: 0.2509
+  click_rate: 0.0036
+  total_revenue: 82615.25
+  total_bounces: 2
+  total_unsubscribes: 121
+_filename: p_2025_03_10_id_pt_lapsed_np_offer_last_chance_email.yaml
+schedule_type: time_based

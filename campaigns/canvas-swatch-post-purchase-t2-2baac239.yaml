@@ -1,0 +1,33 @@
+id: 2baac239-b45a-4bb7-8821-8d52b595d78a
+name: TRG_EM_2026_02_BW_D_Swatch_Post_Purchase_T2_V1
+brand: BUR
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: a84d40d3-bd21-4753-a859-04df7ccc06ff
+canvas_name: Swatch Post Purchase
+flow_type: post_purchase
+sequence_position: 2
+subject: Meet The Fabrics
+preheader: Your swatches are fabric engineered for comfort and performance
+sends:
+- id: 2baac239-b45a-4bb7-8821-8d52b595d78a
+  channel: email
+  name: TRG_EM_2026_02_BW_D_Swatch_Post_Purchase_T2_V1
+  subject: Meet The Fabrics
+  preheader: Your swatches are fabric engineered for comfort and performance
+  html_file: html/canvas-swatch-post-purchase-t2-2baac239.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-02-04T03:00:00Z'
+  last_sent: '2026-08-31T11:00:00Z'
+performance_summary:
+  total_sends: 1075
+  total_delivered: 1068
+  total_opens: 536
+  total_clicks: 33
+  open_rate: 0.4986
+  click_rate: 0.0307
+  total_unsubscribes: 12
+  total_revenue: 54042.0

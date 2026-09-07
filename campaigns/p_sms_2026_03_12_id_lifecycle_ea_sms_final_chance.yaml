@@ -1,0 +1,30 @@
+id: 6cf04b73-20fa-46d7-a3ad-5e26763ca1e9
+name: P_SMS_2026_03_12_ID_Lifecycle_EA_SMS_Final_Chance
+brand: ID
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: 6cf04b73-20fa-46d7-a3ad-5e26763ca1e9
+dates:
+  send_date: '2026-03-12'
+  inferred_send_type: local_time
+  first_sent: '2026-03-12T01:05:34+00:00'
+  last_sent: '2026-03-13T01:01:19+00:00'
+tags: []
+sends:
+- id: 8a5c8453-c4e5-4edc-84bb-133ad7ec09ce
+  channel: sms
+  name: Variant 1
+- id: 20894be6-a593-4c58-976b-f0dc78318f8f
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 49703
+  total_delivered: 47664
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 68073.98
+schedule_type: time_based

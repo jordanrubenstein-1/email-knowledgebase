@@ -1,0 +1,52 @@
+id: 4be6bbff-2166-4d4c-b54b-179672287ee6
+name: 072554_SF_B_Pillows_Promo_Email
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 4be6bbff-2166-4d4c-b54b-179672287ee6
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2024-07-25T11:57:32+00:00'
+  last_sent: '2024-07-25T14:15:01+00:00'
+tags:
+- Batch and Blast
+- Batch and Blast/non-promo
+- Batch and Blast/non-promo/Color Story
+sends:
+- id: 743d30be-4602-4ea3-af9f-a4ce4a2680f1
+  channel: email
+  name: Variant 1
+  subject: 'Summer Tent Sale: 20% off Pillows'
+  preheader: use code PILLOWTALK24
+  html_file: html/072554_sf_b_pillows_promo_email.html
+  screenshot: screenshots/072554_sf_b_pillows_promo_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a12da40be263005dce9bd9/original.gif?1721839012
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a11d4f2443540059ac8093/original.gif?1721834831
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0058f1ba77/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a12fa6cbaf99006d32eea3/original.gif?1721839526
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a12da4ca5838007a66d116/original.gif?1721839012
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a12da4f1b181005dd05f3e/original.jpg?1721839012
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0063f11fb6/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a11d502443540059ac8094/original.gif?1721834831
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6681bde9255ebf0070d6be26/original.jpeg?1719778792
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a12da4f1b181007bd02fc8/original.gif?1721839012
+- id: 65a00194-7c13-40b6-a4f0-147722283000
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 47
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.712961'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.971282'
+schedule_type: time_based

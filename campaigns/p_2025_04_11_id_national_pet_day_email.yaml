@@ -1,0 +1,47 @@
+id: 061ed98a-e5ad-4a1a-b66c-7d84d7f837d0
+name: P_2025_04_11_ID_National_Pet_Day_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 061ed98a-e5ad-4a1a-b66c-7d84d7f837d0
+dates:
+  send_date: '2025-04-11'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-11T05:18:06+00:00'
+  last_sent: '2025-04-11T17:15:09+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: d90e6bcc-0bac-4adb-b656-e4ea7ea19bfb
+  channel: email
+  name: Variant 1
+  subject: Pet-Approved Furniture We ❤️
+  preheader: Happy National Pet Day!
+- id: 1930eff1-747c-4d73-8f64-b1105b45e81b
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 151376
+  total_delivered: 149200
+  total_opens: 35099
+  total_clicks: 424
+  open_rate: 0.2319
+  click_rate: 0.0028
+  total_revenue: 137311.0
+  total_bounces: 4
+  total_unsubscribes: 101
+  ga4:
+    sessions: 349
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.649897'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.917820'
+schedule_type: time_based

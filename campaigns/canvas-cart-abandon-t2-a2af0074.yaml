@@ -1,0 +1,33 @@
+id: a2af0074-9973-4455-ba5f-b2ff5851a258
+name: TRG_EM_2025_03_SF_D_Cart_Abandon_New_Customer_T2_V1
+brand: STF
+channel: email
+category: product_launch
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 3a481fde-abf3-46d3-a663-534dc3b69e6d
+canvas_name: Cart Abandon
+flow_type: cart_abandonment
+sequence_position: 2
+subject: '{{content_blocks.${2025Q3_AC_SL_Email2_Promo}}}'
+preheader: it's a great day to shop
+sends:
+- id: a2af0074-9973-4455-ba5f-b2ff5851a258
+  channel: email
+  name: TRG_EM_2025_03_SF_D_Cart_Abandon_New_Customer_T2_V1
+  subject: '{{content_blocks.${2025Q3_AC_SL_Email2_Promo}}}'
+  preheader: it's a great day to shop
+  html_file: html/canvas-cart-abandon-t2-a2af0074.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-07-16T00:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 1403
+  total_delivered: 1398
+  total_opens: 947
+  total_clicks: 76
+  open_rate: 0.675
+  click_rate: 0.0542
+  total_unsubscribes: 13
+  total_revenue: 58601.4

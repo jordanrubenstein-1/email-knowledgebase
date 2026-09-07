@@ -1,0 +1,37 @@
+id: e1b1becb-739c-4f40-9167-b8ee333e1887
+name: Set Subscribed Date Attribute
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: e1b1becb-739c-4f40-9167-b8ee333e1887
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-10-17T12:00:00+00:00'
+  last_sent: '2025-12-13T14:00:00+00:00'
+tags: []
+sends: []
+performance_summary:
+  total_entries: 1086
+  note: Canvas entries found but no email sends in analytics period
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.835384'
+    source: snowflake
+    channel: email
+canvas_steps:
+- id: 439eaca6-f14c-4833-bf17-1c46493ba329
+  name: Update subscribedAt
+  type: user_update
+- id: 847f6003-4104-49ce-a9cd-057cffd5b84e
+  name: Step 1
+  type: delay
+- id: 076bbccc-2e3d-461e-8939-1e413ad85e62
+  name: Previously subscribed?
+  type: audience_paths

@@ -1,0 +1,35 @@
+id: 9f746a36-1377-4e4d-90a4-cea37beea50e
+name: P_EM_2026_01_20_HAV_PC_D_Bedrooms
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 9f746a36-1377-4e4d-90a4-cea37beea50e
+dates:
+  send_date: '2026-01-20'
+  first_sent: '2026-01-19T17:06:20+00:00'
+  last_sent: '2026-01-20T18:00:38+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: c43c452a-4153-408c-bb37-2f90a7065af8
+  channel: email
+  name: Variant 1
+  subject: This One Bedroom Mistake Is Ruining the Vibe
+  preheader: 'Good news: it’s easy to fix and on sale now.'
+- id: cbf66372-cd96-4957-a308-786c5c4262b9
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 257389
+  total_delivered: 256475
+  total_opens: 102908
+  total_clicks: 1649
+  open_rate: 0.3998
+  click_rate: 0.0064
+  total_bounces: 8
+  total_unsubscribes: 524
+schedule_type: time_based
+_filename: p_em_2026_01_20_hav_pc_d_bedrooms.yaml

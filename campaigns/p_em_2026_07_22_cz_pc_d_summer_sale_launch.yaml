@@ -1,0 +1,32 @@
+id: ca1a8f65-0bdd-461c-b626-1f88d468c0a6
+name: P_EM_2026_07_22_CZ_PC_D_Summer_Sale_Launch
+brand: CZ
+channel: email
+category: product_launch
+type: sale
+theme: summer
+braze_id: ca1a8f65-0bdd-461c-b626-1f88d468c0a6
+dates:
+  send_date: '2026-07-22'
+  last_sent: '2026-07-22'
+tags: []
+sends:
+- id: 5b5c8776-c8b2-40c4-afea-55c44ff8508b
+  channel: email
+  name: Variant 1
+  subject: 'NOW OPEN: The Summer Sale'
+  preheader: 20% off sitewide, no code needed.
+- id: c513d285-2ec3-4f02-89ee-857cc95a6b62
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 121116
+  total_delivered: 119933
+  total_opens: 54974
+  total_clicks: 1280
+  open_rate: 0.4539
+  click_rate: 0.0106
+  total_bounces: 12
+  total_unsubscribes: 165
+schedule_type: time_based
+_filename: p_em_2026_07_22_cz_pc_d_summer_sale_launch.yaml

@@ -1,0 +1,60 @@
+id: c36911b0-a7d0-4e2a-aaaf-9d628e914096
+name: P_2024_11_10_D_CZ_PR_Rugs_By_The_Room_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: c36911b0-a7d0-4e2a-aaaf-9d628e914096
+dates:
+  send_date: '2024-11-10'
+  inferred_send_type: local_time
+  first_sent: '2024-11-09T17:06:04+00:00'
+  last_sent: '2024-11-10T17:02:05+00:00'
+tags:
+- batch and blast
+sends:
+- id: 92c2a7e7-8d6d-4d87-b3f0-78da0dd18fc3
+  channel: email
+  name: Variant 1
+  subject: 'Style Edit: Rugs By Room'
+  preheader: Great rooms start with meticulously handwoven rugs.
+  html_file: html/p_2024_11_10_d_cz_pr_rugs_by_the_room_email.html
+  screenshot: screenshots/p_2024_11_10_d_cz_pr_rugs_by_the_room_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6728ed8600a4480073c57f6f/original.jpg?1730735493
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672e27a0e7d8a70066dca59e/original.jpg?1731078048
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672e280745544000838b6c54/original.jpg?1731078150
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672e2721412c300066aee367/original.jpg?1731077921
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6728ed9bb6b199006687a0c8/original.jpg?1730735515
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672e27b6e40dd200669372f5/original.jpg?1731078070
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672e274f7210990066aa54aa/original.jpg?1731077967
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672e27358d4cde0072b86d88/original.jpg?1731077941
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672e281d45544000668b7be4/original.jpg?1731078173
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672e27098d4cde0063b87c11/original.jpg?1731077896
+- id: 4b7eb2d2-512e-45ce-8259-50b582c0ce38
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 91696
+  total_delivered: 91132
+  total_opens: 43768
+  total_clicks: 830
+  open_rate: 0.4773
+  click_rate: 0.0091
+  total_revenue: 212926.52
+  total_bounces: 1
+  total_unsubscribes: 123
+  ga4:
+    sessions: 1272
+    purchases: 6
+    revenue: 5884.87
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.811906'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:35.217442'
+schedule_type: time_based

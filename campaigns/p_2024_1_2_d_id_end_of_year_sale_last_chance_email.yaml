@@ -1,0 +1,66 @@
+id: 07bfd409-8d76-46ff-ae6c-10433c05501b
+name: P_2024_1_2_D_ID_End_of_Year_Sale_Last_Chance_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 07bfd409-8d76-46ff-ae6c-10433c05501b
+dates:
+  send_date: '2024-01-02'
+  inferred_send_type: scheduled
+  first_sent: '2025-01-02T14:15:05+00:00'
+  last_sent: '2025-01-02T14:17:40+00:00'
+tags: []
+sends:
+- id: 7113b31c-d212-4c07-806e-e243ba22cbb9
+  channel: email
+  name: Variant 1
+  subject: 'ENDS TONIGHT: 20% Off Sitewide'
+  preheader: This is (actually) your last chance to save.
+- id: 7f0830df-0804-4f42-89a7-b21133dfedaa
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 93094
+  total_delivered: 92197
+  total_opens: 26172
+  total_clicks: 508
+  open_rate: 0.2811
+  click_rate: 0.0055
+  total_revenue: 212595.23
+  total_bounces: 8
+  total_unsubscribes: 174
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: 25% off sitewide
+    type: null
+  - id: id-end-of-year-sale-extension-2025-01-03
+    name: End of Year Sale (EXTENSION)
+    start_date: '2024-12-26'
+    end_date: '2025-01-06'
+    discount: 25% off sitewide
+    type: null
+  - id: id_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: id-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: 25% off sitewide
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: 25% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:42.669502'
+schedule_type: time_based

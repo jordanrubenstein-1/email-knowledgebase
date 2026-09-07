@@ -1,0 +1,80 @@
+id: d8ddb7d5-822c-4042-b90c-a6a2220f3ede
+name: P_EM_2025_09_18_CZ_D_PR_Bedding_Trigger_Layer_Up
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: d8ddb7d5-822c-4042-b90c-a6a2220f3ede
+dates:
+  send_date: '2025-09-18'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-19T00:19:21+00:00'
+  last_sent: '2025-09-19T00:21:47+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale_feat
+sends:
+- id: 0e80ec89-d33e-4f5a-be68-5b52adf6d2d4
+  channel: email
+  name: Variant 1
+  subject: One Step Closer To You Dream Bedroom
+  preheader: Complete the look with these cozy comforts and shop 20% off.
+  html_file: html/p_em_2025_09_18_cz_d_pr_bedding_trigger_layer_up.html
+  screenshot: screenshots/p_em_2025_09_18_cz_d_pr_bedding_trigger_layer_up.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cb5cd1646fde00657cd199/original.png?1758158032
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cb5e3dcd1fb50075d837cb/original.png?1758158396
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cb5c8e646fde00657cd039/original.png?1758157965
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cb5c95646fde00757cc7e3/original.png?1758157973
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cb5ca07d41c90067aa9a5c/original.png?1758157983
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cb5ceb646fde00657cd295/original.png?1758158059
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cb5ca77ab5b50067e69c82/original.png?1758157991
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cb5c03e0d9090075c174c3/original.png?1758157826
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cb5b8c646fde00657cc56f/original.gif?1758157708
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cb5e1e7d41c90076aa9ba9/original.png?1758158366
+- id: 7986d879-0e07-418c-b9f6-47f437eb01e9
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 9901
+  total_delivered: 9864
+  total_opens: 5600
+  total_clicks: 128
+  open_rate: 0.5656
+  click_rate: 0.0129
+  total_bounces: 4
+  total_unsubscribes: 52
+  ga4:
+    sessions: 115
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.521460'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-bedroom-refresh-sale-2025-09-15
+    name: Bedroom Refresh Sale
+    start_date: '2025-09-15'
+    end_date: '2025-09-22'
+    discount: 20% Off Bedding, Rugs, and Furniture
+    type: null
+  primary_sale:
+    id: cz-bedroom-refresh-sale-2025-09-15
+    name: Bedroom Refresh Sale
+    start_date: '2025-09-15'
+    end_date: '2025-09-22'
+    discount: 20% Off Bedding, Rugs, and Furniture
+    type: null
+  sale_name: Bedroom Refresh Sale
+  sale_discount: 20% Off Bedding, Rugs, and Furniture
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:31.841364'
+schedule_type: time_based

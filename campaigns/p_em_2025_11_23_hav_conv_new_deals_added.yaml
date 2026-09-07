@@ -1,0 +1,35 @@
+id: 4fab86f8-3115-431a-9521-159e48e75435
+name: P_EM_2025_11_23_HAV_CONV_New_Deals_Added
+brand: HAV
+channel: email
+category: product_launch
+type: sale
+theme: null
+braze_id: 4fab86f8-3115-431a-9521-159e48e75435
+dates:
+  send_date: '2025-11-23'
+  first_sent: '2025-11-22T19:24:30+00:00'
+  last_sent: '2025-11-23T19:16:32+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: f723d059-9ebc-4119-9e4d-b255983f827d
+  channel: email
+  name: Variant 1
+  subject: New Deals Dropped
+  preheader: The best furniture deals just got better.
+- id: a1050ebe-6abe-4152-bd39-92e07a439926
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 43511
+  total_delivered: 43473
+  total_opens: 23054
+  total_clicks: 262
+  open_rate: 0.5298
+  click_rate: 0.006
+  total_bounces: 2
+  total_unsubscribes: 52
+schedule_type: time_based
+_filename: p_em_2025_11_23_hav_conv_new_deals_added.yaml

@@ -1,0 +1,39 @@
+id: aaebb958-f7de-4a24-9284-9cccd3e6540e
+name: P_2025_2_17_HAV_PC_PDS_Sale_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: aaebb958-f7de-4a24-9284-9cccd3e6540e
+dates:
+  send_date: '2025-02-17'
+  first_sent: '2025-02-16T17:24:10+00:00'
+  last_sent: '2025-02-17T18:15:05+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: bcd2b29d-869a-44de-afc1-1838930f1bd4
+  channel: email
+  name: Variant 1
+  subject: Presidents Day deals too good to last
+  preheader: Final call for 50% off your next room design.
+- id: b7b6688a-7d9e-4635-afc2-a649c48cdf2e
+  channel: other
+  name: Control Group
+- id: 8cfa5ea0-38ad-4592-9783-e4e3bdbf2aba
+  channel: email
+  name: Variant 2
+  subject: Presidents Day deals too good to last
+  preheader: Final call for 50% off your next room design.
+performance_summary:
+  total_sends: 188076
+  total_delivered: 185004
+  total_opens: 85432
+  total_clicks: 490
+  open_rate: 0.4542
+  click_rate: 0.0026
+  total_bounces: 3
+  total_unsubscribes: 299
+schedule_type: time_based
+_filename: p_2025_2_17_hav_pc_pds_sale_reminder_email.yaml

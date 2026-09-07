@@ -1,0 +1,35 @@
+id: 67c8786b-38e2-404e-ac34-7e647a4c2e65
+name: P_2025_05_23_ID_PT_PM_Seg_QuotedProducts_In_Stock_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 67c8786b-38e2-404e-ac34-7e647a4c2e65
+dates:
+  send_date: '2025-05-23'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-23T21:00:10+00:00'
+  last_sent: '2025-05-23T21:02:02+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 2169f360-8f66-4348-bf95-e7acb960ac4e
+  channel: email
+  name: Variant 1
+  subject: Collections from your quote are back for a limited time (and 25% off)
+- id: 01842110-72fe-45cc-b333-9da261c8079a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 649
+  total_delivered: 645
+  total_opens: 171
+  total_clicks: 11
+  open_rate: 0.2635
+  click_rate: 0.0169
+  total_revenue: 109226.0
+  total_bounces: 2
+  total_unsubscribes: 5
+_filename: p_2025_05_23_id_pt_pm_seg_quotedproducts_in_stock_email.yaml
+schedule_type: time_based

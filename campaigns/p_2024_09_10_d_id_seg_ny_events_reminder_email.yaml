@@ -1,0 +1,44 @@
+id: 98df0164-2883-4f19-9a1a-69d0183b04e3
+name: P_2024_09_10_D_ID_SEG_NY_Events_Reminder_Email
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 98df0164-2883-4f19-9a1a-69d0183b04e3
+dates:
+  send_date: '2024-09-10'
+  inferred_send_type: scheduled
+  first_sent: '2024-09-10T05:20:03+00:00'
+  last_sent: '2024-09-10T14:15:00+00:00'
+tags: []
+sends:
+- id: a8bde9ee-e81b-479a-80ea-81bbe737abea
+  channel: email
+  name: Variant 1
+  subject: FALL OPEN HOUSE
+  preheader: Join us for free weekend events at the Soho Studio
+- id: 0ebd5234-701f-4db7-af8a-237b81fd5970
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 394
+  total_delivered: 394
+  total_opens: 257
+  total_clicks: 7
+  open_rate: 0.6523
+  click_rate: 0.0178
+  total_unsubscribes: 1
+  ga4:
+    sessions: 5
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.963541'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.225356'
+schedule_type: time_based

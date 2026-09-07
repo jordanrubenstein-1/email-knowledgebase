@@ -1,0 +1,73 @@
+id: 90ba6817-48c8-40f4-aced-19696d9c9c95
+name: P_EM_2025_08_09_BW_D_Leather_Highlight
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 90ba6817-48c8-40f4-aced-19696d9c9c95
+dates:
+  send_date: '2025-08-09'
+  inferred_send_type: local_time
+  first_sent: '2025-08-08T22:23:33+00:00'
+  last_sent: '2025-08-09T17:15:23+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: ad08373e-15ea-4c69-af67-e39850376c4f
+  channel: email
+  name: Variant 1
+  subject: Better in leather
+  preheader: Elevate your everyday with leather styles now 20% off
+- id: 90e93312-54c5-4b27-b309-9570fac8ce05
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 245935
+  total_delivered: 245356
+  total_opens: 144090
+  total_clicks: 526
+  open_rate: 0.5859
+  click_rate: 0.0021
+  total_revenue: 50848.0
+  total_bounces: 2
+  total_unsubscribes: 237
+  ga4:
+    sessions: 322
+    purchases: 2
+    revenue: 2241.59
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.765617'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off sitewide
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off sitewide
+    type: null
+  sale_name: The Sunset Sale
+  sale_discount: 20% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:45.403881'
+schedule_type: time_based

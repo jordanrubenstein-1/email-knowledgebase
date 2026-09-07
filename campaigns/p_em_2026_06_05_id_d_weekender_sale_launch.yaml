@@ -1,0 +1,34 @@
+id: ff95e39a-929c-48e8-98de-9c7cb5aa5571
+name: P_EM_2026_06_05_ID_D_Weekender_Sale_Launch
+brand: ID
+channel: email
+category: product_launch
+type: sale
+theme: null
+braze_id: ff95e39a-929c-48e8-98de-9c7cb5aa5571
+dates:
+  send_date: '2026-06-05'
+  last_sent: '2026-06-05'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 6fe1890f-b1b1-419b-a844-816fe5377c5a
+  channel: email
+  name: Variant 1
+  subject: 'The Weekender Sale: 25% off sitewide'
+  preheader: Find your perfect custom piece, this weekend only.
+- id: 6bfddea0-5bad-4360-9894-a96b303e04cd
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 230111
+  total_delivered: 228951
+  total_opens: 92137
+  total_clicks: 611
+  open_rate: 0.4004
+  click_rate: 0.0027
+  total_revenue: 150647.97
+  total_bounces: 9
+  total_unsubscribes: 247
+schedule_type: time_based
+_filename: p_em_2026_06_05_id_d_weekender_sale_launch.yaml

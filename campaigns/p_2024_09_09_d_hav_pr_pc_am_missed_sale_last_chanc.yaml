@@ -1,0 +1,53 @@
+id: b6b63d29-9264-43f7-9eb7-e8a074297584
+name: P_2024_09_09_D_HAV_PR_PC_AM_Missed_Sale_Last_Chance_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: b6b63d29-9264-43f7-9eb7-e8a074297584
+dates:
+  send_date: '2024-09-09'
+  inferred_send_type: local_time
+  first_sent: '2024-09-08T18:15:03+00:00'
+  last_sent: '2024-09-09T17:15:04+00:00'
+tags: []
+sends:
+- id: 48f75840-0dc8-4075-8134-b6dce042d390
+  channel: email
+  name: Variant 1
+  subject: FINAL. CHANCE. 50% off
+  preheader: Checkout before midnight.
+  html_file: html/p_2024_09_09_d_hav_pr_pc_am_missed_sale_last_chance_email.html
+  screenshot: screenshots/p_2024_09_09_d_hav_pr_pc_am_missed_sale_last_chance_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66db1f8dd2922a0065de9eba/original.gif?1725636493
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66db1f986cd4950066a616c8/original.jpg?1725636504
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7b11cfe4c430066f2f461/original.jpg?1724363035
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7b11c384d7e0066fac9ac/original.jpg?1724363035
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d91fb5ff29fe0063e29940/original.jpg?1725505461
+- id: aeadecfe-99dc-49fb-9152-0dd01ae5c948
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 87183
+  total_delivered: 86453
+  total_opens: 45181
+  total_clicks: 496
+  open_rate: 0.5182
+  click_rate: 0.0057
+  total_bounces: 3
+  total_unsubscribes: 354
+  ga4:
+    sessions: 301
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.683869'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.278833'
+schedule_type: time_based

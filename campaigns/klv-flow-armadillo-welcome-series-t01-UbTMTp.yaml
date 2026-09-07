@@ -1,0 +1,56 @@
+id: klaviyo-UbTMTp
+name: ws_email-01
+brand: TE
+channel: email
+category: other
+type: lifecycle
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: SptUnU
+canvas_name: armadillo-welcome-series
+flow_type: welcome_series
+sequence_position: 1
+dates:
+  created: '2024-05-28'
+  inferred_send_type: scheduled
+  first_sent: '2024-05-28'
+  last_sent: '2024-05-28'
+sends:
+- id: UbTMTp
+  channel: email
+  name: Message
+  subject: Thanks for entering our giveaway with Armadillo!
+  preheader: Here's 10% off your first order or consultation.
+  html_file: html/klv-flow-armadillo-welcome-series-t01-UbTMTp.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/dac146b7-7dfc-4851-8cf1-d7978d5e7110.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/69f29d8c-e624-4812-a2f2-efb0411409d8.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/a520d786-8b08-443a-a6cc-d8e74ee70b92.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/7a2476cc-4175-4f73-b29b-5ea0c2eb8863.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/11e02f6e-65d5-446d-bbf7-072ab40b644d.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/02fa7390-d71c-49e8-912f-cf4d89150b8c.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/b03a6be2-a420-4872-a047-5044137632bb.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/bc225a55-b2f5-4c6e-817f-0428aaccefc9.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/78651082-fed2-453b-b53b-87a88135e2d7.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/53ea1445-52b0-42f6-84bf-92eb16ad9639.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: UbTMTp
+structure:
+  image_count: 25
+  link_count: 31
+  has_gif: false
+  hero_width: 100
+  layout_type: product_grid

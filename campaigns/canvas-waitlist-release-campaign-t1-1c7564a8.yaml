@@ -1,0 +1,33 @@
+id: 1c7564a8-4c35-4c2e-a1c8-4094eb404a0e
+name: TRG_EM_2025_04_CZ_D_Waitlist_Release_T1
+brand: CZ
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 19ab3b7b-022f-4dbb-80b3-3b7cad5ce31a
+canvas_name: Waitlist Release Campaign
+flow_type: other_flow
+sequence_position: 1
+subject: 'Waitlist Update: {{ items[0].product_title }}'
+preheader: ''
+sends:
+- id: 1c7564a8-4c35-4c2e-a1c8-4094eb404a0e
+  channel: email
+  name: TRG_EM_2025_04_CZ_D_Waitlist_Release_T1
+  subject: 'Waitlist Update: {{ items[0].product_title }}'
+  preheader: ''
+  html_file: html/canvas-waitlist-release-campaign-t1-1c7564a8.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-16T21:00:00Z'
+  last_sent: '2026-08-30T03:00:00Z'
+performance_summary:
+  total_sends: 20548
+  total_delivered: 20401
+  total_opens: 16157
+  total_clicks: 4991
+  open_rate: 0.7863
+  click_rate: 0.2429
+  total_unsubscribes: 27
+  total_bounces: 2

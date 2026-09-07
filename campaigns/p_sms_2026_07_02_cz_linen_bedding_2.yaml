@@ -1,0 +1,30 @@
+id: c5840d72-f8f6-4a54-8efc-88437cb12546
+name: P_SMS_2026_07_02_CZ_Linen_Bedding_2
+brand: CZ
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: c5840d72-f8f6-4a54-8efc-88437cb12546
+dates:
+  send_date: '2026-07-02'
+  first_sent: '2026-07-02T02:05:57+00:00'
+  last_sent: '2026-07-02T14:00:00+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 0d72a58c-11ed-4ca8-8a0a-e193a729837b
+  channel: sms
+  name: Variant 1
+- id: 48c46a0f-9892-466a-ad94-5bc6b136afb8
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 20889
+  total_delivered: 19040
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+schedule_type: time_based
+_filename: p_sms_2026_07_02_cz_linen_bedding_2.yaml

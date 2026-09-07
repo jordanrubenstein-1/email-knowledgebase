@@ -1,0 +1,33 @@
+id: 49510be9-ff27-464d-8625-9cd6b57a108a
+name: P_EM_2026_07_10_BW_PT_Extension_Reminder
+brand: BUR
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 49510be9-ff27-464d-8625-9cd6b57a108a
+dates:
+  send_date: '2026-07-10'
+  last_sent: '2026-07-10'
+tags:
+- Batch&Blast
+sends:
+- id: 09616880-3bb6-4320-b20d-5b3b5b027335
+  channel: email
+  name: Variant 1
+  subject: Good news. More time to save.
+- id: d104e34b-af49-45c1-bc43-9a48cc8cd8cd
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 228708
+  total_delivered: 226758
+  total_opens: 115370
+  total_clicks: 390
+  open_rate: 0.5044
+  click_rate: 0.0017
+  total_revenue: 106303.0
+  total_bounces: 5
+  total_unsubscribes: 248
+schedule_type: time_based
+_filename: p_em_2026_07_10_bw_pt_extension_reminder.yaml

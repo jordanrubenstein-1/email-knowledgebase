@@ -1,0 +1,58 @@
+id: 37a3b940-3245-4fa7-8715-06603b13c339
+name: P_2025_2_15_D_SF_PR_Sale_Reminder_Gmail
+brand: STF
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 37a3b940-3245-4fa7-8715-06603b13c339
+dates:
+  send_date: '2025-02-15'
+  inferred_send_type: local_time
+  first_sent: '2025-02-14T19:52:24+00:00'
+  last_sent: '2025-02-15T15:45:05+00:00'
+tags: []
+sends:
+- id: 96ba20ea-ba8f-4a4a-9e8c-3a9293b514fd
+  channel: email
+  name: Variant 1
+  subject: 'ICYMI: 20% off sitewide is here'
+  preheader: don’t miss out on shopping our Presidents Day Sale
+  html_file: html/p_2025_2_15_d_sf_pr_sale_reminder_gmail.html
+  screenshot: screenshots/p_2025_2_15_d_sf_pr_sale_reminder_gmail.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af55e3c844330065c8ddb2/original.jpg?1739544035
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af55f243a54e0065edf560/original.jpg?1739544050
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af55c4932b04006760e98f/original.jpg?1739544004
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af55bcc844330065c8dd87/original.jpg?1739543996
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af55b44e18d00065a8c7aa/original.jpg?1739543987
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af55e9275dae00753d4a75/original.jpg?1739544041
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af55858da1ba00651e0fb0/original.jpg?1739543940
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af55d5275dae00853d4a74/original.jpg?1739544021
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af55cd2b74d500667474a8/original.jpg?1739544013
+- id: fef0de6c-cbe5-40c1-9145-f246f678e888
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1048
+  total_delivered: 1047
+  total_opens: 787
+  total_clicks: 36
+  open_rate: 0.751
+  click_rate: 0.0344
+  total_revenue: 1734.0
+  total_unsubscribes: 4
+  ga4:
+    sessions: 61
+    purchases: 2
+    revenue: 515.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.996235'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.876677'
+schedule_type: time_based

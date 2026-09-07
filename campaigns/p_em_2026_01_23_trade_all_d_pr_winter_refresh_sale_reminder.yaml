@@ -1,0 +1,36 @@
+id: 0928739b-649c-4108-a437-3d54b7206cf1
+name: P_EM_2026_01_23_TRADE_ALL_D_PR_Winter_Refresh_Sale_Reminder
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: winter
+braze_id: 0928739b-649c-4108-a437-3d54b7206cf1
+dates:
+  send_date: '2026-01-23'
+  inferred_send_type: local_time
+  first_sent: '2026-01-22T21:18:11+00:00'
+  last_sent: '2026-01-23T19:01:00+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: a236bae3-ee3c-4e20-afab-d876fabe038d
+  channel: email
+  name: Variant 1
+  subject: Last Call for Client Favorites
+  preheader: 'Final hours to shop the Winter Refresh Sale. '
+- id: a7c32ce5-e8ad-4b50-ac16-eabe456dda5e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 19663
+  total_delivered: 18997
+  total_opens: 9158
+  total_clicks: 73
+  open_rate: 0.4657
+  click_rate: 0.0037
+  total_revenue: 70910.0
+  total_bounces: 8
+  total_unsubscribes: 28
+_filename: p_em_2026_01_23_trade_all_d_pr_winter_refresh_sale_reminder.yaml
+schedule_type: time_based

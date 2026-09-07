@@ -1,0 +1,23 @@
+id: 0d1a7ddd-f6f6-4a05-85e4-328ff25573d5
+name: PUSH_CONV_10_02_Dining_Sale
+brand: HAV
+channel: push
+category: sale_promo
+type: sale
+theme: null
+braze_id: 0d1a7ddd-f6f6-4a05-85e4-328ff25573d5
+dates:
+  first_sent: '2025-10-02T01:08:44+00:00'
+  last_sent: '2025-10-03T01:01:16+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: c9bb8464-bfc0-4a31-a61c-f609dd0c882e
+  channel: push
+  name: Variant 1
+- id: 2f1eb015-3fa1-44dd-964a-cfda9c677172
+  channel: push
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: push_conv_10_02_dining_sale.yaml

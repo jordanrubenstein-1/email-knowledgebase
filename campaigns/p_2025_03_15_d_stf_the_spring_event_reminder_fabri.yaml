@@ -1,0 +1,60 @@
+id: dda99216-eb46-4bf3-a37f-4086eb649011
+name: P_2025_03_15_D_STF_The_Spring_Event_Reminder_Fabric
+brand: STF
+channel: email
+category: reminder
+type: seasonal
+theme: spring
+braze_id: dda99216-eb46-4bf3-a37f-4086eb649011
+dates:
+  send_date: '2025-03-15'
+  inferred_send_type: local_time
+  first_sent: '2025-03-14T23:54:15+00:00'
+  last_sent: '2025-03-15T17:00:21+00:00'
+tags: []
+sends:
+- id: 597006de-5873-4eff-8daf-74e42a3c900d
+  channel: email
+  name: Variant 1
+  subject: Play with print now 25% off
+  preheader: 'shop outdoor and washable fabric on sale during our Spring Event
+
+    '
+  html_file: html/p_2025_03_15_d_stf_the_spring_event_reminder_fabric.html
+  screenshot: screenshots/p_2025_03_15_d_stf_the_spring_event_reminder_fabric.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d4a0dde8db3d0064ea0891/original.png?1741988061
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d4a0e64002dc0065a2b3f6/original.png?1741988069
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d4a0f6ca0a7300668b2f71/original.png?1741988086
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d4a1057262440073a7ae6b/original.png?1741988101
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d4a0f07262440064a7b204/original.png?1741988080
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d4a078a7781c00759d627d/original.png?1741987960
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d4a09d28e8cf007559cdcd/original.png?1741987996
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d4a0d32793290064f4cc7b/original.png?1741988050
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d4a0592546df0066b6a6a5/original.png?1741987928
+- id: 171c317e-af55-4b36-8a53-8dad57441974
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 10641
+  total_delivered: 10535
+  total_opens: 6251
+  total_clicks: 190
+  open_rate: 0.5874
+  click_rate: 0.0179
+  total_revenue: 6977.5
+  total_unsubscribes: 34
+  ga4:
+    sessions: 251
+    purchases: 3
+    revenue: 854.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.667216'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.719236'
+schedule_type: time_based

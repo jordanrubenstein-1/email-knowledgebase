@@ -1,0 +1,69 @@
+id: 6f779b9a-7d83-4e1b-9786-8279b1b6b957
+name: P_EM_2025_11_03_PT_CZ_Winback_Promo_Last_Chance_PM
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 6f779b9a-7d83-4e1b-9786-8279b1b6b957
+dates:
+  send_date: '2025-11-03'
+  inferred_send_type: local_time
+  first_sent: '2025-11-03T02:07:16+00:00'
+  last_sent: '2025-11-04T02:03:35+00:00'
+tags:
+- am
+- batch and blast
+- pt
+- sale
+- sale_feat
+sends:
+- id: 21786521-5795-4b92-a3d7-d2d7b12c1ced
+  channel: email
+  name: Variant 1
+  subject: 'Final Hours: Your 20% Off Insider Perk Ends Tonight'
+  html_file: html/p_em_2025_11_03_pt_cz_winback_promo_last_chance_pm.html
+  screenshot: screenshots/p_em_2025_11_03_pt_cz_winback_promo_last_chance_pm.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f83def4631c700674e669c/original.png?1744322031
+- id: 0dcb1b01-88a1-4597-9165-cc46d21be7c0
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 76732
+  total_delivered: 76606
+  total_opens: 40764
+  total_clicks: 323
+  open_rate: 0.5313
+  click_rate: 0.0042
+  total_bounces: 9
+  total_unsubscribes: 63
+  ga4:
+    sessions: 325
+    purchases: 3
+    revenue: 893.6
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.389755'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-winback-campaign-2025-10-30
+    name: Winback Campaign
+    start_date: '2025-10-30'
+    end_date: '2025-11-03'
+    discount: 20% off via code
+    type: null
+  primary_sale:
+    id: cz-winback-campaign-2025-10-30
+    name: Winback Campaign
+    start_date: '2025-10-30'
+    end_date: '2025-11-03'
+    discount: 20% off via code
+    type: null
+  sale_name: Winback Campaign
+  sale_discount: 20% off via code
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:42.212993'
+schedule_type: time_based

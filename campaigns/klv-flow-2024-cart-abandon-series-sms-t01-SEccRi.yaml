@@ -1,0 +1,36 @@
+id: klaviyo-SEccRi
+name: TRG_SMS_2024_01_TI_D_Cart_Abandon_T1_V1
+brand: TI
+channel: sms
+category: other
+type: lifecycle
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: REanGd
+canvas_name: 2024 Cart Abandon Series
+flow_type: cart_abandonment
+sequence_position: 1
+dates:
+  created: '2024-04-25'
+sends:
+- id: SEccRi
+  channel: sms
+  name: SMS
+  body: 'Still thinking it over? We saved the items in your cart for you here: https://www.theinside.com/cart
+
+    '
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: SEccRi

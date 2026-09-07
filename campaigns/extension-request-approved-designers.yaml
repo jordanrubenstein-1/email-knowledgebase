@@ -1,0 +1,31 @@
+id: 8e5a745e-2f98-d740-fa58-cab7057d91a1
+name: Extension Request Approved (Designers)
+brand: HAV
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 8e5a745e-2f98-d740-fa58-cab7057d91a1
+dates:
+  first_sent: '2024-09-24T05:00:00+00:00'
+  last_sent: '2026-06-09T02:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: d99ae030-3f1e-4b5d-a549-1723922f2d75
+  channel: email
+  name: Variant 1
+  subject: Your Extension Request for {{api_trigger_properties.${clientName}}}'s project
+    has been approved
+- id: 768039c5-13df-4a80-9c6b-fadee848f916
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 193
+  total_delivered: 193
+  total_opens: 107
+  total_clicks: 0
+  open_rate: 0.5544
+  click_rate: 0.0
+schedule_type: api_triggered
+_filename: extension-request-approved-designers.yaml

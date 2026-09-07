@@ -1,0 +1,113 @@
+id: 95ea26e4-af1f-4f3c-b7d4-23c6e799c7d2
+name: Cart Abandon test
+brand: CZ
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: 95ea26e4-af1f-4f3c-b7d4-23c6e799c7d2
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2025-11-03T02:00:00+00:00'
+  last_sent: '2025-11-03T05:00:00+00:00'
+tags:
+- cart abandon
+sends:
+- id: b4a2949d-389f-4d43-b550-2017579188b2
+  channel: email
+  name: TRG_EM_2024_08_CZ_D_Cart_Abandon_T3
+  subject: Your cart is waiting...
+  preheader: You are almost there
+  step_id: 7c2aa268-9ae4-4a4d-83f0-2f9257d4677d
+- id: 0b919735-5069-4a7e-bc67-90690c06db37
+  channel: email
+  name: TRG_EM_2024_08_CZ_D_Cart_Abandon_T2
+  subject: We saved your cart
+  preheader: ''
+  step_id: 16b9d58a-4e1a-4dba-928a-e7d702563126
+- id: 84b640df-8bd2-4fa7-a20c-55d6ea3a2831
+  channel: email
+  name: TRG_EM_2024_08_CZ_D_Cart_Abandon_T4
+  subject: Your Cart is Ready
+  preheader: ''
+  step_id: ce1d4722-44f3-4f8a-aa25-1b2a52e5d337
+- id: 282b9b3b-f787-49ca-b9ab-08ee30d8d165
+  channel: email
+  name: TRG_EM_2024_08_CZ_D_Cart_Abandon_T 5
+  subject: We saved your cart
+  preheader: ''
+  step_id: d58ae048-9bee-43e5-854b-0fdc719ff60d
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.376069'
+    source: snowflake
+    channel: email
+canvas_steps:
+- id: 7c2aa268-9ae4-4a4d-83f0-2f9257d4677d
+  name: TRG_EM_2024_08_CZ_D_Cart_Abandon_T3
+  type: message
+  channel: email
+  subject: Your cart is waiting...
+  preheader: You are almost there
+- id: 16b9d58a-4e1a-4dba-928a-e7d702563126
+  name: TRG_EM_2024_08_CZ_D_Cart_Abandon_T2
+  type: message
+  channel: email
+  subject: We saved your cart
+  preheader: ''
+- id: ad937dd9-3a35-480f-a837-44c55bb7cffc
+  name: D1 20 mins
+  type: delay
+- id: a47bfed7-93c8-407b-9c94-e408abf1663f
+  name: D3 1 day
+  type: delay
+- id: ce1d4722-44f3-4f8a-aa25-1b2a52e5d337
+  name: TRG_EM_2024_08_CZ_D_Cart_Abandon_T4
+  type: message
+  channel: email
+  subject: Your Cart is Ready
+  preheader: ''
+- id: a569fdb7-d84e-4b12-bc74-0100490a7692
+  name: Email Subscribed?
+  type: decision_split
+- id: 3335ef85-289c-44e1-8dda-5b53b6c62df2
+  name: D4 1 day
+  type: delay
+- id: bc3c40aa-268f-4451-a523-45de306ac720
+  name: Email Subscribed?
+  type: decision_split
+- id: 68988e17-1b2c-41bb-aea5-984287d45366
+  name: Email Subscribed?
+  type: decision_split
+- id: d58ae048-9bee-43e5-854b-0fdc719ff60d
+  name: TRG_EM_2024_08_CZ_D_Cart_Abandon_T 5
+  type: message
+  channel: email
+  subject: We saved your cart
+  preheader: ''
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-winback-campaign-2025-10-30
+    name: Winback Campaign
+    start_date: '2025-10-30'
+    end_date: '2025-11-03'
+    discount: 20% off via code
+    type: null
+  primary_sale:
+    id: cz-winback-campaign-2025-10-30
+    name: Winback Campaign
+    start_date: '2025-10-30'
+    end_date: '2025-11-03'
+    discount: 20% off via code
+    type: null
+  sale_name: Winback Campaign
+  sale_discount: 20% off via code
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:30.263705'

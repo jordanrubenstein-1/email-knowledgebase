@@ -1,0 +1,58 @@
+id: f5baaeda-769a-4897-a515-d4fc041855e1
+name: P_2025_2_16_D_CZ_PD_GTL_The_Layered_Living_Room
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: f5baaeda-769a-4897-a515-d4fc041855e1
+dates:
+  send_date: '2025-02-16'
+  inferred_send_type: local_time
+  first_sent: '2025-02-15T17:08:04+00:00'
+  last_sent: '2025-02-16T17:01:01+00:00'
+tags: []
+sends:
+- id: 7a5bc58c-d434-497d-8735-b707ca202d69
+  channel: email
+  name: Variant 1
+  subject: 'Style Edit: The Layered Living Room'
+  preheader: Heirloom rugs. Timeless furniture. Artful accents. Up to 20% off.
+  html_file: html/p_2025_2_16_d_cz_pd_gtl_the_layered_living_room.html
+  screenshot: screenshots/p_2025_2_16_d_cz_pd_gtl_the_layered_living_room.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af9d13761d750067891393/original.png?1739562259
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af717dbdebf40066782a85/original.png?1739551100
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af6acb0cdced00661a358f/original.png?1739549385
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af9d0d64ca8c0077e1e587/original.png?1739562253
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af6aef8e136c0076e7c266/original.png?1739549422
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af6b260cdced00661a36e3/original.png?1739549478
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af6f7bf9dfd50064df14c3/original.png?1739550586
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af716b85e3b50072530ecc/original.png?1739551083
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af7176bdebf40066782a6d/original.png?1739551094
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af715cf9dfd50064df1b05/original.png?1739551068
+- id: 01ed30ea-76fa-4424-94ad-6f58aab9736d
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 96619
+  total_delivered: 95892
+  total_opens: 48598
+  total_clicks: 733
+  open_rate: 0.503
+  click_rate: 0.0076
+  total_revenue: 188708.36
+  total_unsubscribes: 119
+  ga4:
+    sessions: 1043
+    purchases: 8
+    revenue: 2890.21
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.482318'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.931549'
+schedule_type: time_based

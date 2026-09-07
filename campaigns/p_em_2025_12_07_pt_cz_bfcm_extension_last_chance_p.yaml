@@ -1,0 +1,54 @@
+id: c1115174-8af1-4b8e-9f34-2c375ddf3a87
+name: P_EM_2025_12_07_PT_CZ_BFCM_Extension_Last_Chance_PM
+brand: CZ
+channel: email
+category: reminder
+type: announcement
+theme: black_friday
+braze_id: c1115174-8af1-4b8e-9f34-2c375ddf3a87
+dates:
+  send_date: '2025-12-07'
+  inferred_send_type: local_time
+  first_sent: '2025-12-07T02:05:48+00:00'
+  last_sent: '2025-12-08T02:01:33+00:00'
+tags:
+- batch and blast
+- pm
+- pt
+- sale
+- sale/bfcm
+- sale_feat
+sends:
+- id: f15faaa9-fc17-42e5-89a7-65df055af81c
+  channel: email
+  name: Variant 1
+  subject: Last chance to shop our best sale ever
+  html_file: html/p_em_2025_12_07_pt_cz_bfcm_extension_last_chance_pm.html
+  screenshot: screenshots/p_em_2025_12_07_pt_cz_bfcm_extension_last_chance_pm.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f83def4631c700674e669c/original.png?1744322031
+- id: 773cc377-e1f4-404b-863a-327a73077c3c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 114906
+  total_delivered: 114676
+  total_opens: 60897
+  total_clicks: 710
+  open_rate: 0.53
+  click_rate: 0.0062
+  total_bounces: 14
+  total_unsubscribes: 161
+  ga4:
+    sessions: 728
+    purchases: 9
+    revenue: 3332.3
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.704451'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.064541'
+schedule_type: time_based

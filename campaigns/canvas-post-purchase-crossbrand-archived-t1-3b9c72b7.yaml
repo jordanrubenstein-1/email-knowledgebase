@@ -1,0 +1,32 @@
+id: 3b9c72b7-4501-45b4-9ccc-133491abe95b
+name: TRG_EM_2026_06_ID_D_Complete_Your_Bedroom_CZ_T1_V1
+brand: ID
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 1d2886cb-b0f0-418e-994e-545d17b5ddc7
+canvas_name: Post Purchase Crossbrand - Archived
+flow_type: post_purchase
+sequence_position: 1
+subject: The rug your feet will thank you for
+preheader: Perfectly paired to your new bed
+sends:
+- id: 3b9c72b7-4501-45b4-9ccc-133491abe95b
+  channel: email
+  name: TRG_EM_2026_06_ID_D_Complete_Your_Bedroom_CZ_T1_V1
+  subject: The rug your feet will thank you for
+  preheader: Perfectly paired to your new bed
+  html_file: html/canvas-post-purchase-crossbrand-archived-t1-3b9c72b7.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-06-01T22:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 134
+  total_delivered: 134
+  total_opens: 80
+  total_clicks: 3
+  open_rate: 0.597
+  click_rate: 0.0224
+  total_unsubscribes: 1

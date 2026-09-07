@@ -1,0 +1,36 @@
+id: 15e423ea-3b99-44c2-94d4-4afe8c082190
+name: P_EM_2026_05_19_SF_D_Memorial_Day_Event_Launch
+brand: STF
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 15e423ea-3b99-44c2-94d4-4afe8c082190
+dates:
+  send_date: '2026-05-19'
+  inferred_send_type: local_time
+  first_sent: '2026-05-18T18:20:48+00:00'
+  last_sent: '2026-05-19T17:15:32+00:00'
+tags:
+- Batch and Blast
+sends:
+- id: 9cac6acb-aab1-438b-920a-95cccbcd651b
+  channel: email
+  name: Variant 1
+  subject: 'NOW LIVE: 20% off sitewide'
+  preheader: The Memorial Day Sale is here for a limited time.
+- id: 120b7b9b-592a-467c-af4b-a027013e70ba
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 36470
+  total_delivered: 36316
+  total_opens: 11575
+  total_clicks: 210
+  open_rate: 0.3174
+  click_rate: 0.0058
+  total_revenue: 15127.19
+  total_bounces: 2
+  total_unsubscribes: 22
+_filename: p_em_2026_05_19_sf_d_memorial_day_event_launch.yaml
+schedule_type: time_based

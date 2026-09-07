@@ -1,0 +1,32 @@
+id: 8d97ed2b-988a-4517-a6f4-b756c55273a2
+name: TRG_SMS_2025_12_BW_Welcome_T1_V1
+brand: BUR
+channel: sms
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 11fceea4-bd32-4397-9a75-4f53253d5a4f
+canvas_name: Welcome Flow - SMS
+flow_type: welcome_series
+sequence_position: 1
+body: 👋 Welcome to Burrow — where we make furniture that just makes sense. Clever,
+  modular, easy to assemble, and designed to grow with you. https://burrow.com/?utm_source=burrow&utm_medium=sms&utm_campaign={{campaign.${name}}}&bzt={{${email_address}
+  | base64_encode | url_param_escape}}
+sends:
+- id: 8d97ed2b-988a-4517-a6f4-b756c55273a2
+  channel: sms
+  name: TRG_SMS_2025_12_BW_Welcome_T1_V1
+  body: 👋 Welcome to Burrow — where we make furniture that just makes sense. Clever,
+    modular, easy to assemble, and designed to grow with you. https://burrow.com/?utm_source=burrow&utm_medium=sms&utm_campaign={{campaign.${name}}}&bzt={{${email_address}
+    | base64_encode | url_param_escape}}
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-11-29T21:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 26258
+  total_delivered: 25250
+  total_clicks: 1803
+  click_rate: 0.0687
+  total_unsubscribes: 661
+  total_bounces: 275

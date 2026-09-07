@@ -1,0 +1,37 @@
+id: 9eeb4447-92ab-49d7-8bc8-0de7d094203a
+name: P_SMS_2026_01_19_CZ_Winter_Retreat_Launch_SMS
+brand: CZ
+channel: sms
+category: product_launch
+type: seasonal
+theme: winter
+braze_id: 9eeb4447-92ab-49d7-8bc8-0de7d094203a
+dates:
+  send_date: '2026-01-19'
+  inferred_send_type: local_time
+  first_sent: '2026-01-19T01:05:38+00:00'
+  last_sent: '2026-01-20T01:05:02+00:00'
+tags: []
+sends:
+- id: 53f8b8b4-99ba-4527-8333-e0f1d204a121
+  channel: sms
+  name: Variant 1
+- id: 30956898-8280-4f1a-a915-ed4a178679d5
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 19475
+  total_delivered: 18638
+  total_opens: 0
+  total_clicks: 151
+  open_rate: 0.0
+  click_rate: 0.0078
+  ga4:
+    sessions: 124
+    purchases: 3
+    revenue: 581.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.993730'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

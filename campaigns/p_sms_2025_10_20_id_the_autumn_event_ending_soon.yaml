@@ -1,0 +1,30 @@
+id: ccd69fa5-dc9a-45f9-a525-3a5ea4acb7dc
+name: P_SMS_2025_10_20_ID_The_Autumn_Event_Ending_Soon
+brand: ID
+channel: sms
+category: reminder
+type: announcement
+theme: fall
+braze_id: ccd69fa5-dc9a-45f9-a525-3a5ea4acb7dc
+dates:
+  send_date: '2025-10-20'
+  inferred_send_type: local_time
+  first_sent: '2025-10-20T01:08:24+00:00'
+  last_sent: '2025-10-21T01:00:26+00:00'
+tags: []
+sends:
+- id: 4ac6ffd2-afa3-4d89-8842-d9658438dcd6
+  channel: sms
+  name: Variant 1
+- id: 8d84de83-f08f-4340-b21f-71b967a129ed
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 51266
+  total_delivered: 49455
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 21610.0
+schedule_type: time_based

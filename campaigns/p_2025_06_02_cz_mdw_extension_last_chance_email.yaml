@@ -1,0 +1,59 @@
+id: c3445eeb-cae0-4635-b77e-95547722770a
+name: P_2025_06_02_CZ_MDW_Extension_Last_Chance_Email
+brand: CZ
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: c3445eeb-cae0-4635-b77e-95547722770a
+dates:
+  send_date: '2025-06-02'
+  inferred_send_type: local_time
+  first_sent: '2025-06-01T18:09:15+00:00'
+  last_sent: '2025-06-02T17:02:56+00:00'
+tags: []
+sends:
+- id: 6090e396-bb89-4920-994b-3b230a047d83
+  channel: email
+  name: Variant 1
+  subject: Last Chance for 20% Off Sitewide
+  preheader: All the fun ends at midnight.
+  html_file: html/p_2025_06_02_cz_mdw_extension_last_chance_email.html
+  screenshot: screenshots/p_2025_06_02_cz_mdw_extension_last_chance_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830c46bc8abe20067e494b4/original.png?1748026475
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830d24c043bcd0065abe7bf/original.png?1748030027
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830d2642b9aed00646330f1/original.png?1748030052
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683721310c7e320065a2cb3d/original.png?1748443440
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830d22256036a0065e7e58f/original.png?1748029986
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68372135348c440076eb7ed7/original.png?1748443445
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6837213b9b6675006663713c/original.png?1748443451
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830c689c8abe20067e4a071/original.png?1748027016
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830d25a56036a0065e7e633/original.png?1748030041
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830d25f043bcd0085abe529/original.png?1748030046
+- id: 9072f139-a534-4ee4-89ce-7f0199734c24
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 100344
+  total_delivered: 99820
+  total_opens: 52642
+  total_clicks: 595
+  open_rate: 0.5246
+  click_rate: 0.0059
+  total_revenue: 62368.06
+  total_bounces: 3
+  total_unsubscribes: 121
+  ga4:
+    sessions: 645
+    purchases: 21
+    revenue: 4843.72
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.530646'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.469817'
+schedule_type: time_based

@@ -1,0 +1,24 @@
+id: 1fa1966e-fe95-46ed-b181-b3ce29670cde
+name: P_EM_2026_05_12_BW_PT_Test_Exclusion_Filter
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 1fa1966e-fe95-46ed-b181-b3ce29670cde
+dates:
+  send_date: '2026-05-12'
+  last_sent: '2026-05-12'
+tags: []
+sends:
+- id: 97b8cbb3-06d8-4f4c-97b2-df9d574bffc3
+  channel: email
+  name: Variant 1
+  subject: '[TEST] Exclusion filter test — do not send'
+  preheader: Verifying Memorial Day Canvas Test Group exclusion filter
+- id: b5025df0-dfea-41ea-b81c-7bc47d7b1d86
+  channel: email
+  name: Control Group
+performance_summary: {}
+_filename: p_em_2026_05_12_bw_pt_test_exclusion_filter.yaml
+schedule_type: time_based

@@ -1,0 +1,70 @@
+id: ef83b335-1339-8d86-850f-e6f34881b7bd
+name: OT_EM_2025_01_HAV_PC_H_Gift_Card_Recipient_Confirmation
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: ef83b335-1339-8d86-850f-e6f34881b7bd
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-09-25T06:00:00+00:00'
+  last_sent: '2025-12-20T15:00:00+00:00'
+tags: []
+sends:
+- id: c7df1ab4-66de-425c-af6a-43acf2b73216
+  channel: email
+  name: Variant 1
+  subject: Someone Special Sent You A Gift!
+  preheader: Your dream home awaits.
+  html_file: html/ot_em_2025_01_hav_pc_h_gift_card_recipient_confirmation.html
+  screenshot: screenshots/ot_em_2025_01_hav_pc_h_gift_card_recipient_confirmation.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676308aaa8c2c60070c30840/original.png?1734543530
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677e8a557d37500063990e31/original.png?1736346196
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676308aa8a2e430064e2955f/original.png?1734543530
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676315f61af62b0064dc5ca2/original.png?1734546933
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676308aaf345110064a4854c/original.png?1734543530
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67630a1f473dec007318315b/original.png?1734543903
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676308aa4b7b6a0066e9486e/original.png?1734543530
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676308aa50a3b80066058f47/original.png?1734543530
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67630a1fd009da0066f7efd2/original.png?1734543903
+- id: 06e4c018-413d-4883-9fad-83b5695b9875
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 29
+  total_delivered: 29
+  total_opens: 30
+  total_clicks: 10
+  open_rate: 1.0345
+  click_rate: 0.3448
+  ga4:
+    sessions: 451
+    purchases: 3
+    revenue: 1042.99
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.635089'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: hav_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: hav_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:42.495121'
+schedule_type: api_triggered

@@ -1,0 +1,59 @@
+id: 4ec73acc-e272-443d-a50e-87e50c389ecb
+name: P_2025_05_19_D_STF_Promo_Surf_UGC
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 4ec73acc-e272-443d-a50e-87e50c389ecb
+dates:
+  send_date: '2025-05-19'
+  inferred_send_type: sto
+  first_sent: '2025-05-18T11:08:16+00:00'
+  last_sent: '2025-05-20T06:30:09+00:00'
+tags: []
+sends:
+- id: 41ac78e0-840f-466d-ac42-ff2064a727f1
+  channel: email
+  name: Variant 1
+  subject: Iconic Boards, Styled by You
+  preheader: shop 30% off our patterned surfboards
+  html_file: html/p_2025_05_19_d_stf_promo_surf_ugc.html
+  screenshot: screenshots/p_2025_05_19_d_stf_promo_surf_ugc.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682792b88a228000656882ec/original.png?1747423928
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68279247fc8f6e00661515db/original.gif?1747423814
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682791ecb91aed0067cb65e8/original.png?1747423724
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6827920565380e006574d1cc/original.png?1747423749
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68279196d8f266006642c5e1/original.png?1747423638
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682791be8a228000656874de/original.png?1747423677
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6825ef0fa8d20400668d4365/original.png?1747316495
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682792a0b91aed0077cb6554/original.png?1747423904
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682508907de3bc006366ba34/original.png?1747257488
+- id: ee928bac-47e1-47d4-b037-0714c376c8b8
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 23023
+  total_delivered: 22768
+  total_opens: 11762
+  total_clicks: 174
+  open_rate: 0.5109
+  click_rate: 0.0076
+  total_revenue: 19961.0
+  total_bounces: 2
+  total_unsubscribes: 66
+  ga4:
+    sessions: 174
+    purchases: 2
+    revenue: 1816.66
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.806726'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.613350'
+schedule_type: time_based

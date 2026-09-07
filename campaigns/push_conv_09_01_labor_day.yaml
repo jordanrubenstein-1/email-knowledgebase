@@ -1,0 +1,23 @@
+id: 4c492b4f-b9a6-44fc-ba86-124f17bfdebe
+name: PUSH_CONV_09_01_Labor_Day
+brand: HAV
+channel: push
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 4c492b4f-b9a6-44fc-ba86-124f17bfdebe
+dates:
+  first_sent: '2025-09-01T02:07:10+00:00'
+  last_sent: '2025-09-02T01:01:57+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: d9224f22-3a46-4062-910d-9ac488f85437
+  channel: push
+  name: Variant 1
+- id: 383ff125-a1bc-45b9-b69f-80b350dd1c90
+  channel: push
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: push_conv_09_01_labor_day.yaml

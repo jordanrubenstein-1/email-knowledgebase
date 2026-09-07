@@ -1,0 +1,35 @@
+id: 4b4e72da-b1b0-43ca-8e30-d3c8cb0b4844
+name: SEG_2025_06_18_BW_PT_ListAdditions_Fourth_of_July_Sale_EA
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 4b4e72da-b1b0-43ca-8e30-d3c8cb0b4844
+dates:
+  send_date: '2025-06-18'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-17T23:59:16+00:00'
+  last_sent: '2025-06-18T14:45:41+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 8d9e9094-deb4-421d-8ccb-196e61606d2c
+  channel: email
+  name: Variant 1
+  subject: You're getting first access to exclusive offers, launches, and events
+  preheader: You're on the list.
+- id: e444c987-fea1-436b-b764-fbb90bdf827b
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 2480
+  total_delivered: 2477
+  total_opens: 498
+  total_clicks: 65
+  open_rate: 0.2008
+  click_rate: 0.0262
+  total_bounces: 2
+  total_unsubscribes: 40
+_filename: seg_2025_06_18_bw_pt_listadditions_fourth_of_july_sale_ea.yaml
+schedule_type: time_based

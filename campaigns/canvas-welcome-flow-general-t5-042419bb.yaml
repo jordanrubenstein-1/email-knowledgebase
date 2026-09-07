@@ -1,0 +1,33 @@
+id: 042419bb-6c10-48c9-8562-27df73e779cf
+name: TRG_EM_2026_08_BW_PT_Welcome_T5_V3
+brand: BUR
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 2fccfb4d-7b98-460d-9d19-98e33e89aa25
+canvas_name: Welcome Flow - General
+flow_type: welcome_series
+sequence_position: 5
+subject: Still deciding
+preheader: ''
+sends:
+- id: 042419bb-6c10-48c9-8562-27df73e779cf
+  channel: email
+  name: TRG_EM_2026_08_BW_PT_Welcome_T5_V3
+  subject: Still deciding
+  preheader: ''
+  html_file: html/canvas-welcome-flow-general-t5-042419bb.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-11-01T00:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 206
+  total_delivered: 205
+  total_opens: 95
+  total_clicks: 6
+  open_rate: 0.4612
+  click_rate: 0.0291
+  total_unsubscribes: 4
+  total_revenue: 1197.0

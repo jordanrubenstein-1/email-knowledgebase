@@ -1,0 +1,33 @@
+id: 76bbdaef-cb73-4d4a-87c9-4b3fca4714b4
+name: P_EM_2026_07_23_HAV_PC_D_Summer_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: summer
+braze_id: 76bbdaef-cb73-4d4a-87c9-4b3fca4714b4
+dates:
+  send_date: '2026-07-23'
+  last_sent: '2026-07-23'
+tags:
+- BLASTS-2025
+sends:
+- id: 056c0c7f-f56b-4fe6-a97a-d2413b089888
+  channel: email
+  name: Variant 1
+  subject: Still dreaming about that room?
+  preheader: Make it happen with 50% off design services.
+- id: 123a4853-ffbe-4260-8607-38dc17164e6d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 285539
+  total_delivered: 284201
+  total_opens: 101104
+  total_clicks: 356
+  open_rate: 0.3541
+  click_rate: 0.0012
+  total_bounces: 11
+  total_unsubscribes: 330
+schedule_type: time_based
+_filename: p_em_2026_07_23_hav_pc_d_summer_sale_reminder.yaml

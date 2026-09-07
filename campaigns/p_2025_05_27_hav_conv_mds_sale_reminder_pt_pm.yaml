@@ -1,0 +1,34 @@
+id: 8b309126-375a-4da6-91f1-e78075ba8f6e
+name: P_2025_05_27_HAV_Conv_MDS_Sale_Reminder_PT_PM
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 8b309126-375a-4da6-91f1-e78075ba8f6e
+dates:
+  send_date: '2025-05-27'
+  first_sent: '2025-05-27T03:08:05+00:00'
+  last_sent: '2025-05-28T02:01:05+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: c51b2d71-8afd-4c68-ad17-e3b91a5ab555
+  channel: email
+  name: Variant 1
+  subject: 'Final Countdown: Memorial Day Deals End at Midnight'
+  preheader: Your dream room (and major savings) are one click away.
+- id: 5fc94b60-492a-4026-97d2-a89da40623ce
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 40175
+  total_delivered: 40088
+  total_opens: 22183
+  total_clicks: 101
+  open_rate: 0.5522
+  click_rate: 0.0025
+  total_unsubscribes: 43
+schedule_type: time_based
+_filename: p_2025_05_27_hav_conv_mds_sale_reminder_pt_pm.yaml

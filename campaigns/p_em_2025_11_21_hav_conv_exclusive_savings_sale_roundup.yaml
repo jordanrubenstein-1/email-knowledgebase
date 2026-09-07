@@ -1,0 +1,35 @@
+id: 4e98be31-a556-43c7-8db3-41f70287bf64
+name: P_EM_2025_11_21_HAV_CONV_Exclusive_Savings_Sale_Roundup
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 4e98be31-a556-43c7-8db3-41f70287bf64
+dates:
+  send_date: '2025-11-21'
+  first_sent: '2025-11-20T19:39:34+00:00'
+  last_sent: '2025-11-21T19:15:36+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 5e340d80-2b2c-4790-b169-73c556b2ff5e
+  channel: email
+  name: Variant 1
+  subject: We Rounded Up The Best Black Friday Furniture Deals
+  preheader: You’re welcome.
+- id: e0c3a728-b3f8-4c0a-a84a-3878794ff2b9
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 24014
+  total_delivered: 23994
+  total_opens: 11731
+  total_clicks: 276
+  open_rate: 0.4885
+  click_rate: 0.0115
+  total_bounces: 1
+  total_unsubscribes: 34
+schedule_type: time_based
+_filename: p_em_2025_11_21_hav_conv_exclusive_savings_sale_roundup.yaml

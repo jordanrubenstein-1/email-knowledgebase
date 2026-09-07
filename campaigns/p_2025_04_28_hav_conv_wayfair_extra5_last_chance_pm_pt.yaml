@@ -1,0 +1,32 @@
+id: a362c780-c325-4175-9f29-18c84b2d292c
+name: P_2025_04_28_HAV_Conv_Wayfair_Extra5_Last_Chance_PM_PT
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: a362c780-c325-4175-9f29-18c84b2d292c
+dates:
+  send_date: '2025-04-28'
+  first_sent: '2025-04-28T03:05:56+00:00'
+  last_sent: '2025-04-29T02:00:02+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 517255cd-0a94-495e-93ea-4967641062be
+  channel: email
+  name: Variant 1
+  subject: Your exclusive deals are ending soon
+- id: bd0ec587-4f24-4f4d-a700-11e6c145273b
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 31
+  total_delivered: 31
+  total_opens: 18
+  total_clicks: 1
+  open_rate: 0.5806
+  click_rate: 0.0323
+schedule_type: time_based
+_filename: p_2025_04_28_hav_conv_wayfair_extra5_last_chance_pm_pt.yaml

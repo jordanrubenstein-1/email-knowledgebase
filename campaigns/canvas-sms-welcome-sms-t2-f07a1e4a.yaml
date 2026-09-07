@@ -1,0 +1,33 @@
+id: f07a1e4a-f67a-460e-aa2e-5e5e996db8fa
+name: TRG_SMS_2025_07_ID_Welcome_T2_V1
+brand: ID
+channel: sms
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 57b265fb-8444-432a-b2e8-2bbc0bb3592a
+canvas_name: SMS Welcome
+flow_type: welcome_series
+sequence_position: 2
+body: 'Interior Define: Let''s make this official! Save our contact for exclusive
+  updates and offers.'
+sends:
+- id: f07a1e4a-f67a-460e-aa2e-5e5e996db8fa
+  channel: sms
+  name: TRG_SMS_2025_07_ID_Welcome_T2_V1
+  body: 'Interior Define: Let''s make this official! Save our contact for exclusive
+    updates and offers.'
+  media_items:
+  - https://braze-images.com/appboy/communication/assets/contact_card_assets/files/67d4c003bb33170065feeaa9/original.vcf?1741996035
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-03-18T15:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 5959
+  total_delivered: 5804
+  total_clicks: 0
+  click_rate: 0.0
+  total_unsubscribes: 126
+  total_bounces: 25
+  total_revenue: 139462.0

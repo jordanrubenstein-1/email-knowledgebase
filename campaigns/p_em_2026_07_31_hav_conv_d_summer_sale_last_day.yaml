@@ -1,0 +1,33 @@
+id: 1d93037f-99ad-43e5-9991-170a4223a7e0
+name: P_EM_2026_07_31_HAV_CONV_D_Summer_Sale_Last_Day
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: summer
+braze_id: 1d93037f-99ad-43e5-9991-170a4223a7e0
+dates:
+  send_date: '2026-07-31'
+  last_sent: '2026-07-31'
+tags:
+- BLASTS-2025
+sends:
+- id: d6404e9a-5862-422c-9a84-212bb5f1d62c
+  channel: email
+  name: Variant 1
+  subject: 'LAST CHANCE: The Summer Sale ends tonight'
+  preheader: Buy more to save more on your summer refresh.
+- id: f5eac14f-000d-456d-bb6f-c0ccabaf1031
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 42617
+  total_delivered: 42524
+  total_opens: 20880
+  total_clicks: 56
+  open_rate: 0.4899
+  click_rate: 0.0013
+  total_bounces: 1
+  total_unsubscribes: 53
+schedule_type: time_based
+_filename: p_em_2026_07_31_hav_conv_d_summer_sale_last_day.yaml

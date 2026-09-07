@@ -1,0 +1,58 @@
+id: a61800c6-9c73-4e90-bfe8-ddbf2dd2a37c
+name: P_EM_2026_01_15_CZ_D_PR_Layered_Bedroom_PM
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: a61800c6-9c73-4e90-bfe8-ddbf2dd2a37c
+dates:
+  send_date: '2026-01-15'
+  inferred_send_type: local_time
+  first_sent: '2026-01-14T23:05:45+00:00'
+  last_sent: '2026-01-15T23:01:17+00:00'
+tags:
+- batch and blast
+- bedding
+- d2c
+- designed
+- pm
+- prod
+sends:
+- id: 836a1819-3ab9-4cde-9ce6-5e3ea9cec31b
+  channel: email
+  name: Variant 1
+  subject: Build the Bed
+  preheader: Everything you need for better rest, from the first layer to the last.
+  html_file: html/p_em_2026_01_15_cz_d_pr_layered_bedroom_pm.html
+  screenshot: screenshots/p_em_2026_01_15_cz_d_pr_layered_bedroom_pm.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6967ecb74ff62d00652718d9/original.png?1768418487
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6967ecd9e647db00639af0cd/original.png?1768418520
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6967ecf8b3ef270063de1331/original.png?1768418552
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6967ecca6559300063aefabc/original.png?1768418506
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6967ec8b8af75e0065868d9b/original.png?1768418442
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6967ed052b043f0065eea529/original.png?1768418564
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6967eca01bbc1500633046dc/original.png?1768418463
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6967ec2b95e27d0063f8ef51/original.png?1768418346
+- id: 2513db3c-b3d4-4a44-b225-ce2e5bbf98bd
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 52814
+  total_delivered: 52760
+  total_opens: 27421
+  total_clicks: 642
+  open_rate: 0.5192
+  click_rate: 0.0122
+  total_bounces: 4
+  total_unsubscribes: 92
+  ga4:
+    sessions: 548
+    purchases: 7
+    revenue: 2028.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.434715'
+    source: snowflake
+    channel: email
+schedule_type: time_based

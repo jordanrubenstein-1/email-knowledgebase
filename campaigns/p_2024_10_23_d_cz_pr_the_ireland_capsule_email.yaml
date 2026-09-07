@@ -1,0 +1,52 @@
+id: 01860b5a-3bea-4f38-a9a7-dcc72875e8d9
+name: P_2024_10_23_D_CZ_PR_The_Ireland_Capsule_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 01860b5a-3bea-4f38-a9a7-dcc72875e8d9
+dates:
+  send_date: '2024-10-23'
+  inferred_send_type: local_time
+  first_sent: '2024-10-22T22:29:21+00:00'
+  last_sent: '2024-10-23T17:00:33+00:00'
+tags:
+- batch and blast
+sends:
+- id: 252bb869-c0d4-4b5f-91e3-69e8bf52c10d
+  channel: email
+  name: Variant 1
+  subject: 'Introducing: The Ireland Collection'
+  preheader: Embrace the charm and heritage of Ireland's artisanal craft culture with
+    curated treasures to gift or cherish.
+  html_file: html/p_2024_10_23_d_cz_pr_the_ireland_capsule_email.html
+  screenshot: screenshots/p_2024_10_23_d_cz_pr_the_ireland_capsule_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6718257a770c3c00647e2327/original.gif?1729635706
+- id: f8c40b24-d346-477c-8503-1a582c2a1bef
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 91347
+  total_delivered: 90776
+  total_opens: 45248
+  total_clicks: 1955
+  open_rate: 0.4953
+  click_rate: 0.0214
+  total_revenue: 69716.03
+  total_bounces: 29
+  total_unsubscribes: 137
+  ga4:
+    sessions: 2666
+    purchases: 10
+    revenue: 9047.05
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.392483'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.398762'
+schedule_type: time_based

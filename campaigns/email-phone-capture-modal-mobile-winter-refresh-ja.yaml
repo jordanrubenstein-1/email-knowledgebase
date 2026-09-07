@@ -1,0 +1,30 @@
+id: 4cedc54e-3028-422a-b5b3-33bde4897eef
+name: Email & Phone Capture Modal Mobile - Winter Refresh Jan 2026
+brand: STF
+channel: email
+category: other
+type: seasonal
+theme: winter
+braze_id: 4cedc54e-3028-422a-b5b3-33bde4897eef
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-01-15T07:00:00+00:00'
+  last_sent: '2026-01-28T06:00:00+00:00'
+tags: []
+sends:
+- id: 4fd14e65-ec05-4dda-9c8b-a208f2143c09
+  channel: other
+  name: Variant 1
+- id: 66c7d34c-8f20-440f-b769-5a4ef1f0166e
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.995211'
+    source: snowflake
+    channel: email
+schedule_type: action_based

@@ -1,0 +1,35 @@
+id: f3881bb1-f266-4489-84ba-00f9fd047620
+name: P_EM_2025_10_27_HAV_PC_D_PREBF
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: f3881bb1-f266-4489-84ba-00f9fd047620
+dates:
+  send_date: '2025-10-27'
+  first_sent: '2025-10-26T19:22:22+00:00'
+  last_sent: '2025-10-27T20:15:44+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 848a6611-d196-4880-bce3-85c92b55a21a
+  channel: email
+  name: Variant 1
+  subject: 'Final Days: Our Best Deal Ever'
+  preheader: Our dream room is only $89 (but not for long)
+- id: d263ba85-86ce-45e3-a70b-8a55311e4417
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 244251
+  total_delivered: 242672
+  total_opens: 97272
+  total_clicks: 473
+  open_rate: 0.3982
+  click_rate: 0.0019
+  total_bounces: 19
+  total_unsubscribes: 470
+schedule_type: time_based
+_filename: p_em_2025_10_27_hav_pc_d_prebf.yaml

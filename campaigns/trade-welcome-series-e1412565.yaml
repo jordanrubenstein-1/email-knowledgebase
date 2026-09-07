@@ -1,0 +1,112 @@
+id: e1412565-1cc2-4ca6-b5f0-37fbba278520
+name: Trade Welcome Series
+brand: ID
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: e1412565-1cc2-4ca6-b5f0-37fbba278520
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-09-05T17:00:00+00:00'
+  last_sent: '2026-06-12T21:00:00+00:00'
+tags: []
+sends:
+- id: 77507f4e-f5d4-41bd-8ea2-eab77e37c4ad
+  channel: email
+  name: TRG_EM_2025_07_Trade_D_Welcome_T1_V2
+  subject: Welcome to the Havenly Brands Trade Program
+  preheader: Custom upholstery, concierge service, and exclusive perks—all under one
+    roof.
+  step_id: 29aae763-10d0-480a-bd38-f3e6cf68a16d
+- id: edbd0c5d-5081-4d45-8aa9-067c16219f71
+  channel: email
+  name: TRG_EM_2025_07_Trade_D_Welcome_IDSpotlight_T2_V1
+  subject: Personalize Every Project with Interior Define
+  preheader: Trade-exclusive access to made-to-order, performance-driven furniture.
+  step_id: 95989f33-2002-4a55-8022-c3a949547d85
+- id: a2143d79-f49e-4157-9df0-7aaa9e0ec0ef
+  channel: email
+  name: TRG_EM_2025_07_Trade_D_Welcome_SFSpotlight_T5_V1
+  subject: Design Boldly with St. Frank
+  preheader: Your source for designer textiles and one-of-a-kind decor.
+  step_id: 1df23daa-cfe5-4bee-b046-bb8f06be63d1
+- id: 99cf91df-aff2-4cd0-96d1-23774c2c0969
+  channel: email
+  name: TRG_EM_2025_07_Trade_D_Welcome_TISpotlight_T4_V1
+  subject: Make Every Space More Joyful with The Inside
+  preheader: Pattern-forward pieces with personality—custom-made and approachably
+    priced.
+  step_id: 2bb040ec-9d3d-46d9-a08e-6015860a6742
+- id: b318151b-194a-4e61-9dbf-d7628e57ad49
+  channel: email
+  name: TRG_EM_2025_07_Trade_D_Welcome_CZSpotlight_T3_V1
+  subject: Layer in Story and Soul with The Citizenry
+  preheader: One-of-a-kind, artisan-made pieces designed to last—and to move people.
+  step_id: 649adbea-4ae0-43a4-9e6d-7a1f898bb92a
+performance_summary:
+  total_entries: 114
+  total_sends: 610
+  total_delivered: 602
+  total_opens: 397
+  total_clicks: 40
+  open_rate: 0.6508
+  click_rate: 0.0656
+  total_unsubscribes: 12
+canvas_steps:
+- id: b4b716eb-3bf6-48b5-acdb-78aef8ddafe7
+  name: Step
+  type: delay
+- id: 696aac5d-7c30-4dea-9655-01c13c5e6a87
+  name: Step 1
+  type: user_update
+- id: 29aae763-10d0-480a-bd38-f3e6cf68a16d
+  name: TRG_EM_2025_07_Trade_D_Welcome_T1_V2
+  type: message
+  channel: email
+  subject: Welcome to the Havenly Brands Trade Program
+  preheader: Custom upholstery, concierge service, and exclusive perks—all under one
+    roof.
+- id: b101cae7-47bb-4d11-994e-211c01621d76
+  name: Step 2
+  type: delay
+- id: 95989f33-2002-4a55-8022-c3a949547d85
+  name: TRG_EM_2025_07_Trade_D_Welcome_IDSpotlight_T2_V1
+  type: message
+  channel: email
+  subject: Personalize Every Project with Interior Define
+  preheader: Trade-exclusive access to made-to-order, performance-driven furniture.
+- id: 1df23daa-cfe5-4bee-b046-bb8f06be63d1
+  name: TRG_EM_2025_07_Trade_D_Welcome_SFSpotlight_T5_V1
+  type: message
+  channel: email
+  subject: Design Boldly with St. Frank
+  preheader: Your source for designer textiles and one-of-a-kind decor.
+- id: 23ac4cac-9e7c-4575-be3f-594627790aef
+  name: Step 3
+  type: delay
+- id: 2bb040ec-9d3d-46d9-a08e-6015860a6742
+  name: TRG_EM_2025_07_Trade_D_Welcome_TISpotlight_T4_V1
+  type: message
+  channel: email
+  subject: Make Every Space More Joyful with The Inside
+  preheader: Pattern-forward pieces with personality—custom-made and approachably
+    priced.
+- id: 649adbea-4ae0-43a4-9e6d-7a1f898bb92a
+  name: TRG_EM_2025_07_Trade_D_Welcome_CZSpotlight_T3_V1
+  type: message
+  channel: email
+  subject: Layer in Story and Soul with The Citizenry
+  preheader: One-of-a-kind, artisan-made pieces designed to last—and to move people.
+- id: d5a323e4-5061-4e54-8d2a-d57bb17db0ba
+  name: Step 4
+  type: delay
+- id: b154d8e2-8b9f-4a99-9955-044302e7cd84
+  name: Step 5
+  type: delay
+- id: 6c31a9b5-882e-4a6f-8401-997961ea3c70
+  name: Email available?
+  type: audience_paths
+_filename: trade-welcome-series-e1412565.yaml

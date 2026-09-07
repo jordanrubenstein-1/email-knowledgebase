@@ -1,0 +1,34 @@
+id: 5ed5596e-a6fc-40ed-865f-5d4fe738212c
+name: P_EM_2026_BW_D_TPA_T20_Sleeper_Sofas
+brand: BUR
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 291c554b-03ab-48cc-9767-8d8dede9d28f
+canvas_name: MDS Tentpole Automation
+flow_type: other_flow
+sequence_position: 20
+subject: '{% catalog_items sale-emails 20260531 %}{{ items[0].subject_line }}'
+preheader: '{% catalog_items sale-emails 20260531 %}{{ items[0].preheader }}'
+sends:
+- id: 5ed5596e-a6fc-40ed-865f-5d4fe738212c
+  channel: email
+  name: P_EM_2026_BW_D_TPA_T20_Sleeper_Sofas
+  subject: '{% catalog_items sale-emails 20260531 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260531 %}{{ items[0].preheader }}'
+  html_file: html/canvas-mds-tentpole-automation-t20-5ed5596e.html
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2026-05-05T07:00:00Z'
+  last_sent: '2026-05-05T17:00:00Z'
+performance_summary:
+  total_sends: 68111
+  total_delivered: 67154
+  total_opens: 34454
+  total_clicks: 158
+  open_rate: 0.5059
+  click_rate: 0.0023
+  total_unsubscribes: 40
+  total_bounces: 2
+  total_revenue: 9318.0

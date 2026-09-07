@@ -1,0 +1,57 @@
+id: fcfd539f-0a10-4977-a47a-5a38ea0e4920
+name: P_2025_04_02_D_STF_TRADE_Newness
+brand: STF
+channel: email
+category: other
+type: product_launch
+theme: null
+braze_id: fcfd539f-0a10-4977-a47a-5a38ea0e4920
+dates:
+  send_date: '2025-04-02'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-02T01:09:25+00:00'
+  last_sent: '2025-04-02T14:02:40+00:00'
+tags: []
+sends:
+- id: 3059de22-542e-4589-ad6e-70558786bd12
+  channel: email
+  name: Variant 1
+  subject: Get To Know Our Latest Releases
+  preheader: you're gonna love these ❤️‍🔥
+  html_file: html/p_2025_04_02_d_stf_trade_newness.html
+  screenshot: screenshots/p_2025_04_02_d_stf_trade_newness.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67eb15f76f3bb00072b1c1e5/original.png?1743459830
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ec57686faceb00654f534b/original.gif?1743542120
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ec57a6ef9c0400650cf574/original.gif?1743542182
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e71d9de5de010065da0de7/original.png?1743199645
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e71d6ab1255b00684c8303/original.png?1743199594
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e71d745cf7c80073cd0b73/original.png?1743199604
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e71d9674890b0075287eeb/original.png?1743199638
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e71d8d0ac9710067f17ec4/original.png?1743199629
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e71c9eb1255b00684c819f/original.png?1743199389
+- id: 7553da8d-e0a2-4c56-a9fb-623e20cdf77d
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1709
+  total_delivered: 1684
+  total_opens: 864
+  total_clicks: 32
+  open_rate: 0.5056
+  click_rate: 0.0187
+  total_unsubscribes: 12
+  ga4:
+    sessions: 40
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.058694'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.168584'
+schedule_type: time_based

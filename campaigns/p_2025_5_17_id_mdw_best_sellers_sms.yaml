@@ -1,0 +1,30 @@
+id: b35ae112-0812-47d0-b6f9-a555e7aac169
+name: P_2025_5_17_ID_MDW_Best_Sellers_SMS
+brand: ID
+channel: sms
+category: sale_promo
+type: announcement
+theme: null
+braze_id: b35ae112-0812-47d0-b6f9-a555e7aac169
+dates:
+  send_date: '2025-05-17'
+  inferred_send_type: local_time
+  first_sent: '2025-05-17T01:52:51+00:00'
+  last_sent: '2025-05-18T00:10:06+00:00'
+tags: []
+sends:
+- id: 8b443f08-0596-4c3f-a5b6-f343c73a4120
+  channel: other
+  name: Variant 1
+- id: ad18e324-2e6e-44ca-9eff-df90c4148c82
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 58333
+  total_delivered: 54648
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 11245.0
+schedule_type: time_based

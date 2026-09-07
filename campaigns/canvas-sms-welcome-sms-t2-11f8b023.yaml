@@ -1,0 +1,33 @@
+id: 11f8b023-9a85-4d41-8465-a7bd43acfc14
+name: TRG_SMS_2025_10_SF_Welcome_T2_V1
+brand: STF
+channel: sms
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 3b7ee19c-b120-453a-8302-731b5bbe56a7
+canvas_name: SMS Welcome
+flow_type: welcome_series
+sequence_position: 2
+body: 'St. Frank: Don''t forget to save our contact so you never miss out on exclusive
+  updates!'
+sends:
+- id: 11f8b023-9a85-4d41-8465-a7bd43acfc14
+  channel: sms
+  name: TRG_SMS_2025_10_SF_Welcome_T2_V1
+  body: 'St. Frank: Don''t forget to save our contact so you never miss out on exclusive
+    updates!'
+  media_items:
+  - https://braze-images.com/appboy/communication/assets/contact_card_assets/files/6888ddd0ee01bb006709a586/original.vcf?1753800144
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-10-07T22:00:00Z'
+  last_sent: '2026-08-31T11:00:00Z'
+performance_summary:
+  total_sends: 1678
+  total_delivered: 1607
+  total_clicks: 0
+  click_rate: 0.0
+  total_unsubscribes: 44
+  total_bounces: 19
+  total_revenue: 3282.6

@@ -1,0 +1,30 @@
+id: 7bbe371b-e812-401a-834b-7b6448d0e73f
+name: P_SMS_2026_02_20_ID_Outdoor_Presidents_Day_Sale
+brand: ID
+channel: sms
+category: sale_promo
+type: sale
+theme: null
+braze_id: 7bbe371b-e812-401a-834b-7b6448d0e73f
+dates:
+  send_date: '2026-02-20'
+  inferred_send_type: local_time
+  first_sent: '2026-02-20T01:06:57+00:00'
+  last_sent: '2026-02-21T01:02:17+00:00'
+tags: []
+sends:
+- id: 10e19049-cca8-46b5-bf4c-37f174453576
+  channel: sms
+  name: Variant 1
+- id: 2a13f497-9a84-4654-a234-3814ff91f17f
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 49669
+  total_delivered: 47551
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 14170.0
+schedule_type: time_based

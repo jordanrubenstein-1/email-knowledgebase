@@ -1,0 +1,45 @@
+id: ce968b9a-021d-4712-ba13-b69901a02a40
+name: SEG_2025_07_06_D_ID_CONV_Items_In_Your_Cart_On_Sale_Email
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: ce968b9a-021d-4712-ba13-b69901a02a40
+dates:
+  send_date: '2025-07-06'
+  inferred_send_type: local_time
+  first_sent: '2025-07-06T03:19:41+00:00'
+  last_sent: '2025-07-07T02:10:08+00:00'
+tags: []
+sends:
+- id: e2ce4024-9785-48c8-b1d6-4eaa63ee68cc
+  channel: email
+  name: Variant 1
+  subject: YOUR CART IS ON SALE 🚨
+  preheader: But not for long!
+- id: 579e1ec6-89cc-4dd7-981c-af3cc8462f17
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 6323
+  total_delivered: 6274
+  total_opens: 3356
+  total_clicks: 87
+  open_rate: 0.5308
+  click_rate: 0.0138
+  total_revenue: 184310.0
+  total_unsubscribes: 15
+  ga4:
+    sessions: 128
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.977985'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:29.974962'
+schedule_type: time_based

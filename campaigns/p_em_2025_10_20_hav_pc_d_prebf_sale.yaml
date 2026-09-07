@@ -1,0 +1,35 @@
+id: 6adaba2a-100c-40c4-bc1c-38bc2a2dc948
+name: P_EM_2025_10_20_HAV_PC_D_PREBF_SALE
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 6adaba2a-100c-40c4-bc1c-38bc2a2dc948
+dates:
+  send_date: '2025-10-20'
+  first_sent: '2025-10-20T01:23:26+00:00'
+  last_sent: '2025-10-21T02:15:03+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 3df1c2a1-1ae8-4019-9f3c-d229b326f6b8
+  channel: email
+  name: Variant 1
+  subject: 'The Room You Deserve, Only $89 '
+  preheader: Kick off your project now to save BIG on Black Friday later.
+- id: 4d8135a5-0724-499a-858c-0ef5d07e13ed
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 241586
+  total_delivered: 240783
+  total_opens: 98645
+  total_clicks: 570
+  open_rate: 0.4083
+  click_rate: 0.0024
+  total_bounces: 5
+  total_unsubscribes: 458
+schedule_type: time_based
+_filename: p_em_2025_10_20_hav_pc_d_prebf_sale.yaml

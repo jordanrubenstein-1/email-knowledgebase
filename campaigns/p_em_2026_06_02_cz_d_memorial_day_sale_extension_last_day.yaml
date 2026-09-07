@@ -1,0 +1,31 @@
+id: 623a05a6-620b-4b4e-b628-51fd4edf7165
+name: P_EM_2026_06_02_CZ_D_Memorial_Day_Sale_Extension_Last_Day
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 623a05a6-620b-4b4e-b628-51fd4edf7165
+dates:
+  send_date: '2026-06-02'
+  last_sent: '2026-06-02'
+tags: []
+sends:
+- id: 63539eb9-d2f4-4c25-9970-920ef785a50a
+  channel: email
+  name: Variant 1
+  subject: The Memorial Day Sale ends tonight
+  preheader: Final hours to save 25% off sitewide.
+- id: 987b3f56-58f8-4b73-98c9-9513432b3205
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 116301
+  total_delivered: 115889
+  total_opens: 52977
+  total_clicks: 632
+  open_rate: 0.4555
+  click_rate: 0.0054
+  total_unsubscribes: 135
+schedule_type: time_based
+_filename: p_em_2026_06_02_cz_d_memorial_day_sale_extension_last_day.yaml

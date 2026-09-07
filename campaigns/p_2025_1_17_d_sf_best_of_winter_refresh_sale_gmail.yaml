@@ -1,0 +1,58 @@
+id: 3db39d3f-1e94-4fe6-af42-939626c41ef7
+name: P_2025_1_17_D_SF_BEST_OF_WINTER_REFRESH_SALE_Gmail_Email
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: winter
+braze_id: 3db39d3f-1e94-4fe6-af42-939626c41ef7
+dates:
+  send_date: '2025-01-17'
+  inferred_send_type: local_time
+  first_sent: '2025-01-16T23:48:19+00:00'
+  last_sent: '2025-01-17T16:00:22+00:00'
+tags: []
+sends:
+- id: 9a87dcb3-b40c-4fb5-904d-7d1564c7884a
+  channel: email
+  name: Variant 1
+  subject: Our Trending Styles Now 20% Off
+  preheader: the best of the best
+  html_file: html/p_2025_1_17_d_sf_best_of_winter_refresh_sale_gmail_email.html
+  screenshot: screenshots/p_2025_1_17_d_sf_best_of_winter_refresh_sale_gmail_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67892fcbdd23060066b61c85/original.gif?1737043915
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67892d8b218ac400653b2b8f/original.gif?1737043339
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67892e4bdd23060066b6193b/original.gif?1737043531
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67892ebddd23060066b61a0b/original.gif?1737043645
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678930722ae5470064d99454/original.gif?1737044082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67892f6604371d0072e54d63/original.gif?1737043814
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678930cac2a98b0066cfcc65/original.gif?1737044170
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67892a27c11bcc0064fca642/original.jpg?1737042471
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6789312c218ac400743b2acb/original.jpg?1737044268
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678930fb218ac400653b33d2/original.gif?1737044219
+- id: 5fc0814d-cb79-4049-a773-c74761f52099
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 740
+  total_delivered: 740
+  total_opens: 587
+  total_clicks: 18
+  open_rate: 0.7932
+  click_rate: 0.0243
+  total_revenue: 70.0
+  total_unsubscribes: 2
+  ga4:
+    sessions: 21
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.673008'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.824732'
+schedule_type: time_based

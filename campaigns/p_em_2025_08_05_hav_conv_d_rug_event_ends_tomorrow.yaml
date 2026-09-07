@@ -1,0 +1,35 @@
+id: 071546c6-9f5a-4607-a6f1-e14000b19402
+name: P_EM_2025_08_05_HAV_CONV_D_Rug_Event_Ends_Tomorrow
+brand: HAV
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 071546c6-9f5a-4607-a6f1-e14000b19402
+dates:
+  send_date: '2025-08-05'
+  first_sent: '2025-08-04T19:44:20+00:00'
+  last_sent: '2025-08-05T17:17:06+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: e4259789-edf6-4076-b360-88a43bb80bc4
+  channel: email
+  name: Variant 1
+  subject: Ends Tomorrow
+  preheader: Up to 60% off designer rugs
+- id: 6df42919-77bd-4540-84d6-d8085813c0ca
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 40949
+  total_delivered: 40888
+  total_opens: 21658
+  total_clicks: 146
+  open_rate: 0.5289
+  click_rate: 0.0036
+  total_bounces: 1
+  total_unsubscribes: 61
+schedule_type: time_based
+_filename: p_em_2025_08_05_hav_conv_d_rug_event_ends_tomorrow.yaml

@@ -1,0 +1,47 @@
+id: f93cdf07-25d8-4704-aef5-dc85c304fc53
+name: P_2024_08_29_D_SF_NA_Ombré_Lumbars_Tier2_Email
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: f93cdf07-25d8-4704-aef5-dc85c304fc53
+dates:
+  send_date: '2024-08-29'
+  inferred_send_type: scheduled
+  first_sent: '2024-08-29T15:50:18+00:00'
+  last_sent: '2024-08-29T15:50:49+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: fc798c9d-ace3-4b87-a5e4-136e58ebecec
+  channel: email
+  name: Variant 1
+  subject: 'JUST DROPPED: Ombré Lumbars'
+  preheader: new and on sale!
+- id: cf3da6b7-61ed-48d8-ab65-42bf064efff3
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 2917
+  total_delivered: 2911
+  total_opens: 209
+  total_clicks: 154
+  open_rate: 0.0716
+  click_rate: 0.0528
+  total_revenue: 1604.0
+  total_bounces: 3
+  total_unsubscribes: 1
+  ga4:
+    sessions: 45
+    purchases: 1
+    revenue: 220.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.078846'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.580016'
+schedule_type: time_based

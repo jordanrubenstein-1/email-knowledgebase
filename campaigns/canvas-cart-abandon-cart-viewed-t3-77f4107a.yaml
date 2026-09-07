@@ -1,0 +1,28 @@
+id: 77f4107a-e31e-4c12-a8b7-f0911ddd1e9c
+name: TRG_Sale_2024_ID_Cart_Abandon_T3_Email
+brand: ID
+channel: email
+category: sale_promo
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 90ff3c97-7866-46d1-b1df-1a97c60ef691
+canvas_name: Cart Abandon - Cart Viewed
+flow_type: cart_abandonment
+sequence_position: 3
+subject: 'Still thinking about it? '
+preheader: 'Bring it home today with up to 25% OFF
+
+  '
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-12-10T05:00:00Z'
+  last_sent: '2025-12-13T14:00:00Z'
+performance_summary:
+  ga4:
+    sessions: 2
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 14
+    last_synced: '2026-02-06T16:28:54.449761'
+    source: snowflake
+    channel: email

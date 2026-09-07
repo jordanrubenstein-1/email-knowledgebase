@@ -1,0 +1,54 @@
+id: 60af3863-b97e-44dd-bb5e-798b48392391
+name: P_EM_2026_03_25_CZ_D_PR_Baskets_Spring_Event
+brand: CZ
+channel: email
+category: sale_promo
+type: seasonal
+theme: spring
+braze_id: 60af3863-b97e-44dd-bb5e-798b48392391
+dates:
+  send_date: '2026-03-25'
+  inferred_send_type: local_time
+  first_sent: '2026-03-24T21:02:29+00:00'
+  last_sent: '2026-03-25T18:06:11+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- prod
+- prod/accents
+- sale
+- sale/spring2026
+sends:
+- id: beb0b33f-1fac-4b9e-b630-5a69eb1e0cac
+  channel: email
+  name: Variant 1
+  subject: For the Beautiful Mess of Home Life
+  preheader: Shop up to 25% off sitewide.
+  html_file: html/p_em_2026_03_25_cz_d_pr_baskets_spring_event.html
+  screenshot: screenshots/p_em_2026_03_25_cz_d_pr_baskets_spring_event.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c18503845ffa0063f218cc/original.png?1774290179
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69baa84c383d69006424743e/original.png?1773840459
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c08a68f3ff2300635ee270/original.png?1774226024
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69baa82b42d479006327a3fc/original.png?1773840427
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c08b60163cd30063665460/original.png?1774226272
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69baa8268b22b800633b3815/original.png?1773840421
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69baa8367abb0c0063578b61/original.png?1773840438
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c184ecb0436d0073b19d72/original.png?1774290156
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c08a42d7194e0063c898fa/original.png?1774225985
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c08a395ccb1b0064b7330d/original.png?1774225977
+- id: 2f5236ec-3f94-4808-ba1c-77602a70c118
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 112062
+  total_delivered: 111745
+  total_opens: 53080
+  total_clicks: 546
+  open_rate: 0.4737
+  click_rate: 0.0049
+  total_bounces: 2
+  total_unsubscribes: 110
+schedule_type: time_based

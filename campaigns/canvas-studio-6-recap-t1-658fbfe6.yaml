@@ -1,0 +1,31 @@
+id: 658fbfe6-3168-4c26-8472-263a2477850d
+name: OT_EM_2026_07_HAV_CONV_H_Studio6_Follow_Up_Call_Recap_Submitted
+brand: HAV
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 9fd6b7ff-f644-44a3-a2af-c37bf361b4b2
+canvas_name: Studio 6 Recap
+flow_type: other_flow
+sequence_position: 1
+subject: Your room, ready to make it real?
+preheader: Shop every piece from your final design—or get help bringing it all together.
+sends:
+- id: 658fbfe6-3168-4c26-8472-263a2477850d
+  channel: email
+  name: OT_EM_2026_07_HAV_CONV_H_Studio6_Follow_Up_Call_Recap_Submitted
+  subject: Your room, ready to make it real?
+  preheader: Shop every piece from your final design—or get help bringing it all together.
+  html_file: html/canvas-studio-6-recap-t1-658fbfe6.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-07-29T20:00:00Z'
+  last_sent: '2026-08-17T21:00:00Z'
+performance_summary:
+  total_sends: 3
+  total_delivered: 3
+  total_opens: 1
+  total_clicks: 0
+  open_rate: 0.3333
+  click_rate: 0.0

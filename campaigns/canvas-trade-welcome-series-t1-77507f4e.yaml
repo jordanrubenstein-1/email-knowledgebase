@@ -1,0 +1,35 @@
+id: 77507f4e-f5d4-41bd-8ea2-eab77e37c4ad
+name: TRG_EM_2025_07_Trade_D_Welcome_T1_V2
+brand: ID
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: e1412565-1cc2-4ca6-b5f0-37fbba278520
+canvas_name: Trade Welcome Series
+flow_type: welcome_series
+sequence_position: 1
+subject: Welcome to the Havenly Brands Trade Program
+preheader: Custom upholstery, concierge service, and exclusive perks—all under one
+  roof.
+sends:
+- id: 77507f4e-f5d4-41bd-8ea2-eab77e37c4ad
+  channel: email
+  name: TRG_EM_2025_07_Trade_D_Welcome_T1_V2
+  subject: Welcome to the Havenly Brands Trade Program
+  preheader: Custom upholstery, concierge service, and exclusive perks—all under one
+    roof.
+  html_file: html/canvas-trade-welcome-series-t1-77507f4e.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-09-05T17:00:00Z'
+  last_sent: '2026-08-28T19:00:00Z'
+performance_summary:
+  total_sends: 9111
+  total_delivered: 9008
+  total_opens: 6692
+  total_clicks: 1157
+  open_rate: 0.7345
+  click_rate: 0.127
+  total_unsubscribes: 91
+  total_bounces: 4

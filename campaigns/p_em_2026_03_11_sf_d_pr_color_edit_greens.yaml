@@ -1,0 +1,56 @@
+id: d27c4b64-624f-46c1-8352-e11c10181bc5
+name: P_EM_2026_03_11_SF_D_PR_Color_Edit_Greens
+brand: STF
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: d27c4b64-624f-46c1-8352-e11c10181bc5
+dates:
+  send_date: '2026-03-11'
+  inferred_send_type: scheduled
+  first_sent: '2026-03-11T17:21:39+00:00'
+  last_sent: '2026-03-12T02:01:52+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- print
+sends:
+- id: 5f9d9d8a-fa7e-440f-a961-ac29b1941170
+  channel: email
+  name: Variant 1
+  subject: Green With Style Envy
+  preheader: fresh hues to breathe life into any room
+  html_file: html/p_em_2026_03_11_sf_d_pr_color_edit_greens.html
+  screenshot: screenshots/p_em_2026_03_11_sf_d_pr_color_edit_greens.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b06f4c17e1ed00631967cd/original.png?1773170507
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b06f60c6fb2b0063f9f7c8/original.png?1773170527
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b06f072166940063583df5/original.png?1773170439
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b06f55f791180063760690/original.png?1773170517
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b06f687b057f0063b4601b/original.png?1773170536
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b06f20b75acb00633e1b61/original.png?1773170464
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b06eeebaaa360073b53b60/original.png?1773170414
+- id: e4926a37-20b4-4b24-832e-32a32d2f9e47
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 37470
+  total_delivered: 36758
+  total_opens: 12180
+  total_clicks: 145
+  open_rate: 0.3251
+  click_rate: 0.0039
+  total_bounces: 7
+  total_unsubscribes: 31
+  ga4:
+    sessions: 168
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.058048'
+    source: snowflake
+    channel: email
+schedule_type: time_based

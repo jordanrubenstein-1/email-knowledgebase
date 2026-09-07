@@ -1,0 +1,54 @@
+id: e6476aa3-b287-4d9d-996b-ef2ddd7e6391
+name: P_EM_2026_02_02_SF_D_Category_Feature_Surf
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: e6476aa3-b287-4d9d-996b-ef2ddd7e6391
+dates:
+  send_date: '2026-02-02'
+  inferred_send_type: local_time
+  first_sent: '2026-02-01T19:06:03+00:00'
+  last_sent: '2026-02-02T19:00:43+00:00'
+tags:
+- Batch and Blast
+- d2c
+- designed
+sends:
+- id: f4904c91-e9d8-49cd-ab49-b5398e0c88a4
+  channel: email
+  name: Variant 1
+  subject: 'Winter escape: hit the waves'
+  preheader: explore our patterned surfboards
+  html_file: html/p_em_2026_02_02_sf_d_category_feature_surf.html
+  screenshot: screenshots/p_em_2026_02_02_sf_d_category_feature_surf.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697cb2c154f1f90063e4da72/original.png?1769779905
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697cb39453735100655ebe73/original.png?1769780115
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697cb3468e294d0065629335/original.png?1769780038
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697cb39ef72595006372a028/original.png?1769780125
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697cb247fce61500631c5ad2/original.png?1769779782
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697cb36ee48ca50063a0e824/original.png?1769780077
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697cb3856deac90063b002b4/original.png?1769780100
+- id: 52722aca-22c2-4116-8040-4b781547412d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 38727
+  total_delivered: 38653
+  total_opens: 13122
+  total_clicks: 87
+  open_rate: 0.3388
+  click_rate: 0.0022
+  total_bounces: 1
+  total_unsubscribes: 40
+  ga4:
+    sessions: 70
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.910509'
+    source: snowflake
+    channel: email
+schedule_type: time_based

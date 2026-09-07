@@ -1,0 +1,35 @@
+id: c6b82aba-bc18-4864-bf63-80c43c82378b
+name: 2025_04_05_HAV_PC_Before_After_People_Magazine
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: c6b82aba-bc18-4864-bf63-80c43c82378b
+dates:
+  send_date: '2025-04-05'
+  first_sent: '2025-04-04T19:20:21+00:00'
+  last_sent: '2025-04-05T18:15:04+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 28d8f442-46df-437c-b0cb-94025649eb5e
+  channel: email
+  name: Variant 1
+  subject: 'BEFORE & AFTER: Sunroom Edition'
+  preheader: 'Step inside. '
+- id: 831999d4-80a0-4a6f-be5e-e29931e098f4
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 201647
+  total_delivered: 197609
+  total_opens: 88911
+  total_clicks: 844
+  open_rate: 0.4409
+  click_rate: 0.0042
+  total_bounces: 5
+  total_unsubscribes: 271
+schedule_type: time_based
+_filename: 2025_04_05_hav_pc_before_after_people_magazine.yaml

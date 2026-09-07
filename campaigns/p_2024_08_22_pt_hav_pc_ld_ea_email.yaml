@@ -1,0 +1,33 @@
+id: bbaf2a61-642c-407f-b43f-c831ce04958f
+name: P_2024_08_22_PT_HAV_PC_LD_EA_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: bbaf2a61-642c-407f-b43f-c831ce04958f
+dates:
+  send_date: '2024-08-22'
+  first_sent: '2024-08-22T13:05:02+00:00'
+  last_sent: '2024-08-22T13:05:38+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: db54c953-4720-4fac-9aae-9a060b3d3ea9
+  channel: email
+  name: Variant 1
+  subject: LAST CHANCE! Early Access to 50% off
+- id: a569549e-78cd-4784-8c3e-25374668c016
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 33883
+  total_delivered: 33799
+  total_opens: 18429
+  total_clicks: 257
+  open_rate: 0.5439
+  click_rate: 0.0076
+  total_bounces: 1
+  total_unsubscribes: 132
+schedule_type: time_based
+_filename: p_2024_08_22_pt_hav_pc_ld_ea_email.yaml

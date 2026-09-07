@@ -1,0 +1,37 @@
+id: 92acf8c9-2db6-47ce-9d65-75536edec622
+name: P_SMS_2025_12_23_SF_Last_Minute_Gift
+brand: STF
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: 92acf8c9-2db6-47ce-9d65-75536edec622
+dates:
+  send_date: '2025-12-23'
+  inferred_send_type: local_time
+  first_sent: '2025-12-23T04:13:39+00:00'
+  last_sent: '2025-12-23T23:03:11+00:00'
+tags: []
+sends:
+- id: a21a2797-eec6-4ad6-9b42-dbe74b5f154c
+  channel: sms
+  name: Variant 1
+- id: a1ea69ca-7421-4ec1-94a4-11725c90d960
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 4240
+  total_delivered: 4164
+  total_opens: 0
+  total_clicks: 34
+  open_rate: 0.0
+  click_rate: 0.008
+  ga4:
+    sessions: 25
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.704858'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

@@ -1,0 +1,77 @@
+id: 2bf2ea5b-984d-490e-8f81-fb0bf08423e8
+name: P_EM_2025_11_11_ID_D_Black_Friday_EA_Launch
+brand: ID
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 2bf2ea5b-984d-490e-8f81-fb0bf08423e8
+dates:
+  send_date: '2025-11-11'
+  inferred_send_type: scheduled
+  first_sent: '2025-11-11T05:05:32+00:00'
+  last_sent: '2025-11-11T17:16:22+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 89110dba-9a2e-4252-a011-74429dea1c4d
+  channel: email
+  name: Variant 1
+  subject: We Just Couldn’t Wait for Black Friday…
+  preheader: 'Early Access Begins Today: Up to 30% Off'
+- id: f0b829ad-17f7-4c14-a6d7-16827019954f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 207624
+  total_delivered: 203812
+  total_opens: 95852
+  total_clicks: 1174
+  open_rate: 0.4617
+  click_rate: 0.0057
+  total_revenue: 359125.89
+  total_bounces: 6
+  total_unsubscribes: 267
+  ga4:
+    sessions: 2052
+    purchases: 12
+    revenue: 42122.58
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.327562'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-black-friday-cyber-monday-2025-11-13
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-11'
+    end_date: '2025-12-02'
+    discount: "25% Off $2999<\n30% Off $3000\nIncluding In Stock\n\nBlack Friday to\
+      \ Cyber Monday Only \n25% Off $2999<\n30% Off $3000-$3999\n35% Off $4000+\n\
+      Including In Stock"
+    type: null
+  - id: id-black-friday-cyber-monday-ea-2025-11-11
+    name: Black Friday / Cyber Monday (EA)
+    start_date: '2025-11-11'
+    end_date: '2025-11-12'
+    discount: "25% Off $2999<\n30% Off $3000\nIncluding In Stock\n\nBlack Friday to\
+      \ Cyber Monday Only \n25% Off $2999<\n30% Off $3000-$3999\n35% Off $4000+\n\
+      Including In Stock"
+    type: null
+  primary_sale:
+    id: id-black-friday-cyber-monday-2025-11-13
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-11'
+    end_date: '2025-12-02'
+    discount: "25% Off $2999<\n30% Off $3000\nIncluding In Stock\n\nBlack Friday to\
+      \ Cyber Monday Only \n25% Off $2999<\n30% Off $3000-$3999\n35% Off $4000+\n\
+      Including In Stock"
+    type: null
+  sale_name: Black Friday / Cyber Monday
+  sale_discount: "25% Off $2999<\n30% Off $3000\nIncluding In Stock\n\nBlack Friday\
+    \ to Cyber Monday Only \n25% Off $2999<\n30% Off $3000-$3999\n35% Off $4000+\n\
+    Including In Stock"
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:45.189842'
+schedule_type: time_based

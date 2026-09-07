@@ -1,0 +1,49 @@
+id: 8f180286-3ba1-4283-882c-e47db3b87c8c
+name: Test - Set Alias on Anonymous User 2
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 8f180286-3ba1-4283-882c-e47db3b87c8c
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2025-09-26T11:21:55+00:00'
+  last_sent: '2025-09-26T11:22:06+00:00'
+tags:
+- customer
+sends:
+- id: f217a7c7-9502-43ec-87a6-30aef2928760
+  channel: other
+  name: Variant 1
+- id: 8c096102-90a7-46d8-b300-cd71cd914c64
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-holiday-ready-sale-2025-09-18
+    name: Holiday-Ready Sale
+    start_date: '2025-09-18'
+    end_date: '2025-09-30'
+    discount: 20% off sitewide
+    type: null
+  primary_sale:
+    id: id-holiday-ready-sale-2025-09-18
+    name: Holiday-Ready Sale
+    start_date: '2025-09-18'
+    end_date: '2025-09-30'
+    discount: 20% off sitewide
+    type: null
+  sale_name: Holiday-Ready Sale
+  sale_discount: 20% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:30.152344'
+schedule_type: time_based

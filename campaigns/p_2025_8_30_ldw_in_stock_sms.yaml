@@ -1,0 +1,30 @@
+id: aaadd5df-ae1e-450e-ac9c-a8318cdd748d
+name: P_2025_8_30_LDW_In_Stock_SMS
+brand: ID
+channel: sms
+category: sale_promo
+type: announcement
+theme: null
+braze_id: aaadd5df-ae1e-450e-ac9c-a8318cdd748d
+dates:
+  send_date: '2025-08-30'
+  inferred_send_type: local_time
+  first_sent: '2025-08-30T01:11:40+00:00'
+  last_sent: '2025-08-31T00:05:22+00:00'
+tags: []
+sends:
+- id: a3b7725b-cbc3-4fb0-bf38-457d96d3b246
+  channel: other
+  name: Variant 1
+- id: cfe6e4fc-bf67-4965-8af6-1bb27746a1f1
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 53203
+  total_delivered: 51431
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 62624.0
+schedule_type: time_based

@@ -1,0 +1,42 @@
+id: b1daf807-2628-4247-a422-a526469fe62d
+name: P_EM_2026_02_16_CZ_PT_PR_Presidents_Day_Sale_Reminder
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: b1daf807-2628-4247-a422-a526469fe62d
+dates:
+  send_date: '2026-02-16'
+  inferred_send_type: local_time
+  first_sent: '2026-02-15T17:08:26+00:00'
+  last_sent: '2026-02-16T17:07:57+00:00'
+tags:
+- am
+- batch and blast
+- pt
+- sale
+- sale/presidentsday2026
+- sale_feat
+sends:
+- id: ea800c37-f5f3-48c7-a7c7-ccea293972ca
+  channel: email
+  name: Variant 1
+  subject: If It’s Been on Your Mind…
+  html_file: html/p_em_2026_02_16_cz_pt_pr_presidents_day_sale_reminder.html
+  screenshot: screenshots/p_em_2026_02_16_cz_pt_pr_presidents_day_sale_reminder.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f83def4631c700674e669c/original.png?1744322031
+- id: baa95f39-1e14-4dff-b487-d1c1d92defb0
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 114160
+  total_delivered: 113523
+  total_opens: 60659
+  total_clicks: 670
+  open_rate: 0.5314
+  click_rate: 0.0059
+  total_unsubscribes: 232
+_filename: p_em_2026_02_16_cz_pt_pr_presidents_day_sale_reminder.yaml
+schedule_type: time_based

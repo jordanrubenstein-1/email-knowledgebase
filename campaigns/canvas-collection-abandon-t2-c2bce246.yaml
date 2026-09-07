@@ -1,0 +1,33 @@
+id: c2bce246-65f1-40f6-adc6-b0c71101cb3d
+name: TRG_EM_2026_04_ID_D_Collection_Page_Abandon_T2_V1
+brand: ID
+channel: email
+category: product_launch
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 9ab577da-72e5-4f23-adfe-665afa9040c4
+canvas_name: Collection Abandon
+flow_type: browse_abandonment
+sequence_position: 2
+subject: Still on your mind?
+preheader: Every detail is yours to choose — fabric, finish, size. That's the difference.
+sends:
+- id: c2bce246-65f1-40f6-adc6-b0c71101cb3d
+  channel: email
+  name: TRG_EM_2026_04_ID_D_Collection_Page_Abandon_T2_V1
+  subject: Still on your mind?
+  preheader: Every detail is yours to choose — fabric, finish, size. That's the difference.
+  html_file: html/canvas-collection-abandon-t2-c2bce246.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-04-07T18:00:00Z'
+  last_sent: '2026-08-28T18:00:00Z'
+performance_summary:
+  total_sends: 8147
+  total_delivered: 8115
+  total_opens: 4670
+  total_clicks: 90
+  open_rate: 0.5732
+  click_rate: 0.011
+  total_unsubscribes: 19
+  total_revenue: 184957.91

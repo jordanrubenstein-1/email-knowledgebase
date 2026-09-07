@@ -1,0 +1,57 @@
+id: 3f6a986a-0944-4314-8bc3-637c682dec3d
+name: P_2025_03_24_D_STF_The_Spring_Event_Ending_Soon
+brand: STF
+channel: email
+category: reminder
+type: seasonal
+theme: spring
+braze_id: 3f6a986a-0944-4314-8bc3-637c682dec3d
+dates:
+  send_date: '2025-03-24'
+  inferred_send_type: local_time
+  first_sent: '2025-03-23T17:09:26+00:00'
+  last_sent: '2025-03-24T17:00:21+00:00'
+tags: []
+sends:
+- id: db548979-f1ad-42ab-b9af-c0677353220c
+  channel: email
+  name: Variant 1
+  subject: 'Ending Soon: Up To 25% Off Spring Favorites'
+  preheader: Just one day left to shop our Spring Event before it's out of season!
+  html_file: html/p_2025_03_24_d_stf_the_spring_event_ending_soon.html
+  screenshot: screenshots/p_2025_03_24_d_stf_the_spring_event_ending_soon.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dc5344c30f2f00647284c7/original.gif?1742492484
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dc538d694505007521c6fc/original.png?1742492557
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dc53690096a10077d628d9/original.png?1742492521
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dc53866defe10076d461e6/original.png?1742492550
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dc5380022ec600657a3042/original.png?1742492543
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dc5378d1427a00658b69f9/original.png?1742492536
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dc533a0096a10067d64754/original.png?1742492474
+- id: 08b9ba95-dc27-4540-b12e-6485c7045564
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 11176
+  total_delivered: 11058
+  total_opens: 6667
+  total_clicks: 147
+  open_rate: 0.5965
+  click_rate: 0.0132
+  total_revenue: 10653.0
+  total_bounces: 1
+  total_unsubscribes: 32
+  ga4:
+    sessions: 193
+    purchases: 9
+    revenue: 2902.33
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.703429'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.577896'
+schedule_type: time_based

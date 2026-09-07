@@ -1,0 +1,43 @@
+id: 9b9b880c-0e52-4e28-8a82-ceefe4d5fdb3
+name: P_2024_12_18_D_SF_PR_Gift_Card_Giveaway_Gmail_Email
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 9b9b880c-0e52-4e28-8a82-ceefe4d5fdb3
+dates:
+  send_date: '2024-12-18'
+  inferred_send_type: local_time
+  first_sent: '2024-12-18T00:23:55+00:00'
+  last_sent: '2024-12-18T16:00:20+00:00'
+tags: []
+sends:
+- id: e733f858-4afd-42bf-882b-86fbba9175dc
+  channel: email
+  name: Variant 1
+  subject: $1,000 Shopping Spree On Us ❤️‍🔥
+  preheader: let us know your favorite pattern for a chance to win
+- id: ee22790b-a57f-4f63-97ee-d64b1783fb10
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 703
+  total_delivered: 703
+  total_opens: 532
+  total_clicks: 20
+  open_rate: 0.7568
+  click_rate: 0.0284
+  ga4:
+    sessions: 30
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.093753'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.936592'
+schedule_type: time_based

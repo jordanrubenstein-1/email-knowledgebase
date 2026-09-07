@@ -1,0 +1,36 @@
+id: aa2f3dd3-ef4c-4516-b566-14a4cc18a016
+name: TRG_SMS_2025_04_01_CZ_D_Welcome_T1
+brand: CZ
+channel: sms
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: fa5f443d-568e-4267-9e17-e8a794649eba
+canvas_name: SMS Welcome
+flow_type: welcome_series
+sequence_position: 2
+body: 'The Citizenry: You''re on the list! You now have access to new collections,
+  insider perks, & more. Discover our best sellers:
+
+  https://www.the-citizenry.com/collections/all-best-sellers?utm_source=braze_CZ&utm_medium=sms&utm_campaign={{campaign.${name}}}&userid={{${user_id}}}'
+sends:
+- id: aa2f3dd3-ef4c-4516-b566-14a4cc18a016
+  channel: sms
+  name: TRG_SMS_2025_04_01_CZ_D_Welcome_T1
+  body: 'The Citizenry: You''re on the list! You now have access to new collections,
+    insider perks, & more. Discover our best sellers:
+
+    https://www.the-citizenry.com/collections/all-best-sellers?utm_source=braze_CZ&utm_medium=sms&utm_campaign={{campaign.${name}}}&userid={{${user_id}}}'
+dates:
+  send_date: '2025-04-01'
+  inferred_send_type: sto
+  first_sent: '2025-04-01T23:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 6779
+  total_delivered: 6695
+  total_clicks: 1737
+  click_rate: 0.2562
+  total_unsubscribes: 273
+  total_bounces: 26
+  total_revenue: 214578.2

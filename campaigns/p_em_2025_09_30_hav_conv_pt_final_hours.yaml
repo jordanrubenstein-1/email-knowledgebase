@@ -1,0 +1,35 @@
+id: 10a01a9c-1778-42cb-9277-8d53ae522ac4
+name: P_EM_2025_09_30_HAV_CONV_PT_FINAL_HOURS
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 10a01a9c-1778-42cb-9277-8d53ae522ac4
+dates:
+  send_date: '2025-09-30'
+  first_sent: '2025-09-30T01:22:25+00:00'
+  last_sent: '2025-10-01T01:15:19+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: ebc1156f-a189-444b-b150-1bea2b340990
+  channel: email
+  name: Variant 1
+  subject: It’s the final countdown…
+  preheader: …only hours left to save BIG
+- id: e45f25e8-be7a-41a2-b2b0-0398e761fac7
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41980
+  total_delivered: 41944
+  total_opens: 22780
+  total_clicks: 84
+  open_rate: 0.5426
+  click_rate: 0.002
+  total_bounces: 1
+  total_unsubscribes: 41
+schedule_type: time_based
+_filename: p_em_2025_09_30_hav_conv_pt_final_hours.yaml

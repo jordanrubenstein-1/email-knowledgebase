@@ -1,0 +1,58 @@
+id: klaviyo-01J1QGWQ881WDV5K41DEFPNVPS
+name: '7/3: Sale Reminder'
+brand: TI
+channel: email
+category: reminder
+type: sale
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2024-07-01'
+  inferred_send_type: scheduled
+  first_sent: '2024-07-03T07:15:00+00:00'
+  last_sent: '2024-07-03T07:15:00+00:00'
+sends:
+- id: 01J1QGWQC63TS3SYER780YS566
+  channel: email
+  name: '7/3: Sale Reminder'
+  subject: DAYS LEFT TO SAVE! 20% off everything
+  preheader: Checkout on sale while you still can.
+  html_file: html/73-sale-reminder.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/83ac3a72-8629-40e1-8103-37d6c4dcfb94.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/cc1cffeb-1497-49df-a176-b19f8e05f98b.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/9a1ce88a-2909-4458-83c4-37ae4d1a5e42.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/e56f0638-a901-48f6-87d7-cf36b39def7a.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/495fa303-b7a1-44d1-948d-223275b534f2.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/48f8b0bf-f674-4de6-83a6-f00ae0bfb57e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/07020191-5963-476f-b6d5-a302a430d56c.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/e0036767-8997-49b1-a066-9db45e949b7d.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/b398c3ca-c7f5-41f2-bedc-27a54cf334fb.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/68b9cf06-8d61-465a-a55b-dcd662d58012.jpeg
+  screenshot: screenshots/73-sale-reminder.png
+performance_summary:
+  total_sends: 104250
+  total_delivered: 103496
+  total_opens: 27740
+  total_clicks: 1887
+  unique_opens: 20511
+  unique_clicks: 812
+  open_rate: 0.1967
+  click_rate: 0.0078
+  total_open_rate: 0.2661
+  total_click_rate: 0.0181
+  total_unsubscribes: 37
+  total_bounces: 754
+klaviyo_type: campaign
+klaviyo_campaign_id: 01J1QGWQ881WDV5K41DEFPNVPS
+klaviyo_message_id: 01J1QGWQC63TS3SYER780YS566
+structure:
+  image_count: 19
+  link_count: 20
+  has_gif: false
+  hero_width: 600
+  layout_type: product_grid
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-03-12T11:18:50.105200'

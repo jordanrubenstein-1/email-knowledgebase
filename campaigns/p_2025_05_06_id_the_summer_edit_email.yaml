@@ -1,0 +1,47 @@
+id: f9fe0119-82ed-411f-b219-66f0e918be2d
+name: P_2025_05_06_ID_The_Summer_Edit_Email
+brand: ID
+channel: email
+category: editorial
+type: seasonal
+theme: summer
+braze_id: f9fe0119-82ed-411f-b219-66f0e918be2d
+dates:
+  send_date: '2025-05-06'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-06T06:46:20+00:00'
+  last_sent: '2025-05-06T17:15:24+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 8d4e07d8-dc19-4831-bf9c-a0088cc2a634
+  channel: email
+  name: Variant 1
+  subject: SUMMER'S CALLING
+  preheader: 'Shop the seasonal edit. '
+- id: 56cd1ab7-98db-45fc-b346-154677bcb406
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 158802
+  total_delivered: 156673
+  total_opens: 36900
+  total_clicks: 382
+  open_rate: 0.2324
+  click_rate: 0.0024
+  total_revenue: 114878.2
+  total_bounces: 7
+  total_unsubscribes: 111
+  ga4:
+    sessions: 429
+    purchases: 3
+    revenue: 9696.13
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.359024'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:45.801989'
+schedule_type: time_based

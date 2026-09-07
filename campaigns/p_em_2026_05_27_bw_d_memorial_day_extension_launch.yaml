@@ -1,0 +1,33 @@
+id: 8b156694-5794-4ed1-8ec6-8336da641d82
+name: P_EM_2026_05_27_BW_D_Memorial_Day_Extension_Launch
+brand: BUR
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 8b156694-5794-4ed1-8ec6-8336da641d82
+dates:
+  send_date: '2026-05-27'
+  last_sent: '2026-05-27'
+tags:
+- Batch&Blast
+sends:
+- id: 47d3cc47-8884-4d26-8f37-c95c73a1be8a
+  channel: email
+  name: Variant 1
+  subject: More sale, same savings
+  preheader: 'Shop through June 2: up to 50% off sitewide.'
+- id: 037a9e04-472a-45af-a51c-06d71eb34c15
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 67352
+  total_delivered: 67203
+  total_opens: 25936
+  total_clicks: 283
+  open_rate: 0.3851
+  click_rate: 0.0042
+  total_revenue: 22052.0
+  total_unsubscribes: 90
+schedule_type: time_based
+_filename: p_em_2026_05_27_bw_d_memorial_day_extension_launch.yaml

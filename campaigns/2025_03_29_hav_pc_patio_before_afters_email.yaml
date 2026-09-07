@@ -1,0 +1,35 @@
+id: 96223142-3a44-4a48-9d68-ee736f8514b7
+name: 2025_03_29_HAV_PC_Patio_Before_Afters_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 96223142-3a44-4a48-9d68-ee736f8514b7
+dates:
+  send_date: '2025-03-29'
+  first_sent: '2025-03-28T22:39:12+00:00'
+  last_sent: '2025-03-29T18:15:04+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 43970eba-0e5d-47cc-9547-4d401f5dd212
+  channel: email
+  name: Variant 1
+  subject: 'BEFORE & AFTER: Patio Edition'
+  preheader: Step inside 5 spaces.
+- id: a92700af-b5ec-4f4e-8c8b-761d6dc150de
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 198463
+  total_delivered: 194528
+  total_opens: 87822
+  total_clicks: 961
+  open_rate: 0.4425
+  click_rate: 0.0048
+  total_bounces: 2
+  total_unsubscribes: 297
+schedule_type: time_based
+_filename: 2025_03_29_hav_pc_patio_before_afters_email.yaml

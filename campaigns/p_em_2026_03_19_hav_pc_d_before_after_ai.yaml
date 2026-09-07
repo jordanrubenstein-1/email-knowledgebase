@@ -1,0 +1,35 @@
+id: 4d700a77-a818-4b33-9626-aae5d8efadd2
+name: P_EM_2026_03_19_HAV_PC_D_Before_After_AI
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 4d700a77-a818-4b33-9626-aae5d8efadd2
+dates:
+  send_date: '2026-03-19'
+  first_sent: '2026-03-19T03:34:23+00:00'
+  last_sent: '2026-03-20T00:03:07+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: ce326d3d-5af9-4bbb-8fb6-5b78cbf0e979
+  channel: email
+  name: Variant 1
+  subject: See the power of Havenly AI
+  preheader: And shop up to 35% off during our Birthday Sale.
+- id: 00fa702d-6757-451a-84b9-6bc67085735a
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 69160
+  total_delivered: 68528
+  total_opens: 31694
+  total_clicks: 337
+  open_rate: 0.4583
+  click_rate: 0.0049
+  total_bounces: 1
+  total_unsubscribes: 79
+schedule_type: time_based
+_filename: p_em_2026_03_19_hav_pc_d_before_after_ai.yaml

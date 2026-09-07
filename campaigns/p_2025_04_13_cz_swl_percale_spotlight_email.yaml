@@ -1,0 +1,89 @@
+id: 968a2779-dda6-4278-8ffe-ae6651416960
+name: P_2025_04_13_CZ_SWL_Percale_Spotlight_Email
+brand: CZ
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 968a2779-dda6-4278-8ffe-ae6651416960
+dates:
+  send_date: '2025-04-13'
+  inferred_send_type: local_time
+  first_sent: '2025-04-12T18:07:28+00:00'
+  last_sent: '2025-04-13T17:01:21+00:00'
+tags: []
+sends:
+- id: 00b6d9b3-05c7-4ee3-9e77-04feb3568fe2
+  channel: email
+  name: Variant 1
+  subject: The Bedding That Editors Swear By
+  preheader: Now in brand new hues.
+  html_file: html/p_2025_04_13_cz_swl_percale_spotlight_email.html
+  screenshot: screenshots/p_2025_04_13_cz_swl_percale_spotlight_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f97eec3833be00648f7eb1/original.png?1744404203
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f97ede5df2f300674ef606/original.png?1744404190
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f97efa0f03db009348e4f2/original.png?1744404218
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f97ed1ed4fd20065c94167/original.png?1744404176
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f97ec45df2f300674ef581/original.png?1744404163
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f97ec986298b006453e36b/original.png?1744404169
+- id: 9a24247a-d92f-4ff2-927e-7685494a5569
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 95212
+  total_delivered: 94387
+  total_opens: 50083
+  total_clicks: 595
+  open_rate: 0.526
+  click_rate: 0.0062
+  total_revenue: 78193.27
+  total_bounces: 1
+  total_unsubscribes: 115
+  ga4:
+    sessions: 708
+    purchases: 5
+    revenue: 1712.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.593823'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-citizenry-2025-04-11
+    name: The Citizenry
+    start_date: '2025-04-11'
+    end_date: '2025-04-13'
+    discount: 'Fresh Foundations
+
+      Up to 50% Off Select Rugs (tiered strikethrough)
+
+      15% Off Bedding, Pillows, and Accents (flat strikethrough)
+
+      No Trade Discount'
+    type: null
+  primary_sale:
+    id: cz-the-citizenry-2025-04-11
+    name: The Citizenry
+    start_date: '2025-04-11'
+    end_date: '2025-04-13'
+    discount: 'Fresh Foundations
+
+      Up to 50% Off Select Rugs (tiered strikethrough)
+
+      15% Off Bedding, Pillows, and Accents (flat strikethrough)
+
+      No Trade Discount'
+    type: null
+  sale_name: The Citizenry
+  sale_discount: 'Fresh Foundations
+
+    Up to 50% Off Select Rugs (tiered strikethrough)
+
+    15% Off Bedding, Pillows, and Accents (flat strikethrough)
+
+    No Trade Discount'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:44.253450'
+schedule_type: time_based

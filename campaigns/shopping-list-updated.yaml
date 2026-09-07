@@ -1,0 +1,25 @@
+id: dd257608-ae29-8f07-a4eb-41af564e9ab9
+name: Shopping List Updated
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: dd257608-ae29-8f07-a4eb-41af564e9ab9
+dates:
+  first_sent: '2025-01-08T19:00:00+00:00'
+  last_sent: '2025-01-08T19:00:00+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: fb206d93-3fcf-4394-96f0-5d4b994de4e6
+  channel: email
+  name: Variant 1
+  subject: '{{api_trigger_properties.${designer}}} added new products to your shopping
+    list!'
+- id: 9c5baaa3-049e-4510-9e5c-c5c84d94483e
+  channel: other
+  name: Control Group
+performance_summary: {}
+schedule_type: api_triggered
+_filename: shopping-list-updated.yaml

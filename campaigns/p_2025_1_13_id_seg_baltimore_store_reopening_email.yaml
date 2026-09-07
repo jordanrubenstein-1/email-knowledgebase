@@ -1,0 +1,43 @@
+id: 60cb9f67-884a-4367-a8c5-b11494e7943f
+name: P_2025_1_13_ID_Seg_Baltimore_Store_Reopening_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 60cb9f67-884a-4367-a8c5-b11494e7943f
+dates:
+  send_date: '2025-01-13'
+  inferred_send_type: scheduled
+  first_sent: '2025-01-14T21:55:19+00:00'
+  last_sent: '2025-01-14T21:56:05+00:00'
+tags: []
+sends:
+- id: 9f1f6712-26ac-490a-91a8-7f7cd9ea9ba6
+  channel: email
+  name: Variant 1
+  subject: Baltimore, Our Doors Are Open!
+  preheader: Come visit us at our new Harbor East studio.
+- id: 4b680f78-85dd-4f0c-be57-84613336393f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 900
+  total_delivered: 896
+  total_opens: 317
+  total_clicks: 8
+  open_rate: 0.3522
+  click_rate: 0.0089
+  ga4:
+    sessions: 16
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.372653'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:45.948081'
+schedule_type: time_based

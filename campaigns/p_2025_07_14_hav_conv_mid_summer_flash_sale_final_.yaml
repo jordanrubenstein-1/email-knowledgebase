@@ -1,0 +1,48 @@
+id: e4513640-8de7-42f0-adcb-d9010361b939
+name: P_2025_07_14_HAV_Conv_Mid_Summer_Flash_Sale_Final_Hours_PT
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: summer
+braze_id: e4513640-8de7-42f0-adcb-d9010361b939
+dates:
+  send_date: '2025-07-14'
+  inferred_send_type: local_time
+  first_sent: '2025-07-13T18:20:50+00:00'
+  last_sent: '2025-07-14T17:15:10+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: acb6290e-6284-45fe-834a-4d196cbf3f60
+  channel: email
+  name: Variant 1
+  subject: Last call for Flash Sale Savings...
+  html_file: html/p_2025_07_14_hav_conv_mid_summer_flash_sale_final_hours_pt.html
+  screenshot: screenshots/p_2025_07_14_hav_conv_mid_summer_flash_sale_final_hours_pt.png
+  image_urls:
+  - https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/c731630f24214e43807c7369ca8ebacd/Havenly_Wordmark_RGB_Charcoal_Brown%20%281%29.png
+- id: eed3b03d-da3f-4751-835c-5081530f0d44
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 40640
+  total_delivered: 40554
+  total_opens: 22239
+  total_clicks: 158
+  open_rate: 0.5472
+  click_rate: 0.0039
+  total_unsubscribes: 67
+  ga4:
+    sessions: 167
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.785484'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.489621'
+schedule_type: time_based

@@ -1,0 +1,36 @@
+id: 1ca95759-1039-4cac-add2-cec65715479f
+name: P_EM_2026_08_19_ID_PC_D_Labor_Day_Sale_Instore_Callout
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 1ca95759-1039-4cac-add2-cec65715479f
+dates:
+  send_date: '2026-08-19'
+  first_sent: '2026-08-19T00:36:51+00:00'
+  last_sent: '2026-08-19T12:00:00+00:00'
+  inferred_send_type: scheduled
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 91d74b9e-6180-44d4-9702-6341ecfd868c
+  channel: email
+  name: Variant 1
+  subject: Come See It In Person
+  preheader: Swatches, styling advice, and furniture you can actually sit on — find
+    your local showroom.
+- id: 925be116-999b-49bd-b6e9-0d241321fe19
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 35635
+  total_delivered: 35579
+  total_opens: 14485
+  total_clicks: 214
+  open_rate: 0.4065
+  click_rate: 0.006
+  total_revenue: 151235.0
+  total_unsubscribes: 35
+schedule_type: time_based
+_filename: p_em_2026_08_19_id_pc_d_labor_day_sale_instore_callout.yaml

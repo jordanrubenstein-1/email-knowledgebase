@@ -1,0 +1,35 @@
+id: 749d6e7e-fdc8-4d3d-b594-703386e5ed16
+name: P_EM_2025_12_02_HAV_PC_AM_Giving_Tuesday
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 749d6e7e-fdc8-4d3d-b594-703386e5ed16
+dates:
+  send_date: '2025-12-02'
+  first_sent: '2025-12-01T17:49:33+00:00'
+  last_sent: '2025-12-02T18:15:19+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 40627b98-fa4d-4bf2-8af4-cfdde8e7dd22
+  channel: email
+  name: Variant 1
+  subject: 'Havenly x Foster Love: Give Love This Giving Tuesday'
+  preheader: We extended Cyber Week to make it easier to give!
+- id: d1e4f750-c09a-4f7d-add0-eab18ba6ed90
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 253358
+  total_delivered: 252592
+  total_opens: 100978
+  total_clicks: 361
+  open_rate: 0.3986
+  click_rate: 0.0014
+  total_bounces: 6
+  total_unsubscribes: 612
+schedule_type: time_based
+_filename: p_em_2025_12_02_hav_pc_am_giving_tuesday.yaml

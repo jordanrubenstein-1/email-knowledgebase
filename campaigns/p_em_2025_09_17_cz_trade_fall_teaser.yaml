@@ -1,0 +1,61 @@
+id: 84be2c3a-851d-4a9c-8b3f-64c38fe187f6
+name: P_EM_2025_09_17_CZ_TRADE_Fall_Teaser
+brand: CZ
+channel: email
+category: other
+type: seasonal
+theme: fall
+braze_id: 84be2c3a-851d-4a9c-8b3f-64c38fe187f6
+dates:
+  send_date: '2025-09-17'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-17T17:45:13+00:00'
+  last_sent: '2025-09-17T17:46:03+00:00'
+tags: []
+sends:
+- id: 27cfdd91-b04c-47b8-a7cf-1ed15eabc4a8
+  channel: email
+  name: Variant 1
+  subject: Your First Look at The Citizenry Fall 2025
+  preheader: A new season of craft lands 09.22.25.
+- id: b928e6d7-d71e-4c74-9878-64c485ba2378
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 19974
+  total_delivered: 19386
+  total_opens: 10182
+  total_clicks: 157
+  open_rate: 0.5098
+  click_rate: 0.0079
+  total_revenue: 89231.0
+  total_bounces: 1
+  total_unsubscribes: 29
+  ga4:
+    sessions: 191
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.708045'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-bedroom-refresh-sale-2025-09-15
+    name: Bedroom Refresh Sale
+    start_date: '2025-09-15'
+    end_date: '2025-09-22'
+    discount: 20% Off Bedding, Rugs, and Furniture
+    type: null
+  primary_sale:
+    id: cz-bedroom-refresh-sale-2025-09-15
+    name: Bedroom Refresh Sale
+    start_date: '2025-09-15'
+    end_date: '2025-09-22'
+    discount: 20% Off Bedding, Rugs, and Furniture
+    type: null
+  sale_name: Bedroom Refresh Sale
+  sale_discount: 20% Off Bedding, Rugs, and Furniture
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:34.133391'

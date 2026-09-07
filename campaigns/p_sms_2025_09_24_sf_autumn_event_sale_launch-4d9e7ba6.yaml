@@ -1,0 +1,30 @@
+id: 4d9e7ba6-cfc2-407c-8ccd-4c68d9c67f3e
+name: P_SMS_2025_09_24_SF_Autumn_Event_Sale_Launch
+brand: STF
+channel: sms
+category: product_launch
+type: sale
+theme: fall
+braze_id: 4d9e7ba6-cfc2-407c-8ccd-4c68d9c67f3e
+dates:
+  send_date: '2025-09-24'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-24T17:44:47+00:00'
+  last_sent: '2025-09-24T22:01:17+00:00'
+tags: []
+sends:
+- id: 5add85c2-1d25-4709-a095-226b0377a313
+  channel: sms
+  name: Variant 1
+- id: ab4ce0e2-b364-4b9e-9b42-df3286ca84c5
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 4631
+  total_delivered: 4493
+  total_opens: 0
+  total_clicks: 197
+  open_rate: 0.0
+  click_rate: 0.0425
+_filename: p_sms_2025_09_24_sf_autumn_event_sale_launch-4d9e7ba6.yaml
+schedule_type: time_based

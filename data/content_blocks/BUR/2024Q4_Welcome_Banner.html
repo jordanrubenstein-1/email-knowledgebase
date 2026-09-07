@@ -1,0 +1,13 @@
+{% assign sale_reg_start = "2025-11-13 05:00:00" | date: "%s" %}{% assign sale_reg_end       = "2025-12-02 05:00:00" | date: "%s" %}{% assign sale_end       = "2025-12-10 05:00:00" | date: "%s" %}{% assign now        = 'now' | date: "%s" %}{% if now >= sale_reg_start and now <= sale_reg_end %} <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+        <tr>
+        <td align="center" style="width: 100%"><a target="_blank" rel="noopener noreferrer"  href="https://burrow.com?lid={{${cblid} | lid: '6elrc129l8gy'}}"><img alt="The Black Friday Sale. Up To 40% Off Sitewide." width="600" style="display: block; width: 100%; max-width: 100%; font-size: 20px; font-family: Arial, 'sans-serif'; color: #383633; background-color: #FFFFFF;" border="0" src="https://braze-images.com/appboy/communication/assets/image_assets/images/6925cb2802273a0063126e23/original.png?1764084520" /></a></td>
+      </tr>
+      </table>{% elsif now >= sale_reg_end and now <= sale_end %} <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+        <tr>
+        <td align="center" style="width: 100%"><a target="_blank" rel="noopener noreferrer"  href="https://burrow.com?lid={{${cblid} | lid: '5e4gocn1eseo'}}"><img alt="Cyber Week Sale: Up To 40% Off Plus Free Shipping." width="600" style="display: block; width: 100%; max-width: 100%; font-size: 20px; font-family: Arial, 'sans-serif'; color: #383633; background-color: #FFFFFF;" border="0" src="https://braze-images.com/appboy/communication/assets/image_assets/images/692dbe737e2c810064e4c761/original.png?1764605555" /></a></td>
+      </tr>
+      </table>{% else %}<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+        <tr>
+        <td align="center" style="width: 100%"><a target="_blank" rel="noopener noreferrer"  href="https://burrow.com?lid={{${cblid} | lid: 'alfvysbheuok'}}"><img alt="Free Shipping On Orders $1500+. Use Code: BUR0125TG2RM" width="600" style="display: block; width: 100%; max-width: 100%; font-size: 20px; font-family: Arial, 'sans-serif'; color: #383633; background-color: #FFFFFF;" border="0" src="https://braze-images.com/appboy/communication/assets/image_assets/images/6930f658a98f7e007326cc19/original.png?1764816472" /></a></td>
+      </tr>
+      </table>{% endif %}

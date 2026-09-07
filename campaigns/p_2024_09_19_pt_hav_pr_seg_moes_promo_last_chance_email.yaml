@@ -1,0 +1,32 @@
+id: 4fd959e1-2db4-4195-a997-3fa6a210f5ac
+name: P_2024_09_19_PT_HAV_PR_Seg_Moes_Promo_Last_Chance_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 4fd959e1-2db4-4195-a997-3fa6a210f5ac
+dates:
+  send_date: '2024-09-19'
+  first_sent: '2024-09-19T01:07:55+00:00'
+  last_sent: '2024-09-19T17:15:01+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 15a1b52d-4f19-4bf2-81d7-263981c392fd
+  channel: email
+  name: Variant 1
+  subject: 'ENDING SOON: 20% Off Moes Home Collection'
+- id: 666353e8-d856-4a15-9a5c-176dcc97228a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 3131
+  total_delivered: 3126
+  total_opens: 1809
+  total_clicks: 59
+  open_rate: 0.5778
+  click_rate: 0.0188
+  total_unsubscribes: 14
+schedule_type: time_based
+_filename: p_2024_09_19_pt_hav_pr_seg_moes_promo_last_chance_email.yaml

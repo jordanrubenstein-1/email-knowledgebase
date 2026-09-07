@@ -1,0 +1,30 @@
+id: 3cf84653-420f-4ca2-a62e-590df2ffc4cd
+name: P_2025_6_02_ID_MDW_Extension_Last_Chance_SMS
+brand: ID
+channel: sms
+category: reminder
+type: announcement
+theme: null
+braze_id: 3cf84653-420f-4ca2-a62e-590df2ffc4cd
+dates:
+  send_date: '2025-06-02'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-02T20:58:16+00:00'
+  last_sent: '2025-06-02T21:00:16+00:00'
+tags: []
+sends:
+- id: 5216e009-9fde-4138-a0ee-ca676cdd0534
+  channel: other
+  name: Variant 1
+- id: d17cf347-9f28-476b-946a-676b782f7be4
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 58146
+  total_delivered: 54512
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 11120.0
+schedule_type: time_based

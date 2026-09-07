@@ -1,0 +1,33 @@
+id: c936cf03-64da-4009-9ed0-215be5b5def7
+name: TRG_EM_2026_04_ID_D_Swatch_Visit_Store_T4_V1
+brand: ID
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 9ac09497-6f79-498b-b320-e44a784c3340
+canvas_name: Swatch Post Purchase
+flow_type: post_purchase
+sequence_position: 4
+subject: Your free design consultation
+preheader: Book time with an Interior Define expert.
+sends:
+- id: c936cf03-64da-4009-9ed0-215be5b5def7
+  channel: email
+  name: TRG_EM_2026_04_ID_D_Swatch_Visit_Store_T4_V1
+  subject: Your free design consultation
+  preheader: Book time with an Interior Define expert.
+  html_file: html/canvas-swatch-post-purchase-t4-c936cf03.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-04-28T21:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 7724
+  total_delivered: 7657
+  total_opens: 3625
+  total_clicks: 58
+  open_rate: 0.4693
+  click_rate: 0.0075
+  total_unsubscribes: 36
+  total_revenue: 250993.94

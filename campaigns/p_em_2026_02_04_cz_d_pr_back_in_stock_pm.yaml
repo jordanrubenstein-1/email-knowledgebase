@@ -1,0 +1,41 @@
+id: e1c67979-55c0-472a-94fe-9aef072a5f61
+name: P_EM_2026_02_04_CZ_D_PR_Back_In_Stock_PM
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: e1c67979-55c0-472a-94fe-9aef072a5f61
+dates:
+  send_date: '2026-02-04'
+  inferred_send_type: local_time
+  first_sent: '2026-02-04T02:09:11+00:00'
+  last_sent: '2026-02-05T02:02:12+00:00'
+tags:
+- batch and blast
+- d2c
+- designed
+- instock
+- pm
+sends:
+- id: aa1e751c-d1ea-476a-b2e6-51ef13dcd5ed
+  channel: email
+  name: Variant 1
+  subject: Back in Stock
+  preheader: The pieces you’ve been waiting for have returned.
+  html_file: html/p_em_2026_02_04_cz_d_pr_back_in_stock_pm.html
+  screenshot: screenshots/p_em_2026_02_04_cz_d_pr_back_in_stock_pm.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698108db9c1e000064cab0ff/original.png?1770064090
+- id: 0724b234-95e7-429e-8fa4-95e9f0289072
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 55881
+  total_delivered: 55806
+  total_opens: 29675
+  total_clicks: 1686
+  open_rate: 0.531
+  click_rate: 0.0302
+  total_unsubscribes: 72
+schedule_type: time_based

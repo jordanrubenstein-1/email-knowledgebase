@@ -1,0 +1,33 @@
+id: 1518a687-d0b6-42c7-afca-7747b412241a
+name: P_2025_3_7_HAV_Dallas_CZ_Store_Opening_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 1518a687-d0b6-42c7-afca-7747b412241a
+dates:
+  send_date: '2025-03-07'
+  first_sent: '2025-03-07T19:20:25+00:00'
+  last_sent: '2025-03-07T19:20:46+00:00'
+  inferred_send_type: scheduled
+tags:
+- BLASTS-2025
+sends:
+- id: ebbfcb9c-916e-4a98-8256-6c83ffa62662
+  channel: email
+  name: Variant 1
+  subject: Dallas, come celebrate The Citizenry's new store!
+- id: 0eb87d2f-14e9-4474-9219-9cd77dd3eafb
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 3293
+  total_delivered: 3247
+  total_opens: 1717
+  total_clicks: 37
+  open_rate: 0.5214
+  click_rate: 0.0112
+  total_unsubscribes: 32
+schedule_type: time_based
+_filename: p_2025_3_7_hav_dallas_cz_store_opening_email.yaml

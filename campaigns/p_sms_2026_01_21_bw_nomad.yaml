@@ -1,0 +1,38 @@
+id: 24427cda-4928-4fa6-8d19-c625d7cac984
+name: P_SMS_2026_01_21_BW_Nomad
+brand: BUR
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: 24427cda-4928-4fa6-8d19-c625d7cac984
+dates:
+  send_date: '2026-01-21'
+  inferred_send_type: local_time
+  first_sent: '2026-01-21T01:08:27+00:00'
+  last_sent: '2026-01-22T01:01:32+00:00'
+tags: []
+sends:
+- id: d2f9f462-4012-4d88-afeb-640b07681f6c
+  channel: sms
+  name: Variant 1
+- id: 3f91954e-4a48-4671-8837-b6907189935d
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 6557
+  total_delivered: 6459
+  total_opens: 0
+  total_clicks: 304
+  open_rate: 0.0
+  click_rate: 0.0464
+  total_revenue: 5526.0
+  ga4:
+    sessions: 243
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.460548'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

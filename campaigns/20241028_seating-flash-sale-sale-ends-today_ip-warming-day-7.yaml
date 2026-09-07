@@ -1,0 +1,26 @@
+id: 4c0ede8c-0698-4b21-904c-84de269d6f1d
+name: 20241028_Seating-Flash-Sale-Sale-Ends-Today_IP-Warming-Day-7
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 4c0ede8c-0698-4b21-904c-84de269d6f1d
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2024-10-28T15:00:06+00:00'
+  last_sent: '2024-10-28T15:03:43+00:00'
+tags:
+- IP Warming
+sends:
+- id: 7c17e06e-d7ea-4d94-81a0-a0964784d978
+  channel: email
+  name: Variant 1
+  subject: Time is running out on our seating flash sale
+  preheader: Don't miss out on 20% savings.
+- id: b3779cb5-e32d-44b7-8677-37e4e4ba6465
+  channel: other
+  name: Control Group
+performance_summary: {}
+_filename: 20241028_seating-flash-sale-sale-ends-today_ip-warming-day-7.yaml
+schedule_type: time_based

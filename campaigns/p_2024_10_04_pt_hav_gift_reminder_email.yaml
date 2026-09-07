@@ -1,0 +1,33 @@
+id: 3cf8b0d8-fba9-46d3-9c62-035c6e303447
+name: P_2024_10_04_PT_HAV_GIFT_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 3cf8b0d8-fba9-46d3-9c62-035c6e303447
+dates:
+  send_date: '2024-10-04'
+  first_sent: '2024-10-04T16:35:08+00:00'
+  last_sent: '2024-10-05T00:15:03+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: d2b491ba-3a1b-4e0a-8c67-594856779ded
+  channel: email
+  name: Variant 1
+  subject: '$50 Off Ends Tomorrow—Let’s Design Your Next Room! '
+- id: 4e9d72e8-8a2b-4da9-be10-77fdb833f235
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 9008
+  total_delivered: 8999
+  total_opens: 5341
+  total_clicks: 52
+  open_rate: 0.5929
+  click_rate: 0.0058
+  total_bounces: 1
+  total_unsubscribes: 31
+schedule_type: time_based
+_filename: p_2024_10_04_pt_hav_gift_reminder_email.yaml

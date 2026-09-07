@@ -1,0 +1,23 @@
+id: a69655b1-cd71-4414-8f1a-3384f42cc2a3
+name: P_PUSH_01_26_2026_HAV_PC_Winter_Warm_Up
+brand: HAV
+channel: push
+category: other
+type: seasonal
+theme: winter
+braze_id: a69655b1-cd71-4414-8f1a-3384f42cc2a3
+dates:
+  first_sent: '2026-01-26T20:08:31+00:00'
+  last_sent: '2026-01-27T00:02:52+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: f733e0a8-ba58-4b6d-848f-2edebc208fbc
+  channel: push
+  name: Variant 1
+- id: 0b5e7afa-d3c4-4bb5-abfa-2d21913271c9
+  channel: push
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: p_push_01_26_2026_hav_pc_winter_warm_up.yaml

@@ -1,0 +1,75 @@
+id: d226a2ac-e289-45cf-a21d-254b3b0d6b38
+name: P_2025_05_02_BW_Weekender_Sale_Launch
+brand: BUR
+channel: email
+category: product_launch
+type: sale
+theme: null
+braze_id: d226a2ac-e289-45cf-a21d-254b3b0d6b38
+dates:
+  send_date: '2025-05-02'
+  inferred_send_type: local_time
+  first_sent: '2025-05-01T18:20:08+00:00'
+  last_sent: '2025-05-02T17:15:20+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 52ab6dd1-575c-4fe7-9032-887353f7d1ec
+  channel: email
+  name: Variant 1
+  subject: 20% off sitewide! This weekend only
+  preheader: Shop our Weekender Flash Sale
+- id: b3ac617b-9f0f-44dc-9e17-de6e0c8eafb3
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 248648
+  total_delivered: 247015
+  total_opens: 84410
+  total_clicks: 389
+  open_rate: 0.3395
+  click_rate: 0.0016
+  total_revenue: 49615.0
+  total_bounces: 5
+  total_unsubscribes: 69
+  ga4:
+    sessions: 357
+    purchases: 1
+    revenue: 2694.07
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.167296'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:38.512489'
+schedule_type: time_based

@@ -1,0 +1,167 @@
+# Email Knowledgebase Schema
+# This file defines the data structures used throughout the knowledgebase.
+# It serves as documentation for AI assistants and humans alike.
+
+version: "1.0"
+
+entities:
+
+  campaign:
+    description: "A marketing promotion or event containing one or more sends"
+    location: "campaigns/{id}.yaml"
+    fields:
+      id:
+        type: string
+        required: true
+        description: "Unique identifier, typically {year}-{name-slug}"
+        example: "2024-fall-sale"
+      name:
+        type: string
+        required: true
+        description: "Human-readable campaign name"
+      type:
+        type: enum
+        required: true
+        values: [sale, seasonal, product_launch, lifecycle, announcement]
+        description: "Primary campaign category"
+      theme:
+        type: string
+        description: "Visual/messaging theme (e.g., fall, christmas, summer)"
+      dates:
+        type: object
+        fields:
+          start: { type: date, description: "First send date" }
+          end: { type: date, description: "Last send date" }
+      promotion:
+        type: object
+        description: "For sale campaigns, the offer details"
+        fields:
+          type: { type: enum, values: [percent_off, dollar_off, bogo, free_shipping, gift_with_purchase] }
+          value: { type: string, example: "25%" }
+          code: { type: string, description: "Promo code if applicable" }
+      tags:
+        type: list[string]
+        description: "Searchable tags for categorization"
+      sends:
+        type: list[send]
+        description: "All individual sends in this campaign"
+      performance_summary:
+        type: object
+        fields:
+          total_revenue: { type: number }
+          top_performer: { type: string, description: "Send ID of best performer" }
+          learnings: { type: string, description: "Key takeaways from this campaign" }
+          ga4:
+            type: object
+            description: "GA4 conversion metrics (sessions, purchases, revenue)"
+            fields:
+              sessions: { type: number, description: "Total sessions attributed to this campaign" }
+              purchases: { type: number, description: "Total purchases attributed to this campaign" }
+              revenue: { type: number, description: "Total revenue attributed to this campaign" }
+              attribution_window_days: { type: number, description: "Attribution window used (e.g., 7, 14, 30)" }
+              last_synced: { type: datetime, description: "Timestamp of last GA4 data sync" }
+
+  send:
+    description: "An individual email, SMS, or push notification"
+    fields:
+      id:
+        type: string
+        required: true
+        description: "Unique within campaign"
+      channel:
+        type: enum
+        required: true
+        values: [email, sms, push]
+      send_date:
+        type: date
+        required: true
+      send_time:
+        type: string
+        description: "Time of day if relevant (e.g., '9:00 AM EST')"
+      subject:
+        type: string
+        description: "Email subject line"
+      preheader:
+        type: string
+        description: "Email preheader text"
+      body:
+        type: string
+        description: "For SMS/push, the message body"
+      template_ref:
+        type: string
+        description: "Reference to template ID"
+      images_needed:
+        type: list[string]
+        description: "Image slots that need updating for this send"
+      audience:
+        type: string
+        description: "Target segment description"
+      metrics:
+        type: object
+        fields:
+          send_count: { type: number }
+          delivered: { type: number }
+          open_rate: { type: number, description: "Decimal (0.32 = 32%)" }
+          click_rate: { type: number }
+          conversion_rate: { type: number }
+          revenue: { type: number }
+          unsubscribes: { type: number }
+
+  template:
+    description: "A reusable email template structure"
+    location: "templates/{id}.yaml"
+    fields:
+      id:
+        type: string
+        required: true
+      name:
+        type: string
+        required: true
+      type:
+        type: enum
+        values: [email, sms, push]
+      use_case:
+        type: string
+        description: "When to use this template"
+      structure:
+        type: list[object]
+        description: "Ordered list of content blocks"
+      image_slots:
+        type: list[object]
+        description: "Images that need to be provided"
+        fields:
+          name: { type: string }
+          dimensions: { type: string }
+          notes: { type: string }
+      example_campaigns:
+        type: list[string]
+        description: "Campaign IDs where this template was used"
+
+  playbook:
+    description: "A reusable campaign pattern/strategy"
+    location: "playbooks/{id}.yaml"
+    fields:
+      id:
+        type: string
+        required: true
+      name:
+        type: string
+        required: true
+      description:
+        type: string
+      channels:
+        type: list[enum]
+        values: [email, sms, push]
+      duration:
+        type: string
+        description: "Typical length (e.g., '5 days', '1 week')"
+      timeline:
+        type: list[object]
+        description: "Day-by-day send schedule"
+      best_practices:
+        type: list[string]
+      example_campaigns:
+        type: list[string]
+
+# Creative library files use flexible structures organized by category/theme
+# See creative/subject-lines.yaml and creative/preheaders.yaml for examples

@@ -1,0 +1,122 @@
+<!DOCTYPE html><html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en"><head><title></title><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><!--[if mso]>
+<xml><w:WordDocument xmlns:w="urn:schemas-microsoft-com:office:word"><w:DontUseAdvancedTypographyReadingMail/></w:WordDocument>
+<o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch><o:AllowPNG/></o:OfficeDocumentSettings></xml>
+<![endif]--><!--[if !mso]><!--><!--<![endif]--><style>
+*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0} @media (max-width:620px){.mobile_hide{display:none}.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide table{display:table!important;max-height:none!important}}
+</style><!--[if mso ]><style>sup, sub { font-size: 100% !important; } sup { mso-text-raise:10% } sub { mso-text-raise:-10% }</style> <![endif]--></head><body class="body" style="background-color:#fff;margin:0;padding:0;-webkit-text-size-adjust:none;text-size-adjust:none"><table class="nl-container" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;background-color:#fff"><tbody><tr><td><table class="row row-1" align="center" 
+width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tbody><tr><td><table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;color:#000;width:600px;margin:0 auto" width="600"><tbody><tr><td class="column column-1" width="100%" style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top"><table 
+class="html_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad"><div style="font-family:Arial,Arial,Sans-serif;text-align:center" align="center">{{content_blocks.${MASTER_HEADER} | id: 'cb1'}}
+{%- assign raw_url = canvas_entry_properties.${event_source_url} | default: canvas_entry_properties.${url} -%}
+{%- assign base = raw_url | split:'?' | first -%}
+
+{%- assign kept_qs = "" -%}
+
+{%- if raw_url contains "?" -%}
+  {%- assign query = raw_url | split:'?' | last -%}
+  {%- assign pairs = query | split:'&' -%}
+
+  {%- for pair in pairs -%}
+    {%- assign kv = pair | split:'=' -%}
+    {%- assign k = kv[0] -%}
+
+    {%- comment -%} Whitelist ONLY product option params {%- endcomment -%}
+    {%- if k == "Fabric"
+        or k == "Leg+Finish"
+        or k == "Arm+Style"
+        or k == "Wood+Finish"
+        or k == "Color"
+        or k == "Size"
+        or k == "Shape"
+    -%}
+      {%- if kept_qs != "" -%}{%- assign kept_qs = kept_qs | append:'&' -%}{%- endif -%}
+      {%- assign kept_qs = kept_qs | append: pair -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
+
+{%- comment -%}
+If there are no variants, just use the base URL (no trailing "?")
+{%- endcomment -%}
+{%- if kept_qs != "" -%}
+  {%- assign product_link = base | append:'?' | append: kept_qs -%}
+{%- else -%}
+  {%- assign product_link = base -%}
+{%- endif -%}</div></td></tr></table></td></tr></tbody></table></td></tr></tbody></table><table class="row row-2" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" 
+style="mso-table-lspace:0;mso-table-rspace:0"><tbody><tr><td><table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;background-color:#f7eee3;border-radius:0;color:#000;width:600px;margin:0 auto" width="600"><tbody><tr><td class="column column-1" width="100%" style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top"><table class="image_block block-1" 
+width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad" style="width:100%"><div class="alignment" align="center"><div style="max-width:600px"><a href="https://burrow.com/?lid=57itoofomls7" target="_blank"><img src="https://braze-images.com/appboy/communication/assets/image_assets/images/698e10f9e197410063d93283/original.png?1770918136" style="display:block;height:auto;border:0;width:100%" 
+width="600" alt="Burrow" title="Burrow" height="auto"></a></div></div></td></tr></table></td></tr></tbody></table></td></tr></tbody></table><table class="row row-3" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tbody><tr><td><table class="row-content" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" 
+style="mso-table-lspace:0;mso-table-rspace:0;background-color:#f7eee3;border-radius:0;color:#000;width:600px;margin:0 auto" width="600"><tbody><tr><td class="column column-1" width="25%" style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top"><table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad" style="width:100%"><div 
+class="alignment" align="center"><div style="max-width:150px"><a href="https://burrow.com/seating?lid=nz9hfgupqu7w" target="_blank"><img src="https://braze-images.com/appboy/communication/assets/image_assets/images/698e2a34c429fa006537a906/original.png?1770924595" style="display:block;height:auto;border:0;width:100%" width="150" alt="Seating" title="Seating" height="auto"></a></div></div></td></tr></table></td><td class="column column-2" width="25%" 
+style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top"><table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad" style="width:100%"><div class="alignment" align="center"><div style="max-width:150px"><a href="https://burrow.com/dining?lid=ci1o3tualzgv" target="_blank"><img 
+src="https://braze-images.com/appboy/communication/assets/image_assets/images/698e2a41a2b1a70063bc058a/original.png?1770924609" style="display:block;height:auto;border:0;width:100%" width="150" alt="Dining" title="Dining" height="auto"></a></div></div></td></tr></table></td><td class="column column-3" width="25%" style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top"><table class="image_block block-1" width="100%" border="0" cellpadding="0" 
+cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad" style="width:100%"><div class="alignment" align="center"><div style="max-width:150px"><a href="https://burrow.com/bedroom?lid=122bdy0l99oi" target="_blank"><img src="https://braze-images.com/appboy/communication/assets/image_assets/images/698e2a497b12830063c84478/original.png?1770924617" style="display:block;height:auto;border:0;width:100%" width="150" alt="Bedroom" title="Bedroom" 
+height="auto"></a></div></div></td></tr></table></td><td class="column column-4" width="25%" style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top"><table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad" style="width:100%"><div class="alignment" align="center"><div style="max-width:150px">
+<a href="https://burrow.com/storage?lid=cbr1lf3kon6c" target="_blank"><img src="https://braze-images.com/appboy/communication/assets/image_assets/images/698e2a51dd4d7600658992bf/original.png?1770924624" style="display:block;height:auto;border:0;width:100%" width="150" alt="Storage" title="Storage" height="auto"></a></div></div></td></tr></table></td></tr></tbody></table></td></tr></tbody></table><table class="row row-4" align="center" width="100%" border="0" cellpadding="0" 
+cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tbody><tr><td><table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;background-color:#f7eee3;border-radius:0;color:#000;width:600px;margin:0 auto" width="600"><tbody><tr><td class="column column-1" width="100%" style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top"><table 
+class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad" style="width:100%"><div class="alignment" align="center"><div style="max-width:600px"><a href="https://burrow.com/?lid=bi7x59d44voc" target="_blank"><img src="https://braze-images.com/appboy/communication/assets/image_assets/images/698f229153991e00631b0eac/original.png?1770988176" 
+style="display:block;height:auto;border:0;width:100%" width="600" alt="Burrow" title="Burrow" height="auto"></a></div></div></td></tr></table></td></tr></tbody></table></td></tr></tbody></table><table class="row row-5" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tbody><tr><td><table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" 
+style="mso-table-lspace:0;mso-table-rspace:0;background-color:#f7eee3;border-radius:0;color:#000;width:600px;margin:0 auto" width="600"><tbody><tr><td class="column column-1" width="100%" style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top"><table class="html_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad"><div 
+style="font-family:Arial,Arial,Sans-serif;text-align:center" align="center"><table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:600px; background-color:#681818;">
+  <tr>
+    <td align="center" style="padding:25px 15px 15px 15px;">
+
+      <!-- White Product Card -->
+      <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:542px;">
+        <tr>
+          <td align="center" valign="top" style="background-color:#F4F3F1; border-radius:10px; padding:25px 15px;">
+
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:430px;">
+
+              <!-- Product Image -->
+              <tr>
+                <td align="center" style="padding:0 0 15px 0;">
+                  <a target="_blank" rel="noopener noreferrer" href="{{ product_link }}?lid=fzjqvbpyoewy">
+                    <img alt="{{canvas_entry_properties.${name}}}" width="430" src="{{canvas_entry_properties.${image_url}}}" style="display:block; width:100%; max-width:430px; height:auto; border:0; background-color:#F4F3F1; font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#383633;">
+                  </a>
+                </td>
+              </tr>
+
+              <!-- Product Name -->
+              <tr>
+                <td align="center" style="padding:0 0 5px 0; text-align:center; font-family:Arial, Helvetica, sans-serif; font-size:24px; line-height:28px; letter-spacing:-0.3px; color:#383633;">
+                  <a target="_blank" rel="noopener noreferrer" href="{{ product_link }}?lid=xj8g70aop5uk" style="text-decoration:none; color:#383633;">
+                    <p style="Margin:0;">
+                      <span style="border-bottom:1px solid #383633;">
+                        {{canvas_entry_properties.${name}}}
+                      </span>
+                    </p>
+                  </a>
+                </td>
+              </tr>
+
+            </table>
+
+          </td>
+        </tr>
+      </table>
+
+    </td>
+  </tr>
+</table></div></td></tr></table></td></tr></tbody></table></td></tr></tbody></table><table class="row row-6" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tbody><tr><td><table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" 
+style="mso-table-lspace:0;mso-table-rspace:0;background-color:#f7eee3;border-radius:0;color:#000;width:600px;margin:0 auto" width="600"><tbody><tr><td class="column column-1" width="100%" style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top"><table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad" style="width:100%"><div 
+class="alignment" align="center"><div style="max-width:600px"><a href="https://burrow.com/?lid=onil7tgkn094" target="_blank"><img src="https://braze-images.com/appboy/communication/assets/image_assets/images/698f229e633d840063be9acf/original.png?1770988190" style="display:block;height:auto;border:0;width:100%" width="600" alt="Burrow" title="Burrow" height="auto"></a></div></div></td></tr></table><table class="image_block block-2" width="100%" border="0" cellpadding="0" 
+cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad" style="width:100%"><div class="alignment" align="center"><div style="max-width:600px"><a href="https://burrow.com/swatches?lid=rzar794qgnyq" target="_blank"><img src="https://braze-images.com/appboy/communication/assets/image_assets/images/698f7bff605d5a00639addd9/original.png?1771011070" style="display:block;height:auto;border:0;width:100%" width="600" alt="Shop Swatches" 
+title="Shop Swatches" height="auto"></a></div></div></td></tr></table><table class="image_block block-3" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad" style="width:100%"><div class="alignment" align="center"><div style="max-width:600px"><a href="https://burrow.com/collections/clearance?lid=1htm81vi4w2s" target="_blank"><img 
+src="https://braze-images.com/appboy/communication/assets/image_assets/images/698f7bf5d1b1a70065e52ad9/original.png?1771011060" style="display:block;height:auto;border:0;width:100%" width="600" alt="Shop Clearance" title="Shop Clearance" height="auto"></a></div></div></td></tr></table><table class="image_block block-4" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad" style="width:100%"><div 
+class="alignment" align="center"><div style="max-width:600px"><a href="https://burrow.com/collections/best-sellers?lid=mkz5igc85t5r" target="_blank"><img src="https://braze-images.com/appboy/communication/assets/image_assets/images/698f2336f71290006437dcb5/original.png?1770988342" style="display:block;height:auto;border:0;width:100%" width="600" alt="Shop Bestsellers" title="Shop Bestsellers" height="auto"></a></div></div></td></tr></table><table class="image_block block-5" width="100%" border="0" 
+cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad" style="width:100%"><div class="alignment" align="center"><div style="max-width:600px"><a href="https://burrow.com/collections/best-sellers?lid=zzyogg5e7gee" target="_blank"><img src="https://braze-images.com/appboy/communication/assets/image_assets/images/698f235b65f117006323e7b5/original.png?1770988378" style="display:block;height:auto;border:0;width:100%" width="600" 
+alt="Shop Bestsellers" title="Shop Bestsellers" height="auto"></a></div></div></td></tr></table></td></tr></tbody></table></td></tr></tbody></table><table class="row row-7" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tbody><tr><td><table class="row-content" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" 
+style="mso-table-lspace:0;mso-table-rspace:0;background-color:#f7eee3;border-radius:0;color:#000;width:600px;margin:0 auto" width="600"><tbody><tr><td class="column column-1" width="50%" style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top"><table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad" style="width:100%"><div 
+class="alignment" align="center"><div style="max-width:300px"><a href="https://burrow.com/sofas?lid=1893kkatitnj" target="_blank"><img src="https://braze-images.com/appboy/communication/assets/image_assets/images/698f238d2433d0006388c93e/original.png?1770988428" style="display:block;height:auto;border:0;width:100%" width="300" alt="Sofas" title="Sofas" height="auto"></a></div></div></td></tr></table></td><td class="column column-2" width="50%" 
+style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top"><table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad" style="width:100%"><div class="alignment" align="center"><div style="max-width:300px"><a href="https://burrow.com/sectionals?lid=chskwl78850a" target="_blank"><img 
+src="https://braze-images.com/appboy/communication/assets/image_assets/images/698f239a633d840063be9bfa/original.png?1770988442" style="display:block;height:auto;border:0;width:100%" width="300" alt="Sectionals" title="Sectionals" height="auto"></a></div></div></td></tr></table></td></tr></tbody></table></td></tr></tbody></table><table class="row row-8" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tbody>
+<tr><td><table class="row-content" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;background-color:#f7eee3;border-radius:0;color:#000;width:600px;margin:0 auto" width="600"><tbody><tr><td class="column column-1" width="50%" style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top"><table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" 
+role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad" style="width:100%"><div class="alignment" align="center"><div style="max-width:300px"><a href="https://burrow.com/dining?lid=gyx3smugu8sp" target="_blank"><img src="https://braze-images.com/appboy/communication/assets/image_assets/images/698f23aa2433d0006388c93f/original.png?1770988457" style="display:block;height:auto;border:0;width:100%" width="300" alt="Dining" title="Dining" height="auto"></a>
+</div></div></td></tr></table></td><td class="column column-2" width="50%" style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top"><table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad" style="width:100%"><div class="alignment" align="center"><div style="max-width:300px">
+<a href="https://burrow.com/bedroom?lid=6rbvleq75eep" target="_blank"><img src="https://braze-images.com/appboy/communication/assets/image_assets/images/698f23b99bb9f900636c7581/original.png?1770988473" style="display:block;height:auto;border:0;width:100%" width="300" alt="Bedroom" title="Bedroom" height="auto"></a></div></div></td></tr></table></td></tr></tbody></table></td></tr></tbody></table><table class="row row-9" align="center" width="100%" border="0" cellpadding="0" 
+cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tbody><tr><td><table class="row-content" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;background-color:#f7eee3;border-radius:0;color:#000;width:600px;margin:0 auto" width="600"><tbody><tr><td class="column column-1" width="50%" style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top"><table 
+class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad" style="width:100%"><div class="alignment" align="center"><div style="max-width:300px"><a href="https://burrow.com/collections/sleeper-sofas?lid=o1kfw2h4znls" target="_blank"><img src="https://braze-images.com/appboy/communication/assets/image_assets/images/698f23c49879270063ff1bc1/original.png?1770988484" 
+style="display:block;height:auto;border:0;width:100%" width="300" alt="Sleeper Sofas" title="Sleeper Sofas" height="auto"></a></div></div></td></tr></table></td><td class="column column-2" width="50%" style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top"><table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad" style="width:100%"><div 
+class="alignment" align="center"><div style="max-width:300px"><a href="https://burrow.com/storage?lid=mnhly0sqqfb7" target="_blank"><img src="https://braze-images.com/appboy/communication/assets/image_assets/images/698f23cd2970a30063a4783b/original.png?1770988492" style="display:block;height:auto;border:0;width:100%" width="300" alt="Storage" title="Storage" height="auto"></a></div></div></td></tr></table></td></tr></tbody></table></td></tr></tbody></table><table class="row row-10" 
+align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tbody><tr><td><table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;color:#000;width:600px;margin:0 auto" width="600"><tbody><tr><td class="column column-1" width="100%" 
+style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top"><table class="html_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad"><div style="font-family:Arial,Arial,Sans-serif;text-align:center" align="center">{{content_blocks.${footer_us} | id: 'cb2'}}</div></td></tr></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><!-- End --></body></html>

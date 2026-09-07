@@ -1,0 +1,59 @@
+id: bed3c2aa-efc0-44ca-acf3-f597951e9d51
+name: P_2025_1_14_D_CZ_WRE_Elevated_Bath_Essentials_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: bed3c2aa-efc0-44ca-acf3-f597951e9d51
+dates:
+  send_date: '2025-01-14'
+  inferred_send_type: scheduled
+  first_sent: '2025-01-14T02:41:11+00:00'
+  last_sent: '2025-01-14T17:01:04+00:00'
+tags: []
+sends:
+- id: dc8ae47b-8e12-4ee6-aa99-67ea83b4fd86
+  channel: email
+  name: Variant 1
+  subject: Your Bath Routine, Elevated
+  preheader: Shop 20% off luxe bath essentials.
+  html_file: html/p_2025_1_14_d_cz_wre_elevated_bath_essentials_email.html
+  screenshot: screenshots/p_2025_1_14_d_cz_wre_elevated_bath_essentials_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6785c2d83ff9d30065923dba/original.jpg?1736819416
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6785c2e528c4db007155287a/original.jpg?1736819429
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6785c1a63ff9d30074922dda/original.jpg?1736819110
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6785c2cd5ac434006587e92f/original.jpg?1736819405
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6785b5c8e9a20800641115be/original.jpg?1736816072
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6785b5a17f65750063434d9c/original.jpg?1736816032
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6785c18166be3f0064a1c99a/original.jpg?1736819073
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6785c28b7f657500634366e6/original.jpg?1736819339
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6785b6778c27ba006566f547/original.jpg?1736816246
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6785b5e18c27ba006566f45c/original.jpg?1736816096
+- id: 5b4916c9-5052-42ba-8ba5-11bf1754867a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 94678
+  total_delivered: 93980
+  total_opens: 46014
+  total_clicks: 753
+  open_rate: 0.486
+  click_rate: 0.008
+  total_revenue: 68541.19
+  total_bounces: 3
+  total_unsubscribes: 135
+  ga4:
+    sessions: 984
+    purchases: 18
+    revenue: 6399.7
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.662417'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:45.147903'
+schedule_type: time_based

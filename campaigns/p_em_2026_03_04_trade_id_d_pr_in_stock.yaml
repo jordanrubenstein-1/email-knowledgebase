@@ -1,0 +1,35 @@
+id: 45f0e7e1-27ce-463f-9fd0-485b55296cb9
+name: P_EM_2026_03_04_TRADE_ID_D_PR_In_Stock
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 45f0e7e1-27ce-463f-9fd0-485b55296cb9
+dates:
+  send_date: '2026-03-04'
+  inferred_send_type: local_time
+  first_sent: '2026-03-03T22:06:23+00:00'
+  last_sent: '2026-03-04T19:00:44+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 6a0ac8c6-665a-4288-a479-720bbea26a14
+  channel: email
+  name: Variant 1
+  subject: Don't Want to Wait?
+  preheader: Interior Define's In-Stock collection is ready when you are.
+- id: f3b7707d-aa61-462b-a93b-c1dd3d9d371b
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 20382
+  total_delivered: 19732
+  total_opens: 9147
+  total_clicks: 122
+  open_rate: 0.4488
+  click_rate: 0.006
+  total_revenue: 51214.99
+  total_bounces: 30
+  total_unsubscribes: 44
+schedule_type: time_based

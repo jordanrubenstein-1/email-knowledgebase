@@ -1,0 +1,47 @@
+id: f796bf92-c6de-4632-9167-eb6e83cf94a3
+name: P_2024_11_12_D_SF_PR_BFCM_Early_Access_Engaged_Microsoft_Users_Email
+brand: STF
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: f796bf92-c6de-4632-9167-eb6e83cf94a3
+dates:
+  send_date: '2024-11-12'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-12T05:23:52+00:00'
+  last_sent: '2024-11-12T14:30:37+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: 9bc782bd-7b29-4b85-8dd4-81e1e40cce51
+  channel: email
+  name: Variant 1
+  subject: Finally. VIP Early Access starts now
+  preheader: first dibs on up to 35% off for Black Friday VIP Early Access
+  html_file: html/p_2024_11_12_d_sf_pr_bfcm_early_access_engaged_microsoft_use.html
+  screenshot: screenshots/p_2024_11_12_d_sf_pr_bfcm_early_access_engaged_microsoft_use.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67323a7d5fda0b006456249b/original.gif?1731345021
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67323a414180570081c1422f/original.gif?1731344961
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67323aac3e12d0006590d3e9/original.jpg?1731345068
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67323a5a4180570063c14d39/original.gif?1731344986
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67323a2f8be85800669bfe5b/original.jpg?1731344942
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67323a4c8be85800669bff19/original.gif?1731344972
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67323a095fda0b0064562362/original.gif?1731344905
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67323a89f678ac0066d01e06/original.gif?1731345033
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67323abbb480bb006442231d/original.gif?1731345083
+- id: 3af2dbca-a316-4480-bb1f-4e7d6c9ec237
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 118
+  total_delivered: 118
+  total_opens: 53
+  total_clicks: 9
+  open_rate: 0.4492
+  click_rate: 0.0763
+  total_revenue: 196.9
+_filename: p_2024_11_12_d_sf_pr_bfcm_early_access_engaged_microsoft_use.yaml
+schedule_type: time_based

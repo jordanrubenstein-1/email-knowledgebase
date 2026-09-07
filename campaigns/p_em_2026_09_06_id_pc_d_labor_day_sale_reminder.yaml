@@ -1,0 +1,25 @@
+id: 051b5f6d-42b2-4776-9523-53230801b394
+name: P_EM_2026_09_06_ID_PC_D_Labor_Day_Sale_Reminder
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 051b5f6d-42b2-4776-9523-53230801b394
+dates:
+  send_date: '2026-09-06'
+  last_sent: '2026-09-06'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 1f179f2c-3201-48ec-80a4-55c188d17877
+  channel: email
+  name: Variant 1
+  subject: Don’t miss the biggest sale of the year
+  preheader: Shop up to 35% off during the Labor Day Event.
+- id: ee0afd24-2bb9-449a-93af-b6550a72930e
+  channel: email
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: p_em_2026_09_06_id_pc_d_labor_day_sale_reminder.yaml

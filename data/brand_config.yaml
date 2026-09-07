@@ -1,0 +1,684 @@
+# Brand-specific Braze campaign configuration
+# Used by build_pt_campaign.py, build_sms_campaign.py, and
+# build_push_campaign.py to configure audiences, conversion events,
+# and default send times.
+#
+# Source: Lifecycle Common Data Set CSV + user-specified conversion events
+# Last updated: 2026-02-10
+
+# SMS-specific configuration per brand.
+# Used by build_sms_campaign.py for UTM parameters, audience segments,
+# and send time defaults.
+#
+# UTM patterns sourced from exports/sms-welcome-series.csv and
+# reports/sms-rewrites-interior-define.md
+sms_config:
+  ID:
+    segment: "SMS Master List - Double Opt In"
+    utm_source: "braze_ID"
+    base_url: "https://www.interiordefine.com"
+    include_userid: false
+    include_bzt: true
+    send_time: "15:00"
+    # Keyword → URL path mapping for smart link resolution when copy has LINK placeholder
+    link_paths:
+      - keywords: ["store", "find your store", "location", "locations", "showroom", "studio", "studios", "sip and sit", "sip + sit", "sip sit"]
+        path: "/locations"
+      - keywords: ["leather"]
+        path: "/collections/leather"
+      - keywords: ["swatch", "swatches"]
+        url: "https://swatches.interiordefine.com"
+      - keywords: ["quick ship", "ready to ship", "in stock", "in-stock"]
+        path: "/quick-ship"
+      - keywords: ["new arrival", "new arrivals"]
+        path: "/new-arrivals"
+      - keywords: ["rug", "rugs"]
+        path: "/rugs"
+      - keywords: ["sofa", "couch"]
+        path: "/living/all-custom-sofas"
+      - keywords: ["sectional"]
+        path: "/living/all-custom-sectionals"
+      - keywords: ["chair", "chairs"]
+        path: "/living/all-custom-chairs"
+      - keywords: ["bed", "beds", "bedroom"]
+        path: "/bedroom/all-beds"
+      - keywords: ["dining", "table"]
+        path: "/dining"
+      - keywords: ["gift card", "gift cards"]
+        path: "/products/gift-card"
+      - keywords: ["best seller", "bestseller", "popular"]
+        path: "/collections/best-sellers"
+      - keywords: ["warehouse"]
+        path: "/warehouse"
+      - keywords: ["sale", "event", "promo", "discount", "off"]
+        path: "/"
+  BUR:
+    segment: "SMS Master List - Double Opt In"
+    utm_source: "braze_BW"
+    base_url: "https://burrow.com"
+    include_userid: true
+    extra_params:
+      bzt: "{{${user_id}}}"
+      em: "{{${email_address}}}"
+      fn: "{{${first_name}}}"
+      ln: "{{${last_name}}}"
+    send_time: "15:00"
+    # link_paths are loaded at runtime from data/bur_links.yaml — do not add entries here.
+  CZ:
+    segment: "SMS Master List - Double Opted In"
+    utm_source: "braze_CZ"
+    base_url: "https://www.the-citizenry.com"
+    include_userid: false
+    send_time: "15:00"
+    # link_paths are loaded at runtime from data/cz_links.yaml — do not add entries here.
+  TI:
+    segment: "Master SMS Segment"
+    utm_source: "braze_TI"
+    base_url: "https://www.theinside.com"
+    include_userid: false
+    send_time: "15:00"
+    # NOT used for actual TI SMS sending — TI is Klaviyo and its real SMS
+    # builder (scripts/create_klaviyo_sms.py) never reads this brand_config.yaml
+    # entry. That script's link_paths equivalent is loaded at runtime from
+    # data/ti_links.yaml via _ti_default_links_from_yaml(). This block is kept
+    # only because build_pt_campaign.py and process_ai_feedback.py read other
+    # fields (base_url, etc.) off this same sms_config.TI entry — do not add
+    # link_paths back here, it would have no effect on TI SMS.
+  STF:
+    segment: "SMS Master List - Double Opted In"
+    utm_source: "braze_SF"
+    base_url: "https://www.stfrank.com"
+    include_userid: false
+    send_time: "15:00"
+    # link_paths are loaded at runtime from data/stf_links.yaml — do not add entries here.
+
+# ---------------------------------------------------------------------------
+# Push notification configuration (Havenly only).
+# Used by build_push_campaign.py.
+#
+# The duplicate-based workflow finds the most recent push campaign of the
+# correct audience type (PC or CONV) in the Braze campaigns list, duplicates
+# it, then edits the campaign name, push title, push message, and delivery
+# date.  Audience, conversions, deep links, and on-click behavior carry over
+# from the duplicated campaign.
+# ---------------------------------------------------------------------------
+push_config:
+  HAV_PC:
+    segment: "Pre-Converted Push Audience"
+    deep_link: "https://havenly.com?utm_source=braze_havenly&utm_campaign={{campaign.$(name)}}&utm_medium=push&utm_content=pre_converted#packages-section"
+    send_time: "15:00"
+  HAV_CONV:
+    segment: "Converted Push Audience"
+    deep_link: "https://havenly.com/shop?utm_source=braze_havenly&utm_campaign={{campaign.$(name)}}&utm_medium=push&utm_content=converted"
+    send_time: "15:00"
+
+brands:
+  HAV_PC:
+    display_name: Havenly Pre-Converted
+    brand_code: HAV
+    workspace: havenly
+    utm_templates: ["UTM Template - Pre - Converted"]
+    sender_info:
+      pt:
+        from_name: "Lisa from Havenly"
+        from_email: "hello@mail.havenly.com"
+        reply_to: "hello@havenly.com"
+      designed:
+        from_name: "Havenly"
+        from_email: "hello@mail.havenly.com"
+        reply_to: "hello@havenly.com"
+    conversion_events:
+      A: { event: "design_fee", deadline_days: 3 }
+      B: { event: "Start session", deadline_days: 3 }
+      C: { event: "product_viewed", deadline_days: 3 }
+      D: { event: "Product Added", deadline_days: 3 }
+    audiences:
+      full_file:
+        type: segment
+        segment: "Daily Send List - Pre Converted"
+      engaged:
+        type: segment
+        segment: "Targeted Send List - Pre Converted"
+      # No geo segment for HAV Pre-Converted
+    send_times:
+      am_default: "07:15"
+      pm_default: "16:00"
+
+  HAV_CONV:
+    display_name: Havenly Converted
+    brand_code: HAV
+    workspace: havenly
+    utm_templates: ["UTM Template - Converted"]
+    sender_info:
+      pt:
+        from_name: "Lisa from Havenly"
+        from_email: "hello@mail.havenly.com"
+        reply_to: "hello@havenly.com"
+      designed:
+        from_name: "Havenly"
+        from_email: "hello@mail.havenly.com"
+        reply_to: "hello@havenly.com"
+    conversion_events:
+      A: { event: "merch_order_completed_fe", deadline_days: 3 }
+      B: { event: "Start session", deadline_days: 3 }
+      C: { event: "product_viewed", deadline_days: 3 }
+      D: { event: "Product Added", deadline_days: 3 }
+    audiences:
+      full_file:
+        type: segment
+        segment: "Daily Send List - Converted"
+      engaged:
+        type: segment
+        segment: "Targeted Send List - Converted"
+      items_in_design_on_sale:
+        type: segment
+        segment: "Updated Items in Your Design on Sale"
+      # No geo segment for HAV Converted
+    send_times:
+      am_default: "07:15"
+      pm_default: "16:00"
+
+  ID:
+    display_name: Interior Define
+    brand_code: ID
+    workspace: "Interior Define"
+    utm_templates: "all"  # Interior Define has 2 templates; select both
+    sender_info:
+      pt:
+        from_name: "Lisa from the Interior Define Team"
+        from_email: "interiordefine@em.interiordefine.com"
+        reply_to: "support@23765919.hubspot-inbox.com"
+      designed:
+        from_name: "Interior Define"
+        from_email: "interiordefine@em.interiordefine.com"
+        reply_to: "info@interiordefine.com"
+    conversion_events:
+      A: { event: "Order Completed", deadline_days: 3 }
+      B: { event: "Start session", deadline_days: 3 }
+      C: { event: "Swatch Order", deadline_days: 3 }
+      D: { event: "Product Added", deadline_days: 3 }
+    audiences:
+      # full_file/engaged/geo below are the legacy interim segments — still
+      # used for sends before 2026-08-18, and geo remains the fallback for
+      # the legacy enum Segment field. See CLAUDE.md "ID Segment (Text) field"
+      # and _resolve_id_segment_type() in build_pt_campaign.py.
+      full_file:
+        type: segment
+        segment: "Main Email Send List"
+      engaged:
+        type: segment
+        segment: "AM VIP B2C Segment"
+      geo:
+        type: segment_with_filter
+        segment: "Main Email Send List"
+        filters:
+          - { type: "filter", name: "ID Retail Locations" }
+      # New 7-segment mapping (ticket 1214216873746059), effective 2026-08-18
+      full_file_v2:
+        type: segment
+        segment: "Full File"
+      engaged_v2:
+        type: segment
+        segment: "Engaged"
+      highly_engaged:
+        type: segment
+        segment: "Highly Engaged"
+      swatch_purchasers:
+        type: segment
+        segment: "Swatch Purchasers"
+      swatch_non_purchasers:
+        type: segment
+        segment: "Swatch Non-Purchasers"
+      geo_engaged:
+        type: segment
+        segment: "Geo Segment - Engaged"
+      geo_unengaged:
+        type: segment
+        segment: "Geo Segment - Unengaged"
+    send_times:
+      am_default: "07:15"
+      pm_default: "16:00"
+
+  BUR:
+    display_name: Burrow
+    brand_code: BUR
+    workspace: "Burrow - Production"
+    sender_info:
+      pt:
+        from_name: "Lisa at Burrow"
+        from_email: "friends@em.burrow.com"
+        reply_to: "friends@burrow.com"
+      designed:
+        from_name: "Burrow"
+        from_email: "friends@em.burrow.com"
+        reply_to: "friends@burrow.com"
+    conversion_events:
+      A: { event: "Makes purchase", deadline_days: 3 }
+      B: { event: "Start session", deadline_days: 3 }
+      C: { event: "Product Viewed", deadline_days: 3 }
+      D: { event: "Product Added", deadline_days: 3 }
+    audiences:
+      full_file:
+        type: all_users_with_filters
+        segment: "All Email Subscribed"
+        filters:
+          - { type: "segment", name: "202411 Send List", op: "or" }
+          - { type: "segment", name: "Microsoft Domains - 30 Day Engaged", op: "or" }
+          - { type: "segment", name: "Grow Leads - Eligible for Marketing", op: "or" }
+          - { type: "segment", name: "Pro Plus Giveaway Leads", op: "or" }
+      engaged:
+        type: all_users_with_filters
+        segment: "AM List VIP"
+        filters:
+          - { type: "segment", name: "202411 Send List", op: "or" }
+          - { type: "segment", name: "Microsoft Domains - 30 Day Engaged", op: "or" }
+          - { type: "segment", name: "Grow Leads - Eligible for Marketing", op: "or" }
+          - { type: "segment", name: "Pro Plus Giveaway Leads", op: "or" }
+      geo:
+        type: all_users_with_filters
+        segment: "All Users"
+        filters:
+          - { type: "filter", name: "Geo_All" }
+    send_times:
+      am_default: "07:15"
+      pm_default: "16:00"
+
+  CZ:
+    display_name: The Citizenry
+    brand_code: CZ
+    workspace: "The Citizenry"
+    sender_info:
+      pt:
+        from_name: "Lisa at The Citizenry"
+        from_email: "info@mail.the-citizenry.com"
+        reply_to: "hello@the-citizenry.com"
+      designed:
+        from_name: "The Citizenry"
+        from_email: "info@mail.the-citizenry.com"
+        reply_to: "hello@the-citizenry.com"
+    conversion_events:
+      A: { event: "ecommerce.order_placed", deadline_days: 3 }
+      B: { event: "Start session", deadline_days: 3 }
+      C: { event: "custom_product_view", deadline_days: 3 }
+      D: { event: "ecommerce.cart_updated", deadline_days: 3 }
+    audiences:
+      full_file:
+        type: segment
+        segment: '"Full File" List - September 2024'
+      engaged:
+        type: segment_with_filter
+        segment: '"Full File" List - September 2024'
+        filters:
+          - { type: "filter", name: "AM VIP Send List" }
+      geo:
+        # Multiple geo segments for CZ; default to retail stores
+        type: segment_with_filter
+        segment: '"Full File" List - September 2024'
+        filters:
+          - { type: "filter", name: "CZ Retail Stores" }
+    send_times:
+      am_default: "07:15"
+      pm_default: "16:00"
+
+  TI:
+    display_name: The Inside
+    brand_code: TI
+    workspace: "The Inside"
+    sender_info:
+      pt:
+        from_name: "Lisa at The Inside"
+        from_email: "hi@theinside.com"
+        reply_to: "hi@theinside.com"
+      designed:
+        from_name: "The Inside"
+        from_email: "hi@theinside.com"
+        reply_to: "hi@theinside.com"
+    # Note: conversion events not specified by user; using same pattern as BUR/STF
+    conversion_events:
+      A: { event: "Makes purchase", deadline_days: 3 }
+      B: { event: "Start session", deadline_days: 3 }
+      C: { event: "Product Viewed", deadline_days: 3 }
+      D: { event: "Product Added", deadline_days: 3 }
+    # Segmentation redo per https://app.asana.com/1/5257710284167/project/1208217080803312/task/1216770925418815
+    # (2026-08-06) — see CLAUDE.md "TI Segment (Text) field" for the 4-value
+    # Segment (Text) field and send-cadence rules these keys back.
+    audiences:
+      full_file:
+        type: segment
+        segment: "Full File"
+      engaged:
+        type: segment
+        segment: "Engaged"
+      swatch_purchasers:
+        type: segment
+        segment: "Swatch Purchasers"  # created 2026-08-11; live for sends >= 2026-08-18, see CLAUDE.md
+      swatch_non_purchasers:
+        type: segment
+        segment: "Swatch Non-Purchasers"  # created 2026-08-11; live for sends >= 2026-08-18, see CLAUDE.md
+      # No geo segment for TI
+    klaviyo:
+      audiences:
+        included:
+          - "Full File"
+        excluded:
+          - "Trade Members (All)"
+          - "Apple emails - unengaged"
+    send_times:
+      am_default: "07:00"
+      pm_default: "16:00"
+    designed_email:
+      homepage: "https://www.theinside.com/"
+      footer:
+        company_name: "The Inside"
+        address: "3200 Cherry Creek South Drive, Suite 210, Denver, CO 80209"
+        sale_disclaimer: "Offers and pricing are subject to change, see site for details."
+        sms_signup:
+          image_url: "https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/92d4f85a-e648-4016-9732-56d261c5e3e0.png"
+          link: "https://manage.kmail-lists.com/subscriptions/subscribe?g=WFyNkD&a=LD9fJi&subscribe_link=decf1835d77041d187e445346763da1a"
+        follow_us:
+          image_url: "https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/b398c3ca-c7f5-41f2-bedc-27a54cf334fb.jpeg"
+          link: "https://www.instagram.com/theinside/"
+        social_icons:
+          - {link: "https://www.instagram.com/theinside/",      image_url: "https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/69a68883-3bce-41ac-802d-c532d6fa1f13.jpeg", width: 28}
+          - {link: "https://www.facebook.com/shoptheinside",    image_url: "https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/dccf9ff5-8748-4e56-89b2-548bc39a42d2.jpeg", width: 30}
+          - {link: "https://www.pinterest.com/shoptheinside/",  image_url: "https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/eca135b9-dda2-4bd5-b0ec-1ad5df376ab2.jpeg", width: 29}
+          - {link: "https://www.tiktok.com/@theinsidehome",     image_url: "https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/48f8b0bf-f674-4de6-83a6-f00ae0bfb57e.jpeg", width: 28}
+
+  STF:
+    display_name: St. Frank
+    brand_code: STF
+    workspace: "St Frank"
+    sender_info:
+      pt:
+        from_name: "Lisa at St. Frank"
+        from_email: "service@email.stfrank.com"
+        reply_to: "service@stfrank.com"
+      designed:
+        from_name: "St. Frank"
+        from_email: "service@email.stfrank.com"
+        reply_to: "service@stfrank.com"
+    conversion_events:
+      A: { event: "Makes purchase", deadline_days: 3 }
+      B: { event: "Start session", deadline_days: 3 }
+      C: { event: "Product Viewed", deadline_days: 3 }
+      D: { event: "Product Added", deadline_days: 3 }
+    audiences:
+      full_file:
+        type: segment
+        segment: "Engaged Daily Send List"
+      engaged:
+        type: segment_with_filter
+        segment: "Engaged Daily Send List"
+        filters:
+          - { type: "filter", name: "Engaged Weekly Send List (with Outlook and Live) and AM VIP Send List" }
+      # No geo segment for STF
+    send_times:
+      am_default: "07:15"
+      pm_default: "16:00"
+
+  TRADE:
+    display_name: Trade Program
+    brand_code: TRADE
+    workspace: "Interior Define"
+    sender_info:
+      pt:
+        from_name: "Camilla from Havenly Brands Trade"
+        from_name_id: "Camilla from Interior Define Trade"
+        from_email: "trade@em.interiordefine.com"
+        reply_to: "trade@havenlybrands.com"
+      designed:
+        from_name: "Havenly Brands Trade"
+        from_name_id: "Interior Define Trade"
+        from_email: "trade@em.interiordefine.com"
+        reply_to: "trade@havenlybrands.com"
+    conversion_events:
+      A: { event: "Makes purchase", deadline_days: 3 }
+      B: { event: "Start session", deadline_days: 3 }
+      C: { event: "Product Viewed", deadline_days: 3 }
+      D: { event: "Product Added", deadline_days: 3 }
+    audiences:
+      full_file:
+        type: segment
+        segment: "Trade Subscribers"
+      # No engaged or geo segments for Trade
+    send_times:
+      am_default: "09:00"
+      pm_default: null  # Trade doesn't have PM sends
+
+  TE:
+    display_name: The Expert
+    brand_code: TE
+    sender_info:
+      designed:
+        from_name: "The Expert"
+        from_email: "hello@theexpert.com"
+        reply_to: "hello@theexpert.com"
+      designed_trade:
+        from_name: "The Expert Trade"
+        from_email: "hello@theexpert.com"
+        reply_to: "trade@theexpert.com"
+    audiences:
+      full_file:
+        type: multi_segment
+        segments:
+          - "tier1_engaged_0-60_daily"
+          - "tier2_engaged_60-120_weekly"
+          - "tier3_engaged_120-240_monthly"
+          - "tier4_unengaged_240+"
+      engaged:
+        type: segment
+        segment: "tier1_engaged_0-60_daily"
+      trade:
+        type: segment
+        segment: "All Trade Members [Hubspot via Outfunnel]"
+    klaviyo:
+      audiences:
+        included:
+          - "tier1_engaged_0-60_daily"
+        excluded: []
+    send_times:
+      am_default: "09:00"
+      pm_default: null
+    designed_email:
+      homepage: "https://www.theexpert.com/"
+      footer:
+        company_name: "The Expert"
+        address: ""  # TODO: confirm TE mailing address
+        sale_disclaimer: ""
+
+# ---------------------------------------------------------------------------
+# Sender domains per brand
+# ---------------------------------------------------------------------------
+# Maps subscription group to the expected sender domain.  Used by
+# validate_html.py / qa_check.py to verify that marketing emails include an
+# unsubscribe link and that the sender domain matches the subscription group.
+sender_domains:
+  HAV:
+    marketing: "mail.havenly.com"
+    transactional: "t.havenly.com"
+  CZ:
+    marketing: "mail.the-citizenry.com"
+  ID:
+    marketing: "mail.interiordefine.com"
+  BUR:
+    marketing: "mail.burrow.com"
+  STF:
+    marketing: "mail.stfrank.com"
+  TI:
+    marketing: "mail.theinside.com"
+
+# ---------------------------------------------------------------------------
+# PT email template styling per brand
+# ---------------------------------------------------------------------------
+# Controls font family and web font URL used by the plain-text HTML template
+# in build_pt_campaign.py.  Keyed by base brand code (HAV, not HAV_PC/CONV)
+# since PT styling is the same for both HAV variants.
+pt_email_styles:
+  HAV:
+    font_family: "'Open Sans', Arial, Sans-serif"
+    font_url: "https://fonts.googleapis.com/css?family=Open+Sans"
+    template: "components/hav_pt_template.html"
+    default_signoff: "Best,"
+    default_signoff_name: "Lisa from Havenly"
+    # Lock the name block to "Lisa from Havenly" regardless of how the brief
+    # wrote it.  The havenly-copywriter skill has no PT signoff guidance at
+    # all, so drafts are free to invent one; the closing phrase from the brief
+    # is still honoured, only the name is standardised.
+    signoff_name_locked: true
+  CZ:
+    font_family: "Helvetica, Arial, Sans-serif"
+    font_url: null
+    template: "components/cz_pt_template.html"
+    background_color: "#f6f5f4"
+    logo_url: "https://braze-images.com/appboy/communication/assets/image_assets/images/67f83def4631c700674e669c/original.png?1744322031"
+    logo_alt: "The Citizenry"
+    logo_link: "https://www.the-citizenry.com/"
+    default_signoff: "With gratitude,"
+    default_signoff_name: "Lisa / Head of Client Experience"
+    # Lock the name block to "Lisa / Head of Client Experience".  The
+    # citizenry-brand-voice skill still prescribes a stale name ("Martin /
+    # Head of Client Experience"), which matches neither the default nor any
+    # alias — without this it would be returned as a signoff *override* and
+    # ship verbatim.  The closing phrase from the brief is still honoured.
+    signoff_name_locked: true
+    signoff_name_aliases:
+      - "Martin / Head of Client Experience"
+      - "Martin"
+      - "The Citizenry"
+      - "The Citizenry Team"
+  ID:
+    font_family: "Arial, Sans-serif"
+    font_url: "https://fonts.googleapis.com/css?family=Open+Sans"
+    template: "components/id_pt_template.html"
+    default_signoff: "Happy Shopping,"
+    default_signoff_name: "Lisa"
+    default_signoff_name_extra: "The Interior Define Team"
+    # Always render the name block as "Lisa" / "The Interior Define Team" (two
+    # lines), regardless of how the copywriter wrote the name in the brief.
+    # The closing phrase (e.g. "Warmly,") is still taken from the brief when
+    # present; only the name portion is locked to the standard.
+    signoff_name_locked: true
+    signoff_name_aliases:
+      - "The Interior Define Team"
+      - "Interior Define Team"
+      - "The Interior Define"
+      - "Interior Define"
+    footer_content_block:
+      sale: "{{content_blocks.${PT_sale_footer_unsubscribe} | id: 'cb3'}}"
+      non_sale: "{{content_blocks.${PT_unsubscribe}}}"
+  BUR:
+    font_family: "Arial, Sans-serif"
+    font_url: "https://d1qnmprc5tnkc9.cloudfront.net/fonts/c506d6b24ddd6d6a415b040bedcc2c5d.woff"
+    template: "components/bw_pt_template.html"
+    default_signoff: "Warmly,"
+    default_signoff_name: "Lisa at Burrow"
+    default_signoff_name_plain: "Lisa at Burrow"
+    signoff_name_aliases:
+      - "Burrow"
+      - "Burrow Team"
+      - "The Burrow Team"
+    footer_content_block:
+      sale: "{{content_blocks.${PT_sale_footer_unsubscribe} | id: 'cb3'}}"
+      non_sale: "{{content_blocks.${PT_unsubscribe}}}"
+  STF:
+    font_family: "Helvetica, Arial, Sans-serif"
+    font_url: null
+    template: "components/stf_pt_template.html"
+    default_signoff: "Happy Shopping!"
+    default_signoff_name: "Lisa at St. Frank"
+    signoff_name_aliases:
+      - "Blake at St. Frank"
+      - "St. Frank"
+  TI:
+    font_family: "Arial, Sans-serif"
+    font_url: null
+    # TI was the only brand with no default_signoff, so build_pt_prompt() fell
+    # back to its hardcoded "Best," and never asked for the real TI close.  The
+    # 9/7 Labor Day Last Chance brief came back signed "xx," as a result.
+    default_signoff: "Happy Shopping!"
+    default_signoff_name: "Lisa at The Inside"
+    # Lock the whole signoff block (phrase + name) — the-inside-copywriter
+    # states "Happy Shopping! / Lisa at The Inside" is the only TI PT close.
+    signoff_name_locked: true
+    signoff_name_aliases:
+      - "The Inside"
+  TRADE:
+    font_family: "Helvetica, Arial, Sans-serif"
+    font_url: null
+    template: "components/trade_pt_template.html"
+    default_signoff: "Warmly,"
+    default_signoff_name: "Camilla N."
+    default_signoff_name_extra: "Havenly Brands Trade"
+    default_signoff_name_extra_id: "Interior Define Trade"
+
+# ---------------------------------------------------------------------------
+# PT email seed campaigns (BEE/DnD editor) per brand key.
+# When present, build_pt_campaign.py duplicates the seed instead of creating
+# from the HTML editor — resulting campaigns are in DnD mode for easy editing.
+#
+# One-time setup: create each seed manually in the BEE editor with this
+# block structure: [logo image block] + [body text block] + [HTML footer block].
+# Name each seed exactly as listed here so the search-and-duplicate step finds it.
+#
+# Leave a key blank (null) to fall back to the HTML editor for that brand.
+# ---------------------------------------------------------------------------
+pt_seed_campaigns:
+  HAV_PC: null
+  HAV_CONV: null
+  BUR: "P_EM_2026_06_01_BW_PT_Template"
+  CZ: null  # template created; switch back to BEE once tested
+  ID: "P_EM_2026_06_01_ID_PC_PT_Template"
+  STF: null  # template created; switch back to BEE once tested
+  TRADE: null
+
+# Sale category keywords that trigger 7:15 AM default send time
+# (unless overridden by Asana "Send time" field)
+sale_announcement_keywords:
+  - "sale launch"
+  - "sale announcement"
+  - "sale extension"
+  - "last chance"
+  - "final hours"
+  - "sale starts"
+  - "sale ends"
+  - "early access"
+
+# ---------------------------------------------------------------------------
+# Orchestrator configuration
+# ---------------------------------------------------------------------------
+# Used by orchestrate_sms.py (and future orchestrators) for Asana commenting
+# and notification routing after automated campaign creation.
+orchestrator:
+  asana_users:
+    jordan_rubenstein: "1209814762732062"
+    mina_cohen: "1212121895080679"
+    momina_ayaz: "1209324586499326"
+    abdullah_siddiqui: "1208813307615845"
+    emmanuel_oluwalomola: "1213736525352878"
+  # Per-brand notification recipients.
+  # After a campaign is auto-created, these users are @-mentioned in an Asana comment.
+  brand_owners:
+    STF:
+      - emmanuel_oluwalomola
+    CZ:
+      - momina_ayaz
+    ID:
+      - momina_ayaz
+    BUR:
+      - emmanuel_oluwalomola
+    HAV:                   # push campaigns
+      - emmanuel_oluwalomola
+    TRADE:
+      - momina_ayaz
+  # After a campaign is auto-created, reassign the Asana task to this user (per brand).
+  # This user is also tagged first in the comment (overrides the existing task assignee).
+  post_build_assignee:
+    STF: emmanuel_oluwalomola
+    CZ: momina_ayaz
+    ID: momina_ayaz
+    BUR: emmanuel_oluwalomola
+    HAV: emmanuel_oluwalomola
+  comment_template: |
+    this SMS campaign has been automatically created in {platform} and is ready for review and scheduling.
+
+    Campaign link: {braze_url}

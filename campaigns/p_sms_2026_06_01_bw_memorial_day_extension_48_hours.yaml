@@ -1,0 +1,29 @@
+id: a640ce71-9708-4e38-9abe-3f63e575d2bc
+name: P_SMS_2026_06_01_BW_Memorial_Day_Extension_48_Hours
+brand: BUR
+channel: sms
+category: sale_promo
+type: announcement
+theme: null
+braze_id: a640ce71-9708-4e38-9abe-3f63e575d2bc
+dates:
+  send_date: '2026-06-01'
+  last_sent: '2026-06-01'
+tags: []
+sends:
+- id: 1ef6b529-c2b0-4fa2-970b-70e072879352
+  channel: sms
+  name: Variant 1
+- id: 4f5acc01-9cbe-4f64-bf7f-7e4dd514f408
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 10215
+  total_delivered: 9715
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 22078.0
+schedule_type: time_based
+_filename: p_sms_2026_06_01_bw_memorial_day_extension_48_hours.yaml

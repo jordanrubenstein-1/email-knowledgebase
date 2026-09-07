@@ -1,0 +1,33 @@
+id: 91087c57-e88d-48fa-a62e-60adf0766e65
+name: P_EM_2026_09_01_ID_PC_D_Swatch_Talk
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 91087c57-e88d-48fa-a62e-60adf0766e65
+dates:
+  send_date: '2026-09-01'
+  first_sent: '2026-09-01T03:05:20+00:00'
+  last_sent: '2026-09-01T12:00:00+00:00'
+  inferred_send_type: scheduled
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 2ef8b2fd-c9ae-4dcb-8651-d6367d884c24
+  channel: email
+  name: Variant 1
+  subject: Velvet Crush + Up to 35% off
+  preheader: Peacock, sage, free swatches, and sitewide savings.
+- id: 2c620411-ca38-4f43-9f3f-16de26fa1d7c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 162
+  total_delivered: 161
+  total_opens: 21
+  total_clicks: 2
+  open_rate: 0.1296
+  click_rate: 0.0123
+schedule_type: time_based
+_filename: p_em_2026_09_01_id_pc_d_swatch_talk.yaml

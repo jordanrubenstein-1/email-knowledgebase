@@ -1,0 +1,68 @@
+id: 0ec6abf9-e466-49cc-802c-6ff3fa4d308e
+name: P_EM_2025_08_07_SF_D_PR_Sunset_Sale
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 0ec6abf9-e466-49cc-802c-6ff3fa4d308e
+dates:
+  send_date: '2025-08-07'
+  inferred_send_type: local_time
+  first_sent: '2025-08-06T22:46:24+00:00'
+  last_sent: '2025-08-07T17:01:04+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: f2a9507b-dd68-440b-a0e3-48a11a3c9b43
+  channel: email
+  name: Variant 1
+  subject: 'IT’S ON: 20% Off Sitewide'
+  preheader: shop our Sunset Sale now
+- id: 7621b154-d210-406f-9624-57a3ca7c23c1
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41115
+  total_delivered: 41037
+  total_opens: 19131
+  total_clicks: 314
+  open_rate: 0.4653
+  click_rate: 0.0076
+  total_revenue: 15770.0
+  total_bounces: 2
+  total_unsubscribes: 57
+  ga4:
+    sessions: 382
+    purchases: 12
+    revenue: 2914.5
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.130520'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off Sitewide
+    type: null
+  primary_sale:
+    id: stf-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off Sitewide
+    type: null
+  sale_name: The Sunset Sale
+  sale_discount: 20% off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:45.219143'
+schedule_type: time_based

@@ -1,0 +1,30 @@
+id: 54891c5f-016f-4fc3-9d79-40205f974db5
+name: P_SMS_2026_02_23_BW_Final_Day
+brand: BUR
+channel: sms
+category: reminder
+type: announcement
+theme: null
+braze_id: 54891c5f-016f-4fc3-9d79-40205f974db5
+dates:
+  send_date: '2026-02-23'
+  inferred_send_type: local_time
+  first_sent: '2026-02-23T01:09:39+00:00'
+  last_sent: '2026-02-24T01:01:41+00:00'
+tags: []
+sends:
+- id: 19d83145-7d9d-43f3-8401-67e4bab7140c
+  channel: sms
+  name: Variant 1
+- id: 1913c8c4-d219-48da-a582-6b8f49019843
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 6885
+  total_delivered: 6677
+  total_opens: 0
+  total_clicks: 152
+  open_rate: 0.0
+  click_rate: 0.0221
+  total_revenue: 11634.0
+schedule_type: time_based

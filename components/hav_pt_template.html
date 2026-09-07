@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+      xmlns:o="urn:schemas-microsoft-com:office:office" lang="en">
+<!--
+  HAV (Havenly) Plain-Text Email Template v1.0
+  Based on production emails: p_em_2025_10_07_hav_pc_pt, p_em_2025_09_23_hav_conv_pt,
+  p_em_2025_07_20_hav_pc_summer_sale_reminder_pt
+
+  Structure:
+    Row 1 — Body content (greeting + body + signoff, single block, 640px)
+    Row 2 — Disclaimer (optional — removed when no active sale)
+    Row 3 — Logo footer (4-column: Havenly wordmark in col-1, empty cols 2-4)
+    Row 4 — Unsubscribe (content_blocks)
+
+  Placeholder markers for programmatic injection:
+    BODY_CONTENT   — replaced with converted body HTML
+    SIGNOFF        — replaced with signoff HTML, or default used
+    DISCLAIMER     — replaced with disclaimer text, or row removed if empty
+-->
+<head>
+  <title></title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!--[if mso]>
+  <xml>
+    <w:WordDocument xmlns:w="urn:schemas-microsoft-com:office:word">
+      <w:DontUseAdvancedTypographyReadingMail/>
+    </w:WordDocument>
+    <o:OfficeDocumentSettings>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+      <o:AllowPNG/>
+    </o:OfficeDocumentSettings>
+  </xml>
+  <![endif]-->
+
+  <!--[if !mso]><!-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans"
+        rel="stylesheet" type="text/css">
+  <!--<![endif]-->
+
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 0; }
+    a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: inherit !important;
+    }
+    #MessageViewBody a {
+      color: inherit;
+      text-decoration: none;
+    }
+    p { line-height: inherit; }
+    .desktop_hide,
+    .desktop_hide table {
+      mso-hide: all;
+      display: none;
+      max-height: 0;
+      overflow: hidden;
+    }
+    .image_block img+div { display: none; }
+    sub, sup { font-size: 75%; line-height: 0; }
+
+    @media (max-width: 660px) {
+      .mobile_hide {
+        display: none;
+      }
+      .row-content {
+        width: 100% !important;
+      }
+      .stack .column {
+        width: 100%;
+        display: block;
+      }
+      .mobile_hide {
+        min-height: 0;
+        max-height: 0;
+        max-width: 0;
+        overflow: hidden;
+        font-size: 0;
+      }
+      .desktop_hide,
+      .desktop_hide table {
+        display: table !important;
+        max-height: none !important;
+      }
+      .row-3 .column-1 .block-1.image_block .alignment div {
+        margin: 0 auto 0 0 !important;
+      }
+    }
+  </style>
+
+  <!--[if mso]>
+  <style>
+    sup, sub { font-size: 100% !important; }
+    sup { mso-text-raise: 10%; }
+    sub { mso-text-raise: -10%; }
+  </style>
+  <![endif]-->
+</head>
+
+<body class="body"
+      style="margin:0;background-color:#fff;padding:0;-webkit-text-size-adjust:none;text-size-adjust:none;">
+
+<!-- Outer container -->
+<table class="nl-container" width="100%" border="0" cellpadding="0"
+       cellspacing="0" role="presentation"
+       style="mso-table-lspace:0;mso-table-rspace:0;background-color:#fff;">
+<tbody><tr><td>
+
+<!-- ================================================================
+     ROW 1: BODY CONTENT (greeting + body + signoff in single block)
+     ================================================================ -->
+<table class="row row-1" align="center" width="100%" border="0"
+       cellpadding="0" cellspacing="0" role="presentation"
+       style="mso-table-lspace:0;mso-table-rspace:0;">
+<tbody><tr><td>
+  <table class="row-content stack" align="left" border="0" cellpadding="0"
+         cellspacing="0" role="presentation"
+         style="mso-table-lspace:0;mso-table-rspace:0;color:#000;width:640px;"
+         width="640">
+  <tbody><tr>
+    <td class="column column-1" width="100%"
+        style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;padding-bottom:5px;padding-top:5px;vertical-align:top;">
+      <table class="paragraph_block block-1" align="left" width="100%" border="0"
+             cellpadding="10" cellspacing="0" role="presentation"
+             style="mso-table-lspace:0;mso-table-rspace:0;word-break:break-word;">
+      <tr><td class="pad" align="left">
+        <div style="color:#101b24;direction:ltr;font-family:'Open Sans',Arial,Sans-serif;font-size:14px;font-weight:400;letter-spacing:0;line-height:1.5;text-align:left;mso-line-height-alt:21px;">
+          <p style="margin:0;margin-bottom:0;">Hi {{${first_name} | default: 'there'}},&nbsp;</p>
+          <p style="margin:0;margin-bottom:0;">&nbsp;</p>
+<!-- BODY_CONTENT -->
+          <p style="margin:0;margin-bottom:0;">&nbsp;</p>
+<!-- SIGNOFF -->
+        </div>
+      </td></tr>
+      </table>
+    </td>
+  </tr></tbody>
+  </table>
+</td></tr></tbody>
+</table>
+
+<!-- BEGIN_DISCLAIMER_ROW -->
+<!-- ================================================================
+     ROW 2: DISCLAIMER (optional — removed when no active sale)
+     ================================================================ -->
+<table class="row row-2" align="center" width="100%" border="0"
+       cellpadding="0" cellspacing="0" role="presentation"
+       style="mso-table-lspace:0;mso-table-rspace:0;">
+<tbody><tr><td>
+  <table class="row-content stack" align="left" border="0" cellpadding="0"
+         cellspacing="0" role="presentation"
+         style="mso-table-lspace:0;mso-table-rspace:0;color:#000;width:640px;"
+         width="640">
+  <tbody><tr>
+    <td class="column column-1" width="100%"
+        style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;padding-bottom:5px;padding-top:5px;vertical-align:top;">
+      <table class="paragraph_block block-1" width="100%" border="0"
+             cellpadding="10" cellspacing="0" role="presentation"
+             style="mso-table-lspace:0;mso-table-rspace:0;word-break:break-word;">
+      <tr><td class="pad">
+        <div style="color:#959596;direction:ltr;font-family:'Open Sans',Arial,Sans-serif;font-size:11px;font-weight:400;letter-spacing:0;line-height:1.4;text-align:left;mso-line-height-alt:15px;">
+          <p style="margin:0;"><!-- DISCLAIMER --></p>
+        </div>
+      </td></tr>
+      </table>
+    </td>
+  </tr></tbody>
+  </table>
+</td></tr></tbody>
+</table>
+<!-- END_DISCLAIMER_ROW -->
+
+<!-- ================================================================
+     ROW 3: LOGO FOOTER (4-column: wordmark in col-1)
+     ================================================================ -->
+<table class="row row-3" align="center" width="100%" border="0"
+       cellpadding="0" cellspacing="0" role="presentation"
+       style="mso-table-lspace:0;mso-table-rspace:0;">
+<tbody><tr><td>
+  <table class="row-content" align="left" border="0" cellpadding="0"
+         cellspacing="0" role="presentation"
+         style="mso-table-lspace:0;mso-table-rspace:0;background-color:#fff;border-radius:0;color:#000;width:640px;"
+         width="640">
+  <tbody><tr>
+    <td class="column column-1" width="25%"
+        style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top;">
+      <table class="image_block block-1" width="100%" border="0" cellpadding="0"
+             cellspacing="0" role="presentation"
+             style="mso-table-lspace:0;mso-table-rspace:0;">
+      <tr><td class="pad" style="padding-left:5px;width:100%;">
+        <div class="alignment" align="center">
+          <div style="max-width:155px;">
+            <a href="https://havenly.com/" target="_blank">
+              <img src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/c731630f24214e43807c7369ca8ebacd/Havenly_Wordmark_RGB_Charcoal_Brown%20%281%29.png"
+                   style="display:block;height:auto;border:0;width:100%;"
+                   width="155" alt="Havenly" title="Havenly" height="auto">
+            </a>
+          </div>
+        </div>
+      </td></tr>
+      </table>
+    </td>
+    <td class="column column-2" width="25%"
+        style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;padding-bottom:5px;padding-top:5px;vertical-align:top;">
+      <table class="paragraph_block block-1" width="100%" border="0"
+             cellpadding="10" cellspacing="0" role="presentation"
+             style="mso-table-lspace:0;mso-table-rspace:0;word-break:break-word;">
+      <tr><td class="pad">
+        <div style="color:#101b24;direction:ltr;font-family:'Open Sans',Arial,Sans-serif;font-size:14px;font-weight:400;letter-spacing:0;line-height:1.5;text-align:left;mso-line-height-alt:21px;">&nbsp;</div>
+      </td></tr>
+      </table>
+    </td>
+    <td class="column column-3" width="25%"
+        style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;padding-bottom:5px;padding-top:5px;vertical-align:top;">
+      <table class="paragraph_block block-1" width="100%" border="0"
+             cellpadding="10" cellspacing="0" role="presentation"
+             style="mso-table-lspace:0;mso-table-rspace:0;word-break:break-word;">
+      <tr><td class="pad">
+        <div style="color:#101b24;direction:ltr;font-family:'Open Sans',Arial,Sans-serif;font-size:14px;font-weight:400;letter-spacing:0;line-height:1.5;text-align:left;mso-line-height-alt:21px;">&nbsp;</div>
+      </td></tr>
+      </table>
+    </td>
+    <td class="column column-4" width="25%"
+        style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;padding-bottom:5px;padding-top:5px;vertical-align:top;">
+      <table class="paragraph_block block-1" width="100%" border="0"
+             cellpadding="10" cellspacing="0" role="presentation"
+             style="mso-table-lspace:0;mso-table-rspace:0;word-break:break-word;">
+      <tr><td class="pad">
+        <div style="color:#101b24;direction:ltr;font-family:'Open Sans',Arial,Sans-serif;font-size:14px;font-weight:400;letter-spacing:0;line-height:1.5;text-align:left;mso-line-height-alt:21px;">&nbsp;</div>
+      </td></tr>
+      </table>
+    </td>
+  </tr></tbody>
+  </table>
+</td></tr></tbody>
+</table>
+
+<!-- ================================================================
+     ROW 4: UNSUBSCRIBE (content_blocks)
+     ================================================================ -->
+<table class="row row-4" align="center" width="100%" border="0"
+       cellpadding="0" cellspacing="0" role="presentation"
+       style="mso-table-lspace:0;mso-table-rspace:0;">
+<tbody><tr><td>
+  <table class="row-content stack" align="left" border="0" cellpadding="0"
+         cellspacing="0" role="presentation"
+         style="mso-table-lspace:0;mso-table-rspace:0;background-color:#fff;border-radius:0;color:#000;width:640px;"
+         width="640">
+  <tbody><tr>
+    <td class="column column-1" width="100%"
+        style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;padding-bottom:5px;padding-top:5px;vertical-align:top;">
+      <table class="paragraph_block block-1" width="100%" border="0"
+             cellpadding="10" cellspacing="0" role="presentation"
+             style="mso-table-lspace:0;mso-table-rspace:0;word-break:break-word;">
+      <tr><td class="pad">
+        <div style="color:#101b24;direction:ltr;font-family:'Open Sans',Arial,Sans-serif;font-size:14px;font-weight:400;letter-spacing:0;line-height:1.5;text-align:center;mso-line-height-alt:21px;">
+          <p style="margin:0;">{{content_blocks.${unsubscribe} | id: 'cb1'}}</p>
+        </div>
+      </td></tr>
+      </table>
+    </td>
+  </tr></tbody>
+  </table>
+</td></tr></tbody>
+</table>
+
+</td></tr></tbody>
+</table>
+<!-- End -->
+</body>
+</html>

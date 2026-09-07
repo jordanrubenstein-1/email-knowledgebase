@@ -1,0 +1,33 @@
+id: a5da3eb2-2869-4485-91ae-7b88e4298e2e
+name: TRG_EM_2026_05_BW_PT_Post_Shipment_RAF_T1_V1
+brand: BUR
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: c48f359a-db03-4793-8b9a-6de575408d45
+canvas_name: Post Shipment Delivered RAF
+flow_type: other_flow
+sequence_position: 1
+subject: A little thank you (and something for a friend)
+preheader: ''
+sends:
+- id: a5da3eb2-2869-4485-91ae-7b88e4298e2e
+  channel: email
+  name: TRG_EM_2026_05_BW_PT_Post_Shipment_RAF_T1_V1
+  subject: A little thank you (and something for a friend)
+  preheader: ''
+  html_file: html/canvas-post-shipment-delivered-raf-t1-a5da3eb2.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-05-04T19:00:00Z'
+  last_sent: '2026-05-22T17:00:00Z'
+performance_summary:
+  total_sends: 824
+  total_delivered: 817
+  total_opens: 567
+  total_clicks: 9
+  open_rate: 0.6881
+  click_rate: 0.0109
+  total_unsubscribes: 5
+  total_revenue: 6729.0

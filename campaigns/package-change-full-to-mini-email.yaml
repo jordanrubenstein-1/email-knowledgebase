@@ -1,0 +1,24 @@
+id: f1775eeb-5287-0ede-ca3d-76d393d1dc16
+name: Package Change Full to Mini Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: f1775eeb-5287-0ede-ca3d-76d393d1dc16
+dates:
+  first_sent: '2025-01-08T19:00:00+00:00'
+  last_sent: '2026-02-03T11:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: 92d29ee1-b0e0-427e-b50c-0b8bf9e2efb5
+  channel: email
+  name: Variant 1
+  subject: Design Package Change Confirmation
+- id: d04fff1e-1e35-47aa-bc45-1af754879e5c
+  channel: other
+  name: Control Group
+performance_summary: {}
+schedule_type: api_triggered
+_filename: package-change-full-to-mini-email.yaml

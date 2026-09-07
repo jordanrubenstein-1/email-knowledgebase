@@ -1,0 +1,32 @@
+id: 292a08b8-0a25-4168-9abb-7736bf85c656
+name: TRG_SMS_2025_12_BW_Welcome_T4_V1
+brand: BUR
+channel: sms
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 11fceea4-bd32-4397-9a75-4f53253d5a4f
+canvas_name: Welcome Flow - SMS
+flow_type: welcome_series
+sequence_position: 4
+body: 'Burrow: Furniture that fits your life — not the other way around. Easy to move,
+  expand, and love. Because normal was never good enough. https://burrow.com/?utm_source=burrow&utm_medium=sms&utm_campaign={{campaign.${name}}}&bzt={{${email_address}
+  | base64_encode | url_param_escape}}'
+sends:
+- id: 292a08b8-0a25-4168-9abb-7736bf85c656
+  channel: sms
+  name: TRG_SMS_2025_12_BW_Welcome_T4_V1
+  body: 'Burrow: Furniture that fits your life — not the other way around. Easy to
+    move, expand, and love. Because normal was never good enough. https://burrow.com/?utm_source=burrow&utm_medium=sms&utm_campaign={{campaign.${name}}}&bzt={{${email_address}
+    | base64_encode | url_param_escape}}'
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-11-29T21:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 10874
+  total_delivered: 10304
+  total_clicks: 579
+  click_rate: 0.0532
+  total_unsubscribes: 225
+  total_bounces: 115

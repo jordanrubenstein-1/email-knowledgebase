@@ -1,0 +1,75 @@
+id: 33086c5b-d2ac-4b55-939c-a9643f69d906
+name: 2025_04_17_BW_D_Opera_Highlight
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 33086c5b-d2ac-4b55-939c-a9643f69d906
+dates:
+  send_date: '2025-04-17'
+  inferred_send_type: sto
+  first_sent: '2025-04-16T19:49:16+00:00'
+  last_sent: '2025-04-18T07:55:05+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 532e0640-3b9e-4545-aaab-6cd048ae63df
+  channel: email
+  name: Variant 1
+  subject: Shop the media console that can do it all
+  preheader: Versatile by design.
+- id: 182b6d3e-e74c-4f2a-b159-a0fcb4c15fb6
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 261847
+  total_delivered: 260096
+  total_opens: 87412
+  total_clicks: 497
+  open_rate: 0.3338
+  click_rate: 0.0019
+  total_revenue: 57290.0
+  total_bounces: 2
+  total_unsubscribes: 96
+  ga4:
+    sessions: 252
+    purchases: 1
+    revenue: 848.94
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.563357'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:31.423701'
+schedule_type: time_based

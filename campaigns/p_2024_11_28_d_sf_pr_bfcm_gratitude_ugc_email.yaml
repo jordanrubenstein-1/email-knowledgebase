@@ -1,0 +1,68 @@
+id: 1c60296b-8e93-4e07-bfd7-9dcd942fed77
+name: P_2024_11_28_D_SF_PR_BFCM_Gratitude_UGC_Email
+brand: STF
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: 1c60296b-8e93-4e07-bfd7-9dcd942fed77
+dates:
+  send_date: '2024-11-28'
+  inferred_send_type: local_time
+  first_sent: '2024-11-27T22:39:49+00:00'
+  last_sent: '2024-11-28T15:00:42+00:00'
+tags: []
+sends:
+- id: f486234c-33f6-448a-b33d-80410909b16d
+  channel: email
+  name: Variant 1
+  subject: We love making your house a home
+  preheader: grateful today, and every day
+  html_file: html/p_2024_11_28_d_sf_pr_bfcm_gratitude_ugc_email.html
+  screenshot: screenshots/p_2024_11_28_d_sf_pr_bfcm_gratitude_ugc_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6747864dad1f350065b974a6/original.gif?1732740685
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674787221c09b10064ad4891/original.gif?1732740898
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67478fe4cb57c70066d0f8f3/original.gif?1732743140
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+- id: 2b1e8fa7-31ab-4457-a958-17ee382da4b4
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 3712
+  total_delivered: 3669
+  total_opens: 1837
+  total_clicks: 65
+  open_rate: 0.4949
+  click_rate: 0.0175
+  total_revenue: 3585.2
+  total_unsubscribes: 15
+  ga4:
+    sessions: 61
+    purchases: 1
+    revenue: 13.8
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.821266'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: stf-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:35.042257'
+schedule_type: time_based

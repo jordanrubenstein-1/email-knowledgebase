@@ -1,0 +1,47 @@
+id: a184278d-0d9a-40d9-acb8-be55275d6fe9
+name: P_EM_2025_09_08_ID_D_Labor_Day_Event_Extension_Last_Chance
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: a184278d-0d9a-40d9-acb8-be55275d6fe9
+dates:
+  send_date: '2025-09-08'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-08T05:21:13+00:00'
+  last_sent: '2025-09-08T17:15:38+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: a9176832-8103-47fb-8f65-1f4ee6e70967
+  channel: email
+  name: Variant 1
+  subject: 'FINAL HOURS: 25% OFF SITEWIDE'
+  preheader: Even better—buy on sale now, choose your fabric later.
+- id: 5c6cf59e-53cf-447c-8da2-fcd4ce6d7a50
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 203887
+  total_delivered: 202994
+  total_opens: 94426
+  total_clicks: 640
+  open_rate: 0.4631
+  click_rate: 0.0031
+  total_revenue: 156323.99
+  total_bounces: 2
+  total_unsubscribes: 664
+  ga4:
+    sessions: 721
+    purchases: 8
+    revenue: 24806.88
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.679029'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.194912'
+schedule_type: time_based

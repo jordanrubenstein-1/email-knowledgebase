@@ -1,0 +1,37 @@
+id: 5417f4cd-35fa-4c53-9669-aca982e0a4e1
+name: P_SMS_2025_12_08_CZ_Cyber_Week_Event_Last_Chance
+brand: CZ
+channel: sms
+category: reminder
+type: seasonal
+theme: null
+braze_id: 5417f4cd-35fa-4c53-9669-aca982e0a4e1
+dates:
+  send_date: '2025-12-08'
+  inferred_send_type: local_time
+  first_sent: '2025-12-08T01:05:07+00:00'
+  last_sent: '2025-12-09T01:02:10+00:00'
+tags: []
+sends:
+- id: 9ea96610-f1fb-4b85-afd6-b519cc8fb66b
+  channel: sms
+  name: Variant 1
+- id: e56a1858-397f-48cb-baa7-2e1a70893657
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 20062
+  total_delivered: 18108
+  total_opens: 0
+  total_clicks: 122
+  open_rate: 0.0
+  click_rate: 0.0061
+  ga4:
+    sessions: 104
+    purchases: 1
+    revenue: 167.2
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.404254'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

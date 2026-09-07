@@ -1,0 +1,33 @@
+id: b005309c-aa47-4435-8352-80e962e7ef6c
+name: P_2025_1_22_HAV_Conv_Jan_Merch_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: b005309c-aa47-4435-8352-80e962e7ef6c
+dates:
+  send_date: '2025-01-22'
+  first_sent: '2025-01-21T18:43:35+00:00'
+  last_sent: '2025-01-22T17:15:07+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: b1c5f721-9a61-42c5-8d2e-57367d664680
+  channel: email
+  name: Variant 1
+  subject: Forget About Your 15% Off Code?
+  preheader: There’s still time to shop the sale.
+- id: 31441b48-92af-483c-95e7-767bf94565d8
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 37258
+  total_delivered: 37155
+  total_opens: 20564
+  total_clicks: 121
+  open_rate: 0.5519
+  click_rate: 0.0032
+  total_unsubscribes: 52
+schedule_type: time_based
+_filename: p_2025_1_22_hav_conv_jan_merch_sale_reminder.yaml

@@ -1,0 +1,35 @@
+id: aa93793d-6e8d-4e35-a6c6-e79da96b9b0d
+name: P_EM_2026_03_23_ID_D_PR_Quick_Ship
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: aa93793d-6e8d-4e35-a6c6-e79da96b9b0d
+dates:
+  send_date: '2026-03-23'
+  inferred_send_type: local_time
+  first_sent: '2026-03-22T17:06:49+00:00'
+  last_sent: '2026-03-23T17:03:53+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: f4b0d7ef-8abb-48eb-815f-99d325e962de
+  channel: email
+  name: Variant 1
+  subject: Custom Without the Wait
+  preheader: Made-to-order pieces, now 25% off during the Spring Refresh Sale.
+- id: ba030df6-55a4-4a72-a087-0321f791fed9
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 219588
+  total_delivered: 218490
+  total_opens: 91282
+  total_clicks: 656
+  open_rate: 0.4157
+  click_rate: 0.003
+  total_revenue: 174236.93
+  total_bounces: 3
+  total_unsubscribes: 267
+schedule_type: time_based

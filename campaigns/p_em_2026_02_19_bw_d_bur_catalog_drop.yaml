@@ -1,0 +1,35 @@
+id: d39f0af1-b140-4931-b6cf-f4400f815d2d
+name: P_EM_2026_02_19_BW_D_BUR_Catalog_Drop
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: d39f0af1-b140-4931-b6cf-f4400f815d2d
+dates:
+  send_date: '2026-02-19'
+  inferred_send_type: local_time
+  first_sent: '2026-02-18T19:26:35+00:00'
+  last_sent: '2026-02-19T17:15:42+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: a56512b7-a28c-46b6-bb66-fbc428da79f3
+  channel: email
+  name: Variant 1
+  subject: 'Presidents Day Sale: The Catalog, On Sale'
+  preheader: Thoughtful design. Modular builds. Delivered fast.
+- id: 6327f0f5-6c76-48ab-999d-06ddd436de4b
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 235438
+  total_delivered: 233774
+  total_opens: 126014
+  total_clicks: 311
+  open_rate: 0.5352
+  click_rate: 0.0013
+  total_revenue: 93890.0
+  total_bounces: 3
+  total_unsubscribes: 233
+schedule_type: time_based

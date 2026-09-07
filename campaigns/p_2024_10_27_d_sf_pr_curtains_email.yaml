@@ -1,0 +1,68 @@
+id: 429082e2-4c3d-4bfe-8e07-9005f7ad1929
+name: P_2024_10_27_D_SF_PR_Curtains_Email
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 429082e2-4c3d-4bfe-8e07-9005f7ad1929
+dates:
+  send_date: '2024-10-27'
+  inferred_send_type: local_time
+  first_sent: '2024-10-26T17:00:10+00:00'
+  last_sent: '2024-10-27T14:00:27+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: 102603d8-3789-49cf-8355-5905356851ca
+  channel: email
+  name: Variant 1
+  subject: 'Limited Time Only: 30% Off Curtains'
+  preheader: plus just added styles
+- id: 12bfc93e-e41e-436d-973e-7c9e44632de2
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 9628
+  total_delivered: 9579
+  total_opens: 2999
+  total_clicks: 85
+  open_rate: 0.3115
+  click_rate: 0.0088
+  total_revenue: 2822.8
+  total_unsubscribes: 10
+  ga4:
+    sessions: 104
+    purchases: 1
+    revenue: 21.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.148046'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-30-off-fabric-wallpaper-curtains-category-strikethrough-2024-10-25
+    name: 30% off fabric/wallpaper/curtains category (strikethrough)
+    start_date: '2024-10-25'
+    end_date: '2024-10-30'
+    discount: null
+    type: null
+  - id: stf-flash-sale-2024-10-25
+    name: Flash Sale
+    start_date: '2024-10-25'
+    end_date: '2024-10-30'
+    discount: null
+    type: null
+  primary_sale:
+    id: stf-30-off-fabric-wallpaper-curtains-category-strikethrough-2024-10-25
+    name: 30% off fabric/wallpaper/curtains category (strikethrough)
+    start_date: '2024-10-25'
+    end_date: '2024-10-30'
+    discount: null
+    type: null
+  sale_name: 30% off fabric/wallpaper/curtains category (strikethrough)
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:45.926603'
+schedule_type: time_based

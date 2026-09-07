@@ -1,0 +1,268 @@
+id: dcfc42e6-e7c6-3a67-a379-8f307f764e77
+name: Order Out For Delivery
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: dcfc42e6-e7c6-3a67-a379-8f307f764e77
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-20T07:00:00+00:00'
+  last_sent: '2025-12-20T19:00:00+00:00'
+tags: []
+sends:
+- id: 5f7dbcf2-69cc-42bd-a20f-dbd7ff50a2d9
+  channel: email
+  name: Variant 1
+  subject: A shipment from order {{api_trigger_properties.${order_number}}} is out
+    for delivery
+  html_file: html/order-out-for-delivery.html
+  screenshot: screenshots/order-out-for-delivery.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ab3b153a7879005e474f0f/original.png?1722497812
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ab3b133a7879006d470c03/original.png?1722497811
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ab3b14ff0fa20089b69bf5/original.png?1722497811
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ab3b139471e9005f445d57/original.png?1722497811
+- id: b662c432-64a9-4802-b91b-cb9c1130b3a1
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 3344
+  total_delivered: 3339
+  total_opens: 3382
+  total_clicks: 416
+  open_rate: 1.0114
+  click_rate: 0.1244
+  ga4:
+    sessions: 2298
+    purchases: 33
+    revenue: 11457.46
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.758918'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-citizenry-2025-02-19
+    name: The Citizenry
+    start_date: '2025-02-19'
+    end_date: '2025-02-24'
+    discount: 'Up to 20% Off Select Categories
+
+      20% Off Rugs + Bedding, 15% Off Furniture, Baskets, + Accents
+
+      + Up to 60% off Archive Sale
+
+
+      EXTENSION OFFER
+
+      Up to 20% Select Categories
+
+      20% off Bedding, 15% Off Furniture
+
+      + Up to 60% off Archive Sale'
+    type: null
+  - id: cz-the-citizenry-2025-03-12
+    name: The Citizenry
+    start_date: '2025-03-12'
+    end_date: '2025-03-13'
+    discount: "The Spring Event\nUp to 30% Off Select Categories: ALL MTO Furniture,\
+      \ Bedding, + Bath at 20%, plus SELECT (overstocked) Rugs at 20-30%\nArchive\
+      \ Sale up to 65%  including Fresh Cuts!\nTrade: 25% Off \nFree Swatch Promo\
+      \ (up to 5 swatches) 3/1-3/10"
+    type: null
+  - id: cz-the-citizenry-2025-04-11
+    name: The Citizenry
+    start_date: '2025-04-11'
+    end_date: '2025-04-13'
+    discount: 'Fresh Foundations
+
+      Up to 50% Off Select Rugs (tiered strikethrough)
+
+      15% Off Bedding, Pillows, and Accents (flat strikethrough)
+
+      No Trade Discount'
+    type: null
+  - id: cz-the-citizenry-2025-05-13
+    name: The Citizenry
+    start_date: '2025-05-13'
+    end_date: '2025-05-14'
+    discount: "The Memorial Day Event \n20% off Sitewide (Trade 25% off sitewide)\
+      \ inc MTO\nUp to 65% Archive Sale\nRETAIL ONLY EA VIA CODE - 5/7-5/12\nEarly\
+      \ Access: No code; EA messaging and strikethrough live on-site from 5/13"
+    type: null
+  - id: cz-the-citizenry-2025-06-12
+    name: The Citizenry
+    start_date: '2025-06-12'
+    end_date: '2025-06-12'
+    discount: 'The Summer Retreat Sale -- NO CODE NEEDED
+
+      20% Off Bedding, Bath, Baskets, Tableware, and Select Furniture (stocked funiture
+      only), + Up to 65% off Archive Sale
+
+      Trade: No Additional Offer'
+    type: null
+  - id: cz-the-citizenry-2025-07-08
+    name: The Citizenry
+    start_date: '2025-07-08'
+    end_date: '2025-07-08'
+    discount: 'The Fourth of July Event - NO CODE NEEDED
+
+      20% Off Sitewide, lean into In Stock/Ready to Ship
+
+      25% Off Sitewide for Trade'
+    type: null
+  - id: cz-the-bedroom-event-2025-07-23
+    name: The Bedroom Event
+    start_date: '2025-07-23'
+    end_date: '2025-07-24'
+    discount: 20% off Bedding, Pillows, Bedroom Furniture
+    type: null
+  - id: cz-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: Up to 65% Off Select Categories - Focus on Archive Sale and In Stock
+      Product
+    type: null
+  - id: cz-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-02'
+    discount: 20% off Sitewide
+    type: null
+  - id: cz-bedroom-refresh-sale-2025-09-15
+    name: Bedroom Refresh Sale
+    start_date: '2025-09-15'
+    end_date: '2025-09-22'
+    discount: 20% Off Bedding, Rugs, and Furniture
+    type: null
+  - id: cz-weekender-sale-2025-09-26
+    name: Weekender Sale
+    start_date: '2025-09-26'
+    end_date: '2025-09-30'
+    discount: 20% Off Sitewide
+    type: null
+  - id: cz-the-anniversary-sale-2025-10-09
+    name: The Anniversary Sale
+    start_date: '2025-10-09'
+    end_date: '2025-10-22'
+    discount: 20% Off Sitewide
+    type: null
+  - id: cz-winback-campaign-2025-10-30
+    name: Winback Campaign
+    start_date: '2025-10-30'
+    end_date: '2025-11-03'
+    discount: 20% off via code
+    type: null
+  - id: cz-black-friday-cyber-monday-2025-11-17
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-14'
+    end_date: '2025-12-01'
+    discount: '11/14 - 11/16 Early Access
+
+      11/17 - 12/1 Main Event
+
+      11/28 Black Friday Fund
+
+
+      25% Off Sitewide
+
+      Up to 70% Off Archive Sale
+
+      (Fresh Cuts of go forward, overstocked products)'
+    type: null
+  - id: cz-black-friday-cyber-monday-ea-2025-11-14
+    name: Black Friday / Cyber Monday (EA)
+    start_date: '2025-11-14'
+    end_date: '2025-11-16'
+    discount: '11/14 - 11/16 Early Access
+
+      11/17 - 12/1 Main Event
+
+      11/28 Black Friday Fund
+
+
+      25% Off Sitewide
+
+      Up to 70% Off Archive Sale
+
+      (Fresh Cuts of go forward, overstocked products)'
+    type: null
+  - id: cz-cyber-week-extension-2025-12-02
+    name: Cyber Week Extension
+    start_date: '2025-12-02'
+    end_date: '2025-12-02'
+    discount: 'Tuesday 12/2 - Monday, 12/8
+
+      20% Off Sitewide
+
+      Up to 70% Off Archive Sale
+
+      (Fresh Cuts + New Markdowns)'
+    type: null
+  - id: cz-up-to-35-off-strikethrough-wed-11-27-extra-sweeteners-select-products-go-up-to-35-off-2024-11-12
+    name: 'Up to 35% off (strikethrough) Wed 11/27 extra sweeteners: select products
+      go up to 35% off'
+    start_date: '2024-11-12'
+    end_date: '2024-11-14'
+    discount: null
+    type: null
+  - id: cz-early-access-2024-11-12
+    name: Early Access
+    start_date: '2024-11-12'
+    end_date: '2024-11-14'
+    discount: null
+    type: null
+  - id: cz-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-01'
+    discount: null
+    type: null
+  - id: cz_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-23'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: cz-the-citizenry-2025-02-19
+    name: The Citizenry
+    start_date: '2025-02-19'
+    end_date: '2025-02-24'
+    discount: 'Up to 20% Off Select Categories
+
+      20% Off Rugs + Bedding, 15% Off Furniture, Baskets, + Accents
+
+      + Up to 60% off Archive Sale
+
+
+      EXTENSION OFFER
+
+      Up to 20% Select Categories
+
+      20% off Bedding, 15% Off Furniture
+
+      + Up to 60% off Archive Sale'
+    type: null
+  sale_name: The Citizenry
+  sale_discount: 'Up to 20% Off Select Categories
+
+    20% Off Rugs + Bedding, 15% Off Furniture, Baskets, + Accents
+
+    + Up to 60% off Archive Sale
+
+
+    EXTENSION OFFER
+
+    Up to 20% Select Categories
+
+    20% off Bedding, 15% Off Furniture
+
+    + Up to 60% off Archive Sale'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:34.747188'
+schedule_type: api_triggered

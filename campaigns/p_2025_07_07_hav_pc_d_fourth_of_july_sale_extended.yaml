@@ -1,0 +1,35 @@
+id: af602096-23e5-4be7-99a7-111797365dc3
+name: P_2025_07_07_HAV_PC_D_Fourth_of_July_Sale_Extended
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: af602096-23e5-4be7-99a7-111797365dc3
+dates:
+  send_date: '2025-07-07'
+  first_sent: '2025-07-06T18:24:30+00:00'
+  last_sent: '2025-07-07T18:15:10+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 7a35ddf5-c0ab-4d6b-bed0-352458961b7e
+  channel: email
+  name: Variant 1
+  subject: 'SURPRISE: 50% off is BACK'
+  preheader: But not for long…
+- id: a5cb0788-ccb2-4d16-ae3b-464ab3570b40
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 226177
+  total_delivered: 222752
+  total_opens: 92659
+  total_clicks: 366
+  open_rate: 0.4097
+  click_rate: 0.0016
+  total_bounces: 13
+  total_unsubscribes: 424
+schedule_type: time_based
+_filename: p_2025_07_07_hav_pc_d_fourth_of_july_sale_extended.yaml

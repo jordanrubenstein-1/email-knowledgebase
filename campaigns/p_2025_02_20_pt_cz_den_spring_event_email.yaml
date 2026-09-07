@@ -1,0 +1,38 @@
+id: 54b46a5e-5694-4237-ac9b-c20bfcffd758
+name: P_2025_02_20_PT_CZ_DEN_Spring_Event_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: seasonal
+theme: spring
+braze_id: 54b46a5e-5694-4237-ac9b-c20bfcffd758
+dates:
+  send_date: '2025-02-20'
+  inferred_send_type: scheduled
+  first_sent: '2025-03-15T06:06:12+00:00'
+  last_sent: '2025-03-15T17:00:31+00:00'
+tags: []
+sends:
+- id: 712288fa-3271-4132-ae85-f3c6fa278096
+  channel: email
+  name: Variant 1
+  subject: 'Denver: welcome spring with up to 30% off!'
+  html_file: html/p_2025_02_20_pt_cz_den_spring_event_email.html
+  screenshot: screenshots/p_2025_02_20_pt_cz_den_spring_event_email.png
+- id: 8f2b3976-9b54-40c6-9fcd-0df3da8cb5c0
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 22
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.604357'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.383423'
+schedule_type: time_based

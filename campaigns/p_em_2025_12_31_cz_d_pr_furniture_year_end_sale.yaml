@@ -1,0 +1,61 @@
+id: b77119a1-f6a7-4736-9ed3-3bcba8f5e802
+name: P_EM_2025_12_31_CZ_D_PR_Furniture_Year_End_Sale
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: b77119a1-f6a7-4736-9ed3-3bcba8f5e802
+dates:
+  send_date: '2025-12-31'
+  inferred_send_type: local_time
+  first_sent: '2025-12-30T17:23:05+00:00'
+  last_sent: '2025-12-31T17:16:47+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- furniture
+- sale
+- sale/yearend2025
+sends:
+- id: 665a47c8-6e85-41f6-a00b-90a5a42e9214
+  channel: email
+  name: Variant 1
+  subject: Handcrafted With Care
+  preheader: Shop up to 25% off heirloom furniture.
+  html_file: html/p_em_2025_12_31_cz_d_pr_furniture_year_end_sale.html
+  screenshot: screenshots/p_em_2025_12_31_cz_d_pr_furniture_year_end_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951e55704c85d0063acffa9/original.png?1766974806
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951d9bb893a450064e527fe/original.png?1766971835
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951e5a3e7f43b0063110a63/original.png?1766974883
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951e591efd21600655eda50/original.png?1766974864
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951d99793508e0065067d39/original.png?1766971798
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951d989537b66006358100e/original.png?1766971785
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951d9767fc25f006518afd7/original.png?1766971766
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951d9424d539a0063426a38/original.png?1766971713
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951e536672aed00735f4142/original.png?1766974774
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951d951893a450064e527f2/original.png?1766971729
+- id: eb0eed3b-9b5c-486f-af99-d709e929ee02
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 114590
+  total_delivered: 113761
+  total_opens: 57695
+  total_clicks: 635
+  open_rate: 0.5035
+  click_rate: 0.0055
+  total_bounces: 3
+  total_unsubscribes: 191
+  ga4:
+    sessions: 595
+    purchases: 4
+    revenue: 1474.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.336407'
+    source: snowflake
+    channel: email
+schedule_type: time_based

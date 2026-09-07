@@ -1,0 +1,60 @@
+id: d1e1bcd6-82cf-42b3-acf4-eb258d5fc847
+name: P_EM_2026_01_04_SF_D_PR_2026_Print_of_the_Year_Reveal
+brand: STF
+channel: email
+category: product_launch
+type: announcement
+theme: null
+braze_id: d1e1bcd6-82cf-42b3-acf4-eb258d5fc847
+dates:
+  send_date: '2026-01-04'
+  inferred_send_type: local_time
+  first_sent: '2026-01-03T17:06:29+00:00'
+  last_sent: '2026-01-04T17:01:04+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: f785a30c-11f8-4f39-b5f5-6a39dbb672a6
+  channel: email
+  name: Variant 1
+  subject: Your vote is in
+  preheader: meet the print of 2026.
+  html_file: html/p_em_2026_01_04_sf_d_pr_2026_print_of_the_year_reveal.html
+  screenshot: screenshots/p_em_2026_01_04_sf_d_pr_2026_print_of_the_year_reveal.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69543064367b0a006335b3e8/original.png?1767125092
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69543083183679006578d74d/original.png?1767125123
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6949d72ddec8890063a645b7/original.png?1766446892
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69543052f2e4140063aac985/original.png?1767125073
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/695430484506f40073aae11f/original.png?1767125064
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69542f460e113000641478da/original.png?1767124805
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6949d734603e5c00639df193/original.png?1766446900
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69542e2930bebe0063174016/original.png?1767124520
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6949d71eefbc4d00639baaf7/original.png?1766446878
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69542e4e0e86410063d1ee26/original.gif?1767124558
+- id: c9456eb4-bc03-4843-87fe-963d778fcce2
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39888
+  total_delivered: 39204
+  total_opens: 15213
+  total_clicks: 205
+  open_rate: 0.3814
+  click_rate: 0.0051
+  total_bounces: 3
+  total_unsubscribes: 82
+  ga4:
+    sessions: 191
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.796004'
+    source: snowflake
+    channel: email
+schedule_type: time_based

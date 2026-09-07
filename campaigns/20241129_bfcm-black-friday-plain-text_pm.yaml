@@ -1,0 +1,55 @@
+id: 6025e78d-9abb-4a3e-871c-8eda5d128bff
+name: 20241129_BFCM-Black-Friday-Plain-Text_PM
+brand: BUR
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: 6025e78d-9abb-4a3e-871c-8eda5d128bff
+dates:
+  inferred_send_type: local_time
+  first_sent: '2024-11-29T02:05:14+00:00'
+  last_sent: '2024-11-30T02:01:20+00:00'
+tags: []
+sends:
+- id: 6a6c0f7d-0587-48b8-b052-16839267e1f8
+  channel: email
+  name: Variant 1
+  subject: Black Friday just got even better
+  preheader: Hurry, this only happens once a year.
+- id: 1a4c6532-3f5a-446a-9462-51c6b1565ffd
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.869799'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-20-off-2000-25-off-4000-30-off-4k-strikethrough-up-to-60-off-select-styles-2024-11-27
+    name: 20% off <$2000 / 25% off <$4000 / 30% off $4K+ (strikethrough) + up to 60%
+      off Select Styles
+    start_date: '2024-11-27'
+    end_date: '2024-12-03'
+    discount: null
+    type: null
+  primary_sale:
+    id: bur-20-off-2000-25-off-4000-30-off-4k-strikethrough-up-to-60-off-select-styles-2024-11-27
+    name: 20% off <$2000 / 25% off <$4000 / 30% off $4K+ (strikethrough) + up to 60%
+      off Select Styles
+    start_date: '2024-11-27'
+    end_date: '2024-12-03'
+    discount: null
+    type: null
+  sale_name: 20% off <$2000 / 25% off <$4000 / 30% off $4K+ (strikethrough) + up to
+    60% off Select Styles
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:35.382332'
+schedule_type: time_based

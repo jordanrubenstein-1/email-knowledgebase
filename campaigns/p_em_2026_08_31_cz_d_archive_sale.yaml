@@ -1,0 +1,31 @@
+id: 56278c70-6978-487a-891f-992ccf4885ba
+name: P_EM_2026_08_31_CZ_D_Archive_Sale
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 56278c70-6978-487a-891f-992ccf4885ba
+dates:
+  send_date: '2026-08-31'
+  last_sent: '2026-08-31'
+tags: []
+sends:
+- id: 10f6a487-208c-4b0c-82fb-6bdbdaeaa765
+  channel: email
+  name: Variant 1
+  subject: Before they're gone, up to 70% off
+  preheader: New archive markdowns now.
+- id: 9c413a1d-d2d2-48e5-807e-155510591d16
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 1849
+  total_delivered: 1828
+  total_opens: 413
+  total_clicks: 24
+  open_rate: 0.2234
+  click_rate: 0.013
+  total_bounces: 1
+schedule_type: time_based
+_filename: p_em_2026_08_31_cz_d_archive_sale.yaml

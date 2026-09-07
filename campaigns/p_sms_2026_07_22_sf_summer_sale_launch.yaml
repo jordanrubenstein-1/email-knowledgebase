@@ -1,0 +1,29 @@
+id: c6e643ef-0170-4c3c-a10d-2af1afead243
+name: P_SMS_2026_07_22_SF_Summer_Sale_Launch
+brand: STF
+channel: sms
+category: product_launch
+type: sale
+theme: summer
+braze_id: c6e643ef-0170-4c3c-a10d-2af1afead243
+dates:
+  send_date: '2026-07-22'
+  last_sent: '2026-07-22'
+tags: []
+sends:
+- id: 0fc56eaf-240f-4382-98b0-a4e008d820b9
+  channel: sms
+  name: Variant 1
+- id: 8b4815ea-fb0c-4e19-88aa-42c09e59769c
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 4448
+  total_delivered: 4356
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 50944.0
+schedule_type: time_based
+_filename: p_sms_2026_07_22_sf_summer_sale_launch.yaml

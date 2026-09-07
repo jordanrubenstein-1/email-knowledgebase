@@ -1,0 +1,40 @@
+id: 51296ccc-4d81-491b-9d4c-a1910d9994ee
+name: P_2024_08_05_CZ_D_PR_New_Arrivals_Email
+brand: CZ
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 51296ccc-4d81-491b-9d4c-a1910d9994ee
+dates:
+  send_date: '2024-08-05'
+  inferred_send_type: scheduled
+  first_sent: '2024-08-05T04:12:53+00:00'
+  last_sent: '2024-08-05T17:10:05+00:00'
+tags:
+- batch and blast
+sends:
+- id: f674524d-c77e-4f29-a2a2-caab91d80ffd
+  channel: email
+  name: Variant 1
+  subject: New Arrivals
+  preheader: Discover our latest arrivals from around the globe.
+  html_file: html/p_2024_08_05_cz_d_pr_new_arrivals_email.html
+  screenshot: screenshots/p_2024_08_05_cz_d_pr_new_arrivals_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66aceb33a4d376005c0608e3/original.gif?1722608435
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66aceb03610f510078b530cc/original.jpg?1722608387
+- id: 851308fa-8897-4cf6-b05d-13664822e981
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 37207
+  total_delivered: 37149
+  total_opens: 23486
+  total_clicks: 916
+  open_rate: 0.6312
+  click_rate: 0.0246
+  total_revenue: 16034.94
+  total_unsubscribes: 99
+_filename: p_2024_08_05_cz_d_pr_new_arrivals_email-51296ccc.yaml
+schedule_type: time_based

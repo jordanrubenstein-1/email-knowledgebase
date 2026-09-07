@@ -1,0 +1,50 @@
+id: 00cdd733-cb8c-4876-a009-7f8a22db93af
+name: P_EM_2025_07_31_HAV_PC_Summer_Sale_Ends_Tonight_PM_PT
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: summer
+braze_id: 00cdd733-cb8c-4876-a009-7f8a22db93af
+dates:
+  send_date: '2025-07-31'
+  inferred_send_type: local_time
+  first_sent: '2025-07-31T03:07:06+00:00'
+  last_sent: '2025-08-01T02:02:09+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 92f8b0c4-9db4-47de-9927-b26a571e2874
+  channel: email
+  name: Variant 1
+  subject: Offers end at midnight
+  preheader: Save on design packages + sitewide on furniture, rugs, and decor
+  html_file: html/p_em_2025_07_31_hav_pc_summer_sale_ends_tonight_pm_pt.html
+  screenshot: screenshots/p_em_2025_07_31_hav_pc_summer_sale_ends_tonight_pm_pt.png
+  image_urls:
+  - https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/c731630f24214e43807c7369ca8ebacd/Havenly_Wordmark_RGB_Charcoal_Brown%20%281%29.png
+- id: 8b9356b3-8ec3-42ee-be07-a83fe4e99adf
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 89997
+  total_delivered: 89742
+  total_opens: 39416
+  total_clicks: 303
+  open_rate: 0.438
+  click_rate: 0.0034
+  total_bounces: 3
+  total_unsubscribes: 338
+  ga4:
+    sessions: 253
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.745797'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.173772'
+schedule_type: time_based

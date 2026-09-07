@@ -1,0 +1,34 @@
+id: ece4fc14-238b-4d2d-b8be-4de82116a138
+name: P_2025_3_25_HAV_PC_PT_Birthday_Sale_Reminder_Merch
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: ece4fc14-238b-4d2d-b8be-4de82116a138
+dates:
+  send_date: '2025-03-25'
+  first_sent: '2025-03-24T21:33:06+00:00'
+  last_sent: '2025-03-25T18:15:04+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 55ad9b3f-3a69-4205-a014-13479ae68d9c
+  channel: email
+  name: Variant 1
+  subject: 50% off PLUS $50 Birthday cash
+- id: 02f6d2e2-54c6-4b30-b12a-94ec482e1794
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 198379
+  total_delivered: 194806
+  total_opens: 90076
+  total_clicks: 653
+  open_rate: 0.4541
+  click_rate: 0.0033
+  total_bounces: 6
+  total_unsubscribes: 422
+schedule_type: time_based
+_filename: p_2025_3_25_hav_pc_pt_birthday_sale_reminder_merch.yaml

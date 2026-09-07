@@ -1,0 +1,41 @@
+id: a3a1014d-05ea-4688-a37a-7d37f85376b1
+name: P_EM_2026_05_17_CZ_PC_D_Art
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: a3a1014d-05ea-4688-a37a-7d37f85376b1
+dates:
+  send_date: '2026-05-17'
+  inferred_send_type: local_time
+  first_sent: '2026-05-17T03:07:32+00:00'
+  last_sent: '2026-05-18T02:03:22+00:00'
+tags:
+- batch and blast
+- d2c
+- designed
+- prod
+- prod/art
+- sale
+- sale/mds2026
+sends:
+- id: 34702cb8-2ac6-41a7-97f8-6a08f726acfa
+  channel: email
+  name: Variant 1
+  subject: 'Memorial Day Sale: 25% off sitewide'
+  preheader: Shop fine art, minus the velvet rope.
+- id: 17fdff4e-df08-446d-83d3-b86400e4fffa
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 115104
+  total_delivered: 114279
+  total_opens: 55950
+  total_clicks: 889
+  open_rate: 0.4861
+  click_rate: 0.0077
+  total_bounces: 14
+  total_unsubscribes: 162
+_filename: p_em_2026_05_17_cz_pc_d_art.yaml
+schedule_type: time_based

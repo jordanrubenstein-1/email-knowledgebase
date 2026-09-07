@@ -1,0 +1,30 @@
+id: fb93f508-5ead-4f7a-bed6-18d7dd6bef2d
+name: P_2025_9_18_Holiday_Ready_Sale_Announce_SMS
+brand: ID
+channel: sms
+category: sale_promo
+type: sale
+theme: christmas
+braze_id: fb93f508-5ead-4f7a-bed6-18d7dd6bef2d
+dates:
+  send_date: '2025-09-18'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-18T22:13:09+00:00'
+  last_sent: '2025-09-18T22:36:40+00:00'
+tags: []
+sends:
+- id: 21c51fd1-f58c-40da-a2a4-01ac32de33eb
+  channel: other
+  name: Variant 1
+- id: 9800f9c0-a758-441f-965c-6a97fbcaf82e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 52368
+  total_delivered: 50591
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 7590.0
+schedule_type: time_based

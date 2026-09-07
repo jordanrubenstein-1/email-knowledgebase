@@ -1,0 +1,35 @@
+id: 3bcc4614-0e7d-4c03-ab17-5117374e21ce
+name: P_EM_2025_07_30_HAV_PC_D_Hideaway
+brand: HAV
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 3bcc4614-0e7d-4c03-ab17-5117374e21ce
+dates:
+  send_date: '2025-07-30'
+  first_sent: '2025-07-30T03:06:00+00:00'
+  last_sent: '2025-07-31T03:00:15+00:00'
+  inferred_send_type: local_time
+tags:
+- HideawayEmails
+sends:
+- id: fe5b68e7-1ee5-414a-bbaa-b70bf100a44e
+  channel: email
+  name: Variant 1
+  subject: For that golden-hour, last-days-of-summer feeling
+  preheader: Plus, 50% off design services is back for 2 more days
+- id: d6660f27-a9df-4ca7-8d15-57af00537515
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 228571
+  total_delivered: 228150
+  total_opens: 95074
+  total_clicks: 520
+  open_rate: 0.4159
+  click_rate: 0.0023
+  total_bounces: 13
+  total_unsubscribes: 238
+schedule_type: time_based
+_filename: p_em_2025_07_30_hav_pc_d_hideaway.yaml

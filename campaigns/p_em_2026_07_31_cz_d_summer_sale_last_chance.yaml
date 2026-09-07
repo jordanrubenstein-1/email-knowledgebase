@@ -1,0 +1,32 @@
+id: bbbdce47-be3a-4405-be89-fbda46edcb3e
+name: P_EM_2026_07_31_CZ_D_Summer_Sale_Last_Chance
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: summer
+braze_id: bbbdce47-be3a-4405-be89-fbda46edcb3e
+dates:
+  send_date: '2026-07-31'
+  last_sent: '2026-07-31'
+tags: []
+sends:
+- id: 2545a367-05bc-43e5-9ef0-c5e07125dafe
+  channel: email
+  name: Variant 1
+  subject: The Summer Sale ends tonight
+  preheader: Last chance to save 20% sitewide.
+- id: 0fa4c2b4-3f87-4bef-b921-93100e6b4a91
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 119798
+  total_delivered: 119630
+  total_opens: 59107
+  total_clicks: 586
+  open_rate: 0.4934
+  click_rate: 0.0049
+  total_bounces: 2
+  total_unsubscribes: 177
+schedule_type: time_based
+_filename: p_em_2026_07_31_cz_d_summer_sale_last_chance.yaml

@@ -1,0 +1,35 @@
+id: 40177c19-0ff7-44cd-a35d-7a97d58c95a5
+name: P_EM_2026_02_17_BW_D_Presidents_Day_Final_Day
+brand: BUR
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 40177c19-0ff7-44cd-a35d-7a97d58c95a5
+dates:
+  send_date: '2026-02-17'
+  inferred_send_type: local_time
+  first_sent: '2026-02-16T17:09:54+00:00'
+  last_sent: '2026-02-17T17:05:00+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 744aaa9b-240c-4ed1-ac4c-20964bb7c0c9
+  channel: email
+  name: Variant 1
+  subject: 'Final hours: Up to 35% off'
+  preheader: The Presidents Day Sale ends tonight.
+- id: c63cd04e-3018-4f25-b1ac-9eeb3f1464c4
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 234717
+  total_delivered: 233897
+  total_opens: 128239
+  total_clicks: 399
+  open_rate: 0.5464
+  click_rate: 0.0017
+  total_revenue: 71443.0
+  total_bounces: 2
+  total_unsubscribes: 232
+schedule_type: time_based

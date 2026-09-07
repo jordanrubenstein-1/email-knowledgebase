@@ -1,0 +1,35 @@
+id: 982e715e-6826-4d02-b57f-f49e2534622e
+name: P_2025_04_02_HAV_Conv_Hideaway
+brand: HAV
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 982e715e-6826-4d02-b57f-f49e2534622e
+dates:
+  send_date: '2025-04-02'
+  first_sent: '2025-04-01T21:07:48+00:00'
+  last_sent: '2025-04-02T21:02:10+00:00'
+  inferred_send_type: local_time
+tags:
+- HideawayEmails
+sends:
+- id: 1d38e0b4-32d2-405f-9ff6-fe0a308377d7
+  channel: email
+  name: Variant 1
+  subject: 'The #1 trend for spring 2025'
+  preheader: As classic as it gets.
+- id: 45a63a40-2b24-4f6f-a698-2d11a86f6e32
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 39310
+  total_delivered: 39234
+  total_opens: 21676
+  total_clicks: 400
+  open_rate: 0.5514
+  click_rate: 0.0102
+  total_bounces: 1
+  total_unsubscribes: 37
+schedule_type: time_based
+_filename: p_2025_04_02_hav_conv_hideaway.yaml

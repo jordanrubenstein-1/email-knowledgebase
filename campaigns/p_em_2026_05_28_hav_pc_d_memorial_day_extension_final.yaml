@@ -1,0 +1,34 @@
+id: 85cc1ec9-f965-4576-9746-7dc4bdcc5d7a
+name: P_EM_2026_05_28_HAV_PC_D_Memorial_Day_Extension_Final
+brand: HAV
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 85cc1ec9-f965-4576-9746-7dc4bdcc5d7a
+dates:
+  send_date: '2026-05-28'
+  first_sent: '2026-05-27T11:06:11+00:00'
+  last_sent: '2026-05-29T09:45:14+00:00'
+  inferred_send_type: sto
+tags:
+- BLASTS-2025
+sends:
+- id: 56903004-ce55-4825-bb46-8825e82af82e
+  channel: email
+  name: Variant 1
+  subject: Last chance for 50% off design services
+  preheader: Memorial Day savings end soon
+- id: 829f4d14-af1c-4a8b-b359-75c2a1732038
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 250
+  total_delivered: 250
+  total_opens: 40
+  total_clicks: 0
+  open_rate: 0.16
+  click_rate: 0.0
+  total_unsubscribes: 2
+schedule_type: time_based
+_filename: p_em_2026_05_28_hav_pc_d_memorial_day_extension_final.yaml

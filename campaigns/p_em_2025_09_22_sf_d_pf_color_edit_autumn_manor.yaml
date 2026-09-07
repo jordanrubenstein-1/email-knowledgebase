@@ -1,0 +1,62 @@
+id: 35dbdb76-de1c-442d-a764-4654350e5641
+name: P_EM_2025_09_22_SF_D_PF_Color_Edit_Autumn_Manor
+brand: STF
+channel: email
+category: editorial
+type: announcement
+theme: fall
+braze_id: 35dbdb76-de1c-442d-a764-4654350e5641
+dates:
+  send_date: '2025-09-22'
+  inferred_send_type: local_time
+  first_sent: '2025-09-21T18:06:50+00:00'
+  last_sent: '2025-09-22T17:00:32+00:00'
+tags:
+- Batch and Blast
+- am
+- color
+- d2c
+- designed
+sends:
+- id: 7e252931-0002-4f17-bb8d-5f6d45e1effc
+  channel: email
+  name: Variant 1
+  subject: Step Into the Autumn Manor
+  preheader: where bold print meets fall’s refined palette.
+  html_file: html/p_em_2025_09_22_sf_d_pf_color_edit_autumn_manor.html
+  screenshot: screenshots/p_em_2025_09_22_sf_d_pf_color_edit_autumn_manor.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cddd5c6cc6940066c0adc4/original.jpg?1758322012
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cddc82ea4a3a0066856c91/original.png?1758321794
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cddd7063fc4d00658099a3/original.jpg?1758322031
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cddd2707c3440067be2c09/original.png?1758321958
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cddd963e4d040065304b09/original.png?1758322070
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cddd1548245d00673c7c99/original.png?1758321941
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cde06d64da850065f6a039/original.png?1758322797
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cddd0fea4a3a0066856f25/original.png?1758321935
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cddd213e4d040065304921/original.png?1758321952
+- id: a4c86d2e-4ed2-4798-a09e-946790844eb3
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39619
+  total_delivered: 39291
+  total_opens: 17838
+  total_clicks: 170
+  open_rate: 0.4502
+  click_rate: 0.0043
+  total_unsubscribes: 70
+  ga4:
+    sessions: 183
+    purchases: 2
+    revenue: 212.58
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.822703'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:35.062103'
+schedule_type: time_based

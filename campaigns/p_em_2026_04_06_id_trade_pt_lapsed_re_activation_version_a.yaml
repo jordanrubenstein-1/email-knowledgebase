@@ -1,0 +1,34 @@
+id: 68bb375b-1d6e-48c9-a9c8-39747231e0ee
+name: P_EM_2026_04_06_ID_TRADE_PT_Lapsed_Re_Activation_Version_A_Control
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 68bb375b-1d6e-48c9-a9c8-39747231e0ee
+dates:
+  send_date: '2026-04-06'
+  inferred_send_type: local_time
+  first_sent: '2026-04-05T20:10:03+00:00'
+  last_sent: '2026-04-06T19:00:38+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 923674eb-b120-4871-9207-8a9ce17b8e1f
+  channel: email
+  name: Variant 1
+  subject: Another look at what's new at Interior Define
+  preheader: It's been a while. Here's what's new at Interior Define for your clients.
+- id: 47c6d945-a243-48bb-acda-85155110e639
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 1495
+  total_delivered: 1472
+  total_opens: 717
+  total_clicks: 21
+  open_rate: 0.4796
+  click_rate: 0.014
+  total_revenue: 1305.0
+  total_unsubscribes: 15
+schedule_type: time_based

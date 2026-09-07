@@ -1,0 +1,56 @@
+id: 81a969be-c8d2-4781-9cbf-176b56eabfb0
+name: P_2024_12_8_D_CZ_Color_Edit_Winter_Greens_Email
+brand: CZ
+channel: email
+category: editorial
+type: seasonal
+theme: winter
+braze_id: 81a969be-c8d2-4781-9cbf-176b56eabfb0
+dates:
+  send_date: '2024-12-08'
+  inferred_send_type: local_time
+  first_sent: '2024-12-07T17:06:08+00:00'
+  last_sent: '2024-12-08T17:01:23+00:00'
+tags: []
+sends:
+- id: 6c931b09-bf4d-4f53-90fe-66d4d079394c
+  channel: email
+  name: Variant 1
+  subject: 'The Color Edit: Winter Greens'
+  preheader: Get your daily serving of greens.
+  html_file: html/p_2024_12_8_d_cz_color_edit_winter_greens_email.html
+  screenshot: screenshots/p_2024_12_8_d_cz_color_edit_winter_greens_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67537587a4f2b20065e4bd85/original.jpg?1733522822
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6753752dc5e81700667d971e/original.png?1733522733
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6753645390b2f80066173a4e/original.jpg?1733518418
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6753470fb6ed6a0063c31e4b/original.jpg?1733510926
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67534690b0c35200656e829e/original.jpg?1733510799
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67534723eb98a600649d587c/original.jpg?1733510947
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6753467dff7d55006429141f/original.jpg?1733510781
+- id: d337f0ed-7dee-46a2-bb9f-255cf91897a0
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 96375
+  total_delivered: 95709
+  total_opens: 49273
+  total_clicks: 1083
+  open_rate: 0.5113
+  click_rate: 0.0112
+  total_revenue: 64978.76
+  total_bounces: 8
+  total_unsubscribes: 184
+  ga4:
+    sessions: 1271
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.740019'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.460637'
+schedule_type: time_based

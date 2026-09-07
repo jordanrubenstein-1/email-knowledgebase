@@ -1,0 +1,75 @@
+id: 200cb88b-55c8-48ea-a6ef-b514f139bcb8
+name: 2025_2_28_BW_D_Span_Details
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 200cb88b-55c8-48ea-a6ef-b514f139bcb8
+dates:
+  send_date: '2025-02-28'
+  inferred_send_type: local_time
+  first_sent: '2025-02-28T04:45:17+00:00'
+  last_sent: '2025-03-01T02:01:34+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: cad7c316-8731-424b-ad41-eaea290fa14d
+  channel: email
+  name: Variant 1
+  subject: Sink into Span
+  preheader: The comfort is in the details.
+- id: 78136a16-29b5-4899-b996-60ab00dd783b
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 265934
+  total_delivered: 264525
+  total_opens: 123967
+  total_clicks: 519
+  open_rate: 0.4662
+  click_rate: 0.002
+  total_revenue: 21498.0
+  total_bounces: 2
+  total_unsubscribes: 167
+  ga4:
+    sessions: 372
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.531242'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:31.097969'
+schedule_type: time_based

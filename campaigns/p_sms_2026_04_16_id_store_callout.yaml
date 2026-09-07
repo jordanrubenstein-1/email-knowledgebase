@@ -1,0 +1,31 @@
+id: 2c7921c1-4254-48cd-a984-05a2d8db4297
+name: P_SMS_2026_04_16_ID_Store_Callout
+brand: ID
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: 2c7921c1-4254-48cd-a984-05a2d8db4297
+dates:
+  send_date: '2026-04-16'
+  inferred_send_type: local_time
+  first_sent: '2026-04-16T02:05:11+00:00'
+  last_sent: '2026-04-17T01:02:30+00:00'
+tags: []
+sends:
+- id: 701325ad-783a-4170-b3b6-dff48573893d
+  channel: sms
+  name: Variant 1
+- id: 360ab121-115a-4829-b5f6-905f22e66bbf
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 49459
+  total_delivered: 46763
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 13297.99
+_filename: p_sms_2026_04_16_id_store_callout.yaml
+schedule_type: time_based

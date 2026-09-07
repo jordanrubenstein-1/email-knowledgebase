@@ -1,0 +1,60 @@
+id: 4a962114-2d79-441b-8a41-6df51ce14d00
+name: P_2024_08_29_D_CZ_PR_LDW_Picks_Under_$200_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 4a962114-2d79-441b-8a41-6df51ce14d00
+dates:
+  send_date: '2024-08-29'
+  inferred_send_type: local_time
+  first_sent: '2024-08-28T21:49:35+00:00'
+  last_sent: '2024-08-29T17:00:12+00:00'
+tags:
+- batch and blast/promo
+sends:
+- id: 65e84e62-57d8-4f02-9502-d5dec93c1f0f
+  channel: email
+  name: Variant 1
+  subject: Treat Yourself To Sale Styles Under $200
+  preheader: Claim these beauties before they're gone.
+  html_file: html/p_2024_08_29_d_cz_pr_ldw_picks_under_200_email.html
+  screenshot: screenshots/p_2024_08_29_d_cz_pr_ldw_picks_under_200_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ccdc9838f89f00722e1e01/original.jpg?1724701848
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c778e0b96c340063bb080e/original.jpg?1724348640
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c78d860f7e160064dce630/original.jpg?1724353926
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c3affed1cc8300655ea5fe/original.jpg?1724100606
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf556f5a953600655df03c/original.gif?1724863854
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c3b15b5d73f90065335405/original.jpg?1724100955
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ccdcab38f89f00632e21a9/original.jpg?1724701866
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c3b12d9ee9190066b6d2d1/original.jpg?1724100909
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf559f5a953600655df129/original.jpg?1724863902
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c779b806b819006458a2c7/original.jpg?1724348855
+- id: 59772583-e8f2-41df-b532-3bdd05696522
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 76130
+  total_delivered: 75830
+  total_opens: 39416
+  total_clicks: 1004
+  open_rate: 0.5177
+  click_rate: 0.0132
+  total_revenue: 161560.68
+  total_bounces: 1
+  total_unsubscribes: 163
+  ga4:
+    sessions: 983
+    purchases: 11
+    revenue: 3355.91
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.553235'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.184816'
+schedule_type: time_based

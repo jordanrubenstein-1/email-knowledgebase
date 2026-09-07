@@ -1,0 +1,35 @@
+id: 48c337c5-dd6a-4689-81b6-c54ce0809b3c
+name: P_EM_2026_01_01_HAV_PC_D_Sale_Extended
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 48c337c5-dd6a-4689-81b6-c54ce0809b3c
+dates:
+  send_date: '2026-01-01'
+  first_sent: '2025-12-31T17:23:27+00:00'
+  last_sent: '2026-01-01T18:15:17+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: f566723b-d935-4db6-a188-6fa4ab1c10c4
+  channel: email
+  name: Variant 1
+  subject: 3... 2...1... SURPRISE
+  preheader: One more chance to claim 50% off expert interior design.
+- id: 28d35c89-3962-478a-8a6a-5690fb4fc66c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 253646
+  total_delivered: 252893
+  total_opens: 101226
+  total_clicks: 580
+  open_rate: 0.3991
+  click_rate: 0.0023
+  total_bounces: 10
+  total_unsubscribes: 490
+schedule_type: time_based
+_filename: p_em_2026_01_01_hav_pc_d_sale_extended.yaml

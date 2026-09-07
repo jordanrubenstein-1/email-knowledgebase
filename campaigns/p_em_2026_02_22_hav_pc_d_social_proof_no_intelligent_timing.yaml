@@ -1,0 +1,35 @@
+id: 6e94d492-a664-4814-b51b-d28d98dfa45d
+name: P_EM_2026_02_22_HAV_PC_D_Social_Proof_NO_INTELLIGENT_TIMING
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 6e94d492-a664-4814-b51b-d28d98dfa45d
+dates:
+  send_date: '2026-02-22'
+  first_sent: '2026-02-21T17:20:34+00:00'
+  last_sent: '2026-02-22T18:15:21+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: a340632b-9bdf-4dd0-ad66-4e95b8c9c1e6
+  channel: email
+  name: Variant 1
+  subject: Join 200,000 people who love their new spaces
+  preheader: 'Stress-free, personalized interior design: on sale now!'
+- id: 1877c7f6-79d7-4be0-956e-0fece12c2c2a
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 132423
+  total_delivered: 131039
+  total_opens: 51966
+  total_clicks: 205
+  open_rate: 0.3924
+  click_rate: 0.0015
+  total_bounces: 9
+  total_unsubscribes: 197
+schedule_type: time_based
+_filename: p_em_2026_02_22_hav_pc_d_social_proof_no_intelligent_timing.yaml

@@ -1,0 +1,23 @@
+id: 9294437f-ed8c-4a7f-92b5-48199b690c2c
+name: Send Zoom NPS Survey
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 9294437f-ed8c-4a7f-92b5-48199b690c2c
+dates:
+  first_sent: '2024-09-02T20:00:00+00:00'
+  last_sent: '2026-02-07T02:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: 2d646a07-0aac-467c-8a59-7642177b0b8c
+  channel: other
+  name: Variant 1
+- id: 4b361d10-62c3-468e-a940-8b670ef43054
+  channel: other
+  name: Control Group
+performance_summary: {}
+schedule_type: api_triggered
+_filename: send-zoom-nps-survey.yaml

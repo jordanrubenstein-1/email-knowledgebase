@@ -1,0 +1,31 @@
+id: b6e27498-ecfc-4439-9dcd-47a1c9f19f84
+name: P_SMS_2026_04_14_ID_April_Reset_Mid_Sale_Reminder
+brand: ID
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: b6e27498-ecfc-4439-9dcd-47a1c9f19f84
+dates:
+  send_date: '2026-04-14'
+  inferred_send_type: local_time
+  first_sent: '2026-04-14T02:09:12+00:00'
+  last_sent: '2026-04-15T01:04:52+00:00'
+tags: []
+sends:
+- id: 454c9126-922f-4d42-b476-0a14516ed7bc
+  channel: sms
+  name: Variant 1
+- id: 93f99748-b70c-4d57-b0af-7d4591c3988a
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 49534
+  total_delivered: 46667
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 26068.99
+_filename: p_sms_2026_04_14_id_april_reset_mid_sale_reminder.yaml
+schedule_type: time_based

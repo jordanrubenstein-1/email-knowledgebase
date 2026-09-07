@@ -1,0 +1,31 @@
+id: e229d14e-4156-4f95-b471-8bcf0c8c393c
+name: Designer Tip
+brand: HAV
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: e229d14e-4156-4f95-b471-8bcf0c8c393c
+braze_type: canvas
+campaign_type: Triggered Journey
+dates: {}
+tags: []
+sends:
+- id: 7f9b0a25-855b-4030-845a-e74e27fb49ce
+  channel: email
+  name: P_EM_2026_07_HAV_CONV_PT_Designer_Tip_T1_V1
+  subject: Want to show your designer some love?
+  preheader: ''
+  step_id: 02118e75-81a4-46fc-beb0-a58aeb35424b
+performance_summary: {}
+canvas_steps:
+- id: 02118e75-81a4-46fc-beb0-a58aeb35424b
+  name: P_EM_2026_07_HAV_CONV_PT_Designer_Tip_T1_V1
+  type: message
+  channel: email
+  subject: Want to show your designer some love?
+  preheader: ''
+- id: d1403557-f26c-45a4-a3a1-65835299c34c
+  name: Step
+  type: delay
+_filename: designer-tip.yaml

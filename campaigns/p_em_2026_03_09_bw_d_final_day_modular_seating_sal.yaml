@@ -1,0 +1,35 @@
+id: a92254a0-4556-406b-914f-9c0195ccb0b6
+name: P_EM_2026_03_09_BW_D_Final_Day_Modular_Seating_Sale
+brand: BUR
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: a92254a0-4556-406b-914f-9c0195ccb0b6
+dates:
+  send_date: '2026-03-09'
+  inferred_send_type: local_time
+  first_sent: '2026-03-08T17:22:15+00:00'
+  last_sent: '2026-03-09T17:15:34+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 80a21427-8263-4d97-a3f0-b6d5c9cf6e03
+  channel: email
+  name: Variant 1
+  subject: 'LAST CHANCE: 25% Off Now'
+  preheader: Modular seating is on sale sitewide.
+- id: c70817c2-06be-43a3-8418-f2f05637c5ad
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 233633
+  total_delivered: 232501
+  total_opens: 124168
+  total_clicks: 252
+  open_rate: 0.5315
+  click_rate: 0.0011
+  total_revenue: 52907.0
+  total_bounces: 3
+  total_unsubscribes: 136
+schedule_type: time_based

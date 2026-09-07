@@ -1,0 +1,36 @@
+id: 9ac3ed12-012f-4695-8527-d8014522d92d
+name: P_EM_2026_03_24_TRADE_All_D_PR_Spring_Sale
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: spring
+braze_id: 9ac3ed12-012f-4695-8527-d8014522d92d
+dates:
+  send_date: '2026-03-24'
+  inferred_send_type: local_time
+  first_sent: '2026-03-24T00:25:14+00:00'
+  last_sent: '2026-03-24T19:02:31+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 63fac305-1a8c-4991-aa2f-59f81730e008
+  channel: email
+  name: Variant 1
+  subject: Shop the Spring Event Sale
+  preheader: Interior Define, The Citizenry + The Inside are on sale now—don't miss
+    these prices.
+- id: ce5c884e-8324-4f1a-abb2-c1624bee9593
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 20493
+  total_delivered: 19853
+  total_opens: 9178
+  total_clicks: 129
+  open_rate: 0.4479
+  click_rate: 0.0063
+  total_revenue: 80189.47
+  total_bounces: 5
+  total_unsubscribes: 38
+schedule_type: time_based

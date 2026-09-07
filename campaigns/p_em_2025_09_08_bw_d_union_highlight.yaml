@@ -1,0 +1,85 @@
+id: 6e554fab-f8d5-4874-bdb1-2bb575267d39
+name: P_EM_2025_09_08_BW_D_Union_Highlight
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 6e554fab-f8d5-4874-bdb1-2bb575267d39
+dates:
+  send_date: '2025-09-08'
+  inferred_send_type: local_time
+  first_sent: '2025-09-07T18:20:13+00:00'
+  last_sent: '2025-09-08T17:16:19+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 825d736c-85b5-4e84-8d60-f094fc485119
+  channel: email
+  name: Variant 1
+  subject: 'Caution: May Cause Serious Lounging'
+  preheader: Ships in days, and on sale now.
+- id: a5596b90-f555-4b46-b867-f6bef1abd9e0
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 243784
+  total_delivered: 242105
+  total_opens: 139310
+  total_clicks: 501
+  open_rate: 0.5714
+  click_rate: 0.0021
+  total_revenue: 30666.55
+  total_bounces: 3
+  total_unsubscribes: 294
+  ga4:
+    sessions: 282
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.604980'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-the-labor-day-event-2025-09-03
+    name: The Labor Day Event
+    start_date: '2025-09-03'
+    end_date: '2025-09-09'
+    discount: '20% off sitewide
+
+      Up to 70% off Clearance
+
+      Free shipping >$2k'
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-the-labor-day-event-2025-09-03
+    name: The Labor Day Event
+    start_date: '2025-09-03'
+    end_date: '2025-09-09'
+    discount: '20% off sitewide
+
+      Up to 70% off Clearance
+
+      Free shipping >$2k'
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: '20% off sitewide
+
+    Up to 70% off Clearance
+
+    Free shipping >$2k'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:31.952029'
+schedule_type: time_based

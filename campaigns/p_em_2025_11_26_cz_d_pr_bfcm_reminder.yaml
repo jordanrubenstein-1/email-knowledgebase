@@ -1,0 +1,113 @@
+id: e63df846-d4eb-448c-af67-5fbbb4ebddff
+name: P_EM_2025_11_26_CZ_D_PR_BFCM_Reminder
+brand: CZ
+channel: email
+category: reminder
+type: announcement
+theme: black_friday
+braze_id: e63df846-d4eb-448c-af67-5fbbb4ebddff
+dates:
+  send_date: '2025-11-26'
+  inferred_send_type: local_time
+  first_sent: '2025-11-25T23:12:27+00:00'
+  last_sent: '2025-11-26T17:16:30+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale/bfcm
+sends:
+- id: d4a4e577-e87a-404c-836a-307e00b6e37b
+  channel: email
+  name: Variant 1
+  subject: The Best Sale in Our History
+  preheader: A thank-you to those who believe in soulful living
+  html_file: html/p_em_2025_11_26_cz_d_pr_bfcm_reminder.html
+  screenshot: screenshots/p_em_2025_11_26_cz_d_pr_bfcm_reminder.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6924ec81a2826700732db920/original.png?1764027521
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691ca285787f6a0063c1baad/original.png?1763484292
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691ca2a571fb0b0073dafc45/original.png?1763484324
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691ca299ee25b0006370aa17/original.png?1763484312
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6924ec9402b05a006318fdba/original.png?1764027539
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691ca2945f148b006553d737/original.png?1763484308
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691ca2aba58c530064b8c210/original.png?1763484331
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6924ec6a6044af0063b54139/original.gif?1764027498
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691ca29ff51eb90074788f2e/original.png?1763484319
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691ca2895f148b006553d736/original.png?1763484297
+- id: 86e36157-5bed-4f09-81e7-b20d8f8c3f5e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 113861
+  total_delivered: 113548
+  total_opens: 58002
+  total_clicks: 1032
+  open_rate: 0.5094
+  click_rate: 0.0091
+  total_bounces: 88
+  total_unsubscribes: 151
+  ga4:
+    sessions: 1213
+    purchases: 25
+    revenue: 11964.9
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.443440'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-black-friday-cyber-monday-2025-11-17
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-14'
+    end_date: '2025-12-01'
+    discount: '11/14 - 11/16 Early Access
+
+      11/17 - 12/1 Main Event
+
+      11/28 Black Friday Fund
+
+
+      25% Off Sitewide
+
+      Up to 70% Off Archive Sale
+
+      (Fresh Cuts of go forward, overstocked products)'
+    type: null
+  primary_sale:
+    id: cz-black-friday-cyber-monday-2025-11-17
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-14'
+    end_date: '2025-12-01'
+    discount: '11/14 - 11/16 Early Access
+
+      11/17 - 12/1 Main Event
+
+      11/28 Black Friday Fund
+
+
+      25% Off Sitewide
+
+      Up to 70% Off Archive Sale
+
+      (Fresh Cuts of go forward, overstocked products)'
+    type: null
+  sale_name: Black Friday / Cyber Monday
+  sale_discount: '11/14 - 11/16 Early Access
+
+    11/17 - 12/1 Main Event
+
+    11/28 Black Friday Fund
+
+
+    25% Off Sitewide
+
+    Up to 70% Off Archive Sale
+
+    (Fresh Cuts of go forward, overstocked products)'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:42.589429'
+schedule_type: time_based

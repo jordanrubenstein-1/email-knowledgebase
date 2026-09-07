@@ -1,0 +1,145 @@
+#!/usr/bin/env python3
+"""Create TRG_EM_2026_04_ID_PT_Swatch_Personalized_T12_V1 in Braze (ID)."""
+
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent))
+
+from braze_campaign_api import braze_post_request, normalize_brand, init_config
+
+BRAND = normalize_brand("ID")
+TEMPLATE_NAME = "TRG_EM_2026_04_ID_PT_Swatch_Personalized_T12_V1"
+
+SUBJECT = (
+    "{%- assign shopping = canvas_entry_properties.shopping_for | default: '' -%}"
+    "{%- if shopping != '' -%}Found \"the one\" for your {{shopping | downcase}}?"
+    "{%- else -%}Found \"the one\" for your space?{%- endif -%}"
+)
+
+# All assigns on one line to avoid whitespace artifacts
+ASSIGNS = (
+    "{%- assign shopping = canvas_entry_properties.shopping_for | default: '' -%}"
+    "{%- assign style = canvas_entry_properties.design_style | default: '' -%}"
+    "{%- assign swatches = canvas_entry_properties.swatches -%}"
+    "{%- assign swatch_count = swatches | size -%}"
+    "{%- assign swatch_0 = swatches[0].name -%}"
+    "{%- assign swatch_1 = swatches[1].name -%}"
+    "{%- if shopping == blank -%}{%- abort_message('no shopping_for') -%}{%- endif -%}"
+    "{%- if shopping contains 'Sectionals' -%}{%- assign item = 'sectional' -%}"
+    "{%- elsif shopping contains 'Sofas' -%}{%- assign item = 'sofa' -%}"
+    "{%- elsif shopping contains 'Chairs/Chaises' -%}{%- assign item = 'chair' -%}"
+    "{%- elsif shopping contains 'Ottomans' -%}{%- assign item = 'ottoman' -%}"
+    "{%- elsif shopping contains 'Sleeper Sofas' -%}{%- assign item = 'sleeper sofa' -%}"
+    "{%- elsif shopping contains 'Beds' -%}{%- assign item = 'bed' -%}"
+    "{%- elsif shopping contains 'Dining' -%}{%- assign item = 'dining piece' -%}"
+    "{%- else -%}{%- assign item = 'piece' -%}{%- endif -%}"
+)
+
+BODY_CONTENT = """<p>Hi {{${first_name} | default: 'there'}},</p>
+
+<p>Your swatches should have had some time in your space by now &#8212; we know that seeing them in your space and living with them can often make all the difference.</p>
+
+{% if shopping contains "Sleeper Sofas" %}
+<p>Since you&#8217;re shopping for a sleeper sofa, try placing your swatches where it will live so you can see how each fabric feels in your space day-to-day.</p>
+{% elsif shopping contains "Sectionals" %}
+<p>Since you&#8217;re shopping for a sectional, try placing your swatches near your existing furniture to see how everything works together.</p>
+{% elsif shopping contains "Sofas" %}
+<p>Since you&#8217;re shopping for a sofa, try comparing your swatches next to pillows and rugs to get a sense of texture and scale.</p>
+{% elsif shopping contains "Chairs/Chaises" %}
+<p>Since you&#8217;re shopping for a chair or chaise, placing swatches in that exact spot can help you picture the final layout.</p>
+{% elsif shopping contains "Ottomans" %}
+<p>Since you&#8217;re shopping for an ottoman, see how the fabrics complement other furniture in the room.</p>
+{% elsif shopping contains "Beds" %}
+<p>Since you&#8217;re shopping for a bed, lay out your swatches near your bedding to help visualize your ideal look.</p>
+{% elsif shopping contains "Dining" %}
+<p>Since you&#8217;re shopping for dining furniture, check how the swatches pair with your table and surrounding decor.</p>
+{% endif %}
+
+{% if style contains "Modern" %}
+<p>Clean silhouettes and simple forms often make fabrics stand out nicely in your space.</p>
+{% elsif style contains "Classic" %}
+<p>Timeless shapes and fabrics tend to blend well with a variety of rooms.</p>
+{% elsif style contains "Eclectic" %}
+<p>Mixing textures or choosing a bold fabric can add personality to your space.</p>
+{% elsif style contains "Minimalist" %}
+<p>Simple, uncluttered forms can help your fabrics feel balanced in the room.</p>
+{% elsif style contains "Family-Friendly" %}
+<p>Performance fabrics are designed to handle everyday life and make maintenance easier.</p>
+{% endif %}
+
+<p>You have great taste.</p>
+
+{% if swatch_count == 1 %}
+<p>Will it be a {{ item }} in {{ swatch_0 }}?</p>
+{% elsif swatch_count == 2 %}
+<p>Will it be a {{ swatch_0 }} {{ item }}? Or are you leaning more toward {{ swatch_1 }}?</p>
+{% elsif swatch_count > 2 %}
+<p>Will it be a {{ swatch_0 }} or {{ swatch_1 }} {{ item }}? Or one of the others?</p>
+{% else %}
+<p>Have a favorite for your {{ item }} yet?</p>
+{% endif %}
+
+<p>If you&#8217;re close but not quite there, here are a few ways to make the decision easier:</p>
+<ol style="margin: 0 0 14px 0; padding-left: 20px; line-height: 1.5;">
+<li style="margin: 0 0 5px 0;">Narrow it down to your top 2&#8211;3 swatches</li>
+<li style="margin: 0 0 5px 0;">Leave them where your {{ item }} will live and check them throughout the day, or week &#8212; lighting makes a big difference</li>
+<li style="margin: 0 0 5px 0;">If you&#8217;re stuck, you can meet with your designer for free (virtually or in-person)</li>
+<li style="margin: 0 0 5px 0;">Or, get your {{ item }} started now and finalize your fabric within 30 days</li>
+</ol>
+
+<p>Your design expert is ready when you are. Reply to this email to reconnect and get their take on your swatches, or find the latest email from them and reply there.</p>
+
+<p>Best,<br>
+The Interior Define Team</p>"""
+
+FOOTER = """<p>Copyright &copy; {{ 'now' | date: '%Y' }}, Interior Define, All rights reserved.<br>
+3200 Cherry Creek South Drive, Suite 210, Denver, CO 80209</p>
+
+<p>If you would rather not receive future emails from us, you may <a href="{{${set_user_to_unsubscribed_url}}}" style="color:#1871D8;text-decoration:underline;">unsubscribe</a>.</p>"""
+
+formatted_body = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+body{margin:0;padding:0}
+p{margin:0 0 14px 0;line-height:1.5}
+a{color:#1871D8;text-decoration:underline}
+</style>
+</head>
+<body style="margin:0;padding:0;background-color:#ffffff;">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="background-color:#ffffff;">
+<tr><td align="center">
+<table width="600" border="0" cellpadding="20" cellspacing="0">
+<tr><td style="color:#101b24;font-family:Arial,sans-serif;font-size:14px;font-weight:400;line-height:150%;text-align:left;">
+
+""" + ASSIGNS + "\n" + BODY_CONTENT + """
+
+</td></tr>
+<tr><td style="color:#101b24;font-family:Arial,sans-serif;font-size:9px;font-weight:400;line-height:normal;text-align:left;">
+
+""" + FOOTER + """
+
+</td></tr>
+</table>
+</td></tr>
+</table>
+</body>
+</html>"""
+
+init_config(BRAND)
+response_data, error = braze_post_request("templates/email/create", {
+    "template_name": TEMPLATE_NAME,
+    "subject": SUBJECT,
+    "preheader": "",
+    "body": formatted_body,
+}, BRAND)
+
+if error:
+    print(f"ERROR: {error}")
+    sys.exit(1)
+
+template_id = response_data.get("email_template_id") or response_data.get("id")
+print(f"Created: {TEMPLATE_NAME}")
+print(f"Template ID: {template_id}")

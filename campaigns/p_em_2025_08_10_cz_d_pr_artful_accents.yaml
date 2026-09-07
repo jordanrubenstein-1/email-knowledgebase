@@ -1,0 +1,84 @@
+id: c1f98b0c-bc10-4891-ace2-4c446ef6a8d3
+name: P_EM_2025_08_10_CZ_D_PR_Artful_Accents
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: c1f98b0c-bc10-4891-ace2-4c446ef6a8d3
+dates:
+  send_date: '2025-08-10'
+  inferred_send_type: local_time
+  first_sent: '2025-08-10T00:08:03+00:00'
+  last_sent: '2025-08-10T23:01:49+00:00'
+tags:
+- accents
+- am
+- batch and blast
+- d2c
+- designed
+- prod
+- sale
+sends:
+- id: e864703f-1581-48fb-b4ab-640cc4e15541
+  channel: email
+  name: Variant 1
+  subject: All in the Details
+  preheader: Enjoy 20% off the little things that make a big difference.
+  html_file: html/p_em_2025_08_10_cz_d_pr_artful_accents.html
+  screenshot: screenshots/p_em_2025_08_10_cz_d_pr_artful_accents.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68965f7b5d3e9e0064eded7d/original.png?1754685307
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68965f009781c600821ce8a0/original.png?1754685184
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68965e9ae398540062618aef/original.png?1754685082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68965f575d3e9e0064edecee/original.png?1754685271
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68965eada3cce50073731039/original.png?1754685101
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68965f323da04d0062e7e491/original.png?1754685233
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68965f6de39854006261938e/original.png?1754685293
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68965ec47a9cfa0073c09583/original.png?1754685123
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68965f1792a7940061b1e42b/original.png?1754685207
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68965f0f3da04d0081e7e36c/original.png?1754685199
+- id: 52562d45-dc51-4535-b103-78944a74ba48
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 99893
+  total_delivered: 99801
+  total_opens: 52815
+  total_clicks: 670
+  open_rate: 0.5287
+  click_rate: 0.0067
+  total_revenue: 50538.05
+  total_unsubscribes: 138
+  ga4:
+    sessions: 720
+    purchases: 8
+    revenue: 1435.24
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.163691'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: Up to 65% Off Select Categories - Focus on Archive Sale and In Stock
+      Product
+    type: null
+  primary_sale:
+    id: cz-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: Up to 65% Off Select Categories - Focus on Archive Sale and In Stock
+      Product
+    type: null
+  sale_name: The Sunset Sale
+  sale_discount: Up to 65% Off Select Categories - Focus on Archive Sale and In Stock
+    Product
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:39.857443'
+schedule_type: time_based

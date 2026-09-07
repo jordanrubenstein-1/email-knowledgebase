@@ -1,0 +1,93 @@
+id: 1d1b75b7-7190-4757-9e12-552a16757c0f
+name: P_EM_2025_07_08_CZ_D_PR_Last_Chance_AM
+brand: CZ
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 1d1b75b7-7190-4757-9e12-552a16757c0f
+dates:
+  send_date: '2025-07-08'
+  inferred_send_type: scheduled
+  first_sent: '2025-07-08T03:00:57+00:00'
+  last_sent: '2025-07-08T17:01:15+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale_feat
+sends:
+- id: 58c47a3b-6797-45c3-9ddf-9ffcd0a18af8
+  channel: email
+  name: Variant 1
+  subject: 'Don’t Miss Out: 20% Off Ends Today'
+  preheader: Last chance to bring home most-loved styles at gentle prices.
+  html_file: html/p_em_2025_07_08_cz_d_pr_last_chance_am.html
+  screenshot: screenshots/p_em_2025_07_08_cz_d_pr_last_chance_am.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686c1d9062d6c80074541d0c/original.png?1751915919
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686c1daac4f5820065c813d1/original.png?1751915946
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686c1cfd60511f00666da67f/original.png?1751915772
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686c1d3662d6c80083541c63/original.png?1751915830
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686c1d7162d6c80074541c96/original.png?1751915889
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686c1d1ea9a8bd006526ca92/original.png?1751915806
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686c1cd660511f00666da51e/original.gif?1751915734
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686c1d68a9a8bd006526cbe1/original.png?1751915880
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686c1db2a748490066f513d0/original.png?1751915954
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686c1d47729a4f006676ba06/original.png?1751915846
+- id: c76c3e15-89a0-4e0e-a125-8f27674ccae5
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 101681
+  total_delivered: 100430
+  total_opens: 51659
+  total_clicks: 466
+  open_rate: 0.508
+  click_rate: 0.0046
+  total_revenue: 111146.33
+  total_bounces: 758
+  total_unsubscribes: 127
+  ga4:
+    sessions: 449
+    purchases: 13
+    revenue: 3965.79
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.538229'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-citizenry-2025-07-08
+    name: The Citizenry
+    start_date: '2025-07-08'
+    end_date: '2025-07-08'
+    discount: 'The Fourth of July Event - NO CODE NEEDED
+
+      20% Off Sitewide, lean into In Stock/Ready to Ship
+
+      25% Off Sitewide for Trade'
+    type: null
+  primary_sale:
+    id: cz-the-citizenry-2025-07-08
+    name: The Citizenry
+    start_date: '2025-07-08'
+    end_date: '2025-07-08'
+    discount: 'The Fourth of July Event - NO CODE NEEDED
+
+      20% Off Sitewide, lean into In Stock/Ready to Ship
+
+      25% Off Sitewide for Trade'
+    type: null
+  sale_name: The Citizenry
+  sale_discount: 'The Fourth of July Event - NO CODE NEEDED
+
+    20% Off Sitewide, lean into In Stock/Ready to Ship
+
+    25% Off Sitewide for Trade'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:43.541276'
+schedule_type: time_based

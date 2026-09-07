@@ -1,0 +1,59 @@
+id: 70b162aa-d126-4e34-b51a-ddfe0c34468b
+name: Pay by Links
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 70b162aa-d126-4e34-b51a-ddfe0c34468b
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-10-31T23:00:00+00:00'
+  last_sent: '2024-11-21T21:00:00+00:00'
+tags:
+- segment-event-driven
+- website
+sends:
+- id: ddd25b62-3664-4d7c-954b-350ae735fa03
+  channel: email
+  name: Variant 1
+  subject: Your Burrow House at Home Order
+- id: 50b3659b-84da-4183-9d30-7ef03a571cfb
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 1
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.093847'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-pre-black-fri-2024-10-30
+    name: Pre Black Fri
+    start_date: '2024-10-30'
+    end_date: '2024-11-12'
+    discount: null
+    type: null
+  - id: bur-bfcm-giving-tues-2024-11-13
+    name: BFCM + Giving Tues
+    start_date: '2024-11-13'
+    end_date: '2024-11-26'
+    discount: null
+    type: null
+  primary_sale:
+    id: bur-pre-black-fri-2024-10-30
+    name: Pre Black Fri
+    start_date: '2024-10-30'
+    end_date: '2024-11-12'
+    discount: null
+    type: null
+  sale_name: Pre Black Fri
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:37.596515'
+schedule_type: action_based

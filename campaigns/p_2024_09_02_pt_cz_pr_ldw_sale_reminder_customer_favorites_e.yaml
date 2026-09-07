@@ -1,0 +1,35 @@
+id: afeca5a2-cba3-4df9-b77b-9b7a23441de0
+name: P_2024_09_02_PT_CZ_PR_LDW_Sale_Reminder_Customer_Favorites_Email
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: afeca5a2-cba3-4df9-b77b-9b7a23441de0
+dates:
+  send_date: '2024-09-02'
+  inferred_send_type: local_time
+  first_sent: '2024-09-02T04:10:00+00:00'
+  last_sent: '2024-09-02T22:10:31+00:00'
+tags: []
+sends:
+- id: baf100ae-d91f-4739-9456-9209b63d33a7
+  channel: email
+  name: Variant 1
+  subject: Claim 20% off sitewide
+  html_file: html/p_2024_09_02_pt_cz_pr_ldw_sale_reminder_customer_favorites_e.html
+  screenshot: screenshots/p_2024_09_02_pt_cz_pr_ldw_sale_reminder_customer_favorites_e.png
+- id: 3beabada-7ddf-4bc2-9dac-bf4a9395ba9a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 45405
+  total_delivered: 45392
+  total_opens: 36665
+  total_clicks: 868
+  open_rate: 0.8075
+  click_rate: 0.0191
+  total_revenue: 177302.82
+  total_unsubscribes: 100
+_filename: p_2024_09_02_pt_cz_pr_ldw_sale_reminder_customer_favorites_e.yaml
+schedule_type: time_based

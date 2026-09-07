@@ -1,0 +1,35 @@
+id: d814fff9-f15c-476f-9db3-397cfda1053a
+name: P_EM_2026_04_17_HAV_CONV_D_Items_In_Your_Design_Are_On_Sale
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: d814fff9-f15c-476f-9db3-397cfda1053a
+dates:
+  send_date: '2026-04-17'
+  last_sent: '2026-04-17'
+tags:
+- BLASTS-2025
+sends:
+- id: d647f056-3775-4694-a500-65737d7bc20b
+  channel: email
+  name: Variant 1
+  subject: 'Items in your design are on sale '
+  preheader: Buy more, save more when you shop your Havenly design.
+  html_file: html/p_em_2026_04_17_hav_conv_d_items_in_your_design_are_on_sale.html
+  screenshot: screenshots/p_em_2026_04_17_hav_conv_d_items_in_your_design_are_on_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69d6b7d5cf4df700ae5bb422/original.png?1775679444
+- id: 79b936dd-bf97-4fab-8a3b-6192cc5a4d6e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 7607
+  total_delivered: 7593
+  total_opens: 4131
+  total_clicks: 191
+  open_rate: 0.5431
+  click_rate: 0.0251
+  total_unsubscribes: 7
+schedule_type: time_based

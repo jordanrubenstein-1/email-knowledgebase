@@ -1,0 +1,33 @@
+id: 5deb253f-381d-4f2f-8479-f127c93df887
+name: P_EM_2026_07_19_HAV_PC_D_Summer_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: summer
+braze_id: 5deb253f-381d-4f2f-8479-f127c93df887
+dates:
+  send_date: '2026-07-19'
+  last_sent: '2026-07-19'
+tags:
+- BLASTS-2025
+sends:
+- id: 16f67363-5d04-4e8d-b5ef-0435e27cc713
+  channel: email
+  name: Variant 1
+  subject: Summer savings are still in season
+  preheader: Don't miss 50% off interior design services.
+- id: ef4d5390-05c7-4a4a-a41f-43376b1a2f81
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 284705
+  total_delivered: 283950
+  total_opens: 102149
+  total_clicks: 374
+  open_rate: 0.3588
+  click_rate: 0.0013
+  total_bounces: 12
+  total_unsubscribes: 423
+schedule_type: time_based
+_filename: p_em_2026_07_19_hav_pc_d_summer_sale_reminder.yaml

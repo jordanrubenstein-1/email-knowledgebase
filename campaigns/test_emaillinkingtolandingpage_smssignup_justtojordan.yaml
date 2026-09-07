@@ -1,0 +1,30 @@
+id: 1e05b1c7-8697-4ca2-890c-50d24364f3ee
+name: Test_EmailLinkingToLandingPage_SMSSignUp_JustToJordan
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 1e05b1c7-8697-4ca2-890c-50d24364f3ee
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-05-04T05:00:21+00:00'
+  last_sent: '2025-06-30T17:36:55+00:00'
+tags: []
+sends:
+- id: 3c02918b-1efa-429e-82be-faaa21a6df63
+  channel: email
+  name: Variant 1
+  subject: CZ email with a link to a landing page!
+  preheader: Try signing up for SMS?
+  html_file: html/test_emaillinkingtolandingpage_smssignup_justtojordan.html
+  screenshot: screenshots/test_emaillinkingtolandingpage_smssignup_justtojordan.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6802d76bcb01750062ce5054/original.png?1745016682
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68111fb6fa27ce00851ec8b9/original.jpg?1745952694
+- id: 32f3e5f6-3c20-40df-9872-d17819af88f4
+  channel: other
+  name: Control Group
+performance_summary: {}
+_filename: test_emaillinkingtolandingpage_smssignup_justtojordan.yaml
+schedule_type: time_based

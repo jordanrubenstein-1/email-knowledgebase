@@ -1,0 +1,35 @@
+id: 8a55f525-8f19-4b13-ac08-0045f208ef78
+name: P_2025_06_26_HAV_PC_D_July_4th_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 8a55f525-8f19-4b13-ac08-0045f208ef78
+dates:
+  send_date: '2025-06-26'
+  first_sent: '2025-06-25T19:37:09+00:00'
+  last_sent: '2025-06-26T18:15:09+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 540a51c4-68a5-48d4-a420-0874ddc46d82
+  channel: email
+  name: Variant 1
+  subject: 'Re: Your designer is waiting. '
+  preheader: And they’ve got ideas. Book now with 50% off.
+- id: 2156c024-ad2c-49b6-b837-43a26d4255dd
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 223707
+  total_delivered: 220425
+  total_opens: 93293
+  total_clicks: 568
+  open_rate: 0.417
+  click_rate: 0.0025
+  total_bounces: 7
+  total_unsubscribes: 409
+schedule_type: time_based
+_filename: p_2025_06_26_hav_pc_d_july_4th_sale_reminder.yaml

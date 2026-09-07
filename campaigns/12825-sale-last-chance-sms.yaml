@@ -1,0 +1,37 @@
+id: klaviyo-01JJN0HGR2KSV9XX6B97TE9V7M
+name: '1/28/25: Sale Last Chance SMS'
+brand: TI
+channel: sms
+category: sale_promo
+type: sale
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2025-01-27'
+  inferred_send_type: scheduled
+  first_sent: '2025-01-28T11:00:00+00:00'
+  last_sent: '2025-01-28T11:00:00+00:00'
+sends:
+- id: SEgABj
+  channel: sms
+  name: '1/28/25: Sale Last Chance SMS Variation A'
+  body: '20% off sitewide ends today. Better start adding to cart: https://www.theinside.com/'
+- id: UsGu7N
+  channel: sms
+  name: '1/28/25: Sale Last Chance SMS Variation B'
+  body: '20% off sitewide ends today: https://www.theinside.com'
+performance_summary:
+  total_sends: 7320
+  total_delivered: 7253
+  total_opens: 0
+  total_clicks: 381
+  unique_opens: 0
+  unique_clicks: 377
+  open_rate: 0.0
+  click_rate: 0.0515
+  total_open_rate: 0.0
+  total_click_rate: 0.052
+  total_unsubscribes: 10
+klaviyo_type: campaign
+klaviyo_campaign_id: 01JJN0HGR2KSV9XX6B97TE9V7M
+klaviyo_message_id: SEgABj

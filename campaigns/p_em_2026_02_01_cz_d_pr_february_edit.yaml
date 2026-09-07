@@ -1,0 +1,48 @@
+id: 3a9abb3b-5c48-44d1-9c31-88f7650027c8
+name: P_EM_2026_02_01_CZ_D_PR_February_Edit
+brand: CZ
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 3a9abb3b-5c48-44d1-9c31-88f7650027c8
+dates:
+  send_date: '2026-02-01'
+  inferred_send_type: local_time
+  first_sent: '2026-01-31T20:05:44+00:00'
+  last_sent: '2026-02-01T20:05:44+00:00'
+tags:
+- am
+- batch and blast
+- catalog
+- d2c
+- designed
+sends:
+- id: d4ea69e3-826c-4868-8df5-c9528e8dd21e
+  channel: email
+  name: Variant 1
+  subject: The February Edit
+  preheader: A curated look at what’s feeling right at home right now.
+  html_file: html/p_em_2026_02_01_cz_d_pr_february_edit.html
+  screenshot: screenshots/p_em_2026_02_01_cz_d_pr_february_edit.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697ba62517c2a400645d5879/original.png?1769711140
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697ba57220fad600637cda16/original.png?1769710961
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697ba546f147370063b1a7f3/original.png?1769710917
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697ba5e8d2e0ef0063ac5625/original.png?1769711080
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697ba63a4447dd00644784a7/original.png?1769711161
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697ba5204de0380065baddf1/original.png?1769710880
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697ba5a56ec4310063881dcd/original.png?1769711012
+- id: 4b5f87a0-2014-428e-ba79-16ecc8d8787c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 55903
+  total_delivered: 55860
+  total_opens: 28014
+  total_clicks: 643
+  open_rate: 0.5011
+  click_rate: 0.0115
+  total_bounces: 3
+  total_unsubscribes: 107
+schedule_type: time_based

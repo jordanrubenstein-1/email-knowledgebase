@@ -1,0 +1,51 @@
+id: a1271553-c356-44e5-b3eb-efd66bd0a3ea
+name: P_2025_2_3_D_CZ_Trade_Back_in_Stock_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: a1271553-c356-44e5-b3eb-efd66bd0a3ea
+dates:
+  send_date: '2025-02-03'
+  inferred_send_type: local_time
+  first_sent: '2025-02-02T19:08:07+00:00'
+  last_sent: '2025-02-03T19:00:17+00:00'
+tags: []
+sends:
+- id: 1d7a7ea0-e509-4977-b373-60ba1184fb7b
+  channel: email
+  name: Variant 1
+  subject: These Best-Sellers Are Back
+  preheader: Get 20% off with your Trade-exclusive discount
+  html_file: html/p_2025_2_3_d_cz_trade_back_in_stock_email.html
+  screenshot: screenshots/p_2025_2_3_d_cz_trade_back_in_stock_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bcbe42fa867006526705e/original.png?1738263523
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bcc0a27987a00655c8973/original.gif?1738263562
+- id: c34207f6-41bb-4fde-9b50-4561625f1521
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 15165
+  total_delivered: 14935
+  total_opens: 7948
+  total_clicks: 207
+  open_rate: 0.5241
+  click_rate: 0.0136
+  total_revenue: 30598.0
+  total_bounces: 10
+  total_unsubscribes: 50
+  ga4:
+    sessions: 155
+    purchases: 1
+    revenue: 2038.2
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.423312'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.522334'
+schedule_type: time_based

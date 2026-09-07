@@ -1,0 +1,33 @@
+id: 5f5f4ce5-5b75-4fbd-a04d-916413e4f54a
+name: TRG_EM_2024_11_BW_D_Welcome_T3_V1
+brand: BUR
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 2fccfb4d-7b98-460d-9d19-98e33e89aa25
+canvas_name: Welcome Flow - General
+flow_type: welcome_series
+sequence_position: 3
+subject: Fabrics that stand the test of… life
+preheader: '{{content_blocks.${2025Q3_Welcome_PH_Email1_Promo}}}'
+sends:
+- id: 5f5f4ce5-5b75-4fbd-a04d-916413e4f54a
+  channel: email
+  name: TRG_EM_2024_11_BW_D_Welcome_T3_V1
+  subject: Fabrics that stand the test of… life
+  preheader: '{{content_blocks.${2025Q3_Welcome_PH_Email1_Promo}}}'
+  html_file: html/canvas-welcome-flow-general-t3-5f5f4ce5.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-11-01T00:00:00Z'
+  last_sent: '2026-08-31T13:00:00Z'
+performance_summary:
+  total_sends: 24115
+  total_delivered: 23730
+  total_opens: 10640
+  total_clicks: 438
+  open_rate: 0.4412
+  click_rate: 0.0182
+  total_unsubscribes: 172
+  total_revenue: 254465.12

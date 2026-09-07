@@ -1,0 +1,38 @@
+id: 1e9ae052-1cbe-4c39-8323-6e2b6ce211df
+name: P_EM_2026_02_06_BW_D_Burrow_In_Store_Event
+brand: BUR
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 1e9ae052-1cbe-4c39-8323-6e2b6ce211df
+dates:
+  send_date: '2026-02-06'
+  inferred_send_type: local_time
+  first_sent: '2026-02-06T01:09:51+00:00'
+  last_sent: '2026-02-07T01:01:05+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 72cdd778-c846-42fe-b524-ff0f65092f3e
+  channel: email
+  name: Variant 1
+  subject: BEST. WEEKEND. EVER.
+  preheader: 'You’re invited to sip, sit and save up to 35% off
+
+
+    '
+- id: 85249aa3-1374-4ef9-b240-872c5eb1d56a
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 5918
+  total_delivered: 5872
+  total_opens: 2641
+  total_clicks: 66
+  open_rate: 0.4463
+  click_rate: 0.0112
+  total_revenue: 13017.0
+  total_bounces: 6
+  total_unsubscribes: 30
+schedule_type: time_based

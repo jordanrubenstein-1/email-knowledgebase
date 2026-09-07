@@ -1,0 +1,48 @@
+id: 35949fa8-daf0-42af-80e8-b4f1c902f625
+name: P_2024_08_21_PT_SF_PR_LDW_Early_Access_Email
+brand: STF
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 35949fa8-daf0-42af-80e8-b4f1c902f625
+dates:
+  send_date: '2024-08-21'
+  inferred_send_type: scheduled
+  first_sent: '2024-08-20T23:23:11+00:00'
+  last_sent: '2024-08-21T14:05:02+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: ef66c97e-7f64-409f-b01f-b3b9d7b449df
+  channel: email
+  name: Variant 1
+  subject: 'VIPs ONLY: 20% OFF STARTS NOW'
+  preheader: early access to shop our Labor Day Event
+  html_file: html/p_2024_08_21_pt_sf_pr_ldw_early_access_email.html
+  screenshot: screenshots/p_2024_08_21_pt_sf_pr_ldw_early_access_email.png
+- id: be3376a7-c307-4543-8c93-6a212da4fc35
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 4989
+  total_delivered: 4905
+  total_opens: 2421
+  total_clicks: 173
+  open_rate: 0.4853
+  click_rate: 0.0347
+  total_revenue: 7792.0
+  total_unsubscribes: 43
+  ga4:
+    sessions: 138
+    purchases: 5
+    revenue: 3288.3
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.712279'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.964946'
+schedule_type: time_based

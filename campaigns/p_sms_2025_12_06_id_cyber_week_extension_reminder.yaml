@@ -1,0 +1,30 @@
+id: 8f4950de-ffa0-444a-aa24-d885c106a870
+name: P_SMS_2025_12_06_ID_Cyber_Week_Extension_Reminder
+brand: ID
+channel: sms
+category: reminder
+type: seasonal
+theme: null
+braze_id: 8f4950de-ffa0-444a-aa24-d885c106a870
+dates:
+  send_date: '2025-12-06'
+  inferred_send_type: local_time
+  first_sent: '2025-12-06T01:08:18+00:00'
+  last_sent: '2025-12-07T01:01:20+00:00'
+tags: []
+sends:
+- id: 93294a9e-eadd-4c51-b665-30b1f0c3a28c
+  channel: sms
+  name: Variant 1
+- id: c97350c6-ea02-4cd1-bd86-6556d09e10ef
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 50241
+  total_delivered: 48288
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 62460.95
+schedule_type: time_based

@@ -1,0 +1,32 @@
+id: f8167bcb-2762-42d8-9d8a-91d06be34639
+name: TRG_EM_2024_08_CZ_D_Cart_Abandon_One_Off_T2
+brand: CZ
+channel: email
+category: sale_promo
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: fe28bf55-5ec6-4894-a475-6df678331ae1
+canvas_name: Cart Abandon One Off
+flow_type: cart_abandonment
+sequence_position: 2
+subject: We saved your cart
+preheader: ''
+sends:
+- id: f8167bcb-2762-42d8-9d8a-91d06be34639
+  channel: email
+  name: TRG_EM_2024_08_CZ_D_Cart_Abandon_One_Off_T2
+  subject: We saved your cart
+  preheader: ''
+  html_file: html/canvas-cart-abandon-one-off-t2-f8167bcb.html
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2025-11-18T19:00:00Z'
+  last_sent: '2025-11-18T19:00:00Z'
+performance_summary:
+  total_sends: 3043
+  total_delivered: 3033
+  total_opens: 1846
+  total_clicks: 113
+  open_rate: 0.6066
+  click_rate: 0.0371
+  total_unsubscribes: 6

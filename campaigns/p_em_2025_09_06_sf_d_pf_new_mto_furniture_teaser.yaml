@@ -1,0 +1,59 @@
+id: d3e9d5ff-489c-47db-a392-d4d87a5df995
+name: P_EM_2025_09_06_SF_D_PF_New_MTO_Furniture_Teaser
+brand: STF
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: d3e9d5ff-489c-47db-a392-d4d87a5df995
+dates:
+  send_date: '2025-09-06'
+  inferred_send_type: local_time
+  first_sent: '2025-09-05T18:42:27+00:00'
+  last_sent: '2025-09-06T17:01:04+00:00'
+tags:
+- Batch and Blast
+- am
+- custom furniture
+- d2c
+- designed
+- prod
+- sale
+- swatches
+sends:
+- id: 0c90c147-aff7-427f-9a08-4793a6d3eb4c
+  channel: email
+  name: Variant 1
+  subject: 'COMING SOON: Studio by St Frank'
+  preheader: 'save the date: 9.9.25'
+  html_file: html/p_em_2025_09_06_sf_d_pf_new_mto_furniture_teaser.html
+  screenshot: screenshots/p_em_2025_09_06_sf_d_pf_new_mto_furniture_teaser.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b7befa14745b0086acb105/original.png?1756872442
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b7bee0c8f38d00651b1d12/original.gif?1756872416
+- id: 1bed7313-2289-459e-ad51-74f8aef07d3e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39902
+  total_delivered: 39679
+  total_opens: 18355
+  total_clicks: 223
+  open_rate: 0.46
+  click_rate: 0.0056
+  total_bounces: 1
+  total_unsubscribes: 43
+  ga4:
+    sessions: 224
+    purchases: 3
+    revenue: 137.92
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.031822'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.265647'
+schedule_type: time_based

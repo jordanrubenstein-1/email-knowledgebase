@@ -1,0 +1,38 @@
+id: fdeed70f-9819-4405-81a1-28131dd65d57
+name: P_EM_2026_03_18_CZ_D_PR_Spring_Event_EA_Last_Day
+brand: CZ
+channel: email
+category: reminder
+type: seasonal
+theme: spring
+braze_id: fdeed70f-9819-4405-81a1-28131dd65d57
+dates:
+  send_date: '2026-03-18'
+  inferred_send_type: local_time
+  first_sent: '2026-03-17T22:58:18+00:00'
+  last_sent: '2026-03-18T19:03:23+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale/spring2026
+sends:
+- id: e3945579-e1cf-4344-86f4-2c9377c4b98e
+  channel: email
+  name: Variant 1
+  subject: Your Early Access Ends TONIGHT
+  preheader: Last chance to shop before the Spring Event goes public.
+  html_file: html/p_em_2026_03_18_cz_d_pr_spring_event_ea_last_day.html
+  screenshot: screenshots/p_em_2026_03_18_cz_d_pr_spring_event_ea_last_day.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b96a13c3e0ff0074afbbbe/original.gif?1773758995
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b96a0aaf27c40063f8b049/original.png?1773758985
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b96a2ded55950064de503d/original.png?1773759020
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b96a021e45b70063e9dfe1/original.png?1773758978
+- id: 9ff211da-609a-4cbc-9b56-114dd9d05ebb
+  channel: email
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based

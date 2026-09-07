@@ -1,0 +1,43 @@
+id: 212442f0-8467-4639-ae73-18cb961151b5
+name: P_EM_2026_01_28_ID_D_PR_Loungeworthy_Sectionals
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 212442f0-8467-4639-ae73-18cb961151b5
+dates:
+  send_date: '2026-01-28'
+  inferred_send_type: local_time
+  first_sent: '2026-01-27T21:29:21+00:00'
+  last_sent: '2026-01-28T19:02:58+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: d2c138af-29f8-418d-8943-4c9b056f184f
+  channel: email
+  name: Variant 1
+  subject: The Case for a Better Sectional
+  preheader: Shop custom configurations that fit just right.
+- id: 40dd983a-bb13-441c-b616-4c3312017385
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 123523
+  total_delivered: 123419
+  total_opens: 42145
+  total_clicks: 547
+  open_rate: 0.3412
+  click_rate: 0.0044
+  total_revenue: 31229.5
+  total_bounces: 3
+  total_unsubscribes: 145
+  ga4:
+    sessions: 489
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.937207'
+    source: snowflake
+    channel: email
+schedule_type: time_based

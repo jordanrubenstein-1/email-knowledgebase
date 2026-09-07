@@ -1,0 +1,82 @@
+{% assign sale_start     = "2025-08-21 00:00:00" | date: "%s" %}
+{% assign sale_ext_start = "2025-09-04 06:00:00" | date: "%s" %}
+{% assign sale_end       = "2025-09-08 06:00:00" | date: "%s" %}
+
+{%- comment -%}
+  Winter Refresh Sale: Thu 1/15 - Tue 1/27
+  Using the same 07:00 start + 06:59 end convention you’ve used for St Frank promos
+{%- endcomment -%}
+{% assign winter_refresh_start = "2026-01-15 07:00:00" | date: "%s" %}
+{% assign winter_refresh_end   = "2026-01-28 06:59:00" | date: "%s" %}
+
+{%- comment -%}
+  Spring Sale: Fri 3/20 - Mon 3/23
+  Using the same 07:00 start + 06:59 end convention
+{%- endcomment -%}
+{% assign spring_sale_start = "2026-03-20 07:00:00" | date: "%s" %}
+{% assign spring_sale_end   = "2026-03-24 06:59:00" | date: "%s" %}
+
+{% assign now = 'now' | date: "%s" %}
+
+{% if now >= sale_start and now < sale_ext_start %}
+  <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+    <tr>
+      <td align="center" style="width: 100%">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.stfrank.com/?lid={{${cblid} | lid: 'vxl9nbrohuaa'}}">
+          <img alt="The Labor Day Event. 25% Off"
+               width="600"
+               style="display: block; width: 100%; max-width: 100%; font-size: 20px; font-family: Arial, 'sans-serif'; color: #383633; background-color: #FFFFFF;"
+               border="0"
+               src="https://braze-images.com/appboy/communication/assets/image_assets/images/68a5edb0c9a5590064ba2964/original.png?1755704752" />
+        </a>
+      </td>
+    </tr>
+  </table>
+
+{% elsif now >= sale_ext_start and now <= sale_end %}
+  <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+    <tr>
+      <td align="center" style="width: 100%">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.stfrank.com/?lid={{${cblid} | lid: 'yde702eecnbu'}}">
+          <img alt="25% Off Extended. Use Code: LASTCALL25"
+               width="600"
+               style="display: block; width: 100%; max-width: 100%; font-size: 20px; font-family: Arial, 'sans-serif'; color: #383633; background-color: #FFFFFF;"
+               border="0"
+               src="https://braze-images.com/appboy/communication/assets/image_assets/images/68a650952474140065470977/original.png?1755730069" />
+        </a>
+      </td>
+    </tr>
+  </table>
+
+{% elsif now >= winter_refresh_start and now <= winter_refresh_end %}
+  <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+    <tr>
+      <td align="center" style="width: 100%">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.stfrank.com/?lid={{${cblid} | lid: 'mdydskkkvhsf'}}">
+          <img alt="Winter Refresh Sale: 20% off select categories"
+               width="600"
+               style="display: block; width: 100%; max-width: 100%; font-size: 20px; font-family: Arial, 'sans-serif'; color: #383633; background-color: #FFFFFF;"
+               border="0"
+               src="https://braze-images.com/appboy/communication/assets/image_assets/images/696831c03bff890063fd0fd7/original.png?1768436159" />
+        </a>
+      </td>
+    </tr>
+  </table>
+
+{% elsif now >= spring_sale_start and now <= spring_sale_end %}
+  <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+    <tr>
+      <td align="center" style="width: 100%">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.stfrank.com/?lid={{${cblid} | lid: '7b5e022pn5rt'}}">
+          <img alt="Spring Sale"
+               width="600"
+               style="display: block; width: 100%; max-width: 100%; font-size: 20px; font-family: Arial, 'sans-serif'; color: #383633; background-color: #FFFFFF;"
+               border="0"
+               src="https://braze-images.com/appboy/communication/assets/image_assets/images/69b4c2685b7ca800631354c6/original.png?1773453928" />
+        </a>
+      </td>
+    </tr>
+  </table>
+
+{% else %}
+{% endif %}

@@ -1,0 +1,54 @@
+id: b9d6b6d6-fa36-478c-a6e3-8971434a4b97
+name: Braze Support Copy of P_2025_1_23_D_CZ_Potomac_Bed_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: b9d6b6d6-fa36-478c-a6e3-8971434a4b97
+dates:
+  send_date: '2025-01-23'
+  inferred_send_type: scheduled
+  first_sent: '2025-01-23T20:58:51+00:00'
+  last_sent: '2025-01-23T20:59:00+00:00'
+tags: []
+sends:
+- id: 34d3a3d3-10c5-45c5-a4cd-3e63536261bb
+  channel: email
+  name: Variant 1
+  subject: 'Style Spotlight: The Potomac Bed'
+  preheader: Now available in NEW Natural Ash.
+  html_file: html/braze-support-copy-of-p_2025_1_23_d_cz_potomac_bed_email.html
+  screenshot: screenshots/braze-support-copy-of-p_2025_1_23_d_cz_potomac_bed_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679194b4742623006656a7d3/original.jpg?1737594036
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67919487c10fb200655f4348/original.jpg?1737593990
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679193cf22b1720063b3351f/original.jpg?1737593807
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6791949b675ece0065eb5189/original.jpg?1737594011
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6791947d50b90b00656ea906/original.jpg?1737593981
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6791938db332ec0066d42ad4/original.jpg?1737593740
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679262746d8ddc006628d47a/original.jpg?1737646708
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67919398679fd000651461c3/original.jpg?1737593752
+- id: 6b7cd3cc-c87c-48e0-b51a-39f09488171b
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1
+  total_delivered: 1
+  total_opens: 1
+  total_clicks: 1
+  open_rate: 1.0
+  click_rate: 1.0
+  ga4:
+    sessions: 2
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.613332'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.535932'
+schedule_type: time_based

@@ -1,0 +1,52 @@
+id: 65cceff9-f606-4b97-8868-77c06dd650e4
+name: 20241103_BFCM-Bestsellers
+brand: BUR
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: 65cceff9-f606-4b97-8868-77c06dd650e4
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2024-11-03T14:30:00+00:00'
+  last_sent: '2024-11-03T14:36:04+00:00'
+tags: []
+sends:
+- id: 15d0b204-d52e-4da9-9dae-68fd2f659f11
+  channel: email
+  name: Variant 1
+  subject: Save up to 50% on crowd favorites
+  preheader: Black Friday deals are here.
+- id: ba38e104-79f7-43eb-b87a-52da7c3abbac
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 1233
+    purchases: 2
+    revenue: 3667.07
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.313755'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-pre-black-fri-2024-10-30
+    name: Pre Black Fri
+    start_date: '2024-10-30'
+    end_date: '2024-11-12'
+    discount: null
+    type: null
+  primary_sale:
+    id: bur-pre-black-fri-2024-10-30
+    name: Pre Black Fri
+    start_date: '2024-10-30'
+    end_date: '2024-11-12'
+    discount: null
+    type: null
+  sale_name: Pre Black Fri
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:40.453884'
+schedule_type: time_based

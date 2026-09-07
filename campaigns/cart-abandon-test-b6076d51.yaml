@@ -1,0 +1,169 @@
+id: b6076d51-b7fd-432c-a79c-be2acf40bb52
+name: Cart Abandon test
+brand: ID
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: b6076d51-b7fd-432c-a79c-be2acf40bb52
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-11-13T20:00:00+00:00'
+  last_sent: '2025-11-21T19:00:00+00:00'
+tags: []
+sends:
+- id: 64eacdec-e456-449c-882e-e883c6da0e55
+  channel: email
+  name: TRG_Sale_2024_ID_Cart_Abandon_T1_Email
+  subject: We saved your cart
+  preheader: 'Check out now with up to 25% off!
+
+    '
+  step_id: fa5dc583-45b9-48b1-b1a9-5548a3160be2
+- id: 61a02889-50d9-409f-a1e1-d019ff22df7f
+  channel: email
+  name: TRG_2024_Sale_ID_Cart_Abandon_T2_Email
+  subject: Great choice - you'll love this!
+  preheader: 'On the fence? Get expert design advice
+
+    '
+  step_id: a8f71581-0b0e-4360-a630-c9c38984bbb6
+- id: f2e0a1b5-f781-484f-9f26-f46af3e1b6e4
+  channel: email
+  name: TRG_Sale_2024_ID_Cart_Abandon_T3_Email
+  subject: 'Still thinking about it? '
+  preheader: 'Bring it home today with up to 25% OFF
+
+    '
+  step_id: bf670e85-422e-4fe3-b912-bd220e2aab84
+- id: ffebf959-5b52-4668-88f0-af7ab7670946
+  channel: email
+  name: TRG_2024_ID_Cart_Abandon_T3_Email
+  subject: Leave something behind?
+  preheader: Bring it home today
+  step_id: 056a6783-e736-4407-a4c4-51593e690d3d
+- id: 546ee318-11ee-4850-a249-730cabba5fa2
+  channel: email
+  name: TRG_2024_ID_Cart_Abandon_T3_Email 1
+  subject: 'Still thinking about it? '
+  preheader: 'Bring it home today
+
+    '
+  step_id: 79f26a7d-88f7-4866-a942-174e47c270b1
+- id: 67db4ab6-e770-48ac-94ef-8e2c1be366f3
+  channel: email
+  name: TRG_2024_ID_Cart_Abandon_T2_Email
+  subject: Great choice - you'll love this!
+  preheader: 'On the fence? Get expert design advice
+
+    '
+  step_id: dbec20f7-7d02-40f1-b99c-a7c56d004bc4
+- id: dd915a42-e4dc-4cd0-9f88-593c21a88aec
+  channel: email
+  name: TRG_Sale_2024_ID_Cart_Abandon_T3_Email
+  subject: Leave something behind?
+  preheader: Bring it home today with up to 25% off
+  step_id: 16b7ec4e-baad-4925-972d-0476cf13dfec
+- id: 896e9b70-6c61-4dca-be75-bed2c7befc2d
+  channel: email
+  name: TRG_2024_ID_Cart_Abandon_T1_Email 1
+  subject: We saved your cart
+  preheader: 'Check out now
+
+    '
+  step_id: bbd1d261-d16a-4249-aabe-8ec00b56beff
+performance_summary: {}
+canvas_steps:
+- id: b7b66af1-279c-446e-a5a8-66585908495b
+  name: Step
+  type: delay
+- id: fa5dc583-45b9-48b1-b1a9-5548a3160be2
+  name: TRG_Sale_2024_ID_Cart_Abandon_T1_Email
+  type: message
+  channel: email
+  subject: We saved your cart
+  preheader: 'Check out now with up to 25% off!
+
+    '
+- id: f48888b5-02b4-4490-a56f-b27ddca6a6a9
+  name: Step 4
+  type: delay
+- id: 174b42b7-f7ff-4118-b91d-580f0edb1414
+  name: Step 5
+  type: decision_split
+- id: a8f71581-0b0e-4360-a630-c9c38984bbb6
+  name: TRG_2024_Sale_ID_Cart_Abandon_T2_Email
+  type: message
+  channel: email
+  subject: Great choice - you'll love this!
+  preheader: 'On the fence? Get expert design advice
+
+    '
+- id: bf670e85-422e-4fe3-b912-bd220e2aab84
+  name: TRG_Sale_2024_ID_Cart_Abandon_T3_Email
+  type: message
+  channel: email
+  subject: 'Still thinking about it? '
+  preheader: 'Bring it home today with up to 25% OFF
+
+    '
+- id: 2c7fb90c-6638-44bd-a7d8-50d7623c5cc9
+  name: Step 1
+  type: delay
+- id: 554ff56b-ca1f-425f-9fc5-2b646ebe24d2
+  name: Step 3
+  type: decision_split
+- id: 056a6783-e736-4407-a4c4-51593e690d3d
+  name: TRG_2024_ID_Cart_Abandon_T3_Email
+  type: message
+  channel: email
+  subject: Leave something behind?
+  preheader: Bring it home today
+- id: aa537a56-b426-45ee-bc6b-cf13243ca290
+  name: Step 7
+  type: delay
+- id: 79f26a7d-88f7-4866-a942-174e47c270b1
+  name: TRG_2024_ID_Cart_Abandon_T3_Email 1
+  type: message
+  channel: email
+  subject: 'Still thinking about it? '
+  preheader: 'Bring it home today
+
+    '
+- id: dbec20f7-7d02-40f1-b99c-a7c56d004bc4
+  name: TRG_2024_ID_Cart_Abandon_T2_Email
+  type: message
+  channel: email
+  subject: Great choice - you'll love this!
+  preheader: 'On the fence? Get expert design advice
+
+    '
+- id: 16b7ec4e-baad-4925-972d-0476cf13dfec
+  name: TRG_Sale_2024_ID_Cart_Abandon_T3_Email
+  type: message
+  channel: email
+  subject: Leave something behind?
+  preheader: Bring it home today with up to 25% off
+- id: bbd1d261-d16a-4249-aabe-8ec00b56beff
+  name: TRG_2024_ID_Cart_Abandon_T1_Email 1
+  type: message
+  channel: email
+  subject: We saved your cart
+  preheader: 'Check out now
+
+    '
+- id: e2c7bac0-c2bd-40eb-8bdf-c162db3e36fd
+  name: Step 9
+  type: decision_split
+- id: 4009911a-4bc6-4c0f-a87b-df6e5d10bcfb
+  name: Step 10
+  type: audience_paths
+- id: 38fb151b-168c-42de-98b0-13333049ace2
+  name: Step 11
+  type: audience_paths
+- id: 083cbaaf-8883-4538-ae67-f9c825bb9dba
+  name: Step 6
+  type: action_paths
+_filename: cart-abandon-test-b6076d51.yaml

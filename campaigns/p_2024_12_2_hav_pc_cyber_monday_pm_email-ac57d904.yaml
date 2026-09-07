@@ -1,0 +1,33 @@
+id: ac57d904-08cd-46fa-9e41-787ee49ac361
+name: P_2024_12_2_HAV_PC_Cyber_Monday_PM_Email
+brand: HAV
+channel: email
+category: sale_promo
+type: seasonal
+theme: null
+braze_id: ac57d904-08cd-46fa-9e41-787ee49ac361
+dates:
+  send_date: '2024-12-02'
+  first_sent: '2024-12-02T21:25:37+00:00'
+  last_sent: '2024-12-03T02:30:13+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 1f2757de-5770-4518-84aa-37a387008cb1
+  channel: email
+  name: Variant 1
+  subject: Only Hours Left To Save Big!
+  preheader: Use code BF24 for 50% off design services.
+- id: 5000551f-9b89-40c2-abe8-664575e0099b
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 26386
+  total_delivered: 26328
+  total_opens: 14857
+  total_clicks: 235
+  open_rate: 0.5631
+  click_rate: 0.0089
+  total_unsubscribes: 89
+schedule_type: time_based
+_filename: p_2024_12_2_hav_pc_cyber_monday_pm_email-ac57d904.yaml

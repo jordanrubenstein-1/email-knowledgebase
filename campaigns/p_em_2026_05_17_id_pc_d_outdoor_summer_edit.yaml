@@ -1,0 +1,36 @@
+id: 0e8aea7e-8a5f-4d9c-9a8e-dfb697ef887d
+name: P_EM_2026_05_17_ID_PC_D_Outdoor_Summer_Edit
+brand: ID
+channel: email
+category: editorial
+type: seasonal
+theme: summer
+braze_id: 0e8aea7e-8a5f-4d9c-9a8e-dfb697ef887d
+dates:
+  send_date: '2026-05-17'
+  inferred_send_type: local_time
+  first_sent: '2026-05-16T19:05:43+00:00'
+  last_sent: '2026-05-17T18:04:41+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: bcfbfaa6-ba33-43a4-84e1-0736a2db60ad
+  channel: email
+  name: Variant 1
+  subject: The Summer Edit, up to 30% off
+  preheader: New arrivals, warm weather vibes, and the Memorial Day Sale.
+- id: db668c69-9aa7-437c-9575-64b33fa58add
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 129464
+  total_delivered: 129281
+  total_opens: 49805
+  total_clicks: 502
+  open_rate: 0.3847
+  click_rate: 0.0039
+  total_revenue: 157504.96
+  total_bounces: 2
+  total_unsubscribes: 160
+_filename: p_em_2026_05_17_id_pc_d_outdoor_summer_edit.yaml
+schedule_type: time_based

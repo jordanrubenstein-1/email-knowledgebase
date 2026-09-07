@@ -1,0 +1,36 @@
+id: c84bd218-be71-4e6a-93ab-ccad6fb8c05e
+name: P_EM_2026_01_19_ID_D_PF_Winter_Refresh_Sale_Reminder
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: winter
+braze_id: c84bd218-be71-4e6a-93ab-ccad6fb8c05e
+dates:
+  send_date: '2026-01-19'
+  inferred_send_type: local_time
+  first_sent: '2026-01-18T20:07:35+00:00'
+  last_sent: '2026-01-19T20:03:10+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 25c8cb7b-2122-4fee-866a-1afe95548834
+  channel: email
+  name: Variant 1
+  subject: A Better Way to Winter
+  preheader: Up to 25% off custom furniture now.
+- id: 78d147dc-2179-4fb3-ac0f-b42ce19b0a25
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 209443
+  total_delivered: 208886
+  total_opens: 92739
+  total_clicks: 586
+  open_rate: 0.4428
+  click_rate: 0.0028
+  total_revenue: 138031.97
+  total_bounces: 7
+  total_unsubscribes: 320
+_filename: p_em_2026_01_19_id_d_pf_winter_refresh_sale_reminder.yaml
+schedule_type: time_based

@@ -1,0 +1,33 @@
+id: 2f512b8d-769f-44fd-908e-1d72769ab027
+name: P_EM_2026_08_07_HAV_PC_D_Labor_Day_Event_Early_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 2f512b8d-769f-44fd-908e-1d72769ab027
+dates:
+  send_date: '2026-08-07'
+  last_sent: '2026-08-07'
+tags:
+- BLASTS-2025
+sends:
+- id: 10e37ecb-8ade-4e4a-9453-86dbf73e256a
+  channel: email
+  name: Variant 1
+  subject: 'DON''T FORGET: 50% off design packages'
+  preheader: Work 1:1 with a designer at half the price.
+- id: 0a6f21bc-7e28-4b9d-9c8a-4145298b6e60
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 284751
+  total_delivered: 283077
+  total_opens: 101933
+  total_clicks: 364
+  open_rate: 0.358
+  click_rate: 0.0013
+  total_bounces: 21
+  total_unsubscribes: 349
+schedule_type: time_based
+_filename: p_em_2026_08_07_hav_pc_d_labor_day_event_early_reminder.yaml

@@ -1,0 +1,25 @@
+id: fc9dcf36-c8ab-493d-b5fb-357946cd3a80
+name: P_EM_2026_04_19_HAV_CONV_D_April_Reset_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: fc9dcf36-c8ab-493d-b5fb-357946cd3a80
+dates:
+  send_date: '2026-04-19'
+  last_sent: '2026-04-19'
+tags:
+- BLASTS-2025
+sends:
+- id: 11764656-224a-4cec-bb90-b01d2fd1a045
+  channel: email
+  name: Variant 1
+  subject: 'Your April Reset is still on '
+  preheader: Buy more, save more when you shop your Havenly design.
+- id: 86c7925c-5c70-426e-ba49-5c99e373c100
+  channel: email
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: p_em_2026_04_19_hav_conv_d_april_reset_sale_reminder.yaml

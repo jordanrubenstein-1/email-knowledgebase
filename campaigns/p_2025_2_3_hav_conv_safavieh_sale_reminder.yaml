@@ -1,0 +1,32 @@
+id: 329532b1-801d-406f-837f-6a101a9c6de5
+name: P_2025_2_3_HAV_Conv_Safavieh_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 329532b1-801d-406f-837f-6a101a9c6de5
+dates:
+  send_date: '2025-02-03'
+  first_sent: '2025-02-02T17:24:40+00:00'
+  last_sent: '2025-02-03T17:15:08+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: da9e8b6d-ea6d-4235-a8b8-c86646049df8
+  channel: email
+  name: Variant 1
+  subject: Your exclusive 20% off code expires soon...
+- id: 0db96905-bfab-4ca2-b5ff-5f693ce1646c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 3123
+  total_delivered: 3123
+  total_opens: 2158
+  total_clicks: 69
+  open_rate: 0.691
+  click_rate: 0.0221
+  total_unsubscribes: 6
+schedule_type: time_based
+_filename: p_2025_2_3_hav_conv_safavieh_sale_reminder.yaml

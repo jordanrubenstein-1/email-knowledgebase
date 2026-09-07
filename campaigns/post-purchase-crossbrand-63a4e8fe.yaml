@@ -1,0 +1,58 @@
+id: 63a4e8fe-22ac-4956-a70d-c02d7735a509
+name: Post Purchase Crossbrand
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 63a4e8fe-22ac-4956-a70d-c02d7735a509
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-06-08T17:00:00+00:00'
+  last_sent: '2026-06-13T21:00:00+00:00'
+tags: []
+sends:
+- id: e1dd177f-d87b-4908-afde-d5974408dc17
+  channel: email
+  name: TRG_EM_2026_06_ID_D_Complete_Your_Bedroom_CZ_T1_V1
+  subject: The rug your feet will thank you for
+  preheader: Perfectly paired to your new bed
+  step_id: 9022c35e-372f-467b-9001-d2a85f1f8a8e
+- id: 7772ce22-9851-4ab5-adef-88a0bc1bdc6f
+  channel: email
+  name: TRG_EM_2026_06_ID_D_Finish_Your_Living_Room_CZ_T1_V1
+  subject: Finishing touches for your new living room
+  preheader: Pillows from St. Frank and The Inside, rugs and throws from The Citizenry
+    — curated to complete your space.
+  step_id: f5cc5aca-fd24-4317-87b1-88373ce9300a
+performance_summary:
+  total_entries: 1986
+  total_sends: 646
+  total_delivered: 645
+  total_opens: 346
+  total_clicks: 10
+  open_rate: 0.5356
+  click_rate: 0.0155
+  total_revenue: 12420.0
+  total_conversions: 4
+  total_unsubscribes: 1
+canvas_steps:
+- id: d09e9b69-f150-4fb0-b44a-263f01f2b7b6
+  name: Step
+  type: audience_paths
+- id: 9022c35e-372f-467b-9001-d2a85f1f8a8e
+  name: TRG_EM_2026_06_ID_D_Complete_Your_Bedroom_CZ_T1_V1
+  type: message
+  channel: email
+  subject: The rug your feet will thank you for
+  preheader: Perfectly paired to your new bed
+- id: f5cc5aca-fd24-4317-87b1-88373ce9300a
+  name: TRG_EM_2026_06_ID_D_Finish_Your_Living_Room_CZ_T1_V1
+  type: message
+  channel: email
+  subject: Finishing touches for your new living room
+  preheader: Pillows from St. Frank and The Inside, rugs and throws from The Citizenry
+    — curated to complete your space.
+_filename: post-purchase-crossbrand-63a4e8fe.yaml
