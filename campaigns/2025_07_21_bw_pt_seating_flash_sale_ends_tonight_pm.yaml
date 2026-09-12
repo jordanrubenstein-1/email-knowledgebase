@@ -1,0 +1,36 @@
+id: ea161d60-beeb-4c08-b0c2-d4aca030c24e
+name: 2025_07_21_BW_PT_Seating_Flash_Sale_Ends_Tonight_PM
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: ea161d60-beeb-4c08-b0c2-d4aca030c24e
+dates:
+  send_date: '2025-07-21'
+  inferred_send_type: local_time
+  first_sent: '2025-07-21T03:08:25+00:00'
+  last_sent: '2025-07-22T02:02:37+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 7eafa6eb-cb13-4463-8bfa-63beaa657356
+  channel: email
+  name: Variant 1
+  subject: This is it...
+  preheader: Our Seating Flash Sale ends tonight.
+- id: 103a75cc-e91d-424d-96c7-4a914b314d0a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 254613
+  total_delivered: 252664
+  total_opens: 151860
+  total_clicks: 735
+  open_rate: 0.5964
+  click_rate: 0.0029
+  total_revenue: 12912.2
+  total_bounces: 5
+  total_unsubscribes: 382
+_filename: 2025_07_21_bw_pt_seating_flash_sale_ends_tonight_pm.yaml
+schedule_type: time_based

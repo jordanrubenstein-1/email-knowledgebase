@@ -1,0 +1,34 @@
+id: 0fd137e8-138d-4cb1-aa52-069783fad9d9
+name: Email & Phone Capture Modal - BFCM 2025
+brand: CZ
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: 0fd137e8-138d-4cb1-aa52-069783fad9d9
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-12-04T22:00:00+00:00'
+  last_sent: '2025-12-18T21:00:00+00:00'
+tags: []
+sends:
+- id: 1f525cce-9237-4047-9a6a-08483671ac12
+  channel: other
+  name: Control Group
+- id: 44ed3136-b0e0-48d1-a4e9-375041a24989
+  channel: other
+  name: Variant 1
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.487096'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.985438'
+schedule_type: action_based

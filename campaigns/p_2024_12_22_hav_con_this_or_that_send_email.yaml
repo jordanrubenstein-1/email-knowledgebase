@@ -1,0 +1,33 @@
+id: 41655560-71d1-42fc-9775-d486641a500b
+name: P_2024_12_22_HAV_CON_This_or_That_Send_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 41655560-71d1-42fc-9775-d486641a500b
+dates:
+  send_date: '2024-12-22'
+  first_sent: '2024-12-21T20:38:38+00:00'
+  last_sent: '2024-12-22T17:15:07+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 0d728952-f5cc-400a-be52-fd98ef617e6a
+  channel: email
+  name: Variant 1
+  subject: Are You Bold or Neutral?
+  preheader: Read on to find out!
+- id: 574754fd-2a0a-4bdc-8746-d0b4e0c32783
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 36177
+  total_delivered: 35978
+  total_opens: 20343
+  total_clicks: 267
+  open_rate: 0.5623
+  click_rate: 0.0074
+  total_unsubscribes: 47
+schedule_type: time_based
+_filename: p_2024_12_22_hav_con_this_or_that_send_email.yaml

@@ -1,0 +1,30 @@
+id: d715a005-25bf-44d6-a06e-b4a9ca032a00
+name: P_SMS_2026_01_23_ID_Winter_Refresh_Sale
+brand: ID
+channel: sms
+category: sale_promo
+type: sale
+theme: winter
+braze_id: d715a005-25bf-44d6-a06e-b4a9ca032a00
+dates:
+  send_date: '2026-01-23'
+  inferred_send_type: local_time
+  first_sent: '2026-01-23T01:08:08+00:00'
+  last_sent: '2026-01-24T01:03:38+00:00'
+tags: []
+sends:
+- id: b7cc2234-62a6-4283-9e7b-dd760a27fc79
+  channel: sms
+  name: Variant 1
+- id: 3e534f6c-81a3-4d67-871d-037e84abbe18
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 49562
+  total_delivered: 47171
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 19330.0
+schedule_type: time_based

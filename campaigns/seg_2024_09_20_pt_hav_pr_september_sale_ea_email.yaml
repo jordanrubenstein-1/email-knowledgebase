@@ -1,0 +1,31 @@
+id: 1587b5e9-db14-4450-bfde-0a5cb7e2a800
+name: SEG_2024_09_20_PT_HAV_PR_September_Sale_EA_Email
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 1587b5e9-db14-4450-bfde-0a5cb7e2a800
+dates:
+  send_date: '2024-09-20'
+  first_sent: '2024-09-20T17:49:43+00:00'
+  last_sent: '2024-09-20T17:49:50+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: ea9b3b43-9c48-4de3-8cb8-34edb7f22a24
+  channel: email
+  name: Variant 1
+  subject: VIP Early Access
+- id: 92fab743-6def-4457-ba96-9cd9bcc7e64e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 610
+  total_delivered: 610
+  total_opens: 519
+  total_clicks: 59
+  open_rate: 0.8508
+  click_rate: 0.0967
+schedule_type: time_based
+_filename: seg_2024_09_20_pt_hav_pr_september_sale_ea_email.yaml

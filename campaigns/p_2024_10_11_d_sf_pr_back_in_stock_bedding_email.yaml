@@ -1,0 +1,59 @@
+id: 329568c9-0ffb-4f28-aecc-1cc0b9762731
+name: P_2024_10_11_D_SF_PR_Back_In_Stock_Bedding_Email
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 329568c9-0ffb-4f28-aecc-1cc0b9762731
+dates:
+  send_date: '2024-10-11'
+  inferred_send_type: local_time
+  first_sent: '2024-10-10T17:34:46+00:00'
+  last_sent: '2024-10-11T14:00:16+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: a47a7901-c3c0-477e-9492-0a860097621b
+  channel: email
+  name: Variant 1
+  subject: Bedding is BACK!
+  preheader: and now 25% off
+  html_file: html/p_2024_10_11_d_sf_pr_back_in_stock_bedding_email.html
+  screenshot: screenshots/p_2024_10_11_d_sf_pr_back_in_stock_bedding_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67054747b221d200738f3862/original.gif?1728399175
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67054747b221d200808f378b/original.jpg?1728399175
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/670547474948490080668429/original.gif?1728399175
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/670547473b3b540066c2a2a9/original.jpg?1728399175
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0058f1ba77/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67054747c580be006469fd87/original.gif?1728399175
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6705474749484900656686f1/original.gif?1728399175
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0063f11fb6/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/670547476a7b880064837fe6/original.gif?1728399175
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/670547473b3b540075c2a247/original.gif?1728399175
+- id: d9466740-7cd4-45fb-be94-0b6b580f7563
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 10014
+  total_delivered: 9970
+  total_opens: 3158
+  total_clicks: 196
+  open_rate: 0.3154
+  click_rate: 0.0196
+  total_revenue: 3717.15
+  total_unsubscribes: 8
+  ga4:
+    sessions: 206
+    purchases: 3
+    revenue: 1233.75
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.997515'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.904808'
+schedule_type: time_based

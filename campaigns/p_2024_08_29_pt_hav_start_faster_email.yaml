@@ -1,0 +1,32 @@
+id: 97cdefae-44d9-4acb-8228-5f920fe12613
+name: P_2024_08_29_PT_HAV_Start_Faster_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 97cdefae-44d9-4acb-8228-5f920fe12613
+dates:
+  send_date: '2024-08-29'
+  first_sent: '2024-08-29T23:10:03+00:00'
+  last_sent: '2024-08-29T23:10:14+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: bc9462ba-54b9-4093-9ace-edaf8eb30413
+  channel: email
+  name: Variant 1
+  subject: Want to start your design project sooner?
+- id: ca198337-892b-4a17-a332-75c79594a4da
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 152
+  total_delivered: 151
+  total_opens: 133
+  total_clicks: 44
+  open_rate: 0.875
+  click_rate: 0.2895
+  total_bounces: 1
+schedule_type: time_based
+_filename: p_2024_08_29_pt_hav_start_faster_email.yaml

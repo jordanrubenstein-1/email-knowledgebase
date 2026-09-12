@@ -1,0 +1,41 @@
+id: 94256fba-b790-405a-8b7d-7fe633876cd1
+name: Test_ConversionEvents
+brand: CZ
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 94256fba-b790-405a-8b7d-7fe633876cd1
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2025-05-01T21:52:30+00:00'
+  last_sent: '2025-05-01T21:52:35+00:00'
+tags: []
+sends:
+- id: bd450d40-13ba-4316-80fe-03cb86deb35f
+  channel: email
+  name: Variant 1
+  subject: CZ email with a link to a landing page!
+  preheader: Try signing up for SMS?
+  html_file: html/test_conversionevents.html
+  screenshot: screenshots/test_conversionevents.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6802d76bcb01750062ce5054/original.png?1745016682
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6802d8b0faa56a0072dcced7/original.png?1745017008
+- id: 1a71566a-efd0-4f67-a39f-3af8cb29e5ab
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.421274'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.477445'
+schedule_type: time_based

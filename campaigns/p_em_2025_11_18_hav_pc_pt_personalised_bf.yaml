@@ -1,0 +1,38 @@
+id: bc1e2b59-042b-45e8-b02e-85ad580c27cf
+name: P_EM_2025_11_18_HAV_PC_PT_PERSONALISED_BF
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: bc1e2b59-042b-45e8-b02e-85ad580c27cf
+dates:
+  send_date: '2025-11-18'
+  first_sent: '2025-11-17T23:21:29+00:00'
+  last_sent: '2025-11-18T20:30:12+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+- Pre-converted
+sends:
+- id: 6972e990-b7a8-46e3-8c40-8224ff9ee373
+  channel: email
+  name: Variant 1
+  subject: 'Design your {{custom_attribute.${currentRoom}}} for $89 - in time for
+    big savings
+
+    '
+  preheader: The easiest way to refresh your space for less.
+- id: 0d4369ba-53e0-470d-bb66-ce76b106dba8
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 3972
+  total_delivered: 3901
+  total_opens: 919
+  total_clicks: 9
+  open_rate: 0.2314
+  click_rate: 0.0023
+  total_unsubscribes: 9
+schedule_type: time_based
+_filename: p_em_2025_11_18_hav_pc_pt_personalised_bf.yaml

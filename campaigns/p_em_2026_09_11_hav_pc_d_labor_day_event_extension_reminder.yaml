@@ -1,0 +1,25 @@
+id: 64d93b7d-0928-4df6-91f0-21a33efdd31b
+name: P_EM_2026_09_11_HAV_PC_D_Labor_Day_Event_Extension_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 64d93b7d-0928-4df6-91f0-21a33efdd31b
+dates:
+  send_date: '2026-09-11'
+  last_sent: '2026-09-11'
+tags:
+- BLASTS-2025
+sends:
+- id: 725b3106-a943-4667-9f19-56c07ff8cd96
+  channel: email
+  name: Variant 1
+  subject: 'Reminder: the extension won''t last'
+  preheader: 50% off design, for a few more days only.
+- id: 79a3eec8-15b5-43f0-b779-a190262f0bc8
+  channel: email
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: p_em_2026_09_11_hav_pc_d_labor_day_event_extension_reminder.yaml

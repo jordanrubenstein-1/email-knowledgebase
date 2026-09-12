@@ -1,0 +1,30 @@
+id: b3a32125-773c-4884-a0cc-c4fde15fba61
+name: TRG_SMS_2024_08_CZ_D_Post_Purchase_T3
+brand: CZ
+channel: sms
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: ed85be62-ad24-41ee-8ff7-b2f667368156
+canvas_name: Post Purchase
+flow_type: post_purchase
+sequence_position: 2
+body: 'Want to finish your space? Bring home our in-stock, ready-to-ship designs:
+  https://www.the-citizenry.com/collections/ready-to-ship?utm_source=braze_cz&utm_medium=sms&utm_campaign={{campaign.${name}}}'
+sends:
+- id: b3a32125-773c-4884-a0cc-c4fde15fba61
+  channel: sms
+  name: TRG_SMS_2024_08_CZ_D_Post_Purchase_T3
+  body: 'Want to finish your space? Bring home our in-stock, ready-to-ship designs:
+    https://www.the-citizenry.com/collections/ready-to-ship?utm_source=braze_cz&utm_medium=sms&utm_campaign={{campaign.${name}}}'
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-05-02T19:00:00Z'
+  last_sent: '2026-08-17T12:00:00Z'
+performance_summary:
+  total_sends: 2123
+  total_delivered: 2080
+  total_clicks: 122
+  click_rate: 0.0575
+  total_unsubscribes: 25
+  total_bounces: 8

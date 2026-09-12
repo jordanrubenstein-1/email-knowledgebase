@@ -1,0 +1,69 @@
+id: 4e2fb6c9-b2e2-433b-b21b-9fd909e48461
+name: P_EM_2025_11_16_ID_PT_Black_Friday_Reminder_PM
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 4e2fb6c9-b2e2-433b-b21b-9fd909e48461
+dates:
+  send_date: '2025-11-16'
+  inferred_send_type: local_time
+  first_sent: '2025-11-16T05:25:19+00:00'
+  last_sent: '2025-11-17T02:03:22+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: b3eb4dc5-31f9-4eb3-b861-22649d3f103e
+  channel: email
+  name: Variant 1
+  subject: 'Black Friday: up to 30% off sitewide'
+  preheader: Our biggest sale of the year is here
+- id: 0447f285-2383-432d-8c68-58a9fd1b4443
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 104378
+  total_delivered: 103610
+  total_opens: 47325
+  total_clicks: 511
+  open_rate: 0.4534
+  click_rate: 0.0049
+  total_revenue: 170867.7
+  total_bounces: 1
+  total_unsubscribes: 174
+  ga4:
+    sessions: 512
+    purchases: 4
+    revenue: 14493.02
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.607281'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-black-friday-cyber-monday-2025-11-13
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-11'
+    end_date: '2025-12-02'
+    discount: "25% Off $2999<\n30% Off $3000\nIncluding In Stock\n\nBlack Friday to\
+      \ Cyber Monday Only \n25% Off $2999<\n30% Off $3000-$3999\n35% Off $4000+\n\
+      Including In Stock"
+    type: null
+  primary_sale:
+    id: id-black-friday-cyber-monday-2025-11-13
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-11'
+    end_date: '2025-12-02'
+    discount: "25% Off $2999<\n30% Off $3000\nIncluding In Stock\n\nBlack Friday to\
+      \ Cyber Monday Only \n25% Off $2999<\n30% Off $3000-$3999\n35% Off $4000+\n\
+      Including In Stock"
+    type: null
+  sale_name: Black Friday / Cyber Monday
+  sale_discount: "25% Off $2999<\n30% Off $3000\nIncluding In Stock\n\nBlack Friday\
+    \ to Cyber Monday Only \n25% Off $2999<\n30% Off $3000-$3999\n35% Off $4000+\n\
+    Including In Stock"
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:37.513019'
+schedule_type: time_based

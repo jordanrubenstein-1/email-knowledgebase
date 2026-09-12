@@ -1,0 +1,34 @@
+id: f974c5d2-1b49-4543-8e44-97cff867392a
+name: P_EM_2026_05_23_HAV_CONV_D_Memorial_Day_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: f974c5d2-1b49-4543-8e44-97cff867392a
+dates:
+  send_date: '2026-05-23'
+  first_sent: '2026-05-22T20:43:39+00:00'
+  last_sent: '2026-05-23T17:04:02+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 17a1cbef-3ebe-493b-a3c7-03ec6675359d
+  channel: email
+  name: Variant 1
+  subject: Your dream space is on sale
+  preheader: Memorial Day deals are ending soon—don’t miss your favorites.
+- id: c2057874-766b-4b83-92de-53f86ef70c03
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41759
+  total_delivered: 41668
+  total_opens: 20655
+  total_clicks: 76
+  open_rate: 0.4946
+  click_rate: 0.0018
+  total_unsubscribes: 28
+schedule_type: time_based
+_filename: p_em_2026_05_23_hav_conv_d_memorial_day_sale_reminder.yaml

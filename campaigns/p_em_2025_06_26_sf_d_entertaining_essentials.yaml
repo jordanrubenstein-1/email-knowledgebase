@@ -1,0 +1,60 @@
+id: b9afcf32-e711-41da-8e1e-cbaeec5aa65e
+name: P_EM_2025_06_26_SF_D_Entertaining_Essentials
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: b9afcf32-e711-41da-8e1e-cbaeec5aa65e
+dates:
+  send_date: '2025-06-26'
+  inferred_send_type: local_time
+  first_sent: '2025-06-25T22:28:42+00:00'
+  last_sent: '2025-06-26T17:00:20+00:00'
+tags:
+- Batch and Blast
+sends:
+- id: e6146963-639e-4468-bbf9-29313e6c655d
+  channel: email
+  name: Variant 1
+  subject: Serving Looks (and Dinner). Now 20% Off.
+  preheader: our outdoor dining essentials
+  html_file: html/p_em_2025_06_26_sf_d_entertaining_essentials.html
+  screenshot: screenshots/p_em_2025_06_26_sf_d_entertaining_essentials.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68593a56aeec2a0066849be8/original.png?1750678102
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68593a611a59a40065184fd0/original.png?1750678113
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68593a69eee5f60075d5602b/original.png?1750678121
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685c20cee7499e006566afd9/original.png?1750868173
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685c20e1b78f480076251788/original.png?1750868193
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68593a478aab99006443d501/original.png?1750678087
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68593a4f48d4430067869720/original.png?1750678095
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685c20ade7499e007366aa3c/original.png?1750868141
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68593a1248d4430067869616/original.png?1750678033
+- id: 58febf18-2d9b-4f26-ae32-cd203417f92b
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 35955
+  total_delivered: 35514
+  total_opens: 16294
+  total_clicks: 163
+  open_rate: 0.4532
+  click_rate: 0.0045
+  total_revenue: 7117.0
+  total_bounces: 1
+  total_unsubscribes: 76
+  ga4:
+    sessions: 183
+    purchases: 1
+    revenue: 125.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.930751'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.827637'
+schedule_type: time_based

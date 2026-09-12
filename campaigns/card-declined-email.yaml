@@ -1,0 +1,45 @@
+id: c404ab69-aaa9-17e6-3360-a8bbb9e7e040
+name: Card Declined Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: c404ab69-aaa9-17e6-3360-a8bbb9e7e040
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-01-08T19:00:00+00:00'
+  last_sent: '2025-12-17T03:00:00+00:00'
+tags: []
+sends:
+- id: 3e09a244-5f1a-4855-8b91-af49203a585c
+  channel: email
+  name: Variant 1
+  subject: 'Action Needed: Payment Method Declined'
+  html_file: html/card-declined-email.html
+  screenshot: screenshots/card-declined-email.png
+  image_urls:
+  - https://marketing-image-production.s3.amazonaws.com/uploads/83e36a69beac7859d0c8b959148a072bdce4bca0479dee1124b6deb4cedc9ad61ffd625b7b56ca06b64fb9b34b38fef5c8347f51f5b992eb5f4860ecb18cd54f.jpg
+- id: 697df3a6-772d-4eb3-bb3e-0d08b60277fa
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 12
+  total_delivered: 12
+  total_opens: 14
+  total_clicks: 6
+  open_rate: 1.1667
+  click_rate: 0.5
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.739206'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.062629'
+schedule_type: api_triggered

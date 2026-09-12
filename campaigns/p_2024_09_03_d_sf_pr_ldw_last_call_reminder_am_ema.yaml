@@ -1,0 +1,46 @@
+id: ef47a35d-9adc-499d-848b-5253e9813fdf
+name: P_2024_09_03_D_SF_PR_LDW_Last_Call_Reminder_AM_Email
+brand: STF
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: ef47a35d-9adc-499d-848b-5253e9813fdf
+dates:
+  send_date: '2024-09-03'
+  inferred_send_type: local_time
+  first_sent: '2024-09-02T18:00:02+00:00'
+  last_sent: '2024-09-03T14:00:32+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: c0a22a3b-445c-4cce-a24d-141bddf29df8
+  channel: email
+  name: Variant 1
+  subject: 'LAST CALL: 20% OFF'
+  preheader: our Labor Day Event ends tonight!
+- id: afcc6436-45d6-4545-aba1-f72a1f78dad9
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 7844
+  total_delivered: 7636
+  total_opens: 3026
+  total_clicks: 490
+  open_rate: 0.3858
+  click_rate: 0.0625
+  total_revenue: 7860.1
+  total_unsubscribes: 13
+  ga4:
+    sessions: 25
+    purchases: 1
+    revenue: 236.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.094538'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.961432'
+schedule_type: time_based

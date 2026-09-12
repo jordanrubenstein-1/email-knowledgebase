@@ -1,0 +1,77 @@
+id: e0953997-24f3-47c8-9e38-0c794e7164d3
+name: P_EM_2025_09_24_SF_D_PF_Autumn_Sale_Launch
+brand: STF
+channel: email
+category: product_launch
+type: sale
+theme: fall
+braze_id: e0953997-24f3-47c8-9e38-0c794e7164d3
+dates:
+  send_date: '2025-09-24'
+  inferred_send_type: local_time
+  first_sent: '2025-09-23T23:30:17+00:00'
+  last_sent: '2025-09-24T17:00:41+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: 9dc7cd35-2c8a-4cb3-a91a-516a6cc4912d
+  channel: email
+  name: Variant 1
+  subject: 'IT’S ON: 20% Off Sitewide'
+  preheader: shop the autumn event.
+  html_file: html/p_em_2025_09_24_sf_d_pf_autumn_sale_launch.html
+  screenshot: screenshots/p_em_2025_09_24_sf_d_pf_autumn_sale_launch.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d31eb86e87a10067c521e2/original.png?1758666424
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d31f1b3aa949006446cec8/original.png?1758666523
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d31f243aa949006446cee2/original.png?1758666532
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d31e2a4d0bcc006701ff6b/original.gif?1758666282
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d31e6d17985500743a7b43/original.png?1758666348
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d31f169d66f200776b8305/original.png?1758666518
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d31eb117985500653a8044/original.png?1758666417
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d31f2a43cde30065d2ef8b/original.png?1758666538
+- id: f2b20c3d-a069-4495-a4bd-ba8405fba737
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 13
+  total_delivered: 13
+  total_opens: 3
+  total_clicks: 0
+  open_rate: 0.2308
+  click_rate: 0.0
+  ga4:
+    sessions: 411
+    purchases: 13
+    revenue: 13468.54
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.864654'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-the-autumn-event-2025-09-24
+    name: The Autumn Event
+    start_date: '2025-09-24'
+    end_date: '2025-09-30'
+    discount: 20% Off Sitewide
+    type: null
+  primary_sale:
+    id: stf-the-autumn-event-2025-09-24
+    name: The Autumn Event
+    start_date: '2025-09-24'
+    end_date: '2025-09-30'
+    discount: 20% Off Sitewide
+    type: null
+  sale_name: The Autumn Event
+  sale_discount: 20% Off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:36.599728'
+schedule_type: time_based

@@ -1,0 +1,47 @@
+id: 587d82a0-aff0-40c5-860e-19e0537c428c
+name: Seg_2024_10_23_PT_SF_Trade_Reminder_Email
+brand: STF
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 587d82a0-aff0-40c5-860e-19e0537c428c
+dates:
+  send_date: '2024-10-23'
+  inferred_send_type: local_time
+  first_sent: '2024-10-23T23:24:54+00:00'
+  last_sent: '2024-10-24T18:30:03+00:00'
+tags: []
+sends:
+- id: e4f928ed-a98c-4b15-8ad2-a6704d86e32f
+  channel: email
+  name: Variant 1
+  subject: 'Exciting News: Your St. Frank Trade Account'
+  html_file: html/seg_2024_10_23_pt_sf_trade_reminder_email.html
+  screenshot: screenshots/seg_2024_10_23_pt_sf_trade_reminder_email.png
+- id: 0eba6078-53fc-4b11-aeb2-7539bc43f88c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 984
+  total_delivered: 975
+  total_opens: 332
+  total_clicks: 26
+  open_rate: 0.3374
+  click_rate: 0.0264
+  total_revenue: 2280.0
+  total_bounces: 1
+  total_unsubscribes: 1
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.741423'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.680705'
+schedule_type: time_based

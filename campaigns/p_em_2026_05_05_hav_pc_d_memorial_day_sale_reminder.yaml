@@ -1,0 +1,35 @@
+id: 50d811ac-746c-4444-b060-4ed022acac59
+name: P_EM_2026_05_05_HAV_PC_D_Memorial_Day_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 50d811ac-746c-4444-b060-4ed022acac59
+dates:
+  send_date: '2026-05-05'
+  first_sent: '2026-05-05T03:39:38+00:00'
+  last_sent: '2026-05-06T02:32:09+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: c58acf37-245c-4eb4-9a48-974f40661db0
+  channel: email
+  name: Variant 1
+  subject: 'Your summer staycation is waiting '
+  preheader: 50% off Havenly interior design packages.
+- id: 1549c6ef-7e47-4547-ac9d-0442b88f5a66
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 74793
+  total_delivered: 74430
+  total_opens: 30080
+  total_clicks: 374
+  open_rate: 0.4022
+  click_rate: 0.005
+  total_bounces: 6
+  total_unsubscribes: 196
+schedule_type: time_based
+_filename: p_em_2026_05_05_hav_pc_d_memorial_day_sale_reminder.yaml

@@ -1,0 +1,49 @@
+id: 77163db5-4a3a-42d2-9dea-e5876f0e7bdc
+name: P_EM_2026_05_07_CZ_PC_D_Memorial_Day_Sale_Early_Access
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 77163db5-4a3a-42d2-9dea-e5876f0e7bdc
+dates:
+  send_date: '2026-05-07'
+  last_sent: '2026-05-07'
+tags:
+- batch and blast
+- d2c
+- designed
+- sale
+- sale/sleepsale2026
+- sale_feat
+sends:
+- id: 9f92bbe5-3951-418e-8bf2-f8a0f74eac25
+  channel: email
+  name: Variant 1
+  subject: Here's your early access!
+  preheader: Enjoy 25% off sitewide (before everyone else).
+  html_file: html/p_em_2026_05_07_cz_pc_d_memorial_day_sale_early_access.html
+  screenshot: screenshots/p_em_2026_05_07_cz_pc_d_memorial_day_sale_early_access.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f4abb8ab903b007ddeec20/original.gif?1777642424
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f4ac031b4d6400816ebe26/original.png?1777642498
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f4ac3b20cdee007e554c1f/original.png?1777642554
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f4ac80db6cef007f405801/original.png?1777642623
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f4abd3ccf028007f8745e6/original.png?1777642451
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f4ac66a86329007f539739/original.png?1777642597
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f4abf0ec7e40007f3ec683/original.png?1777642479
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f4ac5911b381008191b54f/original.png?1777642584
+- id: 8e52d641-9743-427a-8720-78eae8a7926c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 113823
+  total_delivered: 113600
+  total_opens: 53813
+  total_clicks: 1292
+  open_rate: 0.4728
+  click_rate: 0.0114
+  total_bounces: 4
+  total_unsubscribes: 115
+_filename: p_em_2026_05_07_cz_pc_d_memorial_day_sale_early_access.yaml
+schedule_type: time_based

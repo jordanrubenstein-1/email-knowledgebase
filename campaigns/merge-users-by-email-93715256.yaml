@@ -1,0 +1,30 @@
+id: 93715256-7de0-449d-ab2b-2bbbac706535
+name: Merge Users by Email
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 93715256-7de0-449d-ab2b-2bbbac706535
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-04-15T23:00:00+00:00'
+  last_sent: '2026-04-18T02:00:00+00:00'
+tags: []
+sends:
+- id: 56db70b3-7840-4a33-9bb0-6a9a91b19806
+  channel: other
+  name: Variant 1
+- id: bb8b9cbb-cda3-4356-a29e-745fad27e99a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 222
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 7425.4
+_filename: merge-users-by-email-93715256.yaml
+schedule_type: action_based

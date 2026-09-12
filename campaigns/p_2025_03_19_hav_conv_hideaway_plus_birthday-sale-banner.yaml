@@ -1,0 +1,35 @@
+id: 92c7c1a2-d026-4654-ac86-0e66637dd5b3
+name: P_2025_03_19_HAV_CONV_Hideaway_Plus_Birthday Sale Banner
+brand: HAV
+channel: email
+category: editorial
+type: sale
+theme: null
+braze_id: 92c7c1a2-d026-4654-ac86-0e66637dd5b3
+dates:
+  send_date: '2025-03-19'
+  first_sent: '2025-03-19T14:30:52+00:00'
+  last_sent: '2025-03-20T02:00:24+00:00'
+  inferred_send_type: scheduled
+tags:
+- HideawayEmails
+sends:
+- id: f1d37df1-eb66-497f-98e6-8395743a5421
+  channel: email
+  name: Variant 1
+  subject: This “dated” kitchen color is trending
+  preheader: And we’re here for it
+- id: 6aabab18-b3d3-4c3b-ad1d-159454ae9a59
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 39013
+  total_delivered: 38925
+  total_opens: 22275
+  total_clicks: 1066
+  open_rate: 0.571
+  click_rate: 0.0273
+  total_bounces: 2
+  total_unsubscribes: 54
+schedule_type: time_based
+_filename: p_2025_03_19_hav_conv_hideaway_plus_birthday-sale-banner.yaml

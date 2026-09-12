@@ -1,0 +1,44 @@
+id: 94c3d6a5-6729-489b-89a9-6648d2cb0fe3
+name: P_2025_1_20_D_SF_FABRIC_WINTER_REFRESH_SALE_Microsoft_Email
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: winter
+braze_id: 94c3d6a5-6729-489b-89a9-6648d2cb0fe3
+dates:
+  send_date: '2025-01-20'
+  inferred_send_type: local_time
+  first_sent: '2025-01-19T17:35:56+00:00'
+  last_sent: '2025-01-20T15:30:09+00:00'
+tags: []
+sends:
+- id: 348f110c-00c5-49ed-a11c-a75b31c1cc7c
+  channel: email
+  name: Variant 1
+  subject: Get In Project Mode with 20% Off
+  preheader: shop fabric on sale now!
+- id: 1aef85a9-5844-431d-9eee-2f4036010b79
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 99
+  total_delivered: 99
+  total_opens: 51
+  total_clicks: 3
+  open_rate: 0.5152
+  click_rate: 0.0303
+  total_unsubscribes: 1
+  ga4:
+    sessions: 3
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.144548'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:45.582392'
+schedule_type: time_based

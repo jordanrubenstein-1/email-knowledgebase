@@ -1,0 +1,33 @@
+id: fb5ce90b-7cb0-4f9f-8e4d-d7a9a35e2847
+name: P_2024_08_17_D_ID_CZ_Summer_Catalog_Launch_Email
+brand: ID
+channel: email
+category: product_launch
+type: seasonal
+theme: summer
+braze_id: fb5ce90b-7cb0-4f9f-8e4d-d7a9a35e2847
+dates:
+  send_date: '2024-08-17'
+  inferred_send_type: local_time
+  first_sent: '2024-08-16T22:51:52+00:00'
+  last_sent: '2024-08-17T14:05:03+00:00'
+tags: []
+sends:
+- id: 4a16230e-9a0b-4795-b29f-f0c7b5e0dece
+  channel: email
+  name: Variant 1
+  subject: Extra, extra 💥
+  preheader: Our latest catalog just dropped!
+- id: fa07cbea-0bb5-4de8-ad9d-6e940c0fc348
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 469
+  total_delivered: 469
+  total_opens: 279
+  total_clicks: 86
+  open_rate: 0.5949
+  click_rate: 0.1834
+  total_unsubscribes: 3
+_filename: p_2024_08_17_d_id_cz_summer_catalog_launch_email-fb5ce90b.yaml
+schedule_type: time_based

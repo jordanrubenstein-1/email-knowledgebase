@@ -1,0 +1,36 @@
+id: 6e6111ac-37f9-40f4-8932-22837b11580c
+name: P_EM_2026_05_29_ID_D_Sale_Reminder
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 6e6111ac-37f9-40f4-8932-22837b11580c
+dates:
+  send_date: '2026-05-29'
+  first_sent: '2026-05-28T23:34:55+00:00'
+  last_sent: '2026-05-29T18:01:15+00:00'
+  inferred_send_type: local_time
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: f2b32f67-70b0-42ed-8121-f0b36103ddfb
+  channel: email
+  name: Variant 1
+  subject: The sale of the summer is still on
+  preheader: The Memorial Day Event is extended, up to 30% off sitewide.
+- id: 7f34bc90-f0ec-4aaf-99a3-63c902f8a54f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 114024
+  total_delivered: 112029
+  total_opens: 44697
+  total_clicks: 225
+  open_rate: 0.392
+  click_rate: 0.002
+  total_revenue: 222593.96
+  total_bounces: 3
+  total_unsubscribes: 102
+schedule_type: time_based
+_filename: p_em_2026_05_29_id_d_sale_reminder.yaml

@@ -1,0 +1,43 @@
+id: 18de4d16-c36b-4683-af55-14ad4ca64f4a
+name: P_EM_2026_03_13_CZ_D_PR_Rugs_Spring_Event
+brand: CZ
+channel: email
+category: sale_promo
+type: seasonal
+theme: spring
+braze_id: 18de4d16-c36b-4683-af55-14ad4ca64f4a
+dates:
+  send_date: '2026-03-13'
+  last_sent: '2026-03-13'
+tags:
+- batch and blast
+- d2c
+- designed
+- pm
+- rugs
+- sale
+- sale/spring2025
+sends:
+- id: 4f691bb5-bf72-4c8b-96b1-5e32a7e604ff
+  channel: email
+  name: Variant 1
+  subject: Every Step of the Way
+  preheader: Shop up to 25% off handwoven rugs.
+  html_file: html/p_em_2026_03_13_cz_d_pr_rugs_spring_event.html
+  screenshot: screenshots/p_em_2026_03_13_cz_d_pr_rugs_spring_event.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6a0231792648fa00834deaa3/original.png?1778528631
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6a0232f3e45fc000836b1821/original.png?1778529011
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6a02318d2372ee00b76f5185/original.png?1778528653
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6a0231df6cb30e00856ff68e/original.png?1778528734
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6a0232a848327d0081d6df42/original.png?1778528935
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6a0232d4938c4800811c2079/original.png?1778528979
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6a0232e9309f8d00810ca5ed/original.png?1778529001
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6a0232c9af362b0083fb94b5/original.png?1778528969
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6a0232b7b4be0f00857994da/original.png?1778528951
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6a0232e1477c230083595490/original.png?1778528992
+- id: ef766a72-f017-4cf0-b882-a53f55232187
+  channel: email
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based

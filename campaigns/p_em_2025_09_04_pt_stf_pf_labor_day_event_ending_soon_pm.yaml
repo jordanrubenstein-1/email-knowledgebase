@@ -1,0 +1,40 @@
+id: 839bf383-855d-443c-bbf6-0dec82bac3ee
+name: P_EM_2025_09_04_PT_STF_PF_Labor_Day_Event_Ending_Soon_PM
+brand: STF
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 839bf383-855d-443c-bbf6-0dec82bac3ee
+dates:
+  send_date: '2025-09-04'
+  inferred_send_type: local_time
+  first_sent: '2025-09-04T03:07:48+00:00'
+  last_sent: '2025-09-04T23:01:16+00:00'
+tags:
+- Batch and Blast
+- pm
+- pt
+- sale
+- sale-feat
+sends:
+- id: 143b574d-849a-4953-b17d-4b999dabfb81
+  channel: email
+  name: Variant 1
+  subject: Clock's ticking on our Labor Day Sale...
+  preheader: Last call for 25% off sitewide.
+  html_file: html/p_em_2025_09_04_pt_stf_pf_labor_day_event_ending_soon_pm.html
+  screenshot: screenshots/p_em_2025_09_04_pt_stf_pf_labor_day_event_ending_soon_pm.png
+- id: 68de5b93-30dc-412c-b970-f68ed0b56ac9
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 5739
+  total_delivered: 5732
+  total_opens: 3853
+  total_clicks: 133
+  open_rate: 0.6714
+  click_rate: 0.0232
+  total_unsubscribes: 42
+_filename: p_em_2025_09_04_pt_stf_pf_labor_day_event_ending_soon_pm.yaml
+schedule_type: time_based

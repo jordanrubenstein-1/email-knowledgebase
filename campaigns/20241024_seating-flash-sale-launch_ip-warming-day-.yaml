@@ -1,0 +1,59 @@
+id: 88df1d0b-41c1-4591-ae92-f8568b7b961b
+name: 20241024_Seating-Flash-Sale-Launch_IP-Warming-Day-3
+brand: BUR
+channel: email
+category: product_launch
+type: sale
+theme: null
+braze_id: 88df1d0b-41c1-4591-ae92-f8568b7b961b
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2024-10-24T14:15:01+00:00'
+  last_sent: '2024-10-24T14:15:14+00:00'
+tags:
+- IP Warming
+sends:
+- id: 72c69059-6d78-45b1-a864-724e0af6d900
+  channel: email
+  name: Variant 1
+  subject: You might want to sit down for this...
+  preheader: Save 20% on all seating designs this weekend.
+- id: b01b4b6b-eabd-4a72-b73a-c55e0d06801c
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 152
+    purchases: 1
+    revenue: 3498.19
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.905855'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-20-off-seating-category-strikethrough-2024-10-24
+    name: 20% off seating category (strikethrough)
+    start_date: '2024-10-24'
+    end_date: '2024-10-29'
+    discount: null
+    type: null
+  - id: bur-flash-sale-2024-10-24
+    name: Flash Sale
+    start_date: '2024-10-24'
+    end_date: '2024-10-29'
+    discount: null
+    type: null
+  primary_sale:
+    id: bur-20-off-seating-category-strikethrough-2024-10-24
+    name: 20% off seating category (strikethrough)
+    start_date: '2024-10-24'
+    end_date: '2024-10-29'
+    discount: null
+    type: null
+  sale_name: 20% off seating category (strikethrough)
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:35.762191'
+schedule_type: time_based

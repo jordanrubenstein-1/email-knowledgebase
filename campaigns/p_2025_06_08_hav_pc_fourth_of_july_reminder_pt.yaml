@@ -1,0 +1,35 @@
+id: bd2410fc-789d-4431-8218-67c4ea8b1277
+name: P_2025_06_08_HAV_PC_Fourth_of_July_Reminder_PT
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: bd2410fc-789d-4431-8218-67c4ea8b1277
+dates:
+  send_date: '2025-06-08'
+  first_sent: '2025-06-07T18:23:08+00:00'
+  last_sent: '2025-06-08T18:15:03+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 9ccf4b48-104f-492a-afdf-c3092025b427
+  channel: email
+  name: Variant 1
+  subject: Our Fourth of July sale has ARRIVED
+  preheader: Get design services for half off!
+- id: b213961d-19df-4dd4-8151-087b998b2353
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 221596
+  total_delivered: 218228
+  total_opens: 97276
+  total_clicks: 375
+  open_rate: 0.439
+  click_rate: 0.0017
+  total_bounces: 5
+  total_unsubscribes: 312
+schedule_type: time_based
+_filename: p_2025_06_08_hav_pc_fourth_of_july_reminder_pt.yaml

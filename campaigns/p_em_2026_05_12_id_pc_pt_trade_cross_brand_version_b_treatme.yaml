@@ -1,0 +1,25 @@
+id: 75582cc7-5fad-4888-99ab-331b538eaa1d
+name: P_EM_2026_05_12_ID_PC_PT_Trade_Cross_Brand_Version_B_Treatment_Reminder_3
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 75582cc7-5fad-4888-99ab-331b538eaa1d
+dates:
+  send_date: '2026-05-12'
+  last_sent: '2026-05-12'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: eb7533d0-d347-4f1e-9c68-f6fb1c71aa7a
+  channel: email
+  name: Variant 1
+  subject: 'Last chance: Your 35% off Interior Define offer expires soon'
+  preheader: This is your final reminder before your exclusive offer is gone.
+- id: 8a3286ee-0d46-4f4a-9d66-969c06681196
+  channel: email
+  name: Control Group
+performance_summary: {}
+_filename: p_em_2026_05_12_id_pc_pt_trade_cross_brand_version_b_treatme.yaml
+schedule_type: time_based

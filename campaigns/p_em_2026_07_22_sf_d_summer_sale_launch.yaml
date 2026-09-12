@@ -1,0 +1,35 @@
+id: 15d81a52-ddb8-4c8b-b85c-77d679f37d3b
+name: P_EM_2026_07_22_SF_D_Summer_Sale_Launch
+brand: STF
+channel: email
+category: product_launch
+type: sale
+theme: summer
+braze_id: 15d81a52-ddb8-4c8b-b85c-77d679f37d3b
+dates:
+  send_date: '2026-07-22'
+  first_sent: '2026-07-22T14:43:21+00:00'
+  last_sent: '2026-07-22T16:00:00+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 0389dc16-ccac-4e77-9e73-2ede4860a9de
+  channel: email
+  name: Variant 1
+  subject: The Summer Sale is here
+  preheader: 20% off sitewide. Because bold shouldn't wait.
+- id: b94c32c9-61a8-461d-9bd9-5565fedb455c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 36508
+  total_delivered: 36265
+  total_opens: 11171
+  total_clicks: 239
+  open_rate: 0.306
+  click_rate: 0.0065
+  total_revenue: 65067.5
+  total_bounces: 1
+  total_unsubscribes: 27
+schedule_type: time_based
+_filename: p_em_2026_07_22_sf_d_summer_sale_launch.yaml

@@ -1,0 +1,35 @@
+id: ba0c1562-723d-43f5-9ad7-b9273971e0bb
+name: P_EM_2025_09_03_HAV_PC_D_Labor_Day_Event_Extended
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: ba0c1562-723d-43f5-9ad7-b9273971e0bb
+dates:
+  send_date: '2025-09-03'
+  first_sent: '2025-09-03T05:48:07+00:00'
+  last_sent: '2025-09-03T18:15:10+00:00'
+  inferred_send_type: scheduled
+tags:
+- BLASTS-2025
+sends:
+- id: 6048f25a-2d6c-4a16-b385-cdee5d1e84bc
+  channel: email
+  name: Variant 1
+  subject: Surprise! Labor Day Event Is Back!
+  preheader: Book NOW for 50% off design services.
+- id: e6769bdb-e358-47ce-a183-e4c57424d07c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 225438
+  total_delivered: 224805
+  total_opens: 94057
+  total_clicks: 392
+  open_rate: 0.4172
+  click_rate: 0.0017
+  total_bounces: 7
+  total_unsubscribes: 457
+schedule_type: time_based
+_filename: p_em_2025_09_03_hav_pc_d_labor_day_event_extended.yaml

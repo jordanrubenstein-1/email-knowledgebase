@@ -1,0 +1,33 @@
+id: 18ebdb4a-193b-464c-b906-88d36f5cbac2
+name: P_2024_09_05_D_HAV_PR_CON_Missed_Sale_Start_Email
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 18ebdb4a-193b-464c-b906-88d36f5cbac2
+dates:
+  send_date: '2024-09-05'
+  first_sent: '2024-09-05T03:03:01+00:00'
+  last_sent: '2024-09-05T17:15:07+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 22773f03-e008-41dd-834b-633531a2ccb0
+  channel: email
+  name: Variant 1
+  subject: SURPRISE! Everything’s still on sale!
+  preheader: Labor Day Event extended.
+- id: 49bde379-f1de-47ec-9517-cbaeb1179aa8
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 35386
+  total_delivered: 35343
+  total_opens: 19891
+  total_clicks: 281
+  open_rate: 0.5621
+  click_rate: 0.0079
+  total_unsubscribes: 60
+schedule_type: time_based
+_filename: p_2024_09_05_d_hav_pr_con_missed_sale_start_email.yaml

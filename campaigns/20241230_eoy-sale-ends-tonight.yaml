@@ -1,0 +1,80 @@
+id: 24d9bbb4-ffd1-4114-bdd5-b5300fcd79ef
+name: 20241230_EOY-Sale-Ends-Tonight
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 24d9bbb4-ffd1-4114-bdd5-b5300fcd79ef
+dates:
+  inferred_send_type: local_time
+  first_sent: '2024-12-29T17:20:38+00:00'
+  last_sent: '2024-12-30T17:15:10+00:00'
+tags: []
+sends:
+- id: 28d3f92b-c1e6-4b11-b9d7-3b8e5282186e
+  channel: email
+  name: Variant 1
+  subject: Don't miss our End of Year Sale
+  preheader: Save 25% on seating designs, and 20% on everything else.
+- id: 6c7d7a01-81da-4d76-9251-afb43141d710
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 468
+    purchases: 4
+    revenue: 2249.17
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.038250'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  - id: bur-end-of-year-sale-extension-2025-01-01
+    name: End of Year Sale (EXTENSION)
+    start_date: '2024-12-20'
+    end_date: '2025-01-05'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  - id: bur_eoy_2024_12_20
+    name: End of Year Sale
+    start_date: '2024-12-19'
+    end_date: '2024-12-31'
+    discount: null
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:37.006133'
+schedule_type: time_based

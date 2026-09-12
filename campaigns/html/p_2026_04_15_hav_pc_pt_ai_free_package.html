@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Havenly</title>
+  <!--[if mso]>
+  <noscript>
+    <xml>
+      <o:OfficeDocumentSettings>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+  </noscript>
+  <![endif]-->
+</head>
+
+<body style="margin: 0; padding: 0; background-color: #f4f4f4;">
+  <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="600" style="max-width: 600px; width: 100%; margin: 0 auto;">
+    
+    <!-- Top Border + Logo -->
+    <tr>
+      <td bgcolor="#ed6b4d" width="35" rowspan="3" style="background-color: #ed6b4d;">
+        <div style="font-size: 1px; line-height: 1px;">&nbsp;</div>
+      </td>
+
+      <td bgcolor="#c2b04a" style="background-color: #c2b04a; padding: 16px 20px;">
+        <a href="https://havenly.com/?lid=tr40kl6whrh5" style="display: block; text-decoration: none;">
+          <img src="https://braze-images.com/appboy/communication/assets/image_assets/images/697a85e045042100652b5d66/original.png?1769637344"
+               width="120"
+               style="display: block; max-width: 100%; height: auto;" />
+        </a>
+      </td>
+
+      <td bgcolor="#e59400" width="35" rowspan="3" style="background-color: #e59400;">
+        <div style="font-size: 1px; line-height: 1px;">&nbsp;</div>
+      </td>
+    </tr>
+
+    <!-- Email Body -->
+    <tr>
+      <td bgcolor="#FFFFFF" width="530" style="background-color: #FFFFFF; vertical-align: top;">
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+          <tr>
+            <td style="padding: 24px 20px 36px 20px; font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.5; color: #333333;">
+
+              <!-- Hero Image -->
+              <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="margin: 0 0 16px 0;">
+                <tr>
+                  <td align="center">
+                    <a href="https://havenly.com/?lid=6expvq227vfb#package-types" style="text-decoration: none; display: inline-block;">
+                      <img src="{{custom_attribute.${email_design_image_url}}}"
+                           width="560"
+                           style="display: block; width: 100%; max-width: 560px; height: auto; border-radius: 8px; border: 0;" />
+                    </a>
+                  </td>
+                </tr>
+              </table>
+
+              <!-- Body Copy -->
+              <div align="left" style="line-height:1.2; padding:10px; color:#101b24; font-weight:400; font-size:14px;">
+                Hi {{${first_name} | default: 'there'}},<br><br>
+                {{custom_attribute.${email_opening_paragraph_p1}}} {{custom_attribute.${email_opening_paragraph_p2}}}<br><br>
+                {{custom_attribute.${email_design_hook}}}<br><br>
+                We’d love to upgrade you to a <b>complimentary design experience</b> with a real designer by your side. Use code <strong style="font-weight:700;">{{custom_attribute.${email_promo_code}}}</strong> at checkout to claim your free Online Design package.
+              </div>
+
+              <!-- CTA Button -->
+              <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="margin: 6px 0;">
+                <tr>
+                  <td style="text-align: center;">
+                    <a href="https://havenly.com/?lid=szlozwt32zaq#package-types"
+                       style="display: inline-block; font-family: 'Saans', Helvetica, Arial, sans-serif; font-size: 18px; line-height: 22px; font-weight: 600; letter-spacing: 0.79px; text-transform: uppercase; color: #FFFFFF; text-decoration: none; border: 2px solid #CD8F52; padding: 14px 32px; background-color: #CD8F52; border-radius: 50px; white-space: nowrap;">
+                      {{custom_attribute.${email_cta_text}}}
+                    </a>
+                  </td>
+                </tr>
+              </table>
+
+              <!-- Signoff -->
+              <div align="left" style="line-height:1.2; padding:10px; color:#101b24; font-weight:400; font-size:14px;">
+                Let's get started,
+                <br>
+                <strong style="font-weight:700;">The Havenly Team</strong>
+              </div>
+
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+    <!-- Bottom Logo Bar -->
+    <tr>
+      <td bgcolor="#304561" style="background-color: #304561; padding: 28px 20px; text-align: right;">
+        <a href="https://havenly.com/?lid=9eb7fo21oy3z" style="display: inline-block; text-decoration: none;">
+          <img src="https://braze-images.com/appboy/communication/assets/image_assets/images/697a85e4b446f100635ef81c/original.png?1769637348"
+               alt="H"
+               width="40"
+               style="display: block; max-width: 100%; height: auto;" />
+        </a>
+      </td>
+    </tr>
+
+  </table>
+
+  <!-- Footer -->
+  <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="max-width: 600px; width: 100%; margin: 0 auto; background-color: #f4f4f4;">
+    <tr>
+      <td align="center" style="padding: 8px 20px 4px 20px;">
+        {{content_blocks.${unsubscribe} | id: 'cb1'}}
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>

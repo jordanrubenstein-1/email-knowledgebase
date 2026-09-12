@@ -1,0 +1,30 @@
+id: c2c3d08c-0c47-4abf-b65b-449d6da164b6
+name: P_2025_4_10_Friends_Family_Sale_Announcement_SMS
+brand: ID
+channel: sms
+category: sale_promo
+type: sale
+theme: null
+braze_id: c2c3d08c-0c47-4abf-b65b-449d6da164b6
+dates:
+  send_date: '2025-04-10'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-10T20:56:37+00:00'
+  last_sent: '2025-04-10T20:59:14+00:00'
+tags: []
+sends:
+- id: 7eeabffc-d5e8-486b-83c4-eacd346d7772
+  channel: other
+  name: Variant 1
+- id: d856375c-a48e-4c93-998d-c96aa49ff38c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 59742
+  total_delivered: 56204
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 21835.0
+schedule_type: time_based

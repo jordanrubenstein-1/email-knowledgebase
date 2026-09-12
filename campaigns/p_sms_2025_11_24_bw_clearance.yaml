@@ -1,0 +1,38 @@
+id: cc23cb13-7378-470a-b2b5-8e9b3b1c143b
+name: P_SMS_2025_11_24_BW_Clearance
+brand: BUR
+channel: sms
+category: sale_promo
+type: announcement
+theme: null
+braze_id: cc23cb13-7378-470a-b2b5-8e9b3b1c143b
+dates:
+  send_date: '2025-11-24'
+  inferred_send_type: local_time
+  first_sent: '2025-11-24T01:07:24+00:00'
+  last_sent: '2025-11-25T01:00:54+00:00'
+tags: []
+sends:
+- id: a7ba6e40-962b-41d9-943b-d8b859975301
+  channel: sms
+  name: Variant 1
+- id: fb8cc220-86a4-4ce5-8f82-2fb30fd8a46d
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 6371
+  total_delivered: 6279
+  total_opens: 0
+  total_clicks: 436
+  open_rate: 0.0
+  click_rate: 0.0684
+  total_revenue: 14343.0
+  ga4:
+    sessions: 385
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.894964'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

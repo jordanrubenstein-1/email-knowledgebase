@@ -1,0 +1,30 @@
+id: 9ec0ac9d-44b4-47ef-9824-a1f59ff131da
+name: P_SMS_2025_12_18_ID_End_Of_Year_Sale_Launch
+brand: ID
+channel: sms
+category: product_launch
+type: sale
+theme: null
+braze_id: 9ec0ac9d-44b4-47ef-9824-a1f59ff131da
+dates:
+  send_date: '2025-12-18'
+  inferred_send_type: local_time
+  first_sent: '2025-12-18T01:08:03+00:00'
+  last_sent: '2025-12-19T01:01:33+00:00'
+tags: []
+sends:
+- id: eff312ba-e57e-4d80-b10e-152687e6ce70
+  channel: sms
+  name: Variant 1
+- id: f4b792e1-7071-4f3a-a63d-1b53439a1ba8
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 50112
+  total_delivered: 47525
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 4725.0
+schedule_type: time_based

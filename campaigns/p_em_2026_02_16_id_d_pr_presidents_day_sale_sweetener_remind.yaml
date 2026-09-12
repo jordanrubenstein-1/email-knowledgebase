@@ -1,0 +1,36 @@
+id: 255d3570-b550-4f92-9036-4f3808b1b89c
+name: P_EM_2026_02_16_ID_D_PR_Presidents_Day_Sale_Sweetener_Reminder
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 255d3570-b550-4f92-9036-4f3808b1b89c
+dates:
+  send_date: '2026-02-16'
+  inferred_send_type: local_time
+  first_sent: '2026-02-15T17:08:27+00:00'
+  last_sent: '2026-02-16T17:07:34+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 3e6ea725-85e6-40d3-a17f-bc6cac48722a
+  channel: email
+  name: Variant 1
+  subject: The Sale Clock is Ticking
+  preheader: Up to 35% off ends soon. Now's the moment.
+- id: d963e1b9-1502-4539-9a4d-14284115881c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 215407
+  total_delivered: 214758
+  total_opens: 95004
+  total_clicks: 627
+  open_rate: 0.441
+  click_rate: 0.0029
+  total_revenue: 1013620.64
+  total_bounces: 6
+  total_unsubscribes: 245
+_filename: p_em_2026_02_16_id_d_pr_presidents_day_sale_sweetener_remind.yaml
+schedule_type: time_based

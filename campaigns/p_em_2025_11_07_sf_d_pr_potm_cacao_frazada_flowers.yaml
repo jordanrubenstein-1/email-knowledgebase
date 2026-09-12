@@ -1,0 +1,50 @@
+id: f245b6ee-5b21-4c9d-948d-7f6c46e5b0b0
+name: P_EM_2025_11_07_SF_D_PR_POTM_Cacao_Frazada_Flowers
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: f245b6ee-5b21-4c9d-948d-7f6c46e5b0b0
+dates:
+  send_date: '2025-11-07'
+  inferred_send_type: local_time
+  first_sent: '2025-11-07T01:31:23+00:00'
+  last_sent: '2025-11-07T17:01:47+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- print
+sends:
+- id: 4b178bac-94a5-4f73-bc73-7ee9ba44481c
+  channel: email
+  name: Variant 1
+  subject: 'In Print: Cacao Flowers Frazada'
+  preheader: warm neutrals meet bold geometry
+- id: 1423275d-5194-4e84-9e39-5610c05a0a2b
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 40202
+  total_delivered: 39699
+  total_opens: 18073
+  total_clicks: 196
+  open_rate: 0.4496
+  click_rate: 0.0049
+  total_bounces: 2
+  total_unsubscribes: 28
+  ga4:
+    sessions: 208
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.070053'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.390410'
+schedule_type: time_based

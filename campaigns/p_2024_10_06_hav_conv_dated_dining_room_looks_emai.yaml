@@ -1,0 +1,51 @@
+id: 5a982f31-88a2-4905-a062-94786930c2d0
+name: P_2024_10_06_HAV_Conv_Dated_Dining_Room_Looks_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 5a982f31-88a2-4905-a062-94786930c2d0
+dates:
+  send_date: '2024-10-06'
+  inferred_send_type: scheduled
+  first_sent: '2024-10-06T06:58:45+00:00'
+  last_sent: '2024-10-06T17:15:03+00:00'
+tags: []
+sends:
+- id: e71b0c28-95a4-442d-ab38-97fdd27f0207
+  channel: email
+  name: Variant 1
+  subject: '"Basic" dining room looks we''re passing on'
+  preheader: Next.
+  html_file: html/p_2024_10_06_hav_conv_dated_dining_room_looks_email.html
+  screenshot: screenshots/p_2024_10_06_hav_conv_dated_dining_room_looks_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66fed6d2acf61d0065b58a76/original.jpg?1727977169
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66fd68b3478e740063ce3f76/original.jpg?1727883443
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66fd687338b9460064dccf45/original.gif?1727883379
+- id: 28bcdcd6-4cb0-4ee9-a082-ba4ba73caa2c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 36056
+  total_delivered: 36014
+  total_opens: 21142
+  total_clicks: 768
+  open_rate: 0.5864
+  click_rate: 0.0213
+  total_bounces: 1
+  total_unsubscribes: 57
+  ga4:
+    sessions: 1005
+    purchases: 2
+    revenue: 2852.75
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.647436'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.655433'
+schedule_type: time_based

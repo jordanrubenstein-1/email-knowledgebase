@@ -1,0 +1,23 @@
+id: 34306536-fe06-45eb-a7ed-b2662002670b
+name: Rugs
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 34306536-fe06-45eb-a7ed-b2662002670b
+dates: {}
+tags: []
+sends:
+- id: ca7052df-30e9-4ef5-8444-865e9bccdcfd
+  channel: email
+  name: Variant 1
+  subject: Every Step of the Way
+  preheader: Shop up to 25% off handwoven rugs.
+  html_file: html/rugs.html
+  screenshot: screenshots/rugs.png
+- id: 364581f4-ff1d-46ab-8e09-4f16e668aa9a
+  channel: other
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based

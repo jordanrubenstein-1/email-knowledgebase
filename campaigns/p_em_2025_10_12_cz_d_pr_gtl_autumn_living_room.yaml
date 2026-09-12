@@ -1,0 +1,80 @@
+id: 87ed37fa-eaf5-45ff-bea7-a115f555e4e3
+name: P_EM_2025_10_12_CZ_D_PR_GTL_Autumn_Living_Room
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: fall
+braze_id: 87ed37fa-eaf5-45ff-bea7-a115f555e4e3
+dates:
+  send_date: '2025-10-12'
+  inferred_send_type: scheduled
+  first_sent: '2025-10-12T03:24:39+00:00'
+  last_sent: '2025-10-12T17:15:28+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- gtl
+- sale
+sends:
+- id: 6e91a019-1e9a-447d-b981-7727fe215814
+  channel: email
+  name: Variant 1
+  subject: 20% Off Your Autumn Living Room
+  preheader: Bring home the cozy.
+  html_file: html/p_em_2025_10_12_cz_d_pr_gtl_autumn_living_room.html
+  screenshot: screenshots/p_em_2025_10_12_cz_d_pr_gtl_autumn_living_room.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e83a7f18ff7700655010d7/original.png?1760049790
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e827153752e800636bba41/original.png?1760044821
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e83ab20c83b00063a4c89f/original.png?1760049842
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e83abebf21dd0063ac888b/original.png?1760049854
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e83c3a18ff770065502445/original.png?1760050234
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e83acc503bd00063c7a3b4/original.png?1760049868
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e83ac50c83b00073a4bda5/original.png?1760049861
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e82747879246006361d662/original.png?1760044871
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e827205314ae00640dfa30/original.png?1760044831
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e83add503bd00063c7a456/original.png?1760049885
+- id: 760aaf58-3c00-45ce-bd8f-b20b783f0bd2
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 111315
+  total_delivered: 111019
+  total_opens: 59833
+  total_clicks: 809
+  open_rate: 0.5375
+  click_rate: 0.0073
+  total_bounces: 5
+  total_unsubscribes: 127
+  ga4:
+    sessions: 925
+    purchases: 13
+    revenue: 8113.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.681640'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-anniversary-sale-2025-10-09
+    name: The Anniversary Sale
+    start_date: '2025-10-09'
+    end_date: '2025-10-22'
+    discount: 20% Off Sitewide
+    type: null
+  primary_sale:
+    id: cz-the-anniversary-sale-2025-10-09
+    name: The Anniversary Sale
+    start_date: '2025-10-09'
+    end_date: '2025-10-22'
+    discount: 20% Off Sitewide
+    type: null
+  sale_name: The Anniversary Sale
+  sale_discount: 20% Off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:33.834868'
+schedule_type: time_based

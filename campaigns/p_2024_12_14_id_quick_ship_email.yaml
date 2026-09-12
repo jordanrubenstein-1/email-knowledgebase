@@ -1,0 +1,45 @@
+id: d960ed79-088b-46ca-9cc4-a64a5cf27d29
+name: P_2024_12_14_ID_Quick_Ship_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: d960ed79-088b-46ca-9cc4-a64a5cf27d29
+dates:
+  send_date: '2024-12-14'
+  inferred_send_type: scheduled
+  first_sent: '2024-12-14T07:37:55+00:00'
+  last_sent: '2024-12-14T17:15:08+00:00'
+tags: []
+sends:
+- id: c5a4c38d-dc0f-43bd-b257-9591c5ad2456
+  channel: email
+  name: Variant 1
+  subject: Shop Our Quick Ship Collections
+  preheader: Made-to-order furniture, ready to ship in weeks.
+- id: 98bf9ed7-9b8f-4608-ba6f-87161c46c0e1
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 89069
+  total_delivered: 88301
+  total_opens: 27439
+  total_clicks: 613
+  open_rate: 0.3081
+  click_rate: 0.0069
+  total_revenue: 120958.0
+  total_unsubscribes: 133
+  ga4:
+    sessions: 991
+    purchases: 1
+    revenue: 1673.96
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.689416'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.269887'
+schedule_type: time_based

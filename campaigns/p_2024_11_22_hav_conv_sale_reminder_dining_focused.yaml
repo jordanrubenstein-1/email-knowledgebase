@@ -1,0 +1,58 @@
+id: 9a896a7d-3cc9-4fbf-995c-585a395ced4b
+name: P_2024_11_22_HAV_Conv_Sale_Reminder_Dining_Focused_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 9a896a7d-3cc9-4fbf-995c-585a395ced4b
+dates:
+  send_date: '2024-11-22'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-22T02:30:21+00:00'
+  last_sent: '2024-11-22T17:15:04+00:00'
+tags: []
+sends:
+- id: cf62608f-f026-43bb-9a40-b60944318d3f
+  channel: email
+  name: Variant 1
+  subject: Our Best Sale Just Got Better
+  preheader: New deals added, now up to 80% off.
+  html_file: html/p_2024_11_22_hav_conv_sale_reminder_dining_focused_email.html
+  screenshot: screenshots/p_2024_11_22_hav_conv_sale_reminder_dining_focused_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67367f77990e3f0065819942/original.png?1731624823
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673677d29cff220065631ad1/original.png?1731622865
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67367e5cbc72a400667ef803/original.png?1731624540
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67367e70f545b50066164561/original.png?1731624560
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67368432288b0900660794b7/original.gif?1731626034
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673fdea51a90820065c08ba0/original.png?1732239013
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67367e959cff220065632696/original.png?1731624597
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6736844d990e3f006581a530/original.gif?1731626061
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67367e7d317cf100655318cd/original.png?1731624573
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673677abeaebde00632de0e3/original.png?1731622827
+- id: 53db7462-ec3f-4919-96b2-5c03c36c7e5a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 35322
+  total_delivered: 35285
+  total_opens: 19604
+  total_clicks: 309
+  open_rate: 0.555
+  click_rate: 0.0087
+  total_bounces: 2
+  total_unsubscribes: 44
+  ga4:
+    sessions: 487
+    purchases: 4
+    revenue: 5600.58
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.457386'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.524902'
+schedule_type: time_based

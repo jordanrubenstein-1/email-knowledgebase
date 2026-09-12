@@ -1,0 +1,67 @@
+id: 200c36da-6a90-45ca-a98c-83641c314545
+name: P_EM_2025_08_29_SF_D_PR_Luxe_Bedding_Send
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 200c36da-6a90-45ca-a98c-83641c314545
+dates:
+  send_date: '2025-08-29'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-29T05:41:18+00:00'
+  last_sent: '2025-08-29T17:01:35+00:00'
+tags:
+- Batch and Blast
+- am
+- bedding
+- d2c
+- designed
+- prod
+- sale
+sends:
+- id: 282010cc-6ec5-4486-be76-34acc39c56aa
+  channel: email
+  name: Variant 1
+  subject: Five-Star Sleep, Every Night
+  preheader: 25% off bedding that turns your room into a luxury retreat
+- id: 33775a94-621d-4efe-9210-1736b47d3197
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 40279
+  total_delivered: 40031
+  total_opens: 18186
+  total_clicks: 143
+  open_rate: 0.4515
+  click_rate: 0.0036
+  total_unsubscribes: 73
+  ga4:
+    sessions: 122
+    purchases: 1
+    revenue: 364.87
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.097165'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-the-labor-day-event-2025-08-21
+    name: The Labor Day Event
+    start_date: '2025-08-21'
+    end_date: '2025-09-04'
+    discount: 25% off Sitewide
+    type: null
+  primary_sale:
+    id: stf-the-labor-day-event-2025-08-21
+    name: The Labor Day Event
+    start_date: '2025-08-21'
+    end_date: '2025-09-04'
+    discount: 25% off Sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 25% off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:44.042707'
+schedule_type: time_based

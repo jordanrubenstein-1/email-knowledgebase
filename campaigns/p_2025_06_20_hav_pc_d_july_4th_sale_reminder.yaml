@@ -1,0 +1,35 @@
+id: 87a9eb57-0602-4fee-842d-cb4ff9dad692
+name: P_2025_06_20_HAV_PC_D_July_4th_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 87a9eb57-0602-4fee-842d-cb4ff9dad692
+dates:
+  send_date: '2025-06-20'
+  first_sent: '2025-06-19T18:23:05+00:00'
+  last_sent: '2025-06-20T18:15:05+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 7ce8304b-c7c8-40f0-bf65-02dfcfd9242f
+  channel: email
+  name: Variant 1
+  subject: Save 50% on design services
+  preheader: The time is NOW!
+- id: 49dfe238-a5c6-40c2-be14-ebf4f7526704
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 222603
+  total_delivered: 219254
+  total_opens: 91817
+  total_clicks: 295
+  open_rate: 0.4125
+  click_rate: 0.0013
+  total_bounces: 13
+  total_unsubscribes: 280
+schedule_type: time_based
+_filename: p_2025_06_20_hav_pc_d_july_4th_sale_reminder.yaml

@@ -1,0 +1,43 @@
+id: 1797adfa-76a9-4eb1-9e2a-236e95004be8
+name: P_EM_2026_01_25_BW_D_Raving_About_Russet
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 1797adfa-76a9-4eb1-9e2a-236e95004be8
+dates:
+  send_date: '2026-01-25'
+  inferred_send_type: local_time
+  first_sent: '2026-01-24T19:08:05+00:00'
+  last_sent: '2026-01-25T19:03:44+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 047e9fa1-7934-4849-be00-dbf2aaeb5420
+  channel: email
+  name: Variant 1
+  subject: 'Russet: The 5-Star Favorite'
+  preheader: Up to 35% off the sofa customers can't stop talking about
+- id: 381d81c7-d690-4c5c-be71-44e559fe2339
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 238433
+  total_delivered: 235676
+  total_opens: 124233
+  total_clicks: 442
+  open_rate: 0.521
+  click_rate: 0.0019
+  total_revenue: 48510.0
+  total_bounces: 8
+  total_unsubscribes: 278
+  ga4:
+    sessions: 322
+    purchases: 1
+    revenue: 2043.68
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.745505'
+    source: snowflake
+    channel: email
+schedule_type: time_based

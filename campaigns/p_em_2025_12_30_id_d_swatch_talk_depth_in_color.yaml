@@ -1,0 +1,43 @@
+id: 1db99771-bd4b-483d-93b2-ba9181e7dde2
+name: P_EM_2025_12_30_ID_D_Swatch_Talk_Depth_In_Color
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 1db99771-bd4b-483d-93b2-ba9181e7dde2
+dates:
+  send_date: '2025-12-30'
+  inferred_send_type: local_time
+  first_sent: '2025-12-29T17:49:04+00:00'
+  last_sent: '2025-12-30T17:16:09+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 32d94fa1-8009-4075-a3d1-63174e6f6acc
+  channel: email
+  name: Variant 1
+  subject: Saturate Your Space
+  preheader: Claim 10 free swatches, and shop the final days of 25% off sitewide.
+- id: 6d27e40e-b778-496e-a7d8-54e808d6ddd6
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 207466
+  total_delivered: 206649
+  total_opens: 91588
+  total_clicks: 521
+  open_rate: 0.4415
+  click_rate: 0.0025
+  total_revenue: 325846.89
+  total_bounces: 2
+  total_unsubscribes: 362
+  ga4:
+    sessions: 487
+    purchases: 3
+    revenue: 12161.22
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.185127'
+    source: snowflake
+    channel: email
+schedule_type: time_based

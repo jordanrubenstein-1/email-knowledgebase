@@ -1,0 +1,58 @@
+id: de41ab16-5abd-41fc-8d02-a576042f6f7c
+name: P_EM_2025_11_09_CZ_D_PR_New_Fall_Heirloom
+brand: CZ
+channel: email
+category: product_launch
+type: seasonal
+theme: fall
+braze_id: de41ab16-5abd-41fc-8d02-a576042f6f7c
+dates:
+  send_date: '2025-11-09'
+  inferred_send_type: scheduled
+  first_sent: '2025-11-09T04:16:47+00:00'
+  last_sent: '2025-11-09T17:15:37+00:00'
+tags:
+- am
+- batch and blast
+- collect
+- d2c
+- designed
+sends:
+- id: 4281a996-226d-4d9e-8505-f057da1a8efd
+  channel: email
+  name: Variant 1
+  subject: 'New for Fall: Heirloom Rugs'
+  preheader: Soulful, hand-knotted craftsmanship.
+  html_file: html/p_em_2025_11_09_cz_d_pr_new_fall_heirloom.html
+  screenshot: screenshots/p_em_2025_11_09_cz_d_pr_new_fall_heirloom.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690e4a83c3682b0063165cd7/original.png?1762544259
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690e49679f224e0064b564c8/original.gif?1762543975
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690e4a121d752600639a3fc1/original.png?1762544145
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690e4a573c25360063b330a8/original.png?1762544215
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690e49b3be77970063d9302b/original.png?1762544051
+- id: 2f7e1f26-e823-4802-bcd2-ca5e3fb8dc05
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 101410
+  total_delivered: 100668
+  total_opens: 58495
+  total_clicks: 914
+  open_rate: 0.5768
+  click_rate: 0.009
+  total_bounces: 2
+  total_unsubscribes: 139
+  ga4:
+    sessions: 1020
+    purchases: 10
+    revenue: 3931.55
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.026365'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.033255'
+schedule_type: time_based

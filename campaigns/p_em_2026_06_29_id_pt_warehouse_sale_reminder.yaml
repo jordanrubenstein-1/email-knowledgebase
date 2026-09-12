@@ -1,0 +1,33 @@
+id: 4fda3135-0990-4f3b-90ef-983d621d0ae3
+name: P_EM_2026_06_29_ID_PT_Warehouse_Sale_Reminder
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 4fda3135-0990-4f3b-90ef-983d621d0ae3
+dates:
+  send_date: '2026-06-29'
+  last_sent: '2026-06-29'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 5ad6735f-a8b6-42ad-8a3c-a0c817ef751a
+  channel: email
+  name: Variant 1
+  subject: Don't let someone else get your piece
+- id: c5fc03a0-b7b1-4fd2-81b9-cb4c4e70d03d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 231921
+  total_delivered: 231031
+  total_opens: 95882
+  total_clicks: 1552
+  open_rate: 0.4134
+  click_rate: 0.0067
+  total_revenue: 402753.96
+  total_bounces: 4
+  total_unsubscribes: 299
+schedule_type: time_based
+_filename: p_em_2026_06_29_id_pt_warehouse_sale_reminder.yaml

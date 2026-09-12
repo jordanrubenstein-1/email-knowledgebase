@@ -1,0 +1,81 @@
+id: b6b69de8-045e-4075-9324-9537e846d522
+name: Spring Event Modal - Email and SMS
+brand: BUR
+channel: email
+category: sale_promo
+type: seasonal
+theme: spring
+braze_id: b6b69de8-045e-4075-9324-9537e846d522
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-03-12T13:00:00+00:00'
+  last_sent: '2025-04-01T14:00:00+00:00'
+tags: []
+sends:
+- id: c7f0004c-2f96-4992-b8fe-7eabf6e2f41f
+  channel: other
+  name: Variant 1
+- id: 770d1f9c-41f6-4c3f-ba04-447e8ec5aa94
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.498942'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-burrow-2025-03-11
+    name: Burrow
+    start_date: '2025-03-11'
+    end_date: '2025-03-12'
+    discount: 'The Spring Event
+
+      20% off <$2k / 25% ≥$2k sitewide (strikethrough in cart) | code-based early
+      access for RETAIL ONLY: [SPRING25]
+
+      + up to 70% off Clearance
+
+      FREE SHIP on all orders'
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-burrow-2025-03-11
+    name: Burrow
+    start_date: '2025-03-11'
+    end_date: '2025-03-12'
+    discount: 'The Spring Event
+
+      20% off <$2k / 25% ≥$2k sitewide (strikethrough in cart) | code-based early
+      access for RETAIL ONLY: [SPRING25]
+
+      + up to 70% off Clearance
+
+      FREE SHIP on all orders'
+    type: null
+  sale_name: Burrow
+  sale_discount: 'The Spring Event
+
+    20% off <$2k / 25% ≥$2k sitewide (strikethrough in cart) | code-based early access
+    for RETAIL ONLY: [SPRING25]
+
+    + up to 70% off Clearance
+
+    FREE SHIP on all orders'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:30.679618'
+schedule_type: action_based

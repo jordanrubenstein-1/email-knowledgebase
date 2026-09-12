@@ -1,0 +1,63 @@
+id: 5df6a4ba-f1a0-4300-8c24-c35f7684b32b
+name: P_EM_2025_09_21_ID_D_Holiday_Ready_Sale_Reminder
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: christmas
+braze_id: 5df6a4ba-f1a0-4300-8c24-c35f7684b32b
+dates:
+  send_date: '2025-09-21'
+  inferred_send_type: local_time
+  first_sent: '2025-09-20T18:22:09+00:00'
+  last_sent: '2025-09-21T17:15:17+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 53824943-70bc-4309-80f5-761e8d823c0f
+  channel: email
+  name: Variant 1
+  subject: 'ICYMI: 20% Off Sitewide'
+  preheader: Prep for holiday hosting
+- id: 0016f7d2-a654-4331-ac83-9b6ccbee6055
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 202937
+  total_delivered: 199055
+  total_opens: 98551
+  total_clicks: 691
+  open_rate: 0.4856
+  click_rate: 0.0034
+  total_revenue: 130568.0
+  total_bounces: 1
+  total_unsubscribes: 354
+  ga4:
+    sessions: 1
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.340695'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-holiday-ready-sale-2025-09-18
+    name: Holiday-Ready Sale
+    start_date: '2025-09-18'
+    end_date: '2025-09-30'
+    discount: 20% off sitewide
+    type: null
+  primary_sale:
+    id: id-holiday-ready-sale-2025-09-18
+    name: Holiday-Ready Sale
+    start_date: '2025-09-18'
+    end_date: '2025-09-30'
+    discount: 20% off sitewide
+    type: null
+  sale_name: Holiday-Ready Sale
+  sale_discount: 20% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:45.429694'
+schedule_type: time_based

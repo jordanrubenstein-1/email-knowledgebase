@@ -1,0 +1,26 @@
+id: 14059922-6b2a-4212-850c-d6e55a08e2a5
+name: 20241025_Seating-Flash-Sale-Seating-Highlight_IP-Warming-Day-4
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 14059922-6b2a-4212-850c-d6e55a08e2a5
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2024-10-25T17:00:10+00:00'
+  last_sent: '2024-10-25T17:01:05+00:00'
+tags:
+- IP Warming
+sends:
+- id: 0ae1eefb-5305-444f-ad0e-ee9467e3b853
+  channel: email
+  name: Variant 1
+  subject: The perfect seating design for you
+  preheader: Save 20% on sofas, sectionals and more.
+- id: aded3029-3d30-4a88-bb14-7c1281ef1b76
+  channel: other
+  name: Control Group
+performance_summary: {}
+_filename: 20241025_seating-flash-sale-seating-highlight_ip-warming-day.yaml
+schedule_type: time_based

@@ -1,0 +1,79 @@
+id: 7a787226-038b-49ff-95ea-c5b15b1de72e
+name: P_EM_2025_11_07_BW_D_The_Great_Indoors
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 7a787226-038b-49ff-95ea-c5b15b1de72e
+dates:
+  send_date: '2025-11-07'
+  inferred_send_type: local_time
+  first_sent: '2025-11-07T02:16:21+00:00'
+  last_sent: '2025-11-07T17:17:33+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: b0baf8a2-6a1b-4fc0-b4f7-1f0c047a925f
+  channel: email
+  name: Variant 1
+  subject: Welcome to the Great Indoors
+  preheader: 'Cozy up with trending styles
+
+
+
+    '
+- id: 95001bbb-c2ab-49b2-8e6f-f3addf2a6e1c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 251061
+  total_delivered: 250054
+  total_opens: 140628
+  total_clicks: 564
+  open_rate: 0.5601
+  click_rate: 0.0022
+  total_revenue: 22868.0
+  total_bounces: 13
+  total_unsubscribes: 440
+  ga4:
+    sessions: 336
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.468597'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:30.249983'
+schedule_type: time_based

@@ -1,0 +1,33 @@
+id: 1a7274db-bafc-490d-9412-fb62d81152ab
+name: P_2025_1_16_HAV_Conv_Jan_Merch_Sale_Announcement_Email
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 1a7274db-bafc-490d-9412-fb62d81152ab
+dates:
+  send_date: '2025-01-16'
+  first_sent: '2025-01-16T05:49:33+00:00'
+  last_sent: '2025-01-16T17:15:07+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: b0bfe61f-d955-490d-98bd-28f848117449
+  channel: email
+  name: Variant 1
+  subject: The Winter Refresh Sale Is On!
+  preheader: Use code WINTER2025 for up to 15% off furniture and decor.
+- id: 1538c073-7428-4e20-8efb-ad6721780aac
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 36948
+  total_delivered: 36888
+  total_opens: 20439
+  total_clicks: 203
+  open_rate: 0.5532
+  click_rate: 0.0055
+  total_unsubscribes: 73
+schedule_type: time_based
+_filename: p_2025_1_16_hav_conv_jan_merch_sale_announcement_email.yaml

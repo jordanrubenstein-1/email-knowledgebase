@@ -1,0 +1,43 @@
+{% comment %}
+  BW Banner Content Block
+  Braze content block: "banner"
+
+  Reads banner details from the "banners" catalog using banner_id, which is
+  assigned in the email body from the "email-content-test" catalog lookup.
+
+  Required variables (assigned in email body):
+    banner_id  - ID of the banner row in the "banners" catalog (e.g. "ea", "main", "extension")
+                 If blank, the email body should not render this content block at all.
+
+  Catalogs:
+    banners
+      id            - Banner identifier (ea, main, extension)
+      image_url     - Full URL of the banner image
+      url           - Click-through URL (defaults to https://www.burrow.com if blank)
+      alt           - Alt text for the image
+
+  Email body usage:
+    {% assign email_id = "20260426" %}
+    {% catalog_items email-content-test {{ email_id }} %}
+    {% assign banner_id = items[0].banner %}
+    {% assign kicker_id = items[0].kicker %}
+    {% if banner_id != blank %}
+    {{content_blocks.${banner} | id: 'cb1'}}
+    {% endif %}
+    {{content_blocks.${hero} | id: 'cb2'}}
+    ...
+{% endcomment %}
+
+{% catalog_items banners {{ banner_id }} %}
+{% assign banner = items[0] %}
+{% assign banner_url = banner.url | default: "https://www.burrow.com" %}
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr>
+    <td align="center" style="padding:0; margin:0;">
+      <a href="{{ banner_url }}">
+        <img src="{{ banner.image_url }}" alt="{{ banner.alt }}" width="600" style="display:block; width:100%; max-width:600px; height:auto; border:0;" />
+      </a>
+    </td>
+  </tr>
+</table>

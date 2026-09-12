@@ -1,0 +1,46 @@
+id: e114e836-9c3d-4bfb-bdab-ee45ae5ca940
+name: P_2024_08_03_SF_D_BSL_Summer_Best_Sellers_Email
+brand: STF
+channel: email
+category: other
+type: seasonal
+theme: summer
+braze_id: e114e836-9c3d-4bfb-bdab-ee45ae5ca940
+dates:
+  send_date: '2024-08-03'
+  inferred_send_type: local_time
+  first_sent: '2024-08-02T22:38:47+00:00'
+  last_sent: '2024-08-03T14:10:04+00:00'
+tags: []
+sends:
+- id: cc33eab0-1ed6-47da-baad-294d8a35d2d9
+  channel: email
+  name: Variant 1
+  subject: HOT Picks ❤️‍🔥
+  preheader: browse our summer best sellers
+  html_file: html/p_2024_08_03_sf_d_bsl_summer_best_sellers_email.html
+  screenshot: screenshots/p_2024_08_03_sf_d_bsl_summer_best_sellers_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66acd999a4d376006b05ec9c/original.gif?1722603929
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0058f1ba77/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66acd999e9440a006bfd1478/original.jpg?1722603929
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66acd999e9440a005cfd1889/original.gif?1722603929
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0063f11fb6/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6681bde9255ebf0070d6be26/original.jpeg?1719778792
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66acd999a4d376005c05f3c4/original.gif?1722603929
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66acde12e9440a005cfd1c59/original.gif?1722605074
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66882808c84d43005953de9b/original.jpg?1720199176
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66acd999610f510069b52f4e/original.gif?1722603929
+- id: 2838710a-ab4d-46b5-ada5-2881c632ead0
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1698
+  total_delivered: 1697
+  total_opens: 588
+  total_clicks: 76
+  open_rate: 0.3463
+  click_rate: 0.0448
+  total_unsubscribes: 3
+_filename: p_2024_08_03_sf_d_bsl_summer_best_sellers_email-e114e836.yaml
+schedule_type: time_based

@@ -1,0 +1,34 @@
+id: 1b6e0fb3-078f-4c9f-9a2d-196a388d04a6
+name: P_2024_09_24_D_HAV_PC_PR_Sept_Sale_Announcement_Email
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 1b6e0fb3-078f-4c9f-9a2d-196a388d04a6
+dates:
+  send_date: '2024-09-24'
+  first_sent: '2024-09-24T06:42:06+00:00'
+  last_sent: '2024-09-24T17:15:02+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 6e480cd1-ff4e-4e57-b411-434a29fa2940
+  channel: email
+  name: Variant 1
+  subject: The September Sale is Live 💥
+  preheader: 50% off interior design services
+- id: 73c1cbee-4b69-4384-839f-a48aa32ff63a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 96338
+  total_delivered: 95468
+  total_opens: 50043
+  total_clicks: 652
+  open_rate: 0.5195
+  click_rate: 0.0068
+  total_bounces: 6
+  total_unsubscribes: 441
+schedule_type: time_based
+_filename: p_2024_09_24_d_hav_pc_pr_sept_sale_announcement_email.yaml

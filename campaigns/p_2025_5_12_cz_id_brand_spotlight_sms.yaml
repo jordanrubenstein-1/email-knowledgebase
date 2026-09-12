@@ -1,0 +1,37 @@
+id: 4f72ae4f-3f2b-446d-95eb-2acc95b174e4
+name: P_2025_5_12_CZ_ID_Brand_Spotlight_SMS
+brand: ID
+channel: sms
+category: editorial
+type: announcement
+theme: null
+braze_id: 4f72ae4f-3f2b-446d-95eb-2acc95b174e4
+dates:
+  send_date: '2025-05-12'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-12T21:07:20+00:00'
+  last_sent: '2025-05-12T21:08:52+00:00'
+tags: []
+sends:
+- id: b048d0d8-be4f-4cc1-957a-9791d7195523
+  channel: other
+  name: Variant 1
+- id: 35968f0b-57ed-4bf3-9e4f-00246b08367f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 24115
+  total_delivered: 22380
+  total_opens: 0
+  total_clicks: 328
+  open_rate: 0.0
+  click_rate: 0.0136
+  total_revenue: 19184.5
+  ga4:
+    sessions: 303
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.232005'
+    source: snowflake
+    channel: sms

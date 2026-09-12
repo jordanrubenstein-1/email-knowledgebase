@@ -1,0 +1,33 @@
+id: a6e76768-8927-4f4a-ba06-71b3533dc423
+name: P_2025_05_29_HAV_Conv_MDS_Sale_Last_Chance_PT_PM
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: a6e76768-8927-4f4a-ba06-71b3533dc423
+dates:
+  send_date: '2025-05-29'
+  first_sent: '2025-05-29T17:56:49+00:00'
+  last_sent: '2025-05-30T02:00:20+00:00'
+  inferred_send_type: scheduled
+tags:
+- BLASTS-2025
+sends:
+- id: 2d308ede-5205-4a11-812e-e89b6b0a9e79
+  channel: email
+  name: Variant 1
+  subject: Access the best deals in home (while you still can)
+- id: bfb306cf-290e-40c0-8fb8-11b4235cd031
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 40072
+  total_delivered: 39998
+  total_opens: 22379
+  total_clicks: 114
+  open_rate: 0.5585
+  click_rate: 0.0028
+  total_unsubscribes: 43
+schedule_type: time_based
+_filename: p_2025_05_29_hav_conv_mds_sale_last_chance_pt_pm.yaml

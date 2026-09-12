@@ -1,0 +1,30 @@
+id: d1351b69-9448-4e6f-aea4-75ff370813ae
+name: Prototype UXR Segment B – 3/9/26
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: d1351b69-9448-4e6f-aea4-75ff370813ae
+dates:
+  first_sent: '2026-03-10T22:59:33+00:00'
+  last_sent: '2026-03-10T23:00:30+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 80b76b55-ac4a-4ba0-98f1-be40f97b7b5c
+  channel: email
+  name: Chat Onboarding (50%)
+  subject: Win a $500 Amazon gift card for your feedback!
+  preheader: We’re testing a new Havenly chat experience.
+- id: 9b02e632-09b9-4e54-bcc7-e03f87e38042
+  channel: other
+  name: Control Group
+- id: 874b27fd-645e-4eac-9dec-4a48793d05fd
+  channel: email
+  name: Design Skills (50%)
+  subject: Win a $500 Amazon gift card for your feedback!
+  preheader: We’re testing a new Havenly chat experience.
+performance_summary: {}
+schedule_type: time_based
+_filename: prototype-uxr-segment-b-3926.yaml

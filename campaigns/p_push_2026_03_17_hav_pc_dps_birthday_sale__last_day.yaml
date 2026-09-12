@@ -1,0 +1,31 @@
+id: 8a6c2937-807b-45d9-ae61-4a986f5cbffb
+name: P_PUSH_2026_03_17_HAV_PC_DPS:_Birthday_Sale_—_Last_Day
+brand: HAV
+channel: push
+category: reminder
+type: sale
+theme: null
+braze_id: 8a6c2937-807b-45d9-ae61-4a986f5cbffb
+dates:
+  send_date: '2026-03-17'
+  first_sent: '2026-03-17T01:06:57+00:00'
+  last_sent: '2026-03-18T01:02:12+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 003fbf64-7a16-4c4c-bf88-3dcd29f6f9a1
+  channel: push
+  name: Variant 1
+- id: 5429dd60-ad86-4df3-a8a7-d1e7681fd2e3
+  channel: push
+  name: Control Group
+performance_summary:
+  total_sends: 65177
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_bounces: 559
+schedule_type: time_based
+_filename: p_push_2026_03_17_hav_pc_dps_birthday_sale__last_day.yaml

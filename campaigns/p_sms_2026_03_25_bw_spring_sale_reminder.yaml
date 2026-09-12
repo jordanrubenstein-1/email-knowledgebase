@@ -1,0 +1,30 @@
+id: 59fcb7cf-d881-4e06-b63f-dc4f243a7c4b
+name: P_SMS_2026_03_25_BW_Spring_Sale_Reminder
+brand: BUR
+channel: sms
+category: reminder
+type: sale
+theme: spring
+braze_id: 59fcb7cf-d881-4e06-b63f-dc4f243a7c4b
+dates:
+  send_date: '2026-03-25'
+  inferred_send_type: local_time
+  first_sent: '2026-03-24T21:14:54+00:00'
+  last_sent: '2026-03-25T21:00:57+00:00'
+tags: []
+sends:
+- id: a62b762c-f238-474a-abd6-5309c65a52bb
+  channel: sms
+  name: Variant 1
+- id: 1185feed-907f-450e-87cd-a17c751833d9
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 6966
+  total_delivered: 6746
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 10271.0
+schedule_type: time_based

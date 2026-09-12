@@ -1,0 +1,33 @@
+id: 74276d58-0245-4d15-895e-a547b5016c12
+name: P_2024_08_26_D_HAV_CONV_PR_LDW_Sale_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 74276d58-0245-4d15-895e-a547b5016c12
+dates:
+  send_date: '2024-08-26'
+  first_sent: '2024-08-25T18:15:01+00:00'
+  last_sent: '2024-08-26T13:15:14+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 5e8948b7-6699-44d3-b555-e53433c7e51c
+  channel: email
+  name: Variant 1
+  subject: 'Only at Havenly: Sale on Sale!'
+  preheader: Shop the best Labor Day deals
+- id: bc7128c1-f04f-4932-9a7c-168a10e1e701
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 25335
+  total_delivered: 25312
+  total_opens: 13631
+  total_clicks: 368
+  open_rate: 0.538
+  click_rate: 0.0145
+  total_unsubscribes: 44
+schedule_type: time_based
+_filename: p_2024_08_26_d_hav_conv_pr_ldw_sale_reminder_email.yaml

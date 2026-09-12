@@ -1,0 +1,35 @@
+id: 7cf10099-bb27-4dcb-90f8-668e360245f9
+name: P_EM_2025_12_16_HAV_PC_CONV_PT_Perfect_Recipients
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 7cf10099-bb27-4dcb-90f8-668e360245f9
+dates:
+  send_date: '2025-12-16'
+  first_sent: '2025-12-16T05:12:08+00:00'
+  last_sent: '2025-12-16T18:02:02+00:00'
+  inferred_send_type: scheduled
+tags:
+- BLASTS-2025
+sends:
+- id: 25f3c8d9-ae1f-4e8d-b9b9-22bb2f97c94c
+  channel: email
+  name: Variant 1
+  subject: The perfect $99 gift for every new chapter
+  preheader: For new parents, new homeowners, new grads… this one’s perfect
+- id: 069459e1-f137-4f7d-9c28-3f27aa339697
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 288297
+  total_delivered: 286535
+  total_opens: 123569
+  total_clicks: 397
+  open_rate: 0.4286
+  click_rate: 0.0014
+  total_bounces: 15
+  total_unsubscribes: 553
+schedule_type: time_based
+_filename: p_em_2025_12_16_hav_pc_conv_pt_perfect_recipients.yaml

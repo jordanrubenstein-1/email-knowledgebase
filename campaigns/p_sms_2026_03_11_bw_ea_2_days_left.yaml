@@ -1,0 +1,30 @@
+id: 36d90768-156b-4ac6-abc8-a3175f8a8c72
+name: P_SMS_2026_03_11_BW_EA_2_Days_Left
+brand: BUR
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: 36d90768-156b-4ac6-abc8-a3175f8a8c72
+dates:
+  send_date: '2026-03-11'
+  inferred_send_type: local_time
+  first_sent: '2026-03-11T01:06:23+00:00'
+  last_sent: '2026-03-12T01:02:40+00:00'
+tags: []
+sends:
+- id: 2232b324-a6ba-4de7-a877-9ad14c4b4a9e
+  channel: sms
+  name: Variant 1
+- id: 11e6910c-0676-44bd-8012-8328b43b8a1d
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 6923
+  total_delivered: 6720
+  total_opens: 0
+  total_clicks: 223
+  open_rate: 0.0
+  click_rate: 0.0322
+  total_revenue: 13653.0
+schedule_type: time_based

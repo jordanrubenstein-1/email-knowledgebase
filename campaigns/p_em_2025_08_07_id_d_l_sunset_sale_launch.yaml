@@ -1,0 +1,63 @@
+id: da58787d-e672-44b2-b835-2bd5688f5065
+name: P_EM_2025_08_07_ID_D_L_Sunset_Sale_Launch
+brand: ID
+channel: email
+category: product_launch
+type: sale
+theme: null
+braze_id: da58787d-e672-44b2-b835-2bd5688f5065
+dates:
+  send_date: '2025-08-07'
+  inferred_send_type: local_time
+  first_sent: '2025-08-06T20:37:49+00:00'
+  last_sent: '2025-08-07T17:15:17+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: ea7f35d0-1d12-465d-9f89-f2d7b4f836e7
+  channel: email
+  name: Variant 1
+  subject: THE SUNSET SALE IS HERE
+  preheader: Good things come to those who click.
+- id: 9a0654d3-b466-468c-9926-919b0e3f319c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 190822
+  total_delivered: 190486
+  total_opens: 86344
+  total_clicks: 1587
+  open_rate: 0.4525
+  click_rate: 0.0083
+  total_revenue: 145104.0
+  total_bounces: 1
+  total_unsubscribes: 351
+  ga4:
+    sessions: 2073
+    purchases: 5
+    revenue: 12587.52
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.096432'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off sitewide
+    type: null
+  primary_sale:
+    id: id-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off sitewide
+    type: null
+  sale_name: The Sunset Sale
+  sale_discount: 20% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:42.733012'
+schedule_type: time_based

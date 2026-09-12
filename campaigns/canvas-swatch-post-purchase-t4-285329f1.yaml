@@ -1,0 +1,24 @@
+id: 285329f1-d842-4a2d-b46c-08b989e4160e
+name: TRG_EM_2025_08_SF_D_Post_Purchase_Swatch_T4_V1
+brand: STF
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 6b119551-87be-423c-9e81-d368015e2234
+canvas_name: Swatch Post Purchase
+flow_type: post_purchase
+sequence_position: 4
+subject: Welcome to the club
+preheader: come on in
+sends:
+- id: 285329f1-d842-4a2d-b46c-08b989e4160e
+  channel: email
+  name: TRG_EM_2025_08_SF_D_Post_Purchase_Swatch_T4_V1
+  subject: Welcome to the club
+  preheader: come on in
+  html_file: html/canvas-swatch-post-purchase-t4-285329f1.html
+dates:
+  first_sent: null
+  last_sent: null
+performance_summary: {}

@@ -1,0 +1,44 @@
+id: 302e6d16-7dff-4e62-8806-4ccf88fd5e33
+name: P_2024_09_08_PT_ID_Labor_Day_Full_File_Email
+brand: ID
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 302e6d16-7dff-4e62-8806-4ccf88fd5e33
+dates:
+  send_date: '2024-09-08'
+  inferred_send_type: local_time
+  first_sent: '2024-09-08T02:45:00+00:00'
+  last_sent: '2024-09-08T22:45:02+00:00'
+tags: []
+sends:
+- id: d620808c-ea15-4452-9819-8c7c4a479f1d
+  channel: email
+  name: Variant 1
+  subject: 'RE: Your 25% off at Interior Define'
+- id: ea980ad2-2a18-4aaf-9442-aaef5b842149
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 4300
+  total_delivered: 4297
+  total_opens: 2609
+  total_clicks: 234
+  open_rate: 0.6067
+  click_rate: 0.0544
+  total_bounces: 1
+  total_unsubscribes: 83
+  ga4:
+    sessions: 317
+    purchases: 4
+    revenue: 10273.6
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.293027'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.742374'
+schedule_type: time_based

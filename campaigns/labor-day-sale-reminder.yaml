@@ -1,0 +1,61 @@
+id: klaviyo-01GBNF67W2PJN5P5Q6W5WZRKJB
+name: 'Labor Day Sale: Reminder'
+brand: TI
+channel: email
+category: reminder
+type: sale
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2022-08-29'
+  inferred_send_type: scheduled
+  first_sent: '2022-09-02T12:00:00+00:00'
+  last_sent: '2022-09-02T12:00:00+00:00'
+sends:
+- id: SbTKyS
+  channel: email
+  name: 'Labor Day Sale: Reminder'
+  subject: Don't miss these prices. 💫
+  preheader: 'Start your weekend with up to 20% off. '
+  html_file: html/labor-day-sale-reminder.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/cb5344d7-3563-41d3-b1d5-a30d6ebc5cde.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/f0896ad7-2c28-4485-b095-6997bd5033f5.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/fec1bd72-d658-42a4-a754-e1e3ab607e00.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/cc32de4b-c73a-4e7e-b1d6-8dda4b85b1d4.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/66fdb518-c592-4de6-9d4b-f1004421d7b5.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/064365fc-fd1a-4c06-a73a-24199f09400f.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/d1e63c87-9040-4796-a08e-3cb217c9e581.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/27d32b49-002d-4195-8dc3-86c6f1d27647.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/133a5a57-564f-49d3-9bb1-33d96ff72c04.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/9eadeabe-1260-49e7-917b-0a7f876501f8.png
+  screenshot: screenshots/labor-day-sale-reminder.png
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_unsubscribes: 0
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T14:56:51.651712'
+    source: snowflake
+    channel: email
+klaviyo_type: campaign
+klaviyo_campaign_id: 01GBNF67W2PJN5P5Q6W5WZRKJB
+klaviyo_message_id: SbTKyS
+structure:
+  image_count: 13
+  link_count: 14
+  has_gif: false
+  hero_width: 600
+  layout_type: product_grid
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-03-12T11:18:46.623767'

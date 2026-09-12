@@ -1,0 +1,43 @@
+id: a721ae18-3019-4c0b-8e0e-dd7262ddcdd6
+name: P_EM_2026_01_20_BW_D_PR_Nomad_Highlight
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: a721ae18-3019-4c0b-8e0e-dd7262ddcdd6
+dates:
+  send_date: '2026-01-20'
+  inferred_send_type: local_time
+  first_sent: '2026-01-19T23:06:31+00:00'
+  last_sent: '2026-01-20T23:05:17+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 2f5a913c-0ce4-4086-b2d6-53d40b4dcdfc
+  channel: email
+  name: Variant 1
+  subject: Up to 35% Off the Internet’s Favorite Sofa
+  preheader: Get Nomad home in time for game day.
+- id: 04f994ef-6152-4998-9940-0c2d232ed555
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 238082
+  total_delivered: 236372
+  total_opens: 126135
+  total_clicks: 368
+  open_rate: 0.5298
+  click_rate: 0.0015
+  total_revenue: 35188.0
+  total_bounces: 5
+  total_unsubscribes: 300
+  ga4:
+    sessions: 239
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.574930'
+    source: snowflake
+    channel: email
+schedule_type: time_based

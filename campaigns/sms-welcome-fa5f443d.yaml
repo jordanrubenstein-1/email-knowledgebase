@@ -1,0 +1,40 @@
+id: fa5f443d-568e-4267-9e17-e8a794649eba
+name: SMS Welcome
+brand: CZ
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: fa5f443d-568e-4267-9e17-e8a794649eba
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-04-01T23:00:00+00:00'
+  last_sent: '2026-05-06T21:00:00+00:00'
+tags: []
+sends: []
+performance_summary: {}
+canvas_steps:
+- id: 0f183118-2448-4abd-8348-2af5e5aa275f
+  name: Step
+  type: delay
+- id: 3bcefc16-f110-4906-aa42-28f3c788bf7a
+  name: TRG_SMS_2025_04_01_CZ_D_Welcome_T1
+  type: message
+- id: 229b4d12-2d1b-4a4a-8e8f-7260a8e71174
+  name: Step 1
+  type: delay
+- id: 5db4750a-a7d3-4444-b626-7ac612e43fc1
+  name: TRG_SMS_2025_04_01_CZ_D_Welcome_T2
+  type: message
+- id: 4ad6925c-a56d-45c6-a0af-bc7195748a6e
+  name: Step 2
+  type: delay
+- id: c18fed5c-fd20-4bd7-b53e-0f7932fc8665
+  name: TRG_SMS_2025_04_01_CZ_D_Welcome_T3
+  type: message
+- id: 61d9b05e-fd73-46b8-b599-c2fdcae7d177
+  name: SMS Opted In?
+  type: audience_paths
+_filename: sms-welcome-fa5f443d.yaml

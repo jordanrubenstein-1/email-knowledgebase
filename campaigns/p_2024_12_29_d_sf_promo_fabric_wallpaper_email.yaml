@@ -1,0 +1,80 @@
+id: 1c44e4be-8b83-4492-b773-55f9e4a2cdab
+name: P_2024_12_29_D_SF_PROMO_Fabric_Wallpaper_Email
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 1c44e4be-8b83-4492-b773-55f9e4a2cdab
+dates:
+  send_date: '2024-12-29'
+  inferred_send_type: local_time
+  first_sent: '2024-12-28T17:08:32+00:00'
+  last_sent: '2024-12-29T17:00:13+00:00'
+tags: []
+sends:
+- id: b1cff551-1315-4a13-8ecf-7062784522bc
+  channel: email
+  name: Variant 1
+  subject: Go All In With Print at 20% Off
+  preheader: fabric, wallpaper, and curtains on sale now
+  html_file: html/p_2024_12_29_d_sf_promo_fabric_wallpaper_email.html
+  screenshot: screenshots/p_2024_12_29_d_sf_promo_fabric_wallpaper_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6769dd5d0fbbc500643cc5f9/original.jpg?1734991197
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6769d9913870460066596aff/original.gif?1734990225
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6769d9755297000063b25b9b/original.gif?1734990197
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676ed92be353a80064a0fe9f/original.gif?1735317803
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676edb56c5114100649ac63e/original.jpg?1735318358
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6769d9855297000063b25baf/original.gif?1734990213
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6769d9db5479ee00658f1228/original.gif?1734990299
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676edae1d3e1860064615adf/original.jpg?1735318241
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6769d9c95297000063b25bb6/original.gif?1734990281
+- id: 91ef09b8-c1ef-47fe-992b-fafecbec50ef
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 3862
+  total_delivered: 3816
+  total_opens: 2070
+  total_clicks: 123
+  open_rate: 0.536
+  click_rate: 0.0318
+  total_revenue: 3732.0
+  total_unsubscribes: 12
+  ga4:
+    sessions: 86
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.935772'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-end-of-year-sale-2025-01-01
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-05'
+    discount: 20% off Sitewide + 30% Off Last Chance Patterns
+    type: null
+  - id: stf_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: stf-end-of-year-sale-2025-01-01
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-05'
+    discount: 20% off Sitewide + 30% Off Last Chance Patterns
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: 20% off Sitewide + 30% Off Last Chance Patterns
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:38.953883'
+schedule_type: time_based

@@ -1,0 +1,35 @@
+id: c7f55c49-c9a5-4799-b03e-cf1144fa4de6
+name: P_EM_2025_09_28_BW_PT_Holiday_Ready_Sale_Reminder_PM
+brand: BUR
+channel: email
+category: reminder
+type: sale
+theme: christmas
+braze_id: c7f55c49-c9a5-4799-b03e-cf1144fa4de6
+dates:
+  send_date: '2025-09-28'
+  inferred_send_type: local_time
+  first_sent: '2025-09-28T02:08:15+00:00'
+  last_sent: '2025-09-29T02:01:59+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: ec6b3de5-b294-4431-9805-c5e55fb90c8f
+  channel: email
+  name: Variant 1
+  subject: Time’s running out to get holiday ready
+  preheader: Save up to 25% off now
+- id: 56e826d0-83b8-4dc3-a0c8-26977a62b51d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 24570
+  total_delivered: 24484
+  total_opens: 13751
+  total_clicks: 354
+  open_rate: 0.5597
+  click_rate: 0.0144
+  total_revenue: 22069.0
+  total_unsubscribes: 32
+_filename: p_em_2025_09_28_bw_pt_holiday_ready_sale_reminder_pm.yaml
+schedule_type: time_based

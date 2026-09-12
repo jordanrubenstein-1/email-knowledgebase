@@ -1,0 +1,31 @@
+id: c4f6bbbc-7e72-4ea8-8f28-3019342f29f9
+name: CX_EM_2025_12_10_ID_PT_Order_Delayed_Outreach_Nov_2025
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: c4f6bbbc-7e72-4ea8-8f28-3019342f29f9
+dates:
+  send_date: '2025-12-10'
+  inferred_send_type: scheduled
+  first_sent: '2025-12-10T18:47:34+00:00'
+  last_sent: '2025-12-10T23:01:49+00:00'
+tags: []
+sends:
+- id: 3ce0f9ed-cc96-47e2-a2be-66df5de4bc2d
+  channel: email
+  name: Variant 1
+  subject: Update on Your Interior Define Order {{custom_attribute.${20250912_order_number}}}
+- id: 5f6f6f1e-c630-4d9a-aa62-d6ed715a3234
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39
+  total_delivered: 39
+  total_opens: 44
+  total_clicks: 0
+  open_rate: 1.1282
+  click_rate: 0.0
+_filename: cx_em_2025_12_10_id_pt_order_delayed_outreach_nov_2025.yaml
+schedule_type: time_based

@@ -1,0 +1,36 @@
+id: 1a0a29f3-f349-48c8-9308-d28ea812aa6b
+name: P_EM_2026_03_31_HAV_PC_D_Post_Birthday_Flash_Sale_Final_Hours
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 1a0a29f3-f349-48c8-9308-d28ea812aa6b
+dates:
+  send_date: '2026-03-31'
+  last_sent: '2026-03-31'
+tags:
+- BLASTS-2025
+sends:
+- id: d477f544-8417-4ba9-9fec-fb3b0f1571dc
+  channel: email
+  name: Variant 1
+  subject: 'Last Chance: 50% off interior design services'
+  preheader: Surprise! You have until midnight to shop birthday savings.
+  html_file: html/p_em_2026_03_31_hav_pc_d_post_birthday_flash_sale_final_hour.html
+  screenshot: screenshots/p_em_2026_03_31_hav_pc_d_post_birthday_flash_sale_final_hour.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c706f17bf06d0063fb3e14/original.png?1774651120
+- id: 375f09ec-d655-4bd5-be69-577136ad9b8e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 273764
+  total_delivered: 272892
+  total_opens: 101225
+  total_clicks: 446
+  open_rate: 0.3698
+  click_rate: 0.0016
+  total_bounces: 11
+  total_unsubscribes: 464
+schedule_type: time_based

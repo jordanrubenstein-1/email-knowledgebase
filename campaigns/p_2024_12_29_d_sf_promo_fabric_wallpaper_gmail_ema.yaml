@@ -1,0 +1,80 @@
+id: 2154d950-ad31-4d7d-91c8-74489958e42c
+name: P_2024_12_29_D_SF_PROMO_Fabric_Wallpaper_Gmail_Email
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 2154d950-ad31-4d7d-91c8-74489958e42c
+dates:
+  send_date: '2024-12-29'
+  inferred_send_type: local_time
+  first_sent: '2024-12-28T18:05:53+00:00'
+  last_sent: '2024-12-29T16:00:17+00:00'
+tags: []
+sends:
+- id: 9c187f6c-d13b-439d-9a7c-0a5d64792368
+  channel: email
+  name: Variant 1
+  subject: Go All In With Print at 20% Off
+  preheader: fabric, wallpaper, and curtains on sale now
+  html_file: html/p_2024_12_29_d_sf_promo_fabric_wallpaper_gmail_email.html
+  screenshot: screenshots/p_2024_12_29_d_sf_promo_fabric_wallpaper_gmail_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6769dd5d0fbbc500643cc5f9/original.jpg?1734991197
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6769d9913870460066596aff/original.gif?1734990225
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6769d9755297000063b25b9b/original.gif?1734990197
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676ed92be353a80064a0fe9f/original.gif?1735317803
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676edb56c5114100649ac63e/original.jpg?1735318358
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6769d9855297000063b25baf/original.gif?1734990213
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6769d9db5479ee00658f1228/original.gif?1734990299
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676edae1d3e1860064615adf/original.jpg?1735318241
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6769d9c95297000063b25bb6/original.gif?1734990281
+- id: 9a5aee78-1864-403c-9d76-251db5d5f02c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 766
+  total_delivered: 766
+  total_opens: 591
+  total_clicks: 16
+  open_rate: 0.7715
+  click_rate: 0.0209
+  total_revenue: 545.5
+  total_unsubscribes: 1
+  ga4:
+    sessions: 28
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.866161'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-end-of-year-sale-2025-01-01
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-05'
+    discount: 20% off Sitewide + 30% Off Last Chance Patterns
+    type: null
+  - id: stf_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: stf-end-of-year-sale-2025-01-01
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-05'
+    discount: 20% off Sitewide + 30% Off Last Chance Patterns
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: 20% off Sitewide + 30% Off Last Chance Patterns
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:36.623473'
+schedule_type: time_based

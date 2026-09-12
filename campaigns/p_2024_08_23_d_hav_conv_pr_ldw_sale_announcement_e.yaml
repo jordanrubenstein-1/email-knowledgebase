@@ -1,0 +1,57 @@
+id: a3801885-aeff-45d1-84f8-15e562f77fa7
+name: P_2024_08_23_D_HAV_CONV_PR_LDW_Sale_Announcement_Email
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: a3801885-aeff-45d1-84f8-15e562f77fa7
+dates:
+  send_date: '2024-08-23'
+  inferred_send_type: scheduled
+  first_sent: '2024-08-22T23:02:04+00:00'
+  last_sent: '2024-08-23T13:12:10+00:00'
+tags: []
+sends:
+- id: a9007736-add8-427a-9f12-2d913fedf8a5
+  channel: email
+  name: Variant 1
+  subject: Up to 60% off furniture for the whole home!
+  preheader: The Labor Day Event starts NOW!
+  html_file: html/p_2024_08_23_d_hav_conv_pr_ldw_sale_announcement_email.html
+  screenshot: screenshots/p_2024_08_23_d_hav_conv_pr_ldw_sale_announcement_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b7b894bef4d9006487795e/original.jpg?1723316372
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7acf6c05c770066f73242/original.jpg?1724361973
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7aba5e8247e00667f05b5/original.jpg?1724361637
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b7b89cd58c24006600871c/original.jpg?1723316379
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7aba591a4fe006471811c/original.jpg?1724361637
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b7b88dd58c24006600871b/original.jpg?1723316365
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7aba5fe4c430066f2e757/original.jpg?1724361637
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b7b8a2d67f4700667c2515/original.jpg?1723316386
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7aa9191a4fe0072717055/original.gif?1724361361
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7aa91384d7e0066fab80b/original.jpg?1724361361
+- id: d2a73a35-e02b-4f42-b42c-f940d57e956f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 25374
+  total_delivered: 25362
+  total_opens: 13601
+  total_clicks: 533
+  open_rate: 0.536
+  click_rate: 0.021
+  total_unsubscribes: 27
+  ga4:
+    sessions: 724
+    purchases: 4
+    revenue: 7551.28
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.445841'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.276737'
+schedule_type: time_based

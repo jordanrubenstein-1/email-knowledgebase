@@ -1,0 +1,59 @@
+id: f14efbeb-8716-4a68-8f19-58678d6ac3f2
+name: P_2025_05_23_CZ_Trade_MDW_In_Stock_Rugs
+brand: CZ
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: f14efbeb-8716-4a68-8f19-58678d6ac3f2
+dates:
+  send_date: '2025-05-23'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-23T20:51:36+00:00'
+  last_sent: '2025-05-23T20:52:49+00:00'
+tags: []
+sends:
+- id: ed734882-3136-4d3c-8c6b-b00f98a9bf40
+  channel: email
+  name: Variant 1
+  subject: 'Be the first to shop: our bestselling rugs are back'
+  preheader: 25% off handmade heirlooms for a limited time
+  html_file: html/p_2025_05_23_cz_trade_mdw_in_stock_rugs.html
+  screenshot: screenshots/p_2025_05_23_cz_trade_mdw_in_stock_rugs.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830bffa5b560f00672748d3/original.png?1748025337
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830c0625b560f0067274b45/original.png?1748025441
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6825045d7d6ee7006773b8b8/original.png?1747256413
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6825044c1c57270066959d8f/original.png?1747256395
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830c04587fb060065a7126b/original.png?1748025412
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682504674aef320065a1dd7b/original.png?1747256423
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830bc2ec735cd0065cb7f22/original.png?1748024365
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830bbf69d5d4a00650b90c9/original.png?1748024309
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830c00e456acd006746c3b4/original.png?1748025358
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682504447d6ee7006773b877/original.png?1747256388
+- id: 52439219-746e-49da-8aa3-74388a956087
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 16488
+  total_delivered: 16157
+  total_opens: 8739
+  total_clicks: 166
+  open_rate: 0.53
+  click_rate: 0.0101
+  total_revenue: 21139.98
+  total_bounces: 2
+  total_unsubscribes: 38
+  ga4:
+    sessions: 199
+    purchases: 1
+    revenue: 1183.56
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.435949'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.892674'
+schedule_type: time_based

@@ -1,0 +1,37 @@
+id: fcd88b89-d03c-4b84-a729-a23a7337e135
+name: P_SMS_2025_11_20_SF_BFCM
+brand: STF
+channel: sms
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: fcd88b89-d03c-4b84-a729-a23a7337e135
+dates:
+  send_date: '2025-11-20'
+  inferred_send_type: local_time
+  first_sent: '2025-11-19T20:36:04+00:00'
+  last_sent: '2025-11-20T18:30:44+00:00'
+tags: []
+sends:
+- id: a46c2ca6-92e0-4172-94ac-41c92fbaf4ed
+  channel: sms
+  name: Variant 1
+- id: d531a3c1-ea3b-45d9-af72-b81b5fbc14a3
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 4404
+  total_delivered: 4339
+  total_opens: 0
+  total_clicks: 153
+  open_rate: 0.0
+  click_rate: 0.0347
+  ga4:
+    sessions: 139
+    purchases: 2
+    revenue: 793.22
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.025724'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

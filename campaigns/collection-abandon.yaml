@@ -1,0 +1,64 @@
+id: 9ab577da-72e5-4f23-adfe-665afa9040c4
+name: Collection Abandon
+brand: ID
+channel: email
+category: product_launch
+type: lifecycle
+theme: null
+braze_id: 9ab577da-72e5-4f23-adfe-665afa9040c4
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-04-07T18:00:00+00:00'
+  last_sent: '2026-06-14T16:00:00+00:00'
+tags:
+- collection-abandon
+sends:
+- id: ca366e7c-9f43-492f-b46f-1b48be2d20c6
+  channel: email
+  name: TRG_EM_2026_04_ID_D_Collection_Page_Abandon_T1_V1
+  subject: It's waiting — and it's built to order
+  preheader: Choose your fabric, finish, and size. Every piece is made to fit your
+    space.
+  step_id: 943da64f-f98a-45ea-8f12-d2a788b5fbc4
+- id: c2bce246-65f1-40f6-adc6-b0c71101cb3d
+  channel: email
+  name: TRG_EM_2026_04_ID_D_Collection_Page_Abandon_T2_V1
+  subject: Still on your mind?
+  preheader: Every detail is yours to choose — fabric, finish, size. That's the difference.
+  step_id: cbf18d25-722f-4978-a08b-3bd6476aa524
+performance_summary:
+  total_entries: 531
+  total_sends: 699
+  total_delivered: 695
+  total_opens: 448
+  total_clicks: 7
+  open_rate: 0.6409
+  click_rate: 0.01
+  total_revenue: 67195.98
+  total_conversions: 10
+canvas_steps:
+- id: c6cfdd4d-6b97-4e58-91cb-364d28b7d126
+  name: Step 1
+  type: delay
+- id: 943da64f-f98a-45ea-8f12-d2a788b5fbc4
+  name: TRG_EM_2026_04_ID_D_Collection_Page_Abandon_T1_V1
+  type: message
+  channel: email
+  subject: It's waiting — and it's built to order
+  preheader: Choose your fabric, finish, and size. Every piece is made to fit your
+    space.
+- id: 86167369-0c53-457c-9778-6f29afaed09b
+  name: Email available?
+  type: audience_paths
+- id: cbf18d25-722f-4978-a08b-3bd6476aa524
+  name: TRG_EM_2026_04_ID_D_Collection_Page_Abandon_T2_V1
+  type: message
+  channel: email
+  subject: Still on your mind?
+  preheader: Every detail is yours to choose — fabric, finish, size. That's the difference.
+- id: 351f6a9c-567e-41d6-b892-530b59656a2f
+  name: Step
+  type: delay
+_filename: collection-abandon.yaml

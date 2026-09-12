@@ -1,0 +1,32 @@
+id: f13eb671-399d-4479-99a9-7d4f520f6639
+name: Email & Phone Capture Modal - MDS 2026
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: f13eb671-399d-4479-99a9-7d4f520f6639
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-05-01T06:00:00+00:00'
+  last_sent: '2026-05-06T22:00:00+00:00'
+tags: []
+sends:
+- id: 7dca704c-2784-469a-a68c-5abae7f1b9df
+  channel: other
+  name: Variant 1
+- id: 9416ab08-438e-433c-91b3-7d2734fb9d36
+  channel: other
+  name: Control Group
+- id: a5a574d1-ebb4-4dfc-9bd0-27554e1ebb30
+  channel: other
+  name: Variant 2
+- id: 70ced890-e40d-4d62-bfb6-222423880647
+  channel: other
+  name: Variant 3
+- id: 977b3799-81dd-447c-9f7e-2a6a60632dba
+  channel: other
+  name: Variant 4
+performance_summary: {}
+_filename: email-phone-capture-modal-mds-2026.yaml
+schedule_type: action_based

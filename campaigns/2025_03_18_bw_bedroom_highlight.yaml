@@ -1,0 +1,75 @@
+id: 0ec047b6-5426-471c-bfae-8c17298579da
+name: 2025_03_18_BW_Bedroom_Highlight
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 0ec047b6-5426-471c-bfae-8c17298579da
+dates:
+  send_date: '2025-03-18'
+  inferred_send_type: local_time
+  first_sent: '2025-03-17T20:42:24+00:00'
+  last_sent: '2025-03-18T17:16:03+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 1e87111c-4293-4f0b-9b41-3cd3ddc252bd
+  channel: email
+  name: Variant 1
+  subject: The bedroom of your dreams
+  preheader: Save up to 25% on
+- id: 599b94ee-7465-4bf0-8e51-2536b8d09fdb
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 264539
+  total_delivered: 262760
+  total_opens: 90043
+  total_clicks: 516
+  open_rate: 0.3404
+  click_rate: 0.002
+  total_revenue: 16816.0
+  total_bounces: 1
+  total_unsubscribes: 102
+  ga4:
+    sessions: 305
+    purchases: 1
+    revenue: 120.84
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.449498'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:41.694316'
+schedule_type: time_based

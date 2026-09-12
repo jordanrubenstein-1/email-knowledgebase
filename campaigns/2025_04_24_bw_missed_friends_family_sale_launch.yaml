@@ -1,0 +1,75 @@
+id: e6c9c97f-a855-4a1a-adf7-d1d8f095b231
+name: 2025_04_24_BW_Missed_Friends_Family_Sale_Launch
+brand: BUR
+channel: email
+category: product_launch
+type: sale
+theme: null
+braze_id: e6c9c97f-a855-4a1a-adf7-d1d8f095b231
+dates:
+  send_date: '2025-04-24'
+  inferred_send_type: local_time
+  first_sent: '2025-04-23T20:55:02+00:00'
+  last_sent: '2025-04-24T17:17:23+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 035f3b9c-3333-4df5-b6d0-0177e42e0a4e
+  channel: email
+  name: Variant 1
+  subject: Missed the Friends and Family Sale?
+  preheader: There's still savings to. be found...
+- id: b84fd917-0261-41a7-819e-052217c64e0d
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 261452
+  total_delivered: 259790
+  total_opens: 85489
+  total_clicks: 470
+  open_rate: 0.327
+  click_rate: 0.0018
+  total_revenue: 27544.0
+  total_bounces: 5
+  total_unsubscribes: 93
+  ga4:
+    sessions: 256
+    purchases: 3
+    revenue: 2483.99
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.739386'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:45.176991'
+schedule_type: time_based

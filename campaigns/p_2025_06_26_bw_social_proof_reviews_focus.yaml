@@ -1,0 +1,75 @@
+id: 7e74c31c-ae46-494e-8024-ca5aca4b2f8c
+name: P_2025_06_26_BW_Social_Proof_Reviews_Focus
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 7e74c31c-ae46-494e-8024-ca5aca4b2f8c
+dates:
+  send_date: '2025-06-26'
+  inferred_send_type: local_time
+  first_sent: '2025-06-25T18:24:22+00:00'
+  last_sent: '2025-06-26T17:15:30+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 9eed2548-3960-4916-b616-21889228a5de
+  channel: email
+  name: Variant 1
+  subject: Don't just take our word for it...
+  preheader: What our customers think of their favorite Burrow designs.
+- id: 788c6bb1-6265-48da-96f0-05a996c49cfc
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 264963
+  total_delivered: 263139
+  total_opens: 87132
+  total_clicks: 440
+  open_rate: 0.3288
+  click_rate: 0.0017
+  total_revenue: 3798.25
+  total_bounces: 10
+  total_unsubscribes: 134
+  ga4:
+    sessions: 133
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.888036'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:35.615440'
+schedule_type: time_based

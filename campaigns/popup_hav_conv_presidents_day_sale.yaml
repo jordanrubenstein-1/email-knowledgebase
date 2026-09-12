@@ -1,0 +1,23 @@
+id: c9d4e276-6ee6-4374-a3a3-8140010cf9e0
+name: Popup_HAV_CONV_Presidents_Day_Sale
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: c9d4e276-6ee6-4374-a3a3-8140010cf9e0
+dates:
+  first_sent: '2026-02-04T07:00:00+00:00'
+  last_sent: '2026-04-15T14:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: 438a0e58-86c7-4cda-9048-bc1e0c848d15
+  channel: other
+  name: Control Group
+- id: 992b582b-78d9-4a3d-8ae1-aadf1b2e190e
+  channel: other
+  name: Variant 1
+performance_summary: {}
+schedule_type: action_based
+_filename: popup_hav_conv_presidents_day_sale.yaml

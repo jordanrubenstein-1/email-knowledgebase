@@ -1,0 +1,29 @@
+id: e5401ad9-076b-4c2d-aad6-6b5c706ac966
+name: Empty Cart Items and Last Product View on Profile at Purchase
+brand: CZ
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: e5401ad9-076b-4c2d-aad6-6b5c706ac966
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2025-06-29T03:00:00+00:00'
+  last_sent: '2025-06-29T03:00:00+00:00'
+tags: []
+sends: []
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.115380'
+    source: snowflake
+    channel: email
+canvas_steps:
+- id: 7a3beffd-ac9a-43b6-a687-50a36332d2e0
+  name: Step
+  type: user_update

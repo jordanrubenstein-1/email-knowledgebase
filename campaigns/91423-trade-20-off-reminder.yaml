@@ -1,0 +1,51 @@
+id: klaviyo-01HAA72FMTQJD9TN650GP6DBPZ
+name: '9/14/23: Trade 20% off Reminder'
+brand: TI
+channel: email
+category: reminder
+type: sale
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2023-09-14'
+  inferred_send_type: scheduled
+  first_sent: '2023-09-14T18:13:03+00:00'
+  last_sent: '2023-09-14T18:13:03+00:00'
+sends:
+- id: 01HAA72FNBG1YMYX1EE1HRQ173
+  channel: email
+  name: '9/14/23: Trade 20% off Reminder'
+  subject: 'Reminder: Updates to our Trade Program'
+  preheader: ''
+  html_file: html/91423-trade-20-off-reminder.html
+  image_urls: []
+  screenshot: screenshots/91423-trade-20-off-reminder.png
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_unsubscribes: 0
+  ga4:
+    sessions: 237
+    purchases: 1
+    revenue: 171.6
+    attribution_window_days: 7
+    last_synced: '2026-04-17T14:56:51.254175'
+    source: snowflake
+    channel: email
+klaviyo_type: campaign
+klaviyo_campaign_id: 01HAA72FMTQJD9TN650GP6DBPZ
+klaviyo_message_id: 01HAA72FNBG1YMYX1EE1HRQ173
+structure:
+  image_count: 0
+  link_count: 6
+  has_gif: false
+  hero_width: null
+  layout_type: text_only
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-03-12T11:18:45.866636'

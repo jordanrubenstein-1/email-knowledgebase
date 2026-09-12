@@ -1,0 +1,30 @@
+id: 1c1c23b2-8e22-2a83-fd8b-00df97d3abc8
+name: OT_EM_2025_01_HAV_CONV_Order_Quote_Cancellation_Confirmation
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 1c1c23b2-8e22-2a83-fd8b-00df97d3abc8
+dates:
+  first_sent: '2025-01-08T19:00:00+00:00'
+  last_sent: '2026-06-09T00:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: b3f2ca97-2e0f-4bb4-8d8e-840fa823bd25
+  channel: email
+  name: Variant 1
+  subject: 'Your order quote has been cancelled - Order #{{api_trigger_properties.${order_number}}}'
+- id: d347faa8-dc11-42f1-a6d4-f14a3715e392
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 10
+  total_delivered: 10
+  total_opens: 10
+  total_clicks: 0
+  open_rate: 1.0
+  click_rate: 0.0
+schedule_type: api_triggered
+_filename: ot_em_2025_01_hav_conv_order_quote_cancellation_confirmation.yaml

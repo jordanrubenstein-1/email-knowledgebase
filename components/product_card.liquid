@@ -1,0 +1,68 @@
+{% comment %}
+  Product Card Component
+
+  Displays a product with image, name, and optional pricing.
+  Use in grids or standalone for featured products.
+
+  Required variables:
+    image       - Product image URL
+    link        - Product page URL
+    name        - Product name
+
+  Optional variables:
+    alt             - Image alt text (default: name)
+    price           - Current price (e.g., "$1,999")
+    original_price  - Original price for sale items (e.g., "$2,499") - displays with strikethrough
+    price_label     - Label before sale price (default: "Sale")
+    width           - Image width in pixels (default: 270)
+    font_family     - Font stack (default: "'Open Sans',Arial,Sans-serif")
+    name_color      - Product name color (default: #383633)
+    price_color     - Sale price color (default: #383633)
+    original_price_color - Strikethrough price color (default: #74706D)
+    show_underline  - Underline product name (default: true)
+
+  Usage:
+    {% comment %} Simple product {% endcomment %}
+    {% assign image = 'https://...' %}
+    {% assign link = 'https://...' %}
+    {% assign name = 'Union 3-Seat Sofa' %}
+    {% render 'product_card' %}
+
+    {% comment %} Product with sale price {% endcomment %}
+    {% assign image = 'https://...' %}
+    {% assign link = 'https://...' %}
+    {% assign name = 'Union 3-Seat Sofa' %}
+    {% assign original_price = '$2,499' %}
+    {% assign price = '$1,999' %}
+    {% render 'product_card' %}
+{% endcomment %}
+
+{% assign width = width | default: 270 %}
+{% assign alt = alt | default: name %}
+{% assign font_family = font_family | default: "'Open Sans',Arial,Sans-serif" %}
+{% assign name_color = name_color | default: '#383633' %}
+{% assign price_color = price_color | default: '#383633' %}
+{% assign original_price_color = original_price_color | default: '#74706D' %}
+{% assign price_label = price_label | default: 'Sale' %}
+{% assign show_underline = show_underline | default: true %}
+
+<table class="product_card" align="center" border="0" cellpadding="0" cellspacing="0" style="mso-table-lspace:0;mso-table-rspace:0;max-width:{{ width }}px">
+  <tr>
+    <td align="center">
+      <a href="{{ link }}" target="_blank" style="outline:none" tabindex="-1">
+        <img src="{{ image }}" style="display:block;height:auto;border:0;width:100%" width="{{ width }}" alt="{{ alt }}" title="{{ alt }}" height="auto">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="padding:12px 0 20px 0;text-align:center;font-family:{{ font_family }};font-size:16px;line-height:24px;color:{{ name_color }}">
+      <a href="{{ link }}" target="_blank" style="text-decoration:none;color:{{ name_color }}">
+        {% if show_underline %}<span style="border-bottom:1px solid {{ name_color }}">{{ name }}</span>{% else %}{{ name }}{% endif %}
+        {% if price %}
+        <br>
+        {% if original_price %}<span style="text-decoration:line-through;color:{{ original_price_color }};font-size:14px">{{ original_price }}</span> {% endif %}<span style="color:{{ price_color }}">{% if original_price %}{{ price_label }} {% endif %}{{ price }}</span>
+        {% endif %}
+      </a>
+    </td>
+  </tr>
+</table>

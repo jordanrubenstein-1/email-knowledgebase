@@ -1,0 +1,51 @@
+id: 38fcc6c4-dc27-4ad7-838d-81dfb238ff4b
+name: P_2024_09_07_D_HAV_PR_ PC_Warm_Transitional_Edit_Email
+brand: HAV
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 38fcc6c4-dc27-4ad7-838d-81dfb238ff4b
+dates:
+  send_date: '2024-09-07'
+  inferred_send_type: scheduled
+  first_sent: '2024-09-06T03:09:21+00:00'
+  last_sent: '2024-09-06T17:15:03+00:00'
+tags: []
+sends:
+- id: cda8a5be-a784-487f-ae5d-cee18a59b10a
+  channel: email
+  name: Variant 1
+  subject: 'TRENDING EDIT: Warm Transitional'
+  preheader: '& get HALF OFF interior design services!'
+  html_file: html/p_2024_09_07_d_hav_pr_-pc_warm_transitional_edit_email.html
+  screenshot: screenshots/p_2024_09_07_d_hav_pr_-pc_warm_transitional_edit_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d871560ff4280074e94e02/original.png?1725460821
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d898921b24e00066f5f197/original.jpg?1725470866
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d89858dc85de0066288505/original.gif?1725470808
+- id: 450229b5-0eca-4e6b-8b8d-d9ff3f723248
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 86085
+  total_delivered: 85268
+  total_opens: 45734
+  total_clicks: 903
+  open_rate: 0.5313
+  click_rate: 0.0105
+  total_bounces: 7
+  total_unsubscribes: 439
+  ga4:
+    sessions: 811
+    purchases: 2
+    revenue: 697.24
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.054878'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.412110'
+schedule_type: time_based

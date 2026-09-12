@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+    <title>Burrow</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <style type="text/css">
+        
+        body,
+        table,
+        td,
+        a {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+        
+        table,
+        td {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+         .button a:hover{
+            transform: translateY(-0.25em);
+            transition: all .25s;
+            transition-property: all;
+            transition-duration: 0.25s;
+            transition-timing-function: ease;
+            transition-delay: 0s;
+        }
+        a.cta-underline:hover{
+            border: none !important;
+        }
+        img {
+            border: 0;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+        table {
+            border-collapse: collapse !important;
+        }
+        
+        body {
+            height: 100% !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            width: 100% !important;
+        }
+        h1, h2, p {
+            padding: 0 !important;
+            Margin: 0 !important;
+            font-weight: normal !important;
+        }
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+        
+        @media screen {
+            @font-face {
+                font-family: 'GT America Regular';
+                font-style: normal;
+                src: url(https://d1qnmprc5tnkc9.cloudfront.net/fonts/33d4f5fa6c9ae8d08f56aae1c336e341.woff) format("woff");
+            }
+            @font-face {
+                font-family: 'GT America Light';
+                font-style: normal;
+                src: url(https://d1qnmprc5tnkc9.cloudfront.net/fonts/756690a76872f40cf2e06df5b22da782.woff) format("woff");
+            }
+            @font-face {
+                font-family: 'GT America Medium';
+                font-style: normal;
+                src: url(https://burrow-assets.s3.amazonaws.com/email.burrow/Templates/fonts/GT-America-Extended-Medium.woff) format("woff");
+            }
+            @font-face {
+                font-family: 'Neuzeit S LT W01 Book';
+                font-style: normal;
+                src: url(https://d1qnmprc5tnkc9.cloudfront.net/fonts/c506d6b24ddd6d6a415b040bedcc2c5d.woff) format("woff");
+            }
+            @font-face {
+                font-family: 'NeuzeitSLTW01-BookHeavy';
+                font-style: normal;
+                src: url(https://d1qnmprc5tnkc9.cloudfront.net/fonts/0f2c8bb68b4b28d20d61d5a23df03921.woff) format("woff");
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            .nav {
+                font-size: 11px !important;
+                white-space: nowrap !important;
+                letter-spacing: -0.4px !important;
+            }
+
+            p {
+                font-size: 15px !important;
+                line-height: 21px !important;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+            h1 {
+                font-size: 22px !important;
+                line-height: 25px !important;
+            }
+            h2 {
+                font-size: 18px !important;
+                line-height: 25px !important;
+            }
+			li {
+                font-size: 15px !important;
+                line-height: 21px !important;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+            .ctawrap {
+                padding: 0px 40px 40px 40px !important;
+            }
+            .cta {
+                font-size: 15px !important;
+                line-height: 18px !important;
+                text-align: left;
+                border-bottom: 1px solid FD5E3D!important;
+                padding: 0px 0px 0px 0px !important;
+            }
+            .ctapad {
+                padding: 0px 20px 40px 20px !important;
+            }
+            .mobile {
+                display: none !important;
+            }
+            .icon {
+                width: 20px !important;
+            }
+            .foot a {
+                font-family: 'NeuzeitSLTW01-BookHeavy', Arial, 'sans-serif' !important;
+                font-size: 11px !important;
+                color: #383633 !important;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+            .footwrap {
+                padding: 5px 0px 15px 0px !important;
+            }
+            .footerlinks {
+                padding: 18px 0px 5px 0px !important;
+                display: block !important;
+                font-size: 13px !important;
+                border: none!important;
+            }
+            .foot3 {
+                padding: 0px 0px 0px 0px !important;
+            }
+            .button-text {
+                font-size: 13px !important;
+                line-height: 45px !important;
+                width: 200px !important;
+                font-family: 'GT America Regular', Arial, 'sans-serif' !important;
+            }
+			.column {
+				width: 100% !important;
+				display: inline-block !important;
+				padding: 0px 0px 0px 0px !important;
+			}
+			.column2 {
+				width: 100% !important;
+				display: inline-block !important;
+				padding: 20px 0px 0px 0px !important;
+			}
+			.image-mobile {
+                display: block!important;
+                max-height: none !important;
+                max-width: none !important;
+                line-height: 1.5 !important;
+                width: 100% !important;
+                height: auto !important;
+            }
+            .hide {
+                display:none!important;
+                width:0px!important;
+                height: 0px!important;
+                overflow:hidden!important;
+                line-height: 0px!important;
+                font-size:0px!important;
+             }
+            .padHED {padding: 20px 19px 20px 19px !important;}
+            .pad0 {padding: 0 !important;}
+			.padR {padding: 0px 3px 0px 0px !important;}
+			.padL {padding: 0px 0px 0px 3px !important;}
+			.padRT {padding: 6px 3px 0px 0px !important;}
+			.padLT {padding: 1px 0px 0px 5px !important;}
+			.padl20 {padding: 0px 0px 0px 20px !important;}
+			.pad20 {padding: 0px 10px 10px 10px !important;}
+			.pad10 {padding: 0px 10px 10px 10px !important;}
+			.pad0606 {padding: 0px 25px 0px 6px !important;} 
+            .pad0707 {padding: 0px 6px 0px 6px !important;}  
+			.pad0707C {padding: 0px 6px 0px 10px !important;}
+            .pad0005 {padding: 0px 0px 5px 0px !important;}  
+            .pad0505 {padding: 5px 0px 0px 0px !important;}
+            .pad1510 {padding: 15px 0px 0px 0px !important;}
+            .pad2025 {padding: 20px 0px 25px 0px !important;}
+            .pad2020 {padding: 20px 0px 20px 0px !important;}
+            .pad0535 {padding: 5px 0px 35px 0px !important;}
+            .pad2000 {padding: 20px 0px 0px 0px !important;}
+            .pad2035 {padding: 20px 0px 35px 0px !important;}
+            .pad0515 {padding: 5px 0px 15px 0px !important;}
+			.pad0015 {padding: 0px 0px 15px 0px !important;}
+            .pad1035 {padding: 10px 0px 35px 0px !important;}
+            .pad1020 {padding: 10px 0px 20px 0px !important;}
+            .pad2500 {padding: 25px 0px 0px 0px !important;}
+            .pad2015 {padding: 20px 0px 15px 0px !important;}
+            .pad2515 {padding: 25px 0px 15px 0px !important;}
+			.pad2510 {padding: 25px 0px 10px 0px !important;}
+            .pad3010 {padding: 30px 0px 10px 0px !important;}
+			.pad3000 {padding: 30px 0px 0px 0px !important;}
+            .pad2520 {padding: 25px 0px 20px 0px !important;}
+            .pad1500 {padding: 15px 0px 0px 0px !important;} 
+            .pad1510 {padding: 15px 0px 10px 0px !important;}            
+            .pad1008 {padding: 10px 0px 8px 0px !important;}
+            .pad1000 {padding: 10px 0px 0px 0px !important;}
+            .pad1515 {padding: 15px 0px 15px 0px !important;}
+            .pad1010 {padding: 10px 0px 10px 0px !important;}
+            .pad0520 {padding: 5px 0px 20px 0px !important;}
+            .pad2010 {padding: 20px 0px 10px 0px !important;}
+            .pad2535 {padding: 25px 0px 35px 0px !important;}
+			.pad2555 {padding: 25px 0px 55px 0px !important;}
+            .pad1535 {padding: 15px 0px 35px 0px !important;}
+            .pad1520 {padding: 15px 0px 20px 0px !important;}
+            .pad3015 {padding: 30px 0px 15px 0px !important;}
+			.pad3515 {padding: 35px 0px 15px 0px !important;}
+			.pad3030 {padding: 30px 0px 30px 0px !important;}
+			.pad4515 {padding: 45px 0px 15px 0px !important;}
+			.pad4515 {padding: 45px 0px 15px 0px !important;}
+			.pad4500 {padding: 45px 0px 0px 0px !important;}
+            .pad0035 {padding: 0px 0px 35px 0px !important;}
+			.pad0025 {padding: 0px 0px 25px 0px !important;}
+            .width100 {width: 100% !important;}
+            .width98 {width: 98% !important;}
+            .width90 {width: 90% !important;}
+            .width85 {width: 85% !important;}
+            .width80 {width: 80% !important;}
+            .width70 {width: 70% !important;}
+			.width65 {width: 65% !important;}
+			.width60 {width: 60% !important;}
+            .width50 {width: 50% !important;}
+			.width40 {width: 40% !important;}
+            .width30 {width: 30% !important;}
+			
+			.sale-column {
+                display: block !important;
+                width: 100% !important;
+				padding: 0px 0px 0px 0px !important;
+            }
+			.sale-column-2 {
+                display: block !important;
+                width: 100% !important;
+				padding: 0px 0px 13px 0px !important;
+            }
+            .sale-hed {
+                font-size: 17px !important;
+                text-align: center !important;
+                padding: 5px 0px 0px 0px !important;
+            }
+			.sale-subhed {
+				font-size: 13px !important;
+                text-align: center !important;
+                padding: 0px 0px 7px 0px !important;
+			}
+            .sale-body {
+                font-size: 14px !important;
+                line-height: 20px !important;
+                text-align: center !important;
+                padding: 0px 5px 0px 5px !important;
+            }
+            .sale-code {
+                padding: 6px 0px 6px 0px !important;
+            }
+			.sale-code-text {
+                font-size: 11px !important;
+                line-height: 28px !important;
+                text-align: center !important;
+				width: 210px !important;
+            }
+			
+        }
+    </style>
+</head>
+
+<body align="center" style="background-color: #ffffff; Margin: 0; padding: 0;">
+    <div style="display: none; max-height: 0px; overflow: hidden;">&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+    </div>
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; background-color: #F7EEE3;">
+        <tr>
+            <td align="center">
+                <!--[if (gte mso 9)|(IE)]>
+				<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width: 600px">
+				<tr>
+				<td align="center" valign="top" width="600" style="width: 600px">
+				<![endif]-->
+               <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+                    <tr>
+                        <td align="center" style="padding: 10px 0px 0px 0px;">
+                            <a href="https://burrow.com?lid=nwuk7z35j1x3"><img alt="Burrow" width="600" style="display: block; width: 100%; max-width: 100%; font-size: 20px; font-family: Arial, 'sans-serif'; color: #383633;" border="0" src="https://burrow-assets.s3.amazonaws.com/email.burrow/20191014+Fall+Sale+Leather/Burrow_NAV-Logo_transparent.png" /> </a>
+                        </td>
+                    </tr>
+                </table>
+                <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+                    <tr>
+                        <td align="center" style="padding: 5px 0px 20px 0px;">
+                            <table border="0" cellpadding="0" cellspacing="0" width="98%" style="max-width: 540px;" align="center">
+                                <tr>
+									<td class="nav pad0707" valign="bottom" align="center" style=" width: 20%; text-align: center; font-family: 'GT America Medium', Arial, 'sans-serif'; font-size: 13px; letter-spacing: -0.3px;"><a style="text-decoration: none; color: #383633;" href="https://burrow.com/seating?lid=wa25ft9k9t05">Seating</a>
+                                    </td>
+									<td>
+										<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+											
+											<tr>
+												<td class="nav pad0707" align="center" style=" width: 20%; text-align: center; font-family: 'GT America Medium', Arial, 'sans-serif'; font-size: 13px; letter-spacing: -0.3px"><a style="text-decoration: none; color: #383633;" href="https://burrow.com/bedroom?lid=fmrb1893jvw3">Bedroom</a>
+                                    			</td>
+											</tr>
+										</table>
+									</td>
+                                    <td class="nav pad0707C" valign="bottom" align="center" style="width: 35%; color: #383633; text-align: center; font-family: 'GT America Medium', Arial, 'sans-serif'; font-size: 13px; letter-spacing: -0.3px;"><a style="text-decoration: none; color: #383633;" href="https://burrow.com/storage?lid=x9va0hksxozi">Shelves&nbsp;&amp;&nbsp;Storage</a>
+                                    </td>
+                                    <td class="nav pad0707" valign="bottom" align="center" style="width: 10%; text-align: center; font-family: 'GT America Medium', Arial, 'sans-serif'; font-size: 13px; letter-spacing: -0.3px;"><a style="text-decoration: none; color: #383633;" href="https://burrow.com/collections/coffee-tables?lid=nv9m6omgsuhd">Tables</a>
+                                    </td>
+                                    <td class="nav pad0707" valign="bottom" align="center" style="width: 20%; text-align: center; font-family: 'GT America Medium', Arial, 'sans-serif'; font-size: 13px; letter-spacing: -0.3px;"><a style="text-decoration: none; color: #383633;" href="https://burrow.com/collections/rugs?lid=xml48x71nzrq">Rugs</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+
+
+{{content_blocks.${2024Q4_Welcome_Banner} | id: 'cb1'}}
+				
+                <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; background-color: #F7EEE3">
+                    <tr>
+                        <td>
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 90%">
+                                <tr>
+                                    <td class="pad3020" align="center" style="padding: 40px 0px 20px 0px;"><p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">Hey {{${first_name} | default: 'there'}},</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+				
+				<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; background-color: #F7EEE3">
+                    <tr>
+                        <td>
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 90%">
+                                <tr>
+                                    <td class="pad0030" align="center" style="padding: 0px 0px 30px 0px;">
+                                    <p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">It's Stephen again. I hope you're settling in well. At Burrow, we deeply value the relationships we build with our customers. It’s part of how we make sure we’re solving actual problems for real life. 
+</p>
+									</td>
+								</tr>
+								<tr>
+                                    <td class="pad0030" align="center" style="padding: 0px 0px 30px 0px;">
+                                    <p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; color:#383633;">To better customize your experience with us, we’d like to get to know you a bit better through this three-minute survey. As always, we appreciate you being a part of the Burrow community and look forward to hearing from you. </p>
+									</td>
+								</tr>
+								<tr>
+                                    <td class="button" align="center">
+                                        <div>
+                                        <!--[if mso]>
+                                        <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://burrow.typeform.com/to/W7NGnQgM#email={{${email_address}}}" style="height:58px;v-text-anchor:middle;width:270px;" arcsize="7%" stroke="f" fillcolor="#505A71">
+                                        <w:anchorlock/>
+                                        <center>
+                                        <![endif]-->
+                                        <a class="button-text" href="https://burrow.typeform.com/to/W7NGnQgM#email={{${email_address}}}"
+                                        style="background-color: #505A71; border-radius: 4px; color: #FFFFFF; display: inline-block; font-family: 'GT America Medium', Arial, 'sans-serif'; font-size: 15px; letter-spacing: 1px; line-height: 58px; text-align: center; text-decoration: none; width: 270px; -webkit-text-size-adjust: none; text-transform: uppercase;">Start the survey</a>
+                                        <!--[if mso]>
+                                        </center>
+                                        </v:roundrect>
+                                        <![endif]-->
+                                        </div>
+                                    </td>
+                                </tr>
+                                
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+
+                              
+
+                            <!--[if (gte mso 9)|(IE)]>
+                            </td>
+                            </tr>
+                            </table>
+                            <![endif]-->
+                        </td>
+                    </tr>
+                </table>   
+                <!--[if (gte mso 9)|(IE)]>
+				</td>
+				</tr>
+				</table>
+				<![endif]-->
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+{{content_blocks.${footer_us} | id: 'cb2'}}

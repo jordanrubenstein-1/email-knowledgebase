@@ -1,0 +1,26 @@
+id: d658f979-66a4-4451-a6db-cff7ed144cb8
+name: New Campaign - April 18, 2025
+brand: CZ
+channel: email
+category: other
+type: product_launch
+theme: null
+braze_id: d658f979-66a4-4451-a6db-cff7ed144cb8
+dates: {}
+tags: []
+sends:
+- id: 0e8233bd-4136-4422-b1ef-0f28b4c7926c
+  channel: email
+  name: Variant 1
+  subject: Category test
+  html_file: html/new-campaign-april-18-2025.html
+  screenshot: screenshots/new-campaign-april-18-2025.png
+- id: 6915c797-d3bd-4da4-b4bc-48a2f08f39db
+  channel: other
+  name: Control Group
+performance_summary: {}
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.387173'
+schedule_type: time_based

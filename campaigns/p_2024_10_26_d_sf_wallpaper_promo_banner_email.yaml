@@ -1,0 +1,82 @@
+id: 9814626f-0e4b-426c-b518-0a31f54cc46f
+name: P_2024_10_26_D_SF_Wallpaper_Promo_Banner_Email
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 9814626f-0e4b-426c-b518-0a31f54cc46f
+dates:
+  send_date: '2024-10-26'
+  inferred_send_type: scheduled
+  first_sent: '2024-10-25T23:22:01+00:00'
+  last_sent: '2024-10-26T14:00:27+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: e959c5c0-c8cc-4f7f-a860-36031eca0632
+  channel: email
+  name: Variant 1
+  subject: Wrap Your Walls In Pattern at 30% Off
+  preheader: during our October Sale
+  html_file: html/p_2024_10_26_d_sf_wallpaper_promo_banner_email.html
+  screenshot: screenshots/p_2024_10_26_d_sf_wallpaper_promo_banner_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671a8f06a0289800635eb643/original.gif?1729793798
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671a8e054de928006601dcf1/original.gif?1729793541
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671a8dc1722e0c00648f2bb0/original.gif?1729793473
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671a8f22a0289800635eb749/original.jpg?1729793826
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671a8f85228ffb00643d6327/original.gif?1729793925
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671a8f912a8d1d00744039e9/original.gif?1729793937
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671c29f4acf64b0073f2ae96/original.jpg?1729898996
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671a8ebc121c690066465331/original.gif?1729793724
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671a8f9c2a8d1d00744039f4/original.jpg?1729793948
+- id: 6f463d7f-452b-4582-a93b-02b8b8979f30
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 9643
+  total_delivered: 9590
+  total_opens: 3008
+  total_clicks: 87
+  open_rate: 0.3119
+  click_rate: 0.009
+  total_revenue: 3834.8
+  total_bounces: 1
+  total_unsubscribes: 13
+  ga4:
+    sessions: 65
+    purchases: 4
+    revenue: 2121.08
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.710055'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-30-off-fabric-wallpaper-curtains-category-strikethrough-2024-10-25
+    name: 30% off fabric/wallpaper/curtains category (strikethrough)
+    start_date: '2024-10-25'
+    end_date: '2024-10-30'
+    discount: null
+    type: null
+  - id: stf-flash-sale-2024-10-25
+    name: Flash Sale
+    start_date: '2024-10-25'
+    end_date: '2024-10-30'
+    discount: null
+    type: null
+  primary_sale:
+    id: stf-30-off-fabric-wallpaper-curtains-category-strikethrough-2024-10-25
+    name: 30% off fabric/wallpaper/curtains category (strikethrough)
+    start_date: '2024-10-25'
+    end_date: '2024-10-30'
+    discount: null
+    type: null
+  sale_name: 30% off fabric/wallpaper/curtains category (strikethrough)
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:31.809370'
+schedule_type: time_based

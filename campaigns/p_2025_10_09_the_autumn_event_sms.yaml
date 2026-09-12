@@ -1,0 +1,30 @@
+id: 5ee3595f-e20c-42ad-809b-3ca289634ec8
+name: P_2025_10_09_The_Autumn_Event_SMS
+brand: ID
+channel: sms
+category: sale_promo
+type: announcement
+theme: fall
+braze_id: 5ee3595f-e20c-42ad-809b-3ca289634ec8
+dates:
+  send_date: '2025-10-09'
+  inferred_send_type: local_time
+  first_sent: '2025-10-09T01:09:43+00:00'
+  last_sent: '2025-10-10T01:00:30+00:00'
+tags: []
+sends:
+- id: f19776f6-e030-49b7-a014-209e063005ad
+  channel: other
+  name: Variant 1
+- id: 05f01dfe-3551-4987-8ce6-400831f033a2
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 51684
+  total_delivered: 49690
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 22129.0
+schedule_type: time_based

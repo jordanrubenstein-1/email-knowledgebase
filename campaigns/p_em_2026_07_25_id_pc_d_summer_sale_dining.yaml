@@ -1,0 +1,34 @@
+id: 115fd2d0-fde8-425f-a9f1-34d8bcd128ba
+name: P_EM_2026_07_25_ID_PC_D_Summer_Sale_Dining
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: summer
+braze_id: 115fd2d0-fde8-425f-a9f1-34d8bcd128ba
+dates:
+  send_date: '2026-07-25'
+  last_sent: '2026-07-25'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 44c5b70b-1eed-4789-b517-94d5ce54ea39
+  channel: email
+  name: Variant 1
+  subject: Dinner is ready and everything is 25% off
+  preheader: Shop tables and chairs during the Summer Sale.
+- id: b7a75e08-a657-4a6c-91b3-3a912672d10f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 234567
+  total_delivered: 233888
+  total_opens: 94198
+  total_clicks: 509
+  open_rate: 0.4016
+  click_rate: 0.0022
+  total_revenue: 209720.93
+  total_bounces: 4
+  total_unsubscribes: 205
+schedule_type: time_based
+_filename: p_em_2026_07_25_id_pc_d_summer_sale_dining.yaml

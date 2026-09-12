@@ -1,0 +1,33 @@
+id: 9375ab5b-11ea-4313-b939-a928db72d329
+name: P_EM_2026_09_12_HAV_CONV_D_Items_in_Your_Design_Are_on_Sale
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 9375ab5b-11ea-4313-b939-a928db72d329
+dates:
+  send_date: '2026-09-12'
+  first_sent: '2026-09-12T03:09:03+00:00'
+  last_sent: '2026-09-12T12:00:00+00:00'
+  inferred_send_type: scheduled
+tags:
+- BLASTS-2025
+sends:
+- id: 419e45d4-3097-4b43-80d5-ad54a3173136
+  channel: email
+  name: Variant 1
+  subject: Items in your design are on sale
+  preheader: Shop your moodboard, now up to 20% off.
+- id: 1d805813-7c51-4d3b-8603-c0ed2fa48768
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 11
+  total_delivered: 11
+  total_opens: 1
+  total_clicks: 0
+  open_rate: 0.0909
+  click_rate: 0.0
+schedule_type: time_based
+_filename: p_em_2026_09_12_hav_conv_d_items_in_your_design_are_on_sale.yaml

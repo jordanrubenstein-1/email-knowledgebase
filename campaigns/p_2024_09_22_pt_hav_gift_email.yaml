@@ -1,0 +1,33 @@
+id: 2647da8a-4785-42a2-9b3d-b70f5b636fee
+name: P_2024_09_22_PT_HAV_GIFT_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 2647da8a-4785-42a2-9b3d-b70f5b636fee
+dates:
+  send_date: '2024-09-22'
+  first_sent: '2024-09-22T15:22:35+00:00'
+  last_sent: '2024-09-23T02:15:01+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: e48f97fa-2128-403e-a417-30d2ec20cfba
+  channel: email
+  name: Variant 1
+  subject: '$50 off to design another room! '
+- id: bdd036c7-5e32-4018-b760-e4e2a468e6e7
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 9939
+  total_delivered: 9926
+  total_opens: 7480
+  total_clicks: 140
+  open_rate: 0.7526
+  click_rate: 0.0141
+  total_bounces: 4
+  total_unsubscribes: 62
+schedule_type: time_based
+_filename: p_2024_09_22_pt_hav_gift_email.yaml

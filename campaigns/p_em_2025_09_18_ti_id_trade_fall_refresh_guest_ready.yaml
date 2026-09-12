@@ -1,0 +1,35 @@
+id: 0bbd3e9f-7620-4143-a266-26ac4483e85d
+name: P_EM_2025_09_18_TI_ID_TRADE_Fall_Refresh_Guest_Ready
+brand: ID
+channel: email
+category: other
+type: seasonal
+theme: fall
+braze_id: 0bbd3e9f-7620-4143-a266-26ac4483e85d
+dates:
+  send_date: '2025-09-18'
+  inferred_send_type: local_time
+  first_sent: '2025-09-18T03:29:12+00:00'
+  last_sent: '2025-09-18T19:00:13+00:00'
+tags: []
+sends:
+- id: bea696ff-b5da-43e9-bb39-9368f0ffbf9f
+  channel: email
+  name: Variant 1
+  subject: New Season, Exclusive Trade Savings
+  preheader: Holiday-ready design starts here.
+- id: 85306985-2a90-4549-b9b1-141b8ab30c8d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 19959
+  total_delivered: 19374
+  total_opens: 9860
+  total_clicks: 97
+  open_rate: 0.494
+  click_rate: 0.0049
+  total_revenue: 78904.0
+  total_bounces: 1
+  total_unsubscribes: 43
+_filename: p_em_2025_09_18_ti_id_trade_fall_refresh_guest_ready.yaml
+schedule_type: time_based

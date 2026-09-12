@@ -1,0 +1,37 @@
+id: 807a7767-7b7c-4e6c-9fb3-f8611936b29d
+name: P_EM_2025_11_10_HAV_PC_D_Black_Friday_Continues
+brand: HAV
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 807a7767-7b7c-4e6c-9fb3-f8611936b29d
+dates:
+  send_date: '2025-11-10'
+  first_sent: '2025-11-09T19:23:02+00:00'
+  last_sent: '2025-11-10T20:15:39+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: cf9845af-2a41-40e7-a1b1-a9378a5b1109
+  channel: email
+  name: Variant 1
+  subject: 'IT’S ON: The Black Friday Sale
+
+    '
+  preheader: Design your room for only $89 now.
+- id: b193638a-b8fe-4af1-8cd6-cd737f3d4953
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 249968
+  total_delivered: 248484
+  total_opens: 99754
+  total_clicks: 529
+  open_rate: 0.3991
+  click_rate: 0.0021
+  total_bounces: 6
+  total_unsubscribes: 532
+schedule_type: time_based
+_filename: p_em_2025_11_10_hav_pc_d_black_friday_continues.yaml

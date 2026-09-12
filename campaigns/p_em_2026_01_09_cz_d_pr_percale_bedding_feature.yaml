@@ -1,0 +1,55 @@
+id: 7f60721c-ffe8-46ad-b3fa-17079e74b226
+name: P_EM_2026_01_09_CZ_D_PR_Percale_Bedding_Feature
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 7f60721c-ffe8-46ad-b3fa-17079e74b226
+dates:
+  send_date: '2026-01-09'
+  inferred_send_type: local_time
+  first_sent: '2026-01-08T23:07:25+00:00'
+  last_sent: '2026-01-09T23:05:33+00:00'
+tags:
+- am
+- batch and blast
+- bedding
+- d2c
+- designed
+- prod
+sends:
+- id: d44fc886-77db-4a73-aa8b-51c45bfc01ae
+  channel: email
+  name: Variant 1
+  subject: The Best Sleep of Your Life
+  preheader: Crisp percale woven for cool, comfortable nights.
+  html_file: html/p_em_2026_01_09_cz_d_pr_percale_bedding_feature.html
+  screenshot: screenshots/p_em_2026_01_09_cz_d_pr_percale_bedding_feature.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/695fae4a8716650064014d0f/original.png?1767878217
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/695fadd205c06f0063ea4856/original.png?1767878096
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/695fae7151ec5600638d626a/original.png?1767878256
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/695faea199383d0063c879c8/original.png?1767878304
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/695faeabc690a60074733547/original.png?1767878314
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/695fae5c06f5780063feceb3/original.png?1767878235
+- id: 68d3377f-f43b-4720-a111-53329ebb56ba
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 53759
+  total_delivered: 53692
+  total_opens: 27857
+  total_clicks: 513
+  open_rate: 0.5182
+  click_rate: 0.0095
+  total_unsubscribes: 110
+  ga4:
+    sessions: 378
+    purchases: 4
+    revenue: 1154.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.135706'
+    source: snowflake
+    channel: email
+schedule_type: time_based

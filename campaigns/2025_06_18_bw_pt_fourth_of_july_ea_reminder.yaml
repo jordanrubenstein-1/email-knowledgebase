@@ -1,0 +1,84 @@
+id: 2bd95c92-d1a9-499a-b0d6-f094a7e16718
+name: 2025_06_18_BW_PT_Fourth_of_July_EA_Reminder
+brand: BUR
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 2bd95c92-d1a9-499a-b0d6-f094a7e16718
+dates:
+  send_date: '2025-06-18'
+  inferred_send_type: local_time
+  first_sent: '2025-06-17T18:21:27+00:00'
+  last_sent: '2025-06-18T17:15:26+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: e5e889f7-28e0-4060-969b-f4973130702c
+  channel: email
+  name: Variant 1
+  subject: Wanna shop before everyone else?
+  preheader: Take advantage of early access to Fourth of July deals.
+- id: 20baa16e-51ae-4cb3-806d-8492b3b8cf7b
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 257627
+  total_delivered: 255784
+  total_opens: 94269
+  total_clicks: 409
+  open_rate: 0.3659
+  click_rate: 0.0016
+  total_bounces: 4
+  total_unsubscribes: 110
+  ga4:
+    sessions: 24
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.304431'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-burrow-2025-06-17
+    name: Burrow
+    start_date: '2025-06-17'
+    end_date: '2025-06-17'
+    discount: 'July 4th Sale Early Access -- RETAIL, EMAIL and SMS ONLY
+
+      25% off sitewide, plus FREE GROUND SHIPPING on orders >$2k
+
+      CODE JULY4EA'
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-burrow-2025-06-17
+    name: Burrow
+    start_date: '2025-06-17'
+    end_date: '2025-06-17'
+    discount: 'July 4th Sale Early Access -- RETAIL, EMAIL and SMS ONLY
+
+      25% off sitewide, plus FREE GROUND SHIPPING on orders >$2k
+
+      CODE JULY4EA'
+    type: null
+  sale_name: Burrow
+  sale_discount: 'July 4th Sale Early Access -- RETAIL, EMAIL and SMS ONLY
+
+    25% off sitewide, plus FREE GROUND SHIPPING on orders >$2k
+
+    CODE JULY4EA'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:40.387410'
+schedule_type: time_based

@@ -1,0 +1,76 @@
+id: 25b4aeeb-bab7-4c9b-8d72-4d12a8ec0e0e
+name: Step 2
+brand: CZ
+channel: sms
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 587d7d7b-4bbd-4f8c-bf0d-07bdc7d5366c
+canvas_name: Price Drop
+flow_type: price_drop
+sequence_position: 2
+body: '{% assign item_id_var = {{canvas_entry_properties.${catalog_update}.item_id}}
+  %}
+
+  {% catalog_items the-citizenry_shopify_catalog item_id_var %}
+
+  {% assign previous_price = {{canvas_entry_properties.${catalog_update}.previous_value}}
+  %}
+
+  {% assign new_price = {{canvas_entry_properties.${catalog_update}.new_value}} %}
+
+  {% assign price_diff = previous_price | minus: new_price %}
+
+  {% assign discount_fraction = price_diff | divided_by: previous_price %}
+
+  {% assign discount_percentage_float = discount_fraction | times: 100.0 %}
+
+  {% assign discount_percentage = discount_percentage_float | round %}
+
+  {% if discount_percentage > 0 %}
+
+  Heads-up, our {{items[0].product_title}} is now {{discount_percentage}}% off! Don''t
+  Miss Out: {{items[0].product_url}}
+
+  {% else %}
+
+  {% abort_message(''No valid discount percentage to display'') %}
+
+  {% endif %}'
+sends:
+- id: 25b4aeeb-bab7-4c9b-8d72-4d12a8ec0e0e
+  channel: sms
+  name: Step 2
+  body: '{% assign item_id_var = {{canvas_entry_properties.${catalog_update}.item_id}}
+    %}
+
+    {% catalog_items the-citizenry_shopify_catalog item_id_var %}
+
+    {% assign previous_price = {{canvas_entry_properties.${catalog_update}.previous_value}}
+    %}
+
+    {% assign new_price = {{canvas_entry_properties.${catalog_update}.new_value}}
+    %}
+
+    {% assign price_diff = previous_price | minus: new_price %}
+
+    {% assign discount_fraction = price_diff | divided_by: previous_price %}
+
+    {% assign discount_percentage_float = discount_fraction | times: 100.0 %}
+
+    {% assign discount_percentage = discount_percentage_float | round %}
+
+    {% if discount_percentage > 0 %}
+
+    Heads-up, our {{items[0].product_title}} is now {{discount_percentage}}% off!
+    Don''t Miss Out: {{items[0].product_url}}
+
+    {% else %}
+
+    {% abort_message(''No valid discount percentage to display'') %}
+
+    {% endif %}'
+dates:
+  first_sent: null
+  last_sent: null
+performance_summary: {}

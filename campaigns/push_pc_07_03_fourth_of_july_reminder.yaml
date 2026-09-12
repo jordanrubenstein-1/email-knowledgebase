@@ -1,0 +1,23 @@
+id: cf41e78b-7d7f-4dda-aae8-5383b203cb62
+name: PUSH_PC_07_03_Fourth_of_July_Reminder
+brand: HAV
+channel: push
+category: reminder
+type: announcement
+theme: null
+braze_id: cf41e78b-7d7f-4dda-aae8-5383b203cb62
+dates:
+  first_sent: '2025-07-03T02:09:57+00:00'
+  last_sent: '2025-07-04T01:00:32+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 4e2fc28c-40d5-404e-adb2-63253b66fd2d
+  channel: push
+  name: Variant 1
+- id: 999e72de-20a0-48fa-84b3-1e266f24f301
+  channel: push
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: push_pc_07_03_fourth_of_july_reminder.yaml

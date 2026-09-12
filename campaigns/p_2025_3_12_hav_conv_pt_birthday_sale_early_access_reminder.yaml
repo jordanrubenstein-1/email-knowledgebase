@@ -1,0 +1,33 @@
+id: 948c4cf5-6b58-45a3-b934-69033be2b76c
+name: P_2025_3_12_HAV_Conv_PT_Birthday_Sale_Early_Access_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 948c4cf5-6b58-45a3-b934-69033be2b76c
+dates:
+  send_date: '2025-03-12'
+  first_sent: '2025-03-11T18:50:45+00:00'
+  last_sent: '2025-03-12T17:15:30+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 5b6e3471-8f23-430f-a5c9-3f5a803bea13
+  channel: email
+  name: Variant 1
+  subject: 'ENDS TONIGHT: VIP early access!'
+- id: 35ec057d-bf4b-4544-9d63-a4fe6ca2ab4e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 38689
+  total_delivered: 38621
+  total_opens: 22181
+  total_clicks: 238
+  open_rate: 0.5733
+  click_rate: 0.0062
+  total_unsubscribes: 53
+schedule_type: time_based
+_filename: p_2025_3_12_hav_conv_pt_birthday_sale_early_access_reminder.yaml

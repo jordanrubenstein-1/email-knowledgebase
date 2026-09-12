@@ -1,0 +1,35 @@
+id: 1f6a435d-b31f-48d4-bc95-ca22d046fc51
+name: P_EM_2025_07_29_HAV_PC_D_Sale_Ends_Tonight
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 1f6a435d-b31f-48d4-bc95-ca22d046fc51
+dates:
+  send_date: '2025-07-29'
+  first_sent: '2025-07-28T21:29:21+00:00'
+  last_sent: '2025-07-29T18:15:09+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: f2a9a6ad-94b6-4a40-b1ab-98760e8c154f
+  channel: email
+  name: Variant 1
+  subject: Ends tonight…you’ve waited long enough
+  preheader: 50% off Design Services. Go get it.
+- id: f5673d95-5b1e-4239-b23b-234eccc77111
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 228240
+  total_delivered: 227794
+  total_opens: 94429
+  total_clicks: 425
+  open_rate: 0.4137
+  click_rate: 0.0019
+  total_bounces: 1
+  total_unsubscribes: 502
+schedule_type: time_based
+_filename: p_em_2025_07_29_hav_pc_d_sale_ends_tonight.yaml

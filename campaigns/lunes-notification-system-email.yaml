@@ -1,0 +1,30 @@
+id: 08d0b879-d83c-42db-7e04-3b5dc3bf2acb
+name: Lunes Notification System Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 08d0b879-d83c-42db-7e04-3b5dc3bf2acb
+dates:
+  first_sent: '2024-08-23T17:00:00+00:00'
+  last_sent: '2026-06-09T14:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: 561dddca-63bb-4cd0-95d9-70074e7e5dbb
+  channel: email
+  name: Variant 1
+  subject: '{{api_trigger_properties.${subject}}}'
+- id: eb34e6b1-8f06-4716-9655-150cacdcd9f1
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 325
+  total_delivered: 325
+  total_opens: 152
+  total_clicks: 87
+  open_rate: 0.4677
+  click_rate: 0.2677
+schedule_type: api_triggered
+_filename: lunes-notification-system-email.yaml

@@ -1,0 +1,37 @@
+id: c96ec796-688e-4adb-97c2-873c103a3de8
+name: P_2025_11_06_CZ_Soho_Event_Invitation_SMS
+brand: CZ
+channel: sms
+category: sale_promo
+type: announcement
+theme: null
+braze_id: c96ec796-688e-4adb-97c2-873c103a3de8
+dates:
+  send_date: '2025-11-06'
+  inferred_send_type: local_time
+  first_sent: '2025-11-06T04:05:29+00:00'
+  last_sent: '2025-11-07T01:00:17+00:00'
+tags: []
+sends:
+- id: cbe6177b-4ea5-4335-b102-ca4837273641
+  channel: other
+  name: Variant 1
+- id: 47f78434-edcd-4944-b3b3-78e4eee19168
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1025
+  total_delivered: 963
+  total_opens: 0
+  total_clicks: 16
+  open_rate: 0.0
+  click_rate: 0.0156
+  ga4:
+    sessions: 10
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.560144'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

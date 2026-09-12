@@ -1,0 +1,61 @@
+id: 55ed662b-58ec-4901-b644-4924914689e9
+name: P_EM_2026_01_27_CZ_D_PR_In_Stock
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 55ed662b-58ec-4901-b644-4924914689e9
+dates:
+  send_date: '2026-01-27'
+  inferred_send_type: local_time
+  first_sent: '2026-01-26T21:25:04+00:00'
+  last_sent: '2026-01-27T17:05:45+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- instock
+- sale
+- sale/winterRefesh2026
+sends:
+- id: 111c4f95-e2d0-47de-b09a-5437d0df4872
+  channel: email
+  name: Variant 1
+  subject: Back in Stock
+  preheader: Shop 20% off restocked favorites while they last.
+  html_file: html/p_em_2026_01_27_cz_d_pr_in_stock.html
+  screenshot: screenshots/p_em_2026_01_27_cz_d_pr_in_stock.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6977a4bf7689f10063005882/original.png?1769448638
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6977a5445f0cb200632c2a0f/original.png?1769448771
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6977a54f3479ec006581dbc8/original.png?1769448783
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6977a57cf7800e0073d2cb6b/original.png?1769448827
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6973c89c42a465006366a7c4/original.png?1769195675
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6973c8810b2fe200639b4cf7/original.png?1769195649
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69779a04c188570063494ded/original.png?1769445891
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6973c8870b2fe200639b4cf8/original.png?1769195655
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6977a52da673fb0065a94ffc/original.png?1769448749
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697799df7e3f1d007498b01a/original.png?1769445854
+- id: ed28ae60-7727-4cc4-8e32-93b1e6d209d6
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 113788
+  total_delivered: 113142
+  total_opens: 52878
+  total_clicks: 819
+  open_rate: 0.4647
+  click_rate: 0.0072
+  total_bounces: 12
+  total_unsubscribes: 154
+  ga4:
+    sessions: 879
+    purchases: 16
+    revenue: 8094.45
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.128582'
+    source: snowflake
+    channel: email
+schedule_type: time_based

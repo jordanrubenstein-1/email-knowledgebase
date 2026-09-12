@@ -1,0 +1,45 @@
+id: 03f23192-14ef-41cb-be1e-48d8f43ab73a
+name: P_2024_12_23_ID_Gift_Cards_Launch
+brand: ID
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 03f23192-14ef-41cb-be1e-48d8f43ab73a
+dates:
+  send_date: '2024-12-23'
+  inferred_send_type: scheduled
+  first_sent: '2024-12-23T05:29:02+00:00'
+  last_sent: '2024-12-23T17:15:08+00:00'
+tags: []
+sends:
+- id: fdabe786-5f79-47b0-ba76-1ea6d0e09b4e
+  channel: email
+  name: Variant 1
+  subject: Calling All Last-Minute Shoppers
+  preheader: There's still time to send a gift card!
+- id: 40c3e5d8-ce77-4255-828d-5a4bbdc0967c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 91236
+  total_delivered: 90383
+  total_opens: 27462
+  total_clicks: 235
+  open_rate: 0.301
+  click_rate: 0.0026
+  total_revenue: 22228.0
+  total_unsubscribes: 118
+  ga4:
+    sessions: 239
+    purchases: 1
+    revenue: 2311.2
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.076021'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.472939'
+schedule_type: time_based

@@ -1,0 +1,33 @@
+id: f1a9be6e-ed54-4796-b448-43389261ea45
+name: P_EM_2026_09_07_ID_PC_D_Labor_Day_Sale_Reminder
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: f1a9be6e-ed54-4796-b448-43389261ea45
+dates:
+  send_date: '2026-09-07'
+  first_sent: '2026-09-06T18:23:17+00:00'
+  last_sent: '2026-09-07T11:00:00+00:00'
+  inferred_send_type: local_time
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: cd7b21d7-7546-4a43-a3ea-f0fe8b9cab4d
+  channel: email
+  name: Variant 1
+  subject: Save up to 60% on the biggest sale of the year
+  preheader: Everything is on sale! Shop the Labor Day Event before it's gone.
+- id: ab91e53f-ee37-406a-9523-62d05c22480f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 1801
+  total_delivered: 1783
+  total_opens: 115
+  total_clicks: 12
+  open_rate: 0.0639
+  click_rate: 0.0067
+schedule_type: time_based
+_filename: p_em_2026_09_07_id_pc_d_labor_day_sale_reminder-f1a9be6e.yaml

@@ -1,0 +1,59 @@
+id: 9452af9b-ff8b-466f-afb5-2232d188b2ba
+name: P_2024_09_10_D_CZ_L_MTO_Alpine_Bed_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 9452af9b-ff8b-466f-afb5-2232d188b2ba
+dates:
+  send_date: '2024-09-10'
+  inferred_send_type: local_time
+  first_sent: '2024-09-09T22:48:37+00:00'
+  last_sent: '2024-09-10T17:00:27+00:00'
+tags: []
+sends:
+- id: b18bb8ea-cff4-4459-b2b4-d7c0c2fbc5c0
+  channel: email
+  name: Variant 1
+  subject: 'Introducing: The Alpine Bed'
+  preheader: Meet our newest custom-made bed, handcrafted for you in North Carolina.
+  html_file: html/p_2024_09_10_d_cz_l_mto_alpine_bed_email.html
+  screenshot: screenshots/p_2024_09_10_d_cz_l_mto_alpine_bed_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66df42e6480b7600641a44e7/original.gif?1725907686
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66df432a3bcb730075620156/original.jpg?1725907753
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66df43cfa6f1ea007416f804/original.jpg?1725907919
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66df42c6480b7600641a4472/original.jpg?1725907654
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66df42d43bcb730066620695/original.jpg?1725907667
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66df42fd44992300642df110/original.jpg?1725907708
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66df434c44992300642df339/original.jpg?1725907788
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66df437a480b7600641a4695/original.jpg?1725907833
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66df433b3bcb7300666208ba/original.jpg?1725907771
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66df43b90df6a200668fe85b/original.jpg?1725907896
+- id: 30ba5df9-5f4a-496a-be62-8e23bed40334
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 73223
+  total_delivered: 73097
+  total_opens: 42273
+  total_clicks: 867
+  open_rate: 0.5773
+  click_rate: 0.0118
+  total_revenue: 49440.45
+  total_bounces: 2
+  total_unsubscribes: 171
+  ga4:
+    sessions: 906
+    purchases: 2
+    revenue: 341.27
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.964385'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.140247'
+schedule_type: time_based

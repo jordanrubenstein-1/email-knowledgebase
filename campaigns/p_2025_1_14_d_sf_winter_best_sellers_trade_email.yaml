@@ -1,0 +1,58 @@
+id: 32af4aa8-6122-4ef4-b537-ecdcdd77face
+name: P_2025_1_14_D_SF_Winter_Best_Sellers_Trade_Email
+brand: STF
+channel: email
+category: other
+type: seasonal
+theme: winter
+braze_id: 32af4aa8-6122-4ef4-b537-ecdcdd77face
+dates:
+  send_date: '2025-01-14'
+  inferred_send_type: scheduled
+  first_sent: '2025-01-14T16:13:48+00:00'
+  last_sent: '2025-01-14T16:14:01+00:00'
+tags: []
+sends:
+- id: 6e81954d-fb8f-4ef2-a580-2d178addf40c
+  channel: email
+  name: Variant 1
+  subject: Best of the Best
+  preheader: our winter favorites, always 20% off for Trade members.
+  html_file: html/p_2025_1_14_d_sf_winter_best_sellers_trade_email.html
+  screenshot: screenshots/p_2025_1_14_d_sf_winter_best_sellers_trade_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6785773d8287340064777a45/original.gif?1736800061
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678578c159695200646bf36f/original.gif?1736800449
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6785786a7009bd0063c7db71/original.gif?1736800362
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678578a48443ec00644bfd29/original.gif?1736800420
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678578df0688f30066a0a297/original.jpg?1736800479
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67857853df07240064eb3407/original.gif?1736800339
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678576c4df07240073eb1611/original.gif?1736799940
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678577a88443ec00644bfb3a/original.gif?1736800168
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678577655e03ad0065043e02/original.gif?1736800101
+- id: 63106ba9-93f0-4e22-b667-e6d5d083c0a5
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1022
+  total_delivered: 1001
+  total_opens: 635
+  total_clicks: 8
+  open_rate: 0.6213
+  click_rate: 0.0078
+  total_revenue: 666.0
+  total_unsubscribes: 2
+  ga4:
+    sessions: 15
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.007465'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.393299'
+schedule_type: time_based

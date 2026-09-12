@@ -1,0 +1,47 @@
+id: 214d1849-95c4-4d9f-ac56-f9fc019e8c80
+name: P_2024_12_3_D_SF_PR_BFCM_Extension_Announcement_Email
+brand: STF
+channel: email
+category: sale_promo
+type: product_launch
+theme: black_friday
+braze_id: 214d1849-95c4-4d9f-ac56-f9fc019e8c80
+dates:
+  send_date: '2024-12-03'
+  inferred_send_type: scheduled
+  first_sent: '2024-12-03T00:10:14+00:00'
+  last_sent: '2024-12-03T15:00:31+00:00'
+tags: []
+sends:
+- id: 47578e76-43de-4db5-b4c8-5fa01bb9094c
+  channel: email
+  name: Variant 1
+  subject: 'It’s Your Lucky Day: Cyber Week is HERE'
+  preheader: up to 35% off extended
+  html_file: html/p_2024_12_3_d_sf_pr_bfcm_extension_announcement_email.html
+  screenshot: screenshots/p_2024_12_3_d_sf_pr_bfcm_extension_announcement_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674dd1b0968fd40064efcf56/original.gif?1733153200
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674a017d36772a0066b6370b/original.gif?1732903293
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674a01b80f028c006336e91e/original.gif?1732903352
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674a0164d5664f007146616e/original.gif?1732903268
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674a018dccf58e00657204bf/original.gif?1732903308
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674a0199d5664f0064466ef0/original.gif?1732903320
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674a01a9d00a93006366e288/original.jpg?1732903337
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674a014d44656900661ef622/original.jpg?1732903245
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674a015844656900661ef629/original.gif?1732903256
+- id: ffb18580-1520-416c-86ed-5f596c21455e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 3676
+  total_delivered: 3632
+  total_opens: 1770
+  total_clicks: 43
+  open_rate: 0.4815
+  click_rate: 0.0117
+  total_revenue: 795.0
+  total_unsubscribes: 3
+_filename: p_2024_12_3_d_sf_pr_bfcm_extension_announcement_email.yaml
+schedule_type: time_based

@@ -1,0 +1,40 @@
+id: 6de39e14-dde2-49ad-98a8-402d5c438647
+name: P_EM_2026_05_10_CZ_PC_D_Mothers_Day
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 6de39e14-dde2-49ad-98a8-402d5c438647
+dates:
+  send_date: '2026-05-10'
+  inferred_send_type: local_time
+  first_sent: '2026-05-09T20:05:23+00:00'
+  last_sent: '2026-05-10T19:06:09+00:00'
+tags:
+- batch and blast
+- d2c
+- designed
+- event
+- sale
+- sale/mds2026
+sends:
+- id: f022ff8b-db52-4e3e-a262-368e7176342d
+  channel: email
+  name: Variant 1
+  subject: Give something heirloom-worthy this Mother's Day
+  preheader: Shop early. 25% off during the Memorial Day Sale.
+- id: 4928b715-ae68-42fc-bf05-afb0c92c28dc
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 42323
+  total_delivered: 42264
+  total_opens: 22031
+  total_clicks: 485
+  open_rate: 0.5205
+  click_rate: 0.0115
+  total_bounces: 1
+  total_unsubscribes: 74
+_filename: p_em_2026_05_10_cz_pc_d_mothers_day.yaml
+schedule_type: time_based

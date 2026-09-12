@@ -1,0 +1,74 @@
+id: bb8ab9c0-d4a6-4e88-a5f2-61a2efccce62
+name: P_2024_11_16_D_SF_PR_BFCM_Destination_Surf_Microsoft_Email
+brand: STF
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: bb8ab9c0-d4a6-4e88-a5f2-61a2efccce62
+dates:
+  send_date: '2024-11-16'
+  inferred_send_type: local_time
+  first_sent: '2024-11-15T23:01:33+00:00'
+  last_sent: '2024-11-16T14:30:07+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: dc8eed39-5d32-4249-885d-bbccb0f047c4
+  channel: email
+  name: Variant 1
+  subject: Surf’s up, sale’s on
+  preheader: up to 20% off our iconic patterned surfboards and more
+  html_file: html/p_2024_11_16_d_sf_pr_bfcm_destination_surf_microsoft_email.html
+  screenshot: screenshots/p_2024_11_16_d_sf_pr_bfcm_destination_surf_microsoft_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67379511d537050091a2b606/original.jpg?1731695888
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673794182e2919009308b645/original.gif?1731695640
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6737949e25573b007480aafa/original.jpg?1731695774
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673794adda04670065e4bca1/original.gif?1731695789
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67379375e2b48900746a0e85/original.gif?1731695477
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6737930e4f499c0064be992c/original.gif?1731695374
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673796e64f499c0064bea473/original.gif?1731696358
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673793ff2e2919006608cc63/original.gif?1731695615
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6737946e30077100655fded0/original.gif?1731695726
+- id: 58c3e4cf-c298-4294-937d-87d41fd0830c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 113
+  total_delivered: 113
+  total_opens: 48
+  total_clicks: 2
+  open_rate: 0.4248
+  click_rate: 0.0177
+  total_revenue: 185.5
+  ga4:
+    sessions: 1
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.027575'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: stf-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:42.052229'
+schedule_type: time_based

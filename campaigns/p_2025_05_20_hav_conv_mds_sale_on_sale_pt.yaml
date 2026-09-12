@@ -1,0 +1,35 @@
+id: 3fdae4aa-459a-47bb-a672-5c36351044a4
+name: P_2025_05_20_HAV_Conv_MDS_Sale_on_Sale_PT
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 3fdae4aa-459a-47bb-a672-5c36351044a4
+dates:
+  send_date: '2025-05-20'
+  first_sent: '2025-05-19T21:24:58+00:00'
+  last_sent: '2025-05-20T17:15:14+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 21ca77f7-9c3e-46f3-8e40-3e081fdf772c
+  channel: email
+  name: Variant 1
+  subject: Even better deals
+  preheader: Shop Havenly exclusive offers NOW.
+- id: bc72f53b-8a49-4dc4-8949-b2aefe6ad457
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 39837
+  total_delivered: 39727
+  total_opens: 22231
+  total_clicks: 185
+  open_rate: 0.558
+  click_rate: 0.0046
+  total_bounces: 1
+  total_unsubscribes: 51
+schedule_type: time_based
+_filename: p_2025_05_20_hav_conv_mds_sale_on_sale_pt.yaml

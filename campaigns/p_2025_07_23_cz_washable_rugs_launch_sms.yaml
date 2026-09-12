@@ -1,0 +1,38 @@
+id: 971a5670-333b-43a3-ab44-aa0faf4eadc6
+name: P_2025_07_23_CZ_Washable_Rugs_Launch_SMS
+brand: CZ
+channel: sms
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 971a5670-333b-43a3-ab44-aa0faf4eadc6
+dates:
+  send_date: '2025-07-23'
+  inferred_send_type: scheduled
+  first_sent: '2025-07-23T19:13:53+00:00'
+  last_sent: '2025-07-23T19:14:53+00:00'
+tags: []
+sends:
+- id: 6c1db6ce-86b0-4b73-8824-21055b4b6ba7
+  channel: other
+  name: Variant 1
+- id: 64365c7f-0204-4996-a1f8-a5ffcc75abea
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 23395
+  total_delivered: 23033
+  total_opens: 0
+  total_clicks: 507
+  open_rate: 0.0
+  click_rate: 0.0217
+  total_revenue: 6203.58
+  ga4:
+    sessions: 480
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.619441'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

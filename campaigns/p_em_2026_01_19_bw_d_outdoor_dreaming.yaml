@@ -1,0 +1,43 @@
+id: 77cf21fa-bb79-4952-95b9-c193bdfee72b
+name: P_EM_2026_01_19_BW_D_Outdoor_Dreaming
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 77cf21fa-bb79-4952-95b9-c193bdfee72b
+dates:
+  send_date: '2026-01-19'
+  inferred_send_type: local_time
+  first_sent: '2026-01-18T21:08:37+00:00'
+  last_sent: '2026-01-19T21:04:00+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: f25e0c8b-700b-43db-9a57-fb2a06063d6f
+  channel: email
+  name: Variant 1
+  subject: Up to 35% Off Outdoor
+  preheader: Plan ahead now so warm-weather hosting is effortless later.
+- id: d37f4c38-5269-4899-918e-93513c27ec0b
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 115155
+  total_delivered: 114778
+  total_opens: 48263
+  total_clicks: 418
+  open_rate: 0.4191
+  click_rate: 0.0036
+  total_revenue: 67343.0
+  total_bounces: 1
+  total_unsubscribes: 245
+  ga4:
+    sessions: 302
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.667874'
+    source: snowflake
+    channel: email
+schedule_type: time_based

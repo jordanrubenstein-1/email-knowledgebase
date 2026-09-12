@@ -1,0 +1,30 @@
+id: b5b20ecd-e9d4-467b-a746-411138b3c448
+name: 20250201_Seating-Highlight_SMS
+brand: BUR
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: b5b20ecd-e9d4-467b-a746-411138b3c448
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-02-01T03:07:00+00:00'
+  last_sent: '2025-02-02T03:00:15+00:00'
+tags: []
+sends:
+- id: ab2a1b54-ade0-4f54-9d0b-f2c9496e4cf8
+  channel: other
+  name: Variant 1
+- id: 6d2b5fb7-f91e-4d3c-bb43-112c1247fd61
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 178
+    purchases: 1
+    revenue: 1763.03
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.998089'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

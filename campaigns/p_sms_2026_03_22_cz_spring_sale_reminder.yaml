@@ -1,0 +1,29 @@
+id: 9e12a6ac-5d6f-4e64-88e7-76cc6be450fd
+name: P_SMS_2026_03_22_CZ_Spring_Sale_Reminder
+brand: CZ
+channel: sms
+category: reminder
+type: sale
+theme: spring
+braze_id: 9e12a6ac-5d6f-4e64-88e7-76cc6be450fd
+dates:
+  send_date: '2026-03-22'
+  inferred_send_type: local_time
+  first_sent: '2026-03-21T23:06:49+00:00'
+  last_sent: '2026-03-22T23:01:52+00:00'
+tags: []
+sends:
+- id: a88f4ccd-a1ff-4674-9a3b-e0402eaaa669
+  channel: sms
+  name: Variant 1
+- id: 94df68c1-1f8f-40e1-ad0d-8410819ef946
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 16816
+  total_delivered: 15847
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+schedule_type: time_based

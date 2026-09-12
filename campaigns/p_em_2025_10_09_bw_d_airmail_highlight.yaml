@@ -1,0 +1,73 @@
+id: 517348bd-5720-4772-a5d4-e899b9823238
+name: P_EM_2025_10_09_BW_D_Airmail_Highlight
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 517348bd-5720-4772-a5d4-e899b9823238
+dates:
+  send_date: '2025-10-09'
+  inferred_send_type: local_time
+  first_sent: '2025-10-08T19:36:39+00:00'
+  last_sent: '2025-10-09T17:15:22+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: a790e790-a8af-4faf-abd4-b3d97bb2c2df
+  channel: email
+  name: Variant 1
+  subject: Shop the lounge chair that moves with you. Literally.
+  preheader: Now on sale.
+- id: aab9c04f-e80b-4719-a5d6-9ab915fa584f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 236035
+  total_delivered: 233405
+  total_opens: 132142
+  total_clicks: 388
+  open_rate: 0.5598
+  click_rate: 0.0016
+  total_revenue: 46600.0
+  total_bounces: 5
+  total_unsubscribes: 168
+  ga4:
+    sessions: 246
+    purchases: 1
+    revenue: 1166.66
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.597510'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-the-fall-sale-2025-10-02
+    name: The Fall Sale
+    start_date: '2025-10-02'
+    end_date: '2025-10-27'
+    discount: Up to 35% Off Sitewide
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-the-fall-sale-2025-10-02
+    name: The Fall Sale
+    start_date: '2025-10-02'
+    end_date: '2025-10-27'
+    discount: Up to 35% Off Sitewide
+    type: null
+  sale_name: The Fall Sale
+  sale_discount: Up to 35% Off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:31.829147'
+schedule_type: time_based

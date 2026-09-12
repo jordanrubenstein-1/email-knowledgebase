@@ -1,0 +1,47 @@
+id: 69671fcb-279c-441c-a797-073575f2ac72
+name: P_2024_10_15_HAV_CONV_Plain_Text_Sale_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 69671fcb-279c-441c-a797-073575f2ac72
+dates:
+  send_date: '2024-10-15'
+  inferred_send_type: scheduled
+  first_sent: '2024-10-15T04:34:58+00:00'
+  last_sent: '2024-10-15T17:15:02+00:00'
+tags: []
+sends:
+- id: f210c0bd-18c2-4ecb-9d8e-e9c89134eb9f
+  channel: email
+  name: Variant 1
+  subject: Hey, we thought you’d love this
+  html_file: html/p_2024_10_15_hav_conv_plain_text_sale_reminder_email.html
+  screenshot: screenshots/p_2024_10_15_hav_conv_plain_text_sale_reminder_email.png
+  image_urls:
+  - https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/c731630f24214e43807c7369ca8ebacd/Havenly_Wordmark_RGB_Charcoal_Brown%20%281%29.png
+- id: 72f2875b-8227-4d27-bd84-62f072a6da9f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 36537
+  total_delivered: 36510
+  total_opens: 21603
+  total_clicks: 171
+  open_rate: 0.5913
+  click_rate: 0.0047
+  total_unsubscribes: 65
+  ga4:
+    sessions: 265
+    purchases: 2
+    revenue: 2570.65
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.858399'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:45.846835'
+schedule_type: time_based

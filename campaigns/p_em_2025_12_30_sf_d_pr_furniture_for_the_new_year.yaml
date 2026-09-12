@@ -1,0 +1,59 @@
+id: ddcda1d6-522c-4c29-a0bd-c13cd269bad3
+name: P_EM_2025_12_30_SF_D_PR_Furniture_for_the_New_Year_Sale
+brand: STF
+channel: email
+category: product_launch
+type: sale
+theme: null
+braze_id: ddcda1d6-522c-4c29-a0bd-c13cd269bad3
+dates:
+  send_date: '2025-12-30'
+  inferred_send_type: local_time
+  first_sent: '2025-12-29T18:56:26+00:00'
+  last_sent: '2025-12-30T17:02:22+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: 93b7bc92-f9c9-42ed-ae06-f8a5cbe076d6
+  channel: email
+  name: Variant 1
+  subject: Make it your way
+  preheader: 'take 20% off custom furniture now. '
+  html_file: html/p_em_2025_12_30_sf_d_pr_furniture_for_the_new_year_sale.html
+  screenshot: screenshots/p_em_2025_12_30_sf_d_pr_furniture_for_the_new_year_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/695277f6071dba0063cc3f8d/original.png?1767012342
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/695277c2be8f630063357cf4/original.png?1767012290
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6949d72ddec8890063a645b7/original.png?1766446892
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6949d734603e5c00639df193/original.png?1766446900
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6949d71eefbc4d00639baaf7/original.png?1766446878
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6949d7265393bd00732f5141/original.png?1766446886
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6949d7083ec9dd0065c7966d/original.png?1766446856
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6949d70f9af67d0063b7f424/original.png?1766446863
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6952cc30be7ab900630d4929/original.gif?1767033904
+- id: 5654bc9c-6b13-4229-92cf-326d4723b7f5
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39604
+  total_delivered: 39214
+  total_opens: 14188
+  total_clicks: 145
+  open_rate: 0.3582
+  click_rate: 0.0037
+  total_bounces: 1
+  total_unsubscribes: 43
+  ga4:
+    sessions: 177
+    purchases: 1
+    revenue: 176.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.833147'
+    source: snowflake
+    channel: email
+schedule_type: time_based

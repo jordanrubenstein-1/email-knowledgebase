@@ -1,0 +1,30 @@
+id: 26f605d5-fbd9-439e-965c-98d98d428a3d
+name: P_2025_5_25_ID_MDW_Quick_Ship_SMS
+brand: ID
+channel: sms
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 26f605d5-fbd9-439e-965c-98d98d428a3d
+dates:
+  send_date: '2025-05-25'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-25T16:31:19+00:00'
+  last_sent: '2025-05-26T01:10:11+00:00'
+tags: []
+sends:
+- id: c313cca3-1ac7-4b14-8f6b-6872e021e79d
+  channel: other
+  name: Variant 1
+- id: b12f35b5-4b3b-40a6-bd38-4ce53faea3ad
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 58386
+  total_delivered: 54766
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 66786.0
+schedule_type: time_based

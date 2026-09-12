@@ -1,0 +1,55 @@
+id: 6689fe0c-b9da-4257-bca0-4c4e668bda49
+name: P_2024_11_03_D_CZ_PR_Mohair_Throws_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 6689fe0c-b9da-4257-bca0-4c4e668bda49
+dates:
+  send_date: '2024-11-03'
+  inferred_send_type: local_time
+  first_sent: '2024-11-02T17:00:11+00:00'
+  last_sent: '2024-11-03T17:00:29+00:00'
+tags:
+- batch and blast
+sends:
+- id: baef8719-28ee-454f-a9c0-6812c468f5c3
+  channel: email
+  name: Variant 1
+  subject: 'Mohair Throws: From Ireland To Your Home'
+  preheader: Shop the ultimate companions for cozy season, handcrafted in Ireland.
+  html_file: html/p_2024_11_03_d_cz_pr_mohair_throws_email.html
+  screenshot: screenshots/p_2024_11_03_d_cz_pr_mohair_throws_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67254727dc723700641ebcae/original.jpg?1730496294
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6723ca63d790190064642eaf/original.jpg?1730398819
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6723caac4a354a00675cbab9/original.jpg?1730398892
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672546d2e84ca300657fb9d1/original.jpg?1730496210
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672546f652c15100656827a7/original.jpg?1730496246
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672576564d5574006443f0a2/original.jpg?1730508374
+- id: 0324cccf-90a1-490d-94f0-82f32b2bc31c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 91441
+  total_delivered: 90872
+  total_opens: 39766
+  total_clicks: 757
+  open_rate: 0.4349
+  click_rate: 0.0083
+  total_revenue: 44415.85
+  total_unsubscribes: 114
+  ga4:
+    sessions: 940
+    purchases: 4
+    revenue: 1602.36
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.773219'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.836817'
+schedule_type: time_based

@@ -1,0 +1,71 @@
+id: 78ad0638-808e-45bf-81a5-61836dcf80a0
+name: P_EM_2025_11_12_SF_D_PR_BFCM_Launch
+brand: STF
+channel: email
+category: product_launch
+type: product_launch
+theme: black_friday
+braze_id: 78ad0638-808e-45bf-81a5-61836dcf80a0
+dates:
+  send_date: '2025-11-12'
+  last_sent: '2025-11-12'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: 56a8e958-cca7-4146-a0d4-9fdb27b957c8
+  channel: email
+  name: Variant 1
+  subject: Pillows Worth Fighting Over
+  preheader: prints made to bring your room to life
+- id: e2a9386a-788b-41bf-b183-ef6ebfe2ea15
+  channel: email
+  name: Control Group
+performance_summary: {}
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-black-friday-cyber-monday-2025-11-14
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-12'
+    end_date: '2025-12-02'
+    discount: 'Up to 30% Off Sitewide
+
+      30% off fabric + wallpaper + pillows
+
+      20% off everything else'
+    type: null
+  - id: stf-black-friday-cyber-monday-ea-2025-11-12
+    name: Black Friday / Cyber Monday (EA)
+    start_date: '2025-11-12'
+    end_date: '2025-11-13'
+    discount: 'Up to 30% Off Sitewide
+
+      30% off fabric + wallpaper + pillows
+
+      20% off everything else'
+    type: null
+  primary_sale:
+    id: stf-black-friday-cyber-monday-2025-11-14
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-12'
+    end_date: '2025-12-02'
+    discount: 'Up to 30% Off Sitewide
+
+      30% off fabric + wallpaper + pillows
+
+      20% off everything else'
+    type: null
+  sale_name: Black Friday / Cyber Monday
+  sale_discount: 'Up to 30% Off Sitewide
+
+    30% off fabric + wallpaper + pillows
+
+    20% off everything else'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:46.027441'
+schedule_type: time_based

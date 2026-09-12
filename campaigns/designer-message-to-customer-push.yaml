@@ -1,0 +1,30 @@
+id: 26cea665-e5e8-43a6-8b22-e6e06f8c83de
+name: Designer Message to Customer Push
+brand: HAV
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 26cea665-e5e8-43a6-8b22-e6e06f8c83de
+dates:
+  first_sent: '2024-08-27T18:00:00+00:00'
+  last_sent: '2026-06-09T19:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: 43089311-a53b-4660-be25-0d90a83d1d19
+  channel: other
+  name: Variant 1
+- id: d6d8f77d-87bd-458e-b534-3599fe146a13
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 19805
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_bounces: 5
+schedule_type: api_triggered
+_filename: designer-message-to-customer-push.yaml

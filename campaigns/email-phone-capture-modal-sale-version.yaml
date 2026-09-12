@@ -1,0 +1,23 @@
+id: 9080cf39-fc4c-4c6c-88f3-b3aceb1e438c
+name: Email & Phone Capture Modal - Sale Version
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 9080cf39-fc4c-4c6c-88f3-b3aceb1e438c
+dates:
+  first_sent: '2026-05-07T06:00:00+00:00'
+  last_sent: '2026-06-05T16:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: 58a47c78-d476-4f5b-9c9e-11afff7f058a
+  channel: other
+  name: Control Group
+- id: 3bfb3adc-91f1-422e-9fa4-b8d40182fc39
+  channel: other
+  name: Variant 1
+performance_summary: {}
+schedule_type: action_based
+_filename: email-phone-capture-modal-sale-version.yaml

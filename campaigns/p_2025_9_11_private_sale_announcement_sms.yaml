@@ -1,0 +1,30 @@
+id: e31aaad9-351b-4213-870e-fd5e53a1accc
+name: P_2025_9_11_Private_Sale_Announcement_SMS
+brand: ID
+channel: sms
+category: sale_promo
+type: sale
+theme: null
+braze_id: e31aaad9-351b-4213-870e-fd5e53a1accc
+dates:
+  send_date: '2025-09-11'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-11T22:27:02+00:00'
+  last_sent: '2025-09-12T00:16:18+00:00'
+tags: []
+sends:
+- id: d550ac7a-aaae-4e79-aa98-1dba51fa33b3
+  channel: other
+  name: Variant 1
+- id: 09a6a62e-a6e2-42ed-95a3-557a5f2baacb
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 52597
+  total_delivered: 50847
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 13995.0
+schedule_type: time_based

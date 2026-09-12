@@ -1,0 +1,34 @@
+id: 0c05e784-12de-4530-8f93-3a8dc5f7c94c
+name: P_EM_2025_10_14_HAV_CONV_D_AUTUMN_SALE
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: fall
+braze_id: 0c05e784-12de-4530-8f93-3a8dc5f7c94c
+dates:
+  send_date: '2025-10-14'
+  first_sent: '2025-10-14T01:23:03+00:00'
+  last_sent: '2025-10-15T01:15:13+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 61693283-a069-44cd-8795-288fcf206e2d
+  channel: email
+  name: Variant 1
+  subject: Refresh for fall with MAJOR savings
+  preheader: You can’t find these deals anywhere else.
+- id: df298e10-1b48-4e64-82d3-c67adc89be2c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 33423
+  total_delivered: 33390
+  total_opens: 17046
+  total_clicks: 92
+  open_rate: 0.51
+  click_rate: 0.0028
+  total_unsubscribes: 27
+schedule_type: time_based
+_filename: p_em_2025_10_14_hav_conv_d_autumn_sale.yaml

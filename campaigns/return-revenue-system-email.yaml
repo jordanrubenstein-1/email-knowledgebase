@@ -1,0 +1,31 @@
+id: 95316ee4-9024-aa98-a9c0-a559b4a86f1a
+name: Return Revenue System Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 95316ee4-9024-aa98-a9c0-a559b4a86f1a
+dates:
+  first_sent: '2024-08-23T17:00:00+00:00'
+  last_sent: '2026-06-02T17:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: d2c1385d-78aa-486c-a324-6b1e68f29624
+  channel: email
+  name: Variant 1
+  subject: '{{api_trigger_properties.${customerFirstName}}}, I found a few more things
+    you''ll like...'
+- id: a3fe93dc-8a03-4841-b73d-ed210acbf041
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 2
+  total_delivered: 2
+  total_opens: 1
+  total_clicks: 0
+  open_rate: 0.5
+  click_rate: 0.0
+schedule_type: api_triggered
+_filename: return-revenue-system-email.yaml

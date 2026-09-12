@@ -1,0 +1,46 @@
+id: 1b08c2ee-972c-4402-b7a5-d48e81fb5a5b
+name: P_2025_01_13_ID_In_Stock _Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 1b08c2ee-972c-4402-b7a5-d48e81fb5a5b
+dates:
+  send_date: '2025-01-13'
+  inferred_send_type: scheduled
+  first_sent: '2025-01-13T16:01:16+00:00'
+  last_sent: '2025-01-13T16:06:58+00:00'
+tags: []
+sends:
+- id: b83fff8c-c053-4a5c-8964-977964ecb9ce
+  channel: email
+  name: Variant 1
+  subject: 30% off & ready-to-ship 👀
+  preheader: Shop in-stock now
+- id: 37a2438a-cb1c-45a5-a68b-f3d31fcfd0cb
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 97351
+  total_delivered: 96422
+  total_opens: 26706
+  total_clicks: 1623
+  open_rate: 0.2743
+  click_rate: 0.0167
+  total_revenue: 129844.0
+  total_bounces: 1
+  total_unsubscribes: 84
+  ga4:
+    sessions: 3512
+    purchases: 18
+    revenue: 50692.78
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.342364'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:45.487763'
+schedule_type: time_based

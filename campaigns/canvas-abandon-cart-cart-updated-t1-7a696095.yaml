@@ -1,0 +1,34 @@
+id: 7a696095-3d6a-4c5f-9d68-b5f7b4cc9c60
+name: TRG_EM_2026_02_BW_D_Cart_Abandon_T1_V4
+brand: BUR
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 8ca874dc-0ab7-4657-b4cf-abba50624472
+canvas_name: Abandon Cart - Cart Updated
+flow_type: cart_abandonment
+sequence_position: 1
+subject: Just circling back
+preheader: Your cart has saved your picks, the rest is simple.
+sends:
+- id: 7a696095-3d6a-4c5f-9d68-b5f7b4cc9c60
+  channel: email
+  name: TRG_EM_2026_02_BW_D_Cart_Abandon_T1_V4
+  subject: Just circling back
+  preheader: Your cart has saved your picks, the rest is simple.
+  html_file: html/canvas-abandon-cart-cart-updated-t1-7a696095.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-01-17T12:00:00Z'
+  last_sent: '2026-09-07T13:00:00Z'
+performance_summary:
+  total_sends: 10539
+  total_delivered: 10418
+  total_opens: 6352
+  total_clicks: 625
+  open_rate: 0.6027
+  click_rate: 0.0593
+  total_unsubscribes: 103
+  total_bounces: 12
+  total_revenue: 563675.0

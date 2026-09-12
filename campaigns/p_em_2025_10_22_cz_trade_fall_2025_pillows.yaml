@@ -1,0 +1,61 @@
+id: c8895f0f-fafe-4c09-a8e6-a564947d78f1
+name: P_EM_2025_10_22_CZ_TRADE_Fall_2025_Pillows
+brand: CZ
+channel: email
+category: other
+type: seasonal
+theme: fall
+braze_id: c8895f0f-fafe-4c09-a8e6-a564947d78f1
+dates:
+  send_date: '2025-10-22'
+  inferred_send_type: local_time
+  first_sent: '2025-10-21T23:14:24+00:00'
+  last_sent: '2025-10-22T19:00:59+00:00'
+tags: []
+sends:
+- id: a70ccc24-a7b8-4370-a156-8a150864cb71
+  channel: email
+  name: Variant 1
+  subject: 25% Off The Citizenry’s Handwoven Pillows
+  preheader: Heirloom-worthy accents from Fall 2025.
+- id: 037700d4-4bed-4afa-ae80-c63cd48dfb11
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 19939
+  total_delivered: 19338
+  total_opens: 9650
+  total_clicks: 79
+  open_rate: 0.484
+  click_rate: 0.004
+  total_revenue: 90957.99
+  total_bounces: 9
+  total_unsubscribes: 45
+  ga4:
+    sessions: 92
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.061055'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-anniversary-sale-2025-10-09
+    name: The Anniversary Sale
+    start_date: '2025-10-09'
+    end_date: '2025-10-22'
+    discount: 20% Off Sitewide
+    type: null
+  primary_sale:
+    id: cz-the-anniversary-sale-2025-10-09
+    name: The Anniversary Sale
+    start_date: '2025-10-09'
+    end_date: '2025-10-22'
+    discount: 20% Off Sitewide
+    type: null
+  sale_name: The Anniversary Sale
+  sale_discount: 20% Off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:38.414932'

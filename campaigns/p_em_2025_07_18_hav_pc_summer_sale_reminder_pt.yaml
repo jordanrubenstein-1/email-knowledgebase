@@ -1,0 +1,35 @@
+id: 2675bf85-f379-4f19-8334-83dc47b76aeb
+name: P_EM_2025_07_18_HAV_PC_Summer_Sale_Reminder_PT
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: summer
+braze_id: 2675bf85-f379-4f19-8334-83dc47b76aeb
+dates:
+  send_date: '2025-07-18'
+  first_sent: '2025-07-17T20:51:37+00:00'
+  last_sent: '2025-07-18T18:15:12+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 988bb7a4-62b7-49d7-81a5-41695d1f0021
+  channel: email
+  name: Variant 1
+  subject: The home of your dreams is now 40% off...
+  preheader: Our Summer Sale is live.
+- id: 23afdc4d-b0fe-4c89-9fa0-de4110c25be6
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 229202
+  total_delivered: 225661
+  total_opens: 96909
+  total_clicks: 388
+  open_rate: 0.4228
+  click_rate: 0.0017
+  total_bounces: 18
+  total_unsubscribes: 428
+schedule_type: time_based
+_filename: p_em_2025_07_18_hav_pc_summer_sale_reminder_pt.yaml

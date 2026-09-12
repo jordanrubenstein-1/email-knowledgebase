@@ -1,0 +1,85 @@
+id: 5567b981-ea45-4111-9985-a0f648b0f1b9
+name: 2025_05_11_BW_Bestsellers
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 5567b981-ea45-4111-9985-a0f648b0f1b9
+dates:
+  send_date: '2025-05-11'
+  inferred_send_type: local_time
+  first_sent: '2025-05-10T18:23:55+00:00'
+  last_sent: '2025-05-11T17:15:16+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 0cf1fb33-5a5c-4d3f-9500-42ade1c943dc
+  channel: email
+  name: Variant 1
+  subject: Our best sellers...
+  preheader: According to you, and now 25% off
+- id: 7982760b-f177-43c0-bd97-c20033574e30
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 260133
+  total_delivered: 258512
+  total_opens: 89284
+  total_clicks: 510
+  open_rate: 0.3432
+  click_rate: 0.002
+  total_revenue: 52757.0
+  total_bounces: 1
+  total_unsubscribes: 68
+  ga4:
+    sessions: 250
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.345726'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-burrow-2025-05-09
+    name: Burrow
+    start_date: '2025-05-09'
+    end_date: '2025-05-13'
+    discount: 'The Memorial Day Event
+
+      25% off sitewide, plus FREE GROUND SHIPPING on orders >$2k
+
+      Early Access: No code; EA messaging and strikethrough live on-site from 5/9'
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-burrow-2025-05-09
+    name: Burrow
+    start_date: '2025-05-09'
+    end_date: '2025-05-13'
+    discount: 'The Memorial Day Event
+
+      25% off sitewide, plus FREE GROUND SHIPPING on orders >$2k
+
+      Early Access: No code; EA messaging and strikethrough live on-site from 5/9'
+    type: null
+  sale_name: Burrow
+  sale_discount: 'The Memorial Day Event
+
+    25% off sitewide, plus FREE GROUND SHIPPING on orders >$2k
+
+    Early Access: No code; EA messaging and strikethrough live on-site from 5/9'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:40.819849'
+schedule_type: time_based

@@ -1,0 +1,33 @@
+id: 279ccaab-d0cb-4e1c-99c5-3cba2ff8155e
+name: P_EM_2026_05_24_BW_D_Memorial_Day_Sale_Reminder_Email
+brand: BUR
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 279ccaab-d0cb-4e1c-99c5-3cba2ff8155e
+dates:
+  send_date: '2026-05-24'
+  last_sent: '2026-05-24'
+tags:
+- Batch&Blast
+sends:
+- id: 2a4d5f20-0ace-4469-9b72-bcd7b00a3593
+  channel: email
+  name: Variant 1
+  subject: The Memorial Day Sale is ending soon
+  preheader: Shop up to 50% off, plus free shipping.
+- id: 4fe2f6f3-e7fe-48c0-b230-9608421be4c7
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 163752
+  total_delivered: 163172
+  total_opens: 84139
+  total_clicks: 344
+  open_rate: 0.5138
+  click_rate: 0.0021
+  total_revenue: 229094.0
+  total_unsubscribes: 138
+schedule_type: time_based
+_filename: p_em_2026_05_24_bw_d_memorial_day_sale_reminder_email.yaml

@@ -1,0 +1,34 @@
+id: 6cebcc2e-6fa4-49d7-ad65-cea32e60cc4e
+name: P_EM_2025_09_01_ID_PT_PM_Labor_Day_Reminder_Engaged
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 6cebcc2e-6fa4-49d7-ad65-cea32e60cc4e
+dates:
+  send_date: '2025-09-01'
+  inferred_send_type: local_time
+  first_sent: '2025-09-01T03:22:57+00:00'
+  last_sent: '2025-09-02T02:15:13+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: b0e19e8b-ef41-4152-83b9-a8fdca97eedb
+  channel: email
+  name: Variant 1
+  subject: 'Time’s running out: Labor Day savings expire soon'
+- id: a060673e-b1b1-4261-8fdc-2286a1191b66
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 32572
+  total_delivered: 32520
+  total_opens: 20026
+  total_clicks: 480
+  open_rate: 0.6148
+  click_rate: 0.0147
+  total_revenue: 264844.0
+  total_unsubscribes: 165
+_filename: p_em_2025_09_01_id_pt_pm_labor_day_reminder_engaged.yaml
+schedule_type: time_based

@@ -1,0 +1,43 @@
+id: 16034212-98ae-4f30-a194-66e1651cc76c
+name: P_EM_2025_12_30_BW_D_Best_of_Sale
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 16034212-98ae-4f30-a194-66e1651cc76c
+dates:
+  send_date: '2025-12-30'
+  inferred_send_type: local_time
+  first_sent: '2025-12-29T18:56:13+00:00'
+  last_sent: '2025-12-30T17:16:40+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 978175b3-31d9-43a0-9626-3152f152b6c2
+  channel: email
+  name: Variant 1
+  subject: See what everyone’s shopping
+  preheader: Two more days to save up to 30% off
+- id: fcfd9ef7-aef3-4083-b059-13950a5ee7dd
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 241400
+  total_delivered: 240109
+  total_opens: 132083
+  total_clicks: 448
+  open_rate: 0.5472
+  click_rate: 0.0019
+  total_revenue: 66261.0
+  total_bounces: 2
+  total_unsubscribes: 325
+  ga4:
+    sessions: 246
+    purchases: 2
+    revenue: 3079.52
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.256852'
+    source: snowflake
+    channel: email
+schedule_type: time_based

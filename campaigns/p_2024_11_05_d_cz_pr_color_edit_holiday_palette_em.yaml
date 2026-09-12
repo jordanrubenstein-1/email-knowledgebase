@@ -1,0 +1,60 @@
+id: b058f12d-b7bc-457a-80f1-e1ea3b6cca61
+name: P_2024_11_05_D_CZ_PR_Color_Edit_Holiday_Palette_Email
+brand: CZ
+channel: email
+category: editorial
+type: seasonal
+theme: christmas
+braze_id: b058f12d-b7bc-457a-80f1-e1ea3b6cca61
+dates:
+  send_date: '2024-11-05'
+  inferred_send_type: local_time
+  first_sent: '2024-11-04T23:26:11+00:00'
+  last_sent: '2024-11-05T17:00:24+00:00'
+tags:
+- batch and blast
+sends:
+- id: 4616fd04-250e-4d7b-b4c7-621b4b54b289
+  channel: email
+  name: Variant 1
+  subject: A New Take on Holiday Reds and Greens
+  preheader: Meet the color palette of the season.
+  html_file: html/p_2024_11_05_d_cz_pr_color_edit_holiday_palette_email.html
+  screenshot: screenshots/p_2024_11_05_d_cz_pr_color_edit_holiday_palette_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67292a68cf9ff300649e6afa/original.jpg?1730751080
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67292ac1e66c15006637193e/original.jpg?1730751169
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67292a9c092f10006422b75d/original.jpg?1730751132
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672929edecacd700801781b0/original.jpg?1730750957
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67291f61df30220066428f6a/original.jpg?1730748256
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67292a54092f10006422b5aa/original.jpg?1730751060
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67292a77e66c150066371806/original.jpg?1730751095
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67292b00e66c150066371aa6/original.jpg?1730751232
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67292a180874890074a166d0/original.jpg?1730751000
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67291f71fbf8a1006399e0aa/original.jpg?1730748273
+- id: 4b7b9a3e-e50d-4b6c-944c-8cf4ee642418
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 91436
+  total_delivered: 90877
+  total_opens: 41926
+  total_clicks: 748
+  open_rate: 0.4585
+  click_rate: 0.0082
+  total_revenue: 55887.79
+  total_bounces: 3
+  total_unsubscribes: 120
+  ga4:
+    sessions: 942
+    purchases: 7
+    revenue: 2952.89
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.368482'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.115495'
+schedule_type: time_based

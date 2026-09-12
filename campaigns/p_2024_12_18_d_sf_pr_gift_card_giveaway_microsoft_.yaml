@@ -1,0 +1,56 @@
+id: 766f59ed-7259-4831-8a73-2532a68a1ae8
+name: P_2024_12_18_D_SF_PR_Gift_Card_Giveaway_Microsoft_Email
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 766f59ed-7259-4831-8a73-2532a68a1ae8
+dates:
+  send_date: '2024-12-18'
+  inferred_send_type: local_time
+  first_sent: '2024-12-18T00:22:33+00:00'
+  last_sent: '2024-12-18T15:30:13+00:00'
+tags: []
+sends:
+- id: 0e3e3849-0d2c-472d-a5fb-822e7cc56bc5
+  channel: email
+  name: Variant 1
+  subject: $1,000 Shopping Spree On Us ❤️‍🔥
+  preheader: let us know your favorite pattern for a chance to win
+  html_file: html/p_2024_12_18_d_sf_pr_gift_card_giveaway_microsoft_email.html
+  screenshot: screenshots/p_2024_12_18_d_sf_pr_gift_card_giveaway_microsoft_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6761f785d9e3990065113902/original.gif?1734473605
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6761f7e1d494250065f2725c/original.gif?1734473697
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6761f86787684900639f8898/original.jpg?1734473830
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6761f836d9e3990065113bb5/original.gif?1734473782
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6761f79cd494250065f27185/original.gif?1734473628
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6761f81ad0463d007377d26c/original.gif?1734473754
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6761f7afe315a3006315fe8a/original.gif?1734473647
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6761f893d9bc370065a5693a/original.gif?1734473875
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6761f7c53408c10072a9b8bd/original.gif?1734473668
+- id: 3c6d6160-36d3-4718-80fc-25d3c64beea5
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 92
+  total_delivered: 92
+  total_opens: 41
+  total_clicks: 3
+  open_rate: 0.4457
+  click_rate: 0.0326
+  ga4:
+    sessions: 6
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.727252'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.399059'
+schedule_type: time_based

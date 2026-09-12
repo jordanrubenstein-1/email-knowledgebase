@@ -1,0 +1,23 @@
+id: c46d7972-4432-4d6f-99c5-b3110f81e51e
+name: PUSH_CON_1_2_EOY_Sale_Last_Chance
+brand: HAV
+channel: push
+category: reminder
+type: sale
+theme: null
+braze_id: c46d7972-4432-4d6f-99c5-b3110f81e51e
+dates:
+  first_sent: '2025-01-02T20:12:57+00:00'
+  last_sent: '2025-01-03T01:35:06+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: a4d3c0c1-a8eb-4b32-9c12-77f570db2361
+  channel: push
+  name: Variant 1
+- id: fb22ce71-0e41-41eb-8940-b16a3d9cd2a2
+  channel: push
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: push_con_1_2_eoy_sale_last_chance.yaml

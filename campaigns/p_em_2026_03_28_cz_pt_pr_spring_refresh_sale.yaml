@@ -1,0 +1,41 @@
+id: 073ec7a7-bd0b-4658-b985-10aaff746bf8
+name: P_EM_2026_03_28_CZ_PT_PR_Spring_Refresh_Sale
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: spring
+braze_id: 073ec7a7-bd0b-4658-b985-10aaff746bf8
+dates:
+  send_date: '2026-03-28'
+  inferred_send_type: local_time
+  first_sent: '2026-03-27T21:43:15+00:00'
+  last_sent: '2026-03-28T20:05:14+00:00'
+tags:
+- batch and blast
+- pm
+- pt
+- sale
+- sale/presidentsday2026
+- sale_feat
+sends:
+- id: 129e1a44-6ed4-4698-a3a2-df2c5437c12d
+  channel: email
+  name: Variant 1
+  subject: Up to 25% during the Spring Event Sale
+  html_file: html/p_em_2026_03_28_cz_pt_pr_spring_refresh_sale.html
+  screenshot: screenshots/p_em_2026_03_28_cz_pt_pr_spring_refresh_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f83def4631c700674e669c/original.png?1744322031
+- id: 878134db-5811-401b-be06-b1eaa5bd1b5b
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 112033
+  total_delivered: 111877
+  total_opens: 54355
+  total_clicks: 531
+  open_rate: 0.4852
+  click_rate: 0.0047
+  total_unsubscribes: 151
+schedule_type: time_based

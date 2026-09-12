@@ -1,0 +1,30 @@
+id: 2fb4f74c-7ee0-4f4a-9e4d-a497bbae0e28
+name: P_2025_6_24_July_4th_Sale_Carters_SMS
+brand: ID
+channel: sms
+category: sale_promo
+type: sale
+theme: null
+braze_id: 2fb4f74c-7ee0-4f4a-9e4d-a497bbae0e28
+dates:
+  send_date: '2025-06-24'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-24T20:45:37+00:00'
+  last_sent: '2025-06-24T20:46:12+00:00'
+tags: []
+sends:
+- id: 4c78a1d4-3f6c-4d10-a756-e6241394bacd
+  channel: other
+  name: Variant 1
+- id: 16c46140-1c77-4ec5-b0a3-deca335eaaaf
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 531
+  total_delivered: 526
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 1140.0
+schedule_type: time_based

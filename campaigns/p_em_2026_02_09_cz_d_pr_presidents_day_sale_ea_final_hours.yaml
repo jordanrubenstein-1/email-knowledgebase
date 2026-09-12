@@ -1,0 +1,48 @@
+id: 815a0761-9fa8-45b0-b682-c186768fe584
+name: P_EM_2026_02_09_CZ_D_PR_Presidents_Day_Sale_EA_Final_Hours
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 815a0761-9fa8-45b0-b682-c186768fe584
+dates:
+  send_date: '2026-02-09'
+  inferred_send_type: local_time
+  first_sent: '2026-02-09T05:07:39+00:00'
+  last_sent: '2026-02-10T05:04:25+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale/presidentsday2026
+- sale_feat
+sends:
+- id: f028d7b2-e06c-4b86-865f-741222285fa6
+  channel: email
+  name: Variant 1
+  subject: Early Access Ends Tonight
+  preheader: Get first pick and up to 25% off.
+  html_file: html/p_em_2026_02_09_cz_d_pr_presidents_day_sale_ea_final_hours.html
+  screenshot: screenshots/p_em_2026_02_09_cz_d_pr_presidents_day_sale_ea_final_hours.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698610b201b08a0063f4ea70/original.png?1770393777
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698610bafe1435006490d077/original.png?1770393786
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698610e86525bf0063881a6d/original.png?1770393831
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698610dcd3c2be006380ff64/original.gif?1770393820
+- id: 563190af-4919-48cf-bdda-e55fdaed81a7
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 113389
+  total_delivered: 113175
+  total_opens: 57492
+  total_clicks: 830
+  open_rate: 0.507
+  click_rate: 0.0073
+  total_bounces: 3
+  total_unsubscribes: 121
+_filename: p_em_2026_02_09_cz_d_pr_presidents_day_sale_ea_final_hours.yaml
+schedule_type: time_based

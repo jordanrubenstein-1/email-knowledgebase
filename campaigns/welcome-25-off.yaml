@@ -1,0 +1,113 @@
+id: 611adfad-2978-44a6-9fe6-770f459b13ef
+name: Welcome $25 Off
+brand: CZ
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: 611adfad-2978-44a6-9fe6-770f459b13ef
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-03-10T21:00:00+00:00'
+  last_sent: '2025-08-12T04:00:00+00:00'
+tags: []
+sends:
+- id: f5f3004a-f6dd-4d1c-877a-576bc5ae0a71
+  channel: other
+  name: Variant 1
+- id: 8db8a43e-ad25-49c8-afda-d61e519e5463
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.165679'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-citizenry-2025-03-12
+    name: The Citizenry
+    start_date: '2025-03-12'
+    end_date: '2025-03-13'
+    discount: "The Spring Event\nUp to 30% Off Select Categories: ALL MTO Furniture,\
+      \ Bedding, + Bath at 20%, plus SELECT (overstocked) Rugs at 20-30%\nArchive\
+      \ Sale up to 65%  including Fresh Cuts!\nTrade: 25% Off \nFree Swatch Promo\
+      \ (up to 5 swatches) 3/1-3/10"
+    type: null
+  - id: cz-the-citizenry-2025-04-11
+    name: The Citizenry
+    start_date: '2025-04-11'
+    end_date: '2025-04-13'
+    discount: 'Fresh Foundations
+
+      Up to 50% Off Select Rugs (tiered strikethrough)
+
+      15% Off Bedding, Pillows, and Accents (flat strikethrough)
+
+      No Trade Discount'
+    type: null
+  - id: cz-the-citizenry-2025-05-13
+    name: The Citizenry
+    start_date: '2025-05-13'
+    end_date: '2025-05-14'
+    discount: "The Memorial Day Event \n20% off Sitewide (Trade 25% off sitewide)\
+      \ inc MTO\nUp to 65% Archive Sale\nRETAIL ONLY EA VIA CODE - 5/7-5/12\nEarly\
+      \ Access: No code; EA messaging and strikethrough live on-site from 5/13"
+    type: null
+  - id: cz-the-citizenry-2025-06-12
+    name: The Citizenry
+    start_date: '2025-06-12'
+    end_date: '2025-06-12'
+    discount: 'The Summer Retreat Sale -- NO CODE NEEDED
+
+      20% Off Bedding, Bath, Baskets, Tableware, and Select Furniture (stocked funiture
+      only), + Up to 65% off Archive Sale
+
+      Trade: No Additional Offer'
+    type: null
+  - id: cz-the-citizenry-2025-07-08
+    name: The Citizenry
+    start_date: '2025-07-08'
+    end_date: '2025-07-08'
+    discount: 'The Fourth of July Event - NO CODE NEEDED
+
+      20% Off Sitewide, lean into In Stock/Ready to Ship
+
+      25% Off Sitewide for Trade'
+    type: null
+  - id: cz-the-bedroom-event-2025-07-23
+    name: The Bedroom Event
+    start_date: '2025-07-23'
+    end_date: '2025-07-24'
+    discount: 20% off Bedding, Pillows, Bedroom Furniture
+    type: null
+  - id: cz-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: Up to 65% Off Select Categories - Focus on Archive Sale and In Stock
+      Product
+    type: null
+  primary_sale:
+    id: cz-the-citizenry-2025-03-12
+    name: The Citizenry
+    start_date: '2025-03-12'
+    end_date: '2025-03-13'
+    discount: "The Spring Event\nUp to 30% Off Select Categories: ALL MTO Furniture,\
+      \ Bedding, + Bath at 20%, plus SELECT (overstocked) Rugs at 20-30%\nArchive\
+      \ Sale up to 65%  including Fresh Cuts!\nTrade: 25% Off \nFree Swatch Promo\
+      \ (up to 5 swatches) 3/1-3/10"
+    type: null
+  sale_name: The Citizenry
+  sale_discount: "The Spring Event\nUp to 30% Off Select Categories: ALL MTO Furniture,\
+    \ Bedding, + Bath at 20%, plus SELECT (overstocked) Rugs at 20-30%\nArchive Sale\
+    \ up to 65%  including Fresh Cuts!\nTrade: 25% Off \nFree Swatch Promo (up to\
+    \ 5 swatches) 3/1-3/10"
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:39.873333'
+schedule_type: action_based

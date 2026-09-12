@@ -1,0 +1,40 @@
+id: 91a7c75a-a894-47b9-82e9-f7aa94fb2628
+name: P_EM_2025_09_07_SF_D_PR_Fall_Lookbook_Labor_Day_Event
+brand: STF
+channel: email
+category: sale_promo
+type: seasonal
+theme: fall
+braze_id: 91a7c75a-a894-47b9-82e9-f7aa94fb2628
+dates:
+  send_date: '2025-09-07'
+  inferred_send_type: local_time
+  first_sent: '2025-09-06T18:08:54+00:00'
+  last_sent: '2025-09-07T17:00:18+00:00'
+tags:
+- Batch and Blast
+- am
+- collect
+- d2c
+- designed
+- sale
+sends:
+- id: 500af196-ebf5-43a3-b5e0-797cc1f76cfe
+  channel: email
+  name: Variant 1
+  subject: 'JUST IN: The Fall Lookbook'
+  preheader: luxe, bold, and exclusively 25% off
+- id: 2897e748-f727-47c8-9ab2-5d471e788dc9
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 40014
+  total_delivered: 39692
+  total_opens: 18329
+  total_clicks: 421
+  open_rate: 0.4581
+  click_rate: 0.0105
+  total_bounces: 1
+  total_unsubscribes: 47
+_filename: p_em_2025_09_07_sf_d_pr_fall_lookbook_labor_day_event.yaml
+schedule_type: time_based

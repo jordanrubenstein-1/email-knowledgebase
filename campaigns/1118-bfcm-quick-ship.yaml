@@ -1,0 +1,75 @@
+id: klaviyo-01JCRDMWB8E0R91REWDN8BVBMM
+name: '11/18: BFCM Quick Ship'
+brand: TI
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2024-11-15'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-18T07:00:00+00:00'
+  last_sent: '2024-11-18T07:00:00+00:00'
+sends:
+- id: 01JCRDMWCAYAGSFJ8NF8Y0D819
+  channel: email
+  name: '11/18: BFCM Quick Ship'
+  subject: '25% Off: Quick Ship Collection'
+  preheader: Get it fast, and for less. Win, win.
+  html_file: html/1118-bfcm-quick-ship.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/c9d7020b-64ba-47db-8d5c-9369da965e28.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/c5349ce2-993d-4912-81a1-def6a6e7cfcf.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/3ae54fd0-9176-4a62-ac90-9ed72f8983d9.gif
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/cb797afd-cba5-4b2a-bbc7-c97aac729d62.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/8c2c6f85-4b3b-43e6-8969-8d6aa9b9254e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/91b3c069-38d1-4578-9309-82b739dc4bc4.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/48f8b0bf-f674-4de6-83a6-f00ae0bfb57e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/8c389a6e-d353-46de-b572-442299c7ae62.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/a6914b56-6036-43ae-8525-e399b38af448.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/2d03f359-7064-4882-bffb-64022ec0faa5.jpeg
+  screenshot: screenshots/1118-bfcm-quick-ship.png
+performance_summary:
+  total_sends: 103705
+  total_delivered: 103153
+  total_opens: 33842
+  total_clicks: 559
+  unique_opens: 23462
+  unique_clicks: 211
+  open_rate: 0.2262
+  click_rate: 0.002
+  total_open_rate: 0.3263
+  total_click_rate: 0.0054
+  total_unsubscribes: 44
+  total_bounces: 552
+klaviyo_type: campaign
+klaviyo_campaign_id: 01JCRDMWB8E0R91REWDN8BVBMM
+klaviyo_message_id: 01JCRDMWCAYAGSFJ8NF8Y0D819
+structure:
+  image_count: 29
+  link_count: 30
+  has_gif: true
+  hero_width: 600
+  layout_type: product_grid
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: ti-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: ti-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-03-12T11:18:47.680524'

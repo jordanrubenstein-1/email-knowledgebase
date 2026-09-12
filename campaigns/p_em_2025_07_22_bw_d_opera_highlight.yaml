@@ -1,0 +1,73 @@
+id: 8c871388-8cbf-4a3f-ba71-e391ef70b6c4
+name: P_EM_2025_07_22_BW_D_Opera_Highlight
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 8c871388-8cbf-4a3f-ba71-e391ef70b6c4
+dates:
+  send_date: '2025-07-22'
+  inferred_send_type: local_time
+  first_sent: '2025-07-21T20:58:42+00:00'
+  last_sent: '2025-07-22T17:15:24+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: e0f32fb5-f12c-42f7-9de7-e8a6da44269d
+  channel: email
+  name: Variant 1
+  subject: 'Best in Show: Opera'
+  preheader: Shop our bestselling storage solution, Opera.
+- id: 3dff2dce-0eaf-4b64-92e6-492897bbc34b
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 254466
+  total_delivered: 252540
+  total_opens: 145860
+  total_clicks: 401
+  open_rate: 0.5732
+  click_rate: 0.0016
+  total_revenue: 15543.5
+  total_bounces: 1
+  total_unsubscribes: 544
+  ga4:
+    sessions: 211
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.899471'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-seating-flash-sale-2025-07-18
+    name: Seating Flash Sale
+    start_date: '2025-07-18'
+    end_date: '2025-07-21'
+    discount: Up to 30% off all Seating Collections
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-seating-flash-sale-2025-07-18
+    name: Seating Flash Sale
+    start_date: '2025-07-18'
+    end_date: '2025-07-21'
+    discount: Up to 30% off all Seating Collections
+    type: null
+  sale_name: Seating Flash Sale
+  sale_discount: Up to 30% off all Seating Collections
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:35.721566'
+schedule_type: time_based

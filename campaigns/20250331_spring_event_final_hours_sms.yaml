@@ -1,0 +1,30 @@
+id: a04f088d-8561-404d-8c15-0b0e6fc37f33
+name: 20250331_Spring_Event_Final_Hours_SMS
+brand: BUR
+channel: sms
+category: reminder
+type: seasonal
+theme: spring
+braze_id: a04f088d-8561-404d-8c15-0b0e6fc37f33
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-03-31T01:07:58+00:00'
+  last_sent: '2025-04-01T01:00:40+00:00'
+tags: []
+sends:
+- id: 2c26f0e3-4571-46a2-86e5-f35cb8dc02f9
+  channel: other
+  name: Variant 1
+- id: cfd4eb0c-2965-4dab-8ee8-a06b8d3732fd
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 205
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.493951'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

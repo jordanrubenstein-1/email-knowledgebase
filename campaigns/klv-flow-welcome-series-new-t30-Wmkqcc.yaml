@@ -1,0 +1,56 @@
+id: klaviyo-Wmkqcc
+name: TRG_EM_2026_03_TI_D_Welcome_UGC_T4_V2
+brand: TI
+channel: email
+category: other
+type: product_launch
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: SmPgUp
+canvas_name: Welcome Series - NEW
+flow_type: welcome_series
+sequence_position: 30
+dates:
+  created: '2023-04-28'
+  inferred_send_type: sto
+  first_sent: '2023-04-28'
+  last_sent: '2026-06-24'
+sends:
+- id: Wmkqcc
+  channel: email
+  name: Message
+  subject: The best part? Making it yours.
+  preheader: See how others styled theirs, and start imagining yours.
+  html_file: html/klv-flow-welcome-series-new-t30-Wmkqcc.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/1dc9c011-dbea-42df-8d02-bb18d6125a4c.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/9eeaef97-944e-4e36-9ac7-62c625e3442b.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/c865c43a-fdc9-4c8b-b3aa-929bc6907df9.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/15f2b3d8-173d-4d3f-837d-4d9478d3f1d4.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/5b376c4a-e849-4c1e-afba-fc6d4cc5d934.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/c060f5a5-8bac-44d4-9fb7-52c504a3d971.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/5caa7ca2-d4fb-4afa-b7f2-ee142d75cb1e.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/3c3d0700-77ce-458c-b785-7580a35f0f2f.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/22cd3c51-ac7e-439a-9f62-11240c2f638e.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/41cc31a6-50f3-4aa5-913c-f591c6784eec.png
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: Wmkqcc
+structure:
+  image_count: 23
+  link_count: 24
+  has_gif: false
+  hero_width: 600
+  layout_type: product_grid

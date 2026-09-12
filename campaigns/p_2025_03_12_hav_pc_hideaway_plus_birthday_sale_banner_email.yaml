@@ -1,0 +1,35 @@
+id: 08c9b073-b1e2-4a17-b2e6-83b1e9dfa339
+name: P_2025_03_12_HAV_PC_Hideaway_Plus_Birthday_Sale_Banner_Email
+brand: HAV
+channel: email
+category: editorial
+type: sale
+theme: null
+braze_id: 08c9b073-b1e2-4a17-b2e6-83b1e9dfa339
+dates:
+  send_date: '2025-03-12'
+  first_sent: '2025-03-12T13:12:32+00:00'
+  last_sent: '2025-03-13T03:00:28+00:00'
+  inferred_send_type: scheduled
+tags:
+- HideawayEmails
+sends:
+- id: ecf53603-a4ca-4963-a595-3d8cd512a2e9
+  channel: email
+  name: Variant 1
+  subject: 'Meet 2025’s version of Coastal Grandmother '
+  preheader: 'According to Pinterest. '
+- id: fc56d25c-54e8-410a-8cd4-ed92ab600720
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 193334
+  total_delivered: 190191
+  total_opens: 87728
+  total_clicks: 1021
+  open_rate: 0.4538
+  click_rate: 0.0053
+  total_bounces: 5
+  total_unsubscribes: 247
+schedule_type: time_based
+_filename: p_2025_03_12_hav_pc_hideaway_plus_birthday_sale_banner_email.yaml

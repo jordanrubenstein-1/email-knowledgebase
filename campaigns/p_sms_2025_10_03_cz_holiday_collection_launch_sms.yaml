@@ -1,0 +1,37 @@
+id: c96e6f4e-d385-4b21-bae5-755cf4aa558b
+name: P_SMS_2025_10_03_CZ_Holiday_Collection_Launch_SMS
+brand: CZ
+channel: sms
+category: product_launch
+type: seasonal
+theme: christmas
+braze_id: c96e6f4e-d385-4b21-bae5-755cf4aa558b
+dates:
+  send_date: '2025-10-03'
+  inferred_send_type: scheduled
+  first_sent: '2025-10-03T16:18:49+00:00'
+  last_sent: '2025-10-04T01:00:58+00:00'
+tags: []
+sends:
+- id: 31c77bd1-5d0c-4512-812c-29d68fcd2846
+  channel: sms
+  name: Variant 1
+- id: 0e583a31-ec6e-45bc-be88-fbebad036136
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 21393
+  total_delivered: 19891
+  total_opens: 0
+  total_clicks: 476
+  open_rate: 0.0
+  click_rate: 0.0223
+  ga4:
+    sessions: 440
+    purchases: 2
+    revenue: 488.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.713362'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

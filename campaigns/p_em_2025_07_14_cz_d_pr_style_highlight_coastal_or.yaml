@@ -1,0 +1,63 @@
+id: d6d941a7-a259-416e-9549-1ca12c013adc
+name: P_EM_2025_07_14_CZ_D_PR_Style_Highlight_Coastal_Organic
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: d6d941a7-a259-416e-9549-1ca12c013adc
+dates:
+  send_date: '2025-07-14'
+  inferred_send_type: local_time
+  first_sent: '2025-07-14T04:34:26+00:00'
+  last_sent: '2025-07-14T23:00:41+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- gtl
+sends:
+- id: 84d014fb-9cf7-4faa-85ba-23e2d9a1d435
+  channel: email
+  name: Variant 1
+  subject: 'Get the Look: Coastal Organic'
+  preheader: The laid-back, resort vibes we're craving this summer.
+  html_file: html/p_em_2025_07_14_cz_d_pr_style_highlight_coastal_organic.html
+  screenshot: screenshots/p_em_2025_07_14_cz_d_pr_style_highlight_coastal_organic.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68718b8af004de00644feb48/original.png?1752271753
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68718bcb4ab8d80066100b21/original.png?1752271819
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68718b92faf9cf006690f72d/original.png?1752271761
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68718bd4d193320066e40250/original.png?1752271828
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68718a51f004de00644fe29d/original.png?1752271441
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68718b9e98155200657e9f1a/original.png?1752271773
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68718b6c4a361100662fdbd2/original.png?1752271724
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687191a74ab8d80066101cd7/original.png?1752273319
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68718a7f363158006769cc50/original.png?1752271486
+- id: 547eeb5e-c648-4e18-b2d7-9b622e1bc627
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 99964
+  total_delivered: 99376
+  total_opens: 52262
+  total_clicks: 841
+  open_rate: 0.5228
+  click_rate: 0.0084
+  total_revenue: 57193.14
+  total_bounces: 1
+  total_unsubscribes: 138
+  ga4:
+    sessions: 1079
+    purchases: 7
+    revenue: 2569.32
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.558474'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.256717'
+schedule_type: time_based

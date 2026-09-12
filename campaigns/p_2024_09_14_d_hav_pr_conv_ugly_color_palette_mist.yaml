@@ -1,0 +1,51 @@
+id: b0bd2c3c-2f77-4833-9422-c0e6dfeef109
+name: P_2024_09_14_D_HAV_PR_CONV_Ugly_Color_Palette_Mistakes_Email
+brand: HAV
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: b0bd2c3c-2f77-4833-9422-c0e6dfeef109
+dates:
+  send_date: '2024-09-14'
+  inferred_send_type: local_time
+  first_sent: '2024-09-13T23:54:55+00:00'
+  last_sent: '2024-09-14T17:15:04+00:00'
+tags: []
+sends:
+- id: 2feaf190-22eb-46a8-b057-598f392adf25
+  channel: email
+  name: Variant 1
+  subject: 10 color palette mistakes you don't have to make
+  preheader: the color do's & don'ts
+  html_file: html/p_2024_09_14_d_hav_pr_conv_ugly_color_palette_mistakes_email.html
+  screenshot: screenshots/p_2024_09_14_d_hav_pr_conv_ugly_color_palette_mistakes_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e3125984eceb0082704f5a/original.jpg?1726157401
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e3122673aee200730ebf43/original.jpg?1726157349
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e31219c87f1e006426ebe5/original.jpg?1726157336
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e3123f84eceb0073705283/original.gif?1726157375
+- id: 31fa0e43-c483-4c50-92e1-889c4563fb76
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 35741
+  total_delivered: 35626
+  total_opens: 21233
+  total_clicks: 927
+  open_rate: 0.5941
+  click_rate: 0.0259
+  total_unsubscribes: 67
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.568858'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.561855'
+schedule_type: time_based

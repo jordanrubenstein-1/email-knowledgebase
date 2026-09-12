@@ -1,0 +1,42 @@
+id: dc91d13f-1b10-4351-9b81-15ea844dd73b
+name: P_EM_2025_08_26_PT_CZ_Cart_Abandon_Labor_Day_Event_PM
+brand: CZ
+channel: email
+category: sale_promo
+type: lifecycle
+theme: null
+braze_id: dc91d13f-1b10-4351-9b81-15ea844dd73b
+dates:
+  send_date: '2025-08-26'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-26T23:09:52+00:00'
+  last_sent: '2025-08-26T23:12:46+00:00'
+tags:
+- pm
+- pt
+- sale
+- sale_feat
+- seg
+sends:
+- id: 73e22e00-f1b1-4d7b-b418-6cfd00885b22
+  channel: email
+  name: Variant 1
+  subject: Still thinking it over? Your picks are 20% off—but not for long.
+  html_file: html/p_em_2025_08_26_pt_cz_cart_abandon_labor_day_event_pm.html
+  screenshot: screenshots/p_em_2025_08_26_pt_cz_cart_abandon_labor_day_event_pm.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f83def4631c700674e669c/original.png?1744322031
+- id: cac083f5-e9ea-4707-b7af-eff359391821
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 2877
+  total_delivered: 2860
+  total_opens: 1730
+  total_clicks: 87
+  open_rate: 0.6013
+  click_rate: 0.0302
+  total_revenue: 30914.92
+  total_unsubscribes: 23
+_filename: p_em_2025_08_26_pt_cz_cart_abandon_labor_day_event_pm.yaml
+schedule_type: time_based

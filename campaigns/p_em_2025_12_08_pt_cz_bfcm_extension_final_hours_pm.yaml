@@ -1,0 +1,44 @@
+id: d0fbee4f-3312-4bec-8175-2a2688cb7988
+name: P_EM_2025_12_08_PT_CZ_BFCM_Extension_Final_Hours_PM
+brand: CZ
+channel: email
+category: reminder
+type: announcement
+theme: black_friday
+braze_id: d0fbee4f-3312-4bec-8175-2a2688cb7988
+dates:
+  send_date: '2025-12-08'
+  inferred_send_type: local_time
+  first_sent: '2025-12-08T02:08:21+00:00'
+  last_sent: '2025-12-09T02:03:53+00:00'
+tags:
+- batch and blast
+- pm
+- pt
+- sale
+- sale/bfcm
+- sale_feat
+sends:
+- id: d4650c1d-8663-4b5e-a1a6-70a009a5807b
+  channel: email
+  name: Variant 1
+  subject: Final hours to save 20% sitewide
+  preheader: Don’t miss your last chance during Cyber Week
+  html_file: html/p_em_2025_12_08_pt_cz_bfcm_extension_final_hours_pm.html
+  screenshot: screenshots/p_em_2025_12_08_pt_cz_bfcm_extension_final_hours_pm.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f83def4631c700674e669c/original.png?1744322031
+- id: 94e90277-7336-499d-8943-ca647c0e4b98
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 58014
+  total_delivered: 57960
+  total_opens: 32218
+  total_clicks: 480
+  open_rate: 0.5553
+  click_rate: 0.0083
+  total_bounces: 1
+  total_unsubscribes: 118
+_filename: p_em_2025_12_08_pt_cz_bfcm_extension_final_hours_pm.yaml
+schedule_type: time_based

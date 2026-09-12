@@ -1,0 +1,55 @@
+id: 2371c92e-94d3-42d2-939b-a2f41e0c9403
+name: 20241130_BFCM-Black-Friday-Reminder_AM
+brand: BUR
+channel: email
+category: reminder
+type: announcement
+theme: black_friday
+braze_id: 2371c92e-94d3-42d2-939b-a2f41e0c9403
+dates:
+  inferred_send_type: local_time
+  first_sent: '2024-11-29T17:21:59+00:00'
+  last_sent: '2024-11-30T17:15:07+00:00'
+tags: []
+sends:
+- id: 167b14bc-1f33-4292-8a41-da1b75c3a1cf
+  channel: email
+  name: Variant 1
+  subject: You still have time to save
+  preheader: Save up to 30% sitewide during our Black Friday event.
+- id: 3125fe53-e525-48d5-9d5b-291c2cebd1d8
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 526
+    purchases: 10
+    revenue: 7651.1
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.568504'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-20-off-2000-25-off-4000-30-off-4k-strikethrough-up-to-60-off-select-styles-2024-11-27
+    name: 20% off <$2000 / 25% off <$4000 / 30% off $4K+ (strikethrough) + up to 60%
+      off Select Styles
+    start_date: '2024-11-27'
+    end_date: '2024-12-03'
+    discount: null
+    type: null
+  primary_sale:
+    id: bur-20-off-2000-25-off-4000-30-off-4k-strikethrough-up-to-60-off-select-styles-2024-11-27
+    name: 20% off <$2000 / 25% off <$4000 / 30% off $4K+ (strikethrough) + up to 60%
+      off Select Styles
+    start_date: '2024-11-27'
+    end_date: '2024-12-03'
+    discount: null
+    type: null
+  sale_name: 20% off <$2000 / 25% off <$4000 / 30% off $4K+ (strikethrough) + up to
+    60% off Select Styles
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:43.121699'
+schedule_type: time_based

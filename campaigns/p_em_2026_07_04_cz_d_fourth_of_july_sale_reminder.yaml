@@ -1,0 +1,32 @@
+id: 7da78ddf-d53c-4547-a616-47e7d9133899
+name: P_EM_2026_07_04_CZ_D_Fourth_Of_July_Sale_Reminder
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 7da78ddf-d53c-4547-a616-47e7d9133899
+dates:
+  send_date: '2026-07-04'
+  last_sent: '2026-07-04'
+tags: []
+sends:
+- id: f1ccb335-6073-4bde-bde0-a5f35aee9ff0
+  channel: email
+  name: Variant 1
+  subject: Today is the day
+  preheader: Celebrate the fourth–shop 25% off sitewide while it lasts.
+- id: 7fbae03a-a523-4493-8c79-ec03f26faee2
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 118977
+  total_delivered: 118275
+  total_opens: 57359
+  total_clicks: 759
+  open_rate: 0.4821
+  click_rate: 0.0064
+  total_bounces: 4
+  total_unsubscribes: 121
+schedule_type: time_based
+_filename: p_em_2026_07_04_cz_d_fourth_of_july_sale_reminder.yaml

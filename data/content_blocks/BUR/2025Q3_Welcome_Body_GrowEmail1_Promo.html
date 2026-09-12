@@ -1,0 +1,7 @@
+{% assign sale_start = "2025-08-19 00:00:00" | date: "%s" %}{% assign sale_end       = "2025-09-09 04:00:00" | date: "%s" %}
+{% assign now        = 'now' | date: "%s" %}
+{% if now >= sale_start and now <= sale_end %}{% else %}<br><br>As a thank you for visiting, we're offering you 15% off your first order. <br><br>Use code:<b>
+                                           <span style="font-family: 'NeuzeitSLTW01-BookHeavy', Arial, 'sans-serif'; color: #383633"><!--[if (gte mso 9)|(IE)]><strong><![endif]-->BUR0124TG2RM<!--[if (gte mso 9)|(IE)]><strong><![endif]--></span>
+                                    </b><br><br> Enjoy!
+                                    
+                                    {% endif %}

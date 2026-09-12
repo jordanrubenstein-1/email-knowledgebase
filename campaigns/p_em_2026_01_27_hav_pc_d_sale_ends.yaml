@@ -1,0 +1,35 @@
+id: a66e1dbc-6899-4d48-9560-7c162e6d168f
+name: P_EM_2026_01_27_HAV_PC_D_Sale_Ends
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: a66e1dbc-6899-4d48-9560-7c162e6d168f
+dates:
+  send_date: '2026-01-27'
+  first_sent: '2026-01-26T20:27:04+00:00'
+  last_sent: '2026-01-27T18:01:24+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: d20800d6-29a3-429c-bfc9-a010b2381d3d
+  channel: email
+  name: Variant 1
+  subject: Final Hours. 50% Off Interior Design Services.
+  preheader: The Winter Refresh Sale wraps tonight.
+- id: 670aa4b7-0b11-4aca-9fa9-cbb3204b68a5
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 257694
+  total_delivered: 256736
+  total_opens: 101296
+  total_clicks: 460
+  open_rate: 0.3931
+  click_rate: 0.0018
+  total_bounces: 11
+  total_unsubscribes: 548
+schedule_type: time_based
+_filename: p_em_2026_01_27_hav_pc_d_sale_ends.yaml

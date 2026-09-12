@@ -1,0 +1,16 @@
+{% comment %}
+  Spacer Component
+
+  Creates vertical spacing between email sections.
+
+  Optional variables:
+    height - Height in pixels (default: 20)
+
+  Usage:
+    {% assign height = 30 %}
+    {% render 'spacer' %}
+{% endcomment %}
+
+{% assign height = height | default: 20 %}
+
+<div class="spacer_block" style="height:{{ height }}px;line-height:{{ height }}px;font-size:1px">&#8202;</div>

@@ -1,0 +1,49 @@
+id: f6e8b6d2-7bc0-4392-b1c0-d814200acb03
+name: Test - Create Anonymous User 2
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: f6e8b6d2-7bc0-4392-b1c0-d814200acb03
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2025-09-26T11:20:16+00:00'
+  last_sent: '2025-09-26T11:20:38+00:00'
+tags:
+- customer
+sends:
+- id: db150086-af68-45a7-a945-f19ad9492dfe
+  channel: other
+  name: Variant 1
+- id: 2656974b-ce5b-42ee-8946-45535b89f048
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-holiday-ready-sale-2025-09-18
+    name: Holiday-Ready Sale
+    start_date: '2025-09-18'
+    end_date: '2025-09-30'
+    discount: 20% off sitewide
+    type: null
+  primary_sale:
+    id: id-holiday-ready-sale-2025-09-18
+    name: Holiday-Ready Sale
+    start_date: '2025-09-18'
+    end_date: '2025-09-30'
+    discount: 20% off sitewide
+    type: null
+  sale_name: Holiday-Ready Sale
+  sale_discount: 20% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:33.186546'
+schedule_type: time_based

@@ -1,0 +1,30 @@
+id: 708e250d-1aaa-4a2c-b9e2-0f0870dbfb59
+name: 20250423_Friends_and_Family_Ends_Tonight_SMS
+brand: BUR
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: 708e250d-1aaa-4a2c-b9e2-0f0870dbfb59
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-04-23T02:07:41+00:00'
+  last_sent: '2025-04-24T01:00:50+00:00'
+tags: []
+sends:
+- id: 91f55b74-07ff-454a-8194-8564eb47e0ad
+  channel: other
+  name: Variant 1
+- id: af118eb0-2113-4d79-ae1f-50678a7cdf1b
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 137
+    purchases: 1
+    revenue: 2597.42
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.504892'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

@@ -1,0 +1,35 @@
+id: 27bb9161-62de-4854-aa54-33c4ad265733
+name: P_EM_2025_08_03_HAV_PC_D_Before_Afters
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 27bb9161-62de-4854-aa54-33c4ad265733
+dates:
+  send_date: '2025-08-03'
+  first_sent: '2025-08-02T18:24:05+00:00'
+  last_sent: '2025-08-03T18:15:23+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 9e5833ae-be86-4e4a-8af8-f83e10e39fad
+  channel: email
+  name: Variant 1
+  subject: 3 of our favorite *afters*
+  preheader: This could be you.
+- id: 1fad6122-7148-473f-9e24-16793d29a2f5
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 228897
+  total_delivered: 228476
+  total_opens: 96519
+  total_clicks: 604
+  open_rate: 0.4217
+  click_rate: 0.0026
+  total_bounces: 10
+  total_unsubscribes: 616
+schedule_type: time_based
+_filename: p_em_2025_08_03_hav_pc_d_before_afters.yaml

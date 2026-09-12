@@ -1,0 +1,33 @@
+id: 76f76852-e16e-4218-a427-4673a61249bb
+name: P_2025_04_20_PM_HAV_Conv_Friends_and_Family_Sale_Reminder_PT
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 76f76852-e16e-4218-a427-4673a61249bb
+dates:
+  send_date: '2025-04-20'
+  first_sent: '2025-04-20T03:09:07+00:00'
+  last_sent: '2025-04-21T02:00:38+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 1170332c-bd81-4c80-a8f2-f54deb2e0b70
+  channel: email
+  name: Variant 1
+  subject: Check out TODAY for up to 15% off!
+- id: e79fd8f4-ae80-46d6-8b38-a1a4905acd12
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 39379
+  total_delivered: 39296
+  total_opens: 22574
+  total_clicks: 140
+  open_rate: 0.5732
+  click_rate: 0.0036
+  total_unsubscribes: 67
+schedule_type: time_based
+_filename: p_2025_04_20_pm_hav_conv_friends_and_family_sale_reminder_pt.yaml

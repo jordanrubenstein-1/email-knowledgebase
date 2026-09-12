@@ -1,0 +1,50 @@
+id: 2e1814e1-78b9-488f-b440-a6039f2438af
+name: P_2024_09_22_D_HAV_B_HAV_Conv_Jenna_Val_Home_Tour_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 2e1814e1-78b9-488f-b440-a6039f2438af
+dates:
+  send_date: '2024-09-22'
+  inferred_send_type: local_time
+  first_sent: '2024-09-22T00:08:47+00:00'
+  last_sent: '2024-09-22T17:15:03+00:00'
+tags: []
+sends:
+- id: 1fb63a88-1286-476e-b89f-79e090efb0d1
+  channel: email
+  name: Variant 1
+  subject: 'HOME TOUR: California Cozy'
+  preheader: Step inside this chic home
+  html_file: html/p_2024_09_22_d_hav_b_hav_conv_jenna_val_home_tour_email.html
+  screenshot: screenshots/p_2024_09_22_d_hav_b_hav_conv_jenna_val_home_tour_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66eb2268a3cc7d0072c8a974/original.jpg?1726685800
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66eb2249dd98c60072462a36/original.jpg?1726685769
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66eb225add98c60064464909/original.gif?1726685785
+- id: 013a5f2b-6350-4ce9-8aa7-bdf01af9da23
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 35717
+  total_delivered: 35688
+  total_opens: 21246
+  total_clicks: 538
+  open_rate: 0.5948
+  click_rate: 0.0151
+  total_unsubscribes: 105
+  ga4:
+    sessions: 805
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.413410'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.714016'
+schedule_type: time_based

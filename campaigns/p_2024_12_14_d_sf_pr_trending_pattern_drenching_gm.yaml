@@ -1,0 +1,57 @@
+id: 0340eaf2-798e-40f5-8948-c98348c480d5
+name: P_2024_12_14_D_SF_PR_Trending_Pattern_Drenching_Gmail_Email
+brand: STF
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 0340eaf2-798e-40f5-8948-c98348c480d5
+dates:
+  send_date: '2024-12-14'
+  inferred_send_type: scheduled
+  first_sent: '2024-12-14T15:00:03+00:00'
+  last_sent: '2024-12-14T15:02:43+00:00'
+tags: []
+sends:
+- id: 4515e4f9-fd22-49d9-a0d7-49454fd42ff3
+  channel: email
+  name: Variant 1
+  subject: Pattern on Pattern
+  preheader: maximalism is in
+  html_file: html/p_2024_12_14_d_sf_pr_trending_pattern_drenching_gmail_email.html
+  screenshot: screenshots/p_2024_12_14_d_sf_pr_trending_pattern_drenching_gmail_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/675c601e05a52700637ee621/original.jpg?1734107165
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/675c5f372b3af50074e57a89/original.jpg?1734106935
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/675c5f8e858df40063627c0f/original.gif?1734107021
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/675c5f0252d2f30063205191/original.gif?1734106882
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/675c5f4d52d2f3006e20531e/original.jpg?1734106957
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/675c602afe66bc0065a375c8/original.gif?1734107178
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/675c5f27858df40063627b0b/original.gif?1734106919
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/675c600bbefe640065a0d3dd/original.jpg?1734107147
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/675c5ff5858df40063627d5c/original.gif?1734107125
+- id: 708f4a6a-d03c-459e-b1c5-4b285a295507
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 706
+  total_delivered: 706
+  total_opens: 543
+  total_clicks: 10
+  open_rate: 0.7691
+  click_rate: 0.0142
+  total_revenue: 877.0
+  ga4:
+    sessions: 7
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.875825'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.943042'
+schedule_type: time_based

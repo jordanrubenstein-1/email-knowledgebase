@@ -1,0 +1,38 @@
+id: d3373412-014e-4b03-ba06-4cb1da57ba7d
+name: P_EM_2026_05_23_CZ_PC_D_Memorial_Day_Sale_Reminder_AM
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: d3373412-014e-4b03-ba06-4cb1da57ba7d
+dates:
+  send_date: '2026-05-23'
+  last_sent: '2026-05-23'
+tags:
+- batch and blast
+- d2c
+- designed
+- pm
+- sale
+- sale/mds2026
+sends:
+- id: 5271abfd-653f-4d5f-80f9-8bb5912edd2b
+  channel: email
+  name: Variant 1
+  subject: ' Shop the Memorial Day Sale'
+  preheader: 25% off sitewide for a few more days—don’t miss the moment.
+- id: c2ad17ae-6452-4f48-9438-82a8c56f0193
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 115344
+  total_delivered: 114801
+  total_opens: 55073
+  total_clicks: 682
+  open_rate: 0.4775
+  click_rate: 0.0059
+  total_bounces: 1
+  total_unsubscribes: 88
+schedule_type: time_based
+_filename: p_em_2026_05_23_cz_pc_d_memorial_day_sale_reminder_am.yaml

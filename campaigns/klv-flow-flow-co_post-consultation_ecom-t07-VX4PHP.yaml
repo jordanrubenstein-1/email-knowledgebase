@@ -1,0 +1,49 @@
+id: klaviyo-VX4PHP
+name: post-consult_email-07
+brand: TE
+channel: email
+category: other
+type: announcement
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: Y4GTfm
+canvas_name: flow-co_post-consultation_ecom-xo
+flow_type: other_flow
+sequence_position: 7
+dates:
+  created: '2021-06-09'
+  inferred_send_type: sto
+  first_sent: '2021-06-09'
+  last_sent: '2025-04-08'
+sends:
+- id: VX4PHP
+  channel: email
+  name: Message
+  subject: Quick question…
+  preheader: We’d love your feedback!
+  html_file: html/klv-flow-flow-co_post-consultation_ecom-t07-VX4PHP.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/dac146b7-7dfc-4851-8cf1-d7978d5e7110.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/d0bf663e-be19-4341-91d2-199e5525184e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/03798e82-7136-4b31-8695-8ee2b6e9c424.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: VX4PHP
+structure:
+  image_count: 4
+  link_count: 20
+  has_gif: false
+  hero_width: 100
+  layout_type: editorial

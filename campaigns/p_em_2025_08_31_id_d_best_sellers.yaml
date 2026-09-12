@@ -1,0 +1,63 @@
+id: aad33681-a46f-44c0-a410-df8c8618eb76
+name: P_EM_2025_08_31_ID_D_Best_Sellers
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: aad33681-a46f-44c0-a410-df8c8618eb76
+dates:
+  send_date: '2025-08-31'
+  inferred_send_type: local_time
+  first_sent: '2025-08-30T18:21:59+00:00'
+  last_sent: '2025-08-31T17:15:25+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 50a780f9-a484-4e6b-a36f-9353c1c968ea
+  channel: email
+  name: Variant 1
+  subject: Best Sellers, Now 25% Off
+  preheader: Final days to make our most-loved designs yours, for less.
+- id: 342c9cfc-cd02-431b-abfc-30d70b124042
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 204388
+  total_delivered: 203599
+  total_opens: 97524
+  total_clicks: 678
+  open_rate: 0.4772
+  click_rate: 0.0033
+  total_revenue: 470648.0
+  total_bounces: 2
+  total_unsubscribes: 458
+  ga4:
+    sessions: 755
+    purchases: 4
+    revenue: 21626.99
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.846498'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-04'
+    discount: 25% off sitewide
+    type: null
+  primary_sale:
+    id: id-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-04'
+    discount: 25% off sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 25% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:39.808763'
+schedule_type: time_based

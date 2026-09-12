@@ -1,0 +1,58 @@
+id: 853938ab-42ee-4ad6-adc2-a22a4ac24402
+name: P_2024_09_04_D_CZ_BIS_Back_In_Stock_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 853938ab-42ee-4ad6-adc2-a22a4ac24402
+dates:
+  send_date: '2024-09-04'
+  inferred_send_type: local_time
+  first_sent: '2024-09-04T01:39:53+00:00'
+  last_sent: '2024-09-04T17:00:27+00:00'
+tags:
+- batch and blast/promo
+sends:
+- id: b83e9fbd-37dd-4332-83eb-4dd4aa21e52a
+  channel: email
+  name: Variant 1
+  subject: Back In Stock (+ 20% off)
+  preheader: These bestselling styles are back in stock, but not for long.
+  html_file: html/p_2024_09_04_d_cz_bis_back_in_stock_email.html
+  screenshot: screenshots/p_2024_09_04_d_cz_bis_back_in_stock_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf39523d4b400066584913/original.jpg?1724856657
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf393de13438006590dff3/original.jpg?1724856636
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf38989f61a0007e9d18ca/original.jpg?1724856472
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf38c13d4b400066584746/original.jpg?1724856512
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d78ba97e9838006574453b/original.gif?1725402025
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf39203d4b400066584859/original.jpg?1724856607
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf38ff2fd920006522e9cf/original.jpg?1724856575
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf38ea3ac7c000667d14f0/original.jpg?1724856554
+- id: 408f0640-0bb2-444c-af3f-1061307e6f3e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 72303
+  total_delivered: 72090
+  total_opens: 41124
+  total_clicks: 1262
+  open_rate: 0.5688
+  click_rate: 0.0175
+  total_revenue: 95891.12
+  total_bounces: 6
+  total_unsubscribes: 152
+  ga4:
+    sessions: 1781
+    purchases: 21
+    revenue: 6982.91
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.048899'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.284337'
+schedule_type: time_based

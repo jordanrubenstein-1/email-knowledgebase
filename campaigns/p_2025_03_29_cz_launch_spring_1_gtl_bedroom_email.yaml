@@ -1,0 +1,58 @@
+id: 915089de-0d21-45a3-a451-cbc9bb62dcfb
+name: P_2025_03_29_CZ_Launch_Spring_1_GTL_Bedroom_Email
+brand: CZ
+channel: email
+category: product_launch
+type: seasonal
+theme: spring
+braze_id: 915089de-0d21-45a3-a451-cbc9bb62dcfb
+dates:
+  send_date: '2025-03-29'
+  inferred_send_type: local_time
+  first_sent: '2025-03-28T23:35:54+00:00'
+  last_sent: '2025-03-29T17:01:39+00:00'
+tags: []
+sends:
+- id: 48decf16-de30-46b1-a27b-e8af5915906a
+  channel: email
+  name: Variant 1
+  subject: 'Get The Look: The Heirloom Bedroom'
+  preheader: Your oasis awaits.
+  html_file: html/p_2025_03_29_cz_launch_spring_1_gtl_bedroom_email.html
+  screenshot: screenshots/p_2025_03_29_cz_launch_spring_1_gtl_bedroom_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e726695cf7c80064cd3043/original.png?1743201897
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e726410f697500644f9288/original.png?1743201857
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e7264cd5ee3f006710c256/original.png?1743201868
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e72628b1255b00684ca04e/original.png?1743201831
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e720f2d5ee3f006710b108/original.png?1743200497
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e726194be57f0067e1a3ba/original.png?1743201816
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e726048946990067c8da0e/original.png?1743201795
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e72636b1255b00684ca04f/original.png?1743201845
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e72665d5ee3f006710c275/original.png?1743201892
+- id: 44b2217a-40d3-41fb-a88b-cbb57004d1b6
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 92825
+  total_delivered: 92017
+  total_opens: 48749
+  total_clicks: 584
+  open_rate: 0.5252
+  click_rate: 0.0063
+  total_revenue: 46482.91
+  total_bounces: 2
+  total_unsubscribes: 124
+  ga4:
+    sessions: 602
+    purchases: 1
+    revenue: 402.57
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.719558'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:46.016696'
+schedule_type: time_based

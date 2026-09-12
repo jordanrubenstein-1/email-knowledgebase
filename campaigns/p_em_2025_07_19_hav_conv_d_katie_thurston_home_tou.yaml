@@ -1,0 +1,52 @@
+id: 3124bf39-2141-4941-8bdf-6247e0275afa
+name: P_EM_2025_07_19_HAV_CONV_D_Katie_Thurston_Home_Tour
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 3124bf39-2141-4941-8bdf-6247e0275afa
+dates:
+  send_date: '2025-07-19'
+  inferred_send_type: scheduled
+  first_sent: '2025-07-19T09:01:15+00:00'
+  last_sent: '2025-07-19T17:15:11+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 0b54effb-773e-4a23-bcb2-596248f3467f
+  channel: email
+  name: Variant 1
+  subject: 'EXCLUSIVE: Bachelor Star Katie Thurston’s NYC Glow‑Up'
+  preheader: From final rose to final reveal—step inside her coziest chapter yet.
+  html_file: html/p_em_2025_07_19_hav_conv_d_katie_thurston_home_tour.html
+  screenshot: screenshots/p_em_2025_07_19_hav_conv_d_katie_thurston_home_tour.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687aba50cb1b080066bc04dd/original.png?1752873551
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687aba83ae09880066625317/original.png?1752873602
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687ab9dadd2f0c006608e1f4/original.png?1752873434
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687aba108a37890086470997/original.png?1752873488
+- id: 8df20cb2-0cfd-405f-83f4-8032166d1a7c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 40313
+  total_delivered: 40219
+  total_opens: 21643
+  total_clicks: 196
+  open_rate: 0.5369
+  click_rate: 0.0049
+  total_unsubscribes: 48
+  ga4:
+    sessions: 152
+    purchases: 1
+    revenue: 330.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.200130'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:35.699578'
+schedule_type: time_based

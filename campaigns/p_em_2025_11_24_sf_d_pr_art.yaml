@@ -1,0 +1,92 @@
+id: e5962f6b-b156-4ae8-824b-d2d4657791a9
+name: P_EM_2025_11_24_SF_D_PR_ART
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: e5962f6b-b156-4ae8-824b-d2d4657791a9
+dates:
+  send_date: '2025-11-24'
+  inferred_send_type: local_time
+  first_sent: '2025-11-23T17:08:37+00:00'
+  last_sent: '2025-11-24T17:01:03+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: 5524ad11-c5aa-4b89-8a2b-4278c4aeff52
+  channel: email
+  name: Variant 1
+  subject: Let Your Walls Do The Talking
+  preheader: statement art now 20% off
+  html_file: html/p_em_2025_11_24_sf_d_pr_art.html
+  screenshot: screenshots/p_em_2025_11_24_sf_d_pr_art.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6920c8954537c30063978862/original.png?1763756181
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6920c8b46798030063ed0721/original.png?1763756211
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6920c9199e37420063605ad0/original.png?1763756312
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6920c8c48ffea80065d593b1/original.png?1763756227
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6920c84cff15e30064e52e07/original.png?1763756108
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6920c8feb065c20063f3ac13/original.png?1763756285
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6920c912f503aa00641da586/original.png?1763756305
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6920c91faf0db50064e10c12/original.png?1763756319
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6920c92e9003720064376c11/original.png?1763756334
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6920c86c4b5df10063ab8ac1/original.png?1763756139
+- id: b72dddb6-0da7-4b5f-af2f-a62c471f1bc7
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39505
+  total_delivered: 39228
+  total_opens: 17129
+  total_clicks: 141
+  open_rate: 0.4336
+  click_rate: 0.0036
+  total_bounces: 5
+  total_unsubscribes: 49
+  ga4:
+    sessions: 137
+    purchases: 2
+    revenue: 236.5
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.779381'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-black-friday-cyber-monday-2025-11-14
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-12'
+    end_date: '2025-12-02'
+    discount: 'Up to 30% Off Sitewide
+
+      30% off fabric + wallpaper + pillows
+
+      20% off everything else'
+    type: null
+  primary_sale:
+    id: stf-black-friday-cyber-monday-2025-11-14
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-12'
+    end_date: '2025-12-02'
+    discount: 'Up to 30% Off Sitewide
+
+      30% off fabric + wallpaper + pillows
+
+      20% off everything else'
+    type: null
+  sale_name: Black Friday / Cyber Monday
+  sale_discount: 'Up to 30% Off Sitewide
+
+    30% off fabric + wallpaper + pillows
+
+    20% off everything else'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:33.887849'
+schedule_type: time_based

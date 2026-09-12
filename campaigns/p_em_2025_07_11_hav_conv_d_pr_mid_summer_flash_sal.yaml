@@ -1,0 +1,55 @@
+id: f33dd42c-6f4c-4acb-99c1-89a6dd640182
+name: P_EM_2025_07_11_HAV_CONV_D_PR_Mid_Summer_Flash_Sale
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: summer
+braze_id: f33dd42c-6f4c-4acb-99c1-89a6dd640182
+dates:
+  send_date: '2025-07-11'
+  inferred_send_type: local_time
+  first_sent: '2025-07-11T01:40:58+00:00'
+  last_sent: '2025-07-11T17:17:16+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: b46e4d8a-42cf-4d36-ac99-b5190e4ab325
+  channel: email
+  name: Variant 1
+  subject: "Up To 30% Off Starts Now! \n"
+  preheader: Save more when you shop at Havenly
+  html_file: html/p_em_2025_07_11_hav_conv_d_pr_mid_summer_flash_sale.html
+  screenshot: screenshots/p_em_2025_07_11_hav_conv_d_pr_mid_summer_flash_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6870248f35cafe006708236e/original.png?1752179855
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6870245618e100006625fc97/original.png?1752179797
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6870242835cafe006708201f/original.gif?1752179752
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68702489bd5e340082b32dfd/original.png?1752179849
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6870246c35cafe0085080a8b/original.png?1752179820
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6870248218e100009425fc33/original.png?1752179841
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6870244235cafe00770811c5/original.png?1752179777
+- id: e42a9199-89bb-4b04-ac3f-7cb5c56d2784
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 40618
+  total_delivered: 40529
+  total_opens: 21447
+  total_clicks: 165
+  open_rate: 0.528
+  click_rate: 0.0041
+  total_unsubscribes: 37
+  ga4:
+    sessions: 198
+    purchases: 1
+    revenue: 331.8
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.023254'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.968962'
+schedule_type: time_based

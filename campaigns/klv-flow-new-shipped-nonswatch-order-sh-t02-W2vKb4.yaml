@@ -1,0 +1,56 @@
+id: klaviyo-W2vKb4
+name: 'Sofa l #1 [SHIPPING CONF]'
+brand: TI
+channel: email
+category: other
+type: product_launch
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: YrWFia
+canvas_name: '[NEW] Shipped: NONSWATCH Order Shipped -SOFA EXCLUSIONS'
+flow_type: swatch_followup
+sequence_position: 2
+dates:
+  created: '2021-10-15'
+  inferred_send_type: scheduled
+  first_sent: '2021-10-15'
+  last_sent: '2021-10-15'
+sends:
+- id: W2vKb4
+  channel: email
+  name: Message
+  subject: Great news! Items from order {{ event|lookup:'order_id' }} shipped.
+  preheader: Track your items here.
+  html_file: html/klv-flow-new-shipped-nonswatch-order-sh-t02-W2vKb4.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/6fd1c7a9-cf1e-4e79-a142-4a3feb94e615.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/12bac79b-987e-4ad9-bb02-70b2eb9446a5.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/4f7d9802-0581-432d-b90d-5e7535b15787.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/f7f69d59-b01a-4c51-b99c-cb51e1849524.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/84884f30-dc52-4661-ae46-c327088c0132.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/4af18489-1b2f-45fc-b285-70cb34153396.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/069aad6a-b091-4bec-a658-0e02f4c21965.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/92d4f85a-e648-4016-9732-56d261c5e3e0.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/b398c3ca-c7f5-41f2-bedc-27a54cf334fb.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/69a68883-3bce-41ac-802d-c532d6fa1f13.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: W2vKb4
+structure:
+  image_count: 14
+  link_count: 10
+  has_gif: false
+  hero_width: 600
+  layout_type: product_grid

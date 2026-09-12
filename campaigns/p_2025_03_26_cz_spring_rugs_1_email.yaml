@@ -1,0 +1,56 @@
+id: 43101f03-2ef6-44fa-a79e-cdd01ce85071
+name: P_2025_03_26_CZ_Spring_Rugs_1_Email
+brand: CZ
+channel: email
+category: other
+type: seasonal
+theme: spring
+braze_id: 43101f03-2ef6-44fa-a79e-cdd01ce85071
+dates:
+  send_date: '2025-03-26'
+  inferred_send_type: scheduled
+  first_sent: '2025-03-26T05:50:51+00:00'
+  last_sent: '2025-03-26T17:03:11+00:00'
+tags: []
+sends:
+- id: c9d5c672-ca91-466c-b818-a21bbfd77883
+  channel: email
+  name: Variant 1
+  subject: 'Loomed To Last: New Heirloom Rugs'
+  preheader: Discover heritage designs, full of timeworn beauty.
+  html_file: html/p_2025_03_26_cz_spring_rugs_1_email.html
+  screenshot: screenshots/p_2025_03_26_cz_spring_rugs_1_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e3356d3d88890074e66dba/original.png?1742943597
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e3359a3d88890064e6705b/original.png?1742943641
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e3326cd077ea0065c6632e/original.png?1742942827
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e332862088d80067deb181/original.png?1742942854
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e33261d077ea0065c662c9/original.png?1742942816
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e33279dec0be0065eb8b9f/original.png?1742942841
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e335873d88890074e66dc6/original.png?1742943622
+- id: 6bcb055a-9d25-4bd2-917c-72a9b387143a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 92301
+  total_delivered: 91499
+  total_opens: 47810
+  total_clicks: 632
+  open_rate: 0.518
+  click_rate: 0.0068
+  total_revenue: 37636.33
+  total_bounces: 3
+  total_unsubscribes: 122
+  ga4:
+    sessions: 1417
+    purchases: 4
+    revenue: 4553.58
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.372121'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.035409'
+schedule_type: time_based

@@ -1,0 +1,33 @@
+id: 7b3668d3-fae1-471b-bb81-e1e587822667
+name: P_2025_05_28_HAV_Conv_MDS_Sale_Extended_PT
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 7b3668d3-fae1-471b-bb81-e1e587822667
+dates:
+  send_date: '2025-05-28'
+  first_sent: '2025-05-27T18:42:31+00:00'
+  last_sent: '2025-05-28T17:15:14+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: aa74cecf-410d-4bd1-9543-8720069bee7d
+  channel: email
+  name: Variant 1
+  subject: Memorial Day deals are back on (but not for long)
+- id: 94b57969-5ee0-4ffa-901a-ae1313381f22
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 40227
+  total_delivered: 40143
+  total_opens: 22282
+  total_clicks: 133
+  open_rate: 0.5539
+  click_rate: 0.0033
+  total_unsubscribes: 51
+schedule_type: time_based
+_filename: p_2025_05_28_hav_conv_mds_sale_extended_pt.yaml

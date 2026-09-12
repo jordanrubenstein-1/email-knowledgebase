@@ -1,0 +1,30 @@
+id: 26977d66-dadd-4677-98c8-99f7a0cb94c7
+name: P_2025_3_19_Spring_Event_Reminder2_SMS
+brand: ID
+channel: sms
+category: reminder
+type: seasonal
+theme: spring
+braze_id: 26977d66-dadd-4677-98c8-99f7a0cb94c7
+dates:
+  send_date: '2025-03-19'
+  inferred_send_type: scheduled
+  first_sent: '2025-03-19T20:01:37+00:00'
+  last_sent: '2025-03-19T20:02:56+00:00'
+tags: []
+sends:
+- id: 3cd4430b-ffef-416c-9139-8fb0fa315842
+  channel: other
+  name: Variant 1
+- id: 31a87568-52c2-4e10-abfb-c691dfe53621
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 20424
+  total_delivered: 19991
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 14015.0
+schedule_type: time_based

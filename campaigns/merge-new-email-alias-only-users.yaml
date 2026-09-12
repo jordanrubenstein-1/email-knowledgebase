@@ -1,0 +1,29 @@
+id: f0e30658-710c-4b09-babb-72b88707950e
+name: Merge new email alias only users
+brand: HAV
+channel: email
+category: other
+type: product_launch
+theme: null
+braze_id: f0e30658-710c-4b09-babb-72b88707950e
+dates:
+  first_sent: '2024-08-30T00:00:00+00:00'
+  last_sent: '2026-06-09T19:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: 98496e56-4089-4180-bd8c-d3b566abe946
+  channel: other
+  name: Variant 1
+- id: 91d6f63d-813a-46ea-aa83-457ef4d4f21f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 5014
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+schedule_type: action_based
+_filename: merge-new-email-alias-only-users.yaml

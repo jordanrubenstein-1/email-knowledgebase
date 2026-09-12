@@ -1,0 +1,804 @@
+# GitLab CI/CD Pipeline
+# Sale schedule sync, campaign import, and analytics refresh.
+
+stages:
+  - validate
+  - sync
+  - import
+  - deploy
+
+# ---------------------------------------------------------------------------
+# Push validation: keep the generated Figma-template slice doc in sync with code
+# ---------------------------------------------------------------------------
+# docs/figma-templates.md's "Auto-Briefed Slice Structures" section is generated
+# from the CZ/STF/TI template dicts in scripts/create_calendar_tasks.py. If someone
+# edits a dict but forgets to re-run the generator, the doc drifts. This job fails
+# the pipeline when that happens. Runs on pushes/MRs that touch the relevant files
+# (not schedules). No secrets needed — offline import + file compare only.
+#
+# To fix a failure: run `uv run python scripts/generate_figma_templates_doc.py`
+# and commit the updated docs/figma-templates.md.
+check-figma-templates-doc:
+  stage: validate
+  image: python:3.12-slim
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule"
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "push" || $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - scripts/create_calendar_tasks.py
+        - scripts/generate_figma_templates_doc.py
+        - docs/figma-templates.md
+  before_script:
+    - pip install uv --quiet
+    - uv sync --quiet
+  script:
+    - uv run python scripts/generate_figma_templates_doc.py --check
+
+# ---------------------------------------------------------------------------
+# Scheduled job: sync sale schedules from Asana Promo Tracking Board
+# ---------------------------------------------------------------------------
+# Requires CI/CD variables (Settings > CI/CD > Variables):
+#   ASANA_ACCESS_TOKEN  (masked) — same token used by orchestrate-sms
+#   CI_PUSH_TOKEN       — project/group access token with write_repository scope
+#
+# Set up a Pipeline Schedule (CI/CD > Schedules):
+#   Description: "Sync sale schedules from Asana"
+#   Cron: "0 8 * * *"  (daily at 8am UTC / 4am Eastern)
+#   Branch: main
+#   Variables: PIPELINE_TYPE = sale_sync   ← add this to your existing schedule
+#
+# The job also runs on manual trigger from the Pipelines page.
+
+sync-sale-schedules:
+  stage: sync
+  image: python:3.12-slim
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule" && $PIPELINE_TYPE == "sale_sync"
+    - if: $CI_PIPELINE_SOURCE == "web"
+      when: manual
+  before_script:
+    - apt-get update -qq && apt-get install -y -qq git
+    - pip install uv --quiet
+    - uv sync --quiet
+  script:
+    - echo "Syncing sale schedules from Asana Promo Tracking Board..."
+    - uv run python scripts/import_sale_schedules.py --source asana
+    - |
+      # Check if sale_schedules.yaml changed
+      if git diff --quiet data/sale_schedules.yaml; then
+        echo "No changes to sale schedules."
+      else
+        echo "Sale schedules updated — committing..."
+        git config user.name "GitLab CI"
+        git config user.email "ci@gitlab.com"
+        git add data/sale_schedules.yaml
+        git commit -m "chore: sync sale schedules from Asana [skip ci]
+
+      Automated daily sync via GitLab CI scheduled pipeline."
+        git pull --rebase "https://gitlab-ci-token:${CI_PUSH_TOKEN}@gitlab.com/${CI_PROJECT_PATH}.git" ${CI_COMMIT_REF_NAME}
+        git push "https://gitlab-ci-token:${CI_PUSH_TOKEN}@gitlab.com/${CI_PROJECT_PATH}.git" HEAD:${CI_COMMIT_REF_NAME}
+        echo "Changes pushed to ${CI_COMMIT_REF_NAME}."
+      fi
+  variables:
+    GIT_STRATEGY: clone
+    GIT_DEPTH: "1"
+
+# ---------------------------------------------------------------------------
+# Scheduled job: import new campaigns (Braze + Klaviyo) — subject lines & metadata
+# ---------------------------------------------------------------------------
+# Writes new YAML + HTML files for campaigns sent since the last run.
+# Does NOT update analytics on existing files (use refresh-analytics for that).
+#
+# Requires CI/CD variables (Settings > CI/CD > Variables):
+#   BRAZE_API_KEY_HAV      (masked)
+#   BRAZE_API_KEY_CZ       (masked)
+#   BRAZE_API_KEY_ID       (masked)
+#   BRAZE_API_KEY_BUR      (masked)
+#   BRAZE_API_KEY_STF      (masked)
+#   BRAZE_API_KEY_TI       (masked) — TI's 9 legacy Braze campaigns
+#   KLAVIYO_API_KEY_TI     (masked)
+#   KLAVIYO_API_KEY_TE     (masked)
+#   CI_PUSH_TOKEN          — project/group access token with write_repository scope
+#
+# Set up a Pipeline Schedule (CI/CD > Schedules):
+#   Description: "Daily campaign import"
+#   Cron: "0 12 * * *"  (daily at noon UTC / 8am ET)
+#   Branch: main
+#   Variables: PIPELINE_TYPE = daily_import
+#
+# Can also be triggered manually from the Pipelines page.
+
+import-campaigns:
+  stage: import
+  image: python:3.12-slim
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule" && $PIPELINE_TYPE == "daily_import"
+    - if: $CI_PIPELINE_SOURCE == "web"
+      when: manual
+  before_script:
+    - apt-get update -qq && apt-get install -y -qq git
+    - pip install uv --quiet
+    - uv sync --quiet
+  script:
+    - echo "Importing new Braze campaigns (all brands)..."
+    - uv run python scripts/import_braze.py --brand HAV --skip-existing --include-canvases
+    - uv run python scripts/import_braze.py --brand CZ --skip-existing --include-canvases
+    - uv run python scripts/import_braze.py --brand ID --skip-existing --include-canvases
+    - uv run python scripts/import_braze.py --brand BUR --skip-existing --include-canvases
+    - uv run python scripts/import_braze.py --brand STF --skip-existing --include-canvases
+    - uv run python scripts/import_braze.py --brand TI --skip-existing --include-canvases
+    - echo "Importing new Klaviyo campaigns (TI)..."
+    - uv run python scripts/import_klaviyo.py --brand TI --skip-existing --skip-analytics --include-flows
+    - echo "Importing new Klaviyo campaigns (TE)..."
+    - uv run python scripts/import_klaviyo.py --brand TE --skip-existing --skip-analytics --include-flows
+    - echo "Backfilling send_dates parsed from campaign names..."
+    - uv run python scripts/backfill_send_dates.py
+    - echo "Backfilling HTML bodies for all Braze brands (no screenshots in CI)..."
+    - uv run python scripts/backfill_html_screenshots.py --all --skip-screenshots
+    - |
+      if git diff --quiet && [ -z "$(git ls-files --others --exclude-standard campaigns/)" ]; then
+        echo "No new campaigns to import."
+      else
+        echo "New campaigns found — committing..."
+        git config user.name "GitLab CI"
+        git config user.email "ci@gitlab.com"
+        git add campaigns/
+        git commit -m "chore: import new campaigns [skip ci]
+
+      Automated daily campaign import via GitLab CI scheduled pipeline."
+        git pull --rebase "https://gitlab-ci-token:${CI_PUSH_TOKEN}@gitlab.com/${CI_PROJECT_PATH}.git" ${CI_COMMIT_REF_NAME}
+        git push "https://gitlab-ci-token:${CI_PUSH_TOKEN}@gitlab.com/${CI_PROJECT_PATH}.git" HEAD:${CI_COMMIT_REF_NAME}
+        echo "Changes pushed to ${CI_COMMIT_REF_NAME}."
+      fi
+  variables:
+    GIT_STRATEGY: clone
+    GIT_DEPTH: "1"
+
+# ---------------------------------------------------------------------------
+# Scheduled job: weekly analytics refresh — updates performance_summary in YAMLs
+# ---------------------------------------------------------------------------
+# Re-fetches open/click/send analytics for campaigns sent in the last 30 days.
+# Safe to run alongside manual imports — operates on existing files only.
+#
+# Requires CI/CD variables (Settings > CI/CD > Variables):
+#   BRAZE_API_KEY_HAV      (masked)
+#   BRAZE_API_KEY_CZ       (masked)
+#   BRAZE_API_KEY_ID       (masked)
+#   BRAZE_API_KEY_BUR      (masked)
+#   BRAZE_API_KEY_STF      (masked)
+#   KLAVIYO_API_KEY_TI     (masked)
+#   KLAVIYO_API_KEY_TE     (masked)
+#   CI_PUSH_TOKEN          — project/group access token with write_repository scope
+#
+# Set up a Pipeline Schedule (CI/CD > Schedules):
+#   Description: "Weekly analytics refresh"
+#   Cron: "0 13 * * 1"  (Mondays at 1pm UTC / 9am EDT — shifts to 8am EST in winter)
+#   Branch: main
+#   Variables: PIPELINE_TYPE = weekly_analytics
+#
+# Can also be triggered manually from the Pipelines page.
+
+refresh-analytics:
+  stage: import
+  image: python:3.12-slim
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule" && $PIPELINE_TYPE == "weekly_analytics"
+    - if: $CI_PIPELINE_SOURCE == "web"
+      when: manual
+  before_script:
+    - apt-get update -qq && apt-get install -y -qq git
+    - pip install uv --quiet
+    - uv sync --quiet
+  script:
+    - echo "Flattening canvas steps (refreshes step-level analytics)..."
+    - uv run python scripts/flatten_canvases.py
+    - SINCE=$(date -d '30 days ago' +%Y-%m-%d)
+    - FORCE_SINCE=$(date -d '18 days ago' +%Y-%m-%d)
+    - echo "Filling in missing Braze analytics for campaigns since ${SINCE}..."
+    - uv run python scripts/backfill_analytics.py --all --since $SINCE
+    - echo "Force-refreshing Braze analytics for campaigns since ${FORCE_SINCE} (numbers still settling)..."
+    - uv run python scripts/backfill_analytics.py --all --force --since $FORCE_SINCE
+    - echo "Refreshing Klaviyo analytics (TI, last 30 days)..."
+    - uv run python scripts/backfill_klaviyo_analytics.py --brand TI --mode timeframe --days 30 --include-flows
+    - echo "Refreshing Klaviyo analytics (TE, last 30 days)..."
+    - uv run python scripts/backfill_klaviyo_analytics.py --brand TE --mode timeframe --days 30 --include-flows
+    - |
+      if git diff --quiet campaigns/ && [ -z "$(git ls-files --others --exclude-standard campaigns/)" ]; then
+        echo "No analytics changes to commit."
+      else
+        echo "Analytics updated — committing..."
+        git config user.name "GitLab CI"
+        git config user.email "ci@gitlab.com"
+        git add campaigns/
+        git commit -m "chore: refresh campaign analytics (last 30 days) [skip ci]
+
+      Automated weekly analytics refresh via GitLab CI scheduled pipeline."
+        git pull --rebase "https://gitlab-ci-token:${CI_PUSH_TOKEN}@gitlab.com/${CI_PROJECT_PATH}.git" ${CI_COMMIT_REF_NAME}
+        git push "https://gitlab-ci-token:${CI_PUSH_TOKEN}@gitlab.com/${CI_PROJECT_PATH}.git" HEAD:${CI_COMMIT_REF_NAME}
+        echo "Changes pushed to ${CI_COMMIT_REF_NAME}."
+      fi
+  variables:
+    GIT_STRATEGY: clone
+    GIT_DEPTH: "1"
+
+# ---------------------------------------------------------------------------
+# Scheduled job: update lifecycle FigJam board stats — rolling 12-week averages
+# ---------------------------------------------------------------------------
+# Runs every Monday at 9am ET. Queries the Braze datashare + GA4 (Snowflake)
+# for the latest 12-week weekly averages for every canvas row, then updates
+# the lifecycle-stats:: text nodes on the BUR and ID FigJam boards via claude.
+#
+# Requires CI/CD variables (Settings > CI/CD > Variables):
+#   ANTHROPIC_API_KEY      (masked) — for claude CLI
+#   SNOWFLAKE_ACCOUNT      (masked)
+#   SNOWFLAKE_USER         (masked)
+#   SNOWFLAKE_PRIVATE_KEY_FILE or SNOWFLAKE_PRIVATE_KEY (masked)
+#   FIGMA_TOKEN            (masked)
+#
+# Set up a Pipeline Schedule (CI/CD > Schedules):
+#   Description: "Weekly lifecycle FigJam stats update"
+#   Cron: "0 13 * * 1"  (Mondays at 1pm UTC = 9am EDT)
+#   Branch: main
+#   Variables: PIPELINE_TYPE = figjam_stats_update
+#
+# Can also be triggered manually from the Pipelines page.
+
+update-lifecycle-canvas-map:
+  stage: deploy
+  image: python:3.12-slim
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule" && $PIPELINE_TYPE == "figjam_stats_update"
+    - if: $CI_PIPELINE_SOURCE == "web"
+      when: manual
+  before_script:
+    - apt-get update -qq && apt-get install -y -qq git
+    - pip install uv --quiet
+    - uv sync --quiet
+  script:
+    - echo "Regenerating lifecycle canvas map dashboard..."
+    - uv run python scripts/lifecycle_canvas_map_dashboard.py
+    - |
+      if git diff --quiet reports/lifecycle-canvas-map.html; then
+        echo "No changes to dashboard."
+      else
+        git config user.name "GitLab CI"
+        git config user.email "ci@gitlab.com"
+        git add reports/lifecycle-canvas-map.html
+        git commit -m "chore: update lifecycle canvas map dashboard [skip ci]
+
+      Rolling 12-week weekly averages — $(date +%Y-%m-%d)"
+        git pull --rebase "https://gitlab-ci-token:${CI_PUSH_TOKEN}@gitlab.com/${CI_PROJECT_PATH}.git" ${CI_COMMIT_REF_NAME}
+        git push "https://gitlab-ci-token:${CI_PUSH_TOKEN}@gitlab.com/${CI_PROJECT_PATH}.git" HEAD:${CI_COMMIT_REF_NAME}
+      fi
+  variables:
+    GIT_STRATEGY: clone
+    GIT_DEPTH: "1"
+
+update-lifecycle-figjam:
+  stage: deploy
+  image: python:3.12-slim
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule" && $PIPELINE_TYPE == "figjam_stats_update"
+    - if: $CI_PIPELINE_SOURCE == "web"
+      when: manual
+  before_script:
+    - apt-get update -qq && apt-get install -y -qq git curl nodejs npm
+    - pip install uv --quiet
+    - uv sync --quiet
+    # Install claude CLI
+    - npm install -g @anthropic-ai/claude-code
+  script:
+    - echo "Updating lifecycle FigJam board stats (rolling 12-week averages)..."
+    - |
+      claude --print "
+      Today is $(date +%Y-%m-%d). Update the lifecycle FigJam board stats for both the
+      Burrow board (VxjmwZuwCf3bsWfMGLOlOm) and Interior Define board (IHASW2pUj5Zfy4ZKJlTyDR).
+
+      For each board, query the Braze raw events datashare and GA4 Snowflake tables for
+      rolling 12-week weekly averages (Sends/wk, T1 Sends/wk, Unique Opens/wk, UOR,
+      Sessions/wk, Rev/wk, Rev/M). Use the same queries and canvas hex IDs from
+      scripts/update_lifecycle_stats.py.
+
+      Update each text node named lifecycle-stats::{brand}::{canvas-slug} on both boards
+      with the fresh numbers. For SMS-only canvases (sms-welcome) omit Opens/UOR/RevM.
+      " 2>&1
+    - echo "Lifecycle FigJam stats updated."
+  variables:
+    GIT_STRATEGY: clone
+    GIT_DEPTH: "1"
+
+# ---------------------------------------------------------------------------
+# Scheduled job: Braze event/canvas volume anomaly alerts (Slack)
+# ---------------------------------------------------------------------------
+# Watches the custom events + lifecycle-canvas first-email-steps configured in
+# data/braze_anomaly_config.yaml for silent volume drops or zero-firing, and
+# posts to #team-lifecycle. See CLAUDE.md "Braze Event & Canvas Anomaly
+# Alerts" for how false alarms are avoided (datashare-lag gate, sale-day
+# exclusion from the trailing baseline).
+#
+# Requires CI/CD variables (Settings > CI/CD > Variables):
+#   SNOWFLAKE_ACCOUNT                  (masked) — already present
+#   SNOWFLAKE_USER                     (masked) — already present
+#   SNOWFLAKE_PASSWORD                 (masked) — already present (NOTE: despite
+#     other jobs' comments below mentioning SNOWFLAKE_PRIVATE_KEY, scripts/
+#     snowflake_client.py — used by this job and those — only ever reads
+#     SNOWFLAKE_PASSWORD or SNOWFLAKE_AUTHENTICATOR=externalbrowser; there is
+#     no private-key code path today. Confirm which variable your working
+#     Snowflake jobs actually rely on and mirror that here.)
+#   BRAZE_API_KEY_HAV / CZ / ID / BUR / STF (masked) — already present
+#   SLACK_WEBHOOK_URL_TEAM_LIFECYCLE   (masked) — NEW, add this
+#   CI_PUSH_TOKEN                      — already present (commits the updated
+#     dedup state file back to main)
+#
+# Set up a Pipeline Schedule (CI/CD > Schedules):
+#   Description: "Braze anomaly alerts"
+#   Cron: "0 13 * * *"  (daily at 1pm UTC = 9am EDT / 8am EST)
+#   Branch: main
+#   Variables: PIPELINE_TYPE = braze_anomaly_alerts
+#
+# Can also be triggered manually from the Pipelines page — runs a real check
+# (not --dry-run), so it will post if a real anomaly is found. Same-day
+# dedup in data/braze_anomaly_state.yaml prevents double-posting if this
+# overlaps with the scheduled run.
+
+monitor-braze-anomalies:
+  stage: deploy
+  image: python:3.12-slim
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule" && $PIPELINE_TYPE == "braze_anomaly_alerts"
+    - if: $CI_PIPELINE_SOURCE == "web"
+      when: manual
+  before_script:
+    - apt-get update -qq && apt-get install -y -qq git
+    - pip install uv --quiet
+    - uv sync --quiet
+  script:
+    - echo "Checking Braze event/canvas volume anomalies..."
+    - uv run python scripts/braze_automation/monitor_braze_anomalies.py
+    - |
+      git add data/braze_anomaly_state.yaml
+      if git diff --cached --quiet; then
+        echo "No new alerts — state unchanged."
+      else
+        echo "Alert state updated — committing..."
+        git config user.name "GitLab CI"
+        git config user.email "ci@gitlab.com"
+        git commit -m "chore: update Braze anomaly alert state [skip ci]
+
+      Automated daily anomaly check via GitLab CI scheduled pipeline."
+        git pull --rebase "https://gitlab-ci-token:${CI_PUSH_TOKEN}@gitlab.com/${CI_PROJECT_PATH}.git" ${CI_COMMIT_REF_NAME}
+        git push "https://gitlab-ci-token:${CI_PUSH_TOKEN}@gitlab.com/${CI_PROJECT_PATH}.git" HEAD:${CI_COMMIT_REF_NAME}
+        echo "Changes pushed to ${CI_COMMIT_REF_NAME}."
+      fi
+  variables:
+    GIT_STRATEGY: clone
+    GIT_DEPTH: "1"
+
+# ---------------------------------------------------------------------------
+# Scheduled job: Klaviyo metric volume anomaly alerts (Slack) — TI + TE
+# ---------------------------------------------------------------------------
+# Klaviyo counterpart to monitor-braze-anomalies above — same detection
+# logic (scripts/utils/anomaly_detector.py), same Slack webhook, but pulls
+# volume from Klaviyo's Query Metric Aggregates API instead of Snowflake.
+# No Snowflake credentials needed. See CLAUDE.md "Klaviyo Event/Metric
+# Anomaly Alerts" for details.
+#
+# Requires CI/CD variables (Settings > CI/CD > Variables):
+#   KLAVIYO_API_KEY_TI                 (masked) — already present
+#   KLAVIYO_API_KEY_TE                 (masked) — already present
+#   SLACK_WEBHOOK_URL_TEAM_LIFECYCLE   (masked) — already present (added for
+#     monitor-braze-anomalies)
+#   CI_PUSH_TOKEN                      — already present (commits the
+#     updated dedup state file back to main)
+#
+# Set up a Pipeline Schedule (CI/CD > Schedules):
+#   Description: "Klaviyo anomaly alerts"
+#   Cron: "15 13 * * *"  (daily at 1:15pm UTC — offset from the Braze job
+#     so the two don't race on git push)
+#   Branch: main
+#   Variables: PIPELINE_TYPE = klaviyo_anomaly_alerts
+#
+# Can also be triggered manually from the Pipelines page — runs a real
+# check (not --dry-run). Same-day dedup in data/klaviyo_anomaly_state.yaml
+# prevents double-posting if this overlaps with the scheduled run.
+
+monitor-klaviyo-anomalies:
+  stage: deploy
+  image: python:3.12-slim
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule" && $PIPELINE_TYPE == "klaviyo_anomaly_alerts"
+    - if: $CI_PIPELINE_SOURCE == "web"
+      when: manual
+  before_script:
+    - apt-get update -qq && apt-get install -y -qq git
+    - pip install uv --quiet
+    - uv sync --quiet
+  script:
+    - echo "Checking Klaviyo metric volume anomalies (TI, TE)..."
+    - uv run python scripts/monitor_klaviyo_anomalies.py
+    - |
+      git add data/klaviyo_anomaly_state.yaml
+      if git diff --cached --quiet; then
+        echo "No new alerts — state unchanged."
+      else
+        echo "Alert state updated — committing..."
+        git config user.name "GitLab CI"
+        git config user.email "ci@gitlab.com"
+        git commit -m "chore: update Klaviyo anomaly alert state [skip ci]
+
+      Automated daily anomaly check via GitLab CI scheduled pipeline."
+        git pull --rebase "https://gitlab-ci-token:${CI_PUSH_TOKEN}@gitlab.com/${CI_PROJECT_PATH}.git" ${CI_COMMIT_REF_NAME}
+        git push "https://gitlab-ci-token:${CI_PUSH_TOKEN}@gitlab.com/${CI_PROJECT_PATH}.git" HEAD:${CI_COMMIT_REF_NAME}
+        echo "Changes pushed to ${CI_COMMIT_REF_NAME}."
+      fi
+  variables:
+    GIT_STRATEGY: clone
+    GIT_DEPTH: "1"
+
+# ---------------------------------------------------------------------------
+# Scheduled job: sync HAV style-quiz zip codes to Braze user profiles
+# ---------------------------------------------------------------------------
+# Writes ONBOARDING_ANSWER_HOME_ZIP_CODE as the `zipCode` Braze custom attribute
+# for users who don't already have one (purchase zip, written at checkout, takes
+# priority and is never overwritten).
+#
+# Requires CI/CD variables (Settings > CI/CD > Variables):
+#   BRAZE_API_KEY_HAV      (masked) — already present
+#   BRAZE_BASE_URL_HAV     (masked) — already present
+#   SNOWFLAKE_ACCOUNT      (masked) — already present
+#   SNOWFLAKE_USER         (masked) — already present
+#   SNOWFLAKE_PRIVATE_KEY  (masked) — already present
+#
+# Set up a Pipeline Schedule (CI/CD > Schedules):
+#   Description: "Sync HAV zip codes to Braze"
+#   Cron: "0 7 * * *"  (daily at 7am UTC / 3am ET — after room attr sync)
+#   Branch: main
+#   Variables: PIPELINE_TYPE = hav_zip_sync
+#
+# For the initial full backfill (~393K users), trigger manually from the
+# Pipelines page and set FULL_SYNC = true as a run variable.
+
+sync-hav-zip-codes:
+  stage: sync
+  image: python:3.12-slim
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule" && $PIPELINE_TYPE == "hav_zip_sync"
+    - if: $CI_PIPELINE_SOURCE == "web"
+      when: manual
+  before_script:
+    - pip install uv --quiet
+    - uv sync --quiet
+  script:
+    - |
+      if [ "$FULL_SYNC" = "true" ]; then
+        echo "Running full sync (all-time backfill)..."
+        uv run python scripts/sync_hav_zip_codes.py --full
+      else
+        echo "Syncing zip codes for users created in the last 2 days..."
+        uv run python scripts/sync_hav_zip_codes.py --days 2
+      fi
+  variables:
+    GIT_STRATEGY: clone
+    GIT_DEPTH: "1"
+
+# ---------------------------------------------------------------------------
+# Scheduled job: sync HAV board product recommendations to Braze
+# ---------------------------------------------------------------------------
+# Writes `board_product_recommendations` — the user's design-board products
+# (sale AND full-price; same item structure as engineering's
+# on_sale_product_recommendations) — for every existing HAV Braze profile with
+# a published designer board (~102K users). Never creates profiles: SQL joins
+# the Braze datashare for existence AND every /users/track object carries
+# `_update_existing_only: true`. Powers lifecycle Stage 5 "Ready to Shop".
+#
+# Rides the existing "Sync HAV zip codes to Braze" pipeline schedule
+# (PIPELINE_TYPE = hav_zip_sync, daily 7am UTC / 3am ET) — no new schedule or
+# CI variables needed; uses the same ones as sync-hav-zip-codes.
+
+sync-board-product-recs:
+  stage: sync
+  image: python:3.12-slim
+  timeout: 3h
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule" && $PIPELINE_TYPE == "hav_zip_sync"
+    - if: $CI_PIPELINE_SOURCE == "web"
+      when: manual
+  before_script:
+    - pip install uv --quiet
+    - uv sync --quiet
+  script:
+    - echo "Syncing board_product_recommendations to Braze..."
+    - uv run python scripts/sync_board_product_recommendations.py
+  variables:
+    GIT_STRATEGY: clone
+    GIT_DEPTH: "1"
+    PYTHONUNBUFFERED: "1"
+
+# ---------------------------------------------------------------------------
+# Scheduled job: sync HAV In-Person (HIP) geo audience to Braze
+# ---------------------------------------------------------------------------
+# Writes hip_eligible + hip_market custom attributes on existing HAV Braze
+# profiles in a qualifying HIP zip market (data/hav_hip_zip_markets.yaml) who
+# are recent, mailable, non-purchaser prospects. Powers the "HIP" canvas,
+# which enters on a CHANGE in hip_eligible to true -- so this job must run
+# continuously to catch newly-qualifying profiles as they appear (each fresh
+# flag is a real attribute transition and fires canvas entry; re-flagging an
+# already-true profile is a no-op change-wise, so this never re-enters
+# someone already in the cohort). --clear-stale unsets profiles that have
+# aged out (purchased a design package, unsubscribed, etc.) so they don't
+# sit on a stale true flag forever.
+#
+# Rides the existing "Sync HAV zip codes to Braze" pipeline schedule
+# (PIPELINE_TYPE = hav_zip_sync, daily 7am UTC / 3am ET) -- no new schedule
+# needed. Uses BRAZE_API_KEY_HAV_USERS if set as a CI/CD variable, else
+# falls back to BRAZE_API_KEY_HAV (already present) -- add
+# BRAZE_API_KEY_HAV_USERS as its own masked CI/CD variable if this sync
+# should use different Braze API key permissions than the zip-code sync.
+
+sync-hav-hip-audience:
+  stage: sync
+  image: python:3.12-slim
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule" && $PIPELINE_TYPE == "hav_zip_sync"
+    - if: $CI_PIPELINE_SOURCE == "web"
+      when: manual
+  before_script:
+    - pip install uv --quiet
+    - uv sync --quiet
+  script:
+    - echo "Syncing HAV HIP geo audience to Braze..."
+    - uv run python scripts/sync_hav_hip_audience.py --clear-stale
+  variables:
+    GIT_STRATEGY: clone
+    GIT_DEPTH: "1"
+    PYTHONUNBUFFERED: "1"
+
+# ---------------------------------------------------------------------------
+# Scheduled job: sync HAV room attributes to Braze user profiles
+# ---------------------------------------------------------------------------
+# Writes concept_room_id as a Braze custom attribute for all users who had a
+# concept delivered in the last 2 days. Powers the Concept Ready lifecycle
+# email CTA without requiring API trigger properties.
+#
+# Requires CI/CD variables (Settings > CI/CD > Variables):
+#   BRAZE_API_KEY_HAV      (masked) — already present
+#   BRAZE_BASE_URL_HAV     (masked) — already present
+#   SNOWFLAKE_ACCOUNT      (masked) — already present
+#   SNOWFLAKE_USER         (masked) — already present
+#   SNOWFLAKE_PRIVATE_KEY  (masked) — already present
+#
+# Set up a Pipeline Schedule (CI/CD > Schedules):
+#   Description: "Sync HAV room attributes to Braze"
+#   Cron: "0 6 * * *"  (daily at 6am UTC / 2am ET — before morning sends)
+#   Branch: main
+#   Variables: PIPELINE_TYPE = hav_room_attr_sync
+#
+# For the initial full backfill, trigger manually from the Pipelines page
+# and set FULL_SYNC = true as a run variable.
+
+sync-hav-room-attributes:
+  stage: sync
+  image: python:3.12-slim
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule" && $PIPELINE_TYPE == "hav_room_attr_sync"
+    - if: $CI_PIPELINE_SOURCE == "web"
+      when: manual
+  before_script:
+    - pip install uv --quiet
+    - uv sync --quiet
+  script:
+    - |
+      if [ "$FULL_SYNC" = "true" ]; then
+        echo "Running full sync (all-time)..."
+        uv run python scripts/sync_hav_room_attributes.py --full
+      else
+        echo "Syncing concept deliveries from the last 2 days..."
+        uv run python scripts/sync_hav_room_attributes.py --days 2
+      fi
+  variables:
+    GIT_STRATEGY: clone
+    GIT_DEPTH: "1"
+
+# ---------------------------------------------------------------------------
+# Push a clean snapshot of main to GitHub on every commit to main
+# ---------------------------------------------------------------------------
+# Strips large files that exceed GitHub's limits before pushing, so the full
+# git history on GitLab never needs to be rewritten.
+#
+# Requires CI/CD variables (Settings > CI/CD > Variables):
+#   GITHUB_PAT   (masked) — GitHub personal access token with repo scope
+#
+# Runs automatically on every push to main. No schedule needed.
+
+# ---------------------------------------------------------------------------
+# Scheduled job: sync BUR post-purchase flow routing attributes to Braze
+# ---------------------------------------------------------------------------
+# Queries the Braze raw events Snowflake datashare for qualifying purchases
+# and sets custom attributes on Braze user profiles that power exception entry
+# conditions in the four post-purchase canvases (1A, 1B, 2, 3).
+#
+# Why: Braze's "Has Purchased" segment filter requires exact product name
+# matches — unworkable with BUR's large chair SKU catalog. This job classifies
+# products via Snowflake ILIKE and writes a single boolean/datetime per flow.
+#
+# Attributes set:
+#   bur_has_dining_chairs (bool)              — for Flow 1A exception
+#   bur_post_purchase_1a_enrolled_at (string) — first dining table purchase date
+#   bur_post_purchase_1b_enrolled_at (string) — first dining chair purchase date
+#   bur_post_purchase_2_enrolled_at (string)  — first non-sleeper sofa purchase date
+#   bur_post_purchase_3_enrolled_at (string)  — first sleeper purchase date
+#
+# Canvas exception logic (in Braze UI per canvas):
+#   bur_has_dining_chairs = true               → blocks 1A (already owns chairs)
+#   bur_post_purchase_Xflow_enrolled_at IS SET → blocks re-entry to same flow
+#   bur_post_purchase_Yflow_enrolled_at less than 60 days ago → cross-flow block
+#
+# Schedule: daily at 2:15am UTC (offset from anomaly alert jobs at 1pm UTC)
+#   GitLab UI: Settings > CI/CD > Schedules
+#   Description: "BUR post-purchase attribute sync"
+#   Cron: "15 2 * * *"
+#   Branch: main
+#   Variables: PIPELINE_TYPE = bur_post_purchase_sync
+#
+# First deploy: run with PIPELINE_TYPE = bur_post_purchase_sync_backfill to
+# process all-time purchases and set attributes for existing customers.
+
+sync-bur-post-purchase-attributes:
+  stage: sync
+  image: python:3.12-slim
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule" && $PIPELINE_TYPE == "bur_post_purchase_sync"
+    - if: $CI_PIPELINE_SOURCE == "schedule" && $PIPELINE_TYPE == "bur_post_purchase_sync_backfill"
+    - if: $CI_PIPELINE_SOURCE == "web"
+      when: manual
+  before_script:
+    - apt-get update -qq && apt-get install -y -qq git
+    - pip install uv --quiet
+    - uv sync --frozen --quiet
+  script:
+    - |
+      if [ "$PIPELINE_TYPE" = "bur_post_purchase_sync_backfill" ]; then
+        echo "Running full backfill (all-time purchases)..."
+        uv run python scripts/braze_automation/sync_bur_post_purchase_attributes.py --backfill
+      else
+        echo "Running daily sync (last 48 hours)..."
+        uv run python scripts/braze_automation/sync_bur_post_purchase_attributes.py
+      fi
+  variables:
+    GIT_STRATEGY: clone
+    GIT_DEPTH: "1"
+
+# ---------------------------------------------------------------------------
+# Scheduled job: TE Hubspot to Klaviyo Trade Sync
+# ---------------------------------------------------------------------------
+# Two full pull + diff syncs, run back-to-back on the same schedule:
+#   1. sync_hubspot_trade_to_klaviyo.py — HubSpot list 449 ("All Trade
+#      Contacts") vs. Klaviyo list UF8eu9 ("All Trade Members [Hubspot via
+#      API]") — every contact at a trade-partner company, verified or not.
+#   2. sync_trade_approved_to_klaviyo.py — narrower sibling sync: only
+#      individually-approved contacts (HubSpot is_trade_partner = true) plus
+#      anyone who's already received the July 2026 relaunch welcome email,
+#      into Klaviyo list XMEFhV ("Trade Members - Approved Only [Hubspot via
+#      API]") — the safer, lower-deliverability-risk list.
+# No state file for either — the diff is computed live against both APIs
+# each run, so there's nothing to commit back to the repo.
+#
+# Requires CI/CD variables (Settings > CI/CD > Variables):
+#   HUBSPOT_API_KEY_TE   (masked) — already present
+#   KLAVIYO_API_KEY_TE   (masked) — already present
+#
+# Set up a Pipeline Schedule (CI/CD > Schedules):
+#   Description: "TE Hubspot to Klaviyo Trade Sync"
+#   Cron: "0 * * * *"  (hourly, top of the hour)
+#   Branch: main
+#   Variables: PIPELINE_TYPE = hubspot_trade_sync
+#
+# Can also be triggered manually from the Pipelines page.
+
+sync-hubspot-trade-to-klaviyo:
+  stage: sync
+  image: python:3.12-slim
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule" && $PIPELINE_TYPE == "hubspot_trade_sync"
+    - if: $CI_PIPELINE_SOURCE == "web"
+      when: manual
+  before_script:
+    - pip install uv --quiet
+    - uv sync --frozen --quiet
+  script:
+    - echo "Syncing HubSpot Trade contacts into Klaviyo..."
+    - uv run python scripts/sync_hubspot_trade_to_klaviyo.py
+    - echo "Syncing TE trade-approved contacts into Klaviyo..."
+    - uv run python scripts/sync_trade_approved_to_klaviyo.py
+  variables:
+    GIT_STRATEGY: clone
+    GIT_DEPTH: "1"
+  # The docker-autoscaler runner can drop the SSH tunnel to its ephemeral
+  # instance mid-job (spot reclamation / network blip), which GitLab reports as
+  # a system failure. Both syncs are idempotent (full pull + diff each run), so
+  # auto-retry on infra flakes only — not on a real script error.
+  retry:
+    max: 2
+    when:
+      - runner_system_failure
+      - stuck_or_timeout_failure
+
+# ---------------------------------------------------------------------------
+# Scheduled job: refresh the cross-brand lifecycle attribution report
+# ---------------------------------------------------------------------------
+# Regenerates reports/crossbrand-lifecycle-attribution.html with a rolling
+# last-180-days window (scripts/analysis/crossbrand_lifecycle_report.py).
+# Previously only ever run manually, so the date window in the file went
+# stale for weeks at a time between manual runs.
+#
+# Requires CI/CD variables (Settings > CI/CD > Variables):
+#   SNOWFLAKE_ACCOUNT    (masked)
+#   SNOWFLAKE_USER       (masked)
+#   SNOWFLAKE_PASSWORD   (masked)
+#   SNOWFLAKE_ROLE       (masked)
+#   SNOWFLAKE_WAREHOUSE  (masked)
+#   SNOWFLAKE_DATABASE   (masked) — AIRBYTE_DATABASE
+#   CI_PUSH_TOKEN        — already present (shared with other sync jobs)
+#
+# Set up a Pipeline Schedule (CI/CD > Schedules):
+#   Description: "Refresh cross-brand lifecycle attribution report"
+#   Cron: "0 9 * * *"  (daily at 9am UTC / 5am Eastern)
+#   Branch: main
+#   Variables: PIPELINE_TYPE = crossbrand_report_refresh
+#
+# Can also be triggered manually from the Pipelines page.
+
+refresh-crossbrand-report:
+  stage: sync
+  image: python:3.12-slim
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule" && $PIPELINE_TYPE == "crossbrand_report_refresh"
+    - if: $CI_PIPELINE_SOURCE == "web"
+      when: manual
+  before_script:
+    - apt-get update -qq && apt-get install -y -qq git
+    - pip install uv --quiet
+    - uv sync --quiet
+  script:
+    - echo "Refreshing cross-brand lifecycle attribution report (last 180 days)..."
+    - uv run python scripts/analysis/crossbrand_lifecycle_report.py
+    - |
+      if git diff --quiet reports/crossbrand-lifecycle-attribution.html; then
+        echo "No changes to the report."
+      else
+        echo "Report updated — committing..."
+        git config user.name "GitLab CI"
+        git config user.email "ci@gitlab.com"
+        git add reports/crossbrand-lifecycle-attribution.html
+        git commit -m "chore: refresh crossbrand lifecycle attribution report [skip ci]
+
+      Automated daily refresh via GitLab CI scheduled pipeline."
+        git pull --rebase "https://gitlab-ci-token:${CI_PUSH_TOKEN}@gitlab.com/${CI_PROJECT_PATH}.git" ${CI_COMMIT_REF_NAME}
+        git push "https://gitlab-ci-token:${CI_PUSH_TOKEN}@gitlab.com/${CI_PROJECT_PATH}.git" HEAD:${CI_COMMIT_REF_NAME}
+        echo "Changes pushed to ${CI_COMMIT_REF_NAME}."
+      fi
+  variables:
+    GIT_STRATEGY: clone
+    GIT_DEPTH: "1"
+
+sync-to-github:
+  stage: deploy
+  image: python:3.12-slim
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+      when: always
+  before_script:
+    - apt-get update -qq && apt-get install -y -qq git
+  script:
+    - git config user.email "ci@gitlab.com"
+    - git config user.name "GitLab CI"
+    - git checkout --orphan github-deploy
+    - git rm -rf --ignore-unmatch .venv_run/
+    - git rm -f --ignore-unmatch exports/asana_velocity_data.json
+    - git add -A
+    - git commit -m "Deploy ${CI_COMMIT_SHORT_SHA} — ${CI_COMMIT_TITLE}"
+    - git push "https://x-access-token:${GITHUB_PAT}@github.com/jordanrubenstein-1/email-knowledgebase.git" github-deploy:main --force
+  variables:
+    GIT_STRATEGY: clone
+    GIT_DEPTH: "1"

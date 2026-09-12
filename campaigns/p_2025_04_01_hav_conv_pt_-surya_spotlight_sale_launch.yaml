@@ -1,0 +1,33 @@
+id: 8aa88f4b-3491-492e-8d0c-6c9a9aaa0e1f
+name: P_2025_04_01_HAV_CONV_PT_ Surya_Spotlight_Sale_Launch
+brand: HAV
+channel: email
+category: editorial
+type: sale
+theme: null
+braze_id: 8aa88f4b-3491-492e-8d0c-6c9a9aaa0e1f
+dates:
+  send_date: '2025-04-01'
+  first_sent: '2025-03-31T18:15:47+00:00'
+  last_sent: '2025-04-01T17:15:06+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 41447e63-7991-475d-88be-5adcd6a1c443
+  channel: email
+  name: Variant 1
+  subject: A Havenly-exclusive deal, just for you...
+- id: e0d6fcbf-6fdc-411c-9b60-ac5693d35c98
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 39335
+  total_delivered: 39265
+  total_opens: 23062
+  total_clicks: 385
+  open_rate: 0.5863
+  click_rate: 0.0098
+  total_unsubscribes: 61
+schedule_type: time_based
+_filename: p_2025_04_01_hav_conv_pt_-surya_spotlight_sale_launch.yaml

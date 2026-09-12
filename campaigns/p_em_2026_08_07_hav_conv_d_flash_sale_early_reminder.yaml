@@ -1,0 +1,32 @@
+id: 595fbce1-6153-465d-9956-4a2e5eb4a0bd
+name: P_EM_2026_08_07_HAV_CONV_D_Flash_Sale_Early_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 595fbce1-6153-465d-9956-4a2e5eb4a0bd
+dates:
+  send_date: '2026-08-07'
+  last_sent: '2026-08-07'
+tags:
+- BLASTS-2025
+sends:
+- id: 7df82055-b3cd-4e71-ac07-ec4b1ae80825
+  channel: email
+  name: Variant 1
+  subject: Still shopping? Smart move
+  preheader: Your flash sale savings are waiting.
+- id: d36f8f41-272b-4017-a2df-9d0c7a28deee
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 42630
+  total_delivered: 42560
+  total_opens: 20493
+  total_clicks: 75
+  open_rate: 0.4807
+  click_rate: 0.0018
+  total_unsubscribes: 48
+schedule_type: time_based
+_filename: p_em_2026_08_07_hav_conv_d_flash_sale_early_reminder.yaml

@@ -1,0 +1,33 @@
+id: 1edc3858-3ade-4568-81a0-8744344c4c76
+name: P_EM_2026_07_01_BW_PT_Mid_Sale_Check_In
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 1edc3858-3ade-4568-81a0-8744344c4c76
+dates:
+  send_date: '2026-07-01'
+  last_sent: '2026-07-01'
+tags:
+- Batch&Blast
+sends:
+- id: 02c8ccd6-f849-47e9-a9e1-965eb47544be
+  channel: email
+  name: Variant 1
+  subject: Still going. Up to 50% off.
+- id: 5bd0c8bc-45b2-4774-bd39-f23f825a581c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 228351
+  total_delivered: 227541
+  total_opens: 114826
+  total_clicks: 472
+  open_rate: 0.5028
+  click_rate: 0.0021
+  total_revenue: 82505.0
+  total_bounces: 2
+  total_unsubscribes: 142
+schedule_type: time_based
+_filename: p_em_2026_07_01_bw_pt_mid_sale_check_in.yaml

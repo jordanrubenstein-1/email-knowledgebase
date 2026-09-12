@@ -1,0 +1,35 @@
+id: 29be4efb-956f-494f-aa67-734cff3b5d87
+name: P_2025_07_06_HAV_PC_D_Fourth_of_July_Sale_Ends_Tonight
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 29be4efb-956f-494f-aa67-734cff3b5d87
+dates:
+  send_date: '2025-07-06'
+  first_sent: '2025-07-05T18:23:55+00:00'
+  last_sent: '2025-07-06T18:15:16+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 1b7c325c-3448-478d-b2d4-c33b45cb8b42
+  channel: email
+  name: Variant 1
+  subject: Not to be dramatic but...
+  preheader: Tonight is your last chance for 50% off
+- id: a80dafdb-5215-41a9-b839-a1c165892cc7
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 226022
+  total_delivered: 222510
+  total_opens: 93781
+  total_clicks: 387
+  open_rate: 0.4149
+  click_rate: 0.0017
+  total_bounces: 11
+  total_unsubscribes: 393
+schedule_type: time_based
+_filename: p_2025_07_06_hav_pc_d_fourth_of_july_sale_ends_tonight.yaml

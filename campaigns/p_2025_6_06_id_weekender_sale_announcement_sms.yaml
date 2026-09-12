@@ -1,0 +1,30 @@
+id: b7835f11-7d47-4aa3-bd47-582e22463fe5
+name: P_2025_6_06_ID_Weekender_Sale_Announcement_SMS
+brand: ID
+channel: sms
+category: sale_promo
+type: sale
+theme: null
+braze_id: b7835f11-7d47-4aa3-bd47-582e22463fe5
+dates:
+  send_date: '2025-06-06'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-06T16:32:11+00:00'
+  last_sent: '2025-06-06T22:45:25+00:00'
+tags: []
+sends:
+- id: b3d3773d-98a4-4085-961b-b76f0d08899e
+  channel: other
+  name: Variant 1
+- id: 3c91ddfb-1a24-45d8-b206-ee6175b06439
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 57902
+  total_delivered: 54239
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 7230.0
+schedule_type: time_based

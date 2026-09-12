@@ -1,0 +1,56 @@
+id: klaviyo-KFvmFe
+name: 'Email #3'
+brand: TI
+channel: email
+category: other
+type: lifecycle
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: PzvAtN
+canvas_name: 'Abandon: Cart Abandon SWATCH'
+flow_type: cart_abandonment
+sequence_position: 3
+dates:
+  created: '2019-11-10'
+  inferred_send_type: sto
+  first_sent: '2019-11-10'
+  last_sent: '2020-06-02'
+sends:
+- id: KFvmFe
+  channel: email
+  name: Message
+  subject: Still thinking about it?
+  preheader: Order swatches to start your decorating experience.
+  html_file: html/klv-flow-abandon-cart-abandon-swatch-t03-KFvmFe.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/1741e037-b296-4788-a11a-531a1acf16b0.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/d12ce5dc-e333-4a67-8d1c-4ee990916597.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/6e12c203-1f9e-43e4-a7ec-d711ca771698.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/6bbe88fe-561e-4024-ab8b-17f47f2162ce.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/ceb6f5c5-f23a-4ba4-baea-fd201368b859.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/ba85cab4-c415-4e63-ad0a-586f6e033502.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/621af76c-91df-4b04-ba5c-8228cb8ca670.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/4d6c868d-8349-442a-8234-091d8db1228e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/a4c0b888-e047-48a6-a85d-fbec9e9302d1.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/9eadeabe-1260-49e7-917b-0a7f876501f8.png
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: KFvmFe
+structure:
+  image_count: 14
+  link_count: 14
+  has_gif: false
+  hero_width: 600
+  layout_type: product_grid

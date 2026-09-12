@@ -1,0 +1,30 @@
+id: d96cd384-bb4b-4be7-a3ec-ef57f702e434
+name: P_SMS_2025_11_24_ID_Black_Friday_Reminder
+brand: ID
+channel: sms
+category: reminder
+type: announcement
+theme: null
+braze_id: d96cd384-bb4b-4be7-a3ec-ef57f702e434
+dates:
+  send_date: '2025-11-24'
+  inferred_send_type: local_time
+  first_sent: '2025-11-24T01:08:41+00:00'
+  last_sent: '2025-11-25T01:01:05+00:00'
+tags: []
+sends:
+- id: 77c9cf3f-d9bf-4f05-a897-b04670e63477
+  channel: sms
+  name: Variant 1
+- id: 94b2c05a-f8bf-4658-bfb9-61d78d863fcf
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 51146
+  total_delivered: 48046
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 35522.93
+schedule_type: time_based

@@ -1,0 +1,35 @@
+id: 471e7d78-e77e-4d08-be63-a4a387df2cb4
+name: 2025_04_18_D_HAV_PC_Sale_Spotlight_Send
+brand: HAV
+channel: email
+category: editorial
+type: sale
+theme: null
+braze_id: 471e7d78-e77e-4d08-be63-a4a387df2cb4
+dates:
+  send_date: '2025-04-18'
+  first_sent: '2025-04-17T18:23:40+00:00'
+  last_sent: '2025-04-18T18:15:12+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: e0d905f2-8f6b-46e3-95d6-3dfb7f468e72
+  channel: email
+  name: Variant 1
+  subject: Our Spring Favorites, Now On Sale
+  preheader: Refresh your space with up to 15% off sitewide.
+- id: 00e7a4e1-dcaf-4a9a-bb81-df9737c45f06
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 205823
+  total_delivered: 201648
+  total_opens: 88234
+  total_clicks: 512
+  open_rate: 0.4287
+  click_rate: 0.0025
+  total_bounces: 3
+  total_unsubscribes: 266
+schedule_type: time_based
+_filename: 2025_04_18_d_hav_pc_sale_spotlight_send.yaml

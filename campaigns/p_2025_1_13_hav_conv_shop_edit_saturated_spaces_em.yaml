@@ -1,0 +1,57 @@
+id: 2d138c55-74c9-422c-8fd0-e6bf6a37cf16
+name: P_2025_1_13_HAV_Conv_Shop_Edit_Saturated_Spaces_Email
+brand: HAV
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 2d138c55-74c9-422c-8fd0-e6bf6a37cf16
+dates:
+  send_date: '2025-01-13'
+  inferred_send_type: scheduled
+  first_sent: '2025-01-13T16:09:42+00:00'
+  last_sent: '2025-01-13T16:10:09+00:00'
+tags: []
+sends:
+- id: 255b8937-6f3a-4928-be24-eab1f5bb090c
+  channel: email
+  name: Variant 1
+  subject: The Saturated Spaces Collection
+  preheader: Elevate your space with designer-curated pieces in rich hues.
+  html_file: html/p_2025_1_13_hav_conv_shop_edit_saturated_spaces_email.html
+  screenshot: screenshots/p_2025_1_13_hav_conv_shop_edit_saturated_spaces_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67819f144e5a0000647f7bd5/original.png?1736548115
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6736844d990e3f006581a530/original.gif?1731626061
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67819ebc4e5a0000647f7b65/original.png?1736548027
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6736840de2ee8300658a8253/original.gif?1731625997
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6736841b288b09006607949c/original.gif?1731626011
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67819f48f64e6400637227b8/original.png?1736548168
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67368432288b0900660794b7/original.gif?1731626034
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67819ee1795f710063f7420d/original.png?1736548065
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67368440103f8e007266f8f1/original.jpg?1731626048
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673683ef6b30f000645b95a7/original.gif?1731625967
+- id: bfae8be5-a9e0-49dc-a10e-7f3294d83d5e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 37004
+  total_delivered: 36954
+  total_opens: 20622
+  total_clicks: 384
+  open_rate: 0.5573
+  click_rate: 0.0104
+  total_unsubscribes: 84
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.673094'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.112641'
+schedule_type: time_based

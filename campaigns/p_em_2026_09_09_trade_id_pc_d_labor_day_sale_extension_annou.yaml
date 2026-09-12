@@ -1,0 +1,33 @@
+id: 5c4ac1e5-ffd0-42b6-a644-51fbcd59b5ba
+name: P_EM_2026_09_09_TRADE_ID_PC_D_Labor_Day_Sale_Extension_Announcement
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 5c4ac1e5-ffd0-42b6-a644-51fbcd59b5ba
+dates:
+  send_date: '2026-09-09'
+  first_sent: '2026-09-09T00:02:58+00:00'
+  last_sent: '2026-09-09T12:00:00+00:00'
+  inferred_send_type: scheduled
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 2dd0a4af-d975-429d-a9d5-882beee25f5c
+  channel: email
+  name: Variant 1
+  subject: 'Interior Define: The sale is extended, 35% off sitewide'
+  preheader: Even more savings on the pieces your clients love.
+- id: 9ee90df2-5279-4dce-b794-9cce8a9dacf4
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 77
+  total_delivered: 77
+  total_opens: 10
+  total_clicks: 1
+  open_rate: 0.1299
+  click_rate: 0.013
+schedule_type: time_based
+_filename: p_em_2026_09_09_trade_id_pc_d_labor_day_sale_extension_annou.yaml

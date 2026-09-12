@@ -1,0 +1,33 @@
+id: 6c042997-efd8-4ca9-986b-b9faafa4fed9
+name: P_2025_3_17_HAV_Start_Design_Now_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 6c042997-efd8-4ca9-986b-b9faafa4fed9
+dates:
+  send_date: '2025-03-17'
+  first_sent: '2025-03-17T04:35:06+00:00'
+  last_sent: '2025-03-18T04:30:04+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 5d744bbe-89ac-49b6-8ca9-86d565834802
+  channel: email
+  name: Variant 1
+  subject: Major savings are right around the corner...
+- id: 3ad438cb-b281-4e64-b0a6-5f2567a18b7c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1743
+  total_delivered: 1734
+  total_opens: 1010
+  total_clicks: 18
+  open_rate: 0.5795
+  click_rate: 0.0103
+  total_unsubscribes: 3
+schedule_type: time_based
+_filename: p_2025_3_17_hav_start_design_now_email.yaml

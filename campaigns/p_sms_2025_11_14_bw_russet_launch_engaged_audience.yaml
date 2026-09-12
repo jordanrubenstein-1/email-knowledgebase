@@ -1,0 +1,38 @@
+id: 599e73cc-d039-43cb-970d-e4e892e30339
+name: P_SMS_2025_11_14_BW_Russet_Launch_Engaged_Audience
+brand: BUR
+channel: sms
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 599e73cc-d039-43cb-970d-e4e892e30339
+dates:
+  send_date: '2025-11-14'
+  inferred_send_type: scheduled
+  first_sent: '2025-11-14T17:28:01+00:00'
+  last_sent: '2025-11-15T01:01:50+00:00'
+tags: []
+sends:
+- id: 7c979f99-1e30-4373-b6a9-f20ec9326c2d
+  channel: sms
+  name: Variant 1
+- id: b2b224c1-048f-4bf7-804f-370ab10be692
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 3961
+  total_delivered: 3898
+  total_opens: 0
+  total_clicks: 346
+  open_rate: 0.0
+  click_rate: 0.0874
+  total_revenue: 31326.0
+  ga4:
+    sessions: 310
+    purchases: 2
+    revenue: 3581.02
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.145954'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

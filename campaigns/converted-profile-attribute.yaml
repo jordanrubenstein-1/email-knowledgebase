@@ -1,0 +1,31 @@
+id: 466eb354-2842-4fcc-b255-d497862f5807
+name: Converted Profile Attribute
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 466eb354-2842-4fcc-b255-d497862f5807
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-31T14:00:00+00:00'
+  last_sent: '2025-12-13T10:00:00+00:00'
+tags: []
+sends: []
+performance_summary:
+  total_entries: 405
+  note: Canvas entries found but no email sends in analytics period
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:48.881179'
+    source: snowflake
+    channel: email
+canvas_steps:
+- id: 77c87655-c75b-4b55-99d6-c4fbb38b7396
+  name: Mark as Converted
+  type: user_update

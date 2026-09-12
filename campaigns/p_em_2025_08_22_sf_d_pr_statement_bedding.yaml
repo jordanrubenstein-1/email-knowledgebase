@@ -1,0 +1,82 @@
+id: 5b37fa2a-ebdb-405f-b980-4578384fa2c8
+name: P_EM_2025_08_22_SF_D_PR_Statement_Bedding
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 5b37fa2a-ebdb-405f-b980-4578384fa2c8
+dates:
+  send_date: '2025-08-22'
+  inferred_send_type: local_time
+  first_sent: '2025-08-22T00:33:50+00:00'
+  last_sent: '2025-08-22T17:00:11+00:00'
+tags:
+- Batch and Blast
+- am
+- bedding
+- d2c
+- designed
+- prod
+- sale
+sends:
+- id: edb2c828-1320-4419-8e21-b74bdb26183d
+  channel: email
+  name: Variant 1
+  subject: Making Your Bed Just Got Fun
+  preheader: statement bedding, now 25% off
+  html_file: html/p_em_2025_08_22_sf_d_pr_statement_bedding.html
+  screenshot: screenshots/p_em_2025_08_22_sf_d_pr_statement_bedding.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a7925f869fdb006691244b/original.png?1755812446
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a791d14b0a2b0066c37dd6/original.png?1755812305
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a7920e869fdb00669121ba/original.png?1755812366
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a7922010b66000736309f4/original.png?1755812384
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a792484c4dad0066bcc9bc/original.png?1755812424
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a792184b0a2b0095c37dcf/original.png?1755812376
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a79204869fdb00869117b3/original.png?1755812355
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a79227915dd5008518a4eb/original.png?1755812391
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a7923c915dd5008518a523/original.png?1755812411
+- id: 8fd5b3a6-5815-4719-beb5-bd14d128de63
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41245
+  total_delivered: 40897
+  total_opens: 18508
+  total_clicks: 211
+  open_rate: 0.4487
+  click_rate: 0.0051
+  total_revenue: 9408.0
+  total_bounces: 2
+  total_unsubscribes: 57
+  ga4:
+    sessions: 245
+    purchases: 1
+    revenue: 191.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.925884'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-the-labor-day-event-2025-08-21
+    name: The Labor Day Event
+    start_date: '2025-08-21'
+    end_date: '2025-09-04'
+    discount: 25% off Sitewide
+    type: null
+  primary_sale:
+    id: stf-the-labor-day-event-2025-08-21
+    name: The Labor Day Event
+    start_date: '2025-08-21'
+    end_date: '2025-09-04'
+    discount: 25% off Sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 25% off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:38.725422'
+schedule_type: time_based

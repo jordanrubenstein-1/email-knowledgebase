@@ -1,0 +1,51 @@
+id: klaviyo-01HKZD7AZD60CM2M2CQJ0N4CN1
+name: '1/16/24: Refresh Sale - Plain Text Reminder'
+brand: TI
+channel: email
+category: reminder
+type: sale
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2024-01-12'
+  inferred_send_type: scheduled
+  first_sent: '2024-01-16T06:15:00+00:00'
+  last_sent: '2024-01-16T06:15:00+00:00'
+sends:
+- id: 01HKZD7B3MR0G5YJ21EXCQTZY6
+  channel: email
+  name: '1/16/24: Refresh Sale - Plain Text Reminder'
+  subject: Winter Blues? Here's 20% off.
+  preheader: ''
+  html_file: html/11624-refresh-sale-plain-text-reminder.html
+  image_urls: []
+  screenshot: screenshots/11624-refresh-sale-plain-text-reminder.png
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_unsubscribes: 0
+  ga4:
+    sessions: 265
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T14:56:52.931181'
+    source: snowflake
+    channel: email
+klaviyo_type: campaign
+klaviyo_campaign_id: 01HKZD7AZD60CM2M2CQJ0N4CN1
+klaviyo_message_id: 01HKZD7B3MR0G5YJ21EXCQTZY6
+structure:
+  image_count: 0
+  link_count: 5
+  has_gif: false
+  hero_width: null
+  layout_type: text_only
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-03-12T11:18:48.852197'

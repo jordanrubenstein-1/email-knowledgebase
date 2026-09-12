@@ -1,0 +1,116 @@
+id: 7630907f-cf55-432f-ad28-70531a271c87
+name: Welcome Series - August 2024
+brand: ID
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: 7630907f-cf55-432f-ad28-70531a271c87
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-29T03:00:00+00:00'
+  last_sent: '2026-06-14T16:00:00+00:00'
+tags:
+- Onboarding
+sends:
+- id: b0ed6760-9db3-4cf4-bd75-223225ea1b32
+  channel: email
+  name: TRG_EM_2024_08_ID_D_Welcome_T1_V1
+  subject: Hi there, we're Interior Define.
+  preheader: Thanks for signing up!
+  step_id: a4ec6d99-1bc8-41d1-b5c4-78b023cdf965
+- id: 30154a73-a68e-46ab-8e7e-d6614c1a890f
+  channel: email
+  name: TRG_EM_2024_08_ID_D_Welcome_T2_V1
+  subject: Red wine on a white sofa?
+  preheader: We're not worried. Order FREE fabric swatches.
+  step_id: 5000f4e5-1aef-45ff-9bcf-9d44050596cd
+- id: 51d4b271-e58a-49d3-b803-8244fbdee8cd
+  channel: email
+  name: TRG_EM_2024_08_ID_D_Welcome_Sofa_Spotlight_T3_V1
+  subject: 'Sofa spotlight: Our 3 best sellers'
+  preheader: All completely customizable to your unique taste, space, and lifestyle.
+  step_id: 5889dffd-cc20-4830-9ea8-313cf856c82b
+- id: a033340d-b569-4413-93f3-f4272fa6237c
+  channel: email
+  name: TRG_EM_2024_08_ID_D_Welcome_Your_Pick_T4_V1
+  subject: What's your pick?
+  preheader: Customize with endless seating options, all at an approachable price.
+  step_id: f2442301-1b6f-4345-bb69-9625430a1691
+- id: 31f97dfa-a904-4431-abda-0adc107c6be9
+  channel: email
+  name: TRG_EM_2024_08_ID_D_Welcome_Design_Services_T5_V1
+  subject: Reserve FREE design services
+  preheader: Work with a design expert
+  step_id: db7936ee-23b8-4bac-9b24-04a6088b6e34
+performance_summary:
+  total_entries: 4847
+  total_sends: 14888
+  total_delivered: 14669
+  total_opens: 7059
+  total_clicks: 288
+  open_rate: 0.4741
+  click_rate: 0.0193
+  total_unsubscribes: 151
+  total_bounces: 43
+canvas_steps:
+- id: 434bd449-86e7-4435-89d0-0179625f7a2d
+  name: Step
+  type: delay
+- id: 84289a68-bd53-432c-8d73-719295dae33f
+  name: Never Received Email?
+  type: decision_split
+- id: a4ec6d99-1bc8-41d1-b5c4-78b023cdf965
+  name: TRG_EM_2024_08_ID_D_Welcome_T1_V1
+  type: message
+  channel: email
+  subject: Hi there, we're Interior Define.
+  preheader: Thanks for signing up!
+- id: 86689965-138a-4b67-adbb-53e763c68806
+  name: Step 1
+  type: delay
+- id: 5000f4e5-1aef-45ff-9bcf-9d44050596cd
+  name: TRG_EM_2024_08_ID_D_Welcome_T2_V1
+  type: message
+  channel: email
+  subject: Red wine on a white sofa?
+  preheader: We're not worried. Order FREE fabric swatches.
+- id: 569c1f75-59d0-46e6-b162-839fa4e56d34
+  name: Step 3
+  type: delay
+- id: 5889dffd-cc20-4830-9ea8-313cf856c82b
+  name: TRG_EM_2024_08_ID_D_Welcome_Sofa_Spotlight_T3_V1
+  type: message
+  channel: email
+  subject: 'Sofa spotlight: Our 3 best sellers'
+  preheader: All completely customizable to your unique taste, space, and lifestyle.
+- id: 6d8b0e6d-f63e-461b-b22d-3a7be8126fbe
+  name: Step 4
+  type: delay
+- id: f2442301-1b6f-4345-bb69-9625430a1691
+  name: TRG_EM_2024_08_ID_D_Welcome_Your_Pick_T4_V1
+  type: message
+  channel: email
+  subject: What's your pick?
+  preheader: Customize with endless seating options, all at an approachable price.
+- id: 7050e54d-1c72-4115-b976-334d116d6fba
+  name: Step 5
+  type: delay
+- id: db7936ee-23b8-4bac-9b24-04a6088b6e34
+  name: TRG_EM_2024_08_ID_D_Welcome_Design_Services_T5_V1
+  type: message
+  channel: email
+  subject: Reserve FREE design services
+  preheader: Work with a design expert
+- id: 4b97c154-a38b-463b-bbe8-ed523bf27308
+  name: Is Trade?
+  type: decision_split
+- id: 034fe3db-e866-490b-92ce-710daef3edb1
+  name: Step 6
+  type: decision_split
+- id: a408d36f-66e7-4450-bf3a-09680575c634
+  name: Step 2
+  type: decision_split
+_filename: welcome-series-august-2024.yaml

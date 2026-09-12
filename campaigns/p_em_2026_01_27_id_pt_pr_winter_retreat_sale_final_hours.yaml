@@ -1,0 +1,35 @@
+id: faa11039-5328-4307-a240-39042ea97380
+name: P_EM_2026_01_27_ID_PT_PR_Winter_Retreat_Sale_Final_Hours
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: winter
+braze_id: faa11039-5328-4307-a240-39042ea97380
+dates:
+  send_date: '2026-01-27'
+  inferred_send_type: scheduled
+  first_sent: '2026-01-28T00:30:02+00:00'
+  last_sent: '2026-01-28T00:35:44+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: e0676ee4-5de8-440a-aee4-7483d54dddb3
+  channel: email
+  name: Variant 1
+  subject: 'Final Hours: 25% off sitewide'
+- id: da1e907a-7117-4e9e-a654-ca30125ea3a6
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 123841
+  total_delivered: 123641
+  total_opens: 53280
+  total_clicks: 453
+  open_rate: 0.4302
+  click_rate: 0.0037
+  total_revenue: 224447.47
+  total_bounces: 1
+  total_unsubscribes: 196
+_filename: p_em_2026_01_27_id_pt_pr_winter_retreat_sale_final_hours.yaml
+schedule_type: time_based

@@ -1,0 +1,58 @@
+id: 392f8181-b643-4b69-996e-235a1b6cf69d
+name: P_2024_12_12_D_CZ_Top_5_Gifts_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 392f8181-b643-4b69-996e-235a1b6cf69d
+dates:
+  send_date: '2024-12-12'
+  inferred_send_type: local_time
+  first_sent: '2024-12-11T19:15:42+00:00'
+  last_sent: '2024-12-12T17:01:22+00:00'
+tags: []
+sends:
+- id: 58f28c07-ed5e-4ef0-99ce-ea7435a858a9
+  channel: email
+  name: Variant 1
+  subject: Our Top 5 Gifting Picks
+  preheader: Exciting to give, even more exciting to get.
+  html_file: html/p_2024_12_12_d_cz_top_5_gifts_email.html
+  screenshot: screenshots/p_2024_12_12_d_cz_top_5_gifts_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6759c3f7d4faa80065a20414/original.jpg?1733936119
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6759c321407a7a0066876e97/original.jpg?1733935905
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6759c30325850d0083943511/original.jpg?1733935875
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6759c2e525850d0066944a72/original.jpg?1733935844
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6759c3615742420065666421/original.jpg?1733935969
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6759c38a903f94006504a5d6/original.jpg?1733936010
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6759c2a118801d006380bd5b/original.jpg?1733935776
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6759c3aed4faa80065a203b0/original.jpg?1733936045
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6759c27f18801d007280acca/original.jpg?1733935743
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6759c41bb7e3450064e82203/original.jpg?1733936155
+- id: 61e00944-2ac1-437c-bb6a-e48e981646a1
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 96186
+  total_delivered: 95518
+  total_opens: 46932
+  total_clicks: 660
+  open_rate: 0.4879
+  click_rate: 0.0069
+  total_revenue: 59912.82
+  total_unsubscribes: 136
+  ga4:
+    sessions: 829
+    purchases: 7
+    revenue: 2063.65
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.535833'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.944640'
+schedule_type: time_based

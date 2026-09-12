@@ -1,0 +1,34 @@
+id: d777ac17-931c-47cf-89f9-3c92b226b558
+name: P_EM_2025_10_21_HAV_CONV_PT_FINAL_DAY_AUTUMN_SALE_PM
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: fall
+braze_id: d777ac17-931c-47cf-89f9-3c92b226b558
+dates:
+  send_date: '2025-10-21'
+  first_sent: '2025-10-21T19:20:50+00:00'
+  last_sent: '2025-10-21T19:23:50+00:00'
+  inferred_send_type: scheduled
+tags:
+- BLASTS-2025
+sends:
+- id: 049c58e9-b6bc-470f-9556-5a0ac81ed7ff
+  channel: email
+  name: Variant 1
+  subject: Final hours to save up to 15%
+  preheader: Last Chance for Autumn Savings
+- id: 4e815439-4fdb-4c6d-8b78-980599e5e0c1
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41983
+  total_delivered: 41949
+  total_opens: 22203
+  total_clicks: 75
+  open_rate: 0.5289
+  click_rate: 0.0018
+  total_unsubscribes: 51
+schedule_type: time_based
+_filename: p_em_2025_10_21_hav_conv_pt_final_day_autumn_sale_pm.yaml

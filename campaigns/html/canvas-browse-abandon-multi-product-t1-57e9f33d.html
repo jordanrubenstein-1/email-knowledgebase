@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en">
+<head>
+  <title>Still thinking about this piece?</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <!--[if mso]>
+  <xml>
+    <w:WordDocument xmlns:w="urn:schemas-microsoft-com:office:word">
+      <w:DontUseAdvancedTypographyReadingMail/>
+    </w:WordDocument>
+    <o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch><o:AllowPNG/></o:OfficeDocumentSettings>
+  </xml>
+  <![endif]-->
+  <!--[if !mso]><!-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+  <!--<![endif]-->
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 0; background-color: #fff; -webkit-text-size-adjust: none; text-size-adjust: none; }
+    a[x-apple-data-detectors] { color: inherit !important; text-decoration: inherit !important; }
+    #MessageViewBody a { color: inherit; text-decoration: none; }
+    p { line-height: inherit; }
+    .desktop_hide, .desktop_hide table { mso-hide: all; display: none; max-height: 0; overflow: hidden; }
+    .image_block img+div { display:none }
+    sub, sup { font-size: 75%; line-height: 0 }
+    @media (max-width:620px){
+      .mobile_hide{display:none}
+      .row-content{width:100%!important}
+      .stack .column{width:100%;display:block}
+      .mobile_hide{min-height:0;max-height:0;max-width:0;overflow:hidden;font-size:0}
+      .desktop_hide,.desktop_hide table{display:table!important;max-height:none!important}
+    }
+  </style>
+  <!--[if mso ]><style>sup, sub { font-size: 100% !important; } sup { mso-text-raise:10% } sub { mso-text-raise:-10% }</style><![endif]-->
+</head>
+<body class="body" style="margin:0;background-color:#fff;padding:0;-webkit-text-size-adjust:none;text-size-adjust:none">
+
+  {%- comment -%}
+    Abandon BROWSE (multi-product)
+    • Uses custom_attribute.${recently_browsed_products} (Array of Objects)
+    • Shows up to 8 products, newest first
+    • YMAL block matches the most recently browsed product's category
+  {%- endcomment -%}
+
+  {% assign products_all = custom_attribute.${recently_browsed_products} | default: empty %}
+  {% if products_all.size == 0 %}
+    {% abort_message() %}
+  {% endif %}
+
+  {%- comment -%} Most recently browsed = last item before reversing {%- endcomment -%}
+  {% assign recent_product = products_all | last %}
+  {% assign browse_cat = canvas_entry_properties.${category_l2} | default: recent_product.category_l2 | default: '' %}
+
+  <table class="nl-container" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;background-color:#fff">
+    <tbody>
+      <tr>
+        <td>
+
+          {{content_blocks.${sale_b2c_banner} | id: 'cb2'}}
+
+          <!-- HERO -->
+          <table class="row row-1" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0">
+            <tbody>
+              <tr>
+                <td>
+                  <table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;color:#000;width:600px;margin:0 auto" width="600">
+                    <tbody>
+                      <tr>
+                        <td class="column column-1" width="100%" style="font-weight:400;text-align:left;vertical-align:top">
+
+                          <table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0">
+                            <tr>
+                              <td class="pad" style="width:100%">
+                                <div class="alignment" align="center">
+                                  <div style="max-width:600px">
+                                    <a href="https://www.interiordefine.com/?lid=1d2ylnxlz4ao" target="_blank">
+                                      <img src="https://braze-images.com/appboy/communication/assets/image_assets/images/68af4f917203890065a4ccb6/original.png?1756319633" style="display:block;height:auto;border:0;width:100%" width="600" alt="Interior Define" title="Interior Define">
+                                    </a>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+
+                          <!-- White Image Block After Hero -->
+                          <table class="image_block" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0">
+                            <tr>
+                              <td class="pad" style="width:100%">
+                                <div class="alignment" align="center">
+                                  <div style="max-width:600px">
+                                    <a href="https://www.interiordefine.com/?lid=3795dmvjng86" target="_blank">
+                                      <img src="https://braze-images.com/appboy/communication/assets/image_assets/images/68af4f917203890075a4c768/original.png?1756319633"
+                                           style="display:block;height:auto;border:0;width:100%"
+                                           width="600" alt="White Decorative Image">
+                                    </a>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+
+                          {%- comment -%} MULTI-PRODUCT SECTION (1 per row, max 8, newest first) {%- endcomment -%}
+
+                          {% assign products = products_all | reverse | slice: 0, 8 %}
+
+                          {% for product in products %}
+
+                            {% assign img = product.image_url_final | default: product.image_base | default: '' %}
+
+                            <!-- PRODUCT CARD -->
+                            <table class="row" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0">
+                              <tbody>
+                                <tr>
+                                  <td>
+                                    <table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background-color:#ffffff;color:#000;width:600px;margin:0 auto" width="600">
+                                      <tbody>
+                                        <tr>
+                                          <td class="column column-1" width="100%" style="font-weight:400;text-align:left;padding-left:38px;padding-right:38px;vertical-align:top;border:0">
+
+                                            <!-- Image -->
+                                            <table class="image_block" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+                                              <tbody>
+                                                <tr>
+                                                  <td class="pad" style="padding-bottom:8px;width:100%">
+                                                    <div class="alignment" align="center" style="line-height:10px">
+                                                      <div style="max-width:524px">
+                                                        <a href="{{ product.url }}" target="_blank" style="outline:none" tabindex="-1">
+                                                          <img src="{{ img }}" style="display:block;height:auto;border:0;width:100%" width="524"
+                                                               alt="{{ product.name | default: 'your custom piece' | escape }}">
+                                                        </a>
+                                                      </div>
+                                                    </div>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+
+                                            <!-- Title -->
+                                            <table class="heading_block" width="100%" border="0" cellpadding="10" cellspacing="0" role="presentation">
+                                              <tbody>
+                                                <tr>
+                                                  <td class="pad">
+                                                    <h3 style="margin:0;color:#2e3c47;font-family:Georgia,Arial,sans-serif;font-size:18px;font-weight:400;line-height:120%;text-align:center;">
+                                                      {{ product.name | default: 'your custom piece' }}
+                                                    </h3>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+
+                            <!-- CTA -->
+                            <table class="html_block" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+                              <tr>
+                                <td class="pad" style="padding-bottom:24px">
+                                  <div style="font-family:'Open Sans',Arial,Sans-serif;text-align:center" align="center">
+                                    <div style="text-align: center;">
+                                      <a class="CTA" href="{{ product.url }}" rel="noopener" target="_blank"
+                                         style="background-color:#ffffff;border:1px solid #000000;border-radius:30px;color:#000000;display:inline-block;font-family:'Sailec', Helvetica, Arial, sans-serif;font-size:20px;font-weight:450;line-height:45px;text-align:center;text-decoration:none;width:175px;-webkit-text-size-adjust:none;">
+                                        Shop Now
+                                      </a>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+
+                            <!-- Divider (after every product; last one doubles as pre-YMAL separator) -->
+                            <table width="100%" border="0" cellpadding="10" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0">
+                              <tbody>
+                                <tr>
+                                  <td>
+                                    <div align="center">
+                                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="90%">
+                                        <tbody>
+                                          <tr>
+                                            <td style="font-size:1px;line-height:1px;border-top:1px solid #bbb"><span style="word-break:break-word">&#8202;</span></td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+
+                          {% endfor %}
+
+                          {%- comment -%} YMAL — category-matched recs block (heading is inside the block itself) {%- endcomment -%}
+
+                          {% if browse_cat == 'Sofas' %}
+                            {{content_blocks.${recs_sofas} | id: 'cb3'}}
+                          {% elsif browse_cat == 'Sectionals' %}
+                            {{content_blocks.${recs_sectionals} | id: 'cb4'}}
+                          {% elsif browse_cat == 'Chairs' or browse_cat == 'Custom Seating' %}
+                            {{content_blocks.${recs_chairs} | id: 'cb5'}}
+                          {% elsif browse_cat == 'Ottomans' %}
+                            {{content_blocks.${recs_ottomans} | id: 'cb6'}}
+                          {% elsif browse_cat == 'Rugs' %}
+                            {{content_blocks.${recs_rugs} | id: 'cb7'}}
+                          {% elsif browse_cat == 'Dining Seating' %}
+                            {{content_blocks.${recs_dining_seating} | id: 'cb8'}}
+                          {% elsif browse_cat == 'Dining Tables' %}
+                            {{content_blocks.${recs_dining_tables} | id: 'cb9'}}
+                          {% elsif browse_cat == 'Beds' %}
+                            {{content_blocks.${recs_beds} | id: 'cb10'}}
+                          {% elsif browse_cat == 'Tables' or browse_cat == 'Accent Tables' %}
+                            {{content_blocks.${recs_accent_tables} | id: 'cb11'}}
+                          {% elsif browse_cat == 'Lighting' %}
+                            {{content_blocks.${recs_lighting} | id: 'cb12'}}
+                          {% elsif browse_cat == 'Artwork' or browse_cat == 'Art' %}
+                            {{content_blocks.${recs_art} | id: 'cb13'}}
+                          {% elsif browse_cat == 'Pillows' %}
+                            {{content_blocks.${recs_pillows} | id: 'cb14'}}
+                          {% elsif browse_cat == 'Benches' %}
+                            {{content_blocks.${recs_benches} | id: 'cb15'}}
+                          {% elsif browse_cat == 'Nightstands & Dressers' or browse_cat == 'Case Goods' %}
+                            {{content_blocks.${recs_nightstands} | id: 'cb16'}}
+                          {% else %}
+                            {{content_blocks.${recs_sofas} | id: 'cb17'}}
+                          {% endif %}
+
+                          <!-- Secondary banner -->
+                          <table class="image_block" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0">
+                            <tr>
+                              <td class="pad" style="width:100%">
+                                <div class="alignment" align="center">
+                                  <div style="max-width:600px">
+                                    <a href="https://swatches.interiordefine.com/?lid=4r3af0ivfp3c" target="_blank">
+                                      <img src="https://braze-images.com/appboy/communication/assets/image_assets/images/68af4f91da5ea80066062e10/original.png?1756319633" style="display:block;height:auto;border:0;width:100%" width="600" alt="Explore a world of styles." title="Explore a world of styles.">
+                                    </a>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                          {{content_blocks.${chat_kicker} | id: 'cb18'}}
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- Footer spacer -->
+          <table class="row row-2" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0">
+            <tbody>
+              <tr>
+                <td>
+                  <table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background-color:#fff;color:#000;width:600px;margin:0 auto" width="600">
+                    <tbody>
+                      <tr>
+                        <td class="column column-1" width="100%" style="font-weight:400;text-align:left;vertical-align:top">
+                          <table class="empty_block" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0">
+                            <tr><td class="pad"><div></div></td></tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  {{content_blocks.${unsubscribe} | id: 'cb1'}}
+
+</body>
+</html>

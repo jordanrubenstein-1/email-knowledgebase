@@ -1,0 +1,30 @@
+id: 131cb946-3f53-4bf1-a72f-a1eb70ab309b
+name: P_SMS_2026_02_14_ID_Presidents_Day_Sale_Sweetener
+brand: ID
+channel: sms
+category: sale_promo
+type: sale
+theme: null
+braze_id: 131cb946-3f53-4bf1-a72f-a1eb70ab309b
+dates:
+  send_date: '2026-02-14'
+  inferred_send_type: local_time
+  first_sent: '2026-02-14T01:05:23+00:00'
+  last_sent: '2026-02-15T01:01:09+00:00'
+tags: []
+sends:
+- id: 7ef538d9-36be-4ef1-a370-a94ad7567092
+  channel: sms
+  name: Variant 1
+- id: 9dc086ac-8568-4a98-8304-83ed16fcab3e
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 49690
+  total_delivered: 46617
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 107703.95
+schedule_type: time_based

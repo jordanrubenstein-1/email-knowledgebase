@@ -1,0 +1,34 @@
+id: 81e50b74-0dfe-4254-8a1d-109a0bc52d59
+name: P_2024_08_23_D_HAV_PC_PR_LDW_2_Sale_Announcement_Email
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 81e50b74-0dfe-4254-8a1d-109a0bc52d59
+dates:
+  send_date: '2024-08-23'
+  first_sent: '2024-08-23T13:44:33+00:00'
+  last_sent: '2024-08-23T13:50:11+00:00'
+  inferred_send_type: scheduled
+tags:
+- Batch & Blast
+sends:
+- id: 31a1e20d-dbe2-443f-ba44-4bc01d6a880d
+  channel: email
+  name: Variant 1
+  subject: 50% OFF is live in 3, 2…
+  preheader: The Labor Day Event starts now.
+- id: 7c625315-dfca-4d21-b016-4707d366b28a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 10753
+  total_delivered: 10735
+  total_opens: 5052
+  total_clicks: 83
+  open_rate: 0.4698
+  click_rate: 0.0077
+  total_unsubscribes: 30
+schedule_type: time_based
+_filename: p_2024_08_23_d_hav_pc_pr_ldw_2_sale_announcement_email.yaml

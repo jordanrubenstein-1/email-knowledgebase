@@ -1,0 +1,140 @@
+{% comment %}
+  Viewed Items Module
+  
+  Displays recently viewed products.
+  Uses event_properties.${viewedItems} array from Braze.
+  
+  Required variables:
+    viewedItems - Array of viewed items (from event_properties.${viewedItems})
+    max_items - Maximum number of items to display (default: 4)
+    layout - Layout type: grid_2col, grid_4col, or list (default: grid_2col)
+    container_width - Container width in pixels (default: 600)
+    brand - Brand code for styling (HAV, CZ, ID, BUR, STF)
+  
+  Item structure expected:
+    - name: Product name
+    - url: Product URL
+    - cover: Product image URL
+    - price: Product price
+    - viewed_at: Timestamp of when item was viewed (optional)
+{% endcomment %}
+
+{% assign max_items = max_items | default: 4 %}
+{% assign layout = layout | default: 'grid_2col' %}
+{% assign container_width = container_width | default: 600 %}
+{% assign viewedItems = event_properties.${viewedItems} | default: api_trigger_properties.${viewedItems} | default: [] %}
+
+{% if viewedItems.size > 0 %}
+  {% assign items_to_show = viewedItems | limit: max_items %}
+  
+  {% if layout == 'list' %}
+    <!-- List Layout -->
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: {{ container_width }}px; background-color: #FFFFFF;">
+      <tr>
+        <td align="center" style="padding: 20px 20px 10px 20px;">
+          <h2 style="margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 24px; line-height: 30px; color: #333333; text-align: center;">Recently Viewed</h2>
+        </td>
+      </tr>
+      {% for item in items_to_show %}
+        <tr>
+          <td style="padding: 20px;">
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: {{ container_width | minus: 40 }}px;">
+              <tr>
+                <td width="180" style="padding-right: 20px; vertical-align: top;">
+                  <a href="{{ item.url }}" style="text-decoration: none;">
+                    <img src="{{ item.cover }}" alt="{{ item.name }}" width="180" style="display: block; width: 180px; max-width: 100%; border: 0;" />
+                  </a>
+                </td>
+                <td style="vertical-align: top; font-family: Arial, sans-serif;">
+                  <a href="{{ item.url }}" style="text-decoration: none; color: #333333;">
+                    <h3 style="margin: 0 0 10px 0; padding: 0; font-size: 18px; line-height: 24px; font-weight: bold;">{{ item.name }}</h3>
+                  </a>
+                  <p style="margin: 0; padding: 0; font-size: 14px; line-height: 20px; color: #333333; font-weight: bold;">{{ item.price }}</p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        {% unless forloop.last %}
+          <tr>
+            <td style="padding: 0 20px;">
+              <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                  <td style="border-top: 1px solid #e0e0e0; padding: 20px 0 0 0;"></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        {% endunless %}
+      {% endfor %}
+    </table>
+  
+  {% elsif layout == 'grid_4col' %}
+    <!-- 4-Column Grid Layout -->
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: {{ container_width }}px; background-color: #FFFFFF;">
+      <tr>
+        <td align="center" style="padding: 20px 20px 10px 20px;">
+          <h2 style="margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 24px; line-height: 30px; color: #333333; text-align: center;">Recently Viewed</h2>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 20px;">
+          <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+              {% for item in items_to_show %}
+                <td width="25%" style="padding: 10px; text-align: center; vertical-align: top;">
+                  <a href="{{ item.url }}" style="text-decoration: none;">
+                    <img src="{{ item.cover }}" alt="{{ item.name }}" width="100%" style="display: block; width: 100%; max-width: 100%; border: 0;" />
+                    <p style="margin: 10px 0 0 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; line-height: 18px; color: #333333;">{{ item.name }}</p>
+                    <p style="margin: 5px 0 0 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; line-height: 18px; color: #666666; font-weight: bold;">{{ item.price }}</p>
+                  </a>
+                </td>
+              {% endfor %}
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  
+  {% else %}
+    <!-- Default 2-Column Grid Layout -->
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: {{ container_width }}px; background-color: #FFFFFF;">
+      <tr>
+        <td align="center" style="padding: 20px 20px 10px 20px;">
+          <h2 style="margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 24px; line-height: 30px; color: #333333; text-align: center;">Recently Viewed</h2>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 20px;">
+          <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            {% for item in items_to_show %}
+              {% assign mod = forloop.index0 | modulo: 2 %}
+              {% if mod == 0 %}
+                <tr>
+              {% endif %}
+              <td width="50%" style="padding: 10px; text-align: center; vertical-align: top;">
+                <a href="{{ item.url }}" style="text-decoration: none;">
+                  <img src="{{ item.cover }}" alt="{{ item.name }}" width="100%" style="display: block; width: 100%; max-width: 100%; border: 0;" />
+                  <p style="margin: 10px 0 0 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; line-height: 18px; color: #333333;">{{ item.name }}</p>
+                  <p style="margin: 5px 0 0 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; line-height: 18px; color: #666666; font-weight: bold;">{{ item.price }}</p>
+                </a>
+              </td>
+              {% if mod == 1 or forloop.last %}
+                </tr>
+              {% endif %}
+            {% endfor %}
+          </table>
+        </td>
+      </tr>
+    </table>
+  {% endif %}
+{% else %}
+  <!-- Empty state - no viewed items -->
+  <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: {{ container_width }}px; background-color: #FFFFFF;">
+    <tr>
+      <td align="center" style="padding: 40px 20px; font-family: Arial, sans-serif; font-size: 16px; line-height: 24px; color: #666666; text-align: center;">
+        Start browsing to see your recently viewed items here!
+      </td>
+    </tr>
+  </table>
+{% endif %}

@@ -1,0 +1,49 @@
+id: b0abc41f-e9fd-436b-8d38-8f2272a3b2b0
+name: P_2024_10_26_D_HAV_Conv_Guest_Room_Decor_Upgrades_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: b0abc41f-e9fd-436b-8d38-8f2272a3b2b0
+dates:
+  send_date: '2024-10-26'
+  inferred_send_type: local_time
+  first_sent: '2024-10-25T17:51:45+00:00'
+  last_sent: '2024-10-26T17:15:03+00:00'
+tags: []
+sends:
+- id: 690fd488-8fc4-48b3-805e-fca3e58c53a0
+  channel: email
+  name: Variant 1
+  subject: It's time to stop ignoring your guest room...  👀
+  preheader: Hosting season is here!
+  html_file: html/p_2024_10_26_d_hav_conv_guest_room_decor_upgrades_email.html
+  screenshot: screenshots/p_2024_10_26_d_hav_conv_guest_room_decor_upgrades_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67193f808a4f8c00645373fa/original.gif?1729707904
+- id: 80c9e9ec-b42c-4480-8c9a-b1c9d1191119
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 36899
+  total_delivered: 36862
+  total_opens: 21570
+  total_clicks: 319
+  open_rate: 0.5846
+  click_rate: 0.0086
+  total_bounces: 1
+  total_unsubscribes: 47
+  ga4:
+    sessions: 492
+    purchases: 1
+    revenue: 2262.75
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.010009'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.822592'
+schedule_type: time_based

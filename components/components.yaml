@@ -1,0 +1,573 @@
+# Email Component Library Schema
+# Machine-parseable definitions for AI-driven email assembly
+version: "1.0.0"
+
+components:
+
+  hero_image:
+    description: Full-width linked image for email headers
+    frequency: 84.4%
+    file: hero_image.liquid
+    parameters:
+      image:
+        type: url
+        required: true
+        description: Hero image URL
+      link:
+        type: url
+        required: true
+        description: Click-through URL
+      alt:
+        type: string
+        required: false
+        default: ""
+        description: Alt text for accessibility
+      title:
+        type: string
+        required: false
+        default: "{{alt}}"
+        description: Title attribute (defaults to alt)
+      container_width:
+        type: number
+        required: false
+        default: 600
+        enum: [600, 640]
+        description: Container width (600 for most brands, 640 for HAV)
+    example:
+      image: https://cdn.example.com/hero.jpg
+      link: https://shop.example.com/sale
+      alt: Summer Sale - Up to 50% Off
+
+  product_grid_2col:
+    description: Two-column product image grid
+    frequency: 56.3%
+    file: product_grid_2col.liquid
+    parameters:
+      left_image:
+        type: url
+        required: true
+        description: Left product image URL
+      left_link:
+        type: url
+        required: true
+        description: Left product click-through URL
+      left_alt:
+        type: string
+        required: false
+        default: ""
+        description: Left image alt text
+      right_image:
+        type: url
+        required: true
+        description: Right product image URL
+      right_link:
+        type: url
+        required: true
+        description: Right product click-through URL
+      right_alt:
+        type: string
+        required: false
+        default: ""
+        description: Right image alt text
+      container_width:
+        type: number
+        required: false
+        default: 600
+        enum: [600, 640]
+        description: Container width (600 for STF/ID/CZ, 640 for HAV)
+    example:
+      left_image: https://cdn.example.com/product1.png
+      left_link: https://shop.example.com/product1
+      left_alt: Modern Sofa
+      right_image: https://cdn.example.com/product2.png
+      right_link: https://shop.example.com/product2
+      right_alt: Accent Chair
+
+  product_grid_4col:
+    description: Four-column category navigation grid
+    frequency: 7%
+    file: product_grid_4col.liquid
+    # Typically used for category links (Seating, Dining, Storage, Bedroom)
+    parameters:
+      col1_image:
+        type: url
+        required: true
+        description: First column image URL
+      col1_link:
+        type: url
+        required: true
+        description: First column link URL
+      col1_alt:
+        type: string
+        required: false
+        default: ""
+        description: First column alt text
+      col2_image:
+        type: url
+        required: true
+        description: Second column image URL
+      col2_link:
+        type: url
+        required: true
+        description: Second column link URL
+      col2_alt:
+        type: string
+        required: false
+        default: ""
+        description: Second column alt text
+      col3_image:
+        type: url
+        required: true
+        description: Third column image URL
+      col3_link:
+        type: url
+        required: true
+        description: Third column link URL
+      col3_alt:
+        type: string
+        required: false
+        default: ""
+        description: Third column alt text
+      col4_image:
+        type: url
+        required: true
+        description: Fourth column image URL
+      col4_link:
+        type: url
+        required: true
+        description: Fourth column link URL
+      col4_alt:
+        type: string
+        required: false
+        default: ""
+        description: Fourth column alt text
+      container_width:
+        type: number
+        required: false
+        default: 600
+        description: Container width in pixels
+      bg_color:
+        type: color
+        required: false
+        default: transparent
+        description: Background color
+    example:
+      col1_image: https://cdn.example.com/seating.png
+      col1_link: https://shop.example.com/seating
+      col1_alt: Seating
+      col2_image: https://cdn.example.com/dining.png
+      col2_link: https://shop.example.com/dining
+      col2_alt: Dining
+      col3_image: https://cdn.example.com/storage.png
+      col3_link: https://shop.example.com/storage
+      col3_alt: Storage
+      col4_image: https://cdn.example.com/bedroom.png
+      col4_link: https://shop.example.com/bedroom
+      col4_alt: Bedroom
+
+  product_card:
+    description: Product display with image, name, and optional pricing
+    frequency: 12%
+    file: product_card.liquid
+    # Use inside a 2-col layout for side-by-side products
+    # Can show regular price, or sale price with strikethrough original
+    parameters:
+      image:
+        type: url
+        required: true
+        description: Product image URL
+      link:
+        type: url
+        required: true
+        description: Product page URL
+      name:
+        type: string
+        required: true
+        description: Product name
+      alt:
+        type: string
+        required: false
+        default: "{{name}}"
+        description: Image alt text (defaults to name)
+      price:
+        type: string
+        required: false
+        description: Current/sale price (e.g., '$1,999')
+      original_price:
+        type: string
+        required: false
+        description: Original price for sale items (displays with strikethrough)
+      price_label:
+        type: string
+        required: false
+        default: Sale
+        description: Label before sale price
+      width:
+        type: number
+        required: false
+        default: 270
+        description: Image width in pixels
+      font_family:
+        type: string
+        required: false
+        default: "'Open Sans',Arial,Sans-serif"
+        description: Font stack
+      name_color:
+        type: color
+        required: false
+        default: "#383633"
+        description: Product name color
+      price_color:
+        type: color
+        required: false
+        default: "#383633"
+        description: Sale price color
+      original_price_color:
+        type: color
+        required: false
+        default: "#74706D"
+        description: Strikethrough price color
+      show_underline:
+        type: boolean
+        required: false
+        default: true
+        description: Underline product name
+    examples:
+      simple:
+        image: https://cdn.example.com/sofa.jpg
+        link: https://shop.example.com/sofa
+        name: Union 3-Seat Sofa
+      with_sale:
+        image: https://cdn.example.com/sofa.jpg
+        link: https://shop.example.com/sofa
+        name: Union 3-Seat Sofa
+        original_price: "$2,499"
+        price: "$1,999"
+
+  cta_button:
+    description: Call-to-action button with Outlook VML support
+    frequency: 27.8%
+    file: cta_button.liquid
+    # Includes VML fallback for Outlook rendering
+    parameters:
+      text:
+        type: string
+        required: true
+        description: Button label
+      link:
+        type: url
+        required: true
+        description: Click-through URL
+      bg_color:
+        type: color
+        required: false
+        default: "#d99218"
+        description: Background color (gold is brand default)
+      text_color:
+        type: color
+        required: false
+        default: "#FFFFFF"
+        description: Text color
+      font_size:
+        type: number
+        required: false
+        default: 16
+        description: Font size in pixels
+      font_family:
+        type: string
+        required: false
+        default: "'Bitter','Arial',Sans-serif"
+        description: Font stack
+      border_radius:
+        type: number
+        required: false
+        default: 2
+        description: Border radius in pixels
+      padding_v:
+        type: number
+        required: false
+        default: 5
+        description: Vertical padding in pixels
+      padding_h:
+        type: number
+        required: false
+        default: 10
+        description: Horizontal padding in pixels
+    example:
+      text: SHOP NOW
+      link: https://shop.example.com
+
+  headline:
+    description: Centered heading block for titles and urgency callouts
+    frequency: 4.2%
+    file: headline.liquid
+    variants:
+      - primary     # 34px Georgia, for main headlines
+      - subheadline # 18px Roboto, for supporting text
+      - urgency     # 14px with bg_color, for "ENDS TONIGHT" banners
+    parameters:
+      text:
+        type: string
+        required: true
+        description: Headline text
+      font_size:
+        type: number
+        required: false
+        default: 34
+        description: Font size (34 primary, 18 subhead, 14 urgency)
+      font_family:
+        type: string
+        required: false
+        default: Georgia,Arial,Sans-serif
+        description: Font stack
+      font_weight:
+        type: number
+        required: false
+        default: 400
+        description: Font weight
+      color:
+        type: color
+        required: false
+        default: "#2e3c47"
+        description: Text color
+      line_height:
+        type: number
+        required: false
+        default: 1.2
+        description: Line height multiplier
+      padding:
+        type: number
+        required: false
+        default: 10
+        description: Cell padding in pixels
+      bg_color:
+        type: color
+        required: false
+        description: Background color (for urgency callouts)
+      text_transform:
+        type: string
+        required: false
+        default: none
+        enum: [none, uppercase, lowercase, capitalize]
+        description: CSS text-transform
+    examples:
+      primary:
+        text: Summer Sale Now On
+      subheadline:
+        text: Up to 50% off select items
+        font_size: 18
+        font_family: Roboto,Arial,Sans-serif
+      urgency:
+        text: ENDS TONIGHT
+        font_size: 14
+        bg_color: "#d99218"
+        color: "#ffffff"
+        text_transform: uppercase
+
+  paragraph:
+    description: Body text block for email content
+    frequency: 26.9%
+    file: paragraph.liquid
+    parameters:
+      text:
+        type: string
+        required: true
+        description: Paragraph content (HTML allowed)
+      font_size:
+        type: number
+        required: false
+        default: 14
+        description: Font size in pixels
+      font_family:
+        type: string
+        required: false
+        default: "'Open Sans',Arial,Sans-serif"
+        description: Font stack
+      font_weight:
+        type: number
+        required: false
+        default: 400
+        description: Font weight
+      color:
+        type: color
+        required: false
+        default: "#101b24"
+        description: Text color
+      line_height:
+        type: string
+        required: false
+        default: inherit
+        description: Line height
+      text_align:
+        type: string
+        required: false
+        default: center
+        enum: [left, center, right]
+        description: Text alignment
+      padding:
+        type: number
+        required: false
+        default: 10
+        description: Cell padding in pixels
+      letter_spacing:
+        type: number
+        required: false
+        default: 0
+        description: Letter spacing in pixels
+    example:
+      text: Discover our latest collection of handcrafted furniture.
+
+  spacer:
+    description: Invisible vertical spacing between sections
+    frequency: 4.5%
+    file: spacer.liquid
+    # Use for vertical rhythm; common values are 5, 20, 25px
+    parameters:
+      height:
+        type: number
+        required: false
+        default: 20
+        common_values: [5, 10, 20, 25, 30]
+        description: Height in pixels
+    example:
+      height: 20
+
+  divider:
+    description: Visible horizontal line to separate sections
+    frequency: 97%
+    file: divider.liquid
+    # Different from spacer - this creates a visible line
+    parameters:
+      height:
+        type: number
+        required: false
+        default: 1
+        description: Line thickness in pixels
+      color:
+        type: color
+        required: false
+        default: "#e0e0e0"
+        description: Line color
+      width:
+        type: string
+        required: false
+        default: "100%"
+        description: Width as percentage or pixels (e.g., '60%')
+      margin_top:
+        type: number
+        required: false
+        default: 0
+        description: Top margin in pixels
+      margin_bottom:
+        type: number
+        required: false
+        default: 0
+        description: Bottom margin in pixels
+    examples:
+      default: {}
+      centered_accent:
+        height: 2
+        color: "#d4a574"
+        width: "60%"
+      with_spacing:
+        margin_top: 20
+        margin_bottom: 20
+
+
+# Common email layout patterns
+# Use these as templates when assembling emails
+layout_patterns:
+
+  editorial:
+    description: Content-focused layout for blog posts, stories, announcements
+    # Works well for HAV Hideaway series, CZ Stories
+    structure:
+      - hero_image
+      - spacer: { height: 20 }
+      - headline
+      - spacer: { height: 5 }
+      - headline: { variant: subheadline }
+      - cta_button
+      - spacer: { height: 25 }
+      - paragraph
+
+  product_promo:
+    description: Product-focused layout for sales and new arrivals
+    # Works well for STF New Arrivals, general product emails
+    structure:
+      - hero_image
+      - spacer: { height: 20 }
+      - headline
+      - spacer: { height: 10 }
+      - product_grid_2col
+      - spacer: { height: 20 }
+      - cta_button
+
+  sale_announcement:
+    description: Urgency-driven layout for time-sensitive promotions
+    # Add urgency banner at top for flash sales, end-of-season
+    structure:
+      - headline: { variant: urgency }
+      - hero_image
+      - spacer: { height: 20 }
+      - headline
+      - paragraph
+      - cta_button
+      - divider: { margin_top: 20, margin_bottom: 20 }
+      - product_grid_2col
+
+  category_navigation:
+    description: Browse-focused layout with category navigation
+    # Good for "Shop by Category" emails
+    structure:
+      - hero_image
+      - product_grid_4col
+      - spacer: { height: 30 }
+      - divider: { width: "60%", color: "#d4a574" }
+      - headline
+      - spacer: { height: 20 }
+      - product_grid_2col
+
+
+# Brand-specific defaults
+# Apply these when generating emails for each brand
+brand_defaults:
+
+  HAV:
+    container_width: 640  # HAV uses wider container
+    headline_font: Georgia,Arial,Sans-serif
+    body_font: "'Open Sans',Arial,Sans-serif"
+    primary_color: "#2e3c47"
+    button_color: "#d99218"
+
+  STF:
+    container_width: 600
+    headline_font: Georgia,Arial,Sans-serif
+    body_font: "'Open Sans',Arial,Sans-serif"
+    primary_color: "#383633"
+    button_color: "#d99218"
+    # STF emails often use emojis - they perform well
+
+  BUR:
+    container_width: 600
+    headline_font: Neuzeit,Arial,Sans-serif
+    body_font: "'Open Sans',Arial,Sans-serif"
+    primary_color: "#383633"
+    bg_color: "#f7eee3"  # Warm cream background
+    button_color: "#d99218"
+    # Note: Text-only emails perform 30x better for BUR
+
+  CZ:
+    container_width: 600
+    headline_font: Georgia,Arial,Sans-serif
+    body_font: "'Open Sans',Arial,Sans-serif"
+    primary_color: "#2e3c47"
+    button_color: "#d99218"
+    # Personalization ("You/Your") performs well for CZ
+
+  ID:
+    container_width: 600
+    headline_font: Georgia,Arial,Sans-serif
+    body_font: "'Open Sans',Arial,Sans-serif"
+    primary_color: "#383633"
+    button_color: "#d99218"

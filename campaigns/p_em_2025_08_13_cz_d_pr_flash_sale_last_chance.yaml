@@ -1,0 +1,84 @@
+id: d575286d-608b-460a-9edd-87236e7a5a63
+name: P_EM_2025_08_13_CZ_D_PR_Flash_Sale_Last_Chance
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: d575286d-608b-460a-9edd-87236e7a5a63
+dates:
+  send_date: '2025-08-13'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-13T05:25:26+00:00'
+  last_sent: '2025-08-13T19:00:22+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale_feat
+sends:
+- id: 6608e2d0-aa4c-4e74-a698-71ad0cbd4c3c
+  channel: email
+  name: Variant 1
+  subject: 'Gone In A Flash: 20% Off'
+  preheader: Final hours to save.
+  html_file: html/p_em_2025_08_13_cz_d_pr_flash_sale_last_chance.html
+  screenshot: screenshots/p_em_2025_08_13_cz_d_pr_flash_sale_last_chance.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689bb548ecf9e40085f39678/original.gif?1755034952
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689bb59af5444f00656dfa58/original.png?1755035034
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689bb5c7619b1200673d76d2/original.png?1755035079
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689bb59270331400670508a1/original.png?1755035026
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689bb5d9e6096000649cd381/original.png?1755035096
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689bb59f7a9aab0065c193e5/original.png?1755035038
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689bb5eef5444f00656dfbd1/original.png?1755035118
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689bb5d3619b1200673d76f0/original.png?1755035090
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689bb5e2619b1200673d774b/original.png?1755035106
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689bb57d7a9aab0065c191ea/original.png?1755035005
+- id: c856065d-8506-4932-9183-f62a2dfcca6e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 101208
+  total_delivered: 101122
+  total_opens: 51111
+  total_clicks: 631
+  open_rate: 0.505
+  click_rate: 0.0062
+  total_revenue: 41811.6
+  total_bounces: 2
+  total_unsubscribes: 117
+  ga4:
+    sessions: 634
+    purchases: 9
+    revenue: 6813.35
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.457070'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: Up to 65% Off Select Categories - Focus on Archive Sale and In Stock
+      Product
+    type: null
+  primary_sale:
+    id: cz-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: Up to 65% Off Select Categories - Focus on Archive Sale and In Stock
+      Product
+    type: null
+  sale_name: The Sunset Sale
+  sale_discount: Up to 65% Off Select Categories - Focus on Archive Sale and In Stock
+    Product
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:42.678794'
+schedule_type: time_based

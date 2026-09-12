@@ -1,0 +1,33 @@
+id: c55d8886-3a03-4515-a586-b5331b303c5b
+name: P_2024_08_28_D_HAV_CONV_Why_Shop_Havenly_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: c55d8886-3a03-4515-a586-b5331b303c5b
+dates:
+  send_date: '2024-08-28'
+  first_sent: '2024-08-27T23:53:15+00:00'
+  last_sent: '2024-08-28T15:10:06+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: b95e3f33-b4d9-4c0d-a880-4df0b559d2fc
+  channel: email
+  name: Variant 1
+  subject: It (literally) pays to shop at Havenly
+  preheader: We price match & offer exclusive discounts.
+- id: 04227332-8d5e-4a21-8930-f9d749b6fa47
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 20465
+  total_delivered: 20444
+  total_opens: 10955
+  total_clicks: 191
+  open_rate: 0.5353
+  click_rate: 0.0093
+  total_unsubscribes: 25
+schedule_type: time_based
+_filename: p_2024_08_28_d_hav_conv_why_shop_havenly_email.yaml

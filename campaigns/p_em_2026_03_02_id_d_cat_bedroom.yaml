@@ -1,0 +1,35 @@
+id: acd831f8-ae29-41c5-850a-bf4515210d3a
+name: P_EM_2026_03_02_ID_D_CAT_Bedroom
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: acd831f8-ae29-41c5-850a-bf4515210d3a
+dates:
+  send_date: '2026-03-02'
+  inferred_send_type: local_time
+  first_sent: '2026-03-01T22:06:54+00:00'
+  last_sent: '2026-03-02T22:03:00+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 94db4ae3-8739-4114-97e3-a1866a8c03bd
+  channel: email
+  name: Variant 1
+  subject: A Better Bedroom Starts Here
+  preheader: 'Design a space you’ll never want to leave. '
+- id: 5b94eae9-7496-4726-954c-2b1e86250a43
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 119391
+  total_delivered: 119183
+  total_opens: 45319
+  total_clicks: 582
+  open_rate: 0.3796
+  click_rate: 0.0049
+  total_revenue: 74240.0
+  total_bounces: 2
+  total_unsubscribes: 191
+schedule_type: time_based

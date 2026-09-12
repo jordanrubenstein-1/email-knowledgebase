@@ -1,0 +1,194 @@
+{% comment %}
+  CZ Recommended Products — Cart Abandon Canvas variant
+  Brand: The Citizenry (CZ)
+
+  Use this block in the Cart Abandon Canvas email step. Derives the recommendation
+  anchor inline from canvas_entry_properties.products — no user attribute lookup needed.
+  Anchor = most expensive item in the cart (avoids swatches at ~$3.75 contaminating recs).
+
+  Usage:
+    1. Paste this block at the TOP of the cart abandon email step.
+    2. Place {{ rec_block }} in the email body where cards should appear.
+
+  Behavior:
+    - Anchor = product_id of the highest-priced item in canvas_entry_properties.products
+    - < 3 available products → section hidden
+    - 3–5 available products → 1 row of 3 cards
+    - 6 available products   → 2 rows of 3 cards
+    - Deduplicates by Shopify product.id
+    - Images served at 380px wide (2× retina for 190px display cards)
+    - Sale prices shown with strikethrough when compare_at_price ≠ price
+    - UTM: utm_campaign=cart_abandon_rec, utm_content={anchor_product_id}
+
+  Related blocks:
+    - cz_shopify_recs_batch.liquid           — for batch/broadcast emails
+    - cz_shopify_recs_browse_abandon.liquid  — for Browse Abandon Canvas
+    - cz_shopify_recs_post_purchase.liquid   — for Post-Purchase Canvas
+{% endcomment %}
+
+{%- assign products_arr = canvas_entry_properties.products -%}
+{%- assign max_price = 0 -%}
+{%- assign anchor_id = "" -%}
+{%- for item in products_arr -%}
+  {%- assign item_price = item.price | times: 1 -%}
+  {%- if item_price > max_price -%}
+    {%- assign max_price = item_price -%}
+    {%- assign anchor_id = item.product_id -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- if anchor_id != blank -%}
+  {%- connected_content https://www.the-citizenry.com/recommendations/products.json?product_id={{ anchor_id }}&limit=10
+    :save recs
+    :retry
+    :cache_max_age 1800
+  -%}
+
+  {%- assign seen_ids = "," -%}
+
+  {%- comment -%} Pass 1: count available products {%- endcomment -%}
+  {%- assign shown = 0 -%}
+  {%- for product in recs.products -%}
+    {%- if shown >= 6 -%}{%- break -%}{%- endif -%}
+    {%- assign id_check = "," | append: product.id | append: "," -%}
+    {%- unless seen_ids contains id_check -%}
+      {%- if product.available == true -%}
+        {%- assign seen_ids = seen_ids | append: product.id | append: "," -%}
+        {%- assign shown = shown | plus: 1 -%}
+      {%- endif -%}
+    {%- endunless -%}
+  {%- endfor -%}
+
+  {%- if shown >= 3 -%}
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
+  <tr>
+    <td align="center" style="padding:24px 0 8px;">
+      <p style="font-family:Georgia,serif;font-size:18px;letter-spacing:0.05em;color:#1a1a1a;margin:0;">You May Also Like</p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="padding:0 15px 24px;">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
+        {%- comment -%} Pass 2 Row 1: output first 3 cards directly {%- endcomment -%}
+        {%- assign seen_row1 = "," -%}
+        {%- assign row1_count = 0 -%}
+        <tr>
+        {%- for product in recs.products -%}
+          {%- if row1_count >= 3 -%}{%- break -%}{%- endif -%}
+          {%- assign id_check = "," | append: product.id | append: "," -%}
+          {%- unless seen_row1 contains id_check -%}
+            {%- if product.available == true -%}
+              {%- assign seen_row1 = seen_row1 | append: product.id | append: "," -%}
+              {%- assign price_dollars = product.variants[0].price | divided_by: 100.0 -%}
+              {%- assign price_floor = price_dollars | floor -%}
+              {%- if price_dollars == price_floor -%}
+                {%- assign price_display = price_floor | prepend: "$" -%}
+              {%- else -%}
+                {%- assign price_display = price_dollars | round: 2 | prepend: "$" -%}
+              {%- endif -%}
+              {%- assign compare_raw = product.variants[0].compare_at_price -%}
+              {%- assign on_sale = false -%}
+              {%- if compare_raw != blank and compare_raw != product.variants[0].price -%}
+                {%- assign compare_dollars = compare_raw | divided_by: 100.0 -%}
+                {%- assign compare_floor = compare_dollars | floor -%}
+                {%- if compare_dollars == compare_floor -%}
+                  {%- assign compare_display = compare_floor | prepend: "$" -%}
+                {%- else -%}
+                  {%- assign compare_display = compare_dollars | round: 2 | prepend: "$" -%}
+                {%- endif -%}
+                {%- assign on_sale = true -%}
+              {%- endif -%}
+              {%- assign product_url = "https://www.the-citizenry.com/products/" | append: product.handle | append: "?utm_source=braze&utm_medium=email&utm_campaign=cart_abandon_rec&utm_content=" | append: anchor_id -%}
+              {%- if product.media[0].preview_image.src != blank -%}
+                {%- assign img_src = product.media[0].preview_image.src | append: "&width=380" -%}
+              {%- else -%}
+                {%- assign img_src = "https:" | append: product.featured_image | append: "&width=380" -%}
+              {%- endif -%}
+              <td valign="top" width="33%" style="padding:8px 5px;width:33%;max-width:190px;">
+                <a href="{{ product_url }}" style="text-decoration:none;color:inherit;">
+                  <img src="{{ img_src }}"
+                       alt="{{ product.title | escape }}"
+                       style="display:block;width:100%;max-width:190px;height:auto;background:#f5f5f5;" />
+                  <p style="font-family:Georgia,serif;font-size:12px;color:#1a1a1a;margin:8px 0 2px;line-height:1.3;">{{ product.title }}</p>
+                  {%- if on_sale -%}
+                  <p style="font-family:Arial,sans-serif;font-size:12px;margin:0;">
+                    <span style="text-decoration:line-through;color:#999999;">{{ compare_display }}</span>
+                    <span style="color:#b84a31;margin-left:4px;">{{ price_display }}</span>
+                  </p>
+                  {%- else -%}
+                  <p style="font-family:Arial,sans-serif;font-size:12px;color:#666666;margin:0;">{{ price_display }}</p>
+                  {%- endif -%}
+                </a>
+              </td>
+              {%- assign row1_count = row1_count | plus: 1 -%}
+            {%- endif -%}
+          {%- endunless -%}
+        {%- endfor -%}
+        </tr>
+        {%- if shown >= 6 -%}
+        {%- comment -%} Pass 2 Row 2: output next 3 cards, skipping row 1 products {%- endcomment -%}
+        {%- assign row2_count = 0 -%}
+        <tr>
+        {%- for product in recs.products -%}
+          {%- if row2_count >= 3 -%}{%- break -%}{%- endif -%}
+          {%- assign id_check = "," | append: product.id | append: "," -%}
+          {%- unless seen_row1 contains id_check -%}
+            {%- if product.available == true -%}
+              {%- assign price_dollars = product.variants[0].price | divided_by: 100.0 -%}
+              {%- assign price_floor = price_dollars | floor -%}
+              {%- if price_dollars == price_floor -%}
+                {%- assign price_display = price_floor | prepend: "$" -%}
+              {%- else -%}
+                {%- assign price_display = price_dollars | round: 2 | prepend: "$" -%}
+              {%- endif -%}
+              {%- assign compare_raw = product.variants[0].compare_at_price -%}
+              {%- assign on_sale = false -%}
+              {%- if compare_raw != blank and compare_raw != product.variants[0].price -%}
+                {%- assign compare_dollars = compare_raw | divided_by: 100.0 -%}
+                {%- assign compare_floor = compare_dollars | floor -%}
+                {%- if compare_dollars == compare_floor -%}
+                  {%- assign compare_display = compare_floor | prepend: "$" -%}
+                {%- else -%}
+                  {%- assign compare_display = compare_dollars | round: 2 | prepend: "$" -%}
+                {%- endif -%}
+                {%- assign on_sale = true -%}
+              {%- endif -%}
+              {%- assign product_url = "https://www.the-citizenry.com/products/" | append: product.handle | append: "?utm_source=braze&utm_medium=email&utm_campaign=cart_abandon_rec&utm_content=" | append: anchor_id -%}
+              {%- if product.media[0].preview_image.src != blank -%}
+                {%- assign img_src = product.media[0].preview_image.src | append: "&width=380" -%}
+              {%- else -%}
+                {%- assign img_src = "https:" | append: product.featured_image | append: "&width=380" -%}
+              {%- endif -%}
+              <td valign="top" width="33%" style="padding:8px 5px;width:33%;max-width:190px;">
+                <a href="{{ product_url }}" style="text-decoration:none;color:inherit;">
+                  <img src="{{ img_src }}"
+                       alt="{{ product.title | escape }}"
+                       style="display:block;width:100%;max-width:190px;height:auto;background:#f5f5f5;" />
+                  <p style="font-family:Georgia,serif;font-size:12px;color:#1a1a1a;margin:8px 0 2px;line-height:1.3;">{{ product.title }}</p>
+                  {%- if on_sale -%}
+                  <p style="font-family:Arial,sans-serif;font-size:12px;margin:0;">
+                    <span style="text-decoration:line-through;color:#999999;">{{ compare_display }}</span>
+                    <span style="color:#b84a31;margin-left:4px;">{{ price_display }}</span>
+                  </p>
+                  {%- else -%}
+                  <p style="font-family:Arial,sans-serif;font-size:12px;color:#666666;margin:0;">{{ price_display }}</p>
+                  {%- endif -%}
+                </a>
+              </td>
+              {%- assign row2_count = row2_count | plus: 1 -%}
+            {%- endif -%}
+          {%- endunless -%}
+        {%- endfor -%}
+        </tr>
+        {%- endif -%}
+      </table>
+    </td>
+  </tr>
+</table>
+  {%- else -%}
+    {%- assign rec_block = "" -%}
+  {%- endif -%}
+
+{%- else -%}
+  {%- assign rec_block = "" -%}
+{%- endif -%}

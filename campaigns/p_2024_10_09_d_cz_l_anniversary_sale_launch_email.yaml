@@ -1,0 +1,60 @@
+id: 5014e00b-0a4d-432a-b187-b8a7bbccb579
+name: P_2024_10_09_D_CZ_L_Anniversary_Sale_Launch_Email
+brand: CZ
+channel: email
+category: product_launch
+type: sale
+theme: null
+braze_id: 5014e00b-0a4d-432a-b187-b8a7bbccb579
+dates:
+  send_date: '2024-10-09'
+  inferred_send_type: local_time
+  first_sent: '2024-10-08T23:21:13+00:00'
+  last_sent: '2024-10-09T17:00:39+00:00'
+tags:
+- batch and blast/promo
+sends:
+- id: ba04c28b-6d07-4580-aeae-63566386420f
+  channel: email
+  name: Variant 1
+  subject: Celebrating 10 Years of The Citizenry
+  preheader: Shop up to 20% off our most iconic collections.
+  html_file: html/p_2024_10_09_d_cz_l_anniversary_sale_launch_email.html
+  screenshot: screenshots/p_2024_10_09_d_cz_l_anniversary_sale_launch_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6703f5a27dabb90073912dd0/original.jpg?1728312737
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6703f74605047b0065b70338/original.jpg?1728313158
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6703f56d7dabb90064912e44/original.jpg?1728312684
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6703f6897dabb900649131c8/original.jpg?1728312968
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6703f6d230f4e000645d0a7f/original.jpg?1728313042
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6703f674e8102a00658f2ccf/original.jpg?1728312948
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6703f697eb85880066057724/original.jpg?1728312982
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6703f57ce8102a00658f2963/original.jpg?1728312700
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6703f73a7dabb9006491331d/original.jpg?1728313146
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6703f6a8ecd1410064e01211/original.jpg?1728313000
+- id: b5c46017-7fcd-44b9-b623-9a9b1304bbef
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 85975
+  total_delivered: 85462
+  total_opens: 44286
+  total_clicks: 1269
+  open_rate: 0.5151
+  click_rate: 0.0148
+  total_revenue: 122143.99
+  total_bounces: 5
+  total_unsubscribes: 167
+  ga4:
+    sessions: 1730
+    purchases: 46
+    revenue: 17085.91
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.542322'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.047106'
+schedule_type: time_based

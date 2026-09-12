@@ -1,0 +1,79 @@
+id: 14d76a71-33d5-4b39-8cc0-ff2ba96fd7f3
+name: P_EM_2025_11_10_BW_D_Sectionals
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 14d76a71-33d5-4b39-8cc0-ff2ba96fd7f3
+dates:
+  send_date: '2025-11-10'
+  inferred_send_type: local_time
+  first_sent: '2025-11-09T17:22:50+00:00'
+  last_sent: '2025-11-10T17:17:36+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: a374f67f-3b2a-49e8-9347-3bf6c13a722e
+  channel: email
+  name: Variant 1
+  subject: Sometimes bigger is better
+  preheader: 'Sectionals designed to move with your life
+
+
+
+    '
+- id: 18a62f3a-3555-4d67-a72f-702609a451d7
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 251908
+  total_delivered: 250993
+  total_opens: 140064
+  total_clicks: 534
+  open_rate: 0.556
+  click_rate: 0.0021
+  total_revenue: 74816.59
+  total_bounces: 11
+  total_unsubscribes: 487
+  ga4:
+    sessions: 295
+    purchases: 2
+    revenue: 3061.56
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.893166'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:35.665179'
+schedule_type: time_based

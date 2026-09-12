@@ -1,0 +1,52 @@
+id: 00e81dd6-0d83-430f-affa-ecd4a7022675
+name: P_2025_06_04_CZ_Mexico_Capsule_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 00e81dd6-0d83-430f-affa-ecd4a7022675
+dates:
+  send_date: '2025-06-04'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-04T05:17:23+00:00'
+  last_sent: '2025-06-04T17:00:57+00:00'
+tags: []
+sends:
+- id: aff05f6f-ec94-4c06-a561-67558128a3aa
+  channel: email
+  name: Variant 1
+  subject: Meet Us in Mexico
+  preheader: Zapotec textiles. Palm baskets. Handmade ceramics.
+  html_file: html/p_2025_06_04_cz_mexico_capsule_email.html
+  screenshot: screenshots/p_2025_06_04_cz_mexico_capsule_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683f28faa9558a00662d5f92/original.png?1748969721
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683f2e7e76867c0083f816c3/original.png?1748971134
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683f2e8a9f6d3d0084b0fe8c/original.png?1748971145
+- id: 2e31f3b9-096c-4db2-8a6c-401239f96680
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 100067
+  total_delivered: 99538
+  total_opens: 52342
+  total_clicks: 1519
+  open_rate: 0.5231
+  click_rate: 0.0152
+  total_revenue: 24394.4
+  total_bounces: 2
+  total_unsubscribes: 130
+  ga4:
+    sessions: 1735
+    purchases: 6
+    revenue: 2231.86
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.563562'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.322177'
+schedule_type: time_based

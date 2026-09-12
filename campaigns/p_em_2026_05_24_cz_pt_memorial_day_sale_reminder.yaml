@@ -1,0 +1,30 @@
+id: ccee6ea5-575f-4dd8-a963-619bd9264d7d
+name: P_EM_2026_05_24_CZ_PT_Memorial_Day_Sale_Reminder
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: ccee6ea5-575f-4dd8-a963-619bd9264d7d
+dates:
+  send_date: '2026-05-24'
+  last_sent: '2026-05-24'
+tags: []
+sends:
+- id: 29364d3d-a44f-44fc-807a-745c9f5ff737
+  channel: email
+  name: Variant 1
+  subject: Don't miss the Memorial Day Sale
+- id: 336e5be8-e04a-493f-b15f-f634ecc9afd6
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 115212
+  total_delivered: 114922
+  total_opens: 56347
+  total_clicks: 796
+  open_rate: 0.4891
+  click_rate: 0.0069
+  total_unsubscribes: 160
+_filename: p_em_2026_05_24_cz_pt_memorial_day_sale_reminder.yaml
+schedule_type: time_based

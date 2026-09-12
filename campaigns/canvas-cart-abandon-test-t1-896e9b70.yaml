@@ -1,0 +1,35 @@
+id: 896e9b70-6c61-4dca-be75-bed2c7befc2d
+name: TRG_2024_ID_Cart_Abandon_T1_Email 1
+brand: ID
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: b6076d51-b7fd-432c-a79c-be2acf40bb52
+canvas_name: Cart Abandon test
+flow_type: cart_abandonment
+sequence_position: 1
+subject: We saved your cart
+preheader: 'Check out now
+
+  '
+sends:
+- id: 896e9b70-6c61-4dca-be75-bed2c7befc2d
+  channel: email
+  name: TRG_2024_ID_Cart_Abandon_T1_Email 1
+  subject: We saved your cart
+  preheader: 'Check out now
+
+    '
+  html_file: html/canvas-cart-abandon-test-t1-896e9b70.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-11-13T20:00:00Z'
+  last_sent: '2025-11-21T19:00:00Z'
+performance_summary:
+  total_sends: 21
+  total_delivered: 21
+  total_opens: 19
+  total_clicks: 5
+  open_rate: 0.9048
+  click_rate: 0.2381

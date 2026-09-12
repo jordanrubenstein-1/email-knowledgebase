@@ -1,0 +1,37 @@
+id: 95d2632b-42a7-4693-9c37-e5c943caadc2
+name: P_EM_2026_04_06_ID_TRADE_PT_Cross_Brand_Version_B_Treatment
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 95d2632b-42a7-4693-9c37-e5c943caadc2
+dates:
+  send_date: '2026-04-06'
+  inferred_send_type: local_time
+  first_sent: '2026-04-05T20:09:59+00:00'
+  last_sent: '2026-04-06T16:03:30+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: f2517f0f-fec7-4f87-bf47-d9d70d316835
+  channel: email
+  name: Variant 1
+  subject: An exclusive first-order offer for Havenly trade partners — 35% off Interior
+    Define
+  preheader: As a thank-you for your partnership, here’s something special to try
+    our sister brand.
+- id: 5e84a2fb-ed13-4604-bf5a-4e29da3009c3
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 1293
+  total_delivered: 1263
+  total_opens: 730
+  total_clicks: 34
+  open_rate: 0.5646
+  click_rate: 0.0263
+  total_revenue: 7965.0
+  total_bounces: 1
+  total_unsubscribes: 20
+schedule_type: time_based

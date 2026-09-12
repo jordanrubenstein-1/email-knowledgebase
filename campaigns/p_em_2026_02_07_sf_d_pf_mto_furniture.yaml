@@ -1,0 +1,54 @@
+id: c79d76e2-e4be-443e-bec4-1707d7346ae4
+name: P_EM_2026_02_07_SF_D_PF_MTO_Furniture
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: c79d76e2-e4be-443e-bec4-1707d7346ae4
+dates:
+  send_date: '2026-02-07'
+  inferred_send_type: local_time
+  first_sent: '2026-02-06T21:08:07+00:00'
+  last_sent: '2026-02-07T21:00:59+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: 3705a529-7428-4d92-a463-e7e2dca00ae6
+  channel: email
+  name: Variant 1
+  subject: 'Custom, considered: Studio by St. Frank'
+  preheader: crafted just for you in North Carolina
+  html_file: html/p_em_2026_02_07_sf_d_pf_mto_furniture.html
+  screenshot: screenshots/p_em_2026_02_07_sf_d_pf_mto_furniture.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6984f968a26d8f0063a3429b/original.gif?1770322280
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691713cab2951000650149bc/original.png?1763120073
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6984f9a86cd8e10063cd22cb/original.png?1770322343
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69864c46aa2a89006325c9ee/original.png?1770409029
+- id: 2cbc3c97-e20a-477d-97f9-0f571292411b
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39101
+  total_delivered: 38824
+  total_opens: 13227
+  total_clicks: 99
+  open_rate: 0.3383
+  click_rate: 0.0025
+  total_bounces: 1
+  total_unsubscribes: 31
+  ga4:
+    sessions: 68
+    purchases: 1
+    revenue: 15.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.049162'
+    source: snowflake
+    channel: email
+schedule_type: time_based

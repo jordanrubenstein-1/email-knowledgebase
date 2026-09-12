@@ -1,0 +1,31 @@
+id: 5e63a834-9092-4462-9199-d579ac7b058b
+name: test_TRG_EM_2025_08_ID_D_Product_Browse_Abandon_T1_V1
+brand: ID
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: f396e331-f9d3-4dc9-a53e-fa15bb4fc125
+canvas_name: Browse Abandon - Test
+flow_type: browse_abandonment
+sequence_position: 1
+subject: Ready to make it yours?
+preheader: You were eyeing it…
+sends:
+- id: 5e63a834-9092-4462-9199-d579ac7b058b
+  channel: email
+  name: test_TRG_EM_2025_08_ID_D_Product_Browse_Abandon_T1_V1
+  subject: Ready to make it yours?
+  preheader: You were eyeing it…
+  html_file: html/canvas-browse-abandon-test-t1-5e63a834.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-01-28T19:00:00Z'
+  last_sent: '2026-02-21T17:00:00Z'
+performance_summary:
+  total_sends: 17
+  total_delivered: 17
+  total_opens: 16
+  total_clicks: 6
+  open_rate: 0.9412
+  click_rate: 0.3529

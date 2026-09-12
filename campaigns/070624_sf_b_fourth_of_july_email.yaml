@@ -1,0 +1,39 @@
+id: c53a12b3-a5b9-459a-a65f-ca7b9e147b66
+name: 070624_SF_B_Fourth_Of_July_Email
+brand: STF
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: c53a12b3-a5b9-459a-a65f-ca7b9e147b66
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2024-07-06T13:15:02+00:00'
+  last_sent: '2024-07-06T13:15:16+00:00'
+tags:
+- Batch and Blast
+sends:
+- id: 17b28988-af63-4251-b264-aea71eccf9fb
+  channel: email
+  name: Variant 1
+  subject: ENDS TOMORROW! 20% OFF SITEWIDE
+  preheader: 'Don’t miss out '
+  html_file: html/070624_sf_b_fourth_of_july_email.html
+  screenshot: screenshots/070624_sf_b_fourth_of_july_email.png
+- id: e1b58e29-a3dd-412e-a3dd-b2d23e3eb574
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.912465'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.258140'
+schedule_type: time_based

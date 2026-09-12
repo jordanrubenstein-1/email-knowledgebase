@@ -1,0 +1,47 @@
+id: a9e092c6-752c-4c5b-ba25-b77795bd95ca
+name: P_EM_2025_09_07_ID_D_Sectional_Buying_Guide
+brand: ID
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: a9e092c6-752c-4c5b-ba25-b77795bd95ca
+dates:
+  send_date: '2025-09-07'
+  inferred_send_type: local_time
+  first_sent: '2025-09-06T18:21:35+00:00'
+  last_sent: '2025-09-07T17:15:32+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: c0dbdb30-8684-4372-ad14-fb34e01d45da
+  channel: email
+  name: Variant 1
+  subject: Our *Official* Sectional Buying Guide
+  preheader: Plus, get 25% off sitewide.
+- id: 286f2fe0-8b03-4f3a-9187-7330b8cdc4bf
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 203796
+  total_delivered: 202834
+  total_opens: 96543
+  total_clicks: 660
+  open_rate: 0.4737
+  click_rate: 0.0032
+  total_revenue: 295584.99
+  total_bounces: 2
+  total_unsubscribes: 611
+  ga4:
+    sessions: 973
+    purchases: 4
+    revenue: 10692.59
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.976593'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:29.963959'
+schedule_type: time_based

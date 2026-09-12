@@ -1,0 +1,59 @@
+id: 43da3820-97f8-45f3-83a0-03c5e2a29f2d
+name: P_2025_05_18_CZ_MDW_Woven_Wall_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 43da3820-97f8-45f3-83a0-03c5e2a29f2d
+dates:
+  send_date: '2025-05-18'
+  inferred_send_type: sto
+  first_sent: '2025-05-17T17:05:34+00:00'
+  last_sent: '2025-05-19T06:59:43+00:00'
+tags: []
+sends:
+- id: afb4f02f-4aad-474f-85f0-35cd5e2487c3
+  channel: email
+  name: Variant 1
+  subject: The Well-Traveled Wall
+  preheader: Claim 20% off handcrafted wall art from around the globe.
+  html_file: html/p_2025_05_18_cz_mdw_woven_wall_email.html
+  screenshot: screenshots/p_2025_05_18_cz_mdw_woven_wall_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6827a311b080fa0065b2def5/original.png?1747428113
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6825051d3978950064497292/original.png?1747256605
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6825051173e6540066fdea3c/original.png?1747256592
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6827a32588e2c400771ae45a/original.png?1747428132
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682504341c57270084958b20/original.png?1747256372
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682504447d6ee7006773b877/original.png?1747256388
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682504ce73e6540066fde81c/original.png?1747256525
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6825044c1c57270066959d8f/original.png?1747256395
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6827a35eaf8b690067240614/original.png?1747428189
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682504ed7de3bc007266a2f0/original.png?1747256557
+- id: be13f47f-e7d0-441e-b468-f24e9de674d9
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 96014
+  total_delivered: 95487
+  total_opens: 50171
+  total_clicks: 686
+  open_rate: 0.5225
+  click_rate: 0.0071
+  total_revenue: 80271.6
+  total_bounces: 1
+  total_unsubscribes: 94
+  ga4:
+    sessions: 850
+    purchases: 10
+    revenue: 6465.2
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.517425'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.817759'
+schedule_type: time_based

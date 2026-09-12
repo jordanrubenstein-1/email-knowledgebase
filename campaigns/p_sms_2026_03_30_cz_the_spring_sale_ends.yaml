@@ -1,0 +1,27 @@
+id: f53a3ea5-6482-420e-b1c3-9293adfd7c1e
+name: P_SMS_2026_03_30_CZ_The_Spring_Sale_Ends
+brand: CZ
+channel: sms
+category: sale_promo
+type: sale
+theme: spring
+braze_id: f53a3ea5-6482-420e-b1c3-9293adfd7c1e
+dates:
+  send_date: '2026-03-30'
+  last_sent: '2026-03-30'
+tags: []
+sends:
+- id: b1f2035d-b783-4525-b267-bcf13b125013
+  channel: sms
+  name: Variant 1
+- id: 4c24e4aa-cd2c-4e7b-b4b0-a4c1ac3b6a1c
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 20252
+  total_delivered: 17230
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+schedule_type: time_based

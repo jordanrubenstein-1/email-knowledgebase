@@ -1,0 +1,61 @@
+id: 6441b631-5e69-4f74-93e8-1e280ddc694a
+name: P_EM_2025_09_14_SF_D_PF_Fall_Moodboard
+brand: STF
+channel: email
+category: other
+type: seasonal
+theme: fall
+braze_id: 6441b631-5e69-4f74-93e8-1e280ddc694a
+dates:
+  send_date: '2025-09-14'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-14T02:24:40+00:00'
+  last_sent: '2025-09-14T17:00:38+00:00'
+tags:
+- Batch and Blast
+- am
+- collect
+- d2c
+- designed
+sends:
+- id: 11e35e73-7ba7-4bf9-a3a6-67c91af10de9
+  channel: email
+  name: Variant 1
+  subject: 'Design Edit: Autumn'
+  preheader: layers, color, and design that define the season
+  html_file: html/p_em_2025_09_14_sf_d_pf_fall_moodboard.html
+  screenshot: screenshots/p_em_2025_09_14_sf_d_pf_fall_moodboard.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c1da9f2f5f930076792aed/original.jpg?1757534879
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c1daaa2f5f930066792d38/original.jpg?1757534889
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c44beddb7dfe0084796ea0/original.jpg?1757694957
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c44be74c13e00066ee107c/original.jpg?1757694950
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c44bb3db7dfe00647976ce/original.gif?1757694899
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c44bce427d320065e28fb4/original.png?1757694925
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c1daa52f5f930086792661/original.jpg?1757534885
+- id: 5c87f68c-373c-40b3-8bfc-1e8ec7a66098
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39763
+  total_delivered: 39490
+  total_opens: 18135
+  total_clicks: 201
+  open_rate: 0.4561
+  click_rate: 0.0051
+  total_bounces: 2
+  total_unsubscribes: 46
+  ga4:
+    sessions: 223
+    purchases: 1
+    revenue: 529.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.029167'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.177687'
+schedule_type: time_based

@@ -1,0 +1,54 @@
+id: a3359058-744f-406a-af5b-78f6d8e4fde5
+name: P_EM_2026_02_14_CZ_D_PR_Color_Edit_Presidents_Day_Sale
+brand: CZ
+channel: email
+category: editorial
+type: sale
+theme: null
+braze_id: a3359058-744f-406a-af5b-78f6d8e4fde5
+dates:
+  send_date: '2026-02-14'
+  inferred_send_type: local_time
+  first_sent: '2026-02-13T20:08:08+00:00'
+  last_sent: '2026-02-14T20:03:43+00:00'
+tags:
+- am
+- batch and blast
+- color
+- d2c
+- designed
+- sale
+- sale/presidentsday2026
+sends:
+- id: 61a04044-497e-453d-aa6a-e74a576a3aa5
+  channel: email
+  name: Variant 1
+  subject: 'Color Edit: Dusty Rose'
+  preheader: Soft, subtle, and quietly romantic—just in time for Valentine’s.
+  html_file: html/p_em_2026_02_14_cz_d_pr_color_edit_presidents_day_sale.html
+  screenshot: screenshots/p_em_2026_02_14_cz_d_pr_color_edit_presidents_day_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698e0c20c4f1ac00645001b5/original.png?1770916896
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698e0c39909a0f0063533349/original.png?1770916921
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698e0c5bc5af2700635f8862/original.png?1770916955
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698e0f20031fb3007170aa57/original.png?1770917664
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698e0f5cbe675f0063295188/original.png?1770917723
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698e0c52b490d00065216fea/original.png?1770916945
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698e0c42c84a540063248928/original.png?1770916929
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698e0f28695c060063f17058/original.png?1770917671
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698e0f4a1aabb600657ea23d/original.png?1770917705
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698e0f320fc0bb0065fb90fa/original.png?1770917681
+- id: 13c615a3-0aa8-4681-9f74-5dacf90eaeac
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 113535
+  total_delivered: 113361
+  total_opens: 57683
+  total_clicks: 889
+  open_rate: 0.5081
+  click_rate: 0.0078
+  total_bounces: 3
+  total_unsubscribes: 112
+_filename: p_em_2026_02_14_cz_d_pr_color_edit_presidents_day_sale.yaml
+schedule_type: time_based

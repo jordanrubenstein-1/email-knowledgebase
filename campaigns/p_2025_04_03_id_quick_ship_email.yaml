@@ -1,0 +1,47 @@
+id: d83b65ff-7a6f-4ee6-b652-2a4a3325e992
+name: P_2025_04_03_ID_Quick_Ship_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: d83b65ff-7a6f-4ee6-b652-2a4a3325e992
+dates:
+  send_date: '2025-04-03'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-03T04:41:53+00:00'
+  last_sent: '2025-04-03T17:15:14+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 6f71c349-8857-402a-9529-dd931ae900df
+  channel: email
+  name: Variant 1
+  subject: Made-to-order, made fast 💨
+  preheader: Shop our Quick Ship collections
+- id: 9fcf11b1-1bf2-4f46-90af-b787a95e443a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 149501
+  total_delivered: 147375
+  total_opens: 35374
+  total_clicks: 548
+  open_rate: 0.2366
+  click_rate: 0.0037
+  total_revenue: 129548.5
+  total_bounces: 7
+  total_unsubscribes: 86
+  ga4:
+    sessions: 839
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.695798'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.296265'
+schedule_type: time_based

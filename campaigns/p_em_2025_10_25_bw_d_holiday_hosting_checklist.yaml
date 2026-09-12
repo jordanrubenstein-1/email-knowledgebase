@@ -1,0 +1,77 @@
+id: 7d945232-c751-4b5c-8f93-a9a96961fabc
+name: P_EM_2025_10_25_BW_D_Holiday_Hosting_Checklist
+brand: BUR
+channel: email
+category: other
+type: seasonal
+theme: christmas
+braze_id: 7d945232-c751-4b5c-8f93-a9a96961fabc
+dates:
+  send_date: '2025-10-25'
+  inferred_send_type: scheduled
+  first_sent: '2025-10-25T03:17:16+00:00'
+  last_sent: '2025-10-25T17:15:45+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 4cdd76ba-2b92-4776-a071-afbac64f429f
+  channel: email
+  name: Variant 1
+  subject: Are You Ready to Host?
+  preheader: 'Hosting season essentials up to 35% off
+
+
+
+    '
+- id: 6aed1bdd-3fae-48eb-ab11-7f13ce10ae59
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 253840
+  total_delivered: 251938
+  total_opens: 142832
+  total_clicks: 808
+  open_rate: 0.5627
+  click_rate: 0.0032
+  total_revenue: 94299.0
+  total_bounces: 2
+  total_unsubscribes: 465
+  ga4:
+    sessions: 488
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.804843'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-the-fall-sale-2025-10-02
+    name: The Fall Sale
+    start_date: '2025-10-02'
+    end_date: '2025-10-27'
+    discount: Up to 35% Off Sitewide
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-the-fall-sale-2025-10-02
+    name: The Fall Sale
+    start_date: '2025-10-02'
+    end_date: '2025-10-27'
+    discount: Up to 35% Off Sitewide
+    type: null
+  sale_name: The Fall Sale
+  sale_discount: Up to 35% Off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:34.473451'
+schedule_type: time_based

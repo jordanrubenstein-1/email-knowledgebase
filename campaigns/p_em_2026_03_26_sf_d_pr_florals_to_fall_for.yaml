@@ -1,0 +1,51 @@
+id: 7311423c-f9d7-4858-ab3d-065abf88ae43
+name: P_EM_2026_03_26_SF_D_PR_Florals_to_Fall_For
+brand: STF
+channel: email
+category: other
+type: seasonal
+theme: fall
+braze_id: 7311423c-f9d7-4858-ab3d-065abf88ae43
+dates:
+  send_date: '2026-03-26'
+  inferred_send_type: local_time
+  first_sent: '2026-03-26T00:08:24+00:00'
+  last_sent: '2026-03-27T00:01:41+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- print
+sends:
+- id: 806e67a4-0425-4966-9752-15bdfb85f422
+  channel: email
+  name: Variant 1
+  subject: A moment for femme florals
+  preheader: For those who want to stand out.
+  html_file: html/p_em_2026_03_26_sf_d_pr_florals_to_fall_for.html
+  screenshot: screenshots/p_em_2026_03_26_sf_d_pr_florals_to_fall_for.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c308090267e800638488c0/original.png?1774389257
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c30747e7c9c40063137c7a/original.png?1774389063
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c30853e7c9c4006313800a/original.png?1774389330
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c3084be7c9c40063137e1a/original.png?1774389322
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c3073553e22b00712aca52/original.png?1774389045
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c30840f4aee10063c42cf5/original.png?1774389311
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c30837fe95b60063e13554/original.png?1774389302
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c3072d80ca520063135353/original.png?1774389037
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c3086017beb3006372953b/original.png?1774389343
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c30814326fda0063982690/original.png?1774389267
+- id: d3fe3a24-6135-425b-b274-283ecbe08ae2
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 37051
+  total_delivered: 36535
+  total_opens: 11933
+  total_clicks: 210
+  open_rate: 0.3221
+  click_rate: 0.0057
+  total_bounces: 3
+  total_unsubscribes: 22
+schedule_type: time_based

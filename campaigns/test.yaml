@@ -1,0 +1,32 @@
+id: 1c27b22b-2a03-4257-9ae7-b3e7def34410
+name: test
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 1c27b22b-2a03-4257-9ae7-b3e7def34410
+dates:
+  first_sent: '2026-06-16T23:15:45+00:00'
+  last_sent: '2026-06-16T23:16:06+00:00'
+  inferred_send_type: scheduled
+tags:
+- BLASTS-2025
+sends:
+- id: 1a5367dd-faee-44a8-ad4b-008b9de7904a
+  channel: email
+  name: Variant 1
+  subject: Testing shop my room link
+  preheader: Up to 20% off during our Fourth of July Sale.
+- id: 4484b26d-e88b-4fa2-b51d-5796b1db6e26
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1
+  total_delivered: 1
+  total_opens: 1
+  total_clicks: 1
+  open_rate: 1.0
+  click_rate: 1.0
+schedule_type: time_based
+_filename: test.yaml

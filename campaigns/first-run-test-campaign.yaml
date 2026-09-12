@@ -1,0 +1,21 @@
+id: 1980bc2c-c4d9-4d0c-9fe9-effc1c5bcad6
+name: First Run Test Campaign
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 1980bc2c-c4d9-4d0c-9fe9-effc1c5bcad6
+dates: {}
+tags: []
+sends:
+- id: 7b14be5c-427c-4421-b5f1-b92fbe21b6ae
+  channel: email
+  name: Variant 1
+  subject: Test subject from automation
+  preheader: Test preheader
+- id: 48b27ec0-a4f9-4a31-ba53-086db422230a
+  channel: other
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based

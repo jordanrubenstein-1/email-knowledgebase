@@ -1,0 +1,46 @@
+id: klaviyo-UYCyG6
+name: 'Abandoned Cart: Email 2'
+brand: TI
+channel: email
+category: reminder
+type: lifecycle
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: TPdHNe
+canvas_name: Abandoned Cart Reminder - Standard
+flow_type: cart_abandonment
+sequence_position: 2
+dates:
+  created: '2022-04-07'
+  inferred_send_type: scheduled
+  first_sent: '2022-04-07'
+  last_sent: '2022-04-07'
+sends:
+- id: UYCyG6
+  channel: email
+  name: Message
+  subject: Your cart is about to expire.
+  preheader: ''
+  html_file: html/klv-flow-abandoned-cart-reminder-standa-t02-UYCyG6.html
+  image_urls: []
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: UYCyG6
+structure:
+  image_count: 1
+  link_count: 4
+  has_gif: false
+  hero_width: 200
+  layout_type: hero_only

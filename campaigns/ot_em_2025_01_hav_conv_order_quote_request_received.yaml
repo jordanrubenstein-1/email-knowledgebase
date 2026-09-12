@@ -1,0 +1,30 @@
+id: 7c440870-ecf8-843a-ed3b-f0fbc87acf93
+name: OT_EM_2025_01_HAV_CONV_Order_Quote_Request_Received
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 7c440870-ecf8-843a-ed3b-f0fbc87acf93
+dates:
+  first_sent: '2025-01-08T19:00:00+00:00'
+  last_sent: '2026-06-09T15:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: 565c7fc6-c784-4b1b-86c0-fe544c4ae299
+  channel: email
+  name: Variant 1
+  subject: 'Expect your order quote soon - Order #{{api_trigger_properties.${order_number}}}'
+- id: 210dc739-6403-40c1-abfc-4ab42acf9815
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 52
+  total_delivered: 52
+  total_opens: 56
+  total_clicks: 1
+  open_rate: 1.0769
+  click_rate: 0.0192
+schedule_type: api_triggered
+_filename: ot_em_2025_01_hav_conv_order_quote_request_received.yaml

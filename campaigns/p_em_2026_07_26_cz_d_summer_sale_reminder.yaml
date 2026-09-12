@@ -1,0 +1,31 @@
+id: 1ce8da5a-db19-4c9a-997a-287d3a3ed099
+name: P_EM_2026_07_26_CZ_D_Summer_Sale_Reminder
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: summer
+braze_id: 1ce8da5a-db19-4c9a-997a-287d3a3ed099
+dates:
+  send_date: '2026-07-26'
+  last_sent: '2026-07-26'
+tags: []
+sends:
+- id: db7986a9-5a37-4e78-b13a-3bc0d947c379
+  channel: email
+  name: Variant 1
+  subject: The Summer Sale is still going
+  preheader: 20% off sitewide. Bath, decor, wall art, and more.
+- id: 1c1ac969-d27b-4a4a-bf66-f9c3fbdfa4b7
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 37952
+  total_delivered: 37918
+  total_opens: 19442
+  total_clicks: 584
+  open_rate: 0.5123
+  click_rate: 0.0154
+  total_unsubscribes: 87
+schedule_type: time_based
+_filename: p_em_2026_07_26_cz_d_summer_sale_reminder.yaml

@@ -1,0 +1,37 @@
+id: 241135fb-f503-4e2b-abc8-aeca26a6b5ed
+name: P_SMS_2025_09_30_SF_Autumn_Event_Sale_Last_Chance
+brand: STF
+channel: sms
+category: reminder
+type: sale
+theme: fall
+braze_id: 241135fb-f503-4e2b-abc8-aeca26a6b5ed
+dates:
+  send_date: '2025-09-30'
+  inferred_send_type: local_time
+  first_sent: '2025-09-29T20:35:07+00:00'
+  last_sent: '2025-09-30T17:30:16+00:00'
+tags: []
+sends:
+- id: 42ef125a-f28c-4516-8bb5-a0b82dd8bcf5
+  channel: sms
+  name: Variant 1
+- id: 8ded52dd-501a-4cfb-8a24-5f01bc5a2c28
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 4571
+  total_delivered: 4505
+  total_opens: 0
+  total_clicks: 85
+  open_rate: 0.0
+  click_rate: 0.0186
+  ga4:
+    sessions: 61
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.829064'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

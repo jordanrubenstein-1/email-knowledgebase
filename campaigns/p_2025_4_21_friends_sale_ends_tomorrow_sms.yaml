@@ -1,0 +1,30 @@
+id: 3ca46345-b951-4bc3-83a0-ee9626cdce58
+name: P_2025_4_21_Friends_Sale_Ends_Tomorrow_SMS
+brand: ID
+channel: sms
+category: sale_promo
+type: sale
+theme: null
+braze_id: 3ca46345-b951-4bc3-83a0-ee9626cdce58
+dates:
+  send_date: '2025-04-21'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-21T21:26:45+00:00'
+  last_sent: '2025-04-21T21:29:14+00:00'
+tags: []
+sends:
+- id: 0dd9d52c-c978-4c56-b529-379657070781
+  channel: other
+  name: Variant 1
+- id: a525b919-8c43-495a-9b3e-bd91ff388a9e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 59339
+  total_delivered: 55858
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 35375.0
+schedule_type: time_based

@@ -1,0 +1,80 @@
+id: 9bd40460-8e8b-45ad-aded-f158e6a818f7
+name: P_EM_2025_10_21_CZ_D_PR_Laurel_Collection_Makers
+brand: CZ
+channel: email
+category: product_launch
+type: announcement
+theme: null
+braze_id: 9bd40460-8e8b-45ad-aded-f158e6a818f7
+dates:
+  send_date: '2025-10-21'
+  inferred_send_type: scheduled
+  first_sent: '2025-10-21T02:51:15+00:00'
+  last_sent: '2025-10-21T17:16:16+00:00'
+tags:
+- am
+- batch and blast
+- collect
+- d2c
+- designed
+- sale
+sends:
+- id: e389dc50-f09b-428a-bab1-6c824b7c61ce
+  channel: email
+  name: Variant 1
+  subject: 'Meet Laurel: Our Most Coveted Collection'
+  preheader: Furniture handcrafted to last, now 20% off.
+  html_file: html/p_em_2025_10_21_cz_d_pr_laurel_collection_makers.html
+  screenshot: screenshots/p_em_2025_10_21_cz_d_pr_laurel_collection_makers.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68f6b12d0f84280063b749c6/original.png?1760997677
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68f6b126ef00ce008308e595/original.png?1760997669
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68f6b14155aa3d00633469d9/original.png?1760997696
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68f6b134a66c8300733f1cdc/original.png?1760997684
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68f6b13a0f84280073b746f7/original.png?1760997689
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68f6b1081baa02006385f677/original.png?1760997640
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68f6b14c221abf0063506814/original.png?1760997708
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68f6b16955aa3d0063346b15/original.png?1760997737
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68f6b1880f84280063b74c8c/original.png?1760997768
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68f6b15155aa3d00833462fc/original.png?1760997713
+- id: 3cc5e283-558f-463e-826b-40a10b726f4a
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 111553
+  total_delivered: 111326
+  total_opens: 58321
+  total_clicks: 770
+  open_rate: 0.5228
+  click_rate: 0.0069
+  total_bounces: 5
+  total_unsubscribes: 166
+  ga4:
+    sessions: 787
+    purchases: 13
+    revenue: 3536.6
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.107197'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-anniversary-sale-2025-10-09
+    name: The Anniversary Sale
+    start_date: '2025-10-09'
+    end_date: '2025-10-22'
+    discount: 20% Off Sitewide
+    type: null
+  primary_sale:
+    id: cz-the-anniversary-sale-2025-10-09
+    name: The Anniversary Sale
+    start_date: '2025-10-09'
+    end_date: '2025-10-22'
+    discount: 20% Off Sitewide
+    type: null
+  sale_name: The Anniversary Sale
+  sale_discount: 20% Off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:39.104373'
+schedule_type: time_based

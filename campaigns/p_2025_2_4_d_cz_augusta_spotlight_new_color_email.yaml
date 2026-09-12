@@ -1,0 +1,57 @@
+id: 7b19a159-907c-49d3-9eb4-69635f5934a8
+name: P_2025_2_4_D_CZ_Augusta_Spotlight_New_Color_Email
+brand: CZ
+channel: email
+category: editorial
+type: product_launch
+theme: null
+braze_id: 7b19a159-907c-49d3-9eb4-69635f5934a8
+dates:
+  send_date: '2025-02-04'
+  inferred_send_type: local_time
+  first_sent: '2025-02-04T00:53:52+00:00'
+  last_sent: '2025-02-04T17:01:52+00:00'
+tags: []
+sends:
+- id: 27397f43-0df2-49ed-abf2-25e703709064
+  channel: email
+  name: Variant 1
+  subject: 'New In: Augusta Armchair in White Oak'
+  preheader: Expert craft meets loungeworthy design.
+  html_file: html/p_2025_2_4_d_cz_augusta_spotlight_new_color_email.html
+  screenshot: screenshots/p_2025_2_4_d_cz_augusta_spotlight_new_color_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67a1119451ba1f006778ce42/original.png?1738609044
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67a10d96f857c60067809856/original.png?1738608022
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67a10e5b51ba1f006778c36b/original.png?1738608219
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67a10c8815c4c30064e92928/original.png?1738607751
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67a111cfda38c10076f28008/original.png?1738609103
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67a10d4517b4d300664d5c1d/original.png?1738607941
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67a10dbc99a0f60076c7808e/original.png?1738608059
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67a163950fe98f0076e88a68/original.png?1738630037
+- id: 4f8fb4de-de87-45c3-a671-86c5ddcbdf11
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 96252
+  total_delivered: 95540
+  total_opens: 47781
+  total_clicks: 927
+  open_rate: 0.4964
+  click_rate: 0.0096
+  total_revenue: 57044.85
+  total_bounces: 5
+  total_unsubscribes: 140
+  ga4:
+    sessions: 1114
+    purchases: 3
+    revenue: 375.75
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.131132'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.423236'
+schedule_type: time_based

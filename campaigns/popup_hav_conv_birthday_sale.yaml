@@ -1,0 +1,23 @@
+id: 360f1db0-549b-40c4-8b56-e3db99e577a0
+name: Popup_HAV_CONV_Birthday_Sale
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 360f1db0-549b-40c4-8b56-e3db99e577a0
+dates:
+  first_sent: '2026-03-13T19:00:00+00:00'
+  last_sent: '2026-03-31T05:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: b687b02b-591a-4570-aebe-fc4c37e3880d
+  channel: other
+  name: Control Group
+- id: 18fa3cce-84e6-4a9c-b034-06624712197a
+  channel: other
+  name: Variant 1
+performance_summary: {}
+schedule_type: action_based
+_filename: popup_hav_conv_birthday_sale.yaml

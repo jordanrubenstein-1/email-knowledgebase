@@ -1,0 +1,32 @@
+id: a8247f31-c6dc-464d-afb3-e07c8dc8ab5e
+name: P_2024_12_1_PT_HAV_Conv_BFCM_Sale_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: black_friday
+braze_id: a8247f31-c6dc-464d-afb3-e07c8dc8ab5e
+dates:
+  send_date: '2024-12-01'
+  first_sent: '2024-12-01T21:34:14+00:00'
+  last_sent: '2024-12-01T21:34:30+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 976c0fe2-f727-4e99-aba2-aa7493ff5281
+  channel: email
+  name: Variant 1
+  subject: Your exclusive Cyber week offers & the best deals in home, guaranteed.
+- id: 2bd95c79-4ccf-4278-8867-2f97105b18e5
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 19124
+  total_delivered: 19111
+  total_opens: 12997
+  total_clicks: 581
+  open_rate: 0.6796
+  click_rate: 0.0304
+  total_unsubscribes: 54
+schedule_type: time_based
+_filename: p_2024_12_1_pt_hav_conv_bfcm_sale_reminder_email.yaml

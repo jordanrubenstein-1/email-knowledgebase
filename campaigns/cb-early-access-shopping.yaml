@@ -1,0 +1,58 @@
+id: klaviyo-MhXuzs
+name: CB Early Access shopping
+brand: TI
+channel: email
+category: other
+type: announcement
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2018-10-17'
+  inferred_send_type: scheduled
+  first_sent: '2018-10-18T01:00:00+00:00'
+  last_sent: '2018-10-18T01:00:00+00:00'
+sends:
+- id: QCvu4a
+  channel: email
+  name: CB Early Access shopping Variation A
+  subject: Your early access
+  preheader: ''
+  html_file: html/cb-early-access-shopping.html
+  image_urls: []
+  screenshot: screenshots/cb-early-access-shopping.png
+- id: HZbJht
+  channel: email
+  name: CB Early Access shopping Variation B
+  subject: Shop now
+  preheader: ''
+  html_file: html/cb-early-access-shopping.html
+  image_urls: []
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_unsubscribes: 0
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T14:56:53.040748'
+    source: snowflake
+    channel: email
+klaviyo_type: campaign
+klaviyo_campaign_id: MhXuzs
+klaviyo_message_id: QCvu4a
+structure:
+  image_count: 0
+  link_count: 8
+  has_gif: false
+  hero_width: null
+  layout_type: text_only
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-03-12T11:18:49.052550'

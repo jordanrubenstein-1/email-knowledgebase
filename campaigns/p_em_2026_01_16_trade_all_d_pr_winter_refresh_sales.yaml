@@ -1,0 +1,36 @@
+id: d7363dc5-e45d-4fc9-8d5b-4907301e5d36
+name: P_EM_2026_01_16_TRADE_ALL_D_PR_Winter_Refresh_Sales
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: winter
+braze_id: d7363dc5-e45d-4fc9-8d5b-4907301e5d36
+dates:
+  send_date: '2026-01-16'
+  inferred_send_type: local_time
+  first_sent: '2026-01-15T20:43:20+00:00'
+  last_sent: '2026-01-16T19:01:00+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: f4876579-2397-4309-82ad-aa155462ee89
+  channel: email
+  name: Variant 1
+  subject: 'Winter Mood: Refreshed'
+  preheader: Styles your clients love, now on sale.
+- id: 28a1b76d-d91f-4274-bb39-1c51eff6a80c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 19657
+  total_delivered: 19001
+  total_opens: 9246
+  total_clicks: 69
+  open_rate: 0.4704
+  click_rate: 0.0035
+  total_revenue: 19805.0
+  total_bounces: 5
+  total_unsubscribes: 42
+_filename: p_em_2026_01_16_trade_all_d_pr_winter_refresh_sales.yaml
+schedule_type: time_based

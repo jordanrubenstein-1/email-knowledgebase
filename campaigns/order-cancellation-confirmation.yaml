@@ -1,0 +1,45 @@
+id: f6220f5e-75e4-1664-0eca-691a71cf3a15
+name: Order Cancellation Confirmation
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: f6220f5e-75e4-1664-0eca-691a71cf3a15
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-01-08T19:00:00+00:00'
+  last_sent: '2025-12-21T02:00:00+00:00'
+tags: []
+sends:
+- id: 1bcb18c3-e036-4cad-bae2-3c07e52e6349
+  channel: email
+  name: Variant 1
+  subject: 'Your order has been cancelled - Order #{{api_trigger_properties.${order_number}}}'
+  html_file: html/order-cancellation-confirmation.html
+  screenshot: screenshots/order-cancellation-confirmation.png
+  image_urls:
+  - http://delivery5.klaviyomail.com/wf/open?upn=7wxTjaUDwiA-2Fko63lLgcG3Xm2SNgKmo2O1JTOrg55qtrOatd7qHLHoID05eVs-2FMh-2BB60Tk-2F2WVHolC9kmQJ4QEzW0g2Y7fcI7IVbhUBbYH-2FxG7s1nWScyrkv6fe4eKt24oJqgqezq-2FT-2BgV3x6xjrALhez9fGamj-2Bm0Ee2ntbA35P4HHFJpfeZsAFeFJHSn5UODP7h8cF-2Fnl00C33KeZ6qbzZhaFZ4cG22betKY1KJ9eRcJZYhOC4hO6B970v0m4egVL097VRczSYvIHEpvhYHc4kYvT7caGMXAD9wNJt-2B7WbAmgLgjTDXo5gPUoo36vu
+- id: e0e85481-bcf1-4929-98b5-78eda1a298f8
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 265
+  total_delivered: 264
+  total_opens: 253
+  total_clicks: 17
+  open_rate: 0.9547
+  click_rate: 0.0642
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.397943'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.447258'
+schedule_type: api_triggered

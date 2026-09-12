@@ -1,0 +1,61 @@
+id: f2c67ac9-af2d-491a-b6f1-4fa2a6756d9d
+name: P_EM_2025_08_16_SF_D_PR_New_Neutrals
+brand: STF
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: f2c67ac9-af2d-491a-b6f1-4fa2a6756d9d
+dates:
+  send_date: '2025-08-16'
+  inferred_send_type: local_time
+  first_sent: '2025-08-15T18:05:44+00:00'
+  last_sent: '2025-08-16T17:00:04+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- stl
+sends:
+- id: 3586edf0-468c-47d6-a172-ad9b0736938f
+  channel: email
+  name: Variant 1
+  subject: Neutral Never Looked So Good
+  preheader: prints that speak volumes without shouting
+  html_file: html/p_em_2025_08_16_sf_d_pr_new_neutrals.html
+  screenshot: screenshots/p_em_2025_08_16_sf_d_pr_new_neutrals.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689e58ffdc6d630077960d0d/original.png?1755207934
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689e5908c3030100742c1e19/original.png?1755207944
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689e58ecdc6d630077960cd8/original.png?1755207916
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689e58e2edbeaa0064acbede/original.png?1755207906
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689e58d218c7cb0075be0d5b/original.png?1755207889
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689e58c1db3b4e00658b7842/original.gif?1755207873
+- id: 4044bfcc-2cc1-4945-8d0b-530a3446fdfd
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41647
+  total_delivered: 41185
+  total_opens: 19129
+  total_clicks: 244
+  open_rate: 0.4593
+  click_rate: 0.0059
+  total_revenue: 4048.0
+  total_bounces: 4
+  total_unsubscribes: 90
+  ga4:
+    sessions: 255
+    purchases: 3
+    revenue: 922.57
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.658403'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.356442'
+schedule_type: time_based

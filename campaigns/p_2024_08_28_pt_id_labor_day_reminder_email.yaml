@@ -1,0 +1,44 @@
+id: 26b00c47-bd1d-4d98-9f6c-b7355a66c2ba
+name: P_2024_08_28_PT_ID_Labor_Day_Reminder_Email
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 26b00c47-bd1d-4d98-9f6c-b7355a66c2ba
+dates:
+  send_date: '2024-08-28'
+  inferred_send_type: scheduled
+  first_sent: '2024-08-27T23:49:41+00:00'
+  last_sent: '2024-08-28T14:05:02+00:00'
+tags: []
+sends:
+- id: 0177c10a-35c4-430a-8ccf-4c43662b9289
+  channel: email
+  name: Variant 1
+  subject: 'RE: Your 25% off discount'
+- id: e3a77c7c-899d-4251-9561-d13c30fa16f3
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 35101
+  total_delivered: 34664
+  total_opens: 11018
+  total_clicks: 419
+  open_rate: 0.3139
+  click_rate: 0.0119
+  total_bounces: 2
+  total_unsubscribes: 57
+  ga4:
+    sessions: 630
+    purchases: 5
+    revenue: 10566.42
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.018992'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.811715'
+schedule_type: time_based

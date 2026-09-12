@@ -1,0 +1,31 @@
+id: cdfb0dda-2b1f-466e-99a4-6719b3d2926e
+name: P_PUSH_2026_05_23_HAV_CONV_Memorial_Day_Sale
+brand: HAV
+channel: push
+category: sale_promo
+type: sale
+theme: null
+braze_id: cdfb0dda-2b1f-466e-99a4-6719b3d2926e
+dates:
+  send_date: '2026-05-23'
+  first_sent: '2026-05-23T21:00:07+00:00'
+  last_sent: '2026-05-23T21:00:50+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 4dce777b-0345-4857-8c48-d84cbeb9b55b
+  channel: push
+  name: Variant 1
+- id: 37185d15-e19b-4b73-85a5-a5e25e5a912f
+  channel: push
+  name: Control Group
+performance_summary:
+  total_sends: 47329
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_bounces: 13
+schedule_type: time_based
+_filename: p_push_2026_05_23_hav_conv_memorial_day_sale.yaml

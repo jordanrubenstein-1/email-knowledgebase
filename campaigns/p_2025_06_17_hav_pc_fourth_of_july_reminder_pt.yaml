@@ -1,0 +1,35 @@
+id: 836c4396-b57c-40d1-96a6-52f39d0fd470
+name: P_2025_06_17_HAV_PC_Fourth_of_July_Reminder_PT
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 836c4396-b57c-40d1-96a6-52f39d0fd470
+dates:
+  send_date: '2025-06-17'
+  first_sent: '2025-06-16T19:28:41+00:00'
+  last_sent: '2025-06-17T18:15:08+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 63e69059-67fb-45c2-8de6-e18a9ecc4205
+  channel: email
+  name: Variant 1
+  subject: Summer savings are here (just in time)
+  preheader: 50% off interior design services
+- id: 88959bb6-b70f-453a-97f4-bf0a1d93ee59
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 222029
+  total_delivered: 218843
+  total_opens: 95265
+  total_clicks: 341
+  open_rate: 0.4291
+  click_rate: 0.0015
+  total_bounces: 23
+  total_unsubscribes: 439
+schedule_type: time_based
+_filename: p_2025_06_17_hav_pc_fourth_of_july_reminder_pt.yaml

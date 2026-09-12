@@ -1,0 +1,81 @@
+id: klaviyo-01JCDYHR2BVCNQMDE300JHZK58
+name: '11/12: BFCM EA Launch AM'
+brand: TI
+channel: email
+category: product_launch
+type: product_launch
+theme: black_friday
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2024-11-11'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-12T07:00:00+00:00'
+  last_sent: '2024-11-12T07:00:00+00:00'
+sends:
+- id: 01JCDYHR340KSD266VFVT3YXKX
+  channel: email
+  name: '11/12: BFCM EA Launch AM'
+  subject: 'VIP EARLY ACCESS: 25% Off Starts Now!'
+  preheader: Jump to the front of the line.
+  html_file: html/1112-bfcm-ea-launch-am.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/0d26cdb2-4426-4b15-bea7-574c8b50568f.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/cd0c612c-4381-48c9-a773-889e94b3ec5c.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/ec10a316-ddf0-4b76-b58e-c9f74975b75e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/f5cc0d2a-e5b2-401f-931c-64efc1caed40.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/7080709e-56b4-44c6-a552-6b37bbf2d01d.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/454784a9-2394-42e3-ba18-e22c55a56283.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/eb048962-6d40-41f5-a633-9fe0ec481682.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/48f8b0bf-f674-4de6-83a6-f00ae0bfb57e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/22cac975-338f-44df-b11d-823673e354e8.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/47eb794c-7315-44b6-a482-e695c6089257.jpeg
+  screenshot: screenshots/1112-bfcm-ea-launch-am.png
+performance_summary:
+  total_sends: 103722
+  total_delivered: 103173
+  total_opens: 35999
+  total_clicks: 723
+  unique_opens: 24744
+  unique_clicks: 272
+  open_rate: 0.2386
+  click_rate: 0.0026
+  total_open_rate: 0.3471
+  total_click_rate: 0.007
+  total_unsubscribes: 47
+  total_bounces: 549
+klaviyo_type: campaign
+klaviyo_campaign_id: 01JCDYHR2BVCNQMDE300JHZK58
+klaviyo_message_id: 01JCDYHR340KSD266VFVT3YXKX
+structure:
+  image_count: 22
+  link_count: 23
+  has_gif: false
+  hero_width: 600
+  layout_type: product_grid
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: ti-25-off-code-vipbf24-2024-11-12
+    name: 25% off (code VIPBF24)
+    start_date: '2024-11-12'
+    end_date: '2024-11-14'
+    discount: null
+    type: null
+  - id: ti-vip-early-access-2024-11-12
+    name: VIP Early Access
+    start_date: '2024-11-12'
+    end_date: '2024-11-14'
+    discount: null
+    type: null
+  primary_sale:
+    id: ti-25-off-code-vipbf24-2024-11-12
+    name: 25% off (code VIPBF24)
+    start_date: '2024-11-12'
+    end_date: '2024-11-14'
+    discount: null
+    type: null
+  sale_name: 25% off (code VIPBF24)
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-03-12T11:18:46.591730'

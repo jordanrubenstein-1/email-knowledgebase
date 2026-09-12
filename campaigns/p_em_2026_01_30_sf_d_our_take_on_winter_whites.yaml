@@ -1,0 +1,52 @@
+id: aa0bc6da-f864-4f0c-af03-c735b28e9f4c
+name: P_EM_2026_01_30_SF_D_Our_Take_on_Winter_Whites
+brand: STF
+channel: email
+category: other
+type: seasonal
+theme: winter
+braze_id: aa0bc6da-f864-4f0c-af03-c735b28e9f4c
+dates:
+  send_date: '2026-01-30'
+  inferred_send_type: local_time
+  first_sent: '2026-01-30T03:05:24+00:00'
+  last_sent: '2026-01-31T03:00:24+00:00'
+tags:
+- Batch and Blast
+- d2c
+- designed
+sends:
+- id: 67500d29-a483-4021-b1ea-51dc11dea31b
+  channel: email
+  name: Variant 1
+  subject: Our take on winter whites
+  preheader: go bold this winter
+  html_file: html/p_em_2026_01_30_sf_d_our_take_on_winter_whites.html
+  screenshot: screenshots/p_em_2026_01_30_sf_d_our_take_on_winter_whites.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697b75cb1984ad00631a71a2/original.png?1769698762
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697b7634e091420063f71021/original.png?1769698867
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697b7622911a8600636e8ea9/original.png?1769698849
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697b760dbe959a00644f5024/original.png?1769698828
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697b7618de4c940063721060/original.png?1769698840
+- id: 1995625b-dea5-49c9-8b31-2d99a810659c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39385
+  total_delivered: 38876
+  total_opens: 13375
+  total_clicks: 116
+  open_rate: 0.3396
+  click_rate: 0.0029
+  total_bounces: 2
+  total_unsubscribes: 37
+  ga4:
+    sessions: 126
+    purchases: 1
+    revenue: 530.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.841477'
+    source: snowflake
+    channel: email
+schedule_type: time_based

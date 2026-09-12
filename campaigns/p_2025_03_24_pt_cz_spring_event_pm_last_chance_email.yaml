@@ -1,0 +1,36 @@
+id: 5b054e42-c57a-4466-9775-07b903c86d5e
+name: P_2025_03_24_PT_CZ_Spring_Event_PM_Last_Chance_Email
+brand: CZ
+channel: email
+category: reminder
+type: seasonal
+theme: spring
+braze_id: 5b054e42-c57a-4466-9775-07b903c86d5e
+dates:
+  send_date: '2025-03-24'
+  inferred_send_type: scheduled
+  first_sent: '2025-03-24T22:38:13+00:00'
+  last_sent: '2025-03-24T23:04:04+00:00'
+tags: []
+sends:
+- id: 003405a4-5a52-4db7-a9e1-51fc8e4f128c
+  channel: email
+  name: Variant 1
+  subject: Hours left to save during The Spring Event...
+  html_file: html/p_2025_03_24_pt_cz_spring_event_pm_last_chance_email.html
+  screenshot: screenshots/p_2025_03_24_pt_cz_spring_event_pm_last_chance_email.png
+- id: 9929ae2c-a2ef-469d-8f1b-c06e316c2aef
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 24188
+  total_delivered: 24159
+  total_opens: 16571
+  total_clicks: 597
+  open_rate: 0.6851
+  click_rate: 0.0247
+  total_revenue: 61162.55
+  total_bounces: 2
+  total_unsubscribes: 62
+_filename: p_2025_03_24_pt_cz_spring_event_pm_last_chance_email.yaml
+schedule_type: time_based

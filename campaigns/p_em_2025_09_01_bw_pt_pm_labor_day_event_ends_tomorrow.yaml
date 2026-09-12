@@ -1,0 +1,40 @@
+id: 706f7787-782c-404d-a53b-cf0c110cf00b
+name: P_EM_2025_09_01_BW_PT_PM_Labor_Day_Event_Ends_Tomorrow
+brand: BUR
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 706f7787-782c-404d-a53b-cf0c110cf00b
+dates:
+  send_date: '2025-09-01'
+  inferred_send_type: local_time
+  first_sent: '2025-09-01T03:09:54+00:00'
+  last_sent: '2025-09-02T02:01:55+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 42a70763-f617-4d0e-b551-67e6f1a0082e
+  channel: email
+  name: Variant 1
+  subject: This is it...
+  preheader: Our Labor Day Event ends tomorrow.
+- id: 1243fd26-8488-4977-9c7c-19a45f64c96d
+  channel: email
+  name: Control Group
+- id: c7777396-75ff-491a-8a4b-3c3358e35eaf
+  channel: email
+  name: Variant 2
+  subject: This is it...
+  preheader: Our Labor Day Event ends tomorrow.
+performance_summary:
+  total_sends: 100603
+  total_delivered: 100342
+  total_opens: 48796
+  total_clicks: 505
+  open_rate: 0.485
+  click_rate: 0.005
+  total_revenue: 77231.6
+  total_unsubscribes: 201
+_filename: p_em_2025_09_01_bw_pt_pm_labor_day_event_ends_tomorrow.yaml
+schedule_type: time_based

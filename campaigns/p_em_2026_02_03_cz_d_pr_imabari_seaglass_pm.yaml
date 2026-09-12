@@ -1,0 +1,48 @@
+id: d7ab0a49-8b5e-4808-88af-a6a73fc77f90
+name: P_EM_2026_02_03_CZ_D_PR_Imabari_Seaglass_PM
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: d7ab0a49-8b5e-4808-88af-a6a73fc77f90
+dates:
+  send_date: '2026-02-03'
+  inferred_send_type: scheduled
+  first_sent: '2026-02-03T17:12:27+00:00'
+  last_sent: '2026-02-04T01:03:38+00:00'
+tags:
+- batch and blast
+- bath
+- d2c
+- designed
+- pm
+- prod
+sends:
+- id: d219bd02-fba1-4687-b503-f1c61823a22c
+  channel: email
+  name: Variant 1
+  subject: A New Imabari Hue
+  preheader: Just launched, our bestselling towels in Seaglass.
+  html_file: html/p_em_2026_02_03_cz_d_pr_imabari_seaglass_pm.html
+  screenshot: screenshots/p_em_2026_02_03_cz_d_pr_imabari_seaglass_pm.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698102064cbc480063fdf923/original.png?1770062342
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6981033afd949c00643986e3/original.png?1770062650
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698103308790030064156826/original.png?1770062639
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698101c4225ea30065cf610e/original.png?1770062276
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69810282c44e020063c8584a/original.png?1770062465
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698101cd597bf800635d430e/original.gif?1770062285
+- id: e56ead3e-9654-4712-bcac-1385f347d567
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 112290
+  total_delivered: 111982
+  total_opens: 57076
+  total_clicks: 870
+  open_rate: 0.5083
+  click_rate: 0.0077
+  total_bounces: 5
+  total_unsubscribes: 142
+schedule_type: time_based

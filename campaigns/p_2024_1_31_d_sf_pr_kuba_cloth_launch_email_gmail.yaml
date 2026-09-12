@@ -1,0 +1,50 @@
+id: bb5431c5-d56d-4559-8ad5-58cee7218c78
+name: P_2024_1_31_D_SF_PR_Kuba_Cloth_Launch_Email_Gmail
+brand: STF
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: bb5431c5-d56d-4559-8ad5-58cee7218c78
+dates:
+  send_date: '2024-01-31'
+  inferred_send_type: local_time
+  first_sent: '2025-01-30T22:38:14+00:00'
+  last_sent: '2025-01-31T15:30:06+00:00'
+tags: []
+sends:
+- id: a7699944-115e-43be-8149-a8847d56d197
+  channel: email
+  name: Variant 1
+  subject: NEW PRINTS ARE HERE
+  preheader: get to know our fresh drop of kuba cloth patterns
+  html_file: html/p_2024_1_31_d_sf_pr_kuba_cloth_launch_email_gmail.html
+  screenshot: screenshots/p_2024_1_31_d_sf_pr_kuba_cloth_launch_email_gmail.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bd90569189d0064b92edb/original.gif?1738266885
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bd72093ab1200656e8418/original.gif?1738266400
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bd75e1531b60064ac10c9/original.gif?1738266462
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bd9e418ec4b00639f07d3/original.jpg?1738267107
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bd70701c02100656a5fd7/original.gif?1738266375
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bd9990427170064d967dd/original.gif?1738267033
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bd817af64c30064d25e9b/original.gif?1738266647
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bd9d0ca1b0c00663bfea2/original.jpg?1738267088
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bd97269189d0064b9300c/original.gif?1738266994
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bd87d1531b60064ac1386/original.gif?1738266749
+- id: c911eacb-f023-45fe-ad3e-115c4b8ebd56
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 72
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.849913'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.188701'
+schedule_type: time_based

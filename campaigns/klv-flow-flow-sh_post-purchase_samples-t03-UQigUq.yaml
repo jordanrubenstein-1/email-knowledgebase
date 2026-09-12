@@ -1,0 +1,51 @@
+id: klaviyo-UQigUq
+name: sh_pp-samples_email-03
+brand: TE
+channel: email
+category: other
+type: announcement
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: TWNPSL
+canvas_name: flow-sh_post-purchase_samples
+flow_type: post_purchase
+sequence_position: 3
+dates:
+  created: '2023-06-28'
+  inferred_send_type: sto
+  first_sent: '2023-06-28'
+  last_sent: '2024-06-18'
+sends:
+- id: UQigUq
+  channel: email
+  name: Message
+  subject: Still have questions?
+  preheader: Everything you need to know about buying fabric and wallpaper.
+  html_file: html/klv-flow-flow-sh_post-purchase_samples-t03-UQigUq.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/dac146b7-7dfc-4851-8cf1-d7978d5e7110.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/4d00d15d-e960-4d98-837e-9b6951fc0e4d.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/cf1dabbf-8483-4a59-a14d-b8ee24ad750f.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/02db19ae-9be6-483f-9206-b7f40af8048c.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/03798e82-7136-4b31-8695-8ee2b6e9c424.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: UQigUq
+structure:
+  image_count: 6
+  link_count: 12
+  has_gif: false
+  hero_width: 100
+  layout_type: product_grid

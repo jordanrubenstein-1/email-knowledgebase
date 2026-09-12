@@ -1,0 +1,182 @@
+# Sale Promotion Playbook
+# Best practices derived from 3,221 campaigns across 6 brands
+
+name: "Multi-Day Sale Campaign"
+description: "Pattern for running 3-7 day promotional sales with email marketing"
+
+timing:
+  best_days:
+    - day: Friday
+      open_rate: "46.8%"
+      click_rate: "1.72%"
+      note: "Best overall day"
+    - day: Sunday
+      open_rate: "45.2%"
+      note: "Strong weekend browsing"
+
+  best_times:
+    - time: "9 PM ET"
+      open_rate: "54.7%"
+      note: "7pts above noon default"
+    - time: "8 AM ET"
+      click_rate: "2.13%"
+      note: "Highest click rate"
+
+  avoid:
+    - time: "2-5 PM ET"
+      reason: "End-of-workday slump"
+    - time: "7-8 PM ET"
+      reason: "Dinner time - worst hour"
+
+brand_playbooks:
+  HAV:
+    send_time: "9 PM ET Friday"
+    subject:
+      use: ["you/your", "longer subjects (70+ chars)"]
+    creative:
+      best_layout: "editorial (7.29% click rate)"
+      worst_layout: "hero_categories (0.11% click rate)"
+      style: "Designer tips, educational content"
+      example: "14 Designer Tips for Making a Builder-Grade Home Look Expensive"
+      hero_style: "lifestyle_photo"
+      tone: "aspirational but informative"
+    notes: "Editorial content correlates with higher engagement. Evening sends perform well."
+    hypothesis: "HAV audience values expertise and inspiration over direct product pitches."
+
+  CZ:
+    send_time: "12 PM ET Sunday"
+    subject:
+      use: ["you/your (+6.8pts)", "exclamation marks (+5pts)", "emojis (+4.3pts)"]
+      avoid: ["urgency words"]
+    creative:
+      best_layout: "hero_categories (5.53% click rate)"
+      worst_layout: "hero_only (2.48% click rate)"
+      style: "Product focus with category options"
+      hero_style: "product_photo"
+      tone: "informational"
+    notes: "Personalization is strongest lever. Show category options, not single hero."
+
+  BUR:
+    send_time: "8 AM ET Monday"
+    subject:
+      use: ["emojis (+6pts)"]
+      avoid: ["exclamation marks (-3.4pts)", "urgency words"]
+    creative:
+      best_layout: "text_only (3.20% click rate)"
+      worst_layout: "hero_products (0.11% click rate)"
+      style: "Personal letter from brand"
+      hero_style: "none"
+      tone: "personal"
+    notes: "Text-only letter style performs well - possibly due to novelty/differentiation. Test visual emails sparingly."
+    hypothesis: "BUR audience responds to personal, intimate communication that stands out from typical retail emails."
+
+  STF:
+    send_time: "12 PM ET Friday"
+    subject:
+      use: ["emojis (+6.4pts)", "keep short"]
+      avoid: ["urgency words (-7.7pts!)"]
+    creative:
+      best_layout: "hero_products (4.79% click rate)"
+      worst_layout: "editorial (0.30% click rate)"
+      style: "Specific products by attribute (color, style)"
+      example: "Ombré Lumbars: Blush, Fig, Ochre, Teal"
+      hero_style: "product_photo or illustration"
+      tone: "promotional"
+      avoid: "storytelling, editorial content"
+    notes: "Wants specific products to shop, not stories. Show hero + product grid."
+
+  ID:
+    send_time: "12 PM ET Monday"
+    subject:
+      use: ["questions", "curiosity-driven"]
+      avoid: ["emojis (-7.2pts)", "urgency words (-3.9pts)"]
+    creative:
+      best_layout: "hero_categories (10.42% click rate)"
+      worst_layout: "hero_only (1.16% click rate)"
+      style: "Lifestyle hero + category navigation"
+      example: "Living room scene + Shop sectionals, Shop rugs links"
+      hero_style: "lifestyle_photo"
+      tone: "promotional or aspirational"
+    notes: "Category navigation correlates with higher clicks. Hero-only may work for specific contexts."
+    hypothesis: "ID audience browses categories; clear navigation helps them find what they want."
+
+five_day_sale:
+  day_1:
+    purpose: "Announcement"
+    timing: "9 PM ET"
+    subject: "{Event} Sale: {Discount} Off Everything"
+    creative: "Hero with offer, clear CTA"
+
+  day_2:
+    purpose: "Category spotlight"
+    timing: "12 PM ET"
+    subject: "Shop {Category}: Now {Discount} Off"
+    creative: "Product grid or category showcase"
+
+  day_3:
+    purpose: "Midpoint reminder"
+    timing: "9 PM ET"
+    subject: "{Discount} Off Ends This Week"
+    creative: "Best sellers or curated picks"
+    note: "Avoid urgency language"
+
+  day_4:
+    purpose: "Inspiration"
+    timing: "12 PM ET"
+    subject: "Designer Picks: Our Favorites on Sale"
+    creative: "Editorial or lifestyle content"
+
+  day_5:
+    purpose: "Final day"
+    timing: "8 AM ET"
+    subject: "Final Day: {Discount} Off Everything"
+    creative: "Hero only, single CTA"
+    note: "Fewer links = more clicks"
+
+structure_rules:
+  images: "1-2 optimal (1.85% click vs 0.84% for 6-10)"
+  links: "1-5 optimal (1.52% click vs 0.97% for 6-10)"
+  gifs: "Static images correlate with 15% higher clicks overall (exception: STF where GIF works)"
+  layout: "hero_only (1.87%) beats product_grid (0.98%)"
+
+# Vision analysis insights (125 sample campaigns)
+creative_insights:
+  content_type_ranking:
+    - "content/editorial: 8.56% click - 3x better than sale emails"
+    - "product_launch: 5.10% click"
+    - "product_showcase: 3.54% click"
+    - "sale_announcement: 2.97% click"
+    - "sale_reminder: 2.53% click"
+    - "event: 0.76% click - AVOID"
+
+  hero_style_ranking:
+    - "product_photo: 4.10% click - best performer"
+    - "none (text_only): 3.84% click - works for BUR"
+    - "text_overlay: 3.77% click"
+    - "lifestyle_photo: 2.35% click - overused, underperforms"
+
+  tone_ranking:
+    - "informational: 5.74% click - facts beat hype"
+    - "personal: 3.63% click"
+    - "promotional: 3.55% click"
+    - "aspirational: 2.28% click - most common, lowest performing"
+
+  key_findings:
+    - "Educational content correlates with 3x higher clicks - possibly due to differentiation"
+    - "Product photos outperform lifestyle in sample - may be context-dependent"
+    - "Informational tone outperforms aspirational - aspirational may be overused"
+    - "Event emails underperform (0.76%) - audience may have low event interest"
+    - "Text-only performs well for BUR - novelty/personal tone may be the driver"
+
+  methodology_note: |
+    These are correlations from historical data. Winning patterns may work because
+    they're uncommon. Test before scaling, and expect diminishing returns if widely adopted.
+
+tentpole_warnings:
+  black_friday: "-3.9% vs regular - reduce volume"
+  july_4th: "-6.9% vs regular - weakest tentpole"
+  christmas: "December clicks 3x June - lean in"
+
+seasonality:
+  best: ["February (48.7% opens)", "December (2.36% clicks)"]
+  worst: ["May (39.8% opens)", "June (0.54% clicks)"]

@@ -1,0 +1,33 @@
+id: ecba9665-8ad7-4df1-a146-f08bca8cba16
+name: P_2024_09_30_HAV_CONV_PM_Sale_Last_Chance_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: ecba9665-8ad7-4df1-a146-f08bca8cba16
+dates:
+  send_date: '2024-09-30'
+  first_sent: '2024-09-30T20:42:27+00:00'
+  last_sent: '2024-10-01T02:45:03+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 8bdf9eaf-802f-45a6-952b-5d9430c70a55
+  channel: email
+  name: Variant 1
+  subject: SALE ENDS NOW
+  preheader: Last chance to shop the September Sale.
+- id: 5a1c0ba0-6187-4d58-91d9-049626e5bc11
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 10368
+  total_delivered: 10361
+  total_opens: 6487
+  total_clicks: 125
+  open_rate: 0.6257
+  click_rate: 0.0121
+  total_unsubscribes: 21
+schedule_type: time_based
+_filename: p_2024_09_30_hav_conv_pm_sale_last_chance_email.yaml

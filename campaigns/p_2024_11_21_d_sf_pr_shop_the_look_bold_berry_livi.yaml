@@ -1,0 +1,74 @@
+id: b1142d71-6ac9-4aee-9a78-20dc8cc8ed51
+name: P_2024_11_21_D_SF_PR_Shop_The_Look_Bold_Berry_Living_Room_Email
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: b1142d71-6ac9-4aee-9a78-20dc8cc8ed51
+dates:
+  send_date: '2024-11-21'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-21T00:00:35+00:00'
+  last_sent: '2024-11-21T15:00:20+00:00'
+tags: []
+sends:
+- id: 39d1813b-d62f-4958-b98b-8fc50ecc5ab0
+  channel: email
+  name: Variant 1
+  subject: 'Get the look: berry living room'
+  preheader: shop the hue of the season at up to 35% off
+  html_file: html/p_2024_11_21_d_sf_pr_shop_the_look_bold_berry_living_room_em.html
+  screenshot: screenshots/p_2024_11_21_d_sf_pr_shop_the_look_bold_berry_living_room_em.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673cc8c70bee5b0064f70ffc/original.gif?1732036807
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673cc20da774c30064dfee54/original.gif?1732035085
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673cc2270c4bd70066ba161f/original.gif?1732035111
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673cc23a7d86bf0066f9cbf3/original.gif?1732035130
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673cc2553f253c0064279934/original.gif?1732035157
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673cc2190c4bd70066ba1618/original.gif?1732035097
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673cc965b0db470064189970/original.gif?1732036964
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673cc266da00900066830f9d/original.gif?1732035174
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673cc9a2c6576b00836ee363/original.gif?1732037026
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+- id: e84b80ec-8e75-4a52-ac02-afa70e59d290
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 3756
+  total_delivered: 3724
+  total_opens: 1811
+  total_clicks: 58
+  open_rate: 0.4822
+  click_rate: 0.0154
+  total_revenue: 3324.75
+  total_unsubscribes: 1
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.966640'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: stf-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:39.939173'
+schedule_type: time_based

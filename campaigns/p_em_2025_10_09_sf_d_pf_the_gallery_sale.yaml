@@ -1,0 +1,76 @@
+id: 2b7d1ada-7adb-4260-b205-29c1b8c60e91
+name: P_EM_2025_10_09_SF_D_PF_The_Gallery_Sale
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 2b7d1ada-7adb-4260-b205-29c1b8c60e91
+dates:
+  send_date: '2025-10-09'
+  inferred_send_type: local_time
+  first_sent: '2025-10-08T23:46:26+00:00'
+  last_sent: '2025-10-09T17:00:34+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: ae438345-dbb4-41cb-9063-345f37195fed
+  channel: email
+  name: Variant 1
+  subject: 'DON’T MISS OUT: 25% Off'
+  preheader: you're invited to The Gallery Sale
+  html_file: html/p_em_2025_10_09_sf_d_pf_the_gallery_sale.html
+  screenshot: screenshots/p_em_2025_10_09_sf_d_pf_the_gallery_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e6e45116988a00835183b2/original.png?1759962193
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e6e18191a102006389b8f4/original.gif?1759961473
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e6e4571039360063054347/original.png?1759962199
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e6e41084ef6300739f7c23/original.png?1759962128
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e6e1953c67820063797f46/original.png?1759961493
+- id: 80681acc-0776-4ced-836b-2a232c30f44b
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39572
+  total_delivered: 39265
+  total_opens: 17606
+  total_clicks: 228
+  open_rate: 0.4449
+  click_rate: 0.0058
+  total_bounces: 2
+  total_unsubscribes: 44
+  ga4:
+    sessions: 268
+    purchases: 4
+    revenue: 3271.8
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.840436'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-the-gallery-sale-2025-10-09
+    name: The Gallery Sale
+    start_date: '2025-10-09'
+    end_date: '2025-10-21'
+    discount: 25% off Art + Wallpaper + Curtains
+    type: null
+  primary_sale:
+    id: stf-the-gallery-sale-2025-10-09
+    name: The Gallery Sale
+    start_date: '2025-10-09'
+    end_date: '2025-10-21'
+    discount: 25% off Art + Wallpaper + Curtains
+    type: null
+  sale_name: The Gallery Sale
+  sale_discount: 25% off Art + Wallpaper + Curtains
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:35.642819'
+schedule_type: time_based

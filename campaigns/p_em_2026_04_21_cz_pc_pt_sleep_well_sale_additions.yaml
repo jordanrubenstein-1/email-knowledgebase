@@ -1,0 +1,44 @@
+id: c191afca-35dc-4f78-baf1-9045e21561e2
+name: P_EM_2026_04_21_CZ_PC_PT_Sleep_Well_Sale_Additions
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: c191afca-35dc-4f78-baf1-9045e21561e2
+dates:
+  send_date: '2026-04-21'
+  inferred_send_type: scheduled
+  first_sent: '2026-04-21T18:50:32+00:00'
+  last_sent: '2026-04-21T20:00:00+00:00'
+tags:
+- batch and blast
+- pm
+- pt
+- sale
+- sale/presidentsday2026
+- sale_feat
+sends:
+- id: 70549015-fdd3-45db-8f61-8e0e0837a1ed
+  channel: email
+  name: Variant 1
+  subject: The Sleep Well Sale just got bigger
+  preheader: Enjoy 20% off your dream bedroom.
+  html_file: html/p_em_2026_04_21_cz_pc_pt_sleep_well_sale_additions.html
+  screenshot: screenshots/p_em_2026_04_21_cz_pc_pt_sleep_well_sale_additions.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f83def4631c700674e669c/original.png?1744322031
+- id: 05673b64-8943-4292-b8fe-38450712da8d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 112157
+  total_delivered: 111408
+  total_opens: 56683
+  total_clicks: 674
+  open_rate: 0.5054
+  click_rate: 0.006
+  total_bounces: 7
+  total_unsubscribes: 120
+_filename: p_em_2026_04_21_cz_pc_pt_sleep_well_sale_additions.yaml
+schedule_type: time_based

@@ -1,0 +1,33 @@
+id: eedbcb63-8fe5-48e2-9f97-6fba97677a9a
+name: TRG_EM_2026_04_ID_PT_Swatch_Chat_T5_V1
+brand: ID
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 9ac09497-6f79-498b-b320-e44a784c3340
+canvas_name: Swatch Post Purchase
+flow_type: post_purchase
+sequence_position: 5
+subject: Just ask. A designer is ready to chat right now.
+preheader: Don't guess. Just ask us.
+sends:
+- id: eedbcb63-8fe5-48e2-9f97-6fba97677a9a
+  channel: email
+  name: TRG_EM_2026_04_ID_PT_Swatch_Chat_T5_V1
+  subject: Just ask. A designer is ready to chat right now.
+  preheader: Don't guess. Just ask us.
+  html_file: html/canvas-swatch-post-purchase-t5-eedbcb63.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-04-28T21:00:00Z'
+  last_sent: '2026-09-07T13:00:00Z'
+performance_summary:
+  total_sends: 26217
+  total_delivered: 25972
+  total_opens: 10972
+  total_clicks: 130
+  open_rate: 0.4185
+  click_rate: 0.005
+  total_unsubscribes: 179
+  total_revenue: 601272.36

@@ -1,0 +1,60 @@
+id: 928b8f22-16be-444d-88bb-a9160bbbc4d9
+name: P_2025_05_16_CZ_MDW_Categories_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 928b8f22-16be-444d-88bb-a9160bbbc4d9
+dates:
+  send_date: '2025-05-16'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-16T08:14:28+00:00'
+  last_sent: '2025-05-16T17:01:44+00:00'
+tags: []
+sends:
+- id: 5793d024-d75a-4707-a2c9-35014ef0f756
+  channel: email
+  name: Variant 1
+  subject: Furniture You'll Love
+  preheader: Walnut. Maple. Rattan. Take 20% off handcrafted furniture this Memorial
+    Day.
+  html_file: html/p_2025_05_16_cz_mdw_categories_email.html
+  screenshot: screenshots/p_2025_05_16_cz_mdw_categories_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682641a3c47da20067efb650/original.png?1747337635
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6826419288b2e000648c347c/original.png?1747337618
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6825051d3978950064497292/original.png?1747256605
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682640957cdd820064f70d03/original.png?1747337364
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682643d0c47da20067efc5a7/original.png?1747338191
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6825051173e6540066fdea3c/original.png?1747256592
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682504341c57270084958b20/original.png?1747256372
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6826409bbcc71c006573bb92/original.png?1747337371
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682504447d6ee7006773b877/original.png?1747256388
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682504ce73e6540066fde81c/original.png?1747256525
+- id: 74e4dcad-209b-429a-b7d4-3f68e534a94e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 94853
+  total_delivered: 94393
+  total_opens: 48919
+  total_clicks: 703
+  open_rate: 0.5157
+  click_rate: 0.0074
+  total_revenue: 84962.11
+  total_bounces: 2
+  total_unsubscribes: 100
+  ga4:
+    sessions: 940
+    purchases: 8
+    revenue: 2248.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.364926'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.094223'
+schedule_type: time_based

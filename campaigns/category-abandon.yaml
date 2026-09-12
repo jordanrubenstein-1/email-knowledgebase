@@ -1,0 +1,64 @@
+id: 86f47b0c-8280-452e-9949-51ffb965d694
+name: Category Abandon
+brand: ID
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: 86f47b0c-8280-452e-9949-51ffb965d694
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-05-17T03:00:00+00:00'
+  last_sent: '2026-06-14T16:00:00+00:00'
+tags:
+- category-abandon
+sends:
+- id: b3f419a6-64e8-49b8-859d-6743d616e7ad
+  channel: email
+  name: TRG_EM_2026_05_ID_D_Category_Page_Abandon_T2_V1
+  subject: Your options, narrowed down
+  preheader: Shop the categories that fit your space, then make it yours.
+  step_id: 092157ab-e1a7-4112-9372-7bb5c9f138d4
+- id: 7eb1c43d-1443-4f81-a1eb-0e412368a40a
+  channel: email
+  name: TRG_EM_2026_05_ID_D_Category_Page_Abandon_T1_V1
+  subject: Find your perfect piece — we'll help
+  preheader: From fabric to finish, every piece is built exactly the way you want
+    it.
+  step_id: af377788-fae7-430c-a9c1-a2e01554c040
+performance_summary:
+  total_entries: 1525
+  total_sends: 359
+  total_delivered: 358
+  total_opens: 227
+  total_clicks: 6
+  open_rate: 0.6323
+  click_rate: 0.0167
+  total_revenue: 85899.99
+  total_conversions: 26
+canvas_steps:
+- id: ae06d203-41a8-43a8-831d-41108b3c13cc
+  name: Step 1
+  type: delay
+- id: 5fe75ac9-f963-4dbb-b24f-ebdd96cd0224
+  name: Email available?
+  type: audience_paths
+- id: 98047bad-e729-414c-bc71-268e036be714
+  name: Step
+  type: delay
+- id: 092157ab-e1a7-4112-9372-7bb5c9f138d4
+  name: TRG_EM_2026_05_ID_D_Category_Page_Abandon_T2_V1
+  type: message
+  channel: email
+  subject: Your options, narrowed down
+  preheader: Shop the categories that fit your space, then make it yours.
+- id: af377788-fae7-430c-a9c1-a2e01554c040
+  name: TRG_EM_2026_05_ID_D_Category_Page_Abandon_T1_V1
+  type: message
+  channel: email
+  subject: Find your perfect piece — we'll help
+  preheader: From fabric to finish, every piece is built exactly the way you want
+    it.
+_filename: category-abandon.yaml

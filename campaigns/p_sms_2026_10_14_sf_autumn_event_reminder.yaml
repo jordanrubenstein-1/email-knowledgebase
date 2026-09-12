@@ -1,0 +1,22 @@
+id: 865c9364-305a-41b9-afee-e1ce193e1054
+name: P_SMS_2026_10_14_SF_Autumn_Event_Reminder
+brand: STF
+channel: sms
+category: reminder
+type: announcement
+theme: fall
+braze_id: 865c9364-305a-41b9-afee-e1ce193e1054
+dates:
+  send_date: '2026-10-14'
+  last_sent: '2026-10-14'
+tags: []
+sends:
+- id: fa7626d5-be91-472e-8c1c-87539f3f7775
+  channel: sms
+  name: Variant 1
+- id: 0209acdd-1082-41b9-a32b-e5dbd17640d3
+  channel: sms
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: p_sms_2026_10_14_sf_autumn_event_reminder.yaml

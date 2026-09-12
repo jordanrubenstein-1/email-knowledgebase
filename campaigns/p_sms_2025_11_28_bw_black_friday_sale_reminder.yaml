@@ -1,0 +1,38 @@
+id: 6b175332-9363-4d44-8a0a-706b4270d89e
+name: P_SMS_2025_11_28_BW_Black_Friday_Sale_Reminder
+brand: BUR
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: 6b175332-9363-4d44-8a0a-706b4270d89e
+dates:
+  send_date: '2025-11-28'
+  inferred_send_type: local_time
+  first_sent: '2025-11-28T01:07:46+00:00'
+  last_sent: '2025-11-29T01:02:37+00:00'
+tags: []
+sends:
+- id: 90dc869d-4726-4150-8c41-380945f785e7
+  channel: sms
+  name: Variant 1
+- id: 222cab4c-cd31-465a-8b77-65b6c4143bee
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 6350
+  total_delivered: 5636
+  total_opens: 0
+  total_clicks: 287
+  open_rate: 0.0
+  click_rate: 0.0452
+  total_revenue: 39847.0
+  ga4:
+    sessions: 213
+    purchases: 1
+    revenue: 731.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.512896'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

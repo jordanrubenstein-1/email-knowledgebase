@@ -1,0 +1,35 @@
+id: 7a3a3474-8f05-47a8-9372-425218df7256
+name: P_EM_2026_02_15_HAV_PC_D_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 7a3a3474-8f05-47a8-9372-425218df7256
+dates:
+  send_date: '2026-02-15'
+  first_sent: '2026-02-15T01:06:44+00:00'
+  last_sent: '2026-02-16T01:03:38+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 5d437ab5-69a2-4be4-84df-840e7bf9239a
+  channel: email
+  name: Variant 1
+  subject: 'Reminder: The Presidents Day Sale'
+  preheader: 50% off interior design services
+- id: af3d6567-f5d9-4660-80ac-52af1ba6cb63
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 80866
+  total_delivered: 80255
+  total_opens: 39113
+  total_clicks: 300
+  open_rate: 0.4837
+  click_rate: 0.0037
+  total_bounces: 1
+  total_unsubscribes: 111
+schedule_type: time_based
+_filename: p_em_2026_02_15_hav_pc_d_sale_reminder.yaml

@@ -1,0 +1,45 @@
+id: 62c64bec-ab4c-47b5-b6c0-790b473cea78
+name: P_2024_10_14_PT_ID_Autumn_Event_Reminder_Email
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: fall
+braze_id: 62c64bec-ab4c-47b5-b6c0-790b473cea78
+dates:
+  send_date: '2024-10-14'
+  inferred_send_type: local_time
+  first_sent: '2024-10-13T17:15:03+00:00'
+  last_sent: '2024-10-14T17:15:03+00:00'
+tags: []
+sends:
+- id: 8fc0d488-6ff5-450c-8b32-4393b857c3f3
+  channel: email
+  name: Variant 1
+  subject: How's it going with your 20% off code?
+- id: 2af4a1b7-decb-494d-9096-e044a24f0834
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 55765
+  total_delivered: 55212
+  total_opens: 18620
+  total_clicks: 427
+  open_rate: 0.3339
+  click_rate: 0.0077
+  total_revenue: 295760.52
+  total_bounces: 1
+  total_unsubscribes: 105
+  ga4:
+    sessions: 601
+    purchases: 3
+    revenue: 7928.24
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.655238'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.952373'
+schedule_type: time_based

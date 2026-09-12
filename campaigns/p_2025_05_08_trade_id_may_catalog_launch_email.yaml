@@ -1,0 +1,47 @@
+id: bb965a27-8bf1-49bd-a76d-8d3b9f892035
+name: P_2025_05_08_TRADE_ID_May_Catalog_Launch_Email
+brand: ID
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: bb965a27-8bf1-49bd-a76d-8d3b9f892035
+dates:
+  send_date: '2025-05-08'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-08T18:40:01+00:00'
+  last_sent: '2025-05-08T18:40:42+00:00'
+tags:
+- TRADE-EMAIL
+sends:
+- id: 10807141-e6de-4100-b4fe-4357b50ab1ea
+  channel: email
+  name: Variant 1
+  subject: Your next home refresh starts on page one
+  preheader: Get a trade-exclusive sneak peek at our May catalog ✨
+- id: 2e88a5ca-09bc-43a4-b663-cb8a2fe0c3dd
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 18695
+  total_delivered: 18251
+  total_opens: 5187
+  total_clicks: 145
+  open_rate: 0.2775
+  click_rate: 0.0078
+  total_revenue: 105828.5
+  total_bounces: 11
+  total_unsubscribes: 21
+  ga4:
+    sessions: 87
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.876107'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.163380'
+schedule_type: time_based

@@ -1,0 +1,63 @@
+id: c51ba41b-3a09-4bff-ab10-76a2366ccf66
+name: P_EM_2025_09_01_ID_D_AM_Labor Day Reminder
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: c51ba41b-3a09-4bff-ab10-76a2366ccf66
+dates:
+  send_date: '2025-09-01'
+  inferred_send_type: local_time
+  first_sent: '2025-08-31T18:23:23+00:00'
+  last_sent: '2025-09-01T17:15:54+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 1e3de51e-8016-4b4a-bb0f-3f8001044e71
+  channel: email
+  name: Variant 1
+  subject: TODAY’S THE DAY! Shop The Labor Day Event
+  preheader: Make the most of your long weekend with 25% off.
+- id: d66840d0-dcfd-441c-971c-37794c729585
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 204309
+  total_delivered: 201408
+  total_opens: 99341
+  total_clicks: 669
+  open_rate: 0.4862
+  click_rate: 0.0033
+  total_revenue: 503544.0
+  total_bounces: 4
+  total_unsubscribes: 596
+  ga4:
+    sessions: 750
+    purchases: 14
+    revenue: 38901.14
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.050417'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-04'
+    discount: 25% off sitewide
+    type: null
+  primary_sale:
+    id: id-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-04'
+    discount: 25% off sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 25% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:30.881490'
+schedule_type: time_based

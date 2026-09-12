@@ -1,0 +1,98 @@
+id: 01057c0e-719e-4665-a56a-72240cca7d93
+name: P_EM_2025_12_03_CZ_D_PR_BFCM_Cyber_Week_Extension
+brand: CZ
+channel: email
+category: sale_promo
+type: seasonal
+theme: black_friday
+braze_id: 01057c0e-719e-4665-a56a-72240cca7d93
+dates:
+  send_date: '2025-12-03'
+  inferred_send_type: local_time
+  first_sent: '2025-12-02T21:57:33+00:00'
+  last_sent: '2025-12-03T17:15:40+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- instock
+- sale
+- sale/bfcm
+sends:
+- id: 08028ca9-dd2a-43ca-b4f9-014d9d569fa5
+  channel: email
+  name: Variant 1
+  subject: Back in Stock for the Holidays
+  preheader: Shop 20% off restocked favorites while they last.
+  html_file: html/p_em_2025_12_03_cz_d_pr_bfcm_cyber_week_extension.html
+  screenshot: screenshots/p_em_2025_12_03_cz_d_pr_bfcm_cyber_week_extension.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692f497e583dab006325e903/original.png?1764706686
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692f49c8aa1bdf0063c30960/original.png?1764706760
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692f49ddb273540065567e88/original.png?1764706781
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692f49f381a3670063d0a4ab/original.png?1764706803
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692f4998c119a400634d1520/original.png?1764706711
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692f49e51c90c90064667b57/original.png?1764706788
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692f49d0b03025006397fa6a/original.png?1764706767
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692f49b48282c7006362ce59/original.png?1764706739
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692f498bb03025006397fa2c/original.png?1764706698
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692f49c359d9ed006494a97f/original.png?1764706755
+- id: ae104231-b6f5-41d1-bea8-5f87cf9ea57e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 216
+  total_delivered: 216
+  total_opens: 110
+  total_clicks: 11
+  open_rate: 0.5093
+  click_rate: 0.0509
+  total_unsubscribes: 1
+  ga4:
+    sessions: 22
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.001917'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-cyber-week-extension-2025-12-02
+    name: Cyber Week Extension
+    start_date: '2025-12-02'
+    end_date: '2025-12-02'
+    discount: 'Tuesday 12/2 - Monday, 12/8
+
+      20% Off Sitewide
+
+      Up to 70% Off Archive Sale
+
+      (Fresh Cuts + New Markdowns)'
+    type: null
+  primary_sale:
+    id: cz-cyber-week-extension-2025-12-02
+    name: Cyber Week Extension
+    start_date: '2025-12-02'
+    end_date: '2025-12-02'
+    discount: 'Tuesday 12/2 - Monday, 12/8
+
+      20% Off Sitewide
+
+      Up to 70% Off Archive Sale
+
+      (Fresh Cuts + New Markdowns)'
+    type: null
+  sale_name: Cyber Week Extension
+  sale_discount: 'Tuesday 12/2 - Monday, 12/8
+
+    20% Off Sitewide
+
+    Up to 70% Off Archive Sale
+
+    (Fresh Cuts + New Markdowns)'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:37.620066'
+schedule_type: time_based

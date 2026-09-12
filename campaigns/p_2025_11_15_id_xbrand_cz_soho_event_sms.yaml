@@ -1,0 +1,29 @@
+id: 7cd69c34-8efe-4d36-b5d8-b7c8188313e5
+name: P_2025_11_15_ID_XBrand_CZ_SoHo_Event_SMS
+brand: ID
+channel: sms
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 7cd69c34-8efe-4d36-b5d8-b7c8188313e5
+dates:
+  send_date: '2025-11-15'
+  inferred_send_type: local_time
+  first_sent: '2025-11-14T21:32:46+00:00'
+  last_sent: '2025-11-15T17:01:04+00:00'
+tags: []
+sends:
+- id: 4a113c1a-6b86-490a-9a7f-7f546425ff72
+  channel: other
+  name: Variant 1
+- id: 6d865067-e8a9-455a-b805-475d2f633191
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 867
+  total_delivered: 798
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+schedule_type: time_based

@@ -1,0 +1,56 @@
+id: f29ccf5b-4f04-44bf-8db8-1c29e92a018d
+name: P_EM_2025_08_13_HAV_CONV_D_Sunset_Sale_Ends_Tonight
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: f29ccf5b-4f04-44bf-8db8-1c29e92a018d
+dates:
+  send_date: '2025-08-13'
+  inferred_send_type: local_time
+  first_sent: '2025-08-12T20:54:03+00:00'
+  last_sent: '2025-08-13T17:15:02+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 6018794c-24b4-4ac2-a69e-951ab000302a
+  channel: email
+  name: Variant 1
+  subject: FINAL HOURS
+  preheader: Last chance for sitewide savings.
+  html_file: html/p_em_2025_08_13_hav_conv_d_sunset_sale_ends_tonight.html
+  screenshot: screenshots/p_em_2025_08_13_hav_conv_d_sunset_sale_ends_tonight.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689b90a4a6ef8a0095370572/original.png?1755025572
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689b90adcd9e0900734923a4/original.png?1755025581
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689b9088b16bbe0076a591c6/original.png?1755025543
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689b904ccd9e090093491eac/original.png?1755025483
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689b909b380fe90075517c74/original.png?1755025563
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689b9035cd9e090093491e9e/original.gif?1755025461
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689b9093a6ef8a008537066e/original.png?1755025554
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689b9004b16bbe0076a5900c/original.gif?1755025412
+- id: 2ca498af-bcf0-4a44-9896-eacf970b28f5
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 40855
+  total_delivered: 40849
+  total_opens: 21496
+  total_clicks: 101
+  open_rate: 0.5262
+  click_rate: 0.0025
+  total_unsubscribes: 58
+  ga4:
+    sessions: 72
+    purchases: 1
+    revenue: 589.98
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:48.847393'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.593564'
+schedule_type: time_based

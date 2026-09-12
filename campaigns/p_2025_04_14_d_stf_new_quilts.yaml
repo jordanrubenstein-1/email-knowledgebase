@@ -1,0 +1,59 @@
+id: ea7506e1-e836-435b-9519-4996c1687984
+name: P_2025_04_14_D_STF_New_Quilts
+brand: STF
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: ea7506e1-e836-435b-9519-4996c1687984
+dates:
+  send_date: '2025-04-14'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-14T02:59:47+00:00'
+  last_sent: '2025-04-14T17:00:26+00:00'
+tags: []
+sends:
+- id: 33f4f4dd-54ff-4403-b0b7-851ac61def99
+  channel: email
+  name: Variant 1
+  subject: Patterned Quilts Are Here 🤍
+  preheader: 'explore our new bedding layer '
+  html_file: html/p_2025_04_14_d_stf_new_quilts.html
+  screenshot: screenshots/p_2025_04_14_d_stf_new_quilts.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f9a84911ee1c0067116cbd/original.png?1744414793
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f99ab3d7d9c300666806c7/original.png?1744411314
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f99bcded4fd20065c98f57/original.png?1744411597
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f99bdb1822b40065f29125/original.png?1744411611
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f99b8789573000677621f3/original.png?1744411527
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f99b941822b40075f28ecf/original.png?1744411539
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f9a84fd7d9c30066681931/original.png?1744414799
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f99bc5e21de300677c0530/original.png?1744411589
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f99bd6d7d9c300666808fb/original.png?1744411605
+- id: 30752be8-4d4e-4678-b4d2-7a335bbdb4d9
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 11781
+  total_delivered: 11652
+  total_opens: 6979
+  total_clicks: 361
+  open_rate: 0.5924
+  click_rate: 0.0306
+  total_revenue: 12372.0
+  total_bounces: 3
+  total_unsubscribes: 49
+  ga4:
+    sessions: 433
+    purchases: 5
+    revenue: 1374.68
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.697575'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.409387'
+schedule_type: time_based

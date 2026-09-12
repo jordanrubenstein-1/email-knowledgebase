@@ -1,0 +1,33 @@
+id: cf37daee-c929-4387-8f45-f7dde4431cd3
+name: P_2024_11_21_PT_HAV_Conv_BFCM_Sale_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: black_friday
+braze_id: cf37daee-c929-4387-8f45-f7dde4431cd3
+dates:
+  send_date: '2024-11-21'
+  first_sent: '2024-11-21T07:33:11+00:00'
+  last_sent: '2024-11-21T17:15:03+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: e34e6620-e61a-4247-90c1-51651e729289
+  channel: email
+  name: Variant 1
+  subject: Friends Don’t Let Friends Miss The Best Sale Ever
+- id: b0b528aa-757c-45c1-8c49-982bf463b07c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 35219
+  total_delivered: 35181
+  total_opens: 19992
+  total_clicks: 291
+  open_rate: 0.5676
+  click_rate: 0.0083
+  total_bounces: 1
+  total_unsubscribes: 50
+schedule_type: time_based
+_filename: p_2024_11_21_pt_hav_conv_bfcm_sale_reminder_email.yaml

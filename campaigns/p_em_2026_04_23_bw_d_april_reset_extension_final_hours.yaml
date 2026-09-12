@@ -1,0 +1,36 @@
+id: 4f0f46c4-d4c7-45d3-ab8d-6d906f2654fa
+name: P_EM_2026_04_23_BW_D_April_Reset_Extension_Final_Hours
+brand: BUR
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 4f0f46c4-d4c7-45d3-ab8d-6d906f2654fa
+dates:
+  send_date: '2026-04-23'
+  inferred_send_type: scheduled
+  first_sent: '2026-04-23T20:30:19+00:00'
+  last_sent: '2026-04-23T20:34:18+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: e7613df1-e7bf-45a7-ad89-a0475da79578
+  channel: email
+  name: Variant 1
+  subject: 25% OFF ENDS TONIGHT
+  preheader: Don’t miss your chance for sitewide savings.
+- id: 06bcb00b-2024-4157-b8fc-6cade44f46ed
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 107543
+  total_delivered: 107032
+  total_opens: 45833
+  total_clicks: 495
+  open_rate: 0.4262
+  click_rate: 0.0046
+  total_revenue: 132386.0
+  total_bounces: 6
+  total_unsubscribes: 183
+_filename: p_em_2026_04_23_bw_d_april_reset_extension_final_hours.yaml
+schedule_type: time_based

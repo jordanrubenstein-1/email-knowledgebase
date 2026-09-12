@@ -1,0 +1,47 @@
+id: c9e418fe-7618-477e-8107-a5d5ac078a7c
+name: P_2024_11_14_PT_HAV_Conv_EA_BFCM_Sale_Last_Chance_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: black_friday
+braze_id: c9e418fe-7618-477e-8107-a5d5ac078a7c
+dates:
+  send_date: '2024-11-14'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-14T05:48:25+00:00'
+  last_sent: '2024-11-14T17:15:05+00:00'
+tags: []
+sends:
+- id: eb1e12aa-d356-4460-8460-0a6a0ab16467
+  channel: email
+  name: Variant 1
+  subject: 'ENDS TONIGHT: VIP Early Access!'
+  html_file: html/p_2024_11_14_pt_hav_conv_ea_bfcm_sale_last_chance_email.html
+  screenshot: screenshots/p_2024_11_14_pt_hav_conv_ea_bfcm_sale_last_chance_email.png
+  image_urls:
+  - https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/c731630f24214e43807c7369ca8ebacd/Havenly_Wordmark_RGB_Charcoal_Brown%20%281%29.png
+- id: cf418147-80a7-45d8-b831-7115f2c0a07b
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 35142
+  total_delivered: 35105
+  total_opens: 20608
+  total_clicks: 443
+  open_rate: 0.5864
+  click_rate: 0.0126
+  total_unsubscribes: 52
+  ga4:
+    sessions: 681
+    purchases: 7
+    revenue: 8368.56
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.471547'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.762484'
+schedule_type: time_based

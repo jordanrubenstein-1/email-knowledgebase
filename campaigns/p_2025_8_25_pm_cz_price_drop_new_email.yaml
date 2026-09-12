@@ -1,0 +1,73 @@
+id: ae70e876-c362-4c68-a11b-df31cf53b292
+name: P_2025_8_25_PM_CZ_Price_Drop_New_Email
+brand: CZ
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: ae70e876-c362-4c68-a11b-df31cf53b292
+dates:
+  send_date: '2025-08-25'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-25T20:17:58+00:00'
+  last_sent: '2025-08-25T20:31:13+00:00'
+tags:
+- batch and blast/promo
+sends:
+- id: d1f04792-6bf6-442b-b0eb-23339bca311f
+  channel: email
+  name: Variant 1
+  subject: That Style You Love? It's On Sale
+  preheader: Don't miss our Labor Day Event - 25% off sitewide
+  html_file: html/p_2025_8_25_pm_cz_price_drop_new_email.html
+  screenshot: screenshots/p_2025_8_25_pm_cz_price_drop_new_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6717c06c07b094007275ce31/original.gif?1729609836
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6717c0ff25ffbb00919d1752/original.gif?1729609983
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6717c115f7d0eb0063f47c8a/original.gif?1729610005
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6717c10b9c35f00075d6bc41/original.gif?1729609995
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6717c1bb25ffbb00669d1d99/original.gif?1729610171
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6717c1a2b79c7f0065c64a3b/original.gif?1729610146
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6717c1229c35f00066d6cc1e/original.jpg?1729610018
+- id: 82194e85-3c55-4dda-a694-6f8aa00b196a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 9997
+  total_delivered: 9945
+  total_opens: 6053
+  total_clicks: 261
+  open_rate: 0.6055
+  click_rate: 0.0261
+  total_revenue: 111366.02
+  total_bounces: 10
+  total_unsubscribes: 112
+  ga4:
+    sessions: 100
+    purchases: 1
+    revenue: 198.54
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.294408'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-02'
+    discount: 20% off Sitewide
+    type: null
+  primary_sale:
+    id: cz-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-02'
+    discount: 20% off Sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 20% off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:40.961291'
+schedule_type: time_based

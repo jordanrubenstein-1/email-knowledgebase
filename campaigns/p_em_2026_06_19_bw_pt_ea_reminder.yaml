@@ -1,0 +1,33 @@
+id: f03dc6e3-5cfb-42d8-801b-c115267dfeeb
+name: P_EM_2026_06_19_BW_PT_EA_Reminder
+brand: BUR
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: f03dc6e3-5cfb-42d8-801b-c115267dfeeb
+dates:
+  send_date: '2026-06-19'
+  last_sent: '2026-06-19'
+tags:
+- Batch&Blast
+sends:
+- id: b6ea4666-5c08-454b-acb4-10924d4880cd
+  channel: email
+  name: Variant 1
+  subject: Early access to the sale ends Sunday
+- id: 00b30869-cb0c-4397-b975-433ffda0af11
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 229414
+  total_delivered: 228565
+  total_opens: 117717
+  total_clicks: 609
+  open_rate: 0.5131
+  click_rate: 0.0027
+  total_revenue: 72715.0
+  total_bounces: 2
+  total_unsubscribes: 169
+schedule_type: time_based
+_filename: p_em_2026_06_19_bw_pt_ea_reminder.yaml

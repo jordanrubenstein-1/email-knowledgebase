@@ -1,0 +1,48 @@
+id: bcfa5a3d-b346-4169-8f9d-828d148198ef
+name: P_EM_2025_11_02_CZ_D_PR_American_Craft_Capsule_Story
+brand: CZ
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: bcfa5a3d-b346-4169-8f9d-828d148198ef
+dates:
+  send_date: '2025-11-02'
+  inferred_send_type: local_time
+  first_sent: '2025-11-01T17:24:21+00:00'
+  last_sent: '2025-11-02T17:15:29+00:00'
+tags:
+- am
+- batch and blast
+- collect
+- d2c
+- designed
+sends:
+- id: d1e1ff1e-158b-4b55-a0d6-1d2d419ad438
+  channel: email
+  name: Variant 1
+  subject: The Story of Living Craft
+  preheader: Step inside the making of our latest capsule.
+  html_file: html/p_em_2025_11_02_cz_d_pr_american_craft_capsule_story.html
+  screenshot: screenshots/p_em_2025_11_02_cz_d_pr_american_craft_capsule_story.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690511ec1eec36006304e3c6/original.png?1761939947
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690511f59b314700636a2770/original.png?1761939955
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690511c4e5f5ec0063056721/original.png?1761939907
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690511dc00993c0063449244/original.png?1761939931
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690511fe7744040065bb032b/original.png?1761939966
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690511d19d686100637ba045/original.png?1761939920
+- id: dc236cc3-0ce9-4fe2-812a-13a1df1cac45
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 102013
+  total_delivered: 101261
+  total_opens: 58631
+  total_clicks: 693
+  open_rate: 0.5747
+  click_rate: 0.0068
+  total_bounces: 1
+  total_unsubscribes: 195
+_filename: p_em_2025_11_02_cz_d_pr_american_craft_capsule_story.yaml
+schedule_type: time_based

@@ -1,0 +1,33 @@
+id: 39d53cba-e666-4948-ade6-1b1bdad47e37
+name: P_2024_11_14_PT_ID_Swatchees_BFCM_EA_Last_Chance_Email
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: black_friday
+braze_id: 39d53cba-e666-4948-ade6-1b1bdad47e37
+dates:
+  send_date: '2024-11-14'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-14T04:07:17+00:00'
+  last_sent: '2024-11-14T16:15:02+00:00'
+tags: []
+sends:
+- id: 07f6a96a-a05f-4bfd-a810-e901de81a76a
+  channel: email
+  name: Variant 1
+  subject: Last Chance! VIP Early Access
+- id: ac58f55d-9df0-4611-b283-b0d4549821b0
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 22062
+  total_delivered: 21816
+  total_opens: 6007
+  total_clicks: 218
+  open_rate: 0.2723
+  click_rate: 0.0099
+  total_revenue: 230403.0
+  total_unsubscribes: 43
+_filename: p_2024_11_14_pt_id_swatchees_bfcm_ea_last_chance_email.yaml
+schedule_type: time_based

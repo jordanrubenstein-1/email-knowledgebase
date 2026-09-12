@@ -1,0 +1,30 @@
+id: e9e57669-4101-4404-874b-7f55821fb079
+name: P_2025_5_1_Pre_MDW_Swatch_Push_SMS
+brand: ID
+channel: sms
+category: sale_promo
+type: announcement
+theme: null
+braze_id: e9e57669-4101-4404-874b-7f55821fb079
+dates:
+  send_date: '2025-05-01'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-01T22:13:59+00:00'
+  last_sent: '2025-05-01T22:16:37+00:00'
+tags: []
+sends:
+- id: b09442a9-1ce9-4c3f-819e-67167464636b
+  channel: push
+  name: Variant 1
+- id: 5dcb8e29-8f78-4448-9254-99d546eb40b4
+  channel: push
+  name: Control Group
+performance_summary:
+  total_sends: 58827
+  total_delivered: 55305
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 14485.0
+schedule_type: time_based

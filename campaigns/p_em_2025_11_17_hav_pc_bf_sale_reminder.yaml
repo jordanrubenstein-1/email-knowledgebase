@@ -1,0 +1,35 @@
+id: 46995ad0-4c00-432d-909c-c009ba752680
+name: P_EM_2025_11_17_HAV_PC_BF_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 46995ad0-4c00-432d-909c-c009ba752680
+dates:
+  send_date: '2025-11-17'
+  first_sent: '2025-11-16T19:20:38+00:00'
+  last_sent: '2025-11-17T20:15:52+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: df52c99b-a3c0-4a38-9aec-7141477d8021
+  channel: email
+  name: Variant 1
+  subject: Black Friday Savings Look Better from Home 🏡
+  preheader: Dream savings just became a reality.
+- id: 0092f66c-61c5-4a61-a1d8-5e71126cf0d0
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 250457
+  total_delivered: 249778
+  total_opens: 98978
+  total_clicks: 461
+  open_rate: 0.3952
+  click_rate: 0.0018
+  total_bounces: 7
+  total_unsubscribes: 524
+schedule_type: time_based
+_filename: p_em_2025_11_17_hav_pc_bf_sale_reminder.yaml

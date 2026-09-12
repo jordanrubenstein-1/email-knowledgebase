@@ -1,0 +1,59 @@
+id: 52a31c48-abad-444d-8c9f-fd4f26dca3e9
+name: P_2024_11_9_D_SF_Shower_Curtains_Email
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 52a31c48-abad-444d-8c9f-fd4f26dca3e9
+dates:
+  send_date: '2024-11-09'
+  inferred_send_type: local_time
+  first_sent: '2024-11-08T17:05:58+00:00'
+  last_sent: '2024-11-09T15:00:21+00:00'
+tags:
+- Batch and Blast
+sends:
+- id: 94f0d091-201f-48a3-a618-fc3bd935dc92
+  channel: email
+  name: Variant 1
+  subject: Fresh Batch! Shower Curtains in New Patterns
+  preheader: shop them before they sell-out
+  html_file: html/p_2024_11_9_d_sf_shower_curtains_email.html
+  screenshot: screenshots/p_2024_11_9_d_sf_shower_curtains_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672a5358de1be500732b7433/original.gif?1730827096
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672a533ededf08007461538c/original.gif?1730827070
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672a534aaf24c30064a9fe16/original.gif?1730827082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672a53b0b1782b0066fb196a/original.gif?1730827184
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672a53088ef4540065917b78/original.gif?1730827016
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672a53938ef4540065917d1c/original.jpg?1730827154
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672a52db3cfa7a00642a7b7e/original.gif?1730826971
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672a5384dedf08007461549c/original.gif?1730827140
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672a5313b1782b0066fb168a/original.gif?1730827027
+- id: 288cfc67-6f7d-42fa-882a-24cc7ca87483
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 8567
+  total_delivered: 8513
+  total_opens: 2711
+  total_clicks: 147
+  open_rate: 0.3164
+  click_rate: 0.0172
+  total_revenue: 1480.0
+  total_unsubscribes: 4
+  ga4:
+    sessions: 172
+    purchases: 1
+    revenue: 143.38
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.026292'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.016013'
+schedule_type: time_based

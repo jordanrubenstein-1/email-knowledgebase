@@ -1,0 +1,89 @@
+id: b654e0ba-a4a2-4497-a35d-62c0699c26cc
+name: P_EM_2025_12_01_SF_D_PR_Cyber_Monday
+brand: STF
+channel: email
+category: sale_promo
+type: seasonal
+theme: null
+braze_id: b654e0ba-a4a2-4497-a35d-62c0699c26cc
+dates:
+  send_date: '2025-12-01'
+  inferred_send_type: local_time
+  first_sent: '2025-11-30T17:06:35+00:00'
+  last_sent: '2025-12-01T17:01:06+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: 4491e05c-2ff2-43d7-8ba6-67f43fb8cd65
+  channel: email
+  name: Variant 1
+  subject: TODAY’S THE DAY
+  preheader: shop up to 30% off
+  html_file: html/p_em_2025_12_01_sf_d_pr_cyber_monday.html
+  screenshot: screenshots/p_em_2025_12_01_sf_d_pr_cyber_monday.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6920576a780aef0064aea589/original.png?1763727210
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6920579358caaa0063fa5fc3/original.png?1763727250
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692907bf9ef9f4006337d3c1/original.png?1764296639
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6929079fd9937500639cb202/original.png?1764296607
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692907abc785bd00737084c1/original.png?1764296618
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6920578bf51c3b00630195e3/original.png?1763727243
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692057632970fa0063263cba/original.png?1763727202
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6920577a3776220063c3962a/original.png?1763727225
+- id: 74603bab-d4cb-4086-845d-a929ec238739
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 40162
+  total_delivered: 39566
+  total_opens: 17214
+  total_clicks: 183
+  open_rate: 0.4286
+  click_rate: 0.0046
+  total_unsubscribes: 88
+  ga4:
+    sessions: 180
+    purchases: 2
+    revenue: 374.28
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.934279'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-black-friday-cyber-monday-2025-11-14
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-12'
+    end_date: '2025-12-02'
+    discount: 'Up to 30% Off Sitewide
+
+      30% off fabric + wallpaper + pillows
+
+      20% off everything else'
+    type: null
+  primary_sale:
+    id: stf-black-friday-cyber-monday-2025-11-14
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-12'
+    end_date: '2025-12-02'
+    discount: 'Up to 30% Off Sitewide
+
+      30% off fabric + wallpaper + pillows
+
+      20% off everything else'
+    type: null
+  sale_name: Black Friday / Cyber Monday
+  sale_discount: 'Up to 30% Off Sitewide
+
+    30% off fabric + wallpaper + pillows
+
+    20% off everything else'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:38.935915'
+schedule_type: time_based

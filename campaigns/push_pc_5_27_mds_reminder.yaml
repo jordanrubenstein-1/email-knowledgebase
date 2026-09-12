@@ -1,0 +1,23 @@
+id: 84217895-355e-4c51-ac86-2189b3f412c6
+name: PUSH_PC_5_27_MDS_Reminder
+brand: HAV
+channel: push
+category: reminder
+type: announcement
+theme: null
+braze_id: 84217895-355e-4c51-ac86-2189b3f412c6
+dates:
+  first_sent: '2025-05-27T03:05:47+00:00'
+  last_sent: '2025-05-28T02:00:27+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: cd29bd9c-cc1a-49c7-ab10-b5f6c8fd86ed
+  channel: push
+  name: Variant 1
+- id: 1c3c1ad1-50d4-4dce-92ef-c3e7d6d2017c
+  channel: push
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: push_pc_5_27_mds_reminder.yaml

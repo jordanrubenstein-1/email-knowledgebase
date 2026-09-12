@@ -1,0 +1,23 @@
+id: 55ae095c-6333-40bb-ad10-0d7f8d382e27
+name: P_PUSH_01_05_2026_HAV_CONV_Final_Day_of_Sale
+brand: HAV
+channel: push
+category: reminder
+type: sale
+theme: null
+braze_id: 55ae095c-6333-40bb-ad10-0d7f8d382e27
+dates:
+  first_sent: '2026-01-05T01:05:25+00:00'
+  last_sent: '2026-01-06T01:02:56+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 29c37045-6031-41b6-9f92-cfed11a3ffb8
+  channel: push
+  name: Variant 1
+- id: ed5f99ad-db05-44aa-8c57-271c08663924
+  channel: push
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: p_push_01_05_2026_hav_conv_final_day_of_sale.yaml

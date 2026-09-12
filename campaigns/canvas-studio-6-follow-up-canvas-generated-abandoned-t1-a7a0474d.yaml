@@ -1,0 +1,31 @@
+id: a7a0474d-e16f-472c-bd66-7fcb8e5ce93f
+name: OT_EM_2026_06_HAV_PC_H_Studio6_Follow_Up_3D_Room_Abandoned
+brand: HAV
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 3f609845-f3c2-4ca6-b9a7-ff881590f36b
+canvas_name: Studio 6 Follow Up Canvas Generated Abandoned
+flow_type: other_flow
+sequence_position: 1
+subject: We made something for your room
+preheader: Your inspiration is saved — a designer is ready to bring it to life.
+sends:
+- id: a7a0474d-e16f-472c-bd66-7fcb8e5ce93f
+  channel: email
+  name: OT_EM_2026_06_HAV_PC_H_Studio6_Follow_Up_3D_Room_Abandoned
+  subject: We made something for your room
+  preheader: Your inspiration is saved — a designer is ready to bring it to life.
+  html_file: html/canvas-studio-6-follow-up-canvas-generated-abandoned-t1-a7a0474d.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-06-16T13:00:00Z'
+  last_sent: '2026-07-01T14:00:00Z'
+performance_summary:
+  total_sends: 5
+  total_delivered: 5
+  total_opens: 3
+  total_clicks: 2
+  open_rate: 0.6
+  click_rate: 0.4

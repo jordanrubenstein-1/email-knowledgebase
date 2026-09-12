@@ -1,0 +1,23 @@
+id: 3f68e0d8-dea2-4152-814c-657c82684142
+name: PUSH_Conv_05_13_Memorial_Day_Sale_Ends_Tonight
+brand: HAV
+channel: push
+category: sale_promo
+type: sale
+theme: null
+braze_id: 3f68e0d8-dea2-4152-814c-657c82684142
+dates:
+  first_sent: '2025-05-13T03:05:52+00:00'
+  last_sent: '2025-05-14T02:00:10+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 42030fa8-df74-4792-98b9-e49745b170dc
+  channel: push
+  name: Variant 1
+- id: ca39af6a-2b5a-43c9-87ee-36231e34b39c
+  channel: push
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: push_conv_05_13_memorial_day_sale_ends_tonight.yaml

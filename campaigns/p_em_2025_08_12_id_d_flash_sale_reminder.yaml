@@ -1,0 +1,63 @@
+id: 44e07ad8-2a52-4da0-883f-40f909feb10b
+name: P_EM_2025_08_12_ID_D_Flash_Sale_Reminder
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 44e07ad8-2a52-4da0-883f-40f909feb10b
+dates:
+  send_date: '2025-08-12'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-12T05:55:30+00:00'
+  last_sent: '2025-08-12T17:15:21+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 9cf1ec6e-849a-4a09-a541-5dd030706629
+  channel: email
+  name: Variant 1
+  subject: 20% Off Flash Sale
+  preheader: Two days only. Better shop to it.
+- id: adefc6de-08aa-4ddb-89cf-c138785814e4
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 191159
+  total_delivered: 190824
+  total_opens: 85949
+  total_clicks: 828
+  open_rate: 0.4496
+  click_rate: 0.0043
+  total_revenue: 155267.0
+  total_bounces: 5
+  total_unsubscribes: 320
+  ga4:
+    sessions: 1061
+    purchases: 10
+    revenue: 23914.61
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.735739'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off sitewide
+    type: null
+  primary_sale:
+    id: id-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off sitewide
+    type: null
+  sale_name: The Sunset Sale
+  sale_discount: 20% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:38.655407'
+schedule_type: time_based

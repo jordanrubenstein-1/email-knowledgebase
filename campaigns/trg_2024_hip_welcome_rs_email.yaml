@@ -1,0 +1,24 @@
+id: d4b386e0-9ab5-4845-986b-875029400daa
+name: TRG_2024_HIP_Welcome_RS_Email
+brand: HAV
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: d4b386e0-9ab5-4845-986b-875029400daa
+dates:
+  first_sent: '2024-09-10T15:05:03+00:00'
+  last_sent: '2024-09-10T15:05:21+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 0050a7c1-6cf4-42e1-9e0b-eaae6dcc7aff
+  channel: email
+  name: Variant 1
+  subject: Welcome to Havenly In-Person! 🎉
+- id: 8ec35ee2-69ee-4ef4-9323-542d31fda882
+  channel: other
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: trg_2024_hip_welcome_rs_email.yaml

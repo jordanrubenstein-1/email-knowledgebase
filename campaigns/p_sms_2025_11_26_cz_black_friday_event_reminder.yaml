@@ -1,0 +1,37 @@
+id: 74e3f5f1-bc74-42ee-b5b1-a6ca5e315c77
+name: P_SMS_2025_11_26_CZ_Black_Friday_Event_Reminder
+brand: CZ
+channel: sms
+category: reminder
+type: announcement
+theme: null
+braze_id: 74e3f5f1-bc74-42ee-b5b1-a6ca5e315c77
+dates:
+  send_date: '2025-11-26'
+  inferred_send_type: local_time
+  first_sent: '2025-11-26T01:08:19+00:00'
+  last_sent: '2025-11-27T01:01:10+00:00'
+tags: []
+sends:
+- id: f9f90bd3-66e1-42ac-bad6-c9244ea4e9dd
+  channel: sms
+  name: Variant 1
+- id: 2796ed3e-e858-4e3b-a8ee-69ca81fc8b74
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 20557
+  total_delivered: 16917
+  total_opens: 0
+  total_clicks: 150
+  open_rate: 0.0
+  click_rate: 0.0073
+  ga4:
+    sessions: 149
+    purchases: 3
+    revenue: 1467.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.693966'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

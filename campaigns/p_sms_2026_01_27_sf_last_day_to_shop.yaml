@@ -1,0 +1,37 @@
+id: b123005f-fef9-41b9-bdc5-9aca79762057
+name: P_SMS_2026_01_27_SF_Last_Day_To_Shop
+brand: STF
+channel: sms
+category: reminder
+type: announcement
+theme: null
+braze_id: b123005f-fef9-41b9-bdc5-9aca79762057
+dates:
+  send_date: '2026-01-27'
+  inferred_send_type: local_time
+  first_sent: '2026-01-27T01:07:00+00:00'
+  last_sent: '2026-01-28T00:00:31+00:00'
+tags: []
+sends:
+- id: 3232f8dd-9495-4f9e-95e1-5fbf6f56c698
+  channel: sms
+  name: Variant 1
+- id: 3c0e1447-eddf-4e0f-9553-74921cb3d9af
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 4112
+  total_delivered: 4046
+  total_opens: 0
+  total_clicks: 64
+  open_rate: 0.0
+  click_rate: 0.0156
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.086739'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

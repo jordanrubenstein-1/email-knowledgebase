@@ -1,0 +1,32 @@
+id: 93c0ca7c-05d8-44b4-ba5a-719539a2994f
+name: P_EM_2026_03_31_BW_PT_Spring_Sale_Extension_Last_Day
+brand: BUR
+channel: email
+category: reminder
+type: sale
+theme: spring
+braze_id: 93c0ca7c-05d8-44b4-ba5a-719539a2994f
+dates:
+  send_date: '2026-03-31'
+  last_sent: '2026-03-31'
+tags:
+- Batch&Blast
+sends:
+- id: 8c8e7a0e-e47e-44db-a2a0-20036a541741
+  channel: email
+  name: Variant 1
+  subject: FINAL DAY to save during the Spring Sale
+- id: e97868e7-86e1-4377-a33f-32696937acf1
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 234079
+  total_delivered: 231538
+  total_opens: 121278
+  total_clicks: 515
+  open_rate: 0.5181
+  click_rate: 0.0022
+  total_revenue: 75519.0
+  total_bounces: 89
+  total_unsubscribes: 299
+schedule_type: time_based

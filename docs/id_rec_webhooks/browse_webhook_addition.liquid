@@ -1,0 +1,256 @@
+{% comment %}
+================================================================================
+BROWSE WEBHOOK ADDITION — browse_affinity_collections, browse_affinity_categories,
+                           top_browse_collection, top_browse_category
+================================================================================
+PURPOSE: Add browse-signal affinity attributes to the existing Product Viewed
+         webhook output. Mirrors the cart webhook's cart_affinity_* pattern so
+         both browse and cart signals have the same attribute structure.
+
+WHERE TO ADD: Paste the computed variables section (everything up to "INSERTION
+              POINT") anywhere in the webhook Liquid BEFORE the JSON output.
+              Then add the four new key–value pairs inside the `attributes` JSON
+              object, alongside `recently_browsed_products` (see INSERTION POINT).
+
+HOW IT WORKS:
+  1. Iterates `recently_browsed_products` (existing items, up to 8) and adds
+     the current product being viewed (using variables already computed earlier
+     in the webhook: `collection`, `category_l1/l2/l3`, `price`).
+  2. Filters collections against the approved list (same list as the cart
+     webhook — prevents non-collection words like "Blue" from a product name
+     from polluting the attribute).
+  3. Builds unique arrays: browse_affinity_collections (approved collections
+     present in the recent browse window) and browse_affinity_categories
+     (full-path effective categories, e.g. "Furniture > Sofas").
+  4. Computes top_browse_collection and top_browse_category using mode (most
+     frequently appearing), with price as a tie-breaker.
+
+STALENESS / FRESHNESS:
+  Because this is recomputed wholesale on EVERY Product Viewed fire from the
+  current recently_browsed_products window (max 8 items, deduped), old sessions
+  naturally age out as new products are browsed. No separate clearing step needed.
+
+ATTRIBUTES WRITTEN (4 total):
+  browse_affinity_collections — string array, e.g. ["Fiona","Alexander"]
+  browse_affinity_categories  — string array, e.g. ["Furniture > Sofas","Decor > Rugs"]
+  top_browse_collection       — string, most frequent approved collection in window
+  top_browse_category         — string, most frequent effective category in window
+
+FUTURE USE:
+  These four attributes mirror the cart equivalents:
+    cart_affinity_collections / cart_affinity_categories
+    top_cart_collection       / top_cart_category
+  Both sets feed the future "categories drip" and "collections drip" canvases.
+
+PREREQUISITES: This snippet uses variables already computed earlier in the
+  Product Viewed webhook: `collection`, `category_l1`, `category_l2`,
+  `category_l3`, `price`. Paste this AFTER those assignments.
+================================================================================
+{% endcomment %}
+
+{% comment %} ── Approved collections list (same as cart webhook) ─────────── {% endcomment %}
+{% assign ba_coll_delim = '::COLL::' %}
+{% assign ba_approved_collections = '' | append: ba_coll_delim | append: 'Alexander' | append: ba_coll_delim | append: 'Asher' | append: ba_coll_delim | append: 'Beckham' | append: ba_coll_delim | append: 'Caitlin' | append: ba_coll_delim | append: 'Dixon' | append: ba_coll_delim | append: 'Ella' | append: ba_coll_delim | append: 'Fiona' | append: ba_coll_delim | append: 'Gaby' | append: ba_coll_delim | append: 'Hayley' | append: ba_coll_delim | append: 'James' | append: ba_coll_delim | append: 'Jasper' | append: ba_coll_delim | append: 'Josie' | append: ba_coll_delim | append: 'Lee' | append: ba_coll_delim | append: 'Lukas' | append: ba_coll_delim | append: 'Maxwell' | append: ba_coll_delim | append: 'Ms. Chesterfield' | append: ba_coll_delim | append: 'Oslo' | append: ba_coll_delim | append: 'Rose' | append: ba_coll_delim | append: 'Scarlett' | append: ba_coll_delim | append: 'Saylor' | append: ba_coll_delim | append: 'Simon' | append: ba_coll_delim | append: 'Sloan' | append: ba_coll_delim | append: 'Skylar' | append: ba_coll_delim | append: 'Sydney' | append: ba_coll_delim | append: 'Tatum' | append: ba_coll_delim | append: 'Winslow' | append: ba_coll_delim %}
+
+{% comment %} ── Shared delimiters (namespaced to avoid collision) ─────────── {% endcomment %}
+{% assign ba_line_delim   = '|||' %}
+{% assign ba_delim_cat    = '::CAT::' %}
+{% assign ba_delim_coll   = '^^^' %}
+
+{% comment %} ── Accumulators ─────────────────────────────────────────────── {% endcomment %}
+{% assign ba_seen_coll        = ba_delim_coll %}
+{% assign ba_seen_cat         = ba_delim_cat %}
+{% assign ba_affinity_coll    = '' %}
+{% assign ba_affinity_cat     = '' %}
+{% assign ba_all_colls_line   = '' %}
+{% assign ba_all_cats_line    = '' %}
+{% assign ba_all_prices_line  = '' %}
+{% assign ba_unique_colls_line = '' %}
+{% assign ba_unique_cats_line  = '' %}
+
+{% comment %} ── Helper macro: append item to all accumulators ─────────────── {% endcomment %}
+{% comment %}
+  Called twice below (once for each existing item, once for the current product).
+  Uses local vars: ba_item_coll, ba_effective_cat, ba_item_price.
+{% endcomment %}
+
+{% comment %} ── PASS 1: existing recently_browsed_products items ──────────── {% endcomment %}
+{% assign ba_browse_products = custom_attribute.${recently_browsed_products} | default: empty %}
+{% for ba_item in ba_browse_products %}
+
+  {% comment %} Collection — filter against approved list {% endcomment %}
+  {% assign ba_item_coll = ba_item.collection | default: '' %}
+  {% assign ba_coll_check = ba_coll_delim | append: ba_item_coll | append: ba_coll_delim %}
+  {% unless ba_approved_collections contains ba_coll_check %}{% assign ba_item_coll = '' %}{% endunless %}
+
+  {% comment %} Effective category: reconstruct full path from stored l1/l2/l3 {% endcomment %}
+  {% assign ba_effective_cat = ba_item.category_l1 | default: '' %}
+  {% if ba_item.category_l2 != blank %}
+    {% assign ba_effective_cat = ba_effective_cat | append: ' > ' | append: ba_item.category_l2 %}
+    {% if ba_item.category_l3 != blank %}
+      {% assign ba_effective_cat = ba_effective_cat | append: ' > ' | append: ba_item.category_l3 %}
+    {% endif %}
+  {% endif %}
+
+  {% assign ba_item_price = ba_item.price | default: 0 | plus: 0 %}
+
+  {% comment %} Append to parallel lists (one entry per item, including blank) {% endcomment %}
+  {% if ba_all_colls_line  == '' %}{% assign ba_all_colls_line  = ba_item_coll %}
+  {% else %}{% assign ba_all_colls_line  = ba_all_colls_line  | append: ba_line_delim | append: ba_item_coll %}{% endif %}
+  {% if ba_all_cats_line   == '' %}{% assign ba_all_cats_line   = ba_effective_cat %}
+  {% else %}{% assign ba_all_cats_line   = ba_all_cats_line   | append: ba_line_delim | append: ba_effective_cat %}{% endif %}
+  {% if ba_all_prices_line == '' %}{% assign ba_all_prices_line = ba_item_price %}
+  {% else %}{% assign ba_all_prices_line = ba_all_prices_line | append: ba_line_delim | append: ba_item_price %}{% endif %}
+
+  {% comment %} Deduplicated unique sets for affinity arrays {% endcomment %}
+  {% if ba_item_coll != blank %}
+    {% assign ba_coll_seen_check = ba_delim_coll | append: ba_item_coll | append: ba_delim_coll %}
+    {% unless ba_seen_coll contains ba_coll_seen_check %}
+      {% assign ba_seen_coll = ba_seen_coll | append: ba_item_coll | append: ba_delim_coll %}
+      {% assign ba_c_clean = ba_item_coll | replace: '"', '' | strip %}
+      {% if ba_affinity_coll == '' %}{% assign ba_affinity_coll = '"' | append: ba_c_clean | append: '"' %}
+      {% else %}{% assign ba_affinity_coll = ba_affinity_coll | append: ',"' | append: ba_c_clean | append: '"' %}{% endif %}
+      {% if ba_unique_colls_line == '' %}{% assign ba_unique_colls_line = ba_item_coll %}
+      {% else %}{% assign ba_unique_colls_line = ba_unique_colls_line | append: ba_line_delim | append: ba_item_coll %}{% endif %}
+    {% endunless %}
+  {% endif %}
+
+  {% if ba_effective_cat != blank %}
+    {% assign ba_cat_seen_check = ba_delim_cat | append: ba_effective_cat | append: ba_delim_cat %}
+    {% unless ba_seen_cat contains ba_cat_seen_check %}
+      {% assign ba_seen_cat = ba_seen_cat | append: ba_effective_cat | append: ba_delim_cat %}
+      {% assign ba_c_clean = ba_effective_cat | replace: '"', '' | strip %}
+      {% if ba_affinity_cat == '' %}{% assign ba_affinity_cat = '"' | append: ba_c_clean | append: '"' %}
+      {% else %}{% assign ba_affinity_cat = ba_affinity_cat | append: ',"' | append: ba_c_clean | append: '"' %}{% endif %}
+      {% if ba_unique_cats_line == '' %}{% assign ba_unique_cats_line = ba_effective_cat %}
+      {% else %}{% assign ba_unique_cats_line = ba_unique_cats_line | append: ba_line_delim | append: ba_effective_cat %}{% endif %}
+    {% endunless %}
+  {% endif %}
+
+{% endfor %}
+
+{% comment %} ── PASS 2: current product being viewed ──────────────────────── {% endcomment %}
+{% comment %} `collection` is already computed earlier in the webhook. Filter it. {% endcomment %}
+{% assign ba_curr_coll = collection | default: '' %}
+{% assign ba_coll_check = ba_coll_delim | append: ba_curr_coll | append: ba_coll_delim %}
+{% unless ba_approved_collections contains ba_coll_check %}{% assign ba_curr_coll = '' %}{% endunless %}
+
+{% comment %} Reconstruct effective category for current product from already-computed l1/l2/l3 {% endcomment %}
+{% assign ba_curr_effective_cat = category_l1 | default: '' %}
+{% if category_l2 != blank %}
+  {% assign ba_curr_effective_cat = ba_curr_effective_cat | append: ' > ' | append: category_l2 %}
+  {% if category_l3 != blank %}
+    {% assign ba_curr_effective_cat = ba_curr_effective_cat | append: ' > ' | append: category_l3 %}
+  {% endif %}
+{% endif %}
+
+{% assign ba_curr_price = price | default: 0 | plus: 0 %}
+
+{% comment %} Append current product to parallel lists {% endcomment %}
+{% if ba_all_colls_line  == '' %}{% assign ba_all_colls_line  = ba_curr_coll %}
+{% else %}{% assign ba_all_colls_line  = ba_all_colls_line  | append: ba_line_delim | append: ba_curr_coll %}{% endif %}
+{% if ba_all_cats_line   == '' %}{% assign ba_all_cats_line   = ba_curr_effective_cat %}
+{% else %}{% assign ba_all_cats_line   = ba_all_cats_line   | append: ba_line_delim | append: ba_curr_effective_cat %}{% endif %}
+{% if ba_all_prices_line == '' %}{% assign ba_all_prices_line = ba_curr_price %}
+{% else %}{% assign ba_all_prices_line = ba_all_prices_line | append: ba_line_delim | append: ba_curr_price %}{% endif %}
+
+{% if ba_curr_coll != blank %}
+  {% assign ba_coll_seen_check = ba_delim_coll | append: ba_curr_coll | append: ba_delim_coll %}
+  {% unless ba_seen_coll contains ba_coll_seen_check %}
+    {% assign ba_seen_coll = ba_seen_coll | append: ba_curr_coll | append: ba_delim_coll %}
+    {% assign ba_c_clean = ba_curr_coll | replace: '"', '' | strip %}
+    {% if ba_affinity_coll == '' %}{% assign ba_affinity_coll = '"' | append: ba_c_clean | append: '"' %}
+    {% else %}{% assign ba_affinity_coll = ba_affinity_coll | append: ',"' | append: ba_c_clean | append: '"' %}{% endif %}
+    {% if ba_unique_colls_line == '' %}{% assign ba_unique_colls_line = ba_curr_coll %}
+    {% else %}{% assign ba_unique_colls_line = ba_unique_colls_line | append: ba_line_delim | append: ba_curr_coll %}{% endif %}
+  {% endunless %}
+{% endif %}
+
+{% if ba_curr_effective_cat != blank %}
+  {% assign ba_cat_seen_check = ba_delim_cat | append: ba_curr_effective_cat | append: ba_delim_cat %}
+  {% unless ba_seen_cat contains ba_cat_seen_check %}
+    {% assign ba_seen_cat = ba_seen_cat | append: ba_curr_effective_cat | append: ba_delim_cat %}
+    {% assign ba_c_clean = ba_curr_effective_cat | replace: '"', '' | strip %}
+    {% if ba_affinity_cat == '' %}{% assign ba_affinity_cat = '"' | append: ba_c_clean | append: '"' %}
+    {% else %}{% assign ba_affinity_cat = ba_affinity_cat | append: ',"' | append: ba_c_clean | append: '"' %}{% endif %}
+    {% if ba_unique_cats_line == '' %}{% assign ba_unique_cats_line = ba_curr_effective_cat %}
+    {% else %}{% assign ba_unique_cats_line = ba_unique_cats_line | append: ba_line_delim | append: ba_curr_effective_cat %}{% endif %}
+  {% endunless %}
+{% endif %}
+
+{% comment %} ── Mode: top_browse_collection (most frequent, price tie-break) ─ {% endcomment %}
+{% assign ba_all_colls_array   = ba_all_colls_line   | split: ba_line_delim %}
+{% assign ba_all_cats_array    = ba_all_cats_line    | split: ba_line_delim %}
+{% assign ba_all_prices_array  = ba_all_prices_line  | split: ba_line_delim %}
+{% assign ba_unique_colls_array = ba_unique_colls_line | split: ba_line_delim %}
+{% assign ba_unique_cats_array  = ba_unique_cats_line  | split: ba_line_delim %}
+
+{% assign ba_max_coll_count      = 0 %}
+{% assign ba_top_coll_total_price = 0 %}
+{% assign ba_top_coll            = '' %}
+{% for ba_col in ba_unique_colls_array %}
+  {% if ba_col == blank %}{% continue %}{% endif %}
+  {% assign ba_coll_count       = 0 %}
+  {% assign ba_coll_total_price = 0 %}
+  {% for ba_c in ba_all_colls_array %}
+    {% if ba_c == ba_col %}
+      {% assign ba_coll_count       = ba_coll_count       | plus: 1 %}
+      {% assign ba_coll_total_price = ba_coll_total_price | plus: ba_all_prices_array[forloop.index0] %}
+    {% endif %}
+  {% endfor %}
+  {% if ba_coll_count > ba_max_coll_count %}
+    {% assign ba_max_coll_count       = ba_coll_count %}
+    {% assign ba_top_coll_total_price = ba_coll_total_price %}
+    {% assign ba_top_coll             = ba_col %}
+  {% elsif ba_coll_count == ba_max_coll_count and ba_coll_total_price > ba_top_coll_total_price %}
+    {% assign ba_top_coll_total_price = ba_coll_total_price %}
+    {% assign ba_top_coll             = ba_col %}
+  {% endif %}
+{% endfor %}
+
+{% assign ba_max_cat_count       = 0 %}
+{% assign ba_top_cat_total_price  = 0 %}
+{% assign ba_top_cat              = '' %}
+{% for ba_cat in ba_unique_cats_array %}
+  {% if ba_cat == blank %}{% continue %}{% endif %}
+  {% assign ba_cat_count        = 0 %}
+  {% assign ba_cat_total_price  = 0 %}
+  {% for ba_c in ba_all_cats_array %}
+    {% if ba_c == ba_cat %}
+      {% assign ba_cat_count        = ba_cat_count        | plus: 1 %}
+      {% assign ba_cat_total_price  = ba_cat_total_price  | plus: ba_all_prices_array[forloop.index0] %}
+    {% endif %}
+  {% endfor %}
+  {% if ba_cat_count > ba_max_cat_count %}
+    {% assign ba_max_cat_count       = ba_cat_count %}
+    {% assign ba_top_cat_total_price = ba_cat_total_price %}
+    {% assign ba_top_cat             = ba_cat %}
+  {% elsif ba_cat_count == ba_max_cat_count and ba_cat_total_price > ba_top_cat_total_price %}
+    {% assign ba_top_cat_total_price = ba_cat_total_price %}
+    {% assign ba_top_cat             = ba_cat %}
+  {% endif %}
+{% endfor %}
+
+{% assign ba_top_coll_clean = ba_top_coll | replace: '"', '' | strip %}
+{% assign ba_top_cat_clean  = ba_top_cat  | replace: '"', '' | strip %}
+
+{% comment %}
+================================================================================
+INSERTION POINT — add the four lines below to the `attributes` JSON object
+in the existing Product Viewed webhook, alongside `recently_browsed_products`.
+
+Example of where to insert (just before the closing `}` of the attributes object):
+
+  "recently_browsed_products": [ ... ],
+  "browse_affinity_collections": [{{ ba_affinity_coll }}],
+  "browse_affinity_categories":  [{{ ba_affinity_cat }}],
+  "top_browse_collection":       "{{ ba_top_coll_clean }}",
+  "top_browse_category":         "{{ ba_top_cat_clean }}"
+}
+
+Note: if ba_affinity_coll / ba_affinity_cat are blank (no approved collections/
+categories in the current browse window), the JSON arrays will be empty ([]).
+Braze will write an empty array to the profile, which is fine — canvas audience
+filters checking "is not blank" on string arrays treat [] as blank.
+================================================================================
+{% endcomment %}

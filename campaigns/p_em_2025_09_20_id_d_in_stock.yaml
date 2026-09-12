@@ -1,0 +1,63 @@
+id: dddb0781-c931-46dd-8daf-79f023fdfa94
+name: P_EM_2025_09_20_ID_D_In_Stock
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: dddb0781-c931-46dd-8daf-79f023fdfa94
+dates:
+  send_date: '2025-09-20'
+  inferred_send_type: local_time
+  first_sent: '2025-09-19T19:54:01+00:00'
+  last_sent: '2025-09-20T17:15:15+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: e2f9c322-035b-44e1-95e2-fabc2342087d
+  channel: email
+  name: Variant 1
+  subject: Patience is overrated…
+  preheader: Claim dibs on in-stock pieces on sale
+- id: b91db111-e84a-4706-ae68-cb3b78878769
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 203023
+  total_delivered: 199071
+  total_opens: 98859
+  total_clicks: 979
+  open_rate: 0.4869
+  click_rate: 0.0048
+  total_revenue: 134177.0
+  total_bounces: 6
+  total_unsubscribes: 336
+  ga4:
+    sessions: 1433
+    purchases: 5
+    revenue: 9525.84
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.868298'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-holiday-ready-sale-2025-09-18
+    name: Holiday-Ready Sale
+    start_date: '2025-09-18'
+    end_date: '2025-09-30'
+    discount: 20% off sitewide
+    type: null
+  primary_sale:
+    id: id-holiday-ready-sale-2025-09-18
+    name: Holiday-Ready Sale
+    start_date: '2025-09-18'
+    end_date: '2025-09-30'
+    discount: 20% off sitewide
+    type: null
+  sale_name: Holiday-Ready Sale
+  sale_discount: 20% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:40.038600'
+schedule_type: time_based

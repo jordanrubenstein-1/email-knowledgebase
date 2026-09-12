@@ -1,0 +1,24 @@
+id: 495d9cec-138f-90c6-251a-a0ffad0fd137
+name: Designer Reassignment (Keep Current Phase) System Email
+brand: HAV
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 495d9cec-138f-90c6-251a-a0ffad0fd137
+dates:
+  first_sent: '2024-08-23T20:00:00+00:00'
+  last_sent: '2026-03-25T22:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: 8b54a134-5cd0-41ef-ad6b-a38708f565ba
+  channel: email
+  name: Variant 1
+  subject: A new designer has been assigned to you!
+- id: 5abfdc3b-4cf9-42a7-aeb2-1c5f14de59fa
+  channel: other
+  name: Control Group
+performance_summary: {}
+schedule_type: api_triggered
+_filename: designer-reassignment-keep-current-phase-system-email.yaml

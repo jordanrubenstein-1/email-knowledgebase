@@ -1,0 +1,130 @@
+id: 943049ee-dc59-4e6d-b236-7e5746f87675
+name: P_EM_2025_11_14_CZ_D_PR_Black_Friday_Early_Access_EA
+brand: CZ
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 943049ee-dc59-4e6d-b236-7e5746f87675
+dates:
+  send_date: '2025-11-14'
+  inferred_send_type: scheduled
+  first_sent: '2025-11-14T04:34:46+00:00'
+  last_sent: '2025-11-14T17:17:46+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale/bfcm
+- sale_feat
+sends:
+- id: f51daf6e-203c-4326-8820-dbaf24bc85b1
+  channel: email
+  name: Variant 1
+  subject: 'Early Access: The Best Sale in Our History'
+  preheader: For the first time ever, claim 25% off everything.
+  html_file: html/p_em_2025_11_14_cz_d_pr_black_friday_early_access_ea.html
+  screenshot: screenshots/p_em_2025_11_14_cz_d_pr_black_friday_early_access_ea.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691602de887e750065457325/original.png?1763050206
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6916029f203dd000724195ba/original.png?1763050142
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6916025375f6b5007251529f/original.gif?1763050067
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691602cc02f38b006371b092/original.png?1763050188
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691602ba8b6ccf00721569f1/original.png?1763050169
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691602999e01b00063c87520/original.png?1763050137
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691602d7ed07d800645cf496/original.png?1763050199
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691602c5fe1e2e006379ba0a/original.png?1763050181
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691602b025d04d0065cbc601/original.png?1763050159
+- id: 6bfddd57-bf8e-4a75-9770-4027607a93ed
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 111391
+  total_delivered: 111201
+  total_opens: 57461
+  total_clicks: 1845
+  open_rate: 0.5158
+  click_rate: 0.0166
+  total_bounces: 6
+  total_unsubscribes: 116
+  ga4:
+    sessions: 2877
+    purchases: 99
+    revenue: 37076.26
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.857021'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-black-friday-cyber-monday-2025-11-17
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-14'
+    end_date: '2025-12-01'
+    discount: '11/14 - 11/16 Early Access
+
+      11/17 - 12/1 Main Event
+
+      11/28 Black Friday Fund
+
+
+      25% Off Sitewide
+
+      Up to 70% Off Archive Sale
+
+      (Fresh Cuts of go forward, overstocked products)'
+    type: null
+  - id: cz-black-friday-cyber-monday-ea-2025-11-14
+    name: Black Friday / Cyber Monday (EA)
+    start_date: '2025-11-14'
+    end_date: '2025-11-16'
+    discount: '11/14 - 11/16 Early Access
+
+      11/17 - 12/1 Main Event
+
+      11/28 Black Friday Fund
+
+
+      25% Off Sitewide
+
+      Up to 70% Off Archive Sale
+
+      (Fresh Cuts of go forward, overstocked products)'
+    type: null
+  primary_sale:
+    id: cz-black-friday-cyber-monday-2025-11-17
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-14'
+    end_date: '2025-12-01'
+    discount: '11/14 - 11/16 Early Access
+
+      11/17 - 12/1 Main Event
+
+      11/28 Black Friday Fund
+
+
+      25% Off Sitewide
+
+      Up to 70% Off Archive Sale
+
+      (Fresh Cuts of go forward, overstocked products)'
+    type: null
+  sale_name: Black Friday / Cyber Monday
+  sale_discount: '11/14 - 11/16 Early Access
+
+    11/17 - 12/1 Main Event
+
+    11/28 Black Friday Fund
+
+
+    25% Off Sitewide
+
+    Up to 70% Off Archive Sale
+
+    (Fresh Cuts of go forward, overstocked products)'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:35.690380'
+schedule_type: time_based

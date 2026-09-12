@@ -1,0 +1,30 @@
+id: dbee7d44-1a7a-4fdd-b985-28bd8b68f03c
+name: 20250102_EOY-Last-Chance_SMS
+brand: BUR
+channel: sms
+category: reminder
+type: announcement
+theme: null
+braze_id: dbee7d44-1a7a-4fdd-b985-28bd8b68f03c
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2025-01-02T15:11:33+00:00'
+  last_sent: '2025-01-03T00:00:40+00:00'
+tags: []
+sends:
+- id: 655df404-110d-457b-ac2b-e1a5e5b9573d
+  channel: other
+  name: Variant 1
+- id: aa1c0a68-63a9-4d91-8569-7aa1937fd3df
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 184
+    purchases: 3
+    revenue: 1403.37
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.354135'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

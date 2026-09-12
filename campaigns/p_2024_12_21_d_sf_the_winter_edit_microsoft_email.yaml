@@ -1,0 +1,56 @@
+id: 413b01d9-6fb4-4327-80c8-c7f24512bf03
+name: P_2024_12_21_D_SF_The_Winter_Edit_Microsoft_Email
+brand: STF
+channel: email
+category: editorial
+type: seasonal
+theme: winter
+braze_id: 413b01d9-6fb4-4327-80c8-c7f24512bf03
+dates:
+  send_date: '2024-12-21'
+  inferred_send_type: scheduled
+  first_sent: '2024-12-21T00:59:17+00:00'
+  last_sent: '2024-12-21T15:30:05+00:00'
+tags: []
+sends:
+- id: b562d67c-65f7-4d95-ac3f-0bf2d739eb91
+  channel: email
+  name: Variant 1
+  subject: Styles We’re Loving This Winter 🤍
+  preheader: explore our winter edit
+  html_file: html/p_2024_12_21_d_sf_the_winter_edit_microsoft_email.html
+  screenshot: screenshots/p_2024_12_21_d_sf_the_winter_edit_microsoft_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6765e17170298400730d98b3/original.gif?1734730097
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6765e1b1e08c570065d32348/original.gif?1734730161
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6765dffd2d23e6007352e347/original.gif?1734729725
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6765dfba70298400650d9a20/original.gif?1734729658
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6761f86787684900639f8898/original.jpg?1734473830
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6761f836d9e3990065113bb5/original.gif?1734473782
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676611205d2de10065555d29/original.gif?1734742304
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6761f893d9bc370065a5693a/original.gif?1734473875
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6765e09f9f549a0066c08dae/original.gif?1734729887
+- id: 11c933e5-30cc-48f4-bd80-d4d4677a3e31
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 129
+  total_delivered: 129
+  total_opens: 59
+  total_clicks: 0
+  open_rate: 0.4574
+  click_rate: 0.0
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.826301'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:35.170124'
+schedule_type: time_based

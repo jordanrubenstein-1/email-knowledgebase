@@ -1,0 +1,46 @@
+id: f1aa5a2e-d719-4450-b548-680de23da9ca
+name: P_2024_10_22_PT_SF_PR_OCTOBER_PROMO_Sale_Last_Call_PM_Email
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: f1aa5a2e-d719-4450-b548-680de23da9ca
+dates:
+  send_date: '2024-10-22'
+  inferred_send_type: local_time
+  first_sent: '2024-10-22T02:00:03+00:00'
+  last_sent: '2024-10-22T23:00:19+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: 5d8a9d47-17c1-478b-b815-a948e41fdca9
+  channel: email
+  name: Variant 1
+  subject: 'Don’t Snooze: 25% Off Ends Tonight'
+  preheader: sleep soundly knowing you scored the best deals
+- id: 8904fa26-7dc9-40cd-aab1-83c33ddfc419
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 9672
+  total_delivered: 9622
+  total_opens: 3135
+  total_clicks: 76
+  open_rate: 0.3241
+  click_rate: 0.0079
+  total_revenue: 2127.35
+  total_unsubscribes: 5
+  ga4:
+    sessions: 72
+    purchases: 3
+    revenue: 571.34
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.127952'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.969123'
+schedule_type: time_based

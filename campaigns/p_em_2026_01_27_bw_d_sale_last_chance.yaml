@@ -1,0 +1,43 @@
+id: d9dd1846-3169-49df-adfb-c2797b266478
+name: P_EM_2026_01_27_BW_D_Sale_Last_Chance
+brand: BUR
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: d9dd1846-3169-49df-adfb-c2797b266478
+dates:
+  send_date: '2026-01-27'
+  inferred_send_type: local_time
+  first_sent: '2026-01-26T20:53:07+00:00'
+  last_sent: '2026-01-27T19:01:57+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: eb15cbda-9e1f-40c0-acb3-287c8604d148
+  channel: email
+  name: Variant 1
+  subject: FINAL HOURS TO SAVE UP TO 35%
+  preheader: Don’t miss out on sitewide savings
+- id: af10a609-7013-4e86-a86c-be412375ab93
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 236134
+  total_delivered: 235348
+  total_opens: 117426
+  total_clicks: 342
+  open_rate: 0.4973
+  click_rate: 0.0014
+  total_revenue: 63244.0
+  total_bounces: 3
+  total_unsubscribes: 206
+  ga4:
+    sessions: 213
+    purchases: 3
+    revenue: 1923.1
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.428284'
+    source: snowflake
+    channel: email
+schedule_type: time_based

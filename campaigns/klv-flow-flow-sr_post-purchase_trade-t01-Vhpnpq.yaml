@@ -1,0 +1,56 @@
+id: klaviyo-Vhpnpq
+name: post-purchase-trade-email-01
+brand: TE
+channel: email
+category: other
+type: announcement
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: RGxBns
+canvas_name: flow-sr_post-purchase_trade
+flow_type: post_purchase
+sequence_position: 1
+dates:
+  created: '2025-04-08'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-08'
+  last_sent: '2025-04-08'
+sends:
+- id: Vhpnpq
+  channel: email
+  name: Message
+  subject: What else can we help you source?
+  preheader: Your first order is just the beginning…
+  html_file: html/klv-flow-flow-sr_post-purchase_trade-t01-Vhpnpq.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/7088a35f-a032-4f4e-93d2-cf46795e5af4.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/df1f6988-9da1-4808-ae26-04845abb6de2.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/38cd3171-3bb3-4f91-bd58-1ed80cd62436.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/bc07061f-27ff-43b3-885c-c000a581556c.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/992eb331-133e-47ea-8689-3d2601597eec.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/fe09cc8e-ec63-48bd-88ca-ada3526526c5.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/2cf09206-0b15-4240-a15d-b3f948aadc8b.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/e34f3f49-3942-45b7-8ce6-0dced76d596c.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/1d6577c8-9f94-41fc-b93c-c22289ff77c7.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/bbf2d7b4-ba49-4162-afac-820c6b2b5ecf.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: Vhpnpq
+structure:
+  image_count: 17
+  link_count: 23
+  has_gif: false
+  hero_width: 100
+  layout_type: product_grid

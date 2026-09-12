@@ -1,0 +1,31 @@
+id: ceaed7cc-48f7-4a2b-84e3-4e89730677eb
+name: P_PUSH_2026_03_24_HAV_CONV_Birthday_Sale_Last_Day
+brand: HAV
+channel: push
+category: reminder
+type: sale
+theme: null
+braze_id: ceaed7cc-48f7-4a2b-84e3-4e89730677eb
+dates:
+  send_date: '2026-03-24'
+  first_sent: '2026-03-24T01:08:26+00:00'
+  last_sent: '2026-03-25T01:02:33+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: aae72ed2-6140-4112-bd37-21a488446787
+  channel: push
+  name: Variant 1
+- id: 9dad3402-8259-405b-8aca-d663d07ba6e7
+  channel: push
+  name: Control Group
+performance_summary:
+  total_sends: 46203
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_bounces: 245
+schedule_type: time_based
+_filename: p_push_2026_03_24_hav_conv_birthday_sale_last_day.yaml

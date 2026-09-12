@@ -1,0 +1,33 @@
+id: 5a0d2648-f57b-4215-8922-ad43eff3171a
+name: P_2024_11_25_HAV_CONV_BFCM_Sale_Reminder_Bedroom_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: black_friday
+braze_id: 5a0d2648-f57b-4215-8922-ad43eff3171a
+dates:
+  send_date: '2024-11-25'
+  first_sent: '2024-11-25T04:35:35+00:00'
+  last_sent: '2024-11-25T17:15:08+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 47098922-b6a1-4441-ae18-9fb45374e2ca
+  channel: email
+  name: Variant 1
+  subject: It Won’t Get Better Than This
+  preheader: Don’t sleep on up to 80% off, plus an extra 5% on select items 😴
+- id: 01f2c9c1-6a91-4cb9-b690-48ea0a686def
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 35503
+  total_delivered: 35340
+  total_opens: 19557
+  total_clicks: 255
+  open_rate: 0.5509
+  click_rate: 0.0072
+  total_unsubscribes: 55
+schedule_type: time_based
+_filename: p_2024_11_25_hav_conv_bfcm_sale_reminder_bedroom_email.yaml

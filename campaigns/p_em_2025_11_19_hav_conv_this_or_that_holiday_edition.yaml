@@ -1,0 +1,33 @@
+id: 451de8ba-e305-48a5-9780-49651b9bb960
+name: P_EM_2025_11_19_HAV_Conv_This_or_That_Holiday_Edition
+brand: HAV
+channel: email
+category: editorial
+type: seasonal
+theme: christmas
+braze_id: 451de8ba-e305-48a5-9780-49651b9bb960
+dates:
+  send_date: '2025-11-19'
+  first_sent: '2025-11-18T23:54:20+00:00'
+  last_sent: '2025-11-19T19:15:53+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 33657e33-6fd7-469e-ae80-ae036b64f5be
+  channel: email
+  name: Variant 1
+  subject: 'This or That: Holiday Edition'
+  preheader: Designer-approved ideas + our best sale of the year
+- id: 24f738ad-3688-4ae9-bf9a-14272a3daa7c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 43471
+  total_delivered: 43406
+  total_opens: 21898
+  total_clicks: 203
+  open_rate: 0.5037
+  click_rate: 0.0047
+  total_unsubscribes: 55
+schedule_type: time_based
+_filename: p_em_2025_11_19_hav_conv_this_or_that_holiday_edition.yaml

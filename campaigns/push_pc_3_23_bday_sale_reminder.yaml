@@ -1,0 +1,23 @@
+id: 1f74436a-2d7b-4201-8d1b-a4c9ddf13773
+name: PUSH_PC_3_23_Bday_Sale_Reminder
+brand: HAV
+channel: push
+category: reminder
+type: sale
+theme: null
+braze_id: 1f74436a-2d7b-4201-8d1b-a4c9ddf13773
+dates:
+  first_sent: '2025-03-22T21:15:06+00:00'
+  last_sent: '2025-03-23T21:10:01+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 506856cb-2945-45c4-9840-bb80b60901f0
+  channel: push
+  name: Variant 1
+- id: 40ba569e-f571-4805-b275-22596f219989
+  channel: push
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: push_pc_3_23_bday_sale_reminder.yaml

@@ -1,0 +1,28 @@
+id: 5eca624c-8c71-45a8-9296-969b8247ddc1
+name: P_SMS_2026_04_07_BW_Sun_Out_Sale_Mid_Sale_Reminder
+brand: BUR
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: 5eca624c-8c71-45a8-9296-969b8247ddc1
+dates:
+  send_date: '2026-04-07'
+  last_sent: '2026-04-07'
+tags: []
+sends:
+- id: 9f7eb9c3-1558-47ba-a025-9fbb4d5a9de0
+  channel: sms
+  name: Variant 1
+- id: 49554535-37f1-4822-b647-15264668a788
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 7603
+  total_delivered: 7336
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 11985.0
+schedule_type: time_based

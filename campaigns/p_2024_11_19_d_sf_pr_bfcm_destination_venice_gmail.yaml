@@ -1,0 +1,75 @@
+id: 6b29ec7f-4d79-4ca6-a344-0d9cd7b2aae6
+name: P_2024_11_19_D_SF_PR_BFCM_Destination_Venice_Gmail_Email
+brand: STF
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: 6b29ec7f-4d79-4ca6-a344-0d9cd7b2aae6
+dates:
+  send_date: '2024-11-19'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-19T03:49:18+00:00'
+  last_sent: '2024-11-19T15:30:06+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: 8e4e7632-a2c0-40c4-9182-9dce6752b561
+  channel: email
+  name: Variant 1
+  subject: 'Next stop: Venice'
+  preheader: bring Italy home with you
+  html_file: html/p_2024_11_19_d_sf_pr_bfcm_destination_venice_gmail_email.html
+  screenshot: screenshots/p_2024_11_19_d_sf_pr_bfcm_destination_venice_gmail_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673bd8488ec83d00660f938c/original.gif?1731975240
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673b95076b8cc30065c0611d/original.gif?1731958023
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673bd84289dfd50074ac606e/original.gif?1731975234
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673b9dadde61d4007471bacb/original.gif?1731960237
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673b9e40c18ebc0073d9fa49/original.gif?1731960384
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673b951925b54b0064fa4e56/original.gif?1731958041
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673bd7de78e14a0064043826/original.gif?1731975134
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673b9d8e4c63df0065745681/original.gif?1731960206
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673b9e671d359c006505c7a2/original.gif?1731960423
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673bd7f2a864ff0066102ea2/original.gif?1731975154
+- id: f65feb88-0cb3-4dd0-b3ac-13f56b6335be
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 2393
+  total_delivered: 2393
+  total_opens: 1231
+  total_clicks: 56
+  open_rate: 0.5144
+  click_rate: 0.0234
+  total_revenue: 2091.0
+  total_unsubscribes: 8
+  ga4:
+    sessions: 43
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.705396'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: stf-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:31.664859'
+schedule_type: time_based

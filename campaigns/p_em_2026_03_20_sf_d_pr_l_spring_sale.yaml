@@ -1,0 +1,48 @@
+id: 80384e20-2675-41d7-9243-6d4e04cfd200
+name: P_EM_2026_03_20_SF_D_PR_L_Spring_Sale
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: spring
+braze_id: 80384e20-2675-41d7-9243-6d4e04cfd200
+dates:
+  send_date: '2026-03-20'
+  inferred_send_type: local_time
+  first_sent: '2026-03-19T17:05:42+00:00'
+  last_sent: '2026-03-20T17:01:26+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- print
+sends:
+- id: 4b1be972-c8c2-46fe-8c48-337cf788b246
+  channel: email
+  name: Variant 1
+  subject: The Spring Event Starts Now
+  preheader: up to 25% off the pieces that define the season
+  html_file: html/p_em_2026_03_20_sf_d_pr_l_spring_sale.html
+  screenshot: screenshots/p_em_2026_03_20_sf_d_pr_l_spring_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69baf205e432e90064c69dc5/original.gif?1773859333
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69baf23c263db20063ed2382/original.png?1773859387
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69baf34f9743290072a1372f/original.png?1773859662
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69baf2569743290063a139d7/original.png?1773859414
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69baf2256be715006334206e/original.png?1773859365
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69baf246aa69420064fb41bd/original.png?1773859397
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69baf230ee9fd30073027cdc/original.png?1773859376
+- id: 80c26a47-f6cd-4f28-9b1f-a6be542d0799
+  channel: email
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 241
+    purchases: 5
+    revenue: 2269.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.033140'
+    source: snowflake
+    channel: email
+schedule_type: time_based

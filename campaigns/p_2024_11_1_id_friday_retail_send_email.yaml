@@ -1,0 +1,51 @@
+id: e83567f3-a46b-4b46-bde5-137b3766e786
+name: P_2024_11_1_ID_Friday_Retail_Send_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: e83567f3-a46b-4b46-bde5-137b3766e786
+dates:
+  send_date: '2024-11-01'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-01T05:07:22+00:00'
+  last_sent: '2024-11-01T17:15:06+00:00'
+tags: []
+sends:
+- id: 58ee90bd-ea31-4a42-88ec-f59af990575b
+  channel: email
+  name: NEW
+  subject: FREE design help in time for the holidays
+  preheader: Make your appointment ASAP
+- id: a5756ff4-4580-4c56-9397-bf570b83a658
+  channel: other
+  name: Control Group
+- id: 80335be1-53d0-4c69-89d3-316bb1fcbc08
+  channel: email
+  name: OLD
+  subject: FREE design help in time for the holidays
+  preheader: Make your appointment ASAP
+performance_summary:
+  total_sends: 60776
+  total_delivered: 60259
+  total_opens: 20962
+  total_clicks: 322
+  open_rate: 0.3449
+  click_rate: 0.0053
+  total_revenue: 94438.0
+  total_bounces: 2
+  total_unsubscribes: 96
+  ga4:
+    sessions: 279
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.371271'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:45.944479'
+schedule_type: time_based

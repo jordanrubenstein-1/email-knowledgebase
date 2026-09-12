@@ -1,0 +1,75 @@
+id: 711b07c2-70f6-4801-a95e-cb082de81b4d
+name: P_2025_05_24_BW_Leather_Highlight
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 711b07c2-70f6-4801-a95e-cb082de81b4d
+dates:
+  send_date: '2025-05-24'
+  inferred_send_type: local_time
+  first_sent: '2025-05-23T18:21:43+00:00'
+  last_sent: '2025-05-24T17:15:24+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: dbe779ea-e095-4183-92e7-ffb9d6cd543f
+  channel: email
+  name: Variant 1
+  subject: 25% Off Leather Styles You’ll Love
+  preheader: Never been a better time to invest in leather.
+- id: 014e4162-8534-40d2-a22e-a397d6cbd793
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 259849
+  total_delivered: 257934
+  total_opens: 116248
+  total_clicks: 311
+  open_rate: 0.4474
+  click_rate: 0.0012
+  total_revenue: 174325.25
+  total_bounces: 2
+  total_unsubscribes: 91
+  ga4:
+    sessions: 183
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.645259'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:32.504916'
+schedule_type: time_based

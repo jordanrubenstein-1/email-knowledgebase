@@ -1,0 +1,36 @@
+id: 948f6942-1e5c-41b4-b64d-216bd94eb6b2
+name: P_EM_2026_04_22_ID_PC_PT_Trade_Cross_Brand_Version_B_Treatment_Reminder_1
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 948f6942-1e5c-41b4-b64d-216bd94eb6b2
+dates:
+  send_date: '2026-04-22'
+  inferred_send_type: local_time
+  first_sent: '2026-04-22T02:42:17+00:00'
+  last_sent: '2026-04-22T19:01:11+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 7d92256b-b91d-476f-8c8b-e7daa46f2737
+  channel: email
+  name: Variant 1
+  subject: 'Reminder: Your exclusive 35% off welcome offer for Interior Define is
+    still available'
+  preheader: A little something for our valued trade partners.
+- id: cdc65c4e-230f-4229-9e7e-002c75bf1aa8
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 1382
+  total_delivered: 1363
+  total_opens: 663
+  total_clicks: 8
+  open_rate: 0.4797
+  click_rate: 0.0058
+  total_revenue: 6830.0
+  total_unsubscribes: 3
+_filename: p_em_2026_04_22_id_pc_pt_trade_cross_brand_version_b_treatme.yaml
+schedule_type: time_based

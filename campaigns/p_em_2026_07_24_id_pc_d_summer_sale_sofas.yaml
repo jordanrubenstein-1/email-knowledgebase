@@ -1,0 +1,34 @@
+id: 1b117f1b-d6a4-4ad8-8a5c-58b2de5a7c4b
+name: P_EM_2026_07_24_ID_PC_D_Summer_Sale_Sofas
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: summer
+braze_id: 1b117f1b-d6a4-4ad8-8a5c-58b2de5a7c4b
+dates:
+  send_date: '2026-07-24'
+  last_sent: '2026-07-24'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: ae9e4480-2e81-4f42-a96e-d9835f8c6c90
+  channel: email
+  name: Variant 1
+  subject: Sofas on sale. This is not a drill.
+  preheader: Shop 25% off sitewide during the Summer Sale.
+- id: 6dda1b4a-074f-4e22-934c-bcede197b494
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 235613
+  total_delivered: 233971
+  total_opens: 92715
+  total_clicks: 750
+  open_rate: 0.3935
+  click_rate: 0.0032
+  total_revenue: 187927.95
+  total_bounces: 6
+  total_unsubscribes: 181
+schedule_type: time_based
+_filename: p_em_2026_07_24_id_pc_d_summer_sale_sofas.yaml

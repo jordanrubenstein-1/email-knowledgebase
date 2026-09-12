@@ -1,0 +1,47 @@
+id: 98f88087-cb4a-436d-9ffd-d95ff7915d47
+name: Post Purchase
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 98f88087-cb4a-436d-9ffd-d95ff7915d47
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-04-05T16:00:00+00:00'
+  last_sent: '2026-06-14T14:00:00+00:00'
+tags: []
+sends:
+- id: 65d89ca3-6cd6-4a3c-913a-99763a66562c
+  channel: email
+  name: TRG_EM_2026_04_ID_D_Post_Purchase_T1_V1
+  subject: It’s All in the Details
+  preheader: The pieces that pull every room together, one layer at a time.
+  step_id: e4345a89-d2c7-4493-b285-e94197579462
+performance_summary:
+  total_entries: 293
+  total_sends: 444
+  total_delivered: 444
+  total_opens: 290
+  total_clicks: 9
+  open_rate: 0.6532
+  click_rate: 0.0203
+  total_revenue: 10602.99
+  total_conversions: 3
+  total_unsubscribes: 1
+canvas_steps:
+- id: aed301ed-6cfc-4c4f-b354-178934f9ee14
+  name: Delay
+  type: delay
+- id: e4345a89-d2c7-4493-b285-e94197579462
+  name: TRG_EM_2026_04_ID_D_Post_Purchase_T1_V1
+  type: message
+  channel: email
+  subject: It’s All in the Details
+  preheader: The pieces that pull every room together, one layer at a time.
+- id: 46a66686-913c-4f02-93a8-937625fff58b
+  name: Email available?
+  type: audience_paths
+_filename: post-purchase-98f88087.yaml

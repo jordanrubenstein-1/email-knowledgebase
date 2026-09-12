@@ -1,0 +1,36 @@
+id: 5ab6ac16-dca5-4e93-9639-f312bd8af7be
+name: P_EM_2026_02_05_HAV_CONV_D_Presidents_Day_Sale_Starts
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 5ab6ac16-dca5-4e93-9639-f312bd8af7be
+dates:
+  send_date: '2026-02-05'
+  first_sent: '2026-02-04T22:18:21+00:00'
+  last_sent: '2026-02-05T17:04:32+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 8c13a46d-a7af-45ea-bb31-e65732f2da0d
+  channel: email
+  name: Variant 1
+  subject: It starts now 🎉
+  preheader: 'Presidents Day savings just dropped: The more you shop, the more you
+    save'
+- id: 18fc0ac5-62fa-44fb-ac7d-3b88b4d2b79b
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 42941
+  total_delivered: 42924
+  total_opens: 22150
+  total_clicks: 154
+  open_rate: 0.5158
+  click_rate: 0.0036
+  total_bounces: 1
+  total_unsubscribes: 49
+schedule_type: time_based
+_filename: p_em_2026_02_05_hav_conv_d_presidents_day_sale_starts.yaml

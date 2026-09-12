@@ -1,0 +1,44 @@
+id: e0f635a0-6e22-4c52-b908-38150aba9917
+name: P_EM_2026_05_03_CZ_PC_D_Meadow_Press_Collection
+brand: CZ
+channel: email
+category: product_launch
+type: announcement
+theme: null
+braze_id: e0f635a0-6e22-4c52-b908-38150aba9917
+dates:
+  send_date: '2026-05-03'
+  inferred_send_type: sto
+  first_sent: '2026-05-02T11:05:37+00:00'
+  last_sent: '2026-05-04T09:30:16+00:00'
+tags:
+- batch and blast
+- collect
+- d2c
+- designed
+- event
+sends:
+- id: 0e0b0915-9d12-447f-9e19-be6a557f0456
+  channel: email
+  name: Variant 1
+  subject: Block-printed florals, pressed by hand
+  preheader: Discover the Meadow Press Collection.
+  html_file: html/p_em_2026_05_03_cz_pc_d_meadow_press_collection.html
+  screenshot: screenshots/p_em_2026_05_03_cz_pc_d_meadow_press_collection.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69efbec139f523007f14e89a/original.png?1777319616
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69efbf7e441bde007d62187a/original.gif?1777319806
+- id: 396bbcae-12b1-4369-aee4-9f25fbfcd266
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 112835
+  total_delivered: 112605
+  total_opens: 56197
+  total_clicks: 821
+  open_rate: 0.498
+  click_rate: 0.0073
+  total_bounces: 15
+  total_unsubscribes: 172
+_filename: p_em_2026_05_03_cz_pc_d_meadow_press_collection.yaml
+schedule_type: time_based

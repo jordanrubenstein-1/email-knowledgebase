@@ -1,0 +1,33 @@
+id: 518c23f3-6359-48d0-bfd3-240272fb888d
+name: P_EM_2025_10_29_HAV_CONV_PT_WAY_DAY_MARKETPLACE
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 518c23f3-6359-48d0-bfd3-240272fb888d
+dates:
+  send_date: '2025-10-29'
+  first_sent: '2025-10-29T19:00:03+00:00'
+  last_sent: '2025-10-29T19:03:14+00:00'
+  inferred_send_type: scheduled
+tags:
+- BLASTS-2025
+sends:
+- id: 94ababfe-d428-4f17-8818-d001c72e9415
+  channel: email
+  name: Variant 1
+  subject: Final hours for extra Way Day savings
+- id: 420577da-ad46-47b5-976b-47a44f1d08c8
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 42577
+  total_delivered: 42552
+  total_opens: 22591
+  total_clicks: 150
+  open_rate: 0.5306
+  click_rate: 0.0035
+  total_unsubscribes: 53
+schedule_type: time_based
+_filename: p_em_2025_10_29_hav_conv_pt_way_day_marketplace.yaml

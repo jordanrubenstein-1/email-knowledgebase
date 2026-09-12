@@ -1,0 +1,35 @@
+id: 1af6ed35-bf00-4da8-9362-c97fdd0dc73a
+name: P_EM_2026_06_05_HAV_CONV_D_Summer_Ready_Flash_Sale_Launch
+brand: HAV
+channel: email
+category: product_launch
+type: sale
+theme: summer
+braze_id: 1af6ed35-bf00-4da8-9362-c97fdd0dc73a
+dates:
+  send_date: '2026-06-05'
+  first_sent: '2026-06-04T20:03:10+00:00'
+  last_sent: '2026-06-05T17:01:18+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 3d91bf60-a596-4688-a889-3b92b9e0fe46
+  channel: email
+  name: Variant 1
+  subject: A little sunshine, a lot of savings
+  preheader: Save up to 15% off during our Summer Ready Flash Sale.
+- id: 52fd00b2-0b97-4816-9b74-3885790cc335
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41784
+  total_delivered: 41736
+  total_opens: 20246
+  total_clicks: 48
+  open_rate: 0.4845
+  click_rate: 0.0011
+  total_bounces: 1
+  total_unsubscribes: 37
+schedule_type: time_based
+_filename: p_em_2026_06_05_hav_conv_d_summer_ready_flash_sale_launch.yaml

@@ -1,0 +1,30 @@
+id: 86bc1451-3900-4ba9-8932-dc9b4560b73a
+name: P_SMS_2026_03_25_ID_SMS_Spring_Sale_Reminder
+brand: ID
+channel: sms
+category: reminder
+type: sale
+theme: spring
+braze_id: 86bc1451-3900-4ba9-8932-dc9b4560b73a
+dates:
+  send_date: '2026-03-25'
+  inferred_send_type: local_time
+  first_sent: '2026-03-25T01:09:06+00:00'
+  last_sent: '2026-03-26T01:02:50+00:00'
+tags: []
+sends:
+- id: b7f46e4a-46f6-48a0-bb3d-3fc5396a8d9a
+  channel: sms
+  name: Variant 1
+- id: 7aad1638-d8c8-489b-9f3f-7440156cb0f1
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 49526
+  total_delivered: 46877
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 14035.0
+schedule_type: time_based

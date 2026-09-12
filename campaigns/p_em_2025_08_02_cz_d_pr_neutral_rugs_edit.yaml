@@ -1,0 +1,64 @@
+id: 273d6bc0-7e40-4b8f-b9ca-633a9082204e
+name: P_EM_2025_08_02_CZ_D_PR_Neutral_Rugs_Edit
+brand: CZ
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 273d6bc0-7e40-4b8f-b9ca-633a9082204e
+dates:
+  send_date: '2025-08-02'
+  inferred_send_type: local_time
+  first_sent: '2025-08-02T00:05:28+00:00'
+  last_sent: '2025-08-02T23:02:23+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- prod
+- rugs
+sends:
+- id: 7d26581c-7ae4-4aa9-a819-87ca49243fd0
+  channel: email
+  name: Variant 1
+  subject: Neutrals, Reimagined.
+  preheader: Effortless tones and handwoven textures to ground any space.
+  html_file: html/p_em_2025_08_02_cz_d_pr_neutral_rugs_edit.html
+  screenshot: screenshots/p_em_2025_08_02_cz_d_pr_neutral_rugs_edit.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688a78ad1c52860076b59519/original.png?1753905324
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688a78c306e641006669820e/original.png?1753905346
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688a78b95b681b0087cf5c31/original.png?1753905337
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688a77e153e52800679e1475/original.png?1753905121
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688a788edf7fca0064d62a23/original.png?1753905294
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688a787c2fb75e008455e374/original.png?1753905275
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688a78623cbeeb00868551b8/original.png?1753905249
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688a789e1c52860066b599bb/original.png?1753905310
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688a78025b681b0067cf57bb/original.png?1753905153
+- id: b493b62e-b23f-4cf6-b779-f664f0fc2b8a
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 100000
+  total_delivered: 99899
+  total_opens: 53212
+  total_clicks: 618
+  open_rate: 0.5321
+  click_rate: 0.0062
+  total_revenue: 51108.89
+  total_bounces: 5
+  total_unsubscribes: 108
+  ga4:
+    sessions: 660
+    purchases: 5
+    revenue: 4635.36
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.607807'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.445901'
+schedule_type: time_based

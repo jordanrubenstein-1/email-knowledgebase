@@ -1,0 +1,35 @@
+id: 1d34d47a-8ee2-43da-890e-d64382ee3d78
+name: P_EM_2026_03_27_ID_PT_PR_Spring_Refresh_Sweetener
+brand: ID
+channel: email
+category: other
+type: seasonal
+theme: spring
+braze_id: 1d34d47a-8ee2-43da-890e-d64382ee3d78
+dates:
+  send_date: '2026-03-27'
+  inferred_send_type: local_time
+  first_sent: '2026-03-26T17:22:12+00:00'
+  last_sent: '2026-03-27T17:15:56+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: d1a65eaf-ce85-4974-8934-1eaa96ae0933
+  channel: email
+  name: Variant 1
+  subject: We just turned up the savings
+  preheader: NOW up to 30% off sitewide.
+- id: abc3d6f2-68d0-472b-8427-c192a95820eb
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 220983
+  total_delivered: 219056
+  total_opens: 93082
+  total_clicks: 610
+  open_rate: 0.4212
+  click_rate: 0.0028
+  total_revenue: 742456.67
+  total_bounces: 12
+  total_unsubscribes: 323
+schedule_type: time_based

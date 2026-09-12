@@ -1,0 +1,56 @@
+id: klaviyo-WvLaRG
+name: TRG_EM_2026_02_TI_D_Welcome_T3_V2
+brand: TI
+channel: email
+category: other
+type: product_launch
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: SmPgUp
+canvas_name: Welcome Series - NEW
+flow_type: welcome_series
+sequence_position: 29
+dates:
+  created: '2023-04-28'
+  inferred_send_type: sto
+  first_sent: '2023-04-28'
+  last_sent: '2026-06-24'
+sends:
+- id: WvLaRG
+  channel: email
+  name: Message
+  subject: Design it your way (because why settle?)
+  preheader: Shape, fabric, finish — all fully customizable.
+  html_file: html/klv-flow-welcome-series-new-t29-WvLaRG.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/1dc9c011-dbea-42df-8d02-bb18d6125a4c.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/9eeaef97-944e-4e36-9ac7-62c625e3442b.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/c865c43a-fdc9-4c8b-b3aa-929bc6907df9.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/426edc11-fd60-4eab-8dfc-8dcf841da6e9.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/d30f3777-ee95-4e26-aa77-2c7aeca0f254.gif
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/d9bdffa5-591f-493b-8950-7b7ac4b3e8c8.gif
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/6b94c76a-b6c4-4fdd-ac00-6490c70e374a.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/4319a6f9-b231-4700-b6cd-c23cc5bbf9a9.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/8dd4f1ba-d9ac-489a-83b3-53c02e42fe60.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/3efedaa5-cb0f-443e-8696-2c13f839c3ba.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: WvLaRG
+structure:
+  image_count: 21
+  link_count: 22
+  has_gif: true
+  hero_width: 600
+  layout_type: product_grid

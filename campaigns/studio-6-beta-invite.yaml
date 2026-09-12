@@ -1,0 +1,32 @@
+id: 5b449857-2b74-4075-8f7f-579cdc889c88
+name: Studio 6 Beta Invite
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 5b449857-2b74-4075-8f7f-579cdc889c88
+dates:
+  first_sent: '2026-05-07T21:00:00+00:00'
+  last_sent: '2026-05-13T20:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: e3bafeef-9e65-42db-ac5e-f3556fbefb2c
+  channel: email
+  name: Variant 1
+  subject: 'You''re invited: early access to Studio 6'
+- id: 6b17d4a4-0e77-44db-bbd5-00b854c16431
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 9921
+  total_delivered: 9737
+  total_opens: 4910
+  total_clicks: 223
+  open_rate: 0.4949
+  click_rate: 0.0225
+  total_bounces: 6
+  total_unsubscribes: 64
+schedule_type: api_triggered
+_filename: studio-6-beta-invite.yaml

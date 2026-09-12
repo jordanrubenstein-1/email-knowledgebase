@@ -1,0 +1,58 @@
+id: klaviyo-XHBhsj
+name: '1. Order Delivered Test #1 January 17, 2024 Variation A'
+brand: TI
+channel: email
+category: other
+type: announcement
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: RYqsRt
+canvas_name: '[NEW] Order Delivered: NONSWATCH Post Purchase Flow (AfterShip)'
+flow_type: post_purchase
+sequence_position: 17
+dates:
+  created: '2021-08-04'
+  first_sent: '2021-08-04'
+sends:
+- id: XHBhsj
+  channel: email
+  name: Message
+  subject: Your order from The Inside has arrived.
+  preheader: Thank you!
+  html_file: html/klv-flow-new-order-delivered-nonswatch--t17-XHBhsj.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/ba3f8bcf-4b7d-48d2-9c1b-19d9ac9773c4.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/25fffe86-5a36-44a8-8488-4116fd8c459a.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/20a1be59-7273-415f-b46b-c9087a5912f6.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/8dd4f1ba-d9ac-489a-83b3-53c02e42fe60.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/3efedaa5-cb0f-443e-8696-2c13f839c3ba.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/eefaedf9-2b31-4f12-a822-cd26458a25cb.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/95e05a6d-9120-4b90-9dfd-ce57c6247e5b.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/cc1d0c73-e0c9-422b-a8bb-015e07b2e1bd.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/966896bf-a33d-44b2-9190-37afe4231e50.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/b6606d20-3e32-4ca1-ab73-0da8ce6ae569.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+  ga4:
+    sessions: 831
+    purchases: 12
+    revenue: 6287.7
+    attribution_window_days: null
+    last_synced: '2026-04-17T14:56:51.561756'
+    source: snowflake
+    channel: email
+klaviyo_type: flow
+klaviyo_message_id: XHBhsj
+structure:
+  image_count: 16
+  link_count: 16
+  has_gif: false
+  hero_width: 600
+  layout_type: product_grid

@@ -1,0 +1,121 @@
+{% comment %}
+  ================================================
+  ID Categories Browse Abandon — T1
+  Canvas: Browse Abandon - Categories Page
+  Step: TRG_EM_2026_05_ID_D_Categories_Browse_Abandon_T1_V1
+
+  Logic:
+  - Pass 1: count valid slices (max 3), capture first name for preheader
+  - Abort if zero valid slices
+  - Pass 2: render up to 3 matching category images, each linked to cat.category_url
+
+  Valid categories (26): those with images in Braze Media Library
+  Skip silently: any category_name not in the supported list below
+
+  IMAGE URL PLACEHOLDERS — replace each with the uploaded Braze CDN URL:
+    https://braze-images.com/appboy/communication/assets/image_assets/images/6a08003b761e92007d2f2ed3/original.png?1778909242         ← Accent Chairs.png
+    https://braze-images.com/appboy/communication/assets/image_assets/images/6a08003e2401dc007de1ca84/original.png?1778909245               ← Artwork.png
+    https://braze-images.com/appboy/communication/assets/image_assets/images/6a080040c7d229007d53cd79/original.png?1778909248               ← Bedroom.png
+    https://braze-images.com/appboy/communication/assets/image_assets/images/6a080044742b2c007f655d55/original.png?1778909251                  ← Beds.png
+    https://braze-images.com/appboy/communication/assets/image_assets/images/6a0800468bfe4f007db68b69/original.png?1778909253               ← Benches.png
+    https://braze-images.com/appboy/communication/assets/image_assets/images/6a0800492166ca007d4744e2/original.png?1778909255          ← Best Sellers.png
+    https://braze-images.com/appboy/communication/assets/image_assets/images/6a08004b2166ca0081464f37/original.png?1778909258     ← Bumper Sectionals.png
+    https://braze-images.com/appboy/communication/assets/image_assets/images/6a08004e2166ca007d4744e3/original.png?1778909261                ← Chairs.png
+    https://braze-images.com/appboy/communication/assets/image_assets/images/6a080051ca96220081761f3a/original.png?1778909264     ← Chaise Sectionals.png
+    https://braze-images.com/appboy/communication/assets/image_assets/images/6a0800544fdb47007d0ad0f9/original.png?1778909267         ← Coffee Tables.png
+    https://braze-images.com/appboy/communication/assets/image_assets/images/6a0800564fdb47007d0ad0fa/original.png?1778909269     ← Corner Sectionals.png
+    https://braze-images.com/appboy/communication/assets/image_assets/images/6a0800592bc5cd0083024775/original.png?1778909272                ← Dining.png
+    https://braze-images.com/appboy/communication/assets/image_assets/images/6a0800592bc5cd0083024775/original.png?1778909272_BENCHES        ← Dining Benches.png
+    https://braze-images.com/appboy/communication/assets/image_assets/images/6a0800592bc5cd0083024775/original.png?1778909272_CHAIRS         ← Dining Chairs + Stools.png
+    https://braze-images.com/appboy/communication/assets/image_assets/images/6a0800592bc5cd0083024775/original.png?1778909272_TABLES         ← Dining Tables.png
+    https://braze-images.com/appboy/communication/assets/image_assets/images/6a0800644fdb47007d0ad0fd/original.png?1778909283              ← In Stock.png
+    https://braze-images.com/appboy/communication/assets/image_assets/images/6a080067300977007d0e6b40/original.png?1778909286             ← Loveseats.png
+    https://braze-images.com/appboy/communication/assets/image_assets/images/6a080069a46728007de56e3d/original.png?1778909288 ← MTO Pillows.png
+    https://braze-images.com/appboy/communication/assets/image_assets/images/6a08006b18aad9007dad3026/original.png?1778909290               ← Modular Seating.png
+    https://braze-images.com/appboy/communication/assets/image_assets/images/6a08006e300977007d0e6b42/original.png?1778909293              ← Ottomans.png
+    https://braze-images.com/appboy/communication/assets/image_assets/images/6a080070eef0c0007f2564fc/original.png?1778909295                  ← Rugs.png
+    https://braze-images.com/appboy/communication/assets/image_assets/images/6a080072b1fd65007d9bac20/original.png?1778909297            ← Sectionals.png
+    https://braze-images.com/appboy/communication/assets/image_assets/images/6a080074cccd7e007da916be/original.png?1778909299         ← Sleeper Sofa.png
+    https://braze-images.com/appboy/communication/assets/image_assets/images/6a080077eef0c0007f2564fd/original.png?1778909302                 ← Sofas.png
+    https://braze-images.com/appboy/communication/assets/image_assets/images/6a080079761e92007d2f2ee1/original.png?1778909304         ← Swivel Chairs.png
+    https://braze-images.com/appboy/communication/assets/image_assets/images/6a08007bec2e5a0081c09da7/original.png?1778909306                ← Tables.png
+  ================================================
+{% endcomment %}
+
+{% assign top_cats = custom_attribute.${top_categories} %}
+
+{% comment %} PASS 1: count valid slices and capture first name for dynamic preheader {% endcomment %}
+{% assign valid_count = 0 %}
+{% assign first_valid = "" %}
+{% for cat in top_cats %}
+  {% assign n = cat.category_name | downcase %}
+  {% if n == "accent chairs" or n == "artwork" or n == "bedroom" or n == "beds" or n == "benches" or n == "best sellers" or n == "bumper sectionals" or n == "chairs" or n == "chaise sectionals" or n == "coffee tables" or n == "corner sectionals" or n == "dining" or n == "dining benches" or n == "dining chairs" or n == "dining tables" or n == "in stock" or n == "loveseats" or n == "made to order pillows" or n == "modular" or n == "ottomans" or n == "rugs" or n == "sectionals" or n == "sleeper sofas" or n == "sofas" or n == "swivel chairs" or n == "tables" %}
+    {% assign valid_count = valid_count | plus: 1 %}
+    {% if valid_count == 1 %}{% assign first_valid = cat.category_name | capitalize %}{% endif %}
+  {% endif %}
+{% endfor %}
+
+{% if valid_count == 0 %}{{abort_message("no supported category slices")}}{% endif %}
+
+{% comment %} PREHEADER — hidden div shown in inbox preview pane {% endcomment %}
+<div style="display:none;max-height:0;overflow:hidden;">{% if valid_count == 1 %}The {{ first_valid }} you browsed is still here.{% else %}The categories you browsed are still here.{% endif %}&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;</div>
+
+{% comment %} HEADER {% endcomment %}
+{{content_blocks.${blue_banner}}}
+
+{% comment %} PASS 2: render up to 3 valid slices in position order {% endcomment %}
+{% assign shown = 0 %}
+{% for cat in top_cats %}
+{% if shown < 3 %}
+{% assign n = cat.category_name | downcase %}
+{% if n == "accent chairs" or n == "artwork" or n == "bedroom" or n == "beds" or n == "benches" or n == "best sellers" or n == "bumper sectionals" or n == "chairs" or n == "chaise sectionals" or n == "coffee tables" or n == "corner sectionals" or n == "dining" or n == "dining benches" or n == "dining chairs" or n == "dining tables" or n == "in stock" or n == "loveseats" or n == "made to order pillows" or n == "modular" or n == "ottomans" or n == "rugs" or n == "sectionals" or n == "sleeper sofas" or n == "sofas" or n == "swivel chairs" or n == "tables" %}
+{% assign shown = shown | plus: 1 %}
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:600px;background-color:#f6f3ec;">
+  <tr>
+    <td align="center">
+      <a href="{{ cat.category_url }}" target="_blank" rel="noopener noreferrer">
+        {% if n == "accent chairs" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a08003b761e92007d2f2ed3/original.png?1778909242" alt="Accent Chairs" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "artwork" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a08003e2401dc007de1ca84/original.png?1778909245" alt="Artwork" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "bedroom" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a080040c7d229007d53cd79/original.png?1778909248" alt="Bedroom" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "beds" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a080044742b2c007f655d55/original.png?1778909251" alt="Beds" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "benches" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a0800468bfe4f007db68b69/original.png?1778909253" alt="Benches" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "best sellers" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a0800492166ca007d4744e2/original.png?1778909255" alt="Best Sellers" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "bumper sectionals" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a08004b2166ca0081464f37/original.png?1778909258" alt="Bumper Sectionals" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "chairs" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a08004e2166ca007d4744e3/original.png?1778909261" alt="Chairs" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "chaise sectionals" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a080051ca96220081761f3a/original.png?1778909264" alt="Chaise Sectionals" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "coffee tables" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a0800544fdb47007d0ad0f9/original.png?1778909267" alt="Coffee Tables" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "corner sectionals" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a0800564fdb47007d0ad0fa/original.png?1778909269" alt="Corner Sectionals" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "dining" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a0800592bc5cd0083024775/original.png?1778909272" alt="Dining" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "dining benches" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a08005ce2395e0081819016/original.png?1778909275" alt="Dining Benches" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "dining chairs" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a08005fb1fd65007d9bac1b/original.png?1778909278" alt="Dining Chairs" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "dining tables" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a08006218aad9007dad3024/original.png?1778909281" alt="Dining Tables" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "in stock" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a0800644fdb47007d0ad0fd/original.png?1778909283" alt="In Stock" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "loveseats" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a080067300977007d0e6b40/original.png?1778909286" alt="Loveseats" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "made to order pillows" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a080069a46728007de56e3d/original.png?1778909288" alt="Made to Order Pillows" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "modular" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a08006b18aad9007dad3026/original.png?1778909290" alt="Modular Seating" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "ottomans" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a08006e300977007d0e6b42/original.png?1778909293" alt="Ottomans" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "rugs" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a080070eef0c0007f2564fc/original.png?1778909295" alt="Rugs" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "sectionals" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a080072b1fd65007d9bac20/original.png?1778909297" alt="Sectionals" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "sleeper sofas" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a080074cccd7e007da916be/original.png?1778909299" alt="Sleeper Sofas" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "sofas" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a080077eef0c0007f2564fd/original.png?1778909302" alt="Sofas" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "swivel chairs" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a080079761e92007d2f2ee1/original.png?1778909304" alt="Swivel Chairs" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% elsif n == "tables" %}<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a08007bec2e5a0081c09da7/original.png?1778909306" alt="Tables" width="600" style="display:block;width:100%;max-width:600px;" border="0">
+        {% endif %}
+      </a>
+    </td>
+  </tr>
+</table>
+{% if shown < valid_count and shown < 3 %}
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:600px;background-color:#f6f3ec;">
+  <tr>
+    <td style="padding:0 24px;height:1px;background-color:#d9d4c9;font-size:0;line-height:0;">&nbsp;</td>
+  </tr>
+</table>
+{% endif %}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+{% comment %} FOOTER {% endcomment %}
+{{content_blocks.${b2c_footer}}}
+{{content_blocks.${unsubscribe}}}

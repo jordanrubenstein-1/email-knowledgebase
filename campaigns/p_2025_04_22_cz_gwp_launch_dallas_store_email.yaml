@@ -1,0 +1,52 @@
+id: a35cfbf2-2fcb-479e-bcd8-44db31022073
+name: P_2025_04_22_CZ_GWP_Launch_Dallas_Store_Email
+brand: CZ
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: a35cfbf2-2fcb-479e-bcd8-44db31022073
+dates:
+  send_date: '2025-04-22'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-22T20:40:40+00:00'
+  last_sent: '2025-04-22T20:41:12+00:00'
+tags: []
+sends:
+- id: e1874dde-1f3d-4725-ac56-1ae800539046
+  channel: email
+  name: Variant 1
+  subject: Dallas, stop by for a free gift this Saturday
+  preheader: We’re celebrating Earth Month with our friends at evolvetogether.
+  html_file: html/p_2025_04_22_cz_gwp_launch_dallas_store_email.html
+  screenshot: screenshots/p_2025_04_22_cz_gwp_launch_dallas_store_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6806c341eb3d4200637e1704/original.png?1745273665
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6806c36735a3130064045274/original.png?1745273702
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6806c3541d8c290064fb012d/original.png?1745273683
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6806c3481d8c290074fae2e9/original.png?1745273672
+- id: 7da3b5b1-7667-4acf-b682-c44974826cab
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1062
+  total_delivered: 1050
+  total_opens: 613
+  total_clicks: 11
+  open_rate: 0.5772
+  click_rate: 0.0104
+  total_revenue: 468.0
+  total_unsubscribes: 3
+  ga4:
+    sessions: 18
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.607002'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.024361'
+schedule_type: time_based

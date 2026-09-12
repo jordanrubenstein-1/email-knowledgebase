@@ -1,0 +1,65 @@
+id: f1ff048a-ad2f-48cf-8001-3c59fe97548f
+name: P_EM_2025_12_22_BW_D_Collection_Highlight_Nomad
+brand: BUR
+channel: email
+category: product_launch
+type: announcement
+theme: null
+braze_id: f1ff048a-ad2f-48cf-8001-3c59fe97548f
+dates:
+  send_date: '2025-12-22'
+  last_sent: '2025-12-22'
+tags:
+- Batch&Blast
+sends:
+- id: 2569758f-bb61-4de4-b45f-3debb939fbab
+  channel: email
+  name: Variant 1
+  subject: The "It" Sofa, Now on Sale
+  preheader: Up to 30% off is happening now.
+- id: 2feb5fbe-d561-4b4c-8c71-0d8a86713afe
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 241894
+  total_delivered: 241116
+  total_opens: 131899
+  total_clicks: 569
+  open_rate: 0.5453
+  click_rate: 0.0024
+  total_revenue: 33817.0
+  total_bounces: 11
+  total_unsubscribes: 259
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:38.431115'
+schedule_type: time_based

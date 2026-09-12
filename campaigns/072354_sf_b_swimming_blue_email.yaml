@@ -1,0 +1,52 @@
+id: 2f4b79dd-9edb-4550-9e98-b65e8b29a6ec
+name: 072354_SF_B_Swimming_Blue_Email
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 2f4b79dd-9edb-4550-9e98-b65e8b29a6ec
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2024-07-23T13:15:03+00:00'
+  last_sent: '2024-07-23T13:21:10+00:00'
+tags:
+- Batch and Blast
+- Batch and Blast/non-promo
+- Batch and Blast/non-promo/Color Story
+sends:
+- id: 09eab682-d6f6-4f2a-a663-399bb8c68755
+  channel: email
+  name: Variant 1
+  subject: Swimming in Blue
+  preheader: can't get enough of this summer hue
+  html_file: html/072354_sf_b_swimming_blue_email.html
+  screenshot: screenshots/072354_sf_b_swimming_blue_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669d7daf681c60006f34ed74/original.gif?1721597359
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669d7dafdf23f10065a26807/original.gif?1721597359
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0058f1ba77/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669d7daf54b5f3007a492f78/original.gif?1721597359
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669d7daf681c60005a35a592/original.gif?1721597359
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669d7daf24b6c0005a2e2f1e/original.gif?1721597359
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0063f11fb6/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669d7daf681c600064350f60/original.gif?1721597359
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669d7dafdf23f1005aa2ac5f/original.gif?1721597359
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6681bde9255ebf0070d6be26/original.jpeg?1719778792
+- id: 208006ae-4175-45f1-a595-11444537d7d6
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 57
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.014668'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.685069'
+schedule_type: time_based

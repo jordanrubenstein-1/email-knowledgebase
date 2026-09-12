@@ -1,0 +1,46 @@
+id: klaviyo-HfXHrC
+name: 'Email #1'
+brand: TI
+channel: email
+category: other
+type: product_launch
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: JvZNES
+canvas_name: 'Internal: Klaussner Report [NEW SITE]'
+flow_type: other_flow
+sequence_position: 1
+dates:
+  created: '2019-07-29'
+  inferred_send_type: sto
+  first_sent: '2019-07-29'
+  last_sent: '2025-07-15'
+sends:
+- id: HfXHrC
+  channel: email
+  name: Message
+  subject: Klaussner Report
+  preheader: ''
+  html_file: html/klv-flow-internal-klaussner-report-new--t01-HfXHrC.html
+  image_urls: []
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: HfXHrC
+structure:
+  image_count: 0
+  link_count: 1
+  has_gif: false
+  hero_width: null
+  layout_type: text_only

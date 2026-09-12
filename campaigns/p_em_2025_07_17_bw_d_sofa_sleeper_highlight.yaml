@@ -1,0 +1,75 @@
+id: 65dd6a6e-752f-4ccd-ba00-b3d2075d64a4
+name: P_EM_2025_07_17_BW_D_Sofa_Sleeper_Highlight
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 65dd6a6e-752f-4ccd-ba00-b3d2075d64a4
+dates:
+  send_date: '2025-07-17'
+  inferred_send_type: local_time
+  first_sent: '2025-07-16T19:21:14+00:00'
+  last_sent: '2025-07-17T18:15:04+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 5905be46-2633-4c9c-abc7-764c973a115d
+  channel: email
+  name: Variant 1
+  subject: Sofas by day, real beds by night
+  preheader: Sofa meet bed, bed meet sofa.
+- id: 7ed8e7a6-00bb-4006-b344-8d0212bd0a68
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 254803
+  total_delivered: 252916
+  total_opens: 146023
+  total_clicks: 492
+  open_rate: 0.5731
+  click_rate: 0.0019
+  total_revenue: 5426.2
+  total_bounces: 3
+  total_unsubscribes: 426
+  ga4:
+    sessions: 329
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.572716'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:31.513766'
+schedule_type: time_based

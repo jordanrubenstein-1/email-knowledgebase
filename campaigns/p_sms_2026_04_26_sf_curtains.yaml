@@ -1,0 +1,29 @@
+id: 6f3a0fbe-9ec2-4cdd-98f5-de130198384c
+name: P_SMS_2026_04_26_SF_Curtains
+brand: STF
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: 6f3a0fbe-9ec2-4cdd-98f5-de130198384c
+dates:
+  send_date: '2026-04-26'
+  last_sent: '2026-04-26'
+tags: []
+sends:
+- id: 3b6fb152-bf75-42cd-9921-4660f7fa5db4
+  channel: sms
+  name: Variant 1
+- id: 3e3b8f1f-38a3-4bcb-ac90-90d2ed82fdd0
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 4242
+  total_delivered: 4155
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 6.0
+_filename: p_sms_2026_04_26_sf_curtains.yaml
+schedule_type: time_based

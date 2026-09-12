@@ -1,0 +1,46 @@
+id: 56e1bf62-9120-4935-bce4-bb8285313e25
+name: P_2024_10_10_ID_Autumn_Event_Announcement_Email
+brand: ID
+channel: email
+category: sale_promo
+type: product_launch
+theme: fall
+braze_id: 56e1bf62-9120-4935-bce4-bb8285313e25
+dates:
+  send_date: '2024-10-10'
+  inferred_send_type: scheduled
+  first_sent: '2024-10-10T05:08:24+00:00'
+  last_sent: '2024-10-10T17:15:04+00:00'
+tags: []
+sends:
+- id: 788d4f15-5da2-4faa-996e-8a7a33dd485d
+  channel: email
+  name: Variant 1
+  subject: 20% off just DROPPED 🍂
+  preheader: The Autumn Event is live
+- id: 25510a67-1dbf-46a8-a484-bedb7bd45424
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 54739
+  total_delivered: 54202
+  total_opens: 24533
+  total_clicks: 821
+  open_rate: 0.4482
+  click_rate: 0.015
+  total_revenue: 293648.79
+  total_bounces: 1
+  total_unsubscribes: 102
+  ga4:
+    sessions: 1576
+    purchases: 14
+    revenue: 37173.18
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.854526'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.909624'
+schedule_type: time_based

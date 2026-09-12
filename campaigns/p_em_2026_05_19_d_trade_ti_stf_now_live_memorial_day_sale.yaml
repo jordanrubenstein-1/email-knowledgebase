@@ -1,0 +1,35 @@
+id: 96ce9dbd-9a61-49e4-9e69-76f6a5b32af8
+name: P_EM_2026_05_19_D_TRADE_TI_STF_Now_Live_Memorial_Day_Sale
+brand: TI
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 96ce9dbd-9a61-49e4-9e69-76f6a5b32af8
+dates:
+  send_date: '2026-05-19'
+  inferred_send_type: local_time
+  first_sent: '2026-05-18T22:07:56+00:00'
+  last_sent: '2026-05-19T19:02:57+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 6c2f6739-8358-4afa-a9ff-b2484d56ad3e
+  channel: email
+  name: Variant 1
+  subject: Your trade discount just got better
+  preheader: Memorial Day savings are on.
+- id: 7a974293-f77f-4438-bfe7-56309552d776
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 22132
+  total_delivered: 21426
+  total_opens: 5223
+  total_clicks: 163
+  open_rate: 0.236
+  click_rate: 0.0074
+  total_revenue: 1280.0
+  total_bounces: 8
+  total_unsubscribes: 17
+_filename: p_em_2026_05_19_d_trade_ti_stf_now_live_memorial_day_sale.yaml

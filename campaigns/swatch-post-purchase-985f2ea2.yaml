@@ -1,0 +1,82 @@
+id: 985f2ea2-f92d-461c-8276-effcef79f7ec
+name: Swatch Post Purchase
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 985f2ea2-f92d-461c-8276-effcef79f7ec
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-30T13:00:00+00:00'
+  last_sent: '2026-04-28T21:00:00+00:00'
+tags: []
+sends:
+- id: b4f984bb-0c44-4ceb-a306-c4d4279ab464
+  channel: email
+  name: TRG_EM_2024_08_ID_D_Swatch_UGC_T4_V1
+  subject: Custom furniture in 3 real homes
+  preheader: ''
+  step_id: 4525bef7-5770-468a-b76b-1f44bdb965fb
+- id: 2e3a057c-70f6-4d8a-b970-f76869bb0f41
+  channel: email
+  name: TRG_EM_2024_08_ID_D_Swatch_Best_Sellers_T2_V1
+  subject: SAY YES TO THESE BEST SELLERS
+  preheader: ''
+  step_id: 3e6058a6-0ef2-4909-a384-87f9eeaeebb7
+- id: 7828ef78-d2d9-489a-9699-d53ac62b1203
+  channel: email
+  name: TRG_EM_2024_08_ID_D_Swatch_Performance_Fabrics_T3_V1
+  subject: 'FABRIC TEST: Wine & muddy paws'
+  preheader: ''
+  step_id: a89417e3-fa93-49b1-b034-902f419fde78
+- id: f7578416-bee0-4385-8ec9-e98e2d81d834
+  channel: email
+  name: TRG_EM_2024_08_ID_D_Swatch_Get_Started_T1_V1
+  subject: Found your fabric match?
+  preheader: ''
+  step_id: 9ea2afbe-c1cf-49f8-a09e-9b7f15f1637a
+performance_summary: {}
+canvas_steps:
+- id: 4525bef7-5770-468a-b76b-1f44bdb965fb
+  name: TRG_EM_2024_08_ID_D_Swatch_UGC_T4_V1
+  type: message
+  channel: email
+  subject: Custom furniture in 3 real homes
+  preheader: ''
+- id: 0521829f-d8fa-4830-8ab1-50aad86d4032
+  name: Step 1
+  type: delay
+- id: 3e6058a6-0ef2-4909-a384-87f9eeaeebb7
+  name: TRG_EM_2024_08_ID_D_Swatch_Best_Sellers_T2_V1
+  type: message
+  channel: email
+  subject: SAY YES TO THESE BEST SELLERS
+  preheader: ''
+- id: a89417e3-fa93-49b1-b034-902f419fde78
+  name: TRG_EM_2024_08_ID_D_Swatch_Performance_Fabrics_T3_V1
+  type: message
+  channel: email
+  subject: 'FABRIC TEST: Wine & muddy paws'
+  preheader: ''
+- id: 998287bf-f352-4110-96e9-af4caa29f37d
+  name: Step
+  type: delay
+- id: 9ea2afbe-c1cf-49f8-a09e-9b7f15f1637a
+  name: TRG_EM_2024_08_ID_D_Swatch_Get_Started_T1_V1
+  type: message
+  channel: email
+  subject: Found your fabric match?
+  preheader: ''
+- id: 4186fd5e-279d-456d-9ff5-eac35a9253d3
+  name: Step 2
+  type: delay
+- id: a28e5223-e9fe-4a59-96d6-d799563b5ccd
+  name: Step 3
+  type: delay
+- id: c78b59f1-ca91-4220-94b4-7693a0b38c7f
+  name: Email available?
+  type: audience_paths
+_filename: swatch-post-purchase-985f2ea2.yaml

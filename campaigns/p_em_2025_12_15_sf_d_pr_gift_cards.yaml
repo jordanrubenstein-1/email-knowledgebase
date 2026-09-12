@@ -1,0 +1,46 @@
+id: f00cb399-a6ea-4815-94b9-c361069e0cbb
+name: P_EM_2025_12_15_SF_D_PR_Gift_Cards
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: f00cb399-a6ea-4815-94b9-c361069e0cbb
+dates:
+  send_date: '2025-12-15'
+  inferred_send_type: scheduled
+  first_sent: '2025-12-15T14:01:05+00:00'
+  last_sent: '2025-12-15T14:52:51+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- print
+sends:
+- id: cb962760-361e-4c01-8aaa-289dad6fe6e3
+  channel: email
+  name: Variant 1
+  subject: Give the gift of bold style.
+  preheader: A St. Frank gift card—effortless, artful, foolproof.
+- id: 4b1881ce-2ce7-4889-b006-b0ff9322ca5e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39296
+  total_delivered: 39110
+  total_opens: 16375
+  total_clicks: 98
+  open_rate: 0.4167
+  click_rate: 0.0025
+  total_bounces: 6
+  total_unsubscribes: 62
+  ga4:
+    sessions: 65
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.083867'
+    source: snowflake
+    channel: email
+schedule_type: time_based

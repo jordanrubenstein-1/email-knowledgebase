@@ -1,0 +1,43 @@
+id: 44aa7f6f-715e-45c4-afb6-a040ebd3e625
+name: P_EM_2026_01_01_BW_D_End_of_Year_Sale_Extension
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 44aa7f6f-715e-45c4-afb6-a040ebd3e625
+dates:
+  send_date: '2026-01-01'
+  inferred_send_type: local_time
+  first_sent: '2025-12-31T17:24:24+00:00'
+  last_sent: '2026-01-01T17:16:30+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 0f599e0f-dcaa-440e-88c3-e173ba193449
+  channel: email
+  name: Variant 1
+  subject: 'BACK ON: Up to 30% off to kick off 2026'
+  preheader: A fresh start to the new year
+- id: 054c6ec0-62c0-49fe-bd04-c99eba64bd7b
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 240449
+  total_delivered: 239472
+  total_opens: 133255
+  total_clicks: 389
+  open_rate: 0.5542
+  click_rate: 0.0016
+  total_revenue: 49813.0
+  total_bounces: 1
+  total_unsubscribes: 338
+  ga4:
+    sessions: 272
+    purchases: 2
+    revenue: 3563.69
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.544815'
+    source: snowflake
+    channel: email
+schedule_type: time_based

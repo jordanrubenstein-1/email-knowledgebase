@@ -1,0 +1,47 @@
+id: klaviyo-W3ugDD
+name: trade-approved_email-06-text
+brand: TE
+channel: email
+category: other
+type: lifecycle
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: Yt9GVK
+canvas_name: trade_program-welcome-July2025
+flow_type: welcome_series
+sequence_position: 9
+dates:
+  created: '2025-07-23'
+  inferred_send_type: sto
+  first_sent: '2025-07-23'
+  last_sent: '2026-07-15'
+sends:
+- id: W3ugDD
+  channel: email
+  name: Message
+  subject: We rep hundreds of brands. Let us help you source!
+  preheader: ''
+  html_file: html/klv-flow-trade_program-welcome-july2025-t09-W3ugDD.html
+  image_urls:
+  - https://ci3.googleusercontent.com/mail-sig/AIorK4z_ra2s81NF2fyWDJbPlocO8HNHZtZVNl4SBMDq_reWJbndIxACgcNXEep3zHkwlWLn_T40cMMcnd2q
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: W3ugDD
+structure:
+  image_count: 1
+  link_count: 2
+  has_gif: false
+  hero_width: 200
+  layout_type: hero_only

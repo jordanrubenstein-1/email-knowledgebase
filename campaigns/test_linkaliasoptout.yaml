@@ -1,0 +1,36 @@
+id: b73ffa42-686b-45c1-bbba-387c84fdb558
+name: Test_LinkAliasOptOut
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: b73ffa42-686b-45c1-bbba-387c84fdb558
+dates: {}
+tags: []
+sends:
+- id: 88f0327f-511d-48d5-88d4-781958d880b4
+  channel: email
+  name: Variant 1
+  subject: Perfect Pillow Pairings
+  preheader: We're taking the guesswork out of styling.
+  html_file: html/test_linkaliasoptout.html
+  screenshot: screenshots/test_linkaliasoptout.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6802dc360950100064c997e6/original.png?1745017909
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6802dc15bea63200621ed4cf/original.png?1745017877
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6802dbf1a0ebea0071cac1f1/original.png?1745017841
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6802dc490950100064c997f6/original.png?1745017928
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6802dc2da0ebea0062cafd06/original.png?1745017900
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6802dc07bea63200621ed4ce/original.png?1745017862
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6802dbecfaa56a0072dcd4dd/original.png?1745017835
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6802dc3d49313a0064a4c793/original.png?1745017916
+- id: 2be9be94-e76f-4709-9254-67653a5d6302
+  channel: other
+  name: Control Group
+performance_summary: {}
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:35.975438'
+schedule_type: time_based

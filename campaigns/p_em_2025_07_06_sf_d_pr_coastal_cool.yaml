@@ -1,0 +1,65 @@
+id: 26d70e1b-8fb1-41a3-8000-2b5b21a192ed
+name: P_EM_2025_07_06_SF_D_PR_Coastal_Cool
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 26d70e1b-8fb1-41a3-8000-2b5b21a192ed
+dates:
+  send_date: '2025-07-06'
+  inferred_send_type: local_time
+  first_sent: '2025-07-05T18:09:32+00:00'
+  last_sent: '2025-07-06T17:01:16+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- dest
+- sale
+- stl
+sends:
+- id: 11dc4b4d-056e-45a2-b4f7-a2b5583615f6
+  channel: email
+  name: Variant 1
+  subject: Paradise found (and 20% off)
+  preheader: channel coastal ease
+  html_file: html/p_em_2025_07_06_sf_d_pr_coastal_cool.html
+  screenshot: screenshots/p_em_2025_07_06_sf_d_pr_coastal_cool.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6864543c7b53c40066453d46/original.png?1751405628
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686454357b53c40066453cf7/original.png?1751405621
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6866a8afee9f630064afe6e9/original.png?1751558318
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6866a924257c1200652e0906/original.png?1751558435
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6866a90bea39ff007527ffe5/original.png?1751558411
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686454563c6fd300958477ef/original.png?1751405654
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6864541d2182e40065051203/original.png?1751405596
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6864545cdd2da90064aeefff/original.png?1751405660
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6866a8fb257c1200742dfb6d/original.png?1751558394
+- id: 188353b5-223e-4e31-b607-a74b477046ed
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39868
+  total_delivered: 39383
+  total_opens: 18029
+  total_clicks: 211
+  open_rate: 0.4522
+  click_rate: 0.0053
+  total_revenue: 20750.0
+  total_unsubscribes: 82
+  ga4:
+    sessions: 231
+    purchases: 3
+    revenue: 2769.86
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.978014'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.138137'
+schedule_type: time_based

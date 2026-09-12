@@ -1,0 +1,75 @@
+id: 07f5113b-0f8a-4b59-a1b7-47a4e6a347ce
+name: P_2024_12_27_D_CZ_EOY_Event_Bedding_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 07f5113b-0f8a-4b59-a1b7-47a4e6a347ce
+dates:
+  send_date: '2024-12-27'
+  inferred_send_type: local_time
+  first_sent: '2024-12-26T17:05:50+00:00'
+  last_sent: '2024-12-27T17:01:03+00:00'
+tags: []
+sends:
+- id: 2f056997-0eef-44a1-b906-9e54e5ec2f0d
+  channel: email
+  name: Variant 1
+  subject: Up To 40% Off Your Dream Bedding
+  preheader: Plus, up to 60% off all last batch styles.
+  html_file: html/p_2024_12_27_d_cz_eoy_event_bedding_email.html
+  screenshot: screenshots/p_2024_12_27_d_cz_eoy_event_bedding_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676a2cf662b4d60064250ef1/original.jpg?1735011574
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676a0d78675b230064a52a2e/original.jpg?1735003512
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676a0e52236f060065574ab2/original.jpg?1735003730
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676a0e3c7c5eda00650e83c2/original.jpg?1735003708
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676a2cb76625c800649c35a4/original.jpg?1735011510
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676a0e92cd9a95006592c0aa/original.jpg?1735003794
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676a0e62675b230064a52a64/original.jpg?1735003746
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676a2ce8cd9a95006592dc7a/original.jpg?1735011559
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676b3e93f14f510065431247/original.jpg?1735081618
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676a0d8ecd9a95006592c074/original.jpg?1735003534
+- id: 509fdbc0-38b6-4d03-9fdd-0b5a86d7bd4a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 96218
+  total_delivered: 95528
+  total_opens: 47501
+  total_clicks: 1268
+  open_rate: 0.4937
+  click_rate: 0.0132
+  total_revenue: 62603.61
+  total_bounces: 1
+  total_unsubscribes: 141
+  ga4:
+    sessions: 1937
+    purchases: 12
+    revenue: 2963.74
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.037446'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-23'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: cz_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-23'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:38.156332'
+schedule_type: time_based

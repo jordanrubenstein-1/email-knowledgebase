@@ -1,0 +1,63 @@
+id: 8c9ef611-5e48-47f9-9462-30095749d80a
+name: P_EM_2025_08_13_ID_D_Flash_Sale_Last_Chance
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 8c9ef611-5e48-47f9-9462-30095749d80a
+dates:
+  send_date: '2025-08-13'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-13T05:20:12+00:00'
+  last_sent: '2025-08-13T17:15:04+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: b19003a8-aa10-4702-bc15-7049a81c0793
+  channel: email
+  name: Variant 1
+  subject: 'LAST CHANCE for 20% off sitewide '
+  preheader: Shop custom furniture now.
+- id: 5988b64f-95c1-4001-be6f-193cd21d7cca
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 232530
+  total_delivered: 232192
+  total_opens: 121592
+  total_clicks: 2470
+  open_rate: 0.5229
+  click_rate: 0.0106
+  total_revenue: 154684.0
+  total_bounces: 4
+  total_unsubscribes: 2640
+  ga4:
+    sessions: 1572
+    purchases: 15
+    revenue: 41009.44
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.932564'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off sitewide
+    type: null
+  primary_sale:
+    id: id-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off sitewide
+    type: null
+  sale_name: The Sunset Sale
+  sale_discount: 20% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:40.865202'
+schedule_type: time_based

@@ -1,0 +1,24 @@
+id: 4abb39d1-8cf7-41c1-8d77-dfc6eabc12f3
+name: P_EM_2026_07_30_ID_PT_Summer_Sale_Reminder_PM
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: summer
+braze_id: 4abb39d1-8cf7-41c1-8d77-dfc6eabc12f3
+dates:
+  send_date: '2026-07-30'
+  last_sent: '2026-07-30'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 8d7941ea-1f6e-4b0d-a9e4-8df0447ecc8d
+  channel: email
+  name: Variant 1
+  subject: 'Reminder: Final Days for 25% Off'
+- id: 5daa5075-d85f-4ad0-a35e-d93240b5872b
+  channel: email
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: p_em_2026_07_30_id_pt_summer_sale_reminder_pm.yaml

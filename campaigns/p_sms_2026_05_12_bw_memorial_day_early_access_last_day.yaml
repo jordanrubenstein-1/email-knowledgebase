@@ -1,0 +1,29 @@
+id: f01513ff-493b-492e-8046-9572754cdab5
+name: P_SMS_2026_05_12_BW_Memorial_Day_Early_Access_Last_Day
+brand: BUR
+channel: sms
+category: reminder
+type: announcement
+theme: null
+braze_id: f01513ff-493b-492e-8046-9572754cdab5
+dates:
+  send_date: '2026-05-12'
+  last_sent: '2026-05-12'
+tags: []
+sends:
+- id: 8ccf33b3-33ce-46ab-be54-e2e492ec95d8
+  channel: sms
+  name: Variant 1
+- id: ed8286e2-c139-435b-a6fe-cd920dd1c214
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 9124
+  total_delivered: 8747
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 20034.0
+_filename: p_sms_2026_05_12_bw_memorial_day_early_access_last_day.yaml
+schedule_type: time_based

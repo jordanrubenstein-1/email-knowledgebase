@@ -1,0 +1,34 @@
+id: bf0d1c1f-05b2-4093-aa84-3bd8c057cacc
+name: P_2025_1_2_DPS_HAV_PC_Sale_Last_Chance
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: bf0d1c1f-05b2-4093-aa84-3bd8c057cacc
+dates:
+  send_date: '2025-01-02'
+  first_sent: '2025-01-01T17:22:07+00:00'
+  last_sent: '2025-01-02T18:15:03+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: ceed5ef8-7486-4d01-bb3a-1a5075bf59e3
+  channel: email
+  name: Variant 1
+  subject: 'ENDS TONIGHT: 50% Off Design Services!'
+  preheader: Snag your dream home transformation at half off.
+- id: 4113a3d0-3776-4c1a-94a3-cc8e37eb5765
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 174262
+  total_delivered: 170300
+  total_opens: 79243
+  total_clicks: 588
+  open_rate: 0.4547
+  click_rate: 0.0034
+  total_bounces: 8
+  total_unsubscribes: 547
+schedule_type: time_based
+_filename: p_2025_1_2_dps_hav_pc_sale_last_chance.yaml

@@ -1,0 +1,30 @@
+id: 46d5a84e-d8a9-4cae-b6e0-fd76e8a97e27
+name: 20250912_New_Dining_Lineup_SMS
+brand: BUR
+channel: sms
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 46d5a84e-d8a9-4cae-b6e0-fd76e8a97e27
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-09-12T02:58:55+00:00'
+  last_sent: '2025-09-13T01:00:52+00:00'
+tags: []
+sends:
+- id: 8aa6ccd9-06fc-4538-b5c0-d6ab5bbdbefe
+  channel: other
+  name: Variant 1
+- id: 6edc0471-b081-4c2a-b2ef-fa63696482e6
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 166
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.517877'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

@@ -1,0 +1,75 @@
+id: c776af18-0949-443c-a999-57587a97864c
+name: 2025_04_05_BW_Quick_Ship
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: c776af18-0949-443c-a999-57587a97864c
+dates:
+  send_date: '2025-04-05'
+  inferred_send_type: local_time
+  first_sent: '2025-04-04T17:20:12+00:00'
+  last_sent: '2025-04-05T17:15:08+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: facaa202-81d0-4e84-bd3b-08e19527b52d
+  channel: email
+  name: Variant 1
+  subject: 20% off quick-ship outdoor styles
+  preheader: On sale, and on time.
+- id: 38bb585d-500a-409b-b3b1-daa818499572
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 262614
+  total_delivered: 260549
+  total_opens: 91343
+  total_clicks: 323
+  open_rate: 0.3478
+  click_rate: 0.0012
+  total_revenue: 19536.0
+  total_bounces: 3
+  total_unsubscribes: 106
+  ga4:
+    sessions: 252
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.772119'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:34.094014'
+schedule_type: time_based

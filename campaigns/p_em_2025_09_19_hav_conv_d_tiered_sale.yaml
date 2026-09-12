@@ -1,0 +1,34 @@
+id: 7b348abb-0a53-4552-8984-a8e5d4d996b1
+name: P_EM_2025_09_19_HAV_CONV_D_Tiered_Sale
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 7b348abb-0a53-4552-8984-a8e5d4d996b1
+dates:
+  send_date: '2025-09-19'
+  first_sent: '2025-09-19T02:23:35+00:00'
+  last_sent: '2025-09-20T01:15:33+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: b970fb7f-1c5d-4157-952a-cce8821eed3a
+  channel: email
+  name: Variant 1
+  subject: Our Holiday-Ready Sale is LIVE
+  preheader: The season’s almost here. Shop today to save the most.
+- id: 8d3b61a6-d303-4922-9fd0-d3b382cf44f6
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41836
+  total_delivered: 41800
+  total_opens: 22010
+  total_clicks: 114
+  open_rate: 0.5261
+  click_rate: 0.0027
+  total_unsubscribes: 54
+schedule_type: time_based
+_filename: p_em_2025_09_19_hav_conv_d_tiered_sale.yaml

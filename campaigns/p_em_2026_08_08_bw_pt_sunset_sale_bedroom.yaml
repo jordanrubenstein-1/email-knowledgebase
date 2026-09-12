@@ -1,0 +1,33 @@
+id: 720ac547-f335-4fd1-8f86-2101df3b628c
+name: P_EM_2026_08_08_BW_PT_Sunset_Sale_Bedroom
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 720ac547-f335-4fd1-8f86-2101df3b628c
+dates:
+  send_date: '2026-08-08'
+  last_sent: '2026-08-08'
+tags:
+- Batch&Blast
+sends:
+- id: d8135ead-5f3a-4335-a60f-d06a09977742
+  channel: email
+  name: Variant 1
+  subject: 'Reminder: bedroom furniture is on sale'
+- id: 6627f551-0909-4940-ba7e-f12861b7f1b5
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 225845
+  total_delivered: 224561
+  total_opens: 116455
+  total_clicks: 647
+  open_rate: 0.5156
+  click_rate: 0.0029
+  total_revenue: 46057.0
+  total_bounces: 4
+  total_unsubscribes: 217
+schedule_type: time_based
+_filename: p_em_2026_08_08_bw_pt_sunset_sale_bedroom.yaml

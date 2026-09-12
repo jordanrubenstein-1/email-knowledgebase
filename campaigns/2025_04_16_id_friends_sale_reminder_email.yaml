@@ -1,0 +1,47 @@
+id: 4387a37f-eeb7-413f-ab15-8489d9c70f18
+name: 2025_04_16_ID_Friends_Sale_Reminder_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 4387a37f-eeb7-413f-ab15-8489d9c70f18
+dates:
+  send_date: '2025-04-16'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-16T05:39:18+00:00'
+  last_sent: '2025-04-16T17:15:08+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 663f7aa2-cfdf-44d0-a793-2e8308a2f737
+  channel: email
+  name: Variant 1
+  subject: Don't Miss 20% Off *Sitewide*
+  preheader: The Friends & Family Sale is still on!
+- id: 9f0d7ecc-e4ba-44bf-9023-6e961d4cf217
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 154528
+  total_delivered: 152321
+  total_opens: 35571
+  total_clicks: 457
+  open_rate: 0.2302
+  click_rate: 0.003
+  total_revenue: 128559.7
+  total_bounces: 1
+  total_unsubscribes: 89
+  ga4:
+    sessions: 472
+    purchases: 1
+    revenue: 214.81
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.176544'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.671418'
+schedule_type: time_based

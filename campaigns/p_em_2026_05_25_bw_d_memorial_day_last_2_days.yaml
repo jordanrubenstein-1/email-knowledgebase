@@ -1,0 +1,33 @@
+id: 99fd1680-8781-4565-9056-93ce4cfbf8e4
+name: P_EM_2026_05_25_BW_D_Memorial_Day_Last_2_Days
+brand: BUR
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 99fd1680-8781-4565-9056-93ce4cfbf8e4
+dates:
+  send_date: '2026-05-25'
+  last_sent: '2026-05-25'
+tags:
+- Batch&Blast
+sends:
+- id: 070c34db-d1c2-47cf-9f50-1786b82c0675
+  channel: email
+  name: Variant 1
+  subject: 2 days left to save up to 50%
+  preheader: 'The Memorial Day Sale is almost over. Shop your favorites now. '
+- id: d20ac7ee-731d-4709-8f0f-b3021e574f1d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 67041
+  total_delivered: 66825
+  total_opens: 25718
+  total_clicks: 268
+  open_rate: 0.3836
+  click_rate: 0.004
+  total_revenue: 202350.0
+  total_bounces: 2
+  total_unsubscribes: 68
+_filename: p_em_2026_05_25_bw_d_memorial_day_last_2_days.yaml

@@ -1,0 +1,35 @@
+id: 96fbe017-3875-4949-92c4-f3e0953e0593
+name: TRG_EM_CZ_2024_08_Product_Browse_T3
+brand: CZ
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: a05de6df-1375-46bd-a676-be24e4f9328e
+canvas_name: Product Browse
+flow_type: browse_abandonment
+sequence_position: 2
+subject: A handcrafted favorite—still waiting for you
+preheader: Crafted in small batches. Designed to stand out. Don’t miss your chance
+  to bring it home.
+sends:
+- id: 96fbe017-3875-4949-92c4-f3e0953e0593
+  channel: email
+  name: TRG_EM_CZ_2024_08_Product_Browse_T3
+  subject: A handcrafted favorite—still waiting for you
+  preheader: Crafted in small batches. Designed to stand out. Don’t miss your chance
+    to bring it home.
+  html_file: html/canvas-product-browse-t2-96fbe017.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-05-02T18:00:00Z'
+  last_sent: '2026-07-20T17:00:00Z'
+performance_summary:
+  total_sends: 47930
+  total_delivered: 47732
+  total_opens: 28628
+  total_clicks: 1784
+  open_rate: 0.5973
+  click_rate: 0.0372
+  total_unsubscribes: 325
+  total_revenue: 59727.97

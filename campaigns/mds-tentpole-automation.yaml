@@ -1,0 +1,364 @@
+id: 291c554b-03ab-48cc-9767-8d8dede9d28f
+name: MDS Tentpole Automation
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 291c554b-03ab-48cc-9767-8d8dede9d28f
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2026-05-05T07:00:00+00:00'
+  last_sent: '2026-05-05T17:00:00+00:00'
+tags: []
+sends:
+- id: c65a28ef-c75f-47e9-947b-d3eb169fd223
+  channel: email
+  name: P_EM_2026_BW_D_TPA_T1_EA_Launch
+  subject: '{% catalog_items sale-emails 20260507 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260507 %}{{ items[0].preheader }}'
+  step_id: b5888e94-4c7d-490e-804e-c48b5d479c82
+- id: d4e322ea-7cb8-4d7f-8a06-f1f87d7ac26d
+  channel: email
+  name: P_EM_2026_BW_PT_TPA_T5_EA_Last_Day_PM
+  subject: Your early access expires tonight
+  preheader: ''
+  step_id: 20b7e21f-b8b1-4fab-a04e-8e265fd654c7
+- id: 42fbadf1-97a7-443d-a70c-6b4833e3984c
+  channel: email
+  name: P_EM_2026_BW_D_TPA_T4_EA_Last_Day
+  subject: '{% catalog_items sale-emails 20260512 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260512 %}{{ items[0].preheader }}'
+  step_id: 3db1ddf0-5d2b-4d19-b512-cb6ec4944966
+- id: c36cd597-697b-485c-922b-4ddfba17c7e4
+  channel: email
+  name: P_EM_2026_BW_D_TPA_T10_Mid_Sale_Reminder
+  subject: '{% catalog_items sale-emails 20260519 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260519 %}{{ items[0].preheader }}'
+  step_id: 91da031f-8521-45e4-ab3e-eca63b4357f5
+- id: 6c41e656-931e-497f-8fae-250bc8a08638
+  channel: email
+  name: P_EM_2026_BW_D_TPA_T12_Quick_Ship
+  subject: '{% catalog_items sale-emails 20260522 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260522 %}{{ items[0].preheader }}'
+  step_id: 018c2a39-250c-442a-9506-bc872e90454c
+- id: 5e4fc085-a190-450a-a6d4-ec8ea6d3957c
+  channel: email
+  name: P_EM_2026_BW_D_TPA_T2_Social_Proof
+  subject: '{% catalog_items sale-emails 20260510 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260510 %}{{ items[0].preheader }}'
+  step_id: 7173d6bb-06b1-49ad-982e-b1ee8ce27e29
+- id: 6a38a5c5-172b-4af0-aa8a-1e19008579fe
+  channel: email
+  name: P_EM_2026_BW_D_TPA_T3_Modularity_Highlight
+  subject: '{% catalog_items sale-emails 20260511 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260511 %}{{ items[0].preheader }}'
+  step_id: 62b6855f-18c8-442c-925b-b83a2425ce7d
+- id: 72b59eeb-727a-4637-b022-c8a761b66213
+  channel: email
+  name: P_EM_2026_BW_D_TPA_T6_Main_Sale_Launch
+  subject: '{% catalog_items sale-emails 20260513 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260513 %}{{ items[0].preheader }}'
+  step_id: 62e4231f-e11f-448a-89a0-998107139204
+- id: 2fa78107-73d3-4726-ba31-2289b003ceef
+  channel: email
+  name: P_EM_2026_BW_D_TPA_T11_Collection_Spotlight_Nomad
+  subject: '{% catalog_items sale-emails 20260520 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260520 %}{{ items[0].preheader }}'
+  step_id: 59aaed0d-7358-406a-a30b-dac232343c91
+- id: 12b62bba-9825-45ad-bbe8-b946010fb50b
+  channel: email
+  name: P_EM_2026_BW_D_TPA_T9_Dining_Collection
+  subject: '{% catalog_items sale-emails 20260517 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260517 %}{{ items[0].preheader }}'
+  step_id: 61cda0e6-2a17-4152-8210-fd4392f16d11
+- id: 66c19a07-ea1b-4db9-a07f-d156ab6152ff
+  channel: email
+  name: P_EM_2026_BW_D_TPA_T8_Leather_Spotlight
+  subject: '{% catalog_items sale-emails 20260515 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260515 %}{{ items[0].preheader }}'
+  step_id: de65e497-f171-4e86-858b-0756f75b697e
+- id: cc0c5af1-e2e7-45d0-ae3f-925bd32df3e6
+  channel: email
+  name: P_EM_2026_BW_D_TPA_T7_New_Arrivals
+  subject: '{% catalog_items sale-emails 20260514 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260514 %}{{ items[0].preheader }}'
+  step_id: 82cc358b-2383-48fe-a178-e72858965779
+- id: 9dc022ec-bd07-4c7e-aa02-d76619582d73
+  channel: email
+  name: P_EM_2026_BW_D_TPA_T13_Bestsellers_1
+  subject: '{% catalog_items sale-emails 20260524 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260524 %}{{ items[0].preheader }}'
+  step_id: 800541ab-2388-4511-b49b-14462b794e0a
+- id: 4085471c-f3de-4f4b-ac2d-a4af2fc5b970
+  channel: email
+  name: P_EM_2026_BW_D_TPA_T15_Last_Day
+  subject: '{% catalog_items sale-emails 20260526 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260526 %}{{ items[0].preheader }}'
+  step_id: bad47f5f-fc7a-41cc-8f5b-f949e681d9b1
+- id: 00bfa1f7-54a2-41f1-8f55-c18392580f11
+  channel: email
+  name: P_EM_2026_BW_D_TPA_T14_Last_Two_Days
+  subject: '{% catalog_items sale-emails 20260525 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260525 %}{{ items[0].preheader }}'
+  step_id: 7702f65b-cd2a-4a16-9432-04e93d73f04c
+- id: 55e7d509-1aa8-4dfb-9bc7-701ed8c68d89
+  channel: email
+  name: P_EM_2026_BW_D_TPA_T22_Extension_Last_Day
+  subject: '{% catalog_items sale-emails 20260602 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260602 %}{{ items[0].preheader }}'
+  step_id: 6fc562bd-8d9d-4634-9aea-11fb4b7195de
+- id: 42bb1168-85d0-44f2-94f7-00e318e956c7
+  channel: email
+  name: P_EM_2026_BW_D_TPA_T17_Extension_Launch
+  subject: '{% catalog_items sale-emails 20260527 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260527 %}{{ items[0].preheader }}'
+  step_id: bc841ff6-f889-43d2-9a3a-06920c014e96
+- id: 5ed5596e-a6fc-40ed-865f-5d4fe738212c
+  channel: email
+  name: P_EM_2026_BW_D_TPA_T20_Sleeper_Sofas
+  subject: '{% catalog_items sale-emails 20260531 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260531 %}{{ items[0].preheader }}'
+  step_id: 2856bd3d-234a-4d43-a0c3-ad33eea9f5bb
+- id: 595b9e3f-8f7b-4cb1-9a7f-3956e11a92b1
+  channel: email
+  name: P_EM_2026_BW_D_TPA_T21_Bestsellers_2
+  subject: '{% catalog_items sale-emails 20260601 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260601 %}{{ items[0].preheader }}'
+  step_id: 8244a663-3369-4c79-b17f-9ce7eb8934be
+- id: 69df34bf-9184-4383-9e26-6b2dad75b97d
+  channel: email
+  name: P_EM_2026_BW_PT_TPA_T16_Main_Sale_Last_Day_PM
+  subject: 'ENDS TONIGHT: hours left to save'
+  preheader: ''
+  step_id: 81331b7f-05fa-4270-8eec-cd828d82267a
+- id: 1c8b4727-d665-4130-88a7-9873f54f00d6
+  channel: email
+  name: P_EM_2026_BW_D_TPA_T18_Collection_Spotlight_Range
+  subject: '{% catalog_items sale-emails 20260528 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260528 %}{{ items[0].preheader }}'
+  step_id: 15d9edd6-8086-42bf-bfb1-fa3c6e1656d7
+- id: 66f66617-5209-4a34-b21d-10ab7b8a73df
+  channel: email
+  name: P_EM_2026_BW_D_TPA_T19_Clearance
+  subject: '{% catalog_items sale-emails 20260529 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260529 %}{{ items[0].preheader }}'
+  step_id: 9861172e-b2d3-4605-956b-34221f22f709
+- id: 77b6ff21-8533-4fa8-9421-21f4cf788152
+  channel: email
+  name: P_EM_2026_BW_PT_TPA_T23_Extension_Last_Day_PM
+  subject: 'ENDING TONIGHT: last call'
+  preheader: ''
+  step_id: 8f2f09c5-fd1b-4805-ba41-d5d83a3af50b
+performance_summary: {}
+canvas_steps:
+- id: d913598a-9e8b-439d-a781-0acba4f1739b
+  name: Step 2
+  type: delay
+- id: aa5fde46-66da-4871-bc6e-e68005b1d3e4
+  name: Step 1
+  type: delay
+- id: b5888e94-4c7d-490e-804e-c48b5d479c82
+  name: P_EM_2026_BW_D_TPA_T1_EA_Launch
+  type: message
+  channel: email
+  subject: '{% catalog_items sale-emails 20260507 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260507 %}{{ items[0].preheader }}'
+- id: 20b7e21f-b8b1-4fab-a04e-8e265fd654c7
+  name: P_EM_2026_BW_PT_TPA_T5_EA_Last_Day_PM
+  type: message
+  channel: email
+  subject: Your early access expires tonight
+  preheader: ''
+- id: 3db1ddf0-5d2b-4d19-b512-cb6ec4944966
+  name: P_EM_2026_BW_D_TPA_T4_EA_Last_Day
+  type: message
+  channel: email
+  subject: '{% catalog_items sale-emails 20260512 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260512 %}{{ items[0].preheader }}'
+- id: 91da031f-8521-45e4-ab3e-eca63b4357f5
+  name: P_EM_2026_BW_D_TPA_T10_Mid_Sale_Reminder
+  type: message
+  channel: email
+  subject: '{% catalog_items sale-emails 20260519 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260519 %}{{ items[0].preheader }}'
+- id: 018c2a39-250c-442a-9506-bc872e90454c
+  name: P_EM_2026_BW_D_TPA_T12_Quick_Ship
+  type: message
+  channel: email
+  subject: '{% catalog_items sale-emails 20260522 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260522 %}{{ items[0].preheader }}'
+- id: 7173d6bb-06b1-49ad-982e-b1ee8ce27e29
+  name: P_EM_2026_BW_D_TPA_T2_Social_Proof
+  type: message
+  channel: email
+  subject: '{% catalog_items sale-emails 20260510 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260510 %}{{ items[0].preheader }}'
+- id: 62b6855f-18c8-442c-925b-b83a2425ce7d
+  name: P_EM_2026_BW_D_TPA_T3_Modularity_Highlight
+  type: message
+  channel: email
+  subject: '{% catalog_items sale-emails 20260511 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260511 %}{{ items[0].preheader }}'
+- id: 62e4231f-e11f-448a-89a0-998107139204
+  name: P_EM_2026_BW_D_TPA_T6_Main_Sale_Launch
+  type: message
+  channel: email
+  subject: '{% catalog_items sale-emails 20260513 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260513 %}{{ items[0].preheader }}'
+- id: 59aaed0d-7358-406a-a30b-dac232343c91
+  name: P_EM_2026_BW_D_TPA_T11_Collection_Spotlight_Nomad
+  type: message
+  channel: email
+  subject: '{% catalog_items sale-emails 20260520 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260520 %}{{ items[0].preheader }}'
+- id: 61cda0e6-2a17-4152-8210-fd4392f16d11
+  name: P_EM_2026_BW_D_TPA_T9_Dining_Collection
+  type: message
+  channel: email
+  subject: '{% catalog_items sale-emails 20260517 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260517 %}{{ items[0].preheader }}'
+- id: de65e497-f171-4e86-858b-0756f75b697e
+  name: P_EM_2026_BW_D_TPA_T8_Leather_Spotlight
+  type: message
+  channel: email
+  subject: '{% catalog_items sale-emails 20260515 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260515 %}{{ items[0].preheader }}'
+- id: 82cc358b-2383-48fe-a178-e72858965779
+  name: P_EM_2026_BW_D_TPA_T7_New_Arrivals
+  type: message
+  channel: email
+  subject: '{% catalog_items sale-emails 20260514 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260514 %}{{ items[0].preheader }}'
+- id: 800541ab-2388-4511-b49b-14462b794e0a
+  name: P_EM_2026_BW_D_TPA_T13_Bestsellers_1
+  type: message
+  channel: email
+  subject: '{% catalog_items sale-emails 20260524 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260524 %}{{ items[0].preheader }}'
+- id: 4da54c1b-6ae4-469a-bd7a-980c84a0f857
+  name: Step 10
+  type: delay
+- id: 99edbd74-8b3e-4e42-9191-b101fb2d8baa
+  name: Step 6
+  type: delay
+- id: ddb745cd-73f5-4739-83b8-2d0a41ae205c
+  name: Step 4
+  type: delay
+- id: d82ebe26-9cd0-49ee-b52b-3940a0932395
+  name: Step 12
+  type: delay
+- id: 3dd5ed2e-a957-4d60-9fb0-289f49dfaede
+  name: Step 5
+  type: delay
+- id: 207b9910-16f8-4f43-9661-19f42fe56a9f
+  name: Step
+  type: delay
+- id: 0262bda8-4d29-4c6d-8140-071a6b251f54
+  name: Step 7
+  type: delay
+- id: bd0de8c0-467c-4633-96c7-e18ad618d245
+  name: Step 3
+  type: delay
+- id: 0fd92516-dba3-45e3-bb76-f67e59af11c4
+  name: Step 11
+  type: delay
+- id: 06a91b1f-6f50-4e1e-8127-3c88c3175727
+  name: Step 9
+  type: delay
+- id: 51a8b803-68b6-4d56-b3d2-2987da4b5d81
+  name: Step 8
+  type: delay
+- id: bad47f5f-fc7a-41cc-8f5b-f949e681d9b1
+  name: P_EM_2026_BW_D_TPA_T15_Last_Day
+  type: message
+  channel: email
+  subject: '{% catalog_items sale-emails 20260526 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260526 %}{{ items[0].preheader }}'
+- id: 7702f65b-cd2a-4a16-9432-04e93d73f04c
+  name: P_EM_2026_BW_D_TPA_T14_Last_Two_Days
+  type: message
+  channel: email
+  subject: '{% catalog_items sale-emails 20260525 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260525 %}{{ items[0].preheader }}'
+- id: 6fc562bd-8d9d-4634-9aea-11fb4b7195de
+  name: P_EM_2026_BW_D_TPA_T22_Extension_Last_Day
+  type: message
+  channel: email
+  subject: '{% catalog_items sale-emails 20260602 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260602 %}{{ items[0].preheader }}'
+- id: bc841ff6-f889-43d2-9a3a-06920c014e96
+  name: P_EM_2026_BW_D_TPA_T17_Extension_Launch
+  type: message
+  channel: email
+  subject: '{% catalog_items sale-emails 20260527 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260527 %}{{ items[0].preheader }}'
+- id: 2856bd3d-234a-4d43-a0c3-ad33eea9f5bb
+  name: P_EM_2026_BW_D_TPA_T20_Sleeper_Sofas
+  type: message
+  channel: email
+  subject: '{% catalog_items sale-emails 20260531 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260531 %}{{ items[0].preheader }}'
+- id: 8244a663-3369-4c79-b17f-9ce7eb8934be
+  name: P_EM_2026_BW_D_TPA_T21_Bestsellers_2
+  type: message
+  channel: email
+  subject: '{% catalog_items sale-emails 20260601 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260601 %}{{ items[0].preheader }}'
+- id: 81331b7f-05fa-4270-8eec-cd828d82267a
+  name: P_EM_2026_BW_PT_TPA_T16_Main_Sale_Last_Day_PM
+  type: message
+  channel: email
+  subject: 'ENDS TONIGHT: hours left to save'
+  preheader: ''
+- id: 15d9edd6-8086-42bf-bfb1-fa3c6e1656d7
+  name: P_EM_2026_BW_D_TPA_T18_Collection_Spotlight_Range
+  type: message
+  channel: email
+  subject: '{% catalog_items sale-emails 20260528 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260528 %}{{ items[0].preheader }}'
+- id: 9861172e-b2d3-4605-956b-34221f22f709
+  name: P_EM_2026_BW_D_TPA_T19_Clearance
+  type: message
+  channel: email
+  subject: '{% catalog_items sale-emails 20260529 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260529 %}{{ items[0].preheader }}'
+- id: 8f2f09c5-fd1b-4805-ba41-d5d83a3af50b
+  name: P_EM_2026_BW_PT_TPA_T23_Extension_Last_Day_PM
+  type: message
+  channel: email
+  subject: 'ENDING TONIGHT: last call'
+  preheader: ''
+- id: b5c9f0ab-e3c8-4dd7-a0fa-dd2b270f2a30
+  name: Step 18
+  type: delay
+- id: 81f6628b-f853-41bf-b9fc-82ba0d4eac14
+  name: Step 16
+  type: delay
+- id: 73adf7a9-809a-4e1c-a388-1be2d3d85789
+  name: Step 13
+  type: delay
+- id: 83ecf754-0d8b-41f6-b64c-9baef1452f7d
+  name: Step 21
+  type: delay
+- id: eff6c03a-db09-4fbe-a7b3-daf28f3f6008
+  name: Step 17
+  type: delay
+- id: 5898057c-2ca8-4602-8534-9f3fc9700649
+  name: Step 15
+  type: delay
+- id: 3e31932d-26e6-4357-ba4f-e642117bcb5e
+  name: Step 19
+  type: delay
+- id: 3d6ba874-a060-48d2-b5a7-1149edd9ce8c
+  name: Step 20
+  type: delay
+- id: ff6f105a-bbc8-43a4-9c27-b33c67d492ba
+  name: Step 22
+  type: delay
+- id: f188b989-a38f-4626-add4-6bfff698d4bd
+  name: Step 14
+  type: delay
+_filename: mds-tentpole-automation.yaml

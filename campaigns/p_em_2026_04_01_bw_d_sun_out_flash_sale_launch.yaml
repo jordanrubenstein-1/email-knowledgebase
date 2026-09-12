@@ -1,0 +1,34 @@
+id: fa2b86a5-4846-4705-947a-ab3ad5e4d2f7
+name: P_EM_2026_04_01_BW_D_Sun_Out_Flash_Sale_Launch
+brand: BUR
+channel: email
+category: product_launch
+type: sale
+theme: null
+braze_id: fa2b86a5-4846-4705-947a-ab3ad5e4d2f7
+dates:
+  send_date: '2026-04-01'
+  inferred_send_type: local_time
+  first_sent: '2026-03-31T21:08:05+00:00'
+  last_sent: '2026-04-01T17:00:00+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 171eff70-4b4c-45b3-8da6-7d0c5751df4b
+  channel: email
+  name: Variant 1
+  subject: 'FLASH SALE: 25% off select styles'
+  preheader: Sun's out. Sale's on.
+- id: 24d4ae2b-b739-4e02-9c79-49e4eafd3463
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 97005
+  total_delivered: 96675
+  total_opens: 37547
+  total_clicks: 305
+  open_rate: 0.3871
+  click_rate: 0.0031
+  total_revenue: 32738.0
+  total_unsubscribes: 145
+schedule_type: time_based

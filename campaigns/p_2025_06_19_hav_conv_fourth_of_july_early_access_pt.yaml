@@ -1,0 +1,33 @@
+id: 36c2d366-cfe0-44ff-8140-83f41ee2fc9f
+name: P_2025_06_19_HAV_Conv_Fourth_of_July_Early_Access_PT
+brand: HAV
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 36c2d366-cfe0-44ff-8140-83f41ee2fc9f
+dates:
+  send_date: '2025-06-19'
+  first_sent: '2025-06-18T18:54:17+00:00'
+  last_sent: '2025-06-19T17:15:17+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 3d5ca271-28fb-49c5-9b2b-596dfd6e99f9
+  channel: email
+  name: Variant 1
+  subject: Early access to Fourth of July savings, just for you
+- id: c6034f20-ebc3-4be5-9cac-5f7b21de860f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 40388
+  total_delivered: 40313
+  total_opens: 22575
+  total_clicks: 178
+  open_rate: 0.559
+  click_rate: 0.0044
+  total_unsubscribes: 44
+schedule_type: time_based
+_filename: p_2025_06_19_hav_conv_fourth_of_july_early_access_pt.yaml

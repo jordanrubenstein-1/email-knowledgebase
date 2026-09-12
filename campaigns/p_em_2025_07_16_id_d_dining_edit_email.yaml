@@ -1,0 +1,63 @@
+id: 07cc4ba9-969f-4538-9851-404e41598d24
+name: P_EM_2025_07_16_ID_D_Dining_Edit_Email
+brand: ID
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 07cc4ba9-969f-4538-9851-404e41598d24
+dates:
+  send_date: '2025-07-16'
+  inferred_send_type: scheduled
+  first_sent: '2025-07-16T04:53:25+00:00'
+  last_sent: '2025-07-16T17:15:27+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 2e277d3f-029e-408b-a377-ba2163646cd5
+  channel: email
+  name: Variant 1
+  subject: Spills? Kids? Pets? No Problem.
+  preheader: Custom dining made to gather, made to last.
+- id: a402f3c7-18d2-4f33-bcc3-2fec43949431
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 118572
+  total_delivered: 117120
+  total_opens: 52278
+  total_clicks: 533
+  open_rate: 0.4409
+  click_rate: 0.0045
+  total_revenue: 112600.0
+  total_bounces: 5
+  total_unsubscribes: 478
+  ga4:
+    sessions: 537
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.061915'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-private-sale-retail-only-2025-07-11
+    name: Private Sale - Retail Only
+    start_date: '2025-07-11'
+    end_date: '2025-07-21'
+    discount: 20% off sitewide
+    type: null
+  primary_sale:
+    id: id-private-sale-retail-only-2025-07-11
+    name: Private Sale - Retail Only
+    start_date: '2025-07-11'
+    end_date: '2025-07-21'
+    discount: 20% off sitewide
+    type: null
+  sale_name: Private Sale - Retail Only
+  sale_discount: 20% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:42.292195'
+schedule_type: time_based

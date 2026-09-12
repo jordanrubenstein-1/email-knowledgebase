@@ -1,0 +1,33 @@
+id: faa17c0d-f045-4e13-8739-78c6f042ecb9
+name: P_EM_2026_02_12_HAV_CONV_PT_Presidents_Day_Sweetener
+brand: HAV
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: faa17c0d-f045-4e13-8739-78c6f042ecb9
+dates:
+  send_date: '2026-02-12'
+  first_sent: '2026-02-12T18:34:54+00:00'
+  last_sent: '2026-02-13T03:00:58+00:00'
+  inferred_send_type: scheduled
+tags:
+- BLASTS-2025
+sends:
+- id: 9eb4a06c-d15b-4bcc-a072-3feae0b8551e
+  channel: email
+  name: Variant 1
+  subject: FINAL HOURS for Bonus Savings
+- id: 8367e97b-3225-4c40-909a-c0c03d98f827
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 42723
+  total_delivered: 42703
+  total_opens: 22753
+  total_clicks: 93
+  open_rate: 0.5326
+  click_rate: 0.0022
+  total_unsubscribes: 34
+schedule_type: time_based
+_filename: p_em_2026_02_12_hav_conv_pt_presidents_day_sweetener.yaml

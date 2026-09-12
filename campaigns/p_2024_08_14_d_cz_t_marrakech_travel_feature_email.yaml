@@ -1,0 +1,53 @@
+id: fb33dc35-8e64-4bff-a63c-a08d0f23d153
+name: P_2024_08_14_D_CZ_T_Marrakech_Travel_Feature_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: fb33dc35-8e64-4bff-a63c-a08d0f23d153
+dates:
+  send_date: '2024-08-14'
+  inferred_send_type: local_time
+  first_sent: '2024-08-14T01:55:49+00:00'
+  last_sent: '2024-08-14T17:05:03+00:00'
+tags:
+- batch and blast
+sends:
+- id: b832c465-74ec-425e-b40f-f6738cd2a0de
+  channel: email
+  name: Variant 1
+  subject: Explore Marrakech
+  preheader: There’s adventure around every corner of this dusty pink maze.
+  html_file: html/p_2024_08_14_d_cz_t_marrakech_travel_feature_email.html
+  screenshot: screenshots/p_2024_08_14_d_cz_t_marrakech_travel_feature_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ba16b585bed00065342135/original.jpg?1723471541
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ba16316491cf007345b72d/original.jpg?1723471409
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ba1685840ee90065cec4d4/original.jpg?1723471493
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ba1644c81a3600663cd797/original.jpg?1723471428
+- id: b444ee77-bceb-4ceb-99c5-0369aa74e02e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 37699
+  total_delivered: 37663
+  total_opens: 23835
+  total_clicks: 849
+  open_rate: 0.6322
+  click_rate: 0.0225
+  total_revenue: 26488.73
+  total_unsubscribes: 64
+  ga4:
+    sessions: 993
+    purchases: 2
+    revenue: 234.94
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.750594'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.642952'
+schedule_type: time_based

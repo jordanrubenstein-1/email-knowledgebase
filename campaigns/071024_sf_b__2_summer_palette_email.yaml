@@ -1,0 +1,51 @@
+id: dbfc5b2a-5a51-4f3a-9448-b6323704418e
+name: 071024_SF_B__2_Summer_Palette_Email
+brand: STF
+channel: email
+category: editorial
+type: seasonal
+theme: summer
+braze_id: dbfc5b2a-5a51-4f3a-9448-b6323704418e
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2024-07-10T19:30:02+00:00'
+  last_sent: '2024-07-10T19:30:15+00:00'
+tags:
+- Batch and Blast
+- Batch and Blast/non-promo
+sends:
+- id: b15a6b91-8aaf-4c05-82a1-fb73b5da3f70
+  channel: email
+  name: Variant 1
+  subject: Golden Hour ☀️
+  preheader: sunny pillow picks
+  html_file: html/071024_sf_b__2_summer_palette_email.html
+  screenshot: screenshots/071024_sf_b__2_summer_palette_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668d909e89f7a2005b1e0249/original.jpg?1720553629
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668828082bdc50005b393451/original.jpg?1720199176
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668d909d56118800593cd2b6/original.jpg?1720553628
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668d909d7f86bc005a7d7659/original.jpg?1720553629
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668d909d8ac1520059b157cd/original.jpg?1720553629
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66882808e18a420059321937/original.jpg?1720199176
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668d909d56118800633cc8e2/original.jpg?1720553628
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668d909d27ef2d005a4fa46e/original.jpg?1720553629
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668828085d486700663778b4/original.jpg?1720199176
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668d909e391fbd005ae76e38/original.jpg?1720553629
+- id: c3ce4b32-342c-4f5b-ae2f-2f7862302de2
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 39
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.005319'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.345603'
+schedule_type: time_based

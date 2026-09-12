@@ -1,0 +1,47 @@
+id: b295068f-8acd-4a69-a7c9-fd1e7a4f38c2
+name: P_2025_05_26_PT_PM_CZ_MDW_Sale_Reminder_Email
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: b295068f-8acd-4a69-a7c9-fd1e7a4f38c2
+dates:
+  send_date: '2025-05-26'
+  inferred_send_type: local_time
+  first_sent: '2025-05-26T03:18:11+00:00'
+  last_sent: '2025-05-27T02:10:19+00:00'
+tags: []
+sends:
+- id: 09795497-7863-4ddd-b9de-08fbf62c7efe
+  channel: email
+  name: Variant 1
+  subject: 20% Off Sitewide – Memorial Day Ends Tonight
+  html_file: html/p_2025_05_26_pt_pm_cz_mdw_sale_reminder_email.html
+  screenshot: screenshots/p_2025_05_26_pt_pm_cz_mdw_sale_reminder_email.png
+- id: 841305bf-79d8-4f90-8e8c-08b66a3146eb
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 23955
+  total_delivered: 23929
+  total_opens: 15925
+  total_clicks: 421
+  open_rate: 0.6648
+  click_rate: 0.0176
+  total_revenue: 159593.28
+  total_bounces: 2
+  total_unsubscribes: 62
+  ga4:
+    sessions: 613
+    purchases: 11
+    revenue: 5112.68
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.804656'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:35.144110'
+schedule_type: time_based

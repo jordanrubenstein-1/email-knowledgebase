@@ -1,0 +1,23 @@
+id: 27dc803c-c2a6-40be-9168-a47a3921cb48
+name: Email & Phone Capture Modal - Sale Version
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 27dc803c-c2a6-40be-9168-a47a3921cb48
+dates:
+  first_sent: '2026-06-17T06:00:00+00:00'
+  last_sent: '2026-06-17T16:00:00+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: baadc6e1-6f62-4c4e-88c3-fe9ad6469e3c
+  channel: other
+  name: Control Group
+- id: 4ec9d8ac-873a-4dc6-89aa-de9f05c245f9
+  channel: other
+  name: Variant 1
+performance_summary: {}
+schedule_type: action_based
+_filename: email-phone-capture-modal-sale-version-27dc803c.yaml

@@ -1,0 +1,35 @@
+id: d52c16b0-3e02-4417-8a2b-bf820678fe4e
+name: P_2025_3_7_HAV_PC_This_or_That_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: d52c16b0-3e02-4417-8a2b-bf820678fe4e
+dates:
+  send_date: '2025-03-07'
+  first_sent: '2025-03-07T02:37:50+00:00'
+  last_sent: '2025-03-07T18:15:02+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: b092dbd5-ac5d-4141-8f00-82a80a052c68
+  channel: email
+  name: Variant 1
+  subject: We’re Playing Favorites
+  preheader: Time to play This Or That.
+- id: 0563c3ad-8543-4df3-9f55-0ecc3c11c839
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 193355
+  total_delivered: 190287
+  total_opens: 85724
+  total_clicks: 811
+  open_rate: 0.4434
+  click_rate: 0.0042
+  total_bounces: 7
+  total_unsubscribes: 318
+schedule_type: time_based
+_filename: p_2025_3_7_hav_pc_this_or_that_email.yaml

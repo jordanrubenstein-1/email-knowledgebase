@@ -1,0 +1,48 @@
+id: c0e7de7b-c92e-4107-b853-0d3836ffb1c8
+name: P_2025_05_16_ID_AM_Sloan_Collection_Spotlight_Email
+brand: ID
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: c0e7de7b-c92e-4107-b853-0d3836ffb1c8
+dates:
+  send_date: '2025-05-16'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-16T08:18:09+00:00'
+  last_sent: '2025-05-16T17:15:48+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: cc29c165-4f4f-4b84-9725-f0561b32e738
+  channel: email
+  name: Variant 1
+  subject: “This is the couch of my dreams.” - Irena J.
+  preheader: We’re all about making dreams come true (and taking 25% off while we’re
+    at it).
+- id: bd337c0c-8427-4520-a5e7-b674bff79fb6
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 161709
+  total_delivered: 159612
+  total_opens: 37924
+  total_clicks: 491
+  open_rate: 0.2345
+  click_rate: 0.003
+  total_revenue: 139733.0
+  total_bounces: 2
+  total_unsubscribes: 87
+  ga4:
+    sessions: 498
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.939734'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.956984'
+schedule_type: time_based

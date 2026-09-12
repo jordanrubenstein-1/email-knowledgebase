@@ -1,0 +1,33 @@
+id: dc991d60-1532-4877-9bd1-6ab375dc6b10
+name: P_2025_1_9_HAV_Conv_Bedroom_Event_Announcement_Email
+brand: HAV
+channel: email
+category: sale_promo
+type: product_launch
+theme: null
+braze_id: dc991d60-1532-4877-9bd1-6ab375dc6b10
+dates:
+  send_date: '2025-01-09'
+  first_sent: '2025-01-09T14:54:23+00:00'
+  last_sent: '2025-01-09T14:54:52+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: aa8cb889-33c5-4a79-bd51-371c194d83af
+  channel: email
+  name: Variant 1
+  subject: Up To 20% Off Bedroom Favorites
+  preheader: The Bedroom Event starts now!
+- id: 82e2b92e-93a0-48a0-8fd1-c8a621249e89
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 36865
+  total_delivered: 36811
+  total_opens: 20257
+  total_clicks: 230
+  open_rate: 0.5495
+  click_rate: 0.0062
+  total_unsubscribes: 90
+schedule_type: time_based
+_filename: p_2025_1_9_hav_conv_bedroom_event_announcement_email.yaml

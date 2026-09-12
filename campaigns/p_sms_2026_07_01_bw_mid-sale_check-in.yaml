@@ -1,0 +1,29 @@
+id: 83291147-dc4b-441d-8bc4-7345bfaeb3e0
+name: P_SMS_2026_07_01_BW_Mid-Sale_Check-In
+brand: BUR
+channel: sms
+category: sale_promo
+type: sale
+theme: null
+braze_id: 83291147-dc4b-441d-8bc4-7345bfaeb3e0
+dates:
+  send_date: '2026-07-01'
+  last_sent: '2026-07-01'
+tags: []
+sends:
+- id: 88cff256-fd52-49e7-9cea-76eb097b8273
+  channel: sms
+  name: Variant 1
+- id: 246e4a61-1191-4eb4-92e7-fc3649a28bda
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 11026
+  total_delivered: 10447
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 17083.0
+schedule_type: time_based
+_filename: p_sms_2026_07_01_bw_mid-sale_check-in.yaml

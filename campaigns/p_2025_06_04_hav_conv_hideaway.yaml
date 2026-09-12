@@ -1,0 +1,34 @@
+id: 58127e46-5649-48ed-a120-d90e69299a37
+name: P_2025_06_04_HAV_Conv_Hideaway
+brand: HAV
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 58127e46-5649-48ed-a120-d90e69299a37
+dates:
+  send_date: '2025-06-04'
+  first_sent: '2025-06-04T03:06:27+00:00'
+  last_sent: '2025-06-05T02:01:43+00:00'
+  inferred_send_type: local_time
+tags:
+- HideawayEmails
+sends:
+- id: 56fbf516-76a3-4acf-be26-e766f946f1be
+  channel: email
+  name: Variant 1
+  subject: 'The #1 patio trend of 2025'
+  preheader: According to a new report.
+- id: a722951d-43a3-45b7-abd6-b09bf1efb2ac
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 40272
+  total_delivered: 40182
+  total_opens: 22229
+  total_clicks: 718
+  open_rate: 0.552
+  click_rate: 0.0178
+  total_unsubscribes: 45
+schedule_type: time_based
+_filename: p_2025_06_04_hav_conv_hideaway.yaml

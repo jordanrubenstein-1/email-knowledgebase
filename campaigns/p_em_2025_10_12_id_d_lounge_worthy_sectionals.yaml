@@ -1,0 +1,63 @@
+id: 5be9ba4a-33c1-48f4-8e2d-39a5ff9ed59d
+name: P_EM_2025_10_12_ID_D_Lounge_worthy_Sectionals
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 5be9ba4a-33c1-48f4-8e2d-39a5ff9ed59d
+dates:
+  send_date: '2025-10-12'
+  inferred_send_type: scheduled
+  first_sent: '2025-10-12T03:23:16+00:00'
+  last_sent: '2025-10-12T17:15:23+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 9875a3ef-34d8-46c9-8155-e1be7f25dc10
+  channel: email
+  name: Variant 1
+  subject: Lounge-worthy Sectionals, 20% Off
+  preheader: Explore custom designs made for unwinding in style.
+- id: 60cc8e6f-9381-4db9-897e-b7492976efc0
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 156535
+  total_delivered: 154754
+  total_opens: 71223
+  total_clicks: 1077
+  open_rate: 0.455
+  click_rate: 0.0069
+  total_revenue: 170887.88
+  total_bounces: 4
+  total_unsubscribes: 702
+  ga4:
+    sessions: 1247
+    purchases: 8
+    revenue: 24278.98
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.071767'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-the-autumn-event-2025-10-09
+    name: The Autumn Event
+    start_date: '2025-10-09'
+    end_date: '2025-10-21'
+    discount: 20% off sitewide
+    type: null
+  primary_sale:
+    id: id-the-autumn-event-2025-10-09
+    name: The Autumn Event
+    start_date: '2025-10-09'
+    end_date: '2025-10-21'
+    discount: 20% off sitewide
+    type: null
+  sale_name: The Autumn Event
+  sale_discount: 20% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:31.082184'
+schedule_type: time_based

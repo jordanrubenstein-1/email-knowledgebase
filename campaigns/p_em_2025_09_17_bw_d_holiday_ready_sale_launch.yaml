@@ -1,0 +1,73 @@
+id: 07f6e6a3-cc66-4e7c-b7ba-1876dddfd731
+name: P_EM_2025_09_17_BW_D_Holiday_Ready_Sale_Launch
+brand: BUR
+channel: email
+category: product_launch
+type: sale
+theme: christmas
+braze_id: 07f6e6a3-cc66-4e7c-b7ba-1876dddfd731
+dates:
+  send_date: '2025-09-17'
+  inferred_send_type: local_time
+  first_sent: '2025-09-17T01:36:22+00:00'
+  last_sent: '2025-09-17T17:15:51+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 059cedb5-2615-41dd-b5bc-cfad4c9100be
+  channel: email
+  name: Variant 1
+  subject: Save 20% & Get Your Home Holiday-Ready
+  preheader: Get your pieces on time AND on sale
+- id: 931a6c32-c01b-4789-a332-7ed7b2a1fefe
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 241369
+  total_delivered: 239127
+  total_opens: 136272
+  total_clicks: 405
+  open_rate: 0.5646
+  click_rate: 0.0017
+  total_revenue: 6666.0
+  total_bounces: 2
+  total_unsubscribes: 253
+  ga4:
+    sessions: 235
+    purchases: 2
+    revenue: 6809.06
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.141212'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-holiday-ready-sale-2025-09-17
+    name: Holiday-Ready Sale
+    start_date: '2025-09-17'
+    end_date: '2025-09-30'
+    discount: "20% off orders < $2k / 25% off orders > $2k\n + up to 50% off clearance"
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-holiday-ready-sale-2025-09-17
+    name: Holiday-Ready Sale
+    start_date: '2025-09-17'
+    end_date: '2025-09-30'
+    discount: "20% off orders < $2k / 25% off orders > $2k\n + up to 50% off clearance"
+    type: null
+  sale_name: Holiday-Ready Sale
+  sale_discount: "20% off orders < $2k / 25% off orders > $2k\n + up to 50% off clearance"
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:38.137911'
+schedule_type: time_based

@@ -1,0 +1,43 @@
+id: c75925bd-0faf-4f5a-a165-7397912e3888
+name: P_2024_08_04_CZ_D_RS_Country_Collections_Feature_Email
+brand: CZ
+channel: email
+category: product_launch
+type: announcement
+theme: null
+braze_id: c75925bd-0faf-4f5a-a165-7397912e3888
+dates:
+  send_date: '2024-08-04'
+  inferred_send_type: local_time
+  first_sent: '2024-08-03T19:04:12+00:00'
+  last_sent: '2024-08-04T17:00:16+00:00'
+tags: []
+sends:
+- id: ba43abff-38f3-4f0d-8ac0-e79132d9b0bf
+  channel: email
+  name: Variant 1
+  subject: Bring Travel Home
+  preheader: Travel the globe with designs handcrafted by master artisans.
+  html_file: html/p_2024_08_04_cz_d_rs_country_collections_feature_email.html
+  screenshot: screenshots/p_2024_08_04_cz_d_rs_country_collections_feature_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66aaae3e2b2be0005c124a39/original.jpg?1722461758
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66aaae28e1d2c6005d856250/original.jpg?1722461736
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66aaae5194f8e7005ed82fc8/original.jpg?1722461776
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66aaae2eb744df005c78f46e/original.jpg?1722461741
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66aaae49e1d2c6005d856276/original.jpg?1722461769
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66aaae352b2be0005c124a2c/original.jpg?1722461748
+- id: 2743dcfb-5751-429c-825a-da3847e42b49
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 29554
+  total_delivered: 29536
+  total_opens: 18633
+  total_clicks: 481
+  open_rate: 0.6305
+  click_rate: 0.0163
+  total_revenue: 7242.17
+  total_unsubscribes: 51
+_filename: p_2024_08_04_cz_d_rs_country_collections_feature_email.yaml
+schedule_type: time_based

@@ -1,0 +1,71 @@
+id: klaviyo-01JCFDF215DJYDGR46MNFEDPGD
+name: '11/12: BFCM EA PM_PT Swatchees'
+brand: TI
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2024-11-12'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-12T22:08:54+00:00'
+  last_sent: '2024-11-12T22:08:54+00:00'
+sends:
+- id: 01JCFDF223S8ZZ5KP7G36BTXX3
+  channel: email
+  name: '11/12: BFCM EA PM_PT Swatchees'
+  subject: Black Friday Starts Now (For You)!
+  preheader: ''
+  html_file: html/1112-bfcm-ea-pm_pt-swatchees.html
+  image_urls: []
+  screenshot: screenshots/1112-bfcm-ea-pm_pt-swatchees.png
+performance_summary:
+  total_sends: 1275
+  total_delivered: 1274
+  total_opens: 1278
+  total_clicks: 29
+  unique_opens: 757
+  unique_clicks: 23
+  open_rate: 0.5937
+  click_rate: 0.018
+  total_open_rate: 1.0024
+  total_click_rate: 0.0227
+  total_unsubscribes: 2
+  total_bounces: 1
+klaviyo_type: campaign
+klaviyo_campaign_id: 01JCFDF215DJYDGR46MNFEDPGD
+klaviyo_message_id: 01JCFDF223S8ZZ5KP7G36BTXX3
+structure:
+  image_count: 0
+  link_count: 2
+  has_gif: false
+  hero_width: null
+  layout_type: text_only
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: ti-25-off-code-vipbf24-2024-11-12
+    name: 25% off (code VIPBF24)
+    start_date: '2024-11-12'
+    end_date: '2024-11-14'
+    discount: null
+    type: null
+  - id: ti-vip-early-access-2024-11-12
+    name: VIP Early Access
+    start_date: '2024-11-12'
+    end_date: '2024-11-14'
+    discount: null
+    type: null
+  primary_sale:
+    id: ti-25-off-code-vipbf24-2024-11-12
+    name: 25% off (code VIPBF24)
+    start_date: '2024-11-12'
+    end_date: '2024-11-14'
+    discount: null
+    type: null
+  sale_name: 25% off (code VIPBF24)
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-03-12T11:18:50.498403'

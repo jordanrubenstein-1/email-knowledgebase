@@ -1,0 +1,50 @@
+id: 194bb422-035f-405f-8293-a76dbf488d3a
+name: P_EM_2025_12_19_HAV_CONV_D_SALE_ITEMS_IN_YOUR_DESIGN
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 194bb422-035f-405f-8293-a76dbf488d3a
+dates:
+  send_date: '2025-12-19'
+  inferred_send_type: scheduled
+  first_sent: '2025-12-19T02:27:48+00:00'
+  last_sent: '2025-12-19T17:02:01+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 4ffc4e18-2672-4edb-b288-f2caafee869e
+  channel: email
+  name: Variant 1
+  subject: Love Your Design? It’s On Sale.
+  preheader: Get up to 15% off when you buy more.
+  html_file: html/p_em_2025_12_19_hav_conv_d_sale_items_in_your_design.html
+  screenshot: screenshots/p_em_2025_12_19_hav_conv_d_sale_items_in_your_design.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69449300d11fef0063b611c0/original.png?1766101759
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6944933882144400630eb100/original.gif?1766101816
+- id: 6d6894c6-b125-4e13-86e6-420bf2742c23
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 8710
+  total_delivered: 8696
+  total_opens: 4509
+  total_clicks: 102
+  open_rate: 0.5177
+  click_rate: 0.0117
+  total_unsubscribes: 8
+  ga4:
+    sessions: 133
+    purchases: 1
+    revenue: 219.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.838046'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:45.365178'
+schedule_type: time_based

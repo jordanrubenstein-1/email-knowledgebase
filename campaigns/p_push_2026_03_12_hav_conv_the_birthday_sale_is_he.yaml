@@ -1,0 +1,38 @@
+id: e9e4f955-4022-4f29-8b93-1a06d47f18c1
+name: P_PUSH_2026_03_12_HAV_CONV_The_Birthday_Sale_Is_Here
+brand: HAV
+channel: push
+category: sale_promo
+type: sale
+theme: null
+braze_id: e9e4f955-4022-4f29-8b93-1a06d47f18c1
+dates:
+  send_date: '2026-03-12'
+  inferred_send_type: local_time
+  first_sent: '2026-03-12T01:07:58+00:00'
+  last_sent: '2026-03-13T01:01:15+00:00'
+tags: []
+sends:
+- id: 0223bf6a-9421-4e46-8acc-57172db10cfc
+  channel: push
+  name: Variant 1
+- id: 1c07f8f0-dc45-4786-9c60-7477426c3008
+  channel: push
+  name: Control Group
+performance_summary:
+  total_sends: 45954
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_bounces: 146
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.613507'
+    source: snowflake
+    channel: push
+schedule_type: time_based

@@ -1,0 +1,58 @@
+id: 95407bdd-1faa-4433-b294-b8c1c024b997
+name: P_EM_2025_12_31_SF_D_PR_Sale_Last_Day
+brand: STF
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 95407bdd-1faa-4433-b294-b8c1c024b997
+dates:
+  send_date: '2025-12-31'
+  inferred_send_type: local_time
+  first_sent: '2025-12-31T01:28:07+00:00'
+  last_sent: '2025-12-31T17:04:02+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: 9b0ae917-f354-4b21-80cb-d9022f756ae5
+  channel: email
+  name: Variant 1
+  subject: Time's running out...
+  preheader: final hours to shop up to 30% off.
+  html_file: html/p_em_2025_12_31_sf_d_pr_sale_last_day.html
+  screenshot: screenshots/p_em_2025_12_31_sf_d_pr_sale_last_day.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6954271e8085c70073d34cec/original.png?1767122717
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6954270ced96d200643a0d12/original.png?1767122700
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/695426de64dba4006461a197/original.png?1767122654
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6949d7083ec9dd0065c7966d/original.png?1766446856
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/695426bb58ac1a0063652bdf/original.png?1767122619
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/695426e9a57df20064f8f3d3/original.png?1767122664
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6954275f8d6e04006354d0ea/original.gif?1767122783
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/695426ce64dba4006461a180/original.png?1767122638
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/695426c3462388006585e546/original.gif?1767122627
+- id: 05f505fa-6c6a-4621-906b-fc4f762cad1a
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39026
+  total_delivered: 38952
+  total_opens: 17221
+  total_clicks: 123
+  open_rate: 0.4413
+  click_rate: 0.0032
+  total_unsubscribes: 61
+  ga4:
+    sessions: 125
+    purchases: 4
+    revenue: 4973.44
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.987177'
+    source: snowflake
+    channel: email
+schedule_type: time_based

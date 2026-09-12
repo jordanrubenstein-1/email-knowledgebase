@@ -1,0 +1,37 @@
+id: ee8da70d-a3d7-430a-95ef-5d74eb62537e
+name: P_SMS_2026_03_01_SF_Bright_Botanical_Suzani
+brand: STF
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: ee8da70d-a3d7-430a-95ef-5d74eb62537e
+dates:
+  send_date: '2026-03-01'
+  inferred_send_type: local_time
+  first_sent: '2026-02-28T22:05:54+00:00'
+  last_sent: '2026-03-01T20:00:26+00:00'
+tags: []
+sends:
+- id: c054e224-cda2-489d-b9b2-5e924f49f2a2
+  channel: sms
+  name: Variant 1
+- id: 872cdfd6-7ae7-4210-8b52-1e931f0fa6aa
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 4166
+  total_delivered: 4100
+  total_opens: 0
+  total_clicks: 295
+  open_rate: 0.0
+  click_rate: 0.0708
+  ga4:
+    sessions: 355
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.893158'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

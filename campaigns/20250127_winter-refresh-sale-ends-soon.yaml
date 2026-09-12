@@ -1,0 +1,64 @@
+id: c5c4c7b1-6af5-42de-85e8-8a5d913d2da3
+name: 20250127_Winter-Refresh-Sale-Ends-Soon
+brand: BUR
+channel: email
+category: reminder
+type: sale
+theme: winter
+braze_id: c5c4c7b1-6af5-42de-85e8-8a5d913d2da3
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-01-26T17:23:43+00:00'
+  last_sent: '2025-01-27T17:15:10+00:00'
+tags: []
+sends:
+- id: 8d6b1241-fb50-4ff6-8cb0-fd2e6725b83d
+  channel: email
+  name: Variant 1
+  subject: The Winter Refresh Sale ends tomorrow at midnight
+  preheader: Don't miss out on savings.
+- id: c6812160-b10b-42e6-a81c-e85e7a184196
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 360
+    purchases: 2
+    revenue: 2076.24
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.771325'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:45.448063'
+schedule_type: time_based

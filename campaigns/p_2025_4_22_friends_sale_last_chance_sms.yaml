@@ -1,0 +1,30 @@
+id: c63837b0-5c73-44df-9f2f-6ec1740c2fec
+name: P_2025_4_22_Friends_Sale_Last_Chance_SMS
+brand: ID
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: c63837b0-5c73-44df-9f2f-6ec1740c2fec
+dates:
+  send_date: '2025-04-22'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-22T19:46:48+00:00'
+  last_sent: '2025-04-22T19:50:15+00:00'
+tags: []
+sends:
+- id: 4686eb27-396f-4c28-a6de-926cda75c4f2
+  channel: other
+  name: Variant 1
+- id: e06769eb-d1e7-4da8-911d-9bbe46a9c993
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 59191
+  total_delivered: 55708
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 18030.0
+schedule_type: time_based

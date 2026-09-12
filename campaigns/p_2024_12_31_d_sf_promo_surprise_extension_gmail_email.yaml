@@ -1,0 +1,47 @@
+id: 5937603b-584d-4582-a0af-e734d4207138
+name: P_2024_12_31_D_SF_PROMO_Surprise_Extension_Gmail_Email
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 5937603b-584d-4582-a0af-e734d4207138
+dates:
+  send_date: '2024-12-31'
+  inferred_send_type: local_time
+  first_sent: '2024-12-31T00:16:13+00:00'
+  last_sent: '2024-12-31T16:00:19+00:00'
+tags: []
+sends:
+- id: 6e282b78-d20a-4534-9574-b015776b4b98
+  channel: email
+  name: Variant 1
+  subject: It’s Your Lucky Day! 20% Off Is Back On 🥳
+  preheader: end 2024 with major savings on all your favorite styles
+  html_file: html/p_2024_12_31_d_sf_promo_surprise_extension_gmail_email.html
+  screenshot: screenshots/p_2024_12_31_d_sf_promo_surprise_extension_gmail_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677277088ad7240070d3f7b2/original.jpg?1735554824
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676f01a56474530065c3f887/original.gif?1735328164
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676f02363b85f000754ebc53/original.gif?1735328310
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6769dd5d0fbbc500643cc5f9/original.jpg?1734991197
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676f016e8f0d490064a3bac4/original.jpg?1735328110
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676f01f6e2902a0064761982/original.gif?1735328246
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67730457db3e82006414926a/original.gif?1735590999
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676f01886474530065c3f87d/original.jpg?1735328136
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6772772a8ad7240063d40c69/original.gif?1735554858
+- id: af34fd69-0f79-4eb2-a97a-407a2b877f94
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 760
+  total_delivered: 760
+  total_opens: 606
+  total_clicks: 21
+  open_rate: 0.7974
+  click_rate: 0.0276
+  total_revenue: 794.5
+  total_unsubscribes: 2
+_filename: p_2024_12_31_d_sf_promo_surprise_extension_gmail_email.yaml
+schedule_type: time_based

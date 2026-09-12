@@ -1,0 +1,59 @@
+id: 872aa81f-76ef-451d-b9aa-d742efdb8ebb
+name: P_2025_06_13_CZ_Your_Restful_Retreat_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 872aa81f-76ef-451d-b9aa-d742efdb8ebb
+dates:
+  send_date: '2025-06-13'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-13T03:43:35+00:00'
+  last_sent: '2025-06-13T17:01:08+00:00'
+tags: []
+sends:
+- id: b9ccbe8b-7637-430d-9bd5-7039d4508292
+  channel: email
+  name: Variant 1
+  subject: Your Dream Bedroom, Now 20% Off
+  preheader: 'The softest layers of summer—yours to save on, for a limited time.
+
+    '
+  html_file: html/p_2025_06_13_cz_your_restful_retreat_email.html
+  screenshot: screenshots/p_2025_06_13_cz_your_restful_retreat_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684b410facc1350067ec583b/original.png?1749762318
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684b3f8eaff72d0066f12881/original.png?1749761933
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684b3feb8aff7c008407b47b/original.png?1749762027
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684b3f543fc8220086e1977d/original.png?1749761875
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684b416cf633f80065b2ea5d/original.png?1749762411
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684b3f70298d6f00656c8082/original.png?1749761904
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684b40e8acc1350067ec56ac/original.png?1749762279
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684b414af633f80065b2e8a8/original.png?1749762377
+- id: 867c4c53-1ba3-4123-894f-4055ad5b7f68
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 100917
+  total_delivered: 100447
+  total_opens: 52522
+  total_clicks: 771
+  open_rate: 0.5204
+  click_rate: 0.0076
+  total_revenue: 58164.29
+  total_bounces: 7
+  total_unsubscribes: 122
+  ga4:
+    sessions: 939
+    purchases: 24
+    revenue: 12577.09
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.437198'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.905648'
+schedule_type: time_based

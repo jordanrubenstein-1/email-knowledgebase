@@ -1,0 +1,48 @@
+id: 8b872911-8cab-4f41-8f02-bdb571001197
+name: P_2024_07_30_SF_D_PR_Summer_Tent_Sale_Reminder_Email
+brand: STF
+channel: email
+category: reminder
+type: sale
+theme: summer
+braze_id: 8b872911-8cab-4f41-8f02-bdb571001197
+dates:
+  send_date: '2024-07-30'
+  inferred_send_type: local_time
+  first_sent: '2024-07-29T19:54:19+00:00'
+  last_sent: '2024-07-30T14:05:04+00:00'
+tags: []
+sends:
+- id: 72ce4b44-66f7-4cce-bb69-5e8d72a1f68d
+  channel: email
+  name: Variant 1
+  subject: 20% OFF Pillows Ending Soon
+  preheader: don’t miss our Summer Tent Sale
+  html_file: html/p_2024_07_30_sf_d_pr_summer_tent_sale_reminder_email.html
+  screenshot: screenshots/p_2024_07_30_sf_d_pr_summer_tent_sale_reminder_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a7ba0a5b3b82008a8355db/original.jpg?1722268170
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a7ba0aec7236005c5352e1/original.jpg?1722268170
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a7ba0aef3606007b93117c/original.jpg?1722268170
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0058f1ba77/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a7ba0a20d87d005d0cd8e4/original.jpg?1722268169
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0063f11fb6/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a7ba0a5b3b82007b835c92/original.jpg?1722268170
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a7ba0a5b3b82006d837a42/original.jpg?1722268170
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a7ba0a5b3b82005e83ea28/original.jpg?1722268170
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a7ba0a20d87d008a0b50e8/original.jpg?1722268170
+- id: d43e1868-a5bc-44f2-8afc-0dea80bfb111
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 6916
+  total_delivered: 6873
+  total_opens: 1580
+  total_clicks: 60
+  open_rate: 0.2285
+  click_rate: 0.0087
+  total_revenue: 8925.0
+  total_bounces: 1
+  total_unsubscribes: 4
+_filename: p_2024_07_30_sf_d_pr_summer_tent_sale_reminder_email.yaml
+schedule_type: time_based

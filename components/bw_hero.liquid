@@ -1,0 +1,51 @@
+{% comment %}
+  BW Hero Content Block
+  Braze content block: "hero"
+
+  Reads hero details from the "email-content-test" catalog using email_id,
+  which is assigned in the email body.
+
+  Required variables (assigned in email body):
+    email_id  - ID of the email row in the "email-content-test" catalog (e.g. "20260426")
+
+  Catalogs:
+    email-content-test
+      id              - Email identifier (e.g. 20260426)
+      hero_image_url  - Full URL of the hero image
+      hero_url        - Click-through URL (defaults to https://www.burrow.com if blank)
+      banner          - Banner variant ID (ea, main, extension) — blank for none
+      kicker          - Kicker variant ID (seating, outdoor, ...) — blank for none
+      categories_header - Optional header image above category rows — blank for none
+
+  Email body usage:
+    {% assign email_id = "20260426" %}
+    {% catalog_items email-content-test {{ email_id }} %}
+    {% assign banner_id = items[0].banner %}
+    {% assign kicker_id = items[0].kicker %}
+    {% if banner_id != blank %}
+    {{content_blocks.${banner} | id: 'cb1'}}
+    {% endif %}
+    {{content_blocks.${hero} | id: 'cb2'}}
+    {% if kicker_id != blank %}
+    {{content_blocks.${kicker} | id: 'cb3'}}
+    {% else %}
+    {{content_blocks.${categories-images} | id: 'cb3'}}
+    {% endif %}
+    {{content_blocks.${sale_footer_us} | id: 'cb4'}}
+{% endcomment %}
+
+{% catalog_items email-content-test {{ email_id }} %}
+{% assign item = items[0] %}
+{% assign hero_link = item.hero_url | default: "https://www.burrow.com" %}
+
+{% if item and item.hero_image_url != blank %}
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr>
+    <td align="center" style="padding:0; margin:0;">
+      <a href="{{ hero_link }}">
+        <img src="{{ item.hero_image_url }}" alt="Hero image" width="600" style="display:block; width:100%; max-width:600px; height:auto; border:0;" />
+      </a>
+    </td>
+  </tr>
+</table>
+{% endif %}

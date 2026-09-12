@@ -1,0 +1,32 @@
+id: f9b74c6c-faaa-4c62-894d-b229e0a74dac
+name: TRG_EM_CZ_2024_08_Product_Browse_Furniture_T3
+brand: CZ
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: a05de6df-1375-46bd-a676-be24e4f9328e
+canvas_name: Product Browse
+flow_type: browse_abandonment
+sequence_position: 4
+subject: Start with a Swatch
+preheader: ''
+sends:
+- id: f9b74c6c-faaa-4c62-894d-b229e0a74dac
+  channel: email
+  name: TRG_EM_CZ_2024_08_Product_Browse_Furniture_T3
+  subject: Start with a Swatch
+  preheader: ''
+  html_file: html/canvas-product-browse-t4-f9b74c6c.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-05-02T18:00:00Z'
+  last_sent: '2026-07-20T17:00:00Z'
+performance_summary:
+  total_sends: 2386
+  total_delivered: 2368
+  total_opens: 1576
+  total_clicks: 70
+  open_rate: 0.6605
+  click_rate: 0.0293
+  total_unsubscribes: 26

@@ -1,0 +1,29 @@
+id: 5dbb48e4-2669-4369-8c5a-c51568a573af
+name: P_SMS_2026_05_11_ID_Memorial_Day_Event_Early_Access_Reminder
+brand: ID
+channel: sms
+category: reminder
+type: announcement
+theme: null
+braze_id: 5dbb48e4-2669-4369-8c5a-c51568a573af
+dates:
+  send_date: '2026-05-11'
+  last_sent: '2026-05-11'
+tags: []
+sends:
+- id: f7d9349c-0da3-4012-8eeb-d66e225a9f11
+  channel: sms
+  name: Variant 1
+- id: ea5cf60f-c2ff-42da-bee2-24c5a0fa104f
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 50367
+  total_delivered: 47969
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 28300.0
+_filename: p_sms_2026_05_11_id_memorial_day_event_early_access_reminder.yaml
+schedule_type: time_based

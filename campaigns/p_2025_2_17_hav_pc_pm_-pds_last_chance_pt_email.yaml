@@ -1,0 +1,37 @@
+id: 89c2960e-974e-4a65-aeb5-abf564ccdae0
+name: P_2025_2_17_HAV_PC_PM_ PDS_Last_Chance_PT_Email
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 89c2960e-974e-4a65-aeb5-abf564ccdae0
+dates:
+  send_date: '2025-02-17'
+  first_sent: '2025-02-17T02:24:29+00:00'
+  last_sent: '2025-02-18T02:15:15+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: ee69c841-2109-4fcc-a381-a73157de5430
+  channel: email
+  name: Variant 1
+  subject: 'Ends @ midnight: 50% off design packages'
+- id: 82607b89-bed6-49b3-98b7-ed0d03974b9e
+  channel: other
+  name: Control Group
+- id: 96b5f7e6-8c26-4cfd-98a5-9e0b2e1e43c6
+  channel: email
+  name: Variant 2
+  subject: 'Ends @ midnight: 50% off design packages'
+performance_summary:
+  total_sends: 40187
+  total_delivered: 39973
+  total_opens: 23463
+  total_clicks: 410
+  open_rate: 0.5838
+  click_rate: 0.0102
+  total_bounces: 1
+  total_unsubscribes: 119
+schedule_type: time_based
+_filename: p_2025_2_17_hav_pc_pm_-pds_last_chance_pt_email.yaml

@@ -1,0 +1,54 @@
+id: 415944da-4638-44ed-8266-1b735e10b0e2
+name: P_EM_2026_01_11_CZ_D_PR_Back_In_Stock
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 415944da-4638-44ed-8266-1b735e10b0e2
+dates:
+  send_date: '2026-01-11'
+  inferred_send_type: local_time
+  first_sent: '2026-01-10T17:10:03+00:00'
+  last_sent: '2026-01-11T17:02:48+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- instock
+sends:
+- id: bc435fc4-454e-4f05-a947-7af89e036dba
+  channel: email
+  name: Variant 1
+  subject: The One You Wanted Is Back
+  preheader: Restocked favorites tend to disappear quickly.
+  html_file: html/p_em_2026_01_11_cz_d_pr_back_in_stock.html
+  screenshot: screenshots/p_em_2026_01_11_cz_d_pr_back_in_stock.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6961187c9e1acf0065c82c89/original.png?1767970939
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69611872aea91c00637f6d68/original.png?1767970930
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696118b62c312600647e6fdf/original.png?1767970997
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6961189e9853be00634813b6/original.png?1767970973
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696118c4845522006367fa05/original.png?1767971012
+- id: 13f7c8bb-1a40-4f93-8818-dcd082ca6064
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 53524
+  total_delivered: 53463
+  total_opens: 29215
+  total_clicks: 1878
+  open_rate: 0.5458
+  click_rate: 0.0351
+  total_bounces: 1
+  total_unsubscribes: 144
+  ga4:
+    sessions: 2250
+    purchases: 22
+    revenue: 8014.75
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.141349'
+    source: snowflake
+    channel: email
+schedule_type: time_based

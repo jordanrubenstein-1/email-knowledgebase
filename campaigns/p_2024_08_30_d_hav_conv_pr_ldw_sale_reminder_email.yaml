@@ -1,0 +1,33 @@
+id: a4073df4-fe05-4bfe-9220-42a7dbd77757
+name: P_2024_08_30_D_HAV_CONV_PR_LDW_Sale_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: a4073df4-fe05-4bfe-9220-42a7dbd77757
+dates:
+  send_date: '2024-08-30'
+  first_sent: '2024-08-29T23:31:20+00:00'
+  last_sent: '2024-08-30T17:05:02+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 526de31b-d744-47f5-81f2-fbd982072e4d
+  channel: email
+  name: Variant 1
+  subject: 'Price drop: Now up to 70% off 👀'
+  preheader: New deals just added.
+- id: 5ff17108-578b-4d1f-af5e-351b3c883fa6
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 29156
+  total_delivered: 29121
+  total_opens: 15413
+  total_clicks: 444
+  open_rate: 0.5286
+  click_rate: 0.0152
+  total_unsubscribes: 29
+schedule_type: time_based
+_filename: p_2024_08_30_d_hav_conv_pr_ldw_sale_reminder_email.yaml

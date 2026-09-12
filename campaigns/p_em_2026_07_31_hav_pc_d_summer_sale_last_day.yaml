@@ -1,0 +1,33 @@
+id: c6311012-2e8f-407c-ba40-b2d0e641d340
+name: P_EM_2026_07_31_HAV_PC_D_Summer_Sale_Last_Day
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: summer
+braze_id: c6311012-2e8f-407c-ba40-b2d0e641d340
+dates:
+  send_date: '2026-07-31'
+  last_sent: '2026-07-31'
+tags:
+- BLASTS-2025
+sends:
+- id: 91e416bb-3b64-4b41-9952-476b9a329e55
+  channel: email
+  name: Variant 1
+  subject: 'LAST CHANCE: The Summer Sale ends tonight'
+  preheader: 50% off interior design services.
+- id: 5bf0f60c-c744-40be-9c56-e33d9ab81987
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 285261
+  total_delivered: 283511
+  total_opens: 103662
+  total_clicks: 338
+  open_rate: 0.3634
+  click_rate: 0.0012
+  total_bounces: 31
+  total_unsubscribes: 402
+schedule_type: time_based
+_filename: p_em_2026_07_31_hav_pc_d_summer_sale_last_day.yaml

@@ -1,0 +1,205 @@
+{% comment %}
+================================================================================
+CZ Browse Products Webhook
+================================================================================
+PURPOSE: Fires on custom_product_view. Updates two user attributes:
+  - recently_browsed_products  — rolling window of 8 unique in-stock products
+  - browse_affinity_categories — product_type values sorted by view frequency
+
+CANVAS: "CZ - Track Browse Products" — immediate re-entry, single Webhook step.
+
+CANVAS ENTRY PROPERTIES (from custom_product_view event):
+  canvas_entry_properties.sku               — "D140023-01"
+  canvas_entry_properties.product_title     — "Vati Vase"
+  canvas_entry_properties.image_url         — CDN image URL
+  canvas_entry_properties.variant_url       — "https://www.the-citizenry.com/products/vati-vase?v=..."
+  canvas_entry_properties.product_type      — "Accents" (the category)
+  canvas_entry_properties.quantity_available — integer (OOS check)
+
+CATALOG: the-citizenry_shopify_catalog (keyed by SKU)
+  Fields used: shopify_product_id (dedup key), variant_image_url (image fallback only)
+  NOTE: product_url is NOT pulled from catalog — variant_url from the event is used instead,
+  so the email links back to the exact variant the user viewed.
+
+ABORT CONDITIONS:
+  - SKU not found in catalog (can't get shopify_product_id for deduplication)
+  - quantity_available == 0 at time of view (exclude OOS products from window)
+
+DEDUP LOGIC: By shopify_product_id. If a product was viewed before (even a
+different variant mapping to the same product), the old entry is removed and
+the new one appended as the most recent.
+
+DROP LOGIC: When the array is at 8 items and the product is not a duplicate,
+the oldest item (forloop.first = index 0) is dropped to make room for the new one.
+
+ARRAY ORDER: Oldest at index 0, newest at the end. The email grid reads with
+  | reverse | slice: 0, 8 to show newest first.
+
+BRAZE WEBHOOK CONFIG:
+  Method: POST
+  URL:    https://rest.iad-06.braze.com/users/track  ← verify cluster for CZ workspace
+  Headers:
+    Authorization: Bearer YOUR_CZ_REST_API_KEY
+    Content-Type: application/json
+================================================================================
+{% endcomment %}
+
+{% assign max_items = 8 %}
+
+{% comment %} ── Catalog lookup: SKU → shopify_product_id, product_url, image ── {% endcomment %}
+{% catalog_items the-citizenry_shopify_catalog {{canvas_entry_properties.sku}} %}
+{% assign catalog_item = items[0] %}
+
+{% assign shopify_product_id = catalog_item.shopify_product_id | default: '' %}
+{% assign fallback_image     = catalog_item.variant_image_url  | default: '' %}
+
+{% comment %} ── Abort: SKU not in catalog (need product_id for dedup) ─────── {% endcomment %}
+{% if shopify_product_id == blank %}
+  {% abort_message('sku not in catalog') %}
+{% endif %}
+
+{% comment %} ── Abort: product out of stock at view time ───────────────────── {% endcomment %}
+{% assign qty = canvas_entry_properties.quantity_available | default: 0 | plus: 0 %}
+{% if qty == 0 %}
+  {% abort_message('product out of stock at view time') %}
+{% endif %}
+
+{% comment %} ── Current product fields ────────────────────────────────────── {% endcomment %}
+{% assign product_title = canvas_entry_properties.product_title | default: '' %}
+{% assign image_url     = canvas_entry_properties.image_url     | default: fallback_image %}
+{% assign url           = canvas_entry_properties.variant_url   | default: '' %}
+{% assign product_type  = canvas_entry_properties.product_type  | default: '' %}
+{% assign now_iso       = 'now' | date: '%Y-%m-%dT%H:%M:%SZ' %}
+
+{% comment %} ── Load existing array; check for duplicate shopify_product_id ── {% endcomment %}
+{% assign existing_products = custom_attribute.${recently_browsed_products} | default: empty %}
+{% assign duplicate_found = false %}
+{% for item in existing_products %}
+  {% if item.product_id == shopify_product_id %}{% assign duplicate_found = true %}{% endif %}
+{% endfor %}
+
+{% comment %}
+================================================================================
+  PRE-COMPUTE: build the category list of the final array (kept items + new item).
+  This mirrors the JSON-body loop below exactly, so browse_affinity_categories
+  reflects the precise 8-item window that will be written to recently_browsed_products.
+================================================================================
+{% endcomment %}
+{% assign ba_cats_line = '' %}
+{% for item in existing_products %}
+  {% unless item.product_id == shopify_product_id %}
+    {% unless existing_products.size >= max_items and duplicate_found == false and forloop.first %}
+      {% assign item_type = item.product_type | default: '' %}
+      {% if ba_cats_line == '' %}
+        {% assign ba_cats_line = item_type %}
+      {% else %}
+        {% assign ba_cats_line = ba_cats_line | append: '|||' | append: item_type %}
+      {% endif %}
+    {% endunless %}
+  {% endunless %}
+{% endfor %}
+{% comment %} Add the incoming product's category {% endcomment %}
+{% if ba_cats_line == '' %}
+  {% assign ba_cats_line = product_type %}
+{% else %}
+  {% assign ba_cats_line = ba_cats_line | append: '|||' | append: product_type %}
+{% endif %}
+
+{% assign ba_cats_arr = ba_cats_line | split: '|||' %}
+
+{% comment %} ── Unique categories (first-seen order, for tie-breaking) ──────── {% endcomment %}
+{% assign ba_seen_cats = '::' %}
+{% assign ba_unique_cats_line = '' %}
+{% for cat in ba_cats_arr %}
+  {% unless cat == blank %}
+    {% assign cat_check = '::' | append: cat | append: '::' %}
+    {% unless ba_seen_cats contains cat_check %}
+      {% assign ba_seen_cats = ba_seen_cats | append: cat | append: '::' %}
+      {% if ba_unique_cats_line == '' %}
+        {% assign ba_unique_cats_line = cat %}
+      {% else %}
+        {% assign ba_unique_cats_line = ba_unique_cats_line | append: '|||' | append: cat %}
+      {% endif %}
+    {% endunless %}
+  {% endunless %}
+{% endfor %}
+{% assign ba_unique_cats_arr = ba_unique_cats_line | split: '|||' %}
+
+{% comment %}
+  Sort unique categories by count descending (no | sort needed).
+  Strategy: outer loop counts from 8 down to 1 (target 1..8 → check_count 8..1).
+  For each count, emit categories that have exactly that count and haven't been
+  emitted yet. Ties preserve first-seen order (insertion order of unique cats).
+{% endcomment %}
+{% assign ba_sorted_cats_json = '' %}
+{% assign ba_sorted_seen = '::' %}
+{% for target in (1..8) %}
+  {% assign check_count = 9 | minus: target %}
+  {% for ucat in ba_unique_cats_arr %}
+    {% unless ucat == blank %}
+      {% assign already_in = '::' | append: ucat | append: '::' %}
+      {% unless ba_sorted_seen contains already_in %}
+        {% assign this_count = 0 %}
+        {% for c in ba_cats_arr %}
+          {% if c == ucat %}{% assign this_count = this_count | plus: 1 %}{% endif %}
+        {% endfor %}
+        {% if this_count == check_count %}
+          {% assign ba_sorted_seen = ba_sorted_seen | append: ucat | append: '::' %}
+          {% assign cat_clean = ucat | replace: '"','' | strip %}
+          {% if ba_sorted_cats_json != '' %}{% assign ba_sorted_cats_json = ba_sorted_cats_json | append: ',' %}{% endif %}
+          {% assign ba_sorted_cats_json = ba_sorted_cats_json | append: '"' | append: cat_clean | append: '"' %}
+        {% endif %}
+      {% endunless %}
+    {% endunless %}
+  {% endfor %}
+{% endfor %}
+
+{
+  "attributes": [
+    {
+      "braze_id": "{{ braze_id | replace: '"','' }}",
+      "recently_browsed_products": [
+        {%- assign printed = false -%}
+        {%- for item in existing_products -%}
+
+          {%- comment -%} Skip duplicate (old entry removed; new one appended below as newest) {%- endcomment -%}
+          {%- unless item.product_id == shopify_product_id -%}
+
+            {%- comment -%} No duplicate + array at capacity: drop the oldest item {%- endcomment -%}
+            {%- unless existing_products.size >= max_items and duplicate_found == false and forloop.first -%}
+
+              {%- if printed -%},{%- endif -%}
+              {
+                "product_id":         "{{ item.product_id    | default: '' | replace: '"','' }}",
+                "sku":                "{{ item.sku           | default: '' | replace: '"','' }}",
+                "product_title":      "{{ item.product_title | default: '' | replace: '"','' }}",
+                "image_url":          "{{ item.image_url     | default: '' | replace: '"','' }}",
+                "url":                "{{ item.url           | default: '' | replace: '"','' }}",
+                "product_type":       "{{ item.product_type  | default: '' | replace: '"','' }}",
+                "quantity_available": {{ item.quantity_available | default: 0 | plus: 0 }},
+                "last_viewed_at":     "{{ item.last_viewed_at | default: '' | replace: '"','' }}"
+              }
+              {%- assign printed = true -%}
+
+            {%- endunless -%}
+          {%- endunless -%}
+
+        {%- endfor -%}
+
+        {%- comment -%} Append incoming product as newest (array is oldest-first) {%- endcomment -%}
+        {%- if printed -%},{%- endif -%}
+        {
+          "product_id":         "{{ shopify_product_id                       | replace: '"','' }}",
+          "sku":                "{{ canvas_entry_properties.sku | default: '' | replace: '"','' }}",
+          "product_title":      "{{ product_title                             | replace: '"','' }}",
+          "image_url":          "{{ image_url                                 | replace: '"','' }}",
+          "url":                "{{ url                                       | replace: '"','' }}",
+          "product_type":       "{{ product_type                              | replace: '"','' }}",
+          "quantity_available": {{ qty }},
+          "last_viewed_at":     "{{ now_iso }}"
+        }
+      ],
+      "browse_affinity_categories": [{{ ba_sorted_cats_json }}]
+    }
+  ]
+}

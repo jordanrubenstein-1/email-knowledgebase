@@ -1,0 +1,52 @@
+id: a2d78a8b-0986-436a-aed9-4ecb70b323e3
+name: 20241122_BFCM-Reminder_Trade
+brand: BUR
+channel: email
+category: reminder
+type: announcement
+theme: black_friday
+braze_id: a2d78a8b-0986-436a-aed9-4ecb70b323e3
+dates:
+  inferred_send_type: local_time
+  first_sent: '2024-11-21T19:32:59+00:00'
+  last_sent: '2024-11-22T19:00:05+00:00'
+tags: []
+sends:
+- id: c01c3ff5-7ef9-439a-98c3-3654a069f17d
+  channel: email
+  name: Variant 1
+  subject: Black Friday savings continue
+  preheader: A reminder about your exclusive Trade benefits.
+- id: 86a0f547-7a7f-4a25-8e54-dd4567f272b5
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 72
+    purchases: 3
+    revenue: 1468.95
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.015800'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-bfcm-giving-tues-2024-11-13
+    name: BFCM + Giving Tues
+    start_date: '2024-11-13'
+    end_date: '2024-11-26'
+    discount: null
+    type: null
+  primary_sale:
+    id: bur-bfcm-giving-tues-2024-11-13
+    name: BFCM + Giving Tues
+    start_date: '2024-11-13'
+    end_date: '2024-11-26'
+    discount: null
+    type: null
+  sale_name: BFCM + Giving Tues
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:36.830644'
+schedule_type: time_based

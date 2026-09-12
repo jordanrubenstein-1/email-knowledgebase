@@ -1,0 +1,32 @@
+id: 80c51839-1fb5-4fd2-9ac0-c75664b30cbf
+name: TRG_EM_2026_05_CZ_D_Post_Purchase_Rug_T1
+brand: CZ
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: ed85be62-ad24-41ee-8ff7-b2f667368156
+canvas_name: Post Purchase
+flow_type: post_purchase
+sequence_position: 6
+subject: The right way to care for your rug
+preheader: Simple habits to keep it looking new.
+sends:
+- id: 80c51839-1fb5-4fd2-9ac0-c75664b30cbf
+  channel: email
+  name: TRG_EM_2026_05_CZ_D_Post_Purchase_Rug_T1
+  subject: The right way to care for your rug
+  preheader: Simple habits to keep it looking new.
+  html_file: html/canvas-post-purchase-t6-80c51839.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-05-02T19:00:00Z'
+  last_sent: '2026-07-20T17:00:00Z'
+performance_summary:
+  total_sends: 518
+  total_delivered: 518
+  total_opens: 393
+  total_clicks: 24
+  open_rate: 0.7587
+  click_rate: 0.0463
+  total_unsubscribes: 9

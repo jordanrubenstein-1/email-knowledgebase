@@ -1,0 +1,37 @@
+id: d24314e4-7759-4268-8b3b-76646b7ae649
+name: P_EM_2026_09_08_CZ_PC_PT_Labor_Day_Event_PM
+brand: CZ
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: d24314e4-7759-4268-8b3b-76646b7ae649
+dates:
+  send_date: '2026-09-08'
+  first_sent: '2026-09-08T15:43:23+00:00'
+  last_sent: '2026-09-09T04:02:15+00:00'
+  inferred_send_type: scheduled
+tags:
+- batch and blast
+- pm
+- pt
+- sale
+- sale_feat
+sends:
+- id: 4791f4d0-d451-4f1e-abac-ab4b9c09895f
+  channel: email
+  name: Variant 1
+  subject: The Labor Day Event ends tonight
+- id: 3a808d2b-0ff4-42c2-ba4b-9146b8ac8866
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 42343
+  total_delivered: 42314
+  total_opens: 17358
+  total_clicks: 393
+  open_rate: 0.4099
+  click_rate: 0.0093
+  total_unsubscribes: 54
+schedule_type: time_based
+_filename: p_em_2026_09_08_cz_pc_pt_labor_day_event_pm.yaml

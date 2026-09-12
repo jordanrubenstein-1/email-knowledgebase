@@ -1,0 +1,60 @@
+id: 316c84c1-4742-4665-ad3b-20811f1e55d1
+name: P_EM_2025_12_08_SF_D_PR_Curtains
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 316c84c1-4742-4665-ad3b-20811f1e55d1
+dates:
+  send_date: '2025-12-08'
+  inferred_send_type: local_time
+  first_sent: '2025-12-07T17:05:13+00:00'
+  last_sent: '2025-12-08T17:02:02+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: 48bfff0e-4ef2-4d0d-9fc9-56ef936bf0f4
+  channel: email
+  name: Variant 1
+  subject: 'Curtains Made For You: 20% Off'
+  preheader: pick your print
+  html_file: html/p_em_2025_12_08_sf_d_pr_curtains.html
+  screenshot: screenshots/p_em_2025_12_08_sf_d_pr_curtains.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69318180211e9c00659678b9/original.png?1764852096
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69323545759ad4006395dc27/original.png?1764898117
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6931818732c9100063d135b6/original.png?1764852102
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69323551e8b5570063b25138/original.png?1764898129
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/693234cd93a4c1006345b360/original.png?1764897996
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6932357205379c00632e9615/original.png?1764898162
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69323464809f670063560236/original.png?1764897892
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69323564a33e9d0063b00d02/original.png?1764898148
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69318172cb13d900653710e8/original.png?1764852081
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6932347105379c00632e94b8/original.png?1764897904
+- id: b5db2f13-8355-402c-b57e-fe580be6e921
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39403
+  total_delivered: 39183
+  total_opens: 16155
+  total_clicks: 182
+  open_rate: 0.41
+  click_rate: 0.0046
+  total_bounces: 3
+  total_unsubscribes: 51
+  ga4:
+    sessions: 193
+    purchases: 1
+    revenue: 14.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.036657'
+    source: snowflake
+    channel: email
+schedule_type: time_based

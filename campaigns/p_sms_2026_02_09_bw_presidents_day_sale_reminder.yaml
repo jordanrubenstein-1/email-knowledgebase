@@ -1,0 +1,30 @@
+id: be9fd6b7-4819-4a82-accf-6e4ffedc78f0
+name: P_SMS_2026_02_09_BW_Presidents_Day_Sale_Reminder
+brand: BUR
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: be9fd6b7-4819-4a82-accf-6e4ffedc78f0
+dates:
+  send_date: '2026-02-09'
+  inferred_send_type: local_time
+  first_sent: '2026-02-09T00:08:40+00:00'
+  last_sent: '2026-02-10T00:02:16+00:00'
+tags: []
+sends:
+- id: d89b4895-98dc-4f94-af33-f373956535c1
+  channel: sms
+  name: Variant 1
+- id: 3425fae0-3143-4a81-a337-9a6680d58ba6
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 6691
+  total_delivered: 6491
+  total_opens: 0
+  total_clicks: 325
+  open_rate: 0.0
+  click_rate: 0.0486
+  total_revenue: 1376.0
+schedule_type: time_based

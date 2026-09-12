@@ -1,0 +1,75 @@
+id: b498775d-7337-4d89-ae6d-2461dedc56aa
+name: P_2024_11_15_D_CZ_PR_BFCM_Launch_Email_Trade
+brand: CZ
+channel: email
+category: product_launch
+type: product_launch
+theme: black_friday
+braze_id: b498775d-7337-4d89-ae6d-2461dedc56aa
+dates:
+  send_date: '2024-11-15'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-15T18:22:53+00:00'
+  last_sent: '2024-11-16T00:00:30+00:00'
+tags: []
+sends:
+- id: ab483e29-21d8-44c7-987f-34075756f521
+  channel: email
+  name: Variant 1
+  subject: 'Trade Exclusive Savings: Up To 40% Off Sitewide'
+  preheader: Shop the best prices of the year during our Black Friday Event.
+  html_file: html/p_2024_11_15_d_cz_pr_bfcm_launch_email_trade.html
+  screenshot: screenshots/p_2024_11_15_d_cz_pr_bfcm_launch_email_trade.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6737897790ce430063b9df73/original.jpg?1731692919
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6734eda56cf13800642cc356/original.jpg?1731521957
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6736348680798700663b30d7/original.jpg?1731605637
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6737893ffc9bc6006578a233/original.jpg?1731692862
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6735502546d5a60065afa4c4/original.jpg?1731547173
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6734ed70036f1c00657161cf/original.gif?1731521904
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6737899ac27c71006549e0de/original.jpg?1731692954
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6734ed55af1f650064483040/original.jpg?1731521877
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6737898a974a500064194765/original.jpg?1731692938
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673789806284ca0065ce5a75/original.jpg?1731692928
+- id: 053eae78-0aea-4c4e-b1e0-bafc63b2b044
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 14456
+  total_delivered: 14210
+  total_opens: 7690
+  total_clicks: 331
+  open_rate: 0.532
+  click_rate: 0.0229
+  total_revenue: 18085.94
+  total_bounces: 7
+  total_unsubscribes: 47
+  ga4:
+    sessions: 530
+    purchases: 7
+    revenue: 5441.75
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.412473'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-01'
+    discount: null
+    type: null
+  primary_sale:
+    id: cz-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-01'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:42.423948'
+schedule_type: time_based

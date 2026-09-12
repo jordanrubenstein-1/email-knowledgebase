@@ -1,0 +1,33 @@
+id: d96da2b0-5311-41da-919f-e7a0f5e20d30
+name: P_EM_2026_06_22_BW_PT_Sale_Launch_PM
+brand: BUR
+channel: email
+category: product_launch
+type: sale
+theme: null
+braze_id: d96da2b0-5311-41da-919f-e7a0f5e20d30
+dates:
+  send_date: '2026-06-22'
+  last_sent: '2026-06-22'
+tags:
+- Batch&Blast
+sends:
+- id: ea8facdf-28a7-44e2-af78-0d48d452b8bc
+  channel: email
+  name: Variant 1
+  subject: In case you missed it. Up to 50% off.
+- id: 0851803a-ecc6-4246-999e-5d50dca7ec1b
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 229261
+  total_delivered: 228222
+  total_opens: 118558
+  total_clicks: 734
+  open_rate: 0.5171
+  click_rate: 0.0032
+  total_revenue: 81172.8
+  total_bounces: 4
+  total_unsubscribes: 198
+schedule_type: time_based
+_filename: p_em_2026_06_22_bw_pt_sale_launch_pm.yaml

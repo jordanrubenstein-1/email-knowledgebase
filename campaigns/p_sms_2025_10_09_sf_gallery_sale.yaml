@@ -1,0 +1,37 @@
+id: 5e72b68a-fa36-44d6-863d-a984f6873469
+name: P_SMS_2025_10_09_SF_Gallery_Sale
+brand: STF
+channel: sms
+category: sale_promo
+type: sale
+theme: null
+braze_id: 5e72b68a-fa36-44d6-863d-a984f6873469
+dates:
+  send_date: '2025-10-09'
+  inferred_send_type: local_time
+  first_sent: '2025-10-08T23:29:38+00:00'
+  last_sent: '2025-10-09T17:30:45+00:00'
+tags: []
+sends:
+- id: 966b0a9a-2d23-4f64-8bd9-545d01d38ca9
+  channel: sms
+  name: Variant 1
+- id: defd0fe0-dc49-417a-b4cb-a497f6959256
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 4546
+  total_delivered: 4478
+  total_opens: 0
+  total_clicks: 198
+  open_rate: 0.0
+  click_rate: 0.0436
+  ga4:
+    sessions: 189
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.946611'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

@@ -1,0 +1,63 @@
+id: e0d83629-db15-447a-932c-04de0134ef73
+name: P_EM_2025_08_04_CZ_D_PR_Morrocan_Restock
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: e0d83629-db15-447a-932c-04de0134ef73
+dates:
+  send_date: '2025-08-04'
+  inferred_send_type: local_time
+  first_sent: '2025-08-03T18:09:36+00:00'
+  last_sent: '2025-08-04T17:01:58+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- dest
+- instock
+sends:
+- id: 8aabbb9e-6418-4973-87ad-a3208a0ebd07
+  channel: email
+  name: Variant 1
+  subject: Woven History, Back in Stock
+  preheader: Centuries-old craft, freshly restocked—shop our Moroccan bestsellers.
+  html_file: html/p_em_2025_08_04_cz_d_pr_morrocan_restock.html
+  screenshot: screenshots/p_em_2025_08_04_cz_d_pr_morrocan_restock.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688ce858dcae35006508504f/original.png?1754064983
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688ce87b6b2ace0065926cad/original.png?1754065018
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688ce7d237472f006624e684/original.png?1754064849
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688ce83e44be400065de8f50/original.png?1754064958
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688ce7bcefdb0100656df89b/original.png?1754064828
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688ce86f1f71a10066fbe5b3/original.png?1754065007
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688ce8486b2ace00659267ff/original.png?1754064968
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688ce8611f71a10094fbe24b/original.png?1754064993
+- id: 747171e7-edfd-46cf-9798-a94d0d596142
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 100816
+  total_delivered: 100259
+  total_opens: 52038
+  total_clicks: 563
+  open_rate: 0.5162
+  click_rate: 0.0056
+  total_revenue: 64740.16
+  total_bounces: 3
+  total_unsubscribes: 159
+  ga4:
+    sessions: 599
+    purchases: 1
+    revenue: 3467.94
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.288733'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.841637'
+schedule_type: time_based

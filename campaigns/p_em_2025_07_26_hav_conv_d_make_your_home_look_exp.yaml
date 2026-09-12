@@ -1,0 +1,51 @@
+id: 49ff3931-25ab-4739-8545-2552365cd04b
+name: P_EM_2025_07_26_HAV_CONV_D_Make_Your_Home_Look_Expensive
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 49ff3931-25ab-4739-8545-2552365cd04b
+dates:
+  send_date: '2025-07-26'
+  inferred_send_type: local_time
+  first_sent: '2025-07-25T18:24:57+00:00'
+  last_sent: '2025-07-26T17:15:16+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: b1a15634-3309-481b-b795-f74813fe3c72
+  channel: email
+  name: Variant 1
+  subject: The Secret to a Luxe-Looking Home—for Less
+  preheader: This simple styling trick works every time.
+  html_file: html/p_em_2025_07_26_hav_conv_d_make_your_home_look_expensive.html
+  screenshot: screenshots/p_em_2025_07_26_hav_conv_d_make_your_home_look_expensive.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6883ac486e829a006788c5ce/original.gif?1753459783
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6883ac34418d59007609591e/original.png?1753459764
+- id: 00eb6565-090d-43db-b7fd-bc411a659227
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 40652
+  total_delivered: 40641
+  total_opens: 22005
+  total_clicks: 407
+  open_rate: 0.5413
+  click_rate: 0.01
+  total_bounces: 3
+  total_unsubscribes: 88
+  ga4:
+    sessions: 419
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.281745'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.945817'
+schedule_type: time_based

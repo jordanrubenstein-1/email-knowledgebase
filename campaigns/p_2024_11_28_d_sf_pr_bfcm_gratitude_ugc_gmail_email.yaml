@@ -1,0 +1,34 @@
+id: 4fabcf2e-8c2f-4383-b299-b534e353d7de
+name: P_2024_11_28_D_SF_PR_BFCM_Gratitude_UGC_Gmail_Email
+brand: STF
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: 4fabcf2e-8c2f-4383-b299-b534e353d7de
+dates:
+  send_date: '2024-11-28'
+  inferred_send_type: local_time
+  first_sent: '2024-11-27T22:43:14+00:00'
+  last_sent: '2024-11-28T16:00:17+00:00'
+tags: []
+sends:
+- id: 5001d695-080a-44ba-b86c-3e77a431295a
+  channel: email
+  name: Variant 1
+  subject: We love making your house a home
+  preheader: grateful today, and every day
+- id: 05bcfd51-90b9-4539-8622-94217051f93e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 2340
+  total_delivered: 2339
+  total_opens: 1184
+  total_clicks: 18
+  open_rate: 0.506
+  click_rate: 0.0077
+  total_revenue: 2963.5
+  total_unsubscribes: 3
+_filename: p_2024_11_28_d_sf_pr_bfcm_gratitude_ugc_gmail_email.yaml
+schedule_type: time_based

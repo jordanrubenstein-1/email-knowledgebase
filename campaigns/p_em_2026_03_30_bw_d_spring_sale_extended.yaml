@@ -1,0 +1,33 @@
+id: 9960d841-6b73-48f0-bb45-9ffd04bd90bf
+name: P_EM_2026_03_30_BW_D_Spring_Sale_Extended
+brand: BUR
+channel: email
+category: reminder
+type: sale
+theme: spring
+braze_id: 9960d841-6b73-48f0-bb45-9ffd04bd90bf
+dates:
+  send_date: '2026-03-30'
+  last_sent: '2026-03-30'
+tags:
+- Batch&Blast
+sends:
+- id: d58570bc-113f-49b9-87b8-f912d218ec91
+  channel: email
+  name: Variant 1
+  subject: Up to 30% off sitewide. Extended.
+  preheader: 2 more days to save.
+- id: 3e33209e-8fdc-4630-84e9-781c47ee6ccc
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 79200
+  total_delivered: 78949
+  total_opens: 30239
+  total_clicks: 291
+  open_rate: 0.3818
+  click_rate: 0.0037
+  total_revenue: 60925.0
+  total_bounces: 1
+  total_unsubscribes: 74
+schedule_type: time_based

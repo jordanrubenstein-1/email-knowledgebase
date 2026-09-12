@@ -1,0 +1,27 @@
+id: 985b4237-ce23-4337-8c96-596bf6936706
+name: Abandon cart SMS journey
+brand: CZ
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: 985b4237-ce23-4337-8c96-596bf6936706
+braze_type: canvas
+campaign_type: Triggered Journey
+dates: {}
+tags: []
+sends: []
+performance_summary: {}
+canvas_steps:
+- id: 12f4ca67-fbf6-409e-8730-1b984374eac3
+  name: Step 1
+  type: delay
+- id: 962f4147-1846-4f71-a108-4ba23ba7914a
+  name: Abandon_Cart_SMS_Step_1
+  type: message
+- id: c0e63e65-edd9-4a37-a35f-04cbb739519c
+  name: Step
+  type: delay
+- id: 4bbab56b-63f8-476c-acc1-86688ed539f0
+  name: SMS_Welcome_Step_2
+  type: message

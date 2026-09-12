@@ -1,0 +1,52 @@
+id: 1a6fcabd-7658-407a-a13c-f17aa5578945
+name: P_EM_2026_05_06_CZ_D_PR_New_Bedding_Hues_Sleep_Sale
+brand: CZ
+channel: email
+category: product_launch
+type: sale
+theme: null
+braze_id: 1a6fcabd-7658-407a-a13c-f17aa5578945
+dates:
+  send_date: '2026-05-06'
+  inferred_send_type: scheduled
+  first_sent: '2026-05-06T04:02:42+00:00'
+  last_sent: '2026-05-06T18:07:37+00:00'
+tags:
+- batch and blast
+- bedding
+- d2c
+- designed
+- newness
+- prod
+sends:
+- id: 5177cf2c-8de0-488f-bacc-d0f2df82254e
+  channel: email
+  name: Variant 1
+  subject: 'JUST DROPPED: new bedding for spring '
+  preheader: Sun-faced, sea cooled hues inspired by Portugal.
+  html_file: html/p_em_2026_05_06_cz_d_pr_new_bedding_hues_sleep_sale.html
+  screenshot: screenshots/p_em_2026_05_06_cz_d_pr_new_bedding_hues_sleep_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f20f925dbe4f007fe551a2/original.png?1777471377
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f20fa6f6527e007fe6562e/original.png?1777471397
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f20fc3c04a6f007fcc3238/original.png?1777471426
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f20f2855a2e0008101d8f3/original.png?1777471271
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f20f7d9c31df0081ed52eb/original.png?1777471357
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f20f3a7dce6c00816b2eab/original.png?1777471289
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f20ed79c31df0081ed4fb7/original.png?1777471191
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f20f13e6c3cf008130e2f4/original.png?1777471249
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f20f73b0aa580081a2b27b/original.png?1777471347
+- id: d325e6a9-dd52-4e9a-bd53-c8b68dcadd96
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 113927
+  total_delivered: 113170
+  total_opens: 53837
+  total_clicks: 855
+  open_rate: 0.4726
+  click_rate: 0.0075
+  total_bounces: 44
+  total_unsubscribes: 147
+_filename: p_em_2026_05_06_cz_d_pr_new_bedding_hues_sleep_sale.yaml
+schedule_type: time_based

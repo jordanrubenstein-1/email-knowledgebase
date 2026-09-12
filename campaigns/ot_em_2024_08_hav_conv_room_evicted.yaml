@@ -1,0 +1,24 @@
+id: fd6cae28-e290-8065-b79e-b550290a6ef8
+name: OT_EM_2024_08_HAV_CONV_Room_Evicted
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: fd6cae28-e290-8065-b79e-b550290a6ef8
+dates:
+  first_sent: '2024-08-23T16:00:00+00:00'
+  last_sent: '2025-08-27T13:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: 4e11055e-cdd5-4678-b71c-26e90a35ef2a
+  channel: email
+  name: Variant 1
+  subject: Please Select a New Designer for your Havenly Project
+- id: eb484a52-6e76-49fb-89e2-cce8820372bb
+  channel: email
+  name: Control Group
+performance_summary: {}
+schedule_type: api_triggered
+_filename: ot_em_2024_08_hav_conv_room_evicted.yaml

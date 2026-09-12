@@ -1,0 +1,35 @@
+id: ee717663-c6d0-410f-87d0-94686030432d
+name: P_EM_2026_08_18_BW_D_EA_Launch
+brand: BUR
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: ee717663-c6d0-410f-87d0-94686030432d
+dates:
+  send_date: '2026-08-18'
+  first_sent: '2026-08-17T23:02:38+00:00'
+  last_sent: '2026-08-18T17:15:50+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: c9281148-b36a-49be-ae6b-54c62877e889
+  channel: email
+  name: Variant 1
+  subject: Did you hear?
+  preheader: Be the first to shop up to 35% off during the Labor Day Sale.
+- id: b2061dee-4b41-4d1a-86aa-cdac5295f82e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 158885
+  total_delivered: 158148
+  total_opens: 79155
+  total_clicks: 290
+  open_rate: 0.4982
+  click_rate: 0.0018
+  total_revenue: 101616.0
+  total_bounces: 5
+  total_unsubscribes: 162
+schedule_type: time_based
+_filename: p_em_2026_08_18_bw_d_ea_launch.yaml

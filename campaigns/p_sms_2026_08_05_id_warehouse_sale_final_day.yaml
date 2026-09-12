@@ -1,0 +1,29 @@
+id: 52f6b695-ad68-45b1-a315-888ad4459f91
+name: P_SMS_2026_08_05_ID_Warehouse_Sale_Final_Day
+brand: ID
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: 52f6b695-ad68-45b1-a315-888ad4459f91
+dates:
+  send_date: '2026-08-05'
+  last_sent: '2026-08-05'
+tags: []
+sends:
+- id: 7827aa3b-efa6-4800-a5ed-db1f74715664
+  channel: sms
+  name: Variant 1
+- id: 6a1c282e-39b2-4be9-ad72-5706a7dd6954
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 53229
+  total_delivered: 48647
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 29850.0
+schedule_type: time_based
+_filename: p_sms_2026_08_05_id_warehouse_sale_final_day.yaml

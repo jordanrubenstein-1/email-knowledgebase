@@ -1,0 +1,24 @@
+id: 82109dcc-69cc-4c26-8c55-b9b93551e72b
+name: P_EM_2026_09_26_BW_PT_Sale_Reminder
+brand: BUR
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 82109dcc-69cc-4c26-8c55-b9b93551e72b
+dates:
+  send_date: '2026-09-26'
+  last_sent: '2026-09-26'
+tags:
+- Batch&Blast
+sends:
+- id: 5d2f0e49-2cec-4ae7-a5fb-3603fd8e4402
+  channel: email
+  name: Variant 1
+  subject: Still time to prep for hosting season
+- id: f073cbca-cba0-411c-8f3a-da25cba928d5
+  channel: email
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: p_em_2026_09_26_bw_pt_sale_reminder.yaml

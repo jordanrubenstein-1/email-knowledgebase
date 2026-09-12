@@ -1,0 +1,50 @@
+id: 0b393701-dee9-47ee-93ed-42f1ea38ea77
+name: P_EM_2025_09_28_HAV_CONV_D_Get_the_Look_Inspired_Modern
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 0b393701-dee9-47ee-93ed-42f1ea38ea77
+dates:
+  send_date: '2025-09-28'
+  inferred_send_type: local_time
+  first_sent: '2025-09-28T02:07:05+00:00'
+  last_sent: '2025-09-29T02:02:39+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 9d7f7b43-f82f-47cd-96ea-ce1cd5db782d
+  channel: email
+  name: Variant 1
+  subject: 'GET THE LOOK: Inspired Modern Edit'
+  preheader: Your home should be anything but ordinary.
+  html_file: html/p_em_2025_09_28_hav_conv_d_get_the_look_inspired_modern.html
+  screenshot: screenshots/p_em_2025_09_28_hav_conv_d_get_the_look_inspired_modern.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d735997848420066ace13c/original.png?1758934425
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d73495ada8d1006559ffe4/original.gif?1758934164
+- id: 1213c7b3-19f5-4eb9-9087-100d1c277aff
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41903
+  total_delivered: 41873
+  total_opens: 22374
+  total_clicks: 181
+  open_rate: 0.5339
+  click_rate: 0.0043
+  total_unsubscribes: 41
+  ga4:
+    sessions: 210
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.763490'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.283513'
+schedule_type: time_based

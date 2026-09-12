@@ -1,0 +1,59 @@
+id: 5c65bba6-5712-4361-8857-d41583d41ba1
+name: P_2024_09_09_D_SF_PR_LDW_Promo_Last_Call_AM_Email
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 5c65bba6-5712-4361-8857-d41583d41ba1
+dates:
+  send_date: '2024-09-09'
+  inferred_send_type: local_time
+  first_sent: '2024-09-08T18:00:05+00:00'
+  last_sent: '2024-09-09T14:00:11+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: 9016d446-45b5-48ee-ab95-f8693b4c846a
+  channel: email
+  name: Variant 1
+  subject: 20% Off Everything Ends At Midnight
+  preheader: don’t miss out
+  html_file: html/p_2024_09_09_d_sf_pr_ldw_promo_last_call_am_email.html
+  screenshot: screenshots/p_2024_09_09_d_sf_pr_ldw_promo_last_call_am_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0058f1ba77/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf65a3397d3100731f7182/original.gif?1724868003
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf65a36b392f00665bf9ba/original.gif?1724868003
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d8ce8a63f1440066ecca0f/original.jpg?1725484682
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d8a438d13121006678ae77/original.gif?1725473848
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d8a40fd016ae007fd202f2/original.gif?1725473807
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf65a3397d3100811f717f/original.gif?1724868003
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0063f11fb6/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6681bde9255ebf0070d6be26/original.jpeg?1719778792
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf65a30c63800064edd731/original.gif?1724868003
+- id: 0871e025-99e4-46b2-9433-9f7d612cdf67
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 7705
+  total_delivered: 7535
+  total_opens: 3000
+  total_clicks: 310
+  open_rate: 0.3894
+  click_rate: 0.0402
+  total_revenue: 4552.4
+  total_unsubscribes: 64
+  ga4:
+    sessions: 38
+    purchases: 1
+    revenue: 220.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.872266'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.840490'
+schedule_type: time_based

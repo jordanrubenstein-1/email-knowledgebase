@@ -1,0 +1,49 @@
+id: a43d0533-5d30-4fd6-b04d-8a1f11359c6e
+name: SEG_2024_09_12_D_CZ_CZ_NYC_Retail_September_Event_Calendar_Resend_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: a43d0533-5d30-4fd6-b04d-8a1f11359c6e
+dates:
+  send_date: '2024-09-12'
+  inferred_send_type: scheduled
+  first_sent: '2024-09-12T00:54:40+00:00'
+  last_sent: '2024-09-12T15:00:08+00:00'
+tags: []
+sends:
+- id: d8bfc7b9-300e-45c0-8a7e-4d2ccd865a65
+  channel: email
+  name: Variant 1
+  subject: 'For You: Gifts & Flowers at Soho Flagship'
+  preheader: Our in-store Fall Design Series is happening now.
+  html_file: html/seg_2024_09_12_d_cz_cz_nyc_retail_september_event_calendar_r.html
+  screenshot: screenshots/seg_2024_09_12_d_cz_cz_nyc_retail_september_event_calendar_r.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66db4c1cc21cf600635a199d/original.jpg?1725647899
+- id: 91588548-c374-4991-a6ea-fcbdf5edf3cb
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 13514
+  total_delivered: 13503
+  total_opens: 7699
+  total_clicks: 32
+  open_rate: 0.5697
+  click_rate: 0.0024
+  total_revenue: 2668.0
+  total_unsubscribes: 18
+  ga4:
+    sessions: 23
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.902106'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.352865'
+schedule_type: time_based

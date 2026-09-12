@@ -1,0 +1,36 @@
+id: b8e63d74-611a-4121-99f0-71e8427ebc2f
+name: P_EM_2026_04_28_ID_PC_D_April_Reset_Extension_Final_Hours
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: b8e63d74-611a-4121-99f0-71e8427ebc2f
+dates:
+  send_date: '2026-04-28'
+  inferred_send_type: local_time
+  first_sent: '2026-04-27T19:08:17+00:00'
+  last_sent: '2026-04-28T18:05:02+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 4e079a63-4061-4e5c-940e-88db00aed8c0
+  channel: email
+  name: Variant 1
+  subject: This is it. Final hours for 25% off
+  preheader: The April Reset is almost over. Shop your favorites now.
+- id: 8c52d0f3-fd17-4912-8076-e23cf9b8dac6
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 227087
+  total_delivered: 223974
+  total_opens: 98410
+  total_clicks: 723
+  open_rate: 0.4334
+  click_rate: 0.0032
+  total_revenue: 303954.41
+  total_bounces: 7
+  total_unsubscribes: 258
+_filename: p_em_2026_04_28_id_pc_d_april_reset_extension_final_hours.yaml
+schedule_type: time_based

@@ -1,0 +1,65 @@
+id: 2b438aab-1266-436f-b837-dd248c6d321a
+name: P_EM_2025_07_03_SF_D_PR_Staycation
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 2b438aab-1266-436f-b837-dd248c6d321a
+dates:
+  send_date: '2025-07-03'
+  inferred_send_type: local_time
+  first_sent: '2025-07-02T18:57:25+00:00'
+  last_sent: '2025-07-03T17:00:48+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- dest
+- sale
+sends:
+- id: eef7ebaa-4ab0-43cd-b1dc-f5896baf7170
+  channel: email
+  name: Variant 1
+  subject: Your ultimate staycation
+  preheader: Worldly style, no boarding pass required.
+  html_file: html/p_em_2025_07_03_sf_d_pr_staycation.html
+  screenshot: screenshots/p_em_2025_07_03_sf_d_pr_staycation.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6864543c7b53c40066453d46/original.png?1751405628
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686453fa37bd430075c77a23/original.png?1751405562
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686454357b53c40066453cf7/original.png?1751405621
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68645404d7c4810065465de9/original.png?1751405572
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686453b6a6d44b00661007ba/original.png?1751405494
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686453dbd7c4810065465cfe/original.png?1751405531
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6864540a2776070065a856f5/original.png?1751405578
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686454563c6fd300958477ef/original.png?1751405654
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6864541d2182e40065051203/original.png?1751405596
+- id: 5e8f3436-b1f7-4a8c-922c-2207984c7bd2
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 37627
+  total_delivered: 37175
+  total_opens: 17004
+  total_clicks: 143
+  open_rate: 0.4519
+  click_rate: 0.0038
+  total_revenue: 4394.0
+  total_bounces: 1
+  total_unsubscribes: 91
+  ga4:
+    sessions: 141
+    purchases: 4
+    revenue: 4487.76
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.853632'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.249563'
+schedule_type: time_based

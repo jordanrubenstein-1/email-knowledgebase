@@ -1,0 +1,46 @@
+id: 6b31e76c-7587-4894-8f23-7a736a297326
+name: P_2025_2_22_ID_PT_Sale_Extension_Reminder_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 6b31e76c-7587-4894-8f23-7a736a297326
+dates:
+  send_date: '2025-02-22'
+  inferred_send_type: local_time
+  first_sent: '2025-02-22T00:46:28+00:00'
+  last_sent: '2025-02-22T17:15:08+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: cc449311-e2f1-46b6-be0e-f713428ce968
+  channel: email
+  name: Variant 1
+  subject: Don’t miss the best prices of the season!
+- id: 6b349941-eea6-482d-b0b1-fdd87399de10
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 114896
+  total_delivered: 113673
+  total_opens: 29686
+  total_clicks: 497
+  open_rate: 0.2584
+  click_rate: 0.0043
+  total_revenue: 307387.0
+  total_bounces: 1
+  total_unsubscribes: 151
+  ga4:
+    sessions: 488
+    purchases: 2
+    revenue: 4088.54
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.694540'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.290617'
+schedule_type: time_based

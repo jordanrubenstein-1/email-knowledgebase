@@ -1,0 +1,54 @@
+id: 098fd593-38c5-455e-83f7-fcbcf7661b15
+name: P_EM_2025_07_17_HAV_PC_D_Weekender_Flash_Sale_Launch
+brand: HAV
+channel: email
+category: product_launch
+type: sale
+theme: null
+braze_id: 098fd593-38c5-455e-83f7-fcbcf7661b15
+dates:
+  send_date: '2025-07-17'
+  inferred_send_type: local_time
+  first_sent: '2025-07-16T18:22:16+00:00'
+  last_sent: '2025-07-17T18:15:34+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: f01d96d8-7a6d-4712-9376-655b94089ead
+  channel: email
+  name: Variant 1
+  subject: Design your home for 40% Off
+  preheader: Our Summer Sale just launched, you’re welcome.
+  html_file: html/p_em_2025_07_17_hav_pc_d_weekender_flash_sale_launch.html
+  screenshot: screenshots/p_em_2025_07_17_hav_pc_d_weekender_flash_sale_launch.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6877c6a9ddbb3b0066ef2c0d/original.png?1752680105
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6877c68791f3c60074a8dc99/original.png?1752680071
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6877c69dad7c9400652a5741/original.gif?1752680093
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6877c678f9b6e20065f079c8/original.gif?1752680056
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6877c690ad7c9400932a5455/original.png?1752680080
+- id: 12f3edbc-00b2-46f2-9e69-3820926c940e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 229095
+  total_delivered: 225617
+  total_opens: 93924
+  total_clicks: 363
+  open_rate: 0.41
+  click_rate: 0.0016
+  total_bounces: 19
+  total_unsubscribes: 355
+  ga4:
+    sessions: 364
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.333486'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.571145'
+schedule_type: time_based

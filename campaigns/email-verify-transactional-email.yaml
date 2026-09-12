@@ -1,0 +1,21 @@
+id: b7746b60-ed99-42e2-abcc-df27937c056c
+name: Email Verify Transactional Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: b7746b60-ed99-42e2-abcc-df27937c056c
+dates: {}
+tags: []
+sends:
+- id: 747ae2e2-fea8-41d1-8397-8e3707daba5a
+  channel: email
+  name: Variant 1
+  subject: Login to Havenly
+- id: dd1d3f16-8e46-4ee1-bb2b-d083f012ab11
+  channel: other
+  name: Control Group
+performance_summary: {}
+schedule_type: api_triggered
+_filename: email-verify-transactional-email.yaml

@@ -1,0 +1,52 @@
+id: 71892c5f-625e-436c-8b70-de70bd10131e
+name: 20241125_BFCM-Leather-Highlight
+brand: BUR
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: 71892c5f-625e-436c-8b70-de70bd10131e
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2024-11-25T03:49:15+00:00'
+  last_sent: '2024-11-25T17:15:14+00:00'
+tags: []
+sends:
+- id: ed9c0b94-8429-4721-9c92-20f254ede2cc
+  channel: email
+  name: Variant 1
+  subject: Leather you’ll love is now on sale
+  preheader: During our Black Friday Event.
+- id: 5061b3c9-30c5-4310-a0e9-3880e1563627
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 485
+    purchases: 6
+    revenue: 13110.53
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.571266'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-bfcm-giving-tues-2024-11-13
+    name: BFCM + Giving Tues
+    start_date: '2024-11-13'
+    end_date: '2024-11-26'
+    discount: null
+    type: null
+  primary_sale:
+    id: bur-bfcm-giving-tues-2024-11-13
+    name: BFCM + Giving Tues
+    start_date: '2024-11-13'
+    end_date: '2024-11-26'
+    discount: null
+    type: null
+  sale_name: BFCM + Giving Tues
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:31.504611'
+schedule_type: time_based

@@ -1,0 +1,46 @@
+id: d5616a1e-90f8-48c5-b375-9eafc2538189
+name: SEG_2025_01_17_PT_CZ_NYC_Winter_Retreat_Event_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: seasonal
+theme: winter
+braze_id: d5616a1e-90f8-48c5-b375-9eafc2538189
+dates:
+  send_date: '2025-01-17'
+  inferred_send_type: local_time
+  first_sent: '2025-01-16T23:38:04+00:00'
+  last_sent: '2025-01-17T20:30:03+00:00'
+tags: []
+sends:
+- id: d63c8292-3cdb-4f7f-bf51-a504af31eefa
+  channel: email
+  name: Variant 1
+  subject: Soho, stop by this weekend for 20% off
+  html_file: html/seg_2025_01_17_pt_cz_nyc_winter_retreat_event_email.html
+  screenshot: screenshots/seg_2025_01_17_pt_cz_nyc_winter_retreat_event_email.png
+- id: 581e976d-7939-4866-952d-2cff594c8f44
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 12345
+  total_delivered: 12327
+  total_opens: 7183
+  total_clicks: 55
+  open_rate: 0.5819
+  click_rate: 0.0045
+  total_revenue: 11273.99
+  total_unsubscribes: 6
+  ga4:
+    sessions: 60
+    purchases: 1
+    revenue: 266.97
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.154290'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.642810'
+schedule_type: time_based

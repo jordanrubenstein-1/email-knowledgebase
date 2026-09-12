@@ -1,0 +1,211 @@
+{% if cat_preset == "default_light" %}
+  {% assign cat_bg = "#f7eee3" %}
+  {% assign cat_text = "#101b24" %}
+  {% assign cat_btn_bg = "#101b24" %}
+  {% assign cat_btn_text = "#ffffff" %}
+{% elsif cat_preset == "default_dark" %}
+  {% assign cat_bg = "#101b24" %}
+  {% assign cat_text = "#ffffff" %}
+  {% assign cat_btn_bg = "#f7eee3" %}
+  {% assign cat_btn_text = "#101b24" %}
+{% elsif cat_preset == "white" %}
+  {% assign cat_bg = "#fffffe" %}
+  {% assign cat_text = "#101b24" %}
+  {% assign cat_btn_bg = "#101b24" %}
+  {% assign cat_btn_text = "#ffffff" %}
+{% elsif cat_preset == "cream" %}
+  {% assign cat_bg = "#f7eee3" %}
+  {% assign cat_text = "#101b24" %}
+  {% assign cat_btn_bg = "#101b24" %}
+  {% assign cat_btn_text = "#ffffff" %}
+{% elsif cat_preset == "warm_brown" %}
+  {% assign cat_bg = "#f7eee3" %}
+  {% assign cat_text = "#101b24" %}
+  {% assign cat_btn_bg = "#7a4535" %}
+  {% assign cat_btn_text = "#ffffff" %}
+{% endif %}
+
+<!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:600px;" width="600"><tr><td style="line-height:0;font-size:0;mso-line-height-rule:exactly;"><![endif]-->
+<div class="r e y" style="background:{{ cat_bg | default: '#f7eee3' }};background-color:{{ cat_bg | default: '#f7eee3' }};margin:0px auto;max-width:600px;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:{{ cat_bg | default: '#f7eee3' }};background-color:{{ cat_bg | default: '#f7eee3' }};width:100%;">
+<tbody>
+
+{% if cat_header or cat_subheader %}
+<tr>
+<td style="border:none;direction:ltr;font-size:0;padding:32px 32px 20px 32px;text-align:center;">
+<!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td style="vertical-align:middle;width:536px;"><![endif]-->
+<div class="k hj" style="font-size:0;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border:none;vertical-align:middle;" width="100%">
+<tbody>
+{% if cat_header %}
+<tr>
+<td align="center" class="x xr m" style="font-size:0;padding-bottom:8px;word-break:break-word;">
+<div style="font-family:'Arial', sans-serif;font-size:24px;font-weight:700;line-height:117%;text-align:center;color:{{ cat_text | default: '#101b24' }};"><p style="Margin:0;mso-line-height-alt:28px;font-size:24px;line-height:117%;">{{ cat_header }}</p></div>
+</td>
+</tr>
+{% endif %}
+{% if cat_subheader %}
+<tr>
+<td align="center" class="x rl m" style="font-size:0;padding-bottom:0;word-break:break-word;">
+<div style="font-family:'Inter', 'Arial', sans-serif;font-size:16px;font-weight:400;line-height:150%;text-align:center;color:{{ cat_text | default: '#101b24' }};"><p style="Margin:0;mso-line-height-alt:24px;font-size:16px;line-height:150%;">{{ cat_subheader }}</p></div>
+</td>
+</tr>
+{% endif %}
+</tbody>
+</table>
+</div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+</td>
+</tr>
+{% endif %}
+
+<tr>
+<td style="border:none;direction:ltr;font-size:0;padding:24px 67px 24px 67px;text-align:left;">
+
+<!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td style="width:466px;"><![endif]-->
+<div class="ok hj w" style="font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direction:ltr;">
+  <!--[if mso | IE]><table border="0" cellpadding="0" cellspacing="0" role="presentation"><tr><td style="vertical-align:middle;width:226px;"><![endif]-->
+  <div class="z hj m" style="font-size:0;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:48.498%;">
+  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border:none;vertical-align:middle;" width="100%">
+  <tbody><tr>
+  <td align="center" class="b xb" style="font-size:0;padding:0;padding-bottom:13px;word-break:break-word;">
+  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;width:100%;line-height:100%;">
+  <tbody><tr>
+  <td align="center" bgcolor="{{ cat_btn_bg | default: '#101b24' }}" role="presentation" style="background:{{ cat_btn_bg | default: '#101b24' }};border:none;cursor:auto;mso-padding-alt:21px 0px;vertical-align:middle;" valign="middle">
+  <a href="https://burrow.com/sofas" style="display:block;width:100%;background-color:{{ cat_btn_bg | default: '#101b24' }};color:{{ cat_btn_text | default: '#ffffff' }};font-family:'Arial', sans-serif;font-size:13px;font-weight:normal;line-height:100%;margin:0;text-decoration:none;text-transform:none;padding:21px 0px;mso-padding-alt:0;" target="_blank">
+  <span style="font-size:13px;font-family:'Arial', sans-serif;font-weight:400;text-transform:uppercase;color:{{ cat_btn_text | default: '#ffffff' }};line-height:118%;mso-line-height-alt:15px;">SOFAS</span>
+  </a>
+  </td>
+  </tr></tbody>
+  </table>
+  </td>
+  </tr></tbody>
+  </table>
+  </div>
+  <!--[if mso | IE]></td>
+  <td style="vertical-align:middle;width:14px;"><![endif]-->
+  <div class="s hj" style="font-size:0;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:3.004%;">
+  <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:top;padding:0;"></td></tr></tbody></table>
+  </div>
+  <!--[if mso | IE]></td><td style="vertical-align:middle;width:226px;"><![endif]-->
+  <div class="z hj m" style="font-size:0;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:48.498%;">
+  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border:none;vertical-align:middle;" width="100%">
+  <tbody><tr>
+  <td align="center" class="b xb" style="font-size:0;padding:0;padding-bottom:13px;word-break:break-word;">
+  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;width:100%;line-height:100%;">
+  <tbody><tr>
+  <td align="center" bgcolor="{{ cat_btn_bg | default: '#101b24' }}" role="presentation" style="background:{{ cat_btn_bg | default: '#101b24' }};border:none;cursor:auto;mso-padding-alt:21px 0px;vertical-align:middle;" valign="middle">
+  <a href="https://burrow.com/sectionals" style="display:block;width:100%;background-color:{{ cat_btn_bg | default: '#101b24' }};color:{{ cat_btn_text | default: '#ffffff' }};font-family:'Arial', sans-serif;font-size:13px;font-weight:normal;line-height:100%;margin:0;text-decoration:none;text-transform:none;padding:21px 0px;mso-padding-alt:0;" target="_blank">
+  <span style="font-size:13px;font-family:'Arial', sans-serif;font-weight:400;text-transform:uppercase;color:{{ cat_btn_text | default: '#ffffff' }};line-height:118%;mso-line-height-alt:15px;">SECTIONALS</span>
+  </a>
+  </td>
+  </tr></tbody>
+  </table>
+  </td>
+  </tr></tbody>
+  </table>
+  </div>
+  <!--[if mso | IE]></td></tr></table><![endif]-->
+</div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+
+<!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td style="width:466px;"><![endif]-->
+<div class="ok hj w" style="font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direction:ltr;">
+  <!--[if mso | IE]><table border="0" cellpadding="0" cellspacing="0" role="presentation"><tr><td style="vertical-align:middle;width:226px;"><![endif]-->
+  <div class="z hj m" style="font-size:0;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:48.498%;">
+  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border:none;vertical-align:middle;" width="100%">
+  <tbody><tr>
+  <td align="center" class="b xb" style="font-size:0;padding:0;padding-bottom:13px;word-break:break-word;">
+  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;width:100%;line-height:100%;">
+  <tbody><tr>
+  <td align="center" bgcolor="{{ cat_btn_bg | default: '#101b24' }}" role="presentation" style="background:{{ cat_btn_bg | default: '#101b24' }};border:none;cursor:auto;mso-padding-alt:21px 0px;vertical-align:middle;" valign="middle">
+  <a href="https://burrow.com/dining" style="display:block;width:100%;background-color:{{ cat_btn_bg | default: '#101b24' }};color:{{ cat_btn_text | default: '#ffffff' }};font-family:'Arial', sans-serif;font-size:13px;font-weight:normal;line-height:100%;margin:0;text-decoration:none;text-transform:none;padding:21px 0px;mso-padding-alt:0;" target="_blank">
+  <span style="font-size:13px;font-family:'Arial', sans-serif;font-weight:400;text-transform:uppercase;color:{{ cat_btn_text | default: '#ffffff' }};line-height:118%;mso-line-height-alt:15px;">DINING</span>
+  </a>
+  </td>
+  </tr></tbody>
+  </table>
+  </td>
+  </tr></tbody>
+  </table>
+  </div>
+  <!--[if mso | IE]></td>
+  <td style="vertical-align:middle;width:14px;"><![endif]-->
+  <div class="s hj" style="font-size:0;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:3.004%;">
+  <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:top;padding:0;"></td></tr></tbody></table>
+  </div>
+  <!--[if mso | IE]></td><td style="vertical-align:middle;width:226px;"><![endif]-->
+  <div class="z hj m" style="font-size:0;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:48.498%;">
+  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border:none;vertical-align:middle;" width="100%">
+  <tbody><tr>
+  <td align="center" class="b xb" style="font-size:0;padding:0;padding-bottom:13px;word-break:break-word;">
+  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;width:100%;line-height:100%;">
+  <tbody><tr>
+  <td align="center" bgcolor="{{ cat_btn_bg | default: '#101b24' }}" role="presentation" style="background:{{ cat_btn_bg | default: '#101b24' }};border:none;cursor:auto;mso-padding-alt:21px 0px;vertical-align:middle;" valign="middle">
+  <a href="https://burrow.com/bedroom" style="display:block;width:100%;background-color:{{ cat_btn_bg | default: '#101b24' }};color:{{ cat_btn_text | default: '#ffffff' }};font-family:'Arial', sans-serif;font-size:13px;font-weight:normal;line-height:100%;margin:0;text-decoration:none;text-transform:none;padding:21px 0px;mso-padding-alt:0;" target="_blank">
+  <span style="font-size:13px;font-family:'Arial', sans-serif;font-weight:400;text-transform:uppercase;color:{{ cat_btn_text | default: '#ffffff' }};line-height:118%;mso-line-height-alt:15px;">BEDROOM</span>
+  </a>
+  </td>
+  </tr></tbody>
+  </table>
+  </td>
+  </tr></tbody>
+  </table>
+  </div>
+  <!--[if mso | IE]></td></tr></table><![endif]-->
+</div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+
+<!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td style="width:466px;"><![endif]-->
+<div class="ok hj w" style="font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direction:ltr;">
+  <!--[if mso | IE]><table border="0" cellpadding="0" cellspacing="0" role="presentation"><tr><td style="vertical-align:middle;width:226px;"><![endif]-->
+  <div class="z hj m" style="font-size:0;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:48.498%;">
+  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border:none;vertical-align:middle;" width="100%">
+  <tbody><tr>
+  <td align="center" class="b xb" style="font-size:0;padding:0;padding-bottom:13px;word-break:break-word;">
+  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;width:100%;line-height:100%;">
+  <tbody><tr>
+  <td align="center" bgcolor="{{ cat_btn_bg | default: '#101b24' }}" role="presentation" style="background:{{ cat_btn_bg | default: '#101b24' }};border:none;cursor:auto;mso-padding-alt:21px 0px;vertical-align:middle;" valign="middle">
+  <a href="https://burrow.com/collections/sleeper-sofas" style="display:block;width:100%;background-color:{{ cat_btn_bg | default: '#101b24' }};color:{{ cat_btn_text | default: '#ffffff' }};font-family:'Arial', sans-serif;font-size:13px;font-weight:normal;line-height:100%;margin:0;text-decoration:none;text-transform:none;padding:21px 0px;mso-padding-alt:0;" target="_blank">
+  <span style="font-size:13px;font-family:'Arial', sans-serif;font-weight:400;text-transform:uppercase;color:{{ cat_btn_text | default: '#ffffff' }};line-height:118%;mso-line-height-alt:15px;">SLEEPER SOFAS</span>
+  </a>
+  </td>
+  </tr></tbody>
+  </table>
+  </td>
+  </tr></tbody>
+  </table>
+  </div>
+  <!--[if mso | IE]></td>
+  <td style="vertical-align:middle;width:14px;"><![endif]-->
+  <div class="s hj" style="font-size:0;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:3.004%;">
+  <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:top;padding:0;"></td></tr></tbody></table>
+  </div>
+  <!--[if mso | IE]></td><td style="vertical-align:middle;width:226px;"><![endif]-->
+  <div class="z hj m" style="font-size:0;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:48.498%;">
+  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border:none;vertical-align:middle;" width="100%">
+  <tbody><tr>
+  <td align="center" class="b xb" style="font-size:0;padding:0;padding-bottom:13px;word-break:break-word;">
+  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;width:100%;line-height:100%;">
+  <tbody><tr>
+  <td align="center" bgcolor="{{ cat_btn_bg | default: '#101b24' }}" role="presentation" style="background:{{ cat_btn_bg | default: '#101b24' }};border:none;cursor:auto;mso-padding-alt:21px 0px;vertical-align:middle;" valign="middle">
+  <a href="https://burrow.com/storage" style="display:block;width:100%;background-color:{{ cat_btn_bg | default: '#101b24' }};color:{{ cat_btn_text | default: '#ffffff' }};font-family:'Arial', sans-serif;font-size:13px;font-weight:normal;line-height:100%;margin:0;text-decoration:none;text-transform:none;padding:21px 0px;mso-padding-alt:0;" target="_blank">
+  <span style="font-size:13px;font-family:'Arial', sans-serif;font-weight:400;text-transform:uppercase;color:{{ cat_btn_text | default: '#ffffff' }};line-height:118%;mso-line-height-alt:15px;">STORAGE</span>
+  </a>
+  </td>
+  </tr></tbody>
+  </table>
+  </td>
+  </tr></tbody>
+  </table>
+  </div>
+  <!--[if mso | IE]></td></tr></table><![endif]-->
+</div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso | IE]></td></tr></table><![endif]-->

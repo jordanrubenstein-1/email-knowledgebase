@@ -1,0 +1,60 @@
+id: e83ddc8d-2c37-4b52-9505-e1b2038975d2
+name: P_2025_06_17_D_STF_Bedding_Pairings
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: e83ddc8d-2c37-4b52-9505-e1b2038975d2
+dates:
+  send_date: '2025-06-17'
+  inferred_send_type: local_time
+  first_sent: '2025-06-16T18:06:12+00:00'
+  last_sent: '2025-06-17T17:00:16+00:00'
+tags:
+- Batch and Blast
+sends:
+- id: f3e488c0-4327-454c-88e9-0ba81bcc2ad6
+  channel: email
+  name: Variant 1
+  subject: Pattern on Pattern? Always.
+  preheader: the bed layering guide every print-lover needs
+  html_file: html/p_2025_06_17_d_stf_bedding_pairings.html
+  screenshot: screenshots/p_2025_06_17_d_stf_bedding_pairings.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684ca9e8d76dc300656aa18e/original.png?1749854696
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684ca86dd76dc300656a9d5a/original.png?1749854316
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684ca993e8f492006653af51/original.png?1749854611
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684caa7e5a386a006661a11a/original.png?1749854846
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684ca9149a2a740066972104/original.png?1749854483
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684ca931e8f492006653ae5c/original.png?1749854512
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684caa85ea807b0084bff1e2/original.png?1749854852
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684ca8e1f6f59b0067f46a10/original.png?1749854433
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684ca93df6f59b0067f46a23/original.png?1749854524
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684ca88ef6f59b0077f44301/original.png?1749854349
+- id: a8cae06a-f2ba-48f0-b9b2-a0631cd59977
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 33580
+  total_delivered: 33232
+  total_opens: 15587
+  total_clicks: 253
+  open_rate: 0.4642
+  click_rate: 0.0075
+  total_revenue: 5672.0
+  total_bounces: 1
+  total_unsubscribes: 85
+  ga4:
+    sessions: 245
+    purchases: 2
+    revenue: 283.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.032481'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.282058'
+schedule_type: time_based

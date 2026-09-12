@@ -1,0 +1,25 @@
+id: 1a227760-5e2d-4693-996b-8b059869c03a
+name: 2025Q1_Welcome-Flow_Step-1_F&F_Sale
+brand: BUR
+channel: email
+category: sale_promo
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 510265e9-c3e6-4a8c-8a88-917315c2d584
+canvas_name: Post Order Welcome to New Subscribers
+flow_type: welcome_series
+sequence_position: 1
+subject: Welcome to Burrow!
+preheader: You're in.
+sends:
+- id: 1a227760-5e2d-4693-996b-8b059869c03a
+  channel: email
+  name: 2025Q1_Welcome-Flow_Step-1_F&F_Sale
+  subject: Welcome to Burrow!
+  preheader: You're in.
+  html_file: html/canvas-post-order-welcome-to-new-subscribers-t1-1a227760.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-12-16T22:00:00Z'
+  last_sent: '2026-08-10T15:00:00Z'
+performance_summary: {}

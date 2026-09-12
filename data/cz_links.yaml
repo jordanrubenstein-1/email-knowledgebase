@@ -1,0 +1,983 @@
+# CZ Known URLs — extracted from real campaign HTML files
+# All URLs here have been used in at least one sent campaign.
+# Collections are grouped by category for readability.
+# Products include a display name derived from the slug.
+#
+# keywords: used for SMS keyword-based link resolution (build_sms_campaign.py) —
+# only present on `collections` entries where a distinctive, unambiguous keyword
+# exists. Deliberately omitted on: overly generic nav pages (Shop All, Shop by
+# Room, Shop All Decor/Tabletop/Kitchen) where a forced keyword would cause
+# false-positive matches; and near-duplicate entries (Throws vs. Shop All
+# Throws & Blankets, Towels & Bath Mats vs. Bath Towels/Bath Mats, Baskets
+# (alt)) to avoid keyword collisions between two entries with equal scores —
+# see build_sms_campaign.py's resolve_landing_page() scoring, which picks
+# whichever entry scores highest, with ties going to whichever appears first.
+# The `products` section below intentionally has no keywords — SMS category
+# resolution doesn't need per-product entries (~700 of them); those are only
+# used by build_cz_prompt()'s exact-name product matching.
+
+collections:
+
+  # --- Shop All (broadest category pages) ---
+  - url: https://www.the-citizenry.com/
+    label: Homepage (use as LP for sale emails)
+    keywords: ["sale", "event", "promo", "discount", "off", "sitewide"]
+  - url: https://www.the-citizenry.com/collections/shop
+    label: Shop All
+  - url: https://www.the-citizenry.com/collections/shop-by-room
+    label: Shop by Room
+  - url: https://www.the-citizenry.com/collections/all-best-sellers
+    label: Best Sellers
+    keywords: ["best seller", "bestseller", "best sellers", "popular"]
+  - url: https://www.the-citizenry.com/collections/all-new-arrivals
+    label: New Arrivals
+    keywords: ["new arrival", "new arrivals", "new in"]
+  - url: https://www.the-citizenry.com/collections/archive-sale
+    label: Archive Sale
+    keywords: ["archive", "archive sale"]
+  - url: https://www.the-citizenry.com/collections/ready-to-ship
+    label: Ready to Ship
+    keywords: ["ready to ship", "quick ship", "in stock"]
+  - url: https://www.the-citizenry.com/collections/shop-the-portugal-collection
+    label: The Portugal Collection
+    keywords: ["portugal", "portugal collection"]
+  - url: https://www.the-citizenry.com/collections/shop-sustainably
+    label: Shop Sustainably
+    keywords: ["sustainable", "sustainably", "shop sustainably"]
+  - url: https://www.the-citizenry.com/collections/all-back-in-stock
+    label: Back in Stock
+    keywords: ["back in stock", "restock", "restocked"]
+
+  # --- Rugs ---
+  - url: https://www.the-citizenry.com/collections/shop-all-rugs-1
+    label: Shop All Rugs
+    keywords: ["rug", "rugs"]
+  - url: https://www.the-citizenry.com/collections/area-rugs
+    label: Area Rugs
+    keywords: ["area rug", "area rugs"]
+  - url: https://www.the-citizenry.com/collections/all-runners
+    label: Runners
+    keywords: ["runner", "runners", "rug runner", "rug runners"]
+  - url: https://www.the-citizenry.com/collections/washable-rugs
+    label: Washable Rugs
+    keywords: ["washable rug", "washable rugs"]
+  - url: https://www.the-citizenry.com/collections/jute-plant-based-rugs
+    label: Jute & Plant-Based Rugs
+    keywords: ["jute rug", "jute rugs", "plant-based rug", "plant based rug"]
+  - url: https://www.the-citizenry.com/collections/rugs-by-style
+    label: Rugs by Style
+    keywords: ["rugs by style"]
+  - url: https://www.the-citizenry.com/collections/rugs-by-style-beni-ourains
+    label: Beni Ourain Rugs
+    keywords: ["beni ourain", "beni ourain rugs"]
+  - url: https://www.the-citizenry.com/collections/rugs-by-style-hand-knotted
+    label: Hand-Knotted Rugs
+    keywords: ["hand-knotted rug", "hand knotted rug", "hand-knotted rugs", "hand knotted rugs"]
+  - url: https://www.the-citizenry.com/collections/best-sellers-rugs
+    label: Best Seller Rugs
+    keywords: ["best seller rug", "best seller rugs", "bestseller rugs"]
+  - url: https://www.the-citizenry.com/collections/in-stock-collection-rugs
+    label: In-Stock Rugs
+    keywords: ["in-stock rug", "in stock rug", "in-stock rugs", "in stock rugs"]
+
+  # --- Pillows ---
+  - url: https://www.the-citizenry.com/collections/shop-all-pillows
+    label: Shop All Pillows
+    keywords: ["pillow", "pillows"]
+  - url: https://www.the-citizenry.com/collections/all-throw-pillows
+    label: Throw Pillows
+    keywords: ["throw pillow", "throw pillows"]
+  - url: https://www.the-citizenry.com/collections/all-long-lumbar-pillows
+    label: Long Lumbar Pillows
+    keywords: ["lumbar pillow", "lumbar pillows", "long lumbar"]
+  - url: https://www.the-citizenry.com/collections/shop-by-pattern-pillows
+    label: Pillows by Pattern
+    keywords: ["pillow pattern", "pillows by pattern", "patterned pillow", "patterned pillows"]
+  - url: https://www.the-citizenry.com/collections/solid-pillows
+    label: Solid Pillows
+    keywords: ["solid pillow", "solid pillows"]
+
+  # --- Throws & Blankets ---
+  - url: https://www.the-citizenry.com/collections/shop-all-throws-blankets
+    label: Shop All Throws & Blankets
+    keywords: ["throw", "throws", "blanket", "blankets"]
+  - url: https://www.the-citizenry.com/collections/all-throws
+    label: Throws
+  - url: https://www.the-citizenry.com/collections/all-bed-blankets
+    label: Bed Blankets
+    keywords: ["bed blanket", "bed blankets"]
+  - url: https://www.the-citizenry.com/collections/alpaca-throws-and-blankets
+    label: Alpaca Throws & Blankets
+    keywords: ["alpaca throw", "alpaca blanket", "alpaca throws", "alpaca blankets"]
+  - url: https://www.the-citizenry.com/collections/in-stock-collection-throws-blankets
+    label: In-Stock Throws & Blankets
+    keywords: ["in-stock throw", "in stock throw", "in-stock blanket", "in stock blanket"]
+
+  # --- Bedding ---
+  - url: https://www.the-citizenry.com/collections/shop-all-bedding
+    label: Shop All Bedding
+    keywords: ["bedding", "bed"]
+  - url: https://www.the-citizenry.com/collections/all-duvets-quilts
+    label: Duvets & Quilts
+    keywords: ["duvet", "duvets", "quilt", "quilts"]
+  - url: https://www.the-citizenry.com/collections/all-sheets-pillowcases
+    label: Sheets & Pillowcases
+    keywords: ["sheet", "sheets", "pillowcase", "pillowcases"]
+  - url: https://www.the-citizenry.com/collections/all-bed-bundles
+    label: Bed Bundles
+    keywords: ["bed bundle", "bed bundles"]
+  - url: https://www.the-citizenry.com/collections/organic-cotton-bedding
+    label: Organic Cotton Bedding
+    keywords: ["organic cotton bedding", "organic cotton sheets"]
+  - url: https://www.the-citizenry.com/collections/organic-cotton-gauze-bedding
+    label: Organic Cotton Gauze Bedding
+    keywords: ["organic cotton gauze", "gauze bedding"]
+  - url: https://www.the-citizenry.com/collections/organic-stonewashed-percale-bedding
+    label: Organic Stonewashed Percale Bedding
+    keywords: ["stonewashed percale bedding", "percale bedding"]
+  - url: https://www.the-citizenry.com/collections/organic-stonewashed-percale-sheets-pillowcases
+    label: Organic Stonewashed Percale Sheets
+    keywords: ["stonewashed percale sheets", "percale sheets"]
+  - url: https://www.the-citizenry.com/collections/stonewashed-linen-bedding
+    label: Stonewashed Linen Bedding
+    keywords: ["stonewashed linen", "linen bedding", "linen sheets"]
+  - url: https://www.the-citizenry.com/collections/swatches-bedding
+    label: Bedding Swatches
+    keywords: ["bedding swatch", "bedding swatches"]
+  - url: https://www.the-citizenry.com/collections/swatches
+    label: Swatches
+    keywords: ["swatch", "swatches", "free swatch"]
+
+  # --- Bath ---
+  - url: https://www.the-citizenry.com/collections/shop-all-bath
+    label: Shop All Bath
+    keywords: ["bath"]
+  - url: https://www.the-citizenry.com/collections/bath-all-towels
+    label: Bath Towels
+    keywords: ["bath towel", "bath towels", "towel", "towels"]
+  - url: https://www.the-citizenry.com/collections/bath-all-towels-bath-mats
+    label: Towels & Bath Mats
+  - url: https://www.the-citizenry.com/collections/all-bath-mats
+    label: Bath Mats
+    keywords: ["bath mat", "bath mats"]
+  - url: https://www.the-citizenry.com/collections/bath-robes
+    label: Bath Robes
+    keywords: ["bath robe", "bath robes", "robe", "robes"]
+  - url: https://www.the-citizenry.com/collections/bath-accessories
+    label: Bath Accessories
+    keywords: ["bath accessory", "bath accessories"]
+  - url: https://www.the-citizenry.com/collections/organic-plush-towels
+    label: Organic Plush Towels
+    keywords: ["plush towel", "plush towels", "organic plush towel"]
+  - url: https://www.the-citizenry.com/collections/all-bath-furniture
+    label: Bath Furniture
+    keywords: ["bath furniture"]
+
+  # --- Furniture ---
+  - url: https://www.the-citizenry.com/collections/shop-all-furniture
+    label: Shop All Furniture
+    keywords: ["furniture"]
+  - url: https://www.the-citizenry.com/collections/custom-furniture
+    label: Custom Furniture
+    keywords: ["custom furniture", "made to order furniture", "mto furniture"]
+  - url: https://www.the-citizenry.com/collections/ready-to-ship-furniture
+    label: Ready-to-Ship Furniture
+    keywords: ["ready to ship furniture", "quick ship furniture"]
+  - url: https://www.the-citizenry.com/collections/in-stock-collection-furniture
+    label: In-Stock Furniture
+    keywords: ["in-stock furniture", "in stock furniture"]
+  - url: https://www.the-citizenry.com/collections/beds
+    label: Beds
+    keywords: ["bed frame", "bed frames", "beds collection"]
+  - url: https://www.the-citizenry.com/collections/bedroom-furniture
+    label: Bedroom Furniture
+    keywords: ["bedroom furniture"]
+  - url: https://www.the-citizenry.com/collections/living-room-furniture
+    label: Living Room Furniture
+    keywords: ["living room furniture"]
+  - url: https://www.the-citizenry.com/collections/living-room-furniture-chairs-sofas
+    label: Chairs & Sofas
+    keywords: ["sofa", "sofas", "chairs and sofas"]
+  - url: https://www.the-citizenry.com/collections/living-room-furniture-benches
+    label: Benches
+    keywords: ["bench", "benches"]
+  - url: https://www.the-citizenry.com/collections/tables-nightstands
+    label: Tables & Nightstands
+    keywords: ["table", "tables", "nightstand", "nightstands"]
+  - url: https://www.the-citizenry.com/collections/kitchen-furniture
+    label: Kitchen Furniture
+    keywords: ["kitchen furniture"]
+  - url: https://www.the-citizenry.com/collections/all-seating-chairs
+    label: Seating — Chairs
+    keywords: ["chair", "chairs", "seating"]
+  - url: https://www.the-citizenry.com/collections/all-seating-ottomans-and-poufs
+    label: Ottomans & Poufs
+    keywords: ["ottoman", "ottomans", "pouf", "poufs"]
+  - url: https://www.the-citizenry.com/collections/accent-furniture
+    label: Accent Furniture
+    keywords: ["accent furniture"]
+  - url: https://www.the-citizenry.com/collections/swatches-mto-beds
+    label: MTO Bed Swatches
+    keywords: ["bed swatch", "bed swatches", "mto bed swatch"]
+  - url: https://www.the-citizenry.com/collections/swatches-mto-seating
+    label: MTO Seating Swatches
+    keywords: ["seating swatch", "seating swatches", "mto seating swatch"]
+
+  # --- Decor & Accents ---
+  - url: https://www.the-citizenry.com/collections/shop-all-decor
+    label: Shop All Decor
+    keywords: ["decor"]
+  - url: https://www.the-citizenry.com/collections/all-accents
+    label: All Accents
+    keywords: ["accents"]
+  - url: https://www.the-citizenry.com/collections/all-wall-art
+    label: Wall Art
+    keywords: ["wall art", "art"]
+  - url: https://www.the-citizenry.com/collections/all-decor-wall-hangings
+    label: Wall Hangings
+    keywords: ["wall hanging", "wall hangings"]
+  - url: https://www.the-citizenry.com/collections/all-mirrors
+    label: Mirrors
+    keywords: ["mirror", "mirrors"]
+  - url: https://www.the-citizenry.com/collections/hinoki-wood
+    label: Hinoki Wood Collection
+    keywords: ["hinoki", "hinoki wood"]
+  - url: https://www.the-citizenry.com/collections/all-planters
+    label: Planters
+    keywords: ["planter", "planters"]
+  - url: https://www.the-citizenry.com/collections/all-baskets
+    label: Baskets
+    keywords: ["basket", "baskets"]
+  - url: https://www.the-citizenry.com/collections/baskets
+    label: Baskets (alt)
+
+  # --- Tabletop & Kitchen ---
+  - url: https://www.the-citizenry.com/collections/shop-all-tabletop
+    label: Shop All Tabletop
+    keywords: ["tabletop"]
+  - url: https://www.the-citizenry.com/collections/shop-all-kitchen
+    label: Shop All Kitchen
+    keywords: ["kitchen"]
+  - url: https://www.the-citizenry.com/collections/all-tableware-decor
+    label: Tableware Decor
+    keywords: ["tableware", "tableware decor"]
+  - url: https://www.the-citizenry.com/collections/all-tableware-glassware
+    label: Glassware
+    keywords: ["glassware", "glass"]
+
+  # --- Gift ---
+  - url: https://www.the-citizenry.com/collections/gift-cards
+    label: Gift Cards
+    keywords: ["gift card", "gift cards"]
+
+  # --- Editorial / Artisan Story ---
+  - url: https://www.the-citizenry.com/pages/kilkenny-wool-mill
+    label: Kilkenny Wool Mill (Ireland)
+    keywords: ["ireland", "irish", "dublin", "kilkenny"]
+
+
+products:
+  - url: https://www.the-citizenry.com/products/aayat-washable-rug
+    name: Aayat Washable Rug
+  - url: https://www.the-citizenry.com/products/aayat-washable-runner
+    name: Aayat Washable Runner
+  - url: https://www.the-citizenry.com/products/abaco-wall-hanging
+    name: Abaco Wall Hanging
+  - url: https://www.the-citizenry.com/products/adah-area-rug
+    name: Adah Area Rug
+  - url: https://www.the-citizenry.com/products/adana-kilim-pillow
+    name: Adana Kilim Pillow
+  - url: https://www.the-citizenry.com/products/adini-wool-area-rug
+    name: Adini Wool Area Rug
+  - url: https://www.the-citizenry.com/products/aditha-jute-accent-rug
+    name: Aditha Jute Accent Rug
+  - url: https://www.the-citizenry.com/products/aegean-bath-mat
+    name: Aegean Bath Mat
+  - url: https://www.the-citizenry.com/products/aegean-cotton-bath-robe
+    name: Aegean Cotton Bath Robe
+  - url: https://www.the-citizenry.com/products/aegean-cotton-bath-towels
+    name: Aegean Cotton Bath Towels
+  - url: https://www.the-citizenry.com/products/ahana-wool-area-rug
+    name: Ahana Wool Area Rug
+  - url: https://www.the-citizenry.com/products/aiden-hand-knotted-area-rug
+    name: Aiden Hand-Knotted Area Rug
+  - url: https://www.the-citizenry.com/products/aisha-hand-knotted-area-rug
+    name: Aisha Hand-Knotted Area Rug
+  - url: https://www.the-citizenry.com/products/alameda-vase
+    name: Alameda Vase
+  - url: https://www.the-citizenry.com/products/alegria-organic-cotton-quilted-bed-blanket
+    name: Alegria Organic Cotton Quilted Bed Blanket
+  - url: https://www.the-citizenry.com/products/alisha-lumbar-pillow
+    name: Alisha Lumbar Pillow
+  - url: https://www.the-citizenry.com/products/almendra-pillow
+    name: Almendra Pillow
+  - url: https://www.the-citizenry.com/products/alpine-bed-low-headboard
+    name: Alpine Bed (Low Headboard)
+  - url: https://www.the-citizenry.com/products/alpine-bed-medium-headboard
+    name: Alpine Bed (Medium Headboard)
+  - url: https://www.the-citizenry.com/products/alpine-bed-tall-headboard
+    name: Alpine Bed (Tall Headboard)
+  - url: https://www.the-citizenry.com/products/amal-hand-knotted-beni-ourain-area-rug
+    name: Amal Hand-Knotted Beni Ourain Area Rug
+  - url: https://www.the-citizenry.com/products/amala-jute-wall-hanging
+    name: Amala Jute Wall Hanging
+  - url: https://www.the-citizenry.com/products/amata-travertine-coffee-table
+    name: Amata Travertine Coffee Table
+  - url: https://www.the-citizenry.com/products/amata-travertine-side-table
+    name: Amata Travertine Side Table
+  - url: https://www.the-citizenry.com/products/amelia-quilt
+    name: Amelia Quilt
+  - url: https://www.the-citizenry.com/products/amina-recycled-tumbler-glasses
+    name: Amina Recycled Tumbler Glasses
+  - url: https://www.the-citizenry.com/products/amyra-handknotted-area-rug
+    name: Amyra Hand-Knotted Area Rug
+  - url: https://www.the-citizenry.com/products/anima-marble-bookends-set-of-2
+    name: Anima Marble Bookends (Set of 2)
+  - url: https://www.the-citizenry.com/products/anoushka-hand-knotted-area-rug
+    name: Anoushka Hand-Knotted Area Rug
+  - url: https://www.the-citizenry.com/products/apasco-recycled-cocktail-glasses-5-oz-set-of-6
+    name: Apasco Recycled Cocktail Glasses
+  - url: https://www.the-citizenry.com/products/apasco-recycled-highball-glasses
+    name: Apasco Recycled Highball Glasses
+  - url: https://www.the-citizenry.com/products/apasco-recycled-stemless-flute-glasses-13-5-oz-set-of-6
+    name: Apasco Recycled Stemless Flute Glasses
+  - url: https://www.the-citizenry.com/products/araz-bed-blanket
+    name: Araz Bed Blanket
+  - url: https://www.the-citizenry.com/products/aria-hand-knotted-area-rug
+    name: Aria Hand-Knotted Area Rug
+  - url: https://www.the-citizenry.com/products/arroyo-champagne-flute-glasses-13-5oz-set-of-6
+    name: Arroyo Champagne Flute Glasses
+  - url: https://www.the-citizenry.com/products/artha-area-rug
+    name: Artha Area Rug
+  - url: https://www.the-citizenry.com/products/artha-striped-accent-rug
+    name: Artha Striped Accent Rug
+  - url: https://www.the-citizenry.com/products/arya-linen-bed-blanket
+    name: Arya Linen Bed Blanket
+  - url: https://www.the-citizenry.com/products/asha-flatweave-area-rug
+    name: Asha Flatweave Area Rug
+  - url: https://www.the-citizenry.com/products/asha-runner
+    name: Asha Runner
+  - url: https://www.the-citizenry.com/products/ashwin-jute-area-rug
+    name: Ashwin Jute Area Rug
+  - url: https://www.the-citizenry.com/products/astrid-hand-knotted-area-rug
+    name: Astrid Hand-Knotted Area Rug
+  - url: https://www.the-citizenry.com/products/astrid-hand-knotted-runner
+    name: Astrid Hand-Knotted Runner
+  - url: https://www.the-citizenry.com/products/atashi-hand-knotted-area-rug
+    name: Atashi Hand-Knotted Area Rug
+  - url: https://www.the-citizenry.com/products/augusta-armchair
+    name: Augusta Armchair
+  - url: https://www.the-citizenry.com/products/augusta-bench
+    name: Augusta Bench
+  - url: https://www.the-citizenry.com/products/aurora-alpaca-throw
+    name: Aurora Alpaca Throw
+  - url: https://www.the-citizenry.com/products/avenida-vase
+    name: Avenida Vase
+  - url: https://www.the-citizenry.com/products/aventura-pillow
+    name: Aventura Pillow
+  - url: https://www.the-citizenry.com/products/avon-dresser
+    name: Avon Dresser
+  - url: https://www.the-citizenry.com/products/avon-nightstand
+    name: Avon Nightstand
+  - url: https://www.the-citizenry.com/products/aya-vase
+    name: Aya Vase
+  - url: https://www.the-citizenry.com/products/ayana-block-print-oversized-lumbar-pillow
+    name: Ayana Block Print Oversized Lumbar Pillow
+  - url: https://www.the-citizenry.com/products/ayana-block-print-pillow
+    name: Ayana Block Print Pillow
+  - url: https://www.the-citizenry.com/products/ayla-organic-cotton-quitled-bed-blanket
+    name: Ayla Organic Cotton Quilted Bed Blanket
+  - url: https://www.the-citizenry.com/products/azad-leather-tray
+    name: Azad Leather Tray
+  - url: https://www.the-citizenry.com/products/azad-low-leather-storage-bin
+    name: Azad Low Leather Storage Bin
+  - url: https://www.the-citizenry.com/products/azad-tall-leather-storage-bins
+    name: Azad Tall Leather Storage Bins
+  - url: https://www.the-citizenry.com/products/azalea-lumbar-pillow
+    name: Azalea Lumbar Pillow
+  - url: https://www.the-citizenry.com/products/aziza-wool-beni-ourain-area-rug
+    name: Aziza Wool Beni Ourain Area Rug
+  - url: https://www.the-citizenry.com/products/aziza-wool-beni-ourain-runner
+    name: Aziza Wool Beni Ourain Runner
+  - url: https://www.the-citizenry.com/products/azra-kilim-lumbar-pillow
+    name: Azra Kilim Lumbar Pillow
+  - url: https://www.the-citizenry.com/products/bay-armchair
+    name: Bay Armchair
+  - url: https://www.the-citizenry.com/products/baya-lumbar-pillow
+    name: Baya Lumbar Pillow
+  - url: https://www.the-citizenry.com/products/beatrice-hand-knotted-area-rug
+    name: Beatrice Hand-Knotted Area Rug
+  - url: https://www.the-citizenry.com/products/beeswax-taper-candles-set-of-2
+    name: Beeswax Taper Candles (Set of 2)
+  - url: https://www.the-citizenry.com/products/bellas-artes-mirror-clear
+    name: Bellas Artes Mirror
+  - url: https://www.the-citizenry.com/products/bhakti-handwoven-area-rug
+    name: Bhakti Handwoven Area Rug
+  - url: https://www.the-citizenry.com/products/bihu-linen-apron
+    name: Bihu Linen Apron
+  - url: https://www.the-citizenry.com/products/bina-hand-knotted-area-rug
+    name: Bina Hand-Knotted Area Rug
+  - url: https://www.the-citizenry.com/products/bolga-fans-black-natural
+    name: Bolga Fans
+  - url: https://www.the-citizenry.com/products/bower-ottoman-medium-large
+    name: Bower Ottoman (Medium/Large)
+  - url: https://www.the-citizenry.com/products/bower-ottoman-small
+    name: Bower Ottoman (Small)
+  - url: https://www.the-citizenry.com/products/bristol-quilted-throw
+    name: Bristol Quilted Throw
+  - url: https://www.the-citizenry.com/products/bronwyn-pillow
+    name: Bronwyn Pillow
+  - url: https://www.the-citizenry.com/products/caballo-wall-hanging
+    name: Caballo Wall Hanging
+  - url: https://www.the-citizenry.com/products/calista-lumbar-pillow
+    name: Calista Lumbar Pillow
+  - url: https://www.the-citizenry.com/products/caliz-bowl
+    name: Caliz Bowl
+  - url: https://www.the-citizenry.com/products/carrizo-pillow
+    name: Carrizo Pillow
+  - url: https://www.the-citizenry.com/products/cascada-throw
+    name: Cascada Throw
+  - url: https://www.the-citizenry.com/products/catalina-boucle-bed-blanket
+    name: Catalina Boucle Bed Blanket
+  - url: https://www.the-citizenry.com/products/catalina-boucle-pillow
+    name: Catalina Boucle Pillow
+  - url: https://www.the-citizenry.com/products/celeste-chunky-wool-throw
+    name: Celeste Chunky Wool Throw
+  - url: https://www.the-citizenry.com/products/censo-oversized-linen-bed-blanket
+    name: Censo Oversized Linen Bed Blanket
+  - url: https://www.the-citizenry.com/products/chahana-hand-knotted-area-rug
+    name: Chahana Hand-Knotted Area Rug
+  - url: https://www.the-citizenry.com/products/chaukon-pillow
+    name: Chaukon Pillow
+  - url: https://www.the-citizenry.com/products/circulo-napkin-rings-set-of-6
+    name: Circulo Napkin Rings (Set of 6)
+  - url: https://www.the-citizenry.com/products/claro-accent-pillow-camel
+    name: Claro Accent Pillow
+  - url: https://www.the-citizenry.com/products/contigo-lumbar-pillow-sand
+    name: Contigo Lumbar Pillow
+  - url: https://www.the-citizenry.com/products/correo-central-mirror
+    name: Correo Central Mirror
+  - url: https://www.the-citizenry.com/products/cotton-linen-swatches
+    name: Cotton-Linen Swatches
+  - url: https://www.the-citizenry.com/products/cotton-velvet-upholstery-swatches
+    name: Cotton Velvet Upholstery Swatches
+  - url: https://www.the-citizenry.com/products/darika-handwoven-area-rug
+    name: Darika Handwoven Area Rug
+  - url: https://www.the-citizenry.com/products/dasar-brass-bookend
+    name: Dasar Brass Bookend
+  - url: https://www.the-citizenry.com/products/deirdre-pillow
+    name: Deirdre Pillow
+  - url: https://www.the-citizenry.com/products/deirdre-small-lumbar
+    name: Deirdre Small Lumbar Pillow
+  - url: https://www.the-citizenry.com/products/delaney-mohair-throw
+    name: Delaney Mohair Throw
+  - url: https://www.the-citizenry.com/products/deniz-kilim-pillow
+    name: Deniz Kilim Pillow
+  - url: https://www.the-citizenry.com/products/dhara-leather-lumbar-pillow
+    name: Dhara Leather Lumbar Pillow
+  - url: https://www.the-citizenry.com/products/diamanta-alpaca-throw-1
+    name: Diamanta Alpaca Throw
+  - url: https://www.the-citizenry.com/products/donegal-tweed-upholstery-swatches
+    name: Donegal Tweed Upholstery Swatches
+  - url: https://www.the-citizenry.com/products/drift-bed
+    name: Drift Bed
+  - url: https://www.the-citizenry.com/products/ekaja-hand-knotted-runner
+    name: Ekaja Hand-Knotted Runner
+  - url: https://www.the-citizenry.com/products/elena-wall-hanging
+    name: Elena Wall Hanging
+  - url: https://www.the-citizenry.com/products/elora-jute-area-rug
+    name: Elora Jute Area Rug
+  - url: https://www.the-citizenry.com/products/emma-handwoven-area-rug
+    name: Emma Handwoven Area Rug
+  - url: https://www.the-citizenry.com/products/erin-mug-set-of-2
+    name: Erin Mug (Set of 2)
+  - url: https://www.the-citizenry.com/products/eshana-sandstone-bowl
+    name: Eshana Sandstone Bowl
+  - url: https://www.the-citizenry.com/products/eshana-sandstone-coasters
+    name: Eshana Sandstone Coasters
+  - url: https://www.the-citizenry.com/products/eshana-sandstone-palo-santo-set
+    name: Eshana Sandstone Palo Santo Set
+  - url: https://www.the-citizenry.com/products/eshana-sandstone-tray
+    name: Eshana Sandstone Tray
+  - url: https://www.the-citizenry.com/products/esperanza-alpaca-throw
+    name: Esperanza Alpaca Throw
+  - url: https://www.the-citizenry.com/products/euclid-handwoven-area-rug
+    name: Euclid Handwoven Area Rug
+  - url: https://www.the-citizenry.com/products/euclid-handwoven-runner
+    name: Euclid Handwoven Runner
+  - url: https://www.the-citizenry.com/products/evelyn-hand-knotted-area-rug
+    name: Evelyn Hand-Knotted Area Rug
+  - url: https://www.the-citizenry.com/products/ghama-suede-pillow
+    name: Ghama Suede Pillow
+  - url: https://www.the-citizenry.com/products/gift-card
+    name: Gift Card
+  - url: https://www.the-citizenry.com/products/grove-chair
+    name: Grove Chair
+  - url: https://www.the-citizenry.com/products/grove-sofa
+    name: Grove Sofa
+  - url: https://www.the-citizenry.com/products/hana-hand-knotted-lumbar-pillow
+    name: Hana Hand-Knotted Lumbar Pillow
+  - url: https://www.the-citizenry.com/products/hana-square-pillow
+    name: Hana Square Pillow
+  - url: https://www.the-citizenry.com/products/hanita-hand-knotted-accent-rug
+    name: Hanita Hand-Knotted Accent Rug
+  - url: https://www.the-citizenry.com/products/hanita-hand-knotted-area-rug
+    name: Hanita Hand-Knotted Area Rug
+  - url: https://www.the-citizenry.com/products/hansa-vase
+    name: Hansa Vase
+  - url: https://www.the-citizenry.com/products/hari-stone-and-wood-sculpture
+    name: Hari Stone & Wood Sculpture
+  - url: https://www.the-citizenry.com/products/harika-kilim-accent-rug
+    name: Harika Kilim Accent Rug
+  - url: https://www.the-citizenry.com/products/harita-hand-knotted-area-rug
+    name: Harita Hand-Knotted Area Rug
+  - url: https://www.the-citizenry.com/products/harper-hand-knotted-area-rug
+    name: Harper Hand-Knotted Area Rug
+  - url: https://www.the-citizenry.com/products/helm-armchair
+    name: Helm Armchair
+  - url: https://www.the-citizenry.com/products/helm-bench
+    name: Helm Bench
+  - url: https://www.the-citizenry.com/products/helm-ottoman
+    name: Helm Ottoman
+  - url: https://www.the-citizenry.com/products/helm-sofa
+    name: Helm Sofa
+  - url: https://www.the-citizenry.com/products/hemali-flatweave-area-rug
+    name: Hemali Flatweave Area Rug
+  - url: https://www.the-citizenry.com/products/hinoki-wood-bath-caddy
+    name: Hinoki Wood Bath Caddy
+  - url: https://www.the-citizenry.com/products/hinoki-wood-bath-mat
+    name: Hinoki Wood Bath Mat
+  - url: https://www.the-citizenry.com/products/hinoki-wood-floor-mirror
+    name: Hinoki Wood Floor Mirror
+  - url: https://www.the-citizenry.com/products/hinoki-wood-ladder
+    name: Hinoki Wood Ladder
+  - url: https://www.the-citizenry.com/products/hinoki-wood-mirror
+    name: Hinoki Wood Mirror
+  - url: https://www.the-citizenry.com/products/hinoki-wood-nightstand
+    name: Hinoki Wood Nightstand
+  - url: https://www.the-citizenry.com/products/hinoki-wood-side-table
+    name: Hinoki Wood Side Table
+  - url: https://www.the-citizenry.com/products/hinoki-wood-standing-rack
+    name: Hinoki Wood Standing Rack
+  - url: https://www.the-citizenry.com/products/hudson-bench
+    name: Hudson Bench
+  - url: https://www.the-citizenry.com/products/huerta-ceramic-wall-art
+    name: Huerta Ceramic Wall Art
+  - url: https://www.the-citizenry.com/products/ila-jute-area-rug
+    name: Ila Jute Area Rug
+  - url: https://www.the-citizenry.com/products/imabari-waffle-towel-set
+    name: Imabari Waffle Towel Set
+  - url: https://www.the-citizenry.com/products/imabari-waffle-towels
+    name: Imabari Waffle Towels
+  - url: https://www.the-citizenry.com/products/imogen-waffle-blanket
+    name: Imogen Waffle Blanket
+  - url: https://www.the-citizenry.com/products/ishaan-pillow
+    name: Ishaan Pillow
+  - url: https://www.the-citizenry.com/products/ishara-hand-knotted-area-rug
+    name: Ishara Hand-Knotted Area Rug
+  - url: https://www.the-citizenry.com/products/isidora-pillow
+    name: Isidora Pillow
+  - url: https://www.the-citizenry.com/products/jangal-lumbar-pillow
+    name: Jangal Lumbar Pillow
+  - url: https://www.the-citizenry.com/products/jasma-pillow
+    name: Jasma Pillow
+  - url: https://www.the-citizenry.com/products/java-rattan-headboard
+    name: Java Rattan Headboard
+  - url: https://www.the-citizenry.com/products/jaya-nightstand
+    name: Jaya Nightstand
+  - url: https://www.the-citizenry.com/products/kambas-decorative-wood-ladder-mindi
+    name: Kambas Decorative Wood Ladder
+  - url: https://www.the-citizenry.com/products/kareem-salad-servers
+    name: Kareem Salad Servers
+  - url: https://www.the-citizenry.com/products/kawi-wicker-floor-basket
+    name: Kawi Wicker Floor Basket
+  - url: https://www.the-citizenry.com/products/kawi-wicker-hamper
+    name: Kawi Wicker Hamper
+  - url: https://www.the-citizenry.com/products/kawi-wicker-storage-basket
+    name: Kawi Wicker Storage Basket
+  - url: https://www.the-citizenry.com/products/khalida-area-rug
+    name: Khalida Area Rug
+  - url: https://www.the-citizenry.com/products/khilana-area-rug
+    name: Khilana Area Rug
+  - url: https://www.the-citizenry.com/products/kimaya-ottoman
+    name: Kimaya Ottoman
+  - url: https://www.the-citizenry.com/products/kiral-kilim-wall-hanging
+    name: Kiral Kilim Wall Hanging
+  - url: https://www.the-citizenry.com/products/kovai-wood-stool
+    name: Kovai Wood Stool
+  - url: https://www.the-citizenry.com/products/krisha-hand-knotted-lumbar-pillow
+    name: Krisha Hand-Knotted Lumbar Pillow
+  - url: https://www.the-citizenry.com/products/la-calle-alpaca-throw
+    name: La Calle Alpaca Throw
+  - url: https://www.the-citizenry.com/products/la-lena-alpaca-bed-blanket
+    name: La Lena Alpaca Bed Blanket
+  - url: https://www.the-citizenry.com/products/ladhi-wool-area-rug
+    name: Ladhi Wool Area Rug
+  - url: https://www.the-citizenry.com/products/laguna-wall-hanging
+    name: Laguna Wall Hanging
+  - url: https://www.the-citizenry.com/products/lahar-hand-knotted-area-rug
+    name: Lahar Hand-Knotted Area Rug
+  - url: https://www.the-citizenry.com/products/lalita-wool-area-rug
+    name: Lalita Wool Area Rug
+  - url: https://www.the-citizenry.com/products/lalli-handwoven-area-rug
+    name: Lalli Handwoven Area Rug
+  - url: https://www.the-citizenry.com/products/lara-pillow
+    name: Lara Pillow
+  - url: https://www.the-citizenry.com/products/las-gradas-accent-pillow
+    name: Las Gradas Accent Pillow
+  - url: https://www.the-citizenry.com/products/lata-hand-knotted-area-rug
+    name: Lata Hand-Knotted Area Rug
+  - url: https://www.the-citizenry.com/products/laurel-armchair
+    name: Laurel Armchair
+  - url: https://www.the-citizenry.com/products/laurel-bed-with-high-footboard
+    name: Laurel Bed (High Footboard)
+  - url: https://www.the-citizenry.com/products/laurel-bed-with-low-footboard
+    name: Laurel Bed (Low Footboard)
+  - url: https://www.the-citizenry.com/products/laurel-bench
+    name: Laurel Bench
+  - url: https://www.the-citizenry.com/products/leather-swatches
+    name: Leather Swatches
+  - url: https://www.the-citizenry.com/products/leela-armchair
+    name: Leela Armchair
+  - url: https://www.the-citizenry.com/products/leela-wood-coffee-table
+    name: Leela Wood Coffee Table
+  - url: https://www.the-citizenry.com/products/leela-wood-side-table
+    name: Leela Wood Side Table
+  - url: https://www.the-citizenry.com/products/liang-wicker-lounge-chair
+    name: Liang Wicker Lounge Chair
+  - url: https://www.the-citizenry.com/products/lianna-quilt
+    name: Lianna Quilt
+  - url: https://www.the-citizenry.com/products/linen-bedding-swatches
+    name: Linen Bedding Swatches
+  - url: https://www.the-citizenry.com/products/loma-floor-vases
+    name: Loma Floor Vases
+  - url: https://www.the-citizenry.com/products/loma-table-vases
+    name: Loma Table Vases
+  - url: https://www.the-citizenry.com/products/lomas-wall-hanging
+    name: Lomas Wall Hanging
+  - url: https://www.the-citizenry.com/products/lombok-rattan-lounge-chair
+    name: Lombok Rattan Lounge Chair
+  - url: https://www.the-citizenry.com/products/luisa-wall-hanging
+    name: Luisa Wall Hanging
+  - url: https://www.the-citizenry.com/products/mahika-area-rug
+    name: Mahika Area Rug
+  - url: https://www.the-citizenry.com/products/manai-woven-nightstand
+    name: Manai Woven Nightstand
+  - url: https://www.the-citizenry.com/products/mara-organic-waffle-sheet-set
+    name: Mara Organic Waffle Sheet Set
+  - url: https://www.the-citizenry.com/products/mara-organic-waffle-towels
+    name: Mara Organic Waffle Towels
+  - url: https://www.the-citizenry.com/products/marisol-alpaca-throw
+    name: Marisol Alpaca Throw
+  - url: https://www.the-citizenry.com/products/marmara-kilim-runner
+    name: Marmara Kilim Runner
+  - url: https://www.the-citizenry.com/products/mawa-bowl
+    name: Mawa Bowl
+  - url: https://www.the-citizenry.com/products/mawa-tray
+    name: Mawa Tray
+  - url: https://www.the-citizenry.com/products/mayra-marble-side-table
+    name: Mayra Marble Side Table
+  - url: https://www.the-citizenry.com/products/merapi-storage-baskets
+    name: Merapi Storage Baskets
+  - url: https://www.the-citizenry.com/products/mercado-floor-storage-baskets-natural
+    name: Mercado Floor Storage Baskets
+  - url: https://www.the-citizenry.com/products/mercado-storage-basket
+    name: Mercado Storage Basket
+  - url: https://www.the-citizenry.com/products/mercado-storage-baskets-round
+    name: Mercado Storage Baskets (Round)
+  - url: https://www.the-citizenry.com/products/mercado-woven-hamper
+    name: Mercado Woven Hamper
+  - url: https://www.the-citizenry.com/products/meru-counter-stool-black
+    name: Meru Counter Stool (Black)
+  - url: https://www.the-citizenry.com/products/meru-wood-counter-stool-mindi
+    name: Meru Wood Counter Stool
+  - url: https://www.the-citizenry.com/products/mihki-wall-hanging-midnight
+    name: Mihki Wall Hanging (Midnight)
+  - url: https://www.the-citizenry.com/products/mihki-wall-hanging-mustard
+    name: Mihki Wall Hanging (Mustard)
+  - url: https://www.the-citizenry.com/products/mila-hand-knotted-area-rug
+    name: Mila Hand-Knotted Area Rug
+  - url: https://www.the-citizenry.com/products/mina-hand-knotted-beni-ourain-area-rug
+    name: Mina Hand-Knotted Beni Ourain Area Rug
+  - url: https://www.the-citizenry.com/products/mirador-ceramic-wall-art
+    name: Mirador Ceramic Wall Art
+  - url: https://www.the-citizenry.com/products/mirai-woodmirror
+    name: Mirai Wood Mirror
+  - url: https://www.the-citizenry.com/products/mishka-wood-side-table
+    name: Mishka Wood Side Table
+  - url: https://www.the-citizenry.com/products/mullins-mohair-throw
+    name: Mullins Mohair Throw
+  - url: https://www.the-citizenry.com/products/nadia-hand-knotted-beni-ourain-area-rug
+    name: Nadia Hand-Knotted Beni Ourain Area Rug
+  - url: https://www.the-citizenry.com/products/nahia-hand-knotted-beni-ourain-area-rug
+    name: Nahia Hand-Knotted Beni Ourain Area Rug
+  - url: https://www.the-citizenry.com/products/naira-area-rug
+    name: Naira Area Rug
+  - url: https://www.the-citizenry.com/products/natali-cowhide-area-rug
+    name: Natali Cowhide Area Rug
+  - url: https://www.the-citizenry.com/products/naveta-velvet-lumbar-pillow
+    name: Naveta Velvet Lumbar Pillow
+  - url: https://www.the-citizenry.com/products/naveta-velvet-pillow
+    name: Naveta Velvet Pillow
+  - url: https://www.the-citizenry.com/products/navya-accent-rug
+    name: Navya Accent Rug
+  - url: https://www.the-citizenry.com/products/naya-organic-cotton-quitled-bed-blanket
+    name: Naya Organic Cotton Quilted Bed Blanket
+  - url: https://www.the-citizenry.com/products/nehal-area-rug
+    name: Nehal Area Rug
+  - url: https://www.the-citizenry.com/products/nemali-jute-area-rug
+    name: Nemali Jute Area Rug
+  - url: https://www.the-citizenry.com/products/nevado-alpaca-throw-blanket
+    name: Nevado Alpaca Throw Blanket
+  - url: https://www.the-citizenry.com/products/nila-area-rug
+    name: Nila Area Rug
+  - url: https://www.the-citizenry.com/products/nitara-area-rug
+    name: Nitara Area Rug
+  - url: https://www.the-citizenry.com/products/ocaso-pillow
+    name: Ocaso Pillow
+  - url: https://www.the-citizenry.com/products/olmo-alpaca-throw
+    name: Olmo Alpaca Throw
+  - url: https://www.the-citizenry.com/products/onda-tumbler-set-of-6
+    name: Onda Tumbler (Set of 6)
+  - url: https://www.the-citizenry.com/products/organic-cotton-gauze-bed-blanket
+    name: Organic Cotton Gauze Bed Blanket
+  - url: https://www.the-citizenry.com/products/organic-cotton-gauze-duvet-set
+    name: Organic Cotton Gauze Duvet Set
+  - url: https://www.the-citizenry.com/products/organic-cotton-quilt
+    name: Organic Cotton Quilt
+  - url: https://www.the-citizenry.com/products/organic-plush-bath-sheet-set
+    name: Organic Plush Bath Sheet Set
+  - url: https://www.the-citizenry.com/products/organic-plush-bath-towel-sets
+    name: Organic Plush Bath Towel Sets
+  - url: https://www.the-citizenry.com/products/organic-plush-bath-towels
+    name: Organic Plush Bath Towels
+  - url: https://www.the-citizenry.com/products/organic-stonewashed-channel-quilt
+    name: Organic Stonewashed Channel Quilt
+  - url: https://www.the-citizenry.com/products/organic-stonewashed-percale-duvet
+    name: Organic Stonewashed Percale Duvet
+  - url: https://www.the-citizenry.com/products/organic-stonewashed-percale-shams
+    name: Organic Stonewashed Percale Shams
+  - url: https://www.the-citizenry.com/products/organic-stonewashed-sheet-set
+    name: Organic Stonewashed Sheet Set
+  - url: https://www.the-citizenry.com/products/organic-turkish-cotton-duvet-cover
+    name: Organic Turkish Cotton Duvet Cover
+  - url: https://www.the-citizenry.com/products/oro-black-clay-cups
+    name: Oro Black Clay Cups
+  - url: https://www.the-citizenry.com/products/padma-round-storage-basket
+    name: Padma Round Storage Basket
+  - url: https://www.the-citizenry.com/products/padma-square-storage-baskets
+    name: Padma Square Storage Baskets
+  - url: https://www.the-citizenry.com/products/padma-washable-rug
+    name: Padma Washable Rug
+  - url: https://www.the-citizenry.com/products/palabra-alpaca-throw
+    name: Palabra Alpaca Throw
+  - url: https://www.the-citizenry.com/products/palmas-wall-hanging
+    name: Palmas Wall Hanging
+  - url: https://www.the-citizenry.com/products/paloma-throw
+    name: Paloma Throw
+  - url: https://www.the-citizenry.com/products/panavi-jute-area-rug
+    name: Panavi Jute Area Rug
+  - url: https://www.the-citizenry.com/products/penida-wicker-bench
+    name: Penida Wicker Bench
+  - url: https://www.the-citizenry.com/products/penida-wicker-console-table
+    name: Penida Wicker Console Table
+  - url: https://www.the-citizenry.com/products/potomac-four-poster-bed
+    name: Potomac Four-Poster Bed
+  - url: https://www.the-citizenry.com/products/potomac-two-poster-bed
+    name: Potomac Two-Poster Bed
+  - url: https://www.the-citizenry.com/products/primavera-alpaca-throw
+    name: Primavera Alpaca Throw
+  - url: https://www.the-citizenry.com/products/prina-woodcoffee-table
+    name: Prina Wood Coffee Table
+  - url: https://www.the-citizenry.com/products/prisha-linen-lumbar-pillow
+    name: Prisha Linen Lumbar Pillow
+  - url: https://www.the-citizenry.com/products/prisha-linen-pillow
+    name: Prisha Linen Pillow
+  - url: https://www.the-citizenry.com/products/providencia-large-round-mirror
+    name: Providencia Large Round Mirror
+  - url: https://www.the-citizenry.com/products/rabani-wool-area-rug
+    name: Rabani Wool Area Rug
+  - url: https://www.the-citizenry.com/products/rahi-wool-accent-rug
+    name: Rahi Wool Accent Rug
+  - url: https://www.the-citizenry.com/products/rahi-wool-area-rug
+    name: Rahi Wool Area Rug
+  - url: https://www.the-citizenry.com/products/ravi-platform-bed
+    name: Ravi Platform Bed
+  - url: https://www.the-citizenry.com/products/ridge-bed
+    name: Ridge Bed
+  - url: https://www.the-citizenry.com/products/rissa-luxe-wool-throw
+    name: Rissa Luxe Wool Throw
+  - url: https://www.the-citizenry.com/products/ritu-accent-rug
+    name: Ritu Accent Rug
+  - url: https://www.the-citizenry.com/products/ritu-wool-area-rug
+    name: Ritu Wool Area Rug
+  - url: https://www.the-citizenry.com/products/riven-armchair
+    name: Riven Armchair
+  - url: https://www.the-citizenry.com/products/rivi-storage-basket
+    name: Rivi Storage Basket
+  - url: https://www.the-citizenry.com/products/riya-marble-canister
+    name: Riya Marble Canister
+  - url: https://www.the-citizenry.com/products/riya-marble-soap-dish
+    name: Riya Marble Soap Dish
+  - url: https://www.the-citizenry.com/products/riya-marble-tissue-box
+    name: Riya Marble Tissue Box
+  - url: https://www.the-citizenry.com/products/riya-marble-toothbrush-holder
+    name: Riya Marble Toothbrush Holder
+  - url: https://www.the-citizenry.com/products/rohan-area-rug
+    name: Rohan Area Rug
+  - url: https://www.the-citizenry.com/products/rowan-mohair-throw
+    name: Rowan Mohair Throw
+  - url: https://www.the-citizenry.com/products/rug-pad
+    name: Rug Pad
+  - url: https://www.the-citizenry.com/products/rupa-washable-rug
+    name: Rupa Washable Rug
+  - url: https://www.the-citizenry.com/products/sabina-jute-accent-rug
+    name: Sabina Jute Accent Rug
+  - url: https://www.the-citizenry.com/products/sabina-jute-area-rug
+    name: Sabina Jute Area Rug
+  - url: https://www.the-citizenry.com/products/sabita-wool-area-rug
+    name: Sabita Wool Area Rug
+  - url: https://www.the-citizenry.com/products/salda-nightstand
+    name: Salda Nightstand
+  - url: https://www.the-citizenry.com/products/salina-wool-accent-rug
+    name: Salina Wool Accent Rug
+  - url: https://www.the-citizenry.com/products/salina-wool-area-rug
+    name: Salina Wool Area Rug
+  - url: https://www.the-citizenry.com/products/salma-hand-knotted-area-rug
+    name: Salma Hand-Knotted Area Rug
+  - url: https://www.the-citizenry.com/products/samir-wool-area-rug
+    name: Samir Wool Area Rug
+  - url: https://www.the-citizenry.com/products/san-pedro-nightstand
+    name: San Pedro Nightstand
+  - url: https://www.the-citizenry.com/products/san-pedro-woven-bench
+    name: San Pedro Woven Bench
+  - url: https://www.the-citizenry.com/products/sanjay-cotton-ottoman-medium-large
+    name: Sanjay Cotton Ottoman
+  - url: https://www.the-citizenry.com/products/santiago-plates-set-of-2
+    name: Santiago Plates (Set of 2)
+  - url: https://www.the-citizenry.com/products/santiago-vase
+    name: Santiago Vase
+  - url: https://www.the-citizenry.com/products/santo-armchair
+    name: Santo Armchair
+  - url: https://www.the-citizenry.com/products/santo-rectangular-ottoman
+    name: Santo Rectangular Ottoman
+  - url: https://www.the-citizenry.com/products/saraja-hand-knotted-area-rug
+    name: Saraja Hand-Knotted Area Rug
+  - url: https://www.the-citizenry.com/products/sarasi-hand-knotted-area-rug
+    name: Sarasi Hand-Knotted Area Rug
+  - url: https://www.the-citizenry.com/products/sateen-duvet-cover
+    name: Sateen Duvet Cover
+  - url: https://www.the-citizenry.com/products/sateen-euro-shams
+    name: Sateen Euro Shams
+  - url: https://www.the-citizenry.com/products/sateen-pillowcases
+    name: Sateen Pillowcases
+  - url: https://www.the-citizenry.com/products/sateen-sheet-set
+    name: Sateen Sheet Set
+  - url: https://www.the-citizenry.com/products/seema-lumbar-pillow
+    name: Seema Lumbar Pillow
+  - url: https://www.the-citizenry.com/products/seema-pillow
+    name: Seema Pillow
+  - url: https://www.the-citizenry.com/products/shakha-hand-knotted-area-rug
+    name: Shakha Hand-Knotted Area Rug
+  - url: https://www.the-citizenry.com/products/shakha-hand-knotted-runner
+    name: Shakha Hand-Knotted Runner
+  - url: https://www.the-citizenry.com/products/shenandoah-canopy-bed
+    name: Shenandoah Canopy Bed
+  - url: https://www.the-citizenry.com/products/sierra-bed
+    name: Sierra Bed
+  - url: https://www.the-citizenry.com/products/sierra-boucle-pillow
+    name: Sierra Boucle Pillow
+  - url: https://www.the-citizenry.com/products/sonrisa-pillow
+    name: Sonrisa Pillow
+  - url: https://www.the-citizenry.com/products/stonewashed-linen-bed-bundle-curated-series
+    name: Stonewashed Linen Bed Bundle (Curated Series)
+  - url: https://www.the-citizenry.com/products/stonewashed-linen-bed-sets
+    name: Stonewashed Linen Bed Sets
+  - url: https://www.the-citizenry.com/products/stonewashed-linen-duvet-covers
+    name: Stonewashed Linen Duvet Covers
+  - url: https://www.the-citizenry.com/products/stonewashed-linen-napkins-set-of-6
+    name: Stonewashed Linen Napkins (Set of 6)
+  - url: https://www.the-citizenry.com/products/stonewashed-linen-pillowcases
+    name: Stonewashed Linen Pillowcases
+  - url: https://www.the-citizenry.com/products/stonewashed-linen-quilt
+    name: Stonewashed Linen Quilt
+  - url: https://www.the-citizenry.com/products/stonewashed-linen-shams
+    name: Stonewashed Linen Shams
+  - url: https://www.the-citizenry.com/products/stonewashed-linen-sheet-set
+    name: Stonewashed Linen Sheet Set
+  - url: https://www.the-citizenry.com/products/stonewashed-linen-tablecloth
+    name: Stonewashed Linen Tablecloth
+  - url: https://www.the-citizenry.com/products/sueno-lumbar-pillow
+    name: Sueno Lumbar Pillow
+  - url: https://www.the-citizenry.com/products/suhana-wool-area-rug
+    name: Suhana Wool Area Rug
+  - url: https://www.the-citizenry.com/products/summit-bed
+    name: Summit Bed
+  - url: https://www.the-citizenry.com/products/sundari-flatweave-area-rug
+    name: Sundari Flatweave Area Rug
+  - url: https://www.the-citizenry.com/products/sylvia-lumbar-pillow
+    name: Sylvia Lumbar Pillow
+  - url: https://www.the-citizenry.com/products/tamasi-hand-knotted-area-rug
+    name: Tamasi Hand-Knotted Area Rug
+  - url: https://www.the-citizenry.com/products/tara-handwoven-area-rug
+    name: Tara Handwoven Area Rug
+  - url: https://www.the-citizenry.com/products/terranova-vase
+    name: Terranova Vase
+  - url: https://www.the-citizenry.com/products/terroso-bowl
+    name: Terroso Bowl
+  - url: https://www.the-citizenry.com/products/tesso-cane-lounge-chair
+    name: Tesso Cane Lounge Chair
+  - url: https://www.the-citizenry.com/products/tikal-rectangular-wood-tray
+    name: Tikal Rectangular Wood Tray
+  - url: https://www.the-citizenry.com/products/tikal-round-wood-tray
+    name: Tikal Round Wood Tray
+  - url: https://www.the-citizenry.com/products/tikal-wood-bud-vase
+    name: Tikal Wood Bud Vase
+  - url: https://www.the-citizenry.com/products/tikal-wood-serving-board-arch
+    name: Tikal Wood Serving Board (Arch)
+  - url: https://www.the-citizenry.com/products/tikal-wood-serving-board-round
+    name: Tikal Wood Serving Board (Round)
+  - url: https://www.the-citizenry.com/products/tikal-wood-serving-board-with-handle
+    name: Tikal Wood Serving Board (with Handle)
+  - url: https://www.the-citizenry.com/products/tikal-wood-serving-bowl
+    name: Tikal Wood Serving Bowl
+  - url: https://www.the-citizenry.com/products/tikal-wood-vase
+    name: Tikal Wood Vase
+  - url: https://www.the-citizenry.com/products/tizu-pillow
+    name: Tizu Pillow
+  - url: https://www.the-citizenry.com/products/torres-leather-ottoman-multiple-sizes
+    name: Torres Leather Ottoman
+  - url: https://www.the-citizenry.com/products/torres-leather-storage-ottoman-medium-large
+    name: Torres Leather Storage Ottoman
+  - url: https://www.the-citizenry.com/products/torres-square-leather-ottoman-medium-large
+    name: Torres Square Leather Ottoman
+  - url: https://www.the-citizenry.com/products/totora-floor-basket
+    name: Totora Floor Basket
+  - url: https://www.the-citizenry.com/products/totora-storage-basket
+    name: Totora Storage Basket
+  - url: https://www.the-citizenry.com/products/urvi-handwoven-jute-area-rug
+    name: Urvi Handwoven Jute Area Rug
+  - url: https://www.the-citizenry.com/products/ustav-wool-area-rug
+    name: Ustav Wool Area Rug
+  - url: https://www.the-citizenry.com/products/vahini-hand-knotted-area-rug
+    name: Vahini Hand-Knotted Area Rug
+  - url: https://www.the-citizenry.com/products/vale-chair
+    name: Vale Chair
+  - url: https://www.the-citizenry.com/products/veda-marble-table-lamp
+    name: Veda Marble Table Lamp
+  - url: https://www.the-citizenry.com/products/vera-pillow
+    name: Vera Pillow
+  - url: https://www.the-citizenry.com/products/veta-textured-accent-pillow
+    name: Veta Textured Accent Pillow
+  - url: https://www.the-citizenry.com/products/vista-wall-hanging-portrait
+    name: Vista Wall Hanging
+  - url: https://www.the-citizenry.com/products/willow-hand-knotted-area-rug
+    name: Willow Hand-Knotted Area Rug
+  - url: https://www.the-citizenry.com/products/yakko-wall-hanging-forest
+    name: Yakko Wall Hanging
+  - url: https://www.the-citizenry.com/products/yashani-marble-sculpture
+    name: Yashani Marble Sculpture
+  - url: https://www.the-citizenry.com/products/zaha-hand-knotted-area-rug
+    name: Zaha Hand-Knotted Area Rug
+  - url: https://www.the-citizenry.com/products/zara-block-print-pillow
+    name: Zara Block Print Pillow

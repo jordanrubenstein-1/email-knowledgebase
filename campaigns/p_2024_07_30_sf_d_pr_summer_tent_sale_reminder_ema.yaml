@@ -1,0 +1,41 @@
+id: fb7f325d-4ceb-497e-8ada-bae397b3666d
+name: P_2024_07_30_SF_D_PR_Summer_Tent_Sale_Reminder_Email
+brand: STF
+channel: email
+category: reminder
+type: sale
+theme: summer
+braze_id: fb7f325d-4ceb-497e-8ada-bae397b3666d
+dates:
+  send_date: '2024-07-30'
+  last_sent: '2024-07-30'
+tags:
+- Batch and Blast/promo
+sends:
+- id: 23be30da-05cb-49e0-9565-33f5aa68b09f
+  channel: other
+  name: Control Group
+- id: 0acbd891-2bce-4612-8c1d-6e8074639511
+  channel: email
+  name: Variant 1
+  subject: 20% OFF Pillows Ending Soon
+  preheader: don’t miss our Summer Tent Sale
+  html_file: html/p_2024_07_30_sf_d_pr_summer_tent_sale_reminder_email.html
+  screenshot: screenshots/p_2024_07_30_sf_d_pr_summer_tent_sale_reminder_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a7ba0a5b3b82008a8355db/original.jpg?1722268170
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a7ba0aec7236005c5352e1/original.jpg?1722268170
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a7ba0aef3606007b93117c/original.jpg?1722268170
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0058f1ba77/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a7ba0a20d87d005d0cd8e4/original.jpg?1722268169
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0063f11fb6/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a7ba0a5b3b82007b835c92/original.jpg?1722268170
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a7ba0a5b3b82006d837a42/original.jpg?1722268170
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a7ba0a5b3b82005e83ea28/original.jpg?1722268170
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a7ba0a20d87d008a0b50e8/original.jpg?1722268170
+performance_summary: {}
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.136597'
+schedule_type: time_based

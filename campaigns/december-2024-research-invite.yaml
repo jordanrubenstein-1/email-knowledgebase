@@ -1,0 +1,51 @@
+id: be086ef1-1ffc-4aaa-ada3-c1bff7e871e0
+name: December 2024 Research Invite
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: be086ef1-1ffc-4aaa-ada3-c1bff7e871e0
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2024-12-04T22:30:02+00:00'
+  last_sent: '2024-12-04T22:32:22+00:00'
+tags: []
+sends:
+- id: 6e68fb4a-d12f-4c51-b381-bef0337c0a44
+  channel: email
+  name: Variant 1
+  subject: 'We want your feedback: $25 for 15 min of your time'
+- id: d8530d36-4882-4cbf-8dbc-c6f8bd7bd6bd
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.254146'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-cyber-week-ext-2024-12-04
+    name: Cyber Week Ext
+    start_date: '2024-12-04'
+    end_date: '2024-12-10'
+    discount: null
+    type: null
+  primary_sale:
+    id: bur-cyber-week-ext-2024-12-04
+    name: Cyber Week Ext
+    start_date: '2024-12-04'
+    end_date: '2024-12-10'
+    discount: null
+    type: null
+  sale_name: Cyber Week Ext
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:39.507126'
+schedule_type: time_based

@@ -1,0 +1,35 @@
+id: 1a4f708c-eeee-41b8-8833-b374ef3209a3
+name: P_EM_2025_09_29_HAV_PC_D_Get_Guest_Ready_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 1a4f708c-eeee-41b8-8833-b374ef3209a3
+dates:
+  send_date: '2025-09-29'
+  first_sent: '2025-09-29T02:05:34+00:00'
+  last_sent: '2025-09-30T03:00:12+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 928a7487-1381-425c-91dd-0c1ead09070e
+  channel: email
+  name: Variant 1
+  subject: Half off your holiday-ready dream home
+  preheader: Work with a designer to get it just right
+- id: c9624c9c-600c-43b0-8a2e-fbbac29b8e22
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 236614
+  total_delivered: 235488
+  total_opens: 96297
+  total_clicks: 418
+  open_rate: 0.407
+  click_rate: 0.0018
+  total_bounces: 3
+  total_unsubscribes: 338
+schedule_type: time_based
+_filename: p_em_2025_09_29_hav_pc_d_get_guest_ready_sale_reminder.yaml

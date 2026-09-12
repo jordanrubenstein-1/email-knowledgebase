@@ -1,0 +1,52 @@
+id: klaviyo-S5JCQa
+name: trade-approved_email-02
+brand: TE
+channel: email
+category: other
+type: lifecycle
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: XxDxGZ
+canvas_name: trade_program-welcome-July2026-Backfill
+flow_type: welcome_series
+sequence_position: 2
+dates:
+  created: '2026-07-15'
+  inferred_send_type: sto
+  first_sent: '2026-07-15'
+  last_sent: '2026-07-29'
+sends:
+- id: S5JCQa
+  channel: email
+  name: Message
+  subject: Better trade discounts are here!
+  preheader: 200+ brands. One unbeatable promise.
+  html_file: html/klv-flow-trade_program-welcome-july2026-t02-S5JCQa.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/dac146b7-7dfc-4851-8cf1-d7978d5e7110.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/40b78fae-951d-440e-a68d-7cab656c757d.gif
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/9312e861-38ee-4c0b-b903-f5fcfba4f5b3.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/8f1acde6-b558-4cd3-b019-c344b4108264.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/afb7dbc1-231c-4271-9cf2-78ac97300aec.gif
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/03798e82-7136-4b31-8695-8ee2b6e9c424.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: S5JCQa
+structure:
+  image_count: 7
+  link_count: 13
+  has_gif: true
+  hero_width: 100
+  layout_type: product_grid

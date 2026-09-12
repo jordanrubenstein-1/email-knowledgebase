@@ -1,0 +1,29 @@
+id: 5ac4cbf4-689c-486a-ba13-2d1c72d11a60
+name: P_SMS_2026_06_08_BW_Summer_Flash_Sale_Final_Hours
+brand: BUR
+channel: sms
+category: reminder
+type: sale
+theme: summer
+braze_id: 5ac4cbf4-689c-486a-ba13-2d1c72d11a60
+dates:
+  send_date: '2026-06-08'
+  last_sent: '2026-06-08'
+tags: []
+sends:
+- id: 5ca10ba6-8ec4-4d83-bdec-b8b27b6d1d04
+  channel: sms
+  name: Variant 1
+- id: 95d6600c-0336-4458-9f50-b5f51e699ea4
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 10407
+  total_delivered: 9882
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 10415.0
+schedule_type: time_based
+_filename: p_sms_2026_06_08_bw_summer_flash_sale_final_hours.yaml

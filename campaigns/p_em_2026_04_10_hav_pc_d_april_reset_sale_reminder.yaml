@@ -1,0 +1,35 @@
+id: 3ff7d54a-673e-4ab4-abc8-3911fa04ca2c
+name: P_EM_2026_04_10_HAV_PC_D_April_Reset_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 3ff7d54a-673e-4ab4-abc8-3911fa04ca2c
+dates:
+  send_date: '2026-04-10'
+  first_sent: '2026-04-09T23:08:32+00:00'
+  last_sent: '2026-04-10T22:08:57+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 9f4ea071-1f35-4d19-a60c-4664d6592c1e
+  channel: email
+  name: Variant 1
+  subject: 50% off design services? Yes, really
+  preheader: Get a designer's help for less during the April Reset Sale.
+- id: 617b08ca-5f33-4c54-9b86-bb4d504fa52a
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 92310
+  total_delivered: 92049
+  total_opens: 31924
+  total_clicks: 356
+  open_rate: 0.3458
+  click_rate: 0.0039
+  total_bounces: 4
+  total_unsubscribes: 199
+schedule_type: time_based
+_filename: p_em_2026_04_10_hav_pc_d_april_reset_sale_reminder.yaml

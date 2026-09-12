@@ -1,0 +1,33 @@
+id: ecb9280e-86e4-4a58-b083-08b7fc0a68ea
+name: P_2025_2_16_HAV_Conv_PDW_Sale_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: ecb9280e-86e4-4a58-b083-08b7fc0a68ea
+dates:
+  send_date: '2025-02-16'
+  first_sent: '2025-02-15T22:32:58+00:00'
+  last_sent: '2025-02-16T17:15:13+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: b35a3f35-c4d7-4b25-a9d5-d8a8062b5e48
+  channel: email
+  name: Variant 1
+  subject: 'This weekend only: The best deals in home'
+  preheader: Up to 70% off
+- id: e654f3fb-5cf3-4108-a3db-5b0581c96d99
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 38013
+  total_delivered: 37909
+  total_opens: 21480
+  total_clicks: 246
+  open_rate: 0.5651
+  click_rate: 0.0065
+  total_unsubscribes: 47
+schedule_type: time_based
+_filename: p_2025_2_16_hav_conv_pdw_sale_reminder_email.yaml

@@ -1,0 +1,31 @@
+id: 26049634-ad3b-4c9c-9a11-343c767c8b3c
+name: P_SMS_2026_07_25_ID_Summer_Sale
+brand: ID
+channel: sms
+category: sale_promo
+type: sale
+theme: summer
+braze_id: 26049634-ad3b-4c9c-9a11-343c767c8b3c
+dates:
+  send_date: '2026-07-25'
+  first_sent: '2026-07-25T02:06:57+00:00'
+  last_sent: '2026-07-25T15:00:00+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 0b78789f-2109-4b94-966b-f924b6fd432e
+  channel: sms
+  name: Variant 1
+- id: 42a2ba79-21fd-4fa3-b4e6-55031ed8c64c
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 52834
+  total_delivered: 48300
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 10179.99
+schedule_type: time_based
+_filename: p_sms_2026_07_25_id_summer_sale.yaml

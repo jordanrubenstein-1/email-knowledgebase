@@ -1,0 +1,30 @@
+id: e1819569-d58c-472f-abd4-d73316d69977
+name: P_SMS_2026_03_09_BW_Outdoor_Launch
+brand: BUR
+channel: sms
+category: product_launch
+type: product_launch
+theme: null
+braze_id: e1819569-d58c-472f-abd4-d73316d69977
+dates:
+  send_date: '2026-03-09'
+  inferred_send_type: scheduled
+  first_sent: '2026-03-09T21:05:40+00:00'
+  last_sent: '2026-03-10T04:00:48+00:00'
+tags: []
+sends:
+- id: d0394f9c-10f6-4d35-9746-f302ec01a8a0
+  channel: sms
+  name: Variant 1
+- id: 33965a4d-8b32-4af4-8876-078ac009d7d7
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 6857
+  total_delivered: 6653
+  total_opens: 0
+  total_clicks: 328
+  open_rate: 0.0
+  click_rate: 0.0478
+  total_revenue: 12235.0
+schedule_type: time_based

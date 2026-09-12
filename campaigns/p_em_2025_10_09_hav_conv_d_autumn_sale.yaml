@@ -1,0 +1,35 @@
+id: 3ab018dc-8979-413a-b8ce-51d0242f356d
+name: P_EM_2025_10_09_HAV_CONV_D_AUTUMN_SALE
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: fall
+braze_id: 3ab018dc-8979-413a-b8ce-51d0242f356d
+dates:
+  send_date: '2025-10-09'
+  first_sent: '2025-10-09T01:24:51+00:00'
+  last_sent: '2025-10-10T01:15:23+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: b4ee1d1b-e295-4708-a509-c3f502f4a77e
+  channel: email
+  name: Variant 1
+  subject: The Autumn Refresh Sale is LIVE
+  preheader: Cozy updates, fresh style — and big savings.
+- id: 87653b24-7b68-447d-9d80-5bb75e7358f4
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 33321
+  total_delivered: 33311
+  total_opens: 17042
+  total_clicks: 83
+  open_rate: 0.5114
+  click_rate: 0.0025
+  total_bounces: 1
+  total_unsubscribes: 31
+schedule_type: time_based
+_filename: p_em_2025_10_09_hav_conv_d_autumn_sale.yaml

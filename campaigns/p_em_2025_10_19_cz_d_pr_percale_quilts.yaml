@@ -1,0 +1,81 @@
+id: da89b2f5-722d-4027-a0b7-8590ca468d54
+name: P_EM_2025_10_19_CZ_D_PR_Percale_Quilts
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: da89b2f5-722d-4027-a0b7-8590ca468d54
+dates:
+  send_date: '2025-10-19'
+  inferred_send_type: scheduled
+  first_sent: '2025-10-19T05:27:32+00:00'
+  last_sent: '2025-10-19T17:15:08+00:00'
+tags:
+- am
+- batch and blast
+- bedding/quilts
+- d2c
+- designed
+- prod
+- sale
+sends:
+- id: aa10d34f-489c-44a6-b6dc-04219f460421
+  channel: email
+  name: Variant 1
+  subject: A Quilt for Cozy Season
+  preheader: Shop 20% off heirloom-worthy bedding.
+  html_file: html/p_em_2025_10_19_cz_d_pr_percale_quilts.html
+  screenshot: screenshots/p_em_2025_10_19_cz_d_pr_percale_quilts.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68f2a07041c4a30082d34556/original.png?1760731247
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68f2a17a4fd9ac0063f335f4/original.png?1760731514
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68f2a0cf4cdf3900634ac776/original.png?1760731343
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68f2a174ea86110082a30731/original.png?1760731508
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68f2a0ddea86110072a307c2/original.png?1760731356
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68f2a09aea86110091a304fe/original.png?1760731290
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68f29f64e671760073a0ffbc/original.png?1760730978
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68f29f5a5b3da10063b0feed/original.png?1760730969
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68f2a0c9ea86110063a30785/original.png?1760731336
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68f2a1835fe471008236b51b/original.png?1760731523
+- id: beb5a582-bed0-434b-a7ae-fba15bfcc6e6
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 111509
+  total_delivered: 111225
+  total_opens: 59019
+  total_clicks: 908
+  open_rate: 0.5293
+  click_rate: 0.0081
+  total_bounces: 3
+  total_unsubscribes: 172
+  ga4:
+    sessions: 1011
+    purchases: 9
+    revenue: 1588.3
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.787633'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-anniversary-sale-2025-10-09
+    name: The Anniversary Sale
+    start_date: '2025-10-09'
+    end_date: '2025-10-22'
+    discount: 20% Off Sitewide
+    type: null
+  primary_sale:
+    id: cz-the-anniversary-sale-2025-10-09
+    name: The Anniversary Sale
+    start_date: '2025-10-09'
+    end_date: '2025-10-22'
+    discount: 20% Off Sitewide
+    type: null
+  sale_name: The Anniversary Sale
+  sale_discount: 20% Off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:34.953131'
+schedule_type: time_based

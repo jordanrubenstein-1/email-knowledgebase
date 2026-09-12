@@ -1,0 +1,38 @@
+id: ad915d41-6384-443e-ab8a-5cf3bb898583
+name: P_SMS_2026_01_19_BW_Quick_Ship
+brand: BUR
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: ad915d41-6384-443e-ab8a-5cf3bb898583
+dates:
+  send_date: '2026-01-19'
+  inferred_send_type: local_time
+  first_sent: '2026-01-19T01:06:51+00:00'
+  last_sent: '2026-01-20T01:01:21+00:00'
+tags: []
+sends:
+- id: 31d101be-10f3-4303-9377-1fd963cb1cef
+  channel: sms
+  name: Variant 1
+- id: eacbe67e-a741-4172-8a20-be26516a35c1
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 6555
+  total_delivered: 6467
+  total_opens: 0
+  total_clicks: 259
+  open_rate: 0.0
+  click_rate: 0.0395
+  total_revenue: 19140.0
+  ga4:
+    sessions: 193
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.643962'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

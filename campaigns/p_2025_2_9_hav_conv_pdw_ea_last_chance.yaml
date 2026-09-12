@@ -1,0 +1,32 @@
+id: 32325296-84dc-4336-88ee-9404a36a5158
+name: P_2025_2_9_HAV_Conv_PDW_EA_Last_Chance
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 32325296-84dc-4336-88ee-9404a36a5158
+dates:
+  send_date: '2025-02-09'
+  first_sent: '2025-02-09T17:33:20+00:00'
+  last_sent: '2025-02-09T17:33:37+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: dbd97540-58a4-4f3f-8011-217644068f55
+  channel: email
+  name: Variant 1
+  subject: 'ENDS TONIGHT: your exclusive early access!'
+- id: 3b332bc2-0a63-4f6b-af76-540a32d0329e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 37903
+  total_delivered: 37847
+  total_opens: 21895
+  total_clicks: 255
+  open_rate: 0.5777
+  click_rate: 0.0067
+  total_unsubscribes: 45
+schedule_type: time_based
+_filename: p_2025_2_9_hav_conv_pdw_ea_last_chance.yaml

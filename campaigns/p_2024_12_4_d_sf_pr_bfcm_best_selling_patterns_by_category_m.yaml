@@ -1,0 +1,46 @@
+id: f2e74e0b-a944-4c04-ab88-4ae7b6ecd9c5
+name: P_2024_12_4_D_SF_PR_BFCM_Best_Selling_Patterns_By_Category_Microsoft_Email
+brand: STF
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: f2e74e0b-a944-4c04-ab88-4ae7b6ecd9c5
+dates:
+  send_date: '2024-12-04'
+  inferred_send_type: local_time
+  first_sent: '2024-12-03T23:27:07+00:00'
+  last_sent: '2024-12-04T15:30:07+00:00'
+tags: []
+sends:
+- id: 6f699b34-f76e-4a1b-a6a7-dfe67d9f08ca
+  channel: email
+  name: Variant 1
+  subject: Best-selling Patterns Up To 35% Off
+  preheader: claim dibs
+  html_file: html/p_2024_12_4_d_sf_pr_bfcm_best_selling_patterns_by_category_m.html
+  screenshot: screenshots/p_2024_12_4_d_sf_pr_bfcm_best_selling_patterns_by_category_m.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674f62e82276440073ffda70/original.gif?1733255912
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674f633665c97900901ddfe0/original.jpg?1733255990
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674f61e904275c0064b03060/original.gif?1733255657
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674f635a04275c0064b0340b/original.jpg?1733256026
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674f623265c97900631e1090/original.gif?1733255730
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674f6288dd0d310064347ffe/original.gif?1733255816
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674f63beab95690065d86611/original.gif?1733256126
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674f63dfa7aa370063a77042/original.gif?1733256158
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674f61caa7aa370063a76afe/original.gif?1733255626
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674f634d2276440081ffceb1/original.gif?1733256013
+- id: 1914f373-e8eb-4959-934a-1ccf6bb3400b
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 297
+  total_delivered: 297
+  total_opens: 134
+  total_clicks: 4
+  open_rate: 0.4512
+  click_rate: 0.0135
+  total_unsubscribes: 1
+_filename: p_2024_12_4_d_sf_pr_bfcm_best_selling_patterns_by_category_m.yaml
+schedule_type: time_based

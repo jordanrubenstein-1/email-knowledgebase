@@ -1,0 +1,59 @@
+id: 7ba52dd0-cf07-4348-87bf-6000e29fdfa2
+name: P_EM_2026_01_10_SF_D_PR_Style_Edit
+brand: STF
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 7ba52dd0-cf07-4348-87bf-6000e29fdfa2
+dates:
+  send_date: '2026-01-10'
+  inferred_send_type: scheduled
+  first_sent: '2026-01-10T02:20:49+00:00'
+  last_sent: '2026-01-10T17:02:10+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: d735051e-3bea-493a-856f-bcc1d0b5696d
+  channel: email
+  name: Variant 1
+  subject: Starting 2026 Right
+  preheader: conviction, not caution
+  html_file: html/p_em_2026_01_10_sf_d_pr_style_edit.html
+  screenshot: screenshots/p_em_2026_01_10_sf_d_pr_style_edit.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6960700905bc3900633d0bae/original.png?1767927817
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69606f6763aaf2006366fde9/original.gif?1767927655
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69606fe23becee0063f650de/original.png?1767927777
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6960702c4929910065d49980/original.png?1767927851
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69606fc6a14a450063db8d55/original.png?1767927750
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69606ffea52e5d0063e89d0b/original.png?1767927806
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69606fbb1df97900638785f9/original.png?1767927739
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696070214929910065d4997f/original.png?1767927841
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696070161df979006387861d/original.png?1767927829
+- id: 63ce4671-c892-48c7-8eee-bde62b205f02
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39522
+  total_delivered: 38964
+  total_opens: 16690
+  total_clicks: 177
+  open_rate: 0.4223
+  click_rate: 0.0045
+  total_bounces: 2
+  total_unsubscribes: 71
+  ga4:
+    sessions: 181
+    purchases: 3
+    revenue: 3754.6
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.750406'
+    source: snowflake
+    channel: email
+schedule_type: time_based

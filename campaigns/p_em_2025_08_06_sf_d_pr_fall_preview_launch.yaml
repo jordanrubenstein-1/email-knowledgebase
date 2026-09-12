@@ -1,0 +1,62 @@
+id: f982e9cb-7964-4987-af35-5907e6eb242a
+name: P_EM_2025_08_06_SF_D_PR_Fall_Preview_Launch
+brand: STF
+channel: email
+category: product_launch
+type: seasonal
+theme: fall
+braze_id: f982e9cb-7964-4987-af35-5907e6eb242a
+dates:
+  send_date: '2025-08-06'
+  inferred_send_type: local_time
+  first_sent: '2025-08-05T21:37:48+00:00'
+  last_sent: '2025-08-06T17:01:36+00:00'
+tags:
+- Batch and Blast
+- am
+- collect
+- d2c
+- designed
+sends:
+- id: 2264034f-11ce-4643-aff5-48eb9d1e4ea1
+  channel: email
+  name: Variant 1
+  subject: 'Just In: The Fall Preview'
+  preheader: A bold new season of design starts here.
+  html_file: html/p_em_2025_08_06_sf_d_pr_fall_preview_launch.html
+  screenshot: screenshots/p_em_2025_08_06_sf_d_pr_fall_preview_launch.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688bb7783ab6d40064616fe4/original.jpg?1753986936
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68925974c86eab00719d4eb3/original.png?1754421619
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68925a51392a98006449cd9f/original.jpg?1754421841
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68925a5dcfae430073093067/original.jpg?1754421853
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68925a58d913d60073d0c9e0/original.jpg?1754421848
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68925a4ad913d60063d0d07e/original.jpg?1754421833
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689259e4cbe12900649cd618/original.png?1754421731
+- id: db25ad03-f9da-461e-89c4-a84628d3480c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41387
+  total_delivered: 41302
+  total_opens: 19396
+  total_clicks: 376
+  open_rate: 0.4686
+  click_rate: 0.0091
+  total_revenue: 13545.0
+  total_bounces: 2
+  total_unsubscribes: 72
+  ga4:
+    sessions: 416
+    purchases: 4
+    revenue: 786.52
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.009795'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.427714'
+schedule_type: time_based

@@ -1,0 +1,54 @@
+id: aa9fd624-7982-41ad-a594-1a964588fe59
+name: P_2024_08_04_CZ_D_RS_2_Country_Collections_Feature_Email
+brand: CZ
+channel: email
+category: product_launch
+type: announcement
+theme: null
+braze_id: aa9fd624-7982-41ad-a594-1a964588fe59
+dates:
+  send_date: '2024-08-04'
+  inferred_send_type: scheduled
+  first_sent: '2024-08-04T21:00:06+00:00'
+  last_sent: '2024-08-04T21:01:01+00:00'
+tags: []
+sends:
+- id: ceb19ebf-3c0e-4275-9742-7a899b5c466b
+  channel: email
+  name: Variant 1
+  subject: Bring Travel Home
+  preheader: Travel the globe with designs handcrafted by master artisans.
+  html_file: html/p_2024_08_04_cz_d_rs_2_country_collections_feature_email.html
+  screenshot: screenshots/p_2024_08_04_cz_d_rs_2_country_collections_feature_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66aaae3e2b2be0005c124a39/original.jpg?1722461758
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66aaae28e1d2c6005d856250/original.jpg?1722461736
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66aaae5194f8e7005ed82fc8/original.jpg?1722461776
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66aaae2eb744df005c78f46e/original.jpg?1722461741
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66aaae49e1d2c6005d856276/original.jpg?1722461769
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66aaae352b2be0005c124a2c/original.jpg?1722461748
+- id: a91c5249-0d32-4120-9a77-41b53517ad3f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 7531
+  total_delivered: 7527
+  total_opens: 4880
+  total_clicks: 139
+  open_rate: 0.648
+  click_rate: 0.0185
+  total_revenue: 3929.97
+  total_unsubscribes: 13
+  ga4:
+    sessions: 127
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.427899'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.767447'
+schedule_type: time_based

@@ -1,0 +1,36 @@
+id: e905d37b-349a-4303-8d7b-76ba13e78076
+name: 2025_5_13_BW_PT_MDS_Early_Access_Ends_Tonight
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: e905d37b-349a-4303-8d7b-76ba13e78076
+dates:
+  send_date: '2025-05-13'
+  inferred_send_type: local_time
+  first_sent: '2025-05-12T18:22:23+00:00'
+  last_sent: '2025-05-13T17:15:09+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: d1e2923c-bd72-4c80-b181-c6543f2ee60e
+  channel: email
+  name: Variant 1
+  subject: Early access ends tonight...
+  preheader: Get 25% off and free shipping!
+- id: 10526612-4653-4d11-bdc9-793cb8ba7108
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 260023
+  total_delivered: 258405
+  total_opens: 98875
+  total_clicks: 526
+  open_rate: 0.3803
+  click_rate: 0.002
+  total_revenue: 61318.0
+  total_bounces: 2
+  total_unsubscribes: 107
+_filename: 2025_5_13_bw_pt_mds_early_access_ends_tonight-e905d37b.yaml
+schedule_type: time_based

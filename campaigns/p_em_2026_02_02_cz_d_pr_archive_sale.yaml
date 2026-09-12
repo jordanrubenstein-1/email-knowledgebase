@@ -1,0 +1,47 @@
+id: 16173cd8-e934-46b6-9824-77d033939f48
+name: P_EM_2026_02_02_CZ_D_PR_Archive_Sale
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 16173cd8-e934-46b6-9824-77d033939f48
+dates:
+  send_date: '2026-02-02'
+  inferred_send_type: local_time
+  first_sent: '2026-02-01T21:09:36+00:00'
+  last_sent: '2026-02-02T21:05:25+00:00'
+tags:
+- am
+- archive
+- batch and blast
+- d2c
+- designed
+sends:
+- id: ee68f81f-2ee0-4065-8622-78a4abd9c148
+  channel: email
+  name: Variant 1
+  subject: Going, Going, Gone
+  preheader: Claim fresh cuts, now up to 70% off.
+  html_file: html/p_em_2026_02_02_cz_d_pr_archive_sale.html
+  screenshot: screenshots/p_em_2026_02_02_cz_d_pr_archive_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697d09decdb672006354945f/original.png?1769802205
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697d09cd560a8d0073b5787e/original.png?1769802189
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697d0a07a85ce50063a6383d/original.png?1769802247
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697d09ecafc7e300813508e6/original.png?1769802220
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697d0b11e56b2a00642a0141/original.png?1769802512
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697d09bf2289d70063bd1c38/original.gif?1769802175
+- id: 7ce08fa9-bea4-4985-863a-fdb0e690e744
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 113580
+  total_delivered: 113169
+  total_opens: 55634
+  total_clicks: 1195
+  open_rate: 0.4898
+  click_rate: 0.0105
+  total_bounces: 5
+  total_unsubscribes: 158
+schedule_type: time_based

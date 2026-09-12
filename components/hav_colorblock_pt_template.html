@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+  HAV Color Block Plain-Text Email Template v1.0
+  Based on: P_2026_04_10_HAV_PC_PT_AI_Free_Package (campaign f3e57de6)
+
+  Structure:
+    3-column table: left color bar (35px coral) | content (530px) | right color bar (35px gold)
+    Row 1 — Header: olive-gold bg with Havenly wordmark
+    Row 2 — Body: white bg, plain-text-style content
+    Row 3 — Footer bar: navy bg with H icon (right-aligned)
+    Below table — Unsubscribe (content_blocks)
+
+  Placeholder markers for programmatic injection:
+    BODY_CONTENT  — replaced with body HTML (greeting through pre-signoff spacer)
+    SIGNOFF       — replaced with signoff HTML
+-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Havenly</title>
+  <!--[if mso]>
+  <noscript>
+    <xml>
+      <o:OfficeDocumentSettings>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+  </noscript>
+  <![endif]-->
+</head>
+
+<body style="margin: 0; padding: 0; background-color: #f4f4f4;">
+
+  <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="600"
+         style="max-width: 600px; width: 100%; margin: 0 auto;">
+
+    <!-- ================================================================
+         LEFT COLOR BAR (coral) | HEADER (olive gold + wordmark) | RIGHT COLOR BAR (gold)
+         LEFT and RIGHT bars span all 3 rows via rowspan="3"
+         ================================================================ -->
+    <tr>
+      <td bgcolor="#ed6b4d" width="35" rowspan="3"
+          style="background-color: #ed6b4d;">
+        <div style="font-size: 1px; line-height: 1px;">&nbsp;</div>
+      </td>
+
+      <td bgcolor="#c2b04a" style="background-color: #c2b04a; padding: 16px 20px;">
+        <a href="https://havenly.com/" style="display: block; text-decoration: none;">
+          <img src="https://braze-images.com/appboy/communication/assets/image_assets/images/697a85e045042100652b5d66/original.png?1769637344"
+               width="120"
+               alt="Havenly"
+               style="display: block; max-width: 100%; height: auto;" />
+        </a>
+      </td>
+
+      <td bgcolor="#e59400" width="35" rowspan="3"
+          style="background-color: #e59400;">
+        <div style="font-size: 1px; line-height: 1px;">&nbsp;</div>
+      </td>
+    </tr>
+
+    <!-- ================================================================
+         BODY ROW — white background, plain-text-style content
+         ================================================================ -->
+    <tr>
+      <td bgcolor="#FFFFFF" width="530"
+          style="background-color: #FFFFFF; vertical-align: top;">
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+          <tr>
+            <td style="padding: 24px 20px 36px 20px; font-family: Helvetica, Arial, sans-serif;
+                        font-size: 14px; line-height: 1.5; color: #101b24;">
+<!-- BODY_CONTENT -->
+<!-- SIGNOFF -->
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+    <!-- ================================================================
+         FOOTER BAR — navy with H icon
+         ================================================================ -->
+    <tr>
+      <td bgcolor="#304561"
+          style="background-color: #304561; padding: 28px 20px; text-align: right;">
+        <a href="https://havenly.com/" style="display: inline-block; text-decoration: none;">
+          <img src="https://braze-images.com/appboy/communication/assets/image_assets/images/697a85e4b446f100635ef81c/original.png?1769637348"
+               alt="H"
+               width="40"
+               style="display: block; max-width: 100%; height: auto;" />
+        </a>
+      </td>
+    </tr>
+
+  </table>
+
+  <!-- Unsubscribe Footer -->
+  <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%"
+         style="max-width: 600px; width: 100%; margin: 0 auto; background-color: #f4f4f4;">
+    <tr>
+      <td align="center" style="padding: 8px 20px 4px 20px;
+                                  font-family: Helvetica, Arial, sans-serif;
+                                  font-size: 12px; color: #666666;">
+        {{content_blocks.${unsubscribe} | id: 'cb1'}}
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>

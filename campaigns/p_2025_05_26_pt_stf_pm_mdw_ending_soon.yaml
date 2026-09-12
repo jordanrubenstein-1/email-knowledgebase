@@ -1,0 +1,47 @@
+id: 6404630a-9a54-4f3c-b277-5f98283a826e
+name: P_2025_05_26_PT_STF_PM_MDW_Ending_Soon
+brand: STF
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 6404630a-9a54-4f3c-b277-5f98283a826e
+dates:
+  send_date: '2025-05-26'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-26T02:38:48+00:00'
+  last_sent: '2025-05-26T17:01:44+00:00'
+tags: []
+sends:
+- id: 7e23d985-a942-411d-84da-738f18eea8c8
+  channel: email
+  name: Variant 1
+  subject: Don't miss 30% off sitewide
+  html_file: html/p_2025_05_26_pt_stf_pm_mdw_ending_soon.html
+  screenshot: screenshots/p_2025_05_26_pt_stf_pm_mdw_ending_soon.png
+- id: 9293111f-f3a3-4f40-b3cf-d719fc1a24dd
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 26050
+  total_delivered: 25774
+  total_opens: 11365
+  total_clicks: 305
+  open_rate: 0.4363
+  click_rate: 0.0117
+  total_revenue: 37545.0
+  total_bounces: 1
+  total_unsubscribes: 103
+  ga4:
+    sessions: 292
+    purchases: 13
+    revenue: 5802.7
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.837853'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:35.575596'
+schedule_type: time_based

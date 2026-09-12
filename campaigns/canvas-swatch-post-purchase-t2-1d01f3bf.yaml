@@ -1,0 +1,32 @@
+id: 1d01f3bf-c447-4b4a-9b6d-222de38fb941
+name: TRG_EM_2025_03_CZ_D_Post_Purchase_Swatch_T5
+brand: CZ
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 32c575cd-3a0e-4f9f-b087-095d4efba54b
+canvas_name: Swatch Post Purchase
+flow_type: post_purchase
+sequence_position: 2
+subject: How can I help?
+preheader: ''
+sends:
+- id: 1d01f3bf-c447-4b4a-9b6d-222de38fb941
+  channel: email
+  name: TRG_EM_2025_03_CZ_D_Post_Purchase_Swatch_T5
+  subject: How can I help?
+  preheader: ''
+  html_file: html/canvas-swatch-post-purchase-t2-1d01f3bf.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-08-29T00:00:00Z'
+  last_sent: '2026-08-10T15:00:00Z'
+performance_summary:
+  total_sends: 234
+  total_delivered: 233
+  total_opens: 172
+  total_clicks: 4
+  open_rate: 0.735
+  click_rate: 0.0171
+  total_unsubscribes: 2

@@ -1,0 +1,57 @@
+id: 117ae23c-f9de-4b3d-abcf-026363177398
+name: Trade_2024_12_13_D_CZ_PR_Home_for_the_Holidays_Email
+brand: CZ
+channel: email
+category: other
+type: seasonal
+theme: christmas
+braze_id: 117ae23c-f9de-4b3d-abcf-026363177398
+dates:
+  send_date: '2024-12-13'
+  inferred_send_type: local_time
+  first_sent: '2024-12-12T19:06:07+00:00'
+  last_sent: '2024-12-13T19:00:19+00:00'
+tags: []
+sends:
+- id: 6e193410-d977-4c67-a575-f1235040f0af
+  channel: email
+  name: Variant 1
+  subject: 'Trade Only: 20% Off Holiday Favorites'
+  preheader: 'Last day: order with ground shipping to receive by 12/24!'
+  html_file: html/trade_2024_12_13_d_cz_pr_home_for_the_holidays_email.html
+  screenshot: screenshots/trade_2024_12_13_d_cz_pr_home_for_the_holidays_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6758a9ad866f8a00725c9e8f/original.jpg?1733863852
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6750a2612aaa740065508cbb/original.jpg?1733337697
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6750a217e617100065fef451/original.jpg?1733337623
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6750a1b06723f90065d0ebc1/original.jpg?1733337519
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6750cb8d1ba87b00637599d3/original.gif?1733348237
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6758a99098d84e0074d3b10f/original.jpg?1733863824
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6758a9d89c575100641af03f/original.jpg?1733863895
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6750a23a4619210065f34a62/original.gif?1733337658
+- id: 2768fe3b-0f69-48a6-b577-81b0ffafe335
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 14708
+  total_delivered: 14510
+  total_opens: 7655
+  total_clicks: 165
+  open_rate: 0.5205
+  click_rate: 0.0112
+  total_revenue: 13567.0
+  total_bounces: 8
+  total_unsubscribes: 46
+  ga4:
+    sessions: 113
+    purchases: 1
+    revenue: 1305.7
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.029799'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.067243'
+schedule_type: time_based

@@ -1,0 +1,36 @@
+{
+  "mcpServers": {
+    "asana": {
+      "command": "bash",
+      "args": ["-c", "set -a && source .env && set +a && export PATH=\"$HOME/.local/lib/nodejs/node-v24.20.0/bin:$PATH\" && exec npx -y @roychri/mcp-server-asana"]
+    },
+    "braze": {
+      "command": "bash",
+      "args": ["-c", "set -a && source .env && set +a && exec ~/.local/bin/uv run --directory mcp-servers/braze braze-mcp"]
+    },
+    "snowflake": {
+      "command": "bash",
+      "args": ["-c", "set -a && source .env && set +a && exec ~/.local/bin/uvx --python=3.12 --with 'cryptography<43' --with 'setuptools<81' --with 'mcp<2' mcp_snowflake_server --schema \"$SNOWFLAKE_SCHEMA\""]
+    },
+    "figma": {
+      "type": "http",
+      "url": "https://mcp.figma.com/mcp"
+    },
+    "havenly-analytics": {
+      "type": "http",
+      "url": "https://analyticsmcp.havenly.com"
+    },
+    "klaviyo-ti": {
+      "command": "bash",
+      "args": ["-c", "set -a && source .env && set +a && PRIVATE_API_KEY=$KLAVIYO_API_KEY_TI READ_ONLY=false ALLOW_USER_GENERATED_CONTENT=false SERVER_NAME=klaviyo-ti exec python3 scripts/klaviyo_mcp_wrapper.py ~/.local/bin/uvx klaviyo-mcp-server@latest"]
+    },
+    "klaviyo-te": {
+      "command": "bash",
+      "args": ["-c", "set -a && source .env && set +a && PRIVATE_API_KEY=$KLAVIYO_API_KEY_TE READ_ONLY=false ALLOW_USER_GENERATED_CONTENT=false SERVER_NAME=klaviyo-te exec python3 scripts/klaviyo_mcp_wrapper.py ~/.local/bin/uvx klaviyo-mcp-server@latest"]
+    },
+    "air": {
+      "command": "bash",
+      "args": ["-c", "set -a && source .env && set +a && export PATH=\"$HOME/.local/lib/nodejs/node-v24.20.0/bin:$PATH\" && exec npx -y @air/mcp"]
+    }
+  }
+}

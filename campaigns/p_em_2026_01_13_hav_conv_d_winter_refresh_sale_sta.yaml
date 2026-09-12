@@ -1,0 +1,46 @@
+id: defcc76d-53cf-4e38-b777-d8eba48fd320
+name: P_EM_2026_01_13_HAV_CONV_D_Winter_Refresh_Sale_Starts
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: winter
+braze_id: defcc76d-53cf-4e38-b777-d8eba48fd320
+dates:
+  send_date: '2026-01-13'
+  inferred_send_type: local_time
+  first_sent: '2026-01-13T01:46:26+00:00'
+  last_sent: '2026-01-14T00:03:38+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 597e0424-49d6-41c6-94b4-02e9df4e6b4a
+  channel: email
+  name: Variant 1
+  subject: A fresh start for your space
+  preheader: 'Winter Refresh is here: buy more save more'
+  html_file: html/p_em_2026_01_13_hav_conv_d_winter_refresh_sale_starts.html
+  screenshot: screenshots/p_em_2026_01_13_hav_conv_d_winter_refresh_sale_starts.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69658ed63205ae0064ca4a18/original.png?1768263382
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69658ee017d22f0064a2de0b/original.png?1768263391
+- id: c5c27270-9f65-47a8-8ec9-8b09dccaa360
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 43229
+  total_delivered: 43197
+  total_opens: 22271
+  total_clicks: 119
+  open_rate: 0.5152
+  click_rate: 0.0028
+  total_unsubscribes: 74
+  ga4:
+    sessions: 108
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:48.829629'
+    source: snowflake
+    channel: email
+schedule_type: time_based

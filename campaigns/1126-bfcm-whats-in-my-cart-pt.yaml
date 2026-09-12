@@ -1,0 +1,65 @@
+id: klaviyo-01JDJ35B7KX9SNC001DY4HVXTP
+name: '11/26: BFCM What''s in My Cart PT'
+brand: TI
+channel: email
+category: sale_promo
+type: lifecycle
+theme: black_friday
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2024-11-25'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-26T07:00:00+00:00'
+  last_sent: '2024-11-26T07:00:00+00:00'
+sends:
+- id: 01JDJ35B8JAMB8M0YX33XAZ22N
+  channel: email
+  name: '11/26: BFCM What''s in My Cart PT'
+  subject: '25% OFF EVERYTHING: What''s in Our Carts'
+  preheader: ''
+  html_file: html/1126-bfcm-whats-in-my-cart-pt.html
+  image_urls: []
+  screenshot: screenshots/1126-bfcm-whats-in-my-cart-pt.png
+performance_summary:
+  total_sends: 104406
+  total_delivered: 103818
+  total_opens: 34676
+  total_clicks: 817
+  unique_opens: 24025
+  unique_clicks: 291
+  open_rate: 0.2301
+  click_rate: 0.0028
+  total_open_rate: 0.3321
+  total_click_rate: 0.0078
+  total_unsubscribes: 80
+  total_bounces: 588
+klaviyo_type: campaign
+klaviyo_campaign_id: 01JDJ35B7KX9SNC001DY4HVXTP
+klaviyo_message_id: 01JDJ35B8JAMB8M0YX33XAZ22N
+structure:
+  image_count: 0
+  link_count: 4
+  has_gif: false
+  hero_width: null
+  layout_type: text_only
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: ti-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: ti-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-03-12T11:18:49.468009'

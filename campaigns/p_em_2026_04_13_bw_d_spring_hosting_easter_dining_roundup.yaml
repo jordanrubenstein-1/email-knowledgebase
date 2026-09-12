@@ -1,0 +1,36 @@
+id: 0c128526-1c38-417a-9d88-7a8a3edcb960
+name: P_EM_2026_04_13_BW_D_Spring_Hosting_Easter_Dining_Roundup
+brand: BUR
+channel: email
+category: other
+type: seasonal
+theme: spring
+braze_id: 0c128526-1c38-417a-9d88-7a8a3edcb960
+dates:
+  send_date: '2026-04-13'
+  inferred_send_type: local_time
+  first_sent: '2026-04-13T02:06:41+00:00'
+  last_sent: '2026-04-14T01:04:00+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: f86d4e13-360c-4a03-bc38-b411d0be803d
+  channel: email
+  name: Variant 1
+  subject: Set the table for spring
+  preheader: '25% off dining essentials. '
+- id: a23ddfeb-c92f-4fbb-8a27-fb186c1ebd56
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 187080
+  total_delivered: 185915
+  total_opens: 93374
+  total_clicks: 243
+  open_rate: 0.4991
+  click_rate: 0.0013
+  total_revenue: 50237.0
+  total_bounces: 4
+  total_unsubscribes: 134
+_filename: p_em_2026_04_13_bw_d_spring_hosting_easter_dining_roundup.yaml
+schedule_type: time_based

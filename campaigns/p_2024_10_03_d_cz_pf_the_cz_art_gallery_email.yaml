@@ -1,0 +1,57 @@
+id: c6035cb9-3300-4f88-b0c0-cc82fa853c98
+name: P_2024_10_03_D_CZ_PF_The_CZ_Art_Gallery_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: c6035cb9-3300-4f88-b0c0-cc82fa853c98
+dates:
+  send_date: '2024-10-03'
+  inferred_send_type: local_time
+  first_sent: '2024-10-02T17:00:04+00:00'
+  last_sent: '2024-10-03T17:00:20+00:00'
+tags: []
+sends:
+- id: cd81df39-201d-4062-bcb2-2cb44b8224c8
+  channel: email
+  name: Variant 1
+  subject: 'Now Open: The Citizenry Art Gallery'
+  preheader: Explore the wonder of an art-filled home.
+  html_file: html/p_2024_10_03_d_cz_pf_the_cz_art_gallery_email.html
+  screenshot: screenshots/p_2024_10_03_d_cz_pf_the_cz_art_gallery_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66faebdb168d7a00651a8786/original.gif?1727720411
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66faedaca253ea0064cf9966/original.jpg?1727720875
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66faec6e747f25007d60dbd3/original.jpg?1727720557
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66faedbc747f25006360e190/original.jpg?1727720892
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66faed56a253ea0064cf98b4/original.jpg?1727720790
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66faec4da253ea0064cf8fa5/original.jpg?1727720525
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66faeca8f5c7dc0063c9e2c9/original.jpg?1727720615
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66faed90b294c50062475861/original.jpg?1727720847
+- id: 5a922c0a-4e26-405c-8891-cc82dddd91e2
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 84899
+  total_delivered: 83794
+  total_opens: 44443
+  total_clicks: 1268
+  open_rate: 0.5235
+  click_rate: 0.0149
+  total_revenue: 57485.82
+  total_bounces: 158
+  total_unsubscribes: 319
+  ga4:
+    sessions: 1424
+    purchases: 9
+    revenue: 4704.74
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.065740'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.517803'
+schedule_type: time_based

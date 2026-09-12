@@ -1,0 +1,65 @@
+id: 9b24272e-51c4-4949-a45a-075523f482c9
+name: BFCM 2024 Lightbox Modal
+brand: BUR
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: 9b24272e-51c4-4949-a45a-075523f482c9
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-11-01T01:00:00+00:00'
+  last_sent: '2024-11-29T01:00:00+00:00'
+tags: []
+sends:
+- id: 2edd1ab1-be09-4cf0-9d12-4711503f4bc7
+  channel: other
+  name: Variant 1
+- id: 6658ba1f-0ae1-49a3-ab88-1c3bceeb3d94
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.866645'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-20-off-2000-25-off-4000-30-off-4k-strikethrough-up-to-60-off-select-styles-2024-11-27
+    name: 20% off <$2000 / 25% off <$4000 / 30% off $4K+ (strikethrough) + up to 60%
+      off Select Styles
+    start_date: '2024-11-27'
+    end_date: '2024-12-03'
+    discount: null
+    type: null
+  - id: bur-pre-black-fri-2024-10-30
+    name: Pre Black Fri
+    start_date: '2024-10-30'
+    end_date: '2024-11-12'
+    discount: null
+    type: null
+  - id: bur-bfcm-giving-tues-2024-11-13
+    name: BFCM + Giving Tues
+    start_date: '2024-11-13'
+    end_date: '2024-11-26'
+    discount: null
+    type: null
+  primary_sale:
+    id: bur-20-off-2000-25-off-4000-30-off-4k-strikethrough-up-to-60-off-select-styles-2024-11-27
+    name: 20% off <$2000 / 25% off <$4000 / 30% off $4K+ (strikethrough) + up to 60%
+      off Select Styles
+    start_date: '2024-11-27'
+    end_date: '2024-12-03'
+    discount: null
+    type: null
+  sale_name: 20% off <$2000 / 25% off <$4000 / 30% off $4K+ (strikethrough) + up to
+    60% off Select Styles
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:35.376079'
+schedule_type: action_based

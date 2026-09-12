@@ -1,0 +1,150 @@
+<!DOCTYPE html><html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en"><head><title></title><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><!--[if mso]>
+<xml><w:WordDocument xmlns:w="urn:schemas-microsoft-com:office:word"><w:DontUseAdvancedTypographyReadingMail/></w:WordDocument>
+<o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch><o:AllowPNG/></o:OfficeDocumentSettings></xml>
+<![endif]--><!--[if !mso]><!--><link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css"><!--<![endif]--><style>
+*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0} @media (max-width:620px){.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide table{display:table!important;max-height:none!important}}
+</style><!--[if mso ]><style>sup, sub { font-size: 100% !important; } sup { mso-text-raise:10% } sub { mso-text-raise:-10% }</style> <![endif]--></head><body class="body" style="margin:0;padding:0;-webkit-text-size-adjust:none;text-size-adjust:none;background-color:#fff"><table class="nl-container" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;background-color:#fff"><tbody><tr><td><table class="row row-1" align="center" 
+width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tbody><tr><td><table class="row-content" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;background-color:#fff;border-radius:0;color:#000;width:600px;margin:0 auto" width="600"><tbody><tr><td class="column column-1" width="100%" 
+style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top"><table class="html_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad"><div style="font-family:'Open Sans',Arial,Sans-serif;text-align:center" align="center">{{content_blocks.${sale_b2c_banner} | id: 'cb10'}}
+{% shopping_cart {{context.${cart_id}}} %}
+{% assign product_list = shopping_cart.products %}
+
+{% assign pairs = '' %}
+
+{% for item in product_list%}
+
+{% assign pair = item.variant_id | append : ':' | append: item.quantity %}
+
+{% if forloop.first %}
+
+{% assign pairs = pair %}
+
+{% else %}
+
+{% assign pairs = pairs | append: "," | append: pair %}
+
+{% endif %}
+
+{% endfor %}
+
+
+
+{% assign base = "https://www.the-citizenry.com" %}
+
+{% assign cart_url = base | append: "/cart/" | append: pairs %}
+
+{% if shopping_cart == null 
+      or shopping_cart.products == null %}
+{% abort_message() %}
+{% endif %}</div></td></tr></table></td></tr></tbody></table></td></tr></tbody></table><table class="row row-2" align="center" 
+width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tbody><tr><td><table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;background-color:#fff;border-radius:0;color:#000;width:600px;margin:0 auto" width="600"><tbody><tr><td class="column column-1" width="100%" 
+style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top"><table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad" style="width:100%" align="center"><div style="max-width:600px"><a href="{{ cart_url }}" target="_blank"><img 
+src="https://braze-images.com/appboy/communication/assets/image_assets/images/66c6ac9125d5f00066de611c/original.jpg?1724296337" style="display:block;height:auto;border:0;width:100%" width="600" alt="Forget Something? We saved your cart, so you can pick up right where you left off." title="Forget Something? We saved your cart, so you can pick up right where you left off." height="auto"></a></div></td></tr></table></td></tr></tbody></table></td></tr></tbody></table><table class="row row-3" 
+align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tbody><tr><td><table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;background-color:#fff;border-radius:0;color:#000;width:600px;margin:0 auto" width="600"><tbody><tr><td class="column column-1" width="100%" 
+style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;padding-bottom:5px;padding-top:5px;vertical-align:top"><div class="spacer_block block-1" style="height:30px;line-height:30px;font-size:1px">&#8202;</div></td></tr></tbody></table></td></tr></tbody></table><table class="row row-4" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tbody><tr><td><table class="row-content stack" 
+align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;background-color:#fff;border-radius:0;color:#000;width:600px;margin:0 auto" width="600"><tbody><tr><td class="column column-1" width="100%" style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top"><table class="html_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" 
+style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad"><div style="font-family:'Open Sans',Arial,Sans-serif;text-align:center" align="center">{% for item in shopping_cart.products %}
+{% catalog_items the-citizenry_shopify_catalog {{ item.metadata.sku }} %}
+<table class="row row-3" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0">
+  <tbody>
+    <tr>
+      <td>
+        <table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;background-color:#ffffff;border-radius:0;color:#000;width:600px;margin:0 auto" width="600">
+          <tbody>
+            <tr>
+              <td class="column column-1" width="100%" style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;padding-left:38px;padding-right:38px;vertical-align:top;border-top:0;border-right:0;border-bottom:0;border-left:0">
+                <table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0">
+                  <tbody>
+                    <tr>
+                      <td class="pad" style="padding-bottom:8px;width:100%">
+                        <div class="alignment" align="center" style="line-height:10px">
+                          <div style="max-width:524px"><a href="{{ items[0].product_url }}?lid=uotndr41p9zz&amp;v={{ items[0].shopify_variant_id }}" target="_blank" style="outline:none" tabindex="-1"><img src="{{ items[0].variant_image_url }}" style="display:block;height:auto;border:0;width:100%" width="524" height="auto"></a>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table class="row row-5" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0">
+  <tbody>
+    <tr>
+      <td>
+        <table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;background-color:#ffffff;border-radius:0;color:#000;width:600px;margin:0 auto" width="600">
+          <tbody>
+            <tr>
+              <td class="column column-1" width="100%" style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;padding-left:38px;padding-right:38px;vertical-align:top;border-top:0;border-right:0;border-bottom:0;border-left:0">
+                <table class="heading_block block-1" width="100%" border="0" cellpadding="10" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0">
+                  <tbody>
+                    <tr>
+                      <td class="pad">
+                        <h3 style="margin:0;color:#2e3c47;direction:ltr;font-family:Georgia,Arial,Sans-serif;font-size:18px;font-weight:400;letter-spacing:normal;line-height:120%;text-align:center;margin-top:0;margin-bottom:0;mso-line-height-alt:21.599999999999998px">
+                          <span class="tinyMce-placeholder" style="word-break: break-word;">{{ items[0].product_title }}</span>
+                        </h3>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+  <tbody>
+    <tr>
+      <td>
+        <table class="m_-2040498806387166406row-content m_-2040498806387166406stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background-color:#ffffff;border-radius:0;color:#000;width:600px;margin:0 auto" width="600">
+          <tbody>
+            <tr>
+              <td class="m_-2040498806387166406column m_-2040498806387166406column-1" width="100%" style="font-weight:400;text-align:left;padding-top:4px;padding-bottom:12px;vertical-align:top;border-top:0;border-right:0;border-bottom:0;border-left:0">
+                <table width="100%" border="0" cellpadding="10" cellspacing="0" role="presentation">
+                  <tbody>
+                    <tr>
+                      <td>
+                        <div align="center">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="90%">
+                            <tbody>
+                              <tr>
+                                <td style="font-size:1px;line-height:1px;border-top:1px solid #bbb"><span
+                                      style="word-break:break-word"> </span></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+{% endfor %}</div></td></tr></table></td></tr></tbody></table></td></tr></tbody></table><table class="row row-5" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tbody><tr><td><table class="row-content" align="center" border="0" cellpadding="0" 
+cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;background-color:#fff;border-radius:0;color:#000;width:600px;margin:0 auto" width="600"><tbody><tr><td class="column column-1" width="100%" style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top"><table class="html_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad"><div 
+style="font-family:'Open Sans',Arial,Sans-serif;text-align:center" align="center">{{content_blocks.${cart_product_recs} | id: 'cb11'}}</div></td></tr></table><table class="image_block block-2" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad" style="width:100%" align="center"><div style="max-width:600px"><a href="https://www.the-citizenry.com/?lid=f7dbi3apzqxc" target="_blank"><img 
+src="https://braze-images.com/appboy/communication/assets/image_assets/images/66c6ae7925d5f00066de66bd/original.jpg?1724296825" style="display:block;height:auto;border:0;width:100%" width="600" alt="Shop by Category" title="Shop by Category" height="auto"></a></div></td></tr></table></td></tr></tbody></table></td></tr></tbody></table><table class="row row-6" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0">
+<tbody><tr><td><table class="row-content" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;background-color:#fff;border-radius:0;color:#000;width:600px;margin:0 auto" width="600"><tbody><tr><td class="column column-1" width="100%" style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top"><table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" 
+role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad" style="width:100%" align="center"><div style="max-width:600px"><a href="https://www.the-citizenry.com/collections/all-back-in-stock?lid=dujv7iod6zlx" target="_blank"><img src="https://braze-images.com/appboy/communication/assets/image_assets/images/66c6aea6741eee00657df8ea/original.jpg?1724296870" style="display:block;height:auto;border:0;width:100%" width="600" alt="Back in Stock" title="Back in Stock" height="auto"></a></div></td>
+</tr></table></td></tr></tbody></table></td></tr></tbody></table><table class="row row-7" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tbody><tr><td><table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;background-color:#fff;border-radius:0;color:#000;width:600px;margin:0 auto" width="600"><tbody><tr><td
+ class="column column-1" width="100%" style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top"><table class="html_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad"><div style="font-family:'Open Sans',Arial,Sans-serif;text-align:center" align="center">{{content_blocks.${CZ_Main_Footer} | id: 'cb12'}}
+{{content_blocks.${Havenly_Footer_1} | id: 'cb6'}}
+{{content_blocks.${Havenly_Footer_2} | id: 'cb7'}}
+{{content_blocks.${Havenly_Footer_3} | id: 'cb8'}}
+{{content_blocks.${unsub_block} | id: 'cb9'}}</div></td></tr></table></td></tr></tbody></table></td></tr></tbody></table><table 
+class="row row-8" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tbody><tr><td><table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;background-color:#fff;border-radius:0;color:#000;width:600px;margin:0 auto" width="600"><tbody><tr><td class="column column-1" width="100%" 
+style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top"><table class="empty_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad"><div></div></td></tr></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><!-- End --></body></html>

@@ -1,0 +1,35 @@
+id: ad866a84-773d-4290-9038-8ff66ec7ef29
+name: P_EM_2026_02_26_HAV_PC_D_Before_and_After
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: ad866a84-773d-4290-9038-8ff66ec7ef29
+dates:
+  send_date: '2026-02-26'
+  first_sent: '2026-02-26T00:25:35+00:00'
+  last_sent: '2026-02-26T18:15:27+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 802b7fed-a79b-437f-ab6d-2878b4c08973
+  channel: email
+  name: Variant 1
+  subject: Let’s kickoff your room makeover!
+  preheader: Start your interior design project today
+- id: c95a7ccc-da2d-4035-9ad0-e95338e665fa
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 261703
+  total_delivered: 260479
+  total_opens: 100428
+  total_clicks: 450
+  open_rate: 0.3837
+  click_rate: 0.0017
+  total_bounces: 5
+  total_unsubscribes: 401
+schedule_type: time_based
+_filename: p_em_2026_02_26_hav_pc_d_before_and_after.yaml

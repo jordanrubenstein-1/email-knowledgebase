@@ -1,0 +1,56 @@
+id: 5fa3c9e0-0ebe-4c73-a50d-b3ca537790d6
+name: P_2025_04_05_CZ_PM_Tariffs_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 5fa3c9e0-0ebe-4c73-a50d-b3ca537790d6
+dates:
+  send_date: '2025-04-05'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-05T21:44:04+00:00'
+  last_sent: '2025-04-05T22:08:59+00:00'
+tags: []
+sends:
+- id: 2992dd6e-7789-47e9-aa01-bf134940f9ce
+  channel: email
+  name: Variant 1
+  subject: We stand with our artisan partners worldwide
+  preheader: Because true craftsmanship transcends borders
+  html_file: html/p_2025_04_05_cz_pm_tariffs_email.html
+  screenshot: screenshots/p_2025_04_05_cz_pm_tariffs_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f08e81e09ae3006771dc66/original.jpg?1743818368
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f08e0295c6fb00642d2bbe/original.jpg?1743818242
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f08e0ab02888006506ce40/original.jpg?1743818250
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f08e21075a1a00668638f4/original.jpg?1743818273
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f08e76d153a70066a6b172/original.jpg?1743818358
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f08e18b02888006506ce41/original.gif?1743818263
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f08df915d83000651824cb/original.jpg?1743818233
+- id: 73ea7536-2cd6-45de-ae77-0e802ca63fa0
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 23713
+  total_delivered: 23675
+  total_opens: 16191
+  total_clicks: 531
+  open_rate: 0.6828
+  click_rate: 0.0224
+  total_revenue: 42405.27
+  total_bounces: 3
+  total_unsubscribes: 42
+  ga4:
+    sessions: 484
+    purchases: 5
+    revenue: 2356.92
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.382056'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.133437'
+schedule_type: time_based

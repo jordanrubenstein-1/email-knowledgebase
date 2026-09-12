@@ -1,0 +1,28 @@
+id: 5b01c88d-1612-4299-8559-9c59417446c4
+name: P_SMS_2026_04_11_ID_Sale_Weekend_Reminder
+brand: ID
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: 5b01c88d-1612-4299-8559-9c59417446c4
+dates:
+  send_date: '2026-04-11'
+  last_sent: '2026-04-11'
+tags: []
+sends:
+- id: 63261189-fcc7-49f2-b8d8-6676f7c2bfa9
+  channel: sms
+  name: Variant 1
+- id: b55d3e7c-5643-470e-9ca2-99d308ec4a3d
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 49554
+  total_delivered: 47662
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 21600.0
+schedule_type: time_based

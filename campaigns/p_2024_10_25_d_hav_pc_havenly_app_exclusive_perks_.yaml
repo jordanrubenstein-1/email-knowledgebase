@@ -1,0 +1,50 @@
+id: 3aa31251-c9df-4dea-8fe1-aa2f2b89144b
+name: P_2024_10_25_D_HAV_PC_Havenly_App_Exclusive_Perks_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 3aa31251-c9df-4dea-8fe1-aa2f2b89144b
+dates:
+  send_date: '2024-10-25'
+  inferred_send_type: local_time
+  first_sent: '2024-10-24T23:39:07+00:00'
+  last_sent: '2024-10-25T18:15:02+00:00'
+tags: []
+sends:
+- id: afbdd5e6-43a1-4688-b173-d65f113a7169
+  channel: email
+  name: Variant 1
+  subject: 'Coming Soon: Huge Savings'
+  preheader: Download our app to be the first to know 😉
+  html_file: html/p_2024_10_25_d_hav_pc_havenly_app_exclusive_perks_email.html
+  screenshot: screenshots/p_2024_10_25_d_hav_pc_havenly_app_exclusive_perks_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66fd6372324512008439c4e7/original.jpg?1727882097
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66fd637c324512006639eafd/original.gif?1727882108
+- id: 919b6095-bc08-405f-8b9b-08bff172a7e9
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 151975
+  total_delivered: 150503
+  total_opens: 73447
+  total_clicks: 407
+  open_rate: 0.4833
+  click_rate: 0.0027
+  total_bounces: 7
+  total_unsubscribes: 462
+  ga4:
+    sessions: 40
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.649365'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.700161'
+schedule_type: time_based

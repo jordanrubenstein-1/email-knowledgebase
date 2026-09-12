@@ -1,0 +1,36 @@
+id: 66ea1ae4-b609-4531-a53e-9c35e5e021ba
+name: P_EM_2026_05_01_BW_D_Settle_Into_Spring_Sale_Reminder
+brand: BUR
+channel: email
+category: reminder
+type: sale
+theme: spring
+braze_id: 66ea1ae4-b609-4531-a53e-9c35e5e021ba
+dates:
+  send_date: '2026-05-01'
+  inferred_send_type: scheduled
+  first_sent: '2026-05-01T15:40:43+00:00'
+  last_sent: '2026-05-01T22:06:58+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: b1ce5042-57e4-4f48-88c5-cea7ca04a6b3
+  channel: email
+  name: Variant 1
+  subject: 'Settle Into Spring Sale: Up to 40% off everything'
+  preheader: Sitewide savings, gone by Monday.
+- id: acaac110-568f-4881-b686-6e7f129815e1
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 231794
+  total_delivered: 228698
+  total_opens: 123634
+  total_clicks: 442
+  open_rate: 0.5334
+  click_rate: 0.0019
+  total_revenue: 57988.0
+  total_bounces: 14
+  total_unsubscribes: 158
+_filename: p_em_2026_05_01_bw_d_settle_into_spring_sale_reminder.yaml
+schedule_type: time_based

@@ -1,0 +1,58 @@
+id: 5dd85ba0-e701-4535-9521-7d28908a85b9
+name: P_2024_08_21_D_CZ_PR_LDW_Launch_Email
+brand: CZ
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 5dd85ba0-e701-4535-9521-7d28908a85b9
+dates:
+  send_date: '2024-08-21'
+  inferred_send_type: local_time
+  first_sent: '2024-08-20T18:00:04+00:00'
+  last_sent: '2024-08-21T17:00:13+00:00'
+tags: []
+sends:
+- id: 37c25dc4-f7ea-4213-a371-c9970952c938
+  channel: email
+  name: Variant 1
+  subject: 'Now Open: The Labor Day Event'
+  preheader: Save 20% off iconic styles. Rugs. Bedding. Furniture. Pillows.
+  html_file: html/p_2024_08_21_d_cz_pr_ldw_launch_email.html
+  screenshot: screenshots/p_2024_08_21_d_cz_pr_ldw_launch_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c3b517b2df740063fa9e1c/original.jpg?1724101911
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c3971687d0b10072e7422f/original.jpg?1724094229
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c3a04987d0b10072e74a3b/original.gif?1724096585
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c39706f942a40065b7ee18/original.jpg?1724094213
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c3b495ebffb0006617ae0c/original.jpg?1724101781
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c3b4f2b2df740081fa8555/original.jpg?1724101874
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c3b53fb2df740063fa9e61/original.jpg?1724101950
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c3b60664622a00649b63b3/original.jpg?1724102149
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c3b504ebffb0006617c170/original.jpg?1724101891
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c3b529c176b00066bd5e9e/original.jpg?1724101929
+- id: 61c79da7-72b8-4cc8-8458-ceffe1cbfec7
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 43258
+  total_delivered: 43099
+  total_opens: 28125
+  total_clicks: 1015
+  open_rate: 0.6502
+  click_rate: 0.0235
+  total_revenue: 167691.86
+  total_unsubscribes: 76
+  ga4:
+    sessions: 1619
+    purchases: 56
+    revenue: 27176.42
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.520174'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.836985'
+schedule_type: time_based

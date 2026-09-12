@@ -1,0 +1,32 @@
+id: 1d9ba79d-f53c-4fdf-8a98-0ec99dd291a7
+name: P_EM_2026_03_11_BW_D_Test_Image_Issue
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 1d9ba79d-f53c-4fdf-8a98-0ec99dd291a7
+dates:
+  send_date: '2026-03-11'
+  inferred_send_type: scheduled
+  first_sent: '2026-03-11T18:48:57+00:00'
+  last_sent: '2026-03-11T19:02:59+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 3b247957-1d56-422d-af3c-14101cd62686
+  channel: email
+  name: Variant 1
+  subject: 'First Dibs Are Yours: Up to 30% Off Now'
+  preheader: Enjoy exclusive early access to the Spring Sale.
+- id: 504fbb64-b3ca-4cde-9bd4-33d26d939577
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 3
+  total_delivered: 3
+  total_opens: 3
+  total_clicks: 0
+  open_rate: 1.0
+  click_rate: 0.0
+schedule_type: time_based

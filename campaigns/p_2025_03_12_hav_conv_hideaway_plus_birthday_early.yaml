@@ -1,0 +1,58 @@
+id: 31cbb575-d092-477d-b696-d48a11a13fe0
+name: P_2025_03_12_HAV_CONV_Hideaway_Plus_Birthday_Early_Access_Email
+brand: HAV
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 31cbb575-d092-477d-b696-d48a11a13fe0
+dates:
+  send_date: '2025-03-12'
+  inferred_send_type: scheduled
+  first_sent: '2025-03-12T13:12:51+00:00'
+  last_sent: '2025-03-13T02:00:33+00:00'
+tags:
+- HideawayEmails
+sends:
+- id: 3d09adfd-24ab-4d97-a8dd-af5be879fcf3
+  channel: email
+  name: Variant 1
+  subject: 'Meet 2025’s version of Coastal Grandmother '
+  preheader: 'According to Pinterest. '
+  html_file: html/p_2025_03_12_hav_conv_hideaway_plus_birthday_early_access_em.html
+  screenshot: screenshots/p_2025_03_12_hav_conv_hideaway_plus_birthday_early_access_em.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673509bf620b8d0073f4ed70/original.gif?1731529151
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0a7a189452c0064ce536a/original.png?1741727648
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6735098ede61a400649c1a7a/original.gif?1731529102
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6735099dde61a400649c1a8c/original.gif?1731529117
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673509a6d3e8b400655f49b1/original.gif?1731529126
+  - https://images.scalero.io/email_assets/2207/EHZ94QJAIIKNRK9XEWVERR1WAU8C8YFAYEOME1WDA9E7692UTZ4NKC6ZS882NMYU.png
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673509afef3c98006525b98a/original.gif?1731529135
+  - https://havenly.com/blog/wp-content/uploads/2024/02/kyliefitts_havenly_tundeoyeneyin_2-5-1500x970.jpg
+  - https://havenly.com/blog/wp-content/uploads/2024/12/Living-Room-Palette-Refresh-4.jpg
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d094f26283500065567a9b/original.png?1741722866
+- id: 6e69b684-985f-4406-aa05-752e49fb2a76
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 38655
+  total_delivered: 38564
+  total_opens: 21821
+  total_clicks: 372
+  open_rate: 0.5645
+  click_rate: 0.0096
+  total_unsubscribes: 20
+  ga4:
+    sessions: 631
+    purchases: 1
+    revenue: 3894.52
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.232485'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.120651'
+schedule_type: time_based

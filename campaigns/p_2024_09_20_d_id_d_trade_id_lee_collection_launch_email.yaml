@@ -1,0 +1,35 @@
+id: 8be1ec8d-767b-49b2-8e12-bbe34221b172
+name: P_2024_09_20_D_ID_D_TRADE_ID_Lee_Collection_Launch_Email
+brand: ID
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 8be1ec8d-767b-49b2-8e12-bbe34221b172
+dates:
+  send_date: '2024-09-20'
+  inferred_send_type: scheduled
+  first_sent: '2024-09-20T15:31:25+00:00'
+  last_sent: '2024-09-20T15:31:34+00:00'
+tags: []
+sends:
+- id: 8954b649-47fc-4e0d-8d5a-610357f21d4c
+  channel: email
+  name: Variant 1
+  subject: 'Introducing: The Lee Collection'
+  preheader: Your VIP first look with our Trade program!
+- id: 16904080-e0d1-449b-8feb-f416feb90468
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 2860
+  total_delivered: 2825
+  total_opens: 1223
+  total_clicks: 42
+  open_rate: 0.4276
+  click_rate: 0.0147
+  total_revenue: 5840.0
+  total_bounces: 1
+  total_unsubscribes: 8
+_filename: p_2024_09_20_d_id_d_trade_id_lee_collection_launch_email.yaml
+schedule_type: time_based

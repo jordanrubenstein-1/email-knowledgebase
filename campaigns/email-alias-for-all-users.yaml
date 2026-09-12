@@ -1,0 +1,23 @@
+id: df1c415d-8d33-43f5-8334-5b75a96089fd
+name: Email Alias for all users
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: df1c415d-8d33-43f5-8334-5b75a96089fd
+dates:
+  first_sent: '2024-09-03T23:25:45+00:00'
+  last_sent: '2024-09-04T01:08:58+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: bfdb0e3a-be37-4c9b-a580-5cf2e9a9e5a2
+  channel: other
+  name: Variant 1
+- id: 05f26906-2a19-4b6a-948b-72b4d6abb59f
+  channel: other
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: email-alias-for-all-users.yaml

@@ -1,0 +1,252 @@
+id: 307124fd-04f2-467f-8a83-8228c8810da8
+name: Welcome Flow - Grow
+brand: BUR
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: 307124fd-04f2-467f-8a83-8228c8810da8
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-11-23T17:00:00+00:00'
+  last_sent: '2025-09-03T04:00:00+00:00'
+tags: []
+sends:
+- id: 0cc204d9-3bad-4f18-b054-6d4ef15310f8
+  channel: email
+  name: TRG_EM_2024_11_BW_D_Grow_Welcome_T1_V1
+  subject: Thanks for checking out Burrow! {{content_blocks.${2025Q3_Welcome_SL_Email1_Promo}}}
+  preheader: You're in.
+  step_id: f7d7e6e7-bce0-46c1-9d20-7b74d25d5df6
+- id: 55021bac-c641-47a4-8ec1-896ea2d8a7eb
+  channel: email
+  name: TRG_EM_2024_11_BW_D_Grow_Welcome_T2_V1
+  subject: Meet our bestselling sofa collections
+  preheader: '{{content_blocks.${2025Q3_Welcome_PH_Email1_Promo}}}'
+  step_id: e032043a-c217-4ec8-b624-11cb6912fb46
+- id: dfd10fcb-d0b3-4eba-9d26-7118e14d1d20
+  channel: email
+  name: Step 2
+  subject: Welcome to Burrow! Take 15% off your first purchase
+  preheader: You're in.
+  step_id: dc673b2f-b821-4dd6-9c3f-80ddf57cc9ee
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.742993'
+    source: snowflake
+    channel: email
+canvas_steps:
+- id: f7d7e6e7-bce0-46c1-9d20-7b74d25d5df6
+  name: TRG_EM_2024_11_BW_D_Grow_Welcome_T1_V1
+  type: message
+  channel: email
+  subject: Thanks for checking out Burrow! {{content_blocks.${2025Q3_Welcome_SL_Email1_Promo}}}
+  preheader: You're in.
+- id: 07473324-a5a8-42de-b242-540bf5537753
+  name: Step 1
+  type: action_paths
+- id: b8442f58-15e9-49e8-bc85-e69386d450d7
+  name: Step
+  type: delay
+- id: e032043a-c217-4ec8-b624-11cb6912fb46
+  name: TRG_EM_2024_11_BW_D_Grow_Welcome_T2_V1
+  type: message
+  channel: email
+  subject: Meet our bestselling sofa collections
+  preheader: '{{content_blocks.${2025Q3_Welcome_PH_Email1_Promo}}}'
+- id: cb724dda-d31c-4bb8-808d-6aa6f50cd93f
+  name: Opt In
+  type: user_update
+- id: e7b9d2fa-fd27-482b-8e98-4adb39931c31
+  name: Step 4
+  type: action_paths
+- id: caa55cad-f59c-4498-b21f-80d20f7d444f
+  name: Opt In
+  type: user_update
+- id: 285a69a4-7f7c-4c46-b983-d3e554dec0d4
+  name: Unsubscribe
+  type: user_update
+- id: dc673b2f-b821-4dd6-9c3f-80ddf57cc9ee
+  name: Step 2
+  type: message
+  channel: email
+  subject: Welcome to Burrow! Take 15% off your first purchase
+  preheader: You're in.
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-burrow-2025-01-31
+    name: Burrow
+    start_date: '2025-01-31'
+    end_date: '2025-02-05'
+    discount: 'President''s Day Tiered Sale
+
+      20% off <$2000/ 25% off $2000+ (strikethrough in cart)
+
+      + Up to 70% off Clearance
+
+      Free Shipping on orders $2,000+ last 5 days of sale'
+    type: null
+  - id: bur-burrow-2025-03-11
+    name: Burrow
+    start_date: '2025-03-11'
+    end_date: '2025-03-12'
+    discount: 'The Spring Event
+
+      20% off <$2k / 25% ≥$2k sitewide (strikethrough in cart) | code-based early
+      access for RETAIL ONLY: [SPRING25]
+
+      + up to 70% off Clearance
+
+      FREE SHIP on all orders'
+    type: null
+  - id: bur-burrow-2025-04-09
+    name: Burrow
+    start_date: '2025-04-09'
+    end_date: '2025-04-09'
+    discount: "Friends and Family\nTiered sale: 20% off orders <$2k / 25% off orders\
+      \ ≥ $2k \nCode-based early access for retail only: FRIENDS25\nFree shipping\
+      \ on all orders"
+    type: null
+  - id: bur-burrow-2025-05-09
+    name: Burrow
+    start_date: '2025-05-09'
+    end_date: '2025-05-13'
+    discount: 'The Memorial Day Event
+
+      25% off sitewide, plus FREE GROUND SHIPPING on orders >$2k
+
+      Early Access: No code; EA messaging and strikethrough live on-site from 5/9'
+    type: null
+  - id: bur-burrow-2025-06-17
+    name: Burrow
+    start_date: '2025-06-17'
+    end_date: '2025-06-17'
+    discount: 'July 4th Sale Early Access -- RETAIL, EMAIL and SMS ONLY
+
+      25% off sitewide, plus FREE GROUND SHIPPING on orders >$2k
+
+      CODE JULY4EA'
+    type: null
+  - id: bur-burrow-2025-07-08
+    name: Burrow
+    start_date: '2025-07-08'
+    end_date: '2025-07-08'
+    discount: 'July 4th Sale -- SITEWIDE, NO CODE NEEDED
+
+      25% off sitewide, plus FREE GROUND SHIPPING on orders >$2k'
+    type: null
+  - id: bur-fourth-of-july-surprise-extension-2025-07-09
+    name: Fourth of July Surprise Extension
+    start_date: '2025-07-09'
+    end_date: '2025-07-14'
+    discount: '30% off Field in Fog, Carbon & Ivory
+
+      25% off sitewide
+
+      Free ground shipping on orders >$2k (no free shipping on Pro)'
+    type: null
+  - id: bur-seating-flash-sale-2025-07-18
+    name: Seating Flash Sale
+    start_date: '2025-07-18'
+    end_date: '2025-07-21'
+    discount: Up to 30% off all Seating Collections
+    type: null
+  - id: bur-the-summer-sale-2025-07-24
+    name: The Summer Sale
+    start_date: '2025-07-24'
+    end_date: '2025-07-31'
+    discount: '25% off sitewide
+
+      Free ground shipping on orders >$2k (excl. Pro)'
+    type: null
+  - id: bur-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off sitewide
+    type: null
+  - id: bur-the-labor-day-event-2025-09-03
+    name: The Labor Day Event
+    start_date: '2025-09-03'
+    end_date: '2025-09-09'
+    discount: '20% off sitewide
+
+      Up to 70% off Clearance
+
+      Free shipping >$2k'
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  - id: bur-end-of-year-sale-extension-2025-01-01
+    name: End of Year Sale (EXTENSION)
+    start_date: '2024-12-20'
+    end_date: '2025-01-05'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  - id: bur-20-off-2000-25-off-4000-30-off-4k-strikethrough-up-to-60-off-select-styles-2024-11-27
+    name: 20% off <$2000 / 25% off <$4000 / 30% off $4K+ (strikethrough) + up to 60%
+      off Select Styles
+    start_date: '2024-11-27'
+    end_date: '2024-12-03'
+    discount: null
+    type: null
+  - id: bur-bfcm-giving-tues-2024-11-13
+    name: BFCM + Giving Tues
+    start_date: '2024-11-13'
+    end_date: '2024-11-26'
+    discount: null
+    type: null
+  - id: bur-cyber-week-ext-2024-12-04
+    name: Cyber Week Ext
+    start_date: '2024-12-04'
+    end_date: '2024-12-10'
+    discount: null
+    type: null
+  - id: bur_eoy_2024_12_20
+    name: End of Year Sale
+    start_date: '2024-12-19'
+    end_date: '2024-12-31'
+    discount: null
+    type: null
+  primary_sale:
+    id: bur-burrow-2025-01-31
+    name: Burrow
+    start_date: '2025-01-31'
+    end_date: '2025-02-05'
+    discount: 'President''s Day Tiered Sale
+
+      20% off <$2000/ 25% off $2000+ (strikethrough in cart)
+
+      + Up to 70% off Clearance
+
+      Free Shipping on orders $2,000+ last 5 days of sale'
+    type: null
+  sale_name: Burrow
+  sale_discount: 'President''s Day Tiered Sale
+
+    20% off <$2000/ 25% off $2000+ (strikethrough in cart)
+
+    + Up to 70% off Clearance
+
+    Free Shipping on orders $2,000+ last 5 days of sale'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:45.234731'

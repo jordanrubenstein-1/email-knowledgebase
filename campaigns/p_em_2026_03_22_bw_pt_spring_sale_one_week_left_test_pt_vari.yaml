@@ -1,0 +1,34 @@
+id: 9576217b-4d2a-4276-8de2-ccd6b30435c7
+name: P_EM_2026_03_22_BW_PT_Spring_Sale_One_Week_Left_Test_PT_Variant
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: spring
+braze_id: 9576217b-4d2a-4276-8de2-ccd6b30435c7
+dates:
+  send_date: '2026-03-22'
+  inferred_send_type: local_time
+  first_sent: '2026-03-21T20:07:59+00:00'
+  last_sent: '2026-03-22T20:03:25+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: d0c37b79-5ebe-4aa5-b560-e6b99eb30acd
+  channel: email
+  name: Variant 1
+  subject: Up to 30% Off AND Only One Week Left to Save
+- id: 21830342-36b6-4356-ad66-07b2ac9f6e9f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 117305
+  total_delivered: 116851
+  total_opens: 62492
+  total_clicks: 260
+  open_rate: 0.5327
+  click_rate: 0.0022
+  total_revenue: 41077.0
+  total_unsubscribes: 148
+_filename: p_em_2026_03_22_bw_pt_spring_sale_one_week_left_test_pt_vari.yaml
+schedule_type: time_based

@@ -1,0 +1,33 @@
+id: 6dcb010c-4bab-4ece-823d-aeb7875e4d93
+name: TRG_EM_2026_04_ID_D_Swatch_Best_Sellers_T3_V1a
+brand: ID
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 9ac09497-6f79-498b-b320-e44a784c3340
+canvas_name: Swatch Post Purchase
+flow_type: post_purchase
+sequence_position: 3
+subject: Your swatches + our best sellers = a match
+preheader: ''
+sends:
+- id: 6dcb010c-4bab-4ece-823d-aeb7875e4d93
+  channel: email
+  name: TRG_EM_2026_04_ID_D_Swatch_Best_Sellers_T3_V1a
+  subject: Your swatches + our best sellers = a match
+  preheader: ''
+  html_file: html/canvas-swatch-post-purchase-t3-6dcb010c.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-04-28T21:00:00Z'
+  last_sent: '2026-09-07T13:00:00Z'
+performance_summary:
+  total_sends: 15042
+  total_delivered: 14923
+  total_opens: 6434
+  total_clicks: 157
+  open_rate: 0.4277
+  click_rate: 0.0104
+  total_unsubscribes: 68
+  total_revenue: 587667.63

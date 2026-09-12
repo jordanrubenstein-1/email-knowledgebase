@@ -1,0 +1,59 @@
+id: b4166577-0218-4fa3-8076-d5f7dc8399e5
+name: P_EM_2026_02_09_SF_D_PR_Category_Feature_Wallpaper
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: b4166577-0218-4fa3-8076-d5f7dc8399e5
+dates:
+  send_date: '2026-02-09'
+  inferred_send_type: local_time
+  first_sent: '2026-02-08T22:09:36+00:00'
+  last_sent: '2026-02-09T22:00:58+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- ugc
+sends:
+- id: 4002d560-225c-455a-9ab4-46d9439a1c03
+  channel: email
+  name: Variant 1
+  subject: Seen in the wild
+  preheader: bold walls, beautifully lived in
+  html_file: html/p_em_2026_02_09_sf_d_pr_category_feature_wallpaper.html
+  screenshot: screenshots/p_em_2026_02_09_sf_d_pr_category_feature_wallpaper.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6986174501b08a0063f4fbc6/original.gif?1770395461
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698617c3fbcb660063a54554/original.jpg?1770395587
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6986175f2415c800638c13e3/original.png?1770395487
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69861799fe1435006490dbbf/original.jpg?1770395544
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698617cd3b889e0063ae7ea0/original.jpg?1770395597
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698617df01b08a0063f4fe56/original.jpg?1770395614
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698617d7dcf05f006319273c/original.jpg?1770395606
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6986176e2be1b0006343243d/original.png?1770395501
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69861752dcf05f00631926c3/original.png?1770395474
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6986177bb3f1ab00632a3b92/original.png?1770395514
+- id: db614b4b-ba8d-4a33-b99b-f9fe66f5940a
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 38868
+  total_delivered: 38748
+  total_opens: 13137
+  total_clicks: 159
+  open_rate: 0.338
+  click_rate: 0.0041
+  total_bounces: 1
+  total_unsubscribes: 26
+  ga4:
+    sessions: 179
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.834562'
+    source: snowflake
+    channel: email
+schedule_type: time_based

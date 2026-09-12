@@ -1,0 +1,35 @@
+id: 49056431-58c1-4801-8f02-1b22dbbdb8f3
+name: P_EM_2026_02_20_ID_D_PR_Outdoor_Presidents_Day_Sale_PM
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 49056431-58c1-4801-8f02-1b22dbbdb8f3
+dates:
+  send_date: '2026-02-20'
+  inferred_send_type: local_time
+  first_sent: '2026-02-20T00:09:00+00:00'
+  last_sent: '2026-02-21T00:02:47+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 66a13142-95c2-4b5d-8c52-efe057c107dc
+  channel: email
+  name: Variant 1
+  subject: Patio Season is Coming
+  preheader: 'Get your outdoor space ready with up to 30% off. '
+- id: 0348f416-ba01-4cbc-bcc3-44045b91e233
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 127991
+  total_delivered: 127876
+  total_opens: 50982
+  total_clicks: 618
+  open_rate: 0.3983
+  click_rate: 0.0048
+  total_revenue: 159981.91
+  total_bounces: 5
+  total_unsubscribes: 160
+schedule_type: time_based

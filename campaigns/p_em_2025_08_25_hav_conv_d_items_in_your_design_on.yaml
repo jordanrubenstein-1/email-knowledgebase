@@ -1,0 +1,49 @@
+id: 244d8972-899d-4c88-adf9-8b9a0ec73e21
+name: P_EM_2025_08_25_HAV_CONV_D_Items_in_Your_Design_on_Sale
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 244d8972-899d-4c88-adf9-8b9a0ec73e21
+dates:
+  send_date: '2025-08-25'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-25T13:44:24+00:00'
+  last_sent: '2025-08-25T20:00:16+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: b4b4e0cc-bcdf-465d-89ef-e8a9aaa05e5f
+  channel: email
+  name: Variant 1
+  subject: Your Entire Cart Is On Sale…
+  preheader: Here’s your sign to check out.
+  html_file: html/p_em_2025_08_25_hav_conv_d_items_in_your_design_on_sale.html
+  screenshot: screenshots/p_em_2025_08_25_hav_conv_d_items_in_your_design_on_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68ab9377a988f6006750f015/original.gif?1756074871
+- id: 94ea32d7-26dd-4997-9dc8-49498a2e14b0
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 8606
+  total_delivered: 8596
+  total_opens: 5080
+  total_clicks: 250
+  open_rate: 0.5903
+  click_rate: 0.029
+  total_unsubscribes: 19
+  ga4:
+    sessions: 188
+    purchases: 3
+    revenue: 3947.48
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:48.995088'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.646970'
+schedule_type: time_based

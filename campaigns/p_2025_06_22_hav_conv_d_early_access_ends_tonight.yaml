@@ -1,0 +1,35 @@
+id: 09de71f8-34cd-4078-b34b-fe069a9acbc2
+name: P_2025_06_22_HAV_Conv_D_Early_Access_Ends_Tonight
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 09de71f8-34cd-4078-b34b-fe069a9acbc2
+dates:
+  send_date: '2025-06-22'
+  first_sent: '2025-06-21T18:21:34+00:00'
+  last_sent: '2025-06-22T17:15:12+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 8f533a29-b42e-4d23-acd8-9abbde3a6c09
+  channel: email
+  name: Variant 1
+  subject: Early Access Just For You
+  preheader: 'Ends TONIGHT! Save while you can. '
+- id: 3bd085db-d62f-4337-afeb-9ec0f0f5a8db
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 40434
+  total_delivered: 40357
+  total_opens: 21699
+  total_clicks: 136
+  open_rate: 0.5367
+  click_rate: 0.0034
+  total_bounces: 1
+  total_unsubscribes: 28
+schedule_type: time_based
+_filename: p_2025_06_22_hav_conv_d_early_access_ends_tonight.yaml

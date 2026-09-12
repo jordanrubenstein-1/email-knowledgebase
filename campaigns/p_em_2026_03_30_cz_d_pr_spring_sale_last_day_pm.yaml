@@ -1,0 +1,48 @@
+id: dbf154d9-0f21-4d94-9ee6-33e823227344
+name: P_EM_2026_03_30_CZ_D_PR_Spring_Sale_Last_Day_PM
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: spring
+braze_id: dbf154d9-0f21-4d94-9ee6-33e823227344
+dates:
+  send_date: '2026-03-30'
+  last_sent: '2026-03-30'
+tags:
+- batch and blast
+- d2c
+- designed
+- pm
+- sale
+- sale/spring2026
+- sale_feat
+sends:
+- id: affe6a99-e7db-46ab-9ad8-c3d6572262d6
+  channel: email
+  name: Variant 1
+  subject: 'FINAL HOURS of The Spring Event '
+  preheader: Last chance to enjoy up to 25% off sitewide.
+  html_file: html/p_em_2026_03_30_cz_d_pr_spring_sale_last_day_pm.html
+  screenshot: screenshots/p_em_2026_03_30_cz_d_pr_spring_sale_last_day_pm.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c573475e739000642093dd/original.png?1774547783
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c573016e87da007239f911/original.gif?1774547713
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c573101e202d00631df830/original.png?1774547728
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c5735e1e8cda00829b1a48/original.png?1774547805
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c57333bbea5a0063d0829a/original.png?1774547763
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c57354c59a0d00643a22e6/original.png?1774547796
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c5731dc59a0d00723a197b/original.png?1774547740
+- id: 639c4fa2-d746-4238-876c-7954ed51b432
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 112304
+  total_delivered: 112055
+  total_opens: 52977
+  total_clicks: 661
+  open_rate: 0.4717
+  click_rate: 0.0059
+  total_bounces: 1
+  total_unsubscribes: 122
+schedule_type: time_based

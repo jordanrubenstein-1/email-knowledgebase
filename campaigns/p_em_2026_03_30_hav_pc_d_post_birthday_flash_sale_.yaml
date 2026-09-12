@@ -1,0 +1,36 @@
+id: 75d651ec-d198-4dc6-a247-151ac7c1fa28
+name: P_EM_2026_03_30_HAV_PC_D_Post_Birthday_Flash_Sale_Last_Day
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 75d651ec-d198-4dc6-a247-151ac7c1fa28
+dates:
+  send_date: '2026-03-30'
+  last_sent: '2026-03-30'
+tags:
+- BLASTS-2025
+sends:
+- id: 83c4ec0a-0142-4a90-88c8-74aacfbbae10
+  channel: email
+  name: Variant 1
+  subject: 'LAST DAY: Post-Birthday Flash Sale'
+  preheader: One more chance to save on interior design services
+  html_file: html/p_em_2026_03_30_hav_pc_d_post_birthday_flash_sale_last_day.html
+  screenshot: screenshots/p_em_2026_03_30_hav_pc_d_post_birthday_flash_sale_last_day.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c68cc2c6689500637ecddd/original.png?1774619841
+- id: 181f8cac-f32a-4d80-8548-e06d9edb0bd2
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 275072
+  total_delivered: 273832
+  total_opens: 101743
+  total_clicks: 429
+  open_rate: 0.3699
+  click_rate: 0.0016
+  total_bounces: 22
+  total_unsubscribes: 366
+schedule_type: time_based

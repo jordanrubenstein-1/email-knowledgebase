@@ -1,0 +1,58 @@
+id: 1af357c2-44cd-47f7-bc3b-c333eeab572a
+name: P_2024_10_22_D_HAV_PR_HAV_Conv_AM_Autumn_Event_Last_Chance_Email
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: fall
+braze_id: 1af357c2-44cd-47f7-bc3b-c333eeab572a
+dates:
+  send_date: '2024-10-22'
+  inferred_send_type: scheduled
+  first_sent: '2024-10-22T02:52:00+00:00'
+  last_sent: '2024-10-22T17:15:03+00:00'
+tags: []
+sends:
+- id: 8d28e58a-487d-4697-ac88-73b80bf0d115
+  channel: email
+  name: Variant 1
+  subject: Shop up to 25% off until midnight
+  preheader: Hurry—The Autumn Event is almost over!
+  html_file: html/p_2024_10_22_d_hav_pr_hav_conv_am_autumn_event_last_chance_e.html
+  screenshot: screenshots/p_2024_10_22_d_hav_pr_hav_conv_am_autumn_event_last_chance_e.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6706b75c2d0ff100641468f8/original.jpg?1728493404
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6706debe82a41f006346ac55/original.jpg?1728503486
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67166693006917006476fb99/original.gif?1729521299
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6706dea24b85730074169f39/original.jpg?1728503458
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6706deca4f9c97007439dc23/original.jpg?1728503498
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6706b73f2d0ff1007214617b/original.jpg?1728493375
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671666a3343c240074b610b4/original.jpg?1729521315
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6706b67a73a59a0074630006/original.jpg?1728493178
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6706de8a4b85730074169edb/original.jpg?1728503434
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6706de974b8573006516a0d1/original.jpg?1728503447
+- id: cd085150-71d0-478f-9bae-8debd2905010
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 36786
+  total_delivered: 36737
+  total_opens: 20614
+  total_clicks: 185
+  open_rate: 0.5604
+  click_rate: 0.005
+  total_bounces: 1
+  total_unsubscribes: 72
+  ga4:
+    sessions: 236
+    purchases: 3
+    revenue: 5105.39
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.750306'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.198915'
+schedule_type: time_based

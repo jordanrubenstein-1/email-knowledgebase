@@ -1,0 +1,75 @@
+id: 1d98d09d-8ad3-4868-a471-43689638878d
+name: P_2025_1_4_D_SF_2025_Trends_Email
+brand: STF
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 1d98d09d-8ad3-4868-a471-43689638878d
+dates:
+  send_date: '2025-01-04'
+  inferred_send_type: local_time
+  first_sent: '2025-01-03T21:37:26+00:00'
+  last_sent: '2025-01-04T17:00:16+00:00'
+tags: []
+sends:
+- id: aea35d91-80e4-424d-9779-46f74c406f5f
+  channel: email
+  name: Variant 1
+  subject: All The Rage For 2025
+  preheader: take a St. Frank approach to 2025 trends
+  html_file: html/p_2025_1_4_d_sf_2025_trends_email.html
+  screenshot: screenshots/p_2025_1_4_d_sf_2025_trends_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6778180011074c0063103a41/original.gif?1735923712
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6778189893327100630a7d26/original.gif?1735923864
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677818b140f8bb0064f5de70/original.gif?1735923889
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6778183fbd74bb00634946ac/original.gif?1735923775
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6778187840f8bb0064f5dde7/original.gif?1735923832
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6778185812fdd80081116ba3/original.gif?1735923800
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677818e093327100720a7294/original.gif?1735923935
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677817a58003e20064c5b739/original.gif?1735923621
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6778182812fdd800651174f0/original.jpg?1735923752
+- id: f7dd043e-869e-48f3-a0ae-065159d527d6
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 3695
+  total_delivered: 3645
+  total_opens: 2099
+  total_clicks: 77
+  open_rate: 0.5681
+  click_rate: 0.0208
+  total_revenue: 265.0
+  total_bounces: 1
+  total_unsubscribes: 15
+  ga4:
+    sessions: 67
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.739973'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-end-of-year-sale-2025-01-01
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-05'
+    discount: 20% off Sitewide + 30% Off Last Chance Patterns
+    type: null
+  primary_sale:
+    id: stf-end-of-year-sale-2025-01-01
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-05'
+    discount: 20% off Sitewide + 30% Off Last Chance Patterns
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: 20% off Sitewide + 30% Off Last Chance Patterns
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:32.669149'
+schedule_type: time_based

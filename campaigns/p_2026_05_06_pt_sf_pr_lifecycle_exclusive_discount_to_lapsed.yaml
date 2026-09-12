@@ -1,0 +1,36 @@
+id: e0ef30b2-657e-4f22-bba6-11b932cfc64e
+name: P_2026_05_06_PT_SF_PR_Lifecycle_Exclusive_Discount_to_Lapsed_Customers
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: e0ef30b2-657e-4f22-bba6-11b932cfc64e
+dates:
+  send_date: '2026-05-06'
+  inferred_send_type: local_time
+  first_sent: '2026-05-06T03:05:36+00:00'
+  last_sent: '2026-05-06T22:00:00+00:00'
+tags:
+- Batch and Blast
+sends:
+- id: 5815674b-3c4d-4056-805d-3905804f3791
+  channel: email
+  name: Variant 1
+  subject: Your 20% off code is still waiting
+  html_file: html/p_2026_05_06_pt_sf_pr_lifecycle_exclusive_discount_to_lapsed.html
+  screenshot: screenshots/p_2026_05_06_pt_sf_pr_lifecycle_exclusive_discount_to_lapsed.png
+- id: 0414a420-2fe3-414b-9eec-36a00751e218
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 4361
+  total_delivered: 4355
+  total_opens: 2044
+  total_clicks: 48
+  open_rate: 0.4687
+  click_rate: 0.011
+  total_bounces: 1
+  total_unsubscribes: 2
+_filename: p_2026_05_06_pt_sf_pr_lifecycle_exclusive_discount_to_lapsed.yaml
+schedule_type: time_based

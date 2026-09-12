@@ -1,0 +1,44 @@
+id: 7f378e77-552b-4ea9-a012-4d70d6fff29d
+name: P_2025_2_16_ID_PM_Sale_Reminder_PT_Browse_Abandon_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 7f378e77-552b-4ea9-a012-4d70d6fff29d
+dates:
+  send_date: '2025-02-16'
+  inferred_send_type: local_time
+  first_sent: '2025-02-16T02:24:19+00:00'
+  last_sent: '2025-02-17T02:15:03+00:00'
+tags: []
+sends:
+- id: 17181adb-739e-433d-89c7-8c393b4a4674
+  channel: email
+  name: Variant 1
+  subject: 'RE: Presidents Day deals'
+- id: a9087e5c-1494-4cb0-96dd-0948302abfa2
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1747
+  total_delivered: 1725
+  total_opens: 672
+  total_clicks: 18
+  open_rate: 0.3847
+  click_rate: 0.0103
+  total_revenue: 113193.0
+  total_unsubscribes: 3
+  ga4:
+    sessions: 25
+    purchases: 1
+    revenue: 339.68
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.168316'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.506485'
+schedule_type: time_based

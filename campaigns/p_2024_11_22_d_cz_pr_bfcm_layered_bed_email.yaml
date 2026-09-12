@@ -1,0 +1,75 @@
+id: 2e1d2c08-c0a5-4abf-ba20-88a5a0e7b190
+name: P_2024_11_22_D_CZ_PR_BFCM_Layered_Bed_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: 2e1d2c08-c0a5-4abf-ba20-88a5a0e7b190
+dates:
+  send_date: '2024-11-22'
+  inferred_send_type: local_time
+  first_sent: '2024-11-22T00:10:27+00:00'
+  last_sent: '2024-11-22T17:00:32+00:00'
+tags:
+- batch and blast/promo
+sends:
+- id: 4548733e-1fb7-4e35-9d3c-d9858b49b397
+  channel: email
+  name: Variant 1
+  subject: 'How To: Curate Your Dream Bedroom'
+  preheader: It’s the perfect time for a refresh during our Black Friday Event.
+  html_file: html/p_2024_11_22_d_cz_pr_bfcm_layered_bed_email.html
+  screenshot: screenshots/p_2024_11_22_d_cz_pr_bfcm_layered_bed_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673f64ccb93e480063b4f465/original.jpg?1732207820
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6737da9cf77cc60064cd8d24/original.jpg?1731713692
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673f64aeb93e480072b4d70d/original.jpg?1732207790
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673f6436997f410072ae6868/original.jpg?1732207669
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673fc6421e52f600653427b1/original.jpg?1732232770
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673f60326e8f7f0065b18a48/original.jpg?1732206642
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673f5e67858daa006406fd68/original.jpg?1732206183
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673f5ec4997f410063ae8434/original.jpg?1732206276
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673fc6341e52f60065342780/original.png?1732232756
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673f64523f36710074f21443/original.jpg?1732207698
+- id: ddb84d84-1caa-4eb5-a8e7-a632aff229fb
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 92974
+  total_delivered: 92378
+  total_opens: 44236
+  total_clicks: 845
+  open_rate: 0.4758
+  click_rate: 0.0091
+  total_revenue: 159921.7
+  total_unsubscribes: 124
+  ga4:
+    sessions: 1158
+    purchases: 14
+    revenue: 11939.45
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.388031'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-01'
+    discount: null
+    type: null
+  primary_sale:
+    id: cz-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-01'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:30.335993'
+schedule_type: time_based

@@ -1,0 +1,25 @@
+id: 1d2886cb-b0f0-418e-994e-545d17b5ddc7
+name: Post Purchase Crossbrand
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 1d2886cb-b0f0-418e-994e-545d17b5ddc7
+braze_type: canvas
+campaign_type: Triggered Journey
+dates: {}
+tags: []
+sends: []
+performance_summary: {}
+canvas_steps:
+- id: 2f85f00a-d35b-47b1-92e1-a4a7968f566d
+  name: Order bucket
+  type: context
+- id: b48bd01a-402b-4e90-87e0-4eb033ac4312
+  name: Step 1
+  type: delay
+- id: 51e2b2cf-2ffc-466c-bc4b-68a8ad5472f9
+  name: Step
+  type: audience_paths
+_filename: post-purchase-crossbrand.yaml

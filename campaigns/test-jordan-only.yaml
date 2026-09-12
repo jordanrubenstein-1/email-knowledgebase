@@ -1,0 +1,30 @@
+id: 841b64e0-e8b9-4c89-9067-105eef3acf4c
+name: test- jordan only
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 841b64e0-e8b9-4c89-9067-105eef3acf4c
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2026-05-01T00:39:55+00:00'
+  last_sent: '2026-05-01T01:04:57+00:00'
+tags: []
+sends:
+- id: 789c5ce8-61da-499a-a4c1-1aaf8444d59f
+  channel: email
+  name: Variant 1
+  subject: test link params
+- id: fe2a5afc-247d-4a59-a4a8-ee86d42bd632
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 4
+  total_delivered: 4
+  total_opens: 3
+  total_clicks: 3
+  open_rate: 0.75
+  click_rate: 0.75
+_filename: test-jordan-only.yaml
+schedule_type: time_based

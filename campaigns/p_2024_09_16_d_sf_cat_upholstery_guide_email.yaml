@@ -1,0 +1,59 @@
+id: ce702717-5fa0-40af-90ed-c18ce0323d6e
+name: P_2024_09_16_D_SF_CAT_Upholstery_Guide_Email
+brand: STF
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: ce702717-5fa0-40af-90ed-c18ce0323d6e
+dates:
+  send_date: '2024-09-16'
+  inferred_send_type: local_time
+  first_sent: '2024-09-15T18:00:03+00:00'
+  last_sent: '2024-09-16T14:00:38+00:00'
+tags:
+- Batch and Blast/non-promo
+sends:
+- id: ca4c13db-3ab9-4467-966d-45629cc26be5
+  channel: email
+  name: Variant 1
+  subject: 'Upholstery 101: Everything You Need to Know'
+  preheader: our tips and tricks when it comes to reimagining your furniture
+  html_file: html/p_2024_09_16_d_sf_cat_upholstery_guide_email.html
+  screenshot: screenshots/p_2024_09_16_d_sf_cat_upholstery_guide_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e2073424b34c00650597fd/original.gif?1726089012
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e207245237b00065bcc1b3/original.gif?1726088996
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e207255237b00074bcb4e4/original.gif?1726088996
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0058f1ba77/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e20724cc168e0066d1bbd8/original.gif?1726088996
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e20724291009006413eafc/original.jpg?1726088996
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e20724291009008213e07f/original.jpg?1726088996
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0063f11fb6/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6681bde9255ebf0070d6be26/original.jpeg?1719778792
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e207249bbb4f00811ee465/original.gif?1726088996
+- id: 04001b11-8a04-4537-8cbc-e34c2082513b
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 7616
+  total_delivered: 7460
+  total_opens: 2859
+  total_clicks: 114
+  open_rate: 0.3754
+  click_rate: 0.015
+  total_revenue: 2056.0
+  total_unsubscribes: 13
+  ga4:
+    sessions: 77
+    purchases: 1
+    revenue: 21.88
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.905172'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.905348'
+schedule_type: time_based

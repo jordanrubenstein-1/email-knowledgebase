@@ -1,0 +1,41 @@
+id: e5a590f2-f45d-7152-38b9-b052fdff4462
+name: OT_EM_2024_08_HAV_CONV_H_Vendor_Order_Update_Request
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: e5a590f2-f45d-7152-38b9-b052fdff4462
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-23T16:00:00+00:00'
+  last_sent: '2026-02-10T17:00:00+00:00'
+tags: []
+sends:
+- id: 4c2960e0-5d92-4cc4-9ae8-eb2429865768
+  channel: email
+  name: Variant 1
+  subject: Order Status Update Request
+  html_file: html/ot_em_2024_08_hav_conv_h_vendor_order_update_request.html
+  screenshot: screenshots/ot_em_2024_08_hav_conv_h_vendor_order_update_request.png
+  image_urls:
+  - http://delivery5.klaviyomail.com/wf/open?upn=7wxTjaUDwiA-2Fko63lLgcG3Xm2SNgKmo2O1JTOrg55qtrOatd7qHLHoID05eVs-2FMh-2BB60Tk-2F2WVHolC9kmQJ4QEzW0g2Y7fcI7IVbhUBbYH-2FxG7s1nWScyrkv6fe4eKt24oJqgqezq-2FT-2BgV3x6xjrALhez9fGamj-2Bm0Ee2ntbA35P4HHFJpfeZsAFeFJHSn5UODP7h8cF-2Fnl00C33KeZ6qbzZhaFZ4cG22betKY1KJ9eRcJZYhOC4hO6B970v0m4egVL097VRczSYvIHEpvhYHc4kYvT7caGMXAD9wNJt-2B7WbAmgLgjTDXo5gPUoo36vu
+- id: de021e9a-78e5-4bdf-a98f-db427066ab70
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 84
+  total_delivered: 84
+  total_opens: 86
+  total_clicks: 3
+  open_rate: 1.0238
+  click_rate: 0.0357
+  ga4:
+    sessions: 11
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.678562'
+    source: snowflake
+    channel: email
+schedule_type: api_triggered

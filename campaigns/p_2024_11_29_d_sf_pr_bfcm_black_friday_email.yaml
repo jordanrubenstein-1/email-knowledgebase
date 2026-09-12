@@ -1,0 +1,74 @@
+id: 39e054f1-3272-4e9b-b274-af67629837fe
+name: P_2024_11_29_D_SF_PR_BFCM_Black_Friday_Email
+brand: STF
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: 39e054f1-3272-4e9b-b274-af67629837fe
+dates:
+  send_date: '2024-11-29'
+  inferred_send_type: local_time
+  first_sent: '2024-11-28T17:06:48+00:00'
+  last_sent: '2024-11-29T15:00:11+00:00'
+tags: []
+sends:
+- id: c0985eea-87db-475d-a51c-8d12918a12a4
+  channel: email
+  name: Variant 1
+  subject: The Friday of all Fridays
+  preheader: celebrate with up to 35% off everything
+  html_file: html/p_2024_11_29_d_sf_pr_bfcm_black_friday_email.html
+  screenshot: screenshots/p_2024_11_29_d_sf_pr_bfcm_black_friday_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6747d69db90c7300666be7bc/original.gif?1732761245
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6747d6cab90c7300756bb0b7/original.jpg?1732761290
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6747d6883c61ee006610cd3f/original.gif?1732761224
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6747d64b0fe67900633130ce/original.gif?1732761163
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6747d68f7a7ce80065497225/original.gif?1732761231
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6747d6977a7ce8006549722c/original.gif?1732761239
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6747d6798b572d006542e6bb/original.gif?1732761209
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6747d6ab63d0cf00654c7f6f/original.gif?1732761259
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6747d6a6b90c7300666be7bd/original.gif?1732761253
+- id: 171694c7-5401-460c-b9bf-b12edb02ca64
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 3697
+  total_delivered: 3654
+  total_opens: 1846
+  total_clicks: 59
+  open_rate: 0.4993
+  click_rate: 0.016
+  total_revenue: 2244.0
+  total_unsubscribes: 5
+  ga4:
+    sessions: 70
+    purchases: 2
+    revenue: 451.3
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.675055'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: stf-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:30.857136'
+schedule_type: time_based

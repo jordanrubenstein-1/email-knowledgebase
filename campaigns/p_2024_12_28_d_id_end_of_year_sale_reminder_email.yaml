@@ -1,0 +1,74 @@
+id: 385bcef2-6551-4b2c-b4cf-cadbf71e5003
+name: P_2024_12_28_D_ID_End_of_Year_Sale_Reminder_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 385bcef2-6551-4b2c-b4cf-cadbf71e5003
+dates:
+  send_date: '2024-12-28'
+  inferred_send_type: scheduled
+  first_sent: '2024-12-28T14:15:03+00:00'
+  last_sent: '2024-12-28T14:16:30+00:00'
+tags: []
+sends:
+- id: 81ecb0e1-4d3e-47c4-a8ed-cbfe8a943396
+  channel: email
+  name: Variant 1
+  subject: 20% OFF SITEWIDE!
+  preheader: It’s the best way to end the year.
+- id: b4eb2b6e-1d87-48fb-b7ad-5e367a2f91d9
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 92158
+  total_delivered: 91287
+  total_opens: 24886
+  total_clicks: 612
+  open_rate: 0.27
+  click_rate: 0.0066
+  total_revenue: 236451.0
+  total_bounces: 3
+  total_unsubscribes: 118
+  ga4:
+    sessions: 1003
+    purchases: 5
+    revenue: 14409.56
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.536014'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: 25% off sitewide
+    type: null
+  - id: id-end-of-year-sale-extension-2025-01-03
+    name: End of Year Sale (EXTENSION)
+    start_date: '2024-12-26'
+    end_date: '2025-01-06'
+    discount: 25% off sitewide
+    type: null
+  - id: id_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: id-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: 25% off sitewide
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: 25% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:36.628772'
+schedule_type: time_based

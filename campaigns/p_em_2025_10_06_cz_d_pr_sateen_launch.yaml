@@ -1,0 +1,61 @@
+id: 8d204b05-c469-4f17-a0a9-4ca9de54f6ac
+name: P_EM_2025_10_06_CZ_D_PR_Sateen_Launch
+brand: CZ
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 8d204b05-c469-4f17-a0a9-4ca9de54f6ac
+dates:
+  send_date: '2025-10-06'
+  inferred_send_type: scheduled
+  first_sent: '2025-10-06T03:31:23+00:00'
+  last_sent: '2025-10-06T17:15:51+00:00'
+tags:
+- am
+- batch and blast
+- bedding
+- collect
+- d2c
+- designed
+- prod
+sends:
+- id: 6e07bba9-d632-4f5e-b0d2-c29c44cd3f37
+  channel: email
+  name: Variant 1
+  subject: 'JUST IN: Sateen Bedding'
+  preheader: Exceptionally soft and luxuriously smooth.
+  html_file: html/p_em_2025_10_06_cz_d_pr_sateen_launch.html
+  screenshot: screenshots/p_em_2025_10_06_cz_d_pr_sateen_launch.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e03f6d7d5e170063c4e543/original.png?1759526765
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e03f1cb927a90063821b78/original.png?1759526684
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e03f2d29afe4007245b905/original.png?1759526700
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e04bf7225c720064d7aa03/original.gif?1759529975
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e03f52a3ec7b006597e4f8/original.png?1759526737
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e03f7fb7858f00630db8cb/original.png?1759526783
+- id: d08d4f43-da7f-425f-b0ed-ec08a37e1b0d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 112004
+  total_delivered: 111345
+  total_opens: 59121
+  total_clicks: 623
+  open_rate: 0.5278
+  click_rate: 0.0056
+  total_bounces: 19
+  total_unsubscribes: 212
+  ga4:
+    sessions: 505
+    purchases: 9
+    revenue: 2623.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.994933'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.520087'
+schedule_type: time_based

@@ -1,0 +1,29 @@
+id: c58885a0-f781-4b7a-8efe-f11969ca2a58
+name: P_SMS_2026_03_25_CZ_Spring_Cleaning
+brand: CZ
+channel: sms
+category: other
+type: seasonal
+theme: spring
+braze_id: c58885a0-f781-4b7a-8efe-f11969ca2a58
+dates:
+  send_date: '2026-03-25'
+  inferred_send_type: local_time
+  first_sent: '2026-03-24T21:18:13+00:00'
+  last_sent: '2026-03-25T20:03:46+00:00'
+tags: []
+sends:
+- id: 31451250-9849-47ae-8eaf-e110a1354c68
+  channel: sms
+  name: Variant 1
+- id: 4bc4c7cf-3897-4079-aef5-c2895277004a
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 20293
+  total_delivered: 16459
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+schedule_type: time_based

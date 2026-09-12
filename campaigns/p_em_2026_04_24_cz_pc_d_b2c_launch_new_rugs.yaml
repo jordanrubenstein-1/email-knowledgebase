@@ -1,0 +1,50 @@
+id: 6f1b69cf-3740-4ec2-94eb-934aaa01c992
+name: P_EM_2026_04_24_CZ_PC_D_B2C_Launch_New_Rugs
+brand: CZ
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 6f1b69cf-3740-4ec2-94eb-934aaa01c992
+dates:
+  send_date: '2026-04-24'
+  last_sent: '2026-04-24'
+tags:
+- batch and blast
+- d2c
+- designed
+- event
+- sale
+- sale/sleepsale2026
+sends:
+- id: fde9bea2-e2f2-4a35-80f7-9d7efb5657f6
+  channel: email
+  name: Variant 1
+  subject: A new rug collection has arrived
+  preheader: Plus, 20% off during the Sleep Well Sale.
+  html_file: html/p_em_2026_04_24_cz_pc_d_b2c_launch_new_rugs.html
+  screenshot: screenshots/p_em_2026_04_24_cz_pc_d_b2c_launch_new_rugs.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f89e9aab2a1b008187410c/original.png?1777901210
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f8b1d2039cdd007f1f2d9e/original.png?1777906129
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f8b20b8ec29a007f88a6a9/original.png?1777906186
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f8b24b860332007d7def9e/original.png?1777906250
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f8b1c1692a64009a977d55/original.png?1777906112
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f8b25e48f481007d663d95/original.png?1777906270
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f8b20059d78f007fc82435/original.png?1777906175
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f89f6ac3fc52009addca5d/original.png?1777901418
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f8b228efcb67007facdc1f/original.png?1777906215
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f8b27a547a1e007f2b699b/original.png?1777906298
+- id: 280cfafc-e979-4bb9-ab8b-610811e9852d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 1038
+  total_delivered: 1031
+  total_opens: 144
+  total_clicks: 19
+  open_rate: 0.1387
+  click_rate: 0.0183
+  total_unsubscribes: 1
+_filename: p_em_2026_04_24_cz_pc_d_b2c_launch_new_rugs.yaml
+schedule_type: time_based

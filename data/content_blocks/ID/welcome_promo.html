@@ -1,0 +1,16 @@
+<table class="nl-container" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;background-color:#fff"><tbody><tr><td><table class="row row-1" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tbody><tr><td><table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;color:#000;width:600px;margin:0 auto" width="600"><tbody><tr><td class="column column-1" width="100%" style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top"><table class="html_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad"><div style="font-family:'Open Sans',Arial,Sans-serif;text-align:center" align="center">{%- assign sale_ea_start        = "2026-06-05 07:00:00" | date: "%s" -%}
+{%- assign sale_reg_start       = "2026-06-05 07:00:00" | date: "%s" -%}
+{%- assign sale_extension_start = "2026-06-09 07:00:00" | date: "%s" -%}
+{%- assign sale_end             = "2026-06-09 07:00:00" | date: "%s" -%}
+{%- assign now = 'now' | date: "%s" -%}
+{% if now >= sale_ea_start and now < sale_reg_start %}
+{%- comment -%}no EA banner for this sale{%- endcomment -%}
+{% elsif now >= sale_reg_start and now <= sale_extension_start %}
+<div style="max-width:600px"><a href="https://www.interiordefine.com?lid={{${cblid} | lid: '2v1c1x910gmq'}}" target="_blank"><img src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a1f3b47c36b0700817d4724/original.png?1780431686" style="display:block;height:auto;border:0;width:100%" width="600" alt="Weekender Sale: 25% Off Sitewide" title="Weekender Sale: 25% Off Sitewide" height="auto"></a></div>
+{% elsif now >= sale_extension_start and now <= sale_end %}
+{%- comment -%}no extension banner for this sale{%- endcomment -%}
+{% else %}
+<div style="max-width:600px"><a href="https://www.interiordefine.com/?lid={{${cblid} | lid: 'gacf79fmtht8'}}" target="_blank"><img src="https://braze-images.com/appboy/communication/assets/image_assets/images/68efaf4f053179006334c3b0/original.png?1760538446" style="display:block;height:auto;border:0;width:100%" width="600" alt="15% Off Your Next Order. Use Code: WELCOME15-A6J8D3." title="15% Off Your Next Order. Use Code: WELCOME15-A6J8D3." height="auto"></a></div>
+{% endif %}
+</div></td></tr></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table>
+<!-- End -->

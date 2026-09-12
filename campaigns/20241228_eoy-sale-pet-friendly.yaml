@@ -1,0 +1,80 @@
+id: 970fd247-5ecb-442b-b5ce-0aafbd156874
+name: 20241228_EOY-Sale-Pet-Friendly
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 970fd247-5ecb-442b-b5ce-0aafbd156874
+dates:
+  inferred_send_type: local_time
+  first_sent: '2024-12-27T17:23:33+00:00'
+  last_sent: '2024-12-28T17:15:10+00:00'
+tags: []
+sends:
+- id: 9c3c100f-caf9-4e74-b1da-ffd38aaf7e7f
+  channel: email
+  name: Variant 1
+  subject: Pet-friendly furniture, now on sale
+  preheader: Sit. Stay. Roll over.
+- id: c078cefa-bffb-44c9-8309-763f86602e28
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 597
+    purchases: 2
+    revenue: 773.1
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.662021'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  - id: bur-end-of-year-sale-extension-2025-01-01
+    name: End of Year Sale (EXTENSION)
+    start_date: '2024-12-20'
+    end_date: '2025-01-05'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  - id: bur_eoy_2024_12_20
+    name: End of Year Sale
+    start_date: '2024-12-19'
+    end_date: '2024-12-31'
+    discount: null
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:32.674073'
+schedule_type: time_based

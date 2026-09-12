@@ -1,0 +1,56 @@
+id: 230260b2-b61d-4b8e-a8b0-ccc0d618ffc9
+name: P_2024_12_5_D_CZ_PR_Home_for_the_Holidays_Email
+brand: CZ
+channel: email
+category: other
+type: seasonal
+theme: christmas
+braze_id: 230260b2-b61d-4b8e-a8b0-ccc0d618ffc9
+dates:
+  send_date: '2024-12-05'
+  inferred_send_type: local_time
+  first_sent: '2024-12-05T01:18:55+00:00'
+  last_sent: '2024-12-05T17:01:27+00:00'
+tags: []
+sends:
+- id: f27eab82-9cfa-480d-90d8-3df296938155
+  channel: email
+  name: Variant 1
+  subject: Home for the Holidays
+  preheader: And look good doing it.
+  html_file: html/p_2024_12_5_d_cz_pr_home_for_the_holidays_email.html
+  screenshot: screenshots/p_2024_12_5_d_cz_pr_home_for_the_holidays_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6750a2612aaa740065508cbb/original.jpg?1733337697
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6750a217e617100065fef451/original.jpg?1733337623
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6750cb8d1ba87b00637599d3/original.gif?1733348237
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6750a2a93cf8ed0064342c8f/original.jpg?1733337769
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6750a1d56723f90074d0e879/original.jpg?1733337557
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6750fef7fcd8f70065039db7/original.png?1733361399
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6750a23a4619210065f34a62/original.gif?1733337658
+- id: 3e5d5d5d-c691-4abb-b809-e357969d5ad2
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 95736
+  total_delivered: 95096
+  total_opens: 47252
+  total_clicks: 668
+  open_rate: 0.4936
+  click_rate: 0.007
+  total_revenue: 58200.85
+  total_bounces: 5
+  total_unsubscribes: 255
+  ga4:
+    sessions: 645
+    purchases: 1
+    revenue: 453.34
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.645385'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.931877'
+schedule_type: time_based

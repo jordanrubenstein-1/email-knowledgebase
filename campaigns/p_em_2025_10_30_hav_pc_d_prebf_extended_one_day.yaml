@@ -1,0 +1,37 @@
+id: 37aa2ec1-3fb4-4164-af1e-e0925fbb33c0
+name: P_EM_2025_10_30_HAV_PC_D_PREBF_EXTENDED_ONE_DAY
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 37aa2ec1-3fb4-4164-af1e-e0925fbb33c0
+dates:
+  send_date: '2025-10-30'
+  first_sent: '2025-10-29T19:57:22+00:00'
+  last_sent: '2025-10-30T20:15:16+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 576faf82-176a-4f37-836f-9060a5999e60
+  channel: email
+  name: Variant 1
+  subject: 'SURPRISE: It’s Back!
+
+    '
+  preheader: One more day to shop our best deal ever!
+- id: 4120f2df-d23d-4ab9-a5d6-a94bd219b9b6
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 243820
+  total_delivered: 242739
+  total_opens: 97841
+  total_clicks: 495
+  open_rate: 0.4013
+  click_rate: 0.002
+  total_bounces: 14
+  total_unsubscribes: 691
+schedule_type: time_based
+_filename: p_em_2025_10_30_hav_pc_d_prebf_extended_one_day.yaml

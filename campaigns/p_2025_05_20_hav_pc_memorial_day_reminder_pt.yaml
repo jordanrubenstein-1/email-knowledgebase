@@ -1,0 +1,35 @@
+id: 87ff9854-0353-432b-88f0-ceeb4dedaf5e
+name: P_2025_05_20_HAV_PC_Memorial_Day_Reminder_PT
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 87ff9854-0353-432b-88f0-ceeb4dedaf5e
+dates:
+  send_date: '2025-05-20'
+  first_sent: '2025-05-19T21:25:22+00:00'
+  last_sent: '2025-05-20T18:15:05+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 93bd55c4-6b57-42d2-b0a1-22ca8c2ce9cb
+  channel: email
+  name: Variant 1
+  subject: Design packages are HALF OFF during our Memorial Day Sale
+  preheader: Get your home summer-ready for less.
+- id: ed83a8f8-4d60-4fd3-94db-5ebe92d469e2
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 217757
+  total_delivered: 214116
+  total_opens: 95980
+  total_clicks: 599
+  open_rate: 0.4408
+  click_rate: 0.0028
+  total_bounces: 13
+  total_unsubscribes: 592
+schedule_type: time_based
+_filename: p_2025_05_20_hav_pc_memorial_day_reminder_pt.yaml

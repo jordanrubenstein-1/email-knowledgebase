@@ -1,0 +1,68 @@
+id: 43bcde4a-4b23-4e87-80c6-d6e15a1548fc
+name: P_EM_2025_07_25_SF_D_PR_Pillow_Talk_Flash_Sale
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 43bcde4a-4b23-4e87-80c6-d6e15a1548fc
+dates:
+  send_date: '2025-07-25'
+  inferred_send_type: scheduled
+  first_sent: '2025-07-25T05:37:44+00:00'
+  last_sent: '2025-07-25T17:00:40+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: 40d114cc-3f40-4fed-979f-bce7224d7139
+  channel: email
+  name: Variant 1
+  subject: 20% Off Pillows Starts NOW
+  preheader: plus free shipping on orders over $150
+- id: 63f4e695-c7fe-4268-a8e2-7360b5cbe7fb
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41787
+  total_delivered: 41694
+  total_opens: 19139
+  total_clicks: 275
+  open_rate: 0.458
+  click_rate: 0.0066
+  total_revenue: 11850.0
+  total_bounces: 1
+  total_unsubscribes: 66
+  ga4:
+    sessions: 330
+    purchases: 12
+    revenue: 3742.76
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.118336'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-the-pillow-event-2025-07-25
+    name: The Pillow Event
+    start_date: '2025-07-25'
+    end_date: '2025-07-31'
+    discount: 20% Off All Pillows
+    type: null
+  primary_sale:
+    id: stf-the-pillow-event-2025-07-25
+    name: The Pillow Event
+    start_date: '2025-07-25'
+    end_date: '2025-07-31'
+    discount: 20% Off All Pillows
+    type: null
+  sale_name: The Pillow Event
+  sale_discount: 20% Off All Pillows
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:44.822171'
+schedule_type: time_based

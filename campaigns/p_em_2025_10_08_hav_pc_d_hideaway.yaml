@@ -1,0 +1,35 @@
+id: 242296cf-cd92-418b-b7bb-e9528f305e4f
+name: P_EM_2025_10_08_HAV_PC_D_Hideaway
+brand: HAV
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 242296cf-cd92-418b-b7bb-e9528f305e4f
+dates:
+  send_date: '2025-10-08'
+  first_sent: '2025-10-08T02:06:10+00:00'
+  last_sent: '2025-10-09T03:00:29+00:00'
+  inferred_send_type: local_time
+tags:
+- HideawayEmails
+sends:
+- id: b29d10d4-6b81-4f5e-834e-d24b7dd4d4d8
+  channel: email
+  name: Variant 1
+  subject: 'What do cooking and interior design have in common? '
+  preheader: Get the recipe
+- id: 3de47daa-8a78-4bb5-ad69-9463e8a56ae6
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 241032
+  total_delivered: 238094
+  total_opens: 97906
+  total_clicks: 745
+  open_rate: 0.4062
+  click_rate: 0.0031
+  total_bounces: 39
+  total_unsubscribes: 422
+schedule_type: time_based
+_filename: p_em_2025_10_08_hav_pc_d_hideaway.yaml

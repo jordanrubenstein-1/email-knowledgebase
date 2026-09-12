@@ -1,0 +1,48 @@
+id: 579baa30-4a15-41d3-812c-e3ef99bbd277
+name: P_2025_03_23_CZ_The_Spring_Event_Spring_Palette_Email
+brand: CZ
+channel: email
+category: editorial
+type: seasonal
+theme: spring
+braze_id: 579baa30-4a15-41d3-812c-e3ef99bbd277
+dates:
+  send_date: '2025-03-23'
+  inferred_send_type: local_time
+  first_sent: '2025-03-22T17:07:21+00:00'
+  last_sent: '2025-03-23T17:01:23+00:00'
+tags: []
+sends:
+- id: 08f486d9-6258-4870-af45-7823ec5a3cd3
+  channel: email
+  name: Variant 1
+  subject: Spring Into Color
+  preheader: The pastel palette of our dreams.
+  html_file: html/p_2025_03_23_cz_the_spring_event_spring_palette_email.html
+  screenshot: screenshots/p_2025_03_23_cz_the_spring_event_spring_palette_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dca19b39343900652e11c0/original.png?1742512539
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0d21872d82d0068a9187d/original.png?1741738520
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dc58e320ad5100652efddc/original.png?1742493922
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dc58f5d1427a00658b7cdd/original.png?1742493940
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dc5904eb9b130067c11d5d/original.png?1742493956
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dc58d99400b4006478578b/original.png?1742493913
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dca1bf120f0500662091ad/original.png?1742512575
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0d1d27f0c140066a8824c/original.png?1741738449
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0d1edc7fe8a0066f3ef76/original.png?1741738477
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0d20d6380bd0074fa5c9a/original.png?1741738509
+- id: 4681b2f1-692e-4f74-8770-014a43887850
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 92274
+  total_delivered: 91466
+  total_opens: 48701
+  total_clicks: 772
+  open_rate: 0.5278
+  click_rate: 0.0084
+  total_revenue: 94992.55
+  total_bounces: 2
+  total_unsubscribes: 97
+_filename: p_2025_03_23_cz_the_spring_event_spring_palette_email.yaml
+schedule_type: time_based

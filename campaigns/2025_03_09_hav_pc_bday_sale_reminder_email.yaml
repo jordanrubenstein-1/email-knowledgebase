@@ -1,0 +1,35 @@
+id: a3601507-f05d-4a14-be3c-161a505d2254
+name: 2025_03_09_HAV_PC_Bday_Sale_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: a3601507-f05d-4a14-be3c-161a505d2254
+dates:
+  send_date: '2025-03-09'
+  first_sent: '2025-03-08T17:21:35+00:00'
+  last_sent: '2025-03-09T18:15:05+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: ae4a7ed9-6fb0-4386-8a41-e358985f8d9d
+  channel: email
+  name: Variant 1
+  subject: This Sale Only Happens Once A Year…
+  preheader: HALF OFF interior design services during our birthday sale!
+- id: 2ff945da-6410-4ff4-98e5-6d30cbfdb243
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 195148
+  total_delivered: 191851
+  total_opens: 87464
+  total_clicks: 698
+  open_rate: 0.4482
+  click_rate: 0.0036
+  total_bounces: 2
+  total_unsubscribes: 397
+schedule_type: time_based
+_filename: 2025_03_09_hav_pc_bday_sale_reminder_email.yaml

@@ -1,0 +1,55 @@
+id: 652fd6a0-8651-4d7c-b84e-36fd43fa3a46
+name: P_2025_2_28_HAV_Conv_ Rendering_Roundup_Spring_Email
+brand: HAV
+channel: email
+category: other
+type: seasonal
+theme: spring
+braze_id: 652fd6a0-8651-4d7c-b84e-36fd43fa3a46
+dates:
+  send_date: '2025-02-28'
+  inferred_send_type: local_time
+  first_sent: '2025-02-28T01:33:18+00:00'
+  last_sent: '2025-02-28T17:15:19+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: e2719b38-c196-4bcf-aa9d-ae38e7c78ca3
+  channel: email
+  name: Variant 1
+  subject: Fresh Spring Design Inspo 🌷
+  preheader: ' Mentally, we’re here.'
+  html_file: html/p_2025_2_28_hav_conv_-rendering_roundup_spring_email.html
+  screenshot: screenshots/p_2025_2_28_hav_conv_-rendering_roundup_spring_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c0f046a4203e0064e3d69c/original.png?1740697670
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c0f058a8aa690063775bcf/original.png?1740697687
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c0f06efeb95900623b6486/original.png?1740697710
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c0f0607bd28f00627a943e/original.png?1740697696
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c0f04e88f59d0064e3d098/original.png?1740697678
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c0f0372f7ad100620d98ae/original.png?1740697654
+- id: 7d80c6b6-9d28-4139-b089-e0d5ad0b22bd
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 38381
+  total_delivered: 38279
+  total_opens: 21048
+  total_clicks: 156
+  open_rate: 0.5484
+  click_rate: 0.0041
+  total_bounces: 1
+  total_unsubscribes: 60
+  ga4:
+    sessions: 219
+    purchases: 1
+    revenue: 1179.98
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.537142'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.995242'
+schedule_type: time_based

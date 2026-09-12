@@ -1,0 +1,35 @@
+id: 52e75c15-95df-4180-a654-65de7e74b0e8
+name: P_EM_2026_05_02_HAV_PC_D_AI_Feature_Resend
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 52e75c15-95df-4180-a654-65de7e74b0e8
+dates:
+  send_date: '2026-05-02'
+  first_sent: '2026-05-01T11:06:38+00:00'
+  last_sent: '2026-05-03T09:05:33+00:00'
+  inferred_send_type: sto
+tags:
+- BLASTS-2025
+sends:
+- id: 19f1a931-5f56-4e13-8d76-6c665220c161
+  channel: email
+  name: Variant 1
+  subject: Have you tried Havenly's AI yet?
+  preheader: Drop a photo of your room and see what our AI does with it.
+- id: 60fd53d6-11ac-4021-b3f7-3b1f625dc457
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 76305
+  total_delivered: 76037
+  total_opens: 30122
+  total_clicks: 459
+  open_rate: 0.3948
+  click_rate: 0.006
+  total_bounces: 1
+  total_unsubscribes: 213
+schedule_type: time_based
+_filename: p_em_2026_05_02_hav_pc_d_ai_feature_resend.yaml

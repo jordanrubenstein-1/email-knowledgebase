@@ -1,0 +1,35 @@
+id: 336ee61e-d2ab-4bf1-b9d4-c0774f2cbedd
+name: P_2025_1_1_D_ID_PR_End_of_Year_Sale_Reminder_D_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 336ee61e-d2ab-4bf1-b9d4-c0774f2cbedd
+dates:
+  send_date: '2025-01-01'
+  inferred_send_type: scheduled
+  first_sent: '2025-01-01T14:15:01+00:00'
+  last_sent: '2025-01-01T14:16:20+00:00'
+tags: []
+sends:
+- id: a4160010-1471-40f5-bb72-276a77a59772
+  channel: email
+  name: Variant 1
+  subject: 'ICYMI: 20% Off Sitewide Is On!'
+  preheader: Consider this your sign to save big.
+- id: af5b81f0-515d-4580-b3da-1579f7523662
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 92776
+  total_delivered: 91921
+  total_opens: 26914
+  total_clicks: 482
+  open_rate: 0.2901
+  click_rate: 0.0052
+  total_revenue: 176684.75
+  total_bounces: 6
+  total_unsubscribes: 139
+_filename: p_2025_1_1_d_id_pr_end_of_year_sale_reminder_d_email.yaml
+schedule_type: time_based

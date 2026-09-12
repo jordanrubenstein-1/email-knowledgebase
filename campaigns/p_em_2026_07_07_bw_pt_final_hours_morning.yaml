@@ -1,0 +1,33 @@
+id: f60ba4e4-a570-498b-93ae-86e9c6d96608
+name: P_EM_2026_07_07_BW_PT_Final_Hours_Morning
+brand: BUR
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: f60ba4e4-a570-498b-93ae-86e9c6d96608
+dates:
+  send_date: '2026-07-07'
+  last_sent: '2026-07-07'
+tags:
+- Batch&Blast
+sends:
+- id: 612afaca-2908-4356-9552-c6115c07e124
+  channel: email
+  name: Variant 1
+  subject: TODAY IS THE LAST DAY
+- id: 5f0107a6-7ff3-4aee-af5f-71ba7091fde7
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 229034
+  total_delivered: 227214
+  total_opens: 115220
+  total_clicks: 440
+  open_rate: 0.5031
+  click_rate: 0.0019
+  total_revenue: 124229.0
+  total_bounces: 9
+  total_unsubscribes: 159
+schedule_type: time_based
+_filename: p_em_2026_07_07_bw_pt_final_hours_morning.yaml

@@ -1,0 +1,59 @@
+id: 467ac87b-55c5-46b4-9c2c-c2c21b58d54d
+name: P_2025_03_04_D_CZ_Spring_Refresh_Edit
+brand: CZ
+channel: email
+category: editorial
+type: seasonal
+theme: spring
+braze_id: 467ac87b-55c5-46b4-9c2c-c2c21b58d54d
+dates:
+  send_date: '2025-03-04'
+  inferred_send_type: scheduled
+  first_sent: '2025-03-04T02:51:00+00:00'
+  last_sent: '2025-03-04T17:01:37+00:00'
+tags: []
+sends:
+- id: db0f0907-e073-47ae-969a-92152f3d1b9b
+  channel: email
+  name: Variant 1
+  subject: Fresh Picks For Spring
+  preheader: Discover the spring refresh edit.
+  html_file: html/p_2025_03_04_d_cz_spring_refresh_edit.html
+  screenshot: screenshots/p_2025_03_04_d_cz_spring_refresh_edit.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c5ef53626c430064e88b35/original.png?1741025107
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c5eebc7a57ba0063f8ed9d/original.png?1741024956
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c5ee51f2ce2900628ab578/original.png?1741024848
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c6411b1f8e7b0065b432b1/original.png?1741046043
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c5eee97a57ba0063f8ee22/original.png?1741025001
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c5ee5c35d7da00723b21b0/original.png?1741024860
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c640900685c70067c0a4e0/original.png?1741045903
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c5eef4f016430062bcb0b0/original.png?1741025012
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c5eec5f8cce7007467754d/original.png?1741024965
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c5eece7a57ba0063f8edb0/original.png?1741024973
+- id: 97800f84-5deb-4f71-b1e7-fb455ecc860a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 90928
+  total_delivered: 90177
+  total_opens: 47467
+  total_clicks: 633
+  open_rate: 0.522
+  click_rate: 0.007
+  total_revenue: 36725.96
+  total_bounces: 3
+  total_unsubscribes: 150
+  ga4:
+    sessions: 774
+    purchases: 6
+    revenue: 1988.72
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.463320'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.197746'
+schedule_type: time_based

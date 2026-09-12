@@ -1,0 +1,37 @@
+id: 3f9f0715-205e-45d8-b259-1f85cd6f5380
+name: OT_EM_2026_03_HAV_CONV_H_Schedule_Design_Review_Followup
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 3f9f0715-205e-45d8-b259-1f85cd6f5380
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-03-24T15:00:00+00:00'
+  last_sent: '2026-03-28T10:00:00+00:00'
+tags: []
+sends:
+- id: 5d4482bc-771a-4349-9962-b163ca995a69
+  channel: email
+  name: Variant 1
+  subject: Review your design in 3D with your designer
+  preheader: 'Hi {{${first_name} | default: ''there''}}, We noticed your Design Review
+    hasn’t been scheduled yet. Reviewing your design live with your designer allows
+    you to walk through the space in 3D, understand key design decisions, share feedback,
+    and make updates together.'
+  html_file: html/ot_em_2026_03_hav_conv_h_schedule_design_review_followup.html
+  screenshot: screenshots/ot_em_2026_03_hav_conv_h_schedule_design_review_followup.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697ce0b41dead00063d9b3c5/original.png?1769791668
+- id: db4e6c7f-1bcf-4ffd-a5df-5b1f5576f445
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 207
+  total_delivered: 207
+  total_opens: 148
+  total_clicks: 24
+  open_rate: 0.715
+  click_rate: 0.1159
+schedule_type: api_triggered

@@ -1,0 +1,35 @@
+id: 577f2002-e2d6-4871-a41d-f00f8f2b79b2
+name: P_2025_05_13_ID_PT_MDW_EA_Last_Chance_Full_File_Email
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 577f2002-e2d6-4871-a41d-f00f8f2b79b2
+dates:
+  send_date: '2025-05-13'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-13T17:22:09+00:00'
+  last_sent: '2025-05-13T17:22:29+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 8fbaad5b-bbc1-459c-b565-7bdb56e0533b
+  channel: email
+  name: Variant 1
+  subject: 'RE: Your VIP Early Access ends tonight'
+- id: 527bd120-99dc-48b0-afd0-641279cd2ed8
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 98305
+  total_delivered: 96954
+  total_opens: 26918
+  total_clicks: 451
+  open_rate: 0.2738
+  click_rate: 0.0046
+  total_revenue: 57036.0
+  total_bounces: 51
+  total_unsubscribes: 139
+_filename: p_2025_05_13_id_pt_mdw_ea_last_chance_full_file_email.yaml
+schedule_type: time_based

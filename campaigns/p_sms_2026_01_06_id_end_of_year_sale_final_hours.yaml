@@ -1,0 +1,30 @@
+id: a90ec876-8372-420d-bdfd-568619fd2b10
+name: P_SMS_2026_01_06_ID_End_Of_Year_Sale_Final_Hours
+brand: ID
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: a90ec876-8372-420d-bdfd-568619fd2b10
+dates:
+  send_date: '2026-01-06'
+  inferred_send_type: local_time
+  first_sent: '2026-01-06T01:08:21+00:00'
+  last_sent: '2026-01-07T01:01:08+00:00'
+tags: []
+sends:
+- id: 404570e3-b6eb-4a7c-b302-5d1f8b618924
+  channel: sms
+  name: Variant 1
+- id: 437dd536-5955-4cab-af3b-7e35428a639c
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 49620
+  total_delivered: 47383
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 12770.0
+schedule_type: time_based

@@ -1,0 +1,84 @@
+id: b2738625-b791-4d5e-8a37-1b24915d20f8
+name: P_EM_2025_08_08_CZ_D_PR_Sunset_Sale_Categories
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: b2738625-b791-4d5e-8a37-1b24915d20f8
+dates:
+  send_date: '2025-08-08'
+  inferred_send_type: local_time
+  first_sent: '2025-08-07T21:28:25+00:00'
+  last_sent: '2025-08-08T19:02:17+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale_feat
+sends:
+- id: fbfe912e-7130-4eae-a4fd-438d89faf78e
+  channel: email
+  name: Variant 1
+  subject: Get Fall Ready (+ 20% Off)
+  preheader: Welcome a new season at home with 20% off statement decor.
+  html_file: html/p_em_2025_08_08_cz_d_pr_sunset_sale_categories.html
+  screenshot: screenshots/p_em_2025_08_08_cz_d_pr_sunset_sale_categories.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6893966c43d53d00634e9baf/original.png?1754502764
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6893965a4720c000829986e3/original.png?1754502745
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68950b26f8c03a006350976a/original.gif?1754598182
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68950b81431dad0062a5bd75/original.png?1754598272
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6893964e8c7e4800630b1edd/original.png?1754502734
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68950b8cd86fdf007260d980/original.png?1754598283
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689396654720c00062998b50/original.png?1754502757
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68950b3e8927d30062038ccd/original.png?1754598206
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68950b67cc94730072413b75/original.png?1754598247
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68939643cd4c5b00635e3bb0/original.png?1754502723
+- id: 241fdbee-5e64-4630-9988-54335e321e2f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 99833
+  total_delivered: 99736
+  total_opens: 51417
+  total_clicks: 758
+  open_rate: 0.515
+  click_rate: 0.0076
+  total_revenue: 66081.02
+  total_bounces: 2
+  total_unsubscribes: 119
+  ga4:
+    sessions: 871
+    purchases: 15
+    revenue: 8034.34
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.430999'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: Up to 65% Off Select Categories - Focus on Archive Sale and In Stock
+      Product
+    type: null
+  primary_sale:
+    id: cz-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: Up to 65% Off Select Categories - Focus on Archive Sale and In Stock
+      Product
+    type: null
+  sale_name: The Sunset Sale
+  sale_discount: Up to 65% Off Select Categories - Focus on Archive Sale and In Stock
+    Product
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:42.566621'
+schedule_type: time_based

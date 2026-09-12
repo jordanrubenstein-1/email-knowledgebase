@@ -1,0 +1,34 @@
+id: b4b9025c-4e93-4767-8a0c-f20473775d23
+name: 2025_03_24_HAV_Conv_Birthday_Clearance
+brand: HAV
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: b4b9025c-4e93-4767-8a0c-f20473775d23
+dates:
+  send_date: '2025-03-24'
+  first_sent: '2025-03-24T13:15:03+00:00'
+  last_sent: '2025-03-24T13:18:01+00:00'
+  inferred_send_type: scheduled
+tags:
+- BLASTS-2025
+sends:
+- id: d2664a2f-fa61-46a7-8a24-4ccdff26de1e
+  channel: email
+  name: Variant 1
+  subject: Our Sale Is On Sale!
+  preheader: Yes, you read that right.
+- id: 07e6a44d-162a-4874-98c9-63f0170d7141
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 39284
+  total_delivered: 39156
+  total_opens: 21552
+  total_clicks: 291
+  open_rate: 0.5486
+  click_rate: 0.0074
+  total_unsubscribes: 51
+schedule_type: time_based
+_filename: 2025_03_24_hav_conv_birthday_clearance.yaml

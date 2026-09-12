@@ -1,0 +1,58 @@
+id: klaviyo-01J9V8GZNZB70DWE00WVPTS87R
+name: '10/13:Promo: Reminder'
+brand: TI
+channel: email
+category: reminder
+type: sale
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2024-10-10'
+  inferred_send_type: scheduled
+  first_sent: '2024-10-13T07:00:00+00:00'
+  last_sent: '2024-10-13T07:00:00+00:00'
+sends:
+- id: 01J9V8GZPVZ5MEF0PW8ZD1TTR1
+  channel: email
+  name: '10/13:Promo: Reminder'
+  subject: Our treat! Get 20% off sitewide
+  preheader: Because you deserve it.
+  html_file: html/1013promo-reminder.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/b508c51f-f201-4430-9e80-11e7e9e7f812.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/83ac3a72-8629-40e1-8103-37d6c4dcfb94.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/a357017e-6aaf-421d-8247-6a8acd9970b8.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/ffdf864c-a039-4e66-89da-b12b7fa65af8.gif
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/48f8b0bf-f674-4de6-83a6-f00ae0bfb57e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/d02dbed7-eb7d-4157-858e-e60b8b11d4a3.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/127b84a1-8a89-4599-977b-263d66e1b3ce.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/0bbad023-9c58-48b4-8de9-8b141454c906.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/065df24e-6943-48d1-8ad5-506c576ecdbf.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/6b650b6e-2562-49a3-a9b8-df35e74eab66.jpeg
+  screenshot: screenshots/1013promo-reminder.png
+performance_summary:
+  total_sends: 102928
+  total_delivered: 101179
+  total_opens: 34714
+  total_clicks: 502
+  unique_opens: 23926
+  unique_clicks: 251
+  open_rate: 0.2325
+  click_rate: 0.0024
+  total_open_rate: 0.3373
+  total_click_rate: 0.0049
+  total_unsubscribes: 35
+  total_bounces: 1749
+klaviyo_type: campaign
+klaviyo_campaign_id: 01J9V8GZNZB70DWE00WVPTS87R
+klaviyo_message_id: 01J9V8GZPVZ5MEF0PW8ZD1TTR1
+structure:
+  image_count: 24
+  link_count: 25
+  has_gif: true
+  hero_width: 600
+  layout_type: product_grid
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-03-12T11:18:50.276188'

@@ -1,0 +1,23 @@
+id: c74432a4-bc3e-4443-9778-13d8139339fe
+name: PUSH_PC_09_07_Labor_Day_Missed_Sale_Reminder
+brand: HAV
+channel: push
+category: reminder
+type: sale
+theme: null
+braze_id: c74432a4-bc3e-4443-9778-13d8139339fe
+dates:
+  first_sent: '2024-09-07T01:10:00+00:00'
+  last_sent: '2024-09-08T00:10:00+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 0d35c041-ab48-40be-916f-ac991503f825
+  channel: push
+  name: Variant 1
+- id: 595b4f9e-5ee8-47df-90e0-9203d2797859
+  channel: push
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: push_pc_09_07_labor_day_missed_sale_reminder.yaml

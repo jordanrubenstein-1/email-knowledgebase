@@ -1,0 +1,63 @@
+id: 1fab5b78-d630-4f50-968c-4ec685528440
+name: P_EM_2025_08_10_ID_D_Collection_Spotlight_Sloan
+brand: ID
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 1fab5b78-d630-4f50-968c-4ec685528440
+dates:
+  send_date: '2025-08-10'
+  inferred_send_type: local_time
+  first_sent: '2025-08-09T18:22:11+00:00'
+  last_sent: '2025-08-10T17:15:16+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 62756040-597f-4d5e-a8c1-6266fcfd885c
+  channel: email
+  name: Variant 1
+  subject: See Why Customers Love Sloan
+  preheader: Our most-reviewed style, now 20% off.
+- id: 7cd52d2e-24ad-4165-9b81-7d1ac6234dbb
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 114294
+  total_delivered: 114125
+  total_opens: 51153
+  total_clicks: 513
+  open_rate: 0.4476
+  click_rate: 0.0045
+  total_revenue: 117054.0
+  total_bounces: 3
+  total_unsubscribes: 212
+  ga4:
+    sessions: 499
+    purchases: 1
+    revenue: 3161.72
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.538000'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off sitewide
+    type: null
+  primary_sale:
+    id: id-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off sitewide
+    type: null
+  sale_name: The Sunset Sale
+  sale_discount: 20% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:36.718340'
+schedule_type: time_based

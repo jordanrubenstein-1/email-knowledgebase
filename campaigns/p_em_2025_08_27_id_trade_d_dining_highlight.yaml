@@ -1,0 +1,63 @@
+id: 75c06a62-52cb-471d-bc3e-eeecb589f3e5
+name: P_EM_2025_08_27_ID_TRADE_D_Dining_Highlight
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 75c06a62-52cb-471d-bc3e-eeecb589f3e5
+dates:
+  send_date: '2025-08-27'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-27T18:20:50+00:00'
+  last_sent: '2025-08-27T18:22:35+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 260b3128-8179-4149-9b76-0a268adab9a7
+  channel: email
+  name: Variant 1
+  subject: New Dining From Interior Define
+  preheader: Made-to-order furniture for your next project.
+- id: 2d744d0d-a698-46cb-837a-2286c5833500
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 19829
+  total_delivered: 19321
+  total_opens: 10222
+  total_clicks: 203
+  open_rate: 0.5155
+  click_rate: 0.0102
+  total_revenue: 200974.0
+  total_bounces: 1
+  total_unsubscribes: 45
+  ga4:
+    sessions: 272
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.523279'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-04'
+    discount: 25% off sitewide
+    type: null
+  primary_sale:
+    id: id-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-04'
+    discount: 25% off sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 25% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:36.414100'
+schedule_type: time_based

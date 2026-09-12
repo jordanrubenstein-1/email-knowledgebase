@@ -1,0 +1,37 @@
+id: 177e4dc3-d9e9-4505-8ae1-cb979677c6dc
+name: P_2024_09_30_PT_SF_PR_September_Sale_Last_Call_PM_Email
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 177e4dc3-d9e9-4505-8ae1-cb979677c6dc
+dates:
+  send_date: '2024-09-30'
+  inferred_send_type: local_time
+  first_sent: '2024-09-30T04:00:02+00:00'
+  last_sent: '2024-10-01T01:00:14+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: 14032aff-84de-4705-a4a8-43f22e6b5997
+  channel: email
+  name: Variant 1
+  subject: 'Final Curtain Call: 30% OFF'
+  preheader: only a few hours left to save
+  html_file: html/p_2024_09_30_pt_sf_pr_september_sale_last_call_pm_email.html
+  screenshot: screenshots/p_2024_09_30_pt_sf_pr_september_sale_last_call_pm_email.png
+- id: c8c6a66b-b10c-4798-984a-18430ea53146
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1822
+  total_delivered: 1770
+  total_opens: 988
+  total_clicks: 65
+  open_rate: 0.5423
+  click_rate: 0.0357
+  total_revenue: 364.0
+  total_unsubscribes: 12
+_filename: p_2024_09_30_pt_sf_pr_september_sale_last_call_pm_email.yaml
+schedule_type: time_based

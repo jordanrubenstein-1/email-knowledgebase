@@ -1,0 +1,61 @@
+id: 75129702-0714-4924-8e3e-0dc46456bfe9
+name: P_EM_2026_01_01_CZ_D_PR_Rugs_EOY_Sale
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 75129702-0714-4924-8e3e-0dc46456bfe9
+dates:
+  send_date: '2026-01-01'
+  inferred_send_type: local_time
+  first_sent: '2025-12-31T17:20:24+00:00'
+  last_sent: '2026-01-01T17:16:02+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- rugs
+- sale
+- sale/yearend2025
+sends:
+- id: 958a4fe1-0796-4780-8a85-880caae56515
+  channel: email
+  name: Variant 1
+  subject: A New Year, Grounded in Global Design
+  preheader: Up to 25% off heirloom rugs.
+  html_file: html/p_em_2026_01_01_cz_d_pr_rugs_eoy_sale.html
+  screenshot: screenshots/p_em_2026_01_01_cz_d_pr_rugs_eoy_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951d9bb893a450064e527fe/original.png?1766971835
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69545b9b1cf00300631a3a63/original.gif?1767136155
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951d99793508e0065067d39/original.png?1766971798
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69545bd292d73b0063f9f75a/original.png?1767136210
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951d9424d539a0063426a38/original.png?1766971713
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951d9767fc25f006518afd7/original.png?1766971766
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951d989537b66006358100e/original.png?1766971785
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951e536672aed00735f4142/original.png?1766974774
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951d951893a450064e527f2/original.png?1766971729
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951d97bd15a090063b0e1bf/original.png?1766971770
+- id: 35a70da6-dc4f-4f6b-8b36-3818c0a62156
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 54746
+  total_delivered: 54687
+  total_opens: 29245
+  total_clicks: 545
+  open_rate: 0.5342
+  click_rate: 0.01
+  total_bounces: 1
+  total_unsubscribes: 154
+  ga4:
+    sessions: 382
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.455484'
+    source: snowflake
+    channel: email
+schedule_type: time_based

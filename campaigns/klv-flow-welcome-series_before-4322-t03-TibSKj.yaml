@@ -1,0 +1,53 @@
+id: klaviyo-TibSKj
+name: 'Email #3'
+brand: TE
+channel: email
+category: other
+type: lifecycle
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: S8M3Rt
+canvas_name: welcome-series_before-4/3/22
+flow_type: welcome_series
+sequence_position: 3
+dates:
+  created: '2022-05-22'
+  inferred_send_type: sto
+  first_sent: '2022-05-22'
+  last_sent: '2023-04-04'
+sends:
+- id: TibSKj
+  channel: email
+  name: Message
+  subject: BEFORE & AFTER
+  preheader: See how clients are transforming their spaces with The Expert
+  html_file: html/klv-flow-welcome-series_before-4322-t03-TibSKj.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/7e6b56d4-d42a-4aed-9e8f-3e205d86db40.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/9609d113-89eb-4084-8723-4e0876cbaefe.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/957dda6c-6bdf-417b-84ad-5f537e358c67.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/e52a6e45-7914-4ff7-a6a2-1252dd738a60.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/2ec4e2e6-7c33-4c75-a94e-52e69d410118.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/bd29c580-9b7c-48c9-8ffa-d0e8604614e5.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/03798e82-7136-4b31-8695-8ee2b6e9c424.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: TibSKj
+structure:
+  image_count: 7
+  link_count: 7
+  has_gif: false
+  hero_width: 564
+  layout_type: product_grid

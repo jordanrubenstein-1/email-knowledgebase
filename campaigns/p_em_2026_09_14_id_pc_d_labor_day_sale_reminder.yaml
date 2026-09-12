@@ -1,0 +1,25 @@
+id: da55cc20-0b30-451f-bb17-27bd5c94b691
+name: P_EM_2026_09_14_ID_PC_D_Labor_Day_Sale_Reminder
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: da55cc20-0b30-451f-bb17-27bd5c94b691
+dates:
+  send_date: '2026-09-14'
+  last_sent: '2026-09-14'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: daaf71d2-4bbc-46b2-b18e-77ab3cdf4717
+  channel: email
+  name: Variant 1
+  subject: 'Last Chance: Up to 60% Off Ends Soon'
+  preheader: The extension wraps up soon, don't wait.
+- id: fd142934-a22c-45db-af54-58c94635afc7
+  channel: email
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: p_em_2026_09_14_id_pc_d_labor_day_sale_reminder.yaml

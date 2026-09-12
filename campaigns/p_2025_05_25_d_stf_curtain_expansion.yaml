@@ -1,0 +1,46 @@
+id: 80a7b3fc-a15e-4b7d-8a13-684223ce4b05
+name: P_2025_05_25_D_STF_Curtain_Expansion
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 80a7b3fc-a15e-4b7d-8a13-684223ce4b05
+dates:
+  send_date: '2025-05-25'
+  inferred_send_type: local_time
+  first_sent: '2025-05-24T22:59:49+00:00'
+  last_sent: '2025-05-25T17:00:59+00:00'
+tags: []
+sends:
+- id: 1a3aad7d-3767-4ebd-8685-069adf25c39c
+  channel: email
+  name: Variant 1
+  subject: 'Cue the Curtain: NEW prints are here!'
+  preheader: and they’re 30% off but not for long
+- id: 2f238539-9603-49e4-8fe1-59e8a02e5973
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 26053
+  total_delivered: 25753
+  total_opens: 12972
+  total_clicks: 293
+  open_rate: 0.4979
+  click_rate: 0.0112
+  total_revenue: 39793.0
+  total_bounces: 2
+  total_unsubscribes: 62
+  ga4:
+    sessions: 350
+    purchases: 3
+    revenue: 1995.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.147391'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:45.879734'
+schedule_type: time_based

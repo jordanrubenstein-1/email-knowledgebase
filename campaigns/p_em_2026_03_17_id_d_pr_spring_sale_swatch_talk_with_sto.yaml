@@ -1,0 +1,36 @@
+id: 5c98bc25-ee00-4b87-838a-9be71642ee67
+name: P_EM_2026_03_17_ID_D_PR_Spring_Sale_Swatch_Talk_With_STO
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: spring
+braze_id: 5c98bc25-ee00-4b87-838a-9be71642ee67
+dates:
+  send_date: '2026-03-17'
+  inferred_send_type: sto
+  first_sent: '2026-03-16T10:07:00+00:00'
+  last_sent: '2026-03-18T08:25:14+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 6dd533cd-5cfd-4703-8a98-c69a4daabb42
+  channel: email
+  name: Variant 1
+  subject: Your Lucky Shade, 25% Off
+  preheader: Celebrate St. Patrick’s Day with rich greens worth committing to.
+- id: f0ab0b31-918c-453f-a834-521788ed0632
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 65170
+  total_delivered: 65043
+  total_opens: 24852
+  total_clicks: 253
+  open_rate: 0.3813
+  click_rate: 0.0039
+  total_revenue: 81203.98
+  total_bounces: 2
+  total_unsubscribes: 85
+_filename: p_em_2026_03_17_id_d_pr_spring_sale_swatch_talk_with_sto.yaml
+schedule_type: time_based

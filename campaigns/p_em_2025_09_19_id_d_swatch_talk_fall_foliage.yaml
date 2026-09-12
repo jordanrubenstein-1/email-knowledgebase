@@ -1,0 +1,63 @@
+id: a68b7a51-1d83-4a40-a39e-f236c612147f
+name: P_EM_2025_09_19_ID_D_Swatch_Talk_Fall_Foliage
+brand: ID
+channel: email
+category: other
+type: seasonal
+theme: fall
+braze_id: a68b7a51-1d83-4a40-a39e-f236c612147f
+dates:
+  send_date: '2025-09-19'
+  inferred_send_type: local_time
+  first_sent: '2025-09-19T00:22:37+00:00'
+  last_sent: '2025-09-19T17:15:13+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 2c252e55-d195-4be7-9c04-f884509beff6
+  channel: email
+  name: Variant 1
+  subject: Bring the cozy look home at 20% off
+  preheader: Falling for these fabrics
+- id: 575d2508-8b0e-4f56-8998-c10b1f4b06d6
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 201827
+  total_delivered: 200742
+  total_opens: 94925
+  total_clicks: 474
+  open_rate: 0.4703
+  click_rate: 0.0023
+  total_revenue: 100678.0
+  total_bounces: 3
+  total_unsubscribes: 322
+  ga4:
+    sessions: 427
+    purchases: 2
+    revenue: 4802.3
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.443790'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-holiday-ready-sale-2025-09-18
+    name: Holiday-Ready Sale
+    start_date: '2025-09-18'
+    end_date: '2025-09-30'
+    discount: 20% off sitewide
+    type: null
+  primary_sale:
+    id: id-holiday-ready-sale-2025-09-18
+    name: Holiday-Ready Sale
+    start_date: '2025-09-18'
+    end_date: '2025-09-30'
+    discount: 20% off sitewide
+    type: null
+  sale_name: Holiday-Ready Sale
+  sale_discount: 20% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:35.321096'
+schedule_type: time_based

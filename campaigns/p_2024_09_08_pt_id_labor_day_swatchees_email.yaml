@@ -1,0 +1,44 @@
+id: a909f002-6f65-4585-9965-1f038f0e3e07
+name: P_2024_09_08_PT_ID_Labor_Day_Swatchees_Email
+brand: ID
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: a909f002-6f65-4585-9965-1f038f0e3e07
+dates:
+  send_date: '2024-09-08'
+  inferred_send_type: local_time
+  first_sent: '2024-09-08T02:45:01+00:00'
+  last_sent: '2024-09-08T22:45:03+00:00'
+tags: []
+sends:
+- id: 4b175212-07dd-4975-8197-411adb70bf34
+  channel: email
+  name: Variant 1
+  subject: 'RE: Your fabric swatch order'
+- id: 71c1e218-da47-4458-b2be-27f8f0131502
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 4900
+  total_delivered: 4821
+  total_opens: 1836
+  total_clicks: 134
+  open_rate: 0.3747
+  click_rate: 0.0273
+  total_bounces: 28
+  total_unsubscribes: 38
+  ga4:
+    sessions: 223
+    purchases: 4
+    revenue: 8091.15
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.894054'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.450032'
+schedule_type: time_based

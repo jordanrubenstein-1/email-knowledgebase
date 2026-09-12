@@ -1,0 +1,35 @@
+id: fa2b2b27-b3b7-4a25-915a-e22748d6edce
+name: P_EM_2026_01_14_HAV_PC_D_Winter_Refresh_Sale_Starts
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: winter
+braze_id: fa2b2b27-b3b7-4a25-915a-e22748d6edce
+dates:
+  send_date: '2026-01-14'
+  first_sent: '2026-01-14T02:00:01+00:00'
+  last_sent: '2026-01-14T23:01:49+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 09faf2e1-539a-43f8-a763-9665af836f6d
+  channel: email
+  name: Variant 1
+  subject: Winter called, it wants a refresh
+  preheader: 'Winter Refresh is here: 50% off interior design services'
+- id: cdffb70f-1a0a-41b9-b5c4-d2f2bb93c828
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 254657
+  total_delivered: 253861
+  total_opens: 100128
+  total_clicks: 505
+  open_rate: 0.3932
+  click_rate: 0.002
+  total_bounces: 10
+  total_unsubscribes: 751
+schedule_type: time_based
+_filename: p_em_2026_01_14_hav_pc_d_winter_refresh_sale_starts.yaml

@@ -1,0 +1,37 @@
+id: 8383123f-3a55-41a9-9ec5-6dcd99ada9dc
+name: P_SMS_2026_01_25_SF_Sale_Reminder
+brand: STF
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: 8383123f-3a55-41a9-9ec5-6dcd99ada9dc
+dates:
+  send_date: '2026-01-25'
+  inferred_send_type: local_time
+  first_sent: '2026-01-25T01:07:59+00:00'
+  last_sent: '2026-01-26T00:04:08+00:00'
+tags: []
+sends:
+- id: 2a34213d-d8a9-4d75-8e85-4bc3094b3491
+  channel: sms
+  name: Variant 1
+- id: 4ea5cb3e-5dfa-4596-8938-eb50caf2e497
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 4119
+  total_delivered: 4048
+  total_opens: 0
+  total_clicks: 109
+  open_rate: 0.0
+  click_rate: 0.0265
+  ga4:
+    sessions: 89
+    purchases: 3
+    revenue: 800.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.981367'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

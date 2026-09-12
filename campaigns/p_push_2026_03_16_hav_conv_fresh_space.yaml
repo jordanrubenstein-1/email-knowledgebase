@@ -1,0 +1,31 @@
+id: d06b5c73-42aa-477f-aabc-deaaab888147
+name: P_PUSH_2026_03_16_HAV_CONV_Fresh_Space
+brand: HAV
+channel: push
+category: other
+type: announcement
+theme: null
+braze_id: d06b5c73-42aa-477f-aabc-deaaab888147
+dates:
+  send_date: '2026-03-16'
+  first_sent: '2026-03-16T01:07:02+00:00'
+  last_sent: '2026-03-17T01:02:06+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 8719cc80-e6f9-4a46-a843-642fcf858e27
+  channel: push
+  name: Variant 1
+- id: 8bcd7659-c0db-4fc8-b866-da5cb09466f1
+  channel: push
+  name: Control Group
+performance_summary:
+  total_sends: 46048
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_bounces: 144
+schedule_type: time_based
+_filename: p_push_2026_03_16_hav_conv_fresh_space.yaml

@@ -1,0 +1,47 @@
+id: 443541ed-b8bc-4f46-8128-7c89223fed07
+name: P_2025_05_01_CZ_Weekend_Flash_Sale_Announcement_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 443541ed-b8bc-4f46-8128-7c89223fed07
+dates:
+  send_date: '2025-05-01'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-01T05:57:02+00:00'
+  last_sent: '2025-05-01T17:03:43+00:00'
+tags: []
+sends:
+- id: 811eb333-a8ef-4d7e-8627-9c9f70b8da0f
+  channel: email
+  name: Variant 1
+  subject: 'STARTS NOW: The Weekender Sale'
+  preheader: Shop 20% off in-stock and ready to ship styles.
+  html_file: html/p_2025_05_01_cz_weekend_flash_sale_announcement_email.html
+  screenshot: screenshots/p_2025_05_01_cz_weekend_flash_sale_announcement_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68129e9ffda71d0077c3d2d0/original.png?1746050719
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68129ec5606f300066dc26f3/original.png?1746050756
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68129eb0aa39b20066d33ed2/original.png?1746050736
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68129ea6606f300075dc1868/original.png?1746050726
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68129e45eff5560074c8dea6/original.png?1746050628
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68129e4d7aed0a006706a299/original.png?1746050637
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68129dff32bbfe006589e8ce/original.png?1746050558
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68129e27044ee900765fe090/original.png?1746050599
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68129e127aed0a00760696ff/original.png?1746050577
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68129f79fda71d0067c3d8c9/original.png?1746050936
+- id: cbbee296-c3c1-444a-af61-5568e4f13a69
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 95226
+  total_delivered: 94749
+  total_opens: 49929
+  total_clicks: 1099
+  open_rate: 0.5243
+  click_rate: 0.0115
+  total_revenue: 79586.53
+  total_unsubscribes: 106
+_filename: p_2025_05_01_cz_weekend_flash_sale_announcement_email.yaml
+schedule_type: time_based

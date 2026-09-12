@@ -1,0 +1,78 @@
+id: klaviyo-01JQFBC20AP118M38T8Y0FKKWW
+name: P_2025_03_31_PT_PM_TI_The_Spring_Event_Last_Chance
+brand: TI
+channel: email
+category: reminder
+type: seasonal
+theme: spring
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2025-03-28'
+  send_date: '2025-03-31'
+  inferred_send_type: scheduled
+  first_sent: '2025-03-31T16:00:00+00:00'
+  last_sent: '2025-03-31T16:00:00+00:00'
+sends:
+- id: 01JQFBC21CJFXSPCH2DFVQM1NC
+  channel: email
+  name: P_2025_03_31_PT_PM_TI_The_Spring_Event_Last_Chance
+  subject: 20% off everything ends @ midnight...
+  preheader: ''
+  html_file: html/p_2025_03_31_pt_pm_ti_the_spring_event_last_chance.html
+  image_urls: []
+  screenshot: screenshots/p_2025_03_31_pt_pm_ti_the_spring_event_last_chance.png
+performance_summary:
+  total_sends: 7882
+  total_delivered: 7879
+  total_opens: 6622
+  total_clicks: 367
+  unique_opens: 4582
+  unique_clicks: 174
+  open_rate: 0.5813
+  click_rate: 0.0221
+  total_open_rate: 0.8401
+  total_click_rate: 0.0466
+  total_unsubscribes: 19
+  total_bounces: 3
+klaviyo_type: campaign
+klaviyo_campaign_id: 01JQFBC20AP118M38T8Y0FKKWW
+klaviyo_message_id: 01JQFBC21CJFXSPCH2DFVQM1NC
+structure:
+  image_count: 0
+  link_count: 5
+  has_gif: false
+  hero_width: null
+  layout_type: text_only
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: ti-the-inside-2025-03-26
+    name: The Inside
+    start_date: '2025-03-26'
+    end_date: '2025-03-31'
+    discount: 'The Spring Event
+
+      B2C: 20% off sitewide (strikethrough)
+
+      Trade: 25% off sitewide (strikethrough)'
+    type: null
+  primary_sale:
+    id: ti-the-inside-2025-03-26
+    name: The Inside
+    start_date: '2025-03-26'
+    end_date: '2025-03-31'
+    discount: 'The Spring Event
+
+      B2C: 20% off sitewide (strikethrough)
+
+      Trade: 25% off sitewide (strikethrough)'
+    type: null
+  sale_name: The Inside
+  sale_discount: 'The Spring Event
+
+    B2C: 20% off sitewide (strikethrough)
+
+    Trade: 25% off sitewide (strikethrough)'
+  sale_type: null
+_sale_labeled_at: '2026-03-12T11:18:50.099837'

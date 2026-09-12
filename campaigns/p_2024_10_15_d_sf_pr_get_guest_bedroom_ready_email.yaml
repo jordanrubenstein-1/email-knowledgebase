@@ -1,0 +1,60 @@
+id: 8b066fc2-094e-4afe-8107-982acecf434d
+name: P_2024_10_15_D_SF_PR_Get_Guest_Bedroom_Ready_Email
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 8b066fc2-094e-4afe-8107-982acecf434d
+dates:
+  send_date: '2024-10-15'
+  inferred_send_type: scheduled
+  first_sent: '2024-10-14T23:14:30+00:00'
+  last_sent: '2024-10-15T14:00:14+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: 3988d21f-3766-4a2c-9085-6189a8c0a18e
+  channel: email
+  name: Variant 1
+  subject: 'Host With The Most: Spruce Up Your Guest Bedroom'
+  preheader: wow your guests with a room refresh
+  html_file: html/p_2024_10_15_d_sf_pr_get_guest_bedroom_ready_email.html
+  screenshot: screenshots/p_2024_10_15_d_sf_pr_get_guest_bedroom_ready_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/670d1b69a22e810075741d03/original.jpg?1728912232
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0058f1ba77/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/670d1b77a4e8eb0063e34f01/original.jpg?1728912246
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/670d1c7387d2d50065be5c8d/original.jpg?1728912498
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/670d1ba1a4e8eb0063e34f19/original.jpg?1728912289
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/670d1b91a22e810066741fef/original.gif?1728912273
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0063f11fb6/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/670d1c7ea22e8100667421a5/original.gif?1728912510
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67054fa9c858050074d3cd2d/original.jpg?1728401321
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6681bde9255ebf0070d6be26/original.jpeg?1719778792
+- id: 0bc4492d-81d6-4666-8a46-bf64893bc070
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 9923
+  total_delivered: 9883
+  total_opens: 3096
+  total_clicks: 130
+  open_rate: 0.312
+  click_rate: 0.0131
+  total_revenue: 2572.75
+  total_bounces: 2
+  total_unsubscribes: 8
+  ga4:
+    sessions: 86
+    purchases: 1
+    revenue: 675.9
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.977324'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.134937'
+schedule_type: time_based

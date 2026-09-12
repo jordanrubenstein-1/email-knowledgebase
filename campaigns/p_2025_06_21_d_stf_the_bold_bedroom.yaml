@@ -1,0 +1,60 @@
+id: c8ba2b39-19f2-466f-92d2-58bceefc07a8
+name: P_2025_06_21_D_STF_The_Bold_Bedroom
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: c8ba2b39-19f2-466f-92d2-58bceefc07a8
+dates:
+  send_date: '2025-06-21'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-21T05:40:40+00:00'
+  last_sent: '2025-06-21T17:00:20+00:00'
+tags:
+- Batch and Blast
+sends:
+- id: 3c84ac27-3a56-472e-9319-53e9458375e1
+  channel: email
+  name: Variant 1
+  subject: 20% Off Sitewide with Code JULY4EA
+  preheader: subscribers save first, shop our dreamy bedding today 😴
+  html_file: html/p_2025_06_21_d_stf_the_bold_bedroom.html
+  screenshot: screenshots/p_2025_06_21_d_stf_the_bold_bedroom.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6855d39e78322f0065f0e740/original.png?1750455197
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6855d2886e563400650f0370/original.png?1750454919
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6855d3ba52c51000768edae6/original.png?1750455226
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6855d36f6e563400650f0618/original.png?1750455151
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6855d3d46e563400750eacdc/original.png?1750455252
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6855d3459e41c8006515d8d0/original.png?1750455109
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6855d37ebe913300743445ab/original.png?1750455166
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6855d33d6e563400750eacb1/original.png?1750455100
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6855d34c78322f0065f0e6fc/original.png?1750455116
+- id: 3f77b6c8-4e27-45aa-86c9-594ad5b5c10f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 36127
+  total_delivered: 35694
+  total_opens: 16826
+  total_clicks: 217
+  open_rate: 0.4657
+  click_rate: 0.006
+  total_revenue: 19114.0
+  total_bounces: 14
+  total_unsubscribes: 71
+  ga4:
+    sessions: 254
+    purchases: 5
+    revenue: 4928.21
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.047002'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.741805'
+schedule_type: time_based

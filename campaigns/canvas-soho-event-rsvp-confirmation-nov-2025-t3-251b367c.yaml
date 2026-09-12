@@ -1,0 +1,26 @@
+id: 251b367c-28ea-4de6-8476-e28ce79e81ca
+name: TRG_EM_2024_07_CZ_D_Welcome_T4
+brand: CZ
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 57657eee-e9b8-4613-a42c-3adb310acef0
+canvas_name: Soho Event RSVP Confirmation - Nov 2025
+flow_type: other_flow
+sequence_position: 3
+subject: Iconic For A Reason
+preheader: Elevate your home with our iconic linen bedding. Sustainably made in Portugal.
+sends:
+- id: 251b367c-28ea-4de6-8476-e28ce79e81ca
+  channel: email
+  name: TRG_EM_2024_07_CZ_D_Welcome_T4
+  subject: Iconic For A Reason
+  preheader: Elevate your home with our iconic linen bedding. Sustainably made in
+    Portugal.
+  html_file: html/canvas-soho-event-rsvp-confirmation-nov-2025-t3-251b367c.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-11-05T22:00:00Z'
+  last_sent: '2025-11-15T16:00:00Z'
+performance_summary: {}

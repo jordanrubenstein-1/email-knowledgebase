@@ -1,0 +1,30 @@
+id: 9fb4cfc1-a673-41da-b49c-021ef00f57e8
+name: 20250325_Spring_Event_Ends_Tonight_SMS
+brand: BUR
+channel: sms
+category: sale_promo
+type: seasonal
+theme: spring
+braze_id: 9fb4cfc1-a673-41da-b49c-021ef00f57e8
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-03-25T01:08:18+00:00'
+  last_sent: '2025-03-26T01:00:24+00:00'
+tags: []
+sends:
+- id: b67ac880-acb8-4ba8-a17f-73e1b322de57
+  channel: other
+  name: Variant 1
+- id: bdc1ce64-a882-4e97-9718-e1ad77e22c48
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 170
+    purchases: 2
+    revenue: 3214.02
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.509195'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

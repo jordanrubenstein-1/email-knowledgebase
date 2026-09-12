@@ -1,0 +1,36 @@
+id: b26c6143-3170-4f87-90d8-5448a6c35422
+name: P_EM_2026_08_13_BW_D_Sale_Extension
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: b26c6143-3170-4f87-90d8-5448a6c35422
+dates:
+  send_date: '2026-08-13'
+  first_sent: '2026-08-13T14:39:02+00:00'
+  last_sent: '2026-08-14T02:03:28+00:00'
+  inferred_send_type: scheduled
+tags:
+- Batch&Blast
+sends:
+- id: 09fb23c6-2606-40d6-8e25-899f1bbf5ca7
+  channel: email
+  name: Variant 1
+  subject: 'BACK ON: Up to 30% off'
+  preheader: More time to save big.
+- id: 7dae0646-1a2b-46be-89e0-2b1e53c6a888
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 224821
+  total_delivered: 222148
+  total_opens: 112940
+  total_clicks: 402
+  open_rate: 0.5024
+  click_rate: 0.0018
+  total_revenue: 29201.0
+  total_bounces: 13
+  total_unsubscribes: 156
+schedule_type: time_based
+_filename: p_em_2026_08_13_bw_d_sale_extension.yaml

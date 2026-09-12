@@ -1,0 +1,55 @@
+id: 6fd2842d-1099-4cb9-8f63-799759b40557
+name: P_2025_03_09_D_CZ_Color_Edit_Spring_Palette
+brand: CZ
+channel: email
+category: editorial
+type: seasonal
+theme: spring
+braze_id: 6fd2842d-1099-4cb9-8f63-799759b40557
+dates:
+  send_date: '2025-03-09'
+  inferred_send_type: local_time
+  first_sent: '2025-03-08T17:05:49+00:00'
+  last_sent: '2025-03-09T17:01:22+00:00'
+tags: []
+sends:
+- id: d363c1a6-5393-442a-8121-b448da04a15f
+  channel: email
+  name: Variant 1
+  subject: Our Spring Color Palette
+  preheader: Freshly picked hues for a new season.
+  html_file: html/p_2025_03_09_d_cz_color_edit_spring_palette.html
+  screenshot: screenshots/p_2025_03_09_d_cz_color_edit_spring_palette.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cb4539820e2b0065f6c0db/original.jpg?1741374777
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cb4471e4ac5c00766f7686/original.gif?1741374576
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cb4532bdb3bb0066392827/original.jpg?1741374770
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cb449e9f56b200658e15c9/original.jpg?1741374622
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cb44ca820e2b0065f6bfec/original.jpg?1741374666
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cb443f820e2b0065f6bebc/original.jpg?1741374527
+- id: f1a548f6-4e01-48e0-8ff3-f8549a68935e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 91311
+  total_delivered: 90545
+  total_opens: 49358
+  total_clicks: 937
+  open_rate: 0.5405
+  click_rate: 0.0103
+  total_revenue: 65149.08
+  total_bounces: 1
+  total_unsubscribes: 134
+  ga4:
+    sessions: 1227
+    purchases: 7
+    revenue: 4066.3
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.506177'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.201111'
+schedule_type: time_based

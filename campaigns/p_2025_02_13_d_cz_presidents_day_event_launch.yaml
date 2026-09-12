@@ -1,0 +1,59 @@
+id: 4a2c00a8-4597-458b-965e-523d8d46b90e
+name: P_2025_02_13_D_CZ_Presidents_Day_Event_Launch
+brand: CZ
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 4a2c00a8-4597-458b-965e-523d8d46b90e
+dates:
+  send_date: '2025-02-13'
+  inferred_send_type: local_time
+  first_sent: '2025-02-12T23:45:43+00:00'
+  last_sent: '2025-02-13T17:01:26+00:00'
+tags: []
+sends:
+- id: 66205c3b-90a8-46e7-934d-a2713fb1b21b
+  channel: email
+  name: Variant 1
+  subject: Up To 20% Off Starts Now
+  preheader: Save big on heirloom designs during The Presidents Day Event.
+  html_file: html/p_2025_02_13_d_cz_presidents_day_event_launch.html
+  screenshot: screenshots/p_2025_02_13_d_cz_presidents_day_event_launch.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67aa6df839b5ec00667c8be5/original.png?1739222519
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67aa72a2344428006730373e/original.png?1739223714
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67aa5b805220be0076b452b8/original.png?1739217791
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67aa58f2b2c5100065954696/original.png?1739217138
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67aa32b170bc2c007688b279/original.png?1739207345
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67aa5a836821230065a3a3b9/original.png?1739217539
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67aa731234442800673038c9/original.png?1739223826
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67aa5884e3a03c0065ca06fe/original.png?1739217028
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67aa2bed33f68100766c35af/original.png?1739205613
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67aa32c21a942400755c1fef/original.png?1739207361
+- id: 30abe0cf-a693-4761-86fa-a20d7fd85995
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 96334
+  total_delivered: 95603
+  total_opens: 46421
+  total_clicks: 734
+  open_rate: 0.4819
+  click_rate: 0.0076
+  total_revenue: 122680.81
+  total_bounces: 1
+  total_unsubscribes: 92
+  ga4:
+    sessions: 1250
+    purchases: 24
+    revenue: 20525.43
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.957162'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.039437'
+schedule_type: time_based

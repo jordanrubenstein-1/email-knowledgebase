@@ -1,0 +1,34 @@
+id: 9f783546-bd42-49b3-b48f-3b5c186f9830
+name: P_EM_2026_07_07_BW_D_Final_Hours_Evening
+brand: BUR
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 9f783546-bd42-49b3-b48f-3b5c186f9830
+dates:
+  send_date: '2026-07-07'
+  last_sent: '2026-07-07'
+tags:
+- Batch&Blast
+sends:
+- id: 091b31cf-0e70-467d-8115-6d19681449fd
+  channel: email
+  name: Variant 1
+  subject: Final hours. Up to 50% off ends tonight
+  preheader: Shop the Fourth of July Sale before it's gone.
+- id: 33674e18-96dc-41c4-a57a-1cc7702d2daa
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 228008
+  total_delivered: 227118
+  total_opens: 115436
+  total_clicks: 427
+  open_rate: 0.5063
+  click_rate: 0.0019
+  total_revenue: 108775.0
+  total_bounces: 2
+  total_unsubscribes: 130
+schedule_type: time_based
+_filename: p_em_2026_07_07_bw_d_final_hours_evening.yaml

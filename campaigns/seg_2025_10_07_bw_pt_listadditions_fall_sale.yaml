@@ -1,0 +1,73 @@
+id: a37cf6bf-89d8-4b35-adf0-7ca855346f46
+name: SEG_2025_10_07_BW_PT_ListAdditions_Fall_Sale
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: fall
+braze_id: a37cf6bf-89d8-4b35-adf0-7ca855346f46
+dates:
+  send_date: '2025-10-07'
+  inferred_send_type: scheduled
+  first_sent: '2025-10-07T15:00:02+00:00'
+  last_sent: '2025-10-07T15:09:06+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 31bfd18b-efe6-4fa5-969c-03b5c908179c
+  channel: email
+  name: Variant 1
+  subject: You're getting first access to exclusive offers, launches, and events
+  preheader: You're on the list.
+- id: f5c39842-cb46-4fd4-9d9b-08fbcd057f2d
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 30011
+  total_delivered: 29702
+  total_opens: 18840
+  total_clicks: 2555
+  open_rate: 0.6278
+  click_rate: 0.0851
+  total_revenue: 37938.0
+  total_bounces: 151
+  total_unsubscribes: 2178
+  ga4:
+    sessions: 1471
+    purchases: 15
+    revenue: 15388.22
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.686350'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-the-fall-sale-2025-10-02
+    name: The Fall Sale
+    start_date: '2025-10-02'
+    end_date: '2025-10-27'
+    discount: Up to 35% Off Sitewide
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-the-fall-sale-2025-10-02
+    name: The Fall Sale
+    start_date: '2025-10-02'
+    end_date: '2025-10-27'
+    discount: Up to 35% Off Sitewide
+    type: null
+  sale_name: The Fall Sale
+  sale_discount: Up to 35% Off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:32.938429'
+schedule_type: time_based

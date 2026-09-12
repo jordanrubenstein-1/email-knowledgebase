@@ -1,0 +1,35 @@
+id: 6cbabf74-0534-42e9-990f-92171bf59fd6
+name: P_EM_2026_03_16_ID_D_PR_Spring_Sale_Reminder
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: spring
+braze_id: 6cbabf74-0534-42e9-990f-92171bf59fd6
+dates:
+  send_date: '2026-03-16'
+  inferred_send_type: local_time
+  first_sent: '2026-03-15T17:06:35+00:00'
+  last_sent: '2026-03-16T17:02:06+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: bcdca190-0f86-485f-926a-05d677c6b86c
+  channel: email
+  name: Variant 1
+  subject: A New Season. 25% Off.
+  preheader: The Spring Refresh Sale is on.
+- id: 52635186-ed3a-47cc-9213-ac64e47035fe
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 110068
+  total_delivered: 109681
+  total_opens: 46477
+  total_clicks: 272
+  open_rate: 0.4223
+  click_rate: 0.0025
+  total_revenue: 54085.0
+  total_bounces: 1
+  total_unsubscribes: 134
+schedule_type: time_based

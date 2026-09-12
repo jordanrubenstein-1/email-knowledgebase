@@ -1,0 +1,60 @@
+id: 59c5efc4-72c1-4f06-8cb8-f6bf9b52fb98
+name: P_2024_11_2_D_SF_Breakfast_In_Bed_Email
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 59c5efc4-72c1-4f06-8cb8-f6bf9b52fb98
+dates:
+  send_date: '2024-11-02'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-02T02:27:19+00:00'
+  last_sent: '2024-11-02T14:00:21+00:00'
+tags:
+- Batch and Blast
+sends:
+- id: 7b58678b-0513-480b-8c1f-0cff25652138
+  channel: email
+  name: Variant 1
+  subject: Bedding So Comfy You’ll Never Want To Leave
+  preheader: sleep in
+  html_file: html/p_2024_11_2_d_sf_breakfast_in_bed_email.html
+  screenshot: screenshots/p_2024_11_2_d_sf_breakfast_in_bed_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6724d9105cb5410065accffb/original.gif?1730468112
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6724d9d2fbd2770064475467/original.gif?1730468306
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6724d9ea353d1b00649edca2/original.jpg?1730468330
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6724d9f65cb5410065acd23b/original.gif?1730468342
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6724d92f5de7740067e131e2/original.gif?1730468143
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6724d95e5cb5410065acd0bd/original.jpg?1730468189
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6724d9005cb5410065accfd7/original.gif?1730468096
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6724d977dc326b00731c3c79/original.gif?1730468215
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6724d8da353d1b00649ed965/original.jpg?1730468058
+- id: 2110f854-892e-42ec-87fb-1a54580eccea
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 8598
+  total_delivered: 8545
+  total_opens: 2682
+  total_clicks: 86
+  open_rate: 0.3119
+  click_rate: 0.01
+  total_revenue: 1499.0
+  total_bounces: 1
+  total_unsubscribes: 9
+  ga4:
+    sessions: 87
+    purchases: 1
+    revenue: 740.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.969255'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.021832'
+schedule_type: time_based

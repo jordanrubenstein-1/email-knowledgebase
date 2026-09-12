@@ -1,0 +1,47 @@
+id: 400ee87f-6ab7-467c-9dba-837bd5cf7d3e
+name: P_2025_06_26_ID_D_In_Stock_Launch_Email
+brand: ID
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 400ee87f-6ab7-467c-9dba-837bd5cf7d3e
+dates:
+  send_date: '2025-06-26'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-26T04:34:17+00:00'
+  last_sent: '2025-06-26T17:15:11+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 249ffcc7-5c9b-4523-8311-15ffb2b3971c
+  channel: email
+  name: Variant 1
+  subject: 'BIG NEWS: Our In Stock Collection Has Arrived'
+  preheader: Your favorite styles, now delivered in 1–3 weeks.
+- id: 37f24807-7df9-459f-9920-47c42e10750e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 190861
+  total_delivered: 188665
+  total_opens: 84631
+  total_clicks: 1963
+  open_rate: 0.4434
+  click_rate: 0.0103
+  total_revenue: 210116.95
+  total_bounces: 6
+  total_unsubscribes: 499
+  ga4:
+    sessions: 3436
+    purchases: 11
+    revenue: 29431.05
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.114789'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.650704'
+schedule_type: time_based

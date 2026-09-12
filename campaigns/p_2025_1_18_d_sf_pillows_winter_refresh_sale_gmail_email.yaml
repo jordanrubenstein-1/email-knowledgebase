@@ -1,0 +1,47 @@
+id: 0a85d8cb-4be7-4329-934d-6b29912744d3
+name: P_2025_1_18_D_SF_PILLOWS_WINTER_REFRESH_SALE_Gmail_Email
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: winter
+braze_id: 0a85d8cb-4be7-4329-934d-6b29912744d3
+dates:
+  send_date: '2025-01-18'
+  inferred_send_type: local_time
+  first_sent: '2025-01-17T18:15:45+00:00'
+  last_sent: '2025-01-18T16:00:43+00:00'
+tags: []
+sends:
+- id: 74690cf2-b865-4f81-8af5-2e0247eb0dfc
+  channel: email
+  name: Variant 1
+  subject: 'Winter Refresh: 20% Off Pillows'
+  preheader: score all your favorite patterns
+  html_file: html/p_2025_1_18_d_sf_pillows_winter_refresh_sale_gmail_email.html
+  screenshot: screenshots/p_2025_1_18_d_sf_pillows_winter_refresh_sale_gmail_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67892a27c11bcc0064fca642/original.jpg?1737042471
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67893849dd23060075b620e4/original.jpg?1737046089
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678937ddc406bf006461bc93/original.gif?1737045981
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6789368b04371d0063e56633/original.gif?1737045643
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678937bbde89e70065be007f/original.gif?1737045947
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678938e8dd23060075b62118/original.gif?1737046248
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678938c0c3ea5a007174c8ca/original.gif?1737046208
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6789377cdd23060083b61844/original.jpg?1737045884
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678937968fc5dd0065b2e3ca/original.gif?1737045910
+- id: 847d6648-a93c-4421-92c9-bfc59c3086c4
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 734
+  total_delivered: 734
+  total_opens: 570
+  total_clicks: 17
+  open_rate: 0.7766
+  click_rate: 0.0232
+  total_revenue: 70.0
+  total_unsubscribes: 2
+_filename: p_2025_1_18_d_sf_pillows_winter_refresh_sale_gmail_email.yaml
+schedule_type: time_based

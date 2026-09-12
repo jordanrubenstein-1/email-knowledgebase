@@ -1,0 +1,31 @@
+id: 7ddfdcda-caf5-4899-a7f5-5a9b11afc2fd
+name: P_PUSH_2025_12_02_HAV_CONV_Giving_Tuesday
+brand: HAV
+channel: push
+category: other
+type: announcement
+theme: null
+braze_id: 7ddfdcda-caf5-4899-a7f5-5a9b11afc2fd
+dates:
+  send_date: '2025-12-02'
+  first_sent: '2025-12-02T01:09:49+00:00'
+  last_sent: '2025-12-03T01:02:27+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: b8b05766-5cf1-442b-94c0-5a569c8a5284
+  channel: push
+  name: Variant 1
+- id: 085bd3ca-b7d6-4e95-bd27-505722f891aa
+  channel: push
+  name: Control Group
+performance_summary:
+  total_sends: 45250
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_bounces: 21
+schedule_type: time_based
+_filename: p_push_2025_12_02_hav_conv_giving_tuesday.yaml

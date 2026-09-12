@@ -1,0 +1,35 @@
+id: ca35d23a-ac40-4b3b-9ad9-2a4ae93ad61f
+name: P_EM_2026_03_06_HAV_CONV_D_Before_and_After
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: ca35d23a-ac40-4b3b-9ad9-2a4ae93ad61f
+dates:
+  send_date: '2026-03-06'
+  first_sent: '2026-03-06T02:59:11+00:00'
+  last_sent: '2026-03-06T18:03:01+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 6bbd76c8-8387-47fd-b519-daefca26673e
+  channel: email
+  name: Variant 1
+  subject: Love the Home You're Already In
+  preheader: Small updates, big transformations.
+- id: b623c94a-5205-4728-99e9-2dd43ced53cd
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 43183
+  total_delivered: 43123
+  total_opens: 21233
+  total_clicks: 90
+  open_rate: 0.4917
+  click_rate: 0.0021
+  total_bounces: 1
+  total_unsubscribes: 36
+schedule_type: time_based
+_filename: p_em_2026_03_06_hav_conv_d_before_and_after.yaml

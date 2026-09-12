@@ -1,0 +1,70 @@
+id: adbf31fe-eb82-4b9a-a27a-afa7ac1510b8
+name: Product Browse April 2025 - future state
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: adbf31fe-eb82-4b9a-a27a-afa7ac1510b8
+braze_type: canvas
+campaign_type: Triggered Journey
+dates: {}
+tags: []
+sends:
+- id: 1b956478-5c51-466b-97dd-476e7e9c4478
+  channel: email
+  name: TRG_2024_08_Braze_PBA_T1_Email
+  subject: 'Don''t Miss Out: A style you loved is going quick!'
+  preheader: ''
+  step_id: 172da9d3-7538-421f-9b90-436f988bd869
+- id: a04ea824-dc91-45e1-99ac-5736549bceb3
+  channel: email
+  name: TRG_2024_08_Braze_PBA_T1_Email 2
+  subject: 'Don''t Miss Out: A style you loved is going quick!'
+  preheader: ''
+  step_id: 27d031a2-67df-484b-b02a-3be078a7d37c
+performance_summary: {}
+canvas_steps:
+- id: de026209-07ea-4d58-b220-a03296cdda34
+  name: Step 3
+  type: delay
+- id: acfa1dca-9c72-4365-9daf-908d2c305247
+  name: Step 4
+  type: action_paths
+- id: 61185554-7132-4db0-beb3-3b80b6b83a4f
+  name: Step 1
+  type: delay
+- id: bde271a5-037e-4108-ab1a-f663a9eb5f1f
+  name: Email or SMS next?
+  type: audience_paths
+- id: fe574f4d-5b26-49df-854d-ba3ecbda7806
+  name: Touch 1
+  type: audience_paths
+- id: 172da9d3-7538-421f-9b90-436f988bd869
+  name: TRG_2024_08_Braze_PBA_T1_Email
+  type: message
+  channel: email
+  subject: 'Don''t Miss Out: A style you loved is going quick!'
+  preheader: ''
+- id: 27d031a2-67df-484b-b02a-3be078a7d37c
+  name: TRG_2024_08_Braze_PBA_T1_Email 2
+  type: message
+  channel: email
+  subject: 'Don''t Miss Out: A style you loved is going quick!'
+  preheader: ''
+- id: 940cebf3-3c1d-4808-b8f1-72398b5251e4
+  name: Step 2
+  type: message
+- id: 585d3557-71b6-4732-8b4e-3342b761c40e
+  name: In journey true
+  type: user_update
+- id: 4757ab0a-1f99-4438-b001-3113bc03dad6
+  name: In journey false
+  type: user_update
+- id: 55ce3264-7a3d-4197-9bf9-7d7186c2006a
+  name: In journey false after touch 2
+  type: user_update
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.618138'

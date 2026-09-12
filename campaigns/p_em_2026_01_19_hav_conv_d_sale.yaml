@@ -1,0 +1,34 @@
+id: 16e83e16-ba45-445a-8a89-d9a11f1a67fd
+name: P_EM_2026_01_19_HAV_CONV_D_Sale
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 16e83e16-ba45-445a-8a89-d9a11f1a67fd
+dates:
+  send_date: '2026-01-19'
+  first_sent: '2026-01-18T17:06:22+00:00'
+  last_sent: '2026-01-19T17:04:32+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 3da8d5cc-4e80-4c4c-a0a5-165150c5a7aa
+  channel: email
+  name: Variant 1
+  subject: 'Two Days Only: The Sale Gets Sweeter'
+  preheader: Our limited-time sale just leveled up.
+- id: 4328822c-0577-46e9-a363-1bc10504d964
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 35156
+  total_delivered: 35131
+  total_opens: 18083
+  total_clicks: 92
+  open_rate: 0.5144
+  click_rate: 0.0026
+  total_unsubscribes: 39
+schedule_type: time_based
+_filename: p_em_2026_01_19_hav_conv_d_sale.yaml

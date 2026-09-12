@@ -1,0 +1,33 @@
+id: 47b694ec-7cd8-4e7f-87b9-e65805d5f02e
+name: P_EM_2026_06_24_HAV_D_CONV_Fourth_of_July_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 47b694ec-7cd8-4e7f-87b9-e65805d5f02e
+dates:
+  send_date: '2026-06-24'
+  last_sent: '2026-06-24'
+tags:
+- BLASTS-2025
+sends:
+- id: 3d2144a7-6523-4525-af0f-c3f9e79d3828
+  channel: email
+  name: Variant 1
+  subject: Fourth of July savings are still on
+  preheader: Save up to 20% off furniture and decor.
+- id: c37f6430-9e2a-4639-8dbe-7c6c47d5c642
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41936
+  total_delivered: 41867
+  total_opens: 19700
+  total_clicks: 77
+  open_rate: 0.4698
+  click_rate: 0.0018
+  total_bounces: 1
+  total_unsubscribes: 56
+schedule_type: time_based
+_filename: p_em_2026_06_24_hav_d_conv_fourth_of_july_sale_reminder.yaml

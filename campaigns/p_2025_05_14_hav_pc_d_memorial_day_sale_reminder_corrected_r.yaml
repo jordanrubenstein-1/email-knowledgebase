@@ -1,0 +1,35 @@
+id: 8d823999-033f-4e11-8b19-387ad30a7722
+name: P_2025_05_14_HAV_PC_D_Memorial_Day_Sale_Reminder_Corrected_Resend
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 8d823999-033f-4e11-8b19-387ad30a7722
+dates:
+  send_date: '2025-05-14'
+  first_sent: '2025-05-14T22:00:19+00:00'
+  last_sent: '2025-05-14T22:04:26+00:00'
+  inferred_send_type: scheduled
+tags:
+- BLASTS-2025
+sends:
+- id: 0ac0e5be-7480-4901-a152-11eebb7c1039
+  channel: email
+  name: Variant 1
+  subject: Memorial Day Sale is still going strong...
+  preheader: HALF OFF Design Services
+- id: 47d31cba-ffef-4161-84e5-e7442090e67c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 49821
+  total_delivered: 49816
+  total_opens: 47218
+  total_clicks: 143
+  open_rate: 0.9478
+  click_rate: 0.0029
+  total_bounces: 1
+  total_unsubscribes: 105
+schedule_type: time_based
+_filename: p_2025_05_14_hav_pc_d_memorial_day_sale_reminder_corrected_r.yaml

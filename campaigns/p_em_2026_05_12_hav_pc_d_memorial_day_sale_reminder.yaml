@@ -1,0 +1,35 @@
+id: a6c8bcc4-e019-4a05-81d8-6bee5fc0253d
+name: P_EM_2026_05_12_HAV_PC_D_Memorial_Day_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: a6c8bcc4-e019-4a05-81d8-6bee5fc0253d
+dates:
+  send_date: '2026-05-12'
+  first_sent: '2026-05-11T22:07:31+00:00'
+  last_sent: '2026-05-12T22:00:27+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: d4cea219-495a-457e-b9a0-2f097d5d828c
+  channel: email
+  name: Variant 1
+  subject: A better room is only $99 away
+  preheader: Memorial Day savings are still live.
+- id: c36ee40e-d258-41b6-ac6e-adc4e92e3a11
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 288669
+  total_delivered: 283401
+  total_opens: 102965
+  total_clicks: 577
+  open_rate: 0.3567
+  click_rate: 0.002
+  total_bounces: 77
+  total_unsubscribes: 498
+schedule_type: time_based
+_filename: p_em_2026_05_12_hav_pc_d_memorial_day_sale_reminder.yaml

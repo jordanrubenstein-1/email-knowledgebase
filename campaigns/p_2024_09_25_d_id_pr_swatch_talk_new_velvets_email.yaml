@@ -1,0 +1,46 @@
+id: 830c05c9-0ef3-4eee-8690-57d3190293ff
+name: P_2024_09_25_D_ID_PR_Swatch_Talk_New_Velvets_Email
+brand: ID
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 830c05c9-0ef3-4eee-8690-57d3190293ff
+dates:
+  send_date: '2024-09-25'
+  inferred_send_type: scheduled
+  first_sent: '2024-09-25T04:30:34+00:00'
+  last_sent: '2024-09-25T17:15:01+00:00'
+tags: []
+sends:
+- id: 7ada20da-dba8-41f5-96f4-d2e1e177e4c5
+  channel: email
+  name: Variant 1
+  subject: ALL NEW VELVETS
+  preheader: Introducing Bittersweet & Coriander
+- id: 9c12728d-df01-40de-a413-140cc4cba477
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 53058
+  total_delivered: 52527
+  total_opens: 19539
+  total_clicks: 1308
+  open_rate: 0.3683
+  click_rate: 0.0247
+  total_revenue: 382202.0
+  total_bounces: 1
+  total_unsubscribes: 162
+  ga4:
+    sessions: 1669
+    purchases: 11
+    revenue: 33842.19
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.908121'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.578333'
+schedule_type: time_based

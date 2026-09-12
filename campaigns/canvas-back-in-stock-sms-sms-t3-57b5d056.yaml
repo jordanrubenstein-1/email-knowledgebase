@@ -1,0 +1,35 @@
+id: 57b5d056-db3f-4904-8778-7de88f3906b5
+name: SMS_Welcome_Step_3
+brand: CZ
+channel: sms
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: d12891ba-b3d3-440e-99a2-0a894576f667
+canvas_name: Back In Stock SMS
+flow_type: back_in_stock
+sequence_position: 3
+body: 'The Citizenry: From master artisans to your home. We travel the globe to bring
+  the best craftsmanship home to you. Explore our collections of sustainable, fair
+  trade home goods.
+
+
+  Start your journey:
+
+  https://www.the-citizenry.com/?utm_source=braze_CZ&utm_medium=sms&utm_campaign={{campaign.${name}}}&userid={{${user_id}}}'
+sends:
+- id: 57b5d056-db3f-4904-8778-7de88f3906b5
+  channel: sms
+  name: SMS_Welcome_Step_3
+  body: 'The Citizenry: From master artisans to your home. We travel the globe to
+    bring the best craftsmanship home to you. Explore our collections of sustainable,
+    fair trade home goods.
+
+
+    Start your journey:
+
+    https://www.the-citizenry.com/?utm_source=braze_CZ&utm_medium=sms&utm_campaign={{campaign.${name}}}&userid={{${user_id}}}'
+dates:
+  first_sent: null
+  last_sent: null
+performance_summary: {}

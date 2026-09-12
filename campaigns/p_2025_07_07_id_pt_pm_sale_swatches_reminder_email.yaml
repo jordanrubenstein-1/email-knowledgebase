@@ -1,0 +1,45 @@
+id: 50dda125-721c-48a4-976e-581380535661
+name: P_2025_07_07_ID_PT_PM_Sale_Swatches_Reminder_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 50dda125-721c-48a4-976e-581380535661
+dates:
+  send_date: '2025-07-07'
+  inferred_send_type: scheduled
+  first_sent: '2025-07-07T23:00:03+00:00'
+  last_sent: '2025-07-07T23:02:10+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 217e6356-2823-4504-8fab-24bb82317583
+  channel: email
+  name: Variant 1
+  subject: 'ENDS TOMORROW: Up to 25% off your custom piece'
+- id: 7de17863-45da-487a-a138-49ca5b3a541a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 19927
+  total_delivered: 19738
+  total_opens: 8956
+  total_clicks: 149
+  open_rate: 0.4494
+  click_rate: 0.0075
+  total_revenue: 173163.0
+  total_unsubscribes: 93
+  ga4:
+    sessions: 189
+    purchases: 4
+    revenue: 7093.8
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.998568'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.196999'
+schedule_type: time_based

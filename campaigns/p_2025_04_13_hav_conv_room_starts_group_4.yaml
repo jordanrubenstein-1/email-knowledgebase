@@ -1,0 +1,33 @@
+id: 74ffb68b-9ba8-4677-a56c-c401e712b71c
+name: P_2025_04_13_HAV_Conv_Room_Starts_Group_4
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 74ffb68b-9ba8-4677-a56c-c401e712b71c
+dates:
+  send_date: '2025-04-13'
+  first_sent: '2025-04-12T18:24:33+00:00'
+  last_sent: '2025-04-13T17:15:05+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 3d4035f6-b187-466c-a85f-496914865898
+  channel: email
+  name: Variant 1
+  subject: 'Havenly Check-in: Ready to start your design?'
+- id: 8e0f469a-7c80-49b5-889e-b0db162c433e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1359
+  total_delivered: 1353
+  total_opens: 801
+  total_clicks: 12
+  open_rate: 0.5894
+  click_rate: 0.0088
+  total_bounces: 1
+schedule_type: time_based
+_filename: p_2025_04_13_hav_conv_room_starts_group_4.yaml

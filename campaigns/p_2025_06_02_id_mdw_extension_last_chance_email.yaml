@@ -1,0 +1,47 @@
+id: 4048e89e-99d4-4d57-9280-73cdc561e4ee
+name: P_2025_06_02_ID_MDW_Extension_Last_Chance_Email
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 4048e89e-99d4-4d57-9280-73cdc561e4ee
+dates:
+  send_date: '2025-06-02'
+  inferred_send_type: local_time
+  first_sent: '2025-06-01T18:20:32+00:00'
+  last_sent: '2025-06-02T17:15:14+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 45f52fc4-6274-4a08-875e-e4e894501a8d
+  channel: email
+  name: Variant 1
+  subject: '25% Off Sitewide Ends TONIGHT '
+  preheader: If you were waiting for a sign — this is it.
+- id: 2206a378-30d9-4457-9edb-2862c7a3cac3
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 165985
+  total_delivered: 163718
+  total_opens: 37080
+  total_clicks: 352
+  open_rate: 0.2234
+  click_rate: 0.0021
+  total_revenue: 163715.0
+  total_bounces: 2
+  total_unsubscribes: 88
+  ga4:
+    sessions: 403
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.184067'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.823918'
+schedule_type: time_based

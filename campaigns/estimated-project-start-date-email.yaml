@@ -1,0 +1,45 @@
+id: 559b0d0e-c7d7-7b0a-8603-4228257f92c9
+name: Estimated Project Start Date Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 559b0d0e-c7d7-7b0a-8603-4228257f92c9
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-01-08T19:00:00+00:00'
+  last_sent: '2025-12-18T20:00:00+00:00'
+tags: []
+sends:
+- id: e5ae58c6-a72b-4c28-8f31-f5eda7e8ea76
+  channel: email
+  name: Variant 1
+  subject: Complete room profile, check!
+  html_file: html/estimated-project-start-date-email.html
+  screenshot: screenshots/estimated-project-start-date-email.png
+  image_urls:
+  - http://delivery5.klaviyomail.com/wf/open?upn=7wxTjaUDwiA-2Fko63lLgcG3Xm2SNgKmo2O1JTOrg55qtrOatd7qHLHoID05eVs-2FMh-2BB60Tk-2F2WVHolC9kmQJ4QEzW0g2Y7fcI7IVbhUBbYH-2FxG7s1nWScyrkv6fe4eKt24oJqgqezq-2FT-2BgV3x6xjrALhez9fGamj-2Bm0Ee2ntbA35P4HHFJpfeZsAFeFJHSn5UODP7h8cF-2Fnl00C33KeZ6qbzZhaFZ4cG22betKY1KJ9eRcJZYhOC4hO6B970v0m4egVL097VRczSYvIHEpvhYHc4kYvT7caGMXAD9wNJt-2B7WbAmgLgjTDXo5gPUoo36vu
+- id: 088745a7-0593-4d0b-9ce9-b6bcd8fa5260
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 9
+  total_delivered: 9
+  total_opens: 9
+  total_clicks: 2
+  open_rate: 1.0
+  click_rate: 0.2222
+  ga4:
+    sessions: 2
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.622420'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.305346'
+schedule_type: api_triggered

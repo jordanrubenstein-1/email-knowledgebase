@@ -1,0 +1,65 @@
+id: 07cc776e-ac12-4f07-bd29-af0a3d216bdd
+name: P_EM_2025_08_04_SF_D_PR_RESEND_Bed_Print_Pairing
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 07cc776e-ac12-4f07-bd29-af0a3d216bdd
+dates:
+  send_date: '2025-08-04'
+  inferred_send_type: local_time
+  first_sent: '2025-08-03T23:33:06+00:00'
+  last_sent: '2025-08-04T17:00:20+00:00'
+tags:
+- Batch and Blast
+- am
+- bedding
+- d2c
+- designed
+- prod
+sends:
+- id: f429ecf9-c200-4c81-aaf0-5764a1baf1f0
+  channel: email
+  name: Variant 1
+  subject: A masterclass in pattern mixing
+  preheader: for those who don't do subtle
+  html_file: html/p_em_2025_08_04_sf_d_pr_resend_bed_print_pairing.html
+  screenshot: screenshots/p_em_2025_08_04_sf_d_pr_resend_bed_print_pairing.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688bb7783ab6d40064616fe4/original.jpg?1753986936
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688bb70b8bf52a0067aece00/original.png?1753986826
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688bb75b3ab6d40064616f36/original.png?1753986907
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688bb7962060840067bec0f5/original.jpg?1753986966
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688bb66abdd94d0064929aa3/original.png?1753986665
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688bb68622541300665caedf/original.png?1753986693
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688bb71122541300665cb356/original.png?1753986833
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688bb7a98bb99a0065fc2b94/original.jpg?1753986984
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688bb7233ab6d40064616daf/original.png?1753986851
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688bb750a6b18c00641f0ef9/original.png?1753986896
+- id: 1b89ab66-3e94-4efa-9a30-7e5930fe946b
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 42317
+  total_delivered: 41872
+  total_opens: 19246
+  total_clicks: 325
+  open_rate: 0.4548
+  click_rate: 0.0077
+  total_revenue: 4811.0
+  total_bounces: 1
+  total_unsubscribes: 101
+  ga4:
+    sessions: 283
+    purchases: 2
+    revenue: 1050.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.818885'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.963328'
+schedule_type: time_based

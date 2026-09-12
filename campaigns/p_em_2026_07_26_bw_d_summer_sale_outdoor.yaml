@@ -1,0 +1,34 @@
+id: 78fad955-1074-4efc-8ecf-a0a822c2720f
+name: P_EM_2026_07_26_BW_D_Summer_Sale_Outdoor
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: summer
+braze_id: 78fad955-1074-4efc-8ecf-a0a822c2720f
+dates:
+  send_date: '2026-07-26'
+  last_sent: '2026-07-26'
+tags:
+- Batch&Blast
+sends:
+- id: f7be9cdc-11e7-4b10-8ce7-bfcc3e6b8aeb
+  channel: email
+  name: Variant 1
+  subject: Sun's out. Sale's on.
+  preheader: Outdoor furniture is up to 30% off during the Summer Sale.
+- id: ff5c1419-28f8-4f9f-9146-156dd1f33e40
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 227765
+  total_delivered: 225485
+  total_opens: 116103
+  total_clicks: 285
+  open_rate: 0.5097
+  click_rate: 0.0013
+  total_revenue: 54804.0
+  total_bounces: 3
+  total_unsubscribes: 143
+schedule_type: time_based
+_filename: p_em_2026_07_26_bw_d_summer_sale_outdoor.yaml

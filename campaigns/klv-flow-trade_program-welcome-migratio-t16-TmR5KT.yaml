@@ -1,0 +1,53 @@
+id: klaviyo-TmR5KT
+name: TRG_EM_2026_09_D_TE_Welcome_Flow_Migration_T7
+brand: TE
+channel: email
+category: other
+type: lifecycle
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: U62z3r
+canvas_name: trade_program-welcome-migration
+flow_type: welcome_series
+sequence_position: 16
+dates:
+  created: '2026-08-25'
+  inferred_send_type: scheduled
+  first_sent: '2026-08-25'
+  last_sent: '2026-08-25'
+sends:
+- id: TmR5KT
+  channel: email
+  name: Message
+  subject: Ready to declutter your inbox?
+  preheader: 100s of brands, 1 contact.
+  html_file: html/klv-flow-trade_program-welcome-migratio-t16-TmR5KT.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/adf6b0b1-e173-40ed-ab20-928814e78d39.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/c102f104-b947-43ca-ad66-e59281b609a5.gif
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/f8280dfb-ee24-4155-b8df-da2a3b02ddf8.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/ea7b41a7-0ee8-4c14-afa3-43289807396b.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/e2da7f5b-e45b-4272-b1e1-c9bba96e51b0.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/2937c1b3-59df-4193-8b99-2ff2d2773004.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/03798e82-7136-4b31-8695-8ee2b6e9c424.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: TmR5KT
+structure:
+  image_count: 7
+  link_count: 10
+  has_gif: true
+  hero_width: 600
+  layout_type: product_grid

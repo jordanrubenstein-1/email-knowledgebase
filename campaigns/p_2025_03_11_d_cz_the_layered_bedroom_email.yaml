@@ -1,0 +1,57 @@
+id: 8c99c2e3-e185-42e6-ac19-f76030159252
+name: P_2025_03_11_D_CZ_The_Layered_Bedroom_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 8c99c2e3-e185-42e6-ac19-f76030159252
+dates:
+  send_date: '2025-03-11'
+  inferred_send_type: scheduled
+  first_sent: '2025-03-11T05:46:45+00:00'
+  last_sent: '2025-03-11T17:02:06+00:00'
+tags: []
+sends:
+- id: 3103c5a2-c18b-47db-9ac9-1b39960fd705
+  channel: email
+  name: Variant 1
+  subject: Curate A Serene Spring Sanctuary
+  preheader: Your dream bedroom, elevated for the season.
+  html_file: html/p_2025_03_11_d_cz_the_layered_bedroom_email.html
+  screenshot: screenshots/p_2025_03_11_d_cz_the_layered_bedroom_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cf4237679ea60065ecc69e/original.png?1741636150
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cf42002c821e0065697b77/original.png?1741636096
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cf4248679ea60065ecc6c9/original.png?1741636168
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cf4216c3822f007644e587/original.png?1741636118
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cf42242d0f08007677ab1c/original.png?1741636132
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cf426cb8ecb000678eec15/original.png?1741636203
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cf4265b8ecb000678eebec/original.png?1741636196
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cf4207679ea60065ecc5bc/original.png?1741636102
+- id: f6ebff26-7f1c-4a98-93a0-5acd8876036b
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 91007
+  total_delivered: 90237
+  total_opens: 47985
+  total_clicks: 481
+  open_rate: 0.5273
+  click_rate: 0.0053
+  total_revenue: 74180.63
+  total_bounces: 5
+  total_unsubscribes: 116
+  ga4:
+    sessions: 455
+    purchases: 2
+    revenue: 89.17
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.683638'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.842481'
+schedule_type: time_based

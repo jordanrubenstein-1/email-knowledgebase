@@ -1,0 +1,31 @@
+id: 8cbe3640-8015-4408-bf7d-7d2fbcf6c442
+name: P_PUSH_2026_03_10_HAV_CONV_Birthday_Sale_Day_1
+brand: HAV
+channel: push
+category: sale_promo
+type: sale
+theme: null
+braze_id: 8cbe3640-8015-4408-bf7d-7d2fbcf6c442
+dates:
+  send_date: '2026-03-10'
+  first_sent: '2026-03-10T01:24:29+00:00'
+  last_sent: '2026-03-11T01:01:33+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 93e9e6e9-22d3-4d7e-98fc-03362a8ad75f
+  channel: push
+  name: Variant 1
+- id: 4528253d-9691-4099-8b1c-2d31bccec0d9
+  channel: push
+  name: Control Group
+performance_summary:
+  total_sends: 45883
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_bounces: 14
+schedule_type: time_based
+_filename: p_push_2026_03_10_hav_conv_birthday_sale_day_1.yaml

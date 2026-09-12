@@ -1,0 +1,54 @@
+id: 017130aa-6cf5-4d3e-b661-ba52c79f86db
+name: P_2025_2_7_D_CZ_Back_In_Stock
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 017130aa-6cf5-4d3e-b661-ba52c79f86db
+dates:
+  send_date: '2025-02-07'
+  inferred_send_type: local_time
+  first_sent: '2025-02-09T17:07:42+00:00'
+  last_sent: '2025-02-10T17:02:03+00:00'
+tags: []
+sends:
+- id: 0d558d54-1cdb-4762-9384-da3b126dfb76
+  channel: email
+  name: Variant A
+  subject: Welcome Back, Best Sellers
+  preheader: These fan-favorites are finally back in stock.
+  html_file: html/p_2025_2_7_d_cz_back_in_stock.html
+  screenshot: screenshots/p_2025_2_7_d_cz_back_in_stock.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67a63e885b5a2e0066130024/original.png?1738948231
+- id: eaf4677e-4cd4-4673-84f8-b33b4d1ef1c9
+  channel: other
+  name: Control Group
+- id: fccc5ec6-af26-47bc-b4ef-810f93ef256c
+  channel: email
+  name: Variant B
+  subject: Welcome Back, Best Sellers
+  preheader: These fan-favorites are finally back in stock.
+performance_summary:
+  total_sends: 96397
+  total_delivered: 95670
+  total_opens: 46505
+  total_clicks: 1068
+  open_rate: 0.4824
+  click_rate: 0.0111
+  total_revenue: 129521.26
+  total_unsubscribes: 135
+  ga4:
+    sessions: 1534
+    purchases: 11
+    revenue: 5332.51
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.431870'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.844908'
+schedule_type: time_based

@@ -1,0 +1,59 @@
+id: 665f8342-71ff-45d0-ad51-fb895c258d46
+name: P_EM_2025_12_16_SF_D_PR_Winter_White
+brand: STF
+channel: email
+category: other
+type: seasonal
+theme: winter
+braze_id: 665f8342-71ff-45d0-ad51-fb895c258d46
+dates:
+  send_date: '2025-12-16'
+  inferred_send_type: scheduled
+  first_sent: '2025-12-16T05:14:10+00:00'
+  last_sent: '2025-12-16T17:15:49+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- print
+sends:
+- id: 6a6c2aef-53e6-4d62-926d-d45c84c45e0a
+  channel: email
+  name: Variant 1
+  subject: White, but make it daring 🤍
+  preheader: an edit of cool tones and graphic textures, curated by St. Frank.
+  html_file: html/p_em_2025_12_16_sf_d_pr_winter_white.html
+  screenshot: screenshots/p_em_2025_12_16_sf_d_pr_winter_white.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/693b277255157a0063d91b5c/original.png?1765484402
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/693b27311a01a200641fcaa2/original.png?1765484337
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/693b274ddf3a6500651426c5/original.png?1765484365
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/693b275678f9640063bfba58/original.png?1765484374
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/694072f9f02fd70063d5930b/original.png?1765831416
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6940736c06e1c500649bd66c/original.png?1765831531
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/693b277bf15c900064ac6a6f/original.png?1765484410
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6940736158d5210063bb988c/original.png?1765831521
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/694073751408080064a0fdc7/original.png?1765831541
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6940732fa8d2940064f21746/original.png?1765831471
+- id: 9f59214d-60a7-4bee-a93b-79bd49468cfc
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39357
+  total_delivered: 39050
+  total_opens: 14422
+  total_clicks: 108
+  open_rate: 0.3664
+  click_rate: 0.0027
+  total_bounces: 4
+  total_unsubscribes: 32
+  ga4:
+    sessions: 99
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.848073'
+    source: snowflake
+    channel: email
+schedule_type: time_based

@@ -1,0 +1,43 @@
+id: b07b4f56-b1f8-4596-8521-3da3c7f9768c
+name: P_EM_2026_01_29_HAV_CONV_PT_Repeat_Clients_Kickoff_Call
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: b07b4f56-b1f8-4596-8521-3da3c7f9768c
+dates:
+  send_date: '2026-01-29'
+  inferred_send_type: scheduled
+  first_sent: '2026-01-29T19:51:24+00:00'
+  last_sent: '2026-01-29T19:51:31+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 83ee23a0-9eab-484c-9a15-a9470f2a8a74
+  channel: email
+  name: Variant 1
+  subject: Book your kickoff call with your designer today!
+  html_file: html/p_em_2026_01_29_hav_conv_pt_repeat_clients_kickoff_call.html
+  screenshot: screenshots/p_em_2026_01_29_hav_conv_pt_repeat_clients_kickoff_call.png
+  image_urls:
+  - https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/c731630f24214e43807c7369ca8ebacd/Havenly_Wordmark_RGB_Charcoal_Brown%20%281%29.png
+- id: ac7817e6-78bb-4702-8149-e038be75b158
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 16
+  total_delivered: 16
+  total_opens: 3
+  total_clicks: 0
+  open_rate: 0.1875
+  click_rate: 0.0
+  ga4:
+    sessions: 7
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.288228'
+    source: snowflake
+    channel: email
+schedule_type: time_based

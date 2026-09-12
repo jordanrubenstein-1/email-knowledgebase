@@ -1,0 +1,31 @@
+id: CANVAS_STEP_UUID          # Replace: canvas step UUID from Braze (Canvas > Settings > Step ID)
+name: TRG_EM_2026_04_ID_D_Collections_Cart_Abandon_T1_V1
+brand: ID
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 90ff3c97-7866-46d1-b1df-1a97c60ef691
+canvas_name: Cart Abandon - Cart Viewed
+flow_type: cart_abandonment
+sequence_position: 1          # Adjust if this is a parallel branch rather than replacing T1
+
+dates:
+  first_sent: null            # Fill after launch
+
+sends:
+  - id: MESSAGE_VARIATION_UUID  # Replace: message variation UUID from Braze
+    channel: email
+    name: Variant 1
+    subject: "Still thinking about it?"
+    preheader: "The collections in your cart are waiting for you."
+    html_file: html/trg_em_2026_04_id_d_collections_cart_abandon_t1.html
+
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0
+  click_rate: 0
+  total_unsubscribes: 0

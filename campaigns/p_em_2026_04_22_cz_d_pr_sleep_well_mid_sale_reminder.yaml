@@ -1,0 +1,49 @@
+id: 76c93cd7-4be7-441b-9ac8-a4e2fcbcd533
+name: P_EM_2026_04_22_CZ_D_PR_Sleep_Well_Mid_Sale_Reminder
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 76c93cd7-4be7-441b-9ac8-a4e2fcbcd533
+dates:
+  send_date: '2026-04-22'
+  first_sent: '2026-04-21T19:37:23+00:00'
+  last_sent: '2026-04-21T19:00:00+00:00'
+tags:
+- batch and blast
+- d2c
+- designed
+- sale
+- sale/sleepsale2026
+- sale_feat
+sends:
+- id: 654f2552-56cf-476a-a85f-baa8baf768b9
+  channel: email
+  name: Variant 1
+  subject: The Sleep Well Sale continues
+  preheader: Enjoy 20% off select styles.
+  html_file: html/p_em_2026_04_22_cz_d_pr_sleep_well_mid_sale_reminder.html
+  screenshot: screenshots/p_em_2026_04_22_cz_d_pr_sleep_well_mid_sale_reminder.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69e7597452c4dc00acfa0ece/original.gif?1776769396
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69e0fca572a5a000adec63a2/original.png?1776352421
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69e759a9b2e73700aaa3170d/original.png?1776769449
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69e759a43d47c300ad411bbd/original.png?1776769443
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69e0fcac2c2e2e00acb15039/original.png?1776352428
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69e75995287b0700aacbb68c/original.png?1776769428
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69e0fc966ebc7a00aab6e2c3/original.png?1776352405
+- id: b44c7935-c5ff-43ab-81d3-9d0878f94cd3
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 118794
+  total_delivered: 117439
+  total_opens: 55924
+  total_clicks: 627
+  open_rate: 0.4708
+  click_rate: 0.0053
+  total_bounces: 608
+  total_unsubscribes: 186
+_filename: p_em_2026_04_22_cz_d_pr_sleep_well_mid_sale_reminder.yaml
+schedule_type: time_based

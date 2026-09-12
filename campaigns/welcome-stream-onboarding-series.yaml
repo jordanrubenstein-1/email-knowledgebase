@@ -1,0 +1,137 @@
+id: 1218c66f-b068-4451-ba86-fba3dfccee37
+name: Welcome Stream / Onboarding Series
+brand: HAV
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: 1218c66f-b068-4451-ba86-fba3dfccee37
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-28T03:00:00+00:00'
+  last_sent: '2025-12-13T14:00:00+00:00'
+tags:
+- Automated-Lifecycle-Campaigns
+- welcome
+sends:
+- id: 678b13b7-b3c1-4392-8b99-c160f5d09b47
+  channel: email
+  name: TRG_EM_2024_08_HAV_CONV_D_Onboarding_T1_V1
+  subject: We are glad you are here
+  preheader: Welcome to Havenly
+  step_id: c28e4533-ec6b-4135-a135-bc001c6d5e1d
+- id: 585e49cf-68eb-44c1-ae27-92f75fc67f32
+  channel: email
+  name: TRG_EM_2024_08_HAV_CONV_D_Onboarding_T2_V1
+  subject: Your dream home is waiting
+  preheader: Let's get started!
+  step_id: 6a24f633-fec6-4c39-b06f-b8988bb51946
+- id: 2019bd22-e84f-409c-9380-ef862bc7769e
+  channel: email
+  name: TRG_EM_2024_08_HAV_CONV_D_Onboarding_T3_V1
+  subject: Design inspo this way ➡️
+  preheader: We got you.
+  step_id: a49a6b05-d0c4-4632-900e-478e1d7c7de8
+- id: 4d878a84-fc5a-455a-8aec-bf37e3e77c79
+  channel: email
+  name: TRG_EM_2024_08_HAV_CONV_D_Onboarding_T4_V1
+  subject: Our favorite design style of the moment? 🥁
+  preheader: Shop the edit.
+  step_id: 45043512-65e9-49f0-8d8a-e5e540a99dd7
+- id: 11060930-aafe-47dc-84b7-55f965385918
+  channel: email
+  name: TRG_EM_2024_09_HAV_CONV_PT_Onboarding_HIP_Welcome_T1_V1
+  subject: 'Welcome to Havenly In-Person! 🎉
+
+    '
+  preheader: ''
+  step_id: fa044d42-0c6b-45d1-89cd-019cbe3a7fb1
+performance_summary:
+  total_entries: 2160
+  total_sends: 8877
+  total_delivered: 8706
+  total_opens: 4636
+  total_clicks: 148
+  open_rate: 0.5222
+  click_rate: 0.0167
+  total_conversions: 116
+  total_unsubscribes: 154
+  total_bounces: 62
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.267852'
+    source: snowflake
+    channel: email
+canvas_steps:
+- id: 9575718b-f757-48a6-ad9b-2788819a8105
+  name: Step 1
+  type: delay
+- id: c28e4533-ec6b-4135-a135-bc001c6d5e1d
+  name: TRG_EM_2024_08_HAV_CONV_D_Onboarding_T1_V1
+  type: message
+  channel: email
+  subject: We are glad you are here
+  preheader: Welcome to Havenly
+- id: 36855709-0ee1-4bbd-8780-bfce854edb7e
+  name: Step 2
+  type: delay
+- id: 6a24f633-fec6-4c39-b06f-b8988bb51946
+  name: TRG_EM_2024_08_HAV_CONV_D_Onboarding_T2_V1
+  type: message
+  channel: email
+  subject: Your dream home is waiting
+  preheader: Let's get started!
+- id: a49a6b05-d0c4-4632-900e-478e1d7c7de8
+  name: TRG_EM_2024_08_HAV_CONV_D_Onboarding_T3_V1
+  type: message
+  channel: email
+  subject: Design inspo this way ➡️
+  preheader: We got you.
+- id: 57a79c73-7771-4be0-9f36-0438ce11dcf8
+  name: Step
+  type: delay
+- id: 8406dd07-b934-4844-bdb4-8544ed9aec54
+  name: Step 3
+  type: delay
+- id: 45043512-65e9-49f0-8d8a-e5e540a99dd7
+  name: TRG_EM_2024_08_HAV_CONV_D_Onboarding_T4_V1
+  type: message
+  channel: email
+  subject: Our favorite design style of the moment? 🥁
+  preheader: Shop the edit.
+- id: ec4334a3-4b9c-411a-b068-b42d74297c57
+  name: Step 4
+  type: decision_split
+- id: fa044d42-0c6b-45d1-89cd-019cbe3a7fb1
+  name: TRG_EM_2024_09_HAV_CONV_PT_Onboarding_HIP_Welcome_T1_V1
+  type: message
+  channel: email
+  subject: 'Welcome to Havenly In-Person! 🎉
+
+    '
+  preheader: ''
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: hav_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: hav_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:36.738453'

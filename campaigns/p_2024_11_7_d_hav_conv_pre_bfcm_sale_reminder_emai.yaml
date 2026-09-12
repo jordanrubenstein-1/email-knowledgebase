@@ -1,0 +1,53 @@
+id: d93e32ae-5cfa-49ea-a0e8-1f037ad9e82e
+name: P_2024_11_7_D_HAV_Conv_Pre_BFCM_Sale_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: black_friday
+braze_id: d93e32ae-5cfa-49ea-a0e8-1f037ad9e82e
+dates:
+  send_date: '2024-11-07'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-07T06:13:27+00:00'
+  last_sent: '2024-11-07T17:15:05+00:00'
+tags: []
+sends:
+- id: 89d9371b-8c46-4cd4-b5c2-b1f8676932dc
+  channel: email
+  name: Variant 1
+  subject: 'PSA: early shoppers get the BEST deal'
+  preheader: Save on design services now, make the most of Black Friday later.
+  html_file: html/p_2024_11_7_d_hav_conv_pre_bfcm_sale_reminder_email.html
+  screenshot: screenshots/p_2024_11_7_d_hav_conv_pre_bfcm_sale_reminder_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672a500f8ef4540065917355/original.gif?1730826255
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672a4fffaf24c30072a9ecac/original.png?1730826238
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672a815ddef5cc006567c25a/original.jpg?1730838877
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672a50238ef45400659173a1/original.png?1730826274
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672a50328ef45400659173ae/original.png?1730826290
+- id: a12c4b49-930d-4aeb-9bbe-957c85e35b50
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 34866
+  total_delivered: 34830
+  total_opens: 20148
+  total_clicks: 159
+  open_rate: 0.5779
+  click_rate: 0.0046
+  total_bounces: 1
+  total_unsubscribes: 56
+  ga4:
+    sessions: 194
+    purchases: 2
+    revenue: 1061.85
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.577416'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.716849'
+schedule_type: time_based

@@ -1,0 +1,63 @@
+id: 96e8f27b-8073-4aca-b9fb-ef78508ba92d
+name: P_EM_2025_09_12_ID_D_Collection_Spotlight_Tatum
+brand: ID
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 96e8f27b-8073-4aca-b9fb-ef78508ba92d
+dates:
+  send_date: '2025-09-12'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-12T03:48:54+00:00'
+  last_sent: '2025-09-12T17:15:22+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: b6029643-5e52-4039-ab5e-6e81122d7f8d
+  channel: email
+  name: Variant 1
+  subject: The Sofa That Moves With You
+  preheader: Discover the modular magic of Tatum, now 20% off.
+- id: 40bc425e-538b-434a-9305-5aa1811c55eb
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 203152
+  total_delivered: 202186
+  total_opens: 97259
+  total_clicks: 636
+  open_rate: 0.4787
+  click_rate: 0.0031
+  total_revenue: 76397.96
+  total_bounces: 4
+  total_unsubscribes: 470
+  ga4:
+    sessions: 659
+    purchases: 2
+    revenue: 3952.18
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.094685'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-private-sale-lifecycle-retail-only-2025-09-11
+    name: Private Sale - Lifecycle/Retail Only
+    start_date: '2025-09-11'
+    end_date: '2025-09-16'
+    discount: 20% off sitewide with code SEPTVIP
+    type: null
+  primary_sale:
+    id: id-private-sale-lifecycle-retail-only-2025-09-11
+    name: Private Sale - Lifecycle/Retail Only
+    start_date: '2025-09-11'
+    end_date: '2025-09-16'
+    discount: 20% off sitewide with code SEPTVIP
+    type: null
+  sale_name: Private Sale - Lifecycle/Retail Only
+  sale_discount: 20% off sitewide with code SEPTVIP
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:42.693927'
+schedule_type: time_based

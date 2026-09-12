@@ -1,0 +1,56 @@
+id: klaviyo-WCfdCZ
+name: TRG_EM_2024_01_TI_Trade_D_Shipping_Confirmation_Swatch_Order_T1_V1
+brand: TI
+channel: email
+category: other
+type: announcement
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: QyPJqw
+canvas_name: '[TRADE] Swatch Order -- SHIPPED'
+flow_type: swatch_followup
+sequence_position: 5
+dates:
+  created: '2020-03-09'
+  inferred_send_type: sto
+  first_sent: '2020-03-09'
+  last_sent: '2026-04-22'
+sends:
+- id: WCfdCZ
+  channel: email
+  name: Message
+  subject: Your free swatches have shipped!
+  preheader: Here's your tracking.
+  html_file: html/klv-flow-trade-swatch-order-shipped-t05-WCfdCZ.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/811bc8b3-821e-41d5-b87f-7237b126361c.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/124511c1-b86f-4b61-b65b-dd306ab34b9b.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/7a6442f1-749d-495c-a682-f709b14ac5fa.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/59dba721-ef4c-4fea-bcc9-a578ccc1d42f.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/372249b1-3eba-4670-9c75-4b6e2f4bd8ae.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/21e4d33c-75ad-4a7f-bf95-a3fdff24abf1.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/4bdd8ea9-7dc5-48a2-ad86-04a53434c8a1.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/17413e7a-22d2-444a-a7b8-6a6ed954c4af.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/5b46fe0f-7a12-4519-87ce-4caa7c28d539.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/d069db59-1314-4879-8c7f-630c42cc9f43.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: WCfdCZ
+structure:
+  image_count: 17
+  link_count: 18
+  has_gif: false
+  hero_width: 600
+  layout_type: product_grid

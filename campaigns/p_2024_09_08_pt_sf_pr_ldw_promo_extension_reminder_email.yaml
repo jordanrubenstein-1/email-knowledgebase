@@ -1,0 +1,37 @@
+id: e49648b9-b2f8-4b3e-8598-1d1abfb4523a
+name: P_2024_09_08_PT_SF_PR_LDW_Promo_Extension_Reminder_Email
+brand: STF
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: e49648b9-b2f8-4b3e-8598-1d1abfb4523a
+dates:
+  send_date: '2024-09-08'
+  inferred_send_type: local_time
+  first_sent: '2024-09-07T18:00:02+00:00'
+  last_sent: '2024-09-08T14:00:09+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: 2e892261-52c0-4dd2-99dc-6066d6f01cdc
+  channel: email
+  name: Variant 1
+  subject: Last weekend for 20% OFF
+  preheader: our best sale of the summer ends soon
+  html_file: html/p_2024_09_08_pt_sf_pr_ldw_promo_extension_reminder_email.html
+  screenshot: screenshots/p_2024_09_08_pt_sf_pr_ldw_promo_extension_reminder_email.png
+- id: 6bf69018-ff99-445a-8234-6e093aad0075
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 7715
+  total_delivered: 7521
+  total_opens: 2832
+  total_clicks: 66
+  open_rate: 0.3671
+  click_rate: 0.0086
+  total_revenue: 4082.4
+  total_unsubscribes: 18
+_filename: p_2024_09_08_pt_sf_pr_ldw_promo_extension_reminder_email.yaml
+schedule_type: time_based

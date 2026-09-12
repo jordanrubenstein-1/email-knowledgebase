@@ -1,0 +1,48 @@
+id: 45547e3e-4955-48ea-91e7-7cdc4d623e9c
+name: P_2024_08_31_D_SF_PR_LDW_Reminder_Bedding_Feature_Email
+brand: STF
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 45547e3e-4955-48ea-91e7-7cdc4d623e9c
+dates:
+  send_date: '2024-08-31'
+  inferred_send_type: local_time
+  first_sent: '2024-08-30T19:19:39+00:00'
+  last_sent: '2024-08-31T14:00:33+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: 2c17b165-8fab-44bd-a6bd-0d54335cb6a9
+  channel: email
+  name: Variant 1
+  subject: Sleep in Style at 20% off
+  preheader: shop our Labor Day Event
+  html_file: html/p_2024_08_31_d_sf_pr_ldw_reminder_bedding_feature_email.html
+  screenshot: screenshots/p_2024_08_31_d_sf_pr_ldw_reminder_bedding_feature_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf6f26314d480063cc2063/original.gif?1724870438
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ce4749b1331200747d4ebe/original.gif?1724794697
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c63d40a358e5007439fb92/original.jpg?1724267840
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d2030db98d56006390aa2b/original.gif?1725039373
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0058f1ba77/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ce474a9d74aa0071cb2826/original.jpg?1724794697
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ce474ab1331200667d5a29/original.gif?1724794697
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ce47499d74aa0064cb37e7/original.gif?1724794697
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ce4749f3dba300750f1a7a/original.jpg?1724794697
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0063f11fb6/original.jpg?1720752082
+- id: d311774b-741f-4b7b-87c1-b69f6fbbb2c9
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 8004
+  total_delivered: 7809
+  total_opens: 2891
+  total_clicks: 589
+  open_rate: 0.3612
+  click_rate: 0.0736
+  total_revenue: 6457.0
+  total_unsubscribes: 12
+_filename: p_2024_08_31_d_sf_pr_ldw_reminder_bedding_feature_email.yaml
+schedule_type: time_based

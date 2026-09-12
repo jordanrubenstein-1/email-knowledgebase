@@ -1,0 +1,50 @@
+id: c19f25fd-c1bf-4803-af81-2fa3633a85af
+name: P_EM_2025_10_04_SF_D_PF_MTO_Furniture
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: c19f25fd-c1bf-4803-af81-2fa3633a85af
+dates:
+  send_date: '2025-10-04'
+  inferred_send_type: local_time
+  first_sent: '2025-10-03T21:41:11+00:00'
+  last_sent: '2025-10-04T17:00:58+00:00'
+tags:
+- Batch and Blast
+- am
+- custom furniture
+- d2c
+- designed
+sends:
+- id: ad46c039-78f7-44d5-84f6-3797b90f677d
+  channel: email
+  name: Variant 1
+  subject: A New Era of St. Frank
+  preheader: our first-ever bespoke furniture collection
+- id: 302a1158-9aed-4d18-bb05-eed755f37b4e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39759
+  total_delivered: 39230
+  total_opens: 18194
+  total_clicks: 208
+  open_rate: 0.4576
+  click_rate: 0.0052
+  total_bounces: 5
+  total_unsubscribes: 54
+  ga4:
+    sessions: 189
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.129859'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:45.164558'
+schedule_type: time_based

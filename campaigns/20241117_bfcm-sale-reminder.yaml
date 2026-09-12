@@ -1,0 +1,52 @@
+id: 8429e35a-6156-4fb9-ac4f-8dcb680375a9
+name: 20241117_BFCM-Sale-Reminder
+brand: BUR
+channel: email
+category: reminder
+type: sale
+theme: black_friday
+braze_id: 8429e35a-6156-4fb9-ac4f-8dcb680375a9
+dates:
+  inferred_send_type: local_time
+  first_sent: '2024-11-16T19:36:35+00:00'
+  last_sent: '2024-11-17T19:30:16+00:00'
+tags: []
+sends:
+- id: 10149e00-2577-42a5-a127-5039e4ad2c6c
+  channel: email
+  name: Variant 1
+  subject: The sale you’ve been waiting for is here
+  preheader: Buy more, save up to 25% off.
+- id: 79ee7433-3944-448d-9a3b-b148803c92f8
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 984
+    purchases: 3
+    revenue: 3389.26
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.546038'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-bfcm-giving-tues-2024-11-13
+    name: BFCM + Giving Tues
+    start_date: '2024-11-13'
+    end_date: '2024-11-26'
+    discount: null
+    type: null
+  primary_sale:
+    id: bur-bfcm-giving-tues-2024-11-13
+    name: BFCM + Giving Tues
+    start_date: '2024-11-13'
+    end_date: '2024-11-26'
+    discount: null
+    type: null
+  sale_name: BFCM + Giving Tues
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:31.252533'
+schedule_type: time_based

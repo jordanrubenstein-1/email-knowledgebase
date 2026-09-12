@@ -1,0 +1,57 @@
+id: klaviyo-KPgYcH
+name: Summer Sale - Last Chance
+brand: TI
+channel: email
+category: sale_promo
+type: sale
+theme: summer
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2019-07-03'
+  inferred_send_type: scheduled
+  first_sent: '2019-07-07T13:00:00+00:00'
+  last_sent: '2019-07-07T13:00:00+00:00'
+sends:
+- id: 01GF7QN25VTS4572YVHT7H8BBT
+  channel: email
+  name: Summer Sale - Last Chance
+  subject: Celebrate Summer With 20% Off 🍉
+  preheader: 'Offer ends today. '
+  html_file: html/summer-sale-last-chance.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/8f2c57c3-511d-4031-ba8b-107d887c0d84.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/9eadeabe-1260-49e7-917b-0a7f876501f8.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/2e5b4e28-3a6f-4a47-9a4f-3836e87b3f94.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/a6965f40-1472-439e-ac87-bd65462015a0.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/d96f7255-3589-4001-a14c-1593673dd68c.jpeg
+  screenshot: screenshots/summer-sale-last-chance.png
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_unsubscribes: 0
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T14:56:51.177869'
+    source: snowflake
+    channel: email
+klaviyo_type: campaign
+klaviyo_campaign_id: KPgYcH
+klaviyo_message_id: 01GF7QN25VTS4572YVHT7H8BBT
+structure:
+  image_count: 5
+  link_count: 6
+  has_gif: false
+  hero_width: 600
+  layout_type: product_grid
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-03-12T11:18:45.728583'

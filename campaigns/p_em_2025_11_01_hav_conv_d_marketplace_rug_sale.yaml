@@ -1,0 +1,34 @@
+id: 95ded687-ec1a-471c-8fec-e88a2a2820da
+name: P_EM_2025_11_01_HAV_CONV_D_MARKETPLACE_RUG_SALE
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 95ded687-ec1a-471c-8fec-e88a2a2820da
+dates:
+  send_date: '2025-11-01'
+  first_sent: '2025-11-01T01:20:30+00:00'
+  last_sent: '2025-11-02T01:15:05+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 2c614576-2e8b-40dc-aee1-8d1e69c640bc
+  channel: email
+  name: Variant 1
+  subject: Don’t miss it — up to 60% off rugs ends soon
+  preheader: Add warmth and style to every room during The Annual Rug Event.
+- id: dc6a3765-265a-40f8-986e-9c65cb790546
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 16813
+  total_delivered: 16791
+  total_opens: 7970
+  total_clicks: 97
+  open_rate: 0.474
+  click_rate: 0.0058
+  total_unsubscribes: 13
+schedule_type: time_based
+_filename: p_em_2025_11_01_hav_conv_d_marketplace_rug_sale.yaml

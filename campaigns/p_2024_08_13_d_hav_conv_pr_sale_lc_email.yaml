@@ -1,0 +1,33 @@
+id: f49b3dc9-8473-4083-8c50-3d0ce01850b8
+name: P_2024_08_13_D_HAV_CONV_PR_Sale_LC_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: f49b3dc9-8473-4083-8c50-3d0ce01850b8
+dates:
+  send_date: '2024-08-13'
+  first_sent: '2024-08-13T00:10:42+00:00'
+  last_sent: '2024-08-13T13:05:05+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 36a1dde3-6116-4649-8996-4e57b59f6f2a
+  channel: email
+  name: Variant 1
+  subject: The sun is setting on exclusive savings
+  preheader: Last chance for 15% off!
+- id: 8ef54673-9178-425c-8519-9df353e3806e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 546
+  total_delivered: 546
+  total_opens: 341
+  total_clicks: 38
+  open_rate: 0.6245
+  click_rate: 0.0696
+  total_unsubscribes: 6
+schedule_type: time_based
+_filename: p_2024_08_13_d_hav_conv_pr_sale_lc_email.yaml

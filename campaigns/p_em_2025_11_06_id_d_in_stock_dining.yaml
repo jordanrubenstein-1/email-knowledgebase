@@ -1,0 +1,47 @@
+id: 2269ddb2-d512-4e3b-8af4-e2cf934a723d
+name: P_EM_2025_11_06_ID_D_In_Stock_Dining
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 2269ddb2-d512-4e3b-8af4-e2cf934a723d
+dates:
+  send_date: '2025-11-06'
+  inferred_send_type: scheduled
+  first_sent: '2025-11-06T03:57:27+00:00'
+  last_sent: '2025-11-06T17:15:35+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 12a5be15-4991-4edb-83c9-5365c54484a9
+  channel: email
+  name: Variant 1
+  subject: Your Dining Room, Delivered by Thanksgiving
+  preheader: In Stock furniture to host in style
+- id: 5f459d64-bb10-4e73-a5d9-171e74ebb8a6
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 264216
+  total_delivered: 263299
+  total_opens: 121906
+  total_clicks: 1571
+  open_rate: 0.4614
+  click_rate: 0.0059
+  total_revenue: 92683.98
+  total_bounces: 10
+  total_unsubscribes: 1013
+  ga4:
+    sessions: 1747
+    purchases: 2
+    revenue: 5909.92
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.837478'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.710959'
+schedule_type: time_based

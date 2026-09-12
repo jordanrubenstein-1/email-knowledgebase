@@ -1,0 +1,138 @@
+id: 5b0c85a9-8dcc-4a9f-b0cb-c4e5876ff747
+name: Evergreen - Email & Phone Capture Modal
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 5b0c85a9-8dcc-4a9f-b0cb-c4e5876ff747
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-07-15T19:00:00+00:00'
+  last_sent: '2025-12-21T05:00:00+00:00'
+tags: []
+sends:
+- id: 8ccce2bd-f77a-420c-b224-ce80aca48b96
+  channel: other
+  name: Variant 1
+- id: 6912b802-ed00-4f2d-b706-e3182206a45b
+  channel: other
+  name: Control Group
+- id: cdaab2a0-90af-4fe8-a771-dc13def7811d
+  channel: other
+  name: Variant 2
+- id: 9fbbe502-f4d7-4216-9ec9-be2a7ff141e3
+  channel: other
+  name: Variant 3
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.815846'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-seating-flash-sale-2025-07-18
+    name: Seating Flash Sale
+    start_date: '2025-07-18'
+    end_date: '2025-07-21'
+    discount: Up to 30% off all Seating Collections
+    type: null
+  - id: bur-the-summer-sale-2025-07-24
+    name: The Summer Sale
+    start_date: '2025-07-24'
+    end_date: '2025-07-31'
+    discount: '25% off sitewide
+
+      Free ground shipping on orders >$2k (excl. Pro)'
+    type: null
+  - id: bur-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off sitewide
+    type: null
+  - id: bur-the-labor-day-event-2025-09-03
+    name: The Labor Day Event
+    start_date: '2025-09-03'
+    end_date: '2025-09-09'
+    discount: '20% off sitewide
+
+      Up to 70% off Clearance
+
+      Free shipping >$2k'
+    type: null
+  - id: bur-subscriber-flash-sale-lifecycle-retail-only-2025-09-11
+    name: Subscriber Flash Sale - Lifecycle/Retail Only
+    start_date: '2025-09-11'
+    end_date: '2025-09-16'
+    discount: 20% off sitewide with code SEPTVIP
+    type: null
+  - id: bur-holiday-ready-sale-2025-09-17
+    name: Holiday-Ready Sale
+    start_date: '2025-09-17'
+    end_date: '2025-09-30'
+    discount: "20% off orders < $2k / 25% off orders > $2k\n + up to 50% off clearance"
+    type: null
+  - id: bur-the-fall-sale-2025-10-02
+    name: The Fall Sale
+    start_date: '2025-10-02'
+    end_date: '2025-10-27'
+    discount: Up to 35% Off Sitewide
+    type: null
+  - id: bur-black-friday-now-2025-10-30
+    name: Black Friday Now
+    start_date: '2025-10-30'
+    end_date: '2025-11-03'
+    discount: 30% off sitewide + free shipping on orders >$2k
+    type: null
+  - id: bur-black-friday-cyber-monday-2025-11-14
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-11'
+    end_date: '2025-12-01'
+    discount: "11/11-11/23\n30% off sitewide\nFree shipping on all orders ≥$2k\nUp\
+      \ to 70% off clearance\n\nStarting on Monday, 11/24: \nOur Best Sale of the\
+      \ Year\nUp to 40% Off Sitewide\nPlus free shipping*"
+    type: null
+  - id: bur-black-friday-cyber-monday-extension-2025-12-02
+    name: Black Friday / Cyber Monday (EXTENSION)
+    start_date: '2025-12-02'
+    end_date: '2025-12-09'
+    discount: "11/11-11/23\n30% off sitewide\nFree shipping on all orders ≥$2k\nUp\
+      \ to 70% off clearance\n\nStarting on Monday, 11/24: \nOur Best Sale of the\
+      \ Year\nUp to 40% Off Sitewide\nPlus free shipping*"
+    type: null
+  - id: bur-black-friday-cyber-monday-ea-2025-11-11
+    name: Black Friday / Cyber Monday (EA)
+    start_date: '2025-11-11'
+    end_date: '2025-11-12'
+    discount: "11/11-11/23\n30% off sitewide\nFree shipping on all orders ≥$2k\nUp\
+      \ to 70% off clearance\n\nStarting on Monday, 11/24: \nOur Best Sale of the\
+      \ Year\nUp to 40% Off Sitewide\nPlus free shipping*"
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-seating-flash-sale-2025-07-18
+    name: Seating Flash Sale
+    start_date: '2025-07-18'
+    end_date: '2025-07-21'
+    discount: Up to 30% off all Seating Collections
+    type: null
+  sale_name: Seating Flash Sale
+  sale_discount: Up to 30% off all Seating Collections
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:45.957960'
+schedule_type: action_based

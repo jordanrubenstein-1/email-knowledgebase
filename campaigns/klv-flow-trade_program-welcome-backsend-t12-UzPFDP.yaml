@@ -1,0 +1,56 @@
+id: klaviyo-UzPFDP
+name: trade_program-welcome-backsend1-06
+brand: TE
+channel: email
+category: other
+type: lifecycle
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: UeHqdT
+canvas_name: trade_program-welcome-backsend2-studio_purchase
+flow_type: welcome_series
+sequence_position: 12
+dates:
+  created: '2024-10-09'
+  inferred_send_type: scheduled
+  first_sent: '2024-10-09'
+  last_sent: '2024-10-09'
+sends:
+- id: UzPFDP
+  channel: email
+  name: Message
+  subject: The final touch
+  preheader: Elevate your projects with unique accents.
+  html_file: html/klv-flow-trade_program-welcome-backsend-t12-UzPFDP.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/dac146b7-7dfc-4851-8cf1-d7978d5e7110.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/2a89195d-6cd4-44f7-8d45-fb48d199803c.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/1ac5cd3b-469a-4818-921b-201967119932.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/93d1f063-9f21-4fd6-a2e0-1749c170d74f.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/3ada2ec7-f7bb-4c99-9693-d82272c83d0e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/c31cf68f-1a2d-4a07-ac50-20d790d336b0.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/f657abfd-71c9-42c7-a178-27855be7b699.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/abd7ee94-3975-4e9e-a1b8-320694163f20.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/6444b9d8-ff58-4865-a262-cd99598d3a46.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/00b724ef-0c24-4919-baa8-6aa76de9b476.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: UzPFDP
+structure:
+  image_count: 31
+  link_count: 36
+  has_gif: false
+  hero_width: 100
+  layout_type: product_grid

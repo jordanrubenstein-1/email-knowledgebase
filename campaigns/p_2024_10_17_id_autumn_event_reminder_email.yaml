@@ -1,0 +1,46 @@
+id: d92e73da-fa07-4481-ba13-643e8dbcc7bb
+name: P_2024_10_17_ID_Autumn_Event_Reminder_Email
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: fall
+braze_id: d92e73da-fa07-4481-ba13-643e8dbcc7bb
+dates:
+  send_date: '2024-10-17'
+  inferred_send_type: scheduled
+  first_sent: '2024-10-17T05:53:59+00:00'
+  last_sent: '2024-10-17T17:15:02+00:00'
+tags: []
+sends:
+- id: 72a2be15-334f-4fb9-941b-cc8ba47a7b8f
+  channel: email
+  name: Variant 1
+  subject: Our treat! Get 20% off sitewide
+  preheader: Because you deserve it.
+- id: 1f57e070-e5f4-4aec-8bcd-18c05db9e310
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 56800
+  total_delivered: 56233
+  total_opens: 18450
+  total_clicks: 687
+  open_rate: 0.3248
+  click_rate: 0.0121
+  total_revenue: 295598.0
+  total_bounces: 2
+  total_unsubscribes: 79
+  ga4:
+    sessions: 624
+    purchases: 4
+    revenue: 7069.19
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.634917'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.765024'
+schedule_type: time_based

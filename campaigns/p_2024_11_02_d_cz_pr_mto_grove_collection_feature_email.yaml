@@ -1,0 +1,47 @@
+id: 1a328bd7-3972-48ff-a099-b02c39903485
+name: P_2024_11_02_D_CZ_PR_MTO_Grove_Collection_Feature_Email
+brand: CZ
+channel: email
+category: product_launch
+type: announcement
+theme: null
+braze_id: 1a328bd7-3972-48ff-a099-b02c39903485
+dates:
+  send_date: '2024-11-02'
+  inferred_send_type: local_time
+  first_sent: '2024-11-02T01:27:40+00:00'
+  last_sent: '2024-11-02T17:00:51+00:00'
+tags:
+- batch and blast
+sends:
+- id: 5625c7bb-c61a-4ec2-bf94-9a3b17120afe
+  channel: email
+  name: Variant 1
+  subject: 'Just In: The Grove Seating Collection'
+  preheader: Meet our newest furniture collection.
+  html_file: html/p_2024_11_02_d_cz_pr_mto_grove_collection_feature_email.html
+  screenshot: screenshots/p_2024_11_02_d_cz_pr_mto_grove_collection_feature_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e9b0dc1b00bc0064a4c0c5/original.jpg?1726591195
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e9b02d3efc000064e03c81/original.jpg?1726591021
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e9b10d165bdb006641f0b7/original.jpg?1726591245
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e9b047938a1100653126a3/original.jpg?1726591047
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e9b15e34b19a0073be1d7f/original.jpg?1726591325
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e9b14c938a110065312ac8/original.jpg?1726591308
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e9b135f343db0066eb30ac/original.jpg?1726591285
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e9b0c33efc000064e03f2c/original.jpg?1726591171
+- id: 6cfd6cb9-76d0-40c5-9792-cdebc44d62bf
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 91368
+  total_delivered: 90813
+  total_opens: 41144
+  total_clicks: 650
+  open_rate: 0.4503
+  click_rate: 0.0071
+  total_revenue: 43667.91
+  total_bounces: 1
+  total_unsubscribes: 108
+_filename: p_2024_11_02_d_cz_pr_mto_grove_collection_feature_email.yaml
+schedule_type: time_based

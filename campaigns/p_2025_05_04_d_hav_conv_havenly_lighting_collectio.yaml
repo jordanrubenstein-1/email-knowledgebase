@@ -1,0 +1,58 @@
+id: 42fcc1a8-72d1-464c-8eed-aab6181281de
+name: P_2025_05_04_D_HAV_Conv_Havenly_Lighting_Collection
+brand: HAV
+channel: email
+category: product_launch
+type: announcement
+theme: null
+braze_id: 42fcc1a8-72d1-464c-8eed-aab6181281de
+dates:
+  send_date: '2025-05-04'
+  inferred_send_type: local_time
+  first_sent: '2025-05-03T18:23:44+00:00'
+  last_sent: '2025-05-04T17:15:10+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 0a90704a-13af-4bf8-8358-dfafa983cb50
+  channel: email
+  name: Variant 1
+  subject: Your Space Just Got Brighter.
+  preheader: Say hello to the all-new Havenly Lighting Collection.
+  html_file: html/p_2025_05_04_d_hav_conv_havenly_lighting_collection.html
+  screenshot: screenshots/p_2025_05_04_d_hav_conv_havenly_lighting_collection.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68110fcc5542d50065007d5f/original.png?1745948619
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68110e1d8028da0066b4d9e5/original.gif?1745948189
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68110f9b70982f009238cde0/original.png?1745948571
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681111d4c1ee760067348cd6/original.png?1745949139
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68110e3a94df2a0072fc36ec/original.png?1745948217
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68110fae94df2a0082fc3651/original.png?1745948589
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68110f669a613700687ac72f/original.png?1745948517
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681111b5fa757b0065655641/original.png?1745949109
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681111cb94df2a0065fc9a20/original.png?1745949131
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681111c35542d50065008591/original.png?1745949123
+- id: c1344d2c-8741-40c0-acea-ea618ea7adb6
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 39365
+  total_delivered: 39293
+  total_opens: 21625
+  total_clicks: 172
+  open_rate: 0.5493
+  click_rate: 0.0044
+  total_unsubscribes: 53
+  ga4:
+    sessions: 152
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.358821'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.873725'
+schedule_type: time_based

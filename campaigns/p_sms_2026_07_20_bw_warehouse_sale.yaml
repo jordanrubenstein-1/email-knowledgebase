@@ -1,0 +1,29 @@
+id: d1cfe388-09d2-4498-891c-2eb448bd9aaa
+name: P_SMS_2026_07_20_BW_Warehouse_Sale
+brand: BUR
+channel: sms
+category: sale_promo
+type: sale
+theme: null
+braze_id: d1cfe388-09d2-4498-891c-2eb448bd9aaa
+dates:
+  send_date: '2026-07-20'
+  last_sent: '2026-07-20'
+tags: []
+sends:
+- id: 194b173e-b076-4345-9875-9e8e9e3b50c0
+  channel: sms
+  name: Variant 1
+- id: 860ceace-d527-4682-9da5-815cfb340674
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 11755
+  total_delivered: 11113
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 6962.0
+schedule_type: time_based
+_filename: p_sms_2026_07_20_bw_warehouse_sale.yaml

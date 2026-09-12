@@ -1,0 +1,28 @@
+id: 7ced625b-5713-47d2-9e62-b8224c026f9c
+name: P_SMS_2026_06_26_SF_Fourth_Of_July_Event_Sale_Reminder
+brand: STF
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: 7ced625b-5713-47d2-9e62-b8224c026f9c
+dates:
+  send_date: '2026-06-26'
+  last_sent: '2026-06-26'
+tags: []
+sends:
+- id: a91590ca-a1b9-43f5-b8d8-cb65c26e960c
+  channel: sms
+  name: Variant 1
+- id: 76aeef00-6b9f-430a-92a3-9245c4108fc8
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 4429
+  total_delivered: 4335
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+schedule_type: time_based
+_filename: p_sms_2026_06_26_sf_fourth_of_july_event_sale_reminder.yaml

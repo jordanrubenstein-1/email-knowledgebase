@@ -1,0 +1,45 @@
+id: 8a72c440-90b3-4d68-b747-28f1d9a653af
+name: P_2024_09_09_D_ID_PR_AM_LD_Sale_Last_Chance _Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 8a72c440-90b3-4d68-b747-28f1d9a653af
+dates:
+  send_date: '2024-09-09'
+  inferred_send_type: local_time
+  first_sent: '2024-09-08T18:15:00+00:00'
+  last_sent: '2024-09-09T15:15:02+00:00'
+tags: []
+sends:
+- id: edef0cdf-6b11-4fa4-86f2-08005f8cb85e
+  channel: email
+  name: Variant 1
+  subject: LAST DAY!
+  preheader: Up to 25% off expires tonight.
+- id: c19dae2a-2db2-498f-b326-0b206551cc48
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 40377
+  total_delivered: 40273
+  total_opens: 14937
+  total_clicks: 344
+  open_rate: 0.3699
+  click_rate: 0.0085
+  total_bounces: 1
+  total_unsubscribes: 66
+  ga4:
+    sessions: 519
+    purchases: 7
+    revenue: 23331.32
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.923625'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.717051'
+schedule_type: time_based

@@ -1,0 +1,34 @@
+id: 3b15c659-bbfd-4478-94b5-91213575028c
+name: TRG_EM_2024_11_BW_D_Abandon_Browse_T4_V1
+brand: BUR
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 49e4e79d-21f1-4dae-8d15-258349f633b7
+canvas_name: Abandon Browse - Reclaim
+flow_type: browse_abandonment
+sequence_position: 4
+subject: We get it...
+preheader: Sometimes you need options.
+sends:
+- id: 3b15c659-bbfd-4478-94b5-91213575028c
+  channel: email
+  name: TRG_EM_2024_11_BW_D_Abandon_Browse_T4_V1
+  subject: We get it...
+  preheader: Sometimes you need options.
+  html_file: html/canvas-abandon-browse-reclaim-t4-3b15c659.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-11-14T17:00:00Z'
+  last_sent: '2025-09-13T11:00:00Z'
+performance_summary:
+  total_sends: 118310
+  total_delivered: 118028
+  total_opens: 40546
+  total_clicks: 1963
+  open_rate: 0.3427
+  click_rate: 0.0166
+  total_unsubscribes: 1232
+  total_bounces: 3
+  total_revenue: 189556.0

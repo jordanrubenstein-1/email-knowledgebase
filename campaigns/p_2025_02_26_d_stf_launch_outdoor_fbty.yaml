@@ -1,0 +1,58 @@
+id: 5e85aca7-4955-426a-98ba-280fe5d6ead2
+name: P_2025_02_26_D_STF_Launch_Outdoor_FBTY
+brand: STF
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 5e85aca7-4955-426a-98ba-280fe5d6ead2
+dates:
+  send_date: '2025-02-26'
+  inferred_send_type: local_time
+  first_sent: '2025-02-26T00:23:13+00:00'
+  last_sent: '2025-02-26T17:01:07+00:00'
+tags: []
+sends:
+- id: a4e8eeeb-21d0-4d68-b7ee-1fb522dc910f
+  channel: email
+  name: Variant 1
+  subject: 'Outdoor Fabric Is Here! '
+  preheader: bring our bold patterns outdoors
+  html_file: html/p_2025_02_26_d_stf_launch_outdoor_fbty.html
+  screenshot: screenshots/p_2025_02_26_d_stf_launch_outdoor_fbty.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67be48658424490074116ba4/original.jpg?1740523621
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67be482672b8e80063d476de/original.jpg?1740523558
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67be48a8f4c94f0062f01209/original.jpg?1740523688
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67be47c68424490064117e34/original.jpg?1740523461
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67be47738c47c40063a82f4f/original.jpg?1740523378
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67be465ce86b770074da0762/original.jpg?1740523100
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67be477cbfccbb0063e09c20/original.jpg?1740523387
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67be47beff78060064880b4e/original.jpg?1740523454
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67be47d9bfccbb0063e09d7d/original.jpg?1740523481
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67be47dfe86b770064da3836/original.jpg?1740523487
+- id: 6aa1044f-ad64-4ca5-9caf-e0dab4777774
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 8957
+  total_delivered: 8876
+  total_opens: 5152
+  total_clicks: 313
+  open_rate: 0.5752
+  click_rate: 0.0349
+  total_revenue: 4650.0
+  total_unsubscribes: 47
+  ga4:
+    sessions: 346
+    purchases: 3
+    revenue: 5353.67
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.714227'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.028791'
+schedule_type: time_based

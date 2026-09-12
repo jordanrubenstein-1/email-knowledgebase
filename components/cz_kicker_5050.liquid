@@ -1,0 +1,48 @@
+{% comment %}
+  CZ Kicker 50/50 Content Block
+  Braze content block: "cz-kicker-5050"
+
+  Renders a 50/50 split footer: New Arrivals (left) + Back in Stock (right).
+  Image set is controlled by kicker_5050, which must be assigned in the email
+  body before this block is included. If kicker_5050 is blank or unrecognized,
+  the block renders nothing.
+
+  Valid values for kicker_5050:
+    "new-arrivals-in-stock-1"  — Option 1 image set
+    "new-arrivals-in-stock-2"  — Option 2 image set
+
+  Email body usage:
+    {% assign kicker_5050 = "new-arrivals-in-stock-1" %}
+    {{content_blocks.${cz-kicker-5050} | id: 'cb_5050'}}
+
+  To suppress: set kicker_5050 = "" or omit the assign entirely.
+
+  URLs and alt text are fixed and never change:
+    New Arrivals  → https://www.the-citizenry.com/collections/all-new-arrivals
+    Back in Stock → https://www.the-citizenry.com/collections/all-back-in-stock
+{% endcomment %}
+
+{% if kicker_5050 == "new-arrivals-in-stock-1" %}
+  {% assign na_img  = "https://braze-images.com/appboy/communication/assets/image_assets/images/69ea1da160656900c247c962/original.png?1776950689" %}
+  {% assign bis_img = "https://braze-images.com/appboy/communication/assets/image_assets/images/69ea1db3a75cf200c2d34890/original.png?1776950706" %}
+{% elsif kicker_5050 == "new-arrivals-in-stock-2" %}
+  {% assign na_img  = "https://braze-images.com/appboy/communication/assets/image_assets/images/697d0b11e56b2a00642a0141/original.png?1769802512" %}
+  {% assign bis_img = "https://braze-images.com/appboy/communication/assets/image_assets/images/697d0a07a85ce50063a6383d/original.png?1769802247" %}
+{% endif %}
+
+{% if na_img %}
+<table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width:600px;width:100%;border-collapse:collapse;">
+  <tr>
+    <td width="300" valign="top" style="font-size:0;line-height:0;padding:0;width:50%;">
+      <a href="https://www.the-citizenry.com/collections/all-new-arrivals" target="_blank" style="display:block;">
+        <img src="{{ na_img }}" alt="New Arrivals" width="300" style="display:block;width:100%;max-width:300px;border:0;" />
+      </a>
+    </td>
+    <td width="300" valign="top" style="font-size:0;line-height:0;padding:0;width:50%;">
+      <a href="https://www.the-citizenry.com/collections/all-back-in-stock" target="_blank" style="display:block;">
+        <img src="{{ bis_img }}" alt="Back in Stock" width="300" style="display:block;width:100%;max-width:300px;border:0;" />
+      </a>
+    </td>
+  </tr>
+</table>
+{% endif %}

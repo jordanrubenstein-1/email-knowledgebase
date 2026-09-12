@@ -1,0 +1,48 @@
+id: 74aa5f02-61b8-47b0-8010-e0014cce18fb
+name: P_2024_09_02_D_SF_PR_LDW_Reminder_Best_Sellers_Feature_PM_Email
+brand: STF
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 74aa5f02-61b8-47b0-8010-e0014cce18fb
+dates:
+  send_date: '2024-09-02'
+  inferred_send_type: local_time
+  first_sent: '2024-09-02T04:00:05+00:00'
+  last_sent: '2024-09-03T00:00:10+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: 7cc8bf46-c39b-4bb8-98a2-6e28dadd6670
+  channel: email
+  name: Variant 1
+  subject: 20% off Best-selling Styles
+  preheader: sale ends soon
+  html_file: html/p_2024_09_02_d_sf_pr_ldw_reminder_best_sellers_feature_pm_em.html
+  screenshot: screenshots/p_2024_09_02_d_sf_pr_ldw_reminder_best_sellers_feature_pm_em.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d205512a2d230064db399b/original.gif?1725039953
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0058f1ba77/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf65a3397d3100731f7182/original.gif?1724868003
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf65a36b392f00665bf9ba/original.gif?1724868003
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf65a3397d3100811f717f/original.gif?1724868003
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf65a3eb75e70083fed19d/original.gif?1724868003
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0063f11fb6/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c666bec400780064c25359/original.jpg?1724278462
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6681bde9255ebf0070d6be26/original.jpeg?1719778792
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf65a30c63800064edd731/original.gif?1724868003
+- id: 4a6a3e6e-3b47-4d8f-b79b-d641ba39f018
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 7851
+  total_delivered: 7652
+  total_opens: 2541
+  total_clicks: 348
+  open_rate: 0.3237
+  click_rate: 0.0443
+  total_revenue: 8936.1
+  total_unsubscribes: 6
+_filename: p_2024_09_02_d_sf_pr_ldw_reminder_best_sellers_feature_pm_em.yaml
+schedule_type: time_based

@@ -1,0 +1,106 @@
+id: 510265e9-c3e6-4a8c-8a88-917315c2d584
+name: Post Order Welcome to New Subscribers
+brand: BUR
+channel: email
+category: other
+type: product_launch
+theme: null
+braze_id: 510265e9-c3e6-4a8c-8a88-917315c2d584
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-12-16T22:00:00+00:00'
+  last_sent: '2026-05-06T21:00:00+00:00'
+tags: []
+sends:
+- id: 1a227760-5e2d-4693-996b-8b059869c03a
+  channel: email
+  name: 2025Q1_Welcome-Flow_Step-1_F&F_Sale
+  subject: Welcome to Burrow!
+  preheader: You're in.
+  step_id: a7c888d4-1c23-4156-9c89-77878a3d6da5
+- id: eb805a94-51e8-47e9-bac3-73633c2474e9
+  channel: email
+  name: TRG_EM_2024_11_BW_D_Welcome_New_Purchaser_T1_V2
+  subject: You're In! Free shipping awaits
+  preheader: Discover furniture that fits your life, style, and space.
+  step_id: d21bc784-dc4d-4250-a370-68d82131a623
+- id: 5a5b4f43-4232-498a-94a2-765a708bb7ca
+  channel: email
+  name: TRG_EM_2024_11_BW_D_Welcome_New_Purchaser_T2_V2
+  subject: Find your perfect couch
+  preheader: Discover bestsellers + your welcome offer.
+  step_id: fcfc0565-6bed-4027-9f66-6a3f0a9eb70b
+- id: 2a5dde7f-21b1-4db4-bf7c-1afe48804728
+  channel: email
+  name: TRG_EM_2024_11_BW_D_Welcome_New_Purchaser_T4_V2
+  subject: Furniture in a flash.
+  preheader: At your door in days, not months. Plus, free shipping.
+  step_id: 14fd15cd-a905-4e6c-91f1-7af235fc3346
+- id: 2cf0cab1-3974-4cd9-a611-f1f04c8320d3
+  channel: email
+  name: TRG_EM_2024_11_BW_D_Welcome_New_Purchaser_T3_V2
+  subject: Get with the best
+  preheader: Shop our most popular designs.
+  step_id: 6e7e8946-4523-4d7c-9af6-3ad93b97d781
+performance_summary: {}
+canvas_steps:
+- id: a7c888d4-1c23-4156-9c89-77878a3d6da5
+  name: 2025Q1_Welcome-Flow_Step-1_F&F_Sale
+  type: message
+  channel: email
+  subject: Welcome to Burrow!
+  preheader: You're in.
+- id: d21bc784-dc4d-4250-a370-68d82131a623
+  name: TRG_EM_2024_11_BW_D_Welcome_New_Purchaser_T1_V2
+  type: message
+  channel: email
+  subject: You're In! Free shipping awaits
+  preheader: Discover furniture that fits your life, style, and space.
+- id: fcfc0565-6bed-4027-9f66-6a3f0a9eb70b
+  name: TRG_EM_2024_11_BW_D_Welcome_New_Purchaser_T2_V2
+  type: message
+  channel: email
+  subject: Find your perfect couch
+  preheader: Discover bestsellers + your welcome offer.
+- id: 14fd15cd-a905-4e6c-91f1-7af235fc3346
+  name: TRG_EM_2024_11_BW_D_Welcome_New_Purchaser_T4_V2
+  type: message
+  channel: email
+  subject: Furniture in a flash.
+  preheader: At your door in days, not months. Plus, free shipping.
+- id: 6e7e8946-4523-4d7c-9af6-3ad93b97d781
+  name: TRG_EM_2024_11_BW_D_Welcome_New_Purchaser_T3_V2
+  type: message
+  channel: email
+  subject: Get with the best
+  preheader: Shop our most popular designs.
+- id: c2f8c5e0-a3c9-4f43-b909-017a64951cab
+  name: Step 1
+  type: delay
+- id: 2b7e9a9f-1c23-4be7-a66e-cb115520fff8
+  name: '2'
+  type: delay
+- id: d13c9828-34ba-456e-9e1f-475b09f4731d
+  name: New email subscribers?
+  type: audience_paths
+- id: a9882727-c8f1-408e-aa47-251935f70419
+  name: '4'
+  type: delay
+- id: 307e3ac2-8c36-4b4d-a085-8538ab80fa2f
+  name: '3'
+  type: delay
+- id: 665d47a4-a080-42be-95d4-bd0bb6d2609d
+  name: '1'
+  type: delay
+- id: 868be149-50e9-4cd4-ba33-dac7358b07b3
+  name: Already Received Welcome Drip?
+  type: audience_paths
+- id: e1574bec-32fd-48c2-8412-a4507910a9ba
+  name: Opt in to email
+  type: user_update
+- id: 941e87c8-c1c6-4643-af72-6e9b9a948047
+  name: Email subscribed?
+  type: audience_paths
+_filename: post-order-welcome-to-new-subscribers-510265e9.yaml

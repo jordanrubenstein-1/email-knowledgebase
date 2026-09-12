@@ -1,0 +1,23 @@
+id: a423f405-5702-4609-ae54-15e820380ee1
+name: PUSH_Conv_5_02_Weekender_Flash_Reminder
+brand: HAV
+channel: push
+category: reminder
+type: announcement
+theme: null
+braze_id: a423f405-5702-4609-ae54-15e820380ee1
+dates:
+  first_sent: '2025-05-02T03:09:12+00:00'
+  last_sent: '2025-05-03T02:00:22+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: ca95f5c4-3f18-4954-a310-88a4ecd4b642
+  channel: push
+  name: Variant 1
+- id: cced80e6-ccbb-4dcd-8fef-425e3f638709
+  channel: push
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: push_conv_5_02_weekender_flash_reminder.yaml

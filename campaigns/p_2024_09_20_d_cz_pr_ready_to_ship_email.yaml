@@ -1,0 +1,59 @@
+id: 590a4dc2-c7f5-48ee-a97a-41153d382933
+name: P_2024_09_20_D_CZ_PR_Ready_To_Ship_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 590a4dc2-c7f5-48ee-a97a-41153d382933
+dates:
+  send_date: '2024-09-20'
+  inferred_send_type: local_time
+  first_sent: '2024-09-19T18:00:02+00:00'
+  last_sent: '2024-09-20T17:00:18+00:00'
+tags:
+- batch and blast
+sends:
+- id: 4579953c-9f48-467d-b990-39a6b7734e3b
+  channel: email
+  name: Variant 1
+  subject: In A Rush? Shop Ready To Ship
+  preheader: The designs ready to make their way home to you.
+  html_file: html/p_2024_09_20_d_cz_pr_ready_to_ship_email.html
+  screenshot: screenshots/p_2024_09_20_d_cz_pr_ready_to_ship_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e9a73587f40a0064cfc188/original.jpg?1726588724
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e9a7463c7d180072b3f59d/original.jpg?1726588741
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e9a6aa29fcf40063509715/original.jpg?1726588586
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e9a69b1a31990073ce8aab/original.jpg?1726588571
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e9a7b17585d200662fdc73/original.jpg?1726588849
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e9a70c29fcf40063509a2f/original.jpg?1726588684
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e9a79329fcf40063509c39/original.jpg?1726588819
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e9a71929fcf40063509a39/original.jpg?1726588696
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e9a78787f40a0073cfc00e/original.jpg?1726588807
+- id: a5d12602-5d0e-49e6-9fff-f3b244a9afe3
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 73298
+  total_delivered: 73020
+  total_opens: 40813
+  total_clicks: 602
+  open_rate: 0.5568
+  click_rate: 0.0082
+  total_revenue: 49425.0
+  total_bounces: 4
+  total_unsubscribes: 135
+  ga4:
+    sessions: 653
+    purchases: 3
+    revenue: 761.34
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.010594'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.790878'
+schedule_type: time_based

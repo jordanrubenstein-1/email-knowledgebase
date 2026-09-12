@@ -1,0 +1,36 @@
+id: 9a84d3a5-36a7-44c6-acb4-e84097693133
+name: P_EM_2025_12_08_ID_D_Cyber_Week_Reminder_Last_Chance
+brand: ID
+channel: email
+category: reminder
+type: seasonal
+theme: null
+braze_id: 9a84d3a5-36a7-44c6-acb4-e84097693133
+dates:
+  send_date: '2025-12-08'
+  inferred_send_type: local_time
+  first_sent: '2025-12-07T17:21:34+00:00'
+  last_sent: '2025-12-08T17:16:18+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 900e94a2-e72f-4943-aec7-ba1f8f147f5f
+  channel: email
+  name: Variant 1
+  subject: ONE. MORE. DAY.
+  preheader: Cyber Week deals end tomorrow.
+- id: b07d7d1c-66e2-4df8-a577-c9c068c575c5
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 104730
+  total_delivered: 104506
+  total_opens: 46765
+  total_clicks: 299
+  open_rate: 0.4465
+  click_rate: 0.0029
+  total_revenue: 183569.97
+  total_bounces: 2
+  total_unsubscribes: 137
+_filename: p_em_2025_12_08_id_d_cyber_week_reminder_last_chance.yaml
+schedule_type: time_based

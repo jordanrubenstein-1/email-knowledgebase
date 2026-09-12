@@ -1,0 +1,45 @@
+id: klaviyo-SNkFVn
+name: Welcome Series - Email - No Coupon
+brand: TI
+channel: email
+category: other
+type: announcement
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: QZUNqT
+canvas_name: Essential Flow Recommendation_
+flow_type: other_flow
+sequence_position: 1
+dates:
+  created: '2026-06-23'
+  first_sent: '2026-06-23'
+sends:
+- id: SNkFVn
+  channel: email
+  name: Message
+  subject: Welcome to our store!
+  preheader: Thank you for joining us.
+  html_file: html/klv-flow-essential-flow-recommendation_-t01-SNkFVn.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Pb3wug/images/7a281744-3154-428c-ba4b-7d6a6df7c734.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: SNkFVn
+structure:
+  image_count: 2
+  link_count: 2
+  has_gif: false
+  hero_width: 140
+  layout_type: hero_only

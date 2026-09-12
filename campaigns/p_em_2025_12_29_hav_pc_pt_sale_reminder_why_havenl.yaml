@@ -1,0 +1,45 @@
+id: ee7ffb57-95e4-4909-81fe-d05d82addd0f
+name: P_EM_2025_12_29_HAV_PC_PT_Sale_Reminder_Why_Havenly
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: ee7ffb57-95e4-4909-81fe-d05d82addd0f
+dates:
+  send_date: '2025-12-29'
+  inferred_send_type: local_time
+  first_sent: '2025-12-28T17:23:05+00:00'
+  last_sent: '2025-12-29T18:15:33+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 215d32a3-c162-450a-9cc2-4dd43ef64e68
+  channel: email
+  name: Variant 1
+  subject: The easiest way to get your home right
+  html_file: html/p_em_2025_12_29_hav_pc_pt_sale_reminder_why_havenly.html
+  screenshot: screenshots/p_em_2025_12_29_hav_pc_pt_sale_reminder_why_havenly.png
+  image_urls:
+  - https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/c731630f24214e43807c7369ca8ebacd/Havenly_Wordmark_RGB_Charcoal_Brown%20%281%29.png
+- id: de575828-8543-4881-84a0-0f5964676480
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 255545
+  total_delivered: 252952
+  total_opens: 104140
+  total_clicks: 645
+  open_rate: 0.4075
+  click_rate: 0.0025
+  total_bounces: 6
+  total_unsubscribes: 584
+  ga4:
+    sessions: 326
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.617827'
+    source: snowflake
+    channel: email
+schedule_type: time_based

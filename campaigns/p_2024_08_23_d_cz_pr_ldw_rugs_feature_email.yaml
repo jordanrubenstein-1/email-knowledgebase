@@ -1,0 +1,60 @@
+id: 8cbcd7d5-3462-49b9-b98f-c6d6229e3c94
+name: P_2024_08_23_D_CZ_PR_LDW_Rugs_Feature_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 8cbcd7d5-3462-49b9-b98f-c6d6229e3c94
+dates:
+  send_date: '2024-08-23'
+  inferred_send_type: local_time
+  first_sent: '2024-08-22T21:29:45+00:00'
+  last_sent: '2024-08-23T17:00:22+00:00'
+tags:
+- batch and blast/promo
+sends:
+- id: ed204c80-2488-4d8a-8631-2196ec99dc4b
+  channel: email
+  name: Variant 1
+  subject: Step Into A New Season With 20% Off Handwoven Rugs
+  preheader: Bring home our collection of handwoven rugs at 20% off.
+  html_file: html/p_2024_08_23_d_cz_pr_ldw_rugs_feature_email.html
+  screenshot: screenshots/p_2024_08_23_d_cz_pr_ldw_rugs_feature_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7710480ebc20064cb2795/original.jpg?1724346628
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c79ada057cdb0066b439b8/original.jpg?1724357338
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c78f67274a7c006352e501/original.jpg?1724354407
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7670f0c62f80065b8057e/original.jpg?1724344079
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c770a02c989000655c66f1/original.jpg?1724346527
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c770903209cd00653f2af3/original.jpg?1724346512
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c766ddf5414f0065fc4a5d/original.jpg?1724344029
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c766f5fe82c00082ddabb0/original.jpg?1724344053
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c770bca964ed00668b9333/original.jpg?1724346555
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c770df2c989000655c676a/original.jpg?1724346590
+- id: 51444d3f-cb07-41b2-aaed-b2de6a72d6da
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 44030
+  total_delivered: 43836
+  total_opens: 27711
+  total_clicks: 558
+  open_rate: 0.6294
+  click_rate: 0.0127
+  total_revenue: 105447.09
+  total_bounces: 1
+  total_unsubscribes: 102
+  ga4:
+    sessions: 800
+    purchases: 16
+    revenue: 8295.64
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.539952'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.003645'
+schedule_type: time_based

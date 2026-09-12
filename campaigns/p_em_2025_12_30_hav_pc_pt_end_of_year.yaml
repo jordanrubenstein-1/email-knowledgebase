@@ -1,0 +1,35 @@
+id: e1386cbd-ee82-4ce0-ab53-a37584639710
+name: P_EM_2025_12_30_HAV_PC_PT_End_of_Year
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: e1386cbd-ee82-4ce0-ab53-a37584639710
+dates:
+  send_date: '2025-12-30'
+  first_sent: '2025-12-29T22:38:27+00:00'
+  last_sent: '2025-12-30T18:15:22+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 0b0c7bd2-b155-4eb6-807e-a03ac427a68e
+  channel: email
+  name: Variant 1
+  subject: Start the New Year in a Space You Love
+  preheader: Savings end TOMORROW
+- id: a537978f-0580-430b-a818-852c7db7e970
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 252202
+  total_delivered: 251254
+  total_opens: 103355
+  total_clicks: 407
+  open_rate: 0.4098
+  click_rate: 0.0016
+  total_bounces: 10
+  total_unsubscribes: 542
+schedule_type: time_based
+_filename: p_em_2025_12_30_hav_pc_pt_end_of_year.yaml

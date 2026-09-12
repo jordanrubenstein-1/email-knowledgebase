@@ -1,0 +1,57 @@
+id: 02d5997a-3c71-4e0b-81a1-3ac5ae93cd85
+name: P_2025_1_16_D_SF_WINTER_REFRESH_SALE_ANNOUNCEMENT_Email
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: winter
+braze_id: 02d5997a-3c71-4e0b-81a1-3ac5ae93cd85
+dates:
+  send_date: '2025-01-16'
+  inferred_send_type: local_time
+  first_sent: '2025-01-15T23:34:43+00:00'
+  last_sent: '2025-01-16T17:00:05+00:00'
+tags: []
+sends:
+- id: a269e184-fb35-445d-84d6-96a7e5b179b5
+  channel: email
+  name: Variant 1
+  subject: Refresh Your Nest With 20% Off
+  preheader: shop our Winter Refresh Sale
+  html_file: html/p_2025_1_16_d_sf_winter_refresh_sale_announcement_email.html
+  screenshot: screenshots/p_2025_1_16_d_sf_winter_refresh_sale_announcement_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6788187deaea630063482f46/original.gif?1736972413
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67881899acad2d0064226dbb/original.gif?1736972441
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678818e25a59ff0064275ed8/original.jpg?1736972514
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678817c4c96b1200656c5ec7/original.jpg?1736972228
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67881826c96b1200656c5f84/original.jpg?1736972325
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67881810fbca3200653ae265/original.jpg?1736972304
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6788183d5dd2ec00663d0829/original.gif?1736972349
+- id: d5e7ff15-0aeb-433e-bf96-e6cc724833ff
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 3666
+  total_delivered: 3615
+  total_opens: 1891
+  total_clicks: 61
+  open_rate: 0.5158
+  click_rate: 0.0166
+  total_revenue: 65.0
+  total_bounces: 1
+  total_unsubscribes: 3
+  ga4:
+    sessions: 62
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.642826'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:29.869234'
+schedule_type: time_based

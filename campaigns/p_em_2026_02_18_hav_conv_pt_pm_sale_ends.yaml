@@ -1,0 +1,34 @@
+id: 8f4449a8-d811-4504-8e21-1e6bfe8e5235
+name: P_EM_2026_02_18_HAV_CONV_PT_PM_Sale_Ends
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 8f4449a8-d811-4504-8e21-1e6bfe8e5235
+dates:
+  send_date: '2026-02-18'
+  first_sent: '2026-02-18T04:05:56+00:00'
+  last_sent: '2026-02-19T04:01:49+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 5de4d710-857d-4db5-8b12-36704218bf53
+  channel: email
+  name: Variant 1
+  subject: Last call to shop your design on sale
+- id: 8a325dca-7220-4004-b834-5519f541e834
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 34985
+  total_delivered: 34883
+  total_opens: 19586
+  total_clicks: 143
+  open_rate: 0.5598
+  click_rate: 0.0041
+  total_bounces: 1
+  total_unsubscribes: 34
+schedule_type: time_based
+_filename: p_em_2026_02_18_hav_conv_pt_pm_sale_ends.yaml

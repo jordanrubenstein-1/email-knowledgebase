@@ -1,0 +1,33 @@
+id: 956fa00a-e1f4-4cdc-9489-9c30a82ba81f
+name: P_2025_06_22_HAV_Conv_Fourth_of_July_Early_Access_Final_Hours_PT
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 956fa00a-e1f4-4cdc-9489-9c30a82ba81f
+dates:
+  send_date: '2025-06-22'
+  first_sent: '2025-06-22T02:08:45+00:00'
+  last_sent: '2025-06-23T01:02:31+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 231c3d71-be3b-41fe-b9cd-c069dfecfab4
+  channel: email
+  name: Variant 1
+  subject: Final hours for early access...
+- id: c7156491-d5f7-460a-b5c5-a8588e00b100
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 40437
+  total_delivered: 40360
+  total_opens: 22623
+  total_clicks: 66
+  open_rate: 0.5595
+  click_rate: 0.0016
+  total_unsubscribes: 36
+schedule_type: time_based
+_filename: p_2025_06_22_hav_conv_fourth_of_july_early_access_final_hour.yaml

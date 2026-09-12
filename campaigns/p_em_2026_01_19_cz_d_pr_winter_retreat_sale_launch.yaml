@@ -1,0 +1,57 @@
+id: ce2182c5-c9d9-43de-a7c0-87036dc77b62
+name: P_EM_2026_01_19_CZ_D_PR_Winter_Retreat_Sale_Launch
+brand: CZ
+channel: email
+category: product_launch
+type: sale
+theme: winter
+braze_id: ce2182c5-c9d9-43de-a7c0-87036dc77b62
+dates:
+  send_date: '2026-01-19'
+  inferred_send_type: local_time
+  first_sent: '2026-01-18T17:09:53+00:00'
+  last_sent: '2026-01-19T17:07:49+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale/winterRefesh2026
+- sale_feat
+sends:
+- id: c01da0a1-f6c1-4cd3-8e8c-d29075499782
+  channel: email
+  name: Variant 1
+  subject: 'The Winter Retreat Event: 20% Off Select Styles'
+  preheader: Claim your favorites before they’re gone.
+  html_file: html/p_em_2026_01_19_cz_d_pr_winter_retreat_sale_launch.html
+  screenshot: screenshots/p_em_2026_01_19_cz_d_pr_winter_retreat_sale_launch.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696a778846cbfc00646e1a5b/original.png?1768585096
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696a77bc156f860074f88456/original.png?1768585148
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696a77c652c1f60063ce3bcf/original.png?1768585158
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696a77e116539b00633d5a7c/original.png?1768585184
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696a77769aed7d0063807fcd/original.gif?1768585078
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696a77a8f3830600638c6822/original.png?1768585127
+- id: 1576ce1b-bb04-41b3-92a2-d5bc523e7c4c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 113664
+  total_delivered: 113434
+  total_opens: 56064
+  total_clicks: 711
+  open_rate: 0.4932
+  click_rate: 0.0063
+  total_bounces: 17
+  total_unsubscribes: 179
+  ga4:
+    sessions: 614
+    purchases: 11
+    revenue: 3150.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.116339'
+    source: snowflake
+    channel: email
+schedule_type: time_based

@@ -1,0 +1,59 @@
+id: 9391b97f-04ba-4b05-9841-1e01cd3302cc
+name: P_2025_03_08_D_STF_UGC_Bath
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 9391b97f-04ba-4b05-9841-1e01cd3302cc
+dates:
+  send_date: '2025-03-08'
+  inferred_send_type: local_time
+  first_sent: '2025-03-07T18:35:48+00:00'
+  last_sent: '2025-03-08T17:00:42+00:00'
+tags: []
+sends:
+- id: f48adfa5-3ab7-4156-a951-11c11551348c
+  channel: email
+  name: Variant 1
+  subject: Your bath essentials
+  preheader: refresh your powder room, en suite, or guest bath with our bold patterns
+  html_file: html/p_2025_03_08_d_stf_ugc_bath.html
+  screenshot: screenshots/p_2025_03_08_d_stf_ugc_bath.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cb332ad6bb9d0067175bcf/original.png?1741370154
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cb342494dd07006481df0d/original.gif?1741370404
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cb35e6dc7185006508ec7f/original.png?1741370854
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cb343cba3d250065ae7d6d/original.png?1741370427
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cb35fc71ad6500757d127c/original.png?1741370876
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cb35d153ed2d00756efa1f/original.png?1741370832
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cb35d7a6b8270066b49e08/original.png?1741370839
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cb3640ba3d250075ae650a/original.png?1741370944
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cb35edcfb98400657042de/original.png?1741370860
+- id: 9d04ceb8-ed9f-457b-9578-378742ec324a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 11039
+  total_delivered: 10925
+  total_opens: 6352
+  total_clicks: 239
+  open_rate: 0.5754
+  click_rate: 0.0217
+  total_revenue: 15856.0
+  total_bounces: 2
+  total_unsubscribes: 72
+  ga4:
+    sessions: 249
+    purchases: 5
+    revenue: 881.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.945194'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.143849'
+schedule_type: time_based

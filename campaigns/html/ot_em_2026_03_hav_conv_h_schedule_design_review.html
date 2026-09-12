@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Havenly</title>
+  <!--[if mso]>
+  <noscript>
+    <xml>
+      <o:OfficeDocumentSettings>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+  </noscript>
+  <![endif]-->
+</head>
+<body style="margin: 0; padding: 0; background-color: #f4f4f4;">
+  <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="600" style="max-width: 600px; width: 100%; margin: 0 auto;">
+    <!-- Row 1: Left bar | Top bar (gold) | Right bar (orange) -->
+    <tr>
+      <!-- Left: coral/orange vertical band -->
+      <td bgcolor="#ed6b4d" style="background-color: #ed6b4d; width: 35px; vertical-align: top;" width="35" rowspan="3">
+        <div style="font-size: 1px; line-height: 1px;">&nbsp;</div>
+      </td>
+      <!-- Top bar: gold - HAVENLY -->
+      <td bgcolor="#c2b04a" style="background-color: #c2b04a; padding: 16px 20px;">
+        <a href="https://havenly.com/?lid=sy9beiy1l86k" style="display: block; text-decoration: none;"><img src="https://braze-images.com/appboy/communication/assets/image_assets/images/697a85e045042100652b5d66/original.png?1769637344" alt="HAVENLY" width="120" height="auto" style="display: block; max-width: 100%; height: auto;" /></a>
+      </td>
+      <!-- Right: orange vertical band -->
+      <td bgcolor="#e59400" style="background-color: #e59400; width: 35px; vertical-align: top;" width="35" rowspan="3">
+        <div style="font-size: 1px; line-height: 1px;">&nbsp;</div>
+      </td>
+    </tr>
+    <!-- Row 2: Left bar | Center content | Right bar -->
+    <tr>
+      <!-- Center: white content area -->
+      <td bgcolor="#FFFFFF" style="background-color: #FFFFFF; width: 530px; vertical-align: top;" width="530">
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="max-width: 100%;">
+          <!-- Design concept image - full width, links to board -->
+          <tr>
+            <td style="padding: 24px 20px 12px 20px; width: 100%;">
+              <a href="https://havenly.com/room/home/{{api_trigger_properties.${room_id}}}" style="display: block; text-decoration: none;">
+                <img src="{{api_trigger_properties.${board_img}}}" alt="Your design concept" width="490" style="display: block; width: 100%; max-width: 490px; height: auto; border: 0;" />
+              </a>
+            </td>
+          </tr>
+          <!-- Body copy -->
+          <tr>
+            <td style="padding: 12px 20px 20px 20px; font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.5; color: #333333;">
+              Hi {{${first_name} | default: 'there'}},
+              <br><br>
+              Your design is ready, and the next step is to review it live with your designer.
+              <br><br>
+              During a Design Review call, you'll walk through the design in 3D, review and refine products, share feedback, and work together to finalize your shopping list and overall design direction.
+              <br><br>
+              — The Havenly Team
+            </td>
+          </tr>
+          <!-- CTA Button -->
+          <tr>
+            <td style="padding: 6px 20px 40px 20px; text-align: center;">
+              <a href="https://havenly.com/room/home/{{api_trigger_properties.${room_id}}}" style="display: inline-block; font-family: 'Saans', Helvetica, Arial, sans-serif; font-size: 18px; line-height: 22px; font-weight: 600; letter-spacing: 0.79px; color: #FFFFFF; text-decoration: none; border: 2px solid #CD8F52; padding: 14px 32px; background-color: #CD8F52; border-radius: 50px; white-space: nowrap;">SCHEDULE DESIGN REVIEW</a>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <!-- Row 3: Left bar | Bottom bar (navy) | Right bar -->
+    <tr>
+      <!-- Bottom bar: navy - H logo -->
+      <td bgcolor="#304561" style="background-color: #304561; padding: 28px 20px; text-align: right;">
+        <a href="https://havenly.com/?lid=nqzj2u7iuad8" style="display: inline-block; text-decoration: none;"><img src="https://braze-images.com/appboy/communication/assets/image_assets/images/697a85e4b446f100635ef81c/original.png?1769637348" alt="H" width="40" height="auto" style="display: block; max-width: 100%; height: auto;" /></a>
+      </td>
+    </tr>
+  </table>
+  {{content_blocks.${address_without_unsubscribe} | id: 'cb2'}}
+</body>
+</html>

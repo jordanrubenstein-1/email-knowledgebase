@@ -1,0 +1,59 @@
+id: 1f42b56b-adf5-488d-bc3e-eceb457bbbc7
+name: P_2025_04_28_D_STF_Trending_Florals
+brand: STF
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 1f42b56b-adf5-488d-bc3e-eceb457bbbc7
+dates:
+  send_date: '2025-04-28'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-28T02:50:13+00:00'
+  last_sent: '2025-04-28T17:01:30+00:00'
+tags: []
+sends:
+- id: 74495e01-2eed-417d-b6cd-d9cd0a96cfc0
+  channel: email
+  name: Variant 1
+  subject: 'Wrap Your Walls In Florals '
+  preheader: discover our trending suzani prints
+  html_file: html/p_2025_04_28_d_stf_trending_florals.html
+  screenshot: screenshots/p_2025_04_28_d_stf_trending_florals.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/680bb3a81fb39a007400cddd/original.png?1745597352
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/680bb36838c1eb0072708d4e/original.png?1745597287
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/680bb33726635b00631866af/original.gif?1745597238
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/680bb3c93e5c080063899d1d/original.png?1745597385
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/680bb38226635b0082184c75/original.png?1745597314
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/680bb39b1fb39a006400e196/original.png?1745597339
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/680bb362012d4f0062e85785/original.png?1745597282
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/680bb3cf26635b0063186ae9/original.png?1745597390
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/680bb36e3e5c080063899bb8/original.png?1745597294
+- id: 615bf991-4fa4-4ee0-bbe9-9f9e1f3cbb5a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 14492
+  total_delivered: 14348
+  total_opens: 7858
+  total_clicks: 181
+  open_rate: 0.5422
+  click_rate: 0.0125
+  total_revenue: 6007.0
+  total_bounces: 1
+  total_unsubscribes: 36
+  ga4:
+    sessions: 217
+    purchases: 5
+    revenue: 3262.13
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.843887'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:35.779417'
+schedule_type: time_based

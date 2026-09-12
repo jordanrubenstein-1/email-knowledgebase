@@ -1,0 +1,56 @@
+id: 182a15ea-6e41-4720-b48d-16b3ba61ff67
+name: P_2025_1_9_D_CZ_EA_Winter_Retreat_Event_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: seasonal
+theme: winter
+braze_id: 182a15ea-6e41-4720-b48d-16b3ba61ff67
+dates:
+  send_date: '2025-01-09'
+  inferred_send_type: local_time
+  first_sent: '2025-01-09T00:16:43+00:00'
+  last_sent: '2025-01-09T17:00:57+00:00'
+tags: []
+sends:
+- id: b1c85c24-df0c-456c-9e21-60c1d38a849c
+  channel: email
+  name: Variant 1
+  subject: 'Early Access Granted: 20% Off'
+  preheader: Shop 20% off bedding and bath essentials before everyone else.
+  html_file: html/p_2025_1_9_d_cz_ea_winter_retreat_event_email.html
+  screenshot: screenshots/p_2025_1_9_d_cz_ea_winter_retreat_event_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677e7a263cb75b00654a505c/original.jpg?1736342054
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677e76d8805d860065f26248/original.jpg?1736341208
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677e7a05c1d43e0073f48eea/original.jpg?1736342020
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677e7df6805d860065f2682f/original.png?1736343029
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677e7a9881635b0066e2c55b/original.jpg?1736342167
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677e76f3d4e0590066114ef9/original.jpg?1736341234
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677e7a41e683de006501493b/original.jpg?1736342081
+- id: 269d8224-ba91-435d-99ed-8eb2de25e61d
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 95589
+  total_delivered: 94889
+  total_opens: 47231
+  total_clicks: 1156
+  open_rate: 0.4941
+  click_rate: 0.0121
+  total_revenue: 97836.52
+  total_bounces: 2
+  total_unsubscribes: 123
+  ga4:
+    sessions: 2363
+    purchases: 60
+    revenue: 28949.26
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.402931'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.465817'
+schedule_type: time_based

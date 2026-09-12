@@ -1,0 +1,64 @@
+id: 467602bc-ff21-41d4-bbd0-e4954eab274e
+name: P_EM_2025_11_03_SF_D_PR_Destination_Paris
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 467602bc-ff21-41d4-bbd0-e4954eab274e
+dates:
+  send_date: '2025-11-03'
+  inferred_send_type: local_time
+  first_sent: '2025-11-02T17:08:51+00:00'
+  last_sent: '2025-11-03T17:02:19+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- dest
+- sale
+sends:
+- id: 0c8c570e-b31c-463f-8bc5-5c43e841a481
+  channel: email
+  name: Variant 1
+  subject: Pardon Our French
+  preheader: but these prints are très magnifique
+  html_file: html/p_em_2025_11_03_sf_d_pr_destination_paris.html
+  screenshot: screenshots/p_em_2025_11_03_sf_d_pr_destination_paris.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689510ad8f56e20073012a9a/original.png?1754599597
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68950fd499b31c0062e74c7c/original.gif?1754599380
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6904ff5d8986c90065d7ea49/original.jpg?1761935196
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68951083a7b4f100720d6e14/original.png?1754599554
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6904ff3a49df460063cbe0a3/original.jpg?1761935162
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6904ff90b2eda00065903160/original.jpg?1761935248
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6904ff8b1d4ff50063fb3245/original.jpg?1761935243
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6895109a8f56e2006301337b/original.png?1754599577
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6904ff8644c8780063c7bf74/original.jpg?1761935237
+- id: 41646f9e-d422-4f9c-951e-cfb076465084
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39578
+  total_delivered: 39361
+  total_opens: 17906
+  total_clicks: 321
+  open_rate: 0.4524
+  click_rate: 0.0081
+  total_bounces: 3
+  total_unsubscribes: 49
+  ga4:
+    sessions: 351
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.713533'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.979294'
+schedule_type: time_based

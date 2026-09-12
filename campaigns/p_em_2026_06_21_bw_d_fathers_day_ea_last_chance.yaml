@@ -1,0 +1,34 @@
+id: 251f6b96-1f62-4a1b-92d1-4c6b32600b54
+name: P_EM_2026_06_21_BW_D_Fathers_Day_EA_Last_Chance
+brand: BUR
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 251f6b96-1f62-4a1b-92d1-4c6b32600b54
+dates:
+  send_date: '2026-06-21'
+  last_sent: '2026-06-21'
+tags:
+- Batch&Blast
+sends:
+- id: 61a4f2a3-5247-43c2-afdb-051d6549e6bc
+  channel: email
+  name: Variant 1
+  subject: Last chance for early access
+  preheader: Shop Father's Day furniture up to 50% off.
+- id: 3f46c002-5b04-4fbb-baa3-9ccaef5d1357
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 229325
+  total_delivered: 228123
+  total_opens: 117437
+  total_clicks: 269
+  open_rate: 0.5121
+  click_rate: 0.0012
+  total_revenue: 60092.0
+  total_bounces: 4
+  total_unsubscribes: 137
+schedule_type: time_based
+_filename: p_em_2026_06_21_bw_d_fathers_day_ea_last_chance.yaml

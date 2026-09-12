@@ -1,0 +1,54 @@
+id: 690ceec0-617c-4829-953e-78082946dd3e
+name: P_EM_2025_09_14_CZ_D_PR_Back_In_Stock
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 690ceec0-617c-4829-953e-78082946dd3e
+dates:
+  send_date: '2025-09-14'
+  inferred_send_type: local_time
+  first_sent: '2025-09-13T21:36:43+00:00'
+  last_sent: '2025-09-14T17:02:10+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- instock
+sends:
+- id: 8fbcf56c-34bf-43bb-aec8-1a28aaf5f4cb
+  channel: email
+  name: Variant 1
+  subject: Back in Stock
+  preheader: 'Get these best sellers while you can. '
+  html_file: html/p_em_2025_09_14_cz_d_pr_back_in_stock.html
+  screenshot: screenshots/p_em_2025_09_14_cz_d_pr_back_in_stock.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c47c1585d09b0076c5ea69/original.png?1757707284
+- id: a02b741f-73a2-4c06-9dbd-c7e53070cc27
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 114026
+  total_delivered: 113680
+  total_opens: 63160
+  total_clicks: 1711
+  open_rate: 0.5539
+  click_rate: 0.015
+  total_bounces: 9
+  total_unsubscribes: 277
+  ga4:
+    sessions: 2003
+    purchases: 16
+    revenue: 7278.9
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.667699'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.641332'
+schedule_type: time_based

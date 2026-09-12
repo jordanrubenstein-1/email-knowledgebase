@@ -1,0 +1,46 @@
+id: e04f1786-0b97-4d53-97aa-ad2e4f077a0e
+name: P_2025_04_23_PT_CZ_GWP_Contingency_Reminder
+brand: CZ
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: e04f1786-0b97-4d53-97aa-ad2e4f077a0e
+dates:
+  send_date: '2025-04-23'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-22T22:54:38+00:00'
+  last_sent: '2025-04-22T23:17:39+00:00'
+tags: []
+sends:
+- id: 49d2e154-5ba4-4ff5-8a8c-bb6f827967bd
+  channel: email
+  name: Variant 1
+  subject: 'In Celebration of Earth Day: A Gift for You'
+  html_file: html/p_2025_04_23_pt_cz_gwp_contingency_reminder.html
+  screenshot: screenshots/p_2025_04_23_pt_cz_gwp_contingency_reminder.png
+- id: 2ba920f0-509b-44af-8e42-8310e07692ac
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 22896
+  total_delivered: 22862
+  total_opens: 15782
+  total_clicks: 580
+  open_rate: 0.6893
+  click_rate: 0.0253
+  total_revenue: 81896.51
+  total_unsubscribes: 44
+  ga4:
+    sessions: 684
+    purchases: 8
+    revenue: 2114.25
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.527137'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.881534'
+schedule_type: time_based

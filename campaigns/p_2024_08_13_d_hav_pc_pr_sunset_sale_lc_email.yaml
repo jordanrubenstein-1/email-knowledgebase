@@ -1,0 +1,33 @@
+id: 74f3273e-761d-482c-9558-4fefe7157ca0
+name: P_2024_08_13_D_HAV_PC_PR_Sunset_Sale_LC_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 74f3273e-761d-482c-9558-4fefe7157ca0
+dates:
+  send_date: '2024-08-13'
+  first_sent: '2024-08-13T00:12:34+00:00'
+  last_sent: '2024-08-13T13:00:25+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: e0e96c06-5519-427f-860d-ea7984552c53
+  channel: email
+  name: Variant 1
+  subject: The sun is setting on 50% off
+  preheader: Last chance to save!
+- id: 7d8f48f4-1f45-449a-97df-4eaf1308ff5b
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 418
+  total_delivered: 418
+  total_opens: 246
+  total_clicks: 28
+  open_rate: 0.5885
+  click_rate: 0.067
+  total_unsubscribes: 6
+schedule_type: time_based
+_filename: p_2024_08_13_d_hav_pc_pr_sunset_sale_lc_email.yaml

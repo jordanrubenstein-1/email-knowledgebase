@@ -1,0 +1,48 @@
+id: 79a15223-8ea2-4634-bb9e-96ad008a7426
+name: P_2025_07_07_HAV_Conv_Fourth_of_July_Ends_Tomorrow_PM_PT
+brand: HAV
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 79a15223-8ea2-4634-bb9e-96ad008a7426
+dates:
+  send_date: '2025-07-07'
+  inferred_send_type: local_time
+  first_sent: '2025-07-07T03:07:40+00:00'
+  last_sent: '2025-07-08T02:00:51+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 3947588e-9a9a-490f-882d-77abdb6c5c37
+  channel: email
+  name: Variant 1
+  subject: 'RE: Our Fourth of July Sale'
+  html_file: html/p_2025_07_07_hav_conv_fourth_of_july_ends_tomorrow_pm_pt.html
+  screenshot: screenshots/p_2025_07_07_hav_conv_fourth_of_july_ends_tomorrow_pm_pt.png
+  image_urls:
+  - https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/c731630f24214e43807c7369ca8ebacd/Havenly_Wordmark_RGB_Charcoal_Brown%20%281%29.png
+- id: 18d7f897-afe9-46ed-a1b7-1a5101615e30
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 40610
+  total_delivered: 40528
+  total_opens: 23629
+  total_clicks: 138
+  open_rate: 0.5819
+  click_rate: 0.0034
+  total_unsubscribes: 49
+  ga4:
+    sessions: 146
+    purchases: 3
+    revenue: 15191.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.636722'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.500840'
+schedule_type: time_based

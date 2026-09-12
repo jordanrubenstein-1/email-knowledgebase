@@ -1,0 +1,61 @@
+id: 3536b91d-c259-4de2-9e75-84d65b0fb7f1
+name: P_EM_2025_12_28_CZ_D_PR_Archive_Sale_Year_End_Sale
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 3536b91d-c259-4de2-9e75-84d65b0fb7f1
+dates:
+  send_date: '2025-12-28'
+  inferred_send_type: local_time
+  first_sent: '2025-12-27T17:20:03+00:00'
+  last_sent: '2025-12-28T17:16:04+00:00'
+tags:
+- am
+- archive
+- batch and blast
+- d2c
+- designed
+- sale
+- sale/yearend2025
+sends:
+- id: 625871b5-6fcf-41e4-b164-66851c738bd2
+  channel: email
+  name: Variant 1
+  subject: Going, Going, Gone
+  preheader: Claim fresh cuts, now up to 70% off.
+  html_file: html/p_em_2025_12_28_cz_d_pr_archive_sale_year_end_sale.html
+  screenshot: screenshots/p_em_2025_12_28_cz_d_pr_archive_sale_year_end_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/694abc7ddc54f3006324297d/original.png?1766505596
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/694ac031872aa20065148879/original.png?1766506544
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/694abcc1d3e76300639e8fd9/original.png?1766505664
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/694abcb55d9b5a006304f7ab/original.png?1766505652
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/694ac0704ea4c9006578e93e/original.png?1766506607
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/694abc82105c9f00630d66f2/original.png?1766505601
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/694abcce35553e00651e00de/original.png?1766505678
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/694abcbaa149cc0063eb8e2e/original.png?1766505658
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/694ac0b893f6a700637327f0/original.png?1766506679
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/694ac5e48f2b4c007595e40f/original.gif?1766508004
+- id: bfcfb4dc-3f6b-404a-b56d-b7c2bdce87fd
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 114487
+  total_delivered: 114116
+  total_opens: 58068
+  total_clicks: 1259
+  open_rate: 0.5072
+  click_rate: 0.011
+  total_bounces: 5
+  total_unsubscribes: 219
+  ga4:
+    sessions: 1440
+    purchases: 15
+    revenue: 9686.64
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.290225'
+    source: snowflake
+    channel: email
+schedule_type: time_based

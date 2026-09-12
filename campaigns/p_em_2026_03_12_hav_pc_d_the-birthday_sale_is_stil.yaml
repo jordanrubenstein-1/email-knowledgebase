@@ -1,0 +1,47 @@
+id: 7fe4e328-d74a-47f2-9474-38cf45bde2f6
+name: P_EM_2026_03_12_HAV_PC_D_The Birthday_Sale_Is_Still_On
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 7fe4e328-d74a-47f2-9474-38cf45bde2f6
+dates:
+  send_date: '2026-03-12'
+  inferred_send_type: local_time
+  first_sent: '2026-03-11T21:06:41+00:00'
+  last_sent: '2026-03-12T21:04:31+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 728aeef1-3e83-498f-9eec-4c63dae4ae79
+  channel: email
+  name: Variant 1
+  subject: The Birthday Sale Is Still On
+  preheader: Celebrate with savings across every room in your home.
+  html_file: html/p_em_2026_03_12_hav_pc_d_the-birthday_sale_is_still_on.html
+  screenshot: screenshots/p_em_2026_03_12_hav_pc_d_the-birthday_sale_is_still_on.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b04961a6905e0063cb0521/original.png?1773160800
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b0494945fe080072736708/original.png?1773160776
+- id: e08a41aa-02fb-4838-be21-cd6bf8487183
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 81824
+  total_delivered: 81140
+  total_opens: 37414
+  total_clicks: 349
+  open_rate: 0.4572
+  click_rate: 0.0043
+  total_bounces: 2
+  total_unsubscribes: 118
+  ga4:
+    sessions: 251
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.830813'
+    source: snowflake
+    channel: email
+schedule_type: time_based

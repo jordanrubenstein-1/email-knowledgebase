@@ -1,0 +1,60 @@
+id: 3dab5163-9100-4212-bfac-6840c43546ed
+name: P_EM_2025_06_29_SF_D_PR_Trending_Botanicals
+brand: STF
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 3dab5163-9100-4212-bfac-6840c43546ed
+dates:
+  send_date: '2025-06-29'
+  inferred_send_type: local_time
+  first_sent: '2025-06-28T18:07:08+00:00'
+  last_sent: '2025-06-29T17:00:41+00:00'
+tags:
+- Batch and Blast
+sends:
+- id: e9c516e5-a3c7-4f13-ab93-d2d19ad68d7c
+  channel: email
+  name: Variant 1
+  subject: 'TRENDING: Flirty Florals 💐'
+  preheader: build your bouquet at 20% off
+  html_file: html/p_em_2025_06_29_sf_d_pr_trending_botanicals.html
+  screenshot: screenshots/p_em_2025_06_29_sf_d_pr_trending_botanicals.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685efd7516bab90076598557/original.png?1751055732
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685efd88daa3010067bf8dd6/original.png?1751055751
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685efd92ca41790064a288d6/original.png?1751055761
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685f00b8a6421c0065fd460a/original.png?1751056568
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685f005eaae0c40067d231fe/original.png?1751056477
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685efd7c4414e60067148516/original.png?1751055739
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685db4c5d630080075e41649/original.png?1750971589
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685f00f3ca41790064a2a3aa/original.png?1751056627
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685f004b4414e60067149943/original.png?1751056459
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685f000f283f2f00673edea0/original.gif?1751056399
+- id: 7ebfa10d-66af-4062-8b7c-aadf94113e0e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 37776
+  total_delivered: 37355
+  total_opens: 17246
+  total_clicks: 212
+  open_rate: 0.4565
+  click_rate: 0.0056
+  total_revenue: 8212.0
+  total_bounces: 1
+  total_unsubscribes: 88
+  ga4:
+    sessions: 185
+    purchases: 2
+    revenue: 964.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.897972'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.612998'
+schedule_type: time_based

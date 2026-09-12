@@ -1,0 +1,53 @@
+id: 48007bbf-6dbc-4da3-ac6a-d8d7f68fd283
+name: P_2025_05_29_HAV_PC_D_Memorial_Day_Sale_Ends_Tonight
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 48007bbf-6dbc-4da3-ac6a-d8d7f68fd283
+dates:
+  send_date: '2025-05-29'
+  inferred_send_type: local_time
+  first_sent: '2025-05-28T19:55:49+00:00'
+  last_sent: '2025-05-29T18:15:04+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: aeda951b-fe8c-480c-ac44-621616602b77
+  channel: email
+  name: Variant 1
+  subject: LAST CHANCE to save on Interior Design Services.
+  preheader: The Memorial Day Event ends at midnight
+  html_file: html/p_2025_05_29_hav_pc_d_memorial_day_sale_ends_tonight.html
+  screenshot: screenshots/p_2025_05_29_hav_pc_d_memorial_day_sale_ends_tonight.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6837651a5fcdca0067473681/original.png?1748460825
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683764e9f1b5d7006557a4dd/original.png?1748460776
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683765585fcdca006747374d/original.gif?1748460888
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683765365fcdca00674736f0/original.png?1748460853
+- id: c33ede2b-6c6d-42d8-a937-255a9debce51
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 219585
+  total_delivered: 216075
+  total_opens: 91987
+  total_clicks: 328
+  open_rate: 0.4189
+  click_rate: 0.0015
+  total_bounces: 8
+  total_unsubscribes: 476
+  ga4:
+    sessions: 246
+    purchases: 2
+    revenue: 1018.24
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.229972'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.082570'
+schedule_type: time_based

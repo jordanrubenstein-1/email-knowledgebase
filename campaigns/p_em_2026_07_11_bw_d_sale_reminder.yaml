@@ -1,0 +1,36 @@
+id: d54b84d2-9bdf-478a-8eb6-46342efc858a
+name: P_EM_2026_07_11_BW_D_Sale_Reminder
+brand: BUR
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: d54b84d2-9bdf-478a-8eb6-46342efc858a
+dates:
+  send_date: '2026-07-11'
+  first_sent: '2026-07-11T03:08:28+00:00'
+  last_sent: '2026-07-11T16:00:00+00:00'
+  inferred_send_type: scheduled
+tags:
+- Batch&Blast
+sends:
+- id: 853f502c-f38c-45e0-8a7f-62ddc5993638
+  channel: email
+  name: Variant 1
+  subject: 'FYI: The Fourth of July Sale is on 👀'
+  preheader: Final weekend to save up to 50% off.
+- id: 0d7b1048-ec0b-4c34-bb93-7658d69cbae2
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 102792
+  total_delivered: 102437
+  total_opens: 41209
+  total_clicks: 847
+  open_rate: 0.4009
+  click_rate: 0.0082
+  total_revenue: 164717.0
+  total_bounces: 31
+  total_unsubscribes: 239
+schedule_type: time_based
+_filename: p_em_2026_07_11_bw_d_sale_reminder.yaml

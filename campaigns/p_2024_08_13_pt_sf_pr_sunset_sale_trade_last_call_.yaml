@@ -1,0 +1,47 @@
+id: 5d8e843c-1b24-4899-a76d-c93b8da045db
+name: P_2024_08_13_PT_SF_PR_Sunset_Sale_Trade_Last_Call_Email
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 5d8e843c-1b24-4899-a76d-c93b8da045db
+dates:
+  send_date: '2024-08-13'
+  inferred_send_type: scheduled
+  first_sent: '2024-08-13T17:00:34+00:00'
+  last_sent: '2024-08-13T23:15:01+00:00'
+tags: []
+sends:
+- id: e7ce6161-e6a1-4bd7-94f7-349a028b5efd
+  channel: email
+  name: Variant 1
+  subject: 'Only A Few Hours Left: 25% Off'
+  preheader: trade exclusive sale ends at midnight
+  html_file: html/p_2024_08_13_pt_sf_pr_sunset_sale_trade_last_call_email.html
+  screenshot: screenshots/p_2024_08_13_pt_sf_pr_sunset_sale_trade_last_call_email.png
+- id: 165ef334-5ae5-4c70-afd2-b6d903489a87
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 658
+  total_delivered: 655
+  total_opens: 137
+  total_clicks: 12
+  open_rate: 0.2082
+  click_rate: 0.0182
+  total_revenue: 765.0
+  total_unsubscribes: 3
+  ga4:
+    sessions: 61
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.730084'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.482313'
+schedule_type: time_based

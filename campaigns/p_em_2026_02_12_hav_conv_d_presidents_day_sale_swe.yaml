@@ -1,0 +1,45 @@
+id: d6e4e6b5-8aea-43c8-b0b4-1c49bb8f8450
+name: P_EM_2026_02_12_HAV_CONV_D_Presidents_Day_Sale_Sweetener
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: d6e4e6b5-8aea-43c8-b0b4-1c49bb8f8450
+dates:
+  send_date: '2026-02-12'
+  inferred_send_type: local_time
+  first_sent: '2026-02-11T23:08:49+00:00'
+  last_sent: '2026-02-12T22:00:41+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: b8357fef-1cdb-49f5-8c0b-2e4573fcd3ed
+  channel: email
+  name: Variant 1
+  subject: 'Today only: The sweetest savings of the sale'
+  preheader: Buy More, Save More and unlock 20% off before it’s gone.
+  html_file: html/p_em_2026_02_12_hav_conv_d_presidents_day_sale_sweetener.html
+  screenshot: screenshots/p_em_2026_02_12_hav_conv_d_presidents_day_sale_sweetener.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698cc518dec110006481785d/original.gif?1770833176
+- id: 164268d5-79a2-4243-bda7-3c57737d426c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 34841
+  total_delivered: 34745
+  total_opens: 18052
+  total_clicks: 118
+  open_rate: 0.5181
+  click_rate: 0.0034
+  total_unsubscribes: 41
+  ga4:
+    sessions: 113
+    purchases: 2
+    revenue: 6307.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:48.850049'
+    source: snowflake
+    channel: email
+schedule_type: time_based

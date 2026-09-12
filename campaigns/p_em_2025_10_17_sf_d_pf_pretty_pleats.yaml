@@ -1,0 +1,81 @@
+id: cab8bdf1-b054-40ee-b26c-1bc6b8b24fa4
+name: P_EM_2025_10_17_SF_D_PF_Pretty_Pleats
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: cab8bdf1-b054-40ee-b26c-1bc6b8b24fa4
+dates:
+  send_date: '2025-10-17'
+  inferred_send_type: local_time
+  first_sent: '2025-10-16T22:30:27+00:00'
+  last_sent: '2025-10-17T17:00:48+00:00'
+tags:
+- Batch and Blast
+- am
+- curtains
+- d2c
+- designed
+- prod
+- sale
+sends:
+- id: 7a594a46-2738-4009-83f6-0c8209014e93
+  channel: email
+  name: Variant 1
+  subject: 'Curtains Made For You: 25% Off'
+  preheader: pick your print
+  html_file: html/p_em_2025_10_17_sf_d_pf_pretty_pleats.html
+  screenshot: screenshots/p_em_2025_10_17_sf_d_pf_pretty_pleats.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68f15d3066d92e00634dc055/original.png?1760648496
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68f15dc766d92e00634dc3b4/original.png?1760648647
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e6e45116988a00835183b2/original.png?1759962193
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68f15dc1f790350063b50096/original.png?1760648640
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e6e41084ef6300739f7c23/original.png?1759962128
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68f15d3f66d92e00734db6f9/original.png?1760648510
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68f15d46c22c5000639b8a61/original.png?1760648517
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e6e4571039360063054347/original.png?1759962199
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e6e1953c67820063797f46/original.png?1759961493
+- id: 954f1d90-2b3e-421d-8b29-198aa99d4421
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 40084
+  total_delivered: 39602
+  total_opens: 17621
+  total_clicks: 196
+  open_rate: 0.4396
+  click_rate: 0.0049
+  total_bounces: 1
+  total_unsubscribes: 52
+  ga4:
+    sessions: 211
+    purchases: 1
+    revenue: 1092.96
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.759757'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-the-gallery-sale-2025-10-09
+    name: The Gallery Sale
+    start_date: '2025-10-09'
+    end_date: '2025-10-21'
+    discount: 25% off Art + Wallpaper + Curtains
+    type: null
+  primary_sale:
+    id: stf-the-gallery-sale-2025-10-09
+    name: The Gallery Sale
+    start_date: '2025-10-09'
+    end_date: '2025-10-21'
+    discount: 25% off Art + Wallpaper + Curtains
+    type: null
+  sale_name: The Gallery Sale
+  sale_discount: 25% off Art + Wallpaper + Curtains
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:33.237608'
+schedule_type: time_based

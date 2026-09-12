@@ -1,0 +1,35 @@
+id: 366e5c4d-b6fc-44d7-9141-01967a4ec68f
+name: TRG_2024_09_HIP_Welcome_Email
+brand: HAV
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 96d71674-a6ce-45c0-8ac3-d220a9be75b2
+canvas_name: HIP Welcome
+flow_type: welcome_series
+sequence_position: 1
+subject: 'Welcome to Havenly In-Person! 🎉
+
+  '
+preheader: ''
+sends:
+- id: 366e5c4d-b6fc-44d7-9141-01967a4ec68f
+  channel: email
+  name: TRG_2024_09_HIP_Welcome_Email
+  subject: 'Welcome to Havenly In-Person! 🎉
+
+    '
+  preheader: ''
+  html_file: html/canvas-hip-welcome-t1-366e5c4d.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-09-10T16:00:00Z'
+  last_sent: '2025-03-26T17:00:00Z'
+performance_summary:
+  total_sends: 980
+  total_delivered: 978
+  total_opens: 1188
+  total_clicks: 562
+  open_rate: 1.2122
+  click_rate: 0.5735

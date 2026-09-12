@@ -1,0 +1,59 @@
+id: 0afccf3b-f014-4c24-b6ae-8c18d7aec0e2
+name: P_2024_08_01_CZ_D_CZ_August_Edit_Email
+brand: CZ
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 0afccf3b-f014-4c24-b6ae-8c18d7aec0e2
+dates:
+  send_date: '2024-08-01'
+  inferred_send_type: local_time
+  first_sent: '2024-08-01T00:52:25+00:00'
+  last_sent: '2024-08-01T17:15:06+00:00'
+tags: []
+sends:
+- id: f3ab23e6-f6e4-4f5c-ad03-07381b53cca9
+  channel: email
+  name: Variant 1
+  subject: The August Edit
+  preheader: Here's to all the adventures ahead this month.
+  html_file: html/p_2024_08_01_cz_d_cz_august_edit_email.html
+  screenshot: screenshots/p_2024_08_01_cz_d_cz_august_edit_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66aa7b28d21ef6005e849922/original.jpg?1722448679
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66aa7ac9d21ef6005e84982f/original.jpg?1722448585
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66aa7b926d9d30005f728821/original.jpg?1722448786
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66aa7a7b9c26d2005f04ccd3/original.jpg?1722448507
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66aa79d2dd7197005f0ee64f/original.jpg?1722448337
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66aa7a49dd7197005f0ee81c/original.jpg?1722448457
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66aa7b88d21ef6005e849a05/original.jpg?1722448776
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66aa7b336d9d30005f728748/original.jpg?1722448691
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66aa7aee55abbb005f3adfe9/original.jpg?1722448622
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66aa7b219c26d2005f04cfe0/original.jpg?1722448673
+- id: 0d27a174-9e20-4110-88c3-504036e785ec
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 17277
+  total_delivered: 17258
+  total_opens: 11062
+  total_clicks: 538
+  open_rate: 0.6403
+  click_rate: 0.0311
+  total_revenue: 7060.54
+  total_bounces: 1
+  total_unsubscribes: 53
+  ga4:
+    sessions: 121
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.581456'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.130129'
+schedule_type: time_based

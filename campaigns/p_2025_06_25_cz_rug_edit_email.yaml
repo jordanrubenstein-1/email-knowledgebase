@@ -1,0 +1,59 @@
+id: 351fee6c-181c-48d4-b1c4-b13ebf266fa0
+name: P_2025_06_25_CZ_Rug_Edit_Email
+brand: CZ
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 351fee6c-181c-48d4-b1c4-b13ebf266fa0
+dates:
+  send_date: '2025-06-25'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-25T05:27:15+00:00'
+  last_sent: '2025-06-25T17:01:57+00:00'
+tags: []
+sends:
+- id: 145b98b6-a055-46a0-97ce-dbfcf7a93c40
+  channel: email
+  name: Variant 1
+  subject: 'Our Iconic Rugs: Now 20% Off'
+  preheader: Lay a fresh foundation for Summer.
+  html_file: html/p_2025_06_25_cz_rug_edit_email.html
+  screenshot: screenshots/p_2025_06_25_cz_rug_edit_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68596c4c10b8df0066b9d51b/original.png?1750690892
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68596c2ac8dc1e00760081d7/original.png?1750690858
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68596beda963d40076558c4a/original.png?1750690797
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68596c362f155600668d20a9/original.png?1750690869
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68596b482e3ed400771c3388/original.png?1750690632
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68596b5429495c00644d66b4/original.png?1750690643
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68596b6aa963d4006655923d/original.png?1750690665
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68596c1210b8df0086b9d100/original.png?1750690834
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68596c45e012fd00661bcd33/original.png?1750690884
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68596c5c29495c00744d6410/original.png?1750690907
+- id: 9c9f905f-3b5e-4d3b-814a-7c5e9fe96d0a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 99902
+  total_delivered: 99431
+  total_opens: 51548
+  total_clicks: 623
+  open_rate: 0.516
+  click_rate: 0.0062
+  total_revenue: 49984.88
+  total_bounces: 3
+  total_unsubscribes: 128
+  ga4:
+    sessions: 731
+    purchases: 6
+    revenue: 7989.58
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.948363'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.843753'
+schedule_type: time_based

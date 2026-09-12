@@ -1,0 +1,48 @@
+id: ba8cc46a-73ef-4b23-9613-16b0841b782b
+name: P_2025_03_24_CZ_The_Spring_Event_AM_Last_Chance_Email
+brand: CZ
+channel: email
+category: reminder
+type: seasonal
+theme: spring
+braze_id: ba8cc46a-73ef-4b23-9613-16b0841b782b
+dates:
+  send_date: '2025-03-24'
+  inferred_send_type: scheduled
+  first_sent: '2025-03-24T06:25:26+00:00'
+  last_sent: '2025-03-24T17:02:08+00:00'
+tags: []
+sends:
+- id: c41df74a-c4c3-41fd-9b83-e6383a4d19a1
+  channel: email
+  name: Variant 1
+  subject: 'Ends Tonight: Up To 30% Off'
+  preheader: Final hours to save on select styles.
+  html_file: html/p_2025_03_24_cz_the_spring_event_am_last_chance_email.html
+  screenshot: screenshots/p_2025_03_24_cz_the_spring_event_am_last_chance_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ddb960237efe0067446109/original.png?1742584160
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ddb8d2c283b500641ff955/original.png?1742584017
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ddb9799400de007450454f/original.png?1742584184
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ddb8cb8a59ed00648666ac/original.png?1742584011
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ddb8bdef438500671c9670/original.png?1742583996
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ddb97f8a59ed00648668a5/original.png?1742584191
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ddb8c3ef438500861c8df5/original.png?1742584003
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ddb93cef438500671c977c/original.png?1742584123
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ddb951c283b500641ffa8c/original.png?1742584145
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ddb8739400de006550484c/original.png?1742583922
+- id: 38c7e6f9-3f4e-4193-a169-389a0e3c44e7
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 92159
+  total_delivered: 91358
+  total_opens: 47642
+  total_clicks: 659
+  open_rate: 0.517
+  click_rate: 0.0072
+  total_revenue: 81758.31
+  total_bounces: 3
+  total_unsubscribes: 116
+_filename: p_2025_03_24_cz_the_spring_event_am_last_chance_email.yaml
+schedule_type: time_based

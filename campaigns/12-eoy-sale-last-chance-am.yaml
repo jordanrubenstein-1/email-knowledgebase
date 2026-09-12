@@ -1,0 +1,107 @@
+id: klaviyo-01JGCD86DQ69MKBRYE0PB3BF3Q
+name: '1/2: EOY Sale - Last Chance AM'
+brand: TI
+channel: email
+category: sale_promo
+type: sale
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2024-12-30'
+  inferred_send_type: scheduled
+  first_sent: '2025-01-02T07:00:00+00:00'
+  last_sent: '2025-01-02T07:00:00+00:00'
+sends:
+- id: 01JGCD86EPW67W2TENNXFG3Q10
+  channel: email
+  name: '1/2: EOY Sale - Last Chance AM'
+  subject: 'FINAL DAY: 20% Off Sitewide'
+  preheader: Don’t miss your chance to save on everything.
+  html_file: html/12-eoy-sale-last-chance-am.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/994da6f7-46b1-4474-9799-8b8821750d2f.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/151e6673-be8c-45ca-8b98-2bab61db8aaa.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/1d0daedf-0a3f-4cd1-af73-eeb5ac7e112d.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/434c2564-334a-4526-8428-f234f44e94d9.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/dad7fdbb-33d3-4a49-8e05-d6754bc822d5.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/20c6a8ec-79d0-4d87-9b0a-5a21f624f88f.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/12063cb3-1a7c-4d18-9733-037484fc397d.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/48f8b0bf-f674-4de6-83a6-f00ae0bfb57e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/a8ed23e8-e2f3-403a-b38f-8b1b3a3d6a09.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/968d9574-d110-40c9-b59b-aabf8a89f2b7.gif
+  screenshot: screenshots/12-eoy-sale-last-chance-am.png
+performance_summary:
+  total_sends: 104778
+  total_delivered: 104253
+  total_opens: 34972
+  total_clicks: 422
+  unique_opens: 25441
+  unique_clicks: 129
+  open_rate: 0.2428
+  click_rate: 0.0012
+  total_open_rate: 0.3338
+  total_click_rate: 0.004
+  total_unsubscribes: 77
+  total_bounces: 525
+klaviyo_type: campaign
+klaviyo_campaign_id: 01JGCD86DQ69MKBRYE0PB3BF3Q
+klaviyo_message_id: 01JGCD86EPW67W2TENNXFG3Q10
+structure:
+  image_count: 25
+  link_count: 26
+  has_gif: true
+  hero_width: 600
+  layout_type: product_grid
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: ti-end-of-year-sale-2025-01-01
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-05'
+    discount: 'B2C: Up to 30% Off (Comp Labor Day)
+
+      Trade: 30% Off Sitewide
+
+
+      30% off MTO beds (excluding quick ship)
+
+      20% off curtains
+
+      25% off all other MTO'
+    type: null
+  - id: ti_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: ti-end-of-year-sale-2025-01-01
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-05'
+    discount: 'B2C: Up to 30% Off (Comp Labor Day)
+
+      Trade: 30% Off Sitewide
+
+
+      30% off MTO beds (excluding quick ship)
+
+      20% off curtains
+
+      25% off all other MTO'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: 'B2C: Up to 30% Off (Comp Labor Day)
+
+    Trade: 30% Off Sitewide
+
+
+    30% off MTO beds (excluding quick ship)
+
+    20% off curtains
+
+    25% off all other MTO'
+  sale_type: null
+_sale_labeled_at: '2026-03-12T11:18:46.076546'

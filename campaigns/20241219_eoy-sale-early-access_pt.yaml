@@ -1,0 +1,52 @@
+id: 99a7d3c3-d826-4c00-9d54-5040a3a51922
+name: 20241219_EOY-Sale-Early-Access_PT
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 99a7d3c3-d826-4c00-9d54-5040a3a51922
+dates:
+  inferred_send_type: local_time
+  first_sent: '2024-12-18T19:32:32+00:00'
+  last_sent: '2024-12-19T17:01:37+00:00'
+tags: []
+sends:
+- id: af6f111e-e354-488a-893c-0637e07abe83
+  channel: email
+  name: Variant 1
+  subject: Access End of Year Sale deals before anyone else
+  preheader: An exclusive offer for our subscribers.
+- id: b5058fd7-906d-457b-a725-1df2d32c537d
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 1122
+    purchases: 9
+    revenue: 8373.82
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.451101'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur_eoy_2024_12_20
+    name: End of Year Sale
+    start_date: '2024-12-19'
+    end_date: '2024-12-31'
+    discount: null
+    type: null
+  primary_sale:
+    id: bur_eoy_2024_12_20
+    name: End of Year Sale
+    start_date: '2024-12-19'
+    end_date: '2024-12-31'
+    discount: null
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:30.045096'
+schedule_type: time_based

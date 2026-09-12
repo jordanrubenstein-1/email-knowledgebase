@@ -1,0 +1,59 @@
+id: 3b069a18-24c4-4e62-a7e5-228e6eb85d98
+name: P_EM_2025_06_29_CZ_D_PR_Wedding_Gift_Guide
+brand: CZ
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 3b069a18-24c4-4e62-a7e5-228e6eb85d98
+dates:
+  send_date: '2025-06-29'
+  inferred_send_type: local_time
+  first_sent: '2025-06-28T18:10:01+00:00'
+  last_sent: '2025-06-29T17:01:39+00:00'
+tags: []
+sends:
+- id: b79f2835-86e5-4e08-88c6-937664a5b7a0
+  channel: email
+  name: Variant 1
+  subject: 'JUST LANDED: The Wedding Gift Guide'
+  preheader: Our top picks are 20% off.
+  html_file: html/p_em_2025_06_29_cz_d_pr_wedding_gift_guide.html
+  screenshot: screenshots/p_em_2025_06_29_cz_d_pr_wedding_gift_guide.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685f0a44dd9c3a0065edfada/original.png?1751059012
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685efb11489c830074b3232c/original.png?1751055120
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685ef8d63f7d5c006574c623/original.png?1751054550
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685ef93c774df300652b8350/original.png?1751054651
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685efbc69514740064938aa9/original.png?1751055301
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685efaf48dcd210065025725/original.png?1751055092
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685efbd58f01940087d05a06/original.png?1751055316
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685efbe4bee0c70065e6ce2b/original.png?1751055332
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685efac28328a000652a66a4/original.png?1751055042
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685efbfa8328a000652a6e1d/original.png?1751055353
+- id: 5cbcdda5-c699-45fb-a015-439f30a0971c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 100467
+  total_delivered: 99971
+  total_opens: 52565
+  total_clicks: 551
+  open_rate: 0.5232
+  click_rate: 0.0055
+  total_revenue: 69520.77
+  total_bounces: 1
+  total_unsubscribes: 125
+  ga4:
+    sessions: 572
+    purchases: 7
+    revenue: 2641.75
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.596998'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.760663'
+schedule_type: time_based

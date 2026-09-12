@@ -1,0 +1,33 @@
+id: 6f64b33d-600f-4fdf-8577-46a51d20e973
+name: SEG_2024_11_30_HAV_PT_Free_Shipping_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 6f64b33d-600f-4fdf-8577-46a51d20e973
+dates:
+  send_date: '2024-11-30'
+  first_sent: '2024-11-30T23:20:00+00:00'
+  last_sent: '2024-11-30T23:20:13+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: e01c6992-eb8d-4c16-b49f-c4b2a7b5918a
+  channel: email
+  name: Variant 1
+  subject: Free shipping, just for you. We never do this.
+- id: f390a266-6482-48b9-b98d-72137a49c636
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 2268
+  total_delivered: 2266
+  total_opens: 1431
+  total_clicks: 20
+  open_rate: 0.631
+  click_rate: 0.0088
+  total_bounces: 2
+  total_unsubscribes: 7
+schedule_type: time_based
+_filename: seg_2024_11_30_hav_pt_free_shipping_email.yaml

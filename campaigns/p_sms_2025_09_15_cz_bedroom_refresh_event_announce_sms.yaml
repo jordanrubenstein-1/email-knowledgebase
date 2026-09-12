@@ -1,0 +1,30 @@
+id: beb9c7c1-10d7-4fa5-b828-ef54402545ad
+name: P_SMS_2025_09_15_CZ_Bedroom_Refresh_Event_Announce_SMS
+brand: CZ
+channel: sms
+category: editorial
+type: product_launch
+theme: null
+braze_id: beb9c7c1-10d7-4fa5-b828-ef54402545ad
+dates:
+  send_date: '2025-09-15'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-15T21:11:54+00:00'
+  last_sent: '2025-09-15T21:12:24+00:00'
+tags: []
+sends:
+- id: ffce350e-53df-47a9-92d4-0b4dbd9ba89a
+  channel: sms
+  name: Variant 1
+- id: 513ed407-1ad4-44e7-b7a4-ec5787742d6e
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 21755
+  total_delivered: 21276
+  total_opens: 0
+  total_clicks: 339
+  open_rate: 0.0
+  click_rate: 0.0156
+_filename: p_sms_2025_09_15_cz_bedroom_refresh_event_announce_sms.yaml
+schedule_type: time_based

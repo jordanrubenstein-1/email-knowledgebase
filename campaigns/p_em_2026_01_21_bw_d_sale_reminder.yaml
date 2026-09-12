@@ -1,0 +1,43 @@
+id: f4f74083-0de4-4fc8-992f-c26c76d277e9
+name: P_EM_2026_01_21_BW_D_Sale_Reminder
+brand: BUR
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: f4f74083-0de4-4fc8-992f-c26c76d277e9
+dates:
+  send_date: '2026-01-21'
+  inferred_send_type: local_time
+  first_sent: '2026-01-21T03:07:18+00:00'
+  last_sent: '2026-01-22T03:01:15+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 33a6a4f6-90ff-4ebf-82b1-8bf9b6d116af
+  channel: email
+  name: Variant 1
+  subject: 'Winter Refresh Sale: Up to 35% Off'
+  preheader: Last chance to order in time for game day.
+- id: 21d98404-6429-4e57-ab57-8faabcbfb75c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 114780
+  total_delivered: 114401
+  total_opens: 46990
+  total_clicks: 597
+  open_rate: 0.4094
+  click_rate: 0.0052
+  total_revenue: 47552.0
+  total_bounces: 7
+  total_unsubscribes: 245
+  ga4:
+    sessions: 508
+    purchases: 1
+    revenue: 1882.56
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.898258'
+    source: snowflake
+    channel: email
+schedule_type: time_based

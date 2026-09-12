@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Havenly</title>
+  <!--[if mso]>
+  <noscript>
+    <xml>
+      <o:OfficeDocumentSettings>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+  </noscript>
+  <![endif]-->
+</head>
+<body style="margin: 0; padding: 0; background-color: #f4f4f4;">
+  <!-- Row 1: Coral-bordered content block (600px total: 90px border each side, 420px white) -->
+  <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="600" style="max-width: 600px; width: 100%; margin: 0 auto;">
+    <!-- Top coral border -->
+    <tr>
+      <td bgcolor="#ED6B4D" style="background-color: #ED6B4D; height: 90px; font-size: 1px; line-height: 1px;" colspan="3">&nbsp;</td>
+    </tr>
+    <tr>
+      <!-- Left coral border -->
+      <td bgcolor="#ED6B4D" style="background-color: #ED6B4D; width: 90px; font-size: 1px; line-height: 1px;" width="90">&nbsp;</td>
+      <!-- White content (420px) -->
+      <td bgcolor="#FFFFFF" style="background-color: #FFFFFF; width: 420px; padding: 40px 32px; vertical-align: top;" width="420">
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="max-width: 100%; margin: 0 auto;">
+          <!-- Havenly logo - centered -->
+          <tr>
+            <td style="padding: 0 0 24px 0; text-align: center;">
+              <img src="https://braze-images.com/appboy/communication/assets/image_assets/images/697ce0b41dead00063d9b3c5/original.png?1769791668" alt="HAVENLY" width="100" height="auto" style="display: block; max-width: 100%; height: auto; margin: 0 auto;" />
+            </td>
+          </tr>
+          <!-- Board image - full width, links to project -->
+          <tr>
+            <td style="padding: 0 0 24px 0; width: 100%; text-align: center;">
+              <a href="https://havenly.com/room/home/{{api_trigger_properties.${room_id}}}" style="display: block; text-decoration: none;">
+                <img src="{{api_trigger_properties.${board_img}}}" alt="Your design concept" style="display: block; width: 100%; height: auto; border: 0;" />
+              </a>
+            </td>
+          </tr>
+          <!-- Greeting -->
+          <tr>
+            <td style="padding: 0 0 24px 0; font-family: Helvetica, Arial, sans-serif; font-size: 15px; font-weight: normal; line-height: 24px; color: #000000; text-align: left;">
+              Hi {{${first_name} | default: 'there'}},
+            </td>
+          </tr>
+          <!-- Intro -->
+          <tr>
+            <td style="padding: 0 0 16px 0; font-family: Helvetica, Arial, sans-serif; font-size: 15px; font-weight: normal; line-height: 24px; color: #000000; text-align: left;">
+              We noticed your Design Review hasn't been scheduled yet.
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 0 0 16px 0; font-family: Helvetica, Arial, sans-serif; font-size: 15px; font-weight: normal; line-height: 24px; color: #000000; text-align: left;">
+              Reviewing your design live with your designer allows you to walk through the space in 3D, understand key design decisions, share feedback, and make updates together. It's also the best time to review products, refine your shopping list, and ensure your design reflects everything you want.
+            </td>
+          </tr>
+          <!-- Signature -->
+          <tr>
+            <td style="padding: 0 0 24px 0; font-family: Helvetica, Arial, sans-serif; font-size: 15px; font-weight: normal; line-height: 24px; color: #000000; text-align: left;">
+              — The Havenly Team
+            </td>
+          </tr>
+          <!-- CTA Button -->
+          <tr>
+            <td style="padding: 6px 0 0 0; text-align: center;">
+              <a href="https://havenly.com/room/home/{{api_trigger_properties.${room_id}}}" style="display: inline-block; font-family: 'Saans', Helvetica, Arial, sans-serif; font-size: 18px; line-height: 22px; font-weight: 600; letter-spacing: 0.79px; color: #FFFFFF; text-decoration: none; border: 2px solid #304561; padding: 14px 32px; background-color: #304561; border-radius: 50px; white-space: nowrap;">BOOK DESIGN REVIEW</a>
+            </td>
+          </tr>
+        </table>
+      </td>
+      <!-- Right coral border -->
+      <td bgcolor="#ED6B4D" style="background-color: #ED6B4D; width: 90px; font-size: 1px; line-height: 1px;" width="90">&nbsp;</td>
+    </tr>
+    <!-- Bottom coral border -->
+    <tr>
+      <td bgcolor="#ED6B4D" style="background-color: #ED6B4D; height: 90px; font-size: 1px; line-height: 1px;" colspan="3">&nbsp;</td>
+    </tr>
+  </table>
+{{content_blocks.${address_without_unsubscribe} | id: 'cb2'}}
+</body>
+</html>

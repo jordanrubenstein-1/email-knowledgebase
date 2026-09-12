@@ -1,0 +1,162 @@
+id: 57657eee-e9b8-4613-a42c-3adb310acef0
+name: Soho Event RSVP Confirmation - Nov 2025
+brand: CZ
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 57657eee-e9b8-4613-a42c-3adb310acef0
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-11-05T22:00:00+00:00'
+  last_sent: '2025-11-15T16:00:00+00:00'
+tags: []
+sends:
+- id: 0df2bb2b-9836-4bc4-b5aa-8f3512186163
+  channel: email
+  name: TRG_EM_2024_07_CZ_D_Welcome_T3
+  subject: The Well-Traveled Home
+  preheader: Bring home the best craftsmanship from around the globe. Fair Trade.
+    Guaranteed.
+  step_id: d738942a-9838-41da-ab70-7b5df3676154
+- id: 5a746b09-2e84-464c-94d0-19c92af2f0e2
+  channel: email
+  name: TRG_EM_2024_07_CZ_D_Welcome_T2
+  subject: Welcome to The Citizenry
+  preheader: Thanks for joining the journey. Country by country, we travel the globe
+    to bring the world's best craftsmanship home to you.
+  step_id: 17276de5-658f-422e-aacd-ed737102c018
+- id: 251b367c-28ea-4de6-8476-e28ce79e81ca
+  channel: email
+  name: TRG_EM_2024_07_CZ_D_Welcome_T4
+  subject: Iconic For A Reason
+  preheader: Elevate your home with our iconic linen bedding. Sustainably made in
+    Portugal.
+  step_id: 617d22ab-1595-4258-a174-fa45fd5aeed6
+- id: 0cbb44f3-84d8-49ab-9b58-bd335ed6b6ae
+  channel: email
+  name: TRG_EM_2025_11_CZ_D_RSVP_Confirmation_Soho_Event_T1_V1
+  subject: You’re on the List
+  preheader: We can’t wait to celebrate with you.
+  step_id: fd6cf963-7b3c-42c7-bf24-893c16aeed47
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.374619'
+    source: snowflake
+    channel: email
+canvas_steps:
+- id: f9fee832-d4cb-494a-8f4c-8dee33b37948
+  name: Step 1
+  type: delay
+- id: 6ce837e7-ce8a-4c24-9df4-e5255bb685dc
+  name: Step
+  type: delay
+- id: d738942a-9838-41da-ab70-7b5df3676154
+  name: TRG_EM_2024_07_CZ_D_Welcome_T3
+  type: message
+  channel: email
+  subject: The Well-Traveled Home
+  preheader: Bring home the best craftsmanship from around the globe. Fair Trade.
+    Guaranteed.
+- id: 17276de5-658f-422e-aacd-ed737102c018
+  name: TRG_EM_2024_07_CZ_D_Welcome_T2
+  type: message
+  channel: email
+  subject: Welcome to The Citizenry
+  preheader: Thanks for joining the journey. Country by country, we travel the globe
+    to bring the world's best craftsmanship home to you.
+- id: 617d22ab-1595-4258-a174-fa45fd5aeed6
+  name: TRG_EM_2024_07_CZ_D_Welcome_T4
+  type: message
+  channel: email
+  subject: Iconic For A Reason
+  preheader: Elevate your home with our iconic linen bedding. Sustainably made in
+    Portugal.
+- id: e2a5d4e0-434f-4eb6-a471-5432b0361efd
+  name: Step 2
+  type: delay
+- id: a9251c29-4e37-43c2-b26e-861e4830ecbc
+  name: Step 4
+  type: delay
+- id: fd6cf963-7b3c-42c7-bf24-893c16aeed47
+  name: TRG_EM_2025_11_CZ_D_RSVP_Confirmation_Soho_Event_T1_V1
+  type: message
+  channel: email
+  subject: You’re on the List
+  preheader: We can’t wait to celebrate with you.
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-black-friday-cyber-monday-2025-11-17
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-14'
+    end_date: '2025-12-01'
+    discount: '11/14 - 11/16 Early Access
+
+      11/17 - 12/1 Main Event
+
+      11/28 Black Friday Fund
+
+
+      25% Off Sitewide
+
+      Up to 70% Off Archive Sale
+
+      (Fresh Cuts of go forward, overstocked products)'
+    type: null
+  - id: cz-black-friday-cyber-monday-ea-2025-11-14
+    name: Black Friday / Cyber Monday (EA)
+    start_date: '2025-11-14'
+    end_date: '2025-11-16'
+    discount: '11/14 - 11/16 Early Access
+
+      11/17 - 12/1 Main Event
+
+      11/28 Black Friday Fund
+
+
+      25% Off Sitewide
+
+      Up to 70% Off Archive Sale
+
+      (Fresh Cuts of go forward, overstocked products)'
+    type: null
+  primary_sale:
+    id: cz-black-friday-cyber-monday-2025-11-17
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-14'
+    end_date: '2025-12-01'
+    discount: '11/14 - 11/16 Early Access
+
+      11/17 - 12/1 Main Event
+
+      11/28 Black Friday Fund
+
+
+      25% Off Sitewide
+
+      Up to 70% Off Archive Sale
+
+      (Fresh Cuts of go forward, overstocked products)'
+    type: null
+  sale_name: Black Friday / Cyber Monday
+  sale_discount: '11/14 - 11/16 Early Access
+
+    11/17 - 12/1 Main Event
+
+    11/28 Black Friday Fund
+
+
+    25% Off Sitewide
+
+    Up to 70% Off Archive Sale
+
+    (Fresh Cuts of go forward, overstocked products)'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:42.083506'

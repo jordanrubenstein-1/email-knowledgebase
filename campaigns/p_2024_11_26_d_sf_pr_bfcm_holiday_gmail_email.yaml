@@ -1,0 +1,75 @@
+id: 5d4092f9-fdf9-4c1a-8f16-37bfc3630609
+name: P_2024_11_26_D_SF_PR_BFCM_Holiday_Gmail_Email
+brand: STF
+channel: email
+category: sale_promo
+type: seasonal
+theme: christmas
+braze_id: 5d4092f9-fdf9-4c1a-8f16-37bfc3630609
+dates:
+  send_date: '2024-11-26'
+  inferred_send_type: local_time
+  first_sent: '2024-11-25T23:32:25+00:00'
+  last_sent: '2024-11-26T16:00:52+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: 9b1e39ad-3960-43bf-b3b5-5f690fbc16cd
+  channel: email
+  name: Variant 1
+  subject: Ring in the holidays with 20% off decor
+  preheader: plus, order by 12/2 for on-time delivery
+  html_file: html/p_2024_11_26_d_sf_pr_bfcm_holiday_gmail_email.html
+  screenshot: screenshots/p_2024_11_26_d_sf_pr_bfcm_holiday_gmail_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6744ae7dd917fe0073fd1336/original.gif?1732554365
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6744ae9cd917fe0065fd34be/original.gif?1732554396
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673cd4cd72f4db00643282e6/original.jpg?1732039885
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6744adb6e9a60e00640e1a16/original.gif?1732554166
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6744adf738de39006638fa7f/original.gif?1732554230
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6744adc1cb50670064561b19/original.gif?1732554177
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6744ae5e67e51500651006b6/original.gif?1732554334
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6744addd8ca5270065d14ab2/original.gif?1732554205
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6744ae8d8ca5270065d14c13/original.gif?1732554381
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6744ae708ca5270065d14bac/original.gif?1732554352
+- id: 7b797deb-1028-4909-abb7-6d2e32528999
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 2350
+  total_delivered: 2350
+  total_opens: 1194
+  total_clicks: 19
+  open_rate: 0.5081
+  click_rate: 0.0081
+  total_revenue: 1366.5
+  total_unsubscribes: 1
+  ga4:
+    sessions: 17
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.738714'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: stf-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:32.651828'
+schedule_type: time_based

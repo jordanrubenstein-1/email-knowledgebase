@@ -1,0 +1,60 @@
+id: 78acfc04-eb11-48a5-83b0-3ac8eb5ff834
+name: P_2024_08_27_D_CZ_PR_LDW_Fall_Style_Edit_Email
+brand: CZ
+channel: email
+category: editorial
+type: seasonal
+theme: fall
+braze_id: 78acfc04-eb11-48a5-83b0-3ac8eb5ff834
+dates:
+  send_date: '2024-08-27'
+  inferred_send_type: scheduled
+  first_sent: '2024-08-27T02:31:36+00:00'
+  last_sent: '2024-08-27T17:00:30+00:00'
+tags:
+- batch and blast/promo
+sends:
+- id: 191c12c5-627a-4704-bd2e-4257b2c9e69b
+  channel: email
+  name: Variant 1
+  subject: Get Fall Ready (+ 20% Off)
+  preheader: Welcome a new season at home with 20% off statement styles.
+  html_file: html/p_2024_08_27_d_cz_pr_ldw_fall_style_edit_email.html
+  screenshot: screenshots/p_2024_08_27_d_cz_pr_ldw_fall_style_edit_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cc78455ace610064565632/original.jpg?1724676165
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c778e0b96c340063bb080e/original.jpg?1724348640
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c3affed1cc8300655ea5fe/original.jpg?1724100606
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ccf0b72f0d3800643e33b8/original.jpg?1724706999
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c3b12d9ee9190066b6d2d1/original.jpg?1724100909
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ccd2cb072eef0075a16968/original.jpg?1724699338
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ccf4b10e446b006647aece/original.jpg?1724708017
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cc786b0d6e290063272f8e/original.jpg?1724676203
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7792e97dc840064625bfd/original.jpg?1724348718
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c3b15b5d73f90065335405/original.jpg?1724100955
+- id: f2c7d200-408b-4a9c-ab4d-35d3ec7bfd95
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 75870
+  total_delivered: 75749
+  total_opens: 38697
+  total_clicks: 1186
+  open_rate: 0.51
+  click_rate: 0.0156
+  total_revenue: 106331.14
+  total_bounces: 36
+  total_unsubscribes: 188
+  ga4:
+    sessions: 1014
+    purchases: 11
+    revenue: 2990.39
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.105905'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.076934'
+schedule_type: time_based

@@ -1,0 +1,33 @@
+id: 12f1c941-1968-4164-916f-d34abf5a1d77
+name: TRG_EM_2026_03_HAV_PC_PT_AI_Session_Welcome_T1_V1
+brand: HAV
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 961698f4-2823-4237-979b-9ceb12edd965
+canvas_name: AI Session Welcome
+flow_type: welcome_series
+sequence_position: 1
+subject: Still thinking about that room you started?
+preheader: Jump back into your AI design and see where it could go next.
+sends:
+- id: 12f1c941-1968-4164-916f-d34abf5a1d77
+  channel: email
+  name: TRG_EM_2026_03_HAV_PC_PT_AI_Session_Welcome_T1_V1
+  subject: Still thinking about that room you started?
+  preheader: Jump back into your AI design and see where it could go next.
+  html_file: html/canvas-ai-session-welcome-t1-12f1c941.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-03-06T14:00:00Z'
+  last_sent: '2026-09-07T09:00:00Z'
+performance_summary:
+  total_sends: 6988
+  total_delivered: 6922
+  total_opens: 3492
+  total_clicks: 162
+  open_rate: 0.4997
+  click_rate: 0.0232
+  total_unsubscribes: 77
+  total_bounces: 6

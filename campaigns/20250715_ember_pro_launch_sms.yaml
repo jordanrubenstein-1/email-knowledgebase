@@ -1,0 +1,30 @@
+id: e1aa8ff4-5ae3-4626-87c4-a6dc99f20923
+name: 20250715_Ember_Pro_Launch_SMS
+brand: BUR
+channel: sms
+category: product_launch
+type: product_launch
+theme: null
+braze_id: e1aa8ff4-5ae3-4626-87c4-a6dc99f20923
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2025-07-15T20:01:00+00:00'
+  last_sent: '2025-07-16T04:00:06+00:00'
+tags: []
+sends:
+- id: 05d14ae9-74e2-47b4-a1ba-af6a30ff2445
+  channel: other
+  name: Variant 1
+- id: 77e74e08-bbb2-4fb8-a8ad-4983b11a17cb
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 488
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.076254'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

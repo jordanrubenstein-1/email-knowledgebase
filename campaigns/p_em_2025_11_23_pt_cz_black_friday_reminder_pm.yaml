@@ -1,0 +1,103 @@
+id: 42eeb2ee-82ff-4057-90e5-37b0941c7315
+name: P_EM_2025_11_23_PT_CZ_Black_Friday_Reminder_PM
+brand: CZ
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 42eeb2ee-82ff-4057-90e5-37b0941c7315
+dates:
+  send_date: '2025-11-23'
+  inferred_send_type: local_time
+  first_sent: '2025-11-23T02:08:13+00:00'
+  last_sent: '2025-11-24T02:05:20+00:00'
+tags:
+- batch and blast
+- pm
+- pt
+- sale
+- sale/bfcm
+- sale_feat
+sends:
+- id: e079c322-0b11-45ab-a652-0d2d370fe21d
+  channel: email
+  name: Variant 1
+  subject: 25% off sitewide happening now
+  html_file: html/p_em_2025_11_23_pt_cz_black_friday_reminder_pm.html
+  screenshot: screenshots/p_em_2025_11_23_pt_cz_black_friday_reminder_pm.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f83def4631c700674e669c/original.png?1744322031
+- id: 61f5a577-e049-4e52-90de-3637aba58408
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 59009
+  total_delivered: 58936
+  total_opens: 33534
+  total_clicks: 825
+  open_rate: 0.5683
+  click_rate: 0.014
+  total_bounces: 1
+  total_unsubscribes: 121
+  ga4:
+    sessions: 820
+    purchases: 17
+    revenue: 12704.35
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.556783'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-black-friday-cyber-monday-2025-11-17
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-14'
+    end_date: '2025-12-01'
+    discount: '11/14 - 11/16 Early Access
+
+      11/17 - 12/1 Main Event
+
+      11/28 Black Friday Fund
+
+
+      25% Off Sitewide
+
+      Up to 70% Off Archive Sale
+
+      (Fresh Cuts of go forward, overstocked products)'
+    type: null
+  primary_sale:
+    id: cz-black-friday-cyber-monday-2025-11-17
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-14'
+    end_date: '2025-12-01'
+    discount: '11/14 - 11/16 Early Access
+
+      11/17 - 12/1 Main Event
+
+      11/28 Black Friday Fund
+
+
+      25% Off Sitewide
+
+      Up to 70% Off Archive Sale
+
+      (Fresh Cuts of go forward, overstocked products)'
+    type: null
+  sale_name: Black Friday / Cyber Monday
+  sale_discount: '11/14 - 11/16 Early Access
+
+    11/17 - 12/1 Main Event
+
+    11/28 Black Friday Fund
+
+
+    25% Off Sitewide
+
+    Up to 70% Off Archive Sale
+
+    (Fresh Cuts of go forward, overstocked products)'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:43.868544'
+schedule_type: time_based

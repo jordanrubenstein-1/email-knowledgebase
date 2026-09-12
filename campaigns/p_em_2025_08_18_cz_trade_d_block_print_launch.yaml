@@ -1,0 +1,46 @@
+id: 10bad303-87cf-4a39-b2d7-5f7cea908ed9
+name: P_EM_2025_08_18_CZ_TRADE_D_Block_Print_Launch
+brand: CZ
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 10bad303-87cf-4a39-b2d7-5f7cea908ed9
+dates:
+  send_date: '2025-08-18'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-18T16:33:14+00:00'
+  last_sent: '2025-08-18T16:34:50+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 5e5d3056-1631-4c00-bef9-eee4aaefa3ad
+  channel: email
+  name: Variant 1
+  subject: The Meadow Press Collection Is Here
+  preheader: Hand-blocked florals, echoing the quiet grace of pastoral landscapes.
+- id: afae3220-7f51-4658-a758-466062f8198a
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 19894
+  total_delivered: 19314
+  total_opens: 10220
+  total_clicks: 195
+  open_rate: 0.5137
+  click_rate: 0.0098
+  total_revenue: 140444.0
+  total_bounces: 1
+  total_unsubscribes: 62
+  ga4:
+    sessions: 173
+    purchases: 1
+    revenue: 374.25
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.336735'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:29.882000'

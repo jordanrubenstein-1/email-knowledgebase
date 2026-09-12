@@ -1,0 +1,42 @@
+id: b658d9ba-6c53-4cf2-b743-1c7047909262
+name: P_EM_2026_04_24_SF_D_Outdoor_Event_Last_Chance
+brand: STF
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: b658d9ba-6c53-4cf2-b743-1c7047909262
+dates:
+  send_date: '2026-04-24'
+  last_sent: '2026-04-24'
+tags:
+- Batch and Blast
+sends:
+- id: ff94d732-7e5c-40be-92ae-4694825e61f6
+  channel: email
+  name: Variant 1
+  subject: The Outdoor Event ends TODAY
+  preheader: Don’t miss 20% off pillows and fabric by the yard.
+  html_file: html/p_em_2026_04_24_sf_d_outdoor_event_last_chance.html
+  screenshot: screenshots/p_em_2026_04_24_sf_d_outdoor_event_last_chance.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69df45e78ea80900ac5a6f0f/original.png?1776240102
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69df45ce6900d700aae66fb4/original.png?1776240077
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69df45bc1842a300ac1358a7/original.png?1776240060
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69df45cf49f1a000acd2ed53/original.png?1776240078
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69df45fdc96a4900ace419f1/original.png?1776240124
+- id: 3268d357-408b-47f0-a4cd-71cca7a1cbd3
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 36566
+  total_delivered: 36292
+  total_opens: 12087
+  total_clicks: 139
+  open_rate: 0.3306
+  click_rate: 0.0038
+  total_revenue: 8868.8
+  total_bounces: 1
+  total_unsubscribes: 25
+_filename: p_em_2026_04_24_sf_d_outdoor_event_last_chance.yaml
+schedule_type: time_based

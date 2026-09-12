@@ -1,0 +1,34 @@
+id: ae4e090b-fa18-48a4-aa43-a656a76b21ee
+name: P_2025_3_14_HAV_PC_PT_Birthday_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: ae4e090b-fa18-48a4-aa43-a656a76b21ee
+dates:
+  send_date: '2025-03-14'
+  first_sent: '2025-03-13T18:32:27+00:00'
+  last_sent: '2025-03-14T18:15:06+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: d1c68eee-8f52-4b4f-a0b7-badf0d243a17
+  channel: email
+  name: Variant 1
+  subject: The best $99 you'll ever spend...
+- id: a4b8c14f-dcc6-4a24-9fe8-29247681b2b6
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 196349
+  total_delivered: 192819
+  total_opens: 89215
+  total_clicks: 582
+  open_rate: 0.4544
+  click_rate: 0.003
+  total_bounces: 3
+  total_unsubscribes: 365
+schedule_type: time_based
+_filename: p_2025_3_14_hav_pc_pt_birthday_sale_reminder.yaml

@@ -1,0 +1,33 @@
+id: f9d8b650-9def-49ba-b748-4eca78c3add8
+name: P_2024_09_02_D_ID_PR_PM_Labor_Day_Sale_Reminder_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: f9d8b650-9def-49ba-b748-4eca78c3add8
+dates:
+  send_date: '2024-09-02'
+  inferred_send_type: scheduled
+  first_sent: '2024-09-02T22:15:01+00:00'
+  last_sent: '2024-09-02T22:15:23+00:00'
+tags: []
+sends:
+- id: ea51b607-3dd8-4b13-b91c-8017769b62f0
+  channel: email
+  name: Variant 1
+  subject: Your dream sofa is on sale
+  preheader: Don’t miss our Labor Day Event
+- id: 0f300ae7-f2d1-4c7f-a93f-fb995c567889
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 3914
+  total_delivered: 3906
+  total_opens: 2567
+  total_clicks: 615
+  open_rate: 0.6559
+  click_rate: 0.1571
+  total_unsubscribes: 13
+_filename: p_2024_09_02_d_id_pr_pm_labor_day_sale_reminder_email.yaml
+schedule_type: time_based

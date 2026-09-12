@@ -1,0 +1,34 @@
+id: 6e228689-72de-4dae-8dc5-e92fb2e9b58f
+name: P_EM_2025_11_28_HAV_PC_PT_PM_Black_Friday
+brand: HAV
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 6e228689-72de-4dae-8dc5-e92fb2e9b58f
+dates:
+  send_date: '2025-11-28'
+  first_sent: '2025-11-28T02:06:42+00:00'
+  last_sent: '2025-11-29T03:00:19+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: b266350f-dd26-4581-9d58-663409b49fdf
+  channel: email
+  name: Variant 1
+  subject: Black Friday is HERE (and it's our best price ever)
+- id: 1430fad8-a158-4d76-9b9f-294049374adf
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 90714
+  total_delivered: 90483
+  total_opens: 37231
+  total_clicks: 440
+  open_rate: 0.4104
+  click_rate: 0.0049
+  total_bounces: 2
+  total_unsubscribes: 297
+schedule_type: time_based
+_filename: p_em_2025_11_28_hav_pc_pt_pm_black_friday.yaml

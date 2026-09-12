@@ -1,0 +1,38 @@
+id: be97bc55-9682-4078-b4de-2a06e2834673
+name: P_2025_4_04_Spring_Pillow_Pairings_SMS
+brand: CZ
+channel: sms
+category: other
+type: seasonal
+theme: spring
+braze_id: be97bc55-9682-4078-b4de-2a06e2834673
+dates:
+  send_date: '2025-04-04'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-06T21:17:13+00:00'
+  last_sent: '2025-04-06T21:17:50+00:00'
+tags: []
+sends:
+- id: e661ce77-f82b-4b66-8c59-01201e9214b5
+  channel: other
+  name: Variant 1
+- id: e3a186bf-a353-4dde-9fbf-f016e65f8213
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 24590
+  total_delivered: 23970
+  total_opens: 0
+  total_clicks: 1222
+  open_rate: 0.0
+  click_rate: 0.0497
+  total_revenue: 3576.0
+  ga4:
+    sessions: 863
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.958614'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

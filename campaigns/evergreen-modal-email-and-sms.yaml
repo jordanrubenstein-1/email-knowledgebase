@@ -1,0 +1,125 @@
+id: 70d13314-3749-4e67-b699-984f2d3da044
+name: Evergreen Modal - Email and SMS
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 70d13314-3749-4e67-b699-984f2d3da044
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-12-11T14:00:00+00:00'
+  last_sent: '2025-06-10T16:00:00+00:00'
+tags: []
+sends:
+- id: 220ff30e-024b-4aa7-8b15-195de54758fb
+  channel: other
+  name: Variant 1
+- id: ab2aded2-2c5a-4cd1-98f7-66db3a483035
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.031750'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-burrow-2025-01-31
+    name: Burrow
+    start_date: '2025-01-31'
+    end_date: '2025-02-05'
+    discount: 'President''s Day Tiered Sale
+
+      20% off <$2000/ 25% off $2000+ (strikethrough in cart)
+
+      + Up to 70% off Clearance
+
+      Free Shipping on orders $2,000+ last 5 days of sale'
+    type: null
+  - id: bur-burrow-2025-03-11
+    name: Burrow
+    start_date: '2025-03-11'
+    end_date: '2025-03-12'
+    discount: 'The Spring Event
+
+      20% off <$2k / 25% ≥$2k sitewide (strikethrough in cart) | code-based early
+      access for RETAIL ONLY: [SPRING25]
+
+      + up to 70% off Clearance
+
+      FREE SHIP on all orders'
+    type: null
+  - id: bur-burrow-2025-04-09
+    name: Burrow
+    start_date: '2025-04-09'
+    end_date: '2025-04-09'
+    discount: "Friends and Family\nTiered sale: 20% off orders <$2k / 25% off orders\
+      \ ≥ $2k \nCode-based early access for retail only: FRIENDS25\nFree shipping\
+      \ on all orders"
+    type: null
+  - id: bur-burrow-2025-05-09
+    name: Burrow
+    start_date: '2025-05-09'
+    end_date: '2025-05-13'
+    discount: 'The Memorial Day Event
+
+      25% off sitewide, plus FREE GROUND SHIPPING on orders >$2k
+
+      Early Access: No code; EA messaging and strikethrough live on-site from 5/9'
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  - id: bur-end-of-year-sale-extension-2025-01-01
+    name: End of Year Sale (EXTENSION)
+    start_date: '2024-12-20'
+    end_date: '2025-01-05'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  - id: bur_eoy_2024_12_20
+    name: End of Year Sale
+    start_date: '2024-12-19'
+    end_date: '2024-12-31'
+    discount: null
+    type: null
+  primary_sale:
+    id: bur-burrow-2025-01-31
+    name: Burrow
+    start_date: '2025-01-31'
+    end_date: '2025-02-05'
+    discount: 'President''s Day Tiered Sale
+
+      20% off <$2000/ 25% off $2000+ (strikethrough in cart)
+
+      + Up to 70% off Clearance
+
+      Free Shipping on orders $2,000+ last 5 days of sale'
+    type: null
+  sale_name: Burrow
+  sale_discount: 'President''s Day Tiered Sale
+
+    20% off <$2000/ 25% off $2000+ (strikethrough in cart)
+
+    + Up to 70% off Clearance
+
+    Free Shipping on orders $2,000+ last 5 days of sale'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:36.961108'
+schedule_type: action_based

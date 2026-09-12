@@ -1,0 +1,66 @@
+id: klaviyo-01K0SXYK3HMPWKYAN0WAAFCHHM
+name: P_EM_2025_07_23_TI_PT_EA_The_Summer_Sale
+brand: TI
+channel: email
+category: sale_promo
+type: sale
+theme: summer
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2025-07-22'
+  send_date: '2025-07-23'
+  inferred_send_type: scheduled
+  first_sent: '2025-07-23T07:00:00+00:00'
+  last_sent: '2025-07-23T07:00:00+00:00'
+sends:
+- id: 01K0SXYK4WWJZGT6BSC5K0AWJJ
+  channel: email
+  name: P_EM_2025_07_23_TI_PT_EA_The_Summer_Sale
+  subject: Be the first to shop 20% off sitewide
+  preheader: ''
+  html_file: html/p_em_2025_07_23_ti_pt_ea_the_summer_sale.html
+  image_urls: []
+  screenshot: screenshots/p_em_2025_07_23_ti_pt_ea_the_summer_sale.png
+performance_summary:
+  total_sends: 109540
+  total_delivered: 109180
+  total_opens: 34230
+  total_clicks: 379
+  unique_opens: 24421
+  unique_clicks: 262
+  open_rate: 0.2229
+  click_rate: 0.0024
+  total_open_rate: 0.3125
+  total_click_rate: 0.0035
+  total_unsubscribes: 35
+  total_bounces: 360
+klaviyo_type: campaign
+klaviyo_campaign_id: 01K0SXYK3HMPWKYAN0WAAFCHHM
+klaviyo_message_id: 01K0SXYK4WWJZGT6BSC5K0AWJJ
+structure:
+  image_count: 0
+  link_count: 4
+  has_gif: false
+  hero_width: null
+  layout_type: text_only
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: ti-the-summer-sale-2025-07-23
+    name: The Summer Sale
+    start_date: '2025-07-23'
+    end_date: '2025-07-23'
+    discount: Up to 20% off sitewide, Strikethrough
+    type: null
+  primary_sale:
+    id: ti-the-summer-sale-2025-07-23
+    name: The Summer Sale
+    start_date: '2025-07-23'
+    end_date: '2025-07-23'
+    discount: Up to 20% off sitewide, Strikethrough
+    type: null
+  sale_name: The Summer Sale
+  sale_discount: Up to 20% off sitewide, Strikethrough
+  sale_type: null
+_sale_labeled_at: '2026-03-12T11:18:48.960183'

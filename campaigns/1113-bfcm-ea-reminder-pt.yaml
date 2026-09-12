@@ -1,0 +1,71 @@
+id: klaviyo-01JCG2FSABQWAWGN2VZY05X3Y6
+name: '11/13: BFCM EA Reminder - PT'
+brand: TI
+channel: email
+category: reminder
+type: announcement
+theme: black_friday
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2024-11-12'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-13T07:00:00+00:00'
+  last_sent: '2024-11-13T07:00:00+00:00'
+sends:
+- id: 01JCG2FSB43E47ASP9Z70NR38Y
+  channel: email
+  name: '11/13: BFCM EA Reminder - PT'
+  subject: Be the first to shop 25% off sitewide!
+  preheader: ''
+  html_file: html/1113-bfcm-ea-reminder-pt.html
+  image_urls: []
+  screenshot: screenshots/1113-bfcm-ea-reminder-pt.png
+performance_summary:
+  total_sends: 39266
+  total_delivered: 39165
+  total_opens: 35089
+  total_clicks: 257
+  unique_opens: 23852
+  unique_clicks: 189
+  open_rate: 0.6074
+  click_rate: 0.0048
+  total_open_rate: 0.8936
+  total_click_rate: 0.0065
+  total_unsubscribes: 62
+  total_bounces: 101
+klaviyo_type: campaign
+klaviyo_campaign_id: 01JCG2FSABQWAWGN2VZY05X3Y6
+klaviyo_message_id: 01JCG2FSB43E47ASP9Z70NR38Y
+structure:
+  image_count: 0
+  link_count: 2
+  has_gif: false
+  hero_width: null
+  layout_type: text_only
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: ti-25-off-code-vipbf24-2024-11-12
+    name: 25% off (code VIPBF24)
+    start_date: '2024-11-12'
+    end_date: '2024-11-14'
+    discount: null
+    type: null
+  - id: ti-vip-early-access-2024-11-12
+    name: VIP Early Access
+    start_date: '2024-11-12'
+    end_date: '2024-11-14'
+    discount: null
+    type: null
+  primary_sale:
+    id: ti-25-off-code-vipbf24-2024-11-12
+    name: 25% off (code VIPBF24)
+    start_date: '2024-11-12'
+    end_date: '2024-11-14'
+    discount: null
+    type: null
+  sale_name: 25% off (code VIPBF24)
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-03-12T11:18:50.013174'

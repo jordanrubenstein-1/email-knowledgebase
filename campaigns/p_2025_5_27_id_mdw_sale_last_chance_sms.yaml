@@ -1,0 +1,30 @@
+id: 23e70548-59dc-425e-99f6-42fd22e798a1
+name: P_2025_5_27_ID_MDW_Sale_Last_Chance_SMS
+brand: ID
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: 23e70548-59dc-425e-99f6-42fd22e798a1
+dates:
+  send_date: '2025-05-27'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-27T21:17:57+00:00'
+  last_sent: '2025-05-27T21:20:04+00:00'
+tags: []
+sends:
+- id: bf04d3c5-954d-4c85-b434-944a43816d08
+  channel: other
+  name: Variant 1
+- id: b1a50ad2-4238-417e-b54d-7b32713f61bc
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 58253
+  total_delivered: 54598
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 38825.0
+schedule_type: time_based

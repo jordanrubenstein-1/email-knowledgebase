@@ -1,0 +1,43 @@
+id: 2c1630f8-de82-4410-9bbe-9e6fa7f2c4d6
+name: P_EM_2026_01_01_ID_D_PR_Rug_Round_Up
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 2c1630f8-de82-4410-9bbe-9e6fa7f2c4d6
+dates:
+  send_date: '2026-01-01'
+  inferred_send_type: local_time
+  first_sent: '2025-12-31T17:22:00+00:00'
+  last_sent: '2026-01-01T17:16:40+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 3a1e71cd-438a-4266-ad25-d990e953332e
+  channel: email
+  name: Variant 1
+  subject: '25% Off: The Rug Roundup'
+  preheader: We don’t believe in bare floors.
+- id: f538671c-1075-4a70-afb1-b5bdccfdcfb7
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 122046
+  total_delivered: 121925
+  total_opens: 48941
+  total_clicks: 630
+  open_rate: 0.401
+  click_rate: 0.0052
+  total_revenue: 189790.91
+  total_bounces: 2
+  total_unsubscribes: 211
+  ga4:
+    sessions: 712
+    purchases: 1
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.934351'
+    source: snowflake
+    channel: email
+schedule_type: time_based

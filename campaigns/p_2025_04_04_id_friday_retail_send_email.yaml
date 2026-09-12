@@ -1,0 +1,47 @@
+id: bff60876-652f-45c7-8a2c-021258c744e7
+name: P_2025_04_04_ID_Friday_Retail_Send_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: bff60876-652f-45c7-8a2c-021258c744e7
+dates:
+  send_date: '2025-04-04'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-04T06:56:08+00:00'
+  last_sent: '2025-04-04T17:15:14+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: ab5d2694-840d-43b0-bb7a-a845bebd23a7
+  channel: email
+  name: Variant 1
+  subject: Weekend plans? Come shop!
+  preheader: Our design experts are ready to help.
+- id: 0e8adf02-4b20-4252-8ba7-b3ba42d8e005
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 149672
+  total_delivered: 147456
+  total_opens: 35184
+  total_clicks: 237
+  open_rate: 0.2351
+  click_rate: 0.0016
+  total_revenue: 121636.0
+  total_bounces: 4
+  total_unsubscribes: 91
+  ga4:
+    sessions: 320
+    purchases: 1
+    revenue: 1303.27
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.329762'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:45.211515'
+schedule_type: time_based

@@ -1,0 +1,56 @@
+id: 2b43ad47-ce3c-49b1-b829-de5ea8b364b1
+name: P_2024_10_28_D_CZ_PR_XBrand_Giveaway_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 2b43ad47-ce3c-49b1-b829-de5ea8b364b1
+dates:
+  send_date: '2024-10-28'
+  inferred_send_type: local_time
+  first_sent: '2024-10-27T17:00:06+00:00'
+  last_sent: '2024-10-28T17:00:41+00:00'
+tags:
+- batch and blast
+sends:
+- id: 6ffb1aec-89a7-4fbc-872e-060766fd4ead
+  channel: email
+  name: Variant 1
+  subject: 'Up For Grabs: $7K Shopping Spree'
+  preheader: Celebrate the season with a shopping spree to our family of home brands.
+  html_file: html/p_2024_10_28_d_cz_pr_xbrand_giveaway_email.html
+  screenshot: screenshots/p_2024_10_28_d_cz_pr_xbrand_giveaway_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671bbdbe2a42fc006543666b/original.png?1729871293
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671bfb7acafcf9006420d9f0/original.png?1729887098
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671bbd495e3181007282fce8/original.png?1729871176
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671bbd752a42fc00654364c8/original.png?1729871221
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671bbd91e752ef00649dcfa9/original.gif?1729871249
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671bbd372a42fc0065436413/original.gif?1729871159
+- id: 79716b25-9cb9-4456-8b3a-daa42bee20ad
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 87351
+  total_delivered: 86805
+  total_opens: 40648
+  total_clicks: 1341
+  open_rate: 0.4653
+  click_rate: 0.0154
+  total_revenue: 47279.58
+  total_bounces: 1
+  total_unsubscribes: 119
+  ga4:
+    sessions: 185
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.365232'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.908309'
+schedule_type: time_based

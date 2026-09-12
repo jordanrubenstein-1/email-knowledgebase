@@ -1,0 +1,61 @@
+id: 432caa94-dc13-44f5-8e4d-ba75b6f8882b
+name: P_EM_2026_01_28_CZ_D_PR_Pillow_Talk
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 432caa94-dc13-44f5-8e4d-ba75b6f8882b
+dates:
+  send_date: '2026-01-28'
+  inferred_send_type: local_time
+  first_sent: '2026-01-27T23:06:53+00:00'
+  last_sent: '2026-01-28T23:04:16+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- instock
+- sale
+- sale/winterRefesh2026
+sends:
+- id: ee6b5ac3-7b6e-4d45-8d9d-b0a2b7018fb4
+  channel: email
+  name: Variant 1
+  subject: Handcrafted Pillows, Made to Layer
+  preheader: Subtle pattern. Rich texture. Designed to layer.
+  html_file: html/p_em_2026_01_28_cz_d_pr_pillow_talk.html
+  screenshot: screenshots/p_em_2026_01_28_cz_d_pr_pillow_talk.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6977d259bc0c170065909f60/original.png?1769460312
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6977d2490a374800639e415c/original.png?1769460296
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6977d24fca7fa600640cfac3/original.png?1769460302
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6977d137509d9b006392031c/original.png?1769460022
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6977d1c0c41060006386d72e/original.jpg?1769460159
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6977d1cdf4e8d50063de5261/original.jpg?1769460173
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6977d182ee2dba00653af813/original.jpg?1769460098
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6977d144509d9b0063920328/original.jpg?1769460035
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6977d24225d1380063b03312/original.png?1769460289
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6977d19dc24eee00639b943d/original.jpg?1769460124
+- id: 5755d857-8bb8-4cf5-bbf2-a27902b36b94
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 56029
+  total_delivered: 55977
+  total_opens: 24528
+  total_clicks: 623
+  open_rate: 0.4378
+  click_rate: 0.0111
+  total_bounces: 1
+  total_unsubscribes: 91
+  ga4:
+    sessions: 538
+    purchases: 5
+    revenue: 3529.75
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.735189'
+    source: snowflake
+    channel: email
+schedule_type: time_based

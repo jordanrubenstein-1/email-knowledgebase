@@ -1,0 +1,58 @@
+{% assign cart_products = {{custom_attribute.${shopping_cart_items_cart_viewed}}} %}
+{% if cart_products.size > 0 %}
+<table align="center" cellpadding="0" cellspacing="0" style="background-color: #ffffff;" width="600">
+  <tbody>
+    <tr>
+      <td align="center" style="padding: 28px 0 12px;">
+        <p style="font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 20px; font-weight: 700; color: #362b24; text-align: center; margin: 0;">In Your Cart</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+{% for item in cart_products limit:8 %}
+  <tr>
+  <td>
+  <table align="center" cellpadding="0" cellspacing="0" style="background-color: #ffffff; padding: 0px 0px 0px 0px;" width="600">
+  <tbody>
+  <tr>
+  <td>
+  <table align="center" cellpadding="0" cellspacing="0">
+  <tbody>
+  <tr>
+  <td align="center">
+  <table border="0" cellpadding="0" cellspacing="0" style="margin: 0px auto; padding-top: 20px; padding-bottom: 20px; height: 200px; width: 600px;" width="600">
+  <tbody>
+  <tr>
+  <td align="left" style="width: 200px; padding-right: 30px;"><a href="{{item.url}}?lid={{${cblid} | lid: 'sqfab9lkpbh2'}}&utm_content=in_your_cart" rel="noopener" target="_blank"><img alt="{{item.title}}" src="{{item.image}}" border="0" style="width: 200px; display: block; border: none;"> </a></td>
+  <td align="center" style="width: 400px;">
+  <p style="font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 20px; line-height: 30px; color: #362b24; text-align: left; font-weight: 200; padding-bottom: 20px;">{{item.title}} </p>
+  <div style="text-align: left;"><a class="CTA" href="{{item.url}}?lid={{${cblid} | lid: 'v6qq2yznb05l'}}&utm_content=in_your_cart" rel="noopener" style="background-color: #ffffff; border: 1px solid #000000; border-radius: 30px; color: #000000; display: inline-block; font-family: 'Sailec', Helvetica, Arial, sans-serif; font-size: 20px; font-weight: 450; line-height: 45px; text-align: center; text-decoration: none; width: 175px; -webkit-text-size-adjust: none;" target="_blank">Shop Now</a></div>
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  </td>
+  </tr>
+  {% unless forloop.last %}
+  <tr>
+  <td>
+  <table align="center" cellpadding="0" cellspacing="0" width="600">
+  <tbody>
+  <tr>
+  <td style="border-top: 1px solid rgb(238, 238, 238); font-size: 0; line-height: 0;">&nbsp;</td>
+  </tr>
+  </tbody>
+  </table>
+  </td>
+  </tr>
+  {% endunless %}
+{% endfor %}
+{% endif %}

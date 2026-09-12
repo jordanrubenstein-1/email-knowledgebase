@@ -1,0 +1,313 @@
+{% assign billing_zip_var = {{custom_attribute.${shopify_zipcode}}} %}
+{% assign zip_prefix = billing_zip_var | slice: 0, 3 %}
+{% assign valid_dallas_prefixes = '{{content_blocks.${Geo_Dallas_TX} | id: 'cb1'}}' | split: ',' %}
+{% assign is_valid_dallas_prefix = false %}
+{% for prefix in valid_dallas_prefixes %}
+{% if zip_prefix == prefix %}
+{% assign is_valid_dallas_prefix = true %}
+{% endif %}
+{% endfor %}
+{% assign valid_soho_prefixes = '{{content_blocks.${Geo_SoHo_NY} | id: 'cb2'}}' | split: ',' %}
+{% assign is_valid_soho_prefix = false %}
+{% for prefix in valid_soho_prefixes %}
+{% if zip_prefix == prefix %}
+{% assign is_valid_soho_prefix = true %}
+{% endif %}
+{% endfor %}
+{% assign valid_denver_prefixes = '{{content_blocks.${Geo_Denver_CO} | id: 'cb3'}}' | split: ',' %}
+{% assign is_valid_denver_prefix = false %}
+{% for prefix in valid_denver_prefixes %}
+{% if zip_prefix == prefix %}
+{% assign is_valid_denver_prefix = true %}
+{% endif %}
+{% endfor %}
+{% if is_valid_dallas_prefix or {{custom_attribute.${source}}} == "Materials_Matter_Event_RSVPs_Dallas" or {{custom_attribute.${source}}} == "Dallas Giveaway" or {{custom_attribute.${source}}} == "Dallas_Store_Opening_RSVPs" %}
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+      <tr>
+			    <td align="center" style="width: 100%">
+		          <a href="https://www.the-citizenry.com/pages/the-citizenry-dallas?lid={{${cblid} | lid: 'nfsurfqu8qpd'}}">
+								<img alt="Visit Your Local Store" width="600" style="display: block; width: 100%; max-width: 100%; font-size: 20px; font-family: Arial, 'sans-serif'; color: #383633; background-color: #FFFFFF;" border="0" src="https://braze-images.com/appboy/communication/assets/image_assets/images/6826380b58eb980066fcc3ac/original.jpg?1747335179" />
+							</a>
+				  </td>
+     </tr>
+</table>
+{% elsif is_valid_soho_prefix or {{custom_attribute.${new_york_geo}}} or {{custom_attribute.${source}}} == "Materials_Matter_Event_RSVPs_Soho" %}
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+      <tr>
+			    <td align="center" style="width: 100%">
+		          <a href="https://www.the-citizenry.com/pages/the-citizenry-flagship?lid={{${cblid} | lid: '75g9ag5utk7i'}}">
+								<img alt="Visit Your Local Store" width="600" style="display: block; width: 100%; max-width: 100%; font-size: 20px; font-family: Arial, 'sans-serif'; color: #383633; background-color: #FFFFFF;" border="0" src="https://braze-images.com/appboy/communication/assets/image_assets/images/6826380b58eb980066fcc3ac/original.jpg?1747335179" />
+							</a>
+				  </td>
+     </tr>
+</table>
+{% elsif is_valid_denver_prefix or {{custom_attribute.${denver_geo}}} %}
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+      <tr>
+			    <td align="center" style="width: 100%">
+		          <a href="https://www.the-citizenry.com/pages/cz-at-interior-define?lid={{${cblid} | lid: 'knsim98nwzr6'}}">
+								<img alt="Visit Your Local Store" width="600" style="display: block; width: 100%; max-width: 100%; font-size: 20px; font-family: Arial, 'sans-serif'; color: #383633; background-color: #FFFFFF;" border="0" src="https://braze-images.com/appboy/communication/assets/image_assets/images/6826380b58eb980066fcc3ac/original.jpg?1747335179" />
+							</a>
+				  </td>
+     </tr>
+</table>
+{% else %}
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+      <tr>
+			    <td align="center" style="width: 100%">
+		          <a href="https://www.the-citizenry.com/pages/store-locator?lid={{${cblid} | lid: '903059jw26n6'}}">
+								<img alt="Visit Your Local Store" width="600" style="display: block; width: 100%; max-width: 100%; font-size: 20px; font-family: Arial, 'sans-serif'; color: #383633; background-color: #FFFFFF;" border="0" src="https://braze-images.com/appboy/communication/assets/image_assets/images/6826380b58eb980066fcc3ac/original.jpg?1747335179" />
+							</a>
+				  </td>
+     </tr>
+</table>
+{% endif %}
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; background-color: #FFFFFF;">
+					<tr>
+                    </tr>
+<tr>
+                                    <td class="pad0015" style="padding: 0px 0px 0px 0px; width: 100%;">
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="300" style="width: 300px;">
+                                    <tr>
+                                    <td align="center" valign="top" width="300" style="width: 300px;">
+                                    <![endif]-->
+                                      	<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+											<tr>
+                                            	<td width="50%" align="center" valign="top" vertical-align="top" style="padding: 0px 0px 0px 0px">
+                                                 	<table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 300px;">
+                                                    	<tr>
+                                                         	<td>
+                                                             	<a href="https://www.the-citizenry.com/collections/all-new-arrivals?lid={{${cblid} | lid: 'm13ojnq91ew5'}}"><img alt="New Arrivals" width="300" style="display: block; width: 300px; max-width: 100%; min-width: 50px; font-size: 14px; font-family: Arial, 'sans-serif'; color: #383633;" border="0" src="https://braze-images.com/appboy/communication/assets/image_assets/images/6838b69b2e822d006768767e/original.jpg?1748547227"></a>
+                                                        	</td>
+                                                   	 	</tr>
+                                                	</table>
+                                            	</td>
+                                             	<td width="50%" align="center" valign="top" vertical-align="top" style="padding: 0px 0px 0px 0px">
+                                                 	<table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 300px;">
+                                                    	<tr>
+                                                        	 <td>
+                                                            	 <a href="https://www.the-citizenry.com/collections/all-back-in-stock?lid={{${cblid} | lid: 'h8lzi31oc1d2'}}"><img alt="Back in Stock" width="300" style="display:block; width: 300px; max-width: 100%; min-width: 50px; font-size: 14px; font-family: Arial, 'sans-serif'; color: #383633;" border="0" src="https://braze-images.com/appboy/communication/assets/image_assets/images/6838b69b9f40680065cf118e/original.jpg?1748547227"></a>
+                                                        	</td>
+                                                    	</tr>
+                                                	</table>
+                                            	</td>
+											</tr>
+										</table>
+										<!--[if (gte mso 9)|(IE)]>
+										</td>
+										</tr>
+										</table>
+										<![endif]-->
+                                    </td>
+                                </tr>
+                                <tr>
+											</tr>
+										</table>
+				
+										<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; background-color: #FFFFFF;">
+					<tr>
+                    </tr>
+<tr>
+                                    <td class="pad0015" style="padding: 0px 0px 0px 0px; width: 100%;">
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="300" style="width: 300px;">
+                                    <tr>
+                                    <td align="center" valign="top" width="300" style="width: 300px;">
+                                    <![endif]-->
+                                      	<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+											<tr>
+                                            	<td width="50%" align="center" valign="top" vertical-align="top" style="padding: 0px 0px 0px 0px">
+                                                 	<table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 300px;">
+                                                    	<tr>
+                                                         	<td>
+                                                             	<a href="https://www.the-citizenry.com/collections/shop-all-bedding-2?lid={{${cblid} | lid: 'ajt13ysci1ki'}}"><img alt="Bedding" width="300" style="display: block; width: 300px; max-width: 100%; min-width: 50px; font-size: 14px; font-family: Arial, 'sans-serif'; color: #383633;" border="0" src="https://braze-images.com/appboy/communication/assets/image_assets/images/67c20d172689a10091e61e3f/original.png?1740770583"></a>
+                                                        	</td>
+                                                   	 	</tr>
+                                                	</table>
+                                            	</td>
+                                             	<td width="50%" align="center" valign="top" vertical-align="top" style="padding: 0px 0px 0px 0px">
+                                                 	<table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 300px;">
+                                                    	<tr>
+                                                        	 <td>
+                                                            	 <a href="https://www.the-citizenry.com/collections/shop-all-furniture?lid={{${cblid} | lid: 'u64lyi8yfi2c'}}"><img alt="Furniture" width="300" style="display:block; width: 300px; max-width: 100%; min-width: 50px; font-size: 14px; font-family: Arial, 'sans-serif'; color: #383633;" border="0" src="https://braze-images.com/appboy/communication/assets/image_assets/images/67cf61b5a10ea9007525c4b5/original.jpg?1741644213"></a>
+                                                        	</td>
+                                                    	</tr>
+                                                	</table>
+                                            	</td>
+											</tr>
+										</table>
+										<!--[if (gte mso 9)|(IE)]>
+										</td>
+										</tr>
+										</table>
+										<![endif]-->
+                                    </td>
+                                </tr>
+                                <tr>
+											</tr>
+										</table>
+											<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; background-color: #FFFFFF;">
+					<tr>
+                    </tr>
+<tr>
+                                    <td class="pad0015" style="padding: 0px 0px 0px 0px; width: 100%;">
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="300" style="width: 300px;">
+                                    <tr>
+                                    <td align="center" valign="top" width="300" style="width: 300px;">
+                                    <![endif]-->
+                                      	<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+											<tr>
+                                            	<td width="50%" align="center" valign="top" vertical-align="top" style="padding: 0px 0px 0px 0px">
+                                                 	<table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 300px;">
+                                                    	<tr>
+                                                         	<td>
+                                                             	<a href="https://www.the-citizenry.com/collections/shop-all-rugs-1?lid={{${cblid} | lid: 'jqp0hvuc1nzv'}}"><img alt="Rugs" width="300" style="display: block; width: 300px; max-width: 100%; min-width: 50px; font-size: 14px; font-family: Arial, 'sans-serif'; color: #383633;" border="0" src="https://braze-images.com/appboy/communication/assets/image_assets/images/67cf61b5d327de0066027689/original.jpg?1741644213"></a>
+                                                        	</td>
+                                                   	 	</tr>
+                                                	</table>
+                                            	</td>
+                                             	<td width="50%" align="center" valign="top" vertical-align="top" style="padding: 0px 0px 0px 0px">
+                                                 	<table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 300px;">
+                                                    	<tr>
+                                                        	 <td>
+                                                            	 <a href="https://www.the-citizenry.com/collections/shop-all-decor?lid={{${cblid} | lid: 'wev7c4k2uwq2'}}"><img alt="Decor & Accents" width="300" style="display:block; width: 300px; max-width: 100%; min-width: 50px; font-size: 14px; font-family: Arial, 'sans-serif'; color: #383633;" border="0" src="https://braze-images.com/appboy/communication/assets/image_assets/images/67cf61b5617a8a0067ee88b7/original.jpg?1741644213"></a>
+                                                        	</td>
+                                                    	</tr>
+                                                	</table>
+                                            	</td>
+											</tr>
+										</table>
+										<!--[if (gte mso 9)|(IE)]>
+										</td>
+										</tr>
+										</table>
+										<![endif]-->
+                                    </td>
+                                </tr>
+                                <tr>
+											</tr>
+										</table>
+											<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; background-color: #FFFFFF;">
+					<tr>
+                    </tr>
+<tr>
+                                    <td class="pad0015" style="padding: 0px 0px 0px 0px; width: 100%;">
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="300" style="width: 300px;">
+                                    <tr>
+                                    <td align="center" valign="top" width="300" style="width: 300px;">
+                                    <![endif]-->
+                                      	<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+											<tr>
+                                            	<td width="50%" align="center" valign="top" vertical-align="top" style="padding: 0px 0px 0px 0px">
+                                                 	<table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 300px;">
+                                                    	<tr>
+                                                         	<td>
+                                                             	<a href="https://www.the-citizenry.com/collections/shop-all-pillows?lid={{${cblid} | lid: 'q1cn2nm3wtea'}}"><img alt="Pillows" width="300" style="display: block; width: 300px; max-width: 100%; min-width: 50px; font-size: 14px; font-family: Arial, 'sans-serif'; color: #383633;" border="0" src="https://braze-images.com/appboy/communication/assets/image_assets/images/67cf61b51302c8006538e123/original.jpg?1741644213"></a>
+                                                        	</td>
+                                                   	 	</tr>
+                                                	</table>
+                                            	</td>
+                                             	<td width="50%" align="center" valign="top" vertical-align="top" style="padding: 0px 0px 0px 0px">
+                                                 	<table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 300px;">
+                                                    	<tr>
+                                                        	 <td>
+                                                            	 <a href="https://www.the-citizenry.com/collections/archive-sale?lid={{${cblid} | lid: 'mo5ig8ehunml'}}"><img alt="Archive Sale" width="300" style="display:block; width: 300px; max-width: 100%; min-width: 50px; font-size: 14px; font-family: Arial, 'sans-serif'; color: #383633;" border="0" src="https://braze-images.com/appboy/communication/assets/image_assets/images/67cf61b52971830064328af9/original.jpg?1741644213"></a>
+                                                        	</td>
+                                                    	</tr>
+                                                	</table>
+                                            	</td>
+											</tr>
+										</table>
+										<!--[if (gte mso 9)|(IE)]>
+										</td>
+										</tr>
+										</table>
+										<![endif]-->
+                                    </td>
+                                </tr>
+                                <tr>
+											</tr>
+										</table>
+					
+										<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; background-color: #FFFFFF;">
+											<tr>
+                                            	<td width="33%" align="center" valign="top" style="padding: 0px 0px 0px 0px">
+                                                 	<table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 200px;">
+                                                    	<tr>
+                                                         	<td>
+                                                             	<a href="https://www.the-citizenry.com/pages/trade-program-1?utm_content=Footer_Trade?lid={{${cblid} | lid: '5287v2n8rizk'}}"><img alt="Join our Trade Program" width="200" style="display: inline-block; width: 200px; max-width: 100%; min-width: 50px; font-size: 14px; font-family: Arial, 'sans-serif'; color: #525961;" border="0" src="https://braze-images.com/appboy/communication/assets/image_assets/images/689a3b6b604ff800611a566a/original.jpg?1754938219"></a>
+                                                        	</td>
+                                                   	 	</tr>
+                                                	</table>
+                                            	</td>
+                                             	<td width="33%" align="center" valign="top" style="padding: 0px 0px 0px 0px">
+                                                 	<table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 200px;">
+                                                    	<tr>
+                                                        	 <td>
+                                                            	 <a href="https://www.the-citizenry.com/pages/about?utm_content=Footer_FairTrade?lid={{${cblid} | lid: '77to7p0mt81y'}}"><img alt="Fair Trade. Guaranteed." width="200" style="display: inline-block; width: 200px; max-width: 100%; min-width: 50px; font-size: 14px; font-family: Arial, 'sans-serif'; color: #383633;" border="0" src="https://braze-images.com/appboy/communication/assets/image_assets/images/689a3b6c1827920081201b1e/original.jpg?1754938219"></a>
+                                                        	</td>
+                                                    	</tr>
+                                                	</table>
+                                            	</td>
+																							<td width="33%" align="center" valign="top" style="padding: 0px 0px 0px 0px">
+                                                 	<table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 200px;">
+                                                    	<tr>
+                                                        	 <td>
+                                                            	 <a href="https://www.the-citizenry.com/pages/artisan-partners?utm_content=Footer_Artisan?lid={{${cblid} | lid: 'li0k1ct534ku'}}"><img alt="Meet the Makers" width="200" style="display: inline-block; width: 200px; max-width: 100%; min-width: 50px; font-size: 14px; font-family: Arial, 'sans-serif'; color: #383633;" border="0" src="https://braze-images.com/appboy/communication/assets/image_assets/images/689a3b6b75b1bf0064e5f8ba/original.jpg?1754938219"></a>
+                                                        	</td>
+                                                    	</tr>
+                                                	</table>
+									</td>
+									</tr>
+									</table>
+{% if {{subscribed_state.${6533ede0-aefb-4d02-82e5-a2cf5f66c471}}} != 'subscribed' %}
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+      <tr>
+			    <td align="center" style="width: 100%">
+		          <a href="{% landing_page_url eunugv %}?lid={{${cblid} | lid: 'qifx9ma7vfpl'}}">
+								<img alt="Sign Up For Texts" width="600" style="display: block; width: 100%; max-width: 100%; font-size: 20px; font-family: Arial, 'sans-serif'; color: #383633; background-color: #FFFFFF;" border="0" src="https://braze-images.com/appboy/communication/assets/image_assets/images/68111fb6fa27ce00851ec8b9/original.jpg?1745952694" />
+							</a>
+				  </td>
+     </tr>
+</table>
+{% endif %}
+<table border="0" cellspacing="0" class="social_block block-2" role="presentation" style="width: 100%; text-align: center; background-color:#ffffff;">
+	<tbody>
+		<tr bgcolor="#ffffff"><!-- Parent Table Cell: Ensures Centering -->
+			<td align="center" style="text-align: center;">
+			<table border="0" cellpadding="0" cellspacing="0" class="social-table" role="presentation" style="display: inline-block; text-align: center; background-color:#ffffff;">
+				<tbody>
+					<tr bgcolor="#ffffff"><!-- Instagram Icon -->
+						<td width="20%" align="center">
+                    <img src="https://braze-images.com/appboy/communication/assets/image_assets/images/681121f3c26b4600675a37a2/original.jpg?1745953267" style="display:block; border:0; width:100%; max-width:100%;" />
+                </td>
+                <td width="20%" align="center">
+                  <a href="https://www.instagram.com/the_citizenry?lid={{${cblid} | lid: 'jy3pubn7t129'}}" target="_blank">
+                    <img src="https://braze-images.com/appboy/communication/assets/image_assets/images/681121f3fa27ce00651ed752/original.jpg?1745953267" alt="Instagram" style="display:block; border:0; width:100%; max-width:100%;" />
+                  </a>
+                </td>
+                <td width="20%" align="center">
+                  <a href="https://www.facebook.com/jointhecitizenry?lid={{${cblid} | lid: 'ddf9b17d2md7'}}" target="_blank">
+                    <img src="https://braze-images.com/appboy/communication/assets/image_assets/images/681121f3176d7b0074d8687f/original.jpg?1745953267" alt="Facebook" style="display:block; border:0; width:100%; max-width:100%;" />
+                  </a>
+                </td>
+                <td width="20%" align="center">
+                  <a href="https://www.pinterest.com/thecitizenry?lid={{${cblid} | lid: '74kx8fdbdbwn'}}" target="_blank">
+                    <img src="https://braze-images.com/appboy/communication/assets/image_assets/images/681121f3e4ec31006643d576/original.jpg?1745953267" alt="Pinterest" style="display:block; border:0; width:100%; max-width:100%;" />
+                  </a>
+                </td>
+                <td width="20%" align="center">
+                  
+                    <img src="https://braze-images.com/appboy/communication/assets/image_assets/images/681121f351b97f00640ea7bf/original.jpg?1745953267" style="display:block; border:0; width:100%; max-width:100%;" />
+                  
+                </td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>

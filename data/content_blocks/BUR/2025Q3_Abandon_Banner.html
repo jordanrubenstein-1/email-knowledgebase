@@ -1,0 +1,25 @@
+{%- comment -%}SALE_SECTION:{"key":"ss26","name":"Burrow Summer Sale 2026","reg_start":"2026-07-22 05:00:00","end":"2026-07-31 05:00:00","reg_image":"https://braze-images.com/appboy/communication/assets/image_assets/images/6a5665b809f09d0084c5c03b/original.png?1784047032","reg_link":"https://burrow.com","reg_alt":"Summer Sale: Up to 30% Off"}{%- endcomment -%}
+
+{%- comment -%}Burrow Summer Sale 2026 (ss26){%- endcomment -%}
+{% assign ss26_start = "2026-07-22 05:00:00" | date: "%s" %}
+{% assign ss26_end   = "2026-07-31 05:00:00" | date: "%s" %}
+
+{%- assign now = 'now' | date: "%s" -%}
+
+{% if now >= ss26_start and now < ss26_end %}
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+  <tr>
+    <td align="center" style="width: 100%">
+      <a target="_blank" rel="noopener noreferrer"
+         href="https://burrow.com?lid={{${cblid} | lid: 'trn6w9ptuu4r'}}">
+        <img
+          alt="Summer Sale: Up to 30% Off"
+          width="600"
+          style="display:block;width:100%;max-width:100%;font-size:20px;font-family:Arial,'sans-serif';color:#383633;background-color:#FFFFFF;"
+          border="0"
+          src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a5665b809f09d0084c5c03b/original.png?1784047032" />
+      </a>
+    </td>
+  </tr>
+</table>
+{% endif %}

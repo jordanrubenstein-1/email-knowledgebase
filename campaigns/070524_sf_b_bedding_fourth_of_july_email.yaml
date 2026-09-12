@@ -1,0 +1,50 @@
+id: 08444df1-0a8e-498e-a816-0de21bde2469
+name: 070524_SF_B_Bedding_Fourth_Of_July_Email
+brand: STF
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 08444df1-0a8e-498e-a816-0de21bde2469
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2024-07-05T13:10:01+00:00'
+  last_sent: '2024-07-05T13:10:10+00:00'
+tags:
+- Batch and Blast
+sends:
+- id: fed7485d-d553-4ffb-a0fd-6b161fb7608d
+  channel: email
+  name: Variant 1
+  subject: DAISY DREAMING 💭
+  preheader: ' Bring home our favorite print at 20% off'
+  html_file: html/070524_sf_b_bedding_fourth_of_july_email.html
+  screenshot: screenshots/070524_sf_b_bedding_fourth_of_july_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66844a8b555b63005aa63702/original.jpg?1719945867
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6681bde9255ebf0070d6be26/original.jpeg?1719778792
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66844a8ef23afc00597807d4/original.gif?1719945869
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66844364aec443006423a9b5/original.jpg?1719944036
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668443658f8f74005a6072a8/original.jpg?1719944036
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66844a8bf23afc00597807d3/original.jpg?1719945867
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66844364f23afc005977f3b2/original.jpg?1719944036
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668567f5cc167b0058c5d85f/original.jpg?1720018932
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66844364555b63005aa624c0/original.jpg?1719944036
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66844a8bbb46c3006f9a30cb/original.jpg?1719945867
+- id: 0c2a3d53-3323-4845-b779-d33fdffb22b7
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.734636'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.610122'
+schedule_type: time_based

@@ -1,0 +1,36 @@
+id: 396decc6-941e-4675-aa86-9e7335c66e84
+name: P_EM_2025_09_18_ID_D_Holiday_Ready_Sale_Announcement
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: christmas
+braze_id: 396decc6-941e-4675-aa86-9e7335c66e84
+dates:
+  send_date: '2025-09-18'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-18T03:18:31+00:00'
+  last_sent: '2025-09-18T17:15:16+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 4e51c70c-4d09-4b77-9c88-49274f467410
+  channel: email
+  name: Variant 1
+  subject: '20% OFF: Prep for the Holidays'
+  preheader: Because great design takes time
+- id: b75320f8-103b-4d3c-b9df-97cc4b89b69e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 203366
+  total_delivered: 199736
+  total_opens: 96832
+  total_clicks: 630
+  open_rate: 0.4761
+  click_rate: 0.0031
+  total_revenue: 152409.0
+  total_bounces: 8
+  total_unsubscribes: 362
+_filename: p_em_2025_09_18_id_d_holiday_ready_sale_announcement.yaml
+schedule_type: time_based

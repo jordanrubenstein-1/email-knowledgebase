@@ -1,0 +1,56 @@
+id: klaviyo-TZawGc
+name: TRG_EM_2024_01_TI_D_Shipping_Confirmation_Swatch_Order_T3_V1
+brand: TI
+channel: email
+category: other
+type: announcement
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: Neexkg
+canvas_name: 'Shipped: Order Shipped SWATCH'
+flow_type: swatch_followup
+sequence_position: 3
+dates:
+  created: '2020-02-05'
+  inferred_send_type: sto
+  first_sent: '2020-02-05'
+  last_sent: '2025-08-20'
+sends:
+- id: TZawGc
+  channel: email
+  name: Message
+  subject: The reviews are in
+  preheader: 'Spoiler: designers love The Inside'
+  html_file: html/klv-flow-shipped-order-shipped-swatch-t03-TZawGc.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/86501957-49be-4d17-9458-095cfefc25c8.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/6c6cfdff-fe4e-4e4b-9503-6d88d9123c2c.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/69dd1bda-83ac-4e56-9940-c4c2a64b8039.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/88b57217-57b5-4eed-bba5-430e747c0eeb.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/e02caf0f-70fc-46a9-9898-4819d2a6ccd3.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/87fa0ab0-e70b-41e9-b952-6a5f9fdc8bc9.gif
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/728319be-d3ff-40a2-90f2-842a6ba12bc6.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/8dd4f1ba-d9ac-489a-83b3-53c02e42fe60.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/3efedaa5-cb0f-443e-8696-2c13f839c3ba.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/eefaedf9-2b31-4f12-a822-cd26458a25cb.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: TZawGc
+structure:
+  image_count: 21
+  link_count: 22
+  has_gif: true
+  hero_width: 600
+  layout_type: product_grid

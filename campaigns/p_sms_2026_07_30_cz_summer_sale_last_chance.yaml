@@ -1,0 +1,28 @@
+id: da6e542b-d934-4ff3-a55d-408d240ce56e
+name: P_SMS_2026_07_30_CZ_Summer_Sale_Last_Chance
+brand: CZ
+channel: sms
+category: reminder
+type: sale
+theme: summer
+braze_id: da6e542b-d934-4ff3-a55d-408d240ce56e
+dates:
+  send_date: '2026-07-30'
+  last_sent: '2026-07-30'
+tags: []
+sends:
+- id: 22fdded0-e49f-4817-82b1-a1167957934a
+  channel: sms
+  name: Variant 1
+- id: df67622c-af63-4efd-b10f-80a3a04295f5
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 21099
+  total_delivered: 19783
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+schedule_type: time_based
+_filename: p_sms_2026_07_30_cz_summer_sale_last_chance.yaml

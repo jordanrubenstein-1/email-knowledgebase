@@ -1,0 +1,43 @@
+id: 59b8368d-b9bb-4960-b6c5-ca909a625d8b
+name: P_EM_2026_01_20_ID_D_PF_James_Product_Spotlight
+brand: ID
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 59b8368d-b9bb-4960-b6c5-ca909a625d8b
+dates:
+  send_date: '2026-01-20'
+  inferred_send_type: local_time
+  first_sent: '2026-01-19T20:09:46+00:00'
+  last_sent: '2026-01-20T20:03:55+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 9b802709-f2ec-47e9-96de-b242e708251c
+  channel: email
+  name: Variant 1
+  subject: Meet James
+  preheader: Plus enjoy 25% off sitewide during the Winter Refresh Sale.
+- id: 04f10d5d-6bdf-467b-98f2-befead94977e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 111671
+  total_delivered: 111483
+  total_opens: 43419
+  total_clicks: 765
+  open_rate: 0.3888
+  click_rate: 0.0069
+  total_revenue: 113637.98
+  total_bounces: 1
+  total_unsubscribes: 195
+  ga4:
+    sessions: 874
+    purchases: 3
+    revenue: 8277.57
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.979019'
+    source: snowflake
+    channel: email
+schedule_type: time_based

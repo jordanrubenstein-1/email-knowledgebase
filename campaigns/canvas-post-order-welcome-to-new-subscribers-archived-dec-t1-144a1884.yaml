@@ -1,0 +1,25 @@
+id: 144a1884-b110-4236-a4d2-f91dd4cf85ae
+name: OT_EM_2025_06_BW_H_Order_Confirmation_New_Subscriber_T1_V1
+brand: BUR
+channel: email
+category: product_launch
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: bfd26abe-5df3-412a-9a94-fc8d62a227c5
+canvas_name: Post Order Welcome to New Subscribers - Archived December 2025
+flow_type: welcome_series
+sequence_position: 1
+subject: ⚡ Order confirmation from Burrow
+preheader: Your receipt, delivery details, and more.
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-10-31T02:00:00Z'
+  last_sent: '2025-12-16T21:00:00Z'
+performance_summary: {}
+sends:
+- id: 144a1884-b110-4236-a4d2-f91dd4cf85ae
+  channel: email
+  name: OT_EM_2025_06_BW_H_Order_Confirmation_New_Subscriber_T1_V1
+  subject: ⚡ Order confirmation from Burrow
+  preheader: Your receipt, delivery details, and more.
+  html_file: html/canvas-post-order-welcome-to-new-subscribers-archived-december-2025-t1-144a1884.html

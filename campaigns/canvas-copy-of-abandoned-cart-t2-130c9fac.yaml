@@ -1,0 +1,24 @@
+id: 130c9fac-ca40-447b-9fee-d9e20d1fc200
+name: Cart Reminder 1
+brand: CZ
+channel: email
+category: reminder
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 31a999f3-cf82-402d-986c-f4e5b8ef610d
+canvas_name: Copy of Abandoned cart
+flow_type: cart_abandonment
+sequence_position: 2
+subject: Your cart is waiting.
+preheader: ''
+sends:
+- id: 130c9fac-ca40-447b-9fee-d9e20d1fc200
+  channel: email
+  name: Cart Reminder 1
+  subject: Your cart is waiting.
+  preheader: ''
+  html_file: html/canvas-copy-of-abandoned-cart-t2-130c9fac.html
+dates:
+  first_sent: null
+  last_sent: null
+performance_summary: {}

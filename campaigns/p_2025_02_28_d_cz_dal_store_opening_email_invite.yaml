@@ -1,0 +1,55 @@
+id: ffc40ab4-b695-485f-8a97-9d60e9572a06
+name: P_2025_02_28_D_CZ_DAL_Store_Opening_Email_Invite
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: ffc40ab4-b695-485f-8a97-9d60e9572a06
+dates:
+  send_date: '2025-02-28'
+  inferred_send_type: local_time
+  first_sent: '2025-02-28T00:58:43+00:00'
+  last_sent: '2025-02-28T17:02:35+00:00'
+tags: []
+sends:
+- id: 346ce67b-7c8c-4e91-b728-906946779eaa
+  channel: email
+  name: Variant 1
+  subject: 'You''re Invited: Dallas Grand Opening'
+  preheader: Come celebrate our new store, in the city where our journey began.
+  html_file: html/p_2025_02_28_d_cz_dal_store_opening_email_invite.html
+  screenshot: screenshots/p_2025_02_28_d_cz_dal_store_opening_email_invite.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c0a30f5fca9e0064bf9c72/original.png?1740677902
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c0a33f2218a900826e06f2/original.gif?1740677951
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c0a318db1284007231fc3b/original.png?1740677912
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c0a32c2218a900626e2967/original.png?1740677932
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c0a3062218a900626e2934/original.png?1740677894
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c0a31fb9ceac00723806b0/original.png?1740677919
+- id: 0486b190-a888-4593-8abb-19ca9551de16
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 92085
+  total_delivered: 89997
+  total_opens: 47910
+  total_clicks: 395
+  open_rate: 0.5203
+  click_rate: 0.0043
+  total_revenue: 42995.97
+  total_bounces: 1344
+  total_unsubscribes: 114
+  ga4:
+    sessions: 454
+    purchases: 2
+    revenue: 594.73
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.567666'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.347192'
+schedule_type: time_based

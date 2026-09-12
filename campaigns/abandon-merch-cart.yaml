@@ -1,0 +1,59 @@
+id: 54027829-bbf8-4b7a-bec6-280eb0a67c9a
+name: Abandon Merch Cart
+brand: HAV
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: 54027829-bbf8-4b7a-bec6-280eb0a67c9a
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-04-03T01:00:00+00:00'
+  last_sent: '2026-04-09T18:00:00+00:00'
+tags: []
+sends:
+- id: 661d3a9e-223a-478e-a877-690831598270
+  channel: email
+  name: TRG_EM_2025_05_HAV_CONV_D_Merch_Abandon_Cart_T1_V1
+  subject: One Click Away From The Best Prices…
+  preheader: We saved your cart for you!
+  step_id: 81c405e7-3c58-47ad-9451-f6ba10eee48f
+- id: 619e6f06-416c-4485-b272-c6bae7179ee6
+  channel: email
+  name: TRG_EM_2025_05_HAV_CONV_D_Merch_Abandon_Cart_T2_V1
+  subject: Still thinking it over?
+  preheader: Your cart is waiting—and those picks were too good to leave behind.
+  step_id: 74ba9ba6-c84e-4bc7-b089-6d5ae9931e53
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.252053'
+    source: snowflake
+    channel: email
+canvas_steps:
+- id: 77f24975-95d2-416c-a95b-62d88ff7ef6b
+  name: Step
+  type: delay
+- id: 2a0abb4d-1d2b-4215-9cfe-944fa6ec1721
+  name: In audience?
+  type: audience_paths
+- id: 81c405e7-3c58-47ad-9451-f6ba10eee48f
+  name: TRG_EM_2025_05_HAV_CONV_D_Merch_Abandon_Cart_T1_V1
+  type: message
+  channel: email
+  subject: One Click Away From The Best Prices…
+  preheader: We saved your cart for you!
+- id: 18a36bb6-62e4-4bd1-bed1-05bb7f16304d
+  name: Delay
+  type: delay
+- id: 74ba9ba6-c84e-4bc7-b089-6d5ae9931e53
+  name: TRG_EM_2025_05_HAV_CONV_D_Merch_Abandon_Cart_T2_V1
+  type: message
+  channel: email
+  subject: Still thinking it over?
+  preheader: Your cart is waiting—and those picks were too good to leave behind.

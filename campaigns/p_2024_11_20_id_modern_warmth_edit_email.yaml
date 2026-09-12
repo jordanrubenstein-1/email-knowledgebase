@@ -1,0 +1,62 @@
+id: e63f14d5-90da-4919-a431-eebf0c29cdee
+name: P_2024_11_20_ID_Modern_Warmth_Edit_Email
+brand: ID
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: e63f14d5-90da-4919-a431-eebf0c29cdee
+dates:
+  send_date: '2024-11-20'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-20T06:33:23+00:00'
+  last_sent: '2024-11-20T17:15:02+00:00'
+tags: []
+sends:
+- id: 3aa280c3-84fe-477b-99a4-6b8e2e447602
+  channel: email
+  name: Variant 1
+  subject: The Modern Warmth Edit
+  preheader: We can’t get enough of this effortlessly lived-in look.
+- id: 635819cb-7d82-4bfb-9a13-9be0138b969c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 68779
+  total_delivered: 68232
+  total_opens: 22667
+  total_clicks: 492
+  open_rate: 0.3296
+  click_rate: 0.0072
+  total_revenue: 198232.17
+  total_bounces: 1
+  total_unsubscribes: 120
+  ga4:
+    sessions: 777
+    purchases: 1
+    revenue: 3688.42
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.935567'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-03'
+    discount: null
+    type: null
+  primary_sale:
+    id: id-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-03'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:40.898046'
+schedule_type: time_based

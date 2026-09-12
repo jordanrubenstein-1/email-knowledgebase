@@ -1,0 +1,35 @@
+id: dc93db67-b7f4-4c2a-86a5-eeb40606b99c
+name: P_2025_03_02_HAV_CZ_Dallas_Grand_Opening_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: dc93db67-b7f4-4c2a-86a5-eeb40606b99c
+dates:
+  send_date: '2025-03-02'
+  first_sent: '2025-03-01T17:22:21+00:00'
+  last_sent: '2025-03-02T17:15:04+00:00'
+  inferred_send_type: local_time
+tags:
+- Geo-Targeted
+sends:
+- id: 19b6bb79-4df7-4813-a1dc-ebf050f43176
+  channel: email
+  name: Variant 1
+  subject: 'You''re Invited: Dallas Grand Opening'
+  preheader: Celebrate The Citizenry’s new store, in the city their journey began.
+- id: feb063d3-359f-42fb-a4fd-2fd1042ae219
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 3535
+  total_delivered: 3405
+  total_opens: 1811
+  total_clicks: 79
+  open_rate: 0.5123
+  click_rate: 0.0223
+  total_bounces: 87
+  total_unsubscribes: 55
+schedule_type: time_based
+_filename: p_2025_03_02_hav_cz_dallas_grand_opening_email.yaml

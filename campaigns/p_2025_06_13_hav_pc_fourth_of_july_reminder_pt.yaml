@@ -1,0 +1,35 @@
+id: 48577f02-2c68-436a-8f2c-72dbdb04a059
+name: P_2025_06_13_HAV_PC_Fourth_of_July_Reminder_PT
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 48577f02-2c68-436a-8f2c-72dbdb04a059
+dates:
+  send_date: '2025-06-13'
+  first_sent: '2025-06-12T20:24:30+00:00'
+  last_sent: '2025-06-13T18:15:05+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 82e396b8-54a1-4c3a-952c-863674228ffa
+  channel: email
+  name: Variant 1
+  subject: Half off your home refresh
+  preheader: Soak up the sun (and savings).
+- id: ef91452f-615e-45ed-be78-fcd5feaaa6a8
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 221619
+  total_delivered: 218417
+  total_opens: 95791
+  total_clicks: 316
+  open_rate: 0.4322
+  click_rate: 0.0014
+  total_bounces: 20
+  total_unsubscribes: 348
+schedule_type: time_based
+_filename: p_2025_06_13_hav_pc_fourth_of_july_reminder_pt.yaml

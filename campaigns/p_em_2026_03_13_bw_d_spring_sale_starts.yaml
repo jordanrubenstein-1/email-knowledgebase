@@ -1,0 +1,34 @@
+id: bf3db1a7-6c35-4d11-8619-4c308fcd91c2
+name: P_EM_2026_03_13_BW_D_Spring_Sale_Starts
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: spring
+braze_id: bf3db1a7-6c35-4d11-8619-4c308fcd91c2
+dates:
+  send_date: '2026-03-13'
+  inferred_send_type: local_time
+  first_sent: '2026-03-12T17:24:31+00:00'
+  last_sent: '2026-03-13T17:15:54+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: e1fa75a1-e3a4-468e-b357-e8912e831d1d
+  channel: email
+  name: Variant 1
+  subject: Up to 30% off Sitewide Now
+  preheader: The Spring Sale is on.
+- id: 0fa45546-4ff4-4796-ad7d-7bfaaca5aff7
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 98270
+  total_delivered: 98057
+  total_opens: 39110
+  total_clicks: 421
+  open_rate: 0.398
+  click_rate: 0.0043
+  total_revenue: 32364.0
+  total_unsubscribes: 101
+schedule_type: time_based

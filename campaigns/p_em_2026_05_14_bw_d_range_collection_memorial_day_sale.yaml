@@ -1,0 +1,36 @@
+id: 298889d1-da35-4fef-af99-546289523b4f
+name: P_EM_2026_05_14_BW_D_Range_Collection_Memorial_Day_Sale
+brand: BUR
+channel: email
+category: product_launch
+type: sale
+theme: null
+braze_id: 298889d1-da35-4fef-af99-546289523b4f
+dates:
+  send_date: '2026-05-14'
+  inferred_send_type: local_time
+  first_sent: '2026-05-14T01:06:37+00:00'
+  last_sent: '2026-05-15T00:03:17+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 94f4aded-6e6c-4463-a9bd-e234ce3f948b
+  channel: email
+  name: Variant 1
+  subject: Award-winning design, now up to 35% off
+  preheader: Save big on the Range collection.
+- id: baf2f6a1-bd43-4ee8-be7a-f5bb19760264
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 67203
+  total_delivered: 66912
+  total_opens: 26248
+  total_clicks: 258
+  open_rate: 0.3906
+  click_rate: 0.0038
+  total_revenue: 46905.0
+  total_bounces: 1
+  total_unsubscribes: 65
+_filename: p_em_2026_05_14_bw_d_range_collection_memorial_day_sale.yaml
+schedule_type: time_based

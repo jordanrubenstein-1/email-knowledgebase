@@ -1,0 +1,56 @@
+id: klaviyo-SvkVYF
+name: '2. Shop our favorite styles Test #1 July 28, 2022 Variation B'
+brand: TI
+channel: email
+category: other
+type: product_launch
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: RyH7dk
+canvas_name: 'TEST [NEW] Order Delivered: GIFT WRAP/NOTEBOOKS Post Purchase Flow (AfterShip)'
+flow_type: post_purchase
+sequence_position: 12
+dates:
+  created: '2021-12-08'
+  inferred_send_type: scheduled
+  first_sent: '2021-12-08'
+  last_sent: '2021-12-08'
+sends:
+- id: SvkVYF
+  channel: email
+  name: Message
+  subject: Even more inspo.
+  preheader: ''
+  html_file: html/klv-flow-test-new-order-delivered-gift--t12-SvkVYF.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/3bced6e2-bf5e-4f07-8677-12bef72f62e6.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/ddb4f61d-200b-4640-b8bf-25c90691d301.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/f76a6458-f212-4aba-a0d2-432f7171e123.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/158ec500-db5a-415c-ab99-139dd19dea2f.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/554e283a-e5d9-4ad0-b8a8-2e31c049e9ff.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/f50b1ee1-9ae9-4fa5-850c-4e8ab3c711a1.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/9eadeabe-1260-49e7-917b-0a7f876501f8.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/2e5b4e28-3a6f-4a47-9a4f-3836e87b3f94.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/cc32de4b-c73a-4e7e-b1d6-8dda4b85b1d4.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/efc79951-ab82-4798-b6b5-95b803f03f17.png
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: SvkVYF
+structure:
+  image_count: 11
+  link_count: 15
+  has_gif: false
+  hero_width: 600
+  layout_type: product_grid

@@ -1,0 +1,43 @@
+id: dcafbce5-e4b4-43cb-a9bb-ecc9b2a24492
+name: P_EM_2026_01_03_BW_D_Nomad
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: dcafbce5-e4b4-43cb-a9bb-ecc9b2a24492
+dates:
+  send_date: '2026-01-03'
+  inferred_send_type: local_time
+  first_sent: '2026-01-02T21:04:36+00:00'
+  last_sent: '2026-01-03T17:16:29+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 37abc830-b194-4343-91a3-d31822478722
+  channel: email
+  name: Variant 1
+  subject: Next-level comfort up to 30% off
+  preheader: Shop the Nomad collection on sale
+- id: cb265256-1722-49fa-97e8-69f62707f126
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 118710
+  total_delivered: 118264
+  total_opens: 51831
+  total_clicks: 443
+  open_rate: 0.4366
+  click_rate: 0.0037
+  total_revenue: 129186.0
+  total_bounces: 8
+  total_unsubscribes: 341
+  ga4:
+    sessions: 275
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.107483'
+    source: snowflake
+    channel: email
+schedule_type: time_based

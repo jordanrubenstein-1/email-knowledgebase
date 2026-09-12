@@ -1,0 +1,114 @@
+id: 43dbd7c6-8e89-473b-a5eb-b762d651d70e
+name: P_2025_2_19_D_CZ_PDS_Extension_Launch
+brand: CZ
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 43dbd7c6-8e89-473b-a5eb-b762d651d70e
+dates:
+  send_date: '2025-02-19'
+  inferred_send_type: local_time
+  first_sent: '2025-02-19T00:29:34+00:00'
+  last_sent: '2025-02-19T17:02:15+00:00'
+tags: []
+sends:
+- id: db42eb04-f926-4032-a9ed-7bcabbb14eed
+  channel: email
+  name: Variant 1
+  subject: 'Surprise: Sale Extended!'
+  preheader: We'd never let you miss this.
+  html_file: html/p_2025_2_19_d_cz_pds_extension_launch.html
+  screenshot: screenshots/p_2025_2_19_d_cz_pds_extension_launch.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b50f2f7b7b8a006541c2d6/original.png?1739919150
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b5145a303bdc00653fd6cc/original.png?1739920474
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b5148234874b0076604630/original.png?1739920513
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b5145288d6120074202ea0/original.png?1739920465
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b514617ecab100654ff488/original.png?1739920481
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b50e56a42ee200671a666a/original.png?1739918934
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b51473303bdc00653fd777/original.png?1739920499
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b50f3b4ff18c00650f25bd/original.png?1739919163
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b50ed769c12900669e62a3/original.png?1739919063
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b50e608d88c400651b31c3/original.png?1739918944
+- id: be737a9f-0206-4e4e-a1d4-13ef92e9b2a0
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 96887
+  total_delivered: 96159
+  total_opens: 47899
+  total_clicks: 731
+  open_rate: 0.4944
+  click_rate: 0.0075
+  total_revenue: 50919.3
+  total_bounces: 2
+  total_unsubscribes: 107
+  ga4:
+    sessions: 1057
+    purchases: 9
+    revenue: 2939.26
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.186186'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-citizenry-2025-02-19
+    name: The Citizenry
+    start_date: '2025-02-19'
+    end_date: '2025-02-24'
+    discount: 'Up to 20% Off Select Categories
+
+      20% Off Rugs + Bedding, 15% Off Furniture, Baskets, + Accents
+
+      + Up to 60% off Archive Sale
+
+
+      EXTENSION OFFER
+
+      Up to 20% Select Categories
+
+      20% off Bedding, 15% Off Furniture
+
+      + Up to 60% off Archive Sale'
+    type: null
+  primary_sale:
+    id: cz-the-citizenry-2025-02-19
+    name: The Citizenry
+    start_date: '2025-02-19'
+    end_date: '2025-02-24'
+    discount: 'Up to 20% Off Select Categories
+
+      20% Off Rugs + Bedding, 15% Off Furniture, Baskets, + Accents
+
+      + Up to 60% off Archive Sale
+
+
+      EXTENSION OFFER
+
+      Up to 20% Select Categories
+
+      20% off Bedding, 15% Off Furniture
+
+      + Up to 60% off Archive Sale'
+    type: null
+  sale_name: The Citizenry
+  sale_discount: 'Up to 20% Off Select Categories
+
+    20% Off Rugs + Bedding, 15% Off Furniture, Baskets, + Accents
+
+    + Up to 60% off Archive Sale
+
+
+    EXTENSION OFFER
+
+    Up to 20% Select Categories
+
+    20% off Bedding, 15% Off Furniture
+
+    + Up to 60% off Archive Sale'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:40.082232'
+schedule_type: time_based

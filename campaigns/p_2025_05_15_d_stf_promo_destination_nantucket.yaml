@@ -1,0 +1,58 @@
+id: 8a7c3092-8b3f-4653-bee2-011016b84d9f
+name: P_2025_05_15_D_STF_Promo_Destination_Nantucket
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 8a7c3092-8b3f-4653-bee2-011016b84d9f
+dates:
+  send_date: '2025-05-15'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-15T14:00:32+00:00'
+  last_sent: '2025-05-15T14:25:32+00:00'
+tags: []
+sends:
+- id: 5b7c2b59-836d-4159-9093-75b0fcfa8108
+  channel: email
+  name: Variant 1
+  subject: Nantucket Is Calling
+  preheader: see how to vacation St. Frank style
+  html_file: html/p_2025_05_15_d_stf_promo_destination_nantucket.html
+  screenshot: screenshots/p_2025_05_15_d_stf_promo_destination_nantucket.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682508d52968170065d440f7/original.png?1747257556
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682508581c5727006695b655/original.png?1747257432
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682508e12968170065d4411a/original.png?1747257569
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6825ef0fa8d20400668d4365/original.png?1747316495
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682508f8ed99030066133a78/original.png?1747257591
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682508907de3bc006366ba34/original.png?1747257488
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682508712968170065d43e61/original.png?1747257456
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6825ef1afe284a00679587ca/original.png?1747316505
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6825086b96dffc006619f98b/original.png?1747257450
+- id: 4e73a9c3-4080-476b-b782-1265ffd43e30
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 20397
+  total_delivered: 20179
+  total_opens: 10315
+  total_clicks: 382
+  open_rate: 0.5057
+  click_rate: 0.0187
+  total_revenue: 19699.0
+  total_unsubscribes: 52
+  ga4:
+    sessions: 496
+    purchases: 3
+    revenue: 2595.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.950552'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.350256'
+schedule_type: time_based

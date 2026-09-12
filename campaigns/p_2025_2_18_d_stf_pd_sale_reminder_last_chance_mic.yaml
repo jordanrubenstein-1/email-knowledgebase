@@ -1,0 +1,56 @@
+id: af58b58f-80ae-48ca-89dd-6db1e537a5ec
+name: P_2025_2_18_D_STF_PD_Sale_Reminder_Last_Chance_Microsoft
+brand: STF
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: af58b58f-80ae-48ca-89dd-6db1e537a5ec
+dates:
+  send_date: '2025-02-18'
+  inferred_send_type: local_time
+  first_sent: '2025-02-17T17:39:39+00:00'
+  last_sent: '2025-02-18T15:30:05+00:00'
+tags: []
+sends:
+- id: a0f18d12-7d01-4b06-8df1-f836e2012b18
+  channel: email
+  name: Variant 1
+  subject: 'FINAL CALL: 20% Off Sitewide'
+  preheader: don’t miss out on your chance to save during our Presidents Day Sale
+  html_file: html/p_2025_2_18_d_stf_pd_sale_reminder_last_chance_microsoft.html
+  screenshot: screenshots/p_2025_2_18_d_stf_pd_sale_reminder_last_chance_microsoft.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b10bc50d08c100675679b4/original.jpg?1739656133
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b10baadf0e99006668eabf/original.gif?1739656106
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b10c2ddf0e99006668ead4/original.jpg?1739656237
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b10c0f0d08c100675679bd/original.jpg?1739656206
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b10c07f6ba7b00651967f4/original.jpg?1739656198
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b10c4f0143f600652532a1/original.jpg?1739656270
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b10c46df0e99006668eada/original.jpg?1739656261
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b10c16df0e99006668ead3/original.jpg?1739656214
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b10bff3f90a90065f32625/original.jpg?1739656191
+- id: 0e165d37-e365-450b-93ec-de28e126369b
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 154
+  total_delivered: 154
+  total_opens: 53
+  total_clicks: 2
+  open_rate: 0.3442
+  click_rate: 0.013
+  ga4:
+    sessions: 1
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.855578'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.268884'
+schedule_type: time_based

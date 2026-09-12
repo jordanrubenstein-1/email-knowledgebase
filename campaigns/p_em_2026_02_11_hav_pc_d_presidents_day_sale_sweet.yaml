@@ -1,0 +1,37 @@
+id: 7bdffd7f-dc24-4afc-9679-273828651aa5
+name: P_EM_2026_02_11_HAV_PC_D_Presidents_Day_Sale_Sweetener
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 7bdffd7f-dc24-4afc-9679-273828651aa5
+dates:
+  send_date: '2026-02-11'
+  last_sent: '2026-02-11'
+tags:
+- BLASTS-2025
+sends:
+- id: f56f0c3c-1ee8-4a19-9d78-2f81019041a2
+  channel: email
+  name: Variant 1
+  subject: Design First. Savings Follow.
+  preheader: Take 50% off your design, then save up to 20% when you shop it.
+  html_file: html/p_em_2026_02_11_hav_pc_d_presidents_day_sale_sweetener.html
+  screenshot: screenshots/p_em_2026_02_11_hav_pc_d_presidents_day_sale_sweetener.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698b8aa434557d006315cdb1/original.png?1770752675
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698b8ab55ea9380083ffc967/original.gif?1770752693
+- id: f30a44a0-2140-4952-a980-129653af5ce2
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 261788
+  total_delivered: 260386
+  total_opens: 101309
+  total_clicks: 408
+  open_rate: 0.387
+  click_rate: 0.0016
+  total_bounces: 8
+  total_unsubscribes: 369
+schedule_type: time_based

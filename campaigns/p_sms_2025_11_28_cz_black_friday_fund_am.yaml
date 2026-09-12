@@ -1,0 +1,37 @@
+id: b0743297-07ec-446c-9816-1a741c3b0026
+name: P_SMS_2025_11_28_CZ_Black_Friday_Fund_AM
+brand: CZ
+channel: sms
+category: sale_promo
+type: announcement
+theme: null
+braze_id: b0743297-07ec-446c-9816-1a741c3b0026
+dates:
+  send_date: '2025-11-28'
+  inferred_send_type: local_time
+  first_sent: '2025-11-27T20:06:22+00:00'
+  last_sent: '2025-11-28T20:02:28+00:00'
+tags: []
+sends:
+- id: a679b823-cd0f-4fc7-b06d-a5d27c83ef3e
+  channel: sms
+  name: Variant 1
+- id: 3f399ae3-a741-4f7b-9bbf-a2e920dc1db8
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 20520
+  total_delivered: 18959
+  total_opens: 0
+  total_clicks: 214
+  open_rate: 0.0
+  click_rate: 0.0104
+  ga4:
+    sessions: 236
+    purchases: 6
+    revenue: 2164.65
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.352750'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

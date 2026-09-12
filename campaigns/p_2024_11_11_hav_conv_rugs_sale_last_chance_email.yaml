@@ -1,0 +1,33 @@
+id: aaa21cc6-8c2a-4d3c-a966-56a0480cf16a
+name: P_2024_11_11_HAV_Conv_Rugs_Sale_Last_Chance_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: aaa21cc6-8c2a-4d3c-a966-56a0480cf16a
+dates:
+  send_date: '2024-11-11'
+  first_sent: '2024-11-11T06:36:11+00:00'
+  last_sent: '2024-11-11T17:15:06+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 4489deac-8820-421e-ac05-859f56b1144d
+  channel: email
+  name: Variant 1
+  subject: 'Going, Going, Almost Gone: 20% Off Rugs'
+  preheader: The Inaugural Rug Event ends today — don't miss it.
+- id: 50c741fd-1239-48af-bc90-ed6d9c6e05b9
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 35130
+  total_delivered: 35090
+  total_opens: 20197
+  total_clicks: 259
+  open_rate: 0.5749
+  click_rate: 0.0074
+  total_unsubscribes: 54
+schedule_type: time_based
+_filename: p_2024_11_11_hav_conv_rugs_sale_last_chance_email.yaml

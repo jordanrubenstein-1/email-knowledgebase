@@ -1,0 +1,33 @@
+id: d87dcd56-2596-4459-ad84-7d93f8ccb340
+name: P_2024_10_05_HAV_CONV_Havenly_App_Perks_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: d87dcd56-2596-4459-ad84-7d93f8ccb340
+dates:
+  send_date: '2024-10-05'
+  first_sent: '2024-10-05T01:51:18+00:00'
+  last_sent: '2024-10-05T17:15:03+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 97fb25ef-49db-4227-8b0e-ea8e9f984235
+  channel: email
+  name: Variant 1
+  subject: Want first dibs on major savings?
+  preheader: Download the Havenly app.
+- id: 8cfbfe34-84dc-42e8-ba66-7b02e7a73f69
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 36112
+  total_delivered: 36084
+  total_opens: 21072
+  total_clicks: 176
+  open_rate: 0.5835
+  click_rate: 0.0049
+  total_unsubscribes: 52
+schedule_type: time_based
+_filename: p_2024_10_05_hav_conv_havenly_app_perks_email.yaml

@@ -1,0 +1,64 @@
+id: e3b1e8fb-f127-4cda-9b6a-97546f7bc2e5
+name: SMS Welcome Flow
+brand: STF
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: e3b1e8fb-f127-4cda-9b6a-97546f7bc2e5
+braze_type: canvas
+campaign_type: Triggered Journey
+dates: {}
+tags: []
+sends:
+- id: 86a9fdca-94a6-49b3-9d2c-4da069babfc8
+  channel: email
+  name: TRG_2024_07_SF_Welcome_T1_FS_Email 1
+  subject: Welcome to the club
+  preheader: come on in
+  step_id: 43b646f5-d517-45d5-8cf5-9fe527d6d64e
+- id: e8916d66-53ed-4216-89c2-4c6b43658ce2
+  channel: email
+  name: TRG_2024_07_SF_Welcome_T2_NI_Email
+  subject: Inspiration Awaits
+  preheader: it's a great day to shop
+  step_id: 00f41f93-ed67-4c89-b934-b327c820139d
+- id: 0f314567-6a18-4c88-b139-d2aae5bbeff0
+  channel: email
+  name: TRG_2025_02_SF_Welcome_T2_Email
+  subject: You've still got 20% off, our treat
+  preheader: it's a great day to shop
+  step_id: e4e406b3-473b-47b8-9c5d-21a866ff790e
+performance_summary: {}
+canvas_steps:
+- id: 43b646f5-d517-45d5-8cf5-9fe527d6d64e
+  name: TRG_2024_07_SF_Welcome_T1_FS_Email 1
+  type: message
+  channel: email
+  subject: Welcome to the club
+  preheader: come on in
+- id: 00f41f93-ed67-4c89-b934-b327c820139d
+  name: TRG_2024_07_SF_Welcome_T2_NI_Email
+  type: message
+  channel: email
+  subject: Inspiration Awaits
+  preheader: it's a great day to shop
+- id: e4e406b3-473b-47b8-9c5d-21a866ff790e
+  name: TRG_2025_02_SF_Welcome_T2_Email
+  type: message
+  channel: email
+  subject: You've still got 20% off, our treat
+  preheader: it's a great day to shop
+- id: 479de962-7552-4369-b6a4-262ac601695f
+  name: Step 2
+  type: delay
+- id: 66176441-5ee2-41b9-861b-2cd3a0fa9e12
+  name: Step 3
+  type: delay
+- id: 628df684-85ce-4257-8d66-40be795c557f
+  name: Step 4
+  type: decision_split
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.980273'

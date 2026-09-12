@@ -1,0 +1,73 @@
+id: cd6440fa-ebaa-4c01-84d2-deaab5d41ffa
+name: P_EM_2025_08_31_BW_PT_PM_Labor_Day_Browsers_Carters_Swatchees
+brand: BUR
+channel: email
+category: sale_promo
+type: lifecycle
+theme: null
+braze_id: cd6440fa-ebaa-4c01-84d2-deaab5d41ffa
+dates:
+  send_date: '2025-08-31'
+  inferred_send_type: local_time
+  first_sent: '2025-08-31T03:06:14+00:00'
+  last_sent: '2025-09-01T02:00:51+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 5ec8e055-2667-4f37-af17-3e733f5d64dd
+  channel: email
+  name: Variant 1
+  subject: That piece you’ve been eyeing? Now’s the time.
+  preheader: Bring it home for up to 70% off.
+- id: 3dc8a70e-632b-4f1b-b357-74d59e945a8d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 68
+  total_delivered: 66
+  total_opens: 28
+  total_clicks: 1
+  open_rate: 0.4118
+  click_rate: 0.0147
+  total_revenue: 5441.0
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.407051'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:41.357066'
+schedule_type: time_based

@@ -1,0 +1,154 @@
+id: a05de6df-1375-46bd-a676-be24e4f9328e
+name: Product Browse
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: a05de6df-1375-46bd-a676-be24e4f9328e
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-05-02T18:00:00+00:00'
+  last_sent: '2026-05-06T22:00:00+00:00'
+tags:
+- browse abandon
+sends:
+- id: 007550a4-0634-4906-a9b0-c655fd8d8e7c
+  channel: email
+  name: TRG_EM_CZ_2024_08_Product_Browse_T1
+  subject: 'Don''t Miss Out: A style you loved is going quick!'
+  preheader: Come back and shop our selection of thoughtfully designed & ethically
+    crafted goods for your home
+  step_id: 40744e75-2cf1-4f4b-92ba-f0b3335f0949
+- id: 96fbe017-3875-4949-92c4-f3e0953e0593
+  channel: email
+  name: TRG_EM_CZ_2024_08_Product_Browse_T3
+  subject: A handcrafted favorite—still waiting for you
+  preheader: Crafted in small batches. Designed to stand out. Don’t miss your chance
+    to bring it home.
+  step_id: 1c927c59-361f-4057-ad72-45e1d44d8e2e
+- id: be6602aa-5905-4ddf-abf9-07cb9048e993
+  channel: email
+  name: TRG_EM_CZ_2024_08_Product_Browse_T5
+  subject: 'Last call: This piece may be gone soon'
+  preheader: Thoughtfully made. In limited supply. Claim yours before it disappears.
+  step_id: 3d087692-75cf-4558-afe5-0b60261a2c09
+- id: f9b74c6c-faaa-4c62-894d-b229e0a74dac
+  channel: email
+  name: TRG_EM_CZ_2024_08_Product_Browse_Furniture_T3
+  subject: Start with a Swatch
+  preheader: ''
+  step_id: bf327986-097b-415c-bc79-1692fa786572
+- id: 9477dd36-3176-4c4c-bf7b-a8182290b83d
+  channel: email
+  name: TRG_EM_CZ_2024_08_Product_Browse_T 4
+  subject: A handcrafted favorite—still waiting for you
+  preheader: Crafted in small batches. Designed to stand out. Don’t miss your chance
+    to bring it home.
+  step_id: 0a33ce2b-631f-42b3-a329-732d56dfd24e
+- id: 3c88b4bb-2ade-46f9-8f12-35f16dbd48e1
+  channel: email
+  name: TRG_EM_CZ_2024_08_Product_Browse_T 6
+  subject: 'Last call: This piece may be gone soon'
+  preheader: Thoughtfully made. In limited supply. Claim yours before it disappears.
+  step_id: e2ed2fb0-224a-4179-a778-fd99d7b642f1
+- id: 8d6a6b69-c3d4-4411-9528-6b85cd0d470c
+  channel: email
+  name: TRG_EM_CZ_2024_08_Product_Browse_T1
+  subject: 'Don''t Miss Out: A style you loved is going quick!'
+  preheader: Come back and shop our selection of thoughtfully designed & ethically
+    crafted goods for your home
+  step_id: c02e612d-e1d4-4afb-97b3-1a5f264faf50
+performance_summary: {}
+canvas_steps:
+- id: 40744e75-2cf1-4f4b-92ba-f0b3335f0949
+  name: TRG_EM_CZ_2024_08_Product_Browse_T1
+  type: message
+  channel: email
+  subject: 'Don''t Miss Out: A style you loved is going quick!'
+  preheader: Come back and shop our selection of thoughtfully designed & ethically
+    crafted goods for your home
+- id: d4c0ec84-fad7-4380-bc8b-8a9ca5f77883
+  name: Email Subscribed?
+  type: decision_split
+- id: 750f3f99-8356-4dbd-9d32-d3c1e4dc425f
+  name: SMS Opted In?
+  type: decision_split
+- id: f07d9e76-60ce-4eb8-91e3-5015ef41c6fb
+  name: TRG_SMS_CZ_2024_08_Product_Browse_T2
+  type: message
+- id: 1c927c59-361f-4057-ad72-45e1d44d8e2e
+  name: TRG_EM_CZ_2024_08_Product_Browse_T3
+  type: message
+  channel: email
+  subject: A handcrafted favorite—still waiting for you
+  preheader: Crafted in small batches. Designed to stand out. Don’t miss your chance
+    to bring it home.
+- id: da9228ca-f5ac-474e-aff4-ea1ddb8d2eb4
+  name: Email Subscribed? 2
+  type: decision_split
+- id: 7aa004f1-2433-4c7f-976f-5b3073a7e4ff
+  name: Email Subscribed? 3
+  type: decision_split
+- id: 3d087692-75cf-4558-afe5-0b60261a2c09
+  name: TRG_EM_CZ_2024_08_Product_Browse_T5
+  type: message
+  channel: email
+  subject: 'Last call: This piece may be gone soon'
+  preheader: Thoughtfully made. In limited supply. Claim yours before it disappears.
+- id: 5bc2045c-8112-4107-9dab-6cda589a1357
+  name: SMS Opted In? 2
+  type: decision_split
+- id: 1ac0d172-11c8-45a8-959b-ac8cefa6351b
+  name: TRG_SMS_CZ_2024_08_Product_Browse_T4
+  type: message
+- id: bf327986-097b-415c-bc79-1692fa786572
+  name: TRG_EM_CZ_2024_08_Product_Browse_Furniture_T3
+  type: message
+  channel: email
+  subject: Start with a Swatch
+  preheader: ''
+- id: eb051bc3-86e7-4151-b76f-2db9f56838f6
+  name: Viewed furniture?
+  type: audience_paths
+- id: cf4d63bb-0af4-4a08-86f7-07b82904a58c
+  name: 1 day delay
+  type: delay
+- id: cfe7b779-ad8f-4cac-8455-c68be48ac675
+  name: 1 hour delay
+  type: delay
+- id: 0a33ce2b-631f-42b3-a329-732d56dfd24e
+  name: TRG_EM_CZ_2024_08_Product_Browse_T 4
+  type: message
+  channel: email
+  subject: A handcrafted favorite—still waiting for you
+  preheader: Crafted in small batches. Designed to stand out. Don’t miss your chance
+    to bring it home.
+- id: e2ed2fb0-224a-4179-a778-fd99d7b642f1
+  name: TRG_EM_CZ_2024_08_Product_Browse_T 6
+  type: message
+  channel: email
+  subject: 'Last call: This piece may be gone soon'
+  preheader: Thoughtfully made. In limited supply. Claim yours before it disappears.
+- id: 117dcab6-2613-4776-9792-fa9cf5814a49
+  name: 47 hour delay
+  type: delay
+- id: 8c63ef57-d80a-407c-b12d-e777f82d2732
+  name: 1 day delay
+  type: delay
+- id: 21bcb31f-9480-4e28-9a5b-a1c5a91ee082
+  name: 1 hour delay 2
+  type: delay
+- id: c02e612d-e1d4-4afb-97b3-1a5f264faf50
+  name: TRG_EM_CZ_2024_08_Product_Browse_T1
+  type: message
+  channel: email
+  subject: 'Don''t Miss Out: A style you loved is going quick!'
+  preheader: Come back and shop our selection of thoughtfully designed & ethically
+    crafted goods for your home
+- id: 37faab8d-af1a-424f-b4e2-8aaa0068e5e0
+  name: 1 day delay
+  type: delay
+_filename: product-browse-a05de6df.yaml

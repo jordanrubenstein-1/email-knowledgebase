@@ -1,0 +1,53 @@
+id: b575f174-482b-443e-be65-5d783cc21a5f
+name: 20241030_BFCM-Launch_IP-Warming-Day-9
+brand: BUR
+channel: email
+category: product_launch
+type: product_launch
+theme: black_friday
+braze_id: b575f174-482b-443e-be65-5d783cc21a5f
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2024-10-30T14:30:01+00:00'
+  last_sent: '2024-10-30T14:33:25+00:00'
+tags:
+- IP Warming
+sends:
+- id: a17aa8f1-0a23-41a0-b20b-09d730891395
+  channel: email
+  name: Variant 1
+  subject: Black Friday deals are HERE
+  preheader: Save up to 50% on what you need for holiday hosting.
+- id: 6d14fdd8-8dbe-4caa-973a-a5cedc5e4762
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 1436
+    purchases: 7
+    revenue: 12873.66
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.416387'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-pre-black-fri-2024-10-30
+    name: Pre Black Fri
+    start_date: '2024-10-30'
+    end_date: '2024-11-12'
+    discount: null
+    type: null
+  primary_sale:
+    id: bur-pre-black-fri-2024-10-30
+    name: Pre Black Fri
+    start_date: '2024-10-30'
+    end_date: '2024-11-12'
+    discount: null
+    type: null
+  sale_name: Pre Black Fri
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:41.483356'
+schedule_type: time_based

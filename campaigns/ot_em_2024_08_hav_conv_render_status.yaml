@@ -1,0 +1,36 @@
+id: a58481da-0842-c9eb-2bf5-610ca8193917
+name: OT_EM_2024_08_HAV_CONV_Render_Status
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: a58481da-0842-c9eb-2bf5-610ca8193917
+dates:
+  first_sent: '2024-08-23T17:00:00+00:00'
+  last_sent: '2026-06-09T19:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: 0f7cdd40-c94a-4a8f-913d-f19c0a3ea77e
+  channel: email
+  name: Variant 1
+  subject: "{% if api_trigger_properties.${status} == \"Complete\" or api_trigger_properties.${status}\
+    \ == \"Approved\" %}\n  Your {% if api_trigger_properties.${renderType} == \"\
+    Final\" %}Final{% else %}Preview{% endif %} Render for {{api_trigger_properties.${roomName}}}\
+    \ is {% if api_trigger_properties.${status} == \"Complete\" %}complete{% else\
+    \ %}approved{% endif %}!\n{% else %}\n  Your {% if api_trigger_properties.${renderType}\
+    \ == \"Final\" %}Final{% else %}Preview{% endif %} Render for {{api_trigger_properties.${roomName}}}\
+    \ has failed!\n{% endif %}"
+- id: 53dbcefc-f538-47fc-acbe-48871d84697a
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 3290
+  total_delivered: 3290
+  total_opens: 1891
+  total_clicks: 69
+  open_rate: 0.5748
+  click_rate: 0.021
+schedule_type: api_triggered
+_filename: ot_em_2024_08_hav_conv_render_status.yaml

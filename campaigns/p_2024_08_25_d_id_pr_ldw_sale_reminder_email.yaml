@@ -1,0 +1,44 @@
+id: 0466dd6c-3326-4d8a-99f6-bf18511b6744
+name: P_2024_08_25_D_ID_PR_LDW_Sale_Reminder_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 0466dd6c-3326-4d8a-99f6-bf18511b6744
+dates:
+  send_date: '2024-08-25'
+  inferred_send_type: local_time
+  first_sent: '2024-08-24T19:28:00+00:00'
+  last_sent: '2024-08-25T14:05:03+00:00'
+tags: []
+sends:
+- id: c15808b0-6846-47c6-91c3-2e65662b3c9f
+  channel: email
+  name: Variant 1
+  subject: Save up to 25% sitewide
+  preheader: Only during our Labor Day Sale
+- id: da552837-22a1-4731-a869-3b5fdf59b185
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 34707
+  total_delivered: 34484
+  total_opens: 14318
+  total_clicks: 467
+  open_rate: 0.4125
+  click_rate: 0.0135
+  total_unsubscribes: 56
+  ga4:
+    sessions: 687
+    purchases: 6
+    revenue: 21493.62
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.585168'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.253424'
+schedule_type: time_based

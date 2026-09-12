@@ -1,0 +1,59 @@
+id: 2089b7d3-fcd4-4827-9d38-6d12671c0722
+name: P_2025_03_18_CZ_The_Spring_Event_Archive_Sale_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: spring
+braze_id: 2089b7d3-fcd4-4827-9d38-6d12671c0722
+dates:
+  send_date: '2025-03-18'
+  inferred_send_type: scheduled
+  first_sent: '2025-03-18T03:34:07+00:00'
+  last_sent: '2025-03-18T17:01:50+00:00'
+tags: []
+sends:
+- id: 60f2c571-1cdc-4971-8afe-48bcd62e2b48
+  channel: email
+  name: Variant 1
+  subject: 'The Archive Sale: Up To 65% Off'
+  preheader: Bring home styles in their final run while you still can.
+  html_file: html/p_2025_03_18_cz_the_spring_event_archive_sale_email.html
+  screenshot: screenshots/p_2025_03_18_cz_the_spring_event_archive_sale_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d84cbc70a66600658a7df0/original.png?1742228668
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0d21872d82d0068a9187d/original.png?1741738520
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d84d5d70a66600658a7fff/original.png?1742228829
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d84d63cd115c008653e084/original.png?1742228834
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d84d57489d6c008414ff0c/original.png?1742228823
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0d1d27f0c140066a8824c/original.png?1741738449
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0d1edc7fe8a0066f3ef76/original.png?1741738477
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0d20d6380bd0074fa5c9a/original.png?1741738509
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d84c5fa404050064c4b42b/original.png?1742228574
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0d1ff6cb8ed0064c67da1/original.png?1741738495
+- id: 37ea4149-a0d7-4eb2-be21-15a03c78522d
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 91473
+  total_delivered: 90694
+  total_opens: 47770
+  total_clicks: 1861
+  open_rate: 0.5222
+  click_rate: 0.0203
+  total_revenue: 76442.51
+  total_bounces: 1
+  total_unsubscribes: 136
+  ga4:
+    sessions: 3192
+    purchases: 21
+    revenue: 8334.16
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.907702'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.438252'
+schedule_type: time_based

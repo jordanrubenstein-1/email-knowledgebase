@@ -1,0 +1,58 @@
+id: a77da397-450a-4ffc-bb21-2e73d30f0bc5
+name: P_2025_05_24_HAV_Conv_D_Memorial_Day_Sale_Spotlight
+brand: HAV
+channel: email
+category: editorial
+type: sale
+theme: null
+braze_id: a77da397-450a-4ffc-bb21-2e73d30f0bc5
+dates:
+  send_date: '2025-05-24'
+  inferred_send_type: local_time
+  first_sent: '2025-05-23T18:24:20+00:00'
+  last_sent: '2025-05-24T17:15:17+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: f9a7e081-f4df-4e90-ba9d-c8facf183b7b
+  channel: email
+  name: Variant 1
+  subject: 'Spend More, Save More...It’s Just Math  💁‍♀️ '
+  preheader: The best deals in home are only at Havenly.
+  html_file: html/p_2025_05_24_hav_conv_d_memorial_day_sale_spotlight.html
+  screenshot: screenshots/p_2025_05_24_hav_conv_d_memorial_day_sale_spotlight.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830a2d02316b600661c851d/original.png?1748017872
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830a2da146d2f0076bc142f/original.png?1748017882
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682644f8cf36b000662e0265/original.png?1747338488
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6826451d6368300065fb3dcc/original.png?1747338525
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830a2fde54acf00762c277e/original.png?1748017916
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68264526614d3f0067d8af4a/original.png?1747338533
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830a2f27a13fd008275039c/original.png?1748017905
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682645036368300065fb3bba/original.png?1747338498
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830a3742316b600661c87b0/original.png?1748018035
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6830a30709c1f800656b1ae5/original.png?1748017927
+- id: 41c40b7b-1b01-4b4b-ae86-b1f50d67362a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 39921
+  total_delivered: 39811
+  total_opens: 21506
+  total_clicks: 91
+  open_rate: 0.5387
+  click_rate: 0.0023
+  total_unsubscribes: 35
+  ga4:
+    sessions: 58
+    purchases: 1
+    revenue: 229.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.028157'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.017757'
+schedule_type: time_based

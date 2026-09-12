@@ -1,0 +1,38 @@
+id: 25d88aad-ee56-449c-bb28-396c2e7a709c
+name: P_EM_2026_04_06_HAV_PC_D_Why_Does_Everyone_Choose_Havenly
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 25d88aad-ee56-449c-bb28-396c2e7a709c
+dates:
+  send_date: '2026-04-06'
+  last_sent: '2026-04-06'
+tags:
+- BLASTS-2025
+sends:
+- id: 601c6406-0722-4811-af8a-eb0a033c20e2
+  channel: email
+  name: Variant 1
+  subject: Why does everyone choose Havenly?
+  preheader: We’re so glad you asked!
+  html_file: html/p_em_2026_04_06_hav_pc_d_why_does_everyone_choose_havenly.html
+  screenshot: screenshots/p_em_2026_04_06_hav_pc_d_why_does_everyone_choose_havenly.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69cada1a09018e0063282a36/original.png?1774901786
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69cada1b09018e0063282a37/original.png?1774901786
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69cada1c09018e0063282a38/original.png?1774901787
+- id: 04d4815b-ce5d-4776-9261-0e9ae5a46806
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 81778
+  total_delivered: 81442
+  total_opens: 28936
+  total_clicks: 261
+  open_rate: 0.3538
+  click_rate: 0.0032
+  total_bounces: 34
+  total_unsubscribes: 221
+schedule_type: time_based

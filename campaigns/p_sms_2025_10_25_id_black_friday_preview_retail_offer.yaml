@@ -1,0 +1,31 @@
+id: fa7ee31c-aaf2-464a-9283-63030dbf0698
+name: P_SMS_2025_10_25_ID_Black_Friday_Preview_Retail_Offer
+brand: ID
+channel: sms
+category: sale_promo
+type: announcement
+theme: null
+braze_id: fa7ee31c-aaf2-464a-9283-63030dbf0698
+dates:
+  send_date: '2025-10-25'
+  inferred_send_type: local_time
+  first_sent: '2025-10-24T20:06:10+00:00'
+  last_sent: '2025-10-25T20:00:20+00:00'
+tags: []
+sends:
+- id: 9266637f-211b-477b-8c06-b5200b2ca4cb
+  channel: sms
+  name: Variant 1
+- id: 493526bb-3930-41d5-8f90-0b2caf6a2bb8
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 11240
+  total_delivered: 10643
+  total_opens: 0
+  total_clicks: 192
+  open_rate: 0.0
+  click_rate: 0.0171
+  total_revenue: 14635.0
+_filename: p_sms_2025_10_25_id_black_friday_preview_retail_offer.yaml
+schedule_type: time_based

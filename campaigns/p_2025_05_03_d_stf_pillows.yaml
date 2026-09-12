@@ -1,0 +1,59 @@
+id: aa57232e-5f23-4ed2-be81-49887f6f143d
+name: P_2025_05_03_D_STF_Pillows
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: aa57232e-5f23-4ed2-be81-49887f6f143d
+dates:
+  send_date: '2025-05-03'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-03T03:02:20+00:00'
+  last_sent: '2025-05-03T17:00:42+00:00'
+tags: []
+sends:
+- id: 49c9ee5a-5d34-4b41-8a3d-1d0e61f9a196
+  channel: email
+  name: Variant 1
+  subject: Pile On Pillows
+  preheader: explore our assortment of unique prints
+  html_file: html/p_2025_05_03_d_stf_pillows.html
+  screenshot: screenshots/p_2025_05_03_d_stf_pillows.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6814b5a3f9cb6800657682b2/original.png?1746187683
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6814b491c472e800660aa1e9/original.png?1746187408
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6814b59b0c42ad0064aa6375/original.png?1746187675
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6814b4a54d7b420064ce2399/original.png?1746187429
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6814b5aad1e4870067b91d20/original.png?1746187690
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6814b344d5f98f00651c434a/original.png?1746187075
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6814b596ea6b90006506c13f/original.png?1746187669
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6814b19d4d7b420064ce1e64/original.gif?1746186653
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6814b515f9cb6800657681b4/original.png?1746187540
+- id: d416e485-00ed-4d1b-a6d1-7e11eefe8b0f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 18030
+  total_delivered: 17831
+  total_opens: 9624
+  total_clicks: 247
+  open_rate: 0.5338
+  click_rate: 0.0137
+  total_revenue: 12732.0
+  total_bounces: 23
+  total_unsubscribes: 53
+  ga4:
+    sessions: 306
+    purchases: 7
+    revenue: 5885.49
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.908203'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.007726'
+schedule_type: time_based

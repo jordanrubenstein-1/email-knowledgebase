@@ -1,0 +1,58 @@
+id: 71c7ab82-12e5-4142-aaa8-7b1406cd5331
+name: P_2025_07_08_HAV_Conv_D_Fourth_of_July_Sale_Ends_Tonight
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 71c7ab82-12e5-4142-aaa8-7b1406cd5331
+dates:
+  send_date: '2025-07-08'
+  inferred_send_type: local_time
+  first_sent: '2025-07-07T18:24:04+00:00'
+  last_sent: '2025-07-08T17:15:12+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: a7101409-6983-407e-8d6f-4be0c4b918c0
+  channel: email
+  name: Variant 1
+  subject: Not to be dramatic but...
+  preheader: Final day to shop the best sale in home
+  html_file: html/p_2025_07_08_hav_conv_d_fourth_of_july_sale_ends_tonight.html
+  screenshot: screenshots/p_2025_07_08_hav_conv_d_fourth_of_july_sale_ends_tonight.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6859bcc9f81b2200737123e8/original.png?1750711497
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6859bf8bb6441e00764f6c89/original.png?1750712202
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6859bd357ee1da00655909ff/original.png?1750711605
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6859bf705f445f0075c9a6f5/original.png?1750712176
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6859bf52816a65006550031e/original.png?1750712146
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6859bcbf3d12f20064abc7d2/original.png?1750711487
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6859bcaf1945760066c45c87/original.png?1750711470
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6859bf608d402800746f07a7/original.png?1750712160
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6866ea53c79f0500659990a2/original.png?1751575123
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6859bcb71945760075c458f2/original.png?1750711479
+- id: 4f8dfb21-50f6-48d7-9d82-c1fe36b658e1
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 40624
+  total_delivered: 40541
+  total_opens: 21309
+  total_clicks: 112
+  open_rate: 0.5245
+  click_rate: 0.0028
+  total_unsubscribes: 59
+  ga4:
+    sessions: 43
+    purchases: 2
+    revenue: 7359.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.689660'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.395997'
+schedule_type: time_based

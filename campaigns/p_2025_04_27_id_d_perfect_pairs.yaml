@@ -1,0 +1,47 @@
+id: 4ac54464-9ce3-40b4-838a-4098c3c60ea3
+name: P_2025_04_27_ID_D_Perfect_Pairs
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 4ac54464-9ce3-40b4-838a-4098c3c60ea3
+dates:
+  send_date: '2025-04-27'
+  inferred_send_type: local_time
+  first_sent: '2025-04-26T21:58:25+00:00'
+  last_sent: '2025-04-27T17:15:14+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 7feb7b00-f65d-419f-a594-8c6f31ab26ea
+  channel: email
+  name: Variant 1
+  subject: Match, Made
+  preheader: Designed to complement, styled to stand out — now 20% off sitewide!
+- id: 8b4ca85c-2968-449c-8ef5-8d0dc83a32e5
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 156927
+  total_delivered: 154821
+  total_opens: 36807
+  total_clicks: 579
+  open_rate: 0.2345
+  click_rate: 0.0037
+  total_revenue: 244266.0
+  total_bounces: 2
+  total_unsubscribes: 112
+  ga4:
+    sessions: 634
+    purchases: 2
+    revenue: 7711.54
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.057897'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.247636'
+schedule_type: time_based

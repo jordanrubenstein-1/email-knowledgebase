@@ -1,0 +1,30 @@
+id: 9acae350-3b13-452f-a7a1-4ab2515f0fc4
+name: 20250713_Leather_Highlight_SMS
+brand: BUR
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: 9acae350-3b13-452f-a7a1-4ab2515f0fc4
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-07-13T02:09:05+00:00'
+  last_sent: '2025-07-14T01:00:18+00:00'
+tags: []
+sends:
+- id: ef0f6da6-619a-4ae8-869b-021ec33ba830
+  channel: other
+  name: Variant 1
+- id: 20896f47-6748-4597-bb79-f9f1c8a3c1a1
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 179
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.203173'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

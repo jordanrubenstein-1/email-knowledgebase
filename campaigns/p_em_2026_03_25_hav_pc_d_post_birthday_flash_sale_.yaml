@@ -1,0 +1,38 @@
+id: 9c2f7ed2-6c1c-40fd-bbb8-61203b0fd26e
+name: P_EM_2026_03_25_HAV_PC_D_Post_Birthday_Flash_Sale_Starts_Now
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 9c2f7ed2-6c1c-40fd-bbb8-61203b0fd26e
+dates:
+  send_date: '2026-03-25'
+  inferred_send_type: local_time
+  first_sent: '2026-03-24T17:09:43+00:00'
+  last_sent: '2026-03-25T18:03:19+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 4d29b8cb-e0e7-49a7-aad9-c75dfa6a040b
+  channel: email
+  name: Variant 1
+  subject: Surprise! The Birthday Sale Is Extended 🎁
+  preheader: Back by popular demand. Shop before it's really over.
+  html_file: html/p_em_2026_03_25_hav_pc_d_post_birthday_flash_sale_starts_now.html
+  screenshot: screenshots/p_em_2026_03_25_hav_pc_d_post_birthday_flash_sale_starts_now.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c1b5da0cbb3200732fe8c9/original.png?1774302681
+- id: 66d8a303-cbab-4c9b-8584-447ea0683f16
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 275572
+  total_delivered: 272335
+  total_opens: 102029
+  total_clicks: 550
+  open_rate: 0.3702
+  click_rate: 0.002
+  total_bounces: 10
+  total_unsubscribes: 414
+schedule_type: time_based

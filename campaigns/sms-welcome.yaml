@@ -1,0 +1,60 @@
+id: 3b7ee19c-b120-453a-8302-731b5bbe56a7
+name: SMS Welcome
+brand: STF
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: 3b7ee19c-b120-453a-8302-731b5bbe56a7
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-10-07T22:00:00+00:00'
+  last_sent: '2025-12-22T01:00:00+00:00'
+tags: []
+sends: []
+performance_summary:
+  total_entries: 15
+  total_sends: 35
+  total_delivered: 35
+  total_opens: 0
+  total_clicks: 4
+  open_rate: 0.0
+  click_rate: 0.1143
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.671065'
+    source: snowflake
+    channel: email
+canvas_steps:
+- id: 941f9186-3664-4859-966f-b04c9f7e3614
+  name: Step
+  type: delay
+- id: 02b8ccc2-d12b-4391-bd4b-05b965f35f54
+  name: TRG_SMS_2025_10_SF_Welcome_T1_V1
+  type: message
+- id: a1e2a11d-13a2-4832-95e6-3ab5a7224ddf
+  name: TRG_SMS_2025_10_SF_Welcome_T2_V1
+  type: message
+- id: 07683445-3285-49bb-b47f-b72af41da843
+  name: Step 5
+  type: audience_paths
+- id: 6a57ea20-1365-4f55-8190-59e97e277818
+  name: TRG_SMS_2025_10_SF_Welcome_T3_V1
+  type: message
+- id: 6859ebfc-9e1b-4352-ac5d-f7019070af8a
+  name: Step 3
+  type: delay
+- id: bf5550b0-9f82-4d68-af75-326f717863b3
+  name: Step 6
+  type: delay
+- id: b1a351ed-28a9-447e-b9e6-daedac0b8f1c
+  name: Step 8
+  type: delay
+- id: aa36cb8c-457d-4143-8636-bf64b72d1c64
+  name: SMS Double Opted In?
+  type: audience_paths

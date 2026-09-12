@@ -1,0 +1,35 @@
+id: 5d04d88a-234a-4560-bd32-053a11a23b1c
+name: P_EM_2025_12_14_HAV_PC_D_Gifting_Promo_Starts
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 5d04d88a-234a-4560-bd32-053a11a23b1c
+dates:
+  send_date: '2025-12-14'
+  first_sent: '2025-12-13T17:22:09+00:00'
+  last_sent: '2025-12-14T18:15:16+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: a5a1b4a9-3f58-4dfa-9a6a-3a798430bf36
+  channel: email
+  name: Variant 1
+  subject: The Easiest Gift of the Season
+  preheader: On sale! Give someone a professionally designed space made just for them.
+- id: d25c2f1b-961c-4fdb-83d8-5c06768e0fcc
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 252972
+  total_delivered: 252331
+  total_opens: 100463
+  total_clicks: 327
+  open_rate: 0.3971
+  click_rate: 0.0013
+  total_bounces: 4
+  total_unsubscribes: 455
+schedule_type: time_based
+_filename: p_em_2025_12_14_hav_pc_d_gifting_promo_starts.yaml

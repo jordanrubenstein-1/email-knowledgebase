@@ -1,0 +1,31 @@
+id: 4eb4b7b7-a9af-4b11-9519-6dba439b9af8
+name: P_EM_2026_06_01_CZ_PT_Memorial_Day_Sale_Reminder
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 4eb4b7b7-a9af-4b11-9519-6dba439b9af8
+dates:
+  send_date: '2026-06-01'
+  last_sent: '2026-06-01'
+tags: []
+sends:
+- id: 8f5b0410-d058-44ce-b6ba-cda2594210e6
+  channel: email
+  name: Variant 1
+  subject: 'Last chance: 25% off ends tomorrow'
+- id: c869131f-0cc2-4e7f-a467-9ca8aeb5e6d9
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 40805
+  total_delivered: 40757
+  total_opens: 21686
+  total_clicks: 579
+  open_rate: 0.5315
+  click_rate: 0.0142
+  total_bounces: 1
+  total_unsubscribes: 108
+schedule_type: time_based
+_filename: p_em_2026_06_01_cz_pt_memorial_day_sale_reminder.yaml

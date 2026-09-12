@@ -1,0 +1,35 @@
+id: 291ce4cf-8f67-47b8-b35b-bc9d00aae198
+name: P_EM_2026_03_20_HAV_PC_D_First_Day_of_Spring
+brand: HAV
+channel: email
+category: other
+type: seasonal
+theme: spring
+braze_id: 291ce4cf-8f67-47b8-b35b-bc9d00aae198
+dates:
+  send_date: '2026-03-20'
+  first_sent: '2026-03-20T02:06:42+00:00'
+  last_sent: '2026-03-20T21:01:13+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 8f6b5895-6e11-4dbd-94e0-3169bcd8498f
+  channel: email
+  name: Variant 1
+  subject: The spring reset your space needs
+  preheader: Take the design style quiz and find your perfect spring look.
+- id: 0abb7cc7-835b-4bf8-9e48-3fe0f572ec73
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 270028
+  total_delivered: 268909
+  total_opens: 99913
+  total_clicks: 495
+  open_rate: 0.37
+  click_rate: 0.0018
+  total_bounces: 15
+  total_unsubscribes: 374
+schedule_type: time_based
+_filename: p_em_2026_03_20_hav_pc_d_first_day_of_spring.yaml

@@ -1,0 +1,33 @@
+id: d4e322ea-7cb8-4d7f-8a06-f1f87d7ac26d
+name: P_EM_2026_BW_PT_TPA_T5_EA_Last_Day_PM
+brand: BUR
+channel: email
+category: reminder
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 291c554b-03ab-48cc-9767-8d8dede9d28f
+canvas_name: MDS Tentpole Automation
+flow_type: other_flow
+sequence_position: 5
+subject: Your early access expires tonight
+preheader: ''
+sends:
+- id: d4e322ea-7cb8-4d7f-8a06-f1f87d7ac26d
+  channel: email
+  name: P_EM_2026_BW_PT_TPA_T5_EA_Last_Day_PM
+  subject: Your early access expires tonight
+  preheader: ''
+  html_file: html/canvas-mds-tentpole-automation-t5-d4e322ea.html
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2026-05-05T07:00:00Z'
+  last_sent: '2026-05-05T17:00:00Z'
+performance_summary:
+  total_sends: 68845
+  total_delivered: 67923
+  total_opens: 39214
+  total_clicks: 157
+  open_rate: 0.5696
+  click_rate: 0.0023
+  total_unsubscribes: 45
+  total_revenue: 1901.0

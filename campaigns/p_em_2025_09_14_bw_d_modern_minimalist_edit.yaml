@@ -1,0 +1,73 @@
+id: 3f3873aa-7766-46f9-8461-59e666b4141c
+name: P_EM_2025_09_14_BW_D_Modern_Minimalist_Edit
+brand: BUR
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 3f3873aa-7766-46f9-8461-59e666b4141c
+dates:
+  send_date: '2025-09-14'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-14T02:19:47+00:00'
+  last_sent: '2025-09-14T17:15:11+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 9d6c29b0-11d5-449f-8b46-1df85736beff
+  channel: email
+  name: Variant 1
+  subject: Where Form Meets Function
+  preheader: Say hello to the Modular Modernism Edit
+- id: a2966b27-b799-4a40-8898-d82b4442c029
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 242248
+  total_delivered: 240107
+  total_opens: 139571
+  total_clicks: 471
+  open_rate: 0.5761
+  click_rate: 0.0019
+  total_revenue: 11436.0
+  total_bounces: 1
+  total_unsubscribes: 228
+  ga4:
+    sessions: 256
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.943232'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-subscriber-flash-sale-lifecycle-retail-only-2025-09-11
+    name: Subscriber Flash Sale - Lifecycle/Retail Only
+    start_date: '2025-09-11'
+    end_date: '2025-09-16'
+    discount: 20% off sitewide with code SEPTVIP
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-subscriber-flash-sale-lifecycle-retail-only-2025-09-11
+    name: Subscriber Flash Sale - Lifecycle/Retail Only
+    start_date: '2025-09-11'
+    end_date: '2025-09-16'
+    discount: 20% off sitewide with code SEPTVIP
+    type: null
+  sale_name: Subscriber Flash Sale - Lifecycle/Retail Only
+  sale_discount: 20% off sitewide with code SEPTVIP
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:36.036988'
+schedule_type: time_based

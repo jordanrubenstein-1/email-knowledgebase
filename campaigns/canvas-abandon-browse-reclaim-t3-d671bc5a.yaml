@@ -1,0 +1,34 @@
+id: d671bc5a-a1c2-491c-bb50-230865ab70f2
+name: TRG_EM_2024_11_BW_D_Abandon_Browse_T3_V1
+brand: BUR
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 49e4e79d-21f1-4dae-8d15-258349f633b7
+canvas_name: Abandon Browse - Reclaim
+flow_type: browse_abandonment
+sequence_position: 3
+subject: Still deciding?
+preheader: Don't let this one get away.
+sends:
+- id: d671bc5a-a1c2-491c-bb50-230865ab70f2
+  channel: email
+  name: TRG_EM_2024_11_BW_D_Abandon_Browse_T3_V1
+  subject: Still deciding?
+  preheader: Don't let this one get away.
+  html_file: html/canvas-abandon-browse-reclaim-t3-d671bc5a.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-11-14T17:00:00Z'
+  last_sent: '2025-09-13T11:00:00Z'
+performance_summary:
+  total_sends: 121283
+  total_delivered: 121000
+  total_opens: 43570
+  total_clicks: 2046
+  open_rate: 0.3592
+  click_rate: 0.0169
+  total_unsubscribes: 1552
+  total_bounces: 1
+  total_revenue: 266212.0

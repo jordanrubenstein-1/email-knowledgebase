@@ -1,0 +1,47 @@
+id: 0921daa2-7cc8-4f6f-b482-850286742540
+name: P_2025_05_24_ID_PM_Sip_and_Sit_Reminder_Email
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 0921daa2-7cc8-4f6f-b482-850286742540
+dates:
+  send_date: '2025-05-24'
+  inferred_send_type: local_time
+  first_sent: '2025-05-23T20:46:53+00:00'
+  last_sent: '2025-05-24T18:00:33+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 6c2d9fb5-9ba8-4cfc-bd59-f720ff496cee
+  channel: email
+  name: Variant 1
+  subject: "Reminder: mimosas on us this weekend! \U0001F942\r\n"
+  preheader: Champagne, shopping, and 25% off everything.
+- id: 43c1e7cd-7031-4bc5-858e-0c2767557c3e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 14908
+  total_delivered: 14724
+  total_opens: 2792
+  total_clicks: 17
+  open_rate: 0.1873
+  click_rate: 0.0011
+  total_revenue: 14185.0
+  total_bounces: 1
+  total_unsubscribes: 3
+  ga4:
+    sessions: 6
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.553279'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.896331'
+schedule_type: time_based

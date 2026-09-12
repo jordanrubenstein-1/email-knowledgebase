@@ -1,0 +1,30 @@
+id: 6eecbc00-a5fe-4cb2-b661-f9fd42f189aa
+name: P_2025_5_11_ID_MDW_EA_Reminder_SMS
+brand: ID
+channel: sms
+category: reminder
+type: announcement
+theme: null
+braze_id: 6eecbc00-a5fe-4cb2-b661-f9fd42f189aa
+dates:
+  send_date: '2025-05-11'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-11T20:19:42+00:00'
+  last_sent: '2025-05-11T20:20:41+00:00'
+tags: []
+sends:
+- id: 190cf7ba-6e24-47b9-ac41-b6e466c3b455
+  channel: other
+  name: Variant 1
+- id: dd308f3c-4bb2-4691-b8c7-5b508f455554
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 24246
+  total_delivered: 22579
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 18688.0
+schedule_type: time_based

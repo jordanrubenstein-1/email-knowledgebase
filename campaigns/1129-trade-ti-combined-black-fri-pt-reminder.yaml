@@ -1,0 +1,64 @@
+id: klaviyo-01JDQBYN83B4P0WWQN59C84K4G
+name: '11/29: TRADE TI Combined Black Fri PT Reminder'
+brand: TI
+channel: email
+category: reminder
+type: announcement
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2024-11-27'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-29T09:00:00+00:00'
+  last_sent: '2024-11-29T09:00:00+00:00'
+sends:
+- id: 01JDQBYN8XX2N7NJHW83QTXGMF
+  channel: email
+  name: '11/29: TRADE TI Combined Black Fri PT Reminder'
+  subject: Trade Exclusive Black Friday Savings
+  preheader: ''
+  html_file: html/1129-trade-ti-combined-black-fri-pt-reminder.html
+  image_urls: []
+  screenshot: screenshots/1129-trade-ti-combined-black-fri-pt-reminder.png
+performance_summary:
+  total_sends: 11177
+  total_delivered: 11076
+  total_opens: 5046
+  total_clicks: 111
+  unique_opens: 3040
+  unique_clicks: 53
+  open_rate: 0.272
+  click_rate: 0.0047
+  total_open_rate: 0.4515
+  total_click_rate: 0.0099
+  total_unsubscribes: 20
+  total_bounces: 101
+klaviyo_type: campaign
+klaviyo_campaign_id: 01JDQBYN83B4P0WWQN59C84K4G
+klaviyo_message_id: 01JDQBYN8XX2N7NJHW83QTXGMF
+structure:
+  image_count: 0
+  link_count: 7
+  has_gif: false
+  hero_width: null
+  layout_type: text_only
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: ti-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: ti-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-03-12T11:18:48.534456'

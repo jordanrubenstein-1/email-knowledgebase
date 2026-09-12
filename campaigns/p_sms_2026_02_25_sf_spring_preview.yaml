@@ -1,0 +1,37 @@
+id: a074f51f-2842-4698-b6d1-14bcaa427dd2
+name: P_SMS_2026_02_25_SF_Spring_Preview
+brand: STF
+channel: sms
+category: other
+type: seasonal
+theme: spring
+braze_id: a074f51f-2842-4698-b6d1-14bcaa427dd2
+dates:
+  send_date: '2026-02-25'
+  inferred_send_type: local_time
+  first_sent: '2026-02-25T05:09:02+00:00'
+  last_sent: '2026-02-26T03:01:00+00:00'
+tags: []
+sends:
+- id: c4ec8224-8c94-412d-ac34-5db71cf97e96
+  channel: sms
+  name: Variant 1
+- id: 26bd7a8c-4eab-440c-b5c0-720c4cabe201
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 4174
+  total_delivered: 4107
+  total_opens: 0
+  total_clicks: 157
+  open_rate: 0.0
+  click_rate: 0.0376
+  ga4:
+    sessions: 153
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.801124'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

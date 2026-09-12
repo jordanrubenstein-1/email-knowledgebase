@@ -1,0 +1,60 @@
+{% comment %}
+  BW Kicker Content Block
+  Braze content block: "kicker"
+
+  Reads kicker details from the "kickers" catalog using kicker_id, which is
+  assigned in the email body from the "email-content-test" catalog lookup.
+
+  For catalog-driven emails (email-content-test):
+    Required variables (assigned in email body):
+      kicker_id  - ID of the kicker row in the "kickers" catalog (e.g. "seating", "outdoor")
+                   If blank, the email body shows categories-images instead.
+
+  For batch/blast emails (no catalog):
+    Use if/elsif in the email body to select a pre-built kicker content block directly
+    (e.g. kicker-outdoor, kicker-dining, kicker-clearance). Dynamic content block names
+    via assigned variables do not work in Braze.
+
+    {% assign kicker_id = "outdoor" %}
+    {% if kicker_id == "outdoor" %}
+    {{content_blocks.${kicker-outdoor} | id: 'cb3'}}
+    {% elsif kicker_id == "dining" %}
+    {{content_blocks.${kicker-dining} | id: 'cb3'}}
+    {% elsif kicker_id == "clearance" %}
+    {{content_blocks.${kicker-clearance} | id: 'cb3'}}
+    {% endif %}
+    Set kicker_id = "" to show no kicker.
+
+  Catalogs:
+    kickers
+      id            - Kicker identifier (seating, outdoor, clearance, dining, ...)
+      image_url     - Full URL of the kicker image
+      url           - Click-through URL (defaults to https://www.burrow.com if blank)
+      alt           - Alt text for the image
+
+  Email body usage (catalog-driven):
+    {% assign email_id = "20260426" %}
+    {% catalog_items email-content-test {{ email_id }} %}
+    {% assign banner_id = items[0].banner %}
+    {% assign kicker_id = items[0].kicker %}
+    ...
+    {% if kicker_id != blank %}
+    {{content_blocks.${kicker} | id: 'cb3'}}
+    {% else %}
+    {{content_blocks.${categories-images} | id: 'cb3'}}
+    {% endif %}
+{% endcomment %}
+
+{% catalog_items kickers {{ kicker_id }} %}
+{% assign kicker = items[0] %}
+{% assign kicker_url = kicker.url | default: "https://www.burrow.com" %}
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr>
+    <td align="center" style="padding:0; margin:0;">
+      <a href="{{ kicker_url }}">
+        <img src="{{ kicker.image_url }}" alt="{{ kicker.alt }}" width="600" style="display:block; width:100%; max-width:600px; height:auto; border:0;" />
+      </a>
+    </td>
+  </tr>
+</table>

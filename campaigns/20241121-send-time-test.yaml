@@ -1,0 +1,76 @@
+id: fb5d33d5-ee87-4cd4-bb16-b3bc86db6da0
+name: 20241121 Send Time Test
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: fb5d33d5-ee87-4cd4-bb16-b3bc86db6da0
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: local_time
+  first_sent: '2024-11-21T00:00:00+00:00'
+  last_sent: '2024-11-21T17:00:00+00:00'
+tags: []
+sends:
+- id: 3dce8c31-b7b2-46c4-bcd5-ae04e8dd0ed6
+  channel: email
+  name: 20241121_BFCM-Range-Highlight_Early
+  subject: This best seller is on major sale
+  preheader: Sink in to our Range collection.
+  step_id: fb04fabf-4fb6-429d-a645-438136d3f7a1
+- id: 25a63cdc-eb39-4671-8980-189daa5f1f13
+  channel: email
+  name: 20241121_BFCM-Range-Highlight_Later
+  subject: This best seller is on major sale
+  preheader: Sink in to our Range collection.
+  step_id: ad8c4f0e-920f-4467-af4d-3600e845e2bf
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.232156'
+    source: snowflake
+    channel: email
+canvas_steps:
+- id: 5c4f98fe-eafb-4488-831d-553584cd1d26
+  name: Step
+  type: experiment_paths
+- id: fb04fabf-4fb6-429d-a645-438136d3f7a1
+  name: 20241121_BFCM-Range-Highlight_Early
+  type: message
+  channel: email
+  subject: This best seller is on major sale
+  preheader: Sink in to our Range collection.
+- id: 2f2c1245-97f1-4e04-9c78-9ffd9472ce2b
+  name: Delay
+  type: delay
+- id: ad8c4f0e-920f-4467-af4d-3600e845e2bf
+  name: 20241121_BFCM-Range-Highlight_Later
+  type: message
+  channel: email
+  subject: This best seller is on major sale
+  preheader: Sink in to our Range collection.
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-bfcm-giving-tues-2024-11-13
+    name: BFCM + Giving Tues
+    start_date: '2024-11-13'
+    end_date: '2024-11-26'
+    discount: null
+    type: null
+  primary_sale:
+    id: bur-bfcm-giving-tues-2024-11-13
+    name: BFCM + Giving Tues
+    start_date: '2024-11-13'
+    end_date: '2024-11-26'
+    discount: null
+    type: null
+  sale_name: BFCM + Giving Tues
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:39.328838'

@@ -1,0 +1,35 @@
+id: f0db620b-b154-457d-8bda-a4494c7b0ba6
+name: P_EM_2026_03_31_ID_PT_PR_Spring_Refresh_Extension_Last_Chance
+brand: ID
+channel: email
+category: reminder
+type: seasonal
+theme: spring
+braze_id: f0db620b-b154-457d-8bda-a4494c7b0ba6
+dates:
+  send_date: '2026-03-31'
+  inferred_send_type: local_time
+  first_sent: '2026-03-30T23:23:20+00:00'
+  last_sent: '2026-03-31T23:15:18+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 3c5d0aaf-bbff-463a-ba39-aa6907db5ca6
+  channel: email
+  name: Variant 1
+  subject: LAST DAY to save 25% sitewide
+- id: 0884def4-2b11-4481-8e52-725c0b6180c4
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 220738
+  total_delivered: 219583
+  total_opens: 92701
+  total_clicks: 533
+  open_rate: 0.42
+  click_rate: 0.0024
+  total_revenue: 215940.58
+  total_bounces: 6
+  total_unsubscribes: 331
+_filename: p_em_2026_03_31_id_pt_pr_spring_refresh_extension_last_chanc.yaml
+schedule_type: time_based

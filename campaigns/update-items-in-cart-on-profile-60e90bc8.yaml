@@ -1,0 +1,22 @@
+id: 60e90bc8-f10e-4070-a0ad-16e225ad907c
+name: Update Items in Cart on Profile
+brand: BUR
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: 60e90bc8-f10e-4070-a0ad-16e225ad907c
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2025-08-12T11:00:00+00:00'
+  last_sent: '2025-08-12T16:00:00+00:00'
+tags: []
+sends: []
+performance_summary: {}
+canvas_steps:
+- id: 6a45ba3a-b0cc-4050-ac58-7c803d905bdd
+  name: Step
+  type: user_update
+_filename: update-items-in-cart-on-profile-60e90bc8.yaml

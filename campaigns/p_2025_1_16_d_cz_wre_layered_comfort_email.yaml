@@ -1,0 +1,59 @@
+id: 30bbeb3c-06c7-4559-a01e-d4a6c5713e35
+name: P_2025_1_16_D_CZ_WRE_Layered_Comfort_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 30bbeb3c-06c7-4559-a01e-d4a6c5713e35
+dates:
+  send_date: '2025-01-16'
+  inferred_send_type: local_time
+  first_sent: '2025-01-16T00:15:52+00:00'
+  last_sent: '2025-01-16T17:01:44+00:00'
+tags: []
+sends:
+- id: 1f8b5caf-2a0e-4452-8a62-e2ed85176afa
+  channel: email
+  name: Variant 1
+  subject: 20% Off Cozy Comforts
+  preheader: Layer up during The Winter Retreat Event.
+  html_file: html/p_2025_1_16_d_cz_wre_layered_comfort_email.html
+  screenshot: screenshots/p_2025_1_16_d_cz_wre_layered_comfort_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6787e08fae3c9e0065583e66/original.jpg?1736958095
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6787dff95cb74400669da811/original.jpg?1736957945
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6787e235ca71ad006610de0b/original.jpg?1736958516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6787e03939a2df0065575381/original.jpg?1736958008
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6787df5d2bb6470064ee5563/original.jpg?1736957789
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6787e285f852ed007341553b/original.jpg?1736958597
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6787e698e350140073ee685c/original.jpg?1736959640
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6787e7058dc51c00657497ba/original.jpg?1736959748
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6787e6e6ca71ad006610e4fa/original.jpg?1736959718
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6787e0195cb74400669da85e/original.jpg?1736957977
+- id: 2c5bde59-a86f-42fc-9002-18c744c279b8
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 94829
+  total_delivered: 94130
+  total_opens: 45647
+  total_clicks: 637
+  open_rate: 0.4814
+  click_rate: 0.0067
+  total_revenue: 57682.13
+  total_bounces: 5
+  total_unsubscribes: 140
+  ga4:
+    sessions: 835
+    purchases: 11
+    revenue: 3592.49
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.270483'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.699078'
+schedule_type: time_based

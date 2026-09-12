@@ -1,0 +1,35 @@
+id: 4b3d964b-6e3d-4e74-8b9d-84404ec1dbf7
+name: 2025_03_31_HAV_Conv_D_Birthday_Sale_Last_Chance_PM
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 4b3d964b-6e3d-4e74-8b9d-84404ec1dbf7
+dates:
+  send_date: '2025-03-31'
+  first_sent: '2025-03-31T02:06:58+00:00'
+  last_sent: '2025-04-01T02:00:56+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: b7373ac7-198b-4e87-949e-97ccfa639c86
+  channel: email
+  name: Variant 1
+  subject: Only. Hours. Left.
+  preheader: Shop up to 20% off sitewide before it’s too late!
+- id: ddee8ca2-986e-4a31-8e5a-9e3acecfed39
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 39352
+  total_delivered: 39284
+  total_opens: 21414
+  total_clicks: 148
+  open_rate: 0.5442
+  click_rate: 0.0038
+  total_bounces: 1
+  total_unsubscribes: 38
+schedule_type: time_based
+_filename: 2025_03_31_hav_conv_d_birthday_sale_last_chance_pm.yaml

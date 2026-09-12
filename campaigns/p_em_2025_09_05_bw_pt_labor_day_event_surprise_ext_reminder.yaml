@@ -1,0 +1,36 @@
+id: c34e5a51-d8c4-454e-ad95-fd7ffa255a38
+name: P_EM_2025_09_05_BW_PT_Labor_Day_Event_Surprise_Ext_Reminder
+brand: BUR
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: c34e5a51-d8c4-454e-ad95-fd7ffa255a38
+dates:
+  send_date: '2025-09-05'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-05T04:17:50+00:00'
+  last_sent: '2025-09-05T17:16:45+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: ba5d1357-ec9d-4f46-a363-b9fc60fef341
+  channel: email
+  name: Variant 1
+  subject: Wait... the sale is back on?
+  preheader: You heard that right.
+- id: 3d56b253-536e-4a8f-a0d7-d4e457c6d091
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 194929
+  total_delivered: 193764
+  total_opens: 114258
+  total_clicks: 405
+  open_rate: 0.5862
+  click_rate: 0.0021
+  total_revenue: 25002.0
+  total_bounces: 6
+  total_unsubscribes: 242
+_filename: p_em_2025_09_05_bw_pt_labor_day_event_surprise_ext_reminder.yaml
+schedule_type: time_based

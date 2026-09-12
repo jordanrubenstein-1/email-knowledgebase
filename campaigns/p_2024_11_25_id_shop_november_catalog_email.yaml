@@ -1,0 +1,62 @@
+id: f53acd96-fddd-4575-ac78-7f67c6574606
+name: P_2024_11_25_ID_Shop_November_Catalog_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: f53acd96-fddd-4575-ac78-7f67c6574606
+dates:
+  send_date: '2024-11-25'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-25T05:11:39+00:00'
+  last_sent: '2024-11-25T17:15:08+00:00'
+tags: []
+sends:
+- id: 55d1a3d9-2d12-41de-87eb-8c5ba24c1de9
+  channel: email
+  name: Variant 1
+  subject: 'NEW: The November 2024 Catalog'
+  preheader: Shop the latest, all up to 25% off.
+- id: d71e4375-7b64-4647-9318-6683ac6ae284
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 72799
+  total_delivered: 72183
+  total_opens: 23848
+  total_clicks: 830
+  open_rate: 0.3276
+  click_rate: 0.0114
+  total_revenue: 448084.75
+  total_bounces: 1
+  total_unsubscribes: 144
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.415813'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-03'
+    discount: null
+    type: null
+  primary_sale:
+    id: id-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-03'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:34.916375'
+schedule_type: time_based

@@ -1,0 +1,38 @@
+id: 2037984c-a6f8-4926-bb1a-9c0b81c7d34f
+name: TRG_EM_2024_08_ID_D_Cart_Abandon_T4_V3
+brand: ID
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 90ff3c97-7866-46d1-b1df-1a97c60ef691
+canvas_name: Cart Abandon - Cart Viewed
+flow_type: cart_abandonment
+sequence_position: 4
+subject: 'Still thinking about it? '
+preheader: 'Bring it home today
+
+  '
+sends:
+- id: 2037984c-a6f8-4926-bb1a-9c0b81c7d34f
+  channel: email
+  name: TRG_EM_2024_08_ID_D_Cart_Abandon_T4_V3
+  subject: 'Still thinking about it? '
+  preheader: 'Bring it home today
+
+    '
+  html_file: html/canvas-cart-abandon-cart-viewed-t4-2037984c.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-12-10T05:00:00Z'
+  last_sent: '2026-09-07T13:00:00Z'
+performance_summary:
+  total_sends: 25434
+  total_delivered: 25249
+  total_opens: 13635
+  total_clicks: 461
+  open_rate: 0.5361
+  click_rate: 0.0181
+  total_unsubscribes: 82
+  total_bounces: 1
+  total_revenue: 216310.95

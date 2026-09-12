@@ -1,0 +1,38 @@
+id: 9a5d2728-d75b-4fea-bcdc-0e7a1f86cae8
+name: P_2025_4_19_CZ_Bedding_Essentials_SMS
+brand: CZ
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: 9a5d2728-d75b-4fea-bcdc-0e7a1f86cae8
+dates:
+  send_date: '2025-04-19'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-19T20:04:41+00:00'
+  last_sent: '2025-04-19T20:05:39+00:00'
+tags: []
+sends:
+- id: a1506624-e881-4fdf-824f-7fb53d2bc62e
+  channel: other
+  name: Variant 1
+- id: 10763d2b-88dd-4e34-9770-860baa3fa8bc
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 24393
+  total_delivered: 23786
+  total_opens: 0
+  total_clicks: 347
+  open_rate: 0.0
+  click_rate: 0.0142
+  total_revenue: 14426.17
+  ga4:
+    sessions: 485
+    purchases: 6
+    revenue: 2096.15
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.865763'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

@@ -1,0 +1,35 @@
+id: 504c5764-2388-4004-a3db-57c807bba2b0
+name: P_EM_2025_08_12_HAV_PC_D_Labor_Day_Event_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 504c5764-2388-4004-a3db-57c807bba2b0
+dates:
+  send_date: '2025-08-12'
+  first_sent: '2025-08-12T06:08:07+00:00'
+  last_sent: '2025-08-12T18:15:07+00:00'
+  inferred_send_type: scheduled
+tags:
+- BLASTS-2025
+sends:
+- id: 1bbb2ca3-663f-4cbb-ba43-3e16b285e3ad
+  channel: email
+  name: Variant 1
+  subject: 'Now: 50% off interior design services'
+  preheader: 'Later: the best Labor Day deals on your design items'
+- id: b804f4dd-fe1c-44f0-9321-12a8ef23e737
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 223252
+  total_delivered: 222722
+  total_opens: 94159
+  total_clicks: 323
+  open_rate: 0.4218
+  click_rate: 0.0014
+  total_bounces: 19
+  total_unsubscribes: 619
+schedule_type: time_based
+_filename: p_em_2025_08_12_hav_pc_d_labor_day_event_reminder.yaml

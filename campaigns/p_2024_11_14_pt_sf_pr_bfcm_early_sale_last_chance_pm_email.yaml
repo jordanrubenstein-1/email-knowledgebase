@@ -1,0 +1,36 @@
+id: 3a831c57-a9cf-4588-b98e-2295d4cc6380
+name: P_2024_11_14_PT_SF_PR_BFCM_Early_Sale_Last_Chance_PM_Email
+brand: STF
+channel: email
+category: reminder
+type: sale
+theme: black_friday
+braze_id: 3a831c57-a9cf-4588-b98e-2295d4cc6380
+dates:
+  send_date: '2024-11-14'
+  inferred_send_type: local_time
+  first_sent: '2024-11-14T03:08:05+00:00'
+  last_sent: '2024-11-15T00:00:22+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: 3f6f7180-6637-47f7-ad19-de6adf0222d1
+  channel: email
+  name: Variant 1
+  subject: 'Ends at midnight: Black Friday Early Access'
+  html_file: html/p_2024_11_14_pt_sf_pr_bfcm_early_sale_last_chance_pm_email.html
+  screenshot: screenshots/p_2024_11_14_pt_sf_pr_bfcm_early_sale_last_chance_pm_email.png
+- id: 4c8eee33-26d5-43a2-9909-ad38421fd1a7
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 8546
+  total_delivered: 8521
+  total_opens: 2945
+  total_clicks: 170
+  open_rate: 0.3446
+  click_rate: 0.0199
+  total_revenue: 19101.15
+  total_unsubscribes: 8
+_filename: p_2024_11_14_pt_sf_pr_bfcm_early_sale_last_chance_pm_email.yaml
+schedule_type: time_based

@@ -1,0 +1,60 @@
+id: 6361b284-fb5e-45a4-afef-c372d18d5832
+name: P_2024_11_13_PT_ID_HopeKids_Event_Reminder_Email
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 6361b284-fb5e-45a4-afef-c372d18d5832
+dates:
+  send_date: '2024-11-13'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-14T00:08:29+00:00'
+  last_sent: '2024-11-14T00:08:53+00:00'
+tags: []
+sends:
+- id: d8394874-5776-435e-851a-9b61af016962
+  channel: email
+  name: Variant 1
+  subject: 'Don''t forget: kick off the holidays with us this Saturday!'
+- id: 0cc43106-4b70-4acb-8db3-417c00e72501
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 802
+  total_delivered: 799
+  total_opens: 357
+  total_clicks: 7
+  open_rate: 0.4451
+  click_rate: 0.0087
+  total_revenue: 1095.0
+  total_unsubscribes: 1
+  ga4:
+    sessions: 2
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.179127'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-vip-early-access-2024-11-12
+    name: VIP Early Access
+    start_date: '2024-11-12'
+    end_date: '2024-11-14'
+    discount: null
+    type: null
+  primary_sale:
+    id: id-vip-early-access-2024-11-12
+    name: VIP Early Access
+    start_date: '2024-11-12'
+    end_date: '2024-11-14'
+    discount: null
+    type: null
+  sale_name: VIP Early Access
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:43.693037'
+schedule_type: time_based

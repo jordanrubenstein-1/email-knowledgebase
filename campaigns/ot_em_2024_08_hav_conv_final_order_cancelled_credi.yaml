@@ -1,0 +1,41 @@
+id: c4909617-a46e-7fb6-6398-06060e875792
+name: OT_EM_2024_08_HAV_CONV_Final_Order_Cancelled_Credited
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: c4909617-a46e-7fb6-6398-06060e875792
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-23T16:00:00+00:00'
+  last_sent: '2026-02-10T23:00:00+00:00'
+tags: []
+sends:
+- id: 9e86c659-a9cd-48fc-8890-58f37e73667e
+  channel: email
+  name: Variant 1
+  subject: 'Havenly Order {{api_trigger_properties.${order}.orderNumber}}: Credit
+    Issued'
+  preheader: Discover alternative options for your out-of-stock item!
+  html_file: html/ot_em_2024_08_hav_conv_final_order_cancelled_credited.html
+  screenshot: screenshots/ot_em_2024_08_hav_conv_final_order_cancelled_credited.png
+- id: 77a698b0-7f84-4f0c-84fd-d587c1673baa
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 121
+  total_delivered: 121
+  total_opens: 107
+  total_clicks: 8
+  open_rate: 0.8843
+  click_rate: 0.0661
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.402122'
+    source: snowflake
+    channel: email
+schedule_type: api_triggered

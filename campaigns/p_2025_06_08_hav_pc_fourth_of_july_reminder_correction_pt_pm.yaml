@@ -1,0 +1,35 @@
+id: 11ded510-d6dc-4cc6-8ee6-91f365dae221
+name: P_2025_06_08_HAV_PC_Fourth_of_July_Reminder_Correction_PT_PM
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 11ded510-d6dc-4cc6-8ee6-91f365dae221
+dates:
+  send_date: '2025-06-08'
+  first_sent: '2025-06-08T16:00:04+00:00'
+  last_sent: '2025-06-08T16:06:34+00:00'
+  inferred_send_type: scheduled
+tags:
+- BLASTS-2025
+sends:
+- id: 7e036a78-e332-4f43-8e6b-d107293e2bea
+  channel: email
+  name: Variant 1
+  subject: Oops!
+  preheader: We made a mistake in our last email
+- id: 272a9e2f-e447-49e9-959e-e1deab9ba925
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 222030
+  total_delivered: 218860
+  total_opens: 99959
+  total_clicks: 568
+  open_rate: 0.4502
+  click_rate: 0.0026
+  total_bounces: 2
+  total_unsubscribes: 516
+schedule_type: time_based
+_filename: p_2025_06_08_hav_pc_fourth_of_july_reminder_correction_pt_pm.yaml

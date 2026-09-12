@@ -1,0 +1,60 @@
+id: 0b5eb70c-b169-427e-ac1a-980180c5d339
+name: P_EM_2025_12_13_CZ_D_PR_Back_in_Stock
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 0b5eb70c-b169-427e-ac1a-980180c5d339
+dates:
+  send_date: '2025-12-13'
+  inferred_send_type: local_time
+  first_sent: '2025-12-12T17:28:48+00:00'
+  last_sent: '2025-12-13T17:16:17+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- instock
+sends:
+- id: 1313a100-2331-413e-8702-196948cca2cb
+  channel: email
+  name: Variant 1
+  subject: Handcrafted and holiday-ready
+  preheader: Back-in-stock favorites that arrive by Christmas.
+  html_file: html/p_em_2025_12_13_cz_d_pr_back_in_stock.html
+  screenshot: screenshots/p_em_2025_12_13_cz_d_pr_back_in_stock.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/693c4165bea48d0063dd3a62/original.png?1765556580
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/693c417353f5ca007143dd7f/original.png?1765556595
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/693c418583cb3f0063305111/original.png?1765556613
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/693c417c0ea2810063f473e3/original.png?1765556604
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/693c419683cb3f006330513b/original.png?1765556630
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/693c414e1a2b2c00630e966a/original.png?1765556557
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/693c418c6d3f210063d2391b/original.png?1765556620
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/693c41bc8391cb00744e145c/original.png?1765556667
+- id: 43ddc525-388c-48d0-829f-afd4baf57293
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 57608
+  total_delivered: 57531
+  total_opens: 29518
+  total_clicks: 762
+  open_rate: 0.5124
+  click_rate: 0.0132
+  total_unsubscribes: 105
+  ga4:
+    sessions: 706
+    purchases: 2
+    revenue: 676.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.122853'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.353656'
+schedule_type: time_based

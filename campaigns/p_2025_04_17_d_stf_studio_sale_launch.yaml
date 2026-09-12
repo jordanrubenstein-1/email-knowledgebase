@@ -1,0 +1,53 @@
+id: 97373129-3243-411d-b9a2-25f5e53c76ac
+name: P_2025_04_17_D_STF_Studio_Sale_Launch
+brand: STF
+channel: email
+category: product_launch
+type: sale
+theme: null
+braze_id: 97373129-3243-411d-b9a2-25f5e53c76ac
+dates:
+  send_date: '2025-04-17'
+  inferred_send_type: local_time
+  first_sent: '2025-04-16T22:36:42+00:00'
+  last_sent: '2025-04-17T17:00:30+00:00'
+tags: []
+sends:
+- id: c560df12-86c1-4bfa-aba1-8474ad57fb2d
+  channel: email
+  name: Variant 1
+  subject: 'IT’S ON: Up To 25% Off'
+  preheader: shop our Studio Sale now
+  html_file: html/p_2025_04_17_d_stf_studio_sale_launch.html
+  screenshot: screenshots/p_2025_04_17_d_stf_studio_sale_launch.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/680013dccb475f0063781f01/original.png?1744835548
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/680013cdb19ba20064a8bf0d/original.gif?1744835533
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/680013f9cb475f0063781f86/original.png?1744835577
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/680013ebb19ba20064a8c0d6/original.png?1744835562
+- id: a29b3d89-8775-4c5e-ba33-28782aca6cea
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 11754
+  total_delivered: 11627
+  total_opens: 6553
+  total_clicks: 181
+  open_rate: 0.5575
+  click_rate: 0.0154
+  total_revenue: 3481.0
+  total_unsubscribes: 17
+  ga4:
+    sessions: 219
+    purchases: 3
+    revenue: 856.6
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.803764'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.547502'
+schedule_type: time_based

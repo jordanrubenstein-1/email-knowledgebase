@@ -1,0 +1,75 @@
+id: 01634c17-e22f-45db-a80a-b40f93413c8b
+name: P_2024_11_12_D_SF_PR_BFCM_Early_Access_Email
+brand: STF
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: 01634c17-e22f-45db-a80a-b40f93413c8b
+dates:
+  send_date: '2024-11-12'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-12T00:15:36+00:00'
+  last_sent: '2024-11-12T15:00:33+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: 17692541-f444-40eb-812e-df7d49656225
+  channel: email
+  name: Variant 1
+  subject: Finally. VIP Early Access starts now
+  preheader: first dibs on up to 35% off for Black Friday VIP Early Access
+  html_file: html/p_2024_11_12_d_sf_pr_bfcm_early_access_email.html
+  screenshot: screenshots/p_2024_11_12_d_sf_pr_bfcm_early_access_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67323a7d5fda0b006456249b/original.gif?1731345021
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67323a414180570081c1422f/original.gif?1731344961
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67323aac3e12d0006590d3e9/original.jpg?1731345068
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67323a5a4180570063c14d39/original.gif?1731344986
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67323a2f8be85800669bfe5b/original.jpg?1731344942
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67323a4c8be85800669bff19/original.gif?1731344972
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67323a095fda0b0064562362/original.gif?1731344905
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67323a89f678ac0066d01e06/original.gif?1731345033
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67323abbb480bb006442231d/original.gif?1731345083
+- id: c41055ff-fcab-4e90-89bd-8adaff27684c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 8564
+  total_delivered: 8511
+  total_opens: 2912
+  total_clicks: 209
+  open_rate: 0.34
+  click_rate: 0.0244
+  total_revenue: 25561.25
+  total_unsubscribes: 5
+  ga4:
+    sessions: 353
+    purchases: 9
+    revenue: 3014.78
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.774492'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-early-access-2024-11-12
+    name: Early Access
+    start_date: '2024-11-12'
+    end_date: '2024-11-14'
+    discount: null
+    type: null
+  primary_sale:
+    id: stf-early-access-2024-11-12
+    name: Early Access
+    start_date: '2024-11-12'
+    end_date: '2024-11-14'
+    discount: null
+    type: null
+  sale_name: Early Access
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:33.692077'
+schedule_type: time_based

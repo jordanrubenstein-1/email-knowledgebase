@@ -1,0 +1,35 @@
+id: 3457808c-ec7c-486f-9e8b-d1cfac90dcf0
+name: P_EM_2026_05_21_HAV_PC_D_Memorial_Day_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 3457808c-ec7c-486f-9e8b-d1cfac90dcf0
+dates:
+  send_date: '2026-05-21'
+  first_sent: '2026-05-20T11:08:29+00:00'
+  last_sent: '2026-05-22T09:30:54+00:00'
+  inferred_send_type: sto
+tags:
+- BLASTS-2025
+sends:
+- id: a62e94ea-4c0a-4a0b-8c63-6ce82b218681
+  channel: email
+  name: Variant 1
+  subject: The countdown to your summer refresh is on
+  preheader: 50% off ends soon—book your designer now.
+- id: 7a5486fc-4afb-45e1-b268-9165ff204059
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 67901
+  total_delivered: 67663
+  total_opens: 27527
+  total_clicks: 282
+  open_rate: 0.4054
+  click_rate: 0.0042
+  total_bounces: 1
+  total_unsubscribes: 138
+schedule_type: time_based
+_filename: p_em_2026_05_21_hav_pc_d_memorial_day_sale_reminder.yaml

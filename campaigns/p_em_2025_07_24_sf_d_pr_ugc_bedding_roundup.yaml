@@ -1,0 +1,51 @@
+id: f673bf80-838f-45a8-9555-22f0495f5dde
+name: P_EM_2025_07_24_SF_D_PR_UGC_Bedding_Roundup
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: f673bf80-838f-45a8-9555-22f0495f5dde
+dates:
+  send_date: '2025-07-24'
+  inferred_send_type: scheduled
+  first_sent: '2025-07-24T05:08:57+00:00'
+  last_sent: '2025-07-24T17:00:37+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- ugc
+sends:
+- id: 2dcbb0ca-e6c0-44d5-8719-e011ba7c297d
+  channel: email
+  name: Variant 1
+  subject: Get In Bed
+  preheader: bold bedrooms, styled by you
+- id: 752f1b48-0e70-4ac5-8049-eedff2888cd0
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 42909
+  total_delivered: 42396
+  total_opens: 18835
+  total_clicks: 276
+  open_rate: 0.439
+  click_rate: 0.0064
+  total_revenue: 12585.0
+  total_bounces: 1
+  total_unsubscribes: 92
+  ga4:
+    sessions: 319
+    purchases: 2
+    revenue: 1209.39
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.110000'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.550845'
+schedule_type: time_based

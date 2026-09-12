@@ -1,0 +1,46 @@
+id: bb831a63-edbc-4722-a16e-3d61803babbe
+name: P_2025_1_31_D_ID_PR_Friday_Retail_Send_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: bb831a63-edbc-4722-a16e-3d61803babbe
+dates:
+  send_date: '2025-01-31'
+  inferred_send_type: local_time
+  first_sent: '2025-01-30T17:22:38+00:00'
+  last_sent: '2025-01-31T17:15:08+00:00'
+tags: []
+sends:
+- id: 62474083-9f81-43bb-82c4-a713cd44b1e0
+  channel: email
+  name: Variant 1
+  subject: Secure Your Spot
+  preheader: RSVP for Design Services Before They're Gone!
+- id: edfda390-c784-4e7e-b8a2-bd3685b20c2a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 105045
+  total_delivered: 103964
+  total_opens: 28019
+  total_clicks: 314
+  open_rate: 0.2667
+  click_rate: 0.003
+  total_revenue: 139842.0
+  total_bounces: 2
+  total_unsubscribes: 100
+  ga4:
+    sessions: 366
+    purchases: 1
+    revenue: 10676.1
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.896509'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.472716'
+schedule_type: time_based

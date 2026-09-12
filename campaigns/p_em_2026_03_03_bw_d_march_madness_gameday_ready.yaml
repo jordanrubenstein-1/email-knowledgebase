@@ -1,0 +1,35 @@
+id: b726093f-f7f5-46b0-8e7d-ec0a029c7743
+name: P_EM_2026_03_03_BW_D_March_Madness_Gameday_Ready
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: b726093f-f7f5-46b0-8e7d-ec0a029c7743
+dates:
+  send_date: '2026-03-03'
+  inferred_send_type: scheduled
+  first_sent: '2026-03-03T04:00:15+00:00'
+  last_sent: '2026-03-03T17:17:43+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: c49db5fb-af0b-428b-bcb1-a480559443ad
+  channel: email
+  name: Variant 1
+  subject: Your March Madness Setup
+  preheader: 25% off while the Flash Sale lasts.
+- id: 3f460989-ac2d-4ad1-88a2-db6a8855184c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 232730
+  total_delivered: 231670
+  total_opens: 123711
+  total_clicks: 274
+  open_rate: 0.5316
+  click_rate: 0.0012
+  total_revenue: 34144.0
+  total_bounces: 4
+  total_unsubscribes: 302
+schedule_type: time_based

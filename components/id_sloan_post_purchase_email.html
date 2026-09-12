@@ -1,0 +1,280 @@
+{% comment %}
+  Sloan Post-Purchase — "Meet the family" cross-sell email
+  Canvas entry properties: products[0].sku, products[0].variant
+  Liquid module source: docs/id_rec_modules/sloan_post_purchase_rec_module.liquid
+  Only renders when col == "SLON"; non-Sloan purchases are no-ops.
+{% endcomment %}
+
+{% assign sku     = canvas_entry_properties.${products}[0].sku     | default: "" %}
+{% assign variant = canvas_entry_properties.${products}[0].variant | default: "" %}
+{% assign sku_parts    = sku | split: "." %}
+{% assign col          = sku_parts[0] %}
+{% assign options_str  = variant | remove_first: sku | remove_first: "-" %}
+{% assign option_parts = options_str | split: "-" %}
+{% assign color        = option_parts[0] | append: "-" | append: option_parts[1] %}
+
+{% assign legs = "" %}
+{% for i in (0..15) %}
+  {% assign _part = option_parts[i] %}
+  {% if _part contains "Leg" and legs == "" %}
+    {% assign _next = i | plus: 1 %}
+    {% assign legs = _part | append: "-" | append: option_parts[_next] | upcase %}
+  {% endif %}
+{% endfor %}
+{% if legs == "" %}{% assign legs = "LEG001-1" %}{% endif %}
+
+{% if col == "SLON" %}
+  {% if legs == "LEG001-1" or legs == "LEG002-4" or legs == "LEG014-3" or legs == "LEG016-1" %}
+    {% assign sleeper_leg = "LEG007-1" %}
+  {% elsif legs == "LEG001-3" or legs == "LEG002-3" or legs == "LEG008-2" or legs == "LEG014-2" or legs == "LEG016-3" or legs == "LEG009-3" %}
+    {% assign sleeper_leg = "LEG007-3" %}
+  {% else %}
+    {% assign sleeper_leg = "LEG007-2" %}
+  {% endif %}
+  {% if color == "CB-158" or color == "CW-002" or color == "I-73338-101" or color == "I-73338-107" or color == "OTE-SURREY-2" or color == "PER-001" or color == "PER-029" or color == "WH-004" %}
+    {% assign sleeper_fabric = "MER-002" %}
+  {% else %}
+    {% assign sleeper_fabric = color %}
+  {% endif %}
+  {% if legs == "LEG016-2" %}
+    {% assign leather_leg = "LEG001-2" %}
+  {% else %}
+    {% assign leather_leg = legs %}
+  {% endif %}
+  {% if color == "HS-002" or color == "WH-002" or color == "WH-003" or color == "WH-004" %}
+    {% assign chaise_fabric = "MER-002" %}
+  {% else %}
+    {% assign chaise_fabric = color %}
+  {% endif %}
+  {% assign _cyl = "https://content.cylindo.com/api/v2/4472/products/" %}
+  {% assign img_sleeper = _cyl | append: "SLON.FABRIC.SOFA.SLEEPR/frames/1/SLON.FABRIC.SOFA.SLEEPR.png?background=FFFFFF&feature=COLOR:" | append: sleeper_fabric | append: "&feature=CUSHIONS:CUSHION-2&feature=FINISH:" | append: sleeper_leg %}
+  {% assign img_leather = _cyl | append: "SLON.LEATHR.SOFA.STNDRD/frames/1/SLON.LEATHR.SOFA.STNDRD.png?background=FFFFFF&feature=COLOR:2210A&feature=DEPTH:DEPTH-36&feature=FINISH:" | append: leather_leg | append: "&feature=CUSHIONS:CUSHION-2" %}
+  {% assign img_ottoman = _cyl | append: "SLON.FABRIC.OTTO.STNDRD/frames/1/SLON.FABRIC.OTTO.STNDRD.png?background=FFFFFF&feature=FINISH:" | append: legs | append: "&feature=COLOR:" | append: color %}
+  {% assign img_chaise  = _cyl | append: "SLON.FABRIC.CHSE.CHAISE/frames/1/SLON.FABRIC.CHSE.CHAISE.png?background=FFFFFF&feature=COLOR:" | append: chaise_fabric | append: "&feature=CHAISE%20LENGTH:CHAISE-63&feature=FINISH:" | append: legs %}
+  {% assign url_sleeper = "https://www.interiordefine.com/sloan-custom-sleeper-sofa" %}
+  {% assign url_leather = "https://www.interiordefine.com/sloan-leather-custom-sofa" %}
+  {% assign url_ottoman = "https://www.interiordefine.com/sloan-custom-ottoman" %}
+  {% assign url_chaise  = "https://www.interiordefine.com/sloan-custom-chaise-lounge" %}
+{% endif %}
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="x-apple-disable-message-reformatting">
+  <meta name="format-detection" content="telephone=no, date=no, address=no, email=no, url=no">
+  <title>Interior Define — The Sloan Collection</title>
+  <!--[if mso]>
+  <noscript><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml></noscript>
+  <![endif]-->
+  <!--[if gte mso 9]>
+  <style>
+    a:link    { mso-style-priority:99; color:inherit; }
+    a:visited { mso-style-priority:99; color:inherit; }
+    table, td, p, div, span, a { mso-hyphenate:none; }
+    sup, sub { font-size:100% !important; }
+  </style>
+  <![endif]-->
+  <style type="text/css">
+    /* --- Client resets --- */
+    body, table, td, a { -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
+    table, td { mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse; }
+    img { -ms-interpolation-mode:bicubic; border:0; display:block; height:auto; line-height:100%; outline:none; text-decoration:none; }
+    a { color:#1871D8; }
+    /* Prevent blue links on iOS */
+    a[x-apple-data-detectors] { color:inherit !important; text-decoration:none !important; }
+    u + .body-wrap a { color:inherit !important; text-decoration:none !important; }
+    #MessageViewBody a { color:inherit !important; text-decoration:none !important; }
+
+    /* --- Base --- */
+    body { margin:0 !important; padding:0 !important; background-color:#f0f0f0; }
+
+    /* --- Mobile --- */
+    @media screen and (max-width:620px) {
+      /* Outer wrapper: remove vertical padding on mobile */
+      .outer-pad { padding:0 !important; }
+      /* Header / hero / footer padding: tighten horizontally */
+      .pad-hz    { padding-left:20px !important; padding-right:20px !important; }
+      /* See everything bar */
+      .see-all-l { padding:16px 20px !important; }
+      .see-all-r { padding:16px 20px 16px 0 !important; }
+      /* Product cell text padding */
+      .cell-text { padding:12px 12px 16px !important; }
+    }
+  </style>
+</head>
+
+<body class="body-wrap" style="margin:0; padding:0; background-color:#f0f0f0;">
+
+  <!-- Preheader -->
+  <div style="display:none; max-height:0; overflow:hidden; mso-hide:all; font-size:1px; line-height:1px; color:#f0f0f0;">You chose the Sloan. Now meet the rest of the family — built to match, made to order.&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;</div>
+
+{% if col == "SLON" %}
+
+  <!-- Outer wrapper -->
+  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color:#f0f0f0;">
+    <tr>
+      <td align="center" class="outer-pad" style="padding:24px 10px;">
+
+        <!--[if mso]>
+        <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+        <tr><td>
+        <![endif]-->
+
+        <!-- Email container -->
+        <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center"
+               style="max-width:600px; width:100%; background-color:#ffffff; font-family:Arial,sans-serif; color:#101b24;">
+
+          <!-- ======================================================
+               HEADER
+               ====================================================== -->
+          <tr>
+            <td class="pad-hz" style="padding:22px 32px 20px; border-bottom:1px solid #e6e6e6;">
+              <a href="https://www.interiordefine.com/" style="text-decoration:none;">
+                <p style="margin:0; font-family:Arial,sans-serif; font-size:12px; font-weight:700; letter-spacing:4px; color:#101b24; text-transform:uppercase; mso-line-height-rule:exactly; line-height:16px;">INTERIOR DEFINE</p>
+              </a>
+            </td>
+          </tr>
+
+          <!-- ======================================================
+               HERO
+               ====================================================== -->
+          <tr>
+            <td class="pad-hz" style="padding:32px 32px 28px; border-bottom:1px solid #e6e6e6;">
+              <p style="margin:0 0 10px; font-family:Arial,sans-serif; font-size:10px; font-weight:700; letter-spacing:2.5px; color:#999999; text-transform:uppercase; mso-line-height-rule:exactly; line-height:14px;">THE SLOAN COLLECTION</p>
+              <h1 style="margin:0 0 16px; font-family:Arial,sans-serif; font-size:28px; font-weight:700; line-height:1.2; color:#101b24; mso-line-height-rule:exactly;">You chose well. Now meet the rest of the family.</h1>
+              <p style="margin:0; font-family:Arial,sans-serif; font-size:14px; line-height:1.6; color:#555555; mso-line-height-rule:exactly;">The Sloan collection is built to grow with your space &#8212; every piece made to order in the same fabric, the same finish, and the same exacting detail as the sofa on its way to you.</p>
+            </td>
+          </tr>
+
+          <!-- ======================================================
+               PRODUCT GRID  (2×2, 50/50, no stacking on mobile)
+               cellspacing="2" on #e8e8e8 bg creates the 2px gutters
+               ====================================================== -->
+          <tr>
+            <td style="padding:0; background-color:#e8e8e8; line-height:0; font-size:0;">
+
+              <table role="presentation" cellspacing="2" cellpadding="0" border="0" width="100%" bgcolor="#e8e8e8"
+                     style="background-color:#e8e8e8;">
+
+                <!-- ---- Row 1: Sleeper | Leather ---- -->
+                <tr>
+
+                  <!-- Slot 1: Sloan Sleeper -->
+                  <td width="50%" valign="top" bgcolor="#ffffff" style="background-color:#ffffff; vertical-align:top; line-height:normal; font-size:0;">
+                    <a href="{{ url_sleeper }}" style="display:block; line-height:0; font-size:0; text-decoration:none;" target="_blank">
+                      <img src="{{ img_sleeper }}" width="297" alt="Sloan Sleeper Sofa"
+                           style="display:block; width:100%; height:auto; background-color:#ebebeb;" />
+                    </a>
+                    <div class="cell-text" style="padding:14px 18px 20px; font-size:14px; line-height:normal;">
+                      <p style="margin:0 0 5px; font-family:Arial,sans-serif; font-size:9px; font-weight:700; letter-spacing:2px; color:#aaaaaa; text-transform:uppercase; mso-line-height-rule:exactly; line-height:13px;">SLOAN SLEEPER</p>
+                      <p style="margin:0 0 8px; font-family:Georgia,'Times New Roman',serif; font-size:14px; font-style:italic; font-weight:700; color:#101b24; mso-line-height-rule:exactly; line-height:1.3;">The room that does it all.</p>
+                      <p style="margin:0 0 12px; font-family:Arial,sans-serif; font-size:13px; line-height:1.5; color:#555555; mso-line-height-rule:exactly;">Same Sloan silhouette, queen bed inside. For the guest room that refuses to look like one.</p>
+                      <a href="{{ url_sleeper }}" style="font-family:Arial,sans-serif; font-size:13px; color:#1871D8; text-decoration:underline;" target="_blank">Shop the Sloan Sleeper &#8594;</a>
+                    </div>
+                  </td>
+
+                  <!-- Slot 2: Sloan Leather -->
+                  <td width="50%" valign="top" bgcolor="#ffffff" style="background-color:#ffffff; vertical-align:top; line-height:normal; font-size:0;">
+                    <a href="{{ url_leather }}" style="display:block; line-height:0; font-size:0; text-decoration:none;" target="_blank">
+                      <img src="{{ img_leather }}" width="297" alt="Sloan Leather Sofa"
+                           style="display:block; width:100%; height:auto; background-color:#ebebeb;" />
+                    </a>
+                    <div class="cell-text" style="padding:14px 18px 20px; font-size:14px; line-height:normal;">
+                      <p style="margin:0 0 5px; font-family:Arial,sans-serif; font-size:9px; font-weight:700; letter-spacing:2px; color:#aaaaaa; text-transform:uppercase; mso-line-height-rule:exactly; line-height:13px;">SLOAN LEATHER</p>
+                      <p style="margin:0 0 8px; font-family:Georgia,'Times New Roman',serif; font-size:14px; font-style:italic; font-weight:700; color:#101b24; mso-line-height-rule:exactly; line-height:1.3;">A different material. The same timeless lines.</p>
+                      <p style="margin:0 0 12px; font-family:Arial,sans-serif; font-size:13px; line-height:1.5; color:#555555; mso-line-height-rule:exactly;">The Sloan in leather &#8212; rich, considered, and built to last decades.</p>
+                      <a href="{{ url_leather }}" style="font-family:Arial,sans-serif; font-size:13px; color:#1871D8; text-decoration:underline;" target="_blank">Shop Sloan Leather &#8594;</a>
+                    </div>
+                  </td>
+
+                </tr>
+
+                <!-- ---- Row 2: Ottoman | Chaise ---- -->
+                <tr>
+
+                  <!-- Slot 3: Sloan Ottoman -->
+                  <td width="50%" valign="top" bgcolor="#ffffff" style="background-color:#ffffff; vertical-align:top; line-height:normal; font-size:0;">
+                    <a href="{{ url_ottoman }}" style="display:block; line-height:0; font-size:0; text-decoration:none;" target="_blank">
+                      <img src="{{ img_ottoman }}" width="297" alt="Sloan Ottoman"
+                           style="display:block; width:100%; height:auto; background-color:#ebebeb;" />
+                    </a>
+                    <div class="cell-text" style="padding:14px 18px 20px; font-size:14px; line-height:normal;">
+                      <p style="margin:0 0 5px; font-family:Arial,sans-serif; font-size:9px; font-weight:700; letter-spacing:2px; color:#aaaaaa; text-transform:uppercase; mso-line-height-rule:exactly; line-height:13px;">SLOAN OTTOMAN</p>
+                      <p style="margin:0 0 8px; font-family:Georgia,'Times New Roman',serif; font-size:14px; font-style:italic; font-weight:700; color:#101b24; mso-line-height-rule:exactly; line-height:1.3;">The piece that brings it together.</p>
+                      <p style="margin:0 0 12px; font-family:Arial,sans-serif; font-size:13px; line-height:1.5; color:#555555; mso-line-height-rule:exactly;">Built to match your sofa down to the fabric and finish. Use it as a footrest, coffee table, or extra seat.</p>
+                      <a href="{{ url_ottoman }}" style="font-family:Arial,sans-serif; font-size:13px; color:#1871D8; text-decoration:underline;" target="_blank">Shop the Sloan Ottoman &#8594;</a>
+                    </div>
+                  </td>
+
+                  <!-- Slot 4: Sloan Chaise -->
+                  <td width="50%" valign="top" bgcolor="#ffffff" style="background-color:#ffffff; vertical-align:top; line-height:normal; font-size:0;">
+                    <a href="{{ url_chaise }}" style="display:block; line-height:0; font-size:0; text-decoration:none;" target="_blank">
+                      <img src="{{ img_chaise }}" width="297" alt="Sloan Chaise Lounge"
+                           style="display:block; width:100%; height:auto; background-color:#ebebeb;" />
+                    </a>
+                    <div class="cell-text" style="padding:14px 18px 20px; font-size:14px; line-height:normal;">
+                      <p style="margin:0 0 5px; font-family:Arial,sans-serif; font-size:9px; font-weight:700; letter-spacing:2px; color:#aaaaaa; text-transform:uppercase; mso-line-height-rule:exactly; line-height:13px;">SLOAN CHAISE</p>
+                      <p style="margin:0 0 8px; font-family:Georgia,'Times New Roman',serif; font-size:14px; font-style:italic; font-weight:700; color:#101b24; mso-line-height-rule:exactly; line-height:1.3;">The finishing touch.</p>
+                      <p style="margin:0 0 12px; font-family:Arial,sans-serif; font-size:13px; line-height:1.5; color:#555555; mso-line-height-rule:exactly;">Attaches to any Sloan configuration &#8212; or stands alone. Either way, it completes the room.</p>
+                      <a href="{{ url_chaise }}" style="font-family:Arial,sans-serif; font-size:13px; color:#1871D8; text-decoration:underline;" target="_blank">Shop the Sloan Chaise &#8594;</a>
+                    </div>
+                  </td>
+
+                </tr>
+
+              </table>
+
+            </td>
+          </tr>
+
+          <!-- ======================================================
+               SEE EVERYTHING CTA BAR
+               ====================================================== -->
+          <tr>
+            <td style="border-top:1px solid #e6e6e6; border-bottom:1px solid #e6e6e6; padding:0;">
+              <a href="https://www.interiordefine.com/sloan" style="display:block; text-decoration:none;" target="_blank">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td class="see-all-l" style="padding:17px 32px; font-family:Arial,sans-serif; font-size:15px; font-weight:400; color:#101b24; mso-line-height-rule:exactly; line-height:20px;">See everything Sloan</td>
+                    <td class="see-all-r" style="padding:17px 32px 17px 0; font-family:Arial,sans-serif; font-size:15px; color:#101b24; text-align:right; white-space:nowrap; mso-line-height-rule:exactly; line-height:20px;">&#8594;</td>
+                  </tr>
+                </table>
+              </a>
+            </td>
+          </tr>
+
+          <!-- ======================================================
+               FOOTER
+               ====================================================== -->
+          <tr>
+            <td class="pad-hz" style="padding:20px 32px 24px; text-align:center; background-color:#ffffff;">
+              <p style="margin:0; font-family:Arial,sans-serif; font-size:9px; line-height:1.7; color:#aaaaaa; mso-line-height-rule:exactly;">
+                &#169; Interior Define &bull; 3200 Cherry Creek South Drive, Suite 210, Denver, CO 80209
+              </p>
+              <p style="margin:4px 0 0; font-family:Arial,sans-serif; font-size:9px; line-height:1.7; color:#aaaaaa; mso-line-height-rule:exactly;">
+                <a href="{{${set_user_to_unsubscribed_url}}}" style="color:#aaaaaa; text-decoration:underline;">Unsubscribe</a>
+                &nbsp;&bull;&nbsp;
+                <a href="https://www.interiordefine.com/pages/privacy-policy" style="color:#aaaaaa; text-decoration:underline;" target="_blank">Privacy Policy</a>
+              </p>
+            </td>
+          </tr>
+
+        </table>
+        <!-- End email container -->
+
+        <!--[if mso]>
+        </td></tr>
+        </table>
+        <![endif]-->
+
+      </td>
+    </tr>
+  </table>
+
+{% endif %}
+
+</body>
+</html>

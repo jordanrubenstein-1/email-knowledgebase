@@ -1,0 +1,43 @@
+id: 45ecca91-2574-404b-909c-1d0171b52ce7
+name: P_EM_2026_03_17_CZ_D_PR_Spring_Event_EA
+brand: CZ
+channel: email
+category: sale_promo
+type: seasonal
+theme: spring
+braze_id: 45ecca91-2574-404b-909c-1d0171b52ce7
+dates:
+  send_date: '2026-03-17'
+  inferred_send_type: local_time
+  first_sent: '2026-03-16T21:26:00+00:00'
+  last_sent: '2026-03-17T17:06:37+00:00'
+tags:
+- batch and blast
+- d2c
+- designed
+- pm
+- sale
+- sale/spring2026
+sends:
+- id: bb70987d-5a89-41a0-82c9-431e08ea7880
+  channel: email
+  name: Variant 1
+  subject: 'EARLY ACCESS: The Spring Event'
+  preheader: 'Exclusive first dibs, just for you. '
+  html_file: html/p_em_2026_03_17_cz_d_pr_spring_event_ea.html
+  screenshot: screenshots/p_em_2026_03_17_cz_d_pr_spring_event_ea.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b85b8720dc7500737e23ae/original.gif?1773689734
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b85bb84d5b140063ae2948/original.png?1773689783
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b85bb30985070063b04db3/original.png?1773689779
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b85bcd9a2a5c00738b31e8/original.png?1773689805
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b85ba8b52c680063ba1fb4/original.png?1773689768
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b85bad1d83260063394f56/original.png?1773689773
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b85ba40cf7d9006346907b/original.png?1773689763
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b85bbeaa091500635d7097/original.png?1773689789
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b85bd2b1ab6700638f7743/original.png?1773689810
+- id: a768b443-cbba-48bc-81df-5fe965979ef8
+  channel: email
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based

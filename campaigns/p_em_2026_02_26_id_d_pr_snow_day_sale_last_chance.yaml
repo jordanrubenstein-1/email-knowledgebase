@@ -1,0 +1,35 @@
+id: 34e523cf-9dc7-4362-b7ab-76af8515f867
+name: P_EM_2026_02_26_ID_D_PR_Snow_Day_Sale_Last_Chance
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 34e523cf-9dc7-4362-b7ab-76af8515f867
+dates:
+  send_date: '2026-02-26'
+  inferred_send_type: local_time
+  first_sent: '2026-02-25T20:21:28+00:00'
+  last_sent: '2026-02-26T18:04:01+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: aa58d791-ef60-4c07-bc07-176926ee8ae0
+  channel: email
+  name: Variant 1
+  subject: 'LAST CHANCE: Snow Day Flash Sale'
+  preheader: Up to 30% off. Shop before it’s gone.
+- id: 4a3669cc-06fe-424f-abf6-f906e1dc01c9
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 217120
+  total_delivered: 216282
+  total_opens: 92586
+  total_clicks: 1022
+  open_rate: 0.4264
+  click_rate: 0.0047
+  total_revenue: 248122.96
+  total_bounces: 5
+  total_unsubscribes: 433
+schedule_type: time_based

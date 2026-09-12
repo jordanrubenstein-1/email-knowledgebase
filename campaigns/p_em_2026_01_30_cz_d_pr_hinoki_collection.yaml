@@ -1,0 +1,48 @@
+id: 5cd2b289-bb5d-4387-894f-016ee28fe8ef
+name: P_EM_2026_01_30_CZ_D_PR_Hinoki_Collection
+brand: CZ
+channel: email
+category: product_launch
+type: announcement
+theme: null
+braze_id: 5cd2b289-bb5d-4387-894f-016ee28fe8ef
+dates:
+  send_date: '2026-01-30'
+  inferred_send_type: local_time
+  first_sent: '2026-01-30T02:09:59+00:00'
+  last_sent: '2026-01-31T02:03:53+00:00'
+tags:
+- am
+- batch and blast
+- collect
+- d2c
+- designed
+sends:
+- id: 67e70935-8a12-4bea-8795-a83df91663e9
+  channel: email
+  name: Variant 1
+  subject: Your Ticket To Japan
+  preheader: Bring home a sense of sanctuary.
+  html_file: html/p_em_2026_01_30_cz_d_pr_hinoki_collection.html
+  screenshot: screenshots/p_em_2026_01_30_cz_d_pr_hinoki_collection.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697a8bf7d693dc0063d159b1/original.png?1769638903
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697a8c2cf3b6a30063f40071/original.png?1769638955
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697a8c566ddc5f0063a916bb/original.png?1769638997
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697a8c395fb8470063a9f10c/original.png?1769638969
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697a8b9f5fb8470063a9efea/original.gif?1769638815
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697a8bdb91c55a006557719e/original.png?1769638875
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697a8bec3c6ec100634ed334/original.png?1769638892
+- id: 72c24bf5-fe7b-4cd4-b353-f7f8353a2b42
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 113307
+  total_delivered: 113143
+  total_opens: 57884
+  total_clicks: 1288
+  open_rate: 0.5109
+  click_rate: 0.0114
+  total_bounces: 3
+  total_unsubscribes: 140
+schedule_type: time_based

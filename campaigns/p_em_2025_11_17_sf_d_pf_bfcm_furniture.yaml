@@ -1,0 +1,92 @@
+id: 8e8cb699-eb34-4d3b-b071-ebadd7aecfe1
+name: P_EM_2025_11_17_SF_D_PF_BFCM_Furniture
+brand: STF
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: 8e8cb699-eb34-4d3b-b071-ebadd7aecfe1
+dates:
+  send_date: '2025-11-17'
+  inferred_send_type: local_time
+  first_sent: '2025-11-16T17:09:48+00:00'
+  last_sent: '2025-11-17T17:00:51+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: 6a1ad29c-6577-4a79-b419-17d0f249a6b1
+  channel: email
+  name: Variant 1
+  subject: 'Behind The Design: Studio by St Frank'
+  preheader: crafted with care in North Carolina
+  html_file: html/p_em_2025_11_17_sf_d_pf_bfcm_furniture.html
+  screenshot: screenshots/p_em_2025_11_17_sf_d_pf_bfcm_furniture.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691713bbe7a61e0064c92a0a/original.png?1763120059
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691713d6d6b00c00635b78ca/original.png?1763120085
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6917134b636a03006335e6ab/original.gif?1763119947
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6917140b517d8700651c4d10/original.png?1763120138
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69171413f35c1c00656fa4dc/original.png?1763120147
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69171442c7981800648c9f81/original.png?1763120193
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69171507db09260064f5b43f/original.png?1763120391
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6917143a2793450063b89663/original.png?1763120186
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691713cab2951000650149bc/original.png?1763120073
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691714f8d9030e00630da9c7/original.png?1763120375
+- id: 1e87822d-17b0-4181-aeaf-7b66df96d2ff
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39341
+  total_delivered: 39102
+  total_opens: 17166
+  total_clicks: 139
+  open_rate: 0.4363
+  click_rate: 0.0035
+  total_bounces: 1
+  total_unsubscribes: 66
+  ga4:
+    sessions: 120
+    purchases: 3
+    revenue: 1955.2
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.033669'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-black-friday-cyber-monday-2025-11-14
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-12'
+    end_date: '2025-12-02'
+    discount: 'Up to 30% Off Sitewide
+
+      30% off fabric + wallpaper + pillows
+
+      20% off everything else'
+    type: null
+  primary_sale:
+    id: stf-black-friday-cyber-monday-2025-11-14
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-12'
+    end_date: '2025-12-02'
+    discount: 'Up to 30% Off Sitewide
+
+      30% off fabric + wallpaper + pillows
+
+      20% off everything else'
+    type: null
+  sale_name: Black Friday / Cyber Monday
+  sale_discount: 'Up to 30% Off Sitewide
+
+    30% off fabric + wallpaper + pillows
+
+    20% off everything else'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:42.287330'
+schedule_type: time_based

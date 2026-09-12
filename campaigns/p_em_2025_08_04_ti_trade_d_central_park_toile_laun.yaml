@@ -1,0 +1,46 @@
+id: 8b4b43df-73bd-468b-949f-46697b8fa139
+name: P_EM_2025_08_04_TI_TRADE_D_Central_Park_Toile_Launch
+brand: TI
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 8b4b43df-73bd-468b-949f-46697b8fa139
+dates:
+  send_date: '2025-08-04'
+  inferred_send_type: local_time
+  first_sent: '2025-08-03T23:35:26+00:00'
+  last_sent: '2025-08-04T19:00:16+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 754fb169-0be7-4d83-abc0-03d945f99b51
+  channel: email
+  name: Variant 1
+  subject: 'NEW: Central Park Toile Is Here'
+  preheader: A love letter to picnic days and lazy afternoons.
+- id: 11ccb569-57a1-4514-b539-8ec3e80fbcac
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 19839
+  total_delivered: 19267
+  total_opens: 9969
+  total_clicks: 165
+  open_rate: 0.5025
+  click_rate: 0.0083
+  total_revenue: 80870.6
+  total_bounces: 6
+  total_unsubscribes: 75
+  ga4:
+    sessions: 177
+    purchases: 1
+    revenue: 57.48
+    attribution_window_days: 7
+    last_synced: '2026-04-17T14:56:53.464260'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-03-12T11:18:49.851656'

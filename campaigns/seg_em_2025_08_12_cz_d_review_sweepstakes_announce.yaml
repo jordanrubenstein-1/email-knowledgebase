@@ -1,0 +1,74 @@
+id: 93f2fb8a-941c-4849-9397-bfbc7b4d48b4
+name: SEG_EM_2025_08_12_CZ_D_Review_Sweepstakes_Announcement_2
+brand: CZ
+channel: email
+category: other
+type: product_launch
+theme: null
+braze_id: 93f2fb8a-941c-4849-9397-bfbc7b4d48b4
+dates:
+  send_date: '2025-08-12'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-12T22:17:37+00:00'
+  last_sent: '2025-08-12T22:18:05+00:00'
+tags:
+- am
+- d2c
+- designed
+- seg
+sends:
+- id: 8e58563a-2fd6-4c31-8b59-4b2a490454ca
+  channel: email
+  name: Variant 1
+  subject: 'Reminder: Win a $250 gift card'
+  preheader: We'd love to hear your thoughts.
+  html_file: html/seg_em_2025_08_12_cz_d_review_sweepstakes_announcement_2.html
+  screenshot: screenshots/seg_em_2025_08_12_cz_d_review_sweepstakes_announcement_2.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6893e05d76e2070072b64aea/original.png?1754521692
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6893e04aa71d1200745ac99c/original.png?1754521673
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6893e0879f19630080123552/original.png?1754521735
+- id: f1959698-617d-41cd-a71d-7d8df6da2f7b
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 6546
+  total_delivered: 6542
+  total_opens: 3752
+  total_clicks: 53
+  open_rate: 0.5732
+  click_rate: 0.0081
+  total_revenue: 5675.7
+  total_unsubscribes: 10
+  ga4:
+    sessions: 72
+    purchases: 1
+    revenue: 318.43
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.768510'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: Up to 65% Off Select Categories - Focus on Archive Sale and In Stock
+      Product
+    type: null
+  primary_sale:
+    id: cz-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: Up to 65% Off Select Categories - Focus on Archive Sale and In Stock
+      Product
+    type: null
+  sale_name: The Sunset Sale
+  sale_discount: Up to 65% Off Select Categories - Focus on Archive Sale and In Stock
+    Product
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:34.806519'
+schedule_type: time_based

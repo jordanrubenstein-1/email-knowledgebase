@@ -1,0 +1,27 @@
+id: 2e2d6db3-2487-443d-b6ba-6268b695885f
+name: SMS_Welcome_Step_1
+brand: CZ
+channel: sms
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: d12891ba-b3d3-440e-99a2-0a894576f667
+canvas_name: Back In Stock SMS
+flow_type: back_in_stock
+sequence_position: 3
+body: 'The Citizenry: You''re on the list! You now have access to new collections,
+  insider perks, & more. Discover our best sellers:
+
+  https://www.the-citizenry.com/collections/all-best-sellers?utm_source=braze_CZ&utm_medium=sms&utm_campaign={{campaign.${name}}}&userid={{${user_id}}}'
+sends:
+- id: 2e2d6db3-2487-443d-b6ba-6268b695885f
+  channel: sms
+  name: SMS_Welcome_Step_1
+  body: 'The Citizenry: You''re on the list! You now have access to new collections,
+    insider perks, & more. Discover our best sellers:
+
+    https://www.the-citizenry.com/collections/all-best-sellers?utm_source=braze_CZ&utm_medium=sms&utm_campaign={{campaign.${name}}}&userid={{${user_id}}}'
+dates:
+  first_sent: null
+  last_sent: null
+performance_summary: {}

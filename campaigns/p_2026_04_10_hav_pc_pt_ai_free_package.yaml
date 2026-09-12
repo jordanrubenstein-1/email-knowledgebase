@@ -1,0 +1,31 @@
+id: f3e57de6-9735-41bb-8cad-3bcf99a76baf
+name: P_2026_04_10_HAV_PC_PT_AI_Free_Package
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: f3e57de6-9735-41bb-8cad-3bcf99a76baf
+dates:
+  send_date: '2026-04-10'
+  first_sent: '2026-04-10T21:39:48+00:00'
+  last_sent: '2026-04-10T21:40:12+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: aa03c1d1-2bdf-43a6-89a0-42b0b7431bb2
+  channel: email
+  name: Variant 1
+  subject: '{{custom_attribute.${email_subject_line}}}'
+- id: 2579e85e-70a8-4c24-8fcc-08957543d355
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1
+  total_delivered: 1
+  total_opens: 1
+  total_clicks: 0
+  open_rate: 1.0
+  click_rate: 0.0
+schedule_type: time_based
+_filename: p_2026_04_10_hav_pc_pt_ai_free_package.yaml

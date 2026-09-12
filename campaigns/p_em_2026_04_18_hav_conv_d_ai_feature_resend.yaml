@@ -1,0 +1,35 @@
+id: bcdd53a2-e018-4886-840c-3701e01650dc
+name: P_EM_2026_04_18_HAV_CONV_D_AI_Feature_Resend
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: bcdd53a2-e018-4886-840c-3701e01650dc
+dates:
+  send_date: '2026-04-18'
+  first_sent: '2026-04-18T01:08:42+00:00'
+  last_sent: '2026-04-19T00:05:29+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: e86a4d4c-7fe2-409b-bff2-a98b38f652ae
+  channel: email
+  name: Variant 1
+  subject: AI That Knows Good Design
+  preheader: See how Havenly's AI tool transforms your space in seconds.
+- id: 5a44df73-c1e2-40a2-84ce-df1951167575
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 17306
+  total_delivered: 17296
+  total_opens: 8235
+  total_clicks: 75
+  open_rate: 0.4758
+  click_rate: 0.0043
+  total_bounces: 1
+  total_unsubscribes: 24
+schedule_type: time_based
+_filename: p_em_2026_04_18_hav_conv_d_ai_feature_resend.yaml

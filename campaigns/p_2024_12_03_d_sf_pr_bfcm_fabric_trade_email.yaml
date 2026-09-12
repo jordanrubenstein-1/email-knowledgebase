@@ -1,0 +1,74 @@
+id: 3c7dc755-9f19-4ef6-a9b2-1d26ecd732e3
+name: P_2024_12_03_D_SF_PR_BFCM_Fabric_Trade_Email
+brand: STF
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: 3c7dc755-9f19-4ef6-a9b2-1d26ecd732e3
+dates:
+  send_date: '2024-12-03'
+  inferred_send_type: local_time
+  first_sent: '2024-12-03T00:06:16+00:00'
+  last_sent: '2024-12-03T19:00:04+00:00'
+tags: []
+sends:
+- id: 6449ad9a-829b-40b0-b29c-e021e9eecc89
+  channel: email
+  name: Variant 1
+  subject: 'Trade VIPs: 40% Off Bold Fabric'
+  preheader: get the best deals during Cyber Week
+  html_file: html/p_2024_12_03_d_sf_pr_bfcm_fabric_trade_email.html
+  screenshot: screenshots/p_2024_12_03_d_sf_pr_bfcm_fabric_trade_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6740adcef3393f00657f86f3/original.gif?1732292046
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674e04fa72848d0066b6d3f4/original.gif?1733166330
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674e05537a2c4c0063389901/original.gif?1733166419
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674e05874561f900640d9671/original.gif?1733166471
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674e04e84561f900640d951a/original.gif?1733166312
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674e049bd01b4700630a071d/original.jpg?1733166235
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6740ada84c51f70065afd3b9/original.gif?1732292008
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674e05914561f900640d9683/original.gif?1733166481
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674e05ce4561f900640d96ea/original.jpg?1733166542
+- id: 508810ed-57db-471b-bbe0-33f7ac7379db
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1045
+  total_delivered: 1030
+  total_opens: 318
+  total_clicks: 24
+  open_rate: 0.3043
+  click_rate: 0.023
+  total_revenue: 3959.0
+  total_unsubscribes: 7
+  ga4:
+    sessions: 43
+    purchases: 1
+    revenue: 89.75
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.976516'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-cyber-week-ext-2024-12-03
+    name: Cyber Week Ext
+    start_date: '2024-12-03'
+    end_date: '2024-12-10'
+    discount: null
+    type: null
+  primary_sale:
+    id: stf-cyber-week-ext-2024-12-03
+    name: Cyber Week Ext
+    start_date: '2024-12-03'
+    end_date: '2024-12-10'
+    discount: null
+    type: null
+  sale_name: Cyber Week Ext
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:40.125189'
+schedule_type: time_based

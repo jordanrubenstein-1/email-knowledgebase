@@ -1,0 +1,75 @@
+id: f122eaa5-ca72-426a-b693-ccf063e0c6dc
+name: 2025_03_05_BW_D_Sleeper_Sofa_Highlight
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: f122eaa5-ca72-426a-b693-ccf063e0c6dc
+dates:
+  send_date: '2025-03-05'
+  inferred_send_type: local_time
+  first_sent: '2025-03-04T21:44:27+00:00'
+  last_sent: '2025-03-05T17:15:17+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 0f725728-439c-4788-974d-c26f79655209
+  channel: email
+  name: Variant 1
+  subject: Sleeper sofas that just make sense
+  preheader: Shop Span and Shift sleeper sofas.
+- id: 056311f4-ae6d-43d5-b4c3-225ba20b806f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 265223
+  total_delivered: 263515
+  total_opens: 88607
+  total_clicks: 542
+  open_rate: 0.3341
+  click_rate: 0.002
+  total_revenue: 21034.0
+  total_bounces: 5
+  total_unsubscribes: 128
+  ga4:
+    sessions: 357
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.028889'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:36.950140'
+schedule_type: time_based

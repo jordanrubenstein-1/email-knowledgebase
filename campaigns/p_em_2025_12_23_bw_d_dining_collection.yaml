@@ -1,0 +1,42 @@
+id: a1569225-1d72-4f04-8c34-31419742d530
+name: P_EM_2025_12_23_BW_D_Dining_Collection
+brand: BUR
+channel: email
+category: product_launch
+type: announcement
+theme: null
+braze_id: a1569225-1d72-4f04-8c34-31419742d530
+dates:
+  send_date: '2025-12-23'
+  inferred_send_type: scheduled
+  first_sent: '2025-12-23T03:19:38+00:00'
+  last_sent: '2025-12-23T17:15:50+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: d17094d0-6d25-4880-b868-bc1e07699489
+  channel: email
+  name: Variant 1
+  subject: Designed to Gather
+  preheader: Tables and seating engineered for everyday dining.
+- id: 960ebcbe-b3d5-4038-8e12-b8989f68a847
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 105314
+  total_delivered: 104875
+  total_opens: 44579
+  total_clicks: 221
+  open_rate: 0.4233
+  click_rate: 0.0021
+  total_revenue: 32231.0
+  total_unsubscribes: 107
+  ga4:
+    sessions: 181
+    purchases: 1
+    revenue: 1903.15
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.698616'
+    source: snowflake
+    channel: email
+schedule_type: time_based

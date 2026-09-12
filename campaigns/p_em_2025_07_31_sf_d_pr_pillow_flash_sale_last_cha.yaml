@@ -1,0 +1,72 @@
+id: 9c9df2f0-9ed8-4fed-8064-39d78d27a09a
+name: P_EM_2025_07_31_SF_D_PR_Pillow_Flash_Sale_Last_Chance
+brand: STF
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 9c9df2f0-9ed8-4fed-8064-39d78d27a09a
+dates:
+  send_date: '2025-07-31'
+  inferred_send_type: local_time
+  first_sent: '2025-07-30T20:59:54+00:00'
+  last_sent: '2025-07-31T17:01:02+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: 8eaf6492-d14e-4775-b557-f93368f6ef9d
+  channel: email
+  name: Variant 1
+  subject: 'LAST CALL: 20% Off Pillows'
+  preheader: Don’t say we didn’t warn you...
+  html_file: html/p_em_2025_07_31_sf_d_pr_pillow_flash_sale_last_chance.html
+  screenshot: screenshots/p_em_2025_07_31_sf_d_pr_pillow_flash_sale_last_chance.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68876cb4f0498c0077398bb6/original.png?1753705651
+- id: 354881fa-01bd-44f9-b240-5c42245c7bc6
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41393
+  total_delivered: 41323
+  total_opens: 19206
+  total_clicks: 172
+  open_rate: 0.464
+  click_rate: 0.0042
+  total_revenue: 7850.0
+  total_unsubscribes: 90
+  ga4:
+    sessions: 167
+    purchases: 6
+    revenue: 2359.43
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.010569'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-the-pillow-event-2025-07-25
+    name: The Pillow Event
+    start_date: '2025-07-25'
+    end_date: '2025-07-31'
+    discount: 20% Off All Pillows
+    type: null
+  primary_sale:
+    id: stf-the-pillow-event-2025-07-25
+    name: The Pillow Event
+    start_date: '2025-07-25'
+    end_date: '2025-07-31'
+    discount: 20% Off All Pillows
+    type: null
+  sale_name: The Pillow Event
+  sale_discount: 20% Off All Pillows
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:41.442432'
+schedule_type: time_based

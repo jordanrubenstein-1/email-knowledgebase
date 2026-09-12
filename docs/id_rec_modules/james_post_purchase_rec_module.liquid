@@ -1,0 +1,212 @@
+<!-- james_post_purchase_rec_module.liquid
+     Dynamic cross-sell block for James post-purchase canvas.
+
+     How it works:
+       Identical parsing flow to sloan/maxwell modules —
+       reads col/color from canvas entry properties, applies
+       per-slot fallbacks, constructs Cylindo image URLs + PDP links.
+
+     Key structural difference — James has NO legs:
+       • first_order_cylindo_leg_code is NULL for all JMES buyers (CDI sync sets it to NULL)
+       • Cylindo URLs omit feature=FINISH entirely
+       • PDP URLs omit legs-type= and options-{leg_attr_id}= params
+       • No leg_ids catalog rows exist for JMES products
+       • leg_attr_id is set to 0 in product_config for all JMES rows (unused)
+       • The legs variable is parsed but never used in URL construction
+
+     Slot layout:
+       Slot 1 — James Sleeper      (JMES.FABRIC.SOFA.SLEEPR)
+       Slot 2 — James Leather      (JMES.LEATHR.SOFA.3SEAT)   — fixed showcase 2210A (Palomino)
+       Slot 3 — James Twin Sleeper (JMES.FABRIC.SOFA.SSTWIN)
+       Slot 4 — James Ottoman      (JMES.FABRIC.OTTO.SQUARE)  — depth 26 / square
+
+     Fallback rules:
+       Sleeper   — all 122 source fabrics available; no fabric fallback needed; catalog miss → base_url
+       Leather   — always 2210A (Palomino, #1 on James Leather with 44 orders); pre-selects to James Leather 3-seat PDP
+       Twin Slpr — all 122 source fabrics available; no fabric fallback needed; catalog miss → base_url
+       Ottoman   — all 122 source fabrics available (127 total in catalog);
+                   Cylindo SKU JMES.FABRIC.OTTO.SQUARE.STORAGE + feature=STORAGE:CLOSE
+
+     Only renders for JMES fabric-sofa buyers. Guard: col == "JMES".
+     James leather buyers see Email 2 only (canvas audience path); the leather
+     slot (slot 2) still renders for them using the fixed LTHR-05 showcase.
+
+     Smoke-test before live: verify Cylindo URLs return 200 for each product SKU.
+-->
+
+{% assign sku     = canvas_entry_properties.${products}[0].sku     | default: "" %}
+{% assign variant = canvas_entry_properties.${products}[0].variant | default: "" %}
+
+{% comment %}--- Parse fabric code from variant string (leg parsing runs but is unused for JMES) ---{% endcomment %}
+{% comment %}
+  Variant format: {BASE_SKU}-{FABRIC_PT1}-{FABRIC_PT2}-{OTHER_OPTIONS}
+  e.g. JMES.FABRIC.SOFA.3SEAT-MER-002-DEPTH-40-LENGTH-90
+  color = first two hyphen tokens after base SKU  → MER-002
+  legs  = parsed but James has no legs (no Leg token in variant) → defaults to "LEG001-1" (unused)
+{% endcomment %}
+{% assign sku_parts    = sku | split: "." %}
+{% assign col          = sku_parts[0] %}
+{% assign options_str  = variant | remove_first: sku | remove_first: "-" %}
+{% assign option_parts = options_str | split: "-" %}
+{% assign color        = option_parts[0] | append: "-" | append: option_parts[1] %}
+
+{% assign legs = "" %}
+{% for i in (0..15) %}
+  {% assign _part = option_parts[i] %}
+  {% if _part contains "Leg" and legs == "" %}
+    {% assign _next = i | plus: 1 %}
+    {% assign legs = _part | append: "-" | append: option_parts[_next] | upcase %}
+  {% endif %}
+{% endfor %}
+{% if legs == "" %}{% assign legs = "LEG001-1" %}{% endif %}
+
+{% comment %}3-part fabric codes: OTE-sunday-103, AK-618-xx, I-73338-xx — append the third token{% endcomment %}
+{% if option_parts[0] == "OTE" or option_parts[0] == "AK" or option_parts[0] == "I" %}
+  {% assign color = option_parts[0] | append: "-" | append: option_parts[1] | append: "-" | append: option_parts[2] %}
+{% endif %}
+
+{% if col == "JMES" %}
+
+  {% comment %}--- Cylindo image URLs — no feature=FINISH (James has no legs) ---{% endcomment %}
+  {% assign _cyl = "https://content.cylindo.com/api/v2/4472/products/" %}
+
+  {% assign img_sleeper = _cyl
+    | append: "JMES.FABRIC.SOFA.SLEEPR/frames/1/JMES.FABRIC.SOFA.SLEEPR.png"
+    | append: "?background=FFFFFF"
+    | append: "&feature=COLOR:" | append: color %}
+
+  {% assign img_leather = _cyl
+    | append: "JMES.LEATHR.SOFA.3SEAT/frames/1/JMES.LEATHR.SOFA.3SEAT.png"
+    | append: "?background=FFFFFF"
+    | append: "&feature=COLOR:2210A" %}
+
+  {% assign img_sstwin = _cyl
+    | append: "JMES.FABRIC.SOFA.SSTWIN/frames/1/JMES.FABRIC.SOFA.SSTWIN.png"
+    | append: "?background=FFFFFF"
+    | append: "&feature=COLOR:" | append: color %}
+
+  {% comment %}Ottoman — Cylindo SKU is JMES.FABRIC.OTTO.SQUARE.STORAGE (not JMES.FABRIC.OTTO.SQUARE); requires feature=STORAGE:CLOSE{% endcomment %}
+  {% assign img_ottoman = _cyl
+    | append: "JMES.FABRIC.OTTO.SQUARE.STORAGE/frames/1/JMES.FABRIC.OTTO.SQUARE.STORAGE.png"
+    | append: "?size=600"
+    | append: "&feature=COLOR:" | append: color
+    | append: "&feature=STORAGE:CLOSE" %}
+
+  {% comment %}--- PDP links — catalog-driven, pre-selects buyer's fabric only (no legs) ---{% endcomment %}
+
+  {% comment %}Sleeper (buyer's fabric; catalog miss → base_url){% endcomment %}
+  {% catalog_items product_config JMES_SLEEPR %}{% assign _sleepr_prod = catalog_items[0] %}
+  {% catalog_items fabric_ids {{ "JMES_SLEEPR_" | append: color }} %}{% assign _sleepr_fab = catalog_items[0] %}
+  {% if _sleepr_fab.material_type_id %}
+    {% assign url_sleeper = _sleepr_prod.base_url
+      | append: "?material-type=" | append: _sleepr_fab.material_type_id
+      | append: "&options-" | append: _sleepr_prod.fabric_attr_id | append: "=" | append: _sleepr_fab.material_type_id
+      | append: "&" | append: _sleepr_prod.fixed_params %}
+  {% else %}
+    {% assign url_sleeper = _sleepr_prod.base_url %}
+  {% endif %}
+
+  {% comment %}Leather (always LTHR-05 showcase; pre-selects on James Leather 3-seat PDP){% endcomment %}
+  {% catalog_items product_config JMES_LEATHR %}{% assign _leathr_prod = catalog_items[0] %}
+  {% catalog_items fabric_ids JMES_LEATHR_2210A %}{% assign _leathr_fab = catalog_items[0] %}
+  {% if _leathr_fab.material_type_id %}
+    {% assign url_leather = _leathr_prod.base_url
+      | append: "?material-type=" | append: _leathr_fab.material_type_id
+      | append: "&options-" | append: _leathr_prod.fabric_attr_id | append: "=" | append: _leathr_fab.material_type_id
+      | append: "&" | append: _leathr_prod.fixed_params %}
+  {% else %}
+    {% assign url_leather = _leathr_prod.base_url %}
+  {% endif %}
+
+  {% comment %}Twin Sleeper (buyer's fabric; catalog miss → base_url){% endcomment %}
+  {% catalog_items product_config JMES_SSTWIN %}{% assign _sstwin_prod = catalog_items[0] %}
+  {% catalog_items fabric_ids {{ "JMES_SSTWIN_" | append: color }} %}{% assign _sstwin_fab = catalog_items[0] %}
+  {% if _sstwin_fab.material_type_id %}
+    {% assign url_sstwin = _sstwin_prod.base_url
+      | append: "?material-type=" | append: _sstwin_fab.material_type_id
+      | append: "&options-" | append: _sstwin_prod.fabric_attr_id | append: "=" | append: _sstwin_fab.material_type_id
+      | append: "&" | append: _sstwin_prod.fixed_params %}
+  {% else %}
+    {% assign url_sstwin = _sstwin_prod.base_url %}
+  {% endif %}
+
+  {% comment %}Ottoman — square / depth 26 (buyer's fabric; catalog miss → base_url){% endcomment %}
+  {% catalog_items product_config JMES_OTTO %}{% assign _otto_prod = catalog_items[0] %}
+  {% catalog_items fabric_ids {{ "JMES_OTTO_" | append: color }} %}{% assign _otto_fab = catalog_items[0] %}
+  {% if _otto_fab.material_type_id %}
+    {% assign url_ottoman = _otto_prod.base_url
+      | append: "?material-type=" | append: _otto_fab.material_type_id
+      | append: "&options-" | append: _otto_prod.fabric_attr_id | append: "=" | append: _otto_fab.material_type_id
+      | append: "&" | append: _otto_prod.fixed_params %}
+  {% else %}
+    {% assign url_ottoman = _otto_prod.base_url %}
+  {% endif %}
+
+{% endif %}
+
+<!-- =====================================================================
+     HTML LAYOUT — paste below into the email template after the block above
+     Uses: img_sleeper, img_leather, img_sstwin, img_ottoman
+           url_sleeper, url_leather, url_sstwin, url_ottoman
+     Only renders when col == "JMES"
+     ===================================================================== -->
+
+{% if col == "JMES" %}
+<table width="600" cellpadding="0" cellspacing="0" border="0" style="font-family:Arial,sans-serif;font-size:14px;color:#101b24;">
+  <tr>
+    <td style="padding:24px 0 8px 0;text-align:center;font-size:18px;font-weight:bold;letter-spacing:0.02em;">
+      Complete Your James Collection
+    </td>
+  </tr>
+  <!-- Row 1: Sleeper + Leather -->
+  <tr>
+    <td style="padding:0 0 12px 0;">
+      <table width="600" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <!-- Slot 1: Sleeper -->
+          <td width="294" style="padding-right:6px;vertical-align:top;text-align:center;">
+            <a href="{{ url_sleeper }}" style="display:block;">
+              <img src="{{ img_sleeper }}" width="294" alt="James Sleeper Sofa" style="display:block;width:100%;border:0;" />
+            </a>
+            <p style="margin:6px 0 0 0;font-size:13px;color:#101b24;">James Sleeper Sofa</p>
+            <a href="{{ url_sleeper }}" style="font-size:12px;color:#1871D8;text-decoration:underline;">Shop Now</a>
+          </td>
+          <!-- Slot 2: Leather -->
+          <td width="294" style="padding-left:6px;vertical-align:top;text-align:center;">
+            <a href="{{ url_leather }}" style="display:block;">
+              <img src="{{ img_leather }}" width="294" alt="James Leather Sofa" style="display:block;width:100%;border:0;" />
+            </a>
+            <p style="margin:6px 0 0 0;font-size:13px;color:#101b24;">James Leather Sofa</p>
+            <a href="{{ url_leather }}" style="font-size:12px;color:#1871D8;text-decoration:underline;">Shop Now</a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <!-- Row 2: Twin Sleeper + Ottoman -->
+  <tr>
+    <td style="padding:0 0 24px 0;">
+      <table width="600" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <!-- Slot 3: Twin Sleeper -->
+          <td width="294" style="padding-right:6px;vertical-align:top;text-align:center;">
+            <a href="{{ url_sstwin }}" style="display:block;">
+              <img src="{{ img_sstwin }}" width="294" alt="James Twin Sleeper Sofa" style="display:block;width:100%;border:0;" />
+            </a>
+            <p style="margin:6px 0 0 0;font-size:13px;color:#101b24;">James Twin Sleeper</p>
+            <a href="{{ url_sstwin }}" style="font-size:12px;color:#1871D8;text-decoration:underline;">Shop Now</a>
+          </td>
+          <!-- Slot 4: Ottoman — Cylindo JMES.FABRIC.OTTO.SQUARE.STORAGE, personalized to buyer's fabric -->
+          <td width="294" style="padding-left:6px;vertical-align:top;text-align:center;">
+            <a href="{{ url_ottoman }}" style="display:block;">
+              <img src="{{ img_ottoman }}" width="294" alt="James Ottoman" style="display:block;width:100%;border:0;" />
+            </a>
+            <p style="margin:6px 0 0 0;font-size:13px;color:#101b24;">James Ottoman</p>
+            <a href="{{ url_ottoman }}" style="font-size:12px;color:#1871D8;text-decoration:underline;">Shop Now</a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+{% endif %}

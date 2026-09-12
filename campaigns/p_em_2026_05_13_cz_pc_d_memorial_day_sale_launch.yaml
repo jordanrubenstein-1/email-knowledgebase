@@ -1,0 +1,40 @@
+id: fc460f34-4426-46a0-abda-2388a9c5c617
+name: P_EM_2026_05_13_CZ_PC_D_Memorial_Day_Sale_Launch
+brand: CZ
+channel: email
+category: product_launch
+type: sale
+theme: null
+braze_id: fc460f34-4426-46a0-abda-2388a9c5c617
+dates:
+  send_date: '2026-05-13'
+  inferred_send_type: local_time
+  first_sent: '2026-05-12T22:44:34+00:00'
+  last_sent: '2026-05-13T17:03:28+00:00'
+tags:
+- batch and blast
+- d2c
+- designed
+- sale
+- sale/sleepsale2026
+- sale_feat
+sends:
+- id: da841812-2900-4b13-af8f-707f08dc93cc
+  channel: email
+  name: Variant 1
+  subject: The Memorial Day Sale is here
+  preheader: 25% off sitewide starts now.
+- id: 1ada1ec9-01cb-4b54-8e06-342099cdf4b3
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 113968
+  total_delivered: 113777
+  total_opens: 54947
+  total_clicks: 842
+  open_rate: 0.4821
+  click_rate: 0.0074
+  total_bounces: 5
+  total_unsubscribes: 152
+_filename: p_em_2026_05_13_cz_pc_d_memorial_day_sale_launch.yaml
+schedule_type: time_based

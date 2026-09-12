@@ -1,0 +1,38 @@
+id: 952de073-08d4-4b3c-999a-e707a50c15d7
+name: P_SMS_2025_12_16_BW_Range
+brand: BUR
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: 952de073-08d4-4b3c-999a-e707a50c15d7
+dates:
+  send_date: '2025-12-16'
+  inferred_send_type: local_time
+  first_sent: '2025-12-16T01:09:54+00:00'
+  last_sent: '2025-12-17T01:00:26+00:00'
+tags: []
+sends:
+- id: 218267cd-b8f2-4a3e-8edb-7daa522fdfe6
+  channel: sms
+  name: Variant 1
+- id: 7c140ac2-f372-4bda-bb91-1b531577747e
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 6335
+  total_delivered: 6245
+  total_opens: 0
+  total_clicks: 168
+  open_rate: 0.0
+  click_rate: 0.0265
+  total_revenue: 3756.0
+  ga4:
+    sessions: 117
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.184882'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

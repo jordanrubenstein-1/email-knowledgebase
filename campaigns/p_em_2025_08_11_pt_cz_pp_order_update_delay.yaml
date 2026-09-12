@@ -1,0 +1,64 @@
+id: 906ddd89-9576-445c-90a3-e2ba5b914993
+name: P_EM_2025_08_11_PT_CZ_PP_Order_Update_Delay
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 906ddd89-9576-445c-90a3-e2ba5b914993
+dates:
+  send_date: '2025-08-11'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-11T16:40:34+00:00'
+  last_sent: '2025-08-11T16:41:06+00:00'
+tags: []
+sends:
+- id: 6fb411aa-f821-47cf-8519-6261f48c4cf1
+  channel: email
+  name: Variant 1
+  subject: 'Order Update: New Shipping Window'
+  html_file: html/p_em_2025_08_11_pt_cz_pp_order_update_delay.html
+  screenshot: screenshots/p_em_2025_08_11_pt_cz_pp_order_update_delay.png
+- id: c18dc1e7-7716-48fb-abe5-80d2fb5ef750
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 48
+  total_delivered: 48
+  total_opens: 54
+  total_clicks: 0
+  open_rate: 1.125
+  click_rate: 0.0
+  total_revenue: 6060.2
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.920521'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: Up to 65% Off Select Categories - Focus on Archive Sale and In Stock
+      Product
+    type: null
+  primary_sale:
+    id: cz-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: Up to 65% Off Select Categories - Focus on Archive Sale and In Stock
+      Product
+    type: null
+  sale_name: The Sunset Sale
+  sale_discount: Up to 65% Off Select Categories - Focus on Archive Sale and In Stock
+    Product
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:36.578979'
+schedule_type: time_based

@@ -1,0 +1,32 @@
+id: e4cd3b9a-323e-4e84-941d-3c307df1cabf
+name: P_EM_2026_08_19_HAV_CONV_D_Labor_Day_Event_EA_Last_Chance
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: e4cd3b9a-323e-4e84-941d-3c307df1cabf
+dates:
+  send_date: '2026-08-19'
+  last_sent: '2026-08-19'
+tags:
+- BLASTS-2025
+sends:
+- id: 0dae681b-a5e8-48b1-afda-7a3f98154c92
+  channel: email
+  name: Variant 1
+  subject: 'Early access ends soon: up to 20% off'
+  preheader: The Labor Day Sale opens to everyone August 20.
+- id: 98127567-0d46-479c-9e5d-54c02a3cfcd2
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 42415
+  total_delivered: 42375
+  total_opens: 19865
+  total_clicks: 65
+  open_rate: 0.4683
+  click_rate: 0.0015
+  total_unsubscribes: 41
+schedule_type: time_based
+_filename: p_em_2026_08_19_hav_conv_d_labor_day_event_ea_last_chance.yaml

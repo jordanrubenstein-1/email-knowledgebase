@@ -1,0 +1,35 @@
+id: bb4599e1-1231-4015-b301-88dfaecffe6c
+name: P_EM_2026_03_21_BW_D_Clearance
+brand: BUR
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: bb4599e1-1231-4015-b301-88dfaecffe6c
+dates:
+  send_date: '2026-03-21'
+  inferred_send_type: local_time
+  first_sent: '2026-03-20T19:07:54+00:00'
+  last_sent: '2026-03-21T19:04:09+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 961ad761-9a90-4821-87fd-2f643e349fb1
+  channel: email
+  name: Variant 1
+  subject: So Much on Sale Right Now
+  preheader: Up to 70% off clearance + up to 30% off in the Spring Sale.
+- id: 2c30c695-56af-40f0-a8af-c3f70beff196
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 187274
+  total_delivered: 186161
+  total_opens: 98768
+  total_clicks: 577
+  open_rate: 0.5274
+  click_rate: 0.0031
+  total_revenue: 46524.0
+  total_bounces: 3
+  total_unsubscribes: 135
+schedule_type: time_based

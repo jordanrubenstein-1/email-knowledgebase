@@ -1,0 +1,57 @@
+id: fa614e65-bc9b-4305-8838-fe02071fb1f0
+name: P_2024_10_22_D_HAV_Conv_PM_Autumn_Event_Last_Chance_Email
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: fall
+braze_id: fa614e65-bc9b-4305-8838-fe02071fb1f0
+dates:
+  send_date: '2024-10-22'
+  inferred_send_type: scheduled
+  first_sent: '2024-10-22T23:07:14+00:00'
+  last_sent: '2024-10-22T23:08:10+00:00'
+tags: []
+sends:
+- id: fe2a7758-24a9-4840-ba63-ba5f1c0d9623
+  channel: email
+  name: Variant 1
+  subject: Until next time…
+  preheader: Last chance to shop deals before the Black Friday rush!
+  html_file: html/p_2024_10_22_d_hav_conv_pm_autumn_event_last_chance_email.html
+  screenshot: screenshots/p_2024_10_22_d_hav_conv_pm_autumn_event_last_chance_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6706b75c2d0ff100641468f8/original.jpg?1728493404
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6716636eb5fa4e0064dda8fc/original.jpg?1729520494
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6706debe82a41f006346ac55/original.jpg?1728503486
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6716635f006917006476ef7c/original.gif?1729520478
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6706dea24b85730074169f39/original.jpg?1728503458
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6706deca4f9c97007439dc23/original.jpg?1728503498
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6706b73f2d0ff1007214617b/original.jpg?1728493375
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6706b67a73a59a0074630006/original.jpg?1728493178
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6706de8a4b85730074169edb/original.jpg?1728503434
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6706de974b8573006516a0d1/original.jpg?1728503447
+- id: 5fb235d2-1079-4d86-b93e-a754ef537152
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 14289
+  total_delivered: 14284
+  total_opens: 9099
+  total_clicks: 226
+  open_rate: 0.6368
+  click_rate: 0.0158
+  total_unsubscribes: 33
+  ga4:
+    sessions: 393
+    purchases: 3
+    revenue: 682.57
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.756905'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.246468'
+schedule_type: time_based

@@ -1,0 +1,34 @@
+id: cbab0359-262b-46f2-9dcb-701f06965ed7
+name: P_EM_2026_05_26_HAV_CONV_D_Memorial_Day_Event_Final
+brand: HAV
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: cbab0359-262b-46f2-9dcb-701f06965ed7
+dates:
+  send_date: '2026-05-26'
+  first_sent: '2026-05-25T18:07:45+00:00'
+  last_sent: '2026-05-26T17:04:01+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: ea51b24b-5da9-4d84-8842-7aa0c52bf34c
+  channel: email
+  name: Variant 1
+  subject: Memorial Day savings end tonight—shop the pieces everyone’s eyeing.
+  preheader: Final hours for your summer refresh
+- id: 4815e6fa-0153-4037-bae5-e759196c8786
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41703
+  total_delivered: 41639
+  total_opens: 20120
+  total_clicks: 58
+  open_rate: 0.4825
+  click_rate: 0.0014
+  total_unsubscribes: 55
+schedule_type: time_based
+_filename: p_em_2026_05_26_hav_conv_d_memorial_day_event_final.yaml

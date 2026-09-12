@@ -1,0 +1,94 @@
+id: 32c575cd-3a0e-4f9f-b087-095d4efba54b
+name: Swatch Post Purchase
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 32c575cd-3a0e-4f9f-b087-095d4efba54b
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-08-29T00:00:00+00:00'
+  last_sent: '2026-05-06T21:00:00+00:00'
+tags: []
+sends:
+- id: b17b4b2b-9931-4c8a-9bb3-f5343300f205
+  channel: email
+  name: TRG_EM_2025_03_CZ_D_Post_Purchase_Swatch_T1
+  subject: 'Re: Your Swatch Order'
+  preheader: ''
+  step_id: 2c89b138-88cd-4781-a80d-3ccb06e19339
+- id: 1d01f3bf-c447-4b4a-9b6d-222de38fb941
+  channel: email
+  name: TRG_EM_2025_03_CZ_D_Post_Purchase_Swatch_T5
+  subject: How can I help?
+  preheader: ''
+  step_id: 65f277a5-89f4-422b-a71b-a224d6760ae1
+- id: ae5d8528-e31e-4771-b193-e5a7c6217594
+  channel: email
+  name: TRG_EM_2025_03_CZ_D_Post_Purchase_Swatch_T3
+  subject: Thoughts on your swatches?
+  preheader: ''
+  step_id: e590d8fe-83ca-417a-8018-e2a2f3a2c545
+- id: a87b9e2c-1a5c-48c2-9f53-2afbf6342719
+  channel: email
+  name: TRG_EM_2025_03_CZ_D_Post_Purchase_Swatch_T2
+  subject: So, What Happens Next?
+  preheader: First comes swatch, then comes the real thing.
+  step_id: c7b503cb-1e06-469d-8429-3769e0dcef36
+performance_summary: {}
+canvas_steps:
+- id: 2c89b138-88cd-4781-a80d-3ccb06e19339
+  name: TRG_EM_2025_03_CZ_D_Post_Purchase_Swatch_T1
+  type: message
+  channel: email
+  subject: 'Re: Your Swatch Order'
+  preheader: ''
+- id: 60f54a1b-204f-4f98-a2c5-3328312c663e
+  name: Step 1
+  type: delay
+- id: 65f277a5-89f4-422b-a71b-a224d6760ae1
+  name: TRG_EM_2025_03_CZ_D_Post_Purchase_Swatch_T5
+  type: message
+  channel: email
+  subject: How can I help?
+  preheader: ''
+- id: e54ff537-bf53-4c8b-a5a0-a47a77e62a68
+  name: Step
+  type: delay
+- id: 220a02e2-d2ec-4a73-9a70-04482d16f857
+  name: Step 2
+  type: delay
+- id: e590d8fe-83ca-417a-8018-e2a2f3a2c545
+  name: TRG_EM_2025_03_CZ_D_Post_Purchase_Swatch_T3
+  type: message
+  channel: email
+  subject: Thoughts on your swatches?
+  preheader: ''
+- id: 7bafdfcc-acfe-4b98-99e5-58c867b9800b
+  name: Step 4
+  type: delay
+- id: c7b503cb-1e06-469d-8429-3769e0dcef36
+  name: TRG_EM_2025_03_CZ_D_Post_Purchase_Swatch_T2
+  type: message
+  channel: email
+  subject: So, What Happens Next?
+  preheader: First comes swatch, then comes the real thing.
+- id: 6b83f3f8-e9f1-41e1-9951-a104e49d5286
+  name: Step 3
+  type: delay
+- id: f223f9fe-4420-4e1f-9483-6ff459482b24
+  name: SMS Opted In?
+  type: audience_paths
+- id: 36e5621d-5e12-4b84-9f91-f776fa5766a0
+  name: TRG_SMS_2026_02_CZ_Post_Purchase_Swatch_T4
+  type: message
+- id: f99df60d-6ddc-4548-b164-b9424215bcec
+  name: Email available?
+  type: audience_paths
+- id: e8328557-833d-4fc3-8992-904e09d233cc
+  name: Email available?
+  type: audience_paths
+_filename: swatch-post-purchase-32c575cd.yaml

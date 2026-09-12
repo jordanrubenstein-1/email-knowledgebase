@@ -1,0 +1,34 @@
+id: c793f022-e5cc-47c8-91e6-141c12b4bdae
+name: Swatch Post Purchase
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: c793f022-e5cc-47c8-91e6-141c12b4bdae
+braze_type: canvas
+campaign_type: Triggered Journey
+dates: {}
+tags: []
+sends:
+- id: 4a5ebe63-284c-4023-84ae-de145284732f
+  channel: email
+  name: Step
+  subject: ''
+  preheader: ''
+  step_id: 94f7351c-3839-4c59-9e45-de9f0e142604
+performance_summary: {}
+canvas_steps:
+- id: 94f7351c-3839-4c59-9e45-de9f0e142604
+  name: Step
+  type: message
+  channel: email
+  subject: ''
+  preheader: ''
+- id: a3e26b96-4085-4492-95b7-221cf27938c3
+  name: D1 1 day
+  type: delay
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.522126'

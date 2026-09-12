@@ -1,0 +1,355 @@
+id: 2c9aee9c-afec-4670-aec1-09cc5466245c
+name: Welcome Flow
+brand: STF
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: 2c9aee9c-afec-4670-aec1-09cc5466245c
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-07-30T16:00:00+00:00'
+  last_sent: '2025-12-22T02:00:00+00:00'
+tags: []
+sends:
+- id: 66bbb46e-7433-4f69-910c-e0de2092972a
+  channel: email
+  name: TRG_EM_2025_11_SF_D_Welcome_New_Customer_T1_V2
+  subject: Welcome to the Inner Circle
+  preheader: Bold design starts here.
+  step_id: 703e6e4f-f463-4eda-b8bf-9bd15b5cd70f
+- id: 8522c255-26d5-47be-966e-2e45600567b6
+  channel: email
+  name: TRG_EM_2024_07_SF_D_Welcome_Returning_Customer_Free_Shipping_T1_V1
+  subject: Welcome to the club
+  preheader: come on in
+  step_id: a77ce54f-91fd-4a08-b45c-43df11f7fc81
+- id: 26d2f8f4-6161-487e-8407-a5dd7c24080d
+  channel: email
+  name: TRG_EM_2024_07_SF_D_Welcome_Returning_Customer_GTL_T2_V1
+  subject: Inspiration Awaits
+  preheader: it's a great day to shop
+  step_id: daafd137-34f2-43b0-9d1e-808418ed89cc
+- id: c19793a5-4069-4924-96f0-42779c013000
+  channel: email
+  name: TRG_EM_2025_11_SF_D_Welcome_New_Customer_T2_V2
+  subject: Step Into the World of Cosmo Bohème
+  preheader: our signature pov on the art of expressive living
+  step_id: 7acc1e09-e822-4084-af1f-e0ea548a5947
+- id: aafef356-03e5-414a-9837-e8efd44a65a5
+  channel: email
+  name: TRG_EM_2025_11_SF_D_Welcome_Return_Customer_T2_V2
+  subject: Step Into the World of Cosmo Bohème
+  preheader: our signature pov on the art of expressive living
+  step_id: 4da01bdf-2298-4b79-9583-0857ee522dd4
+- id: 58abf299-50b5-40ab-acb1-1e9f19dc517f
+  channel: email
+  name: TRG_EM_2025_11_SF_D_Welcome_New_Customer_T3_V3
+  subject: New Arrivals. Cult Favorites. All St. Frank.
+  preheader: Discover bespoke furniture alongside our most coveted designs.
+  step_id: d2c88c41-5bcf-4abc-becb-653803215a7d
+- id: d9659ecf-223f-4bc7-a4d7-b1befbbe533e
+  channel: email
+  name: TRG_EM_2025_11_SF_D_Welcome_New_Customer_T5_V1
+  subject: As Seen Chez-Vous
+  preheader: Bold florals, fearless style—see @houselarsbuilt’s bedroom inspiration.
+  step_id: e7403c9b-4502-4d43-8eee-7e0da90f1e09
+- id: 81db4028-d505-4a64-b9b5-815debef90b8
+  channel: email
+  name: TRG_EM_2025_11_SF_D_Welcome_Return_Customer_T4_V1
+  subject: We ❤️ Your Style
+  preheader: your homes. our pieces. serious inspiration.
+  step_id: 58e7c448-fe33-4eb7-ae61-288d46ae6124
+- id: 50ad0563-da8c-4b1b-beef-2ce50d0148bf
+  channel: email
+  name: TRG_EM_2025_11_SF_D_Welcome_New_Customer_T4_V1
+  subject: We ❤️ Your Style
+  preheader: your homes. our pieces. serious inspiration.
+  step_id: 6bc3937f-b2a0-4f89-8c58-866d2d979a21
+- id: db2bbe92-e29e-43ca-9ef2-8997df063f3f
+  channel: email
+  name: TRG_EM_2025_11_SF_D_Welcome_Return_Customer_T5_V1
+  subject: As Seen Chez-Vous
+  preheader: Bold florals, fearless style—see @houselarsbuilt’s bedroom inspiration.
+  step_id: 93bb5387-7e24-4ea9-983f-7ad5a79137ab
+- id: 9135d91b-18bb-489c-abd0-77085930c7bf
+  channel: email
+  name: TRG_EM_2025_11_SF_D_Welcome_Return_Customer_T1_V2
+  subject: Welcome to the Inner Circle
+  preheader: Bold design starts here.
+  step_id: 5d6b5130-4a2c-43e0-9b89-01216724dfbf
+- id: f9c0f498-c9a3-4470-ab77-98b4045127da
+  channel: email
+  name: TRG_EM_2025_11_SF_D_Welcome_Return_Customer_T3_V1
+  subject: New Arrivals. Cult Favorites. All St. Frank.
+  preheader: Discover bespoke furniture alongside our most coveted designs.
+  step_id: 7681ac8e-a4fa-45c3-9eb5-2f9da54e0a00
+performance_summary:
+  total_entries: 261
+  total_sends: 1052
+  total_delivered: 1030
+  total_opens: 655
+  total_clicks: 41
+  open_rate: 0.6226
+  click_rate: 0.039
+  total_unsubscribes: 19
+  total_bounces: 2
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.134267'
+    source: snowflake
+    channel: email
+canvas_steps:
+- id: 703e6e4f-f463-4eda-b8bf-9bd15b5cd70f
+  name: TRG_EM_2025_11_SF_D_Welcome_New_Customer_T1_V2
+  type: message
+  channel: email
+  subject: Welcome to the Inner Circle
+  preheader: Bold design starts here.
+- id: 32b5f28e-3486-4337-a60c-928dc36b8542
+  name: TRG_2024_07_SF_Welcome_T1_Email
+  type: delay
+- id: a77ce54f-91fd-4a08-b45c-43df11f7fc81
+  name: TRG_EM_2024_07_SF_D_Welcome_Returning_Customer_Free_Shipping_T1_V1
+  type: message
+  channel: email
+  subject: Welcome to the club
+  preheader: come on in
+- id: 704640f3-1ccd-48a2-9ee5-c3bfcde215e5
+  name: Step
+  type: decision_split
+- id: 48223872-26eb-4c5e-abaf-1788f8d0e400
+  name: Step 1
+  type: delay
+- id: fc0963b6-668c-4b6d-bbc8-35833c3dfafe
+  name: Delay
+  type: delay
+- id: daafd137-34f2-43b0-9d1e-808418ed89cc
+  name: TRG_EM_2024_07_SF_D_Welcome_Returning_Customer_GTL_T2_V1
+  type: message
+  channel: email
+  subject: Inspiration Awaits
+  preheader: it's a great day to shop
+- id: 7acc1e09-e822-4084-af1f-e0ea548a5947
+  name: TRG_EM_2025_11_SF_D_Welcome_New_Customer_T2_V2
+  type: message
+  channel: email
+  subject: Step Into the World of Cosmo Bohème
+  preheader: our signature pov on the art of expressive living
+- id: f01d281a-ea76-447a-a99a-bc0ec00230a2
+  name: Step 2
+  type: delay
+- id: 18687381-2d28-40b0-b440-63bd06380ab4
+  name: Step 3
+  type: delay
+- id: e451dba8-6733-402c-ba07-a446d6b0c20e
+  name: Step 4
+  type: decision_split
+- id: 4da01bdf-2298-4b79-9583-0857ee522dd4
+  name: TRG_EM_2025_11_SF_D_Welcome_Return_Customer_T2_V2
+  type: message
+  channel: email
+  subject: Step Into the World of Cosmo Bohème
+  preheader: our signature pov on the art of expressive living
+- id: d2c88c41-5bcf-4abc-becb-653803215a7d
+  name: TRG_EM_2025_11_SF_D_Welcome_New_Customer_T3_V3
+  type: message
+  channel: email
+  subject: New Arrivals. Cult Favorites. All St. Frank.
+  preheader: Discover bespoke furniture alongside our most coveted designs.
+- id: e7403c9b-4502-4d43-8eee-7e0da90f1e09
+  name: TRG_EM_2025_11_SF_D_Welcome_New_Customer_T5_V1
+  type: message
+  channel: email
+  subject: As Seen Chez-Vous
+  preheader: Bold florals, fearless style—see @houselarsbuilt’s bedroom inspiration.
+- id: 58e7c448-fe33-4eb7-ae61-288d46ae6124
+  name: TRG_EM_2025_11_SF_D_Welcome_Return_Customer_T4_V1
+  type: message
+  channel: email
+  subject: We ❤️ Your Style
+  preheader: your homes. our pieces. serious inspiration.
+- id: 6bc3937f-b2a0-4f89-8c58-866d2d979a21
+  name: TRG_EM_2025_11_SF_D_Welcome_New_Customer_T4_V1
+  type: message
+  channel: email
+  subject: We ❤️ Your Style
+  preheader: your homes. our pieces. serious inspiration.
+- id: d739e079-3ed2-45ab-ad6a-d9fd37ed8e9e
+  name: Delay 5
+  type: delay
+- id: 93bb5387-7e24-4ea9-983f-7ad5a79137ab
+  name: TRG_EM_2025_11_SF_D_Welcome_Return_Customer_T5_V1
+  type: message
+  channel: email
+  subject: As Seen Chez-Vous
+  preheader: Bold florals, fearless style—see @houselarsbuilt’s bedroom inspiration.
+- id: 5d6b5130-4a2c-43e0-9b89-01216724dfbf
+  name: TRG_EM_2025_11_SF_D_Welcome_Return_Customer_T1_V2
+  type: message
+  channel: email
+  subject: Welcome to the Inner Circle
+  preheader: Bold design starts here.
+- id: 02847f01-6526-48f8-91a0-15345d2e2a38
+  name: Delay 2
+  type: delay
+- id: 0ecdbeac-51d4-47d7-a37c-d418897c8ff2
+  name: Delay 3
+  type: delay
+- id: 958da3cb-40f1-4ada-b0b3-edab48b898af
+  name: Delay 6
+  type: delay
+- id: 7681ac8e-a4fa-45c3-9eb5-2f9da54e0a00
+  name: TRG_EM_2025_11_SF_D_Welcome_Return_Customer_T3_V1
+  type: message
+  channel: email
+  subject: New Arrivals. Cult Favorites. All St. Frank.
+  preheader: Discover bespoke furniture alongside our most coveted designs.
+- id: 9bf16981-fe56-4950-a262-5338c5b0b059
+  name: Delay 4
+  type: delay
+- id: 442e0843-6417-4e40-94a0-7a2d78e548b7
+  name: Delay 1
+  type: delay
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-st-frank-2025-02-19
+    name: St Frank
+    start_date: '2025-02-19'
+    end_date: '2025-02-24'
+    discount: Sitewide 20% off B2C, Trade 25%
+    type: null
+  - id: stf-st-frank-2025-05-13
+    name: St Frank
+    start_date: '2025-05-13'
+    end_date: '2025-05-13'
+    discount: "The Memorial Day Event\n30% off sitewide (B2C) \n35% off Trade\nEarly\
+      \ Access: No code; EA messaging and strikethrough live on-site from 5/13"
+    type: null
+  - id: stf-st-frank-2025-07-08
+    name: St Frank
+    start_date: '2025-07-08'
+    end_date: '2025-07-08'
+    discount: 'Fourth of July Sale -- SITEWIDE, NO CODE NEEDED
+
+      20% Off Sitewide | 25% Off Sitewide for Trade'
+    type: null
+  - id: stf-the-pillow-event-2025-07-25
+    name: The Pillow Event
+    start_date: '2025-07-25'
+    end_date: '2025-07-31'
+    discount: 20% Off All Pillows
+    type: null
+  - id: stf-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off Sitewide
+    type: null
+  - id: stf-the-labor-day-event-2025-08-21
+    name: The Labor Day Event
+    start_date: '2025-08-21'
+    end_date: '2025-09-04'
+    discount: 25% off Sitewide
+    type: null
+  - id: stf-the-autumn-event-2025-09-24
+    name: The Autumn Event
+    start_date: '2025-09-24'
+    end_date: '2025-09-30'
+    discount: 20% Off Sitewide
+    type: null
+  - id: stf-the-gallery-sale-2025-10-09
+    name: The Gallery Sale
+    start_date: '2025-10-09'
+    end_date: '2025-10-21'
+    discount: 25% off Art + Wallpaper + Curtains
+    type: null
+  - id: stf-black-friday-cyber-monday-2025-11-14
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-12'
+    end_date: '2025-12-02'
+    discount: 'Up to 30% Off Sitewide
+
+      30% off fabric + wallpaper + pillows
+
+      20% off everything else'
+    type: null
+  - id: stf-black-friday-cyber-monday-extension-2025-12-03
+    name: Black Friday / Cyber Monday (EXTENSION)
+    start_date: '2025-12-03'
+    end_date: '2025-12-10'
+    discount: 'Up to 30% Off Sitewide
+
+      30% off fabric + wallpaper + pillows
+
+      20% off everything else'
+    type: null
+  - id: stf-black-friday-cyber-monday-ea-2025-11-12
+    name: Black Friday / Cyber Monday (EA)
+    start_date: '2025-11-12'
+    end_date: '2025-11-13'
+    discount: 'Up to 30% Off Sitewide
+
+      30% off fabric + wallpaper + pillows
+
+      20% off everything else'
+    type: null
+  - id: stf-end-of-year-sale-2025-01-01
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-05'
+    discount: 20% off Sitewide + 30% Off Last Chance Patterns
+    type: null
+  - id: stf-30-off-fabric-wallpaper-curtains-category-strikethrough-2024-10-25
+    name: 30% off fabric/wallpaper/curtains category (strikethrough)
+    start_date: '2024-10-25'
+    end_date: '2024-10-30'
+    discount: null
+    type: null
+  - id: stf-flash-sale-2024-10-25
+    name: Flash Sale
+    start_date: '2024-10-25'
+    end_date: '2024-10-30'
+    discount: null
+    type: null
+  - id: stf-early-access-2024-11-12
+    name: Early Access
+    start_date: '2024-11-12'
+    end_date: '2024-11-14'
+    discount: null
+    type: null
+  - id: stf-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  - id: stf-cyber-week-ext-2024-12-03
+    name: Cyber Week Ext
+    start_date: '2024-12-03'
+    end_date: '2024-12-10'
+    discount: null
+    type: null
+  - id: stf_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: stf-st-frank-2025-02-19
+    name: St Frank
+    start_date: '2025-02-19'
+    end_date: '2025-02-24'
+    discount: Sitewide 20% off B2C, Trade 25%
+    type: null
+  sale_name: St Frank
+  sale_discount: Sitewide 20% off B2C, Trade 25%
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:45.353245'

@@ -1,0 +1,33 @@
+id: bd71424f-2e58-4e6e-a73b-4db7954d87d2
+name: P_EM_2026_07_13_BW_PT_Extension_Final_Hours_Evening
+brand: BUR
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: bd71424f-2e58-4e6e-a73b-4db7954d87d2
+dates:
+  send_date: '2026-07-13'
+  last_sent: '2026-07-13'
+tags:
+- Batch&Blast
+sends:
+- id: f2bc296c-d45b-4143-af36-bc179db4a637
+  channel: email
+  name: Variant 1
+  subject: The extension ends tonight
+- id: 7e22649b-efbf-4410-9cc4-1997f6bbd337
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 227536
+  total_delivered: 226825
+  total_opens: 117427
+  total_clicks: 506
+  open_rate: 0.5161
+  click_rate: 0.0022
+  total_revenue: 82908.0
+  total_bounces: 4
+  total_unsubscribes: 326
+schedule_type: time_based
+_filename: p_em_2026_07_13_bw_pt_extension_final_hours_evening.yaml

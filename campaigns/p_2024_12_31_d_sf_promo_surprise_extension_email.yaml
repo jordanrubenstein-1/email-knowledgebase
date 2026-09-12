@@ -1,0 +1,67 @@
+id: a1ebf329-2164-49ba-91c0-122a8b268626
+name: P_2024_12_31_D_SF_PROMO_Surprise_Extension_Email
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: a1ebf329-2164-49ba-91c0-122a8b268626
+dates:
+  send_date: '2024-12-31'
+  inferred_send_type: local_time
+  first_sent: '2024-12-31T00:14:34+00:00'
+  last_sent: '2024-12-31T17:00:17+00:00'
+tags: []
+sends:
+- id: 5b40c31b-d8d4-44db-807d-0c8919ddfdde
+  channel: email
+  name: Variant 1
+  subject: It’s Your Lucky Day! 20% Off Is Back On 🥳
+  preheader: end 2024 with major savings on all your favorite styles
+- id: 3a5fceab-5a66-469b-a6f0-e9b2b0da4c01
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 3876
+  total_delivered: 3829
+  total_opens: 2153
+  total_clicks: 193
+  open_rate: 0.5555
+  click_rate: 0.0498
+  total_revenue: 2260.0
+  total_unsubscribes: 161
+  ga4:
+    sessions: 92
+    purchases: 1
+    revenue: 672.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.076480'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-end-of-year-sale-2025-01-01
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-05'
+    discount: 20% off Sitewide + 30% Off Last Chance Patterns
+    type: null
+  - id: stf_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: stf-end-of-year-sale-2025-01-01
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-05'
+    discount: 20% off Sitewide + 30% Off Last Chance Patterns
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: 20% off Sitewide + 30% Off Last Chance Patterns
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:43.510675'
+schedule_type: time_based

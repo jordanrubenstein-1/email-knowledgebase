@@ -1,0 +1,491 @@
+{{content_blocks.${MASTER_HEADER} | id: 'cb4'}}
+{{content_blocks.${nav_us} | id: 'cb5'}}
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+  <tr>
+    <td align="center" style="width: 100%">
+      <a href="https://burrow.com/shop-by-look/city-sanctuary?utm_source=burrow&utm_medium=email&utm_campaign=transactional_01_confirmation_us&utm_content=hero-img&lid=dzw0sjkr9kpm"><img alt="City Sanctuary" width="600" style="display: block; width: 100%; max-width: 100%; font-size: 14px; font-family: Arial, 'sans-serif'; color: #383633; background-color: #FFFFFF;" border="0" src="https://burrow-assets.s3.amazonaws.com/email.burrow/Transactional/01+Order+Confirmation/Q22021/01.png" /></a>
+    </td>
+  </tr>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+  <tr>
+    <td>
+      <!--[if (gte mso 9)|(IE)]>
+      <table align="center" border="0" cellspacing="0" cellpadding="0" width="550" style="width: 550px">
+        <tr>
+          <td align="center" valign="top" width="550" style="width: 550px">
+      <![endif]-->
+      <table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 90%">
+        <tr>
+          <td class="pad3010" align="center" style="padding: 40px 0px 25px 0px; "><h2 style="padding: 0; Margin: 0; text-align: left; font-family: 'GT America Medium', Arial, 'sans-serif'; font-weight: normal; font-size: 27px; line-height: 35px; letter-spacing: -0.3px"><a href="{{canvas_entry_properties.${order_status_url}}}" style="text-decoration: none; color: #383633;">Thanks for your order</a></h2>
+          </td>
+        </tr>
+      </table>
+      <!--[if (gte mso 9)|(IE)]>
+      </td>
+      </tr>
+      </table>
+      <![endif]-->
+    </td>
+  </tr>
+</table>
+
+{% assign shoppingCartItems = {{ canvas_entry_properties.${products} }}  %}
+
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; max-height: 143px; background-color: #F7EEE3;">
+  <tr>
+    <td class="pad2020" style="padding: 30px 0px 30px 0px;">
+      <!--[if gte mso 9]>
+      <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px; height: 300px">
+        <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+      <![endif]-->
+      <table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 90%">
+        <tr>
+          <td class="pad0015" align="center" style="padding: 0px 0px 10px 0px; "><h2 style="padding: 0; Margin: 0; text-align: center; font-family: 'GT America Medium', Arial, 'sans-serif'; font-weight: normal; font-size: 27px; line-height: 35px; letter-spacing: -0.3px; color:#383633;"><!--[if (gte mso 9)|(IE)]><strong><![endif]--><a style="text-decoration: none; color:#383633;" href="{{canvas_entry_properties.${order_status_url}}}">Order No. {{canvas_entry_properties.${shopify_order_name}}}</a><!--[if (gte mso 9)|(IE)]></strong><![endif]--></h2>
+          </td>
+        </tr>
+        <tr>
+          <td class="pad0" align="center" style="padding: 0px 0px 0px 0px;"><p style="Margin: 0; padding: 0; text-align: center;"><a class="cta-underline" href="{{canvas_entry_properties.${order_status_url}}}" style="border-bottom: 1px solid #BE7F65; text-decoration: none; color: #BE7F65; font-family: 'NeuzeitSLTW01-BookHeavy', Arial, 'sans-serif'; font-size: 18px; line-height: 26px;"><!--[if (gte mso 9)|(IE)]><span style="color: #BE7F65; text-decoration: underline;"><![endif]-->View Order Summary<!--[if (gte mso 9)|(IE)]></span><![endif]--></a></p>
+          </td>
+        </tr>
+      </table>
+      <!--[if gte mso 9]>
+      </v:textbox>
+      </v:rect>
+      <![endif]-->
+    </td>
+  </tr>
+</table>
+
+<!--[if (gte mso 9)|(IE)]>
+<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width: 600px">
+  <tr>
+    <td align="center" valign="top" width=600" style="width:600px">
+<![endif]-->
+
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+  <tr>
+    <td align="center" style="background-color: #FFFFFF; width: 100%; padding: 0px 0px 0px 0px">
+      <!--[if (gte mso 9)|(IE)]>
+      <table align="center" border="0" cellspacing="0" cellpadding="0" width="540" style="width: 540px">
+        <tr>
+          <td align="center" valign="top" width=540" style="width:540px">
+      <![endif]-->
+      {% for item in {{shoppingCartItems}} %}
+        <table  align="center" border="0" cellpadding="0" cellspacing="0" width="90%" style="max-width: 540px">
+          <tr>
+            <td style="background-color: #FFFFFF; padding: 0px 0px 0px 0px;">
+              <!--[if (gte mso 9)|(IE)]>
+              <table align="center" border="0" cellspacing="0" cellpadding="0" width="540" style="width: 540px">
+                <tr>
+                  <td align="center" valign="top" width="540" style="width: 540px">
+              <![endif]-->
+              <div style="width: 100%; max-width: 540px;">
+                <table border="0" cellpadding="0" cellspacing="0" width="540" style="width: 100%; max-width: 540px;">
+                  <tr>
+                    <td class="padProd" align="left" valign="middle" style="padding: 40px 40px 40px 0px; width: 40%; max-width: 220px">
+                      <table border="0" cellpadding="0" cellspacing="0" style="max-width: 220px; width: 100%">
+                        <tr>
+                          <td style="width: 100%;">
+                            <a href="{{item.productLink}}">
+                              <img class="pMobile" alt="{{item.name}}" style="display: block; width: 100%; max-width: 220px; min-width: 30px; background-color: #FFFFFF; font-size: 14px; font-family: Arial, 'sans-serif'; color: #383633; vertical-align: middle; text-align: left;" border="0" src="{{item.image}}" />
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                    <td align="right" valign="middle" style="padding: 0px 0px 0px 0px;">
+                      <table  border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 380px;">
+                        <tr>
+                          <td class="pad3030" valign="middle" align="right" style="background-color: #FFFFFF; width: 100%; padding: 40px 0px 40px 0px;">
+                            <!--[if (gte mso 9)|(IE)]>
+                            <table align="right" border="0" cellspacing="0" cellpadding="0" width="380" style="width: 380px">
+                              <tr>
+                                <td align="right" valign="top" width="380" style="width: 380px">
+                            <![endif]-->
+                            <table valign="middle" align="right" border="0" cellpadding="0" cellspacing="0" style="max-width: 380px;">
+                              <tr>
+                                <td class="line-item pMobile" align="right" style="padding:0px 0px 0px 0px; text-align: left; font-family: 'NeuzeitSLTW01-BookHeavy', Arial, 'sans-serif'; font-size: 18px; line-height: 26px; color:#383633; letter-spacing: 0px; width: 380px; max-width: 100%; min-width: 64px;">{{item.name}}
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="qty pMobile" align="right" style="padding: 0px 0px 0px 0px; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 26px; color:#383633; letter-spacing: 0px; width: 380px; max-width: 100%; min-width: 64px;">
+                                  Qty. {{item.quantity}}
+                                </td>
+                              </tr>
+                            </table>
+                            
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 540px; vertical-align: bottom; width: 100%;">
+                <tr>
+                  <td class="line" style="padding: 0px 0px 0px 0px">
+                    <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 540px; vertical-align: bottom; background-color: #D8D8D8; width: 100%;">
+                      <tr>
+                        <td align="center" style="padding: 0px 0px 0px 0px; text-align: left; font-family: 'NeuzeitSLTW01-BookHeavy', Arial, 'sans-serif'; font-size: 1px; line-height: 1px; color:#282828; letter-spacing: 0.1em; text-transform: uppercase; background-color: #D8D8D8;">&nbsp;</td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      {% endfor %}
+      <table  align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 540px; width: 90%;">
+        <tr>
+          <td  style="background-color: #FFFFFF; padding: 0px 0px 0px 0px;">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="540" style="width: 540px">
+              <tr>
+                <td align="center" valign="top" width="540" style="width: 540px">
+            <![endif]-->
+            <div style="width: 100%; max-width: 540px;">
+              <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 540px;">
+                <tr>
+                  <td class="pad3030" align="left" valign="top" style="padding: 40px 0px 40px 0px;">
+                    <table border="0" cellpadding="0" cellspacing="0" width="540" align="center" style="max-width: 540px; width: 100%;">
+                      <tr>
+                        <td valign="top" align="left" style="background-color: #FFFFFF; width: 100%;">
+                          <!--[if (gte mso 9)|(IE)]>
+                          <table align="left" border="0" cellspacing="0" cellpadding="0" width="540" style="width: 540px">
+                            <tr>
+                              <td align="left" valign="top" width="540" style="width: 540px">
+                          <![endif]-->
+                          <table width="100%" valign="top" align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 540px; width: 100%;">
+                            <tr>
+                              <td width="70%" class="total-item pMobile" align="left" style="padding: 0px 0px 0px 0px; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 26px; color:#383633; letter-spacing: 0px; max-width: 35%; min-width: 64px; width: 35%">Subtotal
+                              </td>
+                              <td width="30%" class="total-item pMobile" align="right" style="padding: 0px 0px 0px 0px; text-align: right; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 26px; color:#383633; letter-spacing: 0px; max-width: 65%; min-width: 64px; width: 65%;">${{canvas_entry_properties.${subtotal}}}
+                              </td>
+                            </tr>
+                            <tr>
+                              <td width="70%" class="total-item pMobile" align="left" style="padding: 0px 0px 0px 0px; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 26px; color:#383633; letter-spacing: 0px; max-width: 35%; min-width: 64px; width: 35%">Shipping
+                              </td>
+
+                              <td width="30%" class="total-item pMobile" align="right" style="padding: 0px 0px 0px 0px; text-align: right; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 26px; color:#383633; letter-spacing: 0px; max-width: 65%; min-width: 64px; width: 65%;">
+
+                                {% if canvas_entry_properties.${shipping} == '0' %}
+                                  Free
+                                {% else %}
+                                  {{ canvas_entry_properties.${shipping} }}
+                                {% endif %}
+                              </td>
+
+
+                            </tr>
+                            <!-- {{#if (and discountCode discountAmount (neq discountAmount "-$0.00"))}} -->
+                            {% if canvas_entry_properties.${discount} != '0' %}
+                            <tr>                                <td class="total-item pMobile" align="left" style="padding: 0px 0px 0px 0px; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 26px; color:#BE7F65; letter-spacing: 0px; max-width: 35%; min-width: 64px; width: 35%">Discount
+                              </td>
+                              <td class="total-item pMobile" align="right" style="padding: 0px 0px 0px 0px; text-align: right; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 26px; color:#BE7F65; letter-spacing: 0px; max-width: 65%; min-width: 64px; width: 65%;">(-${{canvas_entry_properties.${discount}}})</td>                             </tr>
+                            <!-- {{/if}} -->
+                            {% endif %}
+                            <tr>
+                              <td width="70%" class="total-item pMobile" align="left" style="padding: 0px 0px 20px 0px; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 26px; color:#383633; letter-spacing: 0px; max-width: 35%; min-width: 64px; width: 35%">Tax
+                              </td>
+                              <td width="30%" class="total-item pMobile" align="right" style="padding: 0px 0px 20px 0px; text-align: right; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 26px; color:#383633; letter-spacing: 0px; .03em; max-width: 65%; min-width: 64px; width: 65%;">{{canvas_entry_properties.${tax}}}</td>
+                            </tr>
+                            <tr>
+                              <td width="70%" class="total-item pMobile" align="left" style="padding: 0px 0px 0px 0px; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 26px; color:#383633; letter-spacing: 0px; max-width: 35%; min-width: 64px; width: 35%">Total
+                              </td>
+                              <td width="30%" class="total-item pMobile" align="right" style="padding: 0px 0px 0px 0px; text-align: right; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 26px; color:#383633; letter-spacing: 0px; max-width: 65%; min-width: 64px; width: 65%;">${{canvas_entry_properties.${total}}}</td>
+                            </tr>
+                          </table>
+                          <!--[if (gte mso 9)|(IE)]>
+                          </td>
+                          </tr>
+                          </table>
+                          <![endif]-->
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="line" style="padding: 0px 0px 0px 0px">
+                    <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 540px; vertical-align: bottom; background-color: #D8D8D8; width: 100%;">
+                      <tr>
+                        <td align="center" style="padding: 0px 0px 0px 0px; text-align: left; font-family: 'NeuzeitSLTW01-BookHeavy', Arial, 'sans-serif'; font-size: 1px; line-height: 1px; color:#282828; letter-spacing: 0.1em; text-transform: uppercase; background-color: #D8D8D8;">&nbsp;</td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <!--[if (gte mso 9)|(IE)]>
+      </td>
+      </tr>
+      </table>
+      <![endif]-->
+    </td>
+  </tr>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+</td>
+</tr>
+</table>
+<![endif]-->
+
+<!--[if (gte mso 9)|(IE)]>
+<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width: 600px">
+  <tr>
+    <td align="center" valign="top" width=600" style="width:600px">
+<![endif]-->
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="max-width: 600px;">
+  <tr>
+    <td class="pad3000" align="center" style="background-color: #FFFFFF; width: 100%; padding: 40px 0px 0px 0px">
+      <!--[if (gte mso 9)|(IE)]>
+      <table align="center" border="0" cellspacing="0" cellpadding="0" width="540" style="width: 540px">
+        <tr>
+          <td align="center" valign="top" width=540" style="width:540px">
+      <![endif]-->
+      <table align="center" border="0" cellpadding="0" cellspacing="0" width="540" style="max-width: 540px; width: 90%;">
+        <tr>
+          <td class="pad0010" align="center" style="padding: 0px 0px 30px 0px;"><h3 style="text-align: left; font-family: 'GT America Medium', Arial, 'sans-serif'; font-size: 22px; line-height: 28px; color:#383633; letter-spacing: -0.24px;">Shipping&nbsp;address</h3>
+          </td>
+        </tr>
+        <tr>
+          <td  style="background-color: #FFFFFF; padding: 0px 0px 0px 0px;">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="540" style="width: 540px">
+              <tr>
+                <td align="center" valign="top" width="540" style="width: 540px">
+            <![endif]-->
+            <div style="width: 100%; max-width: 540px;">
+              <table  border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 540px;">
+                <tr>
+                  <td class="pad0030" align="left" valign="top" style="padding: 0px 0px 40px 0px;">
+                    <table  border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 540px;">
+                      <tr>
+                        <td valign="top" align="left" style="background-color: #FFFFFF; width: 100%;">
+                          <!--[if (gte mso 9)|(IE)]>
+                          <table align="left" border="0" cellspacing="0" cellpadding="0" width="540" style="width: 540px">
+                            <tr>
+                              <td align="left" valign="top" width="540" style="width: 540px">
+                          <![endif]-->
+                          <table valign="top" align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 540px;">
+                            <tr>
+                              <td class="total-item pMobile" align="left" style="padding: 0px 0px 0px 0px; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 26px; color:#383633; letter-spacing: 0px; max-width: 100%; min-width: 64px;">{{canvas_entry_properties.${shipping_address}.address1}}
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="total-item pMobile" align="left" style="padding: 0px 0px 0px 0px; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 26px; color:#383633; letter-spacing: 0px; max-width: 100%; min-width: 64px;">{{canvas_entry_properties.${shipping_address}.address2}}
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="total-item pMobile" align="left" style="padding: 0px 0px 0px 0px; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 26px; color:#383633; letter-spacing: 0px; max-width: 100%; min-width: 64px;">{{canvas_entry_properties.${shipping_address}.city}}, {{canvas_entry_properties.${shipping_address}.province}}, {{canvas_entry_properties.${shipping_address}.zip}}
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="total-item pMobile" align="left" style="padding: 0px 0px 0px 0px; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 26px; color:#383633; letter-spacing: 0px; max-width: 100%; min-width: 64px;">{{canvas_entry_properties.${shipping_address}.country}}
+                              </td>
+                            </tr>
+                          </table>
+                          <!--[if (gte mso 9)|(IE)]>
+                          </td>
+                          </tr>
+                          </table>
+                          <![endif]-->
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+          </td>
+        </tr>
+      </table>
+      <!--[if (gte mso 9)|(IE)]>
+      </td>
+      </tr>
+      </table>
+      <![endif]-->
+    </td>
+  </tr>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+</td>
+</tr>
+</table>
+<![endif]-->
+
+
+
+<!-- {{#each shoppingCartItems}} {{#ifContainsStr collection "Range"}} {{#assign "hasRangeBoxes"}} true {{/assign}} {{/ifContainsStr}} {{/each}} -->
+
+<!-- {{#each shoppingCartItems}} {{#ifContainsStr shippingTimeframe "Pre-Order"}} {{#assign "isPreOrder"}} true {{/assign}} {{/ifContainsStr}} {{/each}} -->
+
+<!-- {{#each shoppingCartItems}} {{#ifContainsStr name "Pre-Order"}} {{#assign "isPreOrder"}} true {{/assign}} {{/ifContainsStr}} {{/each}} -->
+
+
+
+<!-- {{#if (not swatchesOnly)}} -->
+<!-- {{#or hasRangeBoxes isPreOrder}} -->
+
+<!--[if (gte mso 9)|(IE)]>
+<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width: 600px">
+  <tr>
+    <td align="center" valign="top" width=600" style="width:600px">
+<![endif]-->
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="max-width: 600px; width: 100%">
+  <tr>
+    <td class="pad0035" align="center" style="background-color: #FFFFFF; width: 100%; padding: 0px 0px 45px 0px">
+      <!--[if (gte mso 9)|(IE)]>
+      <table align="center" border="0" cellspacing="0" cellpadding="0" width="540" style="width: 540px">
+        <tr>
+          <td align="center" valign="top" width=540" style="width:540px">
+      <![endif]-->
+      <table align="center" border="0" cellpadding="0" cellspacing="0" width="540" style="max-width: 540px; width: 90%;">
+        <tr>
+          <td class="line" style="padding: 0px 0px 0px 0px">
+            <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 540px; vertical-align: bottom; background-color: #D8D8D8; width: 100%;">
+              <tr>
+                <td align="center" style="padding: 0px 0px 0px 0px; text-align: left; font-family: 'NeuzeitSLTW01-BookHeavy', Arial, 'sans-serif'; font-size: 1px; line-height: 1px; color:#282828; letter-spacing: 0.1em; text-transform: uppercase; background-color: #D8D8D8;">&nbsp;</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td class="pad3000" align="center" style="padding: 40px 0px 0px 0px;"><h3 style="text-align: left; font-family: 'GT America Medium', Arial, 'sans-serif'; font-size: 22px; line-height: 28px; color:#383633; letter-spacing: -0.24px;">Notes</h3>
+          </td>
+        </tr>
+        <tr>
+          <td  style="background-color: #FFFFFF; padding: 0px 0px 0px 0px;">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="540" style="width: 540px">
+              <tr>
+                <td align="center" valign="top" width="540" style="width: 540px">
+            <![endif]-->
+            <div style="width: 100%; max-width: 540px;">
+              <!-- {{#ifContainsStr isPreOrder "true"}} -->
+              <table  border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 540px;">
+                <tr>
+                  <td class="pad1500" align="left" valign="top" style="padding: 30px 0px 0px 0px;">
+                    <table  border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 540px;">
+                      <tr>
+                        <td valign="top" background="https://burrow-assets.s3.amazonaws.com/email.burrow/20191022+Rugs+Launch/Rugs-Launch_01b.png" align="left" style="background-color: #FFFFFF; width: 100%;">
+                          <!--[if (gte mso 9)|(IE)]>
+                          <table align="left" border="0" cellspacing="0" cellpadding="0" width="540" style="width: 540px">
+                            <tr>
+                              <td align="left" valign="top" width="540" style="width: 540px">
+                          <![endif]-->
+                          <table valign="top" align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 540px;">
+                            <tr>
+                              <td class="pMobileSmall" align="left" style="padding: 0px 2px 0px 0px; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 14px; line-height: 18px; color:#383633; max-width: 100%;">For security purposes, we do not store credit card information. This means all pre-orders are charged to your credit card at the time of purchase, rather than when the item(s) is shipped or delivered. This also ensures you can secure in-demand items before they sell&nbsp;out.
+                              </td>
+                            </tr>
+                          </table>
+                          <!--[if (gte mso 9)|(IE)]>
+                          </td>
+                          </tr>
+                          </table>
+                          <![endif]-->
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+              <!-- {{/ifContainsStr}} -->
+            </div>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+          </td>
+        </tr>
+      </table>
+      <!--[if (gte mso 9)|(IE)]>
+      </td>
+      </tr>
+      </table>
+      <![endif]-->
+    </td>
+  </tr>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+</td>
+</tr>
+</table>
+<![endif]-->
+
+<!-- {{/or}} -->
+<!-- {{/if}} -->
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; background-color: #F4EFE9;">
+  <tr>
+    <td>
+      <!--[if (gte mso 9)|(IE)]>
+      <table align="center" border="0" cellspacing="0" cellpadding="0" width="550" style="width: 550px">
+        <tr>
+          <td align="center" valign="top" width="550" style="width: 550px">
+      <![endif]-->
+      <table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 90%">
+        <tr>
+          <td class="pad3010" align="center" style="padding: 40px 0px 25px 0px; "><h2 style="padding: 0; Margin: 0; text-align: left; font-family: 'GT America Medium', Arial, 'sans-serif'; font-weight: normal; font-size: 22px; line-height: 28px; letter-spacing: -0.24px"><a href="https://help.burrow.com/en_us/do-you-offer-an-extended-warranty--HyGEslSIP?lid=d6cx7jbyzrr4" style="text-decoration: none; color: #383633;">Change of plans?</a></h2>
+          </td>
+        </tr>
+        <tr>
+          <td class="pad0030" align="center" style="padding: 0px 0px 40px 0px;"><p style="Margin: 0; padding: 0;  text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; letter-spacing: -0.01px; color:#383633;">We’re processing your order now, but understand mistakes can happen. If you need to cancel your order, please get in touch with our team within 24 hours of placing your order. <span style="font-family: 'NeuzeitSLTW01-BookHeavy', Arial, 'sans-serif'; color: #A56650">You can simply send an email to the address below with “Urgent - Cancel Order {{canvas_entry_properties.${shopify_order_name}}}” in the subject field.</span>
+              <br><br>
+              <span style="color: #A56650; font-family: 'NeuzeitSLTW01-BookHeavy', Arial, 'sans-serif';">Email: </span><a class="cta-underline" href="mailto:support@burrow.com?subject=Urgent - Cancel Order {{orderId}}" style="border-bottom: 1px solid #A56650; text-decoration: none; color: #A56650; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif';"><!--[if (gte mso 9)|(IE)]><span style="color: #A56650; text-decoration: underline;"><![endif]-->support@burrow.com<!--[if (gte mso 9)|(IE)]></span><![endif]--></a></p>
+          </td>
+        </tr>
+      </table>
+      <!--[if (gte mso 9)|(IE)]>
+      </td>
+      </tr>
+      </table>
+      <![endif]-->
+    </td>
+  </tr>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; background-color: #BE7F65;">
+  <!--[if gte mso 9]>
+  <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px; height: 300px">
+    <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+  <![endif]-->
+  <tr>
+    <td class="pad1020">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 90%">
+        <tr>
+          <td class="pad2015" align="center" style="padding: 40px 0px 0px 0px; "><h2 style="padding: 0; Margin: 0; text-align: left; font-family: 'GT America Medium', Arial, 'sans-serif'; font-weight: normal; font-size: 27px; line-height: 35px; letter-spacing: -0.3px"><a href="mailto:support@burrow.com?subject=Order No. {{canvas_entry_properties.${shopify_order_name}}}" style="text-decoration: none; color: #FFFFFF;">Need a hand?</a></h2>
+          </td>
+        </tr>
+        <tr>
+          <td class="pad0020" align="center" style="padding: 20px 0px 50px 0px;"><p style="Margin: 0; padding: 0; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 26px; letter-spacing: 0px; color:#FFFFFF;">If there's anything else we can do to help before your order is delivered, feel free to email us at the address below and our team will get back to you ASAP.
+              <br><br>
+              <span style="color: #ffffff; font-family: 'NeuzeitSLTW01-BookHeavy', Arial, 'sans-serif';">Email: </span><a class="cta-underline" href="mailto:support@burrow.com?subject=Order No. {{orderId}}" style="border-bottom: 1px solid #ffffff; text-decoration: none; color: #ffffff; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif';"><!--[if (gte mso 9)|(IE)]><span style="color: #ffffff; text-decoration: underline;"><![endif]-->support@burrow.com<!--[if (gte mso 9)|(IE)]></span><![endif]--></a></p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <!--[if gte mso 9]>
+  </v:textbox>
+  </v:rect>
+  <![endif]-->
+</table>
+{{content_blocks.${footer_us} | id: 'cb6'}}

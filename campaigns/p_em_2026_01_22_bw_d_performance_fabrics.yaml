@@ -1,0 +1,43 @@
+id: 178c8cbe-50b5-4121-8e8f-c36d8ac48ad0
+name: P_EM_2026_01_22_BW_D_Performance_Fabrics
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 178c8cbe-50b5-4121-8e8f-c36d8ac48ad0
+dates:
+  send_date: '2026-01-22'
+  inferred_send_type: local_time
+  first_sent: '2026-01-22T01:09:59+00:00'
+  last_sent: '2026-01-23T01:03:52+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 1a83f36f-8d97-4660-b98f-e58c7098e800
+  channel: email
+  name: Variant 1
+  subject: Live a little (your sofa can handle it)
+  preheader: Performance fabrics, perfected
+- id: 7cd5f06f-3ef6-4ec4-bb0c-361ed332e75d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 189735
+  total_delivered: 178930
+  total_opens: 95443
+  total_clicks: 298
+  open_rate: 0.503
+  click_rate: 0.0016
+  total_revenue: 30491.0
+  total_bounces: 9745
+  total_unsubscribes: 146
+  ga4:
+    sessions: 191
+    purchases: 1
+    revenue: 895.94
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.594155'
+    source: snowflake
+    channel: email
+schedule_type: time_based

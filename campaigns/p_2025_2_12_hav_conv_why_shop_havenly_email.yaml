@@ -1,0 +1,33 @@
+id: 0644e0da-1f92-42ba-bb54-7f755c3df243
+name: P_2025_2_12_HAV_Conv_Why_Shop_Havenly_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 0644e0da-1f92-42ba-bb54-7f755c3df243
+dates:
+  send_date: '2025-02-12'
+  first_sent: '2025-02-12T17:20:16+00:00'
+  last_sent: '2025-02-12T17:21:03+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 53a54df6-d914-45b5-8076-57784c39c390
+  channel: email
+  name: Variant 1
+  subject: 'PSA: Everyone Is Using Havenly'
+  preheader: Here’s why…
+- id: 5f319f5a-3aa2-467f-aefe-e44dfd194b8b
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 37981
+  total_delivered: 37924
+  total_opens: 21088
+  total_clicks: 135
+  open_rate: 0.5552
+  click_rate: 0.0036
+  total_unsubscribes: 67
+schedule_type: time_based
+_filename: p_2025_2_12_hav_conv_why_shop_havenly_email.yaml

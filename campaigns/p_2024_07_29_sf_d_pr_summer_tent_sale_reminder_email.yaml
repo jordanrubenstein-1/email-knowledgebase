@@ -1,0 +1,37 @@
+id: cbf27e0f-a1e5-4ad9-b07c-46b801d6413a
+name: P_2024_07_29_SF_D_PR_Summer_Tent_Sale_Reminder_Email
+brand: STF
+channel: email
+category: reminder
+type: sale
+theme: summer
+braze_id: cbf27e0f-a1e5-4ad9-b07c-46b801d6413a
+dates:
+  send_date: '2024-07-29'
+  last_sent: '2024-07-29'
+tags: []
+sends:
+- id: 88655259-d9ab-4e2a-8e23-6002a282c856
+  channel: other
+  name: Control Group
+- id: 60210ea0-e870-4de0-8b67-7454bb6a97e5
+  channel: email
+  name: Variant 1
+  subject: SL
+  preheader: PH
+  html_file: html/p_2024_07_29_sf_d_pr_summer_tent_sale_reminder_email.html
+  screenshot: screenshots/p_2024_07_29_sf_d_pr_summer_tent_sale_reminder_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a7ba0aef3606005e931ec2/original.gif?1722268170
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6681bde9255ebf0070d6be26/original.jpeg?1719778792
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66844364aec443006423a9b5/original.jpg?1719944036
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668443658f8f74005a6072a8/original.jpg?1719944036
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d2072ed7005a83200b/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5c6f3d2600581a0d1f/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66844364f23afc005977f3b2/original.jpg?1719944036
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668828085d4867005b380d70/original.jpg?1720199176
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66882808c84d43005953de9b/original.jpg?1720199176
+performance_summary: {}
+_filename: p_2024_07_29_sf_d_pr_summer_tent_sale_reminder_email.yaml
+schedule_type: time_based

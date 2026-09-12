@@ -1,0 +1,52 @@
+id: 635ba65b-9a33-4cc0-a957-2729576443e5
+name: P_EM_2025_09_04_SF_D_PR_Labor_Day_Event_Last_Chance
+brand: STF
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 635ba65b-9a33-4cc0-a957-2729576443e5
+dates:
+  send_date: '2025-09-04'
+  inferred_send_type: local_time
+  first_sent: '2025-09-03T21:08:38+00:00'
+  last_sent: '2025-09-04T17:00:44+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: a63d1c46-e72f-4923-8caf-ff540b2a24ee
+  channel: email
+  name: Variant 1
+  subject: 'FINAL CALL: 25% Off Sitewide'
+  preheader: don’t miss your last chance to save
+  html_file: html/p_em_2025_09_04_sf_d_pr_labor_day_event_last_chance.html
+  screenshot: screenshots/p_em_2025_09_04_sf_d_pr_labor_day_event_last_chance.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b74fb11546a7008622f9c2/original.png?1756843952
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b74fb52a458e0077a9dfb2/original.png?1756843957
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b74fc06f5e2e0065d9f7bc/original.png?1756843968
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b74fca2a458e0077a9e040/original.png?1756843978
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b74fac998fad0083112b1c/original.png?1756843948
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b74fbb81c9a500669c1811/original.png?1756843963
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b74fa381c9a500669c1796/original.gif?1756843938
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b74fc56f5e2e0065d9f7f1/original.png?1756843973
+- id: 9b5f9f88-a437-42c4-8163-69c7caa15558
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 40422
+  total_delivered: 39920
+  total_opens: 18156
+  total_clicks: 242
+  open_rate: 0.4492
+  click_rate: 0.006
+  total_bounces: 2
+  total_unsubscribes: 53
+_filename: p_em_2025_09_04_sf_d_pr_labor_day_event_last_chance.yaml
+schedule_type: time_based

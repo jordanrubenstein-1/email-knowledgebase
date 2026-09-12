@@ -1,0 +1,33 @@
+id: b3aa11c0-76da-4472-b315-17c39d0030ab
+name: P_2024_09_09_D_HAV_PR_PC_PM_Missed_Sale_Last_Chance_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: b3aa11c0-76da-4472-b315-17c39d0030ab
+dates:
+  send_date: '2024-09-09'
+  first_sent: '2024-09-09T19:41:42+00:00'
+  last_sent: '2024-09-10T02:05:02+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 28f2da3e-b48d-49de-b5ef-b5b8e9dbd652
+  channel: email
+  name: Variant 1
+  subject: 50% OFF expires @ midnight
+  preheader: Sale ends in 3, 2, 1…
+- id: 95746863-cedd-4a3f-8e6f-d2a67a8611be
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 60248
+  total_delivered: 60034
+  total_opens: 43935
+  total_clicks: 446
+  open_rate: 0.7292
+  click_rate: 0.0074
+  total_unsubscribes: 338
+schedule_type: time_based
+_filename: p_2024_09_09_d_hav_pr_pc_pm_missed_sale_last_chance_email.yaml

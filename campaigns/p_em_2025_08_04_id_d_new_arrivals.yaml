@@ -1,0 +1,47 @@
+id: ad0b5287-f208-46a3-9aa9-185611aaeaa7
+name: P_EM_2025_08_04_ID_D_New_Arrivals
+brand: ID
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: ad0b5287-f208-46a3-9aa9-185611aaeaa7
+dates:
+  send_date: '2025-08-04'
+  inferred_send_type: local_time
+  first_sent: '2025-08-03T18:23:27+00:00'
+  last_sent: '2025-08-04T17:15:16+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: b1e26afb-cdff-4896-9de2-c8d9c1bb908c
+  channel: email
+  name: Variant 1
+  subject: THANKS, IT’S NEW
+  preheader: Meet the new arrivals everyone will be asking about.
+- id: a2f71c3f-5ef4-46aa-9296-a5b29081d9f4
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 113457
+  total_delivered: 113269
+  total_opens: 51292
+  total_clicks: 1147
+  open_rate: 0.4521
+  click_rate: 0.0101
+  total_revenue: 77730.0
+  total_bounces: 6
+  total_unsubscribes: 263
+  ga4:
+    sessions: 1697
+    purchases: 3
+    revenue: 13398.31
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.808124'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.396334'
+schedule_type: time_based

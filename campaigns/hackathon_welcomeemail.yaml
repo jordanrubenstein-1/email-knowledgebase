@@ -1,0 +1,43 @@
+id: ecb223c9-6180-49d7-a5a6-0ea3b3816860
+name: Hackathon_WelcomeEmail
+brand: HAV
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: ecb223c9-6180-49d7-a5a6-0ea3b3816860
+dates: {}
+tags: []
+sends:
+- id: 24ca4826-1bd1-467e-8f67-c31d345a0159
+  channel: email
+  name: Variant 1
+  subject: One Click Away From The Best Prices…
+  preheader: We saved your cart for you!
+- id: e3365073-44de-4093-9032-c2adf8abf7c6
+  channel: other
+  name: Control Group
+- id: c4706bed-bf54-434d-a3f3-2c1640dd55fb
+  channel: email
+  name: Variant 4
+  subject: Your exclusive Havenly Club pricing is inside
+  preheader: Shop curated picks with your Havenly Credits already factored into the
+    price.
+- id: 0bc39b45-eaf3-45cf-8679-10d63cb8f2aa
+  channel: email
+  name: Variant 2
+  subject: One Click Away From The Best Prices…
+  preheader: We saved your cart for you!
+- id: c2fa5e1f-ec62-45b9-997a-9e5a49800985
+  channel: email
+  name: Variant 3
+  subject: One Click Away From The Best Prices…
+  preheader: We saved your cart for you!
+- id: 39c4e838-c55d-4e45-8b83-81d2d24c9975
+  channel: email
+  name: Variant 5
+  subject: Welcome to Havenly Club
+  preheader: Your new member benefits are ready—here’s what you’ve unlocked.
+performance_summary: {}
+schedule_type: action_based
+_filename: hackathon_welcomeemail.yaml

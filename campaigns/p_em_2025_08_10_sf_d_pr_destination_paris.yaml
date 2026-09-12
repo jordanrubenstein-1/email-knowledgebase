@@ -1,0 +1,80 @@
+id: d1005897-e3ae-47b3-a4eb-6f225224f055
+name: P_EM_2025_08_10_SF_D_PR_Destination_Paris
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: d1005897-e3ae-47b3-a4eb-6f225224f055
+dates:
+  send_date: '2025-08-10'
+  inferred_send_type: local_time
+  first_sent: '2025-08-09T18:05:44+00:00'
+  last_sent: '2025-08-10T17:00:52+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- dest
+- sale
+sends:
+- id: 23767ed2-db3a-4ed0-b724-0e143c855907
+  channel: email
+  name: Variant 1
+  subject: Pardon Our French
+  preheader: but these prints are très magnifique - and 20% off
+  html_file: html/p_em_2025_08_10_sf_d_pr_destination_paris.html
+  screenshot: screenshots/p_em_2025_08_10_sf_d_pr_destination_paris.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689510ad8f56e20073012a9a/original.png?1754599597
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68950fd499b31c0062e74c7c/original.gif?1754599380
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6893b60a407827007455f642/original.png?1754510858
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68951083a7b4f100720d6e14/original.png?1754599554
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6893b625aae5f00072576264/original.png?1754510884
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6893b611fb8c0c0073f2e055/original.png?1754510865
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6893b62e407827008455f5e3/original.png?1754510894
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6893b63547b20f00644649ff/original.png?1754510901
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68950fe09549b600612bf5cd/original.png?1754599392
+- id: ff80886b-6468-45ab-8556-112f2b9dd73e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41136
+  total_delivered: 41066
+  total_opens: 19009
+  total_clicks: 349
+  open_rate: 0.4621
+  click_rate: 0.0085
+  total_revenue: 8523.0
+  total_unsubscribes: 75
+  ga4:
+    sessions: 398
+    purchases: 6
+    revenue: 805.11
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.998823'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off Sitewide
+    type: null
+  primary_sale:
+    id: stf-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off Sitewide
+    type: null
+  sale_name: The Sunset Sale
+  sale_discount: 20% off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:41.009001'
+schedule_type: time_based

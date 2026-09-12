@@ -1,0 +1,74 @@
+id: 20427a30-ea59-4c49-bc0d-5b2850a8d869
+name: P_2024_11_25_D_SF_PR_BFCM_Fabric_Microsoft_Email
+brand: STF
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: 20427a30-ea59-4c49-bc0d-5b2850a8d869
+dates:
+  send_date: '2024-11-25'
+  inferred_send_type: local_time
+  first_sent: '2024-11-24T17:38:47+00:00'
+  last_sent: '2024-11-25T15:30:02+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: 23babd33-86bf-4a3c-9dfe-f875748097a0
+  channel: email
+  name: Variant 1
+  subject: All fabric, now 35% off
+  preheader: claim our boldest patterns at the best prices of the year
+  html_file: html/p_2024_11_25_d_sf_pr_bfcm_fabric_microsoft_email.html
+  screenshot: screenshots/p_2024_11_25_d_sf_pr_bfcm_fabric_microsoft_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6740f5462f090c0064ce9bb1/original.jpg?1732310342
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6740adcef3393f00657f86f3/original.gif?1732292046
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6741015ed4eaba00659e5bf5/original.gif?1732313438
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67379b6ce0f83e0064150bfa/original.jpg?1731697516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6741016a25c8190064b945c5/original.gif?1732313450
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6740ada84c51f70065afd3b9/original.gif?1732292008
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67379c6f8dcbcb006680ca41/original.gif?1731697775
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674101821dc1b70065b05f95/original.gif?1732313474
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6740addafafc8b0065c0ad70/original.jpg?1732292058
+- id: 199344f7-f9c8-46bd-ba52-71fdf7bd8f4c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 299
+  total_delivered: 299
+  total_opens: 107
+  total_clicks: 2
+  open_rate: 0.3579
+  click_rate: 0.0067
+  total_revenue: 214.5
+  ga4:
+    sessions: 3
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.957844'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: stf-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:39.537489'
+schedule_type: time_based

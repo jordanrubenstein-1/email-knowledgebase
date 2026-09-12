@@ -1,0 +1,62 @@
+id: 1dac23d8-0188-4d21-9413-f195ebe422b9
+name: P_EM_2025_08_31_ID_D_PM_Items_in_your_cart
+brand: ID
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: 1dac23d8-0188-4d21-9413-f195ebe422b9
+dates:
+  send_date: '2025-08-31'
+  inferred_send_type: local_time
+  first_sent: '2025-08-31T03:20:38+00:00'
+  last_sent: '2025-09-01T02:15:10+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: ac59149b-2c40-408b-89bc-0eea09a184de
+  channel: email
+  name: Variant 1
+  subject: YOUR CART IS ON SALE
+  preheader: But not for much longer.
+- id: d08fdfa6-0088-483b-8dfd-77f0a572257e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 5180
+  total_delivered: 5130
+  total_opens: 2657
+  total_clicks: 63
+  open_rate: 0.5129
+  click_rate: 0.0122
+  total_revenue: 145808.0
+  total_unsubscribes: 13
+  ga4:
+    sessions: 98
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.026532'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-04'
+    discount: 25% off sitewide
+    type: null
+  primary_sale:
+    id: id-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-04'
+    discount: 25% off sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 25% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:41.859460'
+schedule_type: time_based

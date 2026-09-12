@@ -1,0 +1,63 @@
+id: 054650a2-b70d-4d5e-9b37-e76bfa8d6782
+name: P_EM_2025_09_11_ID_D_Private_Sale_Announcement
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 054650a2-b70d-4d5e-9b37-e76bfa8d6782
+dates:
+  send_date: '2025-09-11'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-11T06:09:26+00:00'
+  last_sent: '2025-09-11T17:15:30+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 5ff745b0-aa30-413a-8818-b19713495848
+  channel: email
+  name: Variant 1
+  subject: 'THE PRIVATE SALE IS HERE '
+  preheader: Good things come to those who click.
+- id: ec8c98ef-87ec-4c1b-9fe9-a580c2d37034
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 203358
+  total_delivered: 202327
+  total_opens: 97953
+  total_clicks: 1287
+  open_rate: 0.4817
+  click_rate: 0.0063
+  total_revenue: 127961.25
+  total_bounces: 6
+  total_unsubscribes: 452
+  ga4:
+    sessions: 2061
+    purchases: 9
+    revenue: 33042.81
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.991106'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-private-sale-lifecycle-retail-only-2025-09-11
+    name: Private Sale - Lifecycle/Retail Only
+    start_date: '2025-09-11'
+    end_date: '2025-09-16'
+    discount: 20% off sitewide with code SEPTVIP
+    type: null
+  primary_sale:
+    id: id-private-sale-lifecycle-retail-only-2025-09-11
+    name: Private Sale - Lifecycle/Retail Only
+    start_date: '2025-09-11'
+    end_date: '2025-09-16'
+    discount: 20% off sitewide with code SEPTVIP
+    type: null
+  sale_name: Private Sale - Lifecycle/Retail Only
+  sale_discount: 20% off sitewide with code SEPTVIP
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:30.135409'
+schedule_type: time_based

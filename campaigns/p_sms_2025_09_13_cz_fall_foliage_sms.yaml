@@ -1,0 +1,37 @@
+id: abe5a403-1d35-4698-944d-cb300bba6e32
+name: P_SMS_2025_09_13_CZ_Fall_Foliage_SMS
+brand: CZ
+channel: sms
+category: other
+type: seasonal
+theme: fall
+braze_id: abe5a403-1d35-4698-944d-cb300bba6e32
+dates:
+  send_date: '2025-09-13'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-13T18:24:53+00:00'
+  last_sent: '2025-09-13T18:26:11+00:00'
+tags: []
+sends:
+- id: ed5162e3-2626-4196-a9c7-4d6f18ad4d12
+  channel: sms
+  name: Variant 1
+- id: 01d0d74b-6bf1-4864-876f-deee49907aad
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 21803
+  total_delivered: 21329
+  total_opens: 0
+  total_clicks: 530
+  open_rate: 0.0
+  click_rate: 0.0243
+  ga4:
+    sessions: 512
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.678079'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

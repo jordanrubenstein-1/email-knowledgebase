@@ -1,0 +1,37 @@
+id: 584010ec-b2e1-42f6-829e-90af9955cbbc
+name: P_SMS_2026_01_21_SF_New_Mohair
+brand: STF
+channel: sms
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 584010ec-b2e1-42f6-829e-90af9955cbbc
+dates:
+  send_date: '2026-01-21'
+  inferred_send_type: local_time
+  first_sent: '2026-01-21T01:06:44+00:00'
+  last_sent: '2026-01-22T00:00:12+00:00'
+tags: []
+sends:
+- id: 8a943ad8-9a80-4a3c-bbfc-321250dfae07
+  channel: sms
+  name: Variant 1
+- id: 262d0f37-5bd9-4e7c-b3d6-a6f9e8e971d6
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 4123
+  total_delivered: 4054
+  total_opens: 0
+  total_clicks: 188
+  open_rate: 0.0
+  click_rate: 0.0456
+  ga4:
+    sessions: 187
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.747044'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

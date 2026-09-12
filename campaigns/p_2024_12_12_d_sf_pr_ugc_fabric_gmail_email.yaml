@@ -1,0 +1,44 @@
+id: 7d360b0a-c679-457f-ae59-1ed1a043506f
+name: P_2024_12_12_D_SF_PR_UGC_Fabric_Gmail_Email
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 7d360b0a-c679-457f-ae59-1ed1a043506f
+dates:
+  send_date: '2024-12-12'
+  inferred_send_type: local_time
+  first_sent: '2024-12-11T19:06:34+00:00'
+  last_sent: '2024-12-12T15:01:19+00:00'
+tags: []
+sends:
+- id: e0619784-d6cb-4a5c-82d9-77319c52f5c3
+  channel: email
+  name: Variant 1
+  subject: We LOVE Your Style
+  preheader: you have our fabric looking mighty fine
+- id: 77d55fd0-e6c8-4f69-a196-9d26c55cf4e6
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 705
+  total_delivered: 705
+  total_opens: 533
+  total_clicks: 10
+  open_rate: 0.756
+  click_rate: 0.0142
+  total_unsubscribes: 1
+  ga4:
+    sessions: 12
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.092239'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.899974'
+schedule_type: time_based

@@ -1,0 +1,78 @@
+id: klaviyo-VLHCRj
+name: 'BF Sale: 20% off everything.'
+brand: TI
+channel: email
+category: sale_promo
+type: sale
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2020-11-23'
+  inferred_send_type: scheduled
+  first_sent: '2020-11-27T13:30:00+00:00'
+  last_sent: '2020-11-27T13:30:00+00:00'
+sends:
+- id: QSD2ej
+  channel: email
+  name: 'BF Sale: 20% off everything. Variation A'
+  subject: It's here.
+  preheader: The best Black Friday deals inside.
+  html_file: html/bf-sale-20-off-everything.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/a2430f04-461e-4f08-86d9-0921495b1bcd.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/7a71be12-73dd-4ce4-a169-28f292d61306.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/cc32de4b-c73a-4e7e-b1d6-8dda4b85b1d4.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/e47453dc-185b-4087-b791-8bca214e5341.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/064365fc-fd1a-4c06-a73a-24199f09400f.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/91336648-346b-4bcd-b81a-66d1b5beca58.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/0713a8d7-940f-4829-9db3-76fd9141ece5.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/9eadeabe-1260-49e7-917b-0a7f876501f8.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/2e5b4e28-3a6f-4a47-9a4f-3836e87b3f94.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/86081c7f-a048-40f9-be6d-f937b2796a84.jpeg
+  screenshot: screenshots/bf-sale-20-off-everything.png
+- id: WfUEKL
+  channel: email
+  name: 'BF Sale: 20% off everything. Variation B'
+  subject: The sale you've been waiting for.
+  preheader: It's here.
+  html_file: html/bf-sale-20-off-everything.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/e47453dc-185b-4087-b791-8bca214e5341.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/0713a8d7-940f-4829-9db3-76fd9141ece5.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/7a71be12-73dd-4ce4-a169-28f292d61306.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/a19129f4-ed3b-44d6-b08c-7b0ae8a69f5d.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/86081c7f-a048-40f9-be6d-f937b2796a84.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/ba093d6c-b3f8-41d3-a4aa-af1b8a696c56.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/a2430f04-461e-4f08-86d9-0921495b1bcd.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/60ccf986-0be6-4560-a4a6-e36eb52ca980.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/91336648-346b-4bcd-b81a-66d1b5beca58.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/9eadeabe-1260-49e7-917b-0a7f876501f8.png
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_unsubscribes: 0
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T14:56:51.939118'
+    source: snowflake
+    channel: email
+klaviyo_type: campaign
+klaviyo_campaign_id: VLHCRj
+klaviyo_message_id: QSD2ej
+structure:
+  image_count: 14
+  link_count: 15
+  has_gif: false
+  hero_width: 600
+  layout_type: product_grid
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-03-12T11:18:47.143255'

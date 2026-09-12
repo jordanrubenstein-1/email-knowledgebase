@@ -1,0 +1,60 @@
+id: 42c43d62-3032-448a-8298-96554e03f531
+name: P_EM_2025_08_02_SF_D_PR_UGC_Wallpaper_Roundup
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 42c43d62-3032-448a-8298-96554e03f531
+dates:
+  send_date: '2025-08-02'
+  inferred_send_type: local_time
+  first_sent: '2025-08-01T18:05:02+00:00'
+  last_sent: '2025-08-02T17:00:31+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- ugc
+sends:
+- id: 86866f55-bb55-47f3-b67f-29edb3a3747e
+  channel: email
+  name: Variant 1
+  subject: Proof That Wallpaper Changes Everything
+  preheader: you brought the bold to every corner — and we’re obsessed.
+  html_file: html/p_em_2025_08_02_sf_d_pr_ugc_wallpaper_roundup.html
+  screenshot: screenshots/p_em_2025_08_02_sf_d_pr_ugc_wallpaper_roundup.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688a8ad03b93310065d0c1f3/original.png?1753909968
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688a8ac53fb37e00661f05cb/original.png?1753909956
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688a8adc2aaf1f006508c0b9/original.png?1753909979
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688a8a6b5b88ed008532f847/original.gif?1753909867
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688a8ab6e2ab9d0065d50330/original.png?1753909942
+- id: a319de95-e26a-40b8-b66f-c6f4cdd4f7ae
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41535
+  total_delivered: 41466
+  total_opens: 19490
+  total_clicks: 267
+  open_rate: 0.4692
+  click_rate: 0.0064
+  total_revenue: 4965.0
+  total_bounces: 2
+  total_unsubscribes: 73
+  ga4:
+    sessions: 297
+    purchases: 5
+    revenue: 136.24
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.998153'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.914156'
+schedule_type: time_based

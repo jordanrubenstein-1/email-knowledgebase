@@ -1,0 +1,78 @@
+id: eaa80e4c-3000-4b3c-aa63-af636b24e431
+name: P_EM_2025_08_31_CZ_D_PR_LDW_Best_Sellers
+brand: CZ
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: eaa80e4c-3000-4b3c-aa63-af636b24e431
+dates:
+  send_date: '2025-08-31'
+  inferred_send_type: local_time
+  first_sent: '2025-08-30T18:06:54+00:00'
+  last_sent: '2025-08-31T17:02:40+00:00'
+tags:
+- am
+- batch and blast
+- bestsellers
+- d2c
+- designed
+- sale
+sends:
+- id: f1dcd3e3-44a4-470a-a995-b21c8f3558d5
+  channel: email
+  name: Variant 1
+  subject: 'Ends Tomorrow: 25% Off Best Sellers'
+  preheader: Coveted for a reason, now yours to bring home.
+  html_file: html/p_em_2025_08_31_cz_d_pr_ldw_best_sellers.html
+  screenshot: screenshots/p_em_2025_08_31_cz_d_pr_ldw_best_sellers.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b200125f3c2f0074b1ac93/original.png?1756495889
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b200053400240065d5b9a8/original.png?1756495877
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b1ffc41fadd8006666d1a6/original.gif?1756495812
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b1ffe75662eb0087756532/original.png?1756495846
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b20025d61aaa0065416b48/original.png?1756495909
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b1ffd65662eb0077756625/original.png?1756495829
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b2001eb7894d0065dd170f/original.png?1756495902
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b1ffcb1fadd8007666d07a/original.png?1756495819
+- id: 24c6a2ee-88fe-46fe-8a86-47a5b7905390
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 114795
+  total_delivered: 114486
+  total_opens: 62505
+  total_clicks: 1127
+  open_rate: 0.5445
+  click_rate: 0.0098
+  total_bounces: 1
+  total_unsubscribes: 357
+  ga4:
+    sessions: 1105
+    purchases: 16
+    revenue: 7734.99
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.622021'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-02'
+    discount: 20% off Sitewide
+    type: null
+  primary_sale:
+    id: cz-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-02'
+    discount: 20% off Sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 20% off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:33.256504'
+schedule_type: time_based

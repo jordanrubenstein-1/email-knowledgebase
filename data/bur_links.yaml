@@ -1,0 +1,150 @@
+# BUR (Burrow) canonical link map — single source for both SMS and email brief LPs.
+# All URLs verified HTTP 200 as of 2026-07-31.
+#
+# keywords: used for SMS keyword-based link resolution (build_sms_campaign.py)
+# label:    used to look up LPs in email briefing (generate_bw_email_brief in create_calendar_tasks.py)
+
+categories:
+  - url: https://burrow.com/
+    label: Homepage
+    keywords: ["sale", "event", "promo", "discount", "off", "sitewide", "launch", "reminder", "early access", "final hours"]
+
+product_categories:
+  - url: https://burrow.com/pet-friendly-furniture
+    label: Pet-Friendly
+    keywords: ["pet friendly", "performance fabric", "pet"]
+  - url: https://burrow.com/collections/nomad
+    label: Nomad
+    keywords: ["nomad"]
+  - url: https://burrow.com/collections/range
+    label: Range
+    keywords: ["range"]
+  - url: https://burrow.com/collections/shift
+    label: Shift
+    keywords: ["shift"]
+  - url: https://burrow.com/collections/union
+    label: Union
+    keywords: ["union"]
+  - url: https://burrow.com/collections/sleeper-sofas
+    label: Sleeper Sofas
+    keywords: ["sleeper", "sleeper sofa", "sleeper sofas"]
+  - url: https://burrow.com/collections/shop-all-sofas
+    label: Sofas
+    keywords: ["sofa", "sofas"]
+  - url: https://burrow.com/collections/sectionals
+    label: Sectionals
+    keywords: ["sectional", "sectionals"]
+  - url: https://burrow.com/collections/loveseats
+    label: Loveseats
+    keywords: ["loveseat", "loveseats"]
+  - url: https://burrow.com/collections/modular-furniture
+    label: Modular Furniture
+    keywords: ["modular", "modular furniture", "modular seating"]
+  - url: https://burrow.com/seating
+    label: Seating
+    keywords: ["seating", "chairs", "chair", "leather", "leather seating"]
+  - url: https://burrow.com/collections/chairs-ottomans
+    label: Chairs & Ottomans
+    keywords: ["ottoman", "ottomans", "chairs and ottomans"]
+  - url: https://burrow.com/collections/leather-accent-seating
+    label: Leather Accent Seating
+    keywords: ["leather accent seating", "leather accent chair", "leather accent chairs"]
+  - url: https://burrow.com/collections/accent-chairs
+    label: Accent Chairs
+    keywords: ["accent chair", "accent chairs"]
+  - url: https://burrow.com/collections/coffee-side-tables
+    label: Coffee & Side Tables
+    keywords: ["coffee table", "coffee tables", "side table", "side tables"]
+  - url: https://burrow.com/collections/bookcases
+    label: Bookcases
+    keywords: ["bookcase", "bookcases", "bookshelf"]
+  - url: https://burrow.com/bedroom
+    label: Bedroom
+    keywords: ["bedroom"]
+  - url: https://burrow.com/collections/beds
+    label: Beds
+    keywords: ["bed", "beds", "bed frame", "bed frames"]
+  - url: https://burrow.com/collections/dressers
+    label: Dressers
+    keywords: ["dresser", "dressers"]
+  - url: https://burrow.com/collections/nightstands
+    label: Nightstands
+    keywords: ["nightstand", "nightstands"]
+  - url: https://burrow.com/collections/mattresses
+    label: Mattresses
+    keywords: ["mattress", "mattresses"]
+  - url: https://burrow.com/collections/desks
+    label: Desks
+    keywords: ["desk", "desks", "home office"]
+  - url: https://burrow.com/dining
+    label: Dining
+    keywords: ["dining", "table", "tables"]
+  - url: https://burrow.com/collections/dining-tables
+    label: Dining Tables
+    keywords: ["dining table", "dining tables"]
+  - url: https://burrow.com/collections/dining-chairs
+    label: Dining Chairs
+    keywords: ["dining chair", "dining chairs"]
+  - url: https://burrow.com/collections/dining-stools
+    label: Dining Stools
+    keywords: ["dining stool", "dining stools", "counter stool", "counter stools", "bar stool", "bar stools"]
+  - url: https://burrow.com/collections/bar-carts-credenzas
+    label: Bar Carts & Credenzas
+    keywords: ["bar cart", "bar carts", "credenza", "credenzas"]
+  - url: https://burrow.com/collections/ready-to-ship-dining
+    label: Ready to Ship Dining
+    keywords: ["ready to ship dining", "quick ship dining"]
+  - url: https://burrow.com/collections/rugs
+    label: Rugs
+    keywords: ["rug", "rugs"]
+  - url: https://burrow.com/outdoor
+    label: Outdoor
+    keywords: ["outdoor", "patio"]
+  - url: https://burrow.com/storage
+    label: Storage
+    keywords: ["storage", "shelving", "shelves", "organization"]
+  - url: https://burrow.com/collections/storage-benches
+    label: Storage Benches
+    keywords: ["storage bench", "storage benches"]
+  - url: https://burrow.com/collections/credenzas-media-storage
+    label: Credenzas & Media Storage
+    keywords: ["media console", "media consoles", "media storage", "entryway console"]
+  - url: https://burrow.com/collections/wall-shelves
+    label: Wall Shelves
+    keywords: ["wall shelf", "wall shelves", "wall shelving", "storage cube"]
+  - url: https://burrow.com/collections/ready-to-ship-storage-shelving
+    label: Ready to Ship Storage
+    keywords: ["ready to ship storage", "quick ship storage"]
+  - url: https://burrow.com/ready-to-ship
+    label: Quick Ship
+    keywords: ["quick ship", "ready to ship", "in stock"]
+  - url: https://burrow.com/collections/clearance
+    label: Clearance
+    keywords: ["clearance", "warehouse"]
+  - url: https://burrow.com/collections/clearance-seating
+    label: Clearance Seating
+    keywords: ["clearance seating"]
+  - url: https://burrow.com/collections/clearance-outdoor
+    label: Clearance Outdoor
+    keywords: ["clearance outdoor"]
+  - url: https://burrow.com/collections/clearance-dining
+    label: Clearance Dining
+    keywords: ["clearance dining"]
+  - url: https://burrow.com/collections/clearance-storage
+    label: Clearance Storage
+    keywords: ["clearance storage"]
+  - url: https://burrow.com/collections/clearance-rugs
+    label: Clearance Rugs
+    keywords: ["clearance rugs"]
+  - url: https://burrow.com/collections/clearance-pillows
+    label: Clearance Pillows
+    keywords: ["clearance pillows"]
+  - url: https://burrow.com/collections/best-sellers
+    label: Best Sellers
+    keywords: ["bestseller", "best seller", "best sellers"]
+  - url: https://burrow.com/swatches
+    label: Swatches
+    keywords: ["swatch", "swatches", "free swatch"]
+  - url: https://burrow.com/showrooms
+    label: Showrooms
+    keywords: ["retail event", "showroom", "store", "find my store", "sip and sit"]

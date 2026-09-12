@@ -1,0 +1,31 @@
+id: 57a82ddc-7e92-43e5-8f60-7b3b368b901f
+name: P_SMS_2026_06_17_ID_4th_Of_July_EA_Launch_Updated
+brand: ID
+channel: sms
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 57a82ddc-7e92-43e5-8f60-7b3b368b901f
+dates:
+  send_date: '2026-06-17'
+  first_sent: '2026-06-17T16:16:12+00:00'
+  last_sent: '2026-06-18T01:01:43+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 46a880cd-bd27-429e-882a-30ff228add29
+  channel: sms
+  name: Variant 1
+- id: e1537a9c-1f02-460f-885b-4aa1436e82be
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 51932
+  total_delivered: 46904
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 34875.0
+schedule_type: time_based
+_filename: p_sms_2026_06_17_id_4th_of_july_ea_launch_updated.yaml

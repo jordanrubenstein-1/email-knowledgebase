@@ -1,0 +1,35 @@
+id: d9fdfa60-04d3-4499-82b4-eaaf96775913
+name: P_EM_2025_10_07_ALL_TRADE_PT_Appreciation_Week_Reminder
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: d9fdfa60-04d3-4499-82b4-eaaf96775913
+dates:
+  send_date: '2025-10-07'
+  inferred_send_type: local_time
+  first_sent: '2025-10-07T03:27:25+00:00'
+  last_sent: '2025-10-07T19:01:36+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 69d13049-89f4-4c1a-ad0e-0ff65de8cc09
+  channel: email
+  name: Variant 1
+  subject: 'Last Chance: 25% Off Havenly Brands'
+- id: 33fc63a1-d1da-4753-bb17-bb1b0ee37e1f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 19914
+  total_delivered: 19357
+  total_opens: 9849
+  total_clicks: 149
+  open_rate: 0.4946
+  click_rate: 0.0075
+  total_revenue: 102543.98
+  total_bounces: 3
+  total_unsubscribes: 46
+_filename: p_em_2025_10_07_all_trade_pt_appreciation_week_reminder.yaml
+schedule_type: time_based

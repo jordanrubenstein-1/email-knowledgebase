@@ -1,0 +1,58 @@
+id: 3d0b22ea-6c4f-4068-8629-e6a08a0045ec
+name: P_2024_12_18_D_SF_PR_Gift_Card_Giveaway_Email
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 3d0b22ea-6c4f-4068-8629-e6a08a0045ec
+dates:
+  send_date: '2024-12-18'
+  inferred_send_type: scheduled
+  first_sent: '2024-12-18T00:21:46+00:00'
+  last_sent: '2024-12-18T15:00:41+00:00'
+tags: []
+sends:
+- id: a4798b5e-0afd-4fa8-8dbc-3777eb98ed78
+  channel: email
+  name: Variant 1
+  subject: $1,000 Shopping Spree On Us ❤️‍🔥
+  preheader: let us know your favorite pattern for a chance to win
+  html_file: html/p_2024_12_18_d_sf_pr_gift_card_giveaway_email.html
+  screenshot: screenshots/p_2024_12_18_d_sf_pr_gift_card_giveaway_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6761f785d9e3990065113902/original.gif?1734473605
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6761f7e1d494250065f2725c/original.gif?1734473697
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6761f86787684900639f8898/original.jpg?1734473830
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6761f836d9e3990065113bb5/original.gif?1734473782
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6761f79cd494250065f27185/original.gif?1734473628
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6761f81ad0463d007377d26c/original.gif?1734473754
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6761f7afe315a3006315fe8a/original.gif?1734473647
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6761f893d9bc370065a5693a/original.gif?1734473875
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6761f7c53408c10072a9b8bd/original.gif?1734473668
+- id: 4c33e3c6-3333-42e6-81fd-a35a38207343
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 3826
+  total_delivered: 3778
+  total_opens: 1938
+  total_clicks: 65
+  open_rate: 0.5065
+  click_rate: 0.017
+  total_revenue: 2176.0
+  total_unsubscribes: 2
+  ga4:
+    sessions: 73
+    purchases: 1
+    revenue: 15.44
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.721089'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.243412'
+schedule_type: time_based

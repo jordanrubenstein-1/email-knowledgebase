@@ -1,0 +1,35 @@
+id: 3a9d9407-3e48-4abc-9432-64029ad80dd2
+name: P_EM_2025_10_02_HAV_CONV_D_DINING_SALE
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 3a9d9407-3e48-4abc-9432-64029ad80dd2
+dates:
+  send_date: '2025-10-02'
+  first_sent: '2025-10-02T02:07:45+00:00'
+  last_sent: '2025-10-03T02:02:15+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 0a6e4014-099d-4c6e-ae80-1200838dd9d4
+  channel: email
+  name: Variant 1
+  subject: ⚡ FLASH SALE ALERT ⚡
+  preheader: Save the most when you shop at Havenly.
+- id: f781364b-b964-4738-9731-60bc393b80f2
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41991
+  total_delivered: 41947
+  total_opens: 21936
+  total_clicks: 226
+  open_rate: 0.5224
+  click_rate: 0.0054
+  total_bounces: 1
+  total_unsubscribes: 36
+schedule_type: time_based
+_filename: p_em_2025_10_02_hav_conv_d_dining_sale.yaml

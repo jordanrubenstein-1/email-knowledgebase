@@ -1,0 +1,33 @@
+id: 2e3a057c-70f6-4d8a-b970-f76869bb0f41
+name: TRG_EM_2024_08_ID_D_Swatch_Best_Sellers_T2_V1
+brand: ID
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 985f2ea2-f92d-461c-8276-effcef79f7ec
+canvas_name: Swatch Post Purchase
+flow_type: post_purchase
+sequence_position: 2
+subject: SAY YES TO THESE BEST SELLERS
+preheader: ''
+sends:
+- id: 2e3a057c-70f6-4d8a-b970-f76869bb0f41
+  channel: email
+  name: TRG_EM_2024_08_ID_D_Swatch_Best_Sellers_T2_V1
+  subject: SAY YES TO THESE BEST SELLERS
+  preheader: ''
+  html_file: html/canvas-swatch-post-purchase-t2-2e3a057c.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-30T13:00:00Z'
+  last_sent: '2026-04-28T21:00:00Z'
+performance_summary:
+  total_sends: 106053
+  total_delivered: 105105
+  total_opens: 40274
+  total_clicks: 1460
+  open_rate: 0.3798
+  click_rate: 0.0138
+  total_unsubscribes: 429
+  total_bounces: 1

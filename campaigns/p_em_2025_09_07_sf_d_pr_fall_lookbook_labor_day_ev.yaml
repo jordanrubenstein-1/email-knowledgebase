@@ -1,0 +1,64 @@
+id: 91a7c75a-a894-47b9-82e9-f7aa94fb2628
+name: P_EM_2025_09_07_SF_D_PR_Fall_Lookbook_Labor_Day_Event
+brand: STF
+channel: email
+category: sale_promo
+type: seasonal
+theme: fall
+braze_id: 91a7c75a-a894-47b9-82e9-f7aa94fb2628
+dates:
+  send_date: '2025-09-07'
+  inferred_send_type: local_time
+  first_sent: '2025-09-06T18:08:54+00:00'
+  last_sent: '2025-09-07T17:00:18+00:00'
+tags:
+- Batch and Blast
+- am
+- collect
+- d2c
+- designed
+- sale
+sends:
+- id: 500af196-ebf5-43a3-b5e0-797cc1f76cfe
+  channel: email
+  name: Variant 1
+  subject: 'JUST IN: The Fall Lookbook'
+  preheader: luxe, bold, and exclusively 25% off
+  html_file: html/p_em_2025_09_07_sf_d_pr_fall_lookbook_labor_day_event.html
+  screenshot: screenshots/p_em_2025_09_07_sf_d_pr_fall_lookbook_labor_day_event.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b7c03a07a46e00750ef794/original.png?1756872762
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b8b449dad3930065763854/original.gif?1756935241
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b7c04525fa300065707342/original.png?1756872773
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b7c04b25fa300075706f6f/original.png?1756872778
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b7c030885ab70066013791/original.png?1756872751
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b7c035b135da00657d341a/original.png?1756872757
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b7c03e374f50006518ad45/original.png?1756872766
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b7c02aa8d8b00067e29991/original.png?1756872746
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b7c005eeb7790065a267dd/original.png?1756872709
+- id: 2897e748-f727-47c8-9ab2-5d471e788dc9
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 40014
+  total_delivered: 39692
+  total_opens: 18329
+  total_clicks: 421
+  open_rate: 0.4581
+  click_rate: 0.0105
+  total_bounces: 1
+  total_unsubscribes: 47
+  ga4:
+    sessions: 477
+    purchases: 2
+    revenue: 319.5
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.052391'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.849751'
+schedule_type: time_based

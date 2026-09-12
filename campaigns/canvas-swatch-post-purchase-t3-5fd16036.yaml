@@ -1,0 +1,33 @@
+id: 5fd16036-8108-49de-9787-53b361a074ae
+name: TRG_EM_2026_04_ID_D_Swatch_Best_Sellers_T3_V1b
+brand: ID
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 9ac09497-6f79-498b-b320-e44a784c3340
+canvas_name: Swatch Post Purchase
+flow_type: post_purchase
+sequence_position: 3
+subject: Best sellers that pair perfectly with your swatches
+preheader: ''
+sends:
+- id: 5fd16036-8108-49de-9787-53b361a074ae
+  channel: email
+  name: TRG_EM_2026_04_ID_D_Swatch_Best_Sellers_T3_V1b
+  subject: Best sellers that pair perfectly with your swatches
+  preheader: ''
+  html_file: html/canvas-swatch-post-purchase-t3-5fd16036.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-04-28T21:00:00Z'
+  last_sent: '2026-09-07T13:00:00Z'
+performance_summary:
+  total_sends: 15289
+  total_delivered: 15155
+  total_opens: 6595
+  total_clicks: 147
+  open_rate: 0.4314
+  click_rate: 0.0096
+  total_unsubscribes: 80
+  total_revenue: 775679.86

@@ -1,0 +1,49 @@
+id: klaviyo-SQGts4
+name: 'Email #11  [$30 OFF] Test #1 July 28, 2022 Variation A'
+brand: TI
+channel: email
+category: other
+type: announcement
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: TvpEbu
+canvas_name: '[OLD] Shipped: Order Shipped NONSWATCH v2'
+flow_type: swatch_followup
+sequence_position: 26
+dates:
+  created: '2020-11-17'
+  inferred_send_type: sto
+  first_sent: '2020-11-17'
+  last_sent: '2021-08-26'
+sends:
+- id: SQGts4
+  channel: email
+  name: Message
+  subject: Here's $30 off.
+  preheader: One week only.
+  html_file: html/klv-flow-old-shipped-order-shipped-nons-t26-SQGts4.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/80f5d87d-e089-49a9-be6e-cb90c87a3d37.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/e9749ed2-a5d5-4033-b381-50b86ceac739.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/9eadeabe-1260-49e7-917b-0a7f876501f8.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/2e5b4e28-3a6f-4a47-9a4f-3836e87b3f94.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/cc32de4b-c73a-4e7e-b1d6-8dda4b85b1d4.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/efc79951-ab82-4798-b6b5-95b803f03f17.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/064365fc-fd1a-4c06-a73a-24199f09400f.png
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: SQGts4
+structure:
+  image_count: 7
+  link_count: 7
+  has_gif: false
+  hero_width: 600
+  layout_type: product_grid

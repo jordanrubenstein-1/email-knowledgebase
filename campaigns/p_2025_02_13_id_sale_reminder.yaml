@@ -1,0 +1,27 @@
+id: 422e8aa9-24c5-4248-a7fd-a58aa41177bd
+name: P_2025_02_13_ID_Sale_Reminder
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 422e8aa9-24c5-4248-a7fd-a58aa41177bd
+dates:
+  send_date: '2025-02-13'
+  last_sent: '2025-02-13'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: b1e24a58-c408-4eb5-a999-be6024d133f8
+  channel: email
+  name: Variant 1
+  subject: Sale Reminder
+- id: c851ed0d-2eb3-402e-81f5-015a7312c255
+  channel: other
+  name: Control Group
+performance_summary: {}
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.692245'
+schedule_type: time_based

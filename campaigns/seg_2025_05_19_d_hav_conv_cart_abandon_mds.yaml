@@ -1,0 +1,33 @@
+id: daeaecd5-36aa-4ec8-897d-34171cd550c1
+name: SEG_2025_05_19_D_HAV_CONV_Cart_Abandon_MDS
+brand: HAV
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: daeaecd5-36aa-4ec8-897d-34171cd550c1
+dates:
+  send_date: '2025-05-19'
+  first_sent: '2025-05-19T03:08:24+00:00'
+  last_sent: '2025-05-20T02:00:27+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 25676a83-6c5e-422b-9616-584bfb39712c
+  channel: email
+  name: Variant 1
+  subject: Items In Your Cart Are On Sale
+  preheader: Shop the lowest prices on your favorite brands.
+- id: 33d04843-a47c-4926-93cd-2606d41bccee
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1301
+  total_delivered: 1294
+  total_opens: 748
+  total_clicks: 65
+  open_rate: 0.5749
+  click_rate: 0.05
+  total_unsubscribes: 4
+schedule_type: time_based
+_filename: seg_2025_05_19_d_hav_conv_cart_abandon_mds.yaml

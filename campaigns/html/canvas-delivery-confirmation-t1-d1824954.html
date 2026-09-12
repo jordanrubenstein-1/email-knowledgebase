@@ -1,0 +1,286 @@
+{{content_blocks.${MASTER_HEADER} | id: 'cb13'}}
+{{content_blocks.${nav_us} | id: 'cb14'}}
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; max-height: 143px; background-color: #F5F3F2;">
+  <tr>
+    <td class="pad2020" style="padding: 30px 0px 30px 0px;">
+      <!--[if gte mso 9]>
+      <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px; height: 300px">
+        <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+      <![endif]-->
+      <table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 90%">
+        <tr>
+          <td class="pad0" align="center" style="padding: 0px 0px 10px 0px;"><p style="Margin: 0; padding: 0; text-align: center; font-size: 18px; line-height: 26px;"><a class="cta-underline" href="{{canvas_entry_properties.${tracking_url}}}" style="border-bottom: 1px solid #383633; text-decoration: none; color: #383633; font-family: 'NeuzeitSLTW01-BookHeavy', Arial, 'sans-serif';"><!--[if (gte mso 9)|(IE)]><span style="color: #383633; text-decoration: underline;"><![endif]-->Order No. {{canvas_entry_properties.${order_id}}}<!--[if (gte mso 9)|(IE)]></span><![endif]--></a></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="pad0015" align="center" style="padding: 0px 0px 0px 0px; "><h2 style="padding: 0; Margin: 0; text-align: center; font-family: 'GT America Medium', Arial, 'sans-serif'; font-weight: normal; font-size: 27px; line-height: 35px; letter-spacing: -0.3px; color:#383633;"><!--[if (gte mso 9)|(IE)]><strong><![endif]--><a style="text-decoration: none; color:#383633;" href="{{canvas_entry_properties.${order_status_url}}}">Delivered!</a><!--[if (gte mso 9)|(IE)]></strong><![endif]--></h2>
+          </td>
+        </tr>
+      </table>
+      <!--[if gte mso 9]>
+      </v:textbox>
+      </v:rect>
+      <![endif]-->
+    </td>
+  </tr>
+</table>
+
+{% assign products = {{canvas_entry_properties.${products}}} %}
+{% for item in {{products}} %}
+  <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; background-color: #F5F3F2;">
+    <tr>
+      <td>
+        <table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 70%">
+          <tr>
+            <td align="center" style="padding: 0px">
+              <img alt="{{item.name}}" height="285px" width="501px" style="display: inline-block; width: 501px; height: 285px; max-width: 100%; font-size: 14px; font-family: Arial, 'sans-serif'; background-color: #ffffff; object-fit: cover;" border="0" src="{{item.image_url}}" />
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td class="pad2535" align="center" style="padding: 0px 0px 40px 0px;">
+
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 335px; width: 100%">
+          <tr>
+            <td valign="middle" style="padding: 0px 0px 10px 0px;">
+              <!--[if (gte mso 9)|(IE)]>
+              <table align="center" border="0" cellspacing="0" cellpadding="0" width="335" style="width: 335px">
+                <tr>
+                  <td align="center" valign="top" width="335" style="width: 335px">
+              <![endif]-->
+              <table width="335" valign="top" align="center" border="0" cellpadding="0" cellspacing="0" style="max-width: 335px; width: 100%">
+                <tr>
+                  <td style="padding: 15px 20px 0px 20px; width: 100%; max-width: 335px;"><p style="Margin: 0; padding: 0;  text-align: center; font-family: 'NeuzeitSLTW01-BookHeavy', Arial, 'sans-serif'; font-size: 18px; line-height: 26px; letter-spacing: -0.01px; color:#383633;">{{item.name}}</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" style="padding: 3px 20px 0px 20px; width: 100%; max-width: 335px"><p style="Margin: 0; padding: 0;  text-align: center; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 26px; letter-spacing: -0.01px; color:#383633;">
+                      Qty: {{item.quantity}}</p>
+                  </td>
+                </tr>
+              </table>
+              <!--[if (gte mso 9)|(IE)]>
+              </td>
+              </tr>
+              </table>
+              <![endif]-->
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  
+{% endfor %}
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; background-color: #F5F3F2;">
+  <tr>
+    <td align="center" style="padding: 30px 0 0 0;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 90%; max-width: 540px;">
+        <tr>
+          <td class="pad1000" align="center" style="padding: 6px 0 24px 0;">
+            <p style="Margin: 0; text-align: center; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 16px; line-height: 24px; color:#383633;">
+              If you purchased <strong>TaskRabbit furniture assembly</strong> for this product, you can schedule it from your
+              <a href="https://burrow.com/account/orders/?lid=mh5gvwb8g2re" style="color:#383633; text-decoration: none; border-bottom: 1px solid #383633;">order details page</a>.
+            </p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width: 600px">
+  <tr>
+    <td align="center" valign="top" width=600" style="width:600px">
+<![endif]-->
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="max-width: 600px; background-color: #F5F3F2;">
+  <tr>
+    <td class="pad3000" align="center" style="width: 100%; padding: 15px 0px 0px 0px">
+      <!--[if (gte mso 9)|(IE)]>
+      <table align="center" border="0" cellspacing="0" cellpadding="0" width="540" style="width: 540px">
+        <tr>
+          <td align="center" valign="top" width=540" style="width:540px">
+      <![endif]-->
+      <table align="center" border="0" cellpadding="0" cellspacing="0" width="540" style="max-width: 540px; width: 90%">
+        <tr>
+          <td>
+            <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 540px; vertical-align: bottom; width: 100%">
+              <tr>
+                <td style="padding: 10px 0px 35px 0px">
+                  <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 540px; vertical-align: bottom; background-color: #D8D8D8; width: 100%;">
+                    <tr>
+                      <td align="center" style="padding: 0px 0px 0px 0px; text-align: left; font-family: 'NeuzeitSLTW01-BookHeavy', Arial, 'sans-serif'; font-size: 1px; line-height: 1px; color:#282828; letter-spacing: 0.1em; text-transform: uppercase; background-color: #D8D8D8;">&nbsp;</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td class="pad0020" align="center" style="padding: 0px 0px 30px 0px;"><h3 style="text-align: left; font-family: 'GT America Medium', Arial, 'sans-serif'; font-size: 22px; line-height: 28px; color:#383633; letter-spacing: -0.24px; font-weight: 500;">Shipping&nbsp;address</h3>
+          </td>
+        </tr>
+        <tr>
+          <td  style="padding: 0px 0px 0px 0px;">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="540" style="width: 540px">
+              <tr>
+                <td align="center" valign="top" width="540" style="width: 540px">
+            <![endif]-->
+            <div style="width: 100%; max-width: 540px;">
+              <table  border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 540px;">
+                <tr>
+                  <td class="pad0030" align="left" valign="top" style="padding: 0px 0px 45px 0px;">
+                    <table  border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 540px;">
+                      <tr>
+                        <td valign="top" align="left" style="width: 100%;">
+                          <!--[if (gte mso 9)|(IE)]>
+                          <table align="left" border="0" cellspacing="0" cellpadding="0" width="540" style="width: 540px">
+                            <tr>
+                              <td align="left" valign="top" width="540" style="width: 540px">
+                          <![endif]-->
+                          <table valign="top" align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 540px;">
+                            <tr>
+                              <td class="total-item pMobile" align="left" style="padding: 0px 0px 0px 0px; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 26px; color:#383633; letter-spacing: 0px; max-width: 100%; min-width: 64px;">{{canvas_entry_properties.${shipping_address}.address1}}
+                              </td>
+                            </tr>
+                            {% if {{canvas_entry_properties.${shipping_address}.address2}} != null %}
+                              <tr>
+                                <td class="total-item pMobile" align="left" style="padding: 0px 0px 0px 0px; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 26px; color:#383633; letter-spacing: 0px; max-width: 100%; min-width: 64px;">{{canvas_entry_properties.${shipping_address}.address2}}
+                                </td>
+                              </tr>
+                            {% endif %}
+                            <tr>
+                              <td class="total-item pMobile" align="left" style="padding: 0px 0px 0px 0px; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 26px; color:#383633; letter-spacing: 0px; max-width: 100%; min-width: 64px;">{{canvas_entry_properties.${shipping_address}.city}}, {{canvas_entry_properties.${shipping_address}.province}}, {{canvas_entry_properties.${shipping_address}.zip}}
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="total-item pMobile" align="left" style="padding: 0px 0px 0px 0px; text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 26px; color:#383633; letter-spacing: 0px; max-width: 100%; min-width: 64px;">{{canvas_entry_properties.${shipping_address}.country}}
+                              </td>
+                            </tr>
+                          </table>
+                          <!--[if (gte mso 9)|(IE)]>
+                          </td>
+                          </tr>
+                          </table>
+                          <![endif]-->
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+          </td>
+        </tr>
+      </table>
+      <!--[if (gte mso 9)|(IE)]>
+      </td>
+      </tr>
+      </table>
+      <![endif]-->
+    </td>
+  </tr>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+</td>
+</tr>
+</table>
+<![endif]-->
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+  <tr>
+      <td>
+          <table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 90%">
+              <tr>
+                  <td class="pad3010" align="center" style="padding: 40px 0px 0px 0px; "><h1 style="padding: 0; Margin: 0; text-align: left; font-family: 'GT America Medium', Arial, 'sans-serif'; font-weight: normal; font-size: 30px; line-height: 35px; letter-spacing: -0.3px"><a href="https://help.burrow.com/en_us/categories/cleaning-BySDazx8?lid=uk094pd8iz0w" style="text-decoration: none; color: #383633;">All settled in?</a></h1>
+                  </td>
+              </tr>
+              <tr>
+                  <td class="pad0505" align="center" style="padding: 25px 0px 35px 0px;"><p style="Margin: 0; padding: 0;  text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 27px; letter-spacing: -0.01px; color:#383633;">
+                  Is there anything we can help with, any questions that need answering? The button below will take you to a thorough guide on caring for and cleaning each and every Burrow product, but if there’s anything else we can do, don’t hesitate to email <a class="cta-underline" href="mailto:support@burrow.com" style="border-bottom: 1px solid #484542; text-decoration: none; color: #484542;"><!--[if (gte mso 9)|(IE)]><span style="color: #484542; text-decoration: underline;"><![endif]-->support@burrow.com<!--[if (gte mso 9)|(IE)]></span><![endif]--></a>.</p>
+                  </td>
+              </tr>
+          </table>
+      </td>
+  </tr>
+  <tr>
+    <td class="pad2535" align="center" style="padding: 5px 0px 50px 0px;">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+        <tr>
+            <td class="button" align="center">
+              <div>
+                <!--[if mso]>
+                <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://help.burrow.com/en-US/articles/cleaning-95903?lid=kt6zeoicvafn" style="height:65px;v-text-anchor:middle;width:361px;" arcsize="7%" stroke="f" fillcolor="#FCEE71">
+                <w:anchorlock/>
+                <center>
+                <![endif]-->
+                <a class="button-textL" href="https://help.burrow.com/en-US/articles/cleaning-95903?lid=07duff3r4e17"
+                style="background-color: #FCEE71; border-radius: 4px; color: #383633; display: inline-block; font-family: 'GT America Medium', Arial, 'sans-serif'; font-size: 17px; letter-spacing: 1.54px; line-height: 65px; text-align: center; text-decoration: none; width: 361px; -webkit-text-size-adjust: none; text-transform: uppercase;">Get care instructions</a>
+                <!--[if mso]>
+                </center>
+                </v:roundrect>
+                <![endif]-->
+              </div>
+            </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+  <tr>
+    <td align="center" style="width: 100%;">
+      <a href="https://burrow.com/returns?utm_source=burrow&utm_medium=email&utm_campaign=transactional_05_delivery-today-delay_nar_US&utm_content=returns-img&lid=kp8v4c2j4wqq"><img alt="Shop Range Collection" width="600" style="display: block; width: 100%; max-width: 100%; font-size: 20px; font-family: Arial, 'sans-serif'; color: #383633; background-color: #FFFFFF;" border="0" src="https://burrow-assets.s3.amazonaws.com/email.burrow/Transactional/04b+Delivery+Today/Goldilocks.png" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 90%">
+        <tr>
+          <td class="pad2510" align="center" style="padding: 40px 0px 15px 0px; "><h2 style="padding: 0; Margin: 0; text-align: left; font-family: 'GT America Medium', Arial, 'sans-serif'; font-weight: normal; font-size: 27px; line-height: 35px; letter-spacing: -0.3px"><a href="https://burrow.com/returns?utm_source=burrow&utm_medium=email&utm_campaign=transactional_05_delivery-today-delay_nar_US&utm_content=returns-hed&lid=3ukqqab4zx28" style="text-decoration: none; color: #383633;">Hang on to those packages!</a></h2>
+          </td>
+        </tr>
+        <tr>
+          <td align="center" style="padding: 10px 0px 15px 0px;"><p style="Margin: 0; padding: 0;  text-align: left; font-family: 'Neuzeit S LT W01 Book', Arial, 'sans-serif'; font-size: 18px; line-height: 26px; letter-spacing: -0.01px; color:#383633;">Just in case it&rsquo;s not a Goldilocks match, we strongly recommend keeping your&nbsp;packaging.</p>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding: 10px 0px 60px 0px;">
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+              <tr>
+                <td class="button" align="center">
+                  <div>
+                    <!--[if mso]>
+                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://burrow.com/returns?utm_source=burrow&utm_medium=email&utm_campaign=transactional_05_delivery-today-delay_nar_US&utm_content=returns-cta&lid=qhcgnimuov8v" style="height:58px;v-text-anchor:middle;width:285px;" arcsize="7%" stroke="f" fillcolor="#FCEE71">
+                      <w:anchorlock/>
+                      <center>
+                    <![endif]-->
+                    <a class="button-text" href="https://burrow.com/returns?utm_source=burrow&utm_medium=email&utm_campaign=transactional_05_delivery-today-delay_nar_US&utm_content=returns-cta&lid=lm957gidzvov"
+                       style="background-color: #FCEE71; border-radius: 4px; color: #383633; display: inline-block; font-family: 'GT America Medium', Arial, 'sans-serif'; font-size: 15px; letter-spacing: 1px; line-height: 58px; text-align: center; text-decoration: none; width: 285px; -webkit-text-size-adjust: none; text-transform: uppercase;">VIEW RETURN POLICY</a>
+                    <!--[if mso]>
+                    </center>
+                    </v:roundrect>
+                    <![endif]-->
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+{{content_blocks.${footer_us} | id: 'cb15'}}

@@ -1,0 +1,35 @@
+id: 1f9c863a-423a-48d2-a303-fc9776cb74e7
+name: P_EM_2026_01_05_HAV_PC_D_Final_Day_of_Sale
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 1f9c863a-423a-48d2-a303-fc9776cb74e7
+dates:
+  send_date: '2026-01-05'
+  first_sent: '2026-01-04T17:23:55+00:00'
+  last_sent: '2026-01-05T18:15:12+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 608356d5-26c1-43e3-8380-74dd3b78f30a
+  channel: email
+  name: Variant 1
+  subject: Design your New Year
+  preheader: 'Last chance: 50% off the the space you’ve been dreaming of.'
+- id: dd34268c-9f73-4047-bd92-2c2ecb6fb4fa
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 253722
+  total_delivered: 253080
+  total_opens: 102081
+  total_clicks: 628
+  open_rate: 0.4023
+  click_rate: 0.0025
+  total_bounces: 13
+  total_unsubscribes: 696
+schedule_type: time_based
+_filename: p_em_2026_01_05_hav_pc_d_final_day_of_sale.yaml

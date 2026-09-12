@@ -1,0 +1,63 @@
+id: dec85cdf-eee5-450e-ba49-3d205af906bc
+name: P_EM_2025_07_30_CZ_D_PR_Perfect_Bedding
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: dec85cdf-eee5-450e-ba49-3d205af906bc
+dates:
+  send_date: '2025-07-30'
+  inferred_send_type: local_time
+  first_sent: '2025-07-29T22:08:09+00:00'
+  last_sent: '2025-07-30T21:01:41+00:00'
+tags:
+- am
+- batch and blast
+- bedding
+- d2c
+- designed
+- sale
+sends:
+- id: 421204b8-2ed7-43d7-8e4e-e123ce160b8c
+  channel: email
+  name: Variant 1
+  subject: Bedding, Perfected — And 20% Off
+  preheader: Naturally luxe layers for your most restful sleep.
+  html_file: html/p_em_2025_07_30_cz_d_pr_perfect_bedding.html
+  screenshot: screenshots/p_em_2025_07_30_cz_d_pr_perfect_bedding.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6883cc1fb86ca60074eb855b/original.png?1753467935
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6883a2a604bf7000746f4062/original.png?1753457317
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6883cc491ac3be00662abf41/original.png?1753467976
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6883a28ec68da90084c62b7b/original.png?1753457293
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6883a26ea26c9e0077d8da88/original.png?1753457261
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6883cbff93c4c60066e7a382/original.png?1753467902
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6883cc3893c4c60076e799f5/original.png?1753467960
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6883cbce0d3ac10075a2bd29/original.png?1753467853
+- id: f6f1d14e-4293-4a3e-bd76-b5a7a1688918
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 99623
+  total_delivered: 99537
+  total_opens: 51176
+  total_clicks: 532
+  open_rate: 0.5137
+  click_rate: 0.0053
+  total_revenue: 55639.87
+  total_bounces: 8
+  total_unsubscribes: 109
+  ga4:
+    sessions: 556
+    purchases: 10
+    revenue: 5142.7
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.488350'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.415653'
+schedule_type: time_based

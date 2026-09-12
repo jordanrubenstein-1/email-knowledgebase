@@ -1,0 +1,29 @@
+id: 072ce39b-7800-428d-b0fb-204c35a7effe
+name: P_PUSH_2026_07_31_HAV_CONV_Summer_Sale_Last_Day
+brand: HAV
+channel: push
+category: reminder
+type: sale
+theme: summer
+braze_id: 072ce39b-7800-428d-b0fb-204c35a7effe
+dates:
+  send_date: '2026-07-31'
+  last_sent: '2026-07-31'
+tags: []
+sends:
+- id: 3620b5ae-4db6-425f-adf1-18bb02c8bc58
+  channel: push
+  name: Variant 1
+- id: 4803f474-9ece-4ed8-bca2-18a9400dbcae
+  channel: push
+  name: Control Group
+performance_summary:
+  total_sends: 49298
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_bounces: 287
+schedule_type: time_based
+_filename: p_push_2026_07_31_hav_conv_summer_sale_last_day.yaml

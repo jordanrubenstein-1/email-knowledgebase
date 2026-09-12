@@ -1,0 +1,54 @@
+id: 89794062-5f84-4a6b-992e-64669f634c65
+name: P_EM_2026_01_28_SF_D_Ready_to_Ship
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 89794062-5f84-4a6b-992e-64669f634c65
+dates:
+  send_date: '2026-01-28'
+  inferred_send_type: local_time
+  first_sent: '2026-01-28T01:08:56+00:00'
+  last_sent: '2026-01-29T01:00:29+00:00'
+tags:
+- Batch and Blast
+- d2c
+- designed
+sends:
+- id: dd7cdf0a-143f-4854-8a4a-c69453704dd2
+  channel: email
+  name: Variant 1
+  subject: On the way! Ready-to-ship styles
+  preheader: why wait?
+  html_file: html/p_em_2026_01_28_sf_d_ready_to_ship.html
+  screenshot: screenshots/p_em_2026_01_28_sf_d_ready_to_ship.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6978e5acd6b1100063bb5a90/original.png?1769530796
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6978e5819d3c5e006395c04c/original.png?1769530752
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6978e568949f8a0064171ec3/original.png?1769530727
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6978e55d96e8ca007324272e/original.png?1769530716
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6978e5a0a277860064530957/original.png?1769530784
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6978e4f504edb2007396bba6/original.png?1769530612
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6978e4c796e8ca0063243280/original.gif?1769530567
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6978e591058e6b0063b94762/original.png?1769530769
+- id: de46c733-cfd2-4ddf-a8eb-ebf16ff0c72f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 38738
+  total_delivered: 38576
+  total_opens: 13297
+  total_clicks: 176
+  open_rate: 0.3433
+  click_rate: 0.0045
+  total_unsubscribes: 45
+  ga4:
+    sessions: 173
+    purchases: 2
+    revenue: 915.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.863437'
+    source: snowflake
+    channel: email
+schedule_type: time_based

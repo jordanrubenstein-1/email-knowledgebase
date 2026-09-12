@@ -1,0 +1,29 @@
+id: 1859998c-890c-4d1e-8c73-04f578d76785
+name: P_SMS_2026_03_23_SF_Spring_Sale_Ends_Tonight
+brand: STF
+channel: sms
+category: sale_promo
+type: sale
+theme: spring
+braze_id: 1859998c-890c-4d1e-8c73-04f578d76785
+dates:
+  send_date: '2026-03-23'
+  inferred_send_type: local_time
+  first_sent: '2026-03-22T23:08:05+00:00'
+  last_sent: '2026-03-23T20:01:33+00:00'
+tags: []
+sends:
+- id: 62bfc2b7-ff9d-4557-b6f1-67be3de91857
+  channel: sms
+  name: Variant 1
+- id: eb2f30b6-21e1-42fb-bfd8-98c17f1f5881
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 4171
+  total_delivered: 4097
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+schedule_type: time_based

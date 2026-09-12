@@ -1,0 +1,54 @@
+id: 520d4105-30e9-4601-bd47-51a826d43601
+name: P_EM_2026_01_20_CZ_D_PR_Travel_Bucket_List_Winter_Refresh_Sale
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: winter
+braze_id: 520d4105-30e9-4601-bd47-51a826d43601
+dates:
+  send_date: '2026-01-20'
+  inferred_send_type: local_time
+  first_sent: '2026-01-19T21:06:45+00:00'
+  last_sent: '2026-01-20T21:03:56+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- dest
+- sale
+- sale/winterRefesh2026
+sends:
+- id: 2a97915d-06a9-4566-9e77-9aea1ea01e0c
+  channel: email
+  name: Variant 1
+  subject: The Art of Elsewhere
+  preheader: Our 2026 dream destinations.
+  html_file: html/p_em_2026_01_20_cz_d_pr_travel_bucket_list_winter_refresh_sa.html
+  screenshot: screenshots/p_em_2026_01_20_cz_d_pr_travel_bucket_list_winter_refresh_sa.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696a7968c9cadf0063c918f0/original.png?1768585575
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69694f45ccfe7e0063d415a1/original.png?1768509253
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69694f57b1bdef0063b95519/original.png?1768509271
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69694ef90e6e3f0065f19b92/original.png?1768509176
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69694f34ce97dc0065769cc0/original.png?1768509236
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696a79e74915120063cc2281/original.png?1768585703
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696a79d51bcaf5006382f9b9/original.png?1768585685
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696a79b1ea969300631854f1/original.png?1768585649
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696a7a0bc9cadf0063c91fe2/original.png?1768585738
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69694f4cccfe7e0063d415a2/original.png?1768509260
+- id: 6104ea4a-1400-486c-9945-ea5bbda7317c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 113573
+  total_delivered: 113383
+  total_opens: 56607
+  total_clicks: 631
+  open_rate: 0.4984
+  click_rate: 0.0056
+  total_bounces: 9
+  total_unsubscribes: 190
+_filename: p_em_2026_01_20_cz_d_pr_travel_bucket_list_winter_refresh_sa.yaml
+schedule_type: time_based

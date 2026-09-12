@@ -1,0 +1,26 @@
+id: b3d1dae1-ed34-4728-b4d3-7bb31676ea6f
+name: 03_2025_SMS_TRG_SessionAbandonment
+brand: ID
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: b3d1dae1-ed34-4728-b4d3-7bb31676ea6f
+braze_type: canvas
+campaign_type: Triggered Journey
+dates: {}
+tags:
+- sms
+sends: []
+performance_summary: {}
+canvas_steps:
+- id: 440fc190-7f8a-4278-be27-8a8b16664767
+  name: Step
+  type: delay
+- id: 39ae9555-f1d5-4007-b0cc-d0d36bd98234
+  name: Step 1
+  type: message
+- id: 94f3b8c5-f504-4aef-86c7-749b6723e90f
+  name: Step 2
+  type: delay
+_filename: 03_2025_sms_trg_sessionabandonment.yaml

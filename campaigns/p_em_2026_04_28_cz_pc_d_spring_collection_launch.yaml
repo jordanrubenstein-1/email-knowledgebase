@@ -1,0 +1,48 @@
+id: 038217b1-431a-4791-ae0d-6444c9f986da
+name: P_EM_2026_04_28_CZ_PC_D_Spring_Collection_Launch
+brand: CZ
+channel: email
+category: product_launch
+type: seasonal
+theme: spring
+braze_id: 038217b1-431a-4791-ae0d-6444c9f986da
+dates:
+  send_date: '2026-04-28'
+  inferred_send_type: local_time
+  first_sent: '2026-04-27T20:02:25+00:00'
+  last_sent: '2026-04-28T18:07:12+00:00'
+tags:
+- batch and blast
+- d2c
+- designed
+- event
+- sale
+- sale/sleepsale2026
+sends:
+- id: 765d94be-3b57-4dd3-b997-eae0d16be80e
+  channel: email
+  name: Variant 1
+  subject: 'First look: Spring ‘26 has arrived'
+  preheader: New rugs and bedding, available in limited quantities.
+  html_file: html/p_em_2026_04_28_cz_pc_d_spring_collection_launch.html
+  screenshot: screenshots/p_em_2026_04_28_cz_pc_d_spring_collection_launch.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ef7381d696a5007fd0e3ef/original.png?1777300351
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ef73d0c66b57009c641bbc/original.png?1777300432
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ef738e48fc6400814910b9/original.png?1777300365
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ef739b3b80a3007fe31ee8/original.png?1777300378
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ef73bee86fd0007fbf4d7d/original.png?1777300412
+- id: b980f9ad-a9e7-4cfc-9fe1-d00230e6cdce
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 91325
+  total_delivered: 91024
+  total_opens: 46010
+  total_clicks: 766
+  open_rate: 0.5038
+  click_rate: 0.0084
+  total_bounces: 2
+  total_unsubscribes: 99
+_filename: p_em_2026_04_28_cz_pc_d_spring_collection_launch.yaml
+schedule_type: time_based

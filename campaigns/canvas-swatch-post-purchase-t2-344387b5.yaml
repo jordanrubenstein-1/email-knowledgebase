@@ -1,0 +1,24 @@
+id: 344387b5-98b1-413b-a25c-1fa6c8bbc134
+name: TRG_EM_2025_08_SF_D_Post_Purchase_Swatch_T2_V1
+brand: STF
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 6b119551-87be-423c-9e81-d368015e2234
+canvas_name: Swatch Post Purchase
+flow_type: post_purchase
+sequence_position: 2
+subject: Swatches Secured. Now, Let’s Get Inspired.
+preheader: tap into our favorite spaces to bring your vision to life
+sends:
+- id: 344387b5-98b1-413b-a25c-1fa6c8bbc134
+  channel: email
+  name: TRG_EM_2025_08_SF_D_Post_Purchase_Swatch_T2_V1
+  subject: Swatches Secured. Now, Let’s Get Inspired.
+  preheader: tap into our favorite spaces to bring your vision to life
+  html_file: html/canvas-swatch-post-purchase-t2-344387b5.html
+dates:
+  first_sent: null
+  last_sent: null
+performance_summary: {}

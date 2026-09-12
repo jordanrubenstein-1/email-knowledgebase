@@ -1,0 +1,32 @@
+id: d9006261-d2b0-4877-adb9-43650bbccb0f
+name: Email & Phone Capture Modal - PDS 2026
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: d9006261-d2b0-4877-adb9-43650bbccb0f
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-02-06T07:00:00+00:00'
+  last_sent: '2026-02-28T07:00:00+00:00'
+tags: []
+sends:
+- id: c1d9d3ce-60b4-4f00-a2da-a7e82fafe36a
+  channel: other
+  name: Variant 1
+- id: cb18bf21-95a9-477f-99e1-1908c18ae0c9
+  channel: other
+  name: Control Group
+- id: 91a83256-665c-4d20-aed2-09c9ff198b3a
+  channel: other
+  name: Variant 2
+- id: 766e965f-403a-4313-984c-dfca0d47faac
+  channel: other
+  name: Variant 3
+- id: 4faca6c1-b5eb-4dd8-ac54-ed2880cb4907
+  channel: other
+  name: Variant 4
+performance_summary: {}
+_filename: email-phone-capture-modal-pds-2026-d9006261.yaml
+schedule_type: action_based

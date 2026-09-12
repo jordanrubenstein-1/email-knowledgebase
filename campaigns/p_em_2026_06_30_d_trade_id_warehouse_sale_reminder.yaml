@@ -1,0 +1,36 @@
+id: f269f76b-cb8f-46cc-865a-bcebc74a558f
+name: P_EM_2026_06_30_D_TRADE_ID_Warehouse_Sale_Reminder
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: f269f76b-cb8f-46cc-865a-bcebc74a558f
+dates:
+  send_date: '2026-06-30'
+  first_sent: '2026-06-30T01:10:43+00:00'
+  last_sent: '2026-06-30T16:00:00+00:00'
+  inferred_send_type: scheduled
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 1956ca99-52e5-47cd-bf95-94ecc4fdd57d
+  channel: email
+  name: Variant 1
+  subject: 'Warehouse Sale: In-stock styles up to 60% off'
+  preheader: Your client called. They need a sofa.
+- id: 977c018e-aacc-4be5-b38e-f0811d901c18
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 22079
+  total_delivered: 21356
+  total_opens: 9825
+  total_clicks: 247
+  open_rate: 0.445
+  click_rate: 0.0112
+  total_revenue: 96225.99
+  total_bounces: 6
+  total_unsubscribes: 42
+schedule_type: time_based
+_filename: p_em_2026_06_30_d_trade_id_warehouse_sale_reminder.yaml

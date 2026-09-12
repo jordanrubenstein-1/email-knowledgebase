@@ -1,0 +1,55 @@
+id: f0fb6f8d-fbf7-40c9-82dd-7435ca657ce7
+name: P_EM_2025_12_27_CZ_D_PR_Back_In_Stock_Year_End_Sale
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: f0fb6f8d-fbf7-40c9-82dd-7435ca657ce7
+dates:
+  send_date: '2025-12-27'
+  inferred_send_type: local_time
+  first_sent: '2025-12-26T17:23:33+00:00'
+  last_sent: '2025-12-27T17:16:34+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- instock
+- sale
+- sale/yearend2025
+- sale_feat
+sends:
+- id: adb31a11-4220-4be4-9192-285bfb79440f
+  channel: email
+  name: Variant 1
+  subject: Look Who's Back
+  preheader: And up to 25% off.
+  html_file: html/p_em_2025_12_27_cz_d_pr_back_in_stock_year_end_sale.html
+  screenshot: screenshots/p_em_2025_12_27_cz_d_pr_back_in_stock_year_end_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/694abc35aa8a7900655849ba/original.png?1766505524
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/694abc7ddc54f3006324297d/original.png?1766505596
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/694abcc1d3e76300639e8fd9/original.png?1766505664
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/694abd11f11a530064ea874c/original.png?1766505744
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/694abcb55d9b5a006304f7ab/original.png?1766505652
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/694abcf8f925d8006585f8d6/original.png?1766505720
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/694abc82105c9f00630d66f2/original.png?1766505601
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/694abc2d94e8510063f13096/original.png?1766505516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/694abd019697d2006341b6e0/original.png?1766505729
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/694b05fae2bfcd00643b513c/original.png?1766524409
+- id: 0a684670-57fd-4925-8e0b-b4cd57c6bf71
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 55456
+  total_delivered: 55388
+  total_opens: 29665
+  total_clicks: 1036
+  open_rate: 0.5349
+  click_rate: 0.0187
+  total_bounces: 1
+  total_unsubscribes: 122
+_filename: p_em_2025_12_27_cz_d_pr_back_in_stock_year_end_sale.yaml
+schedule_type: time_based

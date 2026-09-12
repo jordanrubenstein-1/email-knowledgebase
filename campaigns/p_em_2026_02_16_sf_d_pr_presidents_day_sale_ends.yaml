@@ -1,0 +1,57 @@
+id: 534550b2-1d1c-47cd-aaf7-74f7f9584198
+name: P_EM_2026_02_16_SF_D_PR_President's_Day_Sale_Ends
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 534550b2-1d1c-47cd-aaf7-74f7f9584198
+dates:
+  send_date: '2026-02-16'
+  inferred_send_type: local_time
+  first_sent: '2026-02-16T02:09:29+00:00'
+  last_sent: '2026-02-17T02:00:42+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: 59646f66-67c8-4b92-8003-7e4116105cff
+  channel: email
+  name: Variant 1
+  subject: Time's running out...
+  preheader: final hours to shop 20% off sitewide.
+  html_file: html/p_em_2026_02_16_sf_d_pr_presidents_day_sale_ends.html
+  screenshot: screenshots/p_em_2026_02_16_sf_d_pr_presidents_day_sale_ends.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698cce15bc01d100735190cc/original.png?1770835477
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698cce2cdec1100064819565/original.png?1770835499
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698ccd90051e4700647250ac/original.png?1770835343
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698ccdff99b07f0063ecd785/original.png?1770835455
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698ccde35b43760065b422cb/original.png?1770835427
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698cce0925d4340065c23cba/original.png?1770835465
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698e5e523abd6e0075613a7a/original.gif?1770937938
+- id: 8b980f01-f3c1-4bf3-a778-7f543305e0ae
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39099
+  total_delivered: 38923
+  total_opens: 13521
+  total_clicks: 147
+  open_rate: 0.3458
+  click_rate: 0.0038
+  total_bounces: 2
+  total_unsubscribes: 51
+  ga4:
+    sessions: 150
+    purchases: 7
+    revenue: 4600.72
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.835146'
+    source: snowflake
+    channel: email
+schedule_type: time_based

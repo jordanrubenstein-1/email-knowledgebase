@@ -1,0 +1,43 @@
+id: 5040f23f-89d0-46a2-9d8c-90809a641e3b
+name: P_EM_2026_01_11_ID_D_PR_Collection_Spotlight_Sloan
+brand: ID
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 5040f23f-89d0-46a2-9d8c-90809a641e3b
+dates:
+  send_date: '2026-01-11'
+  inferred_send_type: local_time
+  first_sent: '2026-01-11T03:07:19+00:00'
+  last_sent: '2026-01-12T03:03:16+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 2ca2ebe7-7d57-4d4d-a261-fc592a2bc2ad
+  channel: email
+  name: Variant 1
+  subject: 'Collection Spotlight: Sloan'
+  preheader: 'Sleek form and everyday comfort. '
+- id: ffebf713-45f4-49bb-9981-75474d2ca366
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 103385
+  total_delivered: 103305
+  total_opens: 43340
+  total_clicks: 525
+  open_rate: 0.4192
+  click_rate: 0.0051
+  total_revenue: 56834.98
+  total_bounces: 3
+  total_unsubscribes: 195
+  ga4:
+    sessions: 491
+    purchases: 2
+    revenue: 7758.78
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.045528'
+    source: snowflake
+    channel: email
+schedule_type: time_based

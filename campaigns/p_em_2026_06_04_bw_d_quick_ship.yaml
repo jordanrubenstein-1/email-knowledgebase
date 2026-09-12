@@ -1,0 +1,36 @@
+id: f6a0cbbe-81a9-4f7c-ab27-86f0b74f02bc
+name: P_EM_2026_06_04_BW_D_Quick_Ship
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: f6a0cbbe-81a9-4f7c-ab27-86f0b74f02bc
+dates:
+  send_date: '2026-06-04'
+  first_sent: '2026-06-03T11:07:15+00:00'
+  last_sent: '2026-06-03T16:00:00+00:00'
+  inferred_send_type: scheduled
+tags:
+- Batch&Blast
+sends:
+- id: 8c515c35-26fa-4a50-b467-81f683eead72
+  channel: email
+  name: Variant 1
+  subject: En route when you need it to be
+  preheader: Your new furniture arrives sooner than you think.
+- id: eb3a8ef1-b2e6-4697-9fce-70ca57e36cff
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 163649
+  total_delivered: 163028
+  total_opens: 79296
+  total_clicks: 323
+  open_rate: 0.4845
+  click_rate: 0.002
+  total_revenue: 34285.0
+  total_bounces: 9
+  total_unsubscribes: 95
+schedule_type: time_based
+_filename: p_em_2026_06_04_bw_d_quick_ship.yaml

@@ -1,0 +1,62 @@
+id: e9bc7c9f-7e1d-434b-b0e3-ec76a063984f
+name: P_2024_11_30_ID_BFCM_Sectional_Buying_Guide_Email
+brand: ID
+channel: email
+category: editorial
+type: announcement
+theme: black_friday
+braze_id: e9bc7c9f-7e1d-434b-b0e3-ec76a063984f
+dates:
+  send_date: '2024-11-30'
+  inferred_send_type: local_time
+  first_sent: '2024-11-30T00:04:41+00:00'
+  last_sent: '2024-11-30T17:15:10+00:00'
+tags: []
+sends:
+- id: 8277322e-e01c-4266-aa1d-b9e10629d8aa
+  channel: email
+  name: Variant 1
+  subject: 'How To: Customize Your Perfect Sectional'
+  preheader: Plus, get up to 25% off sitewide.
+- id: 500766d7-7283-46c6-b266-a9ec2c259b62
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 79620
+  total_delivered: 78915
+  total_opens: 24720
+  total_clicks: 505
+  open_rate: 0.3105
+  click_rate: 0.0063
+  total_revenue: 659911.98
+  total_bounces: 1
+  total_unsubscribes: 186
+  ga4:
+    sessions: 845
+    purchases: 8
+    revenue: 27439.97
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.885821'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-03'
+    discount: null
+    type: null
+  primary_sale:
+    id: id-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-03'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:40.403355'
+schedule_type: time_based

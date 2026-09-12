@@ -1,0 +1,58 @@
+id: 9c64e637-9e6d-4d10-ae02-bde4a2afe72c
+name: P_2024_12_21_D_SF_The_Winter_Edit_Email
+brand: STF
+channel: email
+category: editorial
+type: seasonal
+theme: winter
+braze_id: 9c64e637-9e6d-4d10-ae02-bde4a2afe72c
+dates:
+  send_date: '2024-12-21'
+  inferred_send_type: local_time
+  first_sent: '2024-12-21T00:58:14+00:00'
+  last_sent: '2024-12-21T17:00:17+00:00'
+tags: []
+sends:
+- id: 30eabe01-2091-46d1-b110-304b22bc7c8e
+  channel: email
+  name: Variant 1
+  subject: Styles We’re Loving This Winter 🤍
+  preheader: explore our winter edit
+  html_file: html/p_2024_12_21_d_sf_the_winter_edit_email.html
+  screenshot: screenshots/p_2024_12_21_d_sf_the_winter_edit_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6765e17170298400730d98b3/original.gif?1734730097
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6765e1b1e08c570065d32348/original.gif?1734730161
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6765dffd2d23e6007352e347/original.gif?1734729725
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6765dfba70298400650d9a20/original.gif?1734729658
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6761f86787684900639f8898/original.jpg?1734473830
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6761f836d9e3990065113bb5/original.gif?1734473782
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676611205d2de10065555d29/original.gif?1734742304
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6761f893d9bc370065a5693a/original.gif?1734473875
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6765e09f9f549a0066c08dae/original.gif?1734729887
+- id: 577a30d2-9db0-47a7-bc45-1f031b1abac7
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 3860
+  total_delivered: 3822
+  total_opens: 1847
+  total_clicks: 65
+  open_rate: 0.4785
+  click_rate: 0.0168
+  total_revenue: 485.0
+  total_unsubscribes: 18
+  ga4:
+    sessions: 33
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.744525'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.729208'
+schedule_type: time_based

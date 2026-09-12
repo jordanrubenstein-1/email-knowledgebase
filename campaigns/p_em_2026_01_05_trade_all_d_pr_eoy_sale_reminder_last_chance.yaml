@@ -1,0 +1,36 @@
+id: 5977c0ee-04be-4a63-9aa2-9ee32b8542f1
+name: P_EM_2026_01_05_TRADE_ALL_D_PR_EOY_Sale_Reminder_Last_Chance
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 5977c0ee-04be-4a63-9aa2-9ee32b8542f1
+dates:
+  send_date: '2026-01-05'
+  inferred_send_type: local_time
+  first_sent: '2026-01-04T19:07:04+00:00'
+  last_sent: '2026-01-05T19:00:43+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 57fd2c2a-0d34-4b13-b898-7477e72e1158
+  channel: email
+  name: Variant 1
+  subject: 'Last Call: Extra Trade Savings'
+  preheader: End-of-year offers end tonight.
+- id: 11cf2e5a-cfa5-43a3-a91e-a5340570e9d1
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 19709
+  total_delivered: 19056
+  total_opens: 8970
+  total_clicks: 112
+  open_rate: 0.4551
+  click_rate: 0.0057
+  total_revenue: 91070.0
+  total_bounces: 5
+  total_unsubscribes: 80
+_filename: p_em_2026_01_05_trade_all_d_pr_eoy_sale_reminder_last_chance.yaml
+schedule_type: time_based

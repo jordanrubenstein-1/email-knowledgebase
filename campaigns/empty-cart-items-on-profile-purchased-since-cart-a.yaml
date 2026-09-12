@@ -1,0 +1,29 @@
+id: 97c4e761-ced8-4181-90c1-72b22b1a4ae4
+name: Empty Cart Items on Profile - Purchased Since Cart Add - 20250803
+brand: ID
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: 97c4e761-ced8-4181-90c1-72b22b1a4ae4
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2025-08-03T15:00:00+00:00'
+  last_sent: '2025-08-03T15:00:00+00:00'
+tags: []
+sends: []
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.349509'
+    source: snowflake
+    channel: email
+canvas_steps:
+- id: 7534e2f7-64b0-48be-b3b9-ca43e060adf0
+  name: Step
+  type: user_update

@@ -1,0 +1,33 @@
+id: 6512dd09-72aa-43fd-857f-42d2bb5eb72d
+name: P_EM_2026_07_27_BW_D_Summer_Sale_Storage
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: summer
+braze_id: 6512dd09-72aa-43fd-857f-42d2bb5eb72d
+dates:
+  send_date: '2026-07-27'
+  last_sent: '2026-07-27'
+tags:
+- Batch&Blast
+sends:
+- id: 426d809a-00e5-4363-ba8e-9f88a0f73672
+  channel: email
+  name: Variant 1
+  subject: Storage is up to 30% off
+  preheader: Shop the Summer Sale and get organized.
+- id: cd0513ab-4239-4dc6-b6bb-2e5acf03c83e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 226337
+  total_delivered: 225392
+  total_opens: 114936
+  total_clicks: 388
+  open_rate: 0.5078
+  click_rate: 0.0017
+  total_revenue: 48806.0
+  total_unsubscribes: 148
+schedule_type: time_based
+_filename: p_em_2026_07_27_bw_d_summer_sale_storage.yaml

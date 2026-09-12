@@ -1,0 +1,33 @@
+id: 7a218735-da4d-4f8b-9737-8488a3923da7
+name: P_2025_1_26_HAV_Conv_Jan_Merch_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 7a218735-da4d-4f8b-9737-8488a3923da7
+dates:
+  send_date: '2025-01-26'
+  first_sent: '2025-01-25T17:23:50+00:00'
+  last_sent: '2025-01-26T17:15:06+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 785efd31-1c85-41c8-8c6c-08bed66a9e3d
+  channel: email
+  name: Variant 1
+  subject: Your 15% Off Code Won’t Last Forever
+  preheader: Hurry—save now with code WINTER2025.
+- id: b31a1d42-b7c3-4bd0-a470-dbf46db095e9
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 37380
+  total_delivered: 37311
+  total_opens: 21122
+  total_clicks: 137
+  open_rate: 0.5651
+  click_rate: 0.0037
+  total_unsubscribes: 57
+schedule_type: time_based
+_filename: p_2025_1_26_hav_conv_jan_merch_sale_reminder.yaml

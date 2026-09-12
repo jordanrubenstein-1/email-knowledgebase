@@ -1,0 +1,33 @@
+id: ef62e5ff-f2ae-4c06-a751-fa50cfdc87cb
+name: Abandon-Cart_Reclaim-2
+brand: BUR
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: e46133da-5c6c-41c9-9c7c-864b5110460d
+canvas_name: Abandon Cart - Reclaim
+flow_type: cart_abandonment
+sequence_position: 4
+subject: Remember this?
+preheader: We saved your cart for you.
+sends:
+- id: ef62e5ff-f2ae-4c06-a751-fa50cfdc87cb
+  channel: email
+  name: Abandon-Cart_Reclaim-2
+  subject: Remember this?
+  preheader: We saved your cart for you.
+  html_file: html/canvas-abandon-cart-reclaim-t4-ef62e5ff.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-12-20T21:00:00Z'
+  last_sent: '2025-09-13T11:00:00Z'
+performance_summary:
+  total_sends: 3085
+  total_delivered: 3082
+  total_opens: 1146
+  total_clicks: 38
+  open_rate: 0.3715
+  click_rate: 0.0123
+  total_unsubscribes: 36
+  total_revenue: 5911.0

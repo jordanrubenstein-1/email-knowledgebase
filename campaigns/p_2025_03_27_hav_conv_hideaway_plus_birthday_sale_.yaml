@@ -1,0 +1,54 @@
+id: df40ea9e-b388-4fa0-a714-c7f223f6df08
+name: P_2025_03_27_HAV_Conv_Hideaway_Plus_Birthday_Sale_Banner
+brand: HAV
+channel: email
+category: editorial
+type: sale
+theme: null
+braze_id: df40ea9e-b388-4fa0-a714-c7f223f6df08
+dates:
+  send_date: '2025-03-27'
+  inferred_send_type: local_time
+  first_sent: '2025-03-27T02:08:30+00:00'
+  last_sent: '2025-03-28T02:00:49+00:00'
+tags:
+- HideawayEmails
+sends:
+- id: 336574fc-44c4-4cd5-b14d-0afb033c5611
+  channel: email
+  name: Variant 1
+  subject: 'Designers are loving this “ugly” trend '
+  preheader: 'Maximalism at its finest. '
+  html_file: html/p_2025_03_27_hav_conv_hideaway_plus_birthday_sale_banner.html
+  screenshot: screenshots/p_2025_03_27_hav_conv_hideaway_plus_birthday_sale_banner.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e44a4d27ddb70076f7c7f0/original.png?1743014477
+  - https://havenly.com/blog/wp-content/uploads/2023/01/brady-1500x970.jpg
+  - https://images.scalero.io/email_assets/2207/EHZ94QJAIIKNRK9XEWVERR1WAU8C8YFAYEOME1WDA9E7692UTZ4NKC6ZS882NMYU.png
+  - https://havenly.com/blog/wp-content/uploads/2025/03/kyliefitts_havenly-heathershome_27-4-1500x970.jpg
+  - https://havenly.com/blog/wp-content/uploads/2025/03/kyliefitts_theinside_september2024_heathers_011-2-1500x970.jpg
+- id: c17b6067-3c9e-4ab4-8c43-a0ea0096e10f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 39279
+  total_delivered: 39173
+  total_opens: 22260
+  total_clicks: 318
+  open_rate: 0.5667
+  click_rate: 0.0081
+  total_bounces: 1
+  total_unsubscribes: 44
+  ga4:
+    sessions: 615
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.317103'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.378844'
+schedule_type: time_based

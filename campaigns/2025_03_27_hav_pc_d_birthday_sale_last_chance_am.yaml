@@ -1,0 +1,35 @@
+id: d85ce196-0580-4e60-9afb-b0c52d4b8b66
+name: 2025_03_27_HAV_PC_D_Birthday_Sale_Last_Chance_AM
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: d85ce196-0580-4e60-9afb-b0c52d4b8b66
+dates:
+  send_date: '2025-03-27'
+  first_sent: '2025-03-26T22:25:23+00:00'
+  last_sent: '2025-03-27T18:15:02+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 9624856c-adb9-4d3a-b5bc-4b52834faffc
+  channel: email
+  name: Variant 1
+  subject: This Time, We Mean It
+  preheader: Last chance for 50% off design services.
+- id: 95fb1bd6-e157-44d1-8501-9c61c56f4271
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 198232
+  total_delivered: 194661
+  total_opens: 85567
+  total_clicks: 378
+  open_rate: 0.4317
+  click_rate: 0.0019
+  total_bounces: 5
+  total_unsubscribes: 236
+schedule_type: time_based
+_filename: 2025_03_27_hav_pc_d_birthday_sale_last_chance_am.yaml

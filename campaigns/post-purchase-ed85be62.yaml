@@ -1,0 +1,132 @@
+id: ed85be62-ad24-41ee-8ff7-b2f667368156
+name: Post Purchase
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: ed85be62-ad24-41ee-8ff7-b2f667368156
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-05-02T19:00:00+00:00'
+  last_sent: '2026-05-06T21:00:00+00:00'
+tags: []
+sends:
+- id: 4c596723-1f50-42e3-aba9-315ab6d10d51
+  channel: email
+  name: TRG_EM_2024_08_CZ_D_Post_Purchase_T1
+  subject: 'Complete the Look: The Well-Traveled Home'
+  preheader: From master artisans to your home. All ethically crafted and thoughtfully
+    designed.
+  step_id: 781d7ced-0741-4aec-8ba1-31019ee64b3b
+- id: 8795654c-cc2b-47b6-b498-8041fc5ecafc
+  channel: email
+  name: TRG_EM_2024_08_CZ_D_Post_Purchase_T2
+  subject: See the impact of your purchase...
+  preheader: You are supporting 3,178 master artisans across 23 countries.
+  step_id: c04044e3-0878-4ef9-9f23-38e7e1cc82db
+- id: 1347b3eb-de24-4089-ba1b-257b6fe292c6
+  channel: email
+  name: TRG_EM_2024_29_11_BFCM_Black_Friday_Fund_T1
+  subject: Thank You For Joining The Fund
+  preheader: Your purchase has power.
+  step_id: 481a5f11-db0f-431a-b358-d069fc6bdbd9
+- id: 348548dc-884a-4780-aafe-0cda610758e4
+  channel: email
+  name: TRG_EM_2026_03_CZ_D_Post_Purchase_T3
+  subject: Share The Citizenry, Enjoy $50 On Us
+  preheader: ''
+  step_id: df06314d-c684-458b-8838-8370102bc78b
+- id: ed56c60e-c509-4835-a083-30928e574c0c
+  channel: email
+  name: TRG_EM_2026_05_CZ_D_Post_Purchase_Linen_Bedding_T1
+  subject: The right way to care for your new linen
+  preheader: For sheets that get better with every wash.
+  step_id: 3ae564e9-6dc5-4f26-8c60-295548590241
+- id: 80c51839-1fb5-4fd2-9ac0-c75664b30cbf
+  channel: email
+  name: TRG_EM_2026_05_CZ_D_Post_Purchase_Rug_T1
+  subject: The right way to care for your rug
+  preheader: Simple habits to keep it looking new.
+  step_id: 7fc9c426-ab10-4258-b20d-fcda54afb8d1
+performance_summary: {}
+canvas_steps:
+- id: 781d7ced-0741-4aec-8ba1-31019ee64b3b
+  name: TRG_EM_2024_08_CZ_D_Post_Purchase_T1
+  type: message
+  channel: email
+  subject: 'Complete the Look: The Well-Traveled Home'
+  preheader: From master artisans to your home. All ethically crafted and thoughtfully
+    designed.
+- id: d1dfb3a2-70c1-4773-8ece-d0f6510b1f4b
+  name: D2 1 day
+  type: delay
+- id: b2356e1b-c5c2-479f-9b20-dcfb916505a7
+  name: D1 15 mins
+  type: delay
+- id: c04044e3-0878-4ef9-9f23-38e7e1cc82db
+  name: TRG_EM_2024_08_CZ_D_Post_Purchase_T2
+  type: message
+  channel: email
+  subject: See the impact of your purchase...
+  preheader: You are supporting 3,178 master artisans across 23 countries.
+- id: 481a5f11-db0f-431a-b358-d069fc6bdbd9
+  name: TRG_EM_2024_29_11_BFCM_Black_Friday_Fund_T1
+  type: message
+  channel: email
+  subject: Thank You For Joining The Fund
+  preheader: Your purchase has power.
+- id: be8c04f7-ee99-4c2a-8c69-5d5e5c044ea2
+  name: 1 Day Delay
+  type: delay
+- id: 543e0fe3-a42e-4405-8597-2a554011adc7
+  name: Email Subscribed?
+  type: decision_split
+- id: a8a85b1a-892c-4e87-bbd3-c19786f1a84e
+  name: Email Subscribed?
+  type: decision_split
+- id: 38e15bc8-1a6d-456e-b3b6-ed405f29c9f6
+  name: D3 6 days
+  type: delay
+- id: cceafe24-9e76-431a-ab22-83b0808cf3a3
+  name: SMS Opted In?
+  type: decision_split
+- id: 3ef6301e-59be-4df5-8a5e-09bba2ad78b5
+  name: TRG_SMS_2024_08_CZ_D_Post_Purchase_T3
+  type: message
+- id: 264a222f-59a9-40cd-91e4-2496aea33dcf
+  name: Step
+  type: delay
+- id: df06314d-c684-458b-8838-8370102bc78b
+  name: TRG_EM_2026_03_CZ_D_Post_Purchase_T3
+  type: message
+  channel: email
+  subject: Share The Citizenry, Enjoy $50 On Us
+  preheader: ''
+- id: 3ae564e9-6dc5-4f26-8c60-295548590241
+  name: TRG_EM_2026_05_CZ_D_Post_Purchase_Linen_Bedding_T1
+  type: message
+  channel: email
+  subject: The right way to care for your new linen
+  preheader: For sheets that get better with every wash.
+- id: 7fc9c426-ab10-4258-b20d-fcda54afb8d1
+  name: TRG_EM_2026_05_CZ_D_Post_Purchase_Rug_T1
+  type: message
+  channel: email
+  subject: The right way to care for your rug
+  preheader: Simple habits to keep it looking new.
+- id: 0fc275ff-c94a-4698-9075-8e0d32d63d3c
+  name: Email Subscribed? 1
+  type: decision_split
+- id: ed3e14ce-efbc-4889-a53d-a006495f82c1
+  name: Order contents
+  type: context
+- id: 988edf69-7e5e-4a8b-a098-cb9ba15dae55
+  name: Step 2
+  type: delay
+- id: 21d38463-ed21-44d7-961d-6ae6095cdf94
+  name: Step 1
+  type: audience_paths
+_filename: post-purchase-ed85be62.yaml

@@ -1,0 +1,33 @@
+id: 789d2d6f-c349-4e33-ad2a-f565706af226
+name: P_2025_04_07_HAV_PC_Friends_and_Family_Reminder_PT
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 789d2d6f-c349-4e33-ad2a-f565706af226
+dates:
+  send_date: '2025-04-07'
+  first_sent: '2025-04-06T18:20:45+00:00'
+  last_sent: '2025-04-07T18:15:11+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 1aea2bd8-3267-415e-b1bb-f31f649ebf59
+  channel: email
+  name: Variant 1
+  subject: Your exclusive Friends & Family discount
+- id: 51ebc98b-a208-4466-8525-ac65d6bca49a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 202219
+  total_delivered: 198140
+  total_opens: 89743
+  total_clicks: 609
+  open_rate: 0.4438
+  click_rate: 0.003
+  total_unsubscribes: 514
+schedule_type: time_based
+_filename: p_2025_04_07_hav_pc_friends_and_family_reminder_pt.yaml

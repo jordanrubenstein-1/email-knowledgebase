@@ -1,0 +1,35 @@
+id: 1af35877-3c20-41a5-99c6-5b4b089d473c
+name: P_EM_2025_12_28_HAV_CONV_D_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 1af35877-3c20-41a5-99c6-5b4b089d473c
+dates:
+  send_date: '2025-12-28'
+  first_sent: '2025-12-27T17:20:28+00:00'
+  last_sent: '2025-12-28T17:15:30+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: edcbfc34-6274-4a4b-b2cb-cae83f4b83ca
+  channel: email
+  name: Variant 1
+  subject: 'Don’t Forget: Up to 15% Off Is Still On!'
+  preheader: Ring in 2025 with your dream home.
+- id: 55d33508-15db-49fe-b7e7-2a53b4ce4612
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 34523
+  total_delivered: 34410
+  total_opens: 18477
+  total_clicks: 74
+  open_rate: 0.5352
+  click_rate: 0.0021
+  total_bounces: 1
+  total_unsubscribes: 56
+schedule_type: time_based
+_filename: p_em_2025_12_28_hav_conv_d_sale_reminder.yaml

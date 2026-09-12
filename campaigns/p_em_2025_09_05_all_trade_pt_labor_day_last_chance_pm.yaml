@@ -1,0 +1,26 @@
+id: 891d43f7-1f31-43c5-a749-b1a58d5de1f3
+name: P_EM_2025_09_05_ALL_TRADE_PT_Labor_Day_Last_Chance_PM
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 891d43f7-1f31-43c5-a749-b1a58d5de1f3
+dates:
+  send_date: '2025-09-05'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-05T20:30:51+00:00'
+  last_sent: '2025-09-05T20:31:41+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: d87523c7-29c7-4564-a620-15846aa2a0e2
+  channel: email
+  name: Variant 1
+  subject: 'Last Chance: Trade-Exclusive Labor Day Savings End Soon'
+- id: 8fdf4aa2-4b5f-4821-8cf7-8df1e10b2f32
+  channel: email
+  name: Control Group
+performance_summary: {}
+_filename: p_em_2025_09_05_all_trade_pt_labor_day_last_chance_pm.yaml
+schedule_type: time_based

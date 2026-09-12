@@ -1,0 +1,100 @@
+<!DOCTYPE html><html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en"><head><title></title><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><!--[if mso]><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch><o:AllowPNG/></o:OfficeDocumentSettings></xml><![endif]--><!--[if !mso]><!--><link href="https://fonts.googleapis.com/css?family=Open+Sans" 
+rel="stylesheet" type="text/css"><!--<![endif]--><style>
+*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{line-height:0;font-size:75%} @media (max-width:620px){.mobile_hide{display:none}.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide table{display:table!important;max-height:none!important}}
+</style><!--[if mso ]><style>sup, sub { font-size: 100% !important; } sup { mso-text-raise:10% } sub { mso-text-raise:-10% }</style> <![endif]--></head><body class="body" style="background-color:#fff;margin:0;padding:0;-webkit-text-size-adjust:none;text-size-adjust:none"><table class="nl-container" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;background-color:#fff"><tbody><tr><td><table class="row row-1" align="center" 
+width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;background-color:#fafafa"><tbody><tr><td><table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;background-color:#fafafa;color:#000;width:600px;margin:0 auto" width="600"><tbody><tr><td class="column column-1" width="100%" 
+style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top;border-top:0;border-right:0;border-bottom:0;border-left:0"><table class="paragraph_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;word-break:break-word"><tr><td class="pad"><div 
+style="color:#101b24;direction:ltr;font-family:'Open Sans',Arial,Sans-serif;font-size:14px;font-weight:400;letter-spacing:0;line-height:normal;text-align:left;mso-line-height-alt:NaNpx"><p style="margin:0">{{content_blocks.${api_trig_header} | id: 'cb1'}}</p></div></td></tr></table><table class="html_block block-2" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad"><div 
+style="font-family:'Open Sans',Arial,Sans-serif;text-align:center" align="center"><table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+  <tbody>
+    <tr style="padding: 0; text-align: left; vertical-align: top;">
+      <td height="45px" style="-moz-hyphens: auto; -webkit-hyphens: auto; margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica, Arial, serif; font-size: 30px; font-weight: normal; hyphens: auto; line-height: 45px; mso-line-height-rule: exactly; padding: 0; text-align: center; vertical-align: top; word-wrap: break-word;">&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+<!-- END 30px tall spacer -->
+
+<!-- 740px Text -->
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="deviceWidth" style="border-collapse: collapse; display: block; background-color: #ffffff;" width="740">
+  <tbody>
+    <tr>
+      <td bgcolor="#ffffff">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" class="deviceWidth" style="border-collapse: collapse; background-color: #ffffff;" width="740">
+          <tbody>
+            <tr>
+              <td align="center" class="h2" style="font-family: 'Sailec-regular', Helvetica, Arial, sans-serif; font-size: 36px; letter-spacing: 0.01em; line-height: 1.5em; color: #000000; text-align: left; padding: 50px 74px 30px 74px; background-color: #ffffff; display: block; hyphens: none;" valign="top">You have new messages from <br>{{api_trigger_properties.${sender}}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!-- end 740px Text →
+
+<!-- Messages Loop -->
+{% for message in {{api_trigger_properties.${messages}}} %}
+<!-- Message -->
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="deviceWidth" style="height: 210.594px;" width="740">
+  <tbody>
+    <tr style="height: 210.594px;">
+      <td bgcolor="#ffffff" style="height: 210.594px;">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" class="deviceWidth" style="padding: 30px 0px 0px 0px;" width="610">
+          <tbody>
+            {% if message.message.content %}
+            <tr>
+              <td align="left" class="bodycopy" style="font-family: 'Sailec-Regular', Helvetica, Arial, sans-serif; font-size: 14px; letter-spacing: 0.01em; line-height: 1.7em; color: #000000; padding: 40px 40px 40px 40px; background-color: #f4f4f4;" valign="top">"{{ message.message.content }}"</td>
+            </tr>
+            {% endif %}
+
+            {% if message.message.image %}
+            <tr>
+              <td align="center" style="font-family: 'Sailec-Regular', Helvetica, Arial, sans-serif; font-size: 14px; letter-spacing: 0.01em; line-height: 1.7em; color: #000000; text-align: center; padding: 40px; background-color: #f4f4f4;" valign="top">
+                <img src="{{api_trigger_properties.${message.message.image}}}" style="max-width: 90%;">
+              </td>
+            </tr>
+            {% endif %}
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- Bullet Proof Button -->
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="deviceWidth" style="padding-bottom: 20px; background-color: #fff;" width="740">
+  <tbody>
+    <tr>
+      <td align="center" class="deviceWidth" style="padding: 30px 0px 20px 0; background-color: #ffffff;" width="740">
+        <a class="button" href="{{message.message_link}}?lid=5qd3n2vnajqp" style="background-color: #000000; border-radius: 100px; color: #ffffff; display: block; font-family: 'Sailec-Regular', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.5em; letter-spacing: 0.01em; padding: 10px 0px; text-align: center; text-decoration: none; width: 200px; -webkit-text-size-adjust: none;">Reply to {{message.sender}}</a>
+      </td>
+    </tr>
+    <tr align="center" style="background-color: #fff;">
+      <td align="center" class="bodycopy" style="font-family: 'Sailec-Regular', Helvetica, Arial, serif; font-size: 14px; text-align: center; background-color: #fff;" valign="center">
+        {% if message.is_designer %}
+        <table align="center">
+          <tbody>
+            <tr align="center">
+              {% if message.most_recent_board_link %}
+              <td align="center" style="padding-right: 20px; padding-left: 20px; padding-bottom: 30px;">
+                <a href="{{message.most_recent_board_link}}?lid=23x6zc3xke0i" style="color: #af6d47; cursor: pointer;"> View Latest Board </a>
+              </td>
+              {% endif %}
+
+              {% if message.shopping_list_link %}
+              <td align="center" style="padding-left: 20px; padding-right: 20px; padding-bottom: 30px;">
+                <a href="{{message.shopping_list_link}}?lid=1lp59gz79szw" style="color: #af6d47; cursor: pointer;"> View Shopping List </a>
+              </td>
+              {% endif %}
+            </tr>
+          </tbody>
+        </table>
+        {% endif %}
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!-- End Bullet Proof Button -->
+<!-- End Message -->
+{% endfor %}</div></td></tr></table><table class="paragraph_block block-3" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;word-break:break-word"><tr><td class="pad"><div 
+style="color:#101b24;direction:ltr;font-family:'Open Sans',Arial,Sans-serif;font-size:14px;font-weight:400;letter-spacing:0;line-height:normal;text-align:left;mso-line-height-alt:NaNpx"><p style="margin:0;margin-bottom:0">{{content_blocks.${api_trig_footer} | id: 'cb2'}}</p><p style="margin:0">{{content_blocks.${unsubscribe} | id: 'cb3'}}</p></div></td></tr></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><!-- End --></body></html>

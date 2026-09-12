@@ -1,0 +1,38 @@
+id: 6e8a9dfe-69d7-4ef2-88da-b6f004bcf9d1
+name: P_SMS_2026_01_05_BW_Final_Day_for_Sale
+brand: BUR
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: 6e8a9dfe-69d7-4ef2-88da-b6f004bcf9d1
+dates:
+  send_date: '2026-01-05'
+  inferred_send_type: local_time
+  first_sent: '2026-01-05T01:08:48+00:00'
+  last_sent: '2026-01-06T01:01:44+00:00'
+tags: []
+sends:
+- id: e5910cb7-587c-4de7-9786-c08eb204312b
+  channel: sms
+  name: Variant 1
+- id: 56d745e2-16cb-4272-ae0b-3ccc53281b10
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 6523
+  total_delivered: 6425
+  total_opens: 0
+  total_clicks: 278
+  open_rate: 0.0
+  click_rate: 0.0426
+  total_revenue: 6679.0
+  ga4:
+    sessions: 217
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.688267'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

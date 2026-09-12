@@ -1,0 +1,29 @@
+id: 0c766d8d-0c12-4eb8-b97a-03c79bbf37c5
+name: P_SMS_2026_04_21_BW_April_Reset_Ends_Tonight
+brand: BUR
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: 0c766d8d-0c12-4eb8-b97a-03c79bbf37c5
+dates:
+  send_date: '2026-04-21'
+  last_sent: '2026-04-21'
+tags: []
+sends:
+- id: 221b4d66-58a6-4300-9422-051fa821a7e3
+  channel: sms
+  name: Variant 1
+- id: 79b5de96-3309-4ef9-97df-030dd251ef82
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 8204
+  total_delivered: 7896
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 27427.0
+_filename: p_sms_2026_04_21_bw_april_reset_ends_tonight.yaml
+schedule_type: time_based

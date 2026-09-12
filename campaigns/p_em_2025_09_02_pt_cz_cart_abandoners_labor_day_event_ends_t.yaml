@@ -1,0 +1,43 @@
+id: 868a8095-eb2b-41f9-8f52-2ff2792d23c1
+name: P_EM_2025_09_02_PT_CZ_Cart_Abandoners_Labor_Day_Event_Ends_Tonight_PM
+brand: CZ
+channel: email
+category: sale_promo
+type: lifecycle
+theme: null
+braze_id: 868a8095-eb2b-41f9-8f52-2ff2792d23c1
+dates:
+  send_date: '2025-09-02'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-02T22:44:13+00:00'
+  last_sent: '2025-09-02T22:52:03+00:00'
+tags:
+- batch and blast
+- pm
+- pt
+- sale
+- sale_feat
+- seg
+sends:
+- id: 0c0f4d7e-ebc1-4ba1-9bf5-feb8709f7681
+  channel: email
+  name: Variant 1
+  subject: 'Don’t miss it: your discounted cart expires tonight'
+  html_file: html/p_em_2025_09_02_pt_cz_cart_abandoners_labor_day_event_ends_t.html
+  screenshot: screenshots/p_em_2025_09_02_pt_cz_cart_abandoners_labor_day_event_ends_t.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f83def4631c700674e669c/original.png?1744322031
+- id: 741c10f0-3265-4c00-91ae-7e4f5a294c84
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 7111
+  total_delivered: 7082
+  total_opens: 4342
+  total_clicks: 159
+  open_rate: 0.6106
+  click_rate: 0.0224
+  total_bounces: 1
+  total_unsubscribes: 28
+_filename: p_em_2025_09_02_pt_cz_cart_abandoners_labor_day_event_ends_t.yaml
+schedule_type: time_based

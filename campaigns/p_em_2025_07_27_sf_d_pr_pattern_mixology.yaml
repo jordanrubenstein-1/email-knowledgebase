@@ -1,0 +1,79 @@
+id: 8c2c403e-295d-44ff-b795-88fac384fbd1
+name: P_EM_2025_07_27_SF_D_PR_Pattern_Mixology
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 8c2c403e-295d-44ff-b795-88fac384fbd1
+dates:
+  send_date: '2025-07-27'
+  inferred_send_type: scheduled
+  first_sent: '2025-07-27T02:18:51+00:00'
+  last_sent: '2025-07-27T17:00:53+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- print
+- stl
+sends:
+- id: ee172fda-6343-494f-ba4f-5936ef91a7f8
+  channel: email
+  name: Variant 1
+  subject: Pattern Mixology Is Here
+  preheader: join us for our signature (and slightly spirited) course in print mixing
+  html_file: html/p_em_2025_07_27_sf_d_pr_pattern_mixology.html
+  screenshot: screenshots/p_em_2025_07_27_sf_d_pr_pattern_mixology.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68840b72bc6c1300679bdea1/original.png?1753484145
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68840af224507e0067653490/original.png?1753484018
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68840b69b814b200663227b8/original.png?1753484137
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68840b4aa7d11a00758e0311/original.png?1753484106
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68840b57c4d5e000847283f4/original.png?1753484119
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68840b26ecf42d00645cd27f/original.png?1753484069
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68840b6124507e006765352a/original.png?1753484129
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68841f181ed6a40066f848f8/original.gif?1753489175
+- id: d8706715-3936-4c64-95a8-abda7143ebc0
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41879
+  total_delivered: 41788
+  total_opens: 19445
+  total_clicks: 246
+  open_rate: 0.4643
+  click_rate: 0.0059
+  total_revenue: 6903.0
+  total_unsubscribes: 69
+  ga4:
+    sessions: 283
+    purchases: 3
+    revenue: 1321.31
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.955639'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-the-pillow-event-2025-07-25
+    name: The Pillow Event
+    start_date: '2025-07-25'
+    end_date: '2025-07-31'
+    discount: 20% Off All Pillows
+    type: null
+  primary_sale:
+    id: stf-the-pillow-event-2025-07-25
+    name: The Pillow Event
+    start_date: '2025-07-25'
+    end_date: '2025-07-31'
+    discount: 20% Off All Pillows
+    type: null
+  sale_name: The Pillow Event
+  sale_discount: 20% Off All Pillows
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:39.498117'
+schedule_type: time_based

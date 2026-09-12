@@ -1,0 +1,59 @@
+id: 0255f75c-f748-4fb2-aa52-3a484886ceed
+name: P_2024_09_23_D_SF_CAT_Framed Prints_Email
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 0255f75c-f748-4fb2-aa52-3a484886ceed
+dates:
+  send_date: '2024-09-23'
+  inferred_send_type: local_time
+  first_sent: '2024-09-22T18:00:03+00:00'
+  last_sent: '2024-09-23T14:00:19+00:00'
+tags:
+- Batch and Blast/non-promo
+sends:
+- id: 7ea2c34f-9a77-44d4-a57f-f2f404874fdb
+  channel: email
+  name: Variant 1
+  subject: Curated Just For You
+  preheader: shop our statement-making framed prints
+  html_file: html/p_2024_09_23_d_sf_cat_framed-prints_email.html
+  screenshot: screenshots/p_2024_09_23_d_sf_cat_framed-prints_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ed84ba45419c00749539d3/original.gif?1726842042
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0058f1ba77/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ed84baa2d5e80075befde8/original.gif?1726842042
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ed84ba9e64c70081e9ae3f/original.gif?1726842042
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ed84bba4c0da0081133902/original.jpg?1726842042
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ed84ba1bf682006605289a/original.gif?1726842042
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0063f11fb6/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ed84baa2d5e80066bf0a7c/original.gif?1726842042
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ed84bb1bf682006605289b/original.gif?1726842043
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6681bde9255ebf0070d6be26/original.jpeg?1719778792
+- id: 52b481a3-1eda-4f22-9869-1cba98b826cd
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 603
+  total_delivered: 603
+  total_opens: 291
+  total_clicks: 85
+  open_rate: 0.4826
+  click_rate: 0.141
+  total_revenue: 2035.5
+  total_unsubscribes: 3
+  ga4:
+    sessions: 38
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.975710'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.114080'
+schedule_type: time_based

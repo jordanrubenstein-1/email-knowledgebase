@@ -1,0 +1,31 @@
+id: d83cf540-f238-4b4e-8a77-d471b7ddfe7d
+name: TRG_EM_2026_06_HAV_CONV_PT_Welcome_Gift_T4_V1_A
+brand: HAV
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 86cd4a3d-cfbe-4c05-bb65-54685272d461
+canvas_name: Post-Design Fee Purchase Promo
+flow_type: design_abandonment
+sequence_position: 4
+subject: 'Last chance: 10% off expires today'
+preheader: ''
+sends:
+- id: d83cf540-f238-4b4e-8a77-d471b7ddfe7d
+  channel: email
+  name: TRG_EM_2026_06_HAV_CONV_PT_Welcome_Gift_T4_V1_A
+  subject: 'Last chance: 10% off expires today'
+  preheader: ''
+  html_file: html/canvas-post-design-fee-purchase-promo-t4-d83cf540.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-06-26T15:00:00Z'
+  last_sent: '2026-07-09T17:00:00Z'
+performance_summary:
+  total_sends: 25
+  total_delivered: 25
+  total_opens: 7
+  total_clicks: 0
+  open_rate: 0.28
+  click_rate: 0.0

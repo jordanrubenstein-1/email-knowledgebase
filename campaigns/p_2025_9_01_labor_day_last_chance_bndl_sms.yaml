@@ -1,0 +1,30 @@
+id: 2a2a151f-5cdf-4a8b-82f6-1ae6c3738dac
+name: P_2025_9_01_Labor_Day_Last_Chance_BNDL_SMS
+brand: ID
+channel: sms
+category: reminder
+type: announcement
+theme: null
+braze_id: 2a2a151f-5cdf-4a8b-82f6-1ae6c3738dac
+dates:
+  send_date: '2025-09-01'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-04T21:50:42+00:00'
+  last_sent: '2025-09-04T23:52:07+00:00'
+tags: []
+sends:
+- id: 81ade45e-b004-4292-a7be-06c69a1565d1
+  channel: other
+  name: Variant 1
+- id: c5506037-e371-4e28-970e-f4f80f042bbf
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 52948
+  total_delivered: 51193
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 32095.0
+schedule_type: time_based

@@ -1,0 +1,33 @@
+id: c335efb5-f10e-40a7-b46a-b4172294e396
+name: P_2024_08_25_D_HAV_CONV_Home_Buying_Mistake_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: c335efb5-f10e-40a7-b46a-b4172294e396
+dates:
+  send_date: '2024-08-25'
+  first_sent: '2024-08-24T19:25:35+00:00'
+  last_sent: '2024-08-25T13:10:11+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: e969c766-a83e-4b44-aa0f-12e0e753c353
+  channel: email
+  name: Variant 1
+  subject: 'The #1 millennial home buying regret'
+  preheader: According to a new report.
+- id: 0774688e-a53d-4b70-ba1d-b3404841e880
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 25376
+  total_delivered: 25109
+  total_opens: 14183
+  total_clicks: 948
+  open_rate: 0.5589
+  click_rate: 0.0374
+  total_unsubscribes: 38
+schedule_type: time_based
+_filename: p_2024_08_25_d_hav_conv_home_buying_mistake_email.yaml

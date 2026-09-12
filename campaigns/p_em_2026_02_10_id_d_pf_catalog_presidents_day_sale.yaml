@@ -1,0 +1,36 @@
+id: f41e4853-f82c-4d45-a4b8-2769708a97dd
+name: P_EM_2026_02_10_ID_D_PF_Catalog_Presidents_Day_Sale
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: f41e4853-f82c-4d45-a4b8-2769708a97dd
+dates:
+  send_date: '2026-02-10'
+  inferred_send_type: local_time
+  first_sent: '2026-02-10T00:46:54+00:00'
+  last_sent: '2026-02-10T17:07:27+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 4125e6e4-e719-4e79-8cc1-76ce6618564a
+  channel: email
+  name: Variant 1
+  subject: 'Just In: Shop Our Catalog'
+  preheader: 'Create a home you love, now up to 30% off. '
+- id: b4316e6f-43e8-4a9a-942f-241e1ece2313
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 214348
+  total_delivered: 213263
+  total_opens: 92340
+  total_clicks: 631
+  open_rate: 0.4308
+  click_rate: 0.0029
+  total_revenue: 249422.96
+  total_bounces: 3
+  total_unsubscribes: 285
+_filename: p_em_2026_02_10_id_d_pf_catalog_presidents_day_sale.yaml
+schedule_type: time_based

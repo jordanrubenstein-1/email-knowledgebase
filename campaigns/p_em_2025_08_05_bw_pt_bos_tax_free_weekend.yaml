@@ -1,0 +1,72 @@
+id: c138def9-94d6-489a-9327-e3c599c1aec0
+name: P_EM_2025_08_05_BW_PT_BOS_Tax_Free_Weekend
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: c138def9-94d6-489a-9327-e3c599c1aec0
+dates:
+  send_date: '2025-08-05'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-05T01:54:51+00:00'
+  last_sent: '2025-08-05T13:15:20+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 1b2cd83e-fef3-42de-a0ec-cc2f4e295adf
+  channel: email
+  name: Variant 1
+  subject: Hey Boston, it's tax-free weekend
+- id: 6b02a032-7140-4520-85eb-59662edaa404
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 81
+  total_delivered: 80
+  total_opens: 44
+  total_clicks: 1
+  open_rate: 0.5432
+  click_rate: 0.0123
+  total_revenue: 25.0
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.733041'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:33.520164'
+schedule_type: time_based

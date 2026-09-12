@@ -1,0 +1,35 @@
+id: 2de2c961-3aab-4d1c-8217-652505e232ae
+name: P_EM_2026_07_21_HAV_PC_D_This_or_That
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 2de2c961-3aab-4d1c-8217-652505e232ae
+dates:
+  send_date: '2026-07-21'
+  first_sent: '2026-07-21T13:36:39+00:00'
+  last_sent: '2026-07-21T16:00:00+00:00'
+  inferred_send_type: scheduled
+tags:
+- BLASTS-2025
+sends:
+- id: c53351bd-ad5a-469e-a229-839c60e179c3
+  channel: email
+  name: Variant 1
+  subject: Which space gets your vote?
+  preheader: Designer-approved inspiration, one stylish matchup at a time.
+- id: aafd5dbe-899d-44fa-92b7-48e1b879509b
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 279221
+  total_delivered: 276716
+  total_opens: 101843
+  total_clicks: 652
+  open_rate: 0.3647
+  click_rate: 0.0023
+  total_bounces: 16
+  total_unsubscribes: 306
+schedule_type: time_based
+_filename: p_em_2026_07_21_hav_pc_d_this_or_that.yaml

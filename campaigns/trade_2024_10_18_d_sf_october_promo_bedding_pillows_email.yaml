@@ -1,0 +1,47 @@
+id: ceb5bc84-418f-4fd7-a0f8-886ddedebee8
+name: TRADE_2024_10_18_D_SF_October_Promo_Bedding_Pillows_Email
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: ceb5bc84-418f-4fd7-a0f8-886ddedebee8
+dates:
+  send_date: '2024-10-18'
+  inferred_send_type: local_time
+  first_sent: '2024-10-18T00:31:54+00:00'
+  last_sent: '2024-10-18T17:00:21+00:00'
+tags: []
+sends:
+- id: 1a2f98fe-4773-4ba0-b959-86801aa5cbe8
+  channel: email
+  name: Variant 1
+  subject: Luxurious Bedding for 30% Off
+  preheader: luxe bedding is calling your name
+  html_file: html/trade_2024_10_18_d_sf_october_promo_bedding_pillows_email.html
+  screenshot: screenshots/trade_2024_10_18_d_sf_october_promo_bedding_pillows_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6711171a6060d80066f34a77/original.gif?1729173273
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671117eba0696d0065f6a9db/original.gif?1729173483
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671117456651140065949c1e/original.jpg?1729173317
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671119579b56c60065e9819a/original.gif?1729173847
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0058f1ba77/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67111efb0692a20065207750/original.jpg?1729175291
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671118d7a0696d0065f6ba65/original.jpg?1729173719
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671117f60692a20065206102/original.gif?1729173494
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0063f11fb6/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67111803a0696d0074f6a9a4/original.gif?1729173507
+- id: 676220f1-6685-40c4-b576-2b1b981810b6
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 995
+  total_delivered: 986
+  total_opens: 275
+  total_clicks: 15
+  open_rate: 0.2764
+  click_rate: 0.0151
+  total_revenue: 262.5
+  total_unsubscribes: 6
+_filename: trade_2024_10_18_d_sf_october_promo_bedding_pillows_email.yaml
+schedule_type: time_based

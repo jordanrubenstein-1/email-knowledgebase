@@ -1,0 +1,37 @@
+id: c8286c87-073c-4f37-ad9a-35629f1a6f5d
+name: P_SMS_2025_10_29_SF_Dreamy_Bedding
+brand: STF
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: c8286c87-073c-4f37-ad9a-35629f1a6f5d
+dates:
+  send_date: '2025-10-29'
+  inferred_send_type: local_time
+  first_sent: '2025-10-28T22:44:44+00:00'
+  last_sent: '2025-10-29T17:30:09+00:00'
+tags: []
+sends:
+- id: 4f473869-e2f5-47ab-a0a0-7f3a3c3cbad7
+  channel: sms
+  name: Variant 1
+- id: 598a6241-aa22-4ec7-bd8c-fc9240c14195
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 4482
+  total_delivered: 4411
+  total_opens: 0
+  total_clicks: 261
+  open_rate: 0.0
+  click_rate: 0.0582
+  ga4:
+    sessions: 279
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.691268'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

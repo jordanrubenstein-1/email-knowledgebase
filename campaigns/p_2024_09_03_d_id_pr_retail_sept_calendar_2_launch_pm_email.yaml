@@ -1,0 +1,33 @@
+id: 721d6840-a931-4573-8c94-0a9cb5b1c183
+name: P_2024_09_03_D_ID_PR_Retail_Sept_Calendar_2_Launch_PM_Email
+brand: ID
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 721d6840-a931-4573-8c94-0a9cb5b1c183
+dates:
+  send_date: '2024-09-03'
+  inferred_send_type: scheduled
+  first_sent: '2024-09-03T21:15:00+00:00'
+  last_sent: '2024-09-03T21:15:15+00:00'
+tags: []
+sends:
+- id: 0dbb1373-e00a-423f-ae05-17798571e157
+  channel: email
+  name: Variant 1
+  subject: EXCLUSIVE INVITE
+  preheader: September events at the SoHo Studio
+- id: 9b1ac5e2-6152-4293-835b-234a04679a1e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 5060
+  total_delivered: 5051
+  total_opens: 2434
+  total_clicks: 62
+  open_rate: 0.481
+  click_rate: 0.0123
+  total_unsubscribes: 11
+_filename: p_2024_09_03_d_id_pr_retail_sept_calendar_2_launch_pm_email.yaml
+schedule_type: time_based

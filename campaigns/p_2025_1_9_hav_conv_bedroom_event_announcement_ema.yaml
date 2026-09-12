@@ -1,0 +1,57 @@
+id: dc991d60-1532-4877-9bd1-6ab375dc6b10
+name: P_2025_1_9_HAV_Conv_Bedroom_Event_Announcement_Email
+brand: HAV
+channel: email
+category: sale_promo
+type: product_launch
+theme: null
+braze_id: dc991d60-1532-4877-9bd1-6ab375dc6b10
+dates:
+  send_date: '2025-01-09'
+  inferred_send_type: scheduled
+  first_sent: '2025-01-09T14:54:23+00:00'
+  last_sent: '2025-01-09T14:54:52+00:00'
+tags: []
+sends:
+- id: aa8cb889-33c5-4a79-bd51-371c194d83af
+  channel: email
+  name: Variant 1
+  subject: Up To 20% Off Bedroom Favorites
+  preheader: The Bedroom Event starts now!
+  html_file: html/p_2025_1_9_hav_conv_bedroom_event_announcement_email.html
+  screenshot: screenshots/p_2025_1_9_hav_conv_bedroom_event_announcement_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677f0cc95ad2d300635c53fe/original.gif?1736379593
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677f0d21c16da60065a05a14/original.png?1736379680
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677f0cf32ec6c40065163595/original.png?1736379635
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6736844d990e3f006581a530/original.gif?1731626061
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6736840de2ee8300658a8253/original.gif?1731625997
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67368432288b0900660794b7/original.gif?1731626034
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67368440103f8e007266f8f1/original.jpg?1731626048
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673683ef6b30f000645b95a7/original.gif?1731625967
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677f0cdd2995e20066f3236d/original.png?1736379613
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67368401103f8e007266f8a7/original.gif?1731625985
+- id: 82e2b92e-93a0-48a0-8fd1-c8a621249e89
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 36865
+  total_delivered: 36811
+  total_opens: 20257
+  total_clicks: 230
+  open_rate: 0.5495
+  click_rate: 0.0062
+  total_unsubscribes: 90
+  ga4:
+    sessions: 228
+    purchases: 1
+    revenue: 264.99
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.549220'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.156902'
+schedule_type: time_based

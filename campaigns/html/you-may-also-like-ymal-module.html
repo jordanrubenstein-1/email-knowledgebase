@@ -1,0 +1,79 @@
+<!DOCTYPE html><html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en"><head><title></title><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><!--[if mso]>
+<xml><w:WordDocument xmlns:w="urn:schemas-microsoft-com:office:word"><w:DontUseAdvancedTypographyReadingMail/></w:WordDocument>
+<o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch><o:AllowPNG/></o:OfficeDocumentSettings></xml>
+<![endif]--><!--[if !mso]><!--><link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900" rel="stylesheet" type="text/css"><!--<![endif]--><style>
+*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0} @media (max-width:620px){.mobile_hide{display:none}.row-content{width:100%!important}.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide table{display:table!important;max-height:none!important}}
+</style><!--[if mso ]><style>sup, sub { font-size: 100% !important; } sup { mso-text-raise:10% } sub { mso-text-raise:-10% }</style> <![endif]--></head><body class="body" style="background-color:#fff;margin:0;padding:0;-webkit-text-size-adjust:none;text-size-adjust:none"><table class="nl-container" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;background-color:#fff"><tbody><tr><td><table class="row row-1" align="center" 
+width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tbody><tr><td><table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;color:#000;width:600px;margin:0 auto" width="600"><tbody><tr><td class="column column-1" width="100%" 
+style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;padding-bottom:5px;padding-top:5px;vertical-align:top"><table class="html_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad"><div style="font-family:'Open Sans',Arial,Sans-serif;text-align:center" align="center">{% comment %}
+  CZ Recommended Products Block
+  Reads rec_anchor_product_id. Calls Shopify recs API. Renders available products.
+  Deduplicates by Shopify product.id. Renders nothing if < 2 valid products found.
+
+  CONFIGURE: Change max_recs to control max cards displayed.
+{% endcomment %}
+
+{% assign max_recs = 6 %}
+{% assign anchor_id = {{custom_attribute.${rec_anchor_product_id}}} %}
+
+{% if anchor_id != blank %}
+  {% connected_content https://www.the-citizenry.com/recommendations/products.json?product_id={{ anchor_id }}&limit=10
+    :save recs
+    :retry
+    :cache_max_age 1800
+  %}
+
+  {% assign shown = 0 %}
+  {% assign rec_html = "" %}
+  {% assign seen_ids = "," %}
+
+  {% for product in recs.products %}
+    {% if shown >= max_recs %}{% break %}{% endif %}
+    {% assign id_check = "," | append: product.id | append: "," %}
+    {% unless seen_ids contains id_check %}
+      {% if product.available == true %}
+        {% assign seen_ids = seen_ids | append: product.id | append: "," %}
+        {% assign product_url = "https://www.the-citizenry.com/products/" | append: product.handle | append: "?utm_source=braze&utm_medium=email&utm_campaign=rec_block&utm_content=" | append: anchor_id %}
+        {% assign img_src = product.media[0].preview_image.src %}
+        {% if img_src == blank %}{% assign img_src = "https:" | append: product.featured_image %}{% endif %}
+        {% capture product_card %}
+        <td valign="top" style="padding:0 8px;width:160px;">
+          <a href="{{ product_url }}" style="text-decoration:none;color:inherit;">
+            <img src="{{ img_src }}"
+                 alt="{{ product.title | escape }}"
+                 width="160"
+                 style="display:block;width:160px;height:160px;object-fit:cover;background:#f5f5f5;" />
+            <p style="font-family:Georgia,serif;font-size:13px;color:#1a1a1a;margin:8px 0 2px;line-height:1.3;">{{ product.title }}</p>
+            <p style="font-family:Arial,sans-serif;font-size:12px;color:#666666;margin:0;">${{ product.variants[0].price | remove: ".00" }}</p>
+          </a>
+        </td>
+        {% endcapture %}
+        {% assign rec_html = rec_html | append: product_card %}
+        {% assign shown = shown | plus: 1 %}
+      {% endif %}
+    {% endunless %}
+  {% endfor %}
+
+  {% if shown >= 2 %}
+    {% capture rec_block %}
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
+      <tr>
+        <td align="center" style="padding:24px 0 8px;">
+          <p style="font-family:Georgia,serif;font-size:18px;letter-spacing:0.05em;color:#1a1a1a;margin:0;">You May Also Like</p>
+        </td>
+      </tr>
+      <tr>
+        <td align="center" style="padding:0 16px 24px;">
+          <table cellpadding="0" cellspacing="0" border="0"><tr>{{ rec_html }}</tr></table>
+        </td>
+      </tr>
+    </table>
+    {% endcapture %}
+  {% else %}
+    {% assign rec_block = "" %}
+  {% endif %}
+
+{% else %}
+  {% assign rec_block = "" %}
+{% endif %}</div></td></tr></table><table class="html_block block-2" width="100%" border="0" 
+cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad"><div style="font-family:'Open Sans',Arial,Sans-serif;text-align:center" align="center">{{ rec_block }}</div></td></tr></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><!-- End --></body></html>

@@ -1,0 +1,40 @@
+id: 9f0ffec4-7f46-4417-8390-a1ce627800d0
+name: 2025_04_15_HAV_PC_D_F&F_Sale_Ends_Tonight
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 9f0ffec4-7f46-4417-8390-a1ce627800d0
+dates:
+  send_date: '2025-04-15'
+  first_sent: '2025-04-14T18:22:32+00:00'
+  last_sent: '2025-04-15T18:15:05+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 8c38a86b-cae9-4b9a-97c9-0f5670c1c67f
+  channel: email
+  name: Variant 1
+  subject: 40% Off Is Going… Going…
+  preheader: Almost gone. Don’t miss it!
+- id: 82b19558-5059-479d-a965-849f68e09a39
+  channel: other
+  name: Control Group
+- id: 4acd6c80-424b-4d86-be78-22c6e279168f
+  channel: email
+  name: Variant 2
+  subject: 40% Off Is Going… Going…
+  preheader: Almost gone. Don’t miss it!
+performance_summary:
+  total_sends: 204612
+  total_delivered: 200392
+  total_opens: 86935
+  total_clicks: 416
+  open_rate: 0.4249
+  click_rate: 0.002
+  total_bounces: 3
+  total_unsubscribes: 374
+schedule_type: time_based
+_filename: 2025_04_15_hav_pc_d_ff_sale_ends_tonight.yaml

@@ -1,0 +1,48 @@
+id: 1cad680a-0a5c-4e43-80a3-c37a95fb4d22
+name: P_2024_08_28_D_SF_PR_LDW_Reminder_Art_Feature_Email
+brand: STF
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 1cad680a-0a5c-4e43-80a3-c37a95fb4d22
+dates:
+  send_date: '2024-08-28'
+  inferred_send_type: local_time
+  first_sent: '2024-08-27T18:05:01+00:00'
+  last_sent: '2024-08-28T14:05:01+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: 7cc405c2-2aab-427e-b634-cce202f47616
+  channel: email
+  name: Variant 1
+  subject: Wow your walls with 20% off
+  preheader: now with code LABORDAY20
+  html_file: html/p_2024_08_28_d_sf_pr_ldw_reminder_art_feature_email.html
+  screenshot: screenshots/p_2024_08_28_d_sf_pr_ldw_reminder_art_feature_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c66a1b645e1b0065f12291/original.jpg?1724279323
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0058f1ba77/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c669d9c400780064c26ce9/original.gif?1724279257
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c669cb51fbb90065f985ec/original.jpg?1724279243
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c66a1b51fbb90065f987c0/original.jpg?1724279323
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c66a5596dd23006539b5c0/original.jpg?1724279381
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0063f11fb6/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c66a1b56e4e100645e459f/original.gif?1724279323
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c6673d96dd230083398b9c/original.jpg?1724278588
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6681bde9255ebf0070d6be26/original.jpeg?1719778792
+- id: fb4f6b19-6d60-48e3-b03a-6184bf1e43fb
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 4991
+  total_delivered: 4826
+  total_opens: 2558
+  total_clicks: 397
+  open_rate: 0.5125
+  click_rate: 0.0795
+  total_revenue: 3918.0
+  total_unsubscribes: 9
+_filename: p_2024_08_28_d_sf_pr_ldw_reminder_art_feature_email.yaml
+schedule_type: time_based

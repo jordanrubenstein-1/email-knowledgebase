@@ -1,0 +1,569 @@
+{% assign billing_zip_var = {{custom_attribute.${billing_zip}}} %}
+{% assign zip_prefix = billing_zip_var | slice: 0, 3 %}
+{% assign billing_zip_var_2 = {{custom_attribute.${address}.postalCode}} %}
+{% assign zip_prefix_2 = billing_zip_var_2 | slice: 0, 3 %}
+{% assign valid_san_francisco_prefixes = '{{content_blocks.${Geo_SanFrancisco_CA} | id: 'cb3'}}' | split: ',' %}
+{% assign is_valid_san_francisco_prefix = false %}
+{% for prefix in valid_san_francisco_prefixes %}
+{% if zip_prefix == prefix or zip_prefix_2 == prefix %}
+{% assign is_valid_san_francisco_prefix = true %}
+{% endif %}
+{% endfor %}
+{% assign valid_los_angeles_prefixes = '{{content_blocks.${Geo_LosAngeles_CA} | id: 'cb4'}}' | split: ',' %}
+{% assign is_valid_los_angeles_prefix = false %}
+{% for prefix in valid_los_angeles_prefixes %}
+{% if zip_prefix == prefix or zip_prefix_2 == prefix %}
+{% assign is_valid_los_angeles_prefix = true %}
+{% endif %}
+{% endfor %}
+{% assign valid_denver_prefixes = '{{content_blocks.${Geo_Denver_CO} | id: 'cb5'}}' | split: ',' %}
+{% assign is_valid_denver_prefix = false %}
+{% for prefix in valid_denver_prefixes %}
+{% if zip_prefix == prefix or zip_prefix_2 == prefix %}
+{% assign is_valid_denver_prefix = true %}
+{% endif %}
+{% endfor %}
+{% assign valid_chicago_prefixes = '{{content_blocks.${Geo_Chicago_IL} | id: 'cb6'}}' | split: ',' %}
+{% assign is_valid_chicago_prefix = false %}
+{% for prefix in valid_chicago_prefixes %}
+{% if zip_prefix == prefix or zip_prefix_2 == prefix %}
+{% assign is_valid_chicago_prefix = true %}
+{% endif %}
+{% endfor %}
+{% assign valid_baltimore_prefixes = '{{content_blocks.${Geo_Baltimore_MD} | id: 'cb7'}}' | split: ',' %}
+{% assign is_valid_baltimore_prefix = false %}
+{% for prefix in valid_baltimore_prefixes %}
+{% if zip_prefix == prefix or zip_prefix_2 == prefix %}
+{% assign is_valid_baltimore_prefix = true %}
+{% endif %}
+{% endfor %}
+{% assign valid_boston_prefixes = '{{content_blocks.${Geo_Boston_MA} | id: 'cb8'}}' | split: ',' %}
+{% assign is_valid_boston_prefix = false %}
+{% for prefix in valid_boston_prefixes %}
+{% if zip_prefix == prefix or zip_prefix_2 == prefix %}
+{% assign is_valid_boston_prefix = true %}
+{% endif %}
+{% endfor %}
+{% assign valid_minneapolis_prefixes = '{{content_blocks.${Geo_Minneapolis_MN} | id: 'cb9'}}' | split: ',' %}
+{% assign is_valid_minneapolis_prefix = false %}
+{% for prefix in valid_minneapolis_prefixes %}
+{% if zip_prefix == prefix or zip_prefix_2 == prefix %}
+{% assign is_valid_minneapolis_prefix = true %}
+{% endif %}
+{% endfor %}
+{% assign valid_new_york_prefixes = '{{content_blocks.${Geo_Newyork_NY} | id: 'cb10'}}' | split: ',' %}
+{% assign is_valid_new_york_prefix = false %}
+{% for prefix in valid_new_york_prefixes %}
+{% if zip_prefix == prefix or zip_prefix_2 == prefix %}
+{% assign is_valid_new_york_prefix = true %}
+{% endif %}
+{% endfor %}
+{% assign valid_charlotte_prefixes = '{{content_blocks.${Geo_Charlotte_NC} | id: 'cb11'}}' | split: ',' %}
+{% assign is_valid_charlotte_prefix = false %}
+{% for prefix in valid_charlotte_prefixes %}
+{% if zip_prefix == prefix or zip_prefix_2 == prefix %}
+{% assign is_valid_charlotte_prefix = true %}
+{% endif %}
+{% endfor %}
+{% assign valid_philadelphia_prefixes = '{{content_blocks.${Geo_Philadelphia_PA} | id: 'cb12'}}' | split: ',' %}
+{% assign is_valid_philadelphia_prefix = false %}
+{% for prefix in valid_philadelphia_prefixes %}
+{% if zip_prefix == prefix or zip_prefix_2 == prefix %}
+{% assign is_valid_philadelphia_prefix = true %}
+{% endif %}
+{% endfor %}
+{% assign valid_tysons_corner_prefixes = '{{content_blocks.${Geo_TysonsCorner_VA} | id: 'cb13'}}' | split: ',' %}
+{% assign is_valid_tysons_corner_prefix = false %}
+{% for prefix in valid_tysons_corner_prefixes %}
+{% if zip_prefix == prefix or zip_prefix_2 == prefix %}
+{% assign is_valid_tysons_corner_prefix = true %}
+{% endif %}
+{% endfor %}
+{% assign valid_seattle_prefixes = '{{content_blocks.${Geo_Seattle_WA} | id: 'cb14'}}' | split: ',' %}
+{% assign is_valid_seattle_prefix = false %}
+{% for prefix in valid_seattle_prefixes %}
+{% if zip_prefix == prefix or zip_prefix_2 == prefix %}
+{% assign is_valid_seattle_prefix = true %}
+{% endif %}
+{% endfor %}
+{% assign valid_dallas_prefixes = '{{content_blocks.${Geo_Dallas_TX} | id: 'cb15'}}' | split: ',' %}
+{% assign is_valid_dallas_prefix = false %}
+{% for prefix in valid_dallas_prefixes %}
+{% if zip_prefix == prefix or zip_prefix_2 == prefix %}
+{% assign is_valid_dallas_prefix = true %}
+{% endif %}
+{% endfor %}
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="width: 600px; max-width: 100%; background-color: #ffffff;">
+
+<tr>
+  <td align="center" style="padding: 0; font-size: 0; line-height: 0;">
+
+    {% if is_valid_san_francisco_prefix %}
+    <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" style="width: 600px; max-width: 100%; background-color:#efe8d9;">
+      <tr>
+        <td align="center">
+          <table role="presentation" width="560" cellspacing="0" cellpadding="0" border="0" style="width:560px; text-align:center;">
+            <tr>
+              <td style="padding:30px 20px 20px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:24px; line-height:32px;">Visit us in Hayes Valley</td>
+            </tr>
+            <tr>
+              <td align="center">
+                <table role="presentation" width="336" cellspacing="0" cellpadding="0" border="0">
+                  <tr><td style="border-bottom:1px solid #8c857a; height:1px; line-height:1px; font-size:0;">&nbsp;</td></tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:18px 20px 6px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:16px; line-height:22px;">381 Hayes St San Francisco, CA 94102 | <a href="tel:4157877781" style="color:#5f5f5f; text-decoration:underline;">415-787-7781</a></td>
+            </tr>
+            <tr>
+              <td style="padding:0 20px 24px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:16px; line-height:22px;">Mon–Sat: 10am–6pm | Sun: 12–5pm</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td style="line-height: 0; font-size: 0;"><a href="https://www.interiordefine.com/san-francisco?lid={{${cblid} | lid: 'aspqsotb5lfk'}}" title="Book Appointment" data-linkto="https://"><img alt="Book Appointment" src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d50c08e450f80064e35c49/original.png?1775569928/" style="display: block; width: 100%; max-width: 600px; border: 0;" width="600"></a></td>
+      </tr>
+    </table>
+
+    {% elsif is_valid_los_angeles_prefix %}
+    <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" style="width: 600px; max-width: 100%; background-color:#efe8d9;">
+      <tr>
+        <td align="center">
+          <table role="presentation" width="560" cellspacing="0" cellpadding="0" border="0" style="width:560px; text-align:center;">
+            <tr>
+              <td style="padding:30px 20px 20px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:24px; line-height:32px;">Visit us in La Brea</td>
+            </tr>
+            <tr>
+              <td align="center">
+                <table role="presentation" width="336" cellspacing="0" cellpadding="0" border="0">
+                  <tr><td style="border-bottom:1px solid #8c857a; height:1px; line-height:1px; font-size:0;">&nbsp;</td></tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:18px 20px 6px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:16px; line-height:22px;">171 S La Brea Ave Los Angeles, CA 90036 | <a href="tel:3239431504" style="color:#5f5f5f; text-decoration:underline;">323-943-1504</a></td>
+            </tr>
+            <tr>
+              <td style="padding:0 20px 24px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:16px; line-height:22px;">Mon–Sat: 10am–6pm | Sun: 12–6pm</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td style="line-height: 0; font-size: 0;"><a href="https://www.interiordefine.com/los-angeles?lid={{${cblid} | lid: 'jtgvw6zkv4d9'}}" title="Book Appointment" data-linkto="https://"><img alt="Book Appointment" src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d50c08e450f80064e35c49/original.png?1775569928/" style="display: block; width: 100%; max-width: 600px; border: 0;" width="600"></a></td>
+      </tr>
+    </table>
+
+    {% elsif is_valid_denver_prefix %}
+    <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" style="width: 600px; max-width: 100%; background-color:#efe8d9;">
+      <tr>
+        <td align="center">
+          <table role="presentation" width="560" cellspacing="0" cellpadding="0" border="0" style="width:560px; text-align:center;">
+            <tr>
+              <td style="padding:30px 20px 20px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:24px; line-height:32px;">Visit us in Cherry Creek</td>
+            </tr>
+            <tr>
+              <td align="center">
+                <table role="presentation" width="336" cellspacing="0" cellpadding="0" border="0">
+                  <tr><td style="border-bottom:1px solid #8c857a; height:1px; line-height:1px; font-size:0;">&nbsp;</td></tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:18px 20px 6px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:16px; line-height:22px;">105 Fillmore St, #109 Denver, CO 80206 | <a href="tel:7206891665" style="color:#5f5f5f; text-decoration:underline;">720-689-1665</a></td>
+            </tr>
+            <tr>
+              <td style="padding:0 20px 24px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:16px; line-height:22px;">Mon–Sat: 10am–6pm | Sun: 12pm–5pm</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td style="line-height: 0; font-size: 0;"><a href="https://www.interiordefine.com/denver?lid={{${cblid} | lid: '9ykijr0yn6xd'}}" title="Book Appointment" data-linkto="https://"><img alt="Book Appointment" src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d50c08e450f80064e35c49/original.png?1775569928/" style="display: block; width: 100%; max-width: 600px; border: 0;" width="600"></a></td>
+      </tr>
+    </table>
+
+    {% elsif is_valid_chicago_prefix %}
+    <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" style="width: 600px; max-width: 100%; background-color:#efe8d9;">
+      <tr>
+        <td align="center">
+          <table role="presentation" width="560" cellspacing="0" cellpadding="0" border="0" style="width:560px; text-align:center;">
+            <tr>
+              <td style="padding:30px 20px 20px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:24px; line-height:32px;">Visit us in Lincoln Park</td>
+            </tr>
+            <tr>
+              <td align="center">
+                <table role="presentation" width="336" cellspacing="0" cellpadding="0" border="0">
+                  <tr><td style="border-bottom:1px solid #8c857a; height:1px; line-height:1px; font-size:0;">&nbsp;</td></tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:18px 20px 6px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:16px; line-height:22px;">833 W Armitage Ave Chicago, IL 60614 | <a href="tel:3128839667" style="color:#5f5f5f; text-decoration:underline;">312-883-9667</a></td>
+            </tr>
+            <tr>
+              <td style="padding:0 20px 24px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:16px; line-height:22px;">Mon–Sun: 10am–6pm</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td style="line-height: 0; font-size: 0;"><a href="https://www.interiordefine.com/chicago?lid={{${cblid} | lid: '85kh9dv6b368'}}" title="Book Appointment" data-linkto="https://"><img alt="Book Appointment" src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d50c08e450f80064e35c49/original.png?1775569928/" style="display: block; width: 100%; max-width: 600px; border: 0;" width="600"></a></td>
+      </tr>
+    </table>
+
+    {% elsif is_valid_baltimore_prefix %}
+    <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" style="width: 600px; max-width: 100%; background-color:#efe8d9;">
+      <tr>
+        <td align="center">
+          <table role="presentation" width="560" cellspacing="0" cellpadding="0" border="0" style="width:560px; text-align:center;">
+            <tr>
+              <td style="padding:30px 20px 20px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:24px; line-height:32px;">Visit us in Harbor East</td>
+            </tr>
+            <tr>
+              <td align="center">
+                <table role="presentation" width="336" cellspacing="0" cellpadding="0" border="0">
+                  <tr><td style="border-bottom:1px solid #8c857a; height:1px; line-height:1px; font-size:0;">&nbsp;</td></tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:18px 20px 6px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:16px; line-height:22px;">809 Aliceanna St Baltimore, MD 21202 | <a href="tel:4106183279" style="color:#5f5f5f; text-decoration:underline;">410-618-3279</a></td>
+            </tr>
+            <tr>
+              <td style="padding:0 20px 24px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:16px; line-height:22px;">Mon–Sat: 10am–6pm | Sun: 11am–6pm</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td style="line-height: 0; font-size: 0;"><a href="https://www.interiordefine.com/baltimore?lid={{${cblid} | lid: '77on5jdpms90'}}" title="Book Appointment" data-linkto="https://"><img alt="Book Appointment" src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d50c08e450f80064e35c49/original.png?1775569928/" style="display: block; width: 100%; max-width: 600px; border: 0;" width="600"></a></td>
+      </tr>
+    </table>
+
+    {% elsif is_valid_boston_prefix %}
+    <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" style="width: 600px; max-width: 100%; background-color:#efe8d9;">
+      <tr>
+        <td align="center">
+          <table role="presentation" width="560" cellspacing="0" cellpadding="0" border="0" style="width:560px; text-align:center;">
+            <tr>
+              <td style="padding:30px 20px 20px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:24px; line-height:32px;">Visit us in Newbury Street</td>
+            </tr>
+            <tr>
+              <td align="center">
+                <table role="presentation" width="336" cellspacing="0" cellpadding="0" border="0">
+                  <tr><td style="border-bottom:1px solid #8c857a; height:1px; line-height:1px; font-size:0;">&nbsp;</td></tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:18px 20px 6px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:16px; line-height:22px;">77 Newbury St Boston, MA 02116 | <a href="tel:6179934826" style="color:#5f5f5f; text-decoration:underline;">617-993-4826</a></td>
+            </tr>
+            <tr>
+              <td style="padding:0 20px 24px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:16px; line-height:22px;">Mon–Sun: 10am–6pm</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td style="line-height: 0; font-size: 0;"><a href="https://www.interiordefine.com/boston?lid={{${cblid} | lid: 'g53p36tpy168'}}" title="Book Appointment" data-linkto="https://"><img alt="Book Appointment" src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d50c08e450f80064e35c49/original.png?1775569928/" style="display: block; width: 100%; max-width: 600px; border: 0;" width="600"></a></td>
+      </tr>
+    </table>
+
+    {% elsif is_valid_minneapolis_prefix %}
+    <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" style="width: 600px; max-width: 100%; background-color:#efe8d9;">
+      <tr>
+        <td align="center">
+          <table role="presentation" width="560" cellspacing="0" cellpadding="0" border="0" style="width:560px; text-align:center;">
+            <tr>
+              <td style="padding:30px 20px 20px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:24px; line-height:32px;">Visit us in Galleria Edina</td>
+            </tr>
+            <tr>
+              <td align="center">
+                <table role="presentation" width="336" cellspacing="0" cellpadding="0" border="0">
+                  <tr><td style="border-bottom:1px solid #8c857a; height:1px; line-height:1px; font-size:0;">&nbsp;</td></tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:18px 20px 6px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:16px; line-height:22px;">3505 Galleria Minneapolis, MN 55435 | <a href="tel:6126881422" style="color:#5f5f5f; text-decoration:underline;">612-688-1422</a></td>
+            </tr>
+            <tr>
+              <td style="padding:0 20px 24px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:16px; line-height:22px;">Mon–Sat: 10am–7pm | Sun: 11am–6pm</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td style="line-height: 0; font-size: 0;"><a href="https://www.interiordefine.com/minneapolis?lid={{${cblid} | lid: 'y8kk078t2i9u'}}" title="Book Appointment" data-linkto="https://"><img alt="Book Appointment" src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d50c08e450f80064e35c49/original.png?1775569928/" style="display: block; width: 100%; max-width: 600px; border: 0;" width="600"></a></td>
+      </tr>
+    </table>
+
+    {% elsif is_valid_new_york_prefix %}
+    <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" style="width: 600px; max-width: 100%; background-color:#efe8d9;">
+      <tr>
+        <td align="center">
+          <table role="presentation" width="560" cellspacing="0" cellpadding="0" border="0" style="width:560px; text-align:center;">
+            <tr>
+              <td style="padding:30px 20px 20px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:24px; line-height:32px;">Visit us in SoHo</td>
+            </tr>
+            <tr>
+              <td align="center">
+                <table role="presentation" width="336" cellspacing="0" cellpadding="0" border="0">
+                  <tr><td style="border-bottom:1px solid #8c857a; height:1px; line-height:1px; font-size:0;">&nbsp;</td></tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:18px 20px 6px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:16px; line-height:22px;">68 Greene St New York, NY 10012 | <a href="tel:3322224001" style="color:#5f5f5f; text-decoration:underline;">332-222-4001</a></td>
+            </tr>
+            <tr>
+              <td style="padding:0 20px 24px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:16px; line-height:22px;">Mon–Sat: 10am–6pm | Sun: 12–6pm</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td style="line-height: 0; font-size: 0;"><a href="https://www.interiordefine.com/new-york?lid={{${cblid} | lid: '3q46t82ir07r'}}" title="Book Appointment" data-linkto="https://"><img alt="Book Appointment" src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d50c08e450f80064e35c49/original.png?1775569928/" style="display: block; width: 100%; max-width: 600px; border: 0;" width="600"></a></td>
+      </tr>
+    </table>
+
+    {% elsif is_valid_charlotte_prefix %}
+    <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" style="width: 600px; max-width: 100%; background-color:#efe8d9;">
+      <tr>
+        <td align="center">
+          <table role="presentation" width="560" cellspacing="0" cellpadding="0" border="0" style="width:560px; text-align:center;">
+            <tr>
+              <td style="padding:30px 20px 20px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:24px; line-height:32px;">Visit us in South End</td>
+            </tr>
+            <tr>
+              <td align="center">
+                <table role="presentation" width="336" cellspacing="0" cellpadding="0" border="0">
+                  <tr><td style="border-bottom:1px solid #8c857a; height:1px; line-height:1px; font-size:0;">&nbsp;</td></tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:18px 20px 6px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:16px; line-height:22px;">1930 Camden Rd, Suite 265 Charlotte, NC 28203 | <a href="tel:7044454440" style="color:#5f5f5f; text-decoration:underline;">704-445-4440</a></td>
+            </tr>
+            <tr>
+              <td style="padding:0 20px 24px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:16px; line-height:22px;">Mon–Sat: 10am–6pm | Sun: 12–6pm</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td style="line-height: 0; font-size: 0;"><a href="https://www.interiordefine.com/charlotte?lid={{${cblid} | lid: 'bhqh8nwpid8e'}}" title="Book Appointment" data-linkto="https://"><img alt="Book Appointment" src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d50c08e450f80064e35c49/original.png?1775569928/" style="display: block; width: 100%; max-width: 600px; border: 0;" width="600"></a></td>
+      </tr>
+    </table>
+
+    {% elsif is_valid_philadelphia_prefix %}
+    <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" style="width: 600px; max-width: 100%; background-color:#efe8d9;">
+      <tr>
+        <td align="center">
+          <table role="presentation" width="560" cellspacing="0" cellpadding="0" border="0" style="width:560px; text-align:center;">
+            <tr>
+              <td style="padding:30px 20px 20px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:24px; line-height:32px;">Visit us in Walnut Street</td>
+            </tr>
+            <tr>
+              <td align="center">
+                <table role="presentation" width="336" cellspacing="0" cellpadding="0" border="0">
+                  <tr><td style="border-bottom:1px solid #8c857a; height:1px; line-height:1px; font-size:0;">&nbsp;</td></tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:18px 20px 6px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:16px; line-height:22px;">1605 Walnut St Philadelphia, PA 19103 | <a href="tel:4452051211" style="color:#5f5f5f; text-decoration:underline;">445-205-1211</a></td>
+            </tr>
+            <tr>
+              <td style="padding:0 20px 24px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:16px; line-height:22px;">Mon–Sat: 10am–6pm | Sun: 12–6pm</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td style="line-height: 0; font-size: 0;"><a href="https://www.interiordefine.com/philadelphia?lid={{${cblid} | lid: '333usra7pmdk'}}" title="Book Appointment" data-linkto="https://"><img alt="Book Appointment" src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d50c08e450f80064e35c49/original.png?1775569928/" style="display: block; width: 100%; max-width: 600px; border: 0;" width="600"></a></td>
+      </tr>
+    </table>
+
+    {% elsif is_valid_tysons_corner_prefix %}
+    <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" style="width: 600px; max-width: 100%; background-color:#efe8d9;">
+      <tr>
+        <td align="center">
+          <table role="presentation" width="560" cellspacing="0" cellpadding="0" border="0" style="width:560px; text-align:center;">
+            <tr>
+              <td style="padding:30px 20px 20px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:24px; line-height:32px;">Visit us in Tysons Corner</td>
+            </tr>
+            <tr>
+              <td align="center">
+                <table role="presentation" width="336" cellspacing="0" cellpadding="0" border="0">
+                  <tr><td style="border-bottom:1px solid #8c857a; height:1px; line-height:1px; font-size:0;">&nbsp;</td></tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:18px 20px 6px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:16px; line-height:22px;">7974 Tysons Corner Center, Space D6U Tysons Corner, VA 22102 | <a href="tel:7037557401" style="color:#5f5f5f; text-decoration:underline;">703-755-7401</a></td>
+            </tr>
+            <tr>
+              <td style="padding:0 20px 24px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:16px; line-height:22px;">Mon–Sat: 10am–8:30pm | Sun: 11am–7pm</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td style="line-height: 0; font-size: 0;"><a href="https://www.interiordefine.com/washington-dc-tysons-corner?lid={{${cblid} | lid: '1800vgojgevv'}}" title="Book Appointment" data-linkto="https://"><img alt="Book Appointment" src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d50c08e450f80064e35c49/original.png?1775569928/" style="display: block; width: 100%; max-width: 600px; border: 0;" width="600"></a></td>
+      </tr>
+    </table>
+
+    {% elsif is_valid_seattle_prefix %}
+    <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" style="width: 600px; max-width: 100%; background-color:#efe8d9;">
+      <tr>
+        <td align="center">
+          <table role="presentation" width="560" cellspacing="0" cellpadding="0" border="0" style="width:560px; text-align:center;">
+            <tr>
+              <td style="padding:30px 20px 20px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:24px; line-height:32px;">Visit us in University Village</td>
+            </tr>
+            <tr>
+              <td align="center">
+                <table role="presentation" width="336" cellspacing="0" cellpadding="0" border="0">
+                  <tr><td style="border-bottom:1px solid #8c857a; height:1px; line-height:1px; font-size:0;">&nbsp;</td></tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:18px 20px 6px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:16px; line-height:22px;">4633 27th Ave NE Seattle, WA 98105 | <a href="tel:5643334304" style="color:#5f5f5f; text-decoration:underline;">564-333-4304</a></td>
+            </tr>
+            <tr>
+              <td style="padding:0 20px 24px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:16px; line-height:22px;">Mon–Sat: 10am–8pm | Sun: 11am–6pm</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td style="line-height: 0; font-size: 0;"><a href="https://www.interiordefine.com/seattle?lid={{${cblid} | lid: '3eidvy3bq1yx'}}" title="Book Appointment" data-linkto="https://"><img alt="Book Appointment" src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d50c08e450f80064e35c49/original.png?1775569928/" style="display: block; width: 100%; max-width: 600px; border: 0;" width="600"></a></td>
+      </tr>
+    </table>
+
+    {% elsif is_valid_dallas_prefix %}
+    <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" style="width: 600px; max-width: 100%; background-color:#efe8d9;">
+      <tr>
+        <td align="center">
+          <table role="presentation" width="560" cellspacing="0" cellpadding="0" border="0" style="width:560px; text-align:center;">
+            <tr>
+              <td style="padding:30px 20px 20px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:24px; line-height:32px;">Visit us in Knox / Henderson</td>
+            </tr>
+            <tr>
+              <td align="center">
+                <table role="presentation" width="336" cellspacing="0" cellpadding="0" border="0">
+                  <tr><td style="border-bottom:1px solid #8c857a; height:1px; line-height:1px; font-size:0;">&nbsp;</td></tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:18px 20px 6px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:16px; line-height:22px;">4529 McKinney Ave Dallas, TX 75205 | <a href="tel:2145725852" style="color:#5f5f5f; text-decoration:underline;">214-572-5852</a></td>
+            </tr>
+            <tr>
+              <td style="padding:0 20px 24px 20px; font-family: Arial, Helvetica, sans-serif; color:#5f5f5f; font-size:16px; line-height:22px;">Mon–Sat: 10am–6pm | Sun: 11am–5pm</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td style="line-height: 0; font-size: 0;"><a href="https://www.interiordefine.com/dallas?lid={{${cblid} | lid: 'fr1k1fdi5pmi'}}" title="Book Appointment" data-linkto="https://"><img alt="Book Appointment" src="https://braze-images.com/appboy/communication/assets/image_assets/images/69d50c08e450f80064e35c49/original.png?1775569928/" style="display: block; width: 100%; max-width: 600px; border: 0;" width="600"></a></td>
+      </tr>
+    </table>
+
+    {% else %}<a href="https://www.interiordefine.com/locations?lid={{${cblid} | lid: 'effb8jqtnaax'}}"><img alt="Visit an Interior Define Studio Near You" width="600" style="display: block; width: 100%; max-width: 100%; font-size: 20px; font-family: Arial, 'sans-serif'; color: #383633; background-color: #FFFFFF;" border="0" src="https://braze-images.com/appboy/communication/assets/image_assets/images/68263a8b951e0f00665ddea3/original.png?1747335819" /></a>{% endif %}
+  </td>
+</tr>
+
+<tr>
+<td style="font-size: 0; line-height: 0; padding: 0; background-color: #ffffff;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<td width="33%" align="center" valign="top" style="line-height: 0; font-size: 0;">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 200px;">
+    <tr><td><a href="https://swatches.interiordefine.com/?lid={{${cblid} | lid: '7qwv9grmm9r5'}}" title="Order Free Swatches"><img alt="Order Free Swatches" src="https://braze-images.com/appboy/communication/assets/image_assets/images/68263a967540720066b96252/original.png?1747335830" style="display: block; width: 200px; max-width: 100%; border: 0;" width="200"></a></td></tr>
+  </table>
+</td>
+<td width="33%" align="center" valign="top" style="line-height: 0; font-size: 0;">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 200px;">
+    <tr><td><a href="https://www.interiordefine.com/design-services?lid={{${cblid} | lid: '5va20i86i8ig'}}" title="Book Free Design Services"><img alt="Book a Define Studio Appointment" src="https://braze-images.com/appboy/communication/assets/image_assets/images/68263a9fde0afe00669a56f6/original.png?1747335839" style="display: block; width: 200px; max-width: 100%; border: 0;" width="200"></a></td></tr>
+  </table>
+</td>
+<td width="33%" align="center" valign="top" style="line-height: 0; font-size: 0;">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 200px;">
+    <tr><td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfFPCAOb1Y6ujsRW3OaHt5tCBJ8Yc2TooqXyDsqWl_jFhMKCA/viewform?lid={{${cblid} | lid: 'r7ater7slrnb'}}" title="Request Catalog"><img alt="Book Virtual Appointment" src="https://braze-images.com/appboy/communication/assets/image_assets/images/68263aa3951e0f00845dc11e/original.png?1747335843" style="display: block; width: 200px; max-width: 100%; border: 0;" width="200"></a></td></tr>
+  </table>
+</td>
+</tr>
+</table><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<td width="50%" align="center" valign="top" style="line-height: 0; font-size: 0;">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 300px;">
+    <tr><td><a href="https://www.interiordefine.com/new-arrivals?page=1&lid={{${cblid} | lid: 'yl6g3ncrcnsn'}}"><img alt="New" src="https://braze-images.com/appboy/communication/assets/image_assets/images/682612db97ee9200744c1f03/original.png?1747325659" style="display: block; width: 300px; max-width: 100%; border: 0;" width="300"></a></td></tr>
+  </table>
+</td>
+<td width="50%" align="center" valign="top" style="line-height: 0; font-size: 0;">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 300px;">
+    <tr><td><a href="https://www.interiordefine.com/living/all?lid={{${cblid} | lid: '9dp52ej47mnh'}}"><img alt="Living" src="https://braze-images.com/appboy/communication/assets/image_assets/images/682612db6ed0a40074f09de2/original.png?1747325659" style="display: block; width: 300px; max-width: 100%; border: 0;" width="300"></a></td></tr>
+  </table>
+</td>
+</tr>
+</table><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<td width="50%" align="center" valign="top" style="line-height: 0; font-size: 0;">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 300px;">
+    <tr><td><a href="https://www.interiordefine.com/bedroom?page=1&lid={{${cblid} | lid: 'dx5klyzdl1un'}}"><img alt="Bedroom" src="https://braze-images.com/appboy/communication/assets/image_assets/images/682612dbd604d30067c1b509/original.png?1747325659" style="display: block; width: 300px; max-width: 100%; border: 0;" width="300"></a></td></tr>
+  </table>
+</td>
+<td width="50%" align="center" valign="top" style="line-height: 0; font-size: 0;">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 300px;">
+    <tr><td><a href="https://www.interiordefine.com/dining?page=1&lid={{${cblid} | lid: 'nqo78s7i2xh2'}}"><img alt="Dining" src="https://braze-images.com/appboy/communication/assets/image_assets/images/682612db53b6c00064e0488c/original.png?1747325659" style="display: block; width: 300px; max-width: 100%; border: 0;" width="300"></a></td></tr>
+  </table>
+</td>
+</tr>
+</table><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tr>
+<td width="50%" align="center" valign="top" style="line-height: 0; font-size: 0;">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 300px;">
+    <tr><td><a href="https://www.interiordefine.com/rugs?page=1&lid={{${cblid} | lid: 'nk6gr65mubvs'}}"><img alt="Rugs" src="https://braze-images.com/appboy/communication/assets/image_assets/images/682612dbd604d30076c1a684/original.png?1747325659" style="display: block; width: 300px; max-width: 100%; border: 0;" width="300"></a></td></tr>
+  </table>
+</td>
+<td width="50%" align="center" valign="top" style="line-height: 0; font-size: 0;">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 300px;">
+    <tr><td><a href="https://www.interiordefine.com/quick-ship-collections?page=1&lid={{${cblid} | lid: 'neh748mmiv2r'}}"><img alt="Quick Ship" src="https://braze-images.com/appboy/communication/assets/image_assets/images/682612db001848008586899f/original.png?1747325659" style="display: block; width: 300px; max-width: 100%; border: 0;" width="300"></a></td></tr>
+  </table>
+</td>
+</tr>
+</table>{% if {{subscribed_state.${f2b25d85-ee20-42c8-9f5c-953b6f4cf3b3}}} != 'subscribed' %}<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td align="center" style="width: 100%; font-size: 0; line-height: 0; padding: 0;">
+<a href="{% landing_page_url 3hvsp %}?lid={{${cblid} | lid: '1zkrph26a9b5'}}"><img alt="Sign Up For Texts" width="600" style="display: block; width: 100%; max-width: 100%; font-size: 20px; font-family: Arial, 'sans-serif'; color: #383633; background-color: #FFFFFF;" border="0" src="https://braze-images.com/appboy/communication/assets/image_assets/images/68e6fd2b13679000637701e9/original.jpg?1759968554" /></a>
+</td>
+</tr>
+</table>{% endif %}<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="text-align: center; background-color: #ffffff;">
+<tbody>
+<tr bgcolor="#ffffff">
+<td align="center" style="text-align: center; font-size: 0; line-height: 0; padding: 0;">
+<table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="text-align: center; background-color: #ffffff;">
+<tbody>
+<tr bgcolor="#ffffff">
+<td width="25%" align="center" style="font-size: 0; line-height: 0; padding: 5px 10px;"><a href="https://www.facebook.com/pages/Interior-Define/336942726333609?lid={{${cblid} | lid: '7mc01afes3x9'}}"><img alt="Facebook" height="35" src="https://d2axdqolvqmdvx.cloudfront.net/6faa68d1-2def-46dd-8628-c0c5a3a4b213/fb.png" style="display: block; height: 35px; width: 35px; border: 0; margin: 0 auto;" width="35"></a></td>
+<td width="25%" align="center" style="font-size: 0; line-height: 0; padding: 5px 10px;"><a href="https://instagram.com/interiordefine?lid={{${cblid} | lid: 'am9x0r0p0hve'}}"><img alt="Instagram" height="35" src="https://d2axdqolvqmdvx.cloudfront.net/0fea7452-e0a3-4706-b7b4-884c799cc4a8/ig.png" style="display: block; height: 35px; width: 35px; border: 0; margin: 0 auto;" width="35"></a></td>
+<td width="25%" align="center" style="font-size: 0; line-height: 0; padding: 5px 10px;"><a href="https://www.pinterest.com/InteriorDefine/?lid={{${cblid} | lid: 'o4mqmnxe81d3'}}"><img alt="Pinterest" height="35" src="https://d2axdqolvqmdvx.cloudfront.net/ab72cc5e-32cd-45c8-908c-9f23d1319aaa/pin.png" style="display: block; height: 35px; width: 35px; border: 0; margin: 0 auto;" width="35"></a></td>
+<td width="25%" align="center" style="font-size: 0; line-height: 0; padding: 5px 10px;"><a href="https://www.houzz.com/pro/interiordefine?lid={{${cblid} | lid: 'hm3a89xddo6p'}}"><img alt="Houzz" height="35" src="https://d2axdqolvqmdvx.cloudfront.net/2c2b28e4-a6e5-4e95-8d67-7abce9f772ca/houzz.png" style="display: block; height: 35px; width: 35px; border: 0; margin: 0 auto;" width="35"></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+
+</table>

@@ -1,0 +1,33 @@
+id: 59ab162f-12f9-447d-a33f-033f20a80385
+name: P_EM_2026_03_08_HAV_PC_D_This_Or_That
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 59ab162f-12f9-447d-a33f-033f20a80385
+dates:
+  send_date: '2026-03-08'
+  first_sent: '2026-03-08T17:00:40+00:00'
+  last_sent: '2026-03-08T17:06:39+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: f904a178-045e-4f87-944e-612a8cc0016a
+  channel: email
+  name: Variant 1
+  subject: 'This or That: We''re Playing Favorites'
+  preheader: Pick your style and find your match.
+- id: f298a7c1-51e2-4528-823a-c845935c2605
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 81766
+  total_delivered: 81083
+  total_opens: 38317
+  total_clicks: 490
+  open_rate: 0.4686
+  click_rate: 0.006
+  total_unsubscribes: 165
+schedule_type: time_based
+_filename: p_em_2026_03_08_hav_pc_d_this_or_that.yaml

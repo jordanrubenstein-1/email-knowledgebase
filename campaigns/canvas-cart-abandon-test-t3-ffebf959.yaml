@@ -1,0 +1,25 @@
+id: ffebf959-5b52-4668-88f0-af7ab7670946
+name: TRG_2024_ID_Cart_Abandon_T3_Email
+brand: ID
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: b6076d51-b7fd-432c-a79c-be2acf40bb52
+canvas_name: Cart Abandon test
+flow_type: cart_abandonment
+sequence_position: 3
+subject: Leave something behind?
+preheader: Bring it home today
+sends:
+- id: ffebf959-5b52-4668-88f0-af7ab7670946
+  channel: email
+  name: TRG_2024_ID_Cart_Abandon_T3_Email
+  subject: Leave something behind?
+  preheader: Bring it home today
+  html_file: html/canvas-cart-abandon-test-t3-ffebf959.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-11-13T20:00:00Z'
+  last_sent: '2025-11-21T19:00:00Z'
+performance_summary: {}

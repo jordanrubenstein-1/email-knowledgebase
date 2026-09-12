@@ -1,0 +1,53 @@
+id: 83266218-94ea-4d75-ba73-5b071498333f
+name: P_EM_2025_07_25_CZ_D_PR_Bedroom_Event_Sale_Announcement
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 83266218-94ea-4d75-ba73-5b071498333f
+dates:
+  send_date: '2025-07-25'
+  inferred_send_type: scheduled
+  first_sent: '2025-07-25T06:55:03+00:00'
+  last_sent: '2025-07-25T17:01:19+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale_feat
+sends:
+- id: a043d50d-8f0b-4fdf-9560-49611f3cff39
+  channel: email
+  name: Variant 1
+  subject: 'Now Open: The Bedroom Event'
+  preheader: Save 20% off on bedroom essentials.
+  html_file: html/p_em_2025_07_25_cz_d_pr_bedroom_event_sale_announcement.html
+  screenshot: screenshots/p_em_2025_07_25_cz_d_pr_bedroom_event_sale_announcement.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6882bfe9f7e5b5006515ecda/original.png?1753399272
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6882becb0094e20066c5b16c/original.png?1753398987
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68814a709df06d0066a3a947/original.png?1753303663
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68814a229df06d0066a3a7a5/original.png?1753303586
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68814a349df06d0066a3a84e/original.png?1753303604
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68814a3b6ca67a00661dc870/original.png?1753303610
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6882be903f5bf20065da7763/original.gif?1753398928
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68814a544d816b006596b810/original.png?1753303636
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6882bf233f5bf20065da78fd/original.png?1753399074
+- id: 6818a1d1-d04a-40af-be36-80e8349fe363
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 100369
+  total_delivered: 100286
+  total_opens: 51440
+  total_clicks: 581
+  open_rate: 0.5125
+  click_rate: 0.0058
+  total_revenue: 76289.42
+  total_bounces: 1
+  total_unsubscribes: 122
+_filename: p_em_2025_07_25_cz_d_pr_bedroom_event_sale_announcement.yaml
+schedule_type: time_based

@@ -1,0 +1,63 @@
+id: klaviyo-01JD58E36SD788FHG50W3PTZGX
+name: BNDL Instructions for missed recipient
+brand: TI
+channel: email
+category: other
+type: announcement
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2024-11-20'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-20T17:13:23+00:00'
+  last_sent: '2024-11-20T17:13:23+00:00'
+sends:
+- id: 01JD58E370MV6C16P9A4CZGVP0
+  channel: email
+  name: BNDL Instructions for missed recipient
+  subject: About Your Decide Fabric Later Order
+  preheader: ''
+  html_file: html/bndl-instructions-for-missed-recipient.html
+  image_urls: []
+  screenshot: screenshots/bndl-instructions-for-missed-recipient.png
+performance_summary:
+  total_sends: 1
+  total_delivered: 1
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+klaviyo_type: campaign
+klaviyo_campaign_id: 01JD58E36SD788FHG50W3PTZGX
+klaviyo_message_id: 01JD58E370MV6C16P9A4CZGVP0
+structure:
+  image_count: 0
+  link_count: 1
+  has_gif: false
+  hero_width: null
+  layout_type: text_only
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: ti-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: ti-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-03-12T11:18:48.400840'

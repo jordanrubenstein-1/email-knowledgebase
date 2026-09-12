@@ -1,0 +1,250 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <!--
+    Studio 6 Beta Invite — based on Figma node 40:2
+    https://www.figma.com/design/42WVFeOHKvfFCqSJPVIslM/Studio-6?node-id=40-2
+
+    The body is sent through Braze; this file is the source-of-truth reference
+    that should mirror what's pasted into the dev + prod campaigns.
+
+    Fonts in the Figma (Century OS MT Pro, DM Sans, Graphik) are paid/custom
+    and will not load reliably in mail clients. We fall back to Georgia (serif
+    display) and Helvetica/Arial (sans body + button uppercase). DM Sans is
+    pulled from Google Fonts for clients that support web fonts (Apple Mail /
+    iOS / Gmail Web); Outlook will silently drop the import and use the
+    Helvetica fallback.
+
+    Image assets are hosted in Braze's media library. URLs are stable but
+    keyed to the Braze workspace — re-host if the workspace ever changes.
+  -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>You're invited to Havenly's first look</title>
+
+    <!-- Preheader text (shown next to the subject line in Gmail / Apple Mail) -->
+    <style type="text/css">
+      .preheader {
+        display: none !important;
+        visibility: hidden;
+        opacity: 0;
+        color: transparent;
+        height: 0;
+        width: 0;
+        font-size: 0;
+        line-height: 0;
+        mso-hide: all;
+      }
+      @media only screen and (max-width: 620px) {
+        .container { width: 100% !important; }
+        .px-32 { padding-left: 24px !important; padding-right: 24px !important; }
+        .h1 { font-size: 40px !important; line-height: 42px !important; }
+        .h2 { font-size: 28px !important; line-height: 32px !important; }
+        .step-num { font-size: 24px !important; }
+        .step-title { font-size: 16px !important; }
+        .body-copy { font-size: 15px !important; }
+        .hero-img { width: 100% !important; height: auto !important; }
+      }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  </head>
+
+  <body style="margin: 0; padding: 0; background-color: #fff3e3; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">
+
+    <span class="preheader">Something new from Havenly — and you're getting it first.</span>
+
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#fff3e3" style="background-color: #fff3e3;">
+      <tr>
+        <td align="center" style="padding: 0;">
+
+          <!-- ======================================================== -->
+          <!-- 600px container                                          -->
+          <!-- ======================================================== -->
+          <table role="presentation" class="container" width="600" cellpadding="0" cellspacing="0" border="0" style="width: 600px; max-width: 600px;">
+
+            <!-- HAVENLY wordmark -->
+            <tr>
+              <td align="center" class="px-32" style="padding: 56px 32px 16px 32px;">
+                <!-- Havenly wordmark. Prod asset is the src below; dev equivalent: https://braze-images.com/appboy/communication/assets/image_assets/images/6985050c0500df0063aa43e5/original.png?1770325260 -->
+                <img src="https://braze-images.com/appboy/communication/assets/image_assets/images/66c23a408848fd006387788a/original.png?1724004928" width="160" height="auto" alt="Havenly" style="display: block; border: 0; outline: none; text-decoration: none; height: auto; max-width: 160px;" />
+              </td>
+            </tr>
+
+            <!-- Hero: eyebrow + headline + paragraph + CTA -->
+            <tr>
+              <td align="center" class="px-32" style="padding: 32px 32px 8px 32px;">
+                <p style="margin: 0; font-family: 'DM Sans', Helvetica, Arial, sans-serif; font-weight: 500; font-size: 14px; letter-spacing: 1.6px; color: #522b1a; text-transform: uppercase;">
+                  First Look
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" class="px-32 h1" style="padding: 16px 32px 16px 32px; font-family: Georgia, 'Times New Roman', serif; font-size: 48px; line-height: 48px; color: #522b1a;">
+                Hi {{api_trigger_properties.${first_name}}} — meet the tool that redesigns your room instantly.
+              </td>
+            </tr>
+            <tr>
+              <td align="center" class="px-32 body-copy" style="padding: 16px 32px 8px 32px; font-family: 'DM Sans', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px; color: #522b1a;">
+                Imagine seeing your actual room, redesigned and ready to shop, in minutes. That's exactly what you're about to experience. You're among the first to try Havenly's most transformative tool yet.
+              </td>
+            </tr>
+
+            <!-- TRY IT FREE button -->
+            <tr>
+              <td align="center" class="px-32" style="padding: 32px 32px 56px 32px;">
+                <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                  <tr>
+                    <td align="center" bgcolor="#7b9fdd" style="background-color: #7b9fdd; border-radius: 50px;">
+                      <a href="{{api_trigger_properties.${studio_6_invite_link}}}" target="_blank" style="display: inline-block; padding: 18px 40px; font-family: Helvetica, Arial, sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 1.6px; color: #efe3d5; text-decoration: none; text-transform: uppercase; border-radius: 50px;">
+                        Try it free
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Section 2: Product demo GIF -->
+            <tr>
+              <td align="center" style="padding: 0;">
+                <!-- Product demo GIF. Outlook on Windows renders only frame 1, so frame 1 needs to be a usable still.
+                     Prod asset is the src below; dev equivalent: https://braze-images.com/appboy/communication/assets/image_assets/images/69fcde98eca1340083a5efa4/original.gif?1778179736 -->
+                <a href="{{api_trigger_properties.${studio_6_invite_link}}}" target="_blank" style="text-decoration: none;">
+                  <img src="https://braze-images.com/appboy/communication/assets/image_assets/images/69fcdf9ddb2bed0085d360aa/original.gif?1778179996" width="600" height="350" alt="Product demo: room upload to inspiration to moodboard to 3D render" class="hero-img" style="display: block; border: 0; outline: none; text-decoration: none; width: 100%; max-width: 600px; height: auto;" />
+                </a>
+              </td>
+            </tr>
+
+            <!-- Divider -->
+            <tr>
+              <td class="px-32" style="padding: 56px 32px 0 32px;">
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                  <tr><td style="height: 1px; line-height: 1px; font-size: 0; background-color: #522b1a; opacity: 0.15; border-top: 1px solid rgba(82, 43, 26, 0.15);">&nbsp;</td></tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- HOW IT WORKS eyebrow -->
+            <tr>
+              <td class="px-32" style="padding: 40px 32px 8px 32px; font-family: 'DM Sans', Helvetica, Arial, sans-serif; font-weight: 500; font-size: 14px; letter-spacing: 1.6px; color: #522b1a; text-transform: uppercase;">
+                How it works
+              </td>
+            </tr>
+
+            <!-- 4 numbered steps -->
+            <tr>
+              <td class="px-32" style="padding: 24px 32px 0 32px;">
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                  <!-- Step 1 -->
+                  <tr>
+                    <td valign="top" width="48" class="step-num" style="font-family: Georgia, 'Times New Roman', serif; font-style: italic; font-size: 32px; line-height: 32px; color: #522b1a; padding: 0 16px 28px 0;">1.</td>
+                    <td valign="top">
+                      <p class="step-title" style="margin: 0 0 6px 0; font-family: 'DM Sans', Helvetica, Arial, sans-serif; font-weight: 600; font-size: 18px; line-height: 24px; color: #522b1a;">Start with what you have</p>
+                      <p class="body-copy" style="margin: 0 0 28px 0; font-family: 'DM Sans', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px; color: #522b1a;">Upload a photo of your room, or start from scratch with a blank canvas. Either way, you're up and running in minutes.</p>
+                    </td>
+                  </tr>
+                  <!-- Step 2 -->
+                  <tr>
+                    <td valign="top" width="48" class="step-num" style="font-family: Georgia, 'Times New Roman', serif; font-style: italic; font-size: 32px; line-height: 32px; color: #522b1a; padding: 0 16px 28px 0;">2.</td>
+                    <td valign="top">
+                      <p class="step-title" style="margin: 0 0 6px 0; font-family: 'DM Sans', Helvetica, Arial, sans-serif; font-weight: 600; font-size: 18px; line-height: 24px; color: #522b1a;">Tell us what excites you</p>
+                      <p class="body-copy" style="margin: 0 0 28px 0; font-family: 'DM Sans', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px; color: #522b1a;">Browse inspiration and save what speaks to you. No forms, no lengthy quizzes, just your personal style taking shape.</p>
+                    </td>
+                  </tr>
+                  <!-- Step 3 -->
+                  <tr>
+                    <td valign="top" width="48" class="step-num" style="font-family: Georgia, 'Times New Roman', serif; font-style: italic; font-size: 32px; line-height: 32px; color: #522b1a; padding: 0 16px 28px 0;">3.</td>
+                    <td valign="top">
+                      <p class="step-title" style="margin: 0 0 6px 0; font-family: 'DM Sans', Helvetica, Arial, sans-serif; font-weight: 600; font-size: 18px; line-height: 24px; color: #522b1a;">See it come to life</p>
+                      <p class="body-copy" style="margin: 0 0 28px 0; font-family: 'DM Sans', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px; color: #522b1a;">AI generates a full room render with your style applied. Real furniture. Real products. Your actual room, but better.</p>
+                    </td>
+                  </tr>
+                  <!-- Step 4 -->
+                  <tr>
+                    <td valign="top" width="48" class="step-num" style="font-family: Georgia, 'Times New Roman', serif; font-style: italic; font-size: 32px; line-height: 32px; color: #522b1a; padding: 0 16px 28px 0;">4.</td>
+                    <td valign="top">
+                      <p class="step-title" style="margin: 0 0 6px 0; font-family: 'DM Sans', Helvetica, Arial, sans-serif; font-weight: 600; font-size: 18px; line-height: 24px; color: #522b1a;">Shop the whole room</p>
+                      <p class="body-copy" style="margin: 0 0 0 0; font-family: 'DM Sans', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px; color: #522b1a;">Every item in the rendered design is shoppable. Buy what you love, or hand it off to a Havenly designer to bring it all together.</p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Divider -->
+            <tr>
+              <td class="px-32" style="padding: 32px 32px 0 32px;">
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                  <tr><td style="height: 1px; line-height: 1px; font-size: 0; background-color: #522b1a; opacity: 0.15; border-top: 1px solid rgba(82, 43, 26, 0.15);">&nbsp;</td></tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- AI THAT ACTUALLY KNOWS DESIGN -->
+            <tr>
+              <td class="px-32" style="padding: 40px 32px 8px 32px; font-family: 'DM Sans', Helvetica, Arial, sans-serif; font-weight: 500; font-size: 13px; letter-spacing: 1.5px; color: #522b1a; text-transform: uppercase;">
+                AI that actually knows design.
+              </td>
+            </tr>
+            <tr>
+              <td class="px-32 body-copy" style="padding: 16px 32px 0 32px; font-family: 'DM Sans', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px; color: #522b1a;">
+                Trained on 3M+ professionally designed rooms and 500K+ curated products — not the internet. The difference shows.
+              </td>
+            </tr>
+
+            <!-- Divider -->
+            <tr>
+              <td class="px-32" style="padding: 56px 32px 0 32px;">
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                  <tr><td style="height: 1px; line-height: 1px; font-size: 0; background-color: #522b1a; opacity: 0.15; border-top: 1px solid rgba(82, 43, 26, 0.15);">&nbsp;</td></tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Closer headline + paragraph + CTA -->
+            <tr>
+              <td align="center" class="px-32 h2" style="padding: 56px 32px 16px 32px; font-family: Georgia, 'Times New Roman', serif; font-size: 32px; line-height: 36px; color: #522b1a;">
+                You're not just trying it. You're shaping it.
+              </td>
+            </tr>
+            <tr>
+              <td align="center" class="px-32 body-copy" style="padding: 8px 32px 8px 32px; font-family: 'DM Sans', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px; color: #522b1a;">
+                This is a closed beta — which means your experience matters more than you know. As one of the first people inside, your feedback directly influences where this goes next. We built this to make great design accessible to everyone. Help us get it right.
+              </td>
+            </tr>
+
+            <!-- START DESIGNING button -->
+            <tr>
+              <td align="center" class="px-32" style="padding: 32px 32px 56px 32px;">
+                <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                  <tr>
+                    <td align="center" bgcolor="#7b9fdd" style="background-color: #7b9fdd; border-radius: 50px;">
+                      <a href="{{api_trigger_properties.${studio_6_invite_link}}}" target="_blank" style="display: inline-block; padding: 18px 40px; font-family: Helvetica, Arial, sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 1.6px; color: #efe3d5; text-decoration: none; text-transform: uppercase; border-radius: 50px;">
+                        Start designing
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Footer -->
+            <tr>
+              <td align="center" class="px-32" style="padding: 32px 32px 56px 32px; font-family: 'DM Sans', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 18px; color: #8a6f5f;">
+                © 2026 Havenly &middot;
+                <a href="{{${set_user_to_unsubscribed_url}}}" style="color: #8a6f5f; text-decoration: underline;">Unsubscribe</a>
+                &middot;
+                <a href="https://havenly.com/privacy?lid=gde23kkpqe03" style="color: #8a6f5f; text-decoration: underline;">Privacy Policy</a>
+              </td>
+            </tr>
+
+          </table>
+          <!-- /600px container -->
+
+        </td>
+      </tr>
+    </table>
+
+  </body>
+</html>

@@ -1,0 +1,60 @@
+id: 92d1488c-d7a3-441b-b83e-9a7b6cc8d196
+name: P_2024_10_13_D_CZ_PR_The_Fall_Bedroom_Email
+brand: CZ
+channel: email
+category: other
+type: seasonal
+theme: fall
+braze_id: 92d1488c-d7a3-441b-b83e-9a7b6cc8d196
+dates:
+  send_date: '2024-10-13'
+  inferred_send_type: local_time
+  first_sent: '2024-10-12T17:00:02+00:00'
+  last_sent: '2024-10-13T17:00:27+00:00'
+tags:
+- batch and blast/promo
+sends:
+- id: b648b96a-3084-4f23-9531-5f0952257748
+  channel: email
+  name: Variant 1
+  subject: The Fall Bedroom
+  preheader: Welcome a new season at home grounded in earthy hues and plush textures.
+  html_file: html/p_2024_10_13_d_cz_pr_the_fall_bedroom_email.html
+  screenshot: screenshots/p_2024_10_13_d_cz_pr_the_fall_bedroom_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67055343c858050065d3e06f/original.jpg?1728402243
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6705520a1058f60063a9eb73/original.jpg?1728401929
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/670551ca98991f006478f23e/original.jpg?1728401865
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6707f4350b752500664a4f05/original.jpg?1728574517
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/670551f37bdba90063ec91c1/original.jpg?1728401907
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6705526098991f006478f3c7/original.jpg?1728402016
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6707f43bb1bac000654ad781/original.jpg?1728574523
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/670551707bdba90063ec90b8/original.jpg?1728401776
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6705536590c09200640e5bb6/original.jpg?1728402277
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/670552821058f60063a9ec06/original.jpg?1728402050
+- id: 9d90081b-0938-48f9-8554-7c297e92d05f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 87276
+  total_delivered: 86750
+  total_opens: 44926
+  total_clicks: 1210
+  open_rate: 0.5148
+  click_rate: 0.0139
+  total_revenue: 90319.13
+  total_bounces: 4
+  total_unsubscribes: 154
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.620533'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.653333'
+schedule_type: time_based

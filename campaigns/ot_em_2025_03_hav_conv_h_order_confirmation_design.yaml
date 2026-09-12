@@ -1,0 +1,59 @@
+id: 31ad305f-931b-a73b-e338-2c836bdcac37
+name: OT_EM_2025_03_HAV_CONV_H_Order_Confirmation_Design_Package
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 31ad305f-931b-a73b-e338-2c836bdcac37
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-26T21:00:00+00:00'
+  last_sent: '2025-12-21T05:00:00+00:00'
+tags: []
+sends:
+- id: 3450cbf3-559f-4106-bf85-6c54956b2b67
+  channel: email
+  name: Variant 1
+  subject: Design Package Payment Confirmation
+  html_file: html/ot_em_2025_03_hav_conv_h_order_confirmation_design_package.html
+  screenshot: screenshots/ot_em_2025_03_hav_conv_h_order_confirmation_design_package.png
+- id: 4903ed2f-c927-4d4c-a39a-d33737b6c56f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 2988
+  total_delivered: 2984
+  total_opens: 2968
+  total_clicks: 354
+  open_rate: 0.9933
+  click_rate: 0.1185
+  ga4:
+    sessions: 9871
+    purchases: 16
+    revenue: 31207.95
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.351705'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: hav_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: hav_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:37.782853'
+schedule_type: api_triggered

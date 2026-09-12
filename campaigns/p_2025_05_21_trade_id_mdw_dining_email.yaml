@@ -1,0 +1,47 @@
+id: f54c434f-9d8f-4c18-a759-345c58fb05bd
+name: P_2025_05_21_TRADE_ID_MDW_Dining_Email
+brand: ID
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: f54c434f-9d8f-4c18-a759-345c58fb05bd
+dates:
+  send_date: '2025-05-21'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-21T21:06:12+00:00'
+  last_sent: '2025-05-21T21:06:56+00:00'
+tags:
+- TRADE-EMAIL
+sends:
+- id: d2858de5-dbcf-4085-a858-19e3e8b97ec4
+  channel: email
+  name: Variant 1
+  subject: Custom dining pieces that bring people together
+  preheader: Plus, enjoy up to 30% off sitewide — your clients will thank you!
+- id: c329b07b-a55d-422b-a752-2f5c5d1d30ef
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 18940
+  total_delivered: 18483
+  total_opens: 5125
+  total_clicks: 147
+  open_rate: 0.2706
+  click_rate: 0.0078
+  total_revenue: 123785.75
+  total_bounces: 9
+  total_unsubscribes: 14
+  ga4:
+    sessions: 106
+    purchases: 1
+    revenue: 3988.33
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.613109'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.592333'
+schedule_type: time_based

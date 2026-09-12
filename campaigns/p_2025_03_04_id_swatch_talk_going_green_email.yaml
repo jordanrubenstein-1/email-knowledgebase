@@ -1,0 +1,47 @@
+id: f44a7b81-3d1a-4324-b7c9-2904ff8eff2d
+name: P_2025_03_04_ID_Swatch_Talk_Going_Green_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: f44a7b81-3d1a-4324-b7c9-2904ff8eff2d
+dates:
+  send_date: '2025-03-04'
+  inferred_send_type: scheduled
+  first_sent: '2025-03-05T05:32:45+00:00'
+  last_sent: '2025-03-05T17:15:13+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 65a81a07-2749-4312-8ba0-e613066c6d1f
+  channel: email
+  name: Variant 1
+  subject: Your Daily Dose Of Greens
+  preheader: We can't get enough of these earthy hues.
+- id: 5db31b1d-b6e4-43f5-80bb-56ef88e3db5a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 122462
+  total_delivered: 121076
+  total_opens: 29950
+  total_clicks: 401
+  open_rate: 0.2446
+  click_rate: 0.0033
+  total_revenue: 86042.33
+  total_bounces: 22
+  total_unsubscribes: 134
+  ga4:
+    sessions: 498
+    purchases: 1
+    revenue: 1082.25
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.429497'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:35.056208'
+schedule_type: time_based

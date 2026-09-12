@@ -1,0 +1,33 @@
+id: 99b55ff0-3aa4-4a95-b445-7efb737946fe
+name: TRG_EM_2025_HAV_CONV_D_Complete_Profile_T1_V1A
+brand: HAV
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 0b34d65c-1f25-4039-aaf9-7dfb705c5a71
+canvas_name: Room Profile Complete
+flow_type: welcome_series
+sequence_position: 1
+subject: Let's kick things off!
+preheader: Finish your room profile to get started on your project!
+sends:
+- id: 99b55ff0-3aa4-4a95-b445-7efb737946fe
+  channel: email
+  name: TRG_EM_2025_HAV_CONV_D_Complete_Profile_T1_V1A
+  subject: Let's kick things off!
+  preheader: Finish your room profile to get started on your project!
+  html_file: html/canvas-room-profile-complete-t1-99b55ff0.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-10-01T13:00:00Z'
+  last_sent: '2026-09-07T13:00:00Z'
+performance_summary:
+  total_sends: 20989
+  total_delivered: 20959
+  total_opens: 16059
+  total_clicks: 1640
+  open_rate: 0.7651
+  click_rate: 0.0781
+  total_unsubscribes: 29
+  total_bounces: 1

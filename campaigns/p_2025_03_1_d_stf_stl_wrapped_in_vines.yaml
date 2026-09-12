@@ -1,0 +1,59 @@
+id: 440d3376-1f49-4bea-b66d-5d3aa320376b
+name: P_2025_03_1_D_STF_STL_Wrapped_In_Vines
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 440d3376-1f49-4bea-b66d-5d3aa320376b
+dates:
+  send_date: '2025-03-01'
+  inferred_send_type: local_time
+  first_sent: '2025-02-28T17:28:33+00:00'
+  last_sent: '2025-03-01T17:00:24+00:00'
+tags: []
+sends:
+- id: c0192d25-3e3b-487a-aa64-e936709e2aca
+  channel: email
+  name: Variant 1
+  subject: 'Shop The Look: Wrapped In Vines'
+  preheader: some inspo for your living room refresh
+  html_file: html/p_2025_03_1_d_stf_stl_wrapped_in_vines.html
+  screenshot: screenshots/p_2025_03_1_d_stf_stl_wrapped_in_vines.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c0d79ea3ca5c0062a0c31e/original.png?1740691358
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c0e4054c876d0064bb3b73/original.png?1740694532
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c0d76fcc02fc008faba13c/original.gif?1740691311
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c0dcb687594c00629249e4/original.png?1740692661
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c0d7a6001e6e0064e0a103/original.png?1740691366
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c0d77a0044910061def9ff/original.png?1740691322
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c0dcc30218fa0061c5abea/original.png?1740692675
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c0dcaf916a7800627d5361/original.png?1740692655
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c0dcd64c876d0064bb20fa/original.png?1740692693
+- id: fee0cb0f-5e4e-4588-aa31-df440d874b36
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 10384
+  total_delivered: 10252
+  total_opens: 5978
+  total_clicks: 188
+  open_rate: 0.5757
+  click_rate: 0.0181
+  total_revenue: 17171.0
+  total_bounces: 10
+  total_unsubscribes: 71
+  ga4:
+    sessions: 214
+    purchases: 1
+    revenue: 423.72
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.862785'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.547100'
+schedule_type: time_based

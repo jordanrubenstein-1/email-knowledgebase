@@ -1,0 +1,52 @@
+id: c74cf7c6-401d-436a-8271-9b258991d9f3
+name: P_2025_03_22_CZ_Spring_Collection_Teaser_1_Email
+brand: CZ
+channel: email
+category: product_launch
+type: seasonal
+theme: spring
+braze_id: c74cf7c6-401d-436a-8271-9b258991d9f3
+dates:
+  send_date: '2025-03-22'
+  inferred_send_type: local_time
+  first_sent: '2025-03-22T01:08:41+00:00'
+  last_sent: '2025-03-22T17:01:30+00:00'
+tags: []
+sends:
+- id: eda18481-a759-4c8d-baf8-cbf1c13596c2
+  channel: email
+  name: Variant 1
+  subject: 'Coming Soon: The Spring Collection'
+  preheader: Get a first look.
+  html_file: html/p_2025_03_22_cz_spring_collection_teaser_1_email.html
+  screenshot: screenshots/p_2025_03_22_cz_spring_collection_teaser_1_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dc9f5c12584c0065ef8402/original.gif?1742511964
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dc9f39eb09f40066ce55f0/original.jpg?1742511928
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dc9f6553b24800672c1e8e/original.jpg?1742511972
+- id: 10891a85-c09c-466e-bb89-22d8f63e65da
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 91935
+  total_delivered: 91140
+  total_opens: 48941
+  total_clicks: 1069
+  open_rate: 0.5323
+  click_rate: 0.0116
+  total_revenue: 88168.07
+  total_bounces: 3
+  total_unsubscribes: 110
+  ga4:
+    sessions: 1697
+    purchases: 8
+    revenue: 3391.19
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.062854'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.455423'
+schedule_type: time_based

@@ -1,0 +1,33 @@
+id: d77c99e9-40dd-4d41-a231-4eb4a45b18b0
+name: P_2024_09_02_D_HAV_PR_PC_LDW_Reminder_PM_Email
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: d77c99e9-40dd-4d41-a231-4eb4a45b18b0
+dates:
+  send_date: '2024-09-02'
+  first_sent: '2024-09-02T18:27:59+00:00'
+  last_sent: '2024-09-03T02:15:02+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 3dd38a76-9d01-4f98-8ccf-e0b45ec34491
+  channel: email
+  name: Variant 1
+  subject: 50% OFF your dream home
+  preheader: ends tomorrow
+- id: c01fa274-a521-49ba-a87c-0dd7003cd5f8
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 53043
+  total_delivered: 52897
+  total_opens: 41277
+  total_clicks: 862
+  open_rate: 0.7782
+  click_rate: 0.0163
+  total_unsubscribes: 484
+schedule_type: time_based
+_filename: p_2024_09_02_d_hav_pr_pc_ldw_reminder_pm_email.yaml

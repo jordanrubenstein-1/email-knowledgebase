@@ -1,0 +1,34 @@
+id: 680b79b0-4959-4682-b791-cdb63a39b1b4
+name: P_EM_2026_03_29_BW_D_Spring_Sale_Final_Hours_Test_Designed_Variant
+brand: BUR
+channel: email
+category: reminder
+type: sale
+theme: spring
+braze_id: 680b79b0-4959-4682-b791-cdb63a39b1b4
+dates:
+  send_date: '2026-03-29'
+  inferred_send_type: scheduled
+  first_sent: '2026-03-28T17:07:21+00:00'
+  last_sent: '2026-03-28T21:00:00+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: fd661dc8-183c-4667-b119-c6b7199e874c
+  channel: email
+  name: Variant 1
+  subject: 'FINAL HOURS: Up to 30% off'
+  preheader: The Spring Sale is fading away.
+- id: 5a814ed6-58e8-4e9b-98c0-a81830078d75
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 115671
+  total_delivered: 115263
+  total_opens: 60832
+  total_clicks: 193
+  open_rate: 0.5259
+  click_rate: 0.0017
+  total_revenue: 28915.0
+  total_unsubscribes: 97
+schedule_type: time_based

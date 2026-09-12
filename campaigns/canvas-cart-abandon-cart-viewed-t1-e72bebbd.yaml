@@ -1,0 +1,28 @@
+id: e72bebbd-9000-420a-a21f-45c2f1f24dad
+name: TRG_Sale_2024_ID_Cart_Abandon_T1_Email
+brand: ID
+channel: email
+category: sale_promo
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 90ff3c97-7866-46d1-b1df-1a97c60ef691
+canvas_name: Cart Abandon - Cart Viewed
+flow_type: cart_abandonment
+sequence_position: 1
+subject: We saved your cart
+preheader: 'Check out now with up to 25% off!
+
+  '
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-12-10T05:00:00Z'
+  last_sent: '2025-12-13T14:00:00Z'
+performance_summary:
+  ga4:
+    sessions: 118
+    purchases: 4
+    revenue: 7243.7
+    attribution_window_days: 14
+    last_synced: '2026-02-06T16:28:53.987095'
+    source: snowflake
+    channel: email

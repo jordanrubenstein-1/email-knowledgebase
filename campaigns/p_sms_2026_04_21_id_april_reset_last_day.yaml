@@ -1,0 +1,31 @@
+id: 8d653fb4-162a-4eb0-8c87-f95688acc7c6
+name: P_SMS_2026_04_21_ID_April_Reset_Last_Day
+brand: ID
+channel: sms
+category: reminder
+type: announcement
+theme: null
+braze_id: 8d653fb4-162a-4eb0-8c87-f95688acc7c6
+dates:
+  send_date: '2026-04-21'
+  inferred_send_type: local_time
+  first_sent: '2026-04-21T02:05:11+00:00'
+  last_sent: '2026-04-21T20:00:00+00:00'
+tags: []
+sends:
+- id: 802e08db-6bc1-4a4e-b9c8-e60dacf650d3
+  channel: sms
+  name: Variant 1
+- id: 6023ba44-5c06-481c-a184-d2e9a1319595
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 49625
+  total_delivered: 47514
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 39397.99
+_filename: p_sms_2026_04_21_id_april_reset_last_day.yaml
+schedule_type: time_based

@@ -1,0 +1,36 @@
+id: 3fffbc9c-a052-4bc4-b91a-4f0cc42eebd1
+name: P_EM_2026_02_13_ID_D_Sip_And_Sit_Event_Presidents_Day_Sale_PM
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 3fffbc9c-a052-4bc4-b91a-4f0cc42eebd1
+dates:
+  send_date: '2026-02-13'
+  inferred_send_type: local_time
+  first_sent: '2026-02-13T02:06:41+00:00'
+  last_sent: '2026-02-14T02:02:27+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: e2b60bbc-29d0-44b7-bba9-27e19210b6ee
+  channel: email
+  name: Variant 1
+  subject: The Presidents Day Sale Is About to Get Better
+  preheader: Sip + Sit in-store and get ready for the best savings of the sale.
+- id: 0c81dac3-a2e8-4d94-9e71-f9c0dda39f76
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 115324
+  total_delivered: 113414
+  total_opens: 49829
+  total_clicks: 203
+  open_rate: 0.4321
+  click_rate: 0.0018
+  total_revenue: 340256.9
+  total_bounces: 2
+  total_unsubscribes: 50
+_filename: p_em_2026_02_13_id_d_sip_and_sit_event_presidents_day_sale_p.yaml
+schedule_type: time_based

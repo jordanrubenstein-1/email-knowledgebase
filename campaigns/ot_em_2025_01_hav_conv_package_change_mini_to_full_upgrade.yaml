@@ -1,0 +1,30 @@
+id: 6c6e8dc7-e871-bfe5-fba5-06ffba526953
+name: OT_EM_2025_01_HAV_CONV_Package_Change_Mini_to_Full_Upgrade
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 6c6e8dc7-e871-bfe5-fba5-06ffba526953
+dates:
+  first_sent: '2025-01-08T19:00:00+00:00'
+  last_sent: '2026-06-04T20:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: f02b7114-e2f1-40a4-9dee-c061abe509b2
+  channel: email
+  name: Variant 1
+  subject: Design Package Change Confirmation
+- id: da2abeff-6382-409b-81dd-37a3a54ddd6d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 17
+  total_delivered: 17
+  total_opens: 22
+  total_clicks: 1
+  open_rate: 1.2941
+  click_rate: 0.0588
+schedule_type: api_triggered
+_filename: ot_em_2025_01_hav_conv_package_change_mini_to_full_upgrade.yaml

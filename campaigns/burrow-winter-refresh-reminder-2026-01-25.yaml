@@ -1,0 +1,50 @@
+campaign:
+  # Campaign metadata
+  name: "P_2026_01_25_PT_BUR_Winter_Refresh_Sale_Reminder_PM"
+  brand: "BUR"
+  category: "reminder"
+  type: "sale"
+  
+  # Send schedule - Sunday 1/25/2026 at 4pm local time (Eastern)
+  send:
+    date: "2026-01-25"
+    time: "16:00"  # 4pm Eastern
+    timezone: "America/New_York"
+    
+  # Email content - Plain text, personal letter style (performs 30x better for BUR)
+  email:
+    # Subject: Using "Your" for +2.2pt open rate, benefit-focused, avoiding exclamation/urgency
+    subject: "Your chance to save up to 35% off"
+    preheader: "Winter Refresh Sale ends Tuesday"
+    body: |
+      Hi {{${first_name} | default: 'there'}},
+      
+      
+      Just a friendly reminder that your Winter Refresh Sale ends Tuesday, January 27th.
+      
+      You can save up to 35% off sitewide on furniture that just makes sense—from modular seating that adapts to your space, to sleeper sofas that are actually comfortable, to storage solutions that solve real problems.
+      
+      Everything ships in days, not months. And every piece is designed to grow with you.
+      
+      Shop the sale before it ends Tuesday.
+      
+      {{content_blocks.${PT_sale_footer_unsubscribe} | id: 'cb3'}}
+    
+    # Call-to-action links - will be converted to hyperlinks in the body
+    cta_links:
+      - text: "Shop the sale before it ends Tuesday"
+        url: "https://burrow.com/"
+        priority: 1
+  
+  # Audience configuration
+  audience:
+    type: "segment"
+    id: "4c0994bb-b4e3-44df-9b0c-d62fa2d5a19f"  # All Users (Production - Web App - Web)
+  
+  # Campaign settings
+  settings:
+    subscription_group: "Marketing"
+    frequency_capping:
+      enabled: true
+      max_sends: 1
+      period_days: 7

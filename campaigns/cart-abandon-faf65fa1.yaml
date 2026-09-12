@@ -1,0 +1,175 @@
+id: faf65fa1-59bd-41f5-9f3e-c4d5c4ee911e
+name: Cart Abandon
+brand: ID
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: faf65fa1-59bd-41f5-9f3e-c4d5c4ee911e
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-31T13:00:00+00:00'
+  last_sent: '2026-01-26T21:00:00+00:00'
+tags: []
+sends:
+- id: 1c8069a4-84d3-4993-9721-ee485164f4e5
+  channel: email
+  name: TRG_Sale_2024_ID_Cart_Abandon_T1_Email
+  subject: We saved your cart
+  preheader: 'Check out now with up to 25% off!
+
+    '
+  step_id: c2c60280-a46b-4f1a-81f2-f1f9c0e2cb7e
+- id: f55d251f-5d4b-4fd8-9080-ee419d595778
+  channel: email
+  name: TRG_2024_Sale_ID_Cart_Abandon_T2_Email
+  subject: Great choice - you'll love this!
+  preheader: 'On the fence? Get expert design advice
+
+    '
+  step_id: b284d272-05b3-4f0b-a900-1c76f1b61c17
+- id: 6c2c493e-f92e-4355-b376-51570f5ae938
+  channel: email
+  name: TRG_Sale_2024_ID_Cart_Abandon_T3_Email
+  subject: 'Still thinking about it? '
+  preheader: 'Bring it home today with up to 25% OFF
+
+    '
+  step_id: 3d5db83a-23a6-4536-bb98-72d9efa6c0ae
+- id: 0709b0f8-e8a8-4230-8e57-987ba9c3a476
+  channel: email
+  name: TRG_EM_2024_08_ID_D_Cart_Abandon_T4_V1
+  subject: Don’t let your cart expire
+  preheader: '{% assign eoy_sale_start = "2025-12-18 07:00:00" | date: "%s" %}{% assign
+    eoy_sale_end       = "2026-01-06 07:00:00" | date: "%s" %}{% assign now        =
+    ''now'' | date: "%s" %}{% if now >= eoy_sale_start and now <= eoy_sale_end %}Your
+    25% off ends soon{% else %}Your selections are still saved for you{% endif %}'
+  step_id: 11a047ee-2e4c-4078-8028-acb8a1c2931a
+- id: 7473ed94-e028-46dd-ac97-e8212fe70e87
+  channel: email
+  name: TRG_EM_2024_08_ID_D_Cart_Abandon_T3_V1
+  subject: 'Still thinking about it? '
+  preheader: 'Bring it home today
+
+    '
+  step_id: 650e2afe-b2f2-4ac4-b579-2ab2a518cc58
+- id: 9ba4824b-b920-43c0-9748-1e3e68dec56c
+  channel: email
+  name: TRG_EM_2024_08_ID_D_Cart_Abandon_T2_V1
+  subject: Great choice - you'll love this!
+  preheader: 'On the fence? Get expert design advice
+
+    '
+  step_id: efb2cb54-3990-4ea1-95da-f8035c94cb73
+- id: be8f1d43-2da9-4fc3-8ad1-194973b014ec
+  channel: email
+  name: TRG_Sale_2024_ID_Cart_Abandon_T3_Email
+  subject: Leave something behind?
+  preheader: Bring it home today with up to 25% off
+  step_id: d6711641-1edf-4df4-8dbb-366664119e32
+- id: e108e667-761a-43e7-8a39-555f7ae7e8e7
+  channel: email
+  name: TRG_EM_2024_08_ID_D_Cart_Abandon_T1_V1
+  subject: We saved your cart
+  preheader: 'Check out now
+
+    '
+  step_id: 18866492-3cef-4cb7-ba99-3fcbfcfd9ca3
+performance_summary: {}
+canvas_steps:
+- id: 35c87158-1a6d-4132-95a4-20885c53feb5
+  name: Step
+  type: delay
+- id: c2c60280-a46b-4f1a-81f2-f1f9c0e2cb7e
+  name: TRG_Sale_2024_ID_Cart_Abandon_T1_Email
+  type: message
+  channel: email
+  subject: We saved your cart
+  preheader: 'Check out now with up to 25% off!
+
+    '
+- id: cf5a5bda-5a66-43b0-9d47-f8b6e318fcd8
+  name: Step 4
+  type: delay
+- id: 3337c589-7575-44c4-89f2-6c261f6b847a
+  name: Step 5
+  type: decision_split
+- id: b284d272-05b3-4f0b-a900-1c76f1b61c17
+  name: TRG_2024_Sale_ID_Cart_Abandon_T2_Email
+  type: message
+  channel: email
+  subject: Great choice - you'll love this!
+  preheader: 'On the fence? Get expert design advice
+
+    '
+- id: 3d5db83a-23a6-4536-bb98-72d9efa6c0ae
+  name: TRG_Sale_2024_ID_Cart_Abandon_T3_Email
+  type: message
+  channel: email
+  subject: 'Still thinking about it? '
+  preheader: 'Bring it home today with up to 25% OFF
+
+    '
+- id: 3e6de0d6-e297-4981-aef6-f7f045881caa
+  name: Step 1
+  type: delay
+- id: d85674cf-f62f-4e0b-8ace-22fa6803c50e
+  name: Step 3
+  type: decision_split
+- id: 11a047ee-2e4c-4078-8028-acb8a1c2931a
+  name: TRG_EM_2024_08_ID_D_Cart_Abandon_T4_V1
+  type: message
+  channel: email
+  subject: Don’t let your cart expire
+  preheader: '{% assign eoy_sale_start = "2025-12-18 07:00:00" | date: "%s" %}{% assign
+    eoy_sale_end       = "2026-01-06 07:00:00" | date: "%s" %}{% assign now        =
+    ''now'' | date: "%s" %}{% if now >= eoy_sale_start and now <= eoy_sale_end %}Your
+    25% off ends soon{% else %}Your selections are still saved for you{% endif %}'
+- id: 755b58a2-6b9f-48f9-bea2-feeb6efdec5b
+  name: Step 7
+  type: delay
+- id: 650e2afe-b2f2-4ac4-b579-2ab2a518cc58
+  name: TRG_EM_2024_08_ID_D_Cart_Abandon_T3_V1
+  type: message
+  channel: email
+  subject: 'Still thinking about it? '
+  preheader: 'Bring it home today
+
+    '
+- id: efb2cb54-3990-4ea1-95da-f8035c94cb73
+  name: TRG_EM_2024_08_ID_D_Cart_Abandon_T2_V1
+  type: message
+  channel: email
+  subject: Great choice - you'll love this!
+  preheader: 'On the fence? Get expert design advice
+
+    '
+- id: d6711641-1edf-4df4-8dbb-366664119e32
+  name: TRG_Sale_2024_ID_Cart_Abandon_T3_Email
+  type: message
+  channel: email
+  subject: Leave something behind?
+  preheader: Bring it home today with up to 25% off
+- id: 18866492-3cef-4cb7-ba99-3fcbfcfd9ca3
+  name: TRG_EM_2024_08_ID_D_Cart_Abandon_T1_V1
+  type: message
+  channel: email
+  subject: We saved your cart
+  preheader: 'Check out now
+
+    '
+- id: ab6ecb26-939e-47dc-9ddc-436a7dd55384
+  name: Step 9
+  type: decision_split
+- id: 4ca7faef-6a1d-4727-a39e-8fbb5d00569f
+  name: Step 10
+  type: audience_paths
+- id: 3e59cf76-392c-4fd4-a7f1-bd86f7471585
+  name: Step 11
+  type: audience_paths
+- id: 295cf2ec-549e-4e40-9f13-aa63c3c134fe
+  name: Step 6
+  type: action_paths
+_filename: cart-abandon-faf65fa1.yaml

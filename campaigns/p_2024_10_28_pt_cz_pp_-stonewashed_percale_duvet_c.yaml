@@ -1,0 +1,45 @@
+id: d852a53f-434b-41c2-8d57-0280353b8d59
+name: P_2024_10_28_PT_CZ_PP_ Stonewashed_Percale_Duvet_Credit_Email
+brand: CZ
+channel: email
+category: editorial
+type: product_launch
+theme: null
+braze_id: d852a53f-434b-41c2-8d57-0280353b8d59
+dates:
+  send_date: '2024-10-28'
+  inferred_send_type: scheduled
+  first_sent: '2024-10-29T01:18:28+00:00'
+  last_sent: '2024-10-29T15:15:00+00:00'
+tags: []
+sends:
+- id: 40359c82-5636-470b-a307-f8f8c3a7f6da
+  channel: email
+  name: Variant 1
+  subject: The Citizenry Order Update - Organic Stonewashed Percale Duvet
+  html_file: html/p_2024_10_28_pt_cz_pp_-stonewashed_percale_duvet_credit_emai.html
+  screenshot: screenshots/p_2024_10_28_pt_cz_pp_-stonewashed_percale_duvet_credit_emai.png
+- id: b9336eed-b715-470d-b245-eb2f9f2af244
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 135
+  total_delivered: 134
+  total_opens: 112
+  total_clicks: 13
+  open_rate: 0.8296
+  click_rate: 0.0963
+  total_revenue: 1561.0
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.647032'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.485443'
+schedule_type: time_based

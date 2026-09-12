@@ -1,0 +1,30 @@
+id: f07f7a1e-7d7c-4251-8da3-16d821c038cf
+name: P_SMS_2025_11_30_ID_Black_Friday_BNDL
+brand: ID
+channel: sms
+category: sale_promo
+type: announcement
+theme: null
+braze_id: f07f7a1e-7d7c-4251-8da3-16d821c038cf
+dates:
+  send_date: '2025-11-30'
+  inferred_send_type: local_time
+  first_sent: '2025-11-30T01:07:34+00:00'
+  last_sent: '2025-12-01T01:00:30+00:00'
+tags: []
+sends:
+- id: e3e52cfe-5715-4fb2-820e-0463fe5f4fcf
+  channel: sms
+  name: Variant 1
+- id: 9ff6b89b-2abe-466c-af44-d3a5819b5df4
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 50878
+  total_delivered: 46927
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 216107.81
+schedule_type: time_based

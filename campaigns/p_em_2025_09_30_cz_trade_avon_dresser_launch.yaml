@@ -1,0 +1,61 @@
+id: a61a9e8f-5b71-4539-a439-2eb8fc1e93e1
+name: P_EM_2025_09_30_CZ_TRADE_Avon_Dresser_Launch
+brand: CZ
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: a61a9e8f-5b71-4539-a439-2eb8fc1e93e1
+dates:
+  send_date: '2025-09-30'
+  inferred_send_type: local_time
+  first_sent: '2025-09-30T03:29:50+00:00'
+  last_sent: '2025-09-30T19:00:55+00:00'
+tags: []
+sends:
+- id: 6e045635-e571-4091-9676-c8d0a5a0d31b
+  channel: email
+  name: Variant 1
+  subject: 'New From The Citizenry: Avon Dresser'
+  preheader: Thoughtful storage and heirloom quality your clients will love.
+- id: 1421fdf6-d31e-4cab-9d6f-a22640e9c745
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 19865
+  total_delivered: 19238
+  total_opens: 9720
+  total_clicks: 87
+  open_rate: 0.4893
+  click_rate: 0.0044
+  total_revenue: 87457.99
+  total_bounces: 7
+  total_unsubscribes: 51
+  ga4:
+    sessions: 111
+    purchases: 1
+    revenue: 124.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.614482'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-weekender-sale-2025-09-26
+    name: Weekender Sale
+    start_date: '2025-09-26'
+    end_date: '2025-09-30'
+    discount: 20% Off Sitewide
+    type: null
+  primary_sale:
+    id: cz-weekender-sale-2025-09-26
+    name: Weekender Sale
+    start_date: '2025-09-26'
+    end_date: '2025-09-30'
+    discount: 20% Off Sitewide
+    type: null
+  sale_name: Weekender Sale
+  sale_discount: 20% Off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:44.570411'

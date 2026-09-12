@@ -1,0 +1,35 @@
+id: c7c53ff1-022d-4527-8e10-7f9ac73e6561
+name: P_EM_2025_12_26_HAV_PC_D_Sale_Continues
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: c7c53ff1-022d-4527-8e10-7f9ac73e6561
+dates:
+  send_date: '2025-12-26'
+  first_sent: '2025-12-25T17:24:06+00:00'
+  last_sent: '2025-12-26T18:15:13+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: edd2ffa5-9048-41a0-b8f0-603071b0be36
+  channel: email
+  name: Variant 1
+  subject: Start 2026 in your dream space
+  preheader: Refresh your space with up to 50% off.
+- id: 66950e9f-12fe-4765-8e94-e4a97d91677e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 253668
+  total_delivered: 252604
+  total_opens: 100330
+  total_clicks: 394
+  open_rate: 0.3955
+  click_rate: 0.0016
+  total_bounces: 8
+  total_unsubscribes: 348
+schedule_type: time_based
+_filename: p_em_2025_12_26_hav_pc_d_sale_continues.yaml

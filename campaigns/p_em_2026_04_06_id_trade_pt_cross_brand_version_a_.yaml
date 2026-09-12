@@ -1,0 +1,34 @@
+id: 42738929-c9fa-4d6e-a601-850fbd305550
+name: P_EM_2026_04_06_ID_TRADE_PT_Cross_Brand_Version_A_Control
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 42738929-c9fa-4d6e-a601-850fbd305550
+dates:
+  send_date: '2026-04-06'
+  inferred_send_type: local_time
+  first_sent: '2026-04-05T20:05:20+00:00'
+  last_sent: '2026-04-06T16:06:51+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 55b3f814-374a-4a0b-a0c6-3cad6ee86bdf
+  channel: email
+  name: Variant 1
+  subject: 'Have you explored Interior Define yet? '
+  preheader: As a trade partner, you have exclusive access to our sister brand, Interior
+    Define.
+- id: dddad159-ea81-41cf-8221-92f225bac7e6
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 1310
+  total_delivered: 1292
+  total_opens: 707
+  total_clicks: 24
+  open_rate: 0.5397
+  click_rate: 0.0183
+  total_unsubscribes: 24
+schedule_type: time_based

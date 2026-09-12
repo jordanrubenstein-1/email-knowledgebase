@@ -1,0 +1,59 @@
+id: 0f0c8eb2-82c1-4cb1-8733-bff9cc9b519b
+name: P_2025_06_18_CZ_Trade_Rug_Roundup_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 0f0c8eb2-82c1-4cb1-8733-bff9cc9b519b
+dates:
+  send_date: '2025-06-18'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-18T19:11:22+00:00'
+  last_sent: '2025-06-18T19:12:11+00:00'
+tags: []
+sends:
+- id: 516c5648-1027-4c0d-9b70-9e11c2bbbe6e
+  channel: email
+  name: Variant 1
+  subject: 'The Rug Roundup: New & Noteworthy'
+  preheader: From best-sellers to just in, these are the rugs to know.
+  html_file: html/p_2025_06_18_cz_trade_rug_roundup_email.html
+  screenshot: screenshots/p_2025_06_18_cz_trade_rug_roundup_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6851b0cf57858c0096766f61/original.png?1750184142
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6851b0e02c9f8a00649481eb/original.png?1750184160
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6851b0083d1a4400672d768e/original.gif?1750183943
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6851b049e9d3650067066291/original.png?1750184008
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6851b09fc735d50066d7b5da/original.png?1750184095
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6851b0bbb99dfb0074a9859b/original.png?1750184122
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6831011d5dc83200671fe5d6/original.png?1748042013
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6851b11057858c0067768722/original.png?1750184207
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6851b0f91cbb0b007518e7eb/original.png?1750184185
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6851b029e0c9dc0065354c82/original.png?1750183977
+- id: 07a82b6a-94a3-4834-8ea1-534df5e9db24
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 16705
+  total_delivered: 16364
+  total_opens: 8443
+  total_clicks: 164
+  open_rate: 0.5054
+  click_rate: 0.0098
+  total_revenue: 26629.3
+  total_bounces: 2
+  total_unsubscribes: 40
+  ga4:
+    sessions: 132
+    purchases: 1
+    revenue: 969.32
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.174795'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.928759'
+schedule_type: time_based

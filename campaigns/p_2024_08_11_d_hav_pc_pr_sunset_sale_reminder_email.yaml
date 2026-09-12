@@ -1,0 +1,33 @@
+id: c5adf00b-a81f-4dac-b3f8-1f41cdd0de1d
+name: P_2024_08_11_D_HAV_PC_PR_Sunset_Sale_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: c5adf00b-a81f-4dac-b3f8-1f41cdd0de1d
+dates:
+  send_date: '2024-08-11'
+  first_sent: '2024-08-10T18:54:48+00:00'
+  last_sent: '2024-08-11T13:15:02+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: af47b660-4490-4a9e-953e-95bb6503a6b6
+  channel: email
+  name: Variant 1
+  subject: Catch the last rays of savings
+  preheader: 50% interior design 😎
+- id: 3b554b80-f0fe-41e2-84b9-5cbc28634b7f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 49
+  total_delivered: 49
+  total_opens: 35
+  total_clicks: 7
+  open_rate: 0.7143
+  click_rate: 0.1429
+  total_unsubscribes: 1
+schedule_type: time_based
+_filename: p_2024_08_11_d_hav_pc_pr_sunset_sale_reminder_email.yaml

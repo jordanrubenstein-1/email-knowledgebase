@@ -1,0 +1,37 @@
+id: 7e091a6e-6437-4b35-9292-5de1638937ce
+name: P_EM_2026_04_03_HAV_CONV_D_Washable_Whites_STO_Variant
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 7e091a6e-6437-4b35-9292-5de1638937ce
+dates:
+  send_date: '2026-04-03'
+  last_sent: '2026-04-03'
+tags:
+- BLASTS-2025
+sends:
+- id: fbab8561-5841-43e6-a810-4ea422a4d7a4
+  channel: email
+  name: Variant 1
+  subject: White Rooms, Zero Stress
+  preheader: The products our designers swear by for a bright, clean home.
+  html_file: html/p_em_2026_04_03_hav_conv_d_washable_whites_sto_variant.html
+  screenshot: screenshots/p_em_2026_04_03_hav_conv_d_washable_whites_sto_variant.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69cc2b0ac8c66c0063f0e3bf/original.png?1774988041
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69cc0c53c8d6aa006311ee43/original.png?1774980178
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69cc0c5fb499dc00637e496e/original.png?1774980190
+- id: 75de34ea-03e5-47d5-b0be-c57a8cbb825e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 21706
+  total_delivered: 21697
+  total_opens: 10793
+  total_clicks: 74
+  open_rate: 0.4972
+  click_rate: 0.0034
+  total_unsubscribes: 11
+schedule_type: time_based

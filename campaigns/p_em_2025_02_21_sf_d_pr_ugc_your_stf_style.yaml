@@ -1,0 +1,46 @@
+id: 376edf52-92b6-44a4-81ec-622d75b9288b
+name: P_EM_2025_02_21_SF_D_PR_UGC_Your_STF_Style
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 376edf52-92b6-44a4-81ec-622d75b9288b
+dates:
+  send_date: '2025-02-21'
+  inferred_send_type: local_time
+  first_sent: '2026-02-21T04:09:57+00:00'
+  last_sent: '2026-02-22T04:01:13+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- ugc
+sends:
+- id: 947e1266-39b2-425c-8c5a-b7d0734c995b
+  channel: email
+  name: Variant 1
+  subject: We ❤️ Your Style
+  preheader: your homes. our pieces. serious inspiration.
+  html_file: html/p_em_2025_02_21_sf_d_pr_ugc_your_stf_style.html
+  screenshot: screenshots/p_em_2025_02_21_sf_d_pr_ugc_your_stf_style.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69987a6de3761d0064eed7be/original.png?1771600493
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69987a7844276b0065ca16a0/original.png?1771600504
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69987a5597b6bd006301443f/original.png?1771600468
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69987a31c1b4890063c77b61/original.png?1771600432
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69987a6173151800632db8f3/original.png?1771600480
+- id: c5ae2ad5-376a-4360-8f1b-bb8667c112fe
+  channel: email
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 176
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.949388'
+    source: snowflake
+    channel: email
+schedule_type: time_based

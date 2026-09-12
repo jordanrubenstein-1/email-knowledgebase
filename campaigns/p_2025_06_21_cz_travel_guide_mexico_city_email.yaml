@@ -1,0 +1,54 @@
+id: b380be1e-d9eb-434d-aaca-da9bf0d79b4a
+name: P_2025_06_21_CZ_Travel_Guide_Mexico_City_Email
+brand: CZ
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: b380be1e-d9eb-434d-aaca-da9bf0d79b4a
+dates:
+  send_date: '2025-06-21'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-21T05:33:23+00:00'
+  last_sent: '2025-06-21T17:01:26+00:00'
+tags: []
+sends:
+- id: a22eb47f-b1cc-41f0-a783-48248995362f
+  channel: email
+  name: Variant 1
+  subject: 'Summer Field Guide: Mexico City'
+  preheader: Plus, be first to claim 20% off sitewide.
+  html_file: html/p_2025_06_21_cz_travel_guide_mexico_city_email.html
+  screenshot: screenshots/p_2025_06_21_cz_travel_guide_mexico_city_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6855c7a61d8499006599ddeb/original.png?1750452134
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68558cd64ec51b0067d54d03/original.png?1750437077
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68558d1c56fe2f0066b13049/original.png?1750437148
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68558ce8c593fd006554f4a6/original.png?1750437095
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68558d0c7d77ba00652e312f/original.gif?1750437132
+- id: 4a7a591f-782c-4411-901c-3e7b4f00bc33
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 101253
+  total_delivered: 100775
+  total_opens: 52789
+  total_clicks: 964
+  open_rate: 0.5214
+  click_rate: 0.0095
+  total_revenue: 77253.66
+  total_bounces: 5
+  total_unsubscribes: 126
+  ga4:
+    sessions: 1145
+    purchases: 5
+    revenue: 1482.96
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.350659'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:29.949817'
+schedule_type: time_based

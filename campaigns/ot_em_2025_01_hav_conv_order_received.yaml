@@ -1,0 +1,30 @@
+id: 8feefdf2-7c9d-c796-6bfe-0131646ce4e6
+name: OT_EM_2025_01_HAV_CONV_Order_Received
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 8feefdf2-7c9d-c796-6bfe-0131646ce4e6
+dates:
+  first_sent: '2025-01-08T19:00:00+00:00'
+  last_sent: '2026-06-09T18:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: 5075bc72-20c6-41ba-a9e9-60f2b0fbf73f
+  channel: email
+  name: Variant 1
+  subject: 'Thanks for your order! - Order #{{api_trigger_properties.${order_number}}}'
+- id: bc11c045-9a0d-46c0-b6e2-876a0f44554f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 448
+  total_delivered: 448
+  total_opens: 518
+  total_clicks: 95
+  open_rate: 1.1562
+  click_rate: 0.2121
+schedule_type: api_triggered
+_filename: ot_em_2025_01_hav_conv_order_received.yaml

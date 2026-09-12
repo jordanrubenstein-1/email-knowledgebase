@@ -1,0 +1,58 @@
+id: cae167cc-1424-4e43-9573-fd12f834cd74
+name: P_2024_08_18_D_CZ_PF_MTO_Furniture_Feature_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: cae167cc-1424-4e43-9573-fd12f834cd74
+dates:
+  send_date: '2024-08-18'
+  inferred_send_type: local_time
+  first_sent: '2024-08-17T18:05:00+00:00'
+  last_sent: '2024-08-18T17:05:02+00:00'
+tags:
+- batch and blast
+sends:
+- id: 59c444b9-9d7d-4ee2-840d-47582c7ef0b8
+  channel: email
+  name: Variant 1
+  subject: Crafted By Hand. Made For You.
+  preheader: Heritage craftsmanship infused with modern design.
+  html_file: html/p_2024_08_18_d_cz_pf_mto_furniture_feature_email.html
+  screenshot: screenshots/p_2024_08_18_d_cz_pf_mto_furniture_feature_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66bf7866bcf1030064400432/original.jpg?1723824230
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66bf7720aabed10073223187/original.jpg?1723823903
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66bf7747aabed1006522408f/original.jpg?1723823942
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66bf7881caed1b0064277721/original.jpg?1723824257
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66bf78be1c03330064a9f9a8/original.gif?1723824318
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66bf7711aabed10065223f7b/original.jpg?1723823889
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66bf7873aabed10091222b96/original.jpg?1723824242
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66bf7738bcf103006440018d/original.gif?1723823928
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66bf788daabed100652243e9/original.jpg?1723824268
+- id: 38384632-877e-408e-9f8c-390c4516c45c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 38073
+  total_delivered: 38030
+  total_opens: 23986
+  total_clicks: 724
+  open_rate: 0.63
+  click_rate: 0.019
+  total_revenue: 42889.21
+  total_unsubscribes: 80
+  ga4:
+    sessions: 538
+    purchases: 2
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.712963'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.193414'
+schedule_type: time_based

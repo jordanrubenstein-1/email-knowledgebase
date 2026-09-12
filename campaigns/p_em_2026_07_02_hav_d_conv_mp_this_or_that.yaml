@@ -1,0 +1,33 @@
+id: 15430720-b0e6-40ff-a279-b1413e9e6940
+name: P_EM_2026_07_02_HAV_D_CONV_MP_This_Or_That
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 15430720-b0e6-40ff-a279-b1413e9e6940
+dates:
+  send_date: '2026-07-02'
+  last_sent: '2026-07-02'
+tags:
+- BLASTS-2025
+sends:
+- id: ec7bc15b-0520-401c-91ce-7c94373dd7d2
+  channel: email
+  name: Variant 1
+  subject: This or that?
+  preheader: 'Hint: they both save right now during the Fourth of July Sale.'
+- id: 8ab873ac-0067-47f9-8b07-ece6399f1d27
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 42078
+  total_delivered: 42023
+  total_opens: 20204
+  total_clicks: 93
+  open_rate: 0.4802
+  click_rate: 0.0022
+  total_bounces: 3
+  total_unsubscribes: 63
+schedule_type: time_based
+_filename: p_em_2026_07_02_hav_d_conv_mp_this_or_that.yaml

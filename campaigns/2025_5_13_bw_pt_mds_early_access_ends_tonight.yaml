@@ -1,0 +1,65 @@
+id: d1b62b63-d9a9-4949-965a-b27a7f247eb2
+name: 2025_5_13_BW_PT_MDS_Early_Access_Ends_Tonight
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: d1b62b63-d9a9-4949-965a-b27a7f247eb2
+dates:
+  send_date: '2025-05-13'
+  last_sent: '2025-05-13'
+tags:
+- Batch&Blast
+sends:
+- id: 6f4f1c6f-2961-458f-9586-79e7d43521ee
+  channel: email
+  name: Variant 1
+  subject: Early access is ending soon...
+- id: 9732b9e8-a55d-452e-aa32-5d3888315124
+  channel: other
+  name: Control Group
+performance_summary: {}
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-burrow-2025-05-09
+    name: Burrow
+    start_date: '2025-05-09'
+    end_date: '2025-05-13'
+    discount: 'The Memorial Day Event
+
+      25% off sitewide, plus FREE GROUND SHIPPING on orders >$2k
+
+      Early Access: No code; EA messaging and strikethrough live on-site from 5/9'
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-burrow-2025-05-09
+    name: Burrow
+    start_date: '2025-05-09'
+    end_date: '2025-05-13'
+    discount: 'The Memorial Day Event
+
+      25% off sitewide, plus FREE GROUND SHIPPING on orders >$2k
+
+      Early Access: No code; EA messaging and strikethrough live on-site from 5/9'
+    type: null
+  sale_name: Burrow
+  sale_discount: 'The Memorial Day Event
+
+    25% off sitewide, plus FREE GROUND SHIPPING on orders >$2k
+
+    Early Access: No code; EA messaging and strikethrough live on-site from 5/9'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:35.489134'
+schedule_type: time_based

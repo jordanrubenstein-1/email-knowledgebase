@@ -1,0 +1,35 @@
+id: 90fe6849-903d-44ce-82dd-6577683896bd
+name: P_EM_2026_04_09_HAV_CONV_D_April_Reset_Early_Access
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 90fe6849-903d-44ce-82dd-6577683896bd
+dates:
+  send_date: '2026-04-09'
+  last_sent: '2026-04-09'
+tags:
+- BLASTS-2025
+sends:
+- id: ab01e4d9-885b-4779-beb7-e01978b91232
+  channel: email
+  name: Variant 1
+  subject: The April Reset Sale starts early for you
+  preheader: 'Up to 15% off when you buy more. '
+  html_file: html/p_em_2026_04_09_hav_conv_d_april_reset_early_access.html
+  screenshot: screenshots/p_em_2026_04_09_hav_conv_d_april_reset_early_access.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69cbb4b3c0752400643c5575/original.png?1774957747
+- id: 65e521c5-a8bc-4353-847e-f5ff7f2c0a50
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41205
+  total_delivered: 41146
+  total_opens: 19843
+  total_clicks: 61
+  open_rate: 0.4816
+  click_rate: 0.0015
+  total_unsubscribes: 39
+schedule_type: time_based

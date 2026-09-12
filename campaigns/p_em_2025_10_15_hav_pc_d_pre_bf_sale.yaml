@@ -1,0 +1,35 @@
+id: 06888819-8211-488f-8201-a100dbb514d6
+name: P_EM_2025_10_15_HAV_PC_D_PRE_BF_SALE
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 06888819-8211-488f-8201-a100dbb514d6
+dates:
+  send_date: '2025-10-15'
+  first_sent: '2025-10-15T01:20:44+00:00'
+  last_sent: '2025-10-16T02:15:01+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 49fccedd-d9ba-4eda-9b62-a6af7c1078d7
+  channel: email
+  name: Variant 1
+  subject: Make Over Your Room For ONLY $89
+  preheader: It doesn’t get any better than this.
+- id: 5586a47d-3084-448d-addd-e96e5cef7280
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 241682
+  total_delivered: 240057
+  total_opens: 98079
+  total_clicks: 640
+  open_rate: 0.4058
+  click_rate: 0.0026
+  total_bounces: 10
+  total_unsubscribes: 343
+schedule_type: time_based
+_filename: p_em_2025_10_15_hav_pc_d_pre_bf_sale.yaml

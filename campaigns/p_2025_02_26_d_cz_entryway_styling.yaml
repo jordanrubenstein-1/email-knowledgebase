@@ -1,0 +1,55 @@
+id: 2ecf0165-3d4f-4725-9a4b-ff9464d6c139
+name: P_2025_02_26_D_CZ_Entryway_Styling
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 2ecf0165-3d4f-4725-9a4b-ff9464d6c139
+dates:
+  send_date: '2025-02-26'
+  inferred_send_type: local_time
+  first_sent: '2025-02-26T00:21:16+00:00'
+  last_sent: '2025-02-26T17:02:08+00:00'
+tags: []
+sends:
+- id: 70eae3c3-4501-402f-9021-9c79c2355eb2
+  channel: email
+  name: Variant 1
+  subject: Make An Entrance
+  preheader: How to curate a warm, welcoming entryway.
+  html_file: html/p_2025_02_26_d_cz_entryway_styling.html
+  screenshot: screenshots/p_2025_02_26_d_cz_entryway_styling.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67bcd01a4c497a0064f46edb/original.png?1740427290
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67bcd0127361bc00648a0b91/original.png?1740427281
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67bcd02b5ed85400730672a1/original.png?1740427306
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67bccf6d5378df0067703522/original.png?1740427117
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67bccff05d3bd400643c77dc/original.png?1740427247
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67bccfdee012570075f0e96b/original.png?1740427229
+- id: 0e7641e7-8978-45b9-a60a-0952a62dbf30
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 92873
+  total_delivered: 91340
+  total_opens: 48096
+  total_clicks: 709
+  open_rate: 0.5179
+  click_rate: 0.0076
+  total_revenue: 36952.91
+  total_bounces: 794
+  total_unsubscribes: 132
+  ga4:
+    sessions: 933
+    purchases: 2
+    revenue: 1765.45
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.068410'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.528293'
+schedule_type: time_based

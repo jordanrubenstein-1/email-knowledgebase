@@ -1,0 +1,42 @@
+id: d9fd4c93-b597-408e-bc7f-77eaf09a1e67
+name: P_EM_2026_01_04_BW_PT_ End_of_Year_Sale_Ext_Last_Chance
+brand: BUR
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: d9fd4c93-b597-408e-bc7f-77eaf09a1e67
+dates:
+  send_date: '2026-01-04'
+  inferred_send_type: local_time
+  first_sent: '2026-01-04T02:08:32+00:00'
+  last_sent: '2026-01-05T02:02:54+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: cf569b97-f24b-434d-93bc-ffdbdafa7738
+  channel: email
+  name: Variant 1
+  subject: Last chance! The End of Year Sale ends tonight
+- id: ac23515f-84ec-4797-991a-f2011fca471a
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 118184
+  total_delivered: 117937
+  total_opens: 55310
+  total_clicks: 740
+  open_rate: 0.468
+  click_rate: 0.0063
+  total_revenue: 115543.0
+  total_bounces: 2
+  total_unsubscribes: 323
+  ga4:
+    sessions: 464
+    purchases: 4
+    revenue: 2649.44
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.533060'
+    source: snowflake
+    channel: email
+schedule_type: time_based

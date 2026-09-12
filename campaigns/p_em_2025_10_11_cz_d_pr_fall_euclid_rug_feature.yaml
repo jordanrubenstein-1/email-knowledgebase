@@ -1,0 +1,79 @@
+id: 7f1b576e-8552-4022-b596-4144d673301d
+name: P_EM_2025_10_11_CZ_D_PR_Fall_Euclid_Rug_Feature
+brand: CZ
+channel: email
+category: other
+type: seasonal
+theme: fall
+braze_id: 7f1b576e-8552-4022-b596-4144d673301d
+dates:
+  send_date: '2025-10-11'
+  inferred_send_type: scheduled
+  first_sent: '2025-10-11T04:35:48+00:00'
+  last_sent: '2025-10-11T17:15:23+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- prod
+- rugs
+- sale
+sends:
+- id: de683c08-0e0f-4b77-b19b-e55e6497975b
+  channel: email
+  name: Variant 1
+  subject: 'New This Season: The Euclid Rug'
+  preheader: An icon in modern plaid—now 20% off.
+  html_file: html/p_em_2025_10_11_cz_d_pr_fall_euclid_rug_feature.html
+  screenshot: screenshots/p_em_2025_10_11_cz_d_pr_fall_euclid_rug_feature.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e82520e4deb5006553dda0/original.png?1760044320
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e8255a4f89db0073460093/original.png?1760044378
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e825534f89db008345fef6/original.png?1760044371
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e825627c9e960063bcdb20/original.png?1760044385
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e8254b4f89db006346059b/original.png?1760044363
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e825720a07150064dae359/original.png?1760044401
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e82569e4deb5006553e032/original.png?1760044393
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e82526b17cf5006592c293/original.gif?1760044326
+- id: 31fecbca-3a45-4bfa-8d86-60c775046e75
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 111291
+  total_delivered: 110991
+  total_opens: 60286
+  total_clicks: 724
+  open_rate: 0.5417
+  click_rate: 0.0065
+  total_bounces: 5
+  total_unsubscribes: 133
+  ga4:
+    sessions: 803
+    purchases: 3
+    revenue: 1872.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.494782'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-anniversary-sale-2025-10-09
+    name: The Anniversary Sale
+    start_date: '2025-10-09'
+    end_date: '2025-10-22'
+    discount: 20% Off Sitewide
+    type: null
+  primary_sale:
+    id: cz-the-anniversary-sale-2025-10-09
+    name: The Anniversary Sale
+    start_date: '2025-10-09'
+    end_date: '2025-10-22'
+    discount: 20% Off Sitewide
+    type: null
+  sale_name: The Anniversary Sale
+  sale_discount: 20% Off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:31.448270'
+schedule_type: time_based

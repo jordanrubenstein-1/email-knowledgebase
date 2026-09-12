@@ -1,0 +1,155 @@
+---
+description: Braze campaign naming convention — enforced whenever creating or naming campaigns in Braze
+globs:
+alwaysApply: true
+---
+
+# Campaign Naming Convention
+
+When creating campaigns in Braze (via MCP tools, automation scripts, or any other method), **always** follow this naming convention. Campaign names in Asana tasks should also follow this convention.
+
+## Pattern
+
+```
+[TYPE]_[CHANNEL]_[YYYY]_[MM]_[DD]_[BRAND]_[DESIGN]_[HAV_AUDIENCE?]_[CONTENT_TYPE?]_Description[_SUFFIX?]
+```
+
+All components use **underscores** as separators. Description words use **Title_Case**.
+
+## Component Reference
+
+### Campaign Type (required)
+| Input | Code |
+|-------|------|
+| Promotional | P |
+| Transactional | OT |
+| CX | CX |
+| Waitlist | WTL |
+| Segmented | SEG |
+
+### Channel (required)
+| Input | Code |
+|-------|------|
+| Email | EM |
+| SMS | SMS |
+| Push | PUSH |
+
+### Date (required)
+Format: `YYYY_MM_DD` (e.g. `2026_02_10`)
+
+### Brand (required)
+| Brand | Code |
+|-------|------|
+| The Citizenry | CZ |
+| St Frank | SF |
+| Interior Define | ID |
+| Havenly | HAV |
+| The Inside | TI |
+| Burrow | BW |
+| Trade | TRADE |
+| Cross-brand | ALL or TRADE_ALL or ALL_TRADE |
+
+### Design Type (required for email, omit for SMS)
+| Input | Code |
+|-------|------|
+| Designed | D |
+| HTML | H |
+| Plain-Text | PT |
+
+### Havenly Audience (HAV only, required for HAV email campaigns)
+| Input | Code |
+|-------|------|
+| Pre-Converted | PC |
+| Converted | CONV |
+
+### Content Type (optional)
+| Input | Code |
+|-------|------|
+| Back in Stock | BIS |
+| Color Story | CLR |
+| Coming Soon | CS |
+| Get the Look | GTL |
+| Product Feature | PF |
+| Ready to Ship | RTS |
+| User Generated Content | UGC |
+| At Risk | At_Risk |
+| Cart Abandon | Cart_Abandon |
+| Category Browse Abandon | Category_Browse |
+| Delivery Confirmation | Delivery_Confirmation |
+| Order Confirmation | Order_Confirmation |
+| Out for Delivery | Out_for_Delivery |
+| Post Purchase | Post_Purchase |
+| Price Drop | Price_Drop |
+| Product Browse Abandon | Product_Browse |
+| Shipping Confirmation | Shipping_Confirmation |
+| Waitlist | Waitlist |
+
+### Description (required)
+Free-form campaign description in Title_Case with underscores. E.g. `Winter_Sale_Reminder`, `Quick_Ship_Email`.
+
+### Suffix (optional)
+Common suffixes: `_PM`, `_AM`, `_EA` (Early Access), `_Retail`, `_Updated`, `_Resend`
+
+## Examples by Brand
+
+```
+# Havenly — always include audience (PC or CONV)
+P_EM_2026_02_10_HAV_D_PC_PF_Summer_Sale_Reminder
+P_EM_2026_02_10_HAV_PT_CONV_Sale_Reminder
+P_EM_2026_02_10_HAV_D_PC_GTL_Living_Room_Edit
+
+# The Citizenry
+P_EM_2026_01_29_CZ_D_Winter_Retreat_Sale_Last_Chance
+P_EM_2026_01_23_CZ_D_Bath_Categories_PM
+
+# Interior Define
+P_EM_2026_01_29_ID_D_PF_Quick_Ship_Email
+P_EM_2026_01_27_ID_PT_Winter_Retreat_Sale_Final_Hours
+
+# Burrow
+P_EM_2026_01_29_BW_D_City_Sized_Solutions
+P_EM_2026_01_26_BW_PT_Stay_Warm_Shopping_PM
+
+# Trade (cross-brand)
+P_EM_2026_01_29_ALL_TRADE_PT_Appreciation_Week_Teaser
+P_EM_2026_01_23_TRADE_ALL_D_Winter_Refresh_Sale_Reminder
+
+# SMS (no design type needed)
+P_SMS_2026_01_29_CZ_Winter_Retreat_Last_Chance
+P_SMS_2026_01_27_BW_Sale_Final_Hours
+
+# Transactional
+OT_EM_2026_02_01_ID_D_Order_Confirmation
+```
+
+## Important Notes
+
+- **PR is deprecated** — Do not include PR (Promo) in campaign names. Sale context is tracked via `data/sale_schedules.yaml` and the `sale_matcher` utility instead.
+- **BW not BUR** — Burrow's Braze code is `BW`, not `BUR`. The YAML `brand` field uses `BUR` but the campaign name uses `BW`.
+- **HAV audience is required** — Every Havenly email campaign must include PC or CONV after the design type.
+- **SMS omits design type** — SMS campaigns go directly from brand to description.
+
+## Utility Module
+
+Use `scripts/utils/campaign_name.py` for programmatic name generation/validation:
+
+```python
+from scripts.utils.campaign_name import generate_campaign_name, validate_campaign_name
+
+# Generate
+name = generate_campaign_name(
+    campaign_type="P",
+    channel="EM",
+    send_date="2026-02-10",
+    brand="CZ",
+    design_type="D",
+    description="Winter Sale Launch",
+)
+# → "P_EM_2026_02_10_CZ_D_Winter_Sale_Launch"
+
+# Validate
+is_valid, issues = validate_campaign_name(name)
+```
+
+## Reference
+[Braze Campaign Name Conventions (Google Sheet)](https://docs.google.com/spreadsheets/d/10GQdM8YUfQQuCOvgk7fvzHvyswdrxM5e6j0Qii8g4Lk)

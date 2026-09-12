@@ -1,0 +1,62 @@
+id: c768d180-c452-4210-b639-9e62f905037f
+name: P_2024_12_27_PT_CZ_PP_Order_Update_Delay_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: c768d180-c452-4210-b639-9e62f905037f
+dates:
+  send_date: '2024-12-27'
+  inferred_send_type: scheduled
+  first_sent: '2024-12-27T17:57:15+00:00'
+  last_sent: '2024-12-27T17:57:18+00:00'
+tags: []
+sends:
+- id: c0e223d9-2271-4840-b465-b178ccb45abc
+  channel: email
+  name: Variant 1
+  subject: 'Order Update: New Shipping Window'
+  html_file: html/p_2024_12_27_pt_cz_pp_order_update_delay_email.html
+  screenshot: screenshots/p_2024_12_27_pt_cz_pp_order_update_delay_email.png
+- id: 9a571997-1a14-4e1b-835f-45acb962e182
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 229
+  total_delivered: 228
+  total_opens: 227
+  total_clicks: 2
+  open_rate: 0.9913
+  click_rate: 0.0087
+  total_revenue: 397.0
+  total_unsubscribes: 1
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.643507'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-23'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: cz_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-23'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:33.481780'
+schedule_type: time_based

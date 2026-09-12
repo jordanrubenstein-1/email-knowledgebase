@@ -1,0 +1,75 @@
+id: klaviyo-01JD5543B9XSFDJV257ZDFWYBC
+name: '11/22: BFCM New Arrivals Roundup'
+brand: TI
+channel: email
+category: sale_promo
+type: product_launch
+theme: black_friday
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2024-11-20'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-22T07:00:00+00:00'
+  last_sent: '2024-11-22T07:00:00+00:00'
+sends:
+- id: 01JD5543C21DHMSNT3CMYZREFA
+  channel: email
+  name: '11/22: BFCM New Arrivals Roundup'
+  subject: New In. Sale On.
+  preheader: Shop 25% off our newest arrivals.
+  html_file: html/1122-bfcm-new-arrivals-roundup.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/c5349ce2-993d-4912-81a1-def6a6e7cfcf.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/cb797afd-cba5-4b2a-bbc7-c97aac729d62.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/676fac4f-0a74-42d1-b28d-50ac01ceb2e7.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/00d7fe89-6c85-476c-8a8a-48fb8e10e447.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/8a43ead9-77b9-41a6-9515-cd55d0a4d2c7.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/91b3c069-38d1-4578-9309-82b739dc4bc4.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/811cc7f1-cf8a-4270-9c47-8b89fb762cca.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/48f8b0bf-f674-4de6-83a6-f00ae0bfb57e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/32deb22b-9cf7-45ef-bf5b-a7ebe6dfa066.gif
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/40f081e7-7d95-44cb-8743-8a150f5083b0.jpeg
+  screenshot: screenshots/1122-bfcm-new-arrivals-roundup.png
+performance_summary:
+  total_sends: 103899
+  total_delivered: 103251
+  total_opens: 31369
+  total_clicks: 620
+  unique_opens: 22059
+  unique_clicks: 237
+  open_rate: 0.2123
+  click_rate: 0.0023
+  total_open_rate: 0.3019
+  total_click_rate: 0.006
+  total_unsubscribes: 45
+  total_bounces: 648
+klaviyo_type: campaign
+klaviyo_campaign_id: 01JD5543B9XSFDJV257ZDFWYBC
+klaviyo_message_id: 01JD5543C21DHMSNT3CMYZREFA
+structure:
+  image_count: 33
+  link_count: 34
+  has_gif: true
+  hero_width: 600
+  layout_type: product_grid
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: ti-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: ti-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-03-12T11:18:49.720406'

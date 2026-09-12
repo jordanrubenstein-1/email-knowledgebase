@@ -1,0 +1,41 @@
+id: 7fb8b463-c9dd-4b98-92d4-0f3b3ed1182c
+name: P_2024_08_03_SF_D_BSL_Summer_Best_Sellers_Email
+brand: STF
+channel: email
+category: other
+type: seasonal
+theme: summer
+braze_id: 7fb8b463-c9dd-4b98-92d4-0f3b3ed1182c
+dates:
+  send_date: '2024-08-03'
+  last_sent: '2024-08-03'
+tags:
+- Batch and Blast/non-promo
+sends:
+- id: f288107b-36ef-42ac-8fb9-98a86a3b0623
+  channel: email
+  name: Variant 1
+  subject: HOT Picks ❤️‍🔥
+  preheader: browse our summer best sellers
+  html_file: html/p_2024_08_03_sf_d_bsl_summer_best_sellers_email.html
+  screenshot: screenshots/p_2024_08_03_sf_d_bsl_summer_best_sellers_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66acd999a4d376006b05ec9c/original.gif?1722603929
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0058f1ba77/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66acd999e9440a006bfd1478/original.jpg?1722603929
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66acd999e9440a005cfd1889/original.gif?1722603929
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0063f11fb6/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6681bde9255ebf0070d6be26/original.jpeg?1719778792
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66acd999a4d376005c05f3c4/original.gif?1722603929
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66acde12e9440a005cfd1c59/original.gif?1722605074
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66882808c84d43005953de9b/original.jpg?1720199176
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66acd999610f510069b52f4e/original.gif?1722603929
+- id: 29401d46-3560-4274-bccf-fb21e96a0561
+  channel: other
+  name: Control Group
+performance_summary: {}
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:35.242096'
+schedule_type: time_based

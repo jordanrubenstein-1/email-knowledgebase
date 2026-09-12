@@ -1,0 +1,29 @@
+id: 21516cae-9256-4bad-b3a7-2ec599007158
+name: Send HIP NPS Survey
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 21516cae-9256-4bad-b3a7-2ec599007158
+dates:
+  first_sent: '2025-05-22T23:00:00+00:00'
+  last_sent: '2026-06-08T19:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: 0c87ce1b-9d8e-494f-ab60-913347b73b4d
+  channel: other
+  name: Variant 1
+- id: f61d7d42-24a1-47c4-8ddb-c5b29471cb89
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 37
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+schedule_type: action_based
+_filename: send-hip-nps-survey.yaml

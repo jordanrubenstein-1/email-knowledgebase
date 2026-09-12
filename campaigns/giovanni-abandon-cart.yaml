@@ -1,0 +1,51 @@
+id: klaviyo-LQsjAM
+name: Giovanni - Abandon Cart
+brand: TI
+channel: email
+category: other
+type: lifecycle
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2018-11-03'
+  inferred_send_type: scheduled
+  first_sent: '2018-11-03T14:50:19+00:00'
+  last_sent: '2018-11-03T14:50:19+00:00'
+sends:
+- id: 01GF83TEK8BZYWE45J33X16W12
+  channel: email
+  name: Giovanni - Abandon Cart
+  subject: The Inside wants to hear from you
+  preheader: ''
+  html_file: html/giovanni-abandon-cart.html
+  image_urls: []
+  screenshot: screenshots/giovanni-abandon-cart.png
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_unsubscribes: 0
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T14:56:52.556736'
+    source: snowflake
+    channel: email
+klaviyo_type: campaign
+klaviyo_campaign_id: LQsjAM
+klaviyo_message_id: 01GF83TEK8BZYWE45J33X16W12
+structure:
+  image_count: 0
+  link_count: 1
+  has_gif: false
+  hero_width: null
+  layout_type: text_only
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-03-12T11:18:48.194823'

@@ -1,0 +1,48 @@
+id: 131c67cc-f2fe-481f-ab51-7c92a2005222
+name: P_2025_04_28_HAV_Conv_Wayfair_Extra5_Reminder_AM_PT
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 131c67cc-f2fe-481f-ab51-7c92a2005222
+dates:
+  send_date: '2025-04-28'
+  inferred_send_type: local_time
+  first_sent: '2025-04-27T18:21:06+00:00'
+  last_sent: '2025-04-28T17:15:10+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 82c2a73e-579e-4d15-bab8-d3615ecce872
+  channel: email
+  name: Variant 1
+  subject: Your Way Day reminder
+  html_file: html/p_2025_04_28_hav_conv_wayfair_extra5_reminder_am_pt.html
+  screenshot: screenshots/p_2025_04_28_hav_conv_wayfair_extra5_reminder_am_pt.png
+  image_urls:
+  - https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/c731630f24214e43807c7369ca8ebacd/Havenly_Wordmark_RGB_Charcoal_Brown%20%281%29.png
+- id: 61d2abd7-cf14-4989-902f-95fcf1fe3793
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 3179
+  total_delivered: 3176
+  total_opens: 1993
+  total_clicks: 49
+  open_rate: 0.6269
+  click_rate: 0.0154
+  total_unsubscribes: 8
+  ga4:
+    sessions: 54
+    purchases: 1
+    revenue: 2898.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.604750'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.025611'
+schedule_type: time_based

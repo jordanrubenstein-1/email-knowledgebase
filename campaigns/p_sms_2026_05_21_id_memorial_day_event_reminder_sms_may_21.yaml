@@ -1,0 +1,29 @@
+id: 57947dc9-0ac7-4086-85a3-bc543f5ec76c
+name: P_SMS_2026_05_21_ID_Memorial_Day_Event_Reminder_SMS_May_21
+brand: ID
+channel: sms
+category: reminder
+type: announcement
+theme: null
+braze_id: 57947dc9-0ac7-4086-85a3-bc543f5ec76c
+dates:
+  send_date: '2026-05-21'
+  last_sent: '2026-05-21'
+tags: []
+sends:
+- id: c7e3d8cc-0c15-40f2-8a07-7bd5441b1d07
+  channel: sms
+  name: Variant 1
+- id: 9398df21-c333-4d6d-897c-4f183fa83752
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 50720
+  total_delivered: 47505
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 77626.99
+_filename: p_sms_2026_05_21_id_memorial_day_event_reminder_sms_may_21.yaml
+schedule_type: time_based

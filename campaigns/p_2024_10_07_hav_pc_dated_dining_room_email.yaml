@@ -1,0 +1,34 @@
+id: b074bdc3-97fb-46ee-b4d3-7681a33e1356
+name: P_2024_10_07_HAV_PC_Dated_Dining_Room_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: b074bdc3-97fb-46ee-b4d3-7681a33e1356
+dates:
+  send_date: '2024-10-07'
+  first_sent: '2024-10-07T15:14:53+00:00'
+  last_sent: '2024-10-07T15:15:42+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 85187acb-576a-4926-be2c-a938565eed52
+  channel: email
+  name: Variant 1
+  subject: '"Basic" dining room looks we''re passing on'
+  preheader: Next.
+- id: ea4062d5-8fd0-421e-9c17-e1348d01b389
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 146830
+  total_delivered: 145245
+  total_opens: 70908
+  total_clicks: 1193
+  open_rate: 0.4829
+  click_rate: 0.0081
+  total_bounces: 3
+  total_unsubscribes: 358
+schedule_type: time_based
+_filename: p_2024_10_07_hav_pc_dated_dining_room_email.yaml

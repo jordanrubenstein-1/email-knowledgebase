@@ -1,0 +1,53 @@
+id: 354fd447-3a99-41ab-9ef1-2fdbaab140e0
+name: P_EM_2026_03_23_CZ_D_PR_Back_In_Stock_Spring_Event
+brand: CZ
+channel: email
+category: sale_promo
+type: seasonal
+theme: spring
+braze_id: 354fd447-3a99-41ab-9ef1-2fdbaab140e0
+dates:
+  send_date: '2026-03-23'
+  inferred_send_type: local_time
+  first_sent: '2026-03-22T17:05:07+00:00'
+  last_sent: '2026-03-23T17:02:21+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- instock
+- sale
+- sale/spring2026
+sends:
+- id: 00ac09ae-1f23-42b5-86a8-feb7414989a8
+  channel: email
+  name: Variant 1
+  subject: Back by Popular Demand, and 25% Off
+  preheader: Get them before they’re gone... again.
+  html_file: html/p_em_2026_03_23_cz_d_pr_back_in_stock_spring_event.html
+  screenshot: screenshots/p_em_2026_03_23_cz_d_pr_back_in_stock_spring_event.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69baa84c383d69006424743e/original.png?1773840459
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69baa82b42d479006327a3fc/original.png?1773840427
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69baa8367abb0c0063578b61/original.png?1773840438
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69baa8268b22b800633b3815/original.png?1773840421
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69baa83d8999040064e24236/original.png?1773840444
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69baa82178c83f00734327f5/original.png?1773840417
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69baa81bf6ad8a007055ac6b/original.png?1773840411
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69baa8041befd20064024978/original.png?1773840386
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69baa85122528900633a95b8/original.png?1773840464
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69baa7f9f6ad8a006355b526/original.png?1773840377
+- id: 09464bf7-5769-4932-93aa-c35000e3129d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 55139
+  total_delivered: 55072
+  total_opens: 26339
+  total_clicks: 997
+  open_rate: 0.4777
+  click_rate: 0.0181
+  total_bounces: 1
+  total_unsubscribes: 86
+schedule_type: time_based

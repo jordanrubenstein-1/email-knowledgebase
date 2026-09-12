@@ -1,0 +1,13 @@
+<html>
+<head></head>
+<body style="font-family: Arial, sans-serif; font-size: 16px; color: #333; max-width: 600px; margin: 0 auto; padding: 20px;">
+<p>Hi {{${first_name} | default: 'there'}},</p>
+<p>This is a test email to verify the audience exclusion filter is working correctly. Please do not send.</p>
+<p>The campaign should exclude users in the "Memorial Day Canvas Test Group" segment.</p>
+<p>Burrow</p>
+<br>
+<p style="font-size: 12px; color: #999;">
+  <a href="{{${set_user_to_unsubscribed_url}}}" style="color: #999;">Unsubscribe</a>
+</p>
+</body>
+</html>

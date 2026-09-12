@@ -1,0 +1,47 @@
+id: ca365025-9017-4754-b237-e44ddb7683cf
+name: SEG_2025_03_17_D_HAV_CONV_Cart_Abandon_Birthday_Sale
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: ca365025-9017-4754-b237-e44ddb7683cf
+dates:
+  send_date: '2025-03-17'
+  inferred_send_type: local_time
+  first_sent: '2025-03-17T04:35:31+00:00'
+  last_sent: '2025-03-18T04:30:05+00:00'
+tags: []
+sends:
+- id: 056ee47f-60fb-4e10-b571-ceec47361c5f
+  channel: email
+  name: Variant 1
+  subject: Your Cart is on Sale — But Not for Long!
+  html_file: html/seg_2025_03_17_d_hav_conv_cart_abandon_birthday_sale.html
+  screenshot: screenshots/seg_2025_03_17_d_hav_conv_cart_abandon_birthday_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d48e2d2793290064f48651/original.png?1741983277
+- id: e71e18ae-44c4-4c6c-bc5c-05585a02d19b
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1768
+  total_delivered: 1749
+  total_opens: 980
+  total_clicks: 94
+  open_rate: 0.5543
+  click_rate: 0.0532
+  total_unsubscribes: 3
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.308139'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.243992'
+schedule_type: time_based

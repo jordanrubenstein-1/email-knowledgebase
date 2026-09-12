@@ -1,0 +1,33 @@
+id: a20937e2-acef-4134-ab94-20a609db594b
+name: P_EM_2026_09_06_SF_D_Labor_Day_Event_Last_Chance
+brand: STF
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: a20937e2-acef-4134-ab94-20a609db594b
+dates:
+  send_date: '2026-09-06'
+  last_sent: '2026-09-06'
+tags: []
+sends:
+- id: 504cbc30-529f-4ff4-87a0-0da3a9e28fc4
+  channel: email
+  name: Variant 1
+  subject: 'Last chance: 20% off sitewide'
+  preheader: The Labor Day Event ends soon.
+- id: ebc935b6-2e36-4313-ae71-881a4cc70d1d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 36569
+  total_delivered: 36292
+  total_opens: 8780
+  total_clicks: 92
+  open_rate: 0.2401
+  click_rate: 0.0025
+  total_revenue: 366.0
+  total_bounces: 5
+  total_unsubscribes: 27
+schedule_type: time_based
+_filename: p_em_2026_09_06_sf_d_labor_day_event_last_chance.yaml

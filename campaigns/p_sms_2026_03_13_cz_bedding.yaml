@@ -1,0 +1,29 @@
+id: a7c0504b-baa3-42a2-9dac-ced4615669fb
+name: P_SMS_2026_03_13_CZ_Bedding
+brand: CZ
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: a7c0504b-baa3-42a2-9dac-ced4615669fb
+dates:
+  send_date: '2026-03-13'
+  inferred_send_type: local_time
+  first_sent: '2026-03-12T23:08:51+00:00'
+  last_sent: '2026-03-13T23:03:08+00:00'
+tags: []
+sends:
+- id: bc7b7e5b-0e72-4b5b-8aee-0b7ba86bc054
+  channel: sms
+  name: Variant 1
+- id: f03ae75b-e4a5-41fc-8f4b-5d3d64f836cb
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 16854
+  total_delivered: 14497
+  total_opens: 0
+  total_clicks: 173
+  open_rate: 0.0
+  click_rate: 0.0103
+schedule_type: time_based

@@ -1,0 +1,36 @@
+id: cfa324d3-9ed4-4167-b0a1-ae04c2a419a5
+name: P_EM_2026_05_11_ID_PC_D_May_Catalog_Drop
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: cfa324d3-9ed4-4167-b0a1-ae04c2a419a5
+dates:
+  send_date: '2026-05-11'
+  inferred_send_type: scheduled
+  first_sent: '2026-05-10T18:06:34+00:00'
+  last_sent: '2026-05-11'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 8a9e735a-8d2f-48d3-aeb1-43d875ff6f57
+  channel: email
+  name: Variant 1
+  subject: The new catalog has arrived
+  preheader: Plus, enjoy 30% off with early access to our Memorial Day Event.
+- id: ef27da41-8ed2-4aa7-ae9b-d62ca79982f7
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 129224
+  total_delivered: 129048
+  total_opens: 49320
+  total_clicks: 1088
+  open_rate: 0.3817
+  click_rate: 0.0084
+  total_revenue: 260390.96
+  total_bounces: 2
+  total_unsubscribes: 174
+_filename: p_em_2026_05_11_id_pc_d_may_catalog_drop.yaml
+schedule_type: time_based

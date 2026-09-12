@@ -1,0 +1,33 @@
+id: d79689e8-470a-421d-a4df-b109c5fdec4e
+name: P_2024_08_30_D_HAV_PC_PR_LDW_Sale_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: d79689e8-470a-421d-a4df-b109c5fdec4e
+dates:
+  send_date: '2024-08-30'
+  first_sent: '2024-08-30T13:02:04+00:00'
+  last_sent: '2024-08-30T13:04:22+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 5939831b-9b33-4fcd-a179-75b5e7135cc8
+  channel: email
+  name: Variant 1
+  subject: On sale and booking fast 🔥
+  preheader: Shop 50% off design packages.
+- id: daf74d70-438e-42f6-b7fe-e5795dc8f3ce
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 60450
+  total_delivered: 60294
+  total_opens: 28486
+  total_clicks: 442
+  open_rate: 0.4712
+  click_rate: 0.0073
+  total_unsubscribes: 119
+schedule_type: time_based
+_filename: p_2024_08_30_d_hav_pc_pr_ldw_sale_reminder_email.yaml

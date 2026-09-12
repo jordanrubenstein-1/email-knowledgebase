@@ -1,0 +1,80 @@
+id: 3292c257-3a79-403b-a10a-78affaee5088
+name: P_EM_2025_09_18_CZ_D_PR_Bedding_Refresh_Sale_Reminder
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 3292c257-3a79-403b-a10a-78affaee5088
+dates:
+  send_date: '2025-09-18'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-18T03:20:50+00:00'
+  last_sent: '2025-09-18T17:15:25+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale_feat
+sends:
+- id: 6c815dde-9d18-4c31-b5d3-d659bf811e2d
+  channel: email
+  name: Variant 1
+  subject: 'Rituals of Rest: 20% Off'
+  preheader: Don’t sleep on your fall bedding refresh.
+  html_file: html/p_em_2025_09_18_cz_d_pr_bedding_refresh_sale_reminder.html
+  screenshot: screenshots/p_em_2025_09_18_cz_d_pr_bedding_refresh_sale_reminder.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cb15182779400074d38b88/original.png?1758139672
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cb146fcd2d8b006531441c/original.png?1758139502
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cb14eb61059f00848ea2b1/original.png?1758139627
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cb150ac9950e0076e0678d/original.png?1758139658
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cb1487951ab1006566ccbf/original.png?1758139527
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cb14b8e3e7c700655df936/original.png?1758139576
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cb147761059f00658ea706/original.png?1758139510
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cb14f7951ab1007566d133/original.png?1758139639
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cb14ffcd2d8b008431447b/original.png?1758139647
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cb151080ce64006541a2e2/original.png?1758139664
+- id: a6507241-1b3e-48a4-9ff5-12cb5a44d22f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 113065
+  total_delivered: 112708
+  total_opens: 60553
+  total_clicks: 608
+  open_rate: 0.5356
+  click_rate: 0.0054
+  total_bounces: 10
+  total_unsubscribes: 215
+  ga4:
+    sessions: 580
+    purchases: 9
+    revenue: 3288.3
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.629048'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-bedroom-refresh-sale-2025-09-15
+    name: Bedroom Refresh Sale
+    start_date: '2025-09-15'
+    end_date: '2025-09-22'
+    discount: 20% Off Bedding, Rugs, and Furniture
+    type: null
+  primary_sale:
+    id: cz-bedroom-refresh-sale-2025-09-15
+    name: Bedroom Refresh Sale
+    start_date: '2025-09-15'
+    end_date: '2025-09-22'
+    discount: 20% Off Bedding, Rugs, and Furniture
+    type: null
+  sale_name: Bedroom Refresh Sale
+  sale_discount: 20% Off Bedding, Rugs, and Furniture
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:33.294167'
+schedule_type: time_based

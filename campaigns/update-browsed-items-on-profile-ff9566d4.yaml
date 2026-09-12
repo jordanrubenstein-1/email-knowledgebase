@@ -1,0 +1,34 @@
+id: ff9566d4-954e-4620-82e6-b56c23325d50
+name: Update Browsed Items on Profile
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: ff9566d4-954e-4620-82e6-b56c23325d50
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-01-28T17:00:00+00:00'
+  last_sent: '2026-06-14T16:00:00+00:00'
+tags:
+- system
+sends: []
+performance_summary:
+  total_entries: 919873
+  note: Canvas entries found but no message sends in analytics period
+canvas_steps:
+- id: 6a563a2a-86fa-4abf-ae55-f4247aebc9be
+  name: Step
+  type: message
+- id: e4567222-cf1a-46f4-aef5-f7d712750812
+  name: Step 1
+  type: message
+- id: 58901642-7386-46ea-8e05-9c94933147df
+  name: Step 2
+  type: user_update
+- id: 8a34ad3e-ae9d-4b61-8758-34f159635baa
+  name: Step 3
+  type: message
+_filename: update-browsed-items-on-profile-ff9566d4.yaml

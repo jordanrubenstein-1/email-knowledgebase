@@ -1,0 +1,33 @@
+id: ecf6c046-dff3-44dd-a1ec-37f4e8df6f1d
+name: P_2024_11_29_HAV_CON_Black_Friday_AM_Email
+brand: HAV
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: ecf6c046-dff3-44dd-a1ec-37f4e8df6f1d
+dates:
+  send_date: '2024-11-29'
+  first_sent: '2024-11-29T07:27:59+00:00'
+  last_sent: '2024-11-29T17:15:10+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 1b78689a-0f7b-442d-9e0a-469e4b181909
+  channel: email
+  name: Variant 1
+  subject: The Sale Keeps Getting Better
+  preheader: Don’t wait! Today is the day.
+- id: 377242ec-8eab-4aae-b981-491ab4e7fdf3
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 35590
+  total_delivered: 35547
+  total_opens: 19580
+  total_clicks: 304
+  open_rate: 0.5502
+  click_rate: 0.0085
+  total_unsubscribes: 51
+schedule_type: time_based
+_filename: p_2024_11_29_hav_con_black_friday_am_email.yaml

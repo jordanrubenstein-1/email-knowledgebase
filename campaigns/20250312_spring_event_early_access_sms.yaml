@@ -1,0 +1,30 @@
+id: 9da87a76-4756-4859-a36e-abe675b253a0
+name: 20250312_Spring_Event_Early_Access_SMS
+brand: BUR
+channel: sms
+category: sale_promo
+type: seasonal
+theme: spring
+braze_id: 9da87a76-4756-4859-a36e-abe675b253a0
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-03-12T01:06:37+00:00'
+  last_sent: '2025-03-13T01:00:27+00:00'
+tags: []
+sends:
+- id: 06b93286-a4a6-4121-80d7-8ac79bedb73c
+  channel: other
+  name: Variant 1
+- id: 32c396b7-a76e-4427-8963-fbcd823360dc
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 269
+    purchases: 2
+    revenue: 2320.3
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.519318'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

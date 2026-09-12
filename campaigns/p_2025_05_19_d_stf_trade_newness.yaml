@@ -1,0 +1,45 @@
+id: ad26ece0-a760-4988-94ab-0e9e7acacd1a
+name: P_2025_05_19_D_STF_TRADE_Newness
+brand: STF
+channel: email
+category: other
+type: product_launch
+theme: null
+braze_id: ad26ece0-a760-4988-94ab-0e9e7acacd1a
+dates:
+  send_date: '2025-05-19'
+  inferred_send_type: local_time
+  first_sent: '2025-05-18T20:05:08+00:00'
+  last_sent: '2025-05-19T16:00:38+00:00'
+tags: []
+sends:
+- id: c1b7380d-3a30-471e-bbb8-1187d52a8fb8
+  channel: email
+  name: Variant 1
+  subject: Meet Your New Favorites
+  preheader: the statement makers have arrived
+- id: 92de6b4d-b02c-4ce9-a19e-ab46431cafbd
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 2872
+  total_delivered: 2825
+  total_opens: 1443
+  total_clicks: 31
+  open_rate: 0.5024
+  click_rate: 0.0108
+  total_revenue: 497.0
+  total_unsubscribes: 24
+  ga4:
+    sessions: 31
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.083247'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.706591'
+schedule_type: time_based

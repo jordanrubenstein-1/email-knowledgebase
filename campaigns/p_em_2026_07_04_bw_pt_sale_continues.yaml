@@ -1,0 +1,32 @@
+id: 5d98393b-dbb7-40a9-8a61-6b86c1be9631
+name: P_EM_2026_07_04_BW_PT_Sale_Continues
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 5d98393b-dbb7-40a9-8a61-6b86c1be9631
+dates:
+  send_date: '2026-07-04'
+  last_sent: '2026-07-04'
+tags:
+- Batch&Blast
+sends:
+- id: 11978fb3-7d95-4262-b343-64072bbeff48
+  channel: email
+  name: Variant 1
+  subject: The sale is still going strong
+- id: b4df55e7-e6bd-4352-9d81-57cb827e914f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 228754
+  total_delivered: 227536
+  total_opens: 117601
+  total_clicks: 474
+  open_rate: 0.5141
+  click_rate: 0.0021
+  total_revenue: 129219.0
+  total_unsubscribes: 123
+schedule_type: time_based
+_filename: p_em_2026_07_04_bw_pt_sale_continues.yaml

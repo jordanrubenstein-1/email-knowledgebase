@@ -1,0 +1,52 @@
+id: 348324ce-f418-4b5c-8880-05ad18db0323
+name: P_EM_2026_03_27_CZ_D_PR_Spring_Sale_Extension
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: spring
+braze_id: 348324ce-f418-4b5c-8880-05ad18db0323
+dates:
+  send_date: '2026-03-27'
+  inferred_send_type: local_time
+  first_sent: '2026-03-26T19:08:47+00:00'
+  last_sent: '2026-03-27T19:02:20+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale/spring2026
+- sale_feat
+sends:
+- id: c61aecda-7ad9-4e3f-b3e6-a9394aa4d084
+  channel: email
+  name: Variant 1
+  subject: Good News for Late Shoppers
+  preheader: We’ve extended the sale. Enjoy up to 25% off for a bit longer.
+  html_file: html/p_em_2026_03_27_cz_d_pr_spring_sale_extension.html
+  screenshot: screenshots/p_em_2026_03_27_cz_d_pr_spring_sale_extension.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c1e39e11f1b70063dfd636/original.png?1774314398
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c1e38d9f8c75006303a41d/original.png?1774314381
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c1e39367696c0063092098/original.png?1774314386
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c1e3b60c9bec0072ddd315/original.png?1774314422
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c1e3989f8e71006397a3e8/original.png?1774314391
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c1e3c1ae28f400632d0dba/original.png?1774314433
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c1e3ac6811170063d7ff4e/original.png?1774314411
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c1e3817d5cc500631be2bd/original.png?1774314367
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c1e3bce493130063a429a0/original.png?1774314427
+- id: ef5cb476-0906-4206-a202-8b13ee12dc9c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 112258
+  total_delivered: 111863
+  total_opens: 52851
+  total_clicks: 550
+  open_rate: 0.4708
+  click_rate: 0.0049
+  total_bounces: 1
+  total_unsubscribes: 103
+schedule_type: time_based

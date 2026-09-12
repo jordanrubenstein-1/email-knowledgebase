@@ -1,0 +1,30 @@
+id: 05254e18-d064-cddb-dd8e-c811155ebc31
+name: Rooms Due Tomorrow System Email (Designers)
+brand: HAV
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 05254e18-d064-cddb-dd8e-c811155ebc31
+dates:
+  first_sent: '2024-08-27T03:00:00+00:00'
+  last_sent: '2026-06-09T03:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: 63088fe2-eb74-4919-903e-add2717a78fc
+  channel: email
+  name: Variant 1
+  subject: 'Reminder: Deliverables due tomorrow!'
+- id: 7764e386-ed52-4770-8f8e-47c0ac066b14
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 338
+  total_delivered: 338
+  total_opens: 228
+  total_clicks: 2
+  open_rate: 0.6746
+  click_rate: 0.0059
+schedule_type: api_triggered
+_filename: rooms-due-tomorrow-system-email-designers.yaml

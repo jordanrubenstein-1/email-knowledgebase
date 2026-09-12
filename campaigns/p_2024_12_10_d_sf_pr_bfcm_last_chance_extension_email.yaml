@@ -1,0 +1,47 @@
+id: 49143d5c-8aa4-4e0f-8eb3-67588de8c85b
+name: P_2024_12_10_D_SF_PR_BFCM_Last_Chance_Extension_Email
+brand: STF
+channel: email
+category: reminder
+type: announcement
+theme: black_friday
+braze_id: 49143d5c-8aa4-4e0f-8eb3-67588de8c85b
+dates:
+  send_date: '2024-12-10'
+  inferred_send_type: local_time
+  first_sent: '2024-12-09T23:11:31+00:00'
+  last_sent: '2024-12-10T15:00:27+00:00'
+tags: []
+sends:
+- id: 516717be-3449-4c1c-8959-1b9c0d3578fa
+  channel: email
+  name: Variant 1
+  subject: 'ENDING TONIGHT: up to 35% Off'
+  preheader: don’t miss our sitewide savings
+  html_file: html/p_2024_12_10_d_sf_pr_bfcm_last_chance_extension_email.html
+  screenshot: screenshots/p_2024_12_10_d_sf_pr_bfcm_last_chance_extension_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67572e828f356600664cdca3/original.jpg?1733766786
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67323a7d5fda0b006456249b/original.gif?1731345021
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67572eb64044a50063ef09b7/original.jpg?1733766837
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67572e98200fe900657eae91/original.gif?1733766808
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67323a414180570081c1422f/original.gif?1731344961
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67323a5a4180570063c14d39/original.gif?1731344986
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67323a4c8be85800669bff19/original.gif?1731344972
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67323a89f678ac0066d01e06/original.gif?1731345033
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67572e69b29aa30063781768/original.gif?1733766761
+- id: 0364c9ae-06ee-48fa-b115-1bc5f4470cd5
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 3709
+  total_delivered: 3666
+  total_opens: 1912
+  total_clicks: 52
+  open_rate: 0.5155
+  click_rate: 0.014
+  total_revenue: 3808.0
+  total_unsubscribes: 4
+_filename: p_2024_12_10_d_sf_pr_bfcm_last_chance_extension_email.yaml
+schedule_type: time_based

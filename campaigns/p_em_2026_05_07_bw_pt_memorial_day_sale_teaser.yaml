@@ -1,0 +1,35 @@
+id: 078848d8-d2e7-42b6-8fb9-b520bc9f6989
+name: P_EM_2026_05_07_BW_PT_Memorial_Day_Sale_Teaser
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 078848d8-d2e7-42b6-8fb9-b520bc9f6989
+dates:
+  send_date: '2026-05-07'
+  inferred_send_type: scheduled
+  first_sent: '2026-05-06T18:45:53+00:00'
+  last_sent: '2026-05-06T22:00:00+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 71c1bb8a-8697-4ae0-a858-3e26eb09bd7b
+  channel: email
+  name: Variant 1
+  subject: Up to 50% off starts now
+- id: 93dbad20-4a78-4c9b-a757-4858e574a320
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 164300
+  total_delivered: 162792
+  total_opens: 84438
+  total_clicks: 972
+  open_rate: 0.5139
+  click_rate: 0.0059
+  total_revenue: 54264.0
+  total_bounces: 12
+  total_unsubscribes: 199
+_filename: p_em_2026_05_07_bw_pt_memorial_day_sale_teaser.yaml
+schedule_type: time_based

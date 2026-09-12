@@ -1,0 +1,51 @@
+id: a5bccb91-680f-44ea-a626-fd078687b8b3
+name: P_EM_2026_01_29_CZ_D_PR_Winter_Retreat_Sale_Last_Chance_Reminder
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: winter
+braze_id: a5bccb91-680f-44ea-a626-fd078687b8b3
+dates:
+  send_date: '2026-01-29'
+  inferred_send_type: local_time
+  first_sent: '2026-01-28T21:15:36+00:00'
+  last_sent: '2026-01-29T17:05:12+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale/winterRefesh2026
+- sale_feat
+sends:
+- id: f8cf23fb-a89f-4847-945e-58e8e0ed7c56
+  channel: email
+  name: Variant 1
+  subject: 'Final Hours: 20% Off Select Styles'
+  preheader: The countdown is on.
+  html_file: html/p_em_2026_01_29_cz_d_pr_winter_retreat_sale_last_chance_remi.html
+  screenshot: screenshots/p_em_2026_01_29_cz_d_pr_winter_retreat_sale_last_chance_remi.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697a2922d029d90063d40af1/original.png?1769613602
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697a290af018100063565ab8/original.png?1769613578
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697a28c2f1cae500633b47ca/original.gif?1769613506
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697a291a69ffcd006374d17b/original.png?1769613594
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697a28cb24c3930063d8eeab/original.png?1769613514
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697a28e821d36a006551854b/original.png?1769613544
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/697a28f36957ac00640e769f/original.png?1769613555
+- id: f4017649-d13f-45eb-8e1c-d46042edcc45
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 113401
+  total_delivered: 113081
+  total_opens: 55730
+  total_clicks: 532
+  open_rate: 0.4914
+  click_rate: 0.0047
+  total_bounces: 4
+  total_unsubscribes: 146
+_filename: p_em_2026_01_29_cz_d_pr_winter_retreat_sale_last_chance_remi.yaml
+schedule_type: time_based

@@ -1,0 +1,35 @@
+id: 31e40059-4894-4914-aa50-9bd92f5a1898
+name: 2025_3_11_BW_PT_Lapsed_Daylight_Savings_Promo_Reminder
+brand: BUR
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 31e40059-4894-4914-aa50-9bd92f5a1898
+dates:
+  send_date: '2025-03-11'
+  inferred_send_type: local_time
+  first_sent: '2025-03-11T01:06:47+00:00'
+  last_sent: '2025-03-12T01:01:08+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 53698c0a-a533-4779-832e-2a02aa7c91bf
+  channel: email
+  name: Variant 1
+  subject: This is it...
+  preheader: Your offer ends tonight at midnight.
+- id: 1595a7bd-8a10-4c07-a64d-ffbd72e25775
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 58291
+  total_delivered: 58047
+  total_opens: 21731
+  total_clicks: 455
+  open_rate: 0.3728
+  click_rate: 0.0078
+  total_revenue: 36067.0
+  total_unsubscribes: 70
+_filename: 2025_3_11_bw_pt_lapsed_daylight_savings_promo_reminder.yaml
+schedule_type: time_based

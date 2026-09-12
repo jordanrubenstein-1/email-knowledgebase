@@ -1,0 +1,63 @@
+id: 45879fbb-a1bb-4f92-8de4-1b95c7565518
+name: P_EM_2025_07_05_CZ_D_PR_The_Layered_Bed
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 45879fbb-a1bb-4f92-8de4-1b95c7565518
+dates:
+  send_date: '2025-07-05'
+  inferred_send_type: local_time
+  first_sent: '2025-07-04T18:08:09+00:00'
+  last_sent: '2025-07-05T17:02:10+00:00'
+tags:
+- am
+- batch and blast
+- collect
+- d2c
+- designed
+- sale
+sends:
+- id: c278d542-ebea-405b-b696-b0509c1cd1fd
+  channel: email
+  name: Variant 1
+  subject: The Layered Bedroom
+  preheader: All your favorite bedding essentials, now 20% off.
+  html_file: html/p_em_2025_07_05_cz_d_pr_the_layered_bed.html
+  screenshot: screenshots/p_em_2025_07_05_cz_d_pr_the_layered_bed.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686690100aea5b00666dc356/original.png?1751552015
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68668f4a230ec90067c56654/original.png?1751551817
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686690b5695fb600657acb46/original.png?1751552180
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6866909c418375006786991d/original.png?1751552155
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68668d08be4b8f0065fa67f6/original.png?1751551239
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68668d1545892a00674f5732/original.png?1751551252
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68668cfe45892a00874f4c41/original.png?1751551229
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686690799cb21e0067dbecf7/original.png?1751552120
+- id: 13c2ad7f-4129-4e1f-9b81-9d122470d9e4
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 100219
+  total_delivered: 99694
+  total_opens: 52713
+  total_clicks: 565
+  open_rate: 0.526
+  click_rate: 0.0056
+  total_revenue: 105440.39
+  total_bounces: 21
+  total_unsubscribes: 123
+  ga4:
+    sessions: 601
+    purchases: 13
+    revenue: 3682.62
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.554192'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.842999'
+schedule_type: time_based

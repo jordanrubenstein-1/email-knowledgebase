@@ -1,0 +1,59 @@
+id: 687cc0af-5c8d-418c-92e8-c7759fbf455c
+name: P_2025_05_17_D_STF_Promo_Outdoor_Fabric
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 687cc0af-5c8d-418c-92e8-c7759fbf455c
+dates:
+  send_date: '2025-05-17'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-17T13:00:23+00:00'
+  last_sent: '2025-05-17T13:28:58+00:00'
+tags: []
+sends:
+- id: a01db79c-1630-420d-911e-87b83a3b2c63
+  channel: email
+  name: Variant 1
+  subject: Get some fresh air
+  preheader: 'your outdoor oasis awaits '
+  html_file: html/p_2025_05_17_d_stf_promo_outdoor_fabric.html
+  screenshot: screenshots/p_2025_05_17_d_stf_promo_outdoor_fabric.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68278a6f40eb950067541584/original.png?1747421807
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68278a6ae0084800754f8e73/original.png?1747421802
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682783831eb5e200659e0e8a/original.png?1747420034
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68278a6040eb950067541562/original.png?1747421791
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6827827506682500659884e1/original.png?1747419764
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6827826a1eb5e200659e0737/original.png?1747419754
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6827823c1adb2000640422f6/original.png?1747419708
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68278285f75c5e006695f3dc/original.png?1747419781
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6827845af75c5e006695ff99/original.png?1747420249
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682782257319cb00670f8382/original.png?1747419684
+- id: 765e7853-cad0-4129-b3e9-438e68693758
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 23106
+  total_delivered: 22852
+  total_opens: 11295
+  total_clicks: 234
+  open_rate: 0.4888
+  click_rate: 0.0101
+  total_revenue: 13520.0
+  total_bounces: 26
+  total_unsubscribes: 51
+  ga4:
+    sessions: 236
+    purchases: 6
+    revenue: 1488.31
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.945951'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.164936'
+schedule_type: time_based

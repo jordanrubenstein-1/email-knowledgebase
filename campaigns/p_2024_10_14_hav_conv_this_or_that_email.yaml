@@ -1,0 +1,33 @@
+id: 7fc08ebf-181a-4bf7-b51d-b6da61fd313f
+name: P_2024_10_14_HAV_Conv_This_Or_That_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 7fc08ebf-181a-4bf7-b51d-b6da61fd313f
+dates:
+  send_date: '2024-10-14'
+  first_sent: '2024-10-13T17:15:00+00:00'
+  last_sent: '2024-10-14T17:15:03+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: d04bd92d-d9ff-401a-8074-3fcf6063f08c
+  channel: email
+  name: Variant 1
+  subject: 'THIS OR THAT: Which side are you on?'
+  preheader: Time to play!
+- id: db0774fa-158a-45f3-8b3e-708ab6019921
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 36445
+  total_delivered: 36420
+  total_opens: 20715
+  total_clicks: 372
+  open_rate: 0.5684
+  click_rate: 0.0102
+  total_unsubscribes: 55
+schedule_type: time_based
+_filename: p_2024_10_14_hav_conv_this_or_that_email.yaml

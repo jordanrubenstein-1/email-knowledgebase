@@ -1,0 +1,35 @@
+id: 59e9f638-01ee-45a5-98d9-24a80366200a
+name: P_EM_2026_02_09_ID_D_PF_Presidents_Day_Sale
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 59e9f638-01ee-45a5-98d9-24a80366200a
+dates:
+  send_date: '2026-02-09'
+  inferred_send_type: local_time
+  first_sent: '2026-02-08T19:05:58+00:00'
+  last_sent: '2026-02-09T19:04:28+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 639f7895-7298-4714-b5b0-834a44dc91c4
+  channel: email
+  name: Variant 1
+  subject: Sale Starts Now
+  preheader: Save up to 30% off the pieces you've been eyeing.
+- id: 4498734a-2c3f-4be6-877e-f30c2fdc25bc
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 213794
+  total_delivered: 213090
+  total_opens: 81418
+  total_clicks: 915
+  open_rate: 0.3808
+  click_rate: 0.0043
+  total_revenue: 169911.98
+  total_bounces: 5
+  total_unsubscribes: 179
+schedule_type: time_based

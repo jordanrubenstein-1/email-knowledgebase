@@ -1,0 +1,47 @@
+id: b36af134-110f-4eaf-83a1-02f8f8da00d7
+name: 2025_04_19_ID_Sale_Reminder_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: b36af134-110f-4eaf-83a1-02f8f8da00d7
+dates:
+  send_date: '2025-04-19'
+  inferred_send_type: local_time
+  first_sent: '2025-04-18T22:28:40+00:00'
+  last_sent: '2025-04-19T17:15:22+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 01bb2320-f6ca-460d-b566-010853320431
+  channel: email
+  name: Variant 1
+  subject: 20% Off Sitewide? Say Less
+  preheader: Shop the Friends & Family Sale
+- id: f11ca88f-4129-400e-b2e7-aadf940ac9f6
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 155101
+  total_delivered: 152864
+  total_opens: 35001
+  total_clicks: 366
+  open_rate: 0.2257
+  click_rate: 0.0024
+  total_revenue: 165456.0
+  total_bounces: 1
+  total_unsubscribes: 66
+  ga4:
+    sessions: 326
+    purchases: 1
+    revenue: 3626.37
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.539710'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.725811'
+schedule_type: time_based

@@ -1,0 +1,14 @@
+{% assign sale_start     = "2025-08-21 00:00:00" | date: "%s" %}{% assign sale_ext_start = "2025-09-04 06:00:00" | date: "%s" %}{% assign sale_end       = "2025-09-08 06:00:00" | date: "%s" %}{% assign now        = 'now' | date: "%s" %}{% if now >= sale_start and now < sale_ext_start %}<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+        <tr>
+        <td align="center" style="width: 100%"><a target="_blank" rel="noopener noreferrer"  href="https://www.stfrank.com/cart?lid={{${cblid} | lid: 'w3vw8e18c8s5'}}"><img alt="The Labor Day Event. 25% Off" width="600" style="display: block; width: 100%; max-width: 100%; font-size: 20px; font-family: Arial, 'sans-serif'; color: #383633; background-color: #FFFFFF;" border="0" src="https://braze-images.com/appboy/communication/assets/image_assets/images/68a5ec29a32eea00657700fb/original.png?1755704361" /></a></td>
+      </tr>
+      </table>{% elsif now >= sale_ext_start and now <= sale_end %}<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+        <tr>
+        <td align="center" style="width: 100%"><a target="_blank" rel="noopener noreferrer"  href="https://www.stfrank.com/cart?lid={{${cblid} | lid: '79qrsmx02xo7'}}"><img alt="The Labor Day Event. 25% Off" width="600" style="display: block; width: 100%; max-width: 100%; font-size: 20px; font-family: Arial, 'sans-serif'; color: #383633; background-color: #FFFFFF;" border="0" src="https://braze-images.com/appboy/communication/assets/image_assets/images/68a5ec29a32eea00657700fb/original.png?1755704361" /></a></td>
+      </tr>
+      </table>{% else %}
+ <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+        <tr>
+        <td align="center" style="width: 100%"><a target="_blank" rel="noopener noreferrer"  href="https://www.stfrank.com/cart?lid={{${cblid} | lid: '2b21gazxqk9d'}}"><img alt="20% off with code FIRSTTIME20" width="600" style="display: block; width: 100%; max-width: 100%; font-size: 20px; font-family: Arial, 'sans-serif'; color: #383633; background-color: #FFFFFF;" border="0" src="https://braze-images.com/appboy/communication/assets/image_assets/images/67ca6674ececaa008552c534/original.png?1741317747" /></a></td>
+      </tr>
+      </table>{% endif %}

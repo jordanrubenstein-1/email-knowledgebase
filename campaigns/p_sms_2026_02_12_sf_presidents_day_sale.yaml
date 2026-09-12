@@ -1,0 +1,37 @@
+id: ecc02645-3fbd-46d4-a95a-a78bc00e0adf
+name: P_SMS_2026_02_12_SF_President's_Day_Sale
+brand: STF
+channel: sms
+category: sale_promo
+type: sale
+theme: null
+braze_id: ecc02645-3fbd-46d4-a95a-a78bc00e0adf
+dates:
+  send_date: '2026-02-12'
+  inferred_send_type: local_time
+  first_sent: '2026-02-12T01:05:39+00:00'
+  last_sent: '2026-02-13T00:00:42+00:00'
+tags: []
+sends:
+- id: d0f9fad6-5124-4982-9b42-ad02cf1c76c5
+  channel: sms
+  name: Variant 1
+- id: 0d074c52-b2a9-4f77-8336-8a181d4825c0
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 4144
+  total_delivered: 4069
+  total_opens: 0
+  total_clicks: 64
+  open_rate: 0.0
+  click_rate: 0.0154
+  ga4:
+    sessions: 59
+    purchases: 2
+    revenue: 2574.1
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.072674'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

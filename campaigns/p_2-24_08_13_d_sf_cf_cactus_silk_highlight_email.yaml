@@ -1,0 +1,50 @@
+id: 4a257e89-3b38-4d29-9a25-1df252c79e71
+name: P_2-24_08_13_D_SF_CF_Cactus_Silk_Highlight_Email
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 4a257e89-3b38-4d29-9a25-1df252c79e71
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2024-08-13T00:07:02+00:00'
+  last_sent: '2024-08-13T13:45:04+00:00'
+tags:
+- Batch and Blast/non-promo
+sends:
+- id: 7a57afd8-d1e9-4196-9e46-a49bc3458baa
+  channel: email
+  name: Variant 1
+  subject: Get To Know Cactus Silk
+  preheader: and the many ways to style this signature pattern
+  html_file: html/p_2-24_08_13_d_sf_cf_cactus_silk_highlight_email.html
+  screenshot: screenshots/p_2-24_08_13_d_sf_cf_cactus_silk_highlight_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ba85acd586d6007263e5d0/original.gif?1723499948
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ba85ac0228a60075a8eec9/original.gif?1723499948
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0058f1ba77/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ba85ac9867ac00668ed717/original.gif?1723499948
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ba85ea0228a60066a907ea/original.gif?1723500010
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ba85ac8bf0500064e7464d/original.gif?1723499948
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ba85ac7856220064e3055a/original.gif?1723499948
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ba85ac8bf0500082e724d1/original.gif?1723499948
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0063f11fb6/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ba85acd586d6006364015f/original.jpg?1723499948
+- id: dac8684f-7b2c-4721-b3e6-418b25ad185d
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 42
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.804466'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.557419'
+schedule_type: time_based

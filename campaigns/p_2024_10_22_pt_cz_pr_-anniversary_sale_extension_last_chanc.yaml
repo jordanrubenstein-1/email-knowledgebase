@@ -1,0 +1,37 @@
+id: 0954a8e2-29bc-439b-ae4f-62616dd46a95
+name: P_2024_10_22_PT_CZ_PR_ Anniversary_Sale_Extension_Last_Chance_Email
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 0954a8e2-29bc-439b-ae4f-62616dd46a95
+dates:
+  send_date: '2024-10-22'
+  inferred_send_type: scheduled
+  first_sent: '2024-10-22T14:58:56+00:00'
+  last_sent: '2024-10-23T02:00:10+00:00'
+tags:
+- batch and blast/promo
+sends:
+- id: d1d1eb9e-cfd3-43e8-8a9f-730b8d4a74ed
+  channel: email
+  name: Variant 1
+  subject: The countdown is on...
+  html_file: html/p_2024_10_22_pt_cz_pr_-anniversary_sale_extension_last_chanc.html
+  screenshot: screenshots/p_2024_10_22_pt_cz_pr_-anniversary_sale_extension_last_chanc.png
+- id: fb7b44ef-fe48-4a6c-92ca-939c21a59ab6
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 26416
+  total_delivered: 26292
+  total_opens: 17224
+  total_clicks: 657
+  open_rate: 0.652
+  click_rate: 0.0249
+  total_revenue: 52937.71
+  total_bounces: 2
+  total_unsubscribes: 72
+_filename: p_2024_10_22_pt_cz_pr_-anniversary_sale_extension_last_chanc.yaml
+schedule_type: time_based

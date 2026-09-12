@@ -1,0 +1,53 @@
+id: 20b144a5-37ad-45a2-8449-8c26562be323
+name: P_2025_02_15_PT_CZ_PD_Furniture_Faster_Shipping_PM_PT
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 20b144a5-37ad-45a2-8449-8c26562be323
+dates:
+  send_date: '2025-02-15'
+  inferred_send_type: local_time
+  first_sent: '2025-02-15T02:05:40+00:00'
+  last_sent: '2025-02-16T02:00:37+00:00'
+tags: []
+sends:
+- id: a79271c4-356b-41ce-acdb-a237f9bdc0a4
+  channel: email
+  name: Variant 1
+  subject: Faster Shipping and 15% Off Custom Furniture
+  html_file: html/p_2025_02_15_pt_cz_pd_furniture_faster_shipping_pm_pt.html
+  screenshot: screenshots/p_2025_02_15_pt_cz_pd_furniture_faster_shipping_pm_pt.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67afc3b3f721fd0066be66af/original.png?1739572146
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67afc4220180a000666ccdce/original.png?1739572258
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67afc3ff5c9bda0064519816/original.png?1739572222
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67afc3968093f40065d88d30/original.png?1739572117
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67afc3cf1ff21a00666d00f5/original.png?1739572174
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67afc4124df3d0006618202f/original.png?1739572242
+- id: f6239374-b255-479e-9e39-6f1dfee1cde7
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 25262
+  total_delivered: 25232
+  total_opens: 17754
+  total_clicks: 503
+  open_rate: 0.7028
+  click_rate: 0.0199
+  total_revenue: 129515.69
+  total_unsubscribes: 70
+  ga4:
+    sessions: 354
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.479845'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.376813'
+schedule_type: time_based

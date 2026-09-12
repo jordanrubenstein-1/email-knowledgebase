@@ -1,0 +1,77 @@
+id: 2856bf15-dd71-4860-8ba7-c35d1fd9f1a8
+name: P_2025_05_12_D_PTOM_Teal_Vines_Suzani
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 2856bf15-dd71-4860-8ba7-c35d1fd9f1a8
+dates:
+  send_date: '2025-05-12'
+  inferred_send_type: sto
+  first_sent: '2025-05-11T11:05:47+00:00'
+  last_sent: '2025-05-13T06:30:06+00:00'
+tags: []
+sends:
+- id: 298c0be8-c695-49b0-9583-793134b661ba
+  channel: email
+  name: Variant 1
+  subject: April Showers Bring May (Suzani) Flowers
+  preheader: our trending floral in full bloom
+  html_file: html/p_2025_05_12_d_ptom_teal_vines_suzani.html
+  screenshot: screenshots/p_2025_05_12_d_ptom_teal_vines_suzani.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681be47feba14100674ced0f/original.png?1746658431
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681bddb06cda6b0066d71b37/original.png?1746656687
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681bdda3ffba5800670044ed/original.png?1746656675
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681be4939822c10065d1a471/original.png?1746658451
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681be4739822c10065d1a43f/original.png?1746658418
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681bddbc858b5c00845bdaa6/original.png?1746656700
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681be48da6cd8e00649e0a6f/original.png?1746658444
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681bd7bcba1ddc0065982c27/original.png?1746655164
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681bd7526cda6b0066d70080/original.png?1746655057
+- id: 19620172-9748-4a19-abf2-69fbf3ec00a4
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 20401
+  total_delivered: 20185
+  total_opens: 10121
+  total_clicks: 146
+  open_rate: 0.4961
+  click_rate: 0.0072
+  total_revenue: 18980.5
+  total_unsubscribes: 42
+  ga4:
+    sessions: 146
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.765574'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-st-frank-2025-05-13
+    name: St Frank
+    start_date: '2025-05-13'
+    end_date: '2025-05-13'
+    discount: "The Memorial Day Event\n30% off sitewide (B2C) \n35% off Trade\nEarly\
+      \ Access: No code; EA messaging and strikethrough live on-site from 5/13"
+    type: null
+  primary_sale:
+    id: stf-st-frank-2025-05-13
+    name: St Frank
+    start_date: '2025-05-13'
+    end_date: '2025-05-13'
+    discount: "The Memorial Day Event\n30% off sitewide (B2C) \n35% off Trade\nEarly\
+      \ Access: No code; EA messaging and strikethrough live on-site from 5/13"
+    type: null
+  sale_name: St Frank
+  sale_discount: "The Memorial Day Event\n30% off sitewide (B2C) \n35% off Trade\n\
+    Early Access: No code; EA messaging and strikethrough live on-site from 5/13"
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:33.454442'
+schedule_type: time_based

@@ -1,0 +1,35 @@
+id: b25b043c-7efb-4ccc-a70f-9eca07805953
+name: P_EM_2026_02_09_HAV_CONV_D_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: b25b043c-7efb-4ccc-a70f-9eca07805953
+dates:
+  send_date: '2026-02-09'
+  first_sent: '2026-02-08T17:07:33+00:00'
+  last_sent: '2026-02-09T17:04:44+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 23800c15-0c6d-496c-aea6-50dee2c9986f
+  channel: email
+  name: Variant 1
+  subject: The More You Add, the More You Save
+  preheader: Up to 15% off during the Presidents Day Sale.
+- id: 80cd754a-bfd5-4054-a401-efb6dde4ca53
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 42990
+  total_delivered: 42972
+  total_opens: 21851
+  total_clicks: 68
+  open_rate: 0.5083
+  click_rate: 0.0016
+  total_bounces: 1
+  total_unsubscribes: 62
+schedule_type: time_based
+_filename: p_em_2026_02_09_hav_conv_d_sale_reminder.yaml

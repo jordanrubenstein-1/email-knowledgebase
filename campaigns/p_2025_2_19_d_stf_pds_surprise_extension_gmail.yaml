@@ -1,0 +1,74 @@
+id: c123602c-994a-45fd-984a-7c2cfb2d74c5
+name: P_2025_2_19_D_STF_PDS_Surprise_Extension_Gmail
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: c123602c-994a-45fd-984a-7c2cfb2d74c5
+dates:
+  send_date: '2025-02-19'
+  inferred_send_type: local_time
+  first_sent: '2025-02-18T23:30:43+00:00'
+  last_sent: '2025-02-19T15:45:08+00:00'
+tags: []
+sends:
+- id: 996960b6-b0d0-4994-b6b1-9c659ba0313c
+  channel: email
+  name: Variant 1
+  subject: 'It’s Your Lucky Day: 20% Off Is Back On 🥳'
+  preheader: shop our Presidents Day Sale for a few more days
+  html_file: html/p_2025_2_19_d_stf_pds_surprise_extension_gmail.html
+  screenshot: screenshots/p_2025_2_19_d_stf_pds_surprise_extension_gmail.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b4f71c35b9c000656223ee/original.jpg?1739912988
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b4f645970bbd006520d7b0/original.gif?1739912773
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b10c2ddf0e99006668ead4/original.jpg?1739656237
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b4f68d1b7ddf0065377108/original.jpg?1739912845
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b10c4f0143f600652532a1/original.jpg?1739656270
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b10c46df0e99006668eada/original.jpg?1739656261
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b4f6e22d32b300653ef30b/original.jpg?1739912930
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b10c16df0e99006668ead3/original.jpg?1739656214
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b4f6b43ec6b90065b33ed0/original.jpg?1739912883
+- id: a609471e-5228-41bd-aaa1-1a94c81cf6a5
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1090
+  total_delivered: 1089
+  total_opens: 797
+  total_clicks: 14
+  open_rate: 0.7312
+  click_rate: 0.0128
+  total_revenue: 1856.0
+  total_unsubscribes: 3
+  ga4:
+    sessions: 18
+    purchases: 1
+    revenue: 455.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.653843'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-st-frank-2025-02-19
+    name: St Frank
+    start_date: '2025-02-19'
+    end_date: '2025-02-24'
+    discount: Sitewide 20% off B2C, Trade 25%
+    type: null
+  primary_sale:
+    id: stf-st-frank-2025-02-19
+    name: St Frank
+    start_date: '2025-02-19'
+    end_date: '2025-02-24'
+    discount: Sitewide 20% off B2C, Trade 25%
+    type: null
+  sale_name: St Frank
+  sale_discount: Sitewide 20% off B2C, Trade 25%
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:30.216992'
+schedule_type: time_based

@@ -1,0 +1,63 @@
+id: 04779348-d70b-490f-b249-efd2ce4e1c97
+name: P_EM_2025_08_08_ID_D_Sectional_Buying_Guide
+brand: ID
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 04779348-d70b-490f-b249-efd2ce4e1c97
+dates:
+  send_date: '2025-08-08'
+  inferred_send_type: local_time
+  first_sent: '2025-08-07T22:05:41+00:00'
+  last_sent: '2025-08-08T17:17:15+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 315842ce-e20c-4e24-8fc8-5c53e79a9fca
+  channel: email
+  name: Variant 1
+  subject: Our *Official* Sectional Buying Guide
+  preheader: Plus, 20% off sitewide for a limited time.
+- id: ac41f0cc-8535-4a4c-a3c4-a819c2842ac3
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 114117
+  total_delivered: 113937
+  total_opens: 50875
+  total_clicks: 647
+  open_rate: 0.4458
+  click_rate: 0.0057
+  total_revenue: 101700.0
+  total_bounces: 5
+  total_unsubscribes: 196
+  ga4:
+    sessions: 761
+    purchases: 1
+    revenue: 7554.77
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.103647'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off sitewide
+    type: null
+  primary_sale:
+    id: id-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off sitewide
+    type: null
+  sale_name: The Sunset Sale
+  sale_discount: 20% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:42.802920'
+schedule_type: time_based

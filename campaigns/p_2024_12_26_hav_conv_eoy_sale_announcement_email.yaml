@@ -1,0 +1,33 @@
+id: a926e181-e7e3-481d-a8ef-6e707e2d1391
+name: P_2024_12_26_HAV_CONV_EOY_Sale_Announcement_Email
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: a926e181-e7e3-481d-a8ef-6e707e2d1391
+dates:
+  send_date: '2024-12-26'
+  first_sent: '2024-12-25T17:20:02+00:00'
+  last_sent: '2024-12-26T17:15:08+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 21db3364-7290-4f6e-9e84-1216f70dccf5
+  channel: email
+  name: Variant 1
+  subject: Goodbye, 2024. Hello, SALE!
+  preheader: Shop the best deals in home, only at Havenly.
+- id: 08da5ec4-081c-41b4-a8f9-473876868866
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 36155
+  total_delivered: 35949
+  total_opens: 20290
+  total_clicks: 298
+  open_rate: 0.5612
+  click_rate: 0.0082
+  total_unsubscribes: 66
+schedule_type: time_based
+_filename: p_2024_12_26_hav_conv_eoy_sale_announcement_email.yaml

@@ -1,0 +1,91 @@
+# Example Campaign File
+# Copy this template when adding new campaigns
+# Delete this file once you have real campaign data
+
+id: "2024-fall-sale"
+name: "Fall Sale 2024"
+type: sale  # sale | seasonal | product_launch | lifecycle | announcement
+theme: "fall"
+
+dates:
+  start: "2024-10-01"
+  end: "2024-10-05"
+
+promotion:
+  type: percent_off  # percent_off | dollar_off | bogo | free_shipping | gift_with_purchase
+  value: "25%"
+  code: "FALL25"  # optional
+
+tags: ["sale", "fall", "seasonal", "25-off"]
+
+notes: |
+  Our biggest fall promotion. Targeted existing customers and
+  recent browsers. Used the 5-day-sale playbook.
+
+sends:
+  - id: "announce"
+    channel: email
+    send_date: "2024-10-01"
+    send_time: "8:30 AM EST"
+    subject: "Fall into Savings: 25% Off Everything"
+    preheader: "Your exclusive fall discount awaits inside"
+    template_ref: "sale-hero"
+    images_needed: ["hero-banner", "product-grid"]
+    audience: "All active subscribers"
+    metrics:
+      send_count: 50000
+      open_rate: 0.32
+      click_rate: 0.08
+      revenue: 12500
+
+  - id: "reminder"
+    channel: email
+    send_date: "2024-10-03"
+    send_time: "11:00 AM EST"
+    subject: "Your 25% Savings Are Waiting"
+    preheader: "Don't miss out on fall favorites"
+    template_ref: "sale-hero"
+    images_needed: ["hero-banner", "product-grid"]
+    audience: "Openers who didn't purchase"
+    metrics:
+      send_count: 35000
+      open_rate: 0.28
+      click_rate: 0.06
+      revenue: 8200
+
+  - id: "last-chance-email"
+    channel: email
+    send_date: "2024-10-05"
+    send_time: "8:00 AM EST"
+    subject: "Final Hours: 25% Off Ends Tonight"
+    preheader: "Last chance to save"
+    template_ref: "sale-hero"
+    images_needed: ["hero-banner", "countdown-timer"]
+    audience: "Non-purchasers"
+    metrics:
+      send_count: 30000
+      open_rate: 0.35
+      click_rate: 0.12
+      revenue: 15000
+
+  - id: "last-chance-sms"
+    channel: sms
+    send_date: "2024-10-05"
+    send_time: "2:00 PM EST"
+    body: "Last chance! 25% off ends tonight. Shop now: [link]"
+    audience: "SMS subscribers, non-purchasers"
+    metrics:
+      send_count: 15000
+      click_rate: 0.14
+      revenue: 6800
+
+performance_summary:
+  total_sends: 4
+  total_revenue: 42500
+  top_performer: "last-chance-email"
+  top_performer_reason: "Highest open rate (35%) and click rate (12%)"
+  learnings: |
+    - Urgency messaging ("Final Hours") drove best performance
+    - SMS had highest click rate of the campaign (14%)
+    - Countdown timer in last-chance email likely contributed to high CTR
+    - Consider adding SMS to Day 1 for future campaigns

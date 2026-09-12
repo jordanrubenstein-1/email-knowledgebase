@@ -1,0 +1,73 @@
+id: e2317c1c-435a-4abb-9f74-b2dd8b4e3b7c
+name: Braze Template For Back In Stock
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: e2317c1c-435a-4abb-9f74-b2dd8b4e3b7c
+braze_type: canvas
+campaign_type: Triggered Journey
+dates: {}
+tags: []
+sends:
+- id: 86bcc6ff-3f4b-49f9-9f5c-1fe9054a28c5
+  channel: email
+  name: Email
+  subject: Refreshed stock! Act fast before it's too late!
+  preheader: ''
+  step_id: 81466056-c66f-479a-9abd-0d3194b55c5b
+- id: 6ab98fa8-6cb2-4749-aa9b-9c646a02b1b3
+  channel: email
+  name: Push+Email Alert
+  subject: 'Back-in-stock reminder for {{${first_name} | default: ''you''}}!'
+  preheader: ''
+  step_id: c9dc9131-63d2-4930-b72d-2fd50c851648
+- id: eb9623f9-8eff-496c-8e73-c2a0153160b1
+  channel: email
+  name: In-Product Msg & Email
+  subject: Don't forget about these new arrivals!
+  preheader: ''
+  step_id: 265fc618-01a7-4e76-9eca-2eb970cbc1ed
+performance_summary: {}
+canvas_steps:
+- id: db7a09dc-6e92-41b6-8f12-12ca5c1b8e2f
+  name: Intelligent Channel
+  type: audience_paths
+- id: e0f511b1-e0e0-4e5d-adad-b4d2235b1737
+  name: Mobile Push
+  type: message
+- id: 3f8ab441-89fd-4572-8f2b-47f1728f710a
+  name: SMS
+  type: message
+- id: 81466056-c66f-479a-9abd-0d3194b55c5b
+  name: Email
+  type: message
+  channel: email
+  subject: Refreshed stock! Act fast before it's too late!
+  preheader: ''
+- id: 9bcfe3d6-0275-4b0d-aeab-5b6a182e768f
+  name: Web Push
+  type: message
+- id: d5666269-9c98-4d53-b6ab-484327230dc2
+  name: Purchase?
+  type: action_paths
+- id: c9dc9131-63d2-4930-b72d-2fd50c851648
+  name: Push+Email Alert
+  type: message
+  channel: email
+  subject: 'Back-in-stock reminder for {{${first_name} | default: ''you''}}!'
+  preheader: ''
+- id: 265fc618-01a7-4e76-9eca-2eb970cbc1ed
+  name: In-Product Msg & Email
+  type: message
+  channel: email
+  subject: Don't forget about these new arrivals!
+  preheader: ''
+- id: a2e2405d-0482-468f-87bc-bbb460fc6c88
+  name: Delay
+  type: delay
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.066061'

@@ -1,0 +1,37 @@
+id: 8840981d-1d20-42a2-8b57-6dbd3d287fdc
+name: P_2-24_08_13_D_SF_CF_Trade_Cactus_Silk_Highlight_Email
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 8840981d-1d20-42a2-8b57-6dbd3d287fdc
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2024-08-13T12:55:01+00:00'
+  last_sent: '2024-08-13T12:55:11+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: f759f68c-df12-4146-b004-baad6e7f5e0c
+  channel: email
+  name: Variant 1
+  subject: Get To Know Cactus Silk
+  preheader: get it now at 25% off
+- id: 98f18c7b-ffd1-4b9c-b9ab-d8889c2fe7a4
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 7
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.131462'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:45.245676'
+schedule_type: time_based

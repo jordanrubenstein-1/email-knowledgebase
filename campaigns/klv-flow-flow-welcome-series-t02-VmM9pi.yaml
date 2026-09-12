@@ -1,0 +1,56 @@
+id: klaviyo-VmM9pi
+name: ws_email-02
+brand: TE
+channel: email
+category: other
+type: lifecycle
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: VsqpJG
+canvas_name: flow-welcome-series
+flow_type: welcome_series
+sequence_position: 2
+dates:
+  created: '2023-04-04'
+  inferred_send_type: sto
+  first_sent: '2023-04-04'
+  last_sent: '2025-07-14'
+sends:
+- id: VmM9pi
+  channel: email
+  name: Message
+  subject: Questions about consultations?
+  preheader: We have the answers.
+  html_file: html/klv-flow-flow-welcome-series-t02-VmM9pi.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/dac146b7-7dfc-4851-8cf1-d7978d5e7110.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/4fdf36e0-6d1f-4bc3-9aee-ba3de1375131.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/a5b1e5c9-5256-48f0-80dd-f524f10a6bf7.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/40dad62f-36cf-4044-92ac-586437e5889d.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/7a849e12-85b0-41aa-be0d-8227dafca7f0.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/2ef67da0-d35e-481a-8bf6-b339f821f12d.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/d9d0366c-30f1-497a-bf00-f0f4158d076a.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/ba2f86c3-c5cc-47eb-a327-991b856014b8.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/d7ad39a6-6043-4517-9136-dea3b28ed21a.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/8b6b074c-7968-48ed-89b0-f55a0e2578ea.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: VmM9pi
+structure:
+  image_count: 17
+  link_count: 23
+  has_gif: false
+  hero_width: 100
+  layout_type: product_grid

@@ -1,0 +1,35 @@
+id: 5892f5df-c4f4-4d1f-95d2-75d9142cf749
+name: P_EM_2025_09_25_HAV_CONV_D_TIERED_SALE_SWEETENER
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 5892f5df-c4f4-4d1f-95d2-75d9142cf749
+dates:
+  send_date: '2025-09-25'
+  first_sent: '2025-09-25T02:23:11+00:00'
+  last_sent: '2025-09-26T01:15:07+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 9ca542c2-8b1e-4914-bd4f-d930de5feb7b
+  channel: email
+  name: Variant 1
+  subject: Bigger Cart. Bigger Savings.
+  preheader: Final hours for bonus savings…
+- id: 2685a124-31b1-407a-9db3-d165e29a1ec1
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 33236
+  total_delivered: 33196
+  total_opens: 16839
+  total_clicks: 40
+  open_rate: 0.5066
+  click_rate: 0.0012
+  total_bounces: 1
+  total_unsubscribes: 25
+schedule_type: time_based
+_filename: p_em_2025_09_25_hav_conv_d_tiered_sale_sweetener.yaml

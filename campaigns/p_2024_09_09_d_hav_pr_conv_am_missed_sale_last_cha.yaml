@@ -1,0 +1,54 @@
+id: ed2d9044-2a98-4af3-b2dd-951bf8b64a7d
+name: P_2024_09_09_D_HAV_PR_Conv_AM_Missed_Sale_Last_Chance_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: ed2d9044-2a98-4af3-b2dd-951bf8b64a7d
+dates:
+  send_date: '2024-09-09'
+  inferred_send_type: local_time
+  first_sent: '2024-09-08T18:15:02+00:00'
+  last_sent: '2024-09-09T17:15:03+00:00'
+tags: []
+sends:
+- id: 830a6597-8159-4172-b26c-51796846704a
+  channel: email
+  name: Variant 1
+  subject: Final chance for the best LDW sales.
+  preheader: Checkout before midnight.
+  html_file: html/p_2024_09_09_d_hav_pr_conv_am_missed_sale_last_chance_email.html
+  screenshot: screenshots/p_2024_09_09_d_hav_pr_conv_am_missed_sale_last_chance_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7aba5e8247e00667f05b5/original.jpg?1724361637
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7acf6c05c770066f73242/original.jpg?1724361973
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7aba591a4fe006471811c/original.jpg?1724361637
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7aba5fe4c430066f2e757/original.jpg?1724361637
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66db1dba7248840065fd74c7/original.jpg?1725636025
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66db1daed2922a0065de9a59/original.gif?1725636014
+- id: ebac1310-e7c2-4c9e-956d-aa3e5a0858db
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 35530
+  total_delivered: 35487
+  total_opens: 20026
+  total_clicks: 179
+  open_rate: 0.5636
+  click_rate: 0.005
+  total_bounces: 2
+  total_unsubscribes: 75
+  ga4:
+    sessions: 250
+    purchases: 4
+    revenue: 1431.85
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.575900'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.682367'
+schedule_type: time_based

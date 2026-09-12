@@ -1,0 +1,58 @@
+id: ebd4b43f-bb44-4a44-bf2c-00a9a144dea4
+name: P_EM_2025_12_16_CZ_D_PR_Entertaining_Essentials
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: ebd4b43f-bb44-4a44-bf2c-00a9a144dea4
+dates:
+  send_date: '2025-12-16'
+  inferred_send_type: local_time
+  first_sent: '2025-12-15T22:23:06+00:00'
+  last_sent: '2025-12-16T17:15:58+00:00'
+tags:
+- am
+- batch and blast
+- collect
+- d2c
+- designed
+- prod
+- prod/decor
+sends:
+- id: 8dcfbaa8-2290-4885-b1ba-13be9568245d
+  channel: email
+  name: Variant 1
+  subject: For the moments that matter
+  preheader: Entertaining essentials crafted for connection.
+  html_file: html/p_em_2025_12_16_cz_d_pr_entertaining_essentials.html
+  screenshot: screenshots/p_em_2025_12_16_cz_d_pr_entertaining_essentials.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6940692785a6410064046c75/original.gif?1765828903
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6940693f58037200647c996d/original.png?1765828926
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6940690e54c2b3006394acf1/original.png?1765828877
+- id: cb2b1400-8c42-48aa-b580-ba5509c9fc67
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 57151
+  total_delivered: 57075
+  total_opens: 28451
+  total_clicks: 414
+  open_rate: 0.4978
+  click_rate: 0.0072
+  total_bounces: 2
+  total_unsubscribes: 131
+  ga4:
+    sessions: 249
+    purchases: 3
+    revenue: 207.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.951065'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.938364'
+schedule_type: time_based

@@ -1,0 +1,31 @@
+id: c47e9d54-dd81-454a-bfa4-2459971f28da
+name: P_EM_2026_07_03_HAV_CONV_PT_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: c47e9d54-dd81-454a-bfa4-2459971f28da
+dates:
+  send_date: '2026-07-03'
+  last_sent: '2026-07-03'
+tags: []
+sends:
+- id: c9b2784e-2719-4460-8770-a1058dce0aa2
+  channel: email
+  name: Variant 1
+  subject: Fourth of July deals end soon
+- id: 32fc1108-d0e3-4ccd-a87c-1a7696af94b6
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 42160
+  total_delivered: 42050
+  total_opens: 20521
+  total_clicks: 103
+  open_rate: 0.4867
+  click_rate: 0.0024
+  total_bounces: 1
+  total_unsubscribes: 36
+schedule_type: time_based
+_filename: p_em_2026_07_03_hav_conv_pt_sale_reminder.yaml

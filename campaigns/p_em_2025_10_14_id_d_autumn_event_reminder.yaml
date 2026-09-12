@@ -1,0 +1,63 @@
+id: 76e3c5d9-c47e-4eb8-be20-187456c0dca8
+name: P_EM_2025_10_14_ID_D_Autumn_Event_Reminder
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: fall
+braze_id: 76e3c5d9-c47e-4eb8-be20-187456c0dca8
+dates:
+  send_date: '2025-10-14'
+  inferred_send_type: scheduled
+  first_sent: '2025-10-14T03:58:59+00:00'
+  last_sent: '2025-10-14T17:17:22+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 6314f7b2-d1ba-4fb3-aef5-2c60d1840b3b
+  channel: email
+  name: Variant 1
+  subject: 20% Off Everything You’ve Been Eyeing
+  preheader: The Autumn Event Is On
+- id: ea7ccbf0-2784-41a8-88f4-ab813518fb6e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 200263
+  total_delivered: 199278
+  total_opens: 92264
+  total_clicks: 580
+  open_rate: 0.4607
+  click_rate: 0.0029
+  total_revenue: 163115.94
+  total_bounces: 5
+  total_unsubscribes: 274
+  ga4:
+    sessions: 707
+    purchases: 8
+    revenue: 23555.74
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.120765'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-the-autumn-event-2025-10-09
+    name: The Autumn Event
+    start_date: '2025-10-09'
+    end_date: '2025-10-21'
+    discount: 20% off sitewide
+    type: null
+  primary_sale:
+    id: id-the-autumn-event-2025-10-09
+    name: The Autumn Event
+    start_date: '2025-10-09'
+    end_date: '2025-10-21'
+    discount: 20% off sitewide
+    type: null
+  sale_name: The Autumn Event
+  sale_discount: 20% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:42.924587'
+schedule_type: time_based

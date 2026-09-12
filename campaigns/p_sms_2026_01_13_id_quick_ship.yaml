@@ -1,0 +1,30 @@
+id: fcd90871-f3e7-482b-a2f6-6ddc02e1c420
+name: P_SMS_2026_01_13_ID_Quick_Ship
+brand: ID
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: fcd90871-f3e7-482b-a2f6-6ddc02e1c420
+dates:
+  send_date: '2026-01-13'
+  inferred_send_type: local_time
+  first_sent: '2026-01-13T01:08:21+00:00'
+  last_sent: '2026-01-14T01:01:49+00:00'
+tags: []
+sends:
+- id: 8a4a1a4a-876b-4b7b-9d89-fb3c8f9a11d3
+  channel: sms
+  name: Variant 1
+- id: e1782093-e40c-4bc3-bc67-7c1c1d70c5e8
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 49627
+  total_delivered: 47666
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 8321.98
+schedule_type: time_based

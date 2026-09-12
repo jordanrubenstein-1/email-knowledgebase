@@ -1,0 +1,33 @@
+# Registry of Air boards tracked by scripts/sync_air_image_library.py.
+# Add a board here (board_id from the Air API/URL) to bring it into the
+# incremental sync + markdown catalog. slug determines the store file
+# (data/air_image_library/<slug>.json) and doc file (docs/asset-library/<slug>.md).
+
+boards:
+  - slug: id-lifestyle-imagery
+    board_id: d64cf9c2-817b-4b44-833c-5017266a588f
+    title: "Interior Define — Lifestyle Imagery"
+    note: "Primary/authoritative ID stock photography board — check this first."
+
+  - slug: id-photoshoots-unsorted
+    board_id: 7190ee48-4d8b-451b-92d1-49cc99443165
+    title: "Interior Define — Photoshoots (To Be Sorted)"
+    note: "Board's own description: 'mainly duplicates from lifestyle imagery board' — secondary source."
+
+  - slug: id-ugc
+    board_id: 0da550f0-99a4-42dd-adc4-517d03a5cf7b
+    title: "Interior Define — UGC"
+    note: "Customer/creator content."
+
+  - slug: id-studios
+    board_id: 5cdea032-6838-4b70-9880-092444b18f9b
+    title: "Interior Define — Studios"
+    note: "Showroom/event photography by location."
+
+  # Excluded on purpose (2026-07-15 scoping decision) — video-heavy or
+  # spec/swatch boards, lower priority for email creative. Add if a brief
+  # specifically needs them:
+  #   Influencers            d01bfbff-7a50-4b6a-8f1a-e7a9b847ceee  (1,520, mostly video)
+  #   Sit Videos             2636b01b-0b54-4b09-b71b-86300b6f3c59  (132, video)
+  #   Fabrics                f9d5472f-f0f7-42e8-b70e-6ddb1246404a  (193, swatches)
+  #   Product Development    36f144e2-2628-4417-8469-27958f998548  (62, dev/spec shots)

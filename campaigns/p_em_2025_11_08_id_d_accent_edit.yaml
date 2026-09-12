@@ -1,0 +1,47 @@
+id: bb636df1-9be1-4258-a75d-4c8c4fbc0b6d
+name: P_EM_2025_11_08_ID_D_Accent_Edit
+brand: ID
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: bb636df1-9be1-4258-a75d-4c8c4fbc0b6d
+dates:
+  send_date: '2025-11-08'
+  inferred_send_type: local_time
+  first_sent: '2025-11-07T19:52:06+00:00'
+  last_sent: '2025-11-08T17:15:35+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 5d130d13-8024-4d86-86c4-df8f6a9d9512
+  channel: email
+  name: Variant 1
+  subject: The Finishing Touch 🤌
+  preheader: It’s All In The Details
+- id: 6142e6d0-0023-4e75-921b-7a4cad796a68
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 206881
+  total_delivered: 202761
+  total_opens: 96784
+  total_clicks: 719
+  open_rate: 0.4678
+  click_rate: 0.0035
+  total_revenue: 87148.74
+  total_bounces: 3
+  total_unsubscribes: 227
+  ga4:
+    sessions: 819
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.424728'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.975796'
+schedule_type: time_based

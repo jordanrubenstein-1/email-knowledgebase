@@ -1,0 +1,31 @@
+id: 7d9e46a3-d9cc-4375-b973-55ee82c61336
+name: Update Items in Cart on Profile - Cart Viewed
+brand: ID
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: 7d9e46a3-d9cc-4375-b973-55ee82c61336
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-12-10T02:00:00+00:00'
+  last_sent: '2026-06-14T16:00:00+00:00'
+tags:
+- system
+sends: []
+performance_summary:
+  total_entries: 19167
+  note: Canvas entries found but no message sends in analytics period
+canvas_steps:
+- id: d487b0fa-f7f2-488f-b61c-25e4a063da7d
+  name: Step
+  type: user_update
+- id: bf75cf36-986e-4b40-adca-b57dc66f0e68
+  name: Step 1
+  type: user_update
+- id: 12a6ea99-c5d6-4735-92a6-10b5cadf28ad
+  name: Step 2
+  type: message
+_filename: update-items-in-cart-on-profile-cart-viewed.yaml

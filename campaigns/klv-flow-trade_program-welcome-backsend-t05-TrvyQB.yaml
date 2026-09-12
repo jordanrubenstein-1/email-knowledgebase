@@ -1,0 +1,56 @@
+id: klaviyo-TrvyQB
+name: 'trade-approved_email-03 Test #1 August 06, 2024 Variation B'
+brand: TE
+channel: email
+category: other
+type: lifecycle
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: RSXsni
+canvas_name: trade_program-welcome-backsend1
+flow_type: welcome_series
+sequence_position: 5
+dates:
+  created: '2024-09-16'
+  inferred_send_type: scheduled
+  first_sent: '2024-09-16'
+  last_sent: '2024-09-16'
+sends:
+- id: TrvyQB
+  channel: email
+  name: Message
+  subject: Ready-to-ship vintage gems
+  preheader: One-of-a-kind treasures that make a room.
+  html_file: html/klv-flow-trade_program-welcome-backsend-t05-TrvyQB.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/dac146b7-7dfc-4851-8cf1-d7978d5e7110.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/e101488e-ecd0-40cd-b714-1763333fc7d0.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/e027bc6d-8926-439e-8637-dc7e0901bbaf.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/6b196b5a-ad0f-4f29-aa03-c720a9dc5f47.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/0248622a-5304-4c83-8f56-da0dc5fdfa2b.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/1bc64909-f042-4afe-b78b-d25732b5e574.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/287e2adc-29ee-485d-b0d9-3773a19b9119.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/6365641a-1623-44ef-a2a7-996fb118b9c8.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/a1cb743f-8e7a-4ede-b971-e8acae7c6115.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/c2b518a1-3b7f-4a69-8279-c092ef5f0172.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: TrvyQB
+structure:
+  image_count: 32
+  link_count: 37
+  has_gif: false
+  hero_width: 100
+  layout_type: product_grid

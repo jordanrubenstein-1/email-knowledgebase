@@ -1,0 +1,35 @@
+id: 8b6826eb-e5e3-4749-bcb4-fc832c042bc0
+name: P_EM_2025_08_08_HAV_PC_D_Labor_Day_Event_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 8b6826eb-e5e3-4749-bcb4-fc832c042bc0
+dates:
+  send_date: '2025-08-08'
+  first_sent: '2025-08-07T18:21:34+00:00'
+  last_sent: '2025-08-08T18:15:16+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 1b014e86-fe49-4fb2-9a62-c39fbfc9c5bd
+  channel: email
+  name: Variant 1
+  subject: Reserve your spot today for 50% off.
+  preheader: Your future self will thank you.
+- id: 1ba9eafe-f2b0-41c3-97e7-49b3b105fc86
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 230059
+  total_delivered: 229520
+  total_opens: 96086
+  total_clicks: 335
+  open_rate: 0.4177
+  click_rate: 0.0015
+  total_bounces: 12
+  total_unsubscribes: 408
+schedule_type: time_based
+_filename: p_em_2025_08_08_hav_pc_d_labor_day_event_reminder.yaml

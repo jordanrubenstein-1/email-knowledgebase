@@ -1,0 +1,37 @@
+id: 9e60590f-34c6-4e49-83cb-6cc960e2be40
+name: 20241023_Bestsellers_IP-Warming-Day-2
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 9e60590f-34c6-4e49-83cb-6cc960e2be40
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2024-10-23T16:00:02+00:00'
+  last_sent: '2024-10-23T16:01:10+00:00'
+tags:
+- IP Warming
+sends:
+- id: c38a6bf2-4d7c-4b24-a27f-5c07ec867481
+  channel: email
+  name: Variant 1
+  subject: From seating to storage, these are our crowd favorites
+  preheader: Shop our bestsellers.
+- id: ce946717-40a9-4a1f-ac77-3d738f638645
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 73
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.783453'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.301680'
+schedule_type: time_based

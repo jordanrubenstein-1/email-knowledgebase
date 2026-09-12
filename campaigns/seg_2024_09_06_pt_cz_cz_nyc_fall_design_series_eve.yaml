@@ -1,0 +1,46 @@
+id: 9dba87d2-272b-4c34-be5a-a97d98509081
+name: SEG_2024_09_06_PT_CZ_CZ_NYC_Fall_Design_Series_Events_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: seasonal
+theme: fall
+braze_id: 9dba87d2-272b-4c34-be5a-a97d98509081
+dates:
+  send_date: '2024-09-06'
+  inferred_send_type: local_time
+  first_sent: '2024-09-05T23:32:32+00:00'
+  last_sent: '2024-09-06T17:00:10+00:00'
+tags: []
+sends:
+- id: bb32649d-cbb1-48c0-bbcd-9d44687c5b35
+  channel: email
+  name: Variant 1
+  subject: Upcoming events at our Soho Flagship
+  html_file: html/seg_2024_09_06_pt_cz_cz_nyc_fall_design_series_events_email.html
+  screenshot: screenshots/seg_2024_09_06_pt_cz_cz_nyc_fall_design_series_events_email.png
+- id: d4b7cb64-54e2-4051-8a66-12c021ae8fe9
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 13592
+  total_delivered: 13586
+  total_opens: 8277
+  total_clicks: 27
+  open_rate: 0.609
+  click_rate: 0.002
+  total_revenue: 21820.08
+  total_unsubscribes: 14
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.845897'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:35.472306'
+schedule_type: time_based

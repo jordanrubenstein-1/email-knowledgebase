@@ -1,0 +1,33 @@
+id: bf18eeed-ad29-44bc-bd90-f39f70202041
+name: P_EM_2026_06_07_HAV_PT_PC_DPS_Fourth_Of_July_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: bf18eeed-ad29-44bc-bd90-f39f70202041
+dates:
+  send_date: '2026-06-07'
+  first_sent: '2026-06-06T11:05:26+00:00'
+  last_sent: '2026-06-08T09:05:36+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: a41a98d8-f62c-4efa-9c1a-f9c360bade77
+  channel: email
+  name: Variant 1
+  subject: 'Inside: your 50% off design offer'
+- id: 08374263-3267-49ef-acba-fd8e1efc06f1
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 273108
+  total_delivered: 271989
+  total_opens: 104722
+  total_clicks: 658
+  open_rate: 0.3834
+  click_rate: 0.0024
+  total_bounces: 13
+  total_unsubscribes: 511
+schedule_type: time_based
+_filename: p_em_2026_06_07_hav_pt_pc_dps_fourth_of_july_sale_reminder.yaml

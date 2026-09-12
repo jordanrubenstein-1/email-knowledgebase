@@ -1,0 +1,45 @@
+id: f4446b87-15c2-4e66-b464-9bd5951a52c3
+name: Blog Welcome Series
+brand: HAV
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: f4446b87-15c2-4e66-b464-9bd5951a52c3
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-09-13T21:00:00+00:00'
+  last_sent: '2024-09-23T18:00:00+00:00'
+tags: []
+sends:
+- id: 731c468c-9ff6-43c4-ba2b-a05ac5486fb1
+  channel: email
+  name: TRG_2024_09_HAV_Blog_Welcome_Email
+  subject: 'Welcome! + your 15% off code '
+  preheader: Design magic ahead
+  step_id: f67aa8b0-df63-41cd-9eba-04b810652dc4
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.658574'
+    source: snowflake
+    channel: email
+canvas_steps:
+- id: f67aa8b0-df63-41cd-9eba-04b810652dc4
+  name: TRG_2024_09_HAV_Blog_Welcome_Email
+  type: message
+  channel: email
+  subject: 'Welcome! + your 15% off code '
+  preheader: Design magic ahead
+- id: 09cdd64a-2421-4a6f-9c22-a98ec7ea4294
+  name: Step 1
+  type: delay
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.903187'

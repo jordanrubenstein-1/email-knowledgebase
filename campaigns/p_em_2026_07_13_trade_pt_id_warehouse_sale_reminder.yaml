@@ -1,0 +1,32 @@
+id: ff9c66cd-f895-47d1-82c3-a70a6c192e2a
+name: P_EM_2026_07_13_TRADE_PT_ID_Warehouse_Sale_Reminder
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: ff9c66cd-f895-47d1-82c3-a70a6c192e2a
+dates:
+  send_date: '2026-07-13'
+  last_sent: '2026-07-13'
+tags: []
+sends:
+- id: cd8ef32d-6bb2-4060-8590-fcbe8e2e53d4
+  channel: email
+  name: Variant 1
+  subject: Fresh markdowns on the Interior Define Warehouse Sale
+- id: 189eec21-c958-4040-b607-50741b673505
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 22140
+  total_delivered: 21457
+  total_opens: 10273
+  total_clicks: 439
+  open_rate: 0.464
+  click_rate: 0.0198
+  total_revenue: 96562.24
+  total_bounces: 7
+  total_unsubscribes: 59
+schedule_type: time_based
+_filename: p_em_2026_07_13_trade_pt_id_warehouse_sale_reminder.yaml

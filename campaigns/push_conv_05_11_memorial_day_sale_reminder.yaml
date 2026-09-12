@@ -1,0 +1,23 @@
+id: b8f8862f-bc6c-463d-b7f1-0d6371d8dbca
+name: PUSH_Conv_05_11_Memorial_Day_Sale_Reminder
+brand: HAV
+channel: push
+category: reminder
+type: sale
+theme: null
+braze_id: b8f8862f-bc6c-463d-b7f1-0d6371d8dbca
+dates:
+  first_sent: '2025-05-11T03:06:35+00:00'
+  last_sent: '2025-05-12T02:00:49+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 4bfc995e-5b0f-49ef-9b69-85ae8bbbfeb5
+  channel: push
+  name: Variant 1
+- id: 645465d6-c66c-4af3-96f1-34e2d4215b73
+  channel: push
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: push_conv_05_11_memorial_day_sale_reminder.yaml

@@ -1,0 +1,36 @@
+id: bc3f318c-72b9-485b-b285-b456707656dd
+name: P_EM_2026_05_02_BW_D_New_Arrivals_Outdoor_Roundup
+brand: BUR
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: bc3f318c-72b9-485b-b285-b456707656dd
+dates:
+  send_date: '2026-05-02'
+  inferred_send_type: local_time
+  first_sent: '2026-05-01T20:05:54+00:00'
+  last_sent: '2026-05-02T19:01:56+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: f2780b2f-12b0-48d7-a415-8d83fe8a0ce7
+  channel: email
+  name: Variant 1
+  subject: New outdoor has arrived
+  preheader: Meet the latest pieces, now 30% off.
+- id: 27577c5d-100b-4085-ba4f-57bf44360757
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 94630
+  total_delivered: 94316
+  total_opens: 38420
+  total_clicks: 428
+  open_rate: 0.406
+  click_rate: 0.0045
+  total_revenue: 76311.0
+  total_bounces: 4
+  total_unsubscribes: 125
+_filename: p_em_2026_05_02_bw_d_new_arrivals_outdoor_roundup.yaml
+schedule_type: time_based

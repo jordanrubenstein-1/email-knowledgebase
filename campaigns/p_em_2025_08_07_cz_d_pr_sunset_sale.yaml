@@ -1,0 +1,84 @@
+id: 3d69e4a7-ab26-4051-8ddc-fd403d8c72a8
+name: P_EM_2025_08_07_CZ_D_PR_Sunset_Sale
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 3d69e4a7-ab26-4051-8ddc-fd403d8c72a8
+dates:
+  send_date: '2025-08-07'
+  inferred_send_type: local_time
+  first_sent: '2025-08-06T20:33:47+00:00'
+  last_sent: '2025-08-07T17:02:12+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale_feat
+sends:
+- id: 8f2c7470-12e7-40c0-a287-96ea323fc13c
+  channel: email
+  name: Variant 1
+  subject: The Sunset Sale is Open
+  preheader: Save 20% on iconic accents & decor.
+  html_file: html/p_em_2025_08_07_cz_d_pr_sunset_sale.html
+  screenshot: screenshots/p_em_2025_08_07_cz_d_pr_sunset_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689395d8360d8f0062e77aa5/original.png?1754502616
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689395e39897e30092268f00/original.png?1754502627
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689395efa90cbb00644c0f13/original.png?1754502639
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689396374720c0006299886d/original.png?1754502711
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6893965a4720c000829986e3/original.png?1754502745
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689395c3360d8f0062e778fb/original.png?1754502595
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6893966c43d53d00634e9baf/original.png?1754502764
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689395b186c980006308192c/original.png?1754502577
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689395cd360d8f0062e77942/original.png?1754502605
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6893964e8c7e4800630b1edd/original.png?1754502734
+- id: 85765e62-0ef2-4c2e-bda7-8b2ac33fde2f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 101149
+  total_delivered: 101051
+  total_opens: 52087
+  total_clicks: 1037
+  open_rate: 0.515
+  click_rate: 0.0103
+  total_revenue: 73178.49
+  total_bounces: 3
+  total_unsubscribes: 103
+  ga4:
+    sessions: 1488
+    purchases: 14
+    revenue: 6215.19
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.321833'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: Up to 65% Off Select Categories - Focus on Archive Sale and In Stock
+      Product
+    type: null
+  primary_sale:
+    id: cz-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: Up to 65% Off Select Categories - Focus on Archive Sale and In Stock
+      Product
+    type: null
+  sale_name: The Sunset Sale
+  sale_discount: Up to 65% Off Select Categories - Focus on Archive Sale and In Stock
+    Product
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:41.270711'
+schedule_type: time_based

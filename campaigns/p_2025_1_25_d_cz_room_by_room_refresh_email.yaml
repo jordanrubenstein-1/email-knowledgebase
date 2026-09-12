@@ -1,0 +1,59 @@
+id: 168841f4-76c6-4f50-963c-d46d5247e098
+name: P_2025_1_25_D_CZ_Room_by_Room_Refresh_Email
+brand: CZ
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 168841f4-76c6-4f50-963c-d46d5247e098
+dates:
+  send_date: '2025-01-25'
+  inferred_send_type: local_time
+  first_sent: '2025-01-25T00:52:02+00:00'
+  last_sent: '2025-01-25T17:01:34+00:00'
+tags: []
+sends:
+- id: 4bf887bc-1d7b-42ac-b450-140ceefcd5a3
+  channel: email
+  name: Variant 1
+  subject: New Year. New Room.
+  preheader: Discover our shop by room guide.
+  html_file: html/p_2025_1_25_d_cz_room_by_room_refresh_email.html
+  screenshot: screenshots/p_2025_1_25_d_cz_room_by_room_refresh_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6792adb300324c0066401054/original.png?1737665971
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6792ad823c89d5006570d4bc/original.png?1737665922
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6792ad5408285100663866df/original.png?1737665875
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6793d4d939e8ed0065172791/original.png?1737741528
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6792a8413c89d5006570c7d4/original.png?1737664577
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6792a8663aef780064f6309e/original.png?1737664613
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6792a7ee0828510066385687/original.png?1737664493
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6792a88cf67b3b0065183bc7/original.png?1737664652
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6792a8b73aef780064f63143/original.png?1737664694
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6792aacfc87d61006365ee61/original.png?1737665231
+- id: 30a36231-81d5-428c-8344-ddd7e2cb00d1
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 96148
+  total_delivered: 95451
+  total_opens: 47983
+  total_clicks: 1010
+  open_rate: 0.4991
+  click_rate: 0.0105
+  total_revenue: 54188.99
+  total_bounces: 5
+  total_unsubscribes: 128
+  ga4:
+    sessions: 1158
+    purchases: 4
+    revenue: 1409.28
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.635972'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.812087'
+schedule_type: time_based

@@ -1,0 +1,32 @@
+id: 5aa275b6-36aa-4007-83c3-73f616a69ea0
+name: P_2025_2_9_HAV_HVC_Bonus_Offer_Email
+brand: HAV
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 5aa275b6-36aa-4007-83c3-73f616a69ea0
+dates:
+  send_date: '2025-02-09'
+  first_sent: '2025-02-09T18:00:36+00:00'
+  last_sent: '2025-02-09T23:15:06+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 4b305a97-d660-4dbf-833e-0cd7294793e4
+  channel: email
+  name: Variant 1
+  subject: Exclusive VIP Presidents Day Bonus Offer – 20% Off Just for You!
+- id: d2938664-80ff-41a3-997a-1178145622ee
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1030
+  total_delivered: 1029
+  total_opens: 720
+  total_clicks: 26
+  open_rate: 0.699
+  click_rate: 0.0252
+  total_unsubscribes: 2
+schedule_type: time_based
+_filename: p_2025_2_9_hav_hvc_bonus_offer_email.yaml

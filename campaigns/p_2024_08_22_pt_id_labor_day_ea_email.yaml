@@ -1,0 +1,44 @@
+id: aeab3ef4-ab38-473c-8247-8ba79305ee90
+name: P_2024_08_22_PT_ID_Labor_Day_EA_Email
+brand: ID
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: aeab3ef4-ab38-473c-8247-8ba79305ee90
+dates:
+  send_date: '2024-08-22'
+  inferred_send_type: scheduled
+  first_sent: '2024-08-21T23:15:52+00:00'
+  last_sent: '2024-08-22T14:05:04+00:00'
+tags: []
+sends:
+- id: ff00dab8-9c29-497f-b4c2-79afda657a3e
+  channel: email
+  name: Variant 1
+  subject: Last Chance! VIP Early Access
+- id: cd124c38-1e67-48e6-ade7-a0354ba8d54d
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 9159
+  total_delivered: 9113
+  total_opens: 4841
+  total_clicks: 212
+  open_rate: 0.5286
+  click_rate: 0.0231
+  total_bounces: 1
+  total_unsubscribes: 37
+  ga4:
+    sessions: 363
+    purchases: 1
+    revenue: 1958.86
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.583174'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.209875'
+schedule_type: time_based

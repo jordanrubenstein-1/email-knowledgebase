@@ -1,0 +1,33 @@
+id: c98e61f7-7fa0-47c8-ad46-7dc93e963867
+name: P_EM_2026_07_25_SF_D_Summer_Sale_Reminder
+brand: STF
+channel: email
+category: reminder
+type: sale
+theme: summer
+braze_id: c98e61f7-7fa0-47c8-ad46-7dc93e963867
+dates:
+  send_date: '2026-07-25'
+  last_sent: '2026-07-25'
+tags: []
+sends:
+- id: f0c537f8-39e0-4bbf-825a-8b669f5f9f30
+  channel: email
+  name: Variant 1
+  subject: Still 20% off sitewide
+  preheader: Bold patterns, deeper savings. Shop the edit.
+- id: 82e14e63-7192-450c-baa6-ab033624691b
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 36826
+  total_delivered: 35983
+  total_opens: 11456
+  total_clicks: 127
+  open_rate: 0.3111
+  click_rate: 0.0034
+  total_revenue: 1446.4
+  total_bounces: 1
+  total_unsubscribes: 32
+schedule_type: time_based
+_filename: p_em_2026_07_25_sf_d_summer_sale_reminder.yaml

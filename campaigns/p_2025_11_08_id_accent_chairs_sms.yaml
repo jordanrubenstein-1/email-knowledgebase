@@ -1,0 +1,30 @@
+id: f6921bb6-00f5-431e-8a59-9c859566cedb
+name: P_2025_11_08_ID_Accent_Chairs_SMS
+brand: ID
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: f6921bb6-00f5-431e-8a59-9c859566cedb
+dates:
+  send_date: '2025-11-08'
+  inferred_send_type: local_time
+  first_sent: '2025-11-08T01:08:37+00:00'
+  last_sent: '2025-11-09T01:03:44+00:00'
+tags: []
+sends:
+- id: 7815b665-041f-4ba4-b352-54f2a2b625ee
+  channel: other
+  name: Variant 1
+- id: c7b82930-f65c-47e8-90b8-95c59a9ccc72
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 51116
+  total_delivered: 49258
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 14950.0
+schedule_type: time_based

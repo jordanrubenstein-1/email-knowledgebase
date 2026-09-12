@@ -1,0 +1,63 @@
+id: 99374037-f925-44ed-96ed-f641bd141919
+name: P_EM_2025_08_20_ID_D_Labor_Day_Event_Announcement
+brand: ID
+channel: email
+category: sale_promo
+type: product_launch
+theme: null
+braze_id: 99374037-f925-44ed-96ed-f641bd141919
+dates:
+  send_date: '2025-08-20'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-20T05:20:42+00:00'
+  last_sent: '2025-08-20T17:15:24+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: ca921d2f-2ee4-412f-bd4f-cfbf13f4d7f6
+  channel: email
+  name: Variant 1
+  subject: 'We Just Couldn’t Wait… '
+  preheader: Shop 25% off now and get your custom piece home ahead of the crowd.
+- id: 91615cc8-f63f-46db-8286-2c5610cea053
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 190879
+  total_delivered: 188493
+  total_opens: 88288
+  total_clicks: 1067
+  open_rate: 0.4625
+  click_rate: 0.0056
+  total_revenue: 241913.25
+  total_bounces: 2
+  total_unsubscribes: 335
+  ga4:
+    sessions: 1664
+    purchases: 15
+    revenue: 37191.84
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.053468'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-04'
+    discount: 25% off sitewide
+    type: null
+  primary_sale:
+    id: id-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-04'
+    discount: 25% off sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 25% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:42.201928'
+schedule_type: time_based

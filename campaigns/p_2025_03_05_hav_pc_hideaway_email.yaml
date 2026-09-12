@@ -1,0 +1,35 @@
+id: 8f0ba525-500f-4175-ba59-1e3c34e607c9
+name: P_2025_03_05_HAV_PC_Hideaway_Email
+brand: HAV
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 8f0ba525-500f-4175-ba59-1e3c34e607c9
+dates:
+  send_date: '2025-03-05'
+  first_sent: '2025-03-05T23:22:05+00:00'
+  last_sent: '2025-03-05T23:24:18+00:00'
+  inferred_send_type: scheduled
+tags:
+- HideawayEmails
+sends:
+- id: ef16bedc-19c4-4e84-9266-07d16642a0e0
+  channel: email
+  name: Variant 1
+  subject: Bouclé is out — here’s what’s next
+  preheader: Thank you, next
+- id: ae4558b6-51c0-46b9-989b-8da1506ca302
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 194942
+  total_delivered: 191853
+  total_opens: 90067
+  total_clicks: 2781
+  open_rate: 0.462
+  click_rate: 0.0143
+  total_bounces: 50
+  total_unsubscribes: 326
+schedule_type: time_based
+_filename: p_2025_03_05_hav_pc_hideaway_email.yaml

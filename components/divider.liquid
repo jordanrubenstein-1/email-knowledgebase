@@ -1,0 +1,36 @@
+{% comment %}
+  Divider Component
+
+  Creates a visible horizontal line to separate email sections.
+  Use spacer.liquid for invisible spacing.
+
+  Optional variables:
+    height    - Line thickness in pixels (default: 1)
+    color     - Line color (default: #e0e0e0)
+    width     - Width as percentage or pixels (default: 100%)
+    margin_top    - Top margin in pixels (default: 0)
+    margin_bottom - Bottom margin in pixels (default: 0)
+
+  Usage:
+    {% comment %} Simple gray divider {% endcomment %}
+    {% render 'divider' %}
+
+    {% comment %} Thick colored divider, centered {% endcomment %}
+    {% assign height = 2 %}
+    {% assign color = '#d4a574' %}
+    {% assign width = '60%' %}
+    {% render 'divider' %}
+
+    {% comment %} Divider with spacing {% endcomment %}
+    {% assign margin_top = 20 %}
+    {% assign margin_bottom = 20 %}
+    {% render 'divider' %}
+{% endcomment %}
+
+{% assign height = height | default: 1 %}
+{% assign color = color | default: '#e0e0e0' %}
+{% assign width = width | default: '100%' %}
+{% assign margin_top = margin_top | default: 0 %}
+{% assign margin_bottom = margin_bottom | default: 0 %}
+
+<table class="divider_block" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td style="padding:{{ margin_top }}px 0 {{ margin_bottom }}px 0"><div style="height:{{ height }}px;background:{{ color }};width:{{ width }};margin:0 auto"></div></td></tr></table>

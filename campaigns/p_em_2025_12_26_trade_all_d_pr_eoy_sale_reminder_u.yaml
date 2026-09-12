@@ -1,0 +1,42 @@
+id: 01b8152a-1df9-4c49-95f6-edbb35c23567
+name: P_EM_2025_12_26_TRADE_ALL_D_PR_EOY_Sale_Reminder_Updated
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 01b8152a-1df9-4c49-95f6-edbb35c23567
+dates:
+  send_date: '2025-12-26'
+  inferred_send_type: local_time
+  first_sent: '2025-12-25T19:09:42+00:00'
+  last_sent: '2025-12-26T19:00:36+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: b91b533f-6951-4512-9b1e-210184ceec4d
+  channel: email
+  name: Variant 1
+  subject: This One’s For Trade
+  preheader: 'For a limited time: up to 30% off our family of brands.'
+- id: a2d2fc98-b7bf-4b29-b33b-5746b416dc9f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 19848
+  total_delivered: 19210
+  total_opens: 9569
+  total_clicks: 85
+  open_rate: 0.4821
+  click_rate: 0.0043
+  total_revenue: 13345.0
+  total_unsubscribes: 52
+  ga4:
+    sessions: 98
+    purchases: 2
+    revenue: 8870.43
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.979340'
+    source: snowflake
+    channel: email
+schedule_type: time_based

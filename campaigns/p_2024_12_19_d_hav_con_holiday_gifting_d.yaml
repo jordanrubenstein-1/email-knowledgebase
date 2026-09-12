@@ -1,0 +1,33 @@
+id: 0261ee4c-28ab-43eb-8629-d83db3289db9
+name: P_2024_12_19_D_HAV_CON_Holiday_Gifting_D
+brand: HAV
+channel: email
+category: other
+type: seasonal
+theme: christmas
+braze_id: 0261ee4c-28ab-43eb-8629-d83db3289db9
+dates:
+  send_date: '2024-12-19'
+  first_sent: '2024-12-19T05:58:49+00:00'
+  last_sent: '2024-12-19T17:15:11+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 729e9e3c-ac77-4ccf-98b7-d0752239278b
+  channel: email
+  name: Variant 1
+  subject: Gift A Home Makeover For Under $100 🎁
+  preheader: Get 50% off design packages for you and yours.
+- id: 1036a941-89a5-4a1e-8319-758f8a341c9f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 36164
+  total_delivered: 35980
+  total_opens: 19990
+  total_clicks: 106
+  open_rate: 0.5528
+  click_rate: 0.0029
+  total_unsubscribes: 48
+schedule_type: time_based
+_filename: p_2024_12_19_d_hav_con_holiday_gifting_d.yaml

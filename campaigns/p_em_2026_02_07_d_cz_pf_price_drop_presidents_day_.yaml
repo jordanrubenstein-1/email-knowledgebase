@@ -1,0 +1,48 @@
+id: 399f1461-cdd1-476a-882c-e9ba1e1387de
+name: P_EM_2026_02_07_D_CZ_PF_Price_Drop_Presidents_Day_Sale_PM
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 399f1461-cdd1-476a-882c-e9ba1e1387de
+dates:
+  send_date: '2026-02-07'
+  inferred_send_type: local_time
+  first_sent: '2026-02-07T01:08:45+00:00'
+  last_sent: '2026-02-08T01:03:07+00:00'
+tags:
+- batch and blast
+- batch and blast/promo
+- d2c
+- pm
+- sale
+- sale/presidentsday2026
+- sale_feat
+sends:
+- id: fe105f01-ae68-46e9-b7ea-0c20fa2b565b
+  channel: email
+  name: Variant 1
+  subject: The style you love is on sale for Presidents Day
+  preheader: Don't miss sitewide savings.
+  html_file: html/p_em_2026_02_07_d_cz_pf_price_drop_presidents_day_sale_pm.html
+  screenshot: screenshots/p_em_2026_02_07_d_cz_pf_price_drop_presidents_day_sale_pm.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6717c06c07b094007275ce31/original.gif?1729609836
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6717c0ff25ffbb00919d1752/original.gif?1729609983
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6717c115f7d0eb0063f47c8a/original.gif?1729610005
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6717c10b9c35f00075d6bc41/original.gif?1729609995
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6717c1a2b79c7f0065c64a3b/original.gif?1729610146
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6717c1229c35f00066d6cc1e/original.jpg?1729610018
+- id: 50035ce3-5755-433f-bab9-f0e407649e69
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 7766
+  total_delivered: 7733
+  total_opens: 4497
+  total_clicks: 94
+  open_rate: 0.5791
+  click_rate: 0.0121
+  total_unsubscribes: 26
+schedule_type: time_based

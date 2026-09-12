@@ -1,0 +1,37 @@
+id: 1dd75dff-6565-49ec-b53b-74b02ed8575b
+name: P_SMS_2025_10_22_CZ_Anniversary_Sale_Last_Chance
+brand: CZ
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: 1dd75dff-6565-49ec-b53b-74b02ed8575b
+dates:
+  send_date: '2025-10-22'
+  inferred_send_type: local_time
+  first_sent: '2025-10-22T01:07:01+00:00'
+  last_sent: '2025-10-23T01:00:24+00:00'
+tags: []
+sends:
+- id: 2b48f4e9-18ce-4fea-abfc-7837636e00f8
+  channel: sms
+  name: Variant 1
+- id: 28e1fcbe-b427-4fd2-aff2-1cd8e6e2de23
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 21085
+  total_delivered: 20228
+  total_opens: 0
+  total_clicks: 195
+  open_rate: 0.0
+  click_rate: 0.0092
+  ga4:
+    sessions: 181
+    purchases: 3
+    revenue: 935.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.612465'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

@@ -1,0 +1,57 @@
+id: 0fba9f59-3585-42ca-a4e1-c899b9d144fb
+name: P_2025_04_21_CZ_Pillow_Pairings_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 0fba9f59-3585-42ca-a4e1-c899b9d144fb
+dates:
+  send_date: '2025-04-21'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-21T05:03:09+00:00'
+  last_sent: '2025-04-21T17:02:43+00:00'
+tags: []
+sends:
+- id: 33111939-50f3-4137-b13b-3251e572afa5
+  channel: email
+  name: Variant 1
+  subject: Perfect Pillow Pairings
+  preheader: We're taking the guesswork out of styling.
+  html_file: html/p_2025_04_21_cz_pillow_pairings_email.html
+  screenshot: screenshots/p_2025_04_21_cz_pillow_pairings_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6802dc360950100064c997e6/original.png?1745017909
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6802dc15bea63200621ed4cf/original.png?1745017877
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6802dbf1a0ebea0071cac1f1/original.png?1745017841
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6802dc490950100064c997f6/original.png?1745017928
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6802dc2da0ebea0062cafd06/original.png?1745017900
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6802dc07bea63200621ed4ce/original.png?1745017862
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6802dbecfaa56a0072dcd4dd/original.png?1745017835
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6802dc3d49313a0064a4c793/original.png?1745017916
+- id: 64709ac9-446f-4fc6-abbe-3a29174322dd
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 94988
+  total_delivered: 94487
+  total_opens: 49713
+  total_clicks: 661
+  open_rate: 0.5234
+  click_rate: 0.007
+  total_revenue: 99387.87
+  total_bounces: 4
+  total_unsubscribes: 114
+  ga4:
+    sessions: 762
+    purchases: 6
+    revenue: 2045.11
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.300682'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.049047'
+schedule_type: time_based

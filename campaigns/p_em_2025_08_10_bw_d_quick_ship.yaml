@@ -1,0 +1,73 @@
+id: 8e4e4b80-ef8a-4021-8d36-2991d76221fb
+name: P_EM_2025_08_10_BW_D_Quick_Ship
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 8e4e4b80-ef8a-4021-8d36-2991d76221fb
+dates:
+  send_date: '2025-08-10'
+  inferred_send_type: local_time
+  first_sent: '2025-08-09T18:24:28+00:00'
+  last_sent: '2025-08-10T17:15:18+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 034a5de7-a570-47d4-8c24-18b447d8dc9c
+  channel: email
+  name: Variant 1
+  subject: Need it now? We’re already on it.
+  preheader: Get to lounging sooner with our quick-ship styles now 20% off
+- id: f84445ce-2bba-49c1-9e39-73f9b84462ed
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 245763
+  total_delivered: 245202
+  total_opens: 143784
+  total_clicks: 465
+  open_rate: 0.5851
+  click_rate: 0.0019
+  total_revenue: 33879.0
+  total_bounces: 1
+  total_unsubscribes: 229
+  ga4:
+    sessions: 216
+    purchases: 4
+    revenue: 6747.87
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.561425'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off sitewide
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off sitewide
+    type: null
+  sale_name: The Sunset Sale
+  sale_discount: 20% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:31.391746'
+schedule_type: time_based

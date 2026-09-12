@@ -1,0 +1,97 @@
+id: klaviyo-01JGCDQVHC6G0D0AY6J0FMXZK3
+name: '1/2: EOY Sale - PT Last Chance PM'
+brand: TI
+channel: email
+category: sale_promo
+type: sale
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2024-12-30'
+  inferred_send_type: scheduled
+  first_sent: '2025-01-02T16:00:00+00:00'
+  last_sent: '2025-01-02T16:00:00+00:00'
+sends:
+- id: 01JGCDQVJBNB3BHKRMY15CTFJ7
+  channel: email
+  name: '1/2: EOY Sale - PT Last Chance PM'
+  subject: Need last minute sale ideas? We’ve got you…
+  preheader: ''
+  html_file: html/12-eoy-sale-pt-last-chance-pm.html
+  image_urls: []
+  screenshot: screenshots/12-eoy-sale-pt-last-chance-pm.png
+performance_summary:
+  total_sends: 104702
+  total_delivered: 104184
+  total_opens: 34714
+  total_clicks: 473
+  unique_opens: 24895
+  unique_clicks: 239
+  open_rate: 0.2378
+  click_rate: 0.0023
+  total_open_rate: 0.3316
+  total_click_rate: 0.0045
+  total_unsubscribes: 88
+  total_bounces: 518
+klaviyo_type: campaign
+klaviyo_campaign_id: 01JGCDQVHC6G0D0AY6J0FMXZK3
+klaviyo_message_id: 01JGCDQVJBNB3BHKRMY15CTFJ7
+structure:
+  image_count: 0
+  link_count: 5
+  has_gif: false
+  hero_width: null
+  layout_type: text_only
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: ti-end-of-year-sale-2025-01-01
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-05'
+    discount: 'B2C: Up to 30% Off (Comp Labor Day)
+
+      Trade: 30% Off Sitewide
+
+
+      30% off MTO beds (excluding quick ship)
+
+      20% off curtains
+
+      25% off all other MTO'
+    type: null
+  - id: ti_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: ti-end-of-year-sale-2025-01-01
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-05'
+    discount: 'B2C: Up to 30% Off (Comp Labor Day)
+
+      Trade: 30% Off Sitewide
+
+
+      30% off MTO beds (excluding quick ship)
+
+      20% off curtains
+
+      25% off all other MTO'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: 'B2C: Up to 30% Off (Comp Labor Day)
+
+    Trade: 30% Off Sitewide
+
+
+    30% off MTO beds (excluding quick ship)
+
+    20% off curtains
+
+    25% off all other MTO'
+  sale_type: null
+_sale_labeled_at: '2026-03-12T11:18:47.092294'

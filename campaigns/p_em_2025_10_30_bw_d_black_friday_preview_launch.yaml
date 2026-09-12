@@ -1,0 +1,77 @@
+id: 8c335465-c778-4e78-b283-c1a1fb98b77d
+name: P_EM_2025_10_30_BW_D_Black_Friday_Preview_Launch
+brand: BUR
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 8c335465-c778-4e78-b283-c1a1fb98b77d
+dates:
+  send_date: '2025-10-30'
+  inferred_send_type: local_time
+  first_sent: '2025-10-29T22:07:23+00:00'
+  last_sent: '2025-10-30T17:15:24+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 8fda5e60-9290-4858-b1f5-eda4a8d1a2cd
+  channel: email
+  name: Variant 1
+  subject: 🚨 30% OFF SITEWIDE 🚨
+  preheader: 'Be the FIRST to shop Black Friday deals
+
+
+
+    '
+- id: deb2f654-056b-4bb9-830e-ce47913bc0a1
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 233600
+  total_delivered: 231041
+  total_opens: 129309
+  total_clicks: 443
+  open_rate: 0.5535
+  click_rate: 0.0019
+  total_revenue: 47833.0
+  total_bounces: 14
+  total_unsubscribes: 203
+  ga4:
+    sessions: 416
+    purchases: 1
+    revenue: 222.38
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.702243'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-black-friday-now-2025-10-30
+    name: Black Friday Now
+    start_date: '2025-10-30'
+    end_date: '2025-11-03'
+    discount: 30% off sitewide + free shipping on orders >$2k
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-black-friday-now-2025-10-30
+    name: Black Friday Now
+    start_date: '2025-10-30'
+    end_date: '2025-11-03'
+    discount: 30% off sitewide + free shipping on orders >$2k
+    type: null
+  sale_name: Black Friday Now
+  sale_discount: 30% off sitewide + free shipping on orders >$2k
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:33.106956'
+schedule_type: time_based

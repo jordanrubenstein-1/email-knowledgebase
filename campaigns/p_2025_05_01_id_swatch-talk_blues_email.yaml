@@ -1,0 +1,47 @@
+id: 105ee977-0d9b-4bd3-b9bd-f6ec64069554
+name: P_2025_05_01_ID_Swatch Talk_Blues_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 105ee977-0d9b-4bd3-b9bd-f6ec64069554
+dates:
+  send_date: '2025-05-01'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-01T05:50:12+00:00'
+  last_sent: '2025-05-01T17:15:05+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: e4688846-48b1-4dd7-a04b-72351efb91b7
+  channel: email
+  name: Variant 1
+  subject: 📢 Victims of the Millennial Green Trend
+  preheader: This one's for you.
+- id: 1f9a8ba2-550f-4107-8063-cacd848790db
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 158244
+  total_delivered: 156121
+  total_opens: 37863
+  total_clicks: 533
+  open_rate: 0.2393
+  click_rate: 0.0034
+  total_revenue: 69725.0
+  total_bounces: 4
+  total_unsubscribes: 106
+  ga4:
+    sessions: 492
+    purchases: 1
+    revenue: 3988.13
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.637633'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.772460'
+schedule_type: time_based

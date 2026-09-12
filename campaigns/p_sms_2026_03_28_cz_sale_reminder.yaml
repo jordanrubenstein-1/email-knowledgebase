@@ -1,0 +1,29 @@
+id: cb7c81ce-e601-438c-9e7e-42c2b75c887d
+name: P_SMS_2026_03_28_CZ_Sale_Reminder
+brand: CZ
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: cb7c81ce-e601-438c-9e7e-42c2b75c887d
+dates:
+  send_date: '2026-03-28'
+  inferred_send_type: scheduled
+  first_sent: '2026-03-28T06:05:46+00:00'
+  last_sent: '2026-03-28T20:00:00+00:00'
+tags: []
+sends:
+- id: 527a40ad-7c22-4acf-9815-5ca3208959b8
+  channel: sms
+  name: Variant 1
+- id: cc491686-4e18-4e8c-9fe4-3d88fe6995d4
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 16776
+  total_delivered: 16350
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+schedule_type: time_based

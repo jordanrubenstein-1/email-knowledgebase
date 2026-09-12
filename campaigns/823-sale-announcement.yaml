@@ -1,0 +1,58 @@
+id: klaviyo-01J5RCRZXGPHJRCMBVYD4PK7NG
+name: '8/23: Sale Announcement'
+brand: TI
+channel: email
+category: sale_promo
+type: sale
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2024-08-20'
+  inferred_send_type: scheduled
+  first_sent: '2024-08-23T07:00:00+00:00'
+  last_sent: '2024-08-23T07:00:00+00:00'
+sends:
+- id: 01J5RCS012NB8HCW8DCEWC8E57
+  channel: email
+  name: '8/23: Sale Announcement'
+  subject: '25% OFF EVERYTHING: Now live!'
+  preheader: Shop the Labor Day Event
+  html_file: html/823-sale-announcement.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/6829a69d-e9bb-4fa7-a20f-18c6afda91e8.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/83ac3a72-8629-40e1-8103-37d6c4dcfb94.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/a357017e-6aaf-421d-8247-6a8acd9970b8.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/68b7530e-8109-41d9-8d44-8b10ffd1ed71.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/ed552c85-6884-40c6-9074-a101f3d316fc.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/d4beab1d-b31a-4220-aa71-e6dc59a4ef89.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/48f8b0bf-f674-4de6-83a6-f00ae0bfb57e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/0bbad023-9c58-48b4-8de9-8b141454c906.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/7f054130-9a29-4362-b072-ea792739356e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/d4c78d76-8ba8-4b66-a865-c42263784180.gif
+  screenshot: screenshots/823-sale-announcement.png
+performance_summary:
+  total_sends: 104939
+  total_delivered: 104271
+  total_opens: 30756
+  total_clicks: 1931
+  unique_opens: 21777
+  unique_clicks: 813
+  open_rate: 0.2075
+  click_rate: 0.0077
+  total_open_rate: 0.2931
+  total_click_rate: 0.0184
+  total_unsubscribes: 41
+  total_bounces: 668
+klaviyo_type: campaign
+klaviyo_campaign_id: 01J5RCRZXGPHJRCMBVYD4PK7NG
+klaviyo_message_id: 01J5RCS012NB8HCW8DCEWC8E57
+structure:
+  image_count: 20
+  link_count: 21
+  has_gif: true
+  hero_width: 600
+  layout_type: product_grid
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-03-12T11:18:46.766412'

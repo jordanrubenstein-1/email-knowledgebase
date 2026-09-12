@@ -1,0 +1,35 @@
+id: 281685a9-a425-43cd-886e-8c29f6e5fe86
+name: P_EM_2026_05_03_HAV_CONV_D_Weekender_Flash_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 281685a9-a425-43cd-886e-8c29f6e5fe86
+dates:
+  send_date: '2026-05-03'
+  first_sent: '2026-05-02T19:05:14+00:00'
+  last_sent: '2026-05-03T18:02:28+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 12fb236b-9e25-495c-8e10-273fdfcb1051
+  channel: email
+  name: Variant 1
+  subject: Savings up to 30%, this weekend only
+  preheader: Save on select brands this weekend, only at Havenly.
+- id: 4e427da8-aae5-4296-b9d4-79c6b10cfde1
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 15175
+  total_delivered: 15169
+  total_opens: 7469
+  total_clicks: 87
+  open_rate: 0.4922
+  click_rate: 0.0057
+  total_bounces: 1
+  total_unsubscribes: 19
+schedule_type: time_based
+_filename: p_em_2026_05_03_hav_conv_d_weekender_flash_sale_reminder.yaml

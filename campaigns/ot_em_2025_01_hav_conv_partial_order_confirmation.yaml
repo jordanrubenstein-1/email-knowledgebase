@@ -1,0 +1,30 @@
+id: 6f2acfad-505d-27c7-8fd9-47618f8f44a0
+name: OT_EM_2025_01_HAV_CONV_Partial_Order_Confirmation
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 6f2acfad-505d-27c7-8fd9-47618f8f44a0
+dates:
+  first_sent: '2025-01-08T19:00:00+00:00'
+  last_sent: '2026-06-09T16:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: e99a7aa2-4c13-4c73-8fec-7d0f7ab59de0
+  channel: email
+  name: Variant 1
+  subject: 'Part of your order has been confirmed! - Order #{{api_trigger_properties.${order_number}}}'
+- id: 4b3c9a05-ae95-47b2-ae1d-b4edc59291c2
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 55
+  total_delivered: 55
+  total_opens: 81
+  total_clicks: 10
+  open_rate: 1.4727
+  click_rate: 0.1818
+schedule_type: api_triggered
+_filename: ot_em_2025_01_hav_conv_partial_order_confirmation.yaml

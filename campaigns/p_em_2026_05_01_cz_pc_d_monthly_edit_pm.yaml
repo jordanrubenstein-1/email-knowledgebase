@@ -1,0 +1,49 @@
+id: aa47a138-494d-42ed-978f-7c7ebca2e870
+name: P_EM_2026_05_01_CZ_PC_D_Monthly_Edit_PM
+brand: CZ
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: aa47a138-494d-42ed-978f-7c7ebca2e870
+dates:
+  send_date: '2026-05-01'
+  inferred_send_type: local_time
+  first_sent: '2026-05-01T03:06:40+00:00'
+  last_sent: '2026-05-02T02:02:07+00:00'
+tags:
+- batch and blast
+- collect
+- d2c
+- designed
+- pm
+sends:
+- id: 06fc8862-e23a-451a-a0c5-471820ce7e5c
+  channel: email
+  name: Variant 1
+  subject: What we’re loving right now
+  preheader: The May Edit is here, with archive styles up to 70% off.
+  html_file: html/p_em_2026_05_01_cz_pc_d_monthly_edit_pm.html
+  screenshot: screenshots/p_em_2026_05_01_cz_pc_d_monthly_edit_pm.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69efa1cf406afa00811928ab/original.png?1777312206
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69efa18f8459790081653265/original.png?1777312143
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69efa1f98e099a007fe437ba/original.png?1777312248
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69efa1e8c44f7f00811ed53b/original.png?1777312231
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69efa1be687a2d009b10ae77/original.png?1777312189
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69efa211eb15ed0081dcce2a/original.png?1777312272
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69efa225d2c148007f6225d4/original.png?1777312292
+- id: 5b353101-8f3f-4376-8aae-9f8f362688d0
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 113841
+  total_delivered: 113469
+  total_opens: 55709
+  total_clicks: 681
+  open_rate: 0.4894
+  click_rate: 0.006
+  total_bounces: 22
+  total_unsubscribes: 136
+_filename: p_em_2026_05_01_cz_pc_d_monthly_edit_pm.yaml
+schedule_type: time_based

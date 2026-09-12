@@ -1,0 +1,61 @@
+id: klaviyo-WSieme
+name: 'The Birthday Sale: Reminder'
+brand: TI
+channel: email
+category: reminder
+type: sale
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2022-03-23'
+  inferred_send_type: scheduled
+  first_sent: '2022-03-26T14:00:00+00:00'
+  last_sent: '2022-03-26T14:00:00+00:00'
+sends:
+- id: 01GFAE78N4DS1C0AH23C64F1P8
+  channel: email
+  name: 'The Birthday Sale: Reminder'
+  subject: Don’t miss these prices.
+  preheader: 'Up to 20% off ends Monday. '
+  html_file: html/the-birthday-sale-reminder.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/efc79951-ab82-4798-b6b5-95b803f03f17.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/0180a72a-0d41-4ae9-adbb-63622d671bcf.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/cc32de4b-c73a-4e7e-b1d6-8dda4b85b1d4.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/0edce5a4-8927-484f-85df-547a74a255a1.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/064365fc-fd1a-4c06-a73a-24199f09400f.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/976b6fb6-61b2-4c45-a488-49daa9de137c.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/d429c77f-1a66-4801-a1b8-9f919940bf54.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/99ffc9a6-5d96-4d95-a3f2-ff6e6921d7b2.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/75d7dfd3-453f-4578-8097-fcb89a962814.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/9eadeabe-1260-49e7-917b-0a7f876501f8.png
+  screenshot: screenshots/the-birthday-sale-reminder.png
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_unsubscribes: 0
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T14:56:52.072738'
+    source: snowflake
+    channel: email
+klaviyo_type: campaign
+klaviyo_campaign_id: WSieme
+klaviyo_message_id: 01GFAE78N4DS1C0AH23C64F1P8
+structure:
+  image_count: 13
+  link_count: 14
+  has_gif: false
+  hero_width: 600
+  layout_type: product_grid
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-03-12T11:18:47.397895'

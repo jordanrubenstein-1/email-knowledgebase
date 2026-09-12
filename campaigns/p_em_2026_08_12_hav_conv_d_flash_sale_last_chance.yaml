@@ -1,0 +1,32 @@
+id: dcc64d80-2acf-4ebd-836c-555d54763f40
+name: P_EM_2026_08_12_HAV_CONV_D_Flash_Sale_Last_Chance
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: dcc64d80-2acf-4ebd-836c-555d54763f40
+dates:
+  send_date: '2026-08-12'
+  last_sent: '2026-08-12'
+tags:
+- BLASTS-2025
+sends:
+- id: 8096b0a2-f394-4a6a-b2d9-62d5795a2cd7
+  channel: email
+  name: Variant 1
+  subject: Last call for more savings.
+  preheader: One last chance to save on the pieces you've been eyeing.
+- id: 76662015-443c-42b5-9edf-b05c0f7617a8
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 42543
+  total_delivered: 42525
+  total_opens: 20007
+  total_clicks: 61
+  open_rate: 0.4703
+  click_rate: 0.0014
+  total_unsubscribes: 48
+schedule_type: time_based
+_filename: p_em_2026_08_12_hav_conv_d_flash_sale_last_chance.yaml

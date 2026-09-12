@@ -1,0 +1,77 @@
+id: 2ecc0987-a312-4025-9970-fc4e3a562b25
+name: P_2024_10_30_D_SF_PR_Last_Chance_Email
+brand: STF
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 2ecc0987-a312-4025-9970-fc4e3a562b25
+dates:
+  send_date: '2024-10-30'
+  inferred_send_type: local_time
+  first_sent: '2024-10-29T17:00:01+00:00'
+  last_sent: '2024-10-30T14:00:48+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: 3dc2e030-6782-4c4d-8aa1-f3735378c2f7
+  channel: email
+  name: Variant 1
+  subject: ENDING TONIGHT! 30% Off
+  preheader: don’t miss out on our October Sale
+  html_file: html/p_2024_10_30_d_sf_pr_last_chance_email.html
+  screenshot: screenshots/p_2024_10_30_d_sf_pr_last_chance_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671fc7d28a31580065265ece/original.gif?1730136018
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671fc7ec8a31580065265f1b/original.jpg?1730136044
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671bb1348406320083c617d9/original.jpg?1729868084
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671fc80a120efe0072eb7890/original.jpg?1730136073
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671fc7fa8a31580065265f47/original.gif?1730136058
+- id: 8f2c8ac8-b1d0-4a0f-a6ab-eb5a5bb8ff0f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 9597
+  total_delivered: 8555
+  total_opens: 2832
+  total_clicks: 69
+  open_rate: 0.2951
+  click_rate: 0.0072
+  total_revenue: 3849.4
+  total_unsubscribes: 7
+  ga4:
+    sessions: 71
+    purchases: 1
+    revenue: 895.55
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.718419'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-30-off-fabric-wallpaper-curtains-category-strikethrough-2024-10-25
+    name: 30% off fabric/wallpaper/curtains category (strikethrough)
+    start_date: '2024-10-25'
+    end_date: '2024-10-30'
+    discount: null
+    type: null
+  - id: stf-flash-sale-2024-10-25
+    name: Flash Sale
+    start_date: '2024-10-25'
+    end_date: '2024-10-30'
+    discount: null
+    type: null
+  primary_sale:
+    id: stf-30-off-fabric-wallpaper-curtains-category-strikethrough-2024-10-25
+    name: 30% off fabric/wallpaper/curtains category (strikethrough)
+    start_date: '2024-10-25'
+    end_date: '2024-10-30'
+    discount: null
+    type: null
+  sale_name: 30% off fabric/wallpaper/curtains category (strikethrough)
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:32.122376'
+schedule_type: time_based

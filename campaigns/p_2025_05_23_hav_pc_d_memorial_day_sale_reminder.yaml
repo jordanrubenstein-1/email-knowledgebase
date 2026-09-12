@@ -1,0 +1,35 @@
+id: ef4f6e58-eb54-4d17-b247-f863c57da1f5
+name: P_2025_05_23_HAV_PC_D_Memorial_Day_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: ef4f6e58-eb54-4d17-b247-f863c57da1f5
+dates:
+  send_date: '2025-05-23'
+  first_sent: '2025-05-22T19:58:13+00:00'
+  last_sent: '2025-05-23T18:15:07+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 891879fe-f82d-44fd-9f17-51ab17fbd39d
+  channel: email
+  name: Variant 1
+  subject: What can $99 get you?
+  preheader: 'Hint: the home you deserve.'
+- id: d607435d-cc8e-4d44-a902-26eb039f3228
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 218580
+  total_delivered: 215082
+  total_opens: 91797
+  total_clicks: 386
+  open_rate: 0.42
+  click_rate: 0.0018
+  total_bounces: 18
+  total_unsubscribes: 381
+schedule_type: time_based
+_filename: p_2025_05_23_hav_pc_d_memorial_day_sale_reminder.yaml

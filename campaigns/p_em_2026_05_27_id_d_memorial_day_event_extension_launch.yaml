@@ -1,0 +1,36 @@
+id: 223d91a6-32ea-430c-b8e7-eed43490d91b
+name: P_EM_2026_05_27_ID_D_Memorial_Day_Event_Extension_Launch
+brand: ID
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 223d91a6-32ea-430c-b8e7-eed43490d91b
+dates:
+  send_date: '2026-05-27'
+  first_sent: '2026-05-27T01:29:41+00:00'
+  last_sent: '2026-05-27T16:00:00+00:00'
+  inferred_send_type: scheduled
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 94051b3f-b91f-4eaf-a4c2-f4d27d984376
+  channel: email
+  name: Variant 1
+  subject: We couldn't help ourselves... up to 30% off is back
+  preheader: More Memorial Day savings, for a limited time only.
+- id: 6b207b3e-68c5-4f18-adef-859b773a989b
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 228809
+  total_delivered: 227902
+  total_opens: 92083
+  total_clicks: 546
+  open_rate: 0.4024
+  click_rate: 0.0024
+  total_revenue: 224966.97
+  total_bounces: 5
+  total_unsubscribes: 270
+schedule_type: time_based
+_filename: p_em_2026_05_27_id_d_memorial_day_event_extension_launch.yaml

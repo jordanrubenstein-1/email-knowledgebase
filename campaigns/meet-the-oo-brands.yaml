@@ -1,0 +1,113 @@
+id: fc6031fa-abf2-4810-a724-280d4e43ad97
+name: Meet the O&O Brands
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: fc6031fa-abf2-4810-a724-280d4e43ad97
+braze_type: canvas
+campaign_type: Triggered Journey
+dates: {}
+tags:
+- Automated-Lifecycle-Campaigns
+sends:
+- id: bbc8e232-80c6-4375-926f-a0c6e8c19b8c
+  channel: email
+  name: TRG_2025_D_Cross_Brand_Bedroom_T1_Email
+  subject: CUSTOM bedroom essentials for less
+  preheader: Shop our favorites.
+  step_id: 86d7cf9e-add8-445f-ac13-b5d4992d2d77
+- id: 0e631847-13e8-4e47-be2d-4d1efb99aa91
+  channel: email
+  name: TRG_2025_D_Cross_Brand_Bedroom_T2_Email
+  subject: 'DESIGNER FAVES: Custom Beds'
+  preheader: That are actually affordable.
+  step_id: f47717df-cf62-4771-8861-f6810cafec51
+- id: 824cfd4a-567f-41a5-846d-27429e1bb271
+  channel: email
+  name: TRG_2025_D_Cross_Brand_Living_T2_Email
+  subject: 'SHOP: Custom Sofas & Accent Chairs Designers Love'
+  preheader: And they're actually affordable.
+  step_id: 57a1b659-d31b-4eba-b0d5-728fdddc6b2e
+- id: 179fcf24-5f0b-404c-85fc-fb4e1f592bf8
+  channel: email
+  name: TRG_2025_D_Cross_Brand_Living_T1_Email
+  subject: 'DESIGNER FAVES: Custom sofas & sectionals'
+  preheader: That are *actually* affordable.
+  step_id: 49acb44c-8187-4f40-ac3f-5d8a17b8eeaa
+- id: c0b03a49-2aab-4946-9df8-dc8860420a60
+  channel: email
+  name: TRG_2025_D_Cross_Brand_Living_T3_Email
+  subject: 'DESIGNER FAVES: Custom living room essentials'
+  preheader: Pattern-forward and affordable.
+  step_id: 3b8bbc21-3b9b-4fe3-9226-e45502fd0f30
+- id: 64b8c239-06e6-45ee-8bb6-b81d434294d7
+  channel: email
+  name: TRG_2025_D_Cross_Brand_Bedroom_T1_Email
+  subject: 'SHOP: Custom Beds Designers Love'
+  preheader: And they're actually affordable.
+  step_id: 6bd72f24-2d36-4845-83bc-dc9bd7839768
+performance_summary: {}
+canvas_steps:
+- id: 86d7cf9e-add8-445f-ac13-b5d4992d2d77
+  name: TRG_2025_D_Cross_Brand_Bedroom_T1_Email
+  type: message
+  channel: email
+  subject: CUSTOM bedroom essentials for less
+  preheader: Shop our favorites.
+- id: 3bdba209-d28f-4a04-a7bc-18de4c5ceced
+  name: 1 day delay
+  type: delay
+- id: f47717df-cf62-4771-8861-f6810cafec51
+  name: TRG_2025_D_Cross_Brand_Bedroom_T2_Email
+  type: message
+  channel: email
+  subject: 'DESIGNER FAVES: Custom Beds'
+  preheader: That are actually affordable.
+- id: e5ec9cb3-073a-4e80-8d4c-d52759122b04
+  name: 1 day delay
+  type: delay
+- id: 57a1b659-d31b-4eba-b0d5-728fdddc6b2e
+  name: TRG_2025_D_Cross_Brand_Living_T2_Email
+  type: message
+  channel: email
+  subject: 'SHOP: Custom Sofas & Accent Chairs Designers Love'
+  preheader: And they're actually affordable.
+- id: 49acb44c-8187-4f40-ac3f-5d8a17b8eeaa
+  name: TRG_2025_D_Cross_Brand_Living_T1_Email
+  type: message
+  channel: email
+  subject: 'DESIGNER FAVES: Custom sofas & sectionals'
+  preheader: That are *actually* affordable.
+- id: 2569e620-730c-48fc-99ec-c6fd5100673b
+  name: 1 day delay
+  type: delay
+- id: 3b8bbc21-3b9b-4fe3-9226-e45502fd0f30
+  name: TRG_2025_D_Cross_Brand_Living_T3_Email
+  type: message
+  channel: email
+  subject: 'DESIGNER FAVES: Custom living room essentials'
+  preheader: Pattern-forward and affordable.
+- id: f52e4532-0660-4c1e-8e3a-f3d9283de3e3
+  name: 1 day delay
+  type: delay
+- id: 6bd72f24-2d36-4845-83bc-dc9bd7839768
+  name: TRG_2025_D_Cross_Brand_Bedroom_T1_Email
+  type: message
+  channel: email
+  subject: 'SHOP: Custom Beds Designers Love'
+  preheader: And they're actually affordable.
+- id: 1f8c3b9d-234f-4aa6-93f8-e11b611aee20
+  name: 2 day delay
+  type: delay
+- id: ef9c80fc-5a02-46db-b020-45037d51a646
+  name: Room type?
+  type: audience_paths
+- id: 015602ee-cccd-40cd-8b86-39c78400b182
+  name: Update room type attribute
+  type: user_update
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.001444'

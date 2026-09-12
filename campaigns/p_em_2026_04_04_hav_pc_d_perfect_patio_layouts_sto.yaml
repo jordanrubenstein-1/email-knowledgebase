@@ -1,0 +1,38 @@
+id: 13b2e3fe-87ff-409e-a1d1-3e7133653314
+name: P_EM_2026_04_04_HAV_PC_D_Perfect_Patio_Layouts_STO_Variant
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 13b2e3fe-87ff-409e-a1d1-3e7133653314
+dates:
+  send_date: '2026-04-04'
+  inferred_send_type: sto
+  first_sent: '2026-04-03T10:08:15+00:00'
+  last_sent: '2026-04-05T09:50:47+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: dc93f1be-c11a-41b3-9e8c-92492f179f48
+  channel: email
+  name: Variant 1
+  subject: We Cracked the Code on Perfect Patio Layouts
+  preheader: Steal these setup ideas for your best summer yet.
+  html_file: html/p_em_2026_04_04_hav_pc_d_perfect_patio_layouts_sto_variant.html
+  screenshot: screenshots/p_em_2026_04_04_hav_pc_d_perfect_patio_layouts_sto_variant.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69cd1eac55114200644c613e/original.gif?1775050412
+- id: 123153a8-7724-403f-8e1d-4e8e889dbada
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 137932
+  total_delivered: 136449
+  total_opens: 52240
+  total_clicks: 272
+  open_rate: 0.3787
+  click_rate: 0.002
+  total_bounces: 6
+  total_unsubscribes: 182
+schedule_type: time_based

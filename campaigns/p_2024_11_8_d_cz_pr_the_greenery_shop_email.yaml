@@ -1,0 +1,60 @@
+id: 84c0bee0-bf9c-4a59-8257-6ba29ac2a763
+name: P_2024_11_8_D_CZ_PR_The_Greenery_Shop_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 84c0bee0-bf9c-4a59-8257-6ba29ac2a763
+dates:
+  send_date: '2024-11-08'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-08T02:28:55+00:00'
+  last_sent: '2024-11-08T17:01:24+00:00'
+tags:
+- batch and blast
+sends:
+- id: 2249ce17-5021-480a-bf3a-d88dd21f8568
+  channel: email
+  name: Variant 1
+  subject: The Greenery Shop
+  preheader: Natural touches that bring the beauty of the outdoors in.
+  html_file: html/p_2024_11_8_d_cz_pr_the_greenery_shop_email.html
+  screenshot: screenshots/p_2024_11_8_d_cz_pr_the_greenery_shop_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671fc2f98a31580065265215/original.jpg?1730134777
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671fc35d4a52730074162412/original.jpg?1730134877
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671fc377120efe0064eb7c64/original.jpg?1730134903
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671fc3a38a315800652653d0/original.jpg?1730134947
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671fc3bab5a89b0066322ae9/original.jpg?1730134970
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671fc32db236ea00653e28ba/original.jpg?1730134828
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671fc345b5a89b0084322889/original.jpg?1730134853
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671fc3ca120efe0064eb7d44/original.jpg?1730134986
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671fc3928a315800652653bc/original.jpg?1730134930
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671fc30b120efe0064eb7b42/original.jpg?1730134795
+- id: fad4193d-38ea-453d-b2df-d32c91e74dbe
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 91493
+  total_delivered: 90933
+  total_opens: 43621
+  total_clicks: 929
+  open_rate: 0.4768
+  click_rate: 0.0102
+  total_revenue: 82569.61
+  total_bounces: 1
+  total_unsubscribes: 125
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.406665'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.536282'
+schedule_type: time_based

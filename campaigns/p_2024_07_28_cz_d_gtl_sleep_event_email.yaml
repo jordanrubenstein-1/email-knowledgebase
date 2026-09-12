@@ -1,0 +1,58 @@
+id: 8694477d-2273-43f4-b963-c4bcb36db16c
+name: P_2024_07_28_CZ_D_GTL_Sleep_Event_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 8694477d-2273-43f4-b963-c4bcb36db16c
+dates:
+  send_date: '2024-07-28'
+  inferred_send_type: scheduled
+  first_sent: '2024-07-28T12:10:01+00:00'
+  last_sent: '2024-07-28T12:10:09+00:00'
+tags: []
+sends:
+- id: ab02cf7b-47e8-43b7-98ca-1fc7168e6ede
+  channel: email
+  name: Variant 1
+  subject: Build Your Bedroom Oasis (up to 20% off)
+  preheader: Welcome the end of the season with a restful bedroom.
+  html_file: html/p_2024_07_28_cz_d_gtl_sleep_event_email.html
+  screenshot: screenshots/p_2024_07_28_cz_d_gtl_sleep_event_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a5425ec615af006c7259c4/original.jpg?1722106461
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a4f097782fdb006ce8ee73/original.jpg?1722085527
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a5425ec615af008a722c84/original.jpg?1722106461
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a4251ea28be1005ee65644/original.jpg?1722033438
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a4f098a28be1005ee69ce2/original.jpg?1722085527
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a4f097511e88005d23cc78/original.jpg?1722085527
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a4f097782fdb005de98405/original.jpg?1722085527
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a26d242ec015006d617fca/original.jpg?1721920804
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a4251e782fdb005de93b6a/original.jpg?1722033438
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66a4251ede588e005de8f577/original.jpg?1722033438
+- id: a4e63628-a9f7-41e4-998d-f04475b4caae
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 492
+  total_delivered: 492
+  total_opens: 311
+  total_clicks: 24
+  open_rate: 0.6321
+  click_rate: 0.0488
+  total_revenue: 8240.27
+  total_unsubscribes: 1
+  ga4:
+    sessions: 42
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.605781'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.989046'
+schedule_type: time_based

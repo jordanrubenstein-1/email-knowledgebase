@@ -1,0 +1,48 @@
+id: 558a9fe0-e023-4fe3-a528-cfd7f4402ea1
+name: P_EM_2026_03_09_CZ_D_PR_Back_in_Stock_With_STO
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 558a9fe0-e023-4fe3-a528-cfd7f4402ea1
+dates:
+  send_date: '2026-03-09'
+  inferred_send_type: sto
+  first_sent: '2026-03-08T10:06:49+00:00'
+  last_sent: '2026-03-10T09:25:10+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- instock
+sends:
+- id: b632af3c-f95f-4485-a86d-3022b6503ab0
+  channel: email
+  name: Variant 1
+  subject: 'THEY’RE BACK: Sold-Out Favorites'
+  preheader: Your most-wanted pieces are finally here.
+  html_file: html/p_em_2026_03_09_cz_d_pr_back_in_stock_with_sto.html
+  screenshot: screenshots/p_em_2026_03_09_cz_d_pr_back_in_stock_with_sto.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ab25cae701610063261d5d/original.png?1772824010
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ab25a451d93b0063a44cb0/original.png?1772823972
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ab25d913cea60063c6393b/original.png?1772824025
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ab25b5a8401e0064bafdd0/original.png?1772823989
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ab25beeb16ea00633527ad/original.png?1772823997
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ab25ac0c5ee600635ab814/original.png?1772823980
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ab25d0ec3a7e0063ed39fe/original.png?1772824016
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ab258a2319cb0063037556/original.png?1772823945
+- id: 5bd8ee54-3624-41fe-81d0-99dad913a97c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 56711
+  total_delivered: 56558
+  total_opens: 27784
+  total_clicks: 679
+  open_rate: 0.4899
+  click_rate: 0.012
+  total_unsubscribes: 96
+schedule_type: time_based

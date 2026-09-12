@@ -1,0 +1,64 @@
+id: de1520a7-b8b1-40a5-85e1-71cec8334b48
+name: P_EM_2025_07_27_CZ_D_PR_Build_Your_Bedroom
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: de1520a7-b8b1-40a5-85e1-71cec8334b48
+dates:
+  send_date: '2025-07-27'
+  inferred_send_type: local_time
+  first_sent: '2025-07-26T22:08:19+00:00'
+  last_sent: '2025-07-27T21:02:13+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale_feat
+sends:
+- id: 99a0dae2-40e8-421f-a2e1-df1116e5f70f
+  channel: email
+  name: Variant 1
+  subject: Build Your Bedroom Oasis (for 20% off)
+  preheader: 'Welcome a new season with soft layers and serene details. '
+  html_file: html/p_em_2025_07_27_cz_d_pr_build_your_bedroom.html
+  screenshot: screenshots/p_em_2025_07_27_cz_d_pr_build_your_bedroom.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6882d8c09abe57006687c247/original.png?1753405631
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6882d8d6ce16940066c76f2b/original.png?1753405654
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6882d771ce16940066c76c22/original.png?1753405297
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6882d85435d6600065b1e494/original.png?1753405523
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6882d82c0fd31b006574e9e7/original.png?1753405484
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6882d456b7410200640566c2/original.png?1753404501
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6882d442bdad5a00656c4d91/original.png?1753404482
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6882d42736f73f0065c2af6d/original.png?1753404455
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6882d755b5fa010066054d81/original.png?1753405269
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6882d6c1ce16940075c76725/original.png?1753405121
+- id: 2cbbfcdd-6693-4c4c-999a-47b974354d67
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 99479
+  total_delivered: 99400
+  total_opens: 42535
+  total_clicks: 728
+  open_rate: 0.4276
+  click_rate: 0.0073
+  total_revenue: 69379.2
+  total_unsubscribes: 128
+  ga4:
+    sessions: 815
+    purchases: 11
+    revenue: 3454.63
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.538592'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.974503'
+schedule_type: time_based

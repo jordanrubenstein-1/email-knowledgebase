@@ -1,0 +1,44 @@
+id: e5c63f87-579a-43a4-a630-8c6fa92a79ba
+name: P_2024_09_03_D_ID_PR_LDW_Quick_Ship_Email
+brand: ID
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: e5c63f87-579a-43a4-a630-8c6fa92a79ba
+dates:
+  send_date: '2024-09-03'
+  inferred_send_type: local_time
+  first_sent: '2024-09-02T18:05:03+00:00'
+  last_sent: '2024-09-03T17:05:02+00:00'
+tags: []
+sends:
+- id: c90e46b3-57aa-4bec-a88f-7bf02c47e305
+  channel: email
+  name: Variant 1
+  subject: 'QUICK SHIP FURNITURE: Up to 25% off'
+  preheader: Get it in 6 to 8 weeks
+- id: dc9ccd21-f6f4-4389-9e60-7f840fa611d6
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 38583
+  total_delivered: 38389
+  total_opens: 14228
+  total_clicks: 713
+  open_rate: 0.3688
+  click_rate: 0.0185
+  total_unsubscribes: 74
+  ga4:
+    sessions: 1070
+    purchases: 9
+    revenue: 25778.02
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.861935'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.979133'
+schedule_type: time_based

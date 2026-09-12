@@ -1,0 +1,58 @@
+id: 7d1c8406-cd41-463e-9028-cc28a7433a0f
+name: P_EM_2025_12_09_SF_D_PR_Final_Days
+brand: STF
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 7d1c8406-cd41-463e-9028-cc28a7433a0f
+dates:
+  send_date: '2025-12-09'
+  inferred_send_type: local_time
+  first_sent: '2025-12-08T19:52:18+00:00'
+  last_sent: '2025-12-09T17:01:30+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: 42c3d577-184f-4770-a682-1ff295078e6b
+  channel: email
+  name: Variant 1
+  subject: Last Look 👀 Cyber Week Sale
+  preheader: shop up to 30% off now.
+  html_file: html/p_em_2025_12_09_sf_d_pr_final_days.html
+  screenshot: screenshots/p_em_2025_12_09_sf_d_pr_final_days.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69372736dc78c9006310a301/original.png?1765222198
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/693727608ae4400063dfd404/original.png?1765222239
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/693726790d6ceb007241e2c6/original.gif?1765222009
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/693726ddb35b5c0064720bdb/original.png?1765222108
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/693726e4037d4a00638df57a/original.png?1765222115
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6937275661c4de0063ccf9c4/original.png?1765222229
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69372721d24f0c006349a409/original.png?1765222176
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69372694ca7ed50063f5fbdb/original.png?1765222035
+- id: 90249ac4-ac33-476f-af1f-12515ed18568
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39818
+  total_delivered: 39383
+  total_opens: 16870
+  total_clicks: 150
+  open_rate: 0.4237
+  click_rate: 0.0038
+  total_bounces: 1
+  total_unsubscribes: 49
+  ga4:
+    sessions: 155
+    purchases: 2
+    revenue: 722.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.847481'
+    source: snowflake
+    channel: email
+schedule_type: time_based

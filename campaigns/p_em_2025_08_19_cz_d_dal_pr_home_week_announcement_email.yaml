@@ -1,0 +1,49 @@
+id: 7ed022b9-b2a1-46c8-9241-62307e82fff3
+name: P_EM_2025_08_19_CZ_D_DAL_PR_Home_Week_Announcement_Email
+brand: CZ
+channel: email
+category: other
+type: product_launch
+theme: null
+braze_id: 7ed022b9-b2a1-46c8-9241-62307e82fff3
+dates:
+  send_date: '2025-08-19'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-19T20:07:32+00:00'
+  last_sent: '2025-08-19T20:08:11+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- event
+sends:
+- id: f73d9be5-3c59-4c8f-8607-27d05e192b50
+  channel: email
+  name: Variant 1
+  subject: Dallas, You’re Invited!
+  preheader: Celebrate Home Week with us at our Dallas stores on Knox Street.
+  html_file: html/p_em_2025_08_19_cz_d_dal_pr_home_week_announcement_email.html
+  screenshot: screenshots/p_em_2025_08_19_cz_d_dal_pr_home_week_announcement_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a3791977b0ff0063f4dbc2/original.png?1755543833
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a378e22e21fc0065d7e02e/original.png?1755543778
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a379272e21fc0065d7e3e6/original.png?1755543847
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a3792177b0ff0082f4cda0/original.png?1755543841
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a378d92bd1a7009709b38a/original.png?1755543769
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a3790d2bd1a7007709b9d8/original.gif?1755543821
+- id: b8a4baae-e106-4cd5-9c97-c10ade4d2b62
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 1053
+  total_delivered: 1041
+  total_opens: 578
+  total_clicks: 12
+  open_rate: 0.5489
+  click_rate: 0.0114
+  total_revenue: 660.2
+  total_bounces: 1
+  total_unsubscribes: 3
+_filename: p_em_2025_08_19_cz_d_dal_pr_home_week_announcement_email.yaml
+schedule_type: time_based

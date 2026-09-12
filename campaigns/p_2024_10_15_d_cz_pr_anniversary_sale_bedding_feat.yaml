@@ -1,0 +1,60 @@
+id: f68195a8-fa82-465f-be05-34a0372188f0
+name: P_2024_10_15_D_CZ_PR_Anniversary_Sale_Bedding_Feature_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: f68195a8-fa82-465f-be05-34a0372188f0
+dates:
+  send_date: '2024-10-15'
+  inferred_send_type: local_time
+  first_sent: '2024-10-14T23:42:43+00:00'
+  last_sent: '2024-10-15T17:00:24+00:00'
+tags:
+- batch and blast/promo
+sends:
+- id: 63946e8e-b125-4509-922d-794145515f86
+  channel: email
+  name: Variant 1
+  subject: 'Your Dream Bedding: On Sale & Ships Free'
+  preheader: Claim 15% off bedding during The Anniversary Sale.
+  html_file: html/p_2024_10_15_d_cz_pr_anniversary_sale_bedding_feature_email.html
+  screenshot: screenshots/p_2024_10_15_d_cz_pr_anniversary_sale_bedding_feature_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6703f74605047b0065b70338/original.jpg?1728313158
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/670d371446c66700637c67a0/original.jpg?1728919316
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/670d35ff46c66700637c65af/original.jpg?1728919038
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/670d3421127dde00644d46d9/original.jpg?1728918560
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/670d33fa46c66700637c6168/original.jpg?1728918522
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6703f6d230f4e000645d0a7f/original.jpg?1728313042
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/670d361c46c66700637c65ee/original.jpg?1728919068
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/670d341069396a0065edf502/original.jpg?1728918543
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6703f73a7dabb9006491331d/original.jpg?1728313146
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/670d364a46c66700637c661f/original.jpg?1728919114
+- id: 98453898-e57d-41eb-8314-41f065861da5
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 88316
+  total_delivered: 87743
+  total_opens: 43416
+  total_clicks: 827
+  open_rate: 0.4916
+  click_rate: 0.0094
+  total_revenue: 95613.66
+  total_bounces: 2
+  total_unsubscribes: 153
+  ga4:
+    sessions: 976
+    purchases: 19
+    revenue: 6109.66
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.625965'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.279584'
+schedule_type: time_based

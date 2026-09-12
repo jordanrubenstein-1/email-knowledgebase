@@ -1,0 +1,50 @@
+{% comment %}
+  Headline Component
+
+  Creates a centered heading block for email sections.
+  Can also be used for urgency callouts with background color.
+
+  Required variables:
+    text - The headline text
+
+  Optional variables:
+    font_size    - Font size in pixels (default: 34 for h1, 18 for subhead)
+    font_family  - Font family (default: "Georgia,Arial,Sans-serif")
+    font_weight  - Font weight (default: 400)
+    color        - Text color (default: #2e3c47)
+    line_height  - Line height multiplier (default: 1.2)
+    padding      - Cell padding in pixels (default: 10)
+    bg_color     - Background color (default: none/transparent)
+    text_transform - CSS text-transform (default: none)
+
+  Usage:
+    {% comment %} Primary headline {% endcomment %}
+    {% assign text = 'Your Headline Here' %}
+    {% render 'headline' %}
+
+    {% comment %} Subheadline {% endcomment %}
+    {% assign text = 'Subheadline Text' %}
+    {% assign font_size = 18 %}
+    {% assign font_family = "Roboto,Arial,Sans-serif" %}
+    {% render 'headline' %}
+
+    {% comment %} Urgency callout with background {% endcomment %}
+    {% assign text = 'ENDS TONIGHT' %}
+    {% assign font_size = 14 %}
+    {% assign bg_color = '#d99218' %}
+    {% assign color = '#ffffff' %}
+    {% assign text_transform = 'uppercase' %}
+    {% render 'headline' %}
+{% endcomment %}
+
+{% assign font_size = font_size | default: 34 %}
+{% assign font_family = font_family | default: "Georgia,Arial,Sans-serif" %}
+{% assign font_weight = font_weight | default: 400 %}
+{% assign color = color | default: '#2e3c47' %}
+{% assign line_height = line_height | default: 1.2 %}
+{% assign padding = padding | default: 10 %}
+{% assign bg_color = bg_color | default: '' %}
+{% assign text_transform = text_transform | default: 'none' %}
+{% assign mso_line_height = font_size | times: line_height | round %}
+
+<table class="heading_block" width="100%" border="0" cellpadding="{{ padding }}" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;{% if bg_color != '' %}background-color:{{ bg_color }};{% endif %}"><tr><td class="pad"><h1 style="margin:0;color:{{ color }};direction:ltr;font-family:{{ font_family }};font-size:{{ font_size }}px;font-weight:{{ font_weight }};letter-spacing:normal;line-height:{{ line_height }};text-align:center;margin-top:0;margin-bottom:0;mso-line-height-alt:{{ mso_line_height }}px;{% if text_transform != 'none' %}text-transform:{{ text_transform }};{% endif %}">{{ text }}</h1></td></tr></table>

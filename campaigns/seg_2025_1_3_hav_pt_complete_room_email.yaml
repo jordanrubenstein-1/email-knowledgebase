@@ -1,0 +1,31 @@
+id: 8d02f2d8-b23b-43a4-9e10-45411cc4404c
+name: SEG_2025_1_3_HAV_PT_Complete_Room_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 8d02f2d8-b23b-43a4-9e10-45411cc4404c
+dates:
+  send_date: '2025-01-03'
+  first_sent: '2025-01-03T22:34:39+00:00'
+  last_sent: '2025-01-03T22:34:44+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: e69445f1-7a83-4426-abac-bc5c1a8e506a
+  channel: email
+  name: Variant 1
+  subject: New year, new room - Let’s book your project start date now!
+- id: 58acadbe-4239-4e49-a289-ad34425f4461
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 217
+  total_delivered: 216
+  total_opens: 186
+  total_clicks: 25
+  open_rate: 0.8571
+  click_rate: 0.1152
+schedule_type: time_based
+_filename: seg_2025_1_3_hav_pt_complete_room_email.yaml

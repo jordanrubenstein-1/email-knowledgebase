@@ -1,0 +1,26 @@
+id: ca8e6ab1-2a7f-4b7f-a4ae-47689077dcc6
+name: P_EM_2026_03_17_BW_D_Spring_Sale_Starts_STO_Control
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: spring
+braze_id: ca8e6ab1-2a7f-4b7f-a4ae-47689077dcc6
+dates:
+  send_date: '2026-03-17'
+  inferred_send_type: local_time
+  first_sent: '2026-03-16T18:07:01+00:00'
+  last_sent: '2026-03-17T18:03:00+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 8dd6e19f-ac7c-4a52-b61f-77a27f6b91d4
+  channel: email
+  name: Variant 1
+  subject: 'The Spring Sale: Outdoor Season Starts Now'
+  preheader: Up to 30% off patio season must-haves.
+- id: a356ec5e-07be-4d2b-b083-c5dcf4bbdc79
+  channel: email
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
