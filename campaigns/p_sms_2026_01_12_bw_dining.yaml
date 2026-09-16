@@ -1,0 +1,38 @@
+id: db5bb03a-0944-427e-8698-fe1d3360fe16
+name: P_SMS_2026_01_12_BW_Dining
+brand: BUR
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: db5bb03a-0944-427e-8698-fe1d3360fe16
+dates:
+  send_date: '2026-01-12'
+  inferred_send_type: local_time
+  first_sent: '2026-01-12T01:06:51+00:00'
+  last_sent: '2026-01-13T01:00:40+00:00'
+tags: []
+sends:
+- id: 6f04f5fa-2219-4974-9472-c4f719061ecb
+  channel: sms
+  name: Variant 1
+- id: 025a83ba-80d7-492a-adc0-a081e76a0463
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 6518
+  total_delivered: 6424
+  total_opens: 0
+  total_clicks: 306
+  open_rate: 0.0
+  click_rate: 0.0469
+  total_revenue: 8983.0
+  ga4:
+    sessions: 214
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.524296'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

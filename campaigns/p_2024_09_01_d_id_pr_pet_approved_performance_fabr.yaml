@@ -1,0 +1,45 @@
+id: d67b93eb-09a2-4b33-8df7-140e85741c93
+name: P_2024_09_01_D_ID_PR_Pet_Approved_Performance_Fabrics_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: d67b93eb-09a2-4b33-8df7-140e85741c93
+dates:
+  send_date: '2024-09-01'
+  inferred_send_type: scheduled
+  first_sent: '2024-09-01T13:05:02+00:00'
+  last_sent: '2024-09-01T13:07:14+00:00'
+tags: []
+sends:
+- id: 3b380147-5e70-405b-a4f5-7d7ca865eaaa
+  channel: email
+  name: Variant 1
+  subject: Pet-Approved Furniture We ❤️
+  preheader: And your pets love, too
+- id: aa41e579-2abd-4385-b9ac-6423a8f82b2d
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 37598
+  total_delivered: 37523
+  total_opens: 13494
+  total_clicks: 554
+  open_rate: 0.3589
+  click_rate: 0.0147
+  total_bounces: 1
+  total_unsubscribes: 57
+  ga4:
+    sessions: 347
+    purchases: 2
+    revenue: 4187.14
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.286778'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.623955'
+schedule_type: time_based

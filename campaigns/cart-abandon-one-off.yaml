@@ -1,0 +1,143 @@
+id: fe28bf55-5ec6-4894-a475-6df678331ae1
+name: Cart Abandon One Off
+brand: CZ
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: fe28bf55-5ec6-4894-a475-6df678331ae1
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2025-11-18T19:00:00+00:00'
+  last_sent: '2025-11-18T19:00:00+00:00'
+tags:
+- cart abandon
+sends:
+- id: f070005e-9403-498f-8a21-ea577a806204
+  channel: email
+  name: TRG_EM_2024_08_CZ_D_Cart_Abandon_One_Off_T3
+  subject: Your cart is waiting...
+  preheader: You are almost there
+  step_id: fccf6eff-192f-447b-803f-9b4fecdf9709
+- id: f8167bcb-2762-42d8-9d8a-91d06be34639
+  channel: email
+  name: TRG_EM_2024_08_CZ_D_Cart_Abandon_One_Off_T2
+  subject: We saved your cart
+  preheader: ''
+  step_id: 570a4bf1-8574-437c-9ea6-d282117067ce
+- id: 5ed27ca6-ac61-4a99-996b-d950844c1fd9
+  channel: email
+  name: TRG_EM_2024_08_CZ_D_Cart_Abandon_One_Off_T4
+  subject: Your Cart is Ready
+  preheader: ''
+  step_id: 035a0bc0-e687-4ef3-9cdb-8fc25a1ff220
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.662343'
+    source: snowflake
+    channel: email
+canvas_steps:
+- id: fccf6eff-192f-447b-803f-9b4fecdf9709
+  name: TRG_EM_2024_08_CZ_D_Cart_Abandon_One_Off_T3
+  type: message
+  channel: email
+  subject: Your cart is waiting...
+  preheader: You are almost there
+- id: 570a4bf1-8574-437c-9ea6-d282117067ce
+  name: TRG_EM_2024_08_CZ_D_Cart_Abandon_One_Off_T2
+  type: message
+  channel: email
+  subject: We saved your cart
+  preheader: ''
+- id: fb9ca580-f2ef-4b7b-88ba-206967fd30ea
+  name: D3 1 day
+  type: delay
+- id: 035a0bc0-e687-4ef3-9cdb-8fc25a1ff220
+  name: TRG_EM_2024_08_CZ_D_Cart_Abandon_One_Off_T4
+  type: message
+  channel: email
+  subject: Your Cart is Ready
+  preheader: ''
+- id: 27264880-5da4-4c0a-a7af-830d43368d77
+  name: D2 40 mins
+  type: delay
+- id: 53312d63-906b-4e68-a2be-a20271a815d0
+  name: Email Subscribed?
+  type: decision_split
+- id: 25c6e074-6fbb-4132-9efc-92159282b65f
+  name: D4 1 day
+  type: delay
+- id: 849d2afc-84ac-454b-a4d2-18cf2c8c65d0
+  name: SMS Opted In?
+  type: decision_split
+- id: aad5102e-3d11-42bf-8534-99cb4fd48104
+  name: TRG_SMS_2024_08_CZ_D_Cart_Abandon_One_Off_T1
+  type: message
+- id: 78e6cc4b-6e75-4cbc-9ca3-c99e4ae6737f
+  name: Email Subscribed?
+  type: decision_split
+- id: 3db7fda4-7652-4d77-82d9-d3176ff5dd5e
+  name: Email Subscribed?
+  type: decision_split
+- id: ba6fab8f-6a4a-48a5-b7a9-cd0ecddfe670
+  name: Step
+  type: audience_paths
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-black-friday-cyber-monday-2025-11-17
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-14'
+    end_date: '2025-12-01'
+    discount: '11/14 - 11/16 Early Access
+
+      11/17 - 12/1 Main Event
+
+      11/28 Black Friday Fund
+
+
+      25% Off Sitewide
+
+      Up to 70% Off Archive Sale
+
+      (Fresh Cuts of go forward, overstocked products)'
+    type: null
+  primary_sale:
+    id: cz-black-friday-cyber-monday-2025-11-17
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-14'
+    end_date: '2025-12-01'
+    discount: '11/14 - 11/16 Early Access
+
+      11/17 - 12/1 Main Event
+
+      11/28 Black Friday Fund
+
+
+      25% Off Sitewide
+
+      Up to 70% Off Archive Sale
+
+      (Fresh Cuts of go forward, overstocked products)'
+    type: null
+  sale_name: Black Friday / Cyber Monday
+  sale_discount: '11/14 - 11/16 Early Access
+
+    11/17 - 12/1 Main Event
+
+    11/28 Black Friday Fund
+
+
+    25% Off Sitewide
+
+    Up to 70% Off Archive Sale
+
+    (Fresh Cuts of go forward, overstocked products)'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:33.618461'

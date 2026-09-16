@@ -1,0 +1,44 @@
+id: e971cb5c-4214-4e43-8087-e7975f03ef63
+name: P_2024_09_30_ID_TRADE_PT_Sale_Last_Chance_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: e971cb5c-4214-4e43-8087-e7975f03ef63
+dates:
+  send_date: '2024-09-30'
+  inferred_send_type: local_time
+  first_sent: '2024-09-29T17:15:02+00:00'
+  last_sent: '2024-09-30T15:56:58+00:00'
+tags: []
+sends:
+- id: 7e78eefb-d11a-4d04-9dfb-90f0a9a4c1fc
+  channel: email
+  name: Variant 1
+  subject: 'ONE DAY LEFT: 25% off everything'
+- id: fc74703e-abdd-42d3-b02e-c43b70dff932
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 2832
+  total_delivered: 2807
+  total_opens: 1107
+  total_clicks: 67
+  open_rate: 0.3909
+  click_rate: 0.0237
+  total_revenue: 27853.0
+  total_unsubscribes: 9
+  ga4:
+    sessions: 16
+    purchases: 1
+    revenue: 274.92
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.130505'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.789765'
+schedule_type: time_based

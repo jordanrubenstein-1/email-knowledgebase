@@ -1,0 +1,38 @@
+id: 811bdc45-b36c-40b0-adb3-9e634b10bf39
+name: P_EM_2026_03_21_HAV_CONV_D_AI_Dedicated_Feature_STO_Control
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 811bdc45-b36c-40b0-adb3-9e634b10bf39
+dates:
+  send_date: '2026-03-21'
+  inferred_send_type: local_time
+  first_sent: '2026-03-21T04:07:34+00:00'
+  last_sent: '2026-03-22T04:01:31+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 4311d63d-dfda-4fbd-a42c-0407ee3d1f1e
+  channel: email
+  name: Variant 1
+  subject: Have You Tried This Yet?
+  preheader: See what our AI tool did to this room.
+  html_file: html/p_em_2026_03_21_hav_conv_d_ai_dedicated_feature_sto_control.html
+  screenshot: screenshots/p_em_2026_03_21_hav_conv_d_ai_dedicated_feature_sto_control.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b97870053b170063912e5b/original.gif?1773762672
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b9787b8850db006356aacd/original.png?1773762683
+- id: 726495b2-d8bc-43e6-a14d-2e316696e11b
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 17649
+  total_delivered: 17592
+  total_opens: 9185
+  total_clicks: 68
+  open_rate: 0.5204
+  click_rate: 0.0039
+  total_unsubscribes: 18
+schedule_type: time_based

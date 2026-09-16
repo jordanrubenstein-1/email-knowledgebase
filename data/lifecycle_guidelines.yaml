@@ -1,0 +1,425 @@
+source: Lifecycle Common Data Set
+sheet_id: 1ca5c_KqsHfJtWFeZAYJ-1Qcfj4qL41WnrqcsQHJGMJ4
+last_updated: '2026-02-18T00:00:00'
+brands:
+- name: Havenly Pre-Converted
+  owners:
+    lifecycle_strategy: Mina
+    coding: Abdullah
+    scheduling: Abdullah/Mina
+    design: Ally
+    brand_merch_site_lead: ''
+  copy_standards:
+    email:
+      designed:
+        sl: <40 characters, title case
+        ph: <90 characters, sentence case with punctuation
+      plain_text:
+        sl: <40 characters, sentence case, no punctuation
+        ph: N/A
+      notes: "Sale names always in title case. Can use all caps and/or all caps + colon\
+        \ at beginning of SL's to communicate urgency. Emojis can be used strategically\
+        \ at the end of SL's or PH's\u2014limit to 1-2 total per month."
+    push: Title <30-40 characters, body copy <150-170 characters
+  send_cadence:
+    emails_per_week: 5-9
+  send_times:
+    email_am: Varies; see Asana send time field (previously 7:15 AM)
+    email_pm: 4:00 PM
+    push: 3:00 PM
+  segments:
+    all_subscribers:
+      name: Daily Send List - Pre Converted
+      size: 250.2K
+      sends_per_week: 3-5
+      use: Newness, Sale Starts/Ends
+    engaged:
+      name: Targeted Send List - Pre Converted
+      size: 89.9K
+      use: Daily sends that don't go to all subscriber segment
+    push:
+      name: Pre-Converted Push Audience
+      size: 70k
+      sends_per_week: 1-2
+    abandoned_cart:
+      name: Abandoned Cart in Last 90 Days (this list includes pc + conv audiences)
+      size: ~6k
+- name: Havenly Converted
+  owners:
+    lifecycle_strategy: Mina
+    coding: Abdullah
+    scheduling: Abdullah/Mina
+    design: Ally
+    brand_merch_site_lead: ''
+  copy_standards:
+    email:
+      designed:
+        sl: <40 characters, title case
+        ph: <90 characters, sentence case with punctuation
+      plain_text:
+        sl: <40 characters, sentence case, no punctuation
+        ph: N/A
+      notes: "Sale names always in title case. Can use all caps and/or all caps + colon\
+        \ at beginning of SL's to communicate urgency. Emojis can be used strategically\
+        \ at the end of SL's or PH's\u2014limit to 1-2 total per month."
+    push: Title <30-40 characters, body copy <150-170 characters
+  send_cadence:
+    emails_per_week: 5-9
+  send_times:
+    email_am: Varies; see Asana send time field (previously 7:15 AM)
+    email_pm: 4:00 PM
+    push: 3:00 PM
+  segments:
+    all_subscribers:
+      name: Daily Send List - Converted
+      size: 23.9K
+      sends_per_week: 3-5
+      use: Newness, Sale Starts/Ends
+    engaged:
+      name: Targeted Send List - Converted
+      size: 16.5K
+      use: Daily sends that don't go to all subscriber segment
+    push:
+      name: Converted Push Audience
+      size: 37K
+      sends_per_week: 1-2
+- name: Interior Define
+  owners:
+    lifecycle_strategy: Nicole
+    coding: Momina
+    scheduling: Momina
+    design: Kenzie
+    brand_merch_site_lead: ''
+  copy_standards:
+    email:
+      designed:
+        sl: <40 characters, title case
+        ph: <90 characters, sentence case with punctuation
+      plain_text:
+        sl: <40 characters, sentence case, no punctuation
+        ph: N/A
+      notes: "Sale names always in title case. Can use all caps and/or all caps + colon\
+        \ at beginning of SL's to communicate urgency. Emojis can be used strategically\
+        \ at the end of SL's\u2014limit to 1-2 total per month."
+    sms: <130 characters, include brand name at the beginning (Interior Define:) OR
+      incorporated into SMS body copy, but not both.
+  send_cadence:
+    emails_per_week: 6-9
+  send_times:
+    email_am: Varies; see Asana send time field (previously 7:15 AM)
+    email_pm: Varies; see Asana send time field (previously 4:00 PM)
+    retail: 9:30 AM
+    sms: 3:00 PM
+  segments:
+    # Segmentation redo effective 2026-08-18 (ticket 1214216873746059) — 7
+    # dedicated Braze segments, selected per-task via the "Segment (Text)"
+    # Asana field. Source of truth for the Braze segment names is
+    # data/brand_config.yaml `brands.ID.audiences`; the *_legacy entries below
+    # are the pre-cutoff interim lists, kept for sends before 2026-08-18.
+    all_subscribers:
+      name: Full File
+      size: 220K
+      sends_per_week: 3-5
+      use: Newness, Sale Starts/Ends, Swatches
+    engaged:
+      name: Engaged
+      size: 130K
+      use: ''
+    highly_engaged:
+      name: Highly Engaged
+      use: ''
+    swatch_purchasers:
+      name: Swatch Purchasers
+      use: Swatch-focused content
+    swatch_non_purchasers:
+      name: Swatch Non-Purchasers
+      use: Swatch Talk
+    geo_engaged:
+      name: Geo Segment - Engaged
+      use: Retail / geo sends
+    geo_unengaged:
+      name: Geo Segment - Unengaged
+      use: Retail / geo sends
+    all_subscribers_legacy:
+      name: Main Email Send List
+      use: Pre-2026-08-18 sends only
+    engaged_legacy:
+      name: AM VIP B2C Segment
+      use: Pre-2026-08-18 sends only
+    sms:
+      name: SMS Master List - Double Opt In
+      size: 51.1K
+      sends_per_week: 2-3
+    geo:
+      name: ID Retail Locations*
+      size: ~101k
+    abandoned_cart:
+      name: Abandoned Cart in Last 90 Days
+      size: ~720
+- name: Burrow
+  owners:
+    lifecycle_strategy: Nicole
+    coding: Abdullah
+    scheduling: Abdullah
+    design: Gillian
+    brand_merch_site_lead: ''
+  copy_standards:
+    email:
+      designed:
+        sl: <40 characters, title case
+        ph: <90 characters, sentence case with punctuation
+      plain_text:
+        sl: <40 characters, sentence case, no punctuation
+        ph: N/A
+      notes: "Sale names always in title case. Can use all caps and/or all caps + colon\
+        \ at beginning of SL's to communicate urgency. No emojis."
+    sms: <130 characters, include brand name at the beginning (Burrow:) OR incorporated
+      into SMS body copy, but not both.
+  send_cadence:
+    emails_per_week: 6-9
+  send_times:
+    email_am: Varies; see Asana send time field (previously 7:15 AM)
+    email_pm: Varies; see Asana send time field (previously 4:00 PM)
+    sms: 3:00 PM
+  segments:
+    all_subscribers:
+      name: "OR is in Segment \"202411 Send List\" \nOR is in Segment \"Microsoft Domains - 30 Day Engaged\" \nOR is in Segment \"Grow Leads - Eligible for Marketing\" \nOR is in Segment \"Pro Plus Giveaway\
+        \ Leads\""
+      size: 250K
+      sends_per_week: 3-5
+      use: Newness, Sale Starts/Ends
+    engaged:
+      name: AM List VIP*
+      size: 111.3K
+      use: ''
+    sms:
+      name: SMS Master List - Double Opt In
+      size: 6.3K
+      sends_per_week: 2-3
+    geo:
+      name: Geo_All*
+      size: ~4k
+    abandoned_cart:
+      name: Abandoned Cart in Last 90 Days
+      size: ~540
+- name: The Citizenry
+  owners:
+    lifecycle_strategy: Mina
+    coding: Momina
+    scheduling: Mina
+    design: Maria
+    brand_merch_site_lead: ''
+  copy_standards:
+    email:
+      designed:
+        sl: <40 characters, title case
+        ph: <90 characters, sentence case with punctuation
+      plain_text:
+        sl: <40 characters, sentence case, no punctuation
+        ph: N/A
+      notes: "Sale names always in title case. Can use all caps and/or all caps + colon\
+        \ at beginning of SL's to communicate urgency. No emojis."
+    sms: <130 characters, include brand name at the beginning (The Citizenry:) OR
+      incorporated into SMS body copy, but not both.
+  send_cadence:
+    emails_per_week: 6-9
+  send_times:
+    email_am: Varies; see Asana send time field (previously 7:15 AM)
+    email_pm: Varies; see Asana send time field (previously 4:00 PM)
+    sms: 3:00 PM
+  segments:
+    all_subscribers:
+      name: Full File List - September 2024
+      size: 114.1K
+      sends_per_week: 4-6
+      use: Newness, Sale Starts/Ends
+    engaged:
+      name: AM VIP Send List*
+      size: 60.9K
+      use: ''
+    sms:
+      name: SMS Master List - Double Opted In
+      size: 21K
+      sends_per_week: 2-3
+    geo:
+      name: '- CZ Retail Stores*
+
+        - Full Dallas List
+
+        - Soho Area Customers
+
+        - Denver Area Customers'
+      size: 'Retail: 15.2K
+
+        Dallas: 3.38K
+
+        Soho: 9.9K
+
+        Denver: 5.94K'
+    abandoned_cart:
+      name: Abandoned Cart in Last 90 Days
+      size: ~3k
+- name: The Inside
+  owners:
+    lifecycle_strategy: Nicole
+    coding: Momina
+    scheduling: Momina
+    design: Anya
+    brand_merch_site_lead: ''
+  copy_standards:
+    email:
+      designed:
+        sl: <40 characters, title case
+        ph: <90 characters, sentence case with punctuation
+      plain_text:
+        sl: <40 characters, sentence case, no punctuation
+        ph: N/A
+      notes: "Sale names always in title case. Can use all caps and/or all caps + colon\
+        \ at beginning of SL's to communicate urgency or newness. Emojis can be used\
+        \ strategically at the end of SL's\u2014limit to 1-4 total per month."
+    sms: <130 characters, include brand name at the beginning (The Inside:) OR incorporated
+      into SMS body copy, but not both.
+  send_cadence:
+    emails_per_week: 3-6
+  send_times:
+    email_am: 7:00 AM
+    email_pm: 4:00 PM
+    sms: 3:00 PM
+  segments:
+    # Segmentation redo (ticket 1216770925418815) — 4 Klaviyo segments selected
+    # per-task via the "Segment (Text)" Asana field; Engaged is the baseline,
+    # Full File the restricted 1-2x/week tier. The two swatch segments take
+    # effect for sends on/after 2026-08-18. Source of truth for the Klaviyo
+    # segment names is data/brand_config.yaml `brands.TI.audiences`.
+    all_subscribers:
+      name: Full File
+      size: 111.5K
+      sends_per_week: 1-2
+      use: Sale launches, early access, last chance
+    engaged:
+      name: Engaged
+      size: 49K
+      use: Baseline — every regular send
+    swatch_purchasers:
+      name: Swatch Purchasers
+      use: Swatch-focused content only
+    swatch_non_purchasers:
+      name: Swatch Non-Purchasers
+      use: Swatch-focused content only
+    all_subscribers_legacy:
+      name: May 2024 Full List
+      use: Pre-redo sends only
+    engaged_legacy:
+      name: AM List VIP
+      use: Pre-redo sends only
+    sms:
+      name: Master SMS Segment
+      size: 7.4K
+      sends_per_week: 1-2
+- name: St. Frank
+  owners:
+    lifecycle_strategy: Mina
+    coding: Abdullah
+    scheduling: Mina
+    design: Anya
+    brand_merch_site_lead: ''
+  copy_standards:
+    email:
+      designed:
+        sl: <40 characters, sentence case, no period
+        ph: <90 characters, sentence case with punctuation
+      plain_text:
+        sl: <40 characters, sentence case, no punctuation
+        ph: N/A
+      notes: "Sale names always in title case. Can use all caps and/or all caps + colon\
+        \ at beginning of SL's to communicate urgency or newness. No emojis."
+    sms: <130 characters, include brand name at the beginning (St. Frank:) OR incorporated
+      into SMS body copy, but not both.
+  send_cadence:
+    emails_per_week: 3
+  send_times:
+    email_am: Varies; see Asana send time field (previously 7:15 AM)
+    email_pm: 4:00 PM
+    sms: 3:00 PM
+  segments:
+    all_subscribers:
+      name: Engaged Daily Send List
+      size: 39.5K
+      sends_per_week: 3
+      use: Newness, Sale Starts/Ends
+    engaged:
+      name: Engaged Weekly Send List (with Outlook and Live) and AM VIP Send List*
+      size: 46.5K
+      use: Once a week, a regular send is meant for the weekly send
+    sms:
+      name: SMS Master List - Double Opted In
+      size: 4.5K
+      sends_per_week: 1-2
+- name: Trade Program
+  owners:
+    lifecycle_strategy: Mina/Nicole
+    coding: Momina
+    scheduling: Momina
+    design: Shared
+    brand_merch_site_lead: ''
+  copy_standards:
+    email:
+      designed:
+        sl: <40 characters, title case
+        ph: <90 characters, sentence case with punctuation
+      plain_text:
+        sl: <40 characters, sentence case, no punctuation
+        ph: N/A
+      notes: Include brand name in SL or PH. Sale names always in title case. Can
+        use title case + colon at beginning of SL's to communicate urgency or newness.
+        No emojis.
+    sms: N/A
+  send_cadence:
+    emails_per_week: 1-3
+  send_times:
+    email_am: 9:00 AM
+    email_pm: N/A
+  segments:
+    all_subscribers:
+      name: Trade Subscribers
+      size: 19.9K
+      sends_per_week: '3'
+      use: Newness, Sale, Starts/Ends
+    engaged:
+      name: N/A
+      size: N/A
+      use: N/A
+- name: The Expert
+  platform: klaviyo
+  owners:
+    lifecycle_strategy: TBD
+    coding: TBD
+    scheduling: TBD
+    design: TBD
+    brand_merch_site_lead: ''
+  copy_standards:
+    email:
+      designed:
+        sl: TBD
+        ph: TBD
+      plain_text:
+        sl: TBD
+        ph: N/A
+      notes: Populate from brand guidelines once available.
+    sms: TBD
+  send_cadence:
+    emails_per_week: TBD
+  send_times:
+    email_am: TBD
+    email_pm: TBD
+    sms: TBD
+  segments:
+    all_subscribers:
+      name: TBD
+      size: TBD
+      sends_per_week: TBD
+      use: ''
+    engaged:
+      name: TBD
+      size: TBD
+      use: ''

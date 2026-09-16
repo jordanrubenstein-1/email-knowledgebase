@@ -1,0 +1,36 @@
+id: d903eba6-632b-4248-b029-cacdb8921b50
+name: P_EM_2026_06_02_BW_D_Memorial_Day_Extension_Last_Day
+brand: BUR
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: d903eba6-632b-4248-b029-cacdb8921b50
+dates:
+  send_date: '2026-06-02'
+  first_sent: '2026-06-01T21:52:48+00:00'
+  last_sent: '2026-06-02T17:15:48+00:00'
+  inferred_send_type: local_time
+tags:
+- Batch&Blast
+sends:
+- id: 4f9cfa60-688c-484f-a765-1660e2fbde01
+  channel: email
+  name: Variant 1
+  subject: 'LAST CALL: the sale ends at midnight'
+  preheader: Shop up to 50% off during the final hours of the Memorial Day Sale.
+- id: 4ec81325-90f2-46a0-b629-de12a8897b6e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 66704
+  total_delivered: 66521
+  total_opens: 24473
+  total_clicks: 247
+  open_rate: 0.3669
+  click_rate: 0.0037
+  total_revenue: 42868.0
+  total_bounces: 1
+  total_unsubscribes: 75
+schedule_type: time_based
+_filename: p_em_2026_06_02_bw_d_memorial_day_extension_last_day.yaml

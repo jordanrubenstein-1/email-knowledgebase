@@ -1,0 +1,47 @@
+id: 961698f4-2823-4237-979b-9ceb12edd965
+name: AI Session Welcome
+brand: HAV
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: 961698f4-2823-4237-979b-9ceb12edd965
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-03-06T14:00:00+00:00'
+  last_sent: '2026-04-09T18:00:00+00:00'
+tags: []
+sends:
+- id: 12f1c941-1968-4164-916f-d34abf5a1d77
+  channel: email
+  name: TRG_EM_2026_03_HAV_PC_PT_AI_Session_Welcome_T1_V1
+  subject: Still thinking about that room you started?
+  preheader: Jump back into your AI design and see where it could go next.
+  step_id: a68a56e8-78aa-4856-b2b3-25f17f214f2f
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:48.980117'
+    source: snowflake
+    channel: email
+canvas_steps:
+- id: 26f6d167-df4e-4a60-bfa8-5ff541e08d92
+  name: Email available?
+  type: audience_paths
+- id: 43d80bb5-a929-407e-ab01-0d52b696af8d
+  name: Step
+  type: delay
+- id: a68a56e8-78aa-4856-b2b3-25f17f214f2f
+  name: TRG_EM_2026_03_HAV_PC_PT_AI_Session_Welcome_T1_V1
+  type: message
+  channel: email
+  subject: Still thinking about that room you started?
+  preheader: Jump back into your AI design and see where it could go next.
+- id: 048b5846-51e4-4725-9dbb-ab712de0d166
+  name: AI Sessions
+  type: audience_paths

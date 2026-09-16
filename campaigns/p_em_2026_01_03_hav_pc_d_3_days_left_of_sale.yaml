@@ -1,0 +1,35 @@
+id: eabd3512-04a4-41ce-90ed-bf615b62b76c
+name: P_EM_2026_01_03_HAV_PC_D_3_Days_Left_of_Sale
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: eabd3512-04a4-41ce-90ed-bf615b62b76c
+dates:
+  send_date: '2026-01-03'
+  first_sent: '2026-01-02T20:43:22+00:00'
+  last_sent: '2026-01-03T18:15:19+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 269d8def-fbca-46ea-9742-a4dc7adeb97d
+  channel: email
+  name: Variant 1
+  subject: Start the new year in style
+  preheader: Just 3 days left to save 50% on your design refresh.
+- id: cf3edde9-07ae-4a01-850a-91a0ed4ed5ec
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 253693
+  total_delivered: 252853
+  total_opens: 102525
+  total_clicks: 533
+  open_rate: 0.4041
+  click_rate: 0.0021
+  total_bounces: 11
+  total_unsubscribes: 481
+schedule_type: time_based
+_filename: p_em_2026_01_03_hav_pc_d_3_days_left_of_sale.yaml

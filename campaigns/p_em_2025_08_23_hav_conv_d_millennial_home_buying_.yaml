@@ -1,0 +1,50 @@
+id: 7e06209a-6b74-4018-920f-a771fafb2d92
+name: P_EM_2025_08_23_HAV_CONV_D_Millennial_Home_Buying_Regret
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 7e06209a-6b74-4018-920f-a771fafb2d92
+dates:
+  send_date: '2025-08-23'
+  inferred_send_type: local_time
+  first_sent: '2025-08-22T19:47:10+00:00'
+  last_sent: '2025-08-23T17:15:17+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: f5dfcd6f-68aa-4d16-a1ab-b23fca4a360a
+  channel: email
+  name: Variant 1
+  subject: 'The #1 millennial home buying regret'
+  preheader: Take notes.
+  html_file: html/p_em_2025_08_23_hav_conv_d_millennial_home_buying_regret.html
+  screenshot: screenshots/p_em_2025_08_23_hav_conv_d_millennial_home_buying_regret.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a87b6590a31e0066316f54/original.png?1755872100
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a87aaa273e9700765820a3/original.gif?1755871913
+- id: 20e428ea-9acd-4d39-8afa-b6407ce6770b
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41075
+  total_delivered: 41067
+  total_opens: 22249
+  total_clicks: 558
+  open_rate: 0.5417
+  click_rate: 0.0136
+  total_unsubscribes: 61
+  ga4:
+    sessions: 877
+    purchases: 1
+    revenue: 10521.4
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:48.942569'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.887250'
+schedule_type: time_based

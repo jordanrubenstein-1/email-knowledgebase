@@ -1,0 +1,36 @@
+id: 71bc1fda-e1fa-443e-a547-c20657059a71
+name: P_EM_2025_11_12_BW_PT_Black_Friday_Code_Based_EA_Final_Hours
+brand: BUR
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 71bc1fda-e1fa-443e-a547-c20657059a71
+dates:
+  send_date: '2025-11-12'
+  inferred_send_type: scheduled
+  first_sent: '2025-11-12T03:05:42+00:00'
+  last_sent: '2025-11-12T17:16:10+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: d6f450fa-a04a-46bc-8fdf-b4aa0f846261
+  channel: email
+  name: Variant 1
+  subject: Your Early Access Ends at Midnight
+  preheader: Final hours to shop early and save 30% sitewide.
+- id: 981b6f0a-9e94-4af5-a3b4-8439629f8de1
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 250583
+  total_delivered: 248483
+  total_opens: 141151
+  total_clicks: 759
+  open_rate: 0.5633
+  click_rate: 0.003
+  total_revenue: 97581.0
+  total_bounces: 7
+  total_unsubscribes: 356
+_filename: p_em_2025_11_12_bw_pt_black_friday_code_based_ea_final_hours.yaml
+schedule_type: time_based

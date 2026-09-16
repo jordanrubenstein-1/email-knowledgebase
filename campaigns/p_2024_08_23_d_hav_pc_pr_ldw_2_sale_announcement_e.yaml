@@ -1,0 +1,55 @@
+id: 81e50b74-0dfe-4254-8a1d-109a0bc52d59
+name: P_2024_08_23_D_HAV_PC_PR_LDW_2_Sale_Announcement_Email
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 81e50b74-0dfe-4254-8a1d-109a0bc52d59
+dates:
+  send_date: '2024-08-23'
+  inferred_send_type: scheduled
+  first_sent: '2024-08-23T13:44:33+00:00'
+  last_sent: '2024-08-23T13:50:11+00:00'
+tags:
+- Batch & Blast
+sends:
+- id: 31a1e20d-dbe2-443f-ba44-4bc01d6a880d
+  channel: email
+  name: Variant 1
+  subject: 50% OFF is live in 3, 2…
+  preheader: The Labor Day Event starts now.
+  html_file: html/p_2024_08_23_d_hav_pc_pr_ldw_2_sale_announcement_email.html
+  screenshot: screenshots/p_2024_08_23_d_hav_pc_pr_ldw_2_sale_announcement_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7b1c6e8247e00667f196d/original.jpg?1724363206
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7b047fe4c430066f2f333/original.gif?1724362823
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7b047e8247e00667f138c/original.jpg?1724362823
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7b11c91a4fe0064718dda/original.jpg?1724363035
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7b11cfe4c430066f2f461/original.jpg?1724363035
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7b11c91a4fe0072717555/original.jpg?1724363035
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7b11c384d7e0066fac9ac/original.jpg?1724363035
+- id: 7c625315-dfca-4d21-b016-4707d366b28a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 10753
+  total_delivered: 10735
+  total_opens: 5052
+  total_clicks: 83
+  open_rate: 0.4698
+  click_rate: 0.0077
+  total_unsubscribes: 30
+  ga4:
+    sessions: 39
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.816728'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:45.102375'
+schedule_type: time_based

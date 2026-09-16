@@ -1,0 +1,55 @@
+id: 0d456a07-16d4-42c6-b765-e04197d1e5ed
+name: P_2025_06_06_CZ_June_Edit_Email
+brand: CZ
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 0d456a07-16d4-42c6-b765-e04197d1e5ed
+dates:
+  send_date: '2025-06-06'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-06T19:10:07+00:00'
+  last_sent: '2025-06-06T19:13:46+00:00'
+tags: []
+sends:
+- id: 314aff3d-ec6b-4c0f-a3d0-82c41457296d
+  channel: email
+  name: Variant 1
+  subject: The June Edit
+  preheader: Where we're going, what we're loving, and how to style it all this summer.
+  html_file: html/p_2025_06_06_cz_june_edit_email.html
+  screenshot: screenshots/p_2025_06_06_cz_june_edit_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6840a6a774d8870066f44512/original.png?1749067430
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6840a669a0f21d0065382673/original.png?1749067368
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6840a65d71a5340067e1c786/original.gif?1749067357
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6840a697a0f21d006538278a/original.png?1749067415
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6840a671b91ef600757087d4/original.png?1749067376
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6840a683b91ef60065708d62/original.gif?1749067395
+- id: 08e12f3a-0f8c-476f-9e23-61fe1a5efb04
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 100539
+  total_delivered: 100062
+  total_opens: 52248
+  total_clicks: 708
+  open_rate: 0.5197
+  click_rate: 0.007
+  total_revenue: 43597.77
+  total_bounces: 4
+  total_unsubscribes: 119
+  ga4:
+    sessions: 731
+    purchases: 3
+    revenue: 3946.56
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.545457'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.628521'
+schedule_type: time_based

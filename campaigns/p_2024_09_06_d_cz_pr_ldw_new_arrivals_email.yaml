@@ -1,0 +1,59 @@
+id: daecbbc0-edaf-4fe9-a037-b75af9b354b4
+name: P_2024_09_06_D_CZ_PR_LDW_New_Arrivals_Email
+brand: CZ
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: daecbbc0-edaf-4fe9-a037-b75af9b354b4
+dates:
+  send_date: '2024-09-06'
+  inferred_send_type: local_time
+  first_sent: '2024-09-05T18:00:01+00:00'
+  last_sent: '2024-09-06T17:00:17+00:00'
+tags:
+- batch and blast/promo
+sends:
+- id: 0435d862-2ebf-4587-88bb-94db969512bd
+  channel: email
+  name: Variant 1
+  subject: Meet our Newest Arrivals
+  preheader: 20% off for a limited time
+  html_file: html/p_2024_09_06_d_cz_pr_ldw_new_arrivals_email.html
+  screenshot: screenshots/p_2024_09_06_d_cz_pr_ldw_new_arrivals_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf39523d4b400066584913/original.jpg?1724856657
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d8643fd542db006433beef/original.jpg?1725457471
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d8641be8d2e10065839b29/original.jpg?1725457435
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d864068d29290066626268/original.jpg?1725457414
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf38989f61a0007e9d18ca/original.jpg?1724856472
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf393de13438006590dff3/original.jpg?1724856636
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf38c13d4b400066584746/original.jpg?1724856512
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf39203d4b400066584859/original.jpg?1724856607
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d8642c9600fd006471580f/original.gif?1725457452
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d86454fef67f006610cc4a/original.jpg?1725457491
+- id: 91467c4f-c7e8-461b-becc-353a1a97ea8d
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 72562
+  total_delivered: 72457
+  total_opens: 41430
+  total_clicks: 1068
+  open_rate: 0.571
+  click_rate: 0.0147
+  total_revenue: 164734.21
+  total_unsubscribes: 217
+  ga4:
+    sessions: 1270
+    purchases: 9
+    revenue: 3723.54
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.308331'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.147031'
+schedule_type: time_based

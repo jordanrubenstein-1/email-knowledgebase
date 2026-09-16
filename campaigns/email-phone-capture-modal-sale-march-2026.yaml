@@ -1,0 +1,34 @@
+id: a452f69f-7e71-49be-b0f0-5999715de15f
+name: Email & Phone Capture Modal - Sale March, 2026
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: a452f69f-7e71-49be-b0f0-5999715de15f
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-03-11T13:00:00+00:00'
+  last_sent: '2026-03-28T21:00:00+00:00'
+tags: []
+sends:
+- id: 1c20b74d-a594-42c0-8688-75311609fb74
+  channel: other
+  name: Variant 1
+- id: 0c8009ad-a785-4829-88f3-b4ee1a416410
+  channel: other
+  name: Control Group
+- id: 639621e2-8743-4aea-8a8a-78c097db0360
+  channel: other
+  name: Variant 2
+- id: 1d0d7feb-385e-4f77-aa26-f00871e1663f
+  channel: other
+  name: Variant 3
+- id: d21ba482-ace6-4ff1-8e79-462398c106e1
+  channel: other
+  name: Variant 4
+- id: 4c2206e5-dae9-4002-974e-580f4e049b93
+  channel: other
+  name: Variant 5
+performance_summary: {}
+schedule_type: action_based

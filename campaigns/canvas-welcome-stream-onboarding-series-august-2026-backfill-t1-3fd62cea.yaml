@@ -1,0 +1,29 @@
+id: 3fd62cea-bcba-4dc1-83d9-0868dc7dfb82
+name: TRG_EM_2024_09_HAV_CONV_PT_Onboarding_HIP_Welcome_T1_V1_backfill
+brand: HAV
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: d6437a77-1b60-43c6-a44f-3ccf8935c40f
+canvas_name: Welcome Stream / Onboarding Series - August 2026 Backfill
+flow_type: welcome_series
+sequence_position: 1
+subject: 'Welcome to Havenly In-Person! 🎉
+
+  '
+preheader: ''
+sends:
+- id: 3fd62cea-bcba-4dc1-83d9-0868dc7dfb82
+  channel: email
+  name: TRG_EM_2024_09_HAV_CONV_PT_Onboarding_HIP_Welcome_T1_V1_backfill
+  subject: 'Welcome to Havenly In-Person! 🎉
+
+    '
+  preheader: ''
+  html_file: html/canvas-welcome-stream-onboarding-series-august-2026-backfill-t1-3fd62cea.html
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2026-08-26T18:00:00Z'
+  last_sent: '2026-08-26T18:00:00Z'
+performance_summary: {}

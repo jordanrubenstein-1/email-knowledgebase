@@ -1,0 +1,49 @@
+id: 22faf8f6-eda9-4ba6-82d8-9e043e5d1ac9
+name: P_EM_2026_01_08_HAV_PC_D_Living_Room_Before_and_Afters
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 22faf8f6-eda9-4ba6-82d8-9e043e5d1ac9
+dates:
+  send_date: '2026-01-08'
+  inferred_send_type: local_time
+  first_sent: '2026-01-07T22:53:05+00:00'
+  last_sent: '2026-01-08T22:00:52+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 6e97fbb2-c2e9-4b31-9cfb-0f32e2646a71
+  channel: email
+  name: Variant 1
+  subject: Living room before & afters that will 🤯
+  preheader: Step inside.
+  html_file: html/p_em_2026_01_08_hav_pc_d_living_room_before_and_afters.html
+  screenshot: screenshots/p_em_2026_01_08_hav_pc_d_living_room_before_and_afters.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/695eb45953e9a10064a8cf93/original.gif?1767814233
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/695eb46d53e9a10064a8cfd1/original.gif?1767814253
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/695eb463b3a5230063b83192/original.gif?1767814243
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/695eb4389ec26100635dca84/original.png?1767814199
+- id: 17569e7e-40be-4787-9380-a7cf4fddb3b3
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 254538
+  total_delivered: 253708
+  total_opens: 100790
+  total_clicks: 962
+  open_rate: 0.396
+  click_rate: 0.0038
+  total_bounces: 6
+  total_unsubscribes: 429
+  ga4:
+    sessions: 893
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.382907'
+    source: snowflake
+    channel: email
+schedule_type: time_based

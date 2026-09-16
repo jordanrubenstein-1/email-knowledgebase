@@ -1,0 +1,37 @@
+id: FILL_IN_AFTER_CREATION
+name: TRG_EM_2026_04_CZ_D_Browse_Abandon_T1_V1
+brand: CZ
+channel: email
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: FILL_IN_AFTER_CREATION
+canvas_name: CZ - Browse Abandon
+flow_type: browse_abandonment
+sequence_position: 1
+notes: >
+  T1 email in "CZ - Browse Abandon" canvas.
+
+  Canvas trigger: custom_product_view event.
+  Entry filter: recently_browsed_products is not blank.
+    (ensures the tracking webhook has had a chance to write the attribute;
+     add a 5-minute pre-delay step if needed to guarantee ordering)
+  T1 delay: 1 hour after canvas entry.
+  Exit criteria: ecommerce.order_placed OR ecommerce.cart_updated.
+
+  Email built in Braze drag-and-drop editor — two HTML blocks:
+    Block 1 (browsed products grid): components/cz_browse_products_grid.liquid
+      - Shows up to 8 recently browsed products, newest first
+      - Sets MESSAGE_EXTRAS.browsed_product_ids for Snowflake attribution
+    Block 2 (recs): components/cz_shopify_recs_browse_abandon.liquid
+      - "You May Also Like" product recommendations
+      - Seeded from canvas_entry_properties.sku (the trigger product's SKU)
+
+  Snowflake attribution: join USERS_MESSAGES_EMAIL_SEND_SHARED.MESSAGE_EXTRAS
+  (browsed_product_ids) to USERS_BEHAVIORS_PURCHASE_SHARED on USER_ID within
+  7 days. CZ APP_GROUP_ID: 666672a4d8965b005ac6c1bd.
+sends:
+  - id: FILL_IN_AFTER_CREATION
+    channel: email
+    name: Variant 1
+    subject: "Still thinking about it?"
+    preheader: "The pieces you were admiring are still here."

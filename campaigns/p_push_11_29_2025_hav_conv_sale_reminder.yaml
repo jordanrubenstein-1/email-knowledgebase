@@ -1,0 +1,23 @@
+id: 816bd8d9-17ba-4519-996d-07785a60a56c
+name: P_PUSH_11_29_2025_HAV_CONV_Sale_Reminder
+brand: HAV
+channel: push
+category: reminder
+type: sale
+theme: null
+braze_id: 816bd8d9-17ba-4519-996d-07785a60a56c
+dates:
+  first_sent: '2025-11-29T02:07:37+00:00'
+  last_sent: '2025-11-30T01:02:47+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 9d8f3c12-e32c-4d90-a074-76087b193e76
+  channel: push
+  name: Variant 1
+- id: 394fec12-c3dc-4d7c-9246-ddb30a9aaf8f
+  channel: push
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: p_push_11_29_2025_hav_conv_sale_reminder.yaml

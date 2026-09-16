@@ -1,0 +1,34 @@
+id: 6cdbc05e-80f7-499f-b7e6-baf1d20ca868
+name: P_2024_11_14_PT_ID_Full_File_BFCM_EA_Last_Chance_Email
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: black_friday
+braze_id: 6cdbc05e-80f7-499f-b7e6-baf1d20ca868
+dates:
+  send_date: '2024-11-14'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-14T04:26:07+00:00'
+  last_sent: '2024-11-14T17:15:05+00:00'
+tags: []
+sends:
+- id: a685c6c3-fff1-4d40-aec2-036afb98882f
+  channel: email
+  name: Variant 1
+  subject: 'VIP EARLY ACCESS: Ends @ Midnight'
+- id: 5bea0771-dbcd-4de7-a519-70eb574e5e09
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 44034
+  total_delivered: 43813
+  total_opens: 15951
+  total_clicks: 399
+  open_rate: 0.3622
+  click_rate: 0.0091
+  total_revenue: 76852.75
+  total_bounces: 2
+  total_unsubscribes: 107
+_filename: p_2024_11_14_pt_id_full_file_bfcm_ea_last_chance_email.yaml
+schedule_type: time_based

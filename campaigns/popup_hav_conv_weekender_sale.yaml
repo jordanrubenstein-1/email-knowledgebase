@@ -1,0 +1,23 @@
+id: bebab912-4db5-4834-b4a2-d38177a732c8
+name: Popup_HAV_CONV_Weekender_Sale
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: bebab912-4db5-4834-b4a2-d38177a732c8
+dates:
+  first_sent: '2026-05-01T20:00:00+00:00'
+  last_sent: '2026-05-05T04:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: b147c18e-d39c-4492-a670-a81da6194d26
+  channel: other
+  name: Control Group
+- id: 84bc4581-adde-4c5d-a2e0-08758d9d3152
+  channel: other
+  name: Variant 1
+performance_summary: {}
+schedule_type: action_based
+_filename: popup_hav_conv_weekender_sale.yaml

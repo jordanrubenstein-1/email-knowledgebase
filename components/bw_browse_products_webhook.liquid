@@ -1,0 +1,324 @@
+{% comment %}
+================================================================================
+BW Browse Products Webhook
+================================================================================
+PURPOSE: Fires on "Product Viewed" custom event. Updates seven user attributes:
+  - recently_browsed_products    — rolling window of 8 unique products
+  - browse_affinity_categories        — unique categories in the window, most-viewed first
+  - browse_top_category               — single most-viewed category
+  - browse_affinity_categories_count  — number of unique categories (for canvas branching)
+  - browse_affinity_collections       — BW collections in the window, most-viewed first
+  - browse_top_collection             — single most-viewed collection
+  - browse_affinity_collections_count — number of unique collections (for canvas branching)
+
+CANVAS: "BW - Track Browse Products" — immediate re-entry, single Webhook step.
+
+CANVAS ENTRY PROPERTIES (from Product Viewed event, under data.p):
+  canvas_entry_properties.${product_id}   — Shopify product ID (dedup key)
+  canvas_entry_properties.${name}         — "Nomad Sofa Sectional"
+  canvas_entry_properties.${image_url}    — CDN image URL
+  canvas_entry_properties.${url}          — product URL (contains tracking params)
+  canvas_entry_properties.${category}     — "Sectional Sofas"
+
+URL CLEANING: Keep only query params whose key starts with an uppercase letter.
+  Preserves Burrow product selectors (Fabric, Leg%2BFinish, Arm%2BStyle, etc.)
+  and drops all tracking params regardless of source — utm_*, gclid, fbclid,
+  msclkid, ttclid, lid, userid, bzt, em, fn, ln, etc.
+
+COLLECTION DETECTION: Checked against product_title using contains.
+  Known collections: Nomad, Range, Russet, Shift, Field, Span, Union, Ember, Mambo, Index, Title.
+  First match wins. Re-detected from item.product_title on each webhook fire —
+  not stored on the product object. Empty string if no collection matches.
+
+DEDUP LOGIC: By product_id. If the product was viewed before (even a different
+  variant of the same product), the old entry is removed and the new one
+  appended as the most recent.
+
+DROP LOGIC: When the array is at 8 items and the product is not a duplicate,
+  the oldest item (forloop.first = index 0) is dropped to make room.
+
+ARRAY ORDER: Oldest at index 0, newest at the end. The email grid reads with
+  | reverse | slice: 0, 8 to show newest first.
+
+AFFINITY SORT: Outer loop checks counts from 8 down to 1, emitting items with
+  exactly that count in first-seen order (for stable tie-breaking).
+
+BRAZE WEBHOOK CONFIG:
+  Method: POST
+  URL:    https://rest.iad-06.braze.com/users/track  ← verify cluster for BW workspace
+  Headers:
+    Authorization: Bearer YOUR_BW_REST_API_KEY
+    Content-Type: application/json
+================================================================================
+{% endcomment %}
+
+{% assign max_items = 8 %}
+{% assign collections_list = 'Nomad,Range,Russet,Shift,Field,Span,Union,Ember,Mambo,Index,Title' | split: ',' %}
+
+{% comment %} ── Current product fields ──────────────────────────────────────── {% endcomment %}
+{% assign product_id    = canvas_entry_properties.${product_id} | default: '' %}
+{% assign product_title = canvas_entry_properties.${name}       | default: '' %}
+{% assign image_url     = canvas_entry_properties.${image_url}  | default: '' %}
+{% assign raw_url       = canvas_entry_properties.${url}        | default: '' %}
+{% assign category      = canvas_entry_properties.${category}   | default: '' %}
+{% assign now_iso       = 'now' | date: '%Y-%m-%dT%H:%M:%SZ' %}
+
+{% comment %} ── Abort: no product_id (can't dedup without it) ───────────────── {% endcomment %}
+{% if product_id == blank %}
+  {% abort_message('no product_id in event') %}
+{% endif %}
+
+{% comment %}
+────────────────────────────────────────────────────────────────────────────────
+URL CLEANING — keep only params whose key starts with an uppercase letter.
+────────────────────────────────────────────────────────────────────────────────
+{% endcomment %}
+{% assign url_parts    = raw_url | split: '?' %}
+{% assign url_base     = url_parts[0] %}
+{% assign url_query    = url_parts[1] | default: '' %}
+{% assign clean_params = '' %}
+{% if url_query != '' %}
+  {% assign raw_params = url_query | split: '&' %}
+  {% for param in raw_params %}
+    {% assign param_key   = param | split: '=' | first %}
+    {% assign first_char  = param_key | slice: 0, 1 %}
+    {% assign first_upper = first_char | upcase %}
+    {% if first_char == first_upper and first_char != '' %}
+      {% if clean_params == '' %}
+        {% assign clean_params = param %}
+      {% else %}
+        {% assign clean_params = clean_params | append: '&' | append: param %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+{% if clean_params != '' %}
+  {% assign clean_url = url_base | append: '?' | append: clean_params %}
+{% else %}
+  {% assign clean_url = url_base %}
+{% endif %}
+
+{% comment %} ── Detect collection from incoming product title ─────────────── {% endcomment %}
+{% assign product_collection = '' %}
+{% for coll in collections_list %}
+  {% if product_collection == '' %}
+    {% if product_title contains coll %}
+      {% assign product_collection = coll %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+{% comment %} ── Load existing array; check for duplicate product_id ──────────── {% endcomment %}
+{% assign existing_products = custom_attribute.${recently_browsed_products} | default: empty %}
+{% assign duplicate_found = false %}
+{% for item in existing_products %}
+  {% if item.product_id == product_id %}{% assign duplicate_found = true %}{% endif %}
+{% endfor %}
+
+{% comment %}
+================================================================================
+  PRE-COMPUTE: Build category + collection lists for the final window.
+  Mirrors the JSON body loop exactly so the affinity arrays reflect the precise
+  window that will be written to recently_browsed_products.
+  Collection is detected from item.product_title each time (not stored on the
+  object) using the same contains-check against the known collections list.
+================================================================================
+{% endcomment %}
+{% assign ba_cats_line  = '' %}
+{% assign ba_colls_line = '' %}
+
+{% for item in existing_products %}
+  {% unless item.product_id == product_id %}
+    {% unless existing_products.size >= max_items and duplicate_found == false and forloop.first %}
+
+      {% comment %} Category {% endcomment %}
+      {% assign item_cat = item.category | default: '' %}
+      {% if ba_cats_line == '' %}
+        {% assign ba_cats_line = item_cat %}
+      {% else %}
+        {% assign ba_cats_line = ba_cats_line | append: '|||' | append: item_cat %}
+      {% endif %}
+
+      {% comment %} Collection: detect from product_title each time {% endcomment %}
+      {% assign item_coll = '' %}
+      {% for coll in collections_list %}
+        {% if item_coll == '' %}
+          {% if item.product_title contains coll %}
+            {% assign item_coll = coll %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+      {% unless item_coll == blank %}
+        {% if ba_colls_line == '' %}
+          {% assign ba_colls_line = item_coll %}
+        {% else %}
+          {% assign ba_colls_line = ba_colls_line | append: '|||' | append: item_coll %}
+        {% endif %}
+      {% endunless %}
+
+    {% endunless %}
+  {% endunless %}
+{% endfor %}
+
+{% comment %} Add incoming product's category {% endcomment %}
+{% if ba_cats_line == '' %}
+  {% assign ba_cats_line = category %}
+{% else %}
+  {% assign ba_cats_line = ba_cats_line | append: '|||' | append: category %}
+{% endif %}
+
+{% comment %} Add incoming product's collection (only if detected) {% endcomment %}
+{% unless product_collection == blank %}
+  {% if ba_colls_line == '' %}
+    {% assign ba_colls_line = product_collection %}
+  {% else %}
+    {% assign ba_colls_line = ba_colls_line | append: '|||' | append: product_collection %}
+  {% endif %}
+{% endunless %}
+
+{% assign ba_cats_arr  = ba_cats_line  | split: '|||' %}
+{% assign ba_colls_arr = ba_colls_line | split: '|||' %}
+
+{% comment %} ── Unique categories (first-seen order for tie-breaking) ──────── {% endcomment %}
+{% assign ba_seen_cats = '::' %}
+{% assign ba_unique_cats_line = '' %}
+{% for cat in ba_cats_arr %}
+  {% unless cat == blank %}
+    {% assign cat_check = '::' | append: cat | append: '::' %}
+    {% unless ba_seen_cats contains cat_check %}
+      {% assign ba_seen_cats = ba_seen_cats | append: cat | append: '::' %}
+      {% if ba_unique_cats_line == '' %}
+        {% assign ba_unique_cats_line = cat %}
+      {% else %}
+        {% assign ba_unique_cats_line = ba_unique_cats_line | append: '|||' | append: cat %}
+      {% endif %}
+    {% endunless %}
+  {% endunless %}
+{% endfor %}
+{% assign ba_unique_cats_arr = ba_unique_cats_line | split: '|||' %}
+
+{% comment %} ── Unique collections (first-seen order for tie-breaking) ─────── {% endcomment %}
+{% assign ba_seen_colls = '::' %}
+{% assign ba_unique_colls_line = '' %}
+{% for coll in ba_colls_arr %}
+  {% unless coll == blank %}
+    {% assign coll_check = '::' | append: coll | append: '::' %}
+    {% unless ba_seen_colls contains coll_check %}
+      {% assign ba_seen_colls = ba_seen_colls | append: coll | append: '::' %}
+      {% if ba_unique_colls_line == '' %}
+        {% assign ba_unique_colls_line = coll %}
+      {% else %}
+        {% assign ba_unique_colls_line = ba_unique_colls_line | append: '|||' | append: coll %}
+      {% endif %}
+    {% endunless %}
+  {% endunless %}
+{% endfor %}
+{% assign ba_unique_colls_arr = ba_unique_colls_line | split: '|||' %}
+
+{% assign ba_cats_count  = ba_unique_cats_arr.size %}
+{% assign ba_colls_count = ba_unique_colls_arr.size %}
+
+{% comment %}
+  Sort unique categories by count descending.
+  Outer loop iterates target 1..8 → check_count 8..1 so highest counts emit first.
+  Ties preserve first-seen order (insertion order of unique cats).
+{% endcomment %}
+{% assign ba_sorted_cats_json = '' %}
+{% assign ba_sorted_cats_seen = '::' %}
+{% for target in (1..8) %}
+  {% assign check_count = 9 | minus: target %}
+  {% for ucat in ba_unique_cats_arr %}
+    {% unless ucat == blank %}
+      {% assign already_in = '::' | append: ucat | append: '::' %}
+      {% unless ba_sorted_cats_seen contains already_in %}
+        {% assign this_count = 0 %}
+        {% for c in ba_cats_arr %}
+          {% if c == ucat %}{% assign this_count = this_count | plus: 1 %}{% endif %}
+        {% endfor %}
+        {% if this_count == check_count %}
+          {% assign ba_sorted_cats_seen = ba_sorted_cats_seen | append: ucat | append: '::' %}
+          {% assign cat_clean = ucat | replace: '"','' | strip %}
+          {% if ba_sorted_cats_json != '' %}{% assign ba_sorted_cats_json = ba_sorted_cats_json | append: ',' %}{% endif %}
+          {% assign ba_sorted_cats_json = ba_sorted_cats_json | append: '"' | append: cat_clean | append: '"' %}
+        {% endif %}
+      {% endunless %}
+    {% endunless %}
+  {% endfor %}
+{% endfor %}
+
+{% comment %}
+  Sort unique collections by count descending. Same strategy.
+{% endcomment %}
+{% assign ba_sorted_colls_json = '' %}
+{% assign ba_sorted_colls_seen = '::' %}
+{% for target in (1..8) %}
+  {% assign check_count = 9 | minus: target %}
+  {% for ucoll in ba_unique_colls_arr %}
+    {% unless ucoll == blank %}
+      {% assign already_in = '::' | append: ucoll | append: '::' %}
+      {% unless ba_sorted_colls_seen contains already_in %}
+        {% assign this_count = 0 %}
+        {% for c in ba_colls_arr %}
+          {% if c == ucoll %}{% assign this_count = this_count | plus: 1 %}{% endif %}
+        {% endfor %}
+        {% if this_count == check_count %}
+          {% assign ba_sorted_colls_seen = ba_sorted_colls_seen | append: ucoll | append: '::' %}
+          {% assign coll_clean = ucoll | replace: '"','' | strip %}
+          {% if ba_sorted_colls_json != '' %}{% assign ba_sorted_colls_json = ba_sorted_colls_json | append: ',' %}{% endif %}
+          {% assign ba_sorted_colls_json = ba_sorted_colls_json | append: '"' | append: coll_clean | append: '"' %}
+        {% endif %}
+      {% endunless %}
+    {% endunless %}
+  {% endfor %}
+{% endfor %}
+
+{% comment %} ── Extract top-ranked category and collection ─────────────────── {% endcomment %}
+{% assign ba_top_cat  = ba_sorted_cats_json  | split: '","' | first | remove: '"' %}
+{% assign ba_top_coll = ba_sorted_colls_json | split: '","' | first | remove: '"' %}
+
+{
+  "attributes": [
+    {
+      "braze_id": "{{ braze_id | replace: '"','' }}",
+      "recently_browsed_products": [
+        {%- assign printed = false -%}
+        {%- for item in existing_products -%}
+
+          {%- unless item.product_id == product_id -%}
+            {%- unless existing_products.size >= max_items and duplicate_found == false and forloop.first -%}
+
+              {%- if printed -%},{%- endif -%}
+              {
+                "product_id":     "{{ item.product_id    | default: '' | replace: '"','' }}",
+                "product_title":  "{{ item.product_title | default: '' | replace: '"','' }}",
+                "image_url":      "{{ item.image_url     | default: '' | replace: '"','' }}",
+                "url":            "{{ item.url           | default: '' | replace: '"','' }}",
+                "category":       "{{ item.category      | default: '' | replace: '"','' }}",
+                "last_viewed_at": "{{ item.last_viewed_at | default: '' | replace: '"','' }}"
+              }
+              {%- assign printed = true -%}
+
+            {%- endunless -%}
+          {%- endunless -%}
+
+        {%- endfor -%}
+
+        {%- if printed -%},{%- endif -%}
+        {
+          "product_id":     "{{ product_id         | replace: '"','' }}",
+          "product_title":  "{{ product_title      | replace: '"','' }}",
+          "image_url":      "{{ image_url          | replace: '"','' }}",
+          "url":            "{{ clean_url          | replace: '"','' }}",
+          "category":       "{{ category  | replace: '"','' }}",
+          "last_viewed_at": "{{ now_iso }}"
+        }
+      ],
+      "browse_affinity_categories":       [{{ ba_sorted_cats_json }}],
+      "browse_top_category":              "{{ ba_top_cat  | replace: '"','' }}",
+      "browse_affinity_categories_count": {{ ba_cats_count }},
+      "browse_affinity_collections":      [{{ ba_sorted_colls_json }}],
+      "browse_top_collection":            "{{ ba_top_coll | replace: '"','' }}",
+      "browse_affinity_collections_count": {{ ba_colls_count }}
+    }
+  ]
+}

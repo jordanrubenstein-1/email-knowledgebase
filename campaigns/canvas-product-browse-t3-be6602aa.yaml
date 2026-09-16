@@ -1,0 +1,33 @@
+id: be6602aa-5905-4ddf-abf9-07cb9048e993
+name: TRG_EM_CZ_2024_08_Product_Browse_T5
+brand: CZ
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: a05de6df-1375-46bd-a676-be24e4f9328e
+canvas_name: Product Browse
+flow_type: browse_abandonment
+sequence_position: 3
+subject: 'Last call: This piece may be gone soon'
+preheader: Thoughtfully made. In limited supply. Claim yours before it disappears.
+sends:
+- id: be6602aa-5905-4ddf-abf9-07cb9048e993
+  channel: email
+  name: TRG_EM_CZ_2024_08_Product_Browse_T5
+  subject: 'Last call: This piece may be gone soon'
+  preheader: Thoughtfully made. In limited supply. Claim yours before it disappears.
+  html_file: html/canvas-product-browse-t3-be6602aa.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-05-02T18:00:00Z'
+  last_sent: '2026-07-20T17:00:00Z'
+performance_summary:
+  total_sends: 44583
+  total_delivered: 44380
+  total_opens: 26051
+  total_clicks: 1728
+  open_rate: 0.5843
+  click_rate: 0.0388
+  total_unsubscribes: 228
+  total_revenue: 40316.94

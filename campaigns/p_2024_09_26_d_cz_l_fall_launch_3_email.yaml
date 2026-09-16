@@ -1,0 +1,52 @@
+id: 29541166-15e1-4ee3-af00-940e18af6429
+name: P_2024_09_26_D_CZ_L_Fall_Launch_3_Email
+brand: CZ
+channel: email
+category: product_launch
+type: seasonal
+theme: fall
+braze_id: 29541166-15e1-4ee3-af00-940e18af6429
+dates:
+  send_date: '2024-09-26'
+  inferred_send_type: local_time
+  first_sent: '2024-09-25T22:07:43+00:00'
+  last_sent: '2024-09-26T17:00:21+00:00'
+tags:
+- batch and blast
+sends:
+- id: 5012b402-6a0f-449e-a34b-c4fc34529a00
+  channel: email
+  name: Variant 1
+  subject: Behind The Designs
+  preheader: A look inside our newest collection.
+  html_file: html/p_2024_09_26_d_cz_l_fall_launch_3_email.html
+  screenshot: screenshots/p_2024_09_26_d_cz_l_fall_launch_3_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66f190b52b39cf0065af968a/original.jpg?1727107253
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66f190156f8f350082ddfb7c/original.jpg?1727107093
+- id: acb772e2-da3f-415b-801a-32bf220ead6b
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 78432
+  total_delivered: 77838
+  total_opens: 41630
+  total_clicks: 477
+  open_rate: 0.5308
+  click_rate: 0.0061
+  total_revenue: 70574.79
+  total_bounces: 3
+  total_unsubscribes: 173
+  ga4:
+    sessions: 437
+    purchases: 2
+    revenue: 519.53
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.732208'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.358727'
+schedule_type: time_based

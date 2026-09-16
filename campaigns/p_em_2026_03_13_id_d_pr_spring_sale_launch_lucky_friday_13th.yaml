@@ -1,0 +1,36 @@
+id: bdbc66d9-5c72-4805-a616-308863397a20
+name: P_EM_2026_03_13_ID_D_PR_Spring_Sale_Launch_Lucky_Friday_13th
+brand: ID
+channel: email
+category: product_launch
+type: sale
+theme: spring
+braze_id: bdbc66d9-5c72-4805-a616-308863397a20
+dates:
+  send_date: '2026-03-13'
+  inferred_send_type: local_time
+  first_sent: '2026-03-12T23:36:44+00:00'
+  last_sent: '2026-03-13T20:06:22+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: d239701a-9eec-4f1b-8dc0-ec998b5df4ab
+  channel: email
+  name: Variant 1
+  subject: The Spring Refresh Sale Is Here
+  preheader: Shop 25% off sitewide.
+- id: 9d0de640-dd8f-4550-8a95-a5c4b046b4f3
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 199044
+  total_delivered: 198011
+  total_opens: 82802
+  total_clicks: 563
+  open_rate: 0.416
+  click_rate: 0.0028
+  total_revenue: 158274.93
+  total_bounces: 6
+  total_unsubscribes: 167
+_filename: p_em_2026_03_13_id_d_pr_spring_sale_launch_lucky_friday_13th.yaml
+schedule_type: time_based

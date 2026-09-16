@@ -1,0 +1,51 @@
+id: e2677918-17c0-4e40-aba3-7b3f17b043cb
+name: P_2025_06_09_ID_Weekender_Sale_Last_Chance_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: e2677918-17c0-4e40-aba3-7b3f17b043cb
+dates:
+  send_date: '2025-06-09'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-09T05:24:27+00:00'
+  last_sent: '2025-06-09T17:15:14+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 4c0d13bc-ae6f-4331-b4ac-c79f42d0ce71
+  channel: email
+  name: Graphic
+  subject: 20% OFF ENDS TONIGHT
+  preheader: It’s now or never (but mostly now).
+- id: ffe8d28e-7b66-43c4-aacd-d8c174fb8940
+  channel: other
+  name: Control Group
+- id: 07b21db5-f767-445c-9941-61776e357735
+  channel: email
+  name: Lifestyle
+  subject: 20% OFF ENDS TONIGHT
+  preheader: It’s now or never (but mostly now).
+performance_summary:
+  total_sends: 171348
+  total_delivered: 169213
+  total_opens: 39362
+  total_clicks: 320
+  open_rate: 0.2297
+  click_rate: 0.0019
+  total_revenue: 148368.0
+  total_unsubscribes: 98
+  ga4:
+    sessions: 405
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.087262'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.618443'
+schedule_type: time_based

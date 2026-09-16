@@ -1,0 +1,31 @@
+id: 64874bf2-6461-4199-823e-f5355e92f669
+name: P_PUSH_2026_03_06_HAV_PC_Spring_Refresh
+brand: HAV
+channel: push
+category: other
+type: seasonal
+theme: spring
+braze_id: 64874bf2-6461-4199-823e-f5355e92f669
+dates:
+  send_date: '2026-03-06'
+  first_sent: '2026-03-06T03:00:51+00:00'
+  last_sent: '2026-03-07T00:04:05+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 27de04bf-620a-407c-92f9-43145dd6808e
+  channel: push
+  name: Variant 1
+- id: b2567ebb-0571-415a-9c48-c1c7a5d0ecaf
+  channel: push
+  name: Control Group
+performance_summary:
+  total_sends: 64432
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_bounces: 135
+schedule_type: time_based
+_filename: p_push_2026_03_06_hav_pc_spring_refresh.yaml

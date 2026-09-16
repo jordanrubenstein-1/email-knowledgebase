@@ -1,0 +1,46 @@
+id: 031cdebf-ec9a-4c4d-aa8a-345938b210c2
+name: TRADE_2024_10_08_ID_SF_Launch_Email
+brand: ID
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 031cdebf-ec9a-4c4d-aa8a-345938b210c2
+dates:
+  send_date: '2024-10-08'
+  inferred_send_type: scheduled
+  first_sent: '2024-10-08T14:00:03+00:00'
+  last_sent: '2024-10-08T16:00:00+00:00'
+tags: []
+sends:
+- id: f078fa46-4027-47c8-98bd-bbe162eb0735
+  channel: email
+  name: Variant 1
+  subject: Our Trade Program just got even better...
+  preheader: Introducting our newest trade partner.
+- id: 11f3a939-57c2-46a0-944b-82987e7bbbe6
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 15349
+  total_delivered: 15059
+  total_opens: 3746
+  total_clicks: 535
+  open_rate: 0.2441
+  click_rate: 0.0349
+  total_revenue: 63555.0
+  total_bounces: 89
+  total_unsubscribes: 43
+  ga4:
+    sessions: 156
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.657728'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.963381'
+schedule_type: time_based

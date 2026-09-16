@@ -1,0 +1,78 @@
+id: 96a96048-e11b-4208-9492-c54cac886147
+name: 2025_07_07_BW_PT_Price_Increases_PM
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 96a96048-e11b-4208-9492-c54cac886147
+dates:
+  send_date: '2025-07-07'
+  inferred_send_type: local_time
+  first_sent: '2025-07-07T03:06:56+00:00'
+  last_sent: '2025-07-08T03:00:13+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 03c9188a-2fa5-411c-ab28-9b2e23fce84b
+  channel: email
+  name: Variant 1
+  subject: 'Heads up: A price change is coming'
+  preheader: But there’s still time—and 25% off
+- id: d41c01c9-3986-4d78-afac-9fd2e772a14f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 258483
+  total_delivered: 256639
+  total_opens: 155661
+  total_clicks: 963
+  open_rate: 0.6022
+  click_rate: 0.0037
+  total_revenue: 34761.75
+  total_unsubscribes: 316
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.926132'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-burrow-2025-07-08
+    name: Burrow
+    start_date: '2025-07-08'
+    end_date: '2025-07-08'
+    discount: 'July 4th Sale -- SITEWIDE, NO CODE NEEDED
+
+      25% off sitewide, plus FREE GROUND SHIPPING on orders >$2k'
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-burrow-2025-07-08
+    name: Burrow
+    start_date: '2025-07-08'
+    end_date: '2025-07-08'
+    discount: 'July 4th Sale -- SITEWIDE, NO CODE NEEDED
+
+      25% off sitewide, plus FREE GROUND SHIPPING on orders >$2k'
+    type: null
+  sale_name: Burrow
+  sale_discount: 'July 4th Sale -- SITEWIDE, NO CODE NEEDED
+
+    25% off sitewide, plus FREE GROUND SHIPPING on orders >$2k'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:35.903084'
+schedule_type: time_based

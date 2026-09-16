@@ -1,0 +1,130 @@
+{% assign sale_ea_start        = "2026-08-06 07:00:00" | date: "%s" %}
+{% assign sale_reg_start       = "2026-08-07 07:00:00" | date: "%s" %}
+{% assign sale_extension_start = "2026-08-08 07:00:00" | date: "%s" %}
+{% assign sale_end             = "2026-08-13 07:00:00" | date: "%s" %}
+{% assign lds_ea_start = "2026-08-18 07:00:00" | date: "%s" %}
+{% assign lds_reg_start             = "2026-08-20 07:00:00" | date: "%s" %}
+{% assign lds_extension             = "2026-09-09 07:00:00" | date: "%s" %}
+{% assign lds_end             = "2026-09-16 07:00:00" | date: "%s" %}
+{%- assign now = 'now' | date: "%s" -%}
+
+{% if now >= sale_ea_start and now < sale_reg_start %}
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+  <tr>
+    <td align="center" style="width: 100%">
+      <a target="_blank" rel="noopener noreferrer"
+         href="https://www.the-citizenry.com/?lid={{${cblid} | lid: 'kptlgvrmi4u2'}}">
+        <img
+          alt="Flash Sale"
+          width="600"
+          style="display:block;width:100%;max-width:100%;font-size:20px;font-family:Arial,'sans-serif';color:#383633;background-color:#FFFFFF;"
+          border="0"
+          src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a72fe28958132008a9b017b/original.png?1785921064" />
+      </a>
+    </td>
+  </tr>
+</table>
+{% elsif now >= sale_reg_start and now <= sale_extension_start %}
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+  <tr>
+    <td align="center" style="width: 100%">
+      <a target="_blank" rel="noopener noreferrer"
+         href="https://www.the-citizenry.com/?lid={{${cblid} | lid: '29zqhct6svat'}}">
+        <img
+          alt="Flash Sale"
+          width="600"
+          style="display:block;width:100%;max-width:100%;font-size:20px;font-family:Arial,'sans-serif';color:#383633;background-color:#FFFFFF;"
+          border="0"
+          src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a72fe28958132008a9b017b/original.png?1785921064" />
+      </a>
+    </td>
+  </tr>
+</table>
+{% elsif now >= sale_extension_start and now <= sale_end %}
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+  <tr>
+    <td align="center" style="width: 100%">
+      <a target="_blank" rel="noopener noreferrer"
+         href="https://www.the-citizenry.com/?lid={{${cblid} | lid: 'vhahipuvk881'}}">
+        <img
+          alt="Flash Sale"
+          width="600"
+          style="display:block;width:100%;max-width:100%;font-size:20px;font-family:Arial,'sans-serif';color:#383633;background-color:#FFFFFF;"
+          border="0"
+          src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a72fe28958132008a9b017b/original.png?1785921064" />
+      </a>
+    </td>
+  </tr>
+  
+</table>
+{% elsif now >= lds_ea_start and now <= lds_reg_start %}
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+  <tr>
+    <td align="center" style="width: 100%">
+      <a target="_blank" rel="noopener noreferrer"
+         href="https://www.the-citizenry.com/?lid={{${cblid} | lid: 'kauez3c7q3mg'}}">
+        <img
+          alt="Flash Sale"
+          width="600"
+          style="display:block;width:100%;max-width:100%;font-size:20px;font-family:Arial,'sans-serif';color:#383633;background-color:#FFFFFF;"
+          border="0"
+          src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a7b2994c06d75008846af5a/original.png?1786456467" />
+      </a>
+    </td>
+  </tr>
+  
+</table>
+
+{% elsif now >= lds_reg_start and now <= lds_extension %}
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+  <tr>
+    <td align="center" style="width: 100%">
+      <a target="_blank" rel="noopener noreferrer"
+         href="https://www.the-citizenry.com/?lid={{${cblid} | lid: 'p0t6ykh3fbj1'}}">
+        <img
+          alt="Flash Sale"
+          width="600"
+          style="display:block;width:100%;max-width:100%;font-size:20px;font-family:Arial,'sans-serif';color:#383633;background-color:#FFFFFF;"
+          border="0"
+          src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a7b2994da33dd0086f0f9b2/original.png?1786456468" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+{% elsif now >= lds_extension and now <= lds_end %}
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+  <tr>
+    <td align="center" style="width: 100%">
+      <a target="_blank" rel="noopener noreferrer"
+         href="https://www.the-citizenry.com/?lid={{${cblid} | lid: 'mpuvas016ujt'}}">
+        <img
+          alt="Flash Sale"
+          width="600"
+          style="display:block;width:100%;max-width:100%;font-size:20px;font-family:Arial,'sans-serif';color:#383633;background-color:#FFFFFF;"
+          border="0"
+          src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a7b2994da33dd0086f0f9b2/original.png?1786456468" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+
+
+{% else %}
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+  <tr>
+    <td align="center" style="width: 100%">
+      <a target="_blank" rel="noopener noreferrer"
+         href="https://www.the-citizenry.com/?lid={{${cblid} | lid: 'bruyy7cx2x0v'}}">
+        <img
+          alt="Claim 20% Off Your First Order. Use Code: CRAFTED20-ETWC26"
+          width="600"
+          style="display:block;width:100%;max-width:100%;font-size:20px;font-family:Arial,'sans-serif';color:#383633;background-color:#FFFFFF;"
+          border="0"
+          src="https://braze-images.com/appboy/communication/assets/image_assets/images/69f226fb55f47c009abac172/original.png?1777477370" />
+      </a>
+    </td>
+  </tr>
+</table>
+{% endif %}

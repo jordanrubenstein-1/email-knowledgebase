@@ -1,0 +1,35 @@
+id: bf76971e-1326-4507-9331-5c40d62a3f8f
+name: P_EM_2026_04_09_ID_D_PR_April_Reset_Sale
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: bf76971e-1326-4507-9331-5c40d62a3f8f
+dates:
+  send_date: '2026-04-09'
+  inferred_send_type: local_time
+  first_sent: '2026-04-08T20:09:52+00:00'
+  last_sent: '2026-04-09T18:00:00+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 744fa23a-dd9c-4e9b-b9d9-22602de16acf
+  channel: email
+  name: Variant 1
+  subject: 'The April Reset Sale: 25% off sitewide '
+  preheader: A fresh start for your space.
+- id: bee34bf6-665b-43bf-b267-c74b96c1f05d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 222519
+  total_delivered: 221294
+  total_opens: 90750
+  total_clicks: 968
+  open_rate: 0.4078
+  click_rate: 0.0044
+  total_revenue: 192170.94
+  total_bounces: 3
+  total_unsubscribes: 295
+schedule_type: time_based

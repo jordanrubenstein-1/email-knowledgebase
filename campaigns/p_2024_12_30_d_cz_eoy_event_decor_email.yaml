@@ -1,0 +1,74 @@
+id: b9fc006e-d51e-4bcd-8d3e-5d4b1943ac19
+name: P_2024_12_30_D_CZ_EOY_Event_Decor_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: b9fc006e-d51e-4bcd-8d3e-5d4b1943ac19
+dates:
+  send_date: '2024-12-30'
+  inferred_send_type: local_time
+  first_sent: '2024-12-29T17:09:36+00:00'
+  last_sent: '2024-12-30T17:01:16+00:00'
+tags: []
+sends:
+- id: e7c52802-b430-44a3-a50f-7e273444cabe
+  channel: email
+  name: Variant 1
+  subject: Handcrafted Decor. Up To 50% Off.
+  preheader: Claim these styles before they're gone for good.
+  html_file: html/p_2024_12_30_d_cz_eoy_event_decor_email.html
+  screenshot: screenshots/p_2024_12_30_d_cz_eoy_event_decor_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676ef6f6e2902a0064760b80/original.jpg?1735325430
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676a0e52236f060065574ab2/original.jpg?1735003730
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676f35fb6765480063277458/original.jpg?1735341563
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676a0e797c5eda00650e83d0/original.jpg?1735003769
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676a0e3c7c5eda00650e83c2/original.jpg?1735003708
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676ef78cc5114100649ae2f7/original.jpg?1735325580
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676a0e92cd9a95006592c0aa/original.jpg?1735003794
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676a0e62675b230064a52a64/original.jpg?1735003746
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676efed9c80ba600659b4d34/original.jpg?1735327449
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676a0d8ecd9a95006592c074/original.jpg?1735003534
+- id: f446c2a2-8918-464c-9d61-e9e2e30584c8
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 96255
+  total_delivered: 95551
+  total_opens: 47229
+  total_clicks: 1073
+  open_rate: 0.4907
+  click_rate: 0.0111
+  total_revenue: 56898.61
+  total_unsubscribes: 165
+  ga4:
+    sessions: 1672
+    purchases: 9
+    revenue: 2088.28
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.446973'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-23'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: cz_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-23'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:30.994272'
+schedule_type: time_based

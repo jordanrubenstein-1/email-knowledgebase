@@ -1,0 +1,46 @@
+id: fa19b0be-dc96-43c3-b621-20ba10d65cfd
+name: P_2025_07_02_ID_PT_July_4th_Sale_Reminder_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: fa19b0be-dc96-43c3-b621-20ba10d65cfd
+dates:
+  send_date: '2025-07-02'
+  inferred_send_type: scheduled
+  first_sent: '2025-07-02T05:44:57+00:00'
+  last_sent: '2025-07-02T17:15:11+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 253dcbbd-ea2c-48b0-ac1d-1445ea64b623
+  channel: email
+  name: Variant 1
+  subject: 'RE: Exciting News + Our Fourth of July Sale'
+- id: 550244fa-365f-4838-8d4b-7a4fc8001519
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 193489
+  total_delivered: 191259
+  total_opens: 91246
+  total_clicks: 1655
+  open_rate: 0.4716
+  click_rate: 0.0086
+  total_revenue: 238689.0
+  total_bounces: 7
+  total_unsubscribes: 702
+  ga4:
+    sessions: 2280
+    purchases: 9
+    revenue: 27021.49
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.165000'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.448204'
+schedule_type: time_based

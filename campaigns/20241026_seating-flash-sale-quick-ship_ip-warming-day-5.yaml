@@ -1,0 +1,26 @@
+id: e5b993f6-c49f-45de-9f06-f632321f39bc
+name: 20241026_Seating-Flash-Sale-Quick-Ship_IP-Warming-Day-5
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: e5b993f6-c49f-45de-9f06-f632321f39bc
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2024-10-26T21:47:00+00:00'
+  last_sent: '2024-10-26T21:47:27+00:00'
+tags:
+- IP Warming
+sends:
+- id: 29034f01-8ecd-4192-b3c8-183f33e3bdfe
+  channel: email
+  name: Variant 1
+  subject: On sale, shipped within a week
+  preheader: Save 20% on all of our seating designs.
+- id: a589625f-b983-489b-97d8-78354079553b
+  channel: other
+  name: Control Group
+performance_summary: {}
+_filename: 20241026_seating-flash-sale-quick-ship_ip-warming-day-5.yaml
+schedule_type: time_based

@@ -1,0 +1,30 @@
+id: 783b5c2b-ecf3-4dd2-86cd-975b3d5d303a
+name: 20250710_Airmail_Sale_Launch_SMS
+brand: BUR
+channel: sms
+category: product_launch
+type: sale
+theme: null
+braze_id: 783b5c2b-ecf3-4dd2-86cd-975b3d5d303a
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-07-10T02:06:03+00:00'
+  last_sent: '2025-07-11T01:00:36+00:00'
+tags: []
+sends:
+- id: c0586984-7baf-4c95-ac96-f71a958aef4e
+  channel: other
+  name: Variant 1
+- id: a985bc26-fddf-4faa-9271-364325c4edf2
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 308
+    purchases: 2
+    revenue: 2143.45
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.625238'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

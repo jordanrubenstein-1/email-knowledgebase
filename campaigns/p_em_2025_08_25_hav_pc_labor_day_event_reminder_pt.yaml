@@ -1,0 +1,34 @@
+id: c7e69c1b-b2f7-425d-ac21-40f40185c6aa
+name: P_EM_2025_08_25_HAV_PC_Labor_Day_Event_Reminder_PT
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: c7e69c1b-b2f7-425d-ac21-40f40185c6aa
+dates:
+  send_date: '2025-08-25'
+  first_sent: '2025-08-25T19:28:37+00:00'
+  last_sent: '2025-08-25T19:40:38+00:00'
+  inferred_send_type: scheduled
+tags:
+- BLASTS-2025
+sends:
+- id: f35416c7-d76b-4854-8bda-d1aeddf28fab
+  channel: email
+  name: Variant 1
+  subject: 'RE: 50% off interior design services'
+- id: 354c2516-3e38-4a8c-85f6-8111661930b0
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 233896
+  total_delivered: 232417
+  total_opens: 101953
+  total_clicks: 914
+  open_rate: 0.4359
+  click_rate: 0.0039
+  total_bounces: 22
+  total_unsubscribes: 586
+schedule_type: time_based
+_filename: p_em_2025_08_25_hav_pc_labor_day_event_reminder_pt.yaml

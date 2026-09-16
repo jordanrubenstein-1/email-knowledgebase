@@ -1,0 +1,53 @@
+id: 43025998-a3f1-4450-ab2b-107f54da01cb
+name: P_EM_2026_02_11_CZ_D_PR_Rugs_Presidents_Day_Sale_PM
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 43025998-a3f1-4450-ab2b-107f54da01cb
+dates:
+  send_date: '2026-02-11'
+  inferred_send_type: local_time
+  first_sent: '2026-02-11T06:05:45+00:00'
+  last_sent: '2026-02-12T06:02:37+00:00'
+tags:
+- batch and blast
+- d2c
+- designed
+- pm
+- rugs
+- sale
+- sale/presidentsday2026
+sends:
+- id: f074167e-b7c3-4fa4-a8f1-277a6b40e378
+  channel: email
+  name: Variant 1
+  subject: Every Step of the Way
+  preheader: Shop up to 25% off handwoven rugs.
+  html_file: html/p_em_2026_02_11_cz_d_pr_rugs_presidents_day_sale_pm.html
+  screenshot: screenshots/p_em_2026_02_11_cz_d_pr_rugs_presidents_day_sale_pm.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698b9cd451355c0065cae6e2/original.png?1770757331
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698ba1065b390a0063454b60/original.png?1770758406
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698b9fff98f13f00631da3d8/original.png?1770758142
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698ba17076475a0065eb77fb/original.png?1770758511
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698ba10e43f9a00063b8b87d/original.png?1770758413
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698ba150679fc00063f654eb/original.png?1770758479
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698b9cf79e5fd20065023dff/original.png?1770757366
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698ba039679fc00063f6526c/original.png?1770758201
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698ba27e6dc3c400717108f9/original.png?1770758780
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698ba16753d34b00637557e4/original.png?1770758502
+- id: b6ecc753-a7d5-4179-ba71-ee134d5b83f9
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 55868
+  total_delivered: 55814
+  total_opens: 28931
+  total_clicks: 613
+  open_rate: 0.5178
+  click_rate: 0.011
+  total_bounces: 2
+  total_unsubscribes: 69
+schedule_type: time_based

@@ -1,0 +1,30 @@
+id: 1a63abe9-97bb-458f-8e9c-61f080b4225e
+name: P_SMS_2025_12_03_ID_InStock_Delivery_Xmas
+brand: ID
+channel: sms
+category: other
+type: announcement
+theme: christmas
+braze_id: 1a63abe9-97bb-458f-8e9c-61f080b4225e
+dates:
+  send_date: '2025-12-03'
+  inferred_send_type: local_time
+  first_sent: '2025-12-02T22:14:32+00:00'
+  last_sent: '2025-12-03T22:02:48+00:00'
+tags: []
+sends:
+- id: a92f7a20-15d1-42b7-97aa-38107ccac206
+  channel: sms
+  name: Variant 1
+- id: d76d2577-aac8-4f32-a5ed-9202b892538b
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 50387
+  total_delivered: 45763
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 23918.98
+schedule_type: time_based

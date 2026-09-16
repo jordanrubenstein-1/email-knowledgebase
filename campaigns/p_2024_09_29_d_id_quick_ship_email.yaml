@@ -1,0 +1,46 @@
+id: eb5817b7-e617-42a6-864c-416dc7939dec
+name: P_2024_09_29_D_ID_Quick_Ship_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: eb5817b7-e617-42a6-864c-416dc7939dec
+dates:
+  send_date: '2024-09-29'
+  inferred_send_type: local_time
+  first_sent: '2024-09-28T17:17:52+00:00'
+  last_sent: '2024-09-29T17:15:06+00:00'
+tags: []
+sends:
+- id: 47fd0041-17fd-4faa-b41f-9296bb2b472a
+  channel: email
+  name: Variant 1
+  subject: Made-to-order, made fast 💨
+  preheader: Shop our Quick Ship collections
+- id: 99297e9c-3bff-44a6-8734-1a386be4aaec
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 53915
+  total_delivered: 53065
+  total_opens: 18854
+  total_clicks: 613
+  open_rate: 0.3497
+  click_rate: 0.0114
+  total_revenue: 782834.11
+  total_bounces: 1
+  total_unsubscribes: 101
+  ga4:
+    sessions: 1174
+    purchases: 9
+    revenue: 23913.42
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.193297'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.990554'
+schedule_type: time_based

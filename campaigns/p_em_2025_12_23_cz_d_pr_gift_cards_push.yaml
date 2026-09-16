@@ -1,0 +1,50 @@
+id: 3e45912c-69a9-4475-a53f-eb4cfd21f973
+name: P_EM_2025_12_23_CZ_D_PR_Gift_Cards_Push
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 3e45912c-69a9-4475-a53f-eb4cfd21f973
+dates:
+  send_date: '2025-12-23'
+  inferred_send_type: local_time
+  first_sent: '2025-12-22T22:57:35+00:00'
+  last_sent: '2025-12-23T17:17:19+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- holiday
+sends:
+- id: 6cb161fc-a39f-49a2-a275-6c56df8209ce
+  channel: email
+  name: Variant 1
+  subject: When You Need the Right Gift, Now
+  preheader: Shop digital gift cards, starting at $25.
+  html_file: html/p_em_2025_12_23_cz_d_pr_gift_cards_push.html
+  screenshot: screenshots/p_em_2025_12_23_cz_d_pr_gift_cards_push.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6949c9f1dec8890063a61ccd/original.gif?1766443505
+- id: d2159402-d021-4ae7-a30a-c8fa2346ee8b
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 114429
+  total_delivered: 114180
+  total_opens: 57908
+  total_clicks: 314
+  open_rate: 0.5061
+  click_rate: 0.0027
+  total_bounces: 8
+  total_unsubscribes: 156
+  ga4:
+    sessions: 135
+    purchases: 3
+    revenue: 1587.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.661200'
+    source: snowflake
+    channel: email
+schedule_type: time_based

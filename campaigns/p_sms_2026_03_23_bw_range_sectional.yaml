@@ -1,0 +1,30 @@
+id: 497b011c-12a7-4798-b82f-9ea93d398ffd
+name: P_SMS_2026_03_23_BW_Range_Sectional
+brand: BUR
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: 497b011c-12a7-4798-b82f-9ea93d398ffd
+dates:
+  send_date: '2026-03-23'
+  inferred_send_type: local_time
+  first_sent: '2026-03-22T21:06:09+00:00'
+  last_sent: '2026-03-23T21:02:45+00:00'
+tags: []
+sends:
+- id: 2b4524ba-e159-42b2-8d54-8e3a1cb4c675
+  channel: sms
+  name: Variant 1
+- id: 9cd702bf-ef75-4557-9629-a5242288b106
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 6984
+  total_delivered: 6770
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 14329.0
+schedule_type: time_based

@@ -1,0 +1,64 @@
+id: feff5c52-9b49-496d-bedc-1e7a7647baae
+name: P_EM_2025_07_19_CZ_D_PR_Woven_Wonders
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: feff5c52-9b49-496d-bedc-1e7a7647baae
+dates:
+  send_date: '2025-07-19'
+  inferred_send_type: local_time
+  first_sent: '2025-07-19T05:16:40+00:00'
+  last_sent: '2025-07-19T21:01:47+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- prod
+- rugs
+sends:
+- id: 0ed2a2a1-f923-4c0d-b6ce-496ad487eca4
+  channel: email
+  name: Variant 1
+  subject: Woven Wonders
+  preheader: Stunning pieces handwoven by master artisans.
+  html_file: html/p_em_2025_07_19_cz_d_pr_woven_wonders.html
+  screenshot: screenshots/p_em_2025_07_19_cz_d_pr_woven_wonders.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687a41e46a5edc00678b3e5c/original.png?1752842723
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687a422981398600671ac561/original.png?1752842792
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687a41aa4f7c5b0075ecb58f/original.png?1752842665
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687a42313a2ffc006703eded/original.png?1752842800
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687a41ec81398600671ac41f/original.png?1752842731
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687a41f581398600671ac441/original.png?1752842740
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687a420c4f7c5b0065ecbb6f/original.png?1752842764
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687a41fa77d2ac006601ab2d/original.png?1752842746
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687a41b030e9e90064c241ea/original.png?1752842671
+- id: 1f6dac11-17a6-4136-944b-adc1e0916609
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 99474
+  total_delivered: 98880
+  total_opens: 52767
+  total_clicks: 607
+  open_rate: 0.5305
+  click_rate: 0.0061
+  total_revenue: 74120.43
+  total_bounces: 4
+  total_unsubscribes: 147
+  ga4:
+    sessions: 667
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.297383'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.992157'
+schedule_type: time_based

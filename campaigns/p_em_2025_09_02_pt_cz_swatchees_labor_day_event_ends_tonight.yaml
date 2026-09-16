@@ -1,0 +1,41 @@
+id: 36158b05-5426-46a0-a9d8-7659c46edba9
+name: P_EM_2025_09_02_PT_CZ_Swatchees_Labor_Day_Event_Ends_Tonight_PM
+brand: CZ
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 36158b05-5426-46a0-a9d8-7659c46edba9
+dates:
+  send_date: '2025-09-02'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-02T22:49:08+00:00'
+  last_sent: '2025-09-02T22:49:19+00:00'
+tags:
+- batch and blast
+- pm
+- pt
+- sale
+- sale_feat
+- seg
+sends:
+- id: dc351bcc-bbad-4dba-9e62-c86756433760
+  channel: email
+  name: Variant 1
+  subject: 'Re: 20% off your next custom piece'
+  html_file: html/p_em_2025_09_02_pt_cz_swatchees_labor_day_event_ends_tonight.html
+  screenshot: screenshots/p_em_2025_09_02_pt_cz_swatchees_labor_day_event_ends_tonight.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f83def4631c700674e669c/original.png?1744322031
+- id: 54f34211-1efb-49cf-ac04-9f270cc723ea
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 253
+  total_delivered: 249
+  total_opens: 136
+  total_clicks: 2
+  open_rate: 0.5375
+  click_rate: 0.0079
+_filename: p_em_2025_09_02_pt_cz_swatchees_labor_day_event_ends_tonight.yaml
+schedule_type: time_based

@@ -1,0 +1,44 @@
+id: 230f3bcd-1788-448d-a524-aaebfa1108c6
+name: P_2024_08_19_D_ID_CAT_Shop_Sale_Email
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 230f3bcd-1788-448d-a524-aaebfa1108c6
+dates:
+  send_date: '2024-08-19'
+  inferred_send_type: scheduled
+  first_sent: '2024-08-19T13:05:02+00:00'
+  last_sent: '2024-08-19T13:05:18+00:00'
+tags: []
+sends:
+- id: 9bce55e9-9246-482d-8628-c06340ad49bd
+  channel: email
+  name: Variant 1
+  subject: '30% OFF: Shop The Collection'
+  preheader: Select styles & fabrics.
+- id: 13c1cf5f-76fa-46bd-a952-c14802618ae7
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 4738
+  total_delivered: 4735
+  total_opens: 2239
+  total_clicks: 412
+  open_rate: 0.4726
+  click_rate: 0.087
+  total_unsubscribes: 9
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.918681'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.654068'
+schedule_type: time_based

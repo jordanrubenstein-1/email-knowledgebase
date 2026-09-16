@@ -1,0 +1,88 @@
+id: a637f38a-d0be-49e3-a490-47a63c386086
+name: Dallas RSVP Confirmation and Welcome Flow - February 2025
+brand: CZ
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: a637f38a-d0be-49e3-a490-47a63c386086
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-02-22T00:00:00+00:00'
+  last_sent: '2025-08-29T01:00:00+00:00'
+tags: []
+sends:
+- id: ae93d6f7-866d-481c-9be9-e6c0c9fcf7a6
+  channel: email
+  name: TRG_2024_07_CZ_Welcome_T2_Email
+  subject: The Well-Traveled Home
+  preheader: Bring home the best craftsmanship from around the globe. Fair Trade.
+    Guaranteed.
+  step_id: 5b876f8b-15a0-4bce-aa22-9b69eeb937f6
+- id: 7465c9bb-387d-48a2-8058-3a755d9e081b
+  channel: email
+  name: TRG_2024_07_CZ_Welcome_T1_Email
+  subject: Welcome to The Citizenry
+  preheader: Thanks for joining the journey. Country by country, we travel the globe
+    to bring the world's best craftsmanship home to you.
+  step_id: 0d7be09c-c14c-4465-8def-55398b4b2988
+- id: 35173002-bc64-48ce-8aff-9b480dfdbe85
+  channel: email
+  name: TRG_2024_07_CZ_Welcome_T3_Email
+  subject: Iconic For A Reason
+  preheader: Elevate your home with our iconic linen bedding. Sustainably made in
+    Portugal.
+  step_id: fb783c2b-e914-4f5d-81a7-f01b4eb1be1f
+- id: f15dc178-3ce9-4f25-861a-b36af51c2242
+  channel: email
+  name: DAL RSVP Confirmation
+  subject: You're On The List
+  preheader: See you at the grand opening of our Dallas store!
+  step_id: b9ec3abc-f355-4e39-acbb-1d5eac9e182f
+performance_summary: {}
+canvas_steps:
+- id: 7a7d2ddc-a770-49a7-9da1-cb637753c036
+  name: Step 1
+  type: delay
+- id: e5705e5c-e439-46d0-9d1f-8f3157fc1175
+  name: Step
+  type: delay
+- id: 5b876f8b-15a0-4bce-aa22-9b69eeb937f6
+  name: TRG_2024_07_CZ_Welcome_T2_Email
+  type: message
+  channel: email
+  subject: The Well-Traveled Home
+  preheader: Bring home the best craftsmanship from around the globe. Fair Trade.
+    Guaranteed.
+- id: 0d7be09c-c14c-4465-8def-55398b4b2988
+  name: TRG_2024_07_CZ_Welcome_T1_Email
+  type: message
+  channel: email
+  subject: Welcome to The Citizenry
+  preheader: Thanks for joining the journey. Country by country, we travel the globe
+    to bring the world's best craftsmanship home to you.
+- id: fb783c2b-e914-4f5d-81a7-f01b4eb1be1f
+  name: TRG_2024_07_CZ_Welcome_T3_Email
+  type: message
+  channel: email
+  subject: Iconic For A Reason
+  preheader: Elevate your home with our iconic linen bedding. Sustainably made in
+    Portugal.
+- id: 3ff00929-5d8f-4e3c-8ea7-032fd3975458
+  name: Step 2
+  type: delay
+- id: b9ec3abc-f355-4e39-acbb-1d5eac9e182f
+  name: DAL RSVP Confirmation
+  type: message
+  channel: email
+  subject: You're On The List
+  preheader: See you at the grand opening of our Dallas store!
+- id: faade80b-609d-4f1a-997a-3a0597b19525
+  name: has not received welcome canvas
+  type: decision_split
+- id: 8fe083a7-6887-474f-9d05-326245381ae6
+  name: Step 3
+  type: delay
+_filename: dallas-rsvp-confirmation-and-welcome-flow-february-2025.yaml

@@ -1,0 +1,34 @@
+id: 59e94b39-02f9-4a31-bf6a-89cf4a528bff
+name: SEG_2024_09_01_D_HAV_CONV_Cart_On_Sale_Email
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 59e94b39-02f9-4a31-bf6a-89cf4a528bff
+dates:
+  send_date: '2024-09-01'
+  first_sent: '2024-09-01T23:05:01+00:00'
+  last_sent: '2024-09-01T23:07:30+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: b201949d-c827-4ae8-a39a-cb03aa0a320f
+  channel: email
+  name: Variant 1
+  subject: 'Limited time offer: Your cart is ON SALE'
+  preheader: Shop your dream piece at a discount!
+- id: 5d80f411-90c0-4dbe-8ebc-ffc4882f8e91
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 19854
+  total_delivered: 19419
+  total_opens: 10570
+  total_clicks: 630
+  open_rate: 0.5324
+  click_rate: 0.0317
+  total_bounces: 289
+  total_unsubscribes: 321
+schedule_type: time_based
+_filename: seg_2024_09_01_d_hav_conv_cart_on_sale_email.yaml

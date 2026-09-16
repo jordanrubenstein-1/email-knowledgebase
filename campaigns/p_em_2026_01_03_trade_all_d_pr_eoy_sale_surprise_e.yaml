@@ -1,0 +1,43 @@
+id: 389d82fb-f63c-4099-8d36-77a6dd4692e6
+name: P_EM_2026_01_03_TRADE_ALL_D_PR_EOY_Sale_Surprise_Extension
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 389d82fb-f63c-4099-8d36-77a6dd4692e6
+dates:
+  send_date: '2026-01-03'
+  inferred_send_type: local_time
+  first_sent: '2026-01-02T23:29:18+00:00'
+  last_sent: '2026-01-03T19:00:41+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 62ae9b1d-35af-4fc3-84ed-b9dfe5d1efef
+  channel: email
+  name: Variant 1
+  subject: A surprise extension, just for you
+  preheader: More time to shop exclusive trade savings
+- id: 2cc1f158-a5c9-481f-a436-4e9e00d6004c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 19791
+  total_delivered: 19131
+  total_opens: 9733
+  total_clicks: 93
+  open_rate: 0.4918
+  click_rate: 0.0047
+  total_revenue: 66275.0
+  total_bounces: 15
+  total_unsubscribes: 72
+  ga4:
+    sessions: 75
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.755924'
+    source: snowflake
+    channel: email
+schedule_type: time_based

@@ -1,0 +1,33 @@
+id: 1f7fc872-7070-4e1f-9197-83f04cf3c28a
+name: P_EM_2026_07_17_HAV_PC_D_Summer_Sale_Launch
+brand: HAV
+channel: email
+category: product_launch
+type: sale
+theme: summer
+braze_id: 1f7fc872-7070-4e1f-9197-83f04cf3c28a
+dates:
+  send_date: '2026-07-17'
+  last_sent: '2026-07-17'
+tags:
+- BLASTS-2025
+sends:
+- id: 5fe0e901-ffaf-4b69-a856-d4581abbf3be
+  channel: email
+  name: Variant 1
+  subject: The Summer Sale has arrived
+  preheader: Get 50% off Havenly design services.
+- id: 0bc3549c-a237-4764-96cc-3ad30095c9ed
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 285867
+  total_delivered: 283849
+  total_opens: 101461
+  total_clicks: 600
+  open_rate: 0.3549
+  click_rate: 0.0021
+  total_bounces: 15
+  total_unsubscribes: 276
+schedule_type: time_based
+_filename: p_em_2026_07_17_hav_pc_d_summer_sale_launch.yaml

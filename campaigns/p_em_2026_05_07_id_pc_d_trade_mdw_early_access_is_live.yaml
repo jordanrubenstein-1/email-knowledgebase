@@ -1,0 +1,34 @@
+id: 1b07ba17-1ff0-40d1-8681-31fdc831718c
+name: P_EM_2026_05_07_ID_PC_D_TRADE_MDW_Early_Access_Is_Live
+brand: ID
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 1b07ba17-1ff0-40d1-8681-31fdc831718c
+dates:
+  send_date: '2026-05-07'
+  inferred_send_type: scheduled
+  first_sent: '2026-05-06T22:48:35+00:00'
+  last_sent: '2026-05-07'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: efc3618a-a7ee-41b7-855c-e6c188a29372
+  channel: email
+  name: Variant 1
+  subject: 'VIP early access: Memorial Day Sale'
+  preheader: Up to 30% off starts now.
+- id: d712b761-e20c-465a-a67e-e1b20032b8ba
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 83
+  total_delivered: 82
+  total_opens: 26
+  total_clicks: 7
+  open_rate: 0.3133
+  click_rate: 0.0843
+  total_unsubscribes: 1
+_filename: p_em_2026_05_07_id_pc_d_trade_mdw_early_access_is_live.yaml
+schedule_type: time_based

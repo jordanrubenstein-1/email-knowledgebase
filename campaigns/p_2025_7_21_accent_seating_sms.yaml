@@ -1,0 +1,30 @@
+id: ce2f53fe-5dcb-491f-a2d2-b0472811be82
+name: P_2025_7_21_Accent_Seating_SMS
+brand: ID
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: ce2f53fe-5dcb-491f-a2d2-b0472811be82
+dates:
+  send_date: '2025-07-21'
+  inferred_send_type: scheduled
+  first_sent: '2025-07-21T20:19:52+00:00'
+  last_sent: '2025-07-21T22:23:02+00:00'
+tags: []
+sends:
+- id: 30712bdc-5c8f-439f-801f-83a42475db8c
+  channel: other
+  name: Variant 1
+- id: 18548525-e4cb-4073-bdc2-2fa3e0875e2e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 54756
+  total_delivered: 53019
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 9925.0
+schedule_type: time_based

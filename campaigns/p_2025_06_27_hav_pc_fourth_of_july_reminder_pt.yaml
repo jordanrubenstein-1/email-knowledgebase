@@ -1,0 +1,35 @@
+id: 2bcf8b71-5917-42cb-90ba-8014412a5b19
+name: P_2025_06_27_HAV_PC_Fourth_of_July_Reminder_PT
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 2bcf8b71-5917-42cb-90ba-8014412a5b19
+dates:
+  send_date: '2025-06-27'
+  first_sent: '2025-06-26T18:23:11+00:00'
+  last_sent: '2025-06-27T18:15:11+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 1320502a-b6bf-467e-bdbd-ff6b14614098
+  channel: email
+  name: Variant 1
+  subject: Save on your new room refresh (and all the items in it!)
+  preheader: 50% off interior design services
+- id: c80ae579-c8cb-4153-a483-1890202cebe0
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 223706
+  total_delivered: 220351
+  total_opens: 95888
+  total_clicks: 294
+  open_rate: 0.4286
+  click_rate: 0.0013
+  total_bounces: 7
+  total_unsubscribes: 369
+schedule_type: time_based
+_filename: p_2025_06_27_hav_pc_fourth_of_july_reminder_pt.yaml

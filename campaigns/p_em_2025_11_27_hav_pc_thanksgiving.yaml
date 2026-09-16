@@ -1,0 +1,35 @@
+id: 9c17cc51-0790-4cc8-b945-52a79a8397ef
+name: P_EM_2025_11_27_HAV_PC_Thanksgiving
+brand: HAV
+channel: email
+category: other
+type: seasonal
+theme: null
+braze_id: 9c17cc51-0790-4cc8-b945-52a79a8397ef
+dates:
+  send_date: '2025-11-27'
+  first_sent: '2025-11-26T21:46:47+00:00'
+  last_sent: '2025-11-27T18:15:07+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 579cbfd2-0d87-46ee-b4b3-90423bf20088
+  channel: email
+  name: Variant 1
+  subject: 'Style, served: $89 makeover. '
+  preheader: Plus Havenly AI, for post-feast design fun.
+- id: 605001e6-261a-43b1-b366-8bfa4e449cf1
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 91015
+  total_delivered: 90750
+  total_opens: 35302
+  total_clicks: 293
+  open_rate: 0.3879
+  click_rate: 0.0032
+  total_bounces: 1
+  total_unsubscribes: 166
+schedule_type: time_based
+_filename: p_em_2025_11_27_hav_pc_thanksgiving.yaml

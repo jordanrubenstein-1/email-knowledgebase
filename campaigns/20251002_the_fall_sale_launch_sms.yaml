@@ -1,0 +1,30 @@
+id: 2896ad73-f39a-4867-b2ca-fc8abfe36498
+name: 20251002_The_Fall_Sale_Launch_SMS
+brand: BUR
+channel: sms
+category: product_launch
+type: sale
+theme: fall
+braze_id: 2896ad73-f39a-4867-b2ca-fc8abfe36498
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-10-02T05:25:59+00:00'
+  last_sent: '2025-10-03T01:01:51+00:00'
+tags: []
+sends:
+- id: d316bb22-fb82-48db-a9a0-9e5d1d4bd42b
+  channel: other
+  name: Variant 1
+- id: d4c95e94-7c98-4193-97fb-cbcfaec50a80
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 200
+    purchases: 2
+    revenue: 1649.98
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.933594'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

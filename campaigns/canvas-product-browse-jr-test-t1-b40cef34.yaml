@@ -1,0 +1,25 @@
+id: b40cef34-5965-4178-8954-1ffc1f88253d
+name: Step 1
+brand: ID
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 0c1e580f-3fd0-4211-81ad-9da341e184d0
+canvas_name: Product Browse - JR Test
+flow_type: browse_abandonment
+sequence_position: 1
+subject: 'ICYMI: 20% Off Sitewide Is On!'
+preheader: Consider this your sign to save big.
+sends:
+- id: b40cef34-5965-4178-8954-1ffc1f88253d
+  channel: email
+  name: Step 1
+  subject: 'ICYMI: 20% Off Sitewide Is On!'
+  preheader: Consider this your sign to save big.
+  html_file: html/canvas-product-browse-jr-test-t1-b40cef34.html
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2025-08-10T11:00:00Z'
+  last_sent: '2025-08-10T11:00:00Z'
+performance_summary: {}

@@ -1,0 +1,24 @@
+id: 86a9fdca-94a6-49b3-9d2c-4da069babfc8
+name: TRG_2024_07_SF_Welcome_T1_FS_Email 1
+brand: STF
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: e3b1e8fb-f127-4cda-9b6a-97546f7bc2e5
+canvas_name: SMS Welcome Flow
+flow_type: welcome_series
+sequence_position: 1
+subject: Welcome to the club
+preheader: come on in
+sends:
+- id: 86a9fdca-94a6-49b3-9d2c-4da069babfc8
+  channel: email
+  name: TRG_2024_07_SF_Welcome_T1_FS_Email 1
+  subject: Welcome to the club
+  preheader: come on in
+  html_file: html/canvas-sms-welcome-flow-t1-86a9fdca.html
+dates:
+  first_sent: null
+  last_sent: null
+performance_summary: {}

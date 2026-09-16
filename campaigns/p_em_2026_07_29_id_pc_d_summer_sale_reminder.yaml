@@ -1,0 +1,33 @@
+id: d00525a2-3be0-4ebe-b53c-e898b5d56a47
+name: P_EM_2026_07_29_ID_PC_D_Summer_Sale_Reminder
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: summer
+braze_id: d00525a2-3be0-4ebe-b53c-e898b5d56a47
+dates:
+  send_date: '2026-07-29'
+  first_sent: '2026-07-28T21:27:14+00:00'
+  last_sent: '2026-07-28T21:00:00+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 9d9d9614-760b-47b8-8fa6-e8ad792ef20a
+  channel: email
+  name: Variant 1
+  subject: Don't miss 25% off sitewide
+  preheader: Custom sofas, sectionals, and more won't stay on sale forever — shop
+    now.
+- id: fda2413f-e8b2-4c61-9957-02b01141909f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 5
+  total_delivered: 5
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+schedule_type: time_based
+_filename: p_em_2026_07_29_id_pc_d_summer_sale_reminder.yaml

@@ -1,0 +1,34 @@
+id: 7fea76cd-0513-4fac-8f49-cbb5603dfe71
+name: P_EM_2025_09_01_ID_PT_PM_Labor_Day_Reminder_Swatchees
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 7fea76cd-0513-4fac-8f49-cbb5603dfe71
+dates:
+  send_date: '2025-09-01'
+  inferred_send_type: local_time
+  first_sent: '2025-09-01T03:20:58+00:00'
+  last_sent: '2025-09-02T00:15:11+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 7c283fd5-7f93-4b66-918c-7364771b9898
+  channel: email
+  name: Variant 1
+  subject: 'Time’s running out: Labor Day savings end soon'
+- id: db3e69f1-25f3-41fe-8453-ddce939c7bf2
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 20892
+  total_delivered: 20663
+  total_opens: 9069
+  total_clicks: 147
+  open_rate: 0.4341
+  click_rate: 0.007
+  total_revenue: 270975.0
+  total_unsubscribes: 77
+_filename: p_em_2025_09_01_id_pt_pm_labor_day_reminder_swatchees.yaml
+schedule_type: time_based

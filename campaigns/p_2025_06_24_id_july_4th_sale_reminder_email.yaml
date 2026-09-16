@@ -1,0 +1,47 @@
+id: 7ea612f0-04ab-47d0-bd40-882d30f525b6
+name: P_2025_06_24_ID_July_4th_Sale_Reminder_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 7ea612f0-04ab-47d0-bd40-882d30f525b6
+dates:
+  send_date: '2025-06-24'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-24T05:02:33+00:00'
+  last_sent: '2025-06-24T17:15:21+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 19ba6a13-03bd-41d6-be84-3978d8eebee9
+  channel: email
+  name: Variant 1
+  subject: The one you want? It's up to 25% off.
+  preheader: Our Fourth of July Sale is live – shop your favorites now.
+- id: 76214375-ca64-4a38-b9a1-782301e8a3e5
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 191281
+  total_delivered: 189097
+  total_opens: 84572
+  total_clicks: 907
+  open_rate: 0.4421
+  click_rate: 0.0047
+  total_revenue: 284776.69
+  total_bounces: 2
+  total_unsubscribes: 664
+  ga4:
+    sessions: 873
+    purchases: 5
+    revenue: 13704.71
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.151263'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.093716'
+schedule_type: time_based

@@ -1,0 +1,35 @@
+id: b9674aaa-716b-4e88-a485-600208f8d942
+name: P_EM_2026_02_01_BW_D_Multi_Function_Styles
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: b9674aaa-716b-4e88-a485-600208f8d942
+dates:
+  send_date: '2026-02-01'
+  inferred_send_type: local_time
+  first_sent: '2026-02-01T03:07:29+00:00'
+  last_sent: '2026-02-02T03:01:08+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 8d4e4a36-7615-4daa-93f1-00e694af9ca6
+  channel: email
+  name: Variant 1
+  subject: Shop trending modular furniture, now 25% off
+  preheader: Having a (modular) moment
+- id: e3b96231-ff66-496b-9db2-ffe19d7184c4
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 236429
+  total_delivered: 234883
+  total_opens: 127041
+  total_clicks: 370
+  open_rate: 0.5373
+  click_rate: 0.0016
+  total_revenue: 27966.0
+  total_bounces: 4
+  total_unsubscribes: 206
+schedule_type: time_based

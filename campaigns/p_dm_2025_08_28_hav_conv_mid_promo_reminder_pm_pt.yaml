@@ -1,0 +1,34 @@
+id: 71d0dbe6-b731-4397-b69b-64e431d012f4
+name: P_DM_2025_08_28_HAV_CONV_Mid_Promo_Reminder_PM_PT
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 71d0dbe6-b731-4397-b69b-64e431d012f4
+dates:
+  send_date: '2025-08-28'
+  first_sent: '2025-08-28T03:07:12+00:00'
+  last_sent: '2025-08-29T02:02:30+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: f945b8ee-98b6-4a4d-94ee-a4c785a4250b
+  channel: email
+  name: Variant 1
+  subject: Time flies—bonus savings end tonight ⏰
+  preheader: Last call for up to 20% off
+- id: 660fd9ad-88a5-4038-9ca0-042d60d7a5d4
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 41166
+  total_delivered: 41101
+  total_opens: 22440
+  total_clicks: 61
+  open_rate: 0.5451
+  click_rate: 0.0015
+  total_unsubscribes: 42
+schedule_type: time_based
+_filename: p_dm_2025_08_28_hav_conv_mid_promo_reminder_pm_pt.yaml

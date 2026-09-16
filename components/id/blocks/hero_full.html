@@ -1,0 +1,79 @@
+<!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:600px;" width="600"><tr><td style="line-height:0;font-size:0;mso-line-height-rule:exactly;"><v:image style="border:0;height:{{ hero_height|default(646) }}px;mso-position-horizontal:center;position:absolute;top:0;width:600px;z-index:-3;" src="{{ image_url }}" xmlns:v="urn:schemas-microsoft-com:vml" /><v:rect style="border:0;height:{{ hero_height|default(646) }}px;mso-position-horizontal:center;position:absolute;top:0;width:600px;z-index:-4;" fillcolor="#000000" stroke="false" strokecolor="none" strokeweight="0" xmlns:v="urn:schemas-microsoft-com:vml" /><![endif]-->
+<div class="h fz zt" style="margin:0 auto;max-width:600px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+<tbody>
+<tr style="vertical-align:top;">
+<td background="{{ image_url }}" style="background:#000000 url('{{ image_url }}') no-repeat center center / cover;background-size:cover;background-position:center center;background-repeat:no-repeat;padding:58px 130px 96px 130px;vertical-align:top;height:{{ hero_height|default(646) }}px;" height="{{ hero_height|default(646) }}">
+<!--[if mso | IE]><table border="0" cellpadding="0" cellspacing="0" style="width:600px;" width="600"><tr><td style="padding-top:0;padding-left:130px;padding-right:130px;padding-bottom:0;"><![endif]-->
+<div style="margin:0px auto;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;margin:0;">
+<tbody>
+<tr>
+<td>
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;margin:0;">
+<tbody>
+
+{% if logo_lockup_url %}
+<tr>
+<td align="center" class="i f a waa m" style="font-size:0;padding:0;padding-bottom:20px;word-break:break-word;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0;">
+<tbody>
+<tr>
+<td style="width:260px;">
+<img alt="" src="{{ logo_lockup_url }}" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="260">
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+{% endif %}
+
+<tr>
+<td align="center" class="x wq t m" style="font-size:0;padding-bottom:20px;word-break:break-word;">
+<div style="font-family:'Arial', sans-serif;font-size:48px;font-weight:400;line-height:115%;text-align:center;color:#ffffff;"><p style="Margin:0;mso-line-height-alt:55px;font-size:48px;line-height:115%;">{{ headline }}</p></div>
+</td>
+</tr>
+
+{% if subheadline %}
+<tr>
+<td align="center" class="x rl m" style="font-size:0;padding-bottom:20px;word-break:break-word;">
+<div style="font-family:'Arial', sans-serif;font-size:14px;font-weight:400;line-height:136%;text-align:center;color:#ffffff;"><p style="Margin:0;mso-line-height-alt:19px;font-size:14px;line-height:136%;">{{ subheadline }}</p></div>
+</td>
+</tr>
+{% endif %}
+
+{% if cta_text and cta_url %}
+<tr>
+<td align="center" class="b m" style="font-size:0;padding:0;padding-bottom:20px;word-break:break-word;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;width:160px;line-height:100%;">
+<tbody>
+<tr>
+<td align="center" bgcolor="{{ colors.btn_bg }}" class="c" role="presentation" style="background:{{ colors.btn_bg }};border:none;border-radius:30px;cursor:auto;mso-padding-alt:12px 0px;vertical-align:middle;" valign="middle">
+<!--[if mso]><v:roundrect style="width:160px;height:38px;v-text-anchor:middle;" arcsize="100%" fill="t" stroke="f" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word"><w:anchorlock/><v:fill type="solid" color="{{ colors.btn_bg }}" /><v:textbox inset="0,0,0,0"><center><![endif]-->
+<a href="{{ cta_url }}" class="c" style="display:inline-block;width:160px;background-color:{{ colors.btn_bg }};color:{{ colors.btn_text }};font-family:'Arial', sans-serif;font-size:13px;font-weight:normal;line-height:100%;margin:0;text-decoration:none;text-transform:none;padding:12px 0px;mso-padding-alt:0;border-radius:30px;" target="_blank">
+<span style="font-size:14px;font-family:'Arial', sans-serif;font-weight:400;color:{{ colors.btn_text }};line-height:117%;letter-spacing:0.24px;mso-line-height-alt:14px;">{{ cta_text }}</span>
+</a>
+<!--[if mso]></center></v:textbox></v:roundrect><![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+{% endif %}
+
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso | IE]></td></tr></table><![endif]-->

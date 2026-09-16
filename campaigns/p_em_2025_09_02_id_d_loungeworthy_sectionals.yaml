@@ -1,0 +1,63 @@
+id: fb0e4874-4c9c-44cf-ae29-ed2dbe43e75b
+name: P_EM_2025_09_02_ID_D_Loungeworthy_Sectionals
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: fb0e4874-4c9c-44cf-ae29-ed2dbe43e75b
+dates:
+  send_date: '2025-09-02'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-02T04:29:24+00:00'
+  last_sent: '2025-09-02T17:15:31+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 4f34bd31-c120-492a-9de4-24ad2ae2b33a
+  channel: email
+  name: Variant 1
+  subject: Sectionals You’ve Been Waiting For, Now 25% Off
+  preheader: Last chance to bring home the best price.
+- id: 48380e37-24d3-4d60-8211-dc9442ea0002
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 204560
+  total_delivered: 203903
+  total_opens: 96923
+  total_clicks: 740
+  open_rate: 0.4738
+  click_rate: 0.0036
+  total_revenue: 440526.0
+  total_bounces: 5
+  total_unsubscribes: 692
+  ga4:
+    sessions: 851
+    purchases: 6
+    revenue: 13874.86
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.745202'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-04'
+    discount: 25% off sitewide
+    type: null
+  primary_sale:
+    id: id-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-04'
+    discount: 25% off sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 25% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:38.749211'
+schedule_type: time_based

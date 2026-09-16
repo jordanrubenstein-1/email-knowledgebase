@@ -1,0 +1,34 @@
+id: 8541429a-391c-4223-a814-0eb22d41093e
+name: 2025_05_03_CONV_Virginia_Home_Tour
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 8541429a-391c-4223-a814-0eb22d41093e
+dates:
+  send_date: '2025-05-03'
+  first_sent: '2025-05-03T01:08:56+00:00'
+  last_sent: '2025-05-04T00:01:51+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: e106a362-b0aa-4c39-8808-14d2827264fa
+  channel: email
+  name: Variant 1
+  subject: 'HOME TOUR: Custom on a budget'
+  preheader: Step inside.
+- id: 244d5b3b-9216-4f72-8ecb-b5115e43cca2
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 39363
+  total_delivered: 39282
+  total_opens: 21683
+  total_clicks: 236
+  open_rate: 0.5508
+  click_rate: 0.006
+  total_unsubscribes: 35
+schedule_type: time_based
+_filename: 2025_05_03_conv_virginia_home_tour.yaml

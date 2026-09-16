@@ -1,0 +1,58 @@
+id: cad30b81-b3c9-4156-9a5d-f82ba061f357
+name: P_2025_03_14_D_STF_TRADE_Outdoor_Fabric_Resend
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: cad30b81-b3c9-4156-9a5d-f82ba061f357
+dates:
+  send_date: '2025-03-14'
+  inferred_send_type: local_time
+  first_sent: '2025-03-13T23:22:23+00:00'
+  last_sent: '2025-03-14T16:01:28+00:00'
+tags: []
+sends:
+- id: 75fd9a97-33bb-4ef4-a807-e24e878f626f
+  channel: email
+  name: Variant 1
+  subject: Outdoor Fabric Is Here!
+  preheader: bring our bold patterns outdoors
+  html_file: html/p_2025_03_14_d_stf_trade_outdoor_fabric_resend.html
+  screenshot: screenshots/p_2025_03_14_d_stf_trade_outdoor_fabric_resend.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cf5916297e010066cc7eaa/original.png?1741642006
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cf585a679f780067683f37/original.png?1741641818
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cf57a613629d006757d50a/original.png?1741641637
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cf589a858a710067d746bd/original.png?1741641882
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cf57f6858a710076d730f4/original.png?1741641718
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cf58cb3834000076255621/original.png?1741641931
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cf5805f4d64b0066a56fdc/original.png?1741641733
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cf5842a4345c0064a95b3d/original.png?1741641794
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cf58b491105a0065bae6a1/original.png?1741641908
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67cf583a9fd3c80082807120/original.png?1741641786
+- id: b71783ab-fd4b-40e6-9d7c-abb1734df6da
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1444
+  total_delivered: 1424
+  total_opens: 710
+  total_clicks: 29
+  open_rate: 0.4917
+  click_rate: 0.0201
+  total_revenue: 1942.0
+  total_unsubscribes: 5
+  ga4:
+    sessions: 30
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.900291'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.665023'
+schedule_type: time_based

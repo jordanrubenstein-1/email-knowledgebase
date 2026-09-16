@@ -1,0 +1,33 @@
+id: 577f589c-1868-4d07-8a69-1cf64dd929e1
+name: P_2024_12_24_HAV_PC_Holiday_Gifting_PT_Email
+brand: HAV
+channel: email
+category: other
+type: seasonal
+theme: christmas
+braze_id: 577f589c-1868-4d07-8a69-1cf64dd929e1
+dates:
+  send_date: '2024-12-24'
+  first_sent: '2024-12-24T02:56:11+00:00'
+  last_sent: '2024-12-24T18:15:06+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: aa3f0c39-cf93-4b61-be0b-0584ce650981
+  channel: email
+  name: Variant 1
+  subject: It’s not too late to give the gift of design joy
+- id: b1141c62-2c71-42ff-9761-52d919c9fa47
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 171236
+  total_delivered: 167680
+  total_opens: 84299
+  total_clicks: 485
+  open_rate: 0.4923
+  click_rate: 0.0028
+  total_bounces: 6
+  total_unsubscribes: 375
+schedule_type: time_based
+_filename: p_2024_12_24_hav_pc_holiday_gifting_pt_email.yaml

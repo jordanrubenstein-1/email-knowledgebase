@@ -1,0 +1,114 @@
+id: eb5cfa65-684d-4fa9-8090-dcf4c7aaebc1
+name: P_2025_2_20_D_CZ_Trade_Newness_Roundup
+brand: CZ
+channel: email
+category: other
+type: product_launch
+theme: null
+braze_id: eb5cfa65-684d-4fa9-8090-dcf4c7aaebc1
+dates:
+  send_date: '2025-02-20'
+  inferred_send_type: local_time
+  first_sent: '2025-02-19T23:23:10+00:00'
+  last_sent: '2025-02-20T19:00:34+00:00'
+tags: []
+sends:
+- id: 699fedf4-a8c2-4029-a5f4-d63271bc84c5
+  channel: email
+  name: Variant 1
+  subject: New Arrivals From The Citizenry
+  preheader: Bring them home with your Trade-exclusive discount.
+  html_file: html/p_2025_2_20_d_cz_trade_newness_roundup.html
+  screenshot: screenshots/p_2025_2_20_d_cz_trade_newness_roundup.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b6510ef0ffa200656d4d76/original.jpg?1740001550
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b651a4f0ffa200656d505e/original.jpg?1740001700
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b652ec750651006718fec9/original.jpg?1740002028
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b6514f8365b6007772fad2/original.jpg?1740001615
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b651193494f70067ebbbf0/original.jpg?1740001561
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b651af750651006718fbf0/original.jpg?1740001711
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b65396084e4000643273a2/original.png?1740002197
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b650eb8dccca00643c64db/original.gif?1740001515
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b6516a084e400064326b2d/original.jpg?1740001641
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b651bd25aeeb0064199f24/original.jpg?1740001724
+- id: 2527a33a-afe2-4933-bcfd-d78428e5fef8
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 15437
+  total_delivered: 15166
+  total_opens: 8193
+  total_clicks: 237
+  open_rate: 0.5307
+  click_rate: 0.0154
+  total_revenue: 21859.31
+  total_bounces: 14
+  total_unsubscribes: 60
+  ga4:
+    sessions: 188
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.494642'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-citizenry-2025-02-19
+    name: The Citizenry
+    start_date: '2025-02-19'
+    end_date: '2025-02-24'
+    discount: 'Up to 20% Off Select Categories
+
+      20% Off Rugs + Bedding, 15% Off Furniture, Baskets, + Accents
+
+      + Up to 60% off Archive Sale
+
+
+      EXTENSION OFFER
+
+      Up to 20% Select Categories
+
+      20% off Bedding, 15% Off Furniture
+
+      + Up to 60% off Archive Sale'
+    type: null
+  primary_sale:
+    id: cz-the-citizenry-2025-02-19
+    name: The Citizenry
+    start_date: '2025-02-19'
+    end_date: '2025-02-24'
+    discount: 'Up to 20% Off Select Categories
+
+      20% Off Rugs + Bedding, 15% Off Furniture, Baskets, + Accents
+
+      + Up to 60% off Archive Sale
+
+
+      EXTENSION OFFER
+
+      Up to 20% Select Categories
+
+      20% off Bedding, 15% Off Furniture
+
+      + Up to 60% off Archive Sale'
+    type: null
+  sale_name: The Citizenry
+  sale_discount: 'Up to 20% Off Select Categories
+
+    20% Off Rugs + Bedding, 15% Off Furniture, Baskets, + Accents
+
+    + Up to 60% off Archive Sale
+
+
+    EXTENSION OFFER
+
+    Up to 20% Select Categories
+
+    20% off Bedding, 15% Off Furniture
+
+    + Up to 60% off Archive Sale'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:43.068232'
+schedule_type: time_based

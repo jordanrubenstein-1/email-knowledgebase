@@ -1,0 +1,35 @@
+id: 4b743a34-7ea8-402e-990d-803de9cf2ea8
+name: P_EM_2026_05_15_HAV_PC_D_Memorial_Day_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 4b743a34-7ea8-402e-990d-803de9cf2ea8
+dates:
+  send_date: '2026-05-15'
+  first_sent: '2026-05-15T01:05:18+00:00'
+  last_sent: '2026-05-16T00:06:30+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: a8800bb9-5ed2-4280-9bd7-6f49bfed6f0d
+  channel: email
+  name: Variant 1
+  subject: Big design plans, smaller price tag
+  preheader: Get 50% off interior design services before the sale ends.
+- id: bb719b6f-aae8-4563-8ad2-97f0bd56ecdd
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 70876
+  total_delivered: 70691
+  total_opens: 27926
+  total_clicks: 294
+  open_rate: 0.394
+  click_rate: 0.0041
+  total_bounces: 2
+  total_unsubscribes: 151
+schedule_type: time_based
+_filename: p_em_2026_05_15_hav_pc_d_memorial_day_sale_reminder.yaml

@@ -1,0 +1,146 @@
+# Known data-quality issues surfaced as banners on the lifecycle dashboards.
+#
+# Each issue renders a banner on its brand's dashboard. An issue is shown when it is
+# still open (end_date: null) OR when the selected period (this-year or last-year window)
+# overlaps its date range — so active problems are always visible and resolved ones surface
+# contextually when you view the affected dates.
+#
+# Fields:
+#   brand            Brand code (CZ, STF, BUR, ID, TI, HAV, ...). Matched to the dashboard.
+#   summary          One-line headline shown in bold on the banner.
+#   detail           Longer explanation (what's wrong, magnitude, what to trust).
+#   start_date       ISO date the issue began (inclusive), or null for a structural limitation.
+#   end_date         ISO date it was resolved (inclusive), or null if still open/unfixed.
+#   always_show      true for a permanent/structural limitation — shown on every period,
+#                    ignoring the date-overlap check (use with null start/end dates).
+#   severity         critical | warning | info
+#                    (critical → red error, warning → yellow, info → blue).
+#   metrics          Which metrics are affected (free-text list, shown to the reader).
+#   link             Optional tracking URL (Asana, etc.), or null.
+
+issues:
+  - brand: HAV
+    summary: "In-app conversions can't be attributed back to email or push"
+    detail: >
+      Conversions that happen inside the Havenly mobile app (design-fee purchases, merch
+      orders, room activity) lose their email/push attribution. Push notifications deep-link
+      straight into the app, and email links opened on mobile often hand off to the app,
+      dropping the UTM/click signal that last-click attribution depends on — so those
+      conversions get counted as Direct/app rather than Email or Push. Email- and
+      push-driven orders, rooms, and revenue shown here are therefore a FLOOR: understated
+      by an unknown amount, with push most affected since it almost always opens in-app.
+      See the "Click attribution reconciliation" section below for an estimate of the
+      unattributed-click gap.
+    always_show: true
+    start_date: null
+    end_date: null
+    severity: warning
+    metrics: [orders, rooms, revenue, push conversions]
+    link: null
+
+  - brand: CZ
+    summary: "GA4 attribution collapse — Email/SMS sessions & revenue mis-attributed to Unassigned"
+    detail: >
+      From 2026-06-24 through 2026-07-14, the large majority of GA4 traffic was classified as
+      'Unassigned' instead of Email/SMS — roughly 15% of sessions on the first day,
+      climbing to ~83–91% of sessions and ~66–88% of revenue from 2026-06-25 through
+      2026-07-13, tapering off on 2026-07-14. Email/SMS sessions, orders, and revenue for
+      this window are severely understated — do not trust CZ lifecycle numbers from
+      2026-06-24 through 2026-07-14. Fixed starting 2026-07-15.
+    start_date: 2026-06-24
+    end_date: 2026-07-14
+    severity: critical
+    metrics: [sessions, orders, revenue]
+    link: https://app.asana.com/1/5257710284167/project/1208217080803312/task/1216315338332252
+
+  - brand: STF
+    summary: "100% of GA4 purchases & revenue mis-attributed to Unassigned"
+    detail: >
+      From 2026-06-04 through 2026-07-20, 100% of GA4 purchases and revenue were classified
+      as 'Unassigned', so Email/SMS (and every channel's) revenue and order counts read ~$0 / 0.
+      Sessions were largely unaffected (~10% unassigned, near normal), so session/engagement
+      metrics from that window are still usable — but do not trust any STF revenue or order
+      figure from 2026-06-04 through 2026-07-20. Fixed starting 2026-07-21.
+    start_date: 2026-06-04
+    end_date: 2026-07-20
+    severity: critical
+    metrics: [orders, revenue]
+    link: null
+
+  - brand: BUR
+    summary: "GA4 channel-grouping failure — revenue mis-attributed to Unassigned (May–Jun 2025)"
+    detail: >
+      In May 2025 ~95% and June 2025 ~45% of GA4 revenue was classified as 'Unassigned'
+      instead of Email. Email revenue and orders for this window are understated by an
+      unknown amount — exclude these months from revenue trends rather than treating the
+      figures as real. Sessions tracked correctly. Resolved from July 2025.
+    start_date: 2025-05-01
+    end_date: 2025-06-30
+    severity: critical
+    metrics: [orders, revenue]
+    link: null
+
+  - brand: ID
+    summary: "GA4 revenue tracking broken sitewide — not just an attribution issue"
+    detail: >
+      From 2026-07-15 through 2026-07-20, GA4 purchases and revenue were misclassified as
+      'Unassigned' instead of Email/SMS (real revenue was flowing, just mis-tagged). Starting
+      2026-07-21 this became a full outage: GA4 TOTALREVENUE is $0 across EVERY channel
+      (not just Email/SMS) for nearly every day since, confirmed still $0 as of 2026-07-27.
+      Sessions also dropped roughly in half starting 2026-07-21 (~40-60K/day down to
+      ~17-23K/day), suggesting a broader tracking break, not just ecommerce/purchase events.
+      Do not trust any ID revenue or order figures from 2026-07-15 onward.
+    start_date: 2026-07-15
+    end_date: null
+    severity: critical
+    metrics: [orders, revenue, sessions]
+    link: null
+
+  - brand: ID
+    summary: "Bot signup-bombing attacks inflated Email channel Sessions (Jul 9–Aug 2, RESOLVED)"
+    detail: >
+      Two waves of fake-account-creation bots flooded the Welcome and Browse Abandon
+      canvases, inflating Email channel Sessions (and anything derived from them — Conv.
+      Rate, $/M Sent): 2026-07-09 through 2026-07-20 via cdelpriore@graceofny.org (peaked
+      ~25,800 sends in one day), and 2026-07-27 through 2026-08-02 via
+      mmcloughlin@boarsheadresort.com and laura@legallycopied.com. Send-side volume
+      (Sends, Open Rate, CTR) is already corrected on this dashboard via an email-address
+      exclusion filter; Sessions can't be cleanly filtered the same way since GA4's report
+      structure doesn't preserve a usable join key, so treat Sessions as unreliable across
+      both windows. All three addresses are now on Braze's suppression list — 2026-08-02 is
+      the last affected day; Sessions from 2026-08-03 onward should be clean.
+    start_date: 2026-07-09
+    end_date: 2026-08-02
+    severity: critical
+    metrics: [sessions]
+    link: null
+
+  - brand: TI
+    summary: "GA4 revenue & orders mis-attributed to Unassigned (Jun 3–25, RESOLVED)"
+    detail: >
+      From 2026-06-03 through 2026-06-25, GA4 orders and revenue were almost entirely
+      classified as 'Unassigned' instead of Email/SMS/any real channel — mostly 100% of
+      both orders and revenue for the bulk of the window, tapering at the edges (2026-06-03
+      ~78%, 2026-06-25 ~44-55%). Sessions tracked normally throughout (no gaps, ordinary
+      day-to-day volume), so this is a pure channel-attribution failure, not a traffic or
+      tagging-loss issue. Do not trust TI revenue or order figures by channel from
+      2026-06-03 through 2026-06-25. Resolved from 2026-06-26.
+    start_date: 2026-06-03
+    end_date: 2026-06-25
+    severity: critical
+    metrics: [orders, revenue]
+    link: null
+
+  - brand: BUR
+    summary: "GA4 revenue attribution spike to Unassigned (Feb 2026)"
+    detail: >
+      ~40% of BUR GA4 revenue in February 2026 was classified as 'Unassigned'. Email
+      revenue for the month is understated; interpret Feb 2026 BUR revenue cautiously.
+      (Also note: session-level 'Unassigned' ran elevated in early 2024 and revenue-level
+      'Unassigned' sat around 15–26% across ~Aug 2024–Apr 2025 — a softer, longer-running
+      partial mis-attribution that predates the acute May–Jun 2025 break.)
+    start_date: 2026-02-01
+    end_date: 2026-02-28
+    severity: warning
+    metrics: [revenue]
+    link: null

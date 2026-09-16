@@ -1,0 +1,59 @@
+id: ae987130-a300-4e1f-8d4e-b3818b9348a8
+name: P_2025_03_01_D_CZ_March_Edit
+brand: CZ
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: ae987130-a300-4e1f-8d4e-b3818b9348a8
+dates:
+  send_date: '2025-03-01'
+  inferred_send_type: local_time
+  first_sent: '2025-03-01T00:27:19+00:00'
+  last_sent: '2025-03-01T17:01:28+00:00'
+tags: []
+sends:
+- id: 70e271e5-1ce8-436d-9bb8-e7c22cc16d6c
+  channel: email
+  name: Variant 1
+  subject: Your March Edit
+  preheader: Welcome in a fresh, new season.
+  html_file: html/p_2025_03_01_d_cz_march_edit.html
+  screenshot: screenshots/p_2025_03_01_d_cz_march_edit.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c23038a54e400073f297f0/original.png?1740779575
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c23082568fa60064fb9f91/original.png?1740779650
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c23021568fa60064fb9e28/original.png?1740779552
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c2301338d0fa00631392a3/original.png?1740779538
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c230eacb33ef0062fdb18c/original.png?1740779754
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c2304600e795006306ed08/original.png?1740779589
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c2306562b6260064a35afd/original.gif?1740779621
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c230f2a8074b00624f729c/original.png?1740779762
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c2310a568fa60064fba193/original.png?1740779786
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c23102a8074b00714f5ef7/original.png?1740779778
+- id: 763ccc39-6e22-43b8-ae04-5f60419ce47d
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 90794
+  total_delivered: 90052
+  total_opens: 48571
+  total_clicks: 699
+  open_rate: 0.535
+  click_rate: 0.0077
+  total_revenue: 49621.0
+  total_bounces: 5
+  total_unsubscribes: 112
+  ga4:
+    sessions: 937
+    purchases: 6
+    revenue: 2253.96
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.663674'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:45.194547'
+schedule_type: time_based

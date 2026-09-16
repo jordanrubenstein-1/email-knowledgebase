@@ -1,0 +1,47 @@
+id: b270705f-2eb5-4e90-9b3b-0fffbcf0424f
+name: P_2025_04_23_CZ_Fresh_Foundations_Sale_Last_Chance_PM_Email
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: b270705f-2eb5-4e90-9b3b-0fffbcf0424f
+dates:
+  send_date: '2025-04-23'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-23T23:00:14+00:00'
+  last_sent: '2025-04-23T23:25:55+00:00'
+tags: []
+sends:
+- id: 73aede69-cd6f-43af-8a03-a33ca98d6f2b
+  channel: email
+  name: Variant 1
+  subject: Only Hours Left...
+  preheader: Hurry—The Fresh Foundations Sale ends at midnight.
+  html_file: html/p_2025_04_23_cz_fresh_foundations_sale_last_chance_pm_email.html
+  screenshot: screenshots/p_2025_04_23_cz_fresh_foundations_sale_last_chance_pm_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6807c1f7e4f5f80074e48392/original.png?1745338871
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6807c21d40557000631315b3/original.png?1745338908
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6807c1b2fbad7b00632d0e07/original.png?1745338801
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6807c224e4f5f80064e49c23/original.png?1745338916
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6807c1ece1941f00636d6626/original.png?1745338860
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6807c1d46b77090061eed9f2/original.png?1745338836
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6807c1e0e1941f00636d6623/original.png?1745338848
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6807c1fce1941f00706d6633/original.png?1745338876
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6807c22b500bf20062a2218d/original.png?1745338923
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6807c2394fe59a0064e2172b/original.png?1745338937
+- id: 243d6230-6317-4cab-bc90-99c7ac4c7250
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 24263
+  total_delivered: 24230
+  total_opens: 15922
+  total_clicks: 583
+  open_rate: 0.6562
+  click_rate: 0.024
+  total_revenue: 53345.98
+  total_unsubscribes: 41
+_filename: p_2025_04_23_cz_fresh_foundations_sale_last_chance_pm_email.yaml
+schedule_type: time_based

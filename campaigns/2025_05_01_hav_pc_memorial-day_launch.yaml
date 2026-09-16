@@ -1,0 +1,35 @@
+id: d5a1d16e-086c-4544-8043-f37aea0fec77
+name: 2025_05_01_HAV_PC_Memorial Day_Launch
+brand: HAV
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: d5a1d16e-086c-4544-8043-f37aea0fec77
+dates:
+  send_date: '2025-05-01'
+  first_sent: '2025-04-30T18:22:41+00:00'
+  last_sent: '2025-05-01T18:15:05+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 31894a81-d1e1-4717-8ae7-f6a021827cd6
+  channel: email
+  name: Variant 1
+  subject: Our biggest sale of the season is LIVE.
+  preheader: Early Memorial Day deals, just for you.
+- id: 1ffa29e2-9cbf-4d25-b1a1-4547c32778b9
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 209868
+  total_delivered: 206313
+  total_opens: 88540
+  total_clicks: 595
+  open_rate: 0.4219
+  click_rate: 0.0028
+  total_bounces: 14
+  total_unsubscribes: 261
+schedule_type: time_based
+_filename: 2025_05_01_hav_pc_memorial-day_launch.yaml

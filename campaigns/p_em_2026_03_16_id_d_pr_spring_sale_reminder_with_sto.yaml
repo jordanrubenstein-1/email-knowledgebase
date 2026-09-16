@@ -1,0 +1,36 @@
+id: 6f6df170-8296-4d3c-875b-cd652cc6c726
+name: P_EM_2026_03_16_ID_D_PR_Spring_Sale_Reminder_With_STO
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: spring
+braze_id: 6f6df170-8296-4d3c-875b-cd652cc6c726
+dates:
+  send_date: '2026-03-16'
+  inferred_send_type: sto
+  first_sent: '2026-03-15T10:06:04+00:00'
+  last_sent: '2026-03-17T08:25:11+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 0c9ff537-dabc-4050-beca-f8adb6003bcf
+  channel: email
+  name: Variant 1
+  subject: A New Season. 25% Off.
+  preheader: The Spring Refresh Sale is on.
+- id: 31aa3ba4-3094-4430-a344-0c14c3f113e9
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 109827
+  total_delivered: 109570
+  total_opens: 46297
+  total_clicks: 305
+  open_rate: 0.4215
+  click_rate: 0.0028
+  total_revenue: 84883.98
+  total_bounces: 4
+  total_unsubscribes: 110
+_filename: p_em_2026_03_16_id_d_pr_spring_sale_reminder_with_sto.yaml
+schedule_type: time_based

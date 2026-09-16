@@ -1,0 +1,55 @@
+id: ee27bafb-7cb2-41ea-9e1f-faa2414cdcb9
+name: 20241127_Retail-Sip-Event
+brand: BUR
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: ee27bafb-7cb2-41ea-9e1f-faa2414cdcb9
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2024-11-27T15:38:20+00:00'
+  last_sent: '2024-11-28T02:00:49+00:00'
+tags: []
+sends:
+- id: b4d3c1c6-901f-4c9d-8eb4-110a3f13987a
+  channel: email
+  name: Variant 1
+  subject: Black Friday Event at your local Burrow House
+  preheader: Come for the drinks, stay for the sofas.
+- id: 37c06bb0-97ca-4fa6-a51b-8ee917d281ff
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 1024
+    purchases: 9
+    revenue: 14443.77
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.158589'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-20-off-2000-25-off-4000-30-off-4k-strikethrough-up-to-60-off-select-styles-2024-11-27
+    name: 20% off <$2000 / 25% off <$4000 / 30% off $4K+ (strikethrough) + up to 60%
+      off Select Styles
+    start_date: '2024-11-27'
+    end_date: '2024-12-03'
+    discount: null
+    type: null
+  primary_sale:
+    id: bur-20-off-2000-25-off-4000-30-off-4k-strikethrough-up-to-60-off-select-styles-2024-11-27
+    name: 20% off <$2000 / 25% off <$4000 / 30% off $4K+ (strikethrough) + up to 60%
+      off Select Styles
+    start_date: '2024-11-27'
+    end_date: '2024-12-03'
+    discount: null
+    type: null
+  sale_name: 20% off <$2000 / 25% off <$4000 / 30% off $4K+ (strikethrough) + up to
+    60% off Select Styles
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:38.402047'
+schedule_type: time_based

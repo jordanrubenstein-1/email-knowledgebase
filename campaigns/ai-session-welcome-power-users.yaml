@@ -1,0 +1,47 @@
+id: a3e685a5-f7b1-4ff3-8193-d9a56c4db0e4
+name: AI Session Welcome - Power Users
+brand: HAV
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: a3e685a5-f7b1-4ff3-8193-d9a56c4db0e4
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-03-06T14:00:00+00:00'
+  last_sent: '2026-04-09T18:00:00+00:00'
+tags: []
+sends:
+- id: 87434d51-a218-4380-ad4d-49ef6453cf08
+  channel: email
+  name: TRG_EM_2026_03_HAV_PC_PT_AI_Session_Welcome_Power_User_T1_V1
+  subject: An exclusive discount to take your design further
+  preheader: Work with a designer to source, refine, and execute your plan.
+  step_id: bc5df8d0-72d3-499d-87df-9e32f5822eff
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.715218'
+    source: snowflake
+    channel: email
+canvas_steps:
+- id: bc5df8d0-72d3-499d-87df-9e32f5822eff
+  name: TRG_EM_2026_03_HAV_PC_PT_AI_Session_Welcome_Power_User_T1_V1
+  type: message
+  channel: email
+  subject: An exclusive discount to take your design further
+  preheader: Work with a designer to source, refine, and execute your plan.
+- id: 08aaf571-750a-41dc-a0a6-93a362de379d
+  name: Step
+  type: delay
+- id: b5495fa4-f162-477a-99c2-31fc75650325
+  name: Email available?
+  type: audience_paths
+- id: ad811ec4-1932-408f-80ea-996aef184ef8
+  name: AI Sessions
+  type: audience_paths

@@ -1,0 +1,49 @@
+id: ee0f3363-da2d-4ae3-b0d5-dc6285e944c7
+name: P_2025_05_16_HAV_Conv_D_Items_in_Your_Design_on_Sale
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: ee0f3363-da2d-4ae3-b0d5-dc6285e944c7
+dates:
+  send_date: '2025-05-16'
+  inferred_send_type: local_time
+  first_sent: '2025-05-16T03:09:31+00:00'
+  last_sent: '2025-05-17T02:00:57+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: f568c318-a71a-45c3-baa8-5c5827ac3018
+  channel: email
+  name: Variant 1
+  subject: Items In Your Design Are Now on Sale
+  preheader: Shop deals on deals, only at Havenly.
+  html_file: html/p_2025_05_16_hav_conv_d_items_in_your_design_on_sale.html
+  screenshot: screenshots/p_2025_05_16_hav_conv_d_items_in_your_design_on_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68263d3aedf1c800657be671/original.gif?1747336506
+- id: e3381993-3552-4856-bb6c-f47d43afdb65
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 9687
+  total_delivered: 9674
+  total_opens: 5936
+  total_clicks: 269
+  open_rate: 0.6128
+  click_rate: 0.0278
+  total_unsubscribes: 6
+  ga4:
+    sessions: 113
+    purchases: 4
+    revenue: 10325.49
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:48.889850'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.133329'
+schedule_type: time_based

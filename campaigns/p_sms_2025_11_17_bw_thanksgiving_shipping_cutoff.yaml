@@ -1,0 +1,38 @@
+id: 94642782-ba0f-4e83-ad97-72792728fd8a
+name: P_SMS_2025_11_17_BW_Thanksgiving_Shipping_Cutoff
+brand: BUR
+channel: sms
+category: other
+type: seasonal
+theme: null
+braze_id: 94642782-ba0f-4e83-ad97-72792728fd8a
+dates:
+  send_date: '2025-11-17'
+  inferred_send_type: local_time
+  first_sent: '2025-11-17T01:09:35+00:00'
+  last_sent: '2025-11-18T01:00:39+00:00'
+tags: []
+sends:
+- id: 337b15ad-0943-496e-9a51-fbb40ad1f050
+  channel: sms
+  name: Variant 1
+- id: afd3b803-2058-439e-992b-db05c78b9f35
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 6369
+  total_delivered: 6282
+  total_opens: 0
+  total_clicks: 193
+  open_rate: 0.0
+  click_rate: 0.0303
+  total_revenue: 9427.0
+  ga4:
+    sessions: 130
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.037014'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

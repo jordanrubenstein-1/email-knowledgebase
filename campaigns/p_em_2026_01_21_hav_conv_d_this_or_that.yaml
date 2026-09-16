@@ -1,0 +1,33 @@
+id: b00fdfae-2eb5-4b0e-8bad-5587b021a4cc
+name: P_EM_2026_01_21_HAV_CONV_D_This_Or_That
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: b00fdfae-2eb5-4b0e-8bad-5587b021a4cc
+dates:
+  send_date: '2026-01-21'
+  first_sent: '2026-01-21T23:00:26+00:00'
+  last_sent: '2026-01-21T23:08:44+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 97f2c94d-1024-4a8b-a15b-ec859b3d9aa1
+  channel: email
+  name: Variant 1
+  subject: Time For Everyone’s Favorite Game
+  preheader: Let’s play This or That.
+- id: f20d784a-4252-4be4-a33c-7708af43314b
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 43234
+  total_delivered: 43165
+  total_opens: 22477
+  total_clicks: 164
+  open_rate: 0.5199
+  click_rate: 0.0038
+  total_unsubscribes: 47
+schedule_type: time_based
+_filename: p_em_2026_01_21_hav_conv_d_this_or_that.yaml

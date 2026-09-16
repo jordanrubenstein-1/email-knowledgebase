@@ -1,0 +1,51 @@
+id: 66193f29-b8f3-44f8-8848-aef83dbd33fa
+name: P_EM_2025_07_16_SF_D_PR_Trending_Mineral_Tones
+brand: STF
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 66193f29-b8f3-44f8-8848-aef83dbd33fa
+dates:
+  send_date: '2025-07-16'
+  inferred_send_type: scheduled
+  first_sent: '2025-07-16T04:53:01+00:00'
+  last_sent: '2025-07-16T17:00:27+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- stl
+sends:
+- id: cf78ea1e-3f38-4314-8952-211307d4637c
+  channel: email
+  name: Variant 1
+  subject: The Mineral Edit
+  preheader: chic hues inspired by rare stones
+- id: 912cd5ef-88b5-4350-ba5f-6ee5a274765c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 42161
+  total_delivered: 41671
+  total_opens: 18877
+  total_clicks: 299
+  open_rate: 0.4477
+  click_rate: 0.0071
+  total_revenue: 4667.0
+  total_bounces: 2
+  total_unsubscribes: 138
+  ga4:
+    sessions: 305
+    purchases: 1
+    revenue: 625.68
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.111324'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.592170'
+schedule_type: time_based

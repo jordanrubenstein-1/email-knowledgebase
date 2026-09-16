@@ -1,0 +1,53 @@
+id: klaviyo-UEyjbw
+name: post-purchase-trade-email-02
+brand: TE
+channel: email
+category: other
+type: announcement
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: RGxBns
+canvas_name: flow-sr_post-purchase_trade
+flow_type: post_purchase
+sequence_position: 5
+dates:
+  created: '2025-04-08'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-08'
+  last_sent: '2025-04-08'
+sends:
+- id: UEyjbw
+  channel: email
+  name: Message
+  subject: How to get $350 back, plus more perks
+  preheader: 'Your road to gold starts here… '
+  html_file: html/klv-flow-flow-sr_post-purchase_trade-t05-UEyjbw.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/7088a35f-a032-4f4e-93d2-cf46795e5af4.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/15d82a05-226c-4cc3-8c9e-e0de0f857d6c.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/3024edab-f58e-4672-bc89-55797ba4bfe0.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/6c9f45df-3762-465d-afa8-c99a02b6541c.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/a41d3870-a647-462c-aeed-991fdc7494ae.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/ba095af0-35c4-4e53-9fdf-fbabcf7e39c8.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/03798e82-7136-4b31-8695-8ee2b6e9c424.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: UEyjbw
+structure:
+  image_count: 8
+  link_count: 14
+  has_gif: false
+  hero_width: 100
+  layout_type: product_grid

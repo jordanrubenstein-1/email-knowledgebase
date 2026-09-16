@@ -1,0 +1,34 @@
+id: 14dfd1d5-9584-4632-9b68-4a1f2b777355
+name: Order Confirmation - Swatch Post Purchase 2025
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 14dfd1d5-9584-4632-9b68-4a1f2b777355
+braze_type: canvas
+campaign_type: Triggered Journey
+dates: {}
+tags: []
+sends:
+- id: bcdfac61-74de-4963-ac9c-4bdc19cf90b2
+  channel: email
+  name: TRG_EM_2025_08_SF_D_Order_Confirmation_Post_Purchase_Swatch_T1_V1
+  subject: Order Confirmed. Style Incoming.
+  preheader: your St. Frank pieces are en route to greatness.
+  step_id: 83f966ee-b4c4-47d5-b83b-c7c2dce52ddd
+performance_summary: {}
+canvas_steps:
+- id: f03df2d4-5f6d-4da9-89f1-83e1ca0dadb9
+  name: Step 1
+  type: delay
+- id: 83f966ee-b4c4-47d5-b83b-c7c2dce52ddd
+  name: TRG_EM_2025_08_SF_D_Order_Confirmation_Post_Purchase_Swatch_T1_V1
+  type: message
+  channel: email
+  subject: Order Confirmed. Style Incoming.
+  preheader: your St. Frank pieces are en route to greatness.
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.604204'

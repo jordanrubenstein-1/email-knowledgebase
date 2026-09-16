@@ -1,0 +1,35 @@
+id: 3a20c8eb-befc-4e51-b7b6-c71c6a7f1a95
+name: P_EM_2025_07_25_HAV_PC_Summer_Sale_Reminder_PT
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: summer
+braze_id: 3a20c8eb-befc-4e51-b7b6-c71c6a7f1a95
+dates:
+  send_date: '2025-07-25'
+  first_sent: '2025-07-25T00:29:47+00:00'
+  last_sent: '2025-07-25T18:15:07+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 86710758-12f5-45ee-9a8e-7ab48c7c358b
+  channel: email
+  name: Variant 1
+  subject: Let's start the weekend with some savings.
+  preheader: Save 50% on the home you deserve.
+- id: 4ae9148a-8578-4d16-b21c-c12b44e09a94
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 225790
+  total_delivered: 224954
+  total_opens: 96154
+  total_clicks: 347
+  open_rate: 0.4259
+  click_rate: 0.0015
+  total_bounces: 11
+  total_unsubscribes: 396
+schedule_type: time_based
+_filename: p_em_2025_07_25_hav_pc_summer_sale_reminder_pt.yaml

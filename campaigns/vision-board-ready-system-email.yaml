@@ -1,0 +1,59 @@
+id: 0d8995a7-b14e-70d8-0a41-2f6d63470db0
+name: Vision Board Ready System Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 0d8995a7-b14e-70d8-0a41-2f6d63470db0
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-26T21:00:00+00:00'
+  last_sent: '2025-12-20T19:00:00+00:00'
+tags: []
+sends:
+- id: 57b8d070-41f6-4d3d-9fc4-139d8a5530ee
+  channel: email
+  name: Variant 1
+  subject: Your Vision Board is ready!
+  html_file: html/vision-board-ready-system-email.html
+  screenshot: screenshots/vision-board-ready-system-email.png
+- id: a82cc0fd-a8c6-4586-a01c-ac2d694e6e11
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 226
+  total_delivered: 226
+  total_opens: 205
+  total_clicks: 27
+  open_rate: 0.9071
+  click_rate: 0.1195
+  ga4:
+    sessions: 272
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.526282'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: hav_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: hav_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:40.860836'
+schedule_type: api_triggered

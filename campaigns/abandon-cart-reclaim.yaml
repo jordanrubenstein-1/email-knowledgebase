@@ -1,0 +1,395 @@
+id: e46133da-5c6c-41c9-9c7c-864b5110460d
+name: Abandon Cart - Reclaim
+brand: BUR
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: e46133da-5c6c-41c9-9c7c-864b5110460d
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-12-20T21:00:00+00:00'
+  last_sent: '2025-09-13T11:00:00+00:00'
+tags: []
+sends:
+- id: 8b704f8e-5b94-46f8-8ded-202e349a1718
+  channel: email
+  name: Abandon-Cart_Reclaim-1
+  subject: You left your stuff at our place
+  preheader: Don't leave these items behind.
+  step_id: df63bdcf-0797-44a6-89cf-7d4e313cd6de
+- id: 04e881ed-a419-42de-828f-e3c064902328
+  channel: email
+  name: Abandon-Cart-1
+  subject: You left your stuff at our place
+  preheader: Don't leave these items behind.
+  step_id: 6782cfc1-2a0f-4465-8700-e8e985305a8d
+- id: 196aece3-17fb-406f-96de-f114a5137aea
+  channel: email
+  name: Abandon-Cart-2
+  subject: Remember this?
+  preheader: We saved your cart for you.
+  step_id: 4532cf00-0ef0-4866-bb19-410eeb138fa6
+- id: ef62e5ff-f2ae-4c06-a751-fa50cfdc87cb
+  channel: email
+  name: Abandon-Cart_Reclaim-2
+  subject: Remember this?
+  preheader: We saved your cart for you.
+  step_id: 3376ab6f-7808-442c-bfe7-9a403bbc50a8
+- id: 618bb513-e9b2-4005-ab3f-a72f6036f868
+  channel: email
+  name: Abandon-Cart-3
+  subject: Need a little something extra?
+  preheader: '{{content_blocks.${2025Q3_Abandon_PH_Email3_Promo}}}'
+  step_id: bdcb950d-518a-47f3-b7e5-d89f66e8dda1
+- id: 7a17e9ff-1ec8-4bd7-a3f4-c7c2d04ae18c
+  channel: email
+  name: Abandon-Cart-4
+  subject: '{{content_blocks.${2025Q3_Abandon_SL_Email4_Promo}}}'
+  preheader: Don't miss this offer.
+  step_id: f5aeecc9-ac06-4d6d-9a2d-4b52dbd9aae0
+- id: 3e6386dd-3e47-4e15-aec5-58ee5c9f63f5
+  channel: email
+  name: Abandon-Cart- 7
+  subject: Need a little something extra?
+  preheader: '{{content_blocks.${2025Q3_Abandon_PH_Email3_Promo}}}'
+  step_id: d6a90d05-7b8b-411d-8dfc-5d77208df677
+- id: 2b972652-ffa7-435a-8a14-b2d6e33d6b5d
+  channel: email
+  name: Abandon-Cart_Reclaim- 3
+  subject: You left your stuff at our place
+  preheader: Don't leave these items behind.
+  step_id: 73ec08c4-131d-49ef-99b0-bb514e4441b3
+- id: 1516ef14-601b-484f-94e2-b1d293fe6c01
+  channel: email
+  name: Abandon-Cart- 6
+  subject: Remember this?
+  preheader: We saved your cart for you.
+  step_id: ea4f874d-6079-48d8-ab12-12163ef4961a
+- id: 7731d63c-f92d-45fc-a5df-ec0c797c2a57
+  channel: email
+  name: Abandon-Cart- 8
+  subject: '{{content_blocks.${2025Q3_Abandon_SL_Email4_Promo}}}'
+  preheader: Don't miss this offer.
+  step_id: 16e58e3f-0a50-4070-9732-ce33ebf4c75d
+- id: b2a38f25-5f9c-4e6c-b193-e6a5edc48d4d
+  channel: email
+  name: Abandon-Cart_Reclaim- 4
+  subject: Remember this?
+  preheader: We saved your cart for you.
+  step_id: 58c59d5f-2be4-4ffe-95a0-69967d859528
+- id: f34a88cc-0b3d-4ed4-9954-13a334bafcc5
+  channel: email
+  name: Abandon-Cart- 5
+  subject: You left your stuff at our place
+  preheader: Don't leave these items behind.
+  step_id: 3d2dc520-32fb-477b-8123-7879b92c3461
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.613094'
+    source: snowflake
+    channel: email
+canvas_steps:
+- id: e43a6b27-a021-4f2b-884f-7ffad5d67182
+  name: Step
+  type: delay
+- id: f419ab35-111e-48c0-baca-21ff1a1e73f0
+  name: Grow leads?
+  type: decision_split
+- id: df63bdcf-0797-44a6-89cf-7d4e313cd6de
+  name: Abandon-Cart_Reclaim-1
+  type: message
+  channel: email
+  subject: You left your stuff at our place
+  preheader: Don't leave these items behind.
+- id: 6782cfc1-2a0f-4465-8700-e8e985305a8d
+  name: Abandon-Cart-1
+  type: message
+  channel: email
+  subject: You left your stuff at our place
+  preheader: Don't leave these items behind.
+- id: d073a38c-4d6a-4911-8282-6aa9884078a3
+  name: Step 1
+  type: action_paths
+- id: e43657f5-84c0-4171-96b3-f3cb8000553e
+  name: Step 2
+  type: user_update
+- id: 7a26ba3b-786d-43b2-a41f-929c67838c50
+  name: Step 3
+  type: delay
+- id: dfe9623b-733e-4d72-b9ee-7884a315652d
+  name: Step 4
+  type: delay
+- id: 4532cf00-0ef0-4866-bb19-410eeb138fa6
+  name: Abandon-Cart-2
+  type: message
+  channel: email
+  subject: Remember this?
+  preheader: We saved your cart for you.
+- id: 3376ab6f-7808-442c-bfe7-9a403bbc50a8
+  name: Abandon-Cart_Reclaim-2
+  type: message
+  channel: email
+  subject: Remember this?
+  preheader: We saved your cart for you.
+- id: 46a8c73e-3f23-4393-aae4-7373d88b9934
+  name: Step 5
+  type: delay
+- id: bdcb950d-518a-47f3-b7e5-d89f66e8dda1
+  name: Abandon-Cart-3
+  type: message
+  channel: email
+  subject: Need a little something extra?
+  preheader: '{{content_blocks.${2025Q3_Abandon_PH_Email3_Promo}}}'
+- id: b15e1144-177e-427d-9311-46311a12ae5a
+  name: Step 6
+  type: delay
+- id: f5aeecc9-ac06-4d6d-9a2d-4b52dbd9aae0
+  name: Abandon-Cart-4
+  type: message
+  channel: email
+  subject: '{{content_blocks.${2025Q3_Abandon_SL_Email4_Promo}}}'
+  preheader: Don't miss this offer.
+- id: ad4bb992-415a-47d3-bfbb-cce9781aa318
+  name: Step 7
+  type: action_paths
+- id: f054c7ce-4695-4b35-9dc7-4960b3eb7428
+  name: Step 8
+  type: user_update
+- id: 519e8745-a6ac-4518-924e-c68d505b9b73
+  name: Step 9
+  type: user_update
+- id: 1990a6e8-e792-4002-a80f-b8547903a8dc
+  name: Step 12
+  type: user_update
+- id: d6a90d05-7b8b-411d-8dfc-5d77208df677
+  name: Abandon-Cart- 7
+  type: message
+  channel: email
+  subject: Need a little something extra?
+  preheader: '{{content_blocks.${2025Q3_Abandon_PH_Email3_Promo}}}'
+- id: b885f9c8-5282-4940-9c99-1a95bc8c0201
+  name: Step 13
+  type: delay
+- id: 73ec08c4-131d-49ef-99b0-bb514e4441b3
+  name: Abandon-Cart_Reclaim- 3
+  type: message
+  channel: email
+  subject: You left your stuff at our place
+  preheader: Don't leave these items behind.
+- id: ea4f874d-6079-48d8-ab12-12163ef4961a
+  name: Abandon-Cart- 6
+  type: message
+  channel: email
+  subject: Remember this?
+  preheader: We saved your cart for you.
+- id: 5946f5a8-aa1f-4017-8d61-7b55a0181c99
+  name: Step 17
+  type: delay
+- id: 86e3af93-ed07-4675-a7ac-85a4bc58ebc5
+  name: Step 11
+  type: action_paths
+- id: 2340ea92-4ee4-4d02-b91b-55193ff457af
+  name: Step 15
+  type: user_update
+- id: 4574f994-1826-4299-ba08-947450b7471e
+  name: Step 19
+  type: delay
+- id: faaf111f-9c92-47c6-a6e5-26fd7cb2bf82
+  name: Grow leads? 1
+  type: decision_split
+- id: b7ed32cc-617e-4510-81ee-7221faa71141
+  name: Step 14
+  type: action_paths
+- id: 32e6a229-3b00-4c64-9ad2-8acac4a8a604
+  name: Step 16
+  type: user_update
+- id: 16e58e3f-0a50-4070-9732-ce33ebf4c75d
+  name: Abandon-Cart- 8
+  type: message
+  channel: email
+  subject: '{{content_blocks.${2025Q3_Abandon_SL_Email4_Promo}}}'
+  preheader: Don't miss this offer.
+- id: a96078bb-e98a-4e2a-a463-3f87c253a86c
+  name: Step 18
+  type: delay
+- id: 58c59d5f-2be4-4ffe-95a0-69967d859528
+  name: Abandon-Cart_Reclaim- 4
+  type: message
+  channel: email
+  subject: Remember this?
+  preheader: We saved your cart for you.
+- id: 3d2dc520-32fb-477b-8123-7879b92c3461
+  name: Abandon-Cart- 5
+  type: message
+  channel: email
+  subject: You left your stuff at our place
+  preheader: Don't leave these items behind.
+- id: b5dab9bb-908b-4bfb-9f1c-f4553ced5c5d
+  name: Step 10
+  type: delay
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-burrow-2025-01-31
+    name: Burrow
+    start_date: '2025-01-31'
+    end_date: '2025-02-05'
+    discount: 'President''s Day Tiered Sale
+
+      20% off <$2000/ 25% off $2000+ (strikethrough in cart)
+
+      + Up to 70% off Clearance
+
+      Free Shipping on orders $2,000+ last 5 days of sale'
+    type: null
+  - id: bur-burrow-2025-03-11
+    name: Burrow
+    start_date: '2025-03-11'
+    end_date: '2025-03-12'
+    discount: 'The Spring Event
+
+      20% off <$2k / 25% ≥$2k sitewide (strikethrough in cart) | code-based early
+      access for RETAIL ONLY: [SPRING25]
+
+      + up to 70% off Clearance
+
+      FREE SHIP on all orders'
+    type: null
+  - id: bur-burrow-2025-04-09
+    name: Burrow
+    start_date: '2025-04-09'
+    end_date: '2025-04-09'
+    discount: "Friends and Family\nTiered sale: 20% off orders <$2k / 25% off orders\
+      \ ≥ $2k \nCode-based early access for retail only: FRIENDS25\nFree shipping\
+      \ on all orders"
+    type: null
+  - id: bur-burrow-2025-05-09
+    name: Burrow
+    start_date: '2025-05-09'
+    end_date: '2025-05-13'
+    discount: 'The Memorial Day Event
+
+      25% off sitewide, plus FREE GROUND SHIPPING on orders >$2k
+
+      Early Access: No code; EA messaging and strikethrough live on-site from 5/9'
+    type: null
+  - id: bur-burrow-2025-06-17
+    name: Burrow
+    start_date: '2025-06-17'
+    end_date: '2025-06-17'
+    discount: 'July 4th Sale Early Access -- RETAIL, EMAIL and SMS ONLY
+
+      25% off sitewide, plus FREE GROUND SHIPPING on orders >$2k
+
+      CODE JULY4EA'
+    type: null
+  - id: bur-burrow-2025-07-08
+    name: Burrow
+    start_date: '2025-07-08'
+    end_date: '2025-07-08'
+    discount: 'July 4th Sale -- SITEWIDE, NO CODE NEEDED
+
+      25% off sitewide, plus FREE GROUND SHIPPING on orders >$2k'
+    type: null
+  - id: bur-fourth-of-july-surprise-extension-2025-07-09
+    name: Fourth of July Surprise Extension
+    start_date: '2025-07-09'
+    end_date: '2025-07-14'
+    discount: '30% off Field in Fog, Carbon & Ivory
+
+      25% off sitewide
+
+      Free ground shipping on orders >$2k (no free shipping on Pro)'
+    type: null
+  - id: bur-seating-flash-sale-2025-07-18
+    name: Seating Flash Sale
+    start_date: '2025-07-18'
+    end_date: '2025-07-21'
+    discount: Up to 30% off all Seating Collections
+    type: null
+  - id: bur-the-summer-sale-2025-07-24
+    name: The Summer Sale
+    start_date: '2025-07-24'
+    end_date: '2025-07-31'
+    discount: '25% off sitewide
+
+      Free ground shipping on orders >$2k (excl. Pro)'
+    type: null
+  - id: bur-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off sitewide
+    type: null
+  - id: bur-the-labor-day-event-2025-09-03
+    name: The Labor Day Event
+    start_date: '2025-09-03'
+    end_date: '2025-09-09'
+    discount: '20% off sitewide
+
+      Up to 70% off Clearance
+
+      Free shipping >$2k'
+    type: null
+  - id: bur-subscriber-flash-sale-lifecycle-retail-only-2025-09-11
+    name: Subscriber Flash Sale - Lifecycle/Retail Only
+    start_date: '2025-09-11'
+    end_date: '2025-09-16'
+    discount: 20% off sitewide with code SEPTVIP
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  - id: bur-end-of-year-sale-extension-2025-01-01
+    name: End of Year Sale (EXTENSION)
+    start_date: '2024-12-20'
+    end_date: '2025-01-05'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  - id: bur_eoy_2024_12_20
+    name: End of Year Sale
+    start_date: '2024-12-19'
+    end_date: '2024-12-31'
+    discount: null
+    type: null
+  primary_sale:
+    id: bur-burrow-2025-01-31
+    name: Burrow
+    start_date: '2025-01-31'
+    end_date: '2025-02-05'
+    discount: 'President''s Day Tiered Sale
+
+      20% off <$2000/ 25% off $2000+ (strikethrough in cart)
+
+      + Up to 70% off Clearance
+
+      Free Shipping on orders $2,000+ last 5 days of sale'
+    type: null
+  sale_name: Burrow
+  sale_discount: 'President''s Day Tiered Sale
+
+    20% off <$2000/ 25% off $2000+ (strikethrough in cart)
+
+    + Up to 70% off Clearance
+
+    Free Shipping on orders $2,000+ last 5 days of sale'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:43.782115'

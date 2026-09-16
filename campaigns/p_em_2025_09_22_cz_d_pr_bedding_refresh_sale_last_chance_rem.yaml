@@ -1,0 +1,50 @@
+id: 35f2b2cb-4318-424b-9338-b67e8a59d4a8
+name: P_EM_2025_09_22_CZ_D_PR_Bedding_Refresh_Sale_Last_Chance_Reminder
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 35f2b2cb-4318-424b-9338-b67e8a59d4a8
+dates:
+  send_date: '2025-09-22'
+  inferred_send_type: local_time
+  first_sent: '2025-09-21T18:20:07+00:00'
+  last_sent: '2025-09-22T17:15:30+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale_feat
+sends:
+- id: 93cff064-b90e-4bfc-800c-fac40fa3b733
+  channel: email
+  name: Variant 1
+  subject: 'Final Day: 20% Off Bedding, Rugs & Furniture'
+  preheader: Last chance to save on your fall refresh.
+  html_file: html/p_em_2025_09_22_cz_d_pr_bedding_refresh_sale_last_chance_rem.html
+  screenshot: screenshots/p_em_2025_09_22_cz_d_pr_bedding_refresh_sale_last_chance_rem.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cc86a18798360068c97004/original.png?1758234273
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cc869a479be2006570f5ad/original.png?1758234265
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cc868dd73b3800760097ac/original.png?1758234253
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cc86a9479be2006570f5c3/original.png?1758234280
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cc8694c144300067bca30b/original.png?1758234259
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cdac37b31cfc006659676f/original.gif?1758309431
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cdac53c020250067a3ee13/original.png?1758309459
+- id: 6bc62f33-e891-4ad8-9c2a-5adb1b0b68a7
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 113452
+  total_delivered: 113025
+  total_opens: 60393
+  total_clicks: 656
+  open_rate: 0.5323
+  click_rate: 0.0058
+  total_bounces: 44
+  total_unsubscribes: 235
+_filename: p_em_2025_09_22_cz_d_pr_bedding_refresh_sale_last_chance_rem.yaml
+schedule_type: time_based

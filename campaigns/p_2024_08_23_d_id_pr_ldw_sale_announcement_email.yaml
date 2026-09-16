@@ -1,0 +1,45 @@
+id: dd394aae-b3d9-4c06-9725-85777ee95889
+name: P_2024_08_23_D_ID_PR_LDW_Sale_Announcement_Email
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: dd394aae-b3d9-4c06-9725-85777ee95889
+dates:
+  send_date: '2024-08-23'
+  inferred_send_type: local_time
+  first_sent: '2024-08-22T19:59:02+00:00'
+  last_sent: '2024-08-23T14:05:03+00:00'
+tags: []
+sends:
+- id: 5557643b-ffdc-4857-9ffa-87a51658a569
+  channel: email
+  name: Variant 1
+  subject: The Labor Day Event starts NOW!
+  preheader: Up to 25% off everything
+- id: 945b8092-df7f-4c0f-b1df-8171e8d079fa
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 17335
+  total_delivered: 17235
+  total_opens: 8337
+  total_clicks: 439
+  open_rate: 0.4809
+  click_rate: 0.0253
+  total_bounces: 1
+  total_unsubscribes: 29
+  ga4:
+    sessions: 617
+    purchases: 4
+    revenue: 14360.92
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.452013'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:35.400253'
+schedule_type: time_based

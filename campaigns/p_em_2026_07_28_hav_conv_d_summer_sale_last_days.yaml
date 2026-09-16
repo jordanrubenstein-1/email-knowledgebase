@@ -1,0 +1,33 @@
+id: fe2c6cb7-87f0-47c3-91e7-07c5727f2a8a
+name: P_EM_2026_07_28_HAV_CONV_D_Summer_Sale_Last_Days
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: summer
+braze_id: fe2c6cb7-87f0-47c3-91e7-07c5727f2a8a
+dates:
+  send_date: '2026-07-28'
+  last_sent: '2026-07-28'
+tags:
+- BLASTS-2025
+sends:
+- id: 18ef2374-14de-42d7-a8ac-e767ab053501
+  channel: email
+  name: Variant 1
+  subject: 'LAST CALL: The Summer Sale'
+  preheader: Up to 15% off shop, while it lasts.
+- id: e3eec837-421d-4f92-9b86-56ba99f73af0
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 42569
+  total_delivered: 42528
+  total_opens: 20497
+  total_clicks: 84
+  open_rate: 0.4815
+  click_rate: 0.002
+  total_bounces: 1
+  total_unsubscribes: 50
+schedule_type: time_based
+_filename: p_em_2026_07_28_hav_conv_d_summer_sale_last_days.yaml

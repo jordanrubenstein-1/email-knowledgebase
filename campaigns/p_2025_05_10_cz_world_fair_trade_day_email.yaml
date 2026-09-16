@@ -1,0 +1,56 @@
+id: 3d2f5e95-7fbf-4edb-81a2-4aace73f2b90
+name: P_2025_05_10_CZ_World_Fair_Trade_Day_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 3d2f5e95-7fbf-4edb-81a2-4aace73f2b90
+dates:
+  send_date: '2025-05-10'
+  inferred_send_type: local_time
+  first_sent: '2025-05-09T23:17:26+00:00'
+  last_sent: '2025-05-10T17:03:53+00:00'
+tags: []
+sends:
+- id: f2ded9c8-1a21-49f3-bd4e-860aaa150afb
+  channel: email
+  name: Variant 1
+  subject: People and The Planet Over Profits
+  preheader: We're celebrating World Fair Trade Day.
+  html_file: html/p_2025_05_10_cz_world_fair_trade_day_email.html
+  screenshot: screenshots/p_2025_05_10_cz_world_fair_trade_day_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681e631b5f8eef0066e971dd/original.png?1746821915
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681e6322066e9100659f92c2/original.png?1746821921
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681e6303ffcbf20076249152/original.png?1746821891
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681e62f0a1916e00655dea78/original.png?1746821871
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681e632a066e9100659f92dc/original.png?1746821930
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681e62fa4ad0900074039df6/original.png?1746821881
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681e630f066e9100659f9279/original.png?1746821902
+- id: 79067c21-a3e4-4c10-9dc3-06c8d190c483
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 95770
+  total_delivered: 92672
+  total_opens: 49858
+  total_clicks: 425
+  open_rate: 0.5206
+  click_rate: 0.0044
+  total_revenue: 50082.07
+  total_bounces: 11
+  total_unsubscribes: 93
+  ga4:
+    sessions: 499
+    purchases: 7
+    revenue: 2430.1
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.664938'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:45.198035'
+schedule_type: time_based

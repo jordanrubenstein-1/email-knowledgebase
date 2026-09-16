@@ -1,0 +1,29 @@
+id: 8d6029fc-427d-419a-bee6-15fd6d565d45
+name: P_SMS_2026_04_22_ID_April_Reset_Extended
+brand: ID
+channel: sms
+category: reminder
+type: announcement
+theme: null
+braze_id: 8d6029fc-427d-419a-bee6-15fd6d565d45
+dates:
+  send_date: '2026-04-22'
+  last_sent: '2026-04-22'
+tags: []
+sends:
+- id: fe524ecf-923c-4adc-b02d-9b9a21defff1
+  channel: sms
+  name: Variant 1
+- id: a7f99c88-3766-4860-8b43-aefc32f858fa
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 49622
+  total_delivered: 47246
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 6348.99
+_filename: p_sms_2026_04_22_id_april_reset_extended.yaml
+schedule_type: time_based

@@ -1,0 +1,85 @@
+id: 025bfe9b-237d-4506-983a-1c3d5c9ca2d4
+name: P_2025_07_14_BW_July_4th_Final_Hours
+brand: BUR
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 025bfe9b-237d-4506-983a-1c3d5c9ca2d4
+dates:
+  send_date: '2025-07-14'
+  inferred_send_type: local_time
+  first_sent: '2025-07-13T18:21:06+00:00'
+  last_sent: '2025-07-14T18:15:10+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 9853dda5-cf3f-48f8-b985-baf67c90329b
+  channel: email
+  name: Variant 1
+  subject: 'CLOSING TIME: Save up to 30% before it’s gone'
+  preheader: don’t miss your chance to save big
+- id: c7b934da-d476-4d82-ab67-2b3922508e5b
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 256612
+  total_delivered: 254722
+  total_opens: 147700
+  total_clicks: 707
+  open_rate: 0.5756
+  click_rate: 0.0028
+  total_revenue: 2815.25
+  total_bounces: 2
+  total_unsubscribes: 229
+  ga4:
+    sessions: 525
+    purchases: 2
+    revenue: 4851.64
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.811357'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-fourth-of-july-surprise-extension-2025-07-09
+    name: Fourth of July Surprise Extension
+    start_date: '2025-07-09'
+    end_date: '2025-07-14'
+    discount: '30% off Field in Fog, Carbon & Ivory
+
+      25% off sitewide
+
+      Free ground shipping on orders >$2k (no free shipping on Pro)'
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-fourth-of-july-surprise-extension-2025-07-09
+    name: Fourth of July Surprise Extension
+    start_date: '2025-07-09'
+    end_date: '2025-07-14'
+    discount: '30% off Field in Fog, Carbon & Ivory
+
+      25% off sitewide
+
+      Free ground shipping on orders >$2k (no free shipping on Pro)'
+    type: null
+  sale_name: Fourth of July Surprise Extension
+  sale_discount: '30% off Field in Fog, Carbon & Ivory
+
+    25% off sitewide
+
+    Free ground shipping on orders >$2k (no free shipping on Pro)'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:45.932058'
+schedule_type: time_based

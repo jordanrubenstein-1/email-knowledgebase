@@ -1,0 +1,63 @@
+id: 094e3e1c-7bf0-40f5-9ab6-992c1525fa74
+name: P_EM_2025_08_29_ID_D_Friday_Retail
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 094e3e1c-7bf0-40f5-9ab6-992c1525fa74
+dates:
+  send_date: '2025-08-29'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-29T19:18:57+00:00'
+  last_sent: '2025-08-29T19:30:08+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 652211f3-17ae-465c-9d44-dea59ab7b13f
+  channel: email
+  name: Variant 1
+  subject: 25% Off? Free Design Help? It’s All Happening.
+  preheader: Secure your spot, Labor Day savings end soon.
+- id: db1995af-26ec-42c9-8f4a-482a6b81f307
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 134962
+  total_delivered: 133114
+  total_opens: 61313
+  total_clicks: 219
+  open_rate: 0.4543
+  click_rate: 0.0016
+  total_revenue: 333722.0
+  total_bounces: 6
+  total_unsubscribes: 294
+  ga4:
+    sessions: 246
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.190973'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-04'
+    discount: 25% off sitewide
+    type: null
+  primary_sale:
+    id: id-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-04'
+    discount: 25% off sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 25% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:43.966616'
+schedule_type: time_based

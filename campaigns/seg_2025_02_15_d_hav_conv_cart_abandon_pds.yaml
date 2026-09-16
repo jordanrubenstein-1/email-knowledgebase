@@ -1,0 +1,33 @@
+id: 562c0671-93d0-40e4-8e1b-ceac4028dc57
+name: SEG_2025_02_15_D_HAV_CONV_Cart_Abandon_PDS
+brand: HAV
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: 562c0671-93d0-40e4-8e1b-ceac4028dc57
+dates:
+  send_date: '2025-02-15'
+  first_sent: '2025-02-15T23:15:02+00:00'
+  last_sent: '2025-02-15T23:15:25+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: d0213a1a-036d-496c-bf55-455b478f3685
+  channel: email
+  name: Variant 1
+  subject: 'Limited time offer: Your cart is ON SALE'
+  preheader: Shop your dream piece at a discount!
+- id: e85c0371-9e69-4c35-88da-f0b1248206ff
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1971
+  total_delivered: 1952
+  total_opens: 1055
+  total_clicks: 92
+  open_rate: 0.5353
+  click_rate: 0.0467
+  total_unsubscribes: 8
+schedule_type: time_based
+_filename: seg_2025_02_15_d_hav_conv_cart_abandon_pds.yaml

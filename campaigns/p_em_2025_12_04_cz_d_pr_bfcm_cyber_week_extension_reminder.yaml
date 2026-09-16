@@ -1,0 +1,54 @@
+id: 1ce4560b-374e-45e6-b433-74eb5400848a
+name: P_EM_2025_12_04_CZ_D_PR_BFCM_Cyber_Week_Extension_Reminder
+brand: CZ
+channel: email
+category: reminder
+type: seasonal
+theme: black_friday
+braze_id: 1ce4560b-374e-45e6-b433-74eb5400848a
+dates:
+  send_date: '2025-12-04'
+  inferred_send_type: local_time
+  first_sent: '2025-12-03T21:52:00+00:00'
+  last_sent: '2025-12-04T17:17:41+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale/bfcm
+- sale_feat
+sends:
+- id: 6d67e285-4d1c-4bcf-89cc-fdcf2661dada
+  channel: email
+  name: Variant 1
+  subject: 'A Moment For What Matters 🤎 '
+  preheader: 20% off pieces made to endure, made to love.
+  html_file: html/p_em_2025_12_04_cz_d_pr_bfcm_cyber_week_extension_reminder.html
+  screenshot: screenshots/p_em_2025_12_04_cz_d_pr_bfcm_cyber_week_extension_reminder.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692f49c8aa1bdf0063c30960/original.png?1764706760
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6930a5119869c70083da30be/original.png?1764795665
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692f49ddb273540065567e88/original.png?1764706781
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692f49c359d9ed006494a97f/original.png?1764706755
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692f49f381a3670063d0a4ab/original.png?1764706803
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692f49e51c90c90064667b57/original.png?1764706788
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6930a52596aaed006363651c/original.png?1764795684
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692f49d0b03025006397fa6a/original.png?1764706767
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6930a501a2d58a0063d2a844/original.gif?1764795648
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692f49d6b5517a0063d51d8d/original.png?1764706774
+- id: 28d91b28-a761-4935-afe1-5dfa2ad266d1
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 115407
+  total_delivered: 114777
+  total_opens: 57775
+  total_clicks: 529
+  open_rate: 0.5006
+  click_rate: 0.0046
+  total_bounces: 11
+  total_unsubscribes: 227
+_filename: p_em_2025_12_04_cz_d_pr_bfcm_cyber_week_extension_reminder.yaml
+schedule_type: time_based

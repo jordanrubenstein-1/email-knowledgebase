@@ -1,0 +1,35 @@
+id: 54712b8c-4e9a-49b2-96e7-8c7a526269ef
+name: TRG_2024_07_CZ_Welcome_T2_Email
+brand: CZ
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 6f991e0c-2df8-4de2-b5f0-dd0f1a32eb89
+canvas_name: Welcome Flow
+flow_type: welcome_series
+sequence_position: 2
+subject: The Well-Traveled Home
+preheader: Bring home the best craftsmanship from around the globe. Fair Trade. Guaranteed.
+sends:
+- id: 54712b8c-4e9a-49b2-96e7-8c7a526269ef
+  channel: email
+  name: TRG_2024_07_CZ_Welcome_T2_Email
+  subject: The Well-Traveled Home
+  preheader: Bring home the best craftsmanship from around the globe. Fair Trade.
+    Guaranteed.
+  html_file: html/canvas-welcome-flow-t2-54712b8c.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-02T22:00:00Z'
+  last_sent: '2024-08-23T23:00:00Z'
+performance_summary:
+  total_sends: 4608
+  total_delivered: 4584
+  total_opens: 2546
+  total_clicks: 167
+  open_rate: 0.5525
+  click_rate: 0.0362
+  total_unsubscribes: 76
+  total_bounces: 3
+  total_revenue: 22106.89

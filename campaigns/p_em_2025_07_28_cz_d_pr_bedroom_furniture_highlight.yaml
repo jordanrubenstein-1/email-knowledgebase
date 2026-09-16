@@ -1,0 +1,53 @@
+id: e8a59b4b-bd9a-4346-8910-280d73735c60
+name: P_EM_2025_07_28_CZ_D_PR_Bedroom_Furniture_Highlight
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: e8a59b4b-bd9a-4346-8910-280d73735c60
+dates:
+  send_date: '2025-07-28'
+  inferred_send_type: local_time
+  first_sent: '2025-07-28T00:08:48+00:00'
+  last_sent: '2025-07-28T23:01:13+00:00'
+tags:
+- am
+- batch and blast
+- beds
+- d2c
+- designed
+- furniture
+- sale
+sends:
+- id: b079ded8-3580-4957-b1a8-5b463009e592
+  channel: email
+  name: Variant 1
+  subject: A Celebration of Slow Craft
+  preheader: Heirloom materials crafted to last, now 20% off.
+  html_file: html/p_em_2025_07_28_cz_d_pr_bedroom_furniture_highlight.html
+  screenshot: screenshots/p_em_2025_07_28_cz_d_pr_bedroom_furniture_highlight.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68839df9a066380065099960/original.png?1753456121
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68839eb2dde2880066e2e5f7/original.png?1753456306
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68839efac4663c006599bc7b/original.png?1753456377
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68839e8f91c3920067777a83/original.png?1753456270
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68839eed11f71b0067babcf8/original.png?1753456365
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68839ee0a06638006509a36a/original.png?1753456352
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68839ece79ec020073217e1b/original.png?1753456334
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68839e6c11f71b0077bab1be/original.png?1753456236
+- id: 4dd3ede6-aa95-4cf9-a512-37174d890d9e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 99545
+  total_delivered: 99464
+  total_opens: 51967
+  total_clicks: 536
+  open_rate: 0.522
+  click_rate: 0.0054
+  total_revenue: 64289.8
+  total_bounces: 4
+  total_unsubscribes: 107
+_filename: p_em_2025_07_28_cz_d_pr_bedroom_furniture_highlight.yaml
+schedule_type: time_based

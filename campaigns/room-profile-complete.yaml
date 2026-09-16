@@ -1,0 +1,426 @@
+id: 0b34d65c-1f25-4039-aaf9-7dfb705c5a71
+name: Room Profile Complete
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 0b34d65c-1f25-4039-aaf9-7dfb705c5a71
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-10-01T13:00:00+00:00'
+  last_sent: '2025-12-13T14:00:00+00:00'
+tags: []
+sends:
+- id: 2c864aad-dffe-4ae9-84b1-7a89d67dad08
+  channel: email
+  name: TRG_2024_D_HAV_CON_Complete_Profile_T3_Email
+  subject: Your designer is ready to get started!
+  preheader: Complete your room profile today.
+  step_id: 729dc550-3339-4a18-80a4-b36bf809f0ab
+- id: aa1340dc-a678-4317-9037-fb01f137d397
+  channel: email
+  name: TRG_2024_D_HAV_CON_Complete_Profile_T4_Email
+  subject: 'Reminder: kick off your project!
+
+    '
+  preheader: 'Get on your designer''s schedule today.
+
+    '
+  step_id: f152945c-241a-412b-b3cc-16b29b84f814
+- id: 016dc505-7fc6-4f6d-898c-bdb210817e57
+  channel: email
+  name: TRG_2024_D_HAV_CON_Complete_Profile_T5_Email
+  subject: 'Are you ready? '
+  preheader: Start your project today
+  step_id: d7f2d5df-c34d-44a4-8ea1-0adb69760732
+- id: 19f1114c-2e40-4877-bf37-bcabd20a2321
+  channel: email
+  name: TRG_2024_D_HAV_CON_Complete_Profile_T2_Email
+  subject: Design your home from your phone 📱
+  preheader: Download the Havenly app!
+  step_id: fb7af93d-c875-48db-bcc1-db07d2db47a6
+- id: 81214da3-607d-44c0-95f5-4c19a5cc2807
+  channel: email
+  name: TRG_2024_D_HAV_CON_Complete_Profile_T1_Email
+  subject: Let's get started!
+  preheader: Realize your design dreams for your space.
+  step_id: 480a0c4d-f18a-48ad-ac8a-bbd96fc41ac1
+- id: 95f407c6-3051-4b4f-852a-cea631ce030b
+  channel: email
+  name: TRG_2024_D_HAV_CON_PT_Complete_Profile_T6_Email
+  subject: Ready to start your design?
+  preheader: ''
+  step_id: a27553ff-3a06-428e-9ecb-2432763f8835
+- id: 06552690-f549-4974-85e7-8c274f5d7c32
+  channel: email
+  name: TRG_2025_D_HAV_CON_Complete_Profile_T1_B_Email
+  subject: Let's kick things off!
+  preheader: Finish your room profile to get started on your project!
+  step_id: 6d2c0898-8206-4710-b94e-d844217825c8
+- id: 4b1433b2-cc17-4af4-9a2b-8eada90392e9
+  channel: email
+  name: TRG_2025_PT_HAV_CON_Complete_Profile_T2_B_Email
+  subject: Let’s get started on your Havenly design!
+  preheader: ''
+  step_id: d6ebf4ed-24e5-4e0e-98bc-bde009dedfb1
+- id: 0e898675-cc66-4a3b-a2c1-2c6772c2a6c8
+  channel: email
+  name: TRG_2025_D_HAV_CON_Complete_Profile_T4_B_Email
+  subject: Your designer is ready to get started!
+  preheader: Complete your room profile today.
+  step_id: 6c6395d7-055a-4b8e-a6f0-8b46de4e8711
+- id: c9ff6990-4544-4b98-931f-d050c3eeeab4
+  channel: email
+  name: TRG_2025_D_HAV_CON_Complete_Profile_T5_B_Email 1
+  subject: 'Are you ready? '
+  preheader: Start your project today
+  step_id: b1977b04-a7ea-4024-95bd-bafb5fc8eb21
+- id: b563e3a9-346a-4eff-8555-b788ba7c4b06
+  channel: email
+  name: TRG_2025_D_HAV_CON_PT_Complete_Profile_T6_B_Email
+  subject: Ready to start your design?
+  preheader: ''
+  step_id: 6c65413b-3979-467f-a443-921b8b965312
+- id: 6010419b-0358-4a03-a8ac-320e2712716f
+  channel: email
+  name: TRG_2025_D_HAV_CON_Complete_Profile_T3_B_Email
+  subject: Design your home from your phone 📱
+  preheader: Download the Havenly app!
+  step_id: 2ba550b8-3276-49cf-87c5-861cd417f078
+- id: 44fc628f-4223-4c75-a90c-a5ee28e20d82
+  channel: email
+  name: TRG_EM_2025_HAV_CONV_D_Complete_Profile_Bedroom_T5_V1A
+  subject: Your after is waiting...
+  preheader: Complete your room profile today.
+  step_id: bbd688e6-6ed6-42ba-bfaf-875fcb721dc7
+- id: 8c2a8d80-733c-4569-a873-f20934ac9b0a
+  channel: email
+  name: TRG_EM_2025_HAV_CONV_PT_Complete_Profile_T3_V1A
+  subject: Let’s get started on your Havenly design!
+  preheader: ''
+  step_id: a4065aab-93ab-4296-833d-7ca84f1833c1
+- id: b1f7e341-fce4-4f8b-b1cb-b1081a3e945f
+  channel: email
+  name: TRG_EM_2025_HAV_CONV_PT_Complete_Profile_T6_V1A
+  subject: Ready to start your design?
+  preheader: ''
+  step_id: 4a2ac8b2-287e-4b03-86ce-d9becfa61a6c
+- id: 27c9b8c1-0f40-462e-9920-fae14105acc6
+  channel: email
+  name: TRG_EM_2025_HAV_CONV_D_Complete_Profile_Dining_T5_V1A
+  subject: Your after is waiting...
+  preheader: Complete your room profile today.
+  step_id: 14583dc2-f14e-434a-b5a5-0d5de75f9468
+- id: 1eeb1520-5db6-4919-92a7-1fd449d4bed7
+  channel: email
+  name: TRG_EM_2025_HAV_CONV_D_Complete_Profile_T4_V1A
+  subject: It's a Great Day to Start Your Room Makeover
+  preheader: Complete your room profile today.
+  step_id: c1f3630f-ffcd-454c-a4c2-1d12a16ac4d3
+- id: 34168430-345f-4cb0-8b03-81a115d14c2c
+  channel: email
+  name: TRG_EM_2025_HAV_CONV_D_Complete_Profile_Office_T5_V1A
+  subject: Your after is waiting...
+  preheader: Complete your room profile today.
+  step_id: 36c592a5-66b5-415e-8ad1-6a2d4ffa1b82
+- id: 29eed3ba-67e2-4a21-b0f6-41136e0dfa06
+  channel: email
+  name: TRG_EM_2025_HAV_CONV_D_Complete_Profile_T2_V1A
+  subject: Design your home from your phone 📱
+  preheader: Download the Havenly app!
+  step_id: 65370f53-adfa-47a0-8877-06640ea14bf4
+- id: 67ae2b06-a498-4623-976c-725e0fa6c4da
+  channel: email
+  name: TRG_EM_2025_HAV_CONV_D_Complete_Profile_Living_T5_V1A
+  subject: Your after is waiting...
+  preheader: Complete your room profile today.
+  step_id: 3ef2103d-7c8c-4473-b36f-02058bb08b5c
+- id: bfc60fc4-f7fd-4542-b2e2-6c06a2e49b42
+  channel: email
+  name: TRG_EM_2025_HAV_CONV_D_Complete_Profile_General_T5_V1A
+  subject: Your after is waiting...
+  preheader: Complete your room profile today.
+  step_id: e2323b59-ef1d-49fc-9ecc-ec6791c9c769
+- id: 104d387f-1c15-4062-9c65-a660f853a1a3
+  channel: email
+  name: TRG_EM_2025_HAV_CONV_D_Complete_Profile_Kitchen_T5_V1A
+  subject: Your after is waiting...
+  preheader: Complete your room profile today.
+  step_id: 7c283ff5-8e04-4d73-92d4-95fe849d7186
+- id: f80804f5-83ed-4d67-b250-65cb391abca5
+  channel: email
+  name: TRG_EM_2025_HAV_CONV_D_Complete_Profile_T7_V1A
+  subject: Always get the best prices, only at Havenly
+  preheader: Start your room today
+  step_id: 0b0d17e1-3c6c-4913-81c0-ee24488b5b1f
+- id: 99b55ff0-3aa4-4a95-b445-7efb737946fe
+  channel: email
+  name: TRG_EM_2025_HAV_CONV_D_Complete_Profile_T1_V1A
+  subject: Let's kick things off!
+  preheader: Finish your room profile to get started on your project!
+  step_id: 28c26c17-4fbe-43e3-a323-83926f0d415d
+performance_summary:
+  total_entries: 412
+  total_sends: 1874
+  total_delivered: 1861
+  total_opens: 1425
+  total_clicks: 82
+  open_rate: 0.7604
+  click_rate: 0.0438
+  total_conversions: 319
+  total_unsubscribes: 3
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.465404'
+    source: snowflake
+    channel: email
+canvas_steps:
+- id: 729dc550-3339-4a18-80a4-b36bf809f0ab
+  name: TRG_2024_D_HAV_CON_Complete_Profile_T3_Email
+  type: message
+  channel: email
+  subject: Your designer is ready to get started!
+  preheader: Complete your room profile today.
+- id: f152945c-241a-412b-b3cc-16b29b84f814
+  name: TRG_2024_D_HAV_CON_Complete_Profile_T4_Email
+  type: message
+  channel: email
+  subject: 'Reminder: kick off your project!
+
+    '
+  preheader: 'Get on your designer''s schedule today.
+
+    '
+- id: d7f2d5df-c34d-44a4-8ea1-0adb69760732
+  name: TRG_2024_D_HAV_CON_Complete_Profile_T5_Email
+  type: message
+  channel: email
+  subject: 'Are you ready? '
+  preheader: Start your project today
+- id: fb7af93d-c875-48db-bcc1-db07d2db47a6
+  name: TRG_2024_D_HAV_CON_Complete_Profile_T2_Email
+  type: message
+  channel: email
+  subject: Design your home from your phone 📱
+  preheader: Download the Havenly app!
+- id: 480a0c4d-f18a-48ad-ac8a-bbd96fc41ac1
+  name: TRG_2024_D_HAV_CON_Complete_Profile_T1_Email
+  type: message
+  channel: email
+  subject: Let's get started!
+  preheader: Realize your design dreams for your space.
+- id: 9be1fcde-8bac-4a45-a12d-c97a715f3100
+  name: Step 5
+  type: delay
+- id: 2d8467b4-20ad-44fd-a984-f168ad366cd1
+  name: Step 1
+  type: delay
+- id: a2ba607d-1f8b-4eb2-b8db-534576cd4c17
+  name: Step 2
+  type: delay
+- id: cd3d3936-4f19-4be8-ae0b-8b3229f47fd2
+  name: Step 6
+  type: delay
+- id: 84c238e7-bf6f-424b-a2d5-d04fd2be885f
+  name: Step
+  type: delay
+- id: 2f43df08-8719-4c34-bf78-1df9ec127bac
+  name: Step 3
+  type: decision_split
+- id: a27553ff-3a06-428e-9ecb-2432763f8835
+  name: TRG_2024_D_HAV_CON_PT_Complete_Profile_T6_Email
+  type: message
+  channel: email
+  subject: Ready to start your design?
+  preheader: ''
+- id: db36fc34-9978-46f4-adf4-a22b28e608cd
+  name: Step 4
+  type: delay
+- id: 7ebe7249-f7cf-4d15-8cdb-822417bca4f3
+  name: Step 8
+  type: delay
+- id: 6d2c0898-8206-4710-b94e-d844217825c8
+  name: TRG_2025_D_HAV_CON_Complete_Profile_T1_B_Email
+  type: message
+  channel: email
+  subject: Let's kick things off!
+  preheader: Finish your room profile to get started on your project!
+- id: 8426a047-dee0-4dc0-bdb0-2df49ba4b755
+  name: Step 9
+  type: delay
+- id: d6ebf4ed-24e5-4e0e-98bc-bde009dedfb1
+  name: TRG_2025_PT_HAV_CON_Complete_Profile_T2_B_Email
+  type: message
+  channel: email
+  subject: Let’s get started on your Havenly design!
+  preheader: ''
+- id: 6c6395d7-055a-4b8e-a6f0-8b46de4e8711
+  name: TRG_2025_D_HAV_CON_Complete_Profile_T4_B_Email
+  type: message
+  channel: email
+  subject: Your designer is ready to get started!
+  preheader: Complete your room profile today.
+- id: b1977b04-a7ea-4024-95bd-bafb5fc8eb21
+  name: TRG_2025_D_HAV_CON_Complete_Profile_T5_B_Email 1
+  type: message
+  channel: email
+  subject: 'Are you ready? '
+  preheader: Start your project today
+- id: 6c65413b-3979-467f-a443-921b8b965312
+  name: TRG_2025_D_HAV_CON_PT_Complete_Profile_T6_B_Email
+  type: message
+  channel: email
+  subject: Ready to start your design?
+  preheader: ''
+- id: bae82370-b64d-44f6-bddd-eecf06e7e01d
+  name: Step 11
+  type: delay
+- id: e97546a0-05c3-4b0c-89ba-f4f7a59dcc26
+  name: Step 12
+  type: delay
+- id: 6b3e9f12-5f35-4e68-b683-59fc0f6fee96
+  name: Step 10
+  type: delay
+- id: 2ba550b8-3276-49cf-87c5-861cd417f078
+  name: TRG_2025_D_HAV_CON_Complete_Profile_T3_B_Email
+  type: message
+  channel: email
+  subject: Design your home from your phone 📱
+  preheader: Download the Havenly app!
+- id: d7f43161-2cfc-4024-a146-6a68430ace6a
+  name: Step 13
+  type: delay
+- id: 430e0348-fe6d-463f-98c4-f9c631a5e9de
+  name: Step 15
+  type: delay
+- id: 1ed8b558-b516-413e-8137-c86a07a6cd32
+  name: Step 17
+  type: delay
+- id: e7450bfd-740c-4ac5-8e63-88f786c5d5b4
+  name: Step 18
+  type: delay
+- id: 4518dae6-a7dc-49c3-9313-8060d4791d1e
+  name: Bedroom?
+  type: decision_split
+- id: c4d5fc20-dade-4727-bb0e-f28b3e09141c
+  name: Step 16
+  type: delay
+- id: 123901f2-6289-4f46-a970-ea7ca5cee3e2
+  name: Dining Room?
+  type: decision_split
+- id: bbd688e6-6ed6-42ba-bfaf-875fcb721dc7
+  name: TRG_EM_2025_HAV_CONV_D_Complete_Profile_Bedroom_T5_V1A
+  type: message
+  channel: email
+  subject: Your after is waiting...
+  preheader: Complete your room profile today.
+- id: 08b68833-4771-42a7-a339-7ed1e33c296e
+  name: Kitchen?
+  type: decision_split
+- id: 260393b5-db95-49de-b340-4295d792ec2c
+  name: Living Room?
+  type: decision_split
+- id: a4065aab-93ab-4296-833d-7ca84f1833c1
+  name: TRG_EM_2025_HAV_CONV_PT_Complete_Profile_T3_V1A
+  type: message
+  channel: email
+  subject: Let’s get started on your Havenly design!
+  preheader: ''
+- id: 997cca4b-3fe3-4120-959e-c14cba78efbe
+  name: Step 20
+  type: delay
+- id: 4a2ac8b2-287e-4b03-86ce-d9becfa61a6c
+  name: TRG_EM_2025_HAV_CONV_PT_Complete_Profile_T6_V1A
+  type: message
+  channel: email
+  subject: Ready to start your design?
+  preheader: ''
+- id: 14583dc2-f14e-434a-b5a5-0d5de75f9468
+  name: TRG_EM_2025_HAV_CONV_D_Complete_Profile_Dining_T5_V1A
+  type: message
+  channel: email
+  subject: Your after is waiting...
+  preheader: Complete your room profile today.
+- id: c1f3630f-ffcd-454c-a4c2-1d12a16ac4d3
+  name: TRG_EM_2025_HAV_CONV_D_Complete_Profile_T4_V1A
+  type: message
+  channel: email
+  subject: It's a Great Day to Start Your Room Makeover
+  preheader: Complete your room profile today.
+- id: 311a1401-8360-45bd-a930-35fa15e2721d
+  name: Office?
+  type: decision_split
+- id: 93b8a443-69da-4da5-8a1e-474118e2f944
+  name: Step 14
+  type: delay
+- id: 36c592a5-66b5-415e-8ad1-6a2d4ffa1b82
+  name: TRG_EM_2025_HAV_CONV_D_Complete_Profile_Office_T5_V1A
+  type: message
+  channel: email
+  subject: Your after is waiting...
+  preheader: Complete your room profile today.
+- id: 65370f53-adfa-47a0-8877-06640ea14bf4
+  name: TRG_EM_2025_HAV_CONV_D_Complete_Profile_T2_V1A
+  type: message
+  channel: email
+  subject: Design your home from your phone 📱
+  preheader: Download the Havenly app!
+- id: 3ef2103d-7c8c-4473-b36f-02058bb08b5c
+  name: TRG_EM_2025_HAV_CONV_D_Complete_Profile_Living_T5_V1A
+  type: message
+  channel: email
+  subject: Your after is waiting...
+  preheader: Complete your room profile today.
+- id: e2323b59-ef1d-49fc-9ecc-ec6791c9c769
+  name: TRG_EM_2025_HAV_CONV_D_Complete_Profile_General_T5_V1A
+  type: message
+  channel: email
+  subject: Your after is waiting...
+  preheader: Complete your room profile today.
+- id: 7c283ff5-8e04-4d73-92d4-95fe849d7186
+  name: TRG_EM_2025_HAV_CONV_D_Complete_Profile_Kitchen_T5_V1A
+  type: message
+  channel: email
+  subject: Your after is waiting...
+  preheader: Complete your room profile today.
+- id: 0b0d17e1-3c6c-4913-81c0-ee24488b5b1f
+  name: TRG_EM_2025_HAV_CONV_D_Complete_Profile_T7_V1A
+  type: message
+  channel: email
+  subject: Always get the best prices, only at Havenly
+  preheader: Start your room today
+- id: 28c26c17-4fbe-43e3-a323-83926f0d415d
+  name: TRG_EM_2025_HAV_CONV_D_Complete_Profile_T1_V1A
+  type: message
+  channel: email
+  subject: Let's kick things off!
+  preheader: Finish your room profile to get started on your project!
+- id: a6fad117-e249-4951-b3e1-13ed6cccc415
+  name: Step 19
+  type: delay
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: hav_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: hav_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:39.741965'

@@ -1,0 +1,143 @@
+{% assign memorial_day_start = "2026-05-19 07:00:00" | date: "%s" %}
+{% assign memorial_day_end   = "2026-05-28 07:00:00" | date: "%s" %}
+
+{% assign sale_start = "2025-11-25 00:00:00" | date: "%s" %}
+{% assign sale_reg_end = "2025-12-03 06:59:00" | date: "%s" %}
+{% assign sale_end = "2025-12-11 06:59:00" | date: "%s" %}
+
+{%- comment -%}
+  Winter Refresh Sale: Thu 1/15 - Tue 1/27
+  Using same convention as this block (07:00 start; inclusive end at 06:59)
+{%- endcomment -%}
+{% assign winter_refresh_start = "2026-01-15 07:00:00" | date: "%s" %}
+{% assign winter_refresh_end   = "2026-01-28 06:59:00" | date: "%s" %}
+
+{%- comment -%}
+  Spring Sale: Fri 3/20 - Mon 3/23
+  Using same convention as this block (07:00 start; inclusive end at 06:59)
+{%- endcomment -%}
+{% assign spring_sale_start = "2026-03-20 07:00:00" | date: "%s" %}
+{% assign spring_sale_end   = "2026-03-24 06:59:00" | date: "%s" %}
+
+{% assign now = 'now' | date: "%s" %}
+
+{% if now >= sale_start and now < sale_reg_end %}
+  <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+    <tr>
+      <td align="center" style="width: 100%">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.stfrank.com?lid={{${cblid} | lid: 'f3skbhidg9ok'}}">
+          <img alt="The Black Friday Event. Up to 30% Off"
+               width="600"
+               style="display: block; width: 100%; max-width: 100%; font-size: 20px; font-family: Arial, 'sans-serif'; color: #383633; background-color: #FFFFFF;"
+               border="0"
+               src="https://braze-images.com/appboy/communication/assets/image_assets/images/6920c84cff15e30064e52e07/original.png?1763756108" />
+        </a>
+      </td>
+    </tr>
+  </table>
+
+{% elsif now >= sale_reg_end and now < sale_end %}
+  <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+    <tr>
+      <td align="center" style="width: 100%">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.stfrank.com?lid={{${cblid} | lid: 'sdjkixkou2mf'}}">
+          <img alt="Sale Extended: Shop Up to 30% Off"
+               width="600"
+               style="display: block; width: 100%; max-width: 100%; font-size: 20px; font-family: Arial, 'sans-serif'; color: #383633; background-color: #FFFFFF;"
+               border="0"
+               src="https://braze-images.com/appboy/communication/assets/image_assets/images/69fd0de9f2a1ff008171e275/original.gif?1778191849" />
+        </a>
+      </td>
+    </tr>
+  </table>
+
+{% elsif now >= eoy_sale_start and now <= eoy_sale_extension_start %}
+  <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+    <tr>
+      <td align="center" style="width: 100%">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.stfrank.com?lid={{${cblid} | lid: 'ircbeu5luu7l'}}">
+          <img alt="End of Year Sale: Up to 30% Off"
+               width="600"
+               style="display: block; width: 100%; max-width: 100%; font-size: 20px; font-family: Arial, 'sans-serif'; color: #383633; background-color: #FFFFFF;"
+               border="0"
+               src="https://braze-images.com/appboy/communication/assets/image_assets/images/6944820d60f7cf0065ffd08f/original.png?1766097421" />
+        </a>
+      </td>
+    </tr>
+  </table>
+
+{% elsif now >= eoy_sale_extension_start and now <= eoy_sale_end %}
+  <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+    <tr>
+      <td align="center" style="width: 100%">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.stfrank.com?lid={{${cblid} | lid: 'bst7360tqzsc'}}">
+          <img alt="End of Year Sale Extended: Up to 30% Off"
+               width="600"
+               style="display: block; width: 100%; max-width: 100%; font-size: 20px; font-family: Arial, 'sans-serif'; color: #383633; background-color: #FFFFFF;"
+               border="0"
+               src="https://braze-images.com/appboy/communication/assets/image_assets/images/694994900d44f90063b1c784/original.png?1766429840" />
+        </a>
+      </td>
+    </tr>
+  </table>
+
+{% elsif now >= winter_refresh_start and now <= winter_refresh_end %}
+  <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+    <tr>
+      <td align="center" style="width: 100%">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.stfrank.com?lid={{${cblid} | lid: 'bth8ud5kkoup'}}">
+          <img alt="Winter Refresh Sale: 20% off select categories"
+               width="600"
+               style="display: block; width: 100%; max-width: 100%; font-size: 20px; font-family: Arial, 'sans-serif'; color: #383633; background-color: #FFFFFF;"
+               border="0"
+               src="https://braze-images.com/appboy/communication/assets/image_assets/images/696831c03bff890063fd0fd7/original.png?1768436159" />
+        </a>
+      </td>
+    </tr>
+  </table>
+
+{% elsif now >= spring_sale_start and now <= spring_sale_end %}
+  <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+    <tr>
+      <td align="center" style="width: 100%">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.stfrank.com/?lid={{${cblid} | lid: 'o3wthofp3zht'}}">
+          <img alt="Spring Sale"
+               width="600"
+               style="display: block; width: 100%; max-width: 100%; font-size: 20px; font-family: Arial, 'sans-serif'; color: #383633; background-color: #FFFFFF;"
+               border="0"
+               src="https://braze-images.com/appboy/communication/assets/image_assets/images/69b4c2685b7ca800631354c6/original.png?1773453928" />
+        </a>
+      </td>
+    </tr>
+  </table>
+
+{% elsif now >= memorial_day_start and now < memorial_day_end %}
+  <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+    <tr>
+      <td align="center" style="width: 100%">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.stfrank.com/?lid={{${cblid} | lid: 'qulvnn1yosdw'}}">
+          <img alt="Memorial Day Sale"
+               width="600"
+               style="display: block; width: 100%; max-width: 100%; font-size: 20px; font-family: Arial, 'sans-serif'; color: #383633; background-color: #FFFFFF;"
+               border="0"
+               src="https://braze-images.com/appboy/communication/assets/image_assets/images/69fd0dea34376b00839d266e/original.png?1778191850" />
+        </a>
+      </td>
+    </tr>
+  </table>
+  
+{% else %}
+  <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+    <tr>
+      <td align="center" style="width: 100%">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.stfrank.com/?lid={{${cblid} | lid: '6txzfp2tjes7'}}">
+          <img alt="Free Shopping on Orders Over $150+"
+               width="600"
+               style="display: block; width: 100%; max-width: 100%; font-size: 20px; font-family: Arial, 'sans-serif'; color: #383633; background-color: #FFFFFF;"
+               border="0"
+               src="https://braze-images.com/appboy/communication/assets/image_assets/images/66a95a807cac19005fc2f469/original.jpg?1722374784" />
+        </a>
+      </td>
+    </tr>
+  </table>
+{% endif %}

@@ -1,0 +1,31 @@
+id: 0170b1ab-807f-4461-b083-5c3fa2814ca8
+name: P_SMS_2026_05_03_BW_Settle_Into_Spring_Ends_Tomorrow
+brand: BUR
+channel: sms
+category: other
+type: seasonal
+theme: spring
+braze_id: 0170b1ab-807f-4461-b083-5c3fa2814ca8
+dates:
+  send_date: '2026-05-03'
+  inferred_send_type: local_time
+  first_sent: '2026-05-03T02:06:12+00:00'
+  last_sent: '2026-05-04T01:01:27+00:00'
+tags: []
+sends:
+- id: 184d0359-fc69-4a9d-abfd-02984680e431
+  channel: sms
+  name: Variant 1
+- id: 7ea5a55e-cd73-4b93-bb3a-774b09a8d075
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 8664
+  total_delivered: 8312
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 22030.0
+_filename: p_sms_2026_05_03_bw_settle_into_spring_ends_tomorrow.yaml
+schedule_type: time_based

@@ -1,0 +1,36 @@
+id: 9bba9607-6434-488a-bd9b-89a4988d55fd
+name: P_EM_2026_03_28_ID_D_PR_Spring_Sale_Reminder_2_Days_Left
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: spring
+braze_id: 9bba9607-6434-488a-bd9b-89a4988d55fd
+dates:
+  send_date: '2026-03-28'
+  inferred_send_type: local_time
+  first_sent: '2026-03-27T20:06:26+00:00'
+  last_sent: '2026-03-28T20:03:06+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: eddf8fc7-6bb9-4352-96b9-c377556c4a5a
+  channel: email
+  name: Variant 1
+  subject: Your space, NOW up to 30% off. Last call.
+  preheader: Two days left to shop the Spring Refresh Sale.
+- id: bbce112c-ce88-4d44-a900-a23612dd3d5c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 129297
+  total_delivered: 129101
+  total_opens: 48844
+  total_clicks: 687
+  open_rate: 0.3778
+  click_rate: 0.0053
+  total_revenue: 560609.65
+  total_bounces: 1
+  total_unsubscribes: 143
+_filename: p_em_2026_03_28_id_d_pr_spring_sale_reminder_2_days_left.yaml
+schedule_type: time_based

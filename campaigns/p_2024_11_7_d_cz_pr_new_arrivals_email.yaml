@@ -1,0 +1,51 @@
+id: 7b3e97ef-9d53-4b58-9dfd-9bc12f3434a2
+name: P_2024_11_7_D_CZ_PR_New_Arrivals_Email
+brand: CZ
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 7b3e97ef-9d53-4b58-9dfd-9bc12f3434a2
+dates:
+  send_date: '2024-11-07'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-07T02:57:04+00:00'
+  last_sent: '2024-11-07T17:00:49+00:00'
+tags:
+- batch and blast
+sends:
+- id: 8607337d-2027-49d0-bcea-989c9edaea5d
+  channel: email
+  name: Variant 1
+  subject: New Arrivals, Right This Way
+  preheader: Just in time for the holiday season.
+  html_file: html/p_2024_11_7_d_cz_pr_new_arrivals_email.html
+  screenshot: screenshots/p_2024_11_7_d_cz_pr_new_arrivals_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672a4e55d02947006462f77e/original.gif?1730825813
+- id: d933e3ee-b28e-4b6e-88d3-08a9be37e00a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 91335
+  total_delivered: 90783
+  total_opens: 43133
+  total_clicks: 929
+  open_rate: 0.4723
+  click_rate: 0.0102
+  total_revenue: 69978.73
+  total_bounces: 3
+  total_unsubscribes: 140
+  ga4:
+    sessions: 1407
+    purchases: 11
+    revenue: 4847.54
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.681980'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:45.497433'
+schedule_type: time_based

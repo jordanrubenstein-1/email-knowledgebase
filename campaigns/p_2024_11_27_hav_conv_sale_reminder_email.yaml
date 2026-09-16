@@ -1,0 +1,33 @@
+id: 26e2cb6a-480e-4da3-b08e-573400575e89
+name: P_2024_11_27_HAV_CONV_Sale_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 26e2cb6a-480e-4da3-b08e-573400575e89
+dates:
+  send_date: '2024-11-27'
+  first_sent: '2024-11-27T06:32:06+00:00'
+  last_sent: '2024-11-27T17:15:05+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 6113426f-b938-4b28-bb0e-3b83bf24b28c
+  channel: email
+  name: Variant 1
+  subject: You Deserve This
+  preheader: And by this, we mean up to 80% off.
+- id: c4be20fc-7fbc-4baa-9f32-cb7c16db55a2
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 35585
+  total_delivered: 35542
+  total_opens: 19816
+  total_clicks: 313
+  open_rate: 0.5569
+  click_rate: 0.0088
+  total_unsubscribes: 42
+schedule_type: time_based
+_filename: p_2024_11_27_hav_conv_sale_reminder_email.yaml

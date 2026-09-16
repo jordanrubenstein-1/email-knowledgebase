@@ -1,0 +1,80 @@
+id: 3f7559ae-917e-4dbb-85d7-8dee0f6105ce
+name: P_EM_2025_08_31_SF_D_PF_Art_Of_Pattern
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 3f7559ae-917e-4dbb-85d7-8dee0f6105ce
+dates:
+  send_date: '2025-08-31'
+  inferred_send_type: local_time
+  first_sent: '2025-08-30T18:09:55+00:00'
+  last_sent: '2025-08-31T17:00:14+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- print
+- prod
+- sale
+sends:
+- id: 83a9f052-28fe-454a-9662-da4deb860cea
+  channel: email
+  name: Variant 1
+  subject: Bold Looks For The Labor Day Event
+  preheader: effortless patterns at 25% off
+  html_file: html/p_em_2025_08_31_sf_d_pf_art_of_pattern.html
+  screenshot: screenshots/p_em_2025_08_31_sf_d_pf_art_of_pattern.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b1f0b43bf7f500689ec5e0/original.png?1756491956
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b1f0d2b4cdf200656706db/original.png?1756491986
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b1f0132e60b60065d8ee68/original.gif?1756491795
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b1f0e82e60b60074d8e6ce/original.png?1756492008
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b1f0cc87ee340065448e46/original.png?1756491980
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b1f00d9c017800657b9dff/original.png?1756491788
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b1f0bd87ee340065448ce0/original.png?1756491965
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b1f0d987ee340075447d13/original.png?1756491992
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b1f0c6b4cdf2007567027c/original.png?1756491973
+- id: 50082513-fcce-403f-a8f2-55fceae65ae9
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 20191
+  total_delivered: 20094
+  total_opens: 9335
+  total_clicks: 150
+  open_rate: 0.4623
+  click_rate: 0.0074
+  total_unsubscribes: 48
+  ga4:
+    sessions: 158
+    purchases: 3
+    revenue: 926.25
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.802911'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-the-labor-day-event-2025-08-21
+    name: The Labor Day Event
+    start_date: '2025-08-21'
+    end_date: '2025-09-04'
+    discount: 25% off Sitewide
+    type: null
+  primary_sale:
+    id: stf-the-labor-day-event-2025-08-21
+    name: The Labor Day Event
+    start_date: '2025-08-21'
+    end_date: '2025-09-04'
+    discount: 25% off Sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 25% off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:34.513174'
+schedule_type: time_based

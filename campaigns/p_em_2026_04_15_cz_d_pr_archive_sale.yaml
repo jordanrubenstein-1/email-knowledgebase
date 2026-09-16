@@ -1,0 +1,45 @@
+id: 1306c62c-af81-4e4f-bc89-94dce9149ebc
+name: P_EM_2026_04_15_CZ_D_PR_Archive_Sale
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 1306c62c-af81-4e4f-bc89-94dce9149ebc
+dates:
+  send_date: '2026-04-15'
+  last_sent: '2026-04-15'
+tags:
+- am
+- archive
+- batch and blast
+- d2c
+- designed
+sends:
+- id: d1d802ec-1035-482d-aa06-e7388b77c371
+  channel: email
+  name: Variant 1
+  subject: 'New Styles Added: Archive Sale'
+  preheader: Up to 70% off small-batch pieces you won't find again.
+  html_file: html/p_em_2026_04_15_cz_d_pr_archive_sale.html
+  screenshot: screenshots/p_em_2026_04_15_cz_d_pr_archive_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69d67d7cf8d5ff0064e6aed0/original.png?1775664508
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69d67d54a064e3006492aa68/original.png?1775664467
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69d67d7281b37f0064208c57/original.png?1775664497
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69d67d62f1352b0064adc96a/original.png?1775664481
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69d67d9f41923b006420334a/original.png?1775664543
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69d67da9048eee0064f938d5/original.png?1775664553
+- id: 02885dab-70ff-4d30-b81a-207a9840548f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 117321
+  total_delivered: 116425
+  total_opens: 52085
+  total_clicks: 1279
+  open_rate: 0.444
+  click_rate: 0.0109
+  total_bounces: 32
+  total_unsubscribes: 145
+schedule_type: time_based

@@ -1,0 +1,53 @@
+id: b939f9aa-d55a-4390-8b23-f39b97350122
+name: SEG_2024_09_26_D_CZ_D_TRADE_CZ
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: b939f9aa-d55a-4390-8b23-f39b97350122
+dates:
+  send_date: '2024-09-26'
+  inferred_send_type: local_time
+  first_sent: '2024-09-25T22:16:58+00:00'
+  last_sent: '2024-09-26T17:00:09+00:00'
+tags: []
+sends:
+- id: 040689af-d5e4-4012-b2b4-a356c3d84a4c
+  channel: email
+  name: Variant 1
+  subject: Introducing The Fall Collection
+  preheader: Step into the story of home. Where life itself is art.
+  html_file: html/seg_2024_09_26_d_cz_d_trade_cz.html
+  screenshot: screenshots/seg_2024_09_26_d_cz_d_trade_cz.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ed9115c533e20074842c44/original.jpg?1726845204
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66f2f74fd28e680063ea5543/original.jpg?1727199054
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66f3108a959b79007465818f/original.png?1727205513
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ed912ac533e20065843a88/original.gif?1726845226
+- id: f8440966-7c00-49b4-b8b1-bffe06090e83
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 10901
+  total_delivered: 10848
+  total_opens: 5674
+  total_clicks: 183
+  open_rate: 0.5205
+  click_rate: 0.0168
+  total_revenue: 20072.97
+  total_bounces: 9
+  total_unsubscribes: 47
+  ga4:
+    sessions: 146
+    purchases: 1
+    revenue: 120.41
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.697858'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.021045'
+schedule_type: time_based

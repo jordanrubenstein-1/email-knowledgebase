@@ -1,0 +1,24 @@
+id: 3e669cdc-b225-40bd-a82a-c26469168838
+name: Order_Confirmation_Step_1
+brand: BUR
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 59b1c4d8-4c7a-4965-a7f7-ce62def538cd
+canvas_name: Order Confirmation / Post Purchase
+flow_type: post_purchase
+sequence_position: 1
+subject: ⚡ Order confirmation from Burrow
+preheader: Your receipt, delivery details, and more.
+sends:
+- id: 3e669cdc-b225-40bd-a82a-c26469168838
+  channel: email
+  name: Order_Confirmation_Step_1
+  subject: ⚡ Order confirmation from Burrow
+  preheader: Your receipt, delivery details, and more.
+  html_file: html/canvas-order-confirmation-post-purchase-t1-3e669cdc.html
+dates:
+  first_sent: null
+  last_sent: null
+performance_summary: {}

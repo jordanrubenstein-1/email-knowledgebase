@@ -1,0 +1,49 @@
+{% comment %}
+  CTA Button Component
+
+  Creates a styled call-to-action button with Outlook VML support.
+
+  Required variables:
+    text - Button text
+    link - Button URL
+
+  Optional variables:
+    bg_color     - Background color (default: #d99218)
+    text_color   - Text color (default: #FFFFFF)
+    font_size    - Font size in pixels (default: 16)
+    font_family  - Font family (default: "'Bitter','Arial',Sans-serif")
+    border_radius - Border radius in pixels (default: 2)
+    padding_v    - Vertical padding in pixels (default: 5)
+    padding_h    - Horizontal padding in pixels (default: 10)
+    width        - Fixed width in pixels for VML (default: 111)
+    height       - Fixed height in pixels for VML (default: 41)
+
+  Usage:
+    {% assign text = 'SHOP NOW' %}
+    {% assign link = 'https://...' %}
+    {% render 'cta_button' %}
+
+    {% assign text = 'READ MORE' %}
+    {% assign link = 'https://...' %}
+    {% assign bg_color = '#000000' %}
+    {% render 'cta_button' %}
+{% endcomment %}
+
+{% assign bg_color = bg_color | default: '#d99218' %}
+{% assign text_color = text_color | default: '#FFFFFF' %}
+{% assign font_size = font_size | default: 16 %}
+{% assign font_family = font_family | default: "'Bitter','Arial',Sans-serif" %}
+{% assign border_radius = border_radius | default: 2 %}
+{% assign padding_v = padding_v | default: 5 %}
+{% assign padding_h = padding_h | default: 10 %}
+{% assign width = width | default: 111 %}
+{% assign height = height | default: 41 %}
+{% assign line_height = font_size | times: 2 %}
+
+<table class="button_block" width="100%" border="0" cellpadding="10" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad"><div class="alignment" align="center"><a href="{{ link }}" target="_blank" style="color:{{ text_color }};text-decoration:none;"><!--[if mso]>
+<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ link }}" style="height:{{ height }}px;width:{{ width }}px;v-text-anchor:middle;" arcsize="5%" fillcolor="{{ bg_color }}">
+<v:stroke dashstyle="Solid" weight="1px" color="{{ bg_color }}"/>
+<w:anchorlock/>
+<v:textbox inset="0px,0px,0px,0px">
+<center dir="false" style="color:{{ text_color }};font-family:sans-serif;font-size:{{ font_size }}px">
+<![endif]--><span class="button" style="background-color:{{ bg_color }};border-bottom:1px solid {{ bg_color }};border-left:1px solid {{ bg_color }};border-radius:{{ border_radius }}px;border-right:1px solid {{ bg_color }};border-top:1px solid {{ bg_color }};color:{{ text_color }};display:inline-block;font-family:{{ font_family }};font-size:{{ font_size }}px;font-weight:400;mso-border-alt:none;padding-bottom:{{ padding_v }}px;padding-top:{{ padding_v }}px;padding-left:{{ padding_h }}px;padding-right:{{ padding_h }}px;text-align:center;width:auto;word-break:keep-all;letter-spacing:normal;"><span style="word-break:break-word;line-height:{{ line_height }}px;">{{ text }}</span></span><!--[if mso]></center></v:textbox></v:roundrect><![endif]--></a></div></td></tr></table>

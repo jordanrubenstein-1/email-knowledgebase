@@ -1,0 +1,45 @@
+id: 15551087-0fd6-47c4-b632-d172ef070cf3
+name: P_2025_1_28_D_SF_LAST_CHANCE_WINTER_REFRESH_SALE_Email
+brand: STF
+channel: email
+category: reminder
+type: sale
+theme: winter
+braze_id: 15551087-0fd6-47c4-b632-d172ef070cf3
+dates:
+  send_date: '2025-01-28'
+  inferred_send_type: local_time
+  first_sent: '2025-01-27T23:24:40+00:00'
+  last_sent: '2025-01-28T17:00:08+00:00'
+tags: []
+sends:
+- id: ee5c3fc9-11b1-4134-a65d-f61e8221b27f
+  channel: email
+  name: Variant 1
+  subject: 'LAST CHANCE: 20% off *almost* everything'
+  preheader: only hours left of our  Winter Refresh Sale
+  html_file: html/p_2025_1_28_d_sf_last_chance_winter_refresh_sale_email.html
+  screenshot: screenshots/p_2025_1_28_d_sf_last_chance_winter_refresh_sale_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6788187deaea630063482f46/original.gif?1736972413
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6797ae930cd51f006655eeb2/original.gif?1737993875
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67881899acad2d0064226dbb/original.gif?1736972441
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678818e25a59ff0064275ed8/original.jpg?1736972514
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67881826c96b1200656c5f84/original.jpg?1736972325
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6797aeeeca5c0f0073a89ae8/original.jpg?1737993966
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6788183d5dd2ec00663d0829/original.gif?1736972349
+- id: 02f06c60-b683-4f4c-a7a3-a83e0a15d2f2
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 3857
+  total_delivered: 3800
+  total_opens: 2030
+  total_clicks: 58
+  open_rate: 0.5263
+  click_rate: 0.015
+  total_revenue: 6720.0
+  total_unsubscribes: 4
+_filename: p_2025_1_28_d_sf_last_chance_winter_refresh_sale_email.yaml
+schedule_type: time_based

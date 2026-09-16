@@ -1,0 +1,73 @@
+id: 54af70c3-939a-4d25-b176-5ef95fe4db11
+name: P_EM_2025_09_29_BW_D_Performance_Kid_Pet_Friendly
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 54af70c3-939a-4d25-b176-5ef95fe4db11
+dates:
+  send_date: '2025-09-29'
+  inferred_send_type: local_time
+  first_sent: '2025-09-28T17:20:32+00:00'
+  last_sent: '2025-09-29T17:15:32+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: d5e04a92-1771-48fe-89f3-0431f313ac6b
+  channel: email
+  name: Variant 1
+  subject: Pet tested. Kid approved. Up to 25% Off.
+  preheader: Shop furniture that’s ready for anything
+- id: cec70650-348c-46b6-a350-48ace847c2df
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 238430
+  total_delivered: 235542
+  total_opens: 133665
+  total_clicks: 296
+  open_rate: 0.5606
+  click_rate: 0.0012
+  total_revenue: 22065.0
+  total_bounces: 2
+  total_unsubscribes: 261
+  ga4:
+    sessions: 204
+    purchases: 2
+    revenue: 705.44
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.132118'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-holiday-ready-sale-2025-09-17
+    name: Holiday-Ready Sale
+    start_date: '2025-09-17'
+    end_date: '2025-09-30'
+    discount: "20% off orders < $2k / 25% off orders > $2k\n + up to 50% off clearance"
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-holiday-ready-sale-2025-09-17
+    name: Holiday-Ready Sale
+    start_date: '2025-09-17'
+    end_date: '2025-09-30'
+    discount: "20% off orders < $2k / 25% off orders > $2k\n + up to 50% off clearance"
+    type: null
+  sale_name: Holiday-Ready Sale
+  sale_discount: "20% off orders < $2k / 25% off orders > $2k\n + up to 50% off clearance"
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:38.024945'
+schedule_type: time_based

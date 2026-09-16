@@ -1,0 +1,40 @@
+id: 0c1e580f-3fd0-4211-81ad-9da341e184d0
+name: Product Browse - JR Test
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 0c1e580f-3fd0-4211-81ad-9da341e184d0
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2025-08-10T11:00:00+00:00'
+  last_sent: '2025-08-10T11:00:00+00:00'
+tags: []
+sends:
+- id: b40cef34-5965-4178-8954-1ffc1f88253d
+  channel: email
+  name: Step 1
+  subject: 'ICYMI: 20% Off Sitewide Is On!'
+  preheader: Consider this your sign to save big.
+  step_id: e1e29a44-246b-4643-bd5d-3a2bf0ba1753
+performance_summary: {}
+canvas_steps:
+- id: ebd54ee5-7ed0-4012-9522-d1d323b5f10b
+  name: D1
+  type: delay
+- id: e1e29a44-246b-4643-bd5d-3a2bf0ba1753
+  name: Step 1
+  type: message
+  channel: email
+  subject: 'ICYMI: 20% Off Sitewide Is On!'
+  preheader: Consider this your sign to save big.
+- id: f3e5592c-344f-44b0-a913-6eb6af486969
+  name: Step
+  type: user_update
+- id: 00d74035-3efd-4b29-b21f-3b211631fa62
+  name: D 2
+  type: delay
+_filename: product-browse-jr-test.yaml

@@ -1,0 +1,47 @@
+id: klaviyo-VMxidS
+name: trade-approved_email-03-text
+brand: TE
+channel: email
+category: other
+type: lifecycle
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: YsRZpa
+canvas_name: trade_program-welcome-July2026
+flow_type: welcome_series
+sequence_position: 5
+dates:
+  created: '2026-07-14'
+  inferred_send_type: sto
+  first_sent: '2026-07-14'
+  last_sent: '2026-08-25'
+sends:
+- id: VMxidS
+  channel: email
+  name: Message
+  subject: Excited to work with you!
+  preheader: ''
+  html_file: html/klv-flow-trade_program-welcome-july2026-t05-VMxidS.html
+  image_urls:
+  - https://ci3.googleusercontent.com/mail-sig/AIorK4z_ra2s81NF2fyWDJbPlocO8HNHZtZVNl4SBMDq_reWJbndIxACgcNXEep3zHkwlWLn_T40cMMcnd2q
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: VMxidS
+structure:
+  image_count: 1
+  link_count: 2
+  has_gif: false
+  hero_width: 200
+  layout_type: hero_only

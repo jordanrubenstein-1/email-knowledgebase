@@ -1,0 +1,43 @@
+id: c565b841-f293-4654-9ef0-54b0c07e70fe
+name: P_EM_2025_07_28_STF_TRADE_D_New_Hues_V2
+brand: STF
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: c565b841-f293-4654-9ef0-54b0c07e70fe
+dates:
+  send_date: '2025-07-28'
+  last_sent: '2025-07-28'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 4fc42d6a-f530-432a-a1e5-49aa231b61ce
+  channel: email
+  name: Variant 1
+  subject: 'JUST DROPPED: New St. Frank Hues'
+  preheader: your favorite patterns, reimagined.
+- id: 81eded97-569e-41db-99dd-f7c611789e4c
+  channel: email
+  name: Control Group
+performance_summary: {}
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-the-pillow-event-2025-07-25
+    name: The Pillow Event
+    start_date: '2025-07-25'
+    end_date: '2025-07-31'
+    discount: 20% Off All Pillows
+    type: null
+  primary_sale:
+    id: stf-the-pillow-event-2025-07-25
+    name: The Pillow Event
+    start_date: '2025-07-25'
+    end_date: '2025-07-31'
+    discount: 20% Off All Pillows
+    type: null
+  sale_name: The Pillow Event
+  sale_discount: 20% Off All Pillows
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:40.121334'

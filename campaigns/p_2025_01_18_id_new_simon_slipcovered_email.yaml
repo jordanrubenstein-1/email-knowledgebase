@@ -1,0 +1,46 @@
+id: 20bf1be6-9dca-4e27-bc4c-08e297816061
+name: P_2025_01_18_ID_New_Simon_Slipcovered_Email
+brand: ID
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 20bf1be6-9dca-4e27-bc4c-08e297816061
+dates:
+  send_date: '2025-01-18'
+  inferred_send_type: scheduled
+  first_sent: '2025-01-18T06:46:15+00:00'
+  last_sent: '2025-01-18T17:15:08+00:00'
+tags: []
+sends:
+- id: 6b75f9fd-0655-49ab-962c-9ed4c89c0a06
+  channel: email
+  name: Variant 1
+  subject: 'NEW ARRIVAL: Simon Slipcovered'
+  preheader: Introducing our newest collection.
+- id: eff3ee4a-10ba-48af-b7c4-67e43a789a4e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 97904
+  total_delivered: 96943
+  total_opens: 27416
+  total_clicks: 603
+  open_rate: 0.28
+  click_rate: 0.0062
+  total_revenue: 141032.0
+  total_bounces: 4
+  total_unsubscribes: 131
+  ga4:
+    sessions: 1345
+    purchases: 1
+    revenue: 916.88
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.331166'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:45.215090'
+schedule_type: time_based

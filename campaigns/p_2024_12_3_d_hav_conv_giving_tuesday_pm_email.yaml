@@ -1,0 +1,33 @@
+id: 89976c6d-3bf4-49fd-84ed-def7d90c4b5d
+name: P_2024_12_3_D_HAV_CONV_Giving_Tuesday_PM_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 89976c6d-3bf4-49fd-84ed-def7d90c4b5d
+dates:
+  send_date: '2024-12-03'
+  first_sent: '2024-12-03T20:06:42+00:00'
+  last_sent: '2024-12-04T02:10:07+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: c9fcf0c7-96e7-45d2-87a3-ae0a4fbc235a
+  channel: email
+  name: Variant 1
+  subject: Cyber Sale, Extended!
+  preheader: Make every purchase count this Giving Tuesday
+- id: 0688bfe6-a2bb-447e-888f-67e38cac6d36
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 19189
+  total_delivered: 19177
+  total_opens: 11422
+  total_clicks: 182
+  open_rate: 0.5952
+  click_rate: 0.0095
+  total_unsubscribes: 46
+schedule_type: time_based
+_filename: p_2024_12_3_d_hav_conv_giving_tuesday_pm_email.yaml

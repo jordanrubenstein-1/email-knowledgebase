@@ -1,0 +1,35 @@
+id: 76630bb4-4157-4ec0-8ae7-dcea3b0d8419
+name: P_EM_2026_01_04_HAV_PC_D_AI_Plus_Sale
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 76630bb4-4157-4ec0-8ae7-dcea3b0d8419
+dates:
+  send_date: '2026-01-04'
+  first_sent: '2026-01-03T17:20:21+00:00'
+  last_sent: '2026-01-04T18:15:30+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 789a9449-2b12-4256-a660-570bfe2d94f0
+  channel: email
+  name: Variant 1
+  subject: Your Room Refresh is One Tap Away
+  preheader: Get unstuck in the new year with the help of our designer-trained AI.
+- id: ae311952-badf-4cbc-9a94-86d37e007b35
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 253933
+  total_delivered: 253084
+  total_opens: 103325
+  total_clicks: 543
+  open_rate: 0.4069
+  click_rate: 0.0021
+  total_bounces: 5
+  total_unsubscribes: 561
+schedule_type: time_based
+_filename: p_em_2026_01_04_hav_pc_d_ai_plus_sale.yaml

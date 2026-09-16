@@ -1,0 +1,75 @@
+id: 086888f1-eb44-468f-8e06-4da7a32f9f1c
+name: P_EM_2025_08_06_BW_D_L_Fall_Preview_Launch
+brand: BUR
+channel: email
+category: product_launch
+type: seasonal
+theme: fall
+braze_id: 086888f1-eb44-468f-8e06-4da7a32f9f1c
+dates:
+  send_date: '2025-08-06'
+  inferred_send_type: local_time
+  first_sent: '2025-08-05T21:24:25+00:00'
+  last_sent: '2025-08-06T17:15:25+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 0c651056-4de0-471c-a849-d1c9418964cb
+  channel: email
+  name: Variant 1
+  subject: 'Our Fall Preview Just Dropped '
+  preheader: New Arrivals Ready For Cozy Season
+- id: c74e3b04-e868-4260-be71-b0634deda01f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 246849
+  total_delivered: 246325
+  total_opens: 144966
+  total_clicks: 747
+  open_rate: 0.5873
+  click_rate: 0.003
+  total_revenue: 28262.0
+  total_bounces: 5
+  total_unsubscribes: 300
+  ga4:
+    sessions: 585
+    purchases: 2
+    revenue: 3223.78
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.697814'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:33.067583'
+schedule_type: time_based

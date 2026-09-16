@@ -1,0 +1,75 @@
+id: 9a3c9005-311f-4297-95f9-a32e85c070e8
+name: P_EM_2025_08_22_BW_D_L_Labor_Day
+brand: BUR
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 9a3c9005-311f-4297-95f9-a32e85c070e8
+dates:
+  send_date: '2025-08-22'
+  inferred_send_type: local_time
+  first_sent: '2025-08-21T21:00:20+00:00'
+  last_sent: '2025-08-22T17:15:25+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 47e0122f-2c0a-4cc6-bed8-3ac8911f64b9
+  channel: email
+  name: Variant 1
+  subject: Windows Down. Radio Up. Sale ON!
+  preheader: This Labor Day, the best destination is home
+- id: 75f4a160-2953-4c4f-be50-a61b4c9e6a9f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 243504
+  total_delivered: 242951
+  total_opens: 140256
+  total_clicks: 537
+  open_rate: 0.576
+  click_rate: 0.0022
+  total_revenue: 35130.19
+  total_bounces: 16
+  total_unsubscribes: 407
+  ga4:
+    sessions: 347
+    purchases: 1
+    revenue: 1175.07
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.904074'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:35.757460'
+schedule_type: time_based

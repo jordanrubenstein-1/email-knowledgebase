@@ -1,0 +1,64 @@
+id: 68ef4b59-98ae-4079-89ba-1acae58bb9be
+name: 202501245_LA-Fire-Outreach
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 68ef4b59-98ae-4079-89ba-1acae58bb9be
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-01-24T17:23:36+00:00'
+  last_sent: '2025-01-25T17:15:06+00:00'
+tags: []
+sends:
+- id: 31f14ec1-cffa-4a4f-831a-751f2851f7ec
+  channel: email
+  name: Variant 1
+  subject: 'Project Comfort: free home furnishings for LA'
+  preheader: Sign up today to receive a donation.
+- id: a4113297-d57c-41ea-99a8-119a1abcfe75
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 14
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.500139'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:42.317429'
+schedule_type: time_based

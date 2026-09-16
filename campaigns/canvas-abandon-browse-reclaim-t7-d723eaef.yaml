@@ -1,0 +1,25 @@
+id: d723eaef-181f-47fa-9426-1dc6e6149078
+name: TRG_EM_2025_08_BW_D_Abandon_Browse_Seating_T7_V1
+brand: BUR
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 49e4e79d-21f1-4dae-8d15-258349f633b7
+canvas_name: Abandon Browse - Reclaim
+flow_type: browse_abandonment
+sequence_position: 7
+subject: Shop easy to clean and responsibly sourced leather seating
+preheader: Leather you'll love.
+sends:
+- id: d723eaef-181f-47fa-9426-1dc6e6149078
+  channel: email
+  name: TRG_EM_2025_08_BW_D_Abandon_Browse_Seating_T7_V1
+  subject: Shop easy to clean and responsibly sourced leather seating
+  preheader: Leather you'll love.
+  html_file: html/canvas-abandon-browse-reclaim-t7-d723eaef.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-11-14T17:00:00Z'
+  last_sent: '2025-09-13T11:00:00Z'
+performance_summary: {}

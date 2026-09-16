@@ -1,0 +1,59 @@
+id: 26ba823b-1cc9-499e-9925-1cc9e4a19fdd
+name: P_2025_2_2_D_CZ_Little_Luxuries_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 26ba823b-1cc9-499e-9925-1cc9e4a19fdd
+dates:
+  send_date: '2025-02-02'
+  inferred_send_type: local_time
+  first_sent: '2025-02-01T17:08:31+00:00'
+  last_sent: '2025-02-02T17:01:15+00:00'
+tags: []
+sends:
+- id: a44b6dc1-1a82-4d9a-b32a-9b59ecb95af4
+  channel: email
+  name: Variant 1
+  subject: The Little Luxuries Edit
+  preheader: Treat yourself.
+  html_file: html/p_2025_2_2_d_cz_little_luxuries_email.html
+  screenshot: screenshots/p_2025_2_2_d_cz_little_luxuries_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bebf9b9b919006691b837/original.png?1738271737
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bc662a92e600063ec6e2a/original.png?1738262113
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bc850a4f0ed006514931e/original.png?1738262607
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bc8222fa867006526613d/original.png?1738262562
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bc69d2fa8670074265916/original.png?1738262172
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bc62d27987a00655c74b2/original.png?1738262059
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bc603fc66df006541e448/original.png?1738262019
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bc7c4b000b10065619098/original.png?1738262467
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bc86eb000b1006561936a/original.png?1738262637
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bc6d549705300656a2fa3/original.png?1738262228
+- id: 2ee2f81f-41e5-43dc-8ca4-31814c82c0c5
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 96285
+  total_delivered: 95573
+  total_opens: 48074
+  total_clicks: 757
+  open_rate: 0.4993
+  click_rate: 0.0079
+  total_revenue: 49601.82
+  total_bounces: 3
+  total_unsubscribes: 127
+  ga4:
+    sessions: 1094
+    purchases: 4
+    revenue: 1566.14
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.180930'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.009036'
+schedule_type: time_based

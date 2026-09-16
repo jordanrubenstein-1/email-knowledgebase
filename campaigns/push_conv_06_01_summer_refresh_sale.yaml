@@ -1,0 +1,23 @@
+id: 35b52d4e-89d7-47c5-b87e-4fa4cbc581de
+name: PUSH_Conv_06_01_Summer_Refresh_Sale
+brand: HAV
+channel: push
+category: sale_promo
+type: sale
+theme: summer
+braze_id: 35b52d4e-89d7-47c5-b87e-4fa4cbc581de
+dates:
+  first_sent: '2025-06-01T02:09:02+00:00'
+  last_sent: '2025-06-02T01:00:34+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 58e08286-3d31-431a-ab85-f1b6ffd6511c
+  channel: push
+  name: Variant 1
+- id: 9fda4197-f0d6-4914-8fc4-a0196bb683f8
+  channel: push
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: push_conv_06_01_summer_refresh_sale.yaml

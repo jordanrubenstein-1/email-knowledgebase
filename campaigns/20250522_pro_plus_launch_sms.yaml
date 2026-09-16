@@ -1,0 +1,30 @@
+id: 56111406-ccbe-4748-973c-046f6dc1f4b7
+name: 20250522_Pro_Plus_Launch_SMS
+brand: BUR
+channel: sms
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 56111406-ccbe-4748-973c-046f6dc1f4b7
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2025-05-22T17:49:17+00:00'
+  last_sent: '2025-05-23T01:30:09+00:00'
+tags: []
+sends:
+- id: 3377f4d5-e3ff-4564-bf56-99667585efd9
+  channel: other
+  name: Variant 1
+- id: 1b18792e-e86e-4b9a-8c3f-61f14835f074
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 249
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.661119'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

@@ -1,0 +1,43 @@
+id: f20b89eb-aca9-4637-be21-adb56656e1f3
+name: P_EM_2025_12_27_BW_D_Seating_Highlight
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: f20b89eb-aca9-4637-be21-adb56656e1f3
+dates:
+  send_date: '2025-12-27'
+  inferred_send_type: local_time
+  first_sent: '2025-12-26T17:22:34+00:00'
+  last_sent: '2025-12-27T17:16:06+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: cc296011-37f6-4e6c-870d-258615098ea1
+  channel: email
+  name: Variant 1
+  subject: You’re gonna want to sit down for this
+  preheader: up to 30% off ALL seating
+- id: a2b154ec-d119-4cab-ac31-b62557817d0d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 120115
+  total_delivered: 119583
+  total_opens: 51786
+  total_clicks: 736
+  open_rate: 0.4311
+  click_rate: 0.0061
+  total_revenue: 71527.0
+  total_bounces: 1
+  total_unsubscribes: 363
+  ga4:
+    sessions: 639
+    purchases: 2
+    revenue: 3631.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.666605'
+    source: snowflake
+    channel: email
+schedule_type: time_based

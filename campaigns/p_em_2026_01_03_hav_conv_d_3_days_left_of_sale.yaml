@@ -1,0 +1,35 @@
+id: bd5e9ab6-f553-4808-82a8-4393c95150c3
+name: P_EM_2026_01_03_HAV_CONV_D_3_Days_Left_of_Sale
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: bd5e9ab6-f553-4808-82a8-4393c95150c3
+dates:
+  send_date: '2026-01-03'
+  first_sent: '2026-01-02T20:46:02+00:00'
+  last_sent: '2026-01-03T17:16:42+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 286d007a-ff37-4eda-93d5-9606978133af
+  channel: email
+  name: Variant 1
+  subject: Start the year with a better room
+  preheader: 3 days left to save up 15% off
+- id: dd3e5141-1819-47e0-b840-b7d98f70b16f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 43260
+  total_delivered: 43245
+  total_opens: 22886
+  total_clicks: 118
+  open_rate: 0.529
+  click_rate: 0.0027
+  total_bounces: 1
+  total_unsubscribes: 79
+schedule_type: time_based
+_filename: p_em_2026_01_03_hav_conv_d_3_days_left_of_sale.yaml

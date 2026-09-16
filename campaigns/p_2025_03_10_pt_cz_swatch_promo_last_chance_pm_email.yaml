@@ -1,0 +1,25 @@
+id: 92b66ed7-d624-44a7-a5da-e64cb9feee8b
+name: P_2025_03_10_PT_CZ_Swatch_Promo_Last_Chance_PM_Email
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 92b66ed7-d624-44a7-a5da-e64cb9feee8b
+dates:
+  send_date: '2025-03-10'
+  last_sent: '2025-03-10'
+tags: []
+sends:
+- id: ceb4ed61-0df3-42d4-9bfa-6a0feb1c1124
+  channel: email
+  name: Variant 1
+  subject: Curate A Serene Spring Sanctuary
+  html_file: html/p_2025_03_10_pt_cz_swatch_promo_last_chance_pm_email.html
+  screenshot: screenshots/p_2025_03_10_pt_cz_swatch_promo_last_chance_pm_email.png
+- id: 52a4e1d3-d22e-4be3-b8f1-007a0b17e41f
+  channel: other
+  name: Control Group
+performance_summary: {}
+_filename: p_2025_03_10_pt_cz_swatch_promo_last_chance_pm_email.yaml
+schedule_type: time_based

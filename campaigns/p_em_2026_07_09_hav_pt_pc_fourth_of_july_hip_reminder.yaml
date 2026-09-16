@@ -1,0 +1,31 @@
+id: 3fae15f4-7cbf-455e-998d-fab0e7489bea
+name: P_EM_2026_07_09_HAV_PT_PC_Fourth_of_July_HIP_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 3fae15f4-7cbf-455e-998d-fab0e7489bea
+dates:
+  send_date: '2026-07-09'
+  last_sent: '2026-07-09'
+tags:
+- BLASTS-2025
+sends:
+- id: 2d0378de-1aad-44da-bd22-cfbb1e39e881
+  channel: email
+  name: Variant 1
+  subject: ' In-Person Interior Design Is Now in {{${city} | default: ''Your City''}}'
+- id: c34ae02c-32e0-47ac-aef4-659360f0e6cd
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 3181
+  total_delivered: 3140
+  total_opens: 1495
+  total_clicks: 33
+  open_rate: 0.47
+  click_rate: 0.0104
+  total_unsubscribes: 9
+schedule_type: time_based
+_filename: p_em_2026_07_09_hav_pt_pc_fourth_of_july_hip_reminder.yaml

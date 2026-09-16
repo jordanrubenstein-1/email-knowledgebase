@@ -1,0 +1,77 @@
+id: 639ce07e-f3a4-403b-b422-792e3f576252
+name: P_EM_2025_10_18_CZ_D_PR_Entertaining_Essentials
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 639ce07e-f3a4-403b-b422-792e3f576252
+dates:
+  send_date: '2025-10-18'
+  inferred_send_type: local_time
+  first_sent: '2025-10-17T19:26:14+00:00'
+  last_sent: '2025-10-18T17:15:16+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- gtl
+- sale
+sends:
+- id: 00431300-fe74-4262-95a6-b14e4a5936be
+  channel: email
+  name: Variant 1
+  subject: A Season for Gatherings, Now 20% Off
+  preheader: Add warmth and beauty to your table with handcrafted essentials.
+  html_file: html/p_em_2025_10_18_cz_d_pr_entertaining_essentials.html
+  screenshot: screenshots/p_em_2025_10_18_cz_d_pr_entertaining_essentials.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e6e8e48d362e00634e4163/original.png?1759963363
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e6e8d20b4a6400638fd8f7/original.png?1759963346
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68f176a9d6c188007416c8e3/original.png?1760655016
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68efebf84fcad6006350a01a/original.png?1760553975
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e6e8dd2f6e0e00635df346/original.png?1759963357
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68f176c8d6c188006416cb2a/original.png?1760655048
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68f176b0d6c188006416cb04/original.gif?1760655024
+- id: 475cb7e1-62b4-4060-8eb7-ac672796379b
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 111958
+  total_delivered: 111684
+  total_opens: 58807
+  total_clicks: 591
+  open_rate: 0.5253
+  click_rate: 0.0053
+  total_bounces: 8
+  total_unsubscribes: 144
+  ga4:
+    sessions: 582
+    purchases: 13
+    revenue: 5509.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.656058'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-anniversary-sale-2025-10-09
+    name: The Anniversary Sale
+    start_date: '2025-10-09'
+    end_date: '2025-10-22'
+    discount: 20% Off Sitewide
+    type: null
+  primary_sale:
+    id: cz-the-anniversary-sale-2025-10-09
+    name: The Anniversary Sale
+    start_date: '2025-10-09'
+    end_date: '2025-10-22'
+    discount: 20% Off Sitewide
+    type: null
+  sale_name: The Anniversary Sale
+  sale_discount: 20% Off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:45.096196'
+schedule_type: time_based

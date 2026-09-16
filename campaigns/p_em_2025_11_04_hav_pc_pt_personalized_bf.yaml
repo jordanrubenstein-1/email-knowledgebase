@@ -1,0 +1,36 @@
+id: 891473d6-c66f-41e2-a908-55fdeb388279
+name: P_EM_2025_11_04_HAV_PC_PT_PERSONALIZED_BF
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 891473d6-c66f-41e2-a908-55fdeb388279
+dates:
+  send_date: '2025-11-04'
+  first_sent: '2025-11-03T20:37:32+00:00'
+  last_sent: '2025-11-04T20:15:27+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+- Pre-converted
+sends:
+- id: afee9a72-4651-4885-83db-3f0532f03d3d
+  channel: email
+  name: Variant 1
+  subject: Still loving {{custom_attribute.${surveyStyle}}}? Let’s design your perfect
+    space.
+- id: 27b0885f-81b9-4859-9e24-19f4fd2ce3eb
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 112480
+  total_delivered: 111913
+  total_opens: 47998
+  total_clicks: 411
+  open_rate: 0.4267
+  click_rate: 0.0037
+  total_bounces: 11
+  total_unsubscribes: 257
+schedule_type: time_based
+_filename: p_em_2025_11_04_hav_pc_pt_personalized_bf.yaml

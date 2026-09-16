@@ -1,0 +1,30 @@
+id: 82830c2a-5010-49a3-b8f2-3980e0c106e5
+name: P_SMS_2026_03_20_BW_Benji
+brand: BUR
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: 82830c2a-5010-49a3-b8f2-3980e0c106e5
+dates:
+  send_date: '2026-03-20'
+  inferred_send_type: local_time
+  first_sent: '2026-03-20T03:04:05+00:00'
+  last_sent: '2026-03-21T01:03:01+00:00'
+tags: []
+sends:
+- id: d3050594-e7f3-45e8-9195-f017155b28bb
+  channel: sms
+  name: Variant 1
+- id: 7e4791ad-44b2-4b21-b7ef-756181e19648
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 6974
+  total_delivered: 6761
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 5004.0
+schedule_type: time_based

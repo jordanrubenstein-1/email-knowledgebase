@@ -1,0 +1,33 @@
+id: aeca1ae1-dc8f-4c30-8451-4888d3e5d67c
+name: P_EM_2026_07_13_BW_PT_Extension_Final_Hours_Morning
+brand: BUR
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: aeca1ae1-dc8f-4c30-8451-4888d3e5d67c
+dates:
+  send_date: '2026-07-13'
+  last_sent: '2026-07-13'
+tags:
+- Batch&Blast
+sends:
+- id: 9a57bdf0-ea0a-4e14-807f-2a897d34694b
+  channel: email
+  name: Variant 1
+  subject: 'FINAL HOURS: the extended sale ends today'
+- id: 3534d812-1f76-44a2-a6d3-7d2ae90f8ad7
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 228321
+  total_delivered: 226062
+  total_opens: 114871
+  total_clicks: 420
+  open_rate: 0.5031
+  click_rate: 0.0018
+  total_revenue: 79253.0
+  total_bounces: 3
+  total_unsubscribes: 191
+schedule_type: time_based
+_filename: p_em_2026_07_13_bw_pt_extension_final_hours_morning.yaml

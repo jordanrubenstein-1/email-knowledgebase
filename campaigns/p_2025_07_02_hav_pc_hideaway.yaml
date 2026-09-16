@@ -1,0 +1,35 @@
+id: 2a964373-4ea6-45c8-a0ce-e70e7409ea0e
+name: P_2025_07_02_HAV_PC_Hideaway
+brand: HAV
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 2a964373-4ea6-45c8-a0ce-e70e7409ea0e
+dates:
+  send_date: '2025-07-02'
+  first_sent: '2025-07-02T03:09:18+00:00'
+  last_sent: '2025-07-03T03:00:05+00:00'
+  inferred_send_type: local_time
+tags:
+- HideawayEmails
+sends:
+- id: 38e264c1-100f-44b7-b999-554b1ba810f3
+  channel: email
+  name: Variant 1
+  subject: 8 products I bought after working with interior designers
+  preheader: '*add to cart*'
+- id: 9bf47cd0-7ccc-4a13-bbde-0a42900a9e06
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 225109
+  total_delivered: 221758
+  total_opens: 94158
+  total_clicks: 1497
+  open_rate: 0.4183
+  click_rate: 0.0067
+  total_bounces: 71
+  total_unsubscribes: 341
+schedule_type: time_based
+_filename: p_2025_07_02_hav_pc_hideaway.yaml

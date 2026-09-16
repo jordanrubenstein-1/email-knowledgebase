@@ -1,0 +1,35 @@
+id: 1e04e827-cb09-4494-8cfb-d85012844d4c
+name: P_EM_2025_08_09_HAV_PC_D_Nancy_Meyers_Summer
+brand: HAV
+channel: email
+category: other
+type: seasonal
+theme: summer
+braze_id: 1e04e827-cb09-4494-8cfb-d85012844d4c
+dates:
+  send_date: '2025-08-09'
+  first_sent: '2025-08-08T18:43:46+00:00'
+  last_sent: '2025-08-09T18:15:11+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 081229c1-6b78-43f9-82c2-1de4c7de5994
+  channel: email
+  name: Variant 1
+  subject: 'TRENDING: Nancy Meyers Aesthetic 💐 🍷 🌊'
+  preheader: Get the look
+- id: 229494e4-eb79-48fb-a8e9-ff3c1db26d00
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 230176
+  total_delivered: 229716
+  total_opens: 97333
+  total_clicks: 814
+  open_rate: 0.4229
+  click_rate: 0.0035
+  total_bounces: 12
+  total_unsubscribes: 401
+schedule_type: time_based
+_filename: p_em_2025_08_09_hav_pc_d_nancy_meyers_summer.yaml

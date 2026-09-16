@@ -1,0 +1,45 @@
+id: 57d1fa18-dc13-45b1-811c-7936beeeb09a
+name: P_2025_1_23_D_SF_CURTAINS_WINTER_REFRESH_SALE_Gmail
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: winter
+braze_id: 57d1fa18-dc13-45b1-811c-7936beeeb09a
+dates:
+  send_date: '2025-01-23'
+  inferred_send_type: scheduled
+  first_sent: '2025-01-23T04:01:35+00:00'
+  last_sent: '2025-01-23T16:00:24+00:00'
+tags: []
+sends:
+- id: 32cfbd75-55af-4062-bd9d-ea54014d3b80
+  channel: email
+  name: Variant 1
+  subject: Custom Curtains 20% Off
+  preheader: pick your print
+- id: 2ddd9b8f-a415-40ba-999b-7d46a3a2c418
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 731
+  total_delivered: 731
+  total_opens: 562
+  total_clicks: 24
+  open_rate: 0.7688
+  click_rate: 0.0328
+  total_revenue: 255.0
+  total_unsubscribes: 2
+  ga4:
+    sessions: 33
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.075128'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.494153'
+schedule_type: time_based

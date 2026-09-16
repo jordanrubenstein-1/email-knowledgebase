@@ -1,0 +1,67 @@
+id: 68d8bdb8-2788-46d2-9e76-8b0149fe1707
+name: P_EM_2025_08_23_SF_D_PR_Live_Boldly
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 68d8bdb8-2788-46d2-9e76-8b0149fe1707
+dates:
+  send_date: '2025-08-23'
+  inferred_send_type: local_time
+  first_sent: '2025-08-22T21:35:53+00:00'
+  last_sent: '2025-08-23T17:00:43+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- stl
+sends:
+- id: 3fa9dd05-212d-491b-b1d6-de605eba5573
+  channel: email
+  name: Variant 1
+  subject: Live The Bold Life
+  preheader: discover daring design during our Labor Day Event
+- id: 49e22dd5-bc77-4e46-a154-8cab3bc32c2d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 40544
+  total_delivered: 40459
+  total_opens: 18467
+  total_clicks: 182
+  open_rate: 0.4555
+  click_rate: 0.0045
+  total_revenue: 16930.0
+  total_unsubscribes: 51
+  ga4:
+    sessions: 226
+    purchases: 5
+    revenue: 3257.07
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.113427'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-the-labor-day-event-2025-08-21
+    name: The Labor Day Event
+    start_date: '2025-08-21'
+    end_date: '2025-09-04'
+    discount: 25% off Sitewide
+    type: null
+  primary_sale:
+    id: stf-the-labor-day-event-2025-08-21
+    name: The Labor Day Event
+    start_date: '2025-08-21'
+    end_date: '2025-09-04'
+    discount: 25% off Sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 25% off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:44.627970'
+schedule_type: time_based

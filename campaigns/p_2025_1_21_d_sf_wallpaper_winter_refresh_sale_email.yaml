@@ -1,0 +1,35 @@
+id: 2c008030-159e-4282-9444-2dfd6fb6916b
+name: P_2025_1_21_D_SF_WALLPAPER_WINTER_REFRESH_SALE_Email
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: winter
+braze_id: 2c008030-159e-4282-9444-2dfd6fb6916b
+dates:
+  send_date: '2025-01-21'
+  inferred_send_type: local_time
+  first_sent: '2025-01-20T17:07:22+00:00'
+  last_sent: '2025-01-21T17:00:08+00:00'
+tags: []
+sends:
+- id: 41b22c68-6f43-440a-8edb-3c419de20181
+  channel: email
+  name: Variant 1
+  subject: 'ICYMI: 20% Off Wallpaper'
+  preheader: over 60 bold patterns on sale now
+- id: 5ebb7890-dc83-4b6e-b70b-6da161eb1056
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 3701
+  total_delivered: 3647
+  total_opens: 1952
+  total_clicks: 54
+  open_rate: 0.5274
+  click_rate: 0.0146
+  total_revenue: 45.0
+  total_bounces: 1
+  total_unsubscribes: 6
+_filename: p_2025_1_21_d_sf_wallpaper_winter_refresh_sale_email.yaml
+schedule_type: time_based

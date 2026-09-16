@@ -1,0 +1,32 @@
+id: df39ad3d-4827-4ba9-8c2d-ad58d8d270f3
+name: P_EM_2026_06_26_BW_PT_Bestsellers
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: df39ad3d-4827-4ba9-8c2d-ad58d8d270f3
+dates:
+  send_date: '2026-06-26'
+  last_sent: '2026-06-26'
+tags:
+- Batch&Blast
+sends:
+- id: e739c38b-cdab-43e4-baff-58d789caf340
+  channel: email
+  name: Variant 1
+  subject: Our bestsellers are on sale
+- id: 5dc9caf6-14d6-47c0-beea-ab5a43cec3c3
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 228832
+  total_delivered: 228012
+  total_opens: 116688
+  total_clicks: 585
+  open_rate: 0.5099
+  click_rate: 0.0026
+  total_revenue: 66689.0
+  total_unsubscribes: 177
+schedule_type: time_based
+_filename: p_em_2026_06_26_bw_pt_bestsellers.yaml

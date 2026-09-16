@@ -1,0 +1,31 @@
+id: 0cbb44f3-84d8-49ab-9b58-bd335ed6b6ae
+name: TRG_EM_2025_11_CZ_D_RSVP_Confirmation_Soho_Event_T1_V1
+brand: CZ
+channel: email
+category: sale_promo
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 57657eee-e9b8-4613-a42c-3adb310acef0
+canvas_name: Soho Event RSVP Confirmation - Nov 2025
+flow_type: other_flow
+sequence_position: 1
+subject: You’re on the List
+preheader: We can’t wait to celebrate with you.
+sends:
+- id: 0cbb44f3-84d8-49ab-9b58-bd335ed6b6ae
+  channel: email
+  name: TRG_EM_2025_11_CZ_D_RSVP_Confirmation_Soho_Event_T1_V1
+  subject: You’re on the List
+  preheader: We can’t wait to celebrate with you.
+  html_file: html/canvas-soho-event-rsvp-confirmation-nov-2025-t1-0cbb44f3.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-11-05T22:00:00Z'
+  last_sent: '2025-11-15T16:00:00Z'
+performance_summary:
+  total_sends: 19
+  total_delivered: 19
+  total_opens: 18
+  total_clicks: 4
+  open_rate: 0.9474
+  click_rate: 0.2105

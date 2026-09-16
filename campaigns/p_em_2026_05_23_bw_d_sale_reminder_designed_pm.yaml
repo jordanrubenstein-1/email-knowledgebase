@@ -1,0 +1,33 @@
+id: 50d587e8-452b-4305-9063-04624996b30e
+name: P_EM_2026_05_23_BW_D_Sale_Reminder_Designed_PM
+brand: BUR
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 50d587e8-452b-4305-9063-04624996b30e
+dates:
+  send_date: '2026-05-23'
+  last_sent: '2026-05-23'
+tags:
+- Batch&Blast
+sends:
+- id: da6c3fa0-784b-4d52-be85-bcedb5e6369d
+  channel: email
+  name: Variant 1
+  subject: 'Your reason to party: Up to 50% off sitewide + free shipping'
+  preheader: Shop the Memorial Day Sale.
+- id: c665cb37-c827-449e-87de-581720ec6ecc
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 163901
+  total_delivered: 163210
+  total_opens: 84616
+  total_clicks: 385
+  open_rate: 0.5163
+  click_rate: 0.0023
+  total_revenue: 224928.0
+  total_unsubscribes: 79
+schedule_type: time_based
+_filename: p_em_2026_05_23_bw_d_sale_reminder_designed_pm.yaml

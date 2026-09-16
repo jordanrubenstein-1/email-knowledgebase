@@ -1,0 +1,58 @@
+id: 88964c26-0076-465b-8016-d29d0aa96a77
+name: P_EM_2025_07_15_CZ_D_PR_Lisbon_Guide
+brand: CZ
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 88964c26-0076-465b-8016-d29d0aa96a77
+dates:
+  send_date: '2025-07-15'
+  inferred_send_type: local_time
+  first_sent: '2025-07-15T05:12:21+00:00'
+  last_sent: '2025-07-16T01:02:03+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- dest
+sends:
+- id: b8f7d492-cb0b-4761-8b44-bdf5fc5a2dcb
+  channel: email
+  name: Variant 1
+  subject: Meet Us in Lisbon
+  preheader: The summer field guide for our favorite bustling, coastal city.
+  html_file: html/p_em_2025_07_15_cz_d_pr_lisbon_guide.html
+  screenshot: screenshots/p_em_2025_07_15_cz_d_pr_lisbon_guide.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687576d74aad2c00670b21a4/original.png?1752528599
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68757743bc79e300675d3d5a/original.png?1752528705
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6875777d5b02b4006502e858/original.png?1752528764
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6875779fb33a19006529b8ba/original.png?1752528798
+- id: f168d354-5e88-45ea-9257-baa2eac90572
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 99964
+  total_delivered: 99370
+  total_opens: 52717
+  total_clicks: 900
+  open_rate: 0.5274
+  click_rate: 0.009
+  total_revenue: 42865.55
+  total_bounces: 4
+  total_unsubscribes: 139
+  ga4:
+    sessions: 1055
+    purchases: 3
+    revenue: 514.64
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.087339'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.831238'
+schedule_type: time_based

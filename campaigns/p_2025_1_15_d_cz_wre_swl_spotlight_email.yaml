@@ -1,0 +1,59 @@
+id: 1389f54b-408b-413c-9db5-dac5bea78a3d
+name: P_2025_1_15_D_CZ_WRE_SWL_Spotlight_Email
+brand: CZ
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 1389f54b-408b-413c-9db5-dac5bea78a3d
+dates:
+  send_date: '2025-01-15'
+  inferred_send_type: local_time
+  first_sent: '2025-01-15T00:52:36+00:00'
+  last_sent: '2025-01-15T17:01:34+00:00'
+tags: []
+sends:
+- id: 4055bd9b-ceb4-4d97-a13b-081a0350a9a8
+  channel: email
+  name: Variant 1
+  subject: 'Rituals Of Rest: 20% Off'
+  preheader: Discover our oh-so-soft stonewashed linen bedding, on sale now.
+  html_file: html/p_2025_1_15_d_cz_wre_swl_spotlight_email.html
+  screenshot: screenshots/p_2025_1_15_d_cz_wre_swl_spotlight_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6786a6ecb15dec00667ec3e9/original.jpg?1736877803
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6786a3a4c6c9400064588235/original.jpg?1736876964
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6786a4fafe320200657483c4/original.jpg?1736877306
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6786a3f42a144a0064219182/original.jpg?1736877043
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6786ff5576694200659abbe4/original.jpg?1736900437
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6786a5e6852384006645e6a3/original.jpg?1736877542
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6786a86f3093520066116b72/original.jpg?1736878191
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6786a5a4c6c94000645885b3/original.jpg?1736877475
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6786a5c3375c61006687a1f9/original.jpg?1736877506
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6786a35987b3960065a785f5/original.jpg?1736876889
+- id: 3e29dac4-2394-44da-977a-714d7bde818e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 94825
+  total_delivered: 94126
+  total_opens: 45457
+  total_clicks: 573
+  open_rate: 0.4794
+  click_rate: 0.006
+  total_revenue: 57788.9
+  total_bounces: 1
+  total_unsubscribes: 135
+  ga4:
+    sessions: 774
+    purchases: 12
+    revenue: 3769.92
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.733836'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.362234'
+schedule_type: time_based

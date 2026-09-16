@@ -1,0 +1,47 @@
+id: 98175713-2a6e-46c9-9072-715b66557b6d
+name: P_EM_2026_02_06_CZ_D_PR_Presidents_Day_Sale_EA
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 98175713-2a6e-46c9-9072-715b66557b6d
+dates:
+  send_date: '2026-02-06'
+  inferred_send_type: local_time
+  first_sent: '2026-02-05T21:23:58+00:00'
+  last_sent: '2026-02-06T21:06:32+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale/presidentsday2026
+- sale_feat
+sends:
+- id: 3fa59d9e-bc93-4bcc-862a-1c74cdbf287d
+  channel: email
+  name: Variant 1
+  subject: 'EARLY ACCESS: Up to 25% Off Sitewide'
+  preheader: Exclusive first look, just for you.
+  html_file: html/p_em_2026_02_06_cz_d_pr_presidents_day_sale_ea.html
+  screenshot: screenshots/p_em_2026_02_06_cz_d_pr_presidents_day_sale_ea.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6982721b36bbb4006382f9c2/original.gif?1770156571
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6982724574aa64006344b9f3/original.png?1770156613
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698271ff8017110065c2636b/original.png?1770156543
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698271efcb978d0063483641/original.png?1770156527
+- id: 97d34c49-d5ce-4304-8cef-82b1d55992f8
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 113278
+  total_delivered: 113129
+  total_opens: 55894
+  total_clicks: 1217
+  open_rate: 0.4934
+  click_rate: 0.0107
+  total_bounces: 2
+  total_unsubscribes: 127
+schedule_type: time_based

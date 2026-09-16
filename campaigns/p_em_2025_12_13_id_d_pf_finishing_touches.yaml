@@ -1,0 +1,47 @@
+id: bd59e4c4-193d-4f77-a3a0-cba0ca7edff4
+name: P_EM_2025_12_13_ID_D_PF_Finishing_Touches
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: bd59e4c4-193d-4f77-a3a0-cba0ca7edff4
+dates:
+  send_date: '2025-12-13'
+  inferred_send_type: local_time
+  first_sent: '2025-12-12T21:50:40+00:00'
+  last_sent: '2025-12-13T17:16:51+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 9fd6b54a-8769-4641-a570-4773ef9748c3
+  channel: email
+  name: Variant 1
+  subject: It’s All in the Details
+  preheader: The pieces that pull every room together, one layer at a time.
+- id: d24350f3-623f-4817-8f23-2202514eac1c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 209328
+  total_delivered: 207226
+  total_opens: 89669
+  total_clicks: 546
+  open_rate: 0.4284
+  click_rate: 0.0026
+  total_revenue: 32061.48
+  total_bounces: 12
+  total_unsubscribes: 217
+  ga4:
+    sessions: 574
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.315807'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:45.042997'
+schedule_type: time_based

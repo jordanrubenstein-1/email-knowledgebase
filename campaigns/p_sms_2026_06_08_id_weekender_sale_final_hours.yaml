@@ -1,0 +1,29 @@
+id: f4bd20ae-3653-4626-8e45-cd289d601b57
+name: P_SMS_2026_06_08_ID_Weekender_Sale_Final_Hours
+brand: ID
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: f4bd20ae-3653-4626-8e45-cd289d601b57
+dates:
+  send_date: '2026-06-08'
+  last_sent: '2026-06-08'
+tags: []
+sends:
+- id: fdb40cc6-9653-4db3-b1d4-bf580e9bc448
+  channel: sms
+  name: Variant 1
+- id: 0c01282e-b222-425f-88c5-a69851ac20e1
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 51446
+  total_delivered: 49232
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 3480.0
+schedule_type: time_based
+_filename: p_sms_2026_06_08_id_weekender_sale_final_hours.yaml

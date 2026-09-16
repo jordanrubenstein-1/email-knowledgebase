@@ -1,0 +1,252 @@
+# The Inside — commonly used landing page URLs for auto-briefing
+# Sourced from TI link library spreadsheet (3 sheets) + confirmed URLs from campaign HTML files.
+# All URLs use https://www.theinside.com/ prefix.
+#
+# keywords: on `categories` + `product_categories` entries only, used for
+# keyword-based link resolution. Two different consumers read this file:
+#   - scripts/create_klaviyo_sms.py's resolve_link() — matches keywords as a
+#     substring of the CAMPAIGN NAME (not the SMS copy), first match wins in
+#     list order (not scored) — see _ti_default_links_from_yaml(), which sorts
+#     entries by keyword length descending so specific phrases are checked
+#     before generic ones.
+#   - build_sms_campaign.py's resolve_landing_page() is NOT used for TI — TI
+#     SMS never goes through that script.
+# The `Sale` entry deliberately has no keywords — CLAUDE.md documents
+# /collections/sale as a page to avoid defaulting to; "sale"/"promo"/"event"
+# route to Homepage instead. `destinations`/`edits`/`prints` below are one-off
+# seasonal editorial collections (label-driven lookup only, not keyword
+# matching) — adding keywords there risks false-positive matches on common
+# words (Red, Yellow, Spring, etc.), so they're left as-is.
+
+# General landing pages (homepage, collections, etc.)
+categories:
+  - url: https://www.theinside.com/
+    label: Homepage
+    keywords: ["sale", "event", "promo", "discount", "off"]
+  - url: https://www.theinside.com/fabric-swatches
+    label: Fabric Swatches
+    keywords: ["swatch", "swatches", "fabric swatch"]
+  - url: https://www.theinside.com/collections/furniture
+    label: All Furniture
+    keywords: ["furniture"]
+  - url: https://www.theinside.com/collections/outdoorliving
+    label: Outdoor
+    keywords: ["outdoor"]
+  - url: https://www.theinside.com/collections/new-arrivals
+    label: New Arrivals
+    keywords: ["new arrival", "new arrivals"]
+  - url: https://www.theinside.com/collections/sale
+    label: Sale
+  - url: https://www.theinside.com/collections/bestsellers
+    label: Best Sellers
+    keywords: ["best seller", "bestseller", "popular"]
+  - url: https://www.theinside.com/collections/all-bedding
+    label: Bedding
+    keywords: ["bedding", "sheets", "duvet"]
+  - url: https://www.theinside.com/design-trade-services
+    label: Trade Program
+    keywords: ["trade", "trade program", "design trade"]
+  - url: https://www.theinside.com/collections/rugs
+    label: Rugs
+    keywords: ["rug", "rugs"]
+
+# Product category pages (/c/ paths) — confirmed from campaign HTML files
+product_categories:
+  - url: https://www.theinside.com/c/bedroom-furniture/beds
+    label: Beds
+    keywords: ["bed", "beds", "bedroom"]
+  - url: https://www.theinside.com/c/bedroom-furniture/headboards
+    label: Headboards
+    keywords: ["headboard", "headboards"]
+  - url: https://www.theinside.com/c/bedroom-furniture/benches
+    label: Bedroom Benches
+    keywords: ["bedroom bench", "bedroom benches"]
+  - url: https://www.theinside.com/c/living-room-furniture/sofas
+    label: Sofas
+    keywords: ["sofa", "sofas", "couch"]
+  - url: https://www.theinside.com/c/living-room-furniture/chairs
+    label: Accent Chairs
+    keywords: ["chair", "chairs", "accent chair", "accent chairs"]
+  - url: https://www.theinside.com/c/living-room-furniture/ottomans
+    label: Ottomans
+    keywords: ["ottoman", "ottomans"]
+  - url: https://www.theinside.com/c/living-room-furniture/benches
+    label: Benches
+    keywords: ["bench", "benches"]
+  - url: https://www.theinside.com/c/dining-room/dining-chairs
+    label: Dining Chairs
+    keywords: ["dining chair", "dining chairs", "dining room"]
+  - url: https://www.theinside.com/c/home-decor/curtains
+    label: Curtains
+    keywords: ["curtain", "curtains", "drape", "drapes"]
+  - url: https://www.theinside.com/c/home-decor/throw-pillows
+    label: Throw Pillows
+    keywords: ["pillow", "pillows", "throw pillow", "throw pillows"]
+  - url: https://www.theinside.com/c/home-decor/table-linens
+    label: Table Linens
+    keywords: ["table linen", "table linens", "tablecloth", "tablecloths"]
+  - url: https://www.theinside.com/c/home-decor/wallpaper
+    label: Wallpaper
+    keywords: ["wallpaper"]
+  - url: https://www.theinside.com/c/home-decor/room-dividers
+    label: Room Dividers
+    keywords: ["room divider", "room dividers"]
+  - url: https://www.theinside.com/c/outdoor-furniture/outdoor
+    label: Outdoor Furniture
+    keywords: ["outdoor furniture"]
+  - url: https://www.theinside.com/c/outdoor-furniture/outdoor-pillows
+    label: Outdoor Pillows
+    keywords: ["outdoor pillow", "outdoor pillows"]
+  - url: https://www.theinside.com/c/outdoor-furniture/cabana-chairs
+    label: Cabana Chairs
+    keywords: ["cabana chair", "cabana chairs"]
+  - url: https://www.theinside.com/c/fabric-by-the-yard/fabric-by-the-yard
+    label: Fabric by the Yard
+    keywords: ["fabric by the yard", "fbty"]
+  - url: https://www.theinside.com/c/categories/bar-and-counter-stools
+    label: Bar & Counter Stools
+    keywords: ["bar stool", "bar stools", "counter stool", "counter stools"]
+
+destinations:
+  - url: https://www.theinside.com/collections/ireland
+    label: Ireland
+  - url: https://www.theinside.com/collections/a-trip-to-provence
+    label: Provence
+  - url: https://www.theinside.com/collections/dragonfly-inn
+    label: Dragonfly Inn
+  - url: https://www.theinside.com/collections/new-england-summer
+    label: New England
+  - url: https://www.theinside.com/collections/country-club-edit
+    label: Country Club
+  - url: https://www.theinside.com/collections/destination-hudson-valley
+    label: Hudson Valley
+  - url: https://www.theinside.com/collections/destination-cinque-terra
+    label: Cinque Terra
+  - url: https://www.theinside.com/collections/destinationgreece
+    label: Greece
+  - url: https://www.theinside.com/collections/frenchrivieraera
+    label: French Riviera
+  - url: https://www.theinside.com/collections/paris-inspired-home-decor-furniture
+    label: Paris
+  - url: https://www.theinside.com/collections/winter-2024-trend-forecast
+    label: Holiday House
+  - url: https://www.theinside.com/collections/english-sitting-room
+    label: English Charm
+  - url: https://www.theinside.com/collections/scottish-inspired-furniture
+    label: Scottish Highlands
+  - url: https://www.theinside.com/collections/palm-beach-design
+    label: Palm Beach
+  - url: https://www.theinside.com/collections/italy-travel-edit
+    label: Italy
+  - url: https://www.theinside.com/collections/spain-inspired-home
+    label: Spain
+  - url: https://www.theinside.com/collections/parisian-home-style
+    label: Parisian
+  - url: https://www.theinside.com/collections/coastal-california
+    label: Malibu
+
+edits:
+  - url: https://www.theinside.com/collections/citrusseason
+    label: Citrus Season
+  - url: https://www.theinside.com/collections/coastalcool
+    label: Sun & Sea
+  - url: https://www.theinside.com/collections/the-summer-edit
+    label: Summer
+  - url: https://www.theinside.com/collections/spring-2025-trends
+    label: Spring Trends
+  - url: https://www.theinside.com/collections/teaparty
+    label: Tea Time
+  - url: https://www.theinside.com/collections/printofthemonthstripes
+    label: Stripes
+  - url: https://www.theinside.com/collections/trending-coastal-fisherman
+    label: Coastal Nautical
+  - url: https://www.theinside.com/collections/equestrian-furniture
+    label: Equestrian
+  - url: https://www.theinside.com/collections/winter-home-decor
+    label: Winter Trends
+  - url: https://www.theinside.com/collections/halloween-inspired-furniture-home-decor
+    label: Halloween
+  - url: https://www.theinside.com/collections/small-spaces-furniture-decor
+    label: Small Space
+  - url: https://www.theinside.com/collections/green-home-decor
+    label: Green
+  - url: https://www.theinside.com/collections/cozy-room-decor
+    label: Cozy Winter
+  - url: https://www.theinside.com/collections/hosting-essentials
+    label: Hosting Essentials
+  - url: https://www.theinside.com/collections/red-furniture
+    label: Red
+  - url: https://www.theinside.com/collections/coquette-edit
+    label: Coquette
+  - url: https://www.theinside.com/collections/the-kentucky-derby-edit
+    label: Derby
+  - url: https://www.theinside.com/collections/garden-party-edit
+    label: Garden Party
+  - url: https://www.theinside.com/collections/mothers-day-home-gifts
+    label: Mother's Day
+  - url: https://www.theinside.com/collections/preppy-furniture
+    label: Preppy
+  - url: https://www.theinside.com/collections/vintage-inspired-furniture
+    label: Vintage Inspired
+  - url: https://www.theinside.com/collections/summer-dining-edit
+    label: Summer Dining
+  - url: https://www.theinside.com/collections/yellow-furniture
+    label: Yellow
+  - url: https://www.theinside.com/collections/ski-lodge-decor
+    label: Apres Ski
+  - url: https://www.theinside.com/collections/traditional-furniture
+    label: Traditional Charm
+  - url: https://www.theinside.com/collections/kids-furniture
+    label: The Kids Edit
+  - url: https://www.theinside.com/collections/rustic-decor
+    label: Rustic Romance
+  - url: https://www.theinside.com/collections/cottagecore-decor
+    label: Cottage Core
+  - url: https://www.theinside.com/collections/reading-nook
+    label: Reading Nook
+  - url: https://www.theinside.com/collections/the-summer-collection
+    label: The Summer Edit
+  - url: https://www.theinside.com/collections/art-deco-furniture
+    label: Art Deco
+  - url: https://www.theinside.com/collections/animal-prints
+    label: Animal Instinct
+  - url: https://www.theinside.com/collections/living-room-edit
+    label: Living Room
+  - url: https://www.theinside.com/collections/the-fall-edit
+    label: Fall Preview
+  - url: https://www.theinside.com/collections/the-spring-collection
+    label: Spring
+  - url: https://www.theinside.com/collections/outdoorliving
+    label: Outdoor
+  - url: https://www.theinside.com/collections/floral
+    label: Florals
+
+prints:
+  - url: https://www.theinside.com/collections/floriline
+    label: Floriline
+  - url: https://www.theinside.com/collections/bloomsbury
+    label: Bloomsbury
+  - url: https://www.theinside.com/collections/tale-of-two-toiles
+    label: A Tale of Two Toiles
+  - url: https://www.theinside.com/collections/central-park-toile
+    label: Central Park Toile
+  - url: https://www.theinside.com/collections/country-club-toile
+    label: Country Club Toile
+  - url: https://www.theinside.com/collections/citrine-cabana-stripe
+    label: Citrine Cabana Stripe
+  - url: https://www.theinside.com/collections/marigolddelphine
+    label: Marigold Delphine
+  - url: https://www.theinside.com/collections/tigresse
+    label: Tigresse
+  - url: https://www.theinside.com/collections/woodland-printed-furniture
+    label: Woodland
+  - url: https://www.theinside.com/collections/swallows-print-furniture
+    label: Swallows
+  - url: https://www.theinside.com/collections/delphine
+    label: Delphine
+  - url: https://www.theinside.com/collections/classic-striped-furniture
+    label: Cornflower Ticking Stripe
+  - url: https://www.theinside.com/collections/shop-mariposa-furniture
+    label: Mariposa
+  - url: https://www.theinside.com/collections/cherry-blossom
+    label: Cherry Blossom

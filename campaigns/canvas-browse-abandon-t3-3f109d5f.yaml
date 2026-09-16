@@ -1,0 +1,33 @@
+id: 3f109d5f-d789-403b-888a-e3e627ddafc8
+name: TRG_EM_2025_08_ID_D_Product_Browse_Abandon_T3_V1
+brand: ID
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 4782a148-345e-4baa-aec7-c8e57875ddaf
+canvas_name: Browse Abandon
+flow_type: browse_abandonment
+sequence_position: 3
+subject: 'From browsing to building: let’s go'
+preheader: Get started on your own or use our free design services
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-08-27T19:00:00Z'
+  last_sent: '2026-02-21T19:00:00Z'
+performance_summary:
+  total_sends: 6847
+  total_delivered: 6802
+  total_opens: 3956
+  total_clicks: 92
+  open_rate: 0.5778
+  click_rate: 0.0134
+  total_unsubscribes: 18
+  total_revenue: 92864.97
+sends:
+- id: 3f109d5f-d789-403b-888a-e3e627ddafc8
+  channel: email
+  name: TRG_EM_2025_08_ID_D_Product_Browse_Abandon_T3_V1
+  subject: 'From browsing to building: let’s go'
+  preheader: Get started on your own or use our free design services
+  html_file: html/canvas-browse-abandon-t3-3f109d5f.html

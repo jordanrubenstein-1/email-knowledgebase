@@ -1,0 +1,34 @@
+id: 95a0a27d-9894-4948-936d-3b9b67cd12ec
+name: P_2025_05_26_HAV_Conv_D_Memorial_Day_Today_PM
+brand: HAV
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 95a0a27d-9894-4948-936d-3b9b67cd12ec
+dates:
+  send_date: '2025-05-26'
+  first_sent: '2025-05-26T03:07:10+00:00'
+  last_sent: '2025-05-27T02:01:13+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 44f2a6e0-5ca2-41fa-97e0-b8395fc7ba5d
+  channel: email
+  name: Variant 1
+  subject: Going... Going... Almost Gone! Up to 70% Off 😱
+  preheader: Plus an extra 5% off sale items—because one deal just isn’t enough.
+- id: 0fd1075d-6b9b-44b7-be51-e42839889162
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 40062
+  total_delivered: 39975
+  total_opens: 21712
+  total_clicks: 214
+  open_rate: 0.542
+  click_rate: 0.0053
+  total_unsubscribes: 35
+schedule_type: time_based
+_filename: p_2025_05_26_hav_conv_d_memorial_day_today_pm.yaml

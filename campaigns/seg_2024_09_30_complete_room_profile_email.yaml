@@ -1,0 +1,33 @@
+id: 42cac650-9fbc-48ac-8217-4697391105bc
+name: SEG_2024_09_30_Complete_Room_Profile_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 42cac650-9fbc-48ac-8217-4697391105bc
+dates:
+  send_date: '2024-09-30'
+  first_sent: '2024-09-29T19:52:45+00:00'
+  last_sent: '2024-09-30T02:05:01+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 44b38d9c-0491-4bcc-93c6-2f5e724bd65c
+  channel: email
+  name: Variant 1
+  subject: Let's kick things off!
+  preheader: Finish your room profile to get started on your project!
+- id: 9e0d81be-d764-46bf-985e-a4140cbe6302
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1347
+  total_delivered: 1344
+  total_opens: 863
+  total_clicks: 65
+  open_rate: 0.6407
+  click_rate: 0.0483
+  total_unsubscribes: 3
+schedule_type: time_based
+_filename: seg_2024_09_30_complete_room_profile_email.yaml

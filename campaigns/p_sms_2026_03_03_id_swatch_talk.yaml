@@ -1,0 +1,30 @@
+id: 7cc91f53-e49d-4a89-a571-ca9a6ad32af8
+name: P_SMS_2026_03_03_ID_Swatch_Talk
+brand: ID
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: 7cc91f53-e49d-4a89-a571-ca9a6ad32af8
+dates:
+  send_date: '2026-03-03'
+  inferred_send_type: local_time
+  first_sent: '2026-03-03T04:03:15+00:00'
+  last_sent: '2026-03-04T01:02:45+00:00'
+tags: []
+sends:
+- id: d67a8578-e546-4bbc-b4f8-3e0b9fb1353a
+  channel: sms
+  name: Variant 1
+- id: b6bb6975-6614-452a-8ad8-ddef2ef6d7ce
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 49721
+  total_delivered: 47549
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 7479.99
+schedule_type: time_based

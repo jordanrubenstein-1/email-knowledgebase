@@ -1,0 +1,35 @@
+id: 5ba6767e-18a5-4015-8233-39a3f25fe4c0
+name: P_EM_2026_09_15_TRADE_ID_PC_D_Sectionals_Labor_Day_Sale
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 5ba6767e-18a5-4015-8233-39a3f25fe4c0
+dates:
+  send_date: '2026-09-15'
+  first_sent: '2026-09-15T17:03:09+00:00'
+  last_sent: '2026-09-15T21:00:00+00:00'
+  inferred_send_type: scheduled
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 5cf5a07a-2c74-4160-977a-efdff1130656
+  channel: email
+  name: Variant 1
+  subject: Your Trade Exclusive 35% Off Offer Ends Today
+  preheader: Interior Define’s sitewide savings end in a few hours.
+- id: 634b1b4e-2f5a-4526-925a-0e4bc01e581d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 13978
+  total_delivered: 13920
+  total_opens: 1614
+  total_clicks: 33
+  open_rate: 0.1155
+  click_rate: 0.0024
+  total_revenue: 13300.0
+  total_unsubscribes: 10
+schedule_type: time_based
+_filename: p_em_2026_09_15_trade_id_pc_d_sectionals_labor_day_sale.yaml

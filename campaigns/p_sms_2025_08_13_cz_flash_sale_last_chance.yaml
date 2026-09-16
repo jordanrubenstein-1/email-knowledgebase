@@ -1,0 +1,38 @@
+id: 75326b85-8d8d-4a0c-aa9d-1fd6e3abaf96
+name: P_SMS_2025_08_13_CZ_Flash_Sale_Last_Chance
+brand: CZ
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: 75326b85-8d8d-4a0c-aa9d-1fd6e3abaf96
+dates:
+  send_date: '2025-08-13'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-13T20:32:40+00:00'
+  last_sent: '2025-08-13T20:33:16+00:00'
+tags: []
+sends:
+- id: 89da0bec-e449-4b7f-bd30-663efbdfd9eb
+  channel: sms
+  name: Variant 1
+- id: b3339ef5-3cc6-4f76-b40a-23b381c348b8
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 23194
+  total_delivered: 22831
+  total_opens: 0
+  total_clicks: 391
+  open_rate: 0.0
+  click_rate: 0.0169
+  total_revenue: 3570.6
+  ga4:
+    sessions: 376
+    purchases: 2
+    revenue: 802.05
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.451231'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

@@ -1,0 +1,58 @@
+id: 73410514-d570-4ba5-82f4-848616bbf06d
+name: P_2024_12_06_D_HAV_PC_DPS_Sale_Extension_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 73410514-d570-4ba5-82f4-848616bbf06d
+dates:
+  send_date: '2024-12-06'
+  inferred_send_type: local_time
+  first_sent: '2024-12-06T01:48:14+00:00'
+  last_sent: '2024-12-06T18:15:01+00:00'
+tags: []
+sends:
+- id: 66ac6fda-262d-4aaf-847f-5b37cf25e01b
+  channel: email
+  name: Variant 1
+  subject: 'FINAL WEEKEND: 50% Off Room Designs'
+  preheader: Use code BF24 before it’s too late.
+  html_file: html/p_2024_12_06_d_hav_pc_dps_sale_extension_reminder_email.html
+  screenshot: screenshots/p_2024_12_06_d_hav_pc_dps_sale_extension_reminder_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673509bf620b8d0073f4ed70/original.gif?1731529151
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6735098ede61a400649c1a7a/original.gif?1731529102
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6735099dde61a400649c1a8c/original.gif?1731529117
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673509a6d3e8b400655f49b1/original.gif?1731529126
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673509afef3c98006525b98a/original.gif?1731529135
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/675222171c9d0f006636593e/original.png?1733435926
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6749eaccf6c54f006474d38d/original.png?1732897484
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6749eb2b3aae0b006302a7e5/original.png?1732897578
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6749eaf23aae0b006302a7af/original.png?1732897522
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6749eae1c94beb0064089fec/original.png?1732897505
+- id: 0d4e897d-5dbd-4e45-b3e4-2acacf0763da
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 166897
+  total_delivered: 164610
+  total_opens: 77189
+  total_clicks: 575
+  open_rate: 0.4625
+  click_rate: 0.0034
+  total_bounces: 6
+  total_unsubscribes: 513
+  ga4:
+    sessions: 341
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.501349'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.438436'
+schedule_type: time_based

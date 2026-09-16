@@ -1,0 +1,51 @@
+id: 0f06f046-5735-4adb-a696-77bf6fd75fe6
+name: 2025_04_19_HAV_CONV_The_#1_Interior_Design_Trend_of_2025
+brand: HAV
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 0f06f046-5735-4adb-a696-77bf6fd75fe6
+dates:
+  send_date: '2025-04-19'
+  inferred_send_type: local_time
+  first_sent: '2025-04-18T18:21:16+00:00'
+  last_sent: '2025-04-19T17:15:28+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: c83b9b3b-cbc3-48c8-846e-bfa30be5404e
+  channel: email
+  name: Variant 1
+  subject: 'This is the #1 design trend of 2025 '
+  preheader: And it's NOT boring
+  html_file: html/2025_04_19_hav_conv_the_1_interior_design_trend_of_2025.html
+  screenshot: screenshots/2025_04_19_hav_conv_the_1_interior_design_trend_of_2025.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6802895f125b0c007162214b/original.gif?1744996703
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6802894331bc2c0063e243e2/original.png?1744996675
+- id: 8482c5f9-e386-40b2-bc5d-ff0e1a423d87
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 39384
+  total_delivered: 39260
+  total_opens: 22255
+  total_clicks: 473
+  open_rate: 0.5651
+  click_rate: 0.012
+  total_bounces: 1
+  total_unsubscribes: 27
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.063277'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.628015'
+schedule_type: time_based

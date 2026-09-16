@@ -1,0 +1,35 @@
+id: df0e6928-7a83-48ac-b119-b9f2c65776dd
+name: P_EM_2025_08_26_ID_PT_PM_Labor_Day_Reminder_Swatchees
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: df0e6928-7a83-48ac-b119-b9f2c65776dd
+dates:
+  send_date: '2025-08-26'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-26T22:59:40+00:00'
+  last_sent: '2025-08-26T23:03:42+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: cf8874e6-9262-4fe5-804e-ae43502c6a9a
+  channel: email
+  name: Variant 1
+  subject: 'RE: your swatches + Labor Day deals'
+- id: b94c6c47-ef38-4a7c-b4e7-bed81b349937
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 20359
+  total_delivered: 20170
+  total_opens: 10089
+  total_clicks: 293
+  open_rate: 0.4956
+  click_rate: 0.0144
+  total_revenue: 241214.0
+  total_bounces: 1
+  total_unsubscribes: 76
+_filename: p_em_2025_08_26_id_pt_pm_labor_day_reminder_swatchees.yaml
+schedule_type: time_based

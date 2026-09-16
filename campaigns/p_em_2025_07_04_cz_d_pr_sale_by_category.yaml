@@ -1,0 +1,65 @@
+id: fb88f2e1-ee6b-4150-97b6-68f29272d1fe
+name: P_EM_2025_07_04_CZ_D_PR_Sale_By_Category
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: fb88f2e1-ee6b-4150-97b6-68f29272d1fe
+dates:
+  send_date: '2025-07-04'
+  inferred_send_type: local_time
+  first_sent: '2025-07-03T21:49:02+00:00'
+  last_sent: '2025-07-04T17:02:01+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale_feat
+sends:
+- id: 5172a52d-eb37-434d-a16b-0f6a8369e583
+  channel: email
+  name: Variant 1
+  subject: Crafted. Coveted. On Sale.
+  preheader: The Fourth of July Event won’t be here for long.
+  html_file: html/p_em_2025_07_04_cz_d_pr_sale_by_category.html
+  screenshot: screenshots/p_em_2025_07_04_cz_d_pr_sale_by_category.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6865a4940d5eed0064f7fbf9/original.gif?1751491732
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6865a4d96b46340065aeb791/original.png?1751491801
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6865a5076b46340065aeb86e/original.png?1751491847
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6865a56418411b0067796d8f/original.png?1751491939
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6865a4eff0b7e10066b1eab0/original.png?1751491823
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6865a5140d5eed0064f7fe45/original.png?1751491859
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6865a5240d5eed0064f7fe69/original.png?1751491876
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6865a4fa6b46340065aeb855/original.png?1751491833
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6865a56b55ec3f0065f19f7f/original.png?1751491946
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6865a58b6b46340075ae97ac/original.png?1751491978
+- id: 5cb47842-7fd9-4889-ba04-2bbd4b5350cc
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 101905
+  total_delivered: 101155
+  total_opens: 52050
+  total_clicks: 686
+  open_rate: 0.5108
+  click_rate: 0.0067
+  total_revenue: 114618.24
+  total_bounces: 242
+  total_unsubscribes: 103
+  ga4:
+    sessions: 763
+    purchases: 15
+    revenue: 9353.91
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.835151'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:35.344782'
+schedule_type: time_based

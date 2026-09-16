@@ -1,0 +1,31 @@
+id: 860c0b4a-4a4a-402f-8472-6f233c85987e
+name: TRG_EM_2024_07_CZ_D_Welcome_Baskets_T2
+brand: CZ
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: c7ee8f4e-f9f7-4e59-87e1-ac78e49ddc23
+canvas_name: Welcome Flow - August 2024
+flow_type: welcome_series
+sequence_position: 9
+subject: 'Our secret bestseller: baskets'
+preheader: Style your home with form and function.
+sends:
+- id: 860c0b4a-4a4a-402f-8472-6f233c85987e
+  channel: email
+  name: TRG_EM_2024_07_CZ_D_Welcome_Baskets_T2
+  subject: 'Our secret bestseller: baskets'
+  preheader: Style your home with form and function.
+  html_file: html/canvas-welcome-flow-august-2024-t9-860c0b4a.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-24T19:00:00Z'
+  last_sent: '2026-08-17T13:00:00Z'
+performance_summary:
+  total_sends: 21
+  total_delivered: 21
+  total_opens: 17
+  total_clicks: 2
+  open_rate: 0.8095
+  click_rate: 0.0952

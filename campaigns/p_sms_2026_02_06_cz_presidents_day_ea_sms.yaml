@@ -1,0 +1,29 @@
+id: 5fb19a16-9338-4d01-a449-e558674635ee
+name: P_SMS_2026_02_06_CZ_Presidents_Day_EA_SMS
+brand: CZ
+channel: sms
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 5fb19a16-9338-4d01-a449-e558674635ee
+dates:
+  send_date: '2026-02-06'
+  inferred_send_type: local_time
+  first_sent: '2026-02-06T01:08:19+00:00'
+  last_sent: '2026-02-07T01:02:02+00:00'
+tags: []
+sends:
+- id: 9292fc29-ced5-4e9d-96ce-cc39583658b3
+  channel: sms
+  name: Variant 1
+- id: b367f9ed-76e6-4420-be10-16a9ac993677
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 19252
+  total_delivered: 17893
+  total_opens: 0
+  total_clicks: 199
+  open_rate: 0.0
+  click_rate: 0.0103
+schedule_type: time_based

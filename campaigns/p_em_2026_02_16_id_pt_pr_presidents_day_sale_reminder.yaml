@@ -1,0 +1,36 @@
+id: c809dea3-34e9-4618-8565-363f14993f99
+name: P_EM_2026_02_16_ID_PT_PR_Presidents_Day_Sale_Reminder
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: c809dea3-34e9-4618-8565-363f14993f99
+dates:
+  send_date: '2026-02-16'
+  inferred_send_type: scheduled
+  first_sent: '2026-02-16T23:01:53+00:00'
+  last_sent: '2026-02-16T23:11:10+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: f0b0322a-99e3-4b51-8863-df1cc4dea01b
+  channel: email
+  name: Variant 1
+  subject: Final Days to Shop Our Best Presidents Day Offer
+  preheader: Up to 35% Off Ends Tomorrow
+- id: 2314de44-a719-46b0-b262-4910ed220e0a
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 127563
+  total_delivered: 127434
+  total_opens: 54634
+  total_clicks: 479
+  open_rate: 0.4283
+  click_rate: 0.0038
+  total_revenue: 761839.74
+  total_bounces: 2
+  total_unsubscribes: 225
+_filename: p_em_2026_02_16_id_pt_pr_presidents_day_sale_reminder.yaml
+schedule_type: time_based

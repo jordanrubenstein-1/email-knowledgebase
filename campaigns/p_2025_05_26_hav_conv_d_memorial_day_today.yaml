@@ -1,0 +1,34 @@
+id: 2effd3ee-0232-4ed1-a7da-904aee52ec23
+name: P_2025_05_26_HAV_Conv_D_Memorial_Day_Today
+brand: HAV
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 2effd3ee-0232-4ed1-a7da-904aee52ec23
+dates:
+  send_date: '2025-05-26'
+  first_sent: '2025-05-25T18:21:27+00:00'
+  last_sent: '2025-05-26T17:15:23+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 85b6686b-f81d-4a08-98a9-f43a07907ead
+  channel: email
+  name: Variant 1
+  subject: OUR BEST MEMORIAL DAY SAVINGS EVER
+  preheader: You won’t want to miss this.
+- id: e21b4849-b5a5-4cfe-835e-13a2f3e28823
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 40040
+  total_delivered: 39948
+  total_opens: 21693
+  total_clicks: 167
+  open_rate: 0.5418
+  click_rate: 0.0042
+  total_unsubscribes: 46
+schedule_type: time_based
+_filename: p_2025_05_26_hav_conv_d_memorial_day_today.yaml

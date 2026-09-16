@@ -1,0 +1,24 @@
+id: 292de341-7c2f-41d0-9053-cdd342648566
+name: P_EM_2025_12_26_TRADE_ALL_D_PR_EOY_Sale_Reminder
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 292de341-7c2f-41d0-9053-cdd342648566
+dates:
+  send_date: '2025-12-26'
+  last_sent: '2025-12-26'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: b8ccde9f-9d78-4a31-b48d-50f3759e678c
+  channel: email
+  name: Variant 1
+  subject: This One’s For Trade
+  preheader: 'For a limited time: up to 30% off our family of brands.'
+- id: 8f3a6547-48b2-49dd-8492-140595bac5ff
+  channel: email
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based

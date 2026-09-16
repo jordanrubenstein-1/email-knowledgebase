@@ -1,0 +1,34 @@
+id: 772cecd3-dac9-4e61-9f0c-4cfbde812c27
+name: P_EM_2025_11_25_HAV_CONV_BFCM_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: black_friday
+braze_id: 772cecd3-dac9-4e61-9f0c-4cfbde812c27
+dates:
+  send_date: '2025-11-25'
+  first_sent: '2025-11-24T19:24:00+00:00'
+  last_sent: '2025-11-25T19:15:54+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 23514f2f-debb-4180-978d-8e0ddf665298
+  channel: email
+  name: Variant 1
+  subject: 'Don’t Miss Out! '
+  preheader: Buy more and save up to 15%
+- id: 754ad5e7-c671-4242-8af9-9d685bc2fc4d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 43522
+  total_delivered: 43509
+  total_opens: 22291
+  total_clicks: 85
+  open_rate: 0.5122
+  click_rate: 0.002
+  total_unsubscribes: 64
+schedule_type: time_based
+_filename: p_em_2025_11_25_hav_conv_bfcm_reminder.yaml

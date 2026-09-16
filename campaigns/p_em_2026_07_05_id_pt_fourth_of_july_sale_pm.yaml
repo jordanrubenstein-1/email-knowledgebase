@@ -1,0 +1,33 @@
+id: 838fc239-c784-44ad-b813-2a58420b106e
+name: P_EM_2026_07_05_ID_PT_Fourth_Of_July_Sale_PM
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 838fc239-c784-44ad-b813-2a58420b106e
+dates:
+  send_date: '2026-07-05'
+  last_sent: '2026-07-05'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: cfe8df59-d854-4d98-9ba9-d33646cd04f0
+  channel: email
+  name: Variant 1
+  subject: '3 days left: up to 35% off sitewide'
+- id: 666146cf-4e14-49fa-b314-b9eaea771a05
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 234024
+  total_delivered: 232947
+  total_opens: 95953
+  total_clicks: 690
+  open_rate: 0.41
+  click_rate: 0.0029
+  total_revenue: 911653.78
+  total_bounces: 7
+  total_unsubscribes: 272
+schedule_type: time_based
+_filename: p_em_2026_07_05_id_pt_fourth_of_july_sale_pm.yaml

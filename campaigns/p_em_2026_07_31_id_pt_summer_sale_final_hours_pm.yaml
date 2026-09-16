@@ -1,0 +1,33 @@
+id: 81d8d6f4-ecb9-4887-8054-76b630dd45c6
+name: P_EM_2026_07_31_ID_PT_Summer_Sale_Final_Hours_PM
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: summer
+braze_id: 81d8d6f4-ecb9-4887-8054-76b630dd45c6
+dates:
+  send_date: '2026-07-31'
+  last_sent: '2026-07-31'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 320e0f7d-190d-4e54-af53-e6f9df3ae034
+  channel: email
+  name: Variant 1
+  subject: 'Final hours: 25% off sitewide ends tonight'
+- id: 596c70bf-8b3d-415d-bca3-dce8e87324b1
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 127279
+  total_delivered: 127107
+  total_opens: 48993
+  total_clicks: 421
+  open_rate: 0.3849
+  click_rate: 0.0033
+  total_revenue: 203082.7
+  total_bounces: 5
+  total_unsubscribes: 140
+schedule_type: time_based
+_filename: p_em_2026_07_31_id_pt_summer_sale_final_hours_pm.yaml

@@ -1,0 +1,34 @@
+id: acd00408-9660-4ab6-8a15-1eb104b8b314
+name: OT_EM_2025_06_BW_H_Order_Confirmation_T1_V1
+brand: BUR
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 73ed0f8f-58d4-4d27-a52a-1812082b44ed
+canvas_name: Order Confirmation
+flow_type: post_purchase
+sequence_position: 1
+subject: ⚡ Order confirmation from Burrow
+preheader: Your receipt, delivery details, and more.
+sends:
+- id: acd00408-9660-4ab6-8a15-1eb104b8b314
+  channel: email
+  name: OT_EM_2025_06_BW_H_Order_Confirmation_T1_V1
+  subject: ⚡ Order confirmation from Burrow
+  preheader: Your receipt, delivery details, and more.
+  html_file: html/canvas-order-confirmation-t1-acd00408.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-06-12T15:00:00Z'
+  last_sent: '2025-10-31T01:00:00Z'
+performance_summary:
+  total_sends: 14883
+  total_delivered: 14845
+  total_opens: 20047
+  total_clicks: 11541
+  open_rate: 1.347
+  click_rate: 0.7754
+  total_unsubscribes: 14
+  total_bounces: 35
+  total_revenue: 1130413.17

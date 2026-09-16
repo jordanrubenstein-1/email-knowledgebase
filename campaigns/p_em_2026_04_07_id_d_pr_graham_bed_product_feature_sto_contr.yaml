@@ -1,0 +1,35 @@
+id: 01adc6aa-e547-4d2e-83e1-efab935a173f
+name: P_EM_2026_04_07_ID_D_PR_Graham_Bed_Product_Feature_STO_Control
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 01adc6aa-e547-4d2e-83e1-efab935a173f
+dates:
+  send_date: '2026-04-07'
+  inferred_send_type: local_time
+  first_sent: '2026-04-06T18:06:50+00:00'
+  last_sent: '2026-04-07T17:03:48+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 87cf2062-264a-412d-b06d-d4df3a74a2f2
+  channel: email
+  name: Variant 1
+  subject: 'Inside: A bed worth staying in'
+  preheader: The Graham Bed pairs hidden storage with custom detailing.
+- id: d80fb17f-27ce-46cb-955f-8c00f77442e5
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 65350
+  total_delivered: 65247
+  total_opens: 24805
+  total_clicks: 252
+  open_rate: 0.3796
+  click_rate: 0.0039
+  total_revenue: 90367.89
+  total_unsubscribes: 101
+_filename: p_em_2026_04_07_id_d_pr_graham_bed_product_feature_sto_contr.yaml
+schedule_type: time_based

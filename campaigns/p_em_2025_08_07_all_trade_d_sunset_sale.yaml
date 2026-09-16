@@ -1,0 +1,63 @@
+id: 0de2761b-bc62-4fb6-ba37-6b6265bc9f5e
+name: P_EM_2025_08_07_ALL_TRADE_D_Sunset_Sale
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 0de2761b-bc62-4fb6-ba37-6b6265bc9f5e
+dates:
+  send_date: '2025-08-07'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-07T04:54:25+00:00'
+  last_sent: '2025-08-07T19:00:15+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 92e13d72-d157-417a-9e9b-fae16f3d17e5
+  channel: email
+  name: Variant 1
+  subject: The Sunset Sale Starts Now
+  preheader: Claim Trade-exclusive savings on our family of brands.
+- id: d0b7d9cc-931a-409f-a8eb-09f86b80fbfb
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 19822
+  total_delivered: 19251
+  total_opens: 9993
+  total_clicks: 161
+  open_rate: 0.5041
+  click_rate: 0.0081
+  total_revenue: 126103.0
+  total_bounces: 6
+  total_unsubscribes: 45
+  ga4:
+    sessions: 156
+    purchases: 1
+    revenue: 3725.44
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.290083'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off sitewide
+    type: null
+  primary_sale:
+    id: id-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off sitewide
+    type: null
+  sale_name: The Sunset Sale
+  sale_discount: 20% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:44.660590'
+schedule_type: time_based

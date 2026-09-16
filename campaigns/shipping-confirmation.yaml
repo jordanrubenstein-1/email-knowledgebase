@@ -1,0 +1,141 @@
+id: 0383fe4f-c61f-4f02-b573-8506f2167063
+name: Shipping Confirmation
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 0383fe4f-c61f-4f02-b573-8506f2167063
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-06-21T03:00:00+00:00'
+  last_sent: '2025-11-04T13:00:00+00:00'
+tags: []
+sends:
+- id: e2316e3f-2818-4ddb-8956-3d33c1aa1611
+  channel: email
+  name: OT_EM_2025_06_BW_H_Shipping_Confirmation_T1_V1
+  subject: 🚚 Shipping confirmation from Burrow
+  preheader: Your order is on the way.
+  step_id: 36b1df62-734c-40bf-a703-b219d80640cd
+performance_summary:
+  ga4:
+    sessions: 33
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.670691'
+    source: snowflake
+    channel: email
+canvas_steps:
+- id: 36b1df62-734c-40bf-a703-b219d80640cd
+  name: OT_EM_2025_06_BW_H_Shipping_Confirmation_T1_V1
+  type: message
+  channel: email
+  subject: 🚚 Shipping confirmation from Burrow
+  preheader: Your order is on the way.
+- id: 8d8edfd6-2e12-4238-b4a5-7e3d204db9a4
+  name: Step
+  type: delay
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-burrow-2025-07-08
+    name: Burrow
+    start_date: '2025-07-08'
+    end_date: '2025-07-08'
+    discount: 'July 4th Sale -- SITEWIDE, NO CODE NEEDED
+
+      25% off sitewide, plus FREE GROUND SHIPPING on orders >$2k'
+    type: null
+  - id: bur-fourth-of-july-surprise-extension-2025-07-09
+    name: Fourth of July Surprise Extension
+    start_date: '2025-07-09'
+    end_date: '2025-07-14'
+    discount: '30% off Field in Fog, Carbon & Ivory
+
+      25% off sitewide
+
+      Free ground shipping on orders >$2k (no free shipping on Pro)'
+    type: null
+  - id: bur-seating-flash-sale-2025-07-18
+    name: Seating Flash Sale
+    start_date: '2025-07-18'
+    end_date: '2025-07-21'
+    discount: Up to 30% off all Seating Collections
+    type: null
+  - id: bur-the-summer-sale-2025-07-24
+    name: The Summer Sale
+    start_date: '2025-07-24'
+    end_date: '2025-07-31'
+    discount: '25% off sitewide
+
+      Free ground shipping on orders >$2k (excl. Pro)'
+    type: null
+  - id: bur-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off sitewide
+    type: null
+  - id: bur-the-labor-day-event-2025-09-03
+    name: The Labor Day Event
+    start_date: '2025-09-03'
+    end_date: '2025-09-09'
+    discount: '20% off sitewide
+
+      Up to 70% off Clearance
+
+      Free shipping >$2k'
+    type: null
+  - id: bur-subscriber-flash-sale-lifecycle-retail-only-2025-09-11
+    name: Subscriber Flash Sale - Lifecycle/Retail Only
+    start_date: '2025-09-11'
+    end_date: '2025-09-16'
+    discount: 20% off sitewide with code SEPTVIP
+    type: null
+  - id: bur-holiday-ready-sale-2025-09-17
+    name: Holiday-Ready Sale
+    start_date: '2025-09-17'
+    end_date: '2025-09-30'
+    discount: "20% off orders < $2k / 25% off orders > $2k\n + up to 50% off clearance"
+    type: null
+  - id: bur-the-fall-sale-2025-10-02
+    name: The Fall Sale
+    start_date: '2025-10-02'
+    end_date: '2025-10-27'
+    discount: Up to 35% Off Sitewide
+    type: null
+  - id: bur-black-friday-now-2025-10-30
+    name: Black Friday Now
+    start_date: '2025-10-30'
+    end_date: '2025-11-03'
+    discount: 30% off sitewide + free shipping on orders >$2k
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-burrow-2025-07-08
+    name: Burrow
+    start_date: '2025-07-08'
+    end_date: '2025-07-08'
+    discount: 'July 4th Sale -- SITEWIDE, NO CODE NEEDED
+
+      25% off sitewide, plus FREE GROUND SHIPPING on orders >$2k'
+    type: null
+  sale_name: Burrow
+  sale_discount: 'July 4th Sale -- SITEWIDE, NO CODE NEEDED
+
+    25% off sitewide, plus FREE GROUND SHIPPING on orders >$2k'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:32.791262'

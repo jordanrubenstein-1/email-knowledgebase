@@ -1,0 +1,39 @@
+id: 583d2fc3-3be9-435e-8615-34da26a80b39
+name: P_2025_2_20_HAV_PC_PDW_Sale_Ext_Last_Chance_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 583d2fc3-3be9-435e-8615-34da26a80b39
+dates:
+  send_date: '2025-02-20'
+  first_sent: '2025-02-20T06:35:17+00:00'
+  last_sent: '2025-02-20T18:15:03+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 28ff15c3-985f-4b9e-a703-e573fe3823ed
+  channel: email
+  name: Variant 1
+  subject: 'THIS IS IT: Last chance to save!'
+  preheader: Only hours left for 50% off your next room design
+- id: 349d4bb1-38be-4b0f-9dfb-6b0025df41b5
+  channel: other
+  name: Control Group
+- id: c90628c9-52d6-43b1-a46d-7fda2bbed33e
+  channel: email
+  name: Variant 2
+  subject: 'THIS IS IT: Last chance to save!'
+  preheader: Only hours left for 50% off your next room design
+performance_summary:
+  total_sends: 183689
+  total_delivered: 180322
+  total_opens: 84130
+  total_clicks: 426
+  open_rate: 0.458
+  click_rate: 0.0023
+  total_bounces: 5
+  total_unsubscribes: 340
+schedule_type: time_based
+_filename: p_2025_2_20_hav_pc_pdw_sale_ext_last_chance_email.yaml

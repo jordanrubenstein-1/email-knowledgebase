@@ -1,0 +1,30 @@
+id: 1a882739-41ef-63c2-0173-96b4a6e889cc
+name: Rooms Due for Publish System Email (Designers)
+brand: HAV
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 1a882739-41ef-63c2-0173-96b4a6e889cc
+dates:
+  first_sent: '2024-09-23T22:00:00+00:00'
+  last_sent: '2026-06-08T23:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: a327585d-5bc8-48eb-8d3f-993c9d3e08fa
+  channel: email
+  name: Variant 1
+  subject: Deliverables Due for Publishing
+- id: 3f250386-b36b-4fa1-aa62-a46704294e69
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 182
+  total_delivered: 182
+  total_opens: 103
+  total_clicks: 0
+  open_rate: 0.5659
+  click_rate: 0.0
+schedule_type: api_triggered
+_filename: rooms-due-for-publish-system-email-designers.yaml

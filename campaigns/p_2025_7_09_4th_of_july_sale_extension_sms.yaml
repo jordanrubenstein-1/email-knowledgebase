@@ -1,0 +1,30 @@
+id: 7121c8be-5943-44ab-8ce0-327a602523cb
+name: P_2025_7_09_4th_Of_July_Sale_Extension_SMS
+brand: ID
+channel: sms
+category: sale_promo
+type: sale
+theme: null
+braze_id: 7121c8be-5943-44ab-8ce0-327a602523cb
+dates:
+  send_date: '2025-07-09'
+  inferred_send_type: scheduled
+  first_sent: '2025-07-09T21:39:06+00:00'
+  last_sent: '2025-07-09T23:36:40+00:00'
+tags: []
+sends:
+- id: 0dfe94e2-024d-459a-b92a-860497be7b58
+  channel: other
+  name: Variant 1
+- id: cb07ca8e-8672-49bc-9f56-05c85e4e33af
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 56999
+  total_delivered: 53494
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 19472.0
+schedule_type: time_based

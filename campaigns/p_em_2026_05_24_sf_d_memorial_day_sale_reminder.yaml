@@ -1,0 +1,33 @@
+id: 445092b1-0e1c-47ec-a77e-dd66c137ce1e
+name: P_EM_2026_05_24_SF_D_Memorial_Day_Sale_Reminder
+brand: STF
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 445092b1-0e1c-47ec-a77e-dd66c137ce1e
+dates:
+  send_date: '2026-05-24'
+  last_sent: '2026-05-24'
+tags:
+- Batch and Blast
+sends:
+- id: defac2fd-2897-4bae-a15c-7b0791c02639
+  channel: email
+  name: Variant 1
+  subject: 'DON’T MISS OUT: 20% off sitewide'
+  preheader: The Memorial Day Sale ends soon.
+- id: f3c0a55c-dacc-44c6-878c-67c46983ab5c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 36466
+  total_delivered: 36353
+  total_opens: 11627
+  total_clicks: 111
+  open_rate: 0.3188
+  click_rate: 0.003
+  total_revenue: 13676.0
+  total_unsubscribes: 18
+schedule_type: time_based
+_filename: p_em_2026_05_24_sf_d_memorial_day_sale_reminder.yaml

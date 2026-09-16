@@ -1,0 +1,54 @@
+id: fc43c2ce-6ee2-444f-85f8-d6f8f43c3adc
+name: P_2024_10_25_D_CZ_PR_TRADE_CZ_Back_in_Stock_Rugs_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: fc43c2ce-6ee2-444f-85f8-d6f8f43c3adc
+dates:
+  send_date: '2024-10-25'
+  inferred_send_type: local_time
+  first_sent: '2024-10-24T21:25:05+00:00'
+  last_sent: '2024-10-25T18:30:04+00:00'
+tags: []
+sends:
+- id: a24700c8-e3fa-4c83-9033-94a2ee0dad9b
+  channel: email
+  name: Variant 1
+  subject: 'Trade Exclusive: 20% Off Restocked Rugs'
+  preheader: Get first dibs on our best-selling rugs, now back in stock.
+  html_file: html/p_2024_10_25_d_cz_pr_trade_cz_back_in_stock_rugs_email.html
+  screenshot: screenshots/p_2024_10_25_d_cz_pr_trade_cz_back_in_stock_rugs_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671a71083a5dce0064bbc2b0/original.jpg?1729786119
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671a70d39828c90065bfd0c2/original.jpg?1729786067
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671a70b19c3cc200654f7017/original.gif?1729786033
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671a71260e54f40065038659/original.png?1729786149
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671a70e7ad35070083097ac4/original.jpg?1729786087
+- id: 5f9d9621-50af-44fe-8d45-124541d3bcc2
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 14285
+  total_delivered: 14061
+  total_opens: 7323
+  total_clicks: 164
+  open_rate: 0.5126
+  click_rate: 0.0115
+  total_revenue: 12704.0
+  total_bounces: 4
+  total_unsubscribes: 68
+  ga4:
+    sessions: 188
+    purchases: 4
+    revenue: 329.21
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.689506'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:45.586460'
+schedule_type: time_based

@@ -1,0 +1,75 @@
+id: 2b6acd20-cef6-4094-92f7-6bc34831da4a
+name: P_2025_05_31_BW_Quick_Ship
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 2b6acd20-cef6-4094-92f7-6bc34831da4a
+dates:
+  send_date: '2025-05-31'
+  inferred_send_type: local_time
+  first_sent: '2025-05-30T19:18:33+00:00'
+  last_sent: '2025-05-31T17:15:50+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: f72aa8d1-92d4-4776-9eb8-8c6c357e949f
+  channel: email
+  name: Variant 1
+  subject: Sick of long wait times?
+  preheader: Save 25% on get items shipped fast and free.
+- id: 5f7ac18c-fed6-461e-9a7b-e62fa97f1080
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 259287
+  total_delivered: 257532
+  total_opens: 87733
+  total_clicks: 598
+  open_rate: 0.3384
+  click_rate: 0.0023
+  total_revenue: 50109.0
+  total_bounces: 1
+  total_unsubscribes: 85
+  ga4:
+    sessions: 270
+    purchases: 1
+    revenue: 303.21
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.509788'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:30.807114'
+schedule_type: time_based

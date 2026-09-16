@@ -1,0 +1,56 @@
+id: c5adf00b-a81f-4dac-b3f8-1f41cdd0de1d
+name: P_2024_08_11_D_HAV_PC_PR_Sunset_Sale_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: c5adf00b-a81f-4dac-b3f8-1f41cdd0de1d
+dates:
+  send_date: '2024-08-11'
+  inferred_send_type: local_time
+  first_sent: '2024-08-10T18:54:48+00:00'
+  last_sent: '2024-08-11T13:15:02+00:00'
+tags: []
+sends:
+- id: af47b660-4490-4a9e-953e-95bb6503a6b6
+  channel: email
+  name: Variant 1
+  subject: Catch the last rays of savings
+  preheader: 50% interior design 😎
+  html_file: html/p_2024_08_11_d_hav_pc_pr_sunset_sale_reminder_email.html
+  screenshot: screenshots/p_2024_08_11_d_hav_pc_pr_sunset_sale_reminder_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b7b3e4d58c2400660084df/original.jpg?1723315172
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b7b423bef4d900648777b7/original.jpg?1723315235
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b7b3aebef4d9006487779c/original.gif?1723315117
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b7b3e4bef4d9006487779d/original.jpg?1723315172
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b7b3e4d58c24009300678d/original.jpg?1723315172
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b7b3aed58c2400660084de/original.jpg?1723315118
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b7b3e4d58c24008400687d/original.jpg?1723315172
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b7b3ae643ec20065552000/original.gif?1723315118
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b7b3e452dbb800632d2f40/original.jpg?1723315172
+- id: 3b554b80-f0fe-41e2-84b9-5cbc28634b7f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 49
+  total_delivered: 49
+  total_opens: 35
+  total_clicks: 7
+  open_rate: 0.7143
+  click_rate: 0.1429
+  total_unsubscribes: 1
+  ga4:
+    sessions: 6
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.501984'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.469217'
+schedule_type: time_based

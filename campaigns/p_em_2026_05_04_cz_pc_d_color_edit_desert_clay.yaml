@@ -1,0 +1,44 @@
+id: 48f90a42-1b29-4ace-bbe9-d00047e4c524
+name: P_EM_2026_05_04_CZ_PC_D_Color_Edit_Desert_Clay
+brand: CZ
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 48f90a42-1b29-4ace-bbe9-d00047e4c524
+dates:
+  send_date: '2026-05-04'
+  inferred_send_type: local_time
+  first_sent: '2026-05-04T03:08:39+00:00'
+  last_sent: '2026-05-05T02:04:03+00:00'
+tags:
+- am
+- batch and blast
+- color
+- d2c
+- designed
+sends:
+- id: ea09c963-7592-41d2-b5fb-bde3ffedbd73
+  channel: email
+  name: Variant 1
+  subject: Desert clay has our attention
+  preheader: A palette of sunbaked hues, warm and softly glowing.
+  html_file: html/p_em_2026_05_04_cz_pc_d_color_edit_desert_clay.html
+  screenshot: screenshots/p_em_2026_05_04_cz_pc_d_color_edit_desert_clay.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f0eed2c857e9008115610b/original.png?1777397457
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f12e0b01c2f70081f93ec4/original.png?1777413641
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f0eef932c7da007f1a728f/original.png?1777397497
+- id: 5ee0b14c-3ff5-4b91-8829-d2c82c89cebf
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 43131
+  total_delivered: 43051
+  total_opens: 23184
+  total_clicks: 831
+  open_rate: 0.5375
+  click_rate: 0.0193
+  total_unsubscribes: 72
+_filename: p_em_2026_05_04_cz_pc_d_color_edit_desert_clay.yaml
+schedule_type: time_based

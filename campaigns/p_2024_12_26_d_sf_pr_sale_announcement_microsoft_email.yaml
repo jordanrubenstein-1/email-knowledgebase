@@ -1,0 +1,45 @@
+id: 762d8b46-8192-4f6b-beff-b0f8ab28509c
+name: P_2024_12_26_D_SF_PR_Sale_Announcement_Microsoft_Email
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 762d8b46-8192-4f6b-beff-b0f8ab28509c
+dates:
+  send_date: '2024-12-26'
+  inferred_send_type: local_time
+  first_sent: '2024-12-25T17:38:18+00:00'
+  last_sent: '2024-12-26T15:30:08+00:00'
+tags: []
+sends:
+- id: 2e44c463-be5b-43ba-b3e7-337aaebcad36
+  channel: email
+  name: Variant 1
+  subject: It’s Here! 20% Off Sitewide 🤍
+  preheader: plus save up to 80% off archive styles
+  html_file: html/p_2024_12_26_d_sf_pr_sale_announcement_microsoft_email.html
+  screenshot: screenshots/p_2024_12_26_d_sf_pr_sale_announcement_microsoft_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676997e0cb3ce1006462b47f/original.jpg?1734973407
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6769989e90e9aa0065520285/original.gif?1734973598
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6769985690e9aa00655201f6/original.gif?1734973526
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67699965fb08fe00638da717/original.jpg?1734973797
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6769982890e9aa0065520196/original.jpg?1734973480
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676998c090e9aa006552029d/original.gif?1734973632
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6769986b81bd5e006426091b/original.gif?1734973547
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67699842cb3ce1006462b4f4/original.jpg?1734973506
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6769987f56cc9b006615cf2c/original.gif?1734973567
+- id: 8ac78bb8-2fb5-4e82-9a80-06132701456e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 123
+  total_delivered: 123
+  total_opens: 55
+  total_clicks: 4
+  open_rate: 0.4472
+  click_rate: 0.0325
+_filename: p_2024_12_26_d_sf_pr_sale_announcement_microsoft_email.yaml
+schedule_type: time_based

@@ -1,0 +1,35 @@
+id: e4cba688-a88a-4289-a589-b72d1f28c15a
+name: P_EM_2026_02_17_ID_D_PR_Presidents_Day_Sale_Last_Chance
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: e4cba688-a88a-4289-a589-b72d1f28c15a
+dates:
+  send_date: '2026-02-17'
+  inferred_send_type: local_time
+  first_sent: '2026-02-16T18:09:04+00:00'
+  last_sent: '2026-02-17T18:05:34+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 1117b850-5cdc-4e60-a29d-c42b66da2648
+  channel: email
+  name: Variant 1
+  subject: Presidents Day Sale Ends Tonight
+  preheader: Enjoy up to 35% off sitewide on made-to-order designs.
+- id: 6ac8db16-b9be-48a1-8488-8e3be0adda38
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 215710
+  total_delivered: 215158
+  total_opens: 93040
+  total_clicks: 557
+  open_rate: 0.4313
+  click_rate: 0.0026
+  total_revenue: 497804.91
+  total_bounces: 4
+  total_unsubscribes: 263
+schedule_type: time_based

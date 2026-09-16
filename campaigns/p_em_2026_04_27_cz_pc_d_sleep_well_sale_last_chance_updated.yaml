@@ -1,0 +1,52 @@
+id: 9a66969f-51a1-42c2-8397-e5d567d83b00
+name: P_EM_2026_04_27_CZ_PC_D_Sleep_Well_Sale_Last_Chance_Updated
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 9a66969f-51a1-42c2-8397-e5d567d83b00
+dates:
+  send_date: '2026-04-27'
+  inferred_send_type: local_time
+  first_sent: '2026-04-26T19:08:01+00:00'
+  last_sent: '2026-04-27T18:04:35+00:00'
+tags:
+- batch and blast
+- d2c
+- designed
+- sale
+- sale/sleepsale2026
+- sale_feat
+sends:
+- id: 0160b3e9-fe1e-40d1-9f03-676fc71667cc
+  channel: email
+  name: Variant 1
+  subject: 'LAST CHANCE: 20% off sitewide'
+  preheader: Spring Flash Sale ends at midnight.
+  html_file: html/p_em_2026_04_27_cz_pc_d_sleep_well_sale_last_chance_updated.html
+  screenshot: screenshots/p_em_2026_04_27_cz_pc_d_sleep_well_sale_last_chance_updated.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ebd7fa93feea007ff75799/original.png?1777063930
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ebd82987a5b30081d4c6f3/original.png?1777063976
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69e8d86a7e805100c0d1fc78/original.png?1776867433
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ebd83f955c0a0081eaa20f/original.png?1777063999
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ebfb2e90d551007d85db32/original.png?1777072941
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ebd815e1f423007fc65207/original.png?1777063957
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ebd8381403fe007f14810c/original.png?1777063991
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ebd89387a5b30081d4c882/original.png?1777064082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69ebd725cc6a7500819191ac/original.gif?1777063717
+- id: 6f6eef65-511f-442a-8099-e53c6c693b2d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 113455
+  total_delivered: 113219
+  total_opens: 57148
+  total_clicks: 619
+  open_rate: 0.5037
+  click_rate: 0.0055
+  total_bounces: 1
+  total_unsubscribes: 146
+_filename: p_em_2026_04_27_cz_pc_d_sleep_well_sale_last_chance_updated.yaml
+schedule_type: time_based

@@ -1,0 +1,42 @@
+id: f63a1ec3-0794-4c10-8e84-7d76c387cca7
+name: P_EM_2026_02_25_TRADE_SF_D_PR_Studio_By_StFrank
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: f63a1ec3-0794-4c10-8e84-7d76c387cca7
+dates:
+  send_date: '2026-02-25'
+  inferred_send_type: local_time
+  first_sent: '2026-02-24T22:08:00+00:00'
+  last_sent: '2026-02-25T19:01:05+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: e89c3b23-08b5-4322-92f5-377fd9f32844
+  channel: email
+  name: Variant 1
+  subject: 'Custom, considered: Studio by St. Frank'
+  preheader: crafted just for you in North Carolina.
+- id: 5fee0a01-7246-41c0-8108-405be6320d9d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 20333
+  total_delivered: 19660
+  total_opens: 9305
+  total_clicks: 73
+  open_rate: 0.4576
+  click_rate: 0.0036
+  total_revenue: 58135.99
+  total_bounces: 24
+  total_unsubscribes: 32
+  ga4:
+    sessions: 47
+    purchases: 2
+    revenue: 9.6
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.085139'
+    source: snowflake
+    channel: email

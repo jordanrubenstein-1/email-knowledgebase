@@ -1,0 +1,34 @@
+id: 74396036-d792-43d6-9fdb-733cae4d2e54
+name: P_EM_2026_05_21_HAV_CONV_D_Memorial_Day_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 74396036-d792-43d6-9fdb-733cae4d2e54
+dates:
+  send_date: '2026-05-21'
+  first_sent: '2026-05-21T06:07:23+00:00'
+  last_sent: '2026-05-22T05:02:44+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: c2851cc7-056f-4a0c-88ca-1a82ec7f0adc
+  channel: email
+  name: Variant 1
+  subject: Your cart deserves a comeback
+  preheader: Memorial Day deals end soon—shop before they’re gone.
+- id: 66c8cfbd-8550-40ae-95cb-4e631408d49f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 14382
+  total_delivered: 14368
+  total_opens: 7416
+  total_clicks: 92
+  open_rate: 0.5156
+  click_rate: 0.0064
+  total_unsubscribes: 11
+schedule_type: time_based
+_filename: p_em_2026_05_21_hav_conv_d_memorial_day_sale_reminder.yaml

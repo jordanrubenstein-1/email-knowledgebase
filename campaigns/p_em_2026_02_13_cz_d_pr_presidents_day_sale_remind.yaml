@@ -1,0 +1,53 @@
+id: 5a6f2bb6-bbcc-4d34-b17e-71ed9a2f3125
+name: P_EM_2026_02_13_CZ_D_PR_Presidents_Day_Sale_Reminder
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 5a6f2bb6-bbcc-4d34-b17e-71ed9a2f3125
+dates:
+  send_date: '2026-02-13'
+  inferred_send_type: local_time
+  first_sent: '2026-02-12T21:23:54+00:00'
+  last_sent: '2026-02-13T18:06:07+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale/presidentsday2026
+- sale_feat
+sends:
+- id: 396b0fc3-93c3-4edc-841e-c095331a2936
+  channel: email
+  name: Variant 1
+  subject: Up to 25% Off Timeless Craft
+  preheader: Bring home pieces made to live beautifully over time.
+  html_file: html/p_em_2026_02_13_cz_d_pr_presidents_day_sale_reminder.html
+  screenshot: screenshots/p_em_2026_02_13_cz_d_pr_presidents_day_sale_reminder.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698e0c17c84a5400632488db/original.png?1770916887
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698e0c20c4f1ac00645001b5/original.png?1770916896
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698e0c39909a0f0063533349/original.png?1770916921
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698e0c5bc5af2700635f8862/original.png?1770916955
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698e0bd43ee4360072dafc18/original.png?1770916819
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698e0c52b490d00065216fea/original.png?1770916945
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698e0c05f519de006556b3b7/original.png?1770916868
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698e0c42c84a540063248928/original.png?1770916929
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698e0c488f028800659f4320/original.png?1770916936
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698e0c2da4b37300737ad1d5/original.png?1770916909
+- id: f5083d01-578f-4375-8589-666e02dbe4e9
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 113433
+  total_delivered: 113277
+  total_opens: 56766
+  total_clicks: 579
+  open_rate: 0.5004
+  click_rate: 0.0051
+  total_bounces: 2
+  total_unsubscribes: 106
+schedule_type: time_based

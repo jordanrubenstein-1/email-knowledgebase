@@ -1,0 +1,34 @@
+id: 254798a0-36b8-4e05-950f-0ace04ca0ed7
+name: P_EM_2026_06_04_HAV_D_CONV_MP_This_Or_That_Summer_Styles
+brand: HAV
+channel: email
+category: other
+type: seasonal
+theme: summer
+braze_id: 254798a0-36b8-4e05-950f-0ace04ca0ed7
+dates:
+  send_date: '2026-06-04'
+  first_sent: '2026-06-03T22:27:14+00:00'
+  last_sent: '2026-06-04T17:15:37+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 4b11f390-1e22-4b5c-9d93-b1fab9cf874d
+  channel: email
+  name: Variant 1
+  subject: Pick your summer aesthetic
+  preheader: From coastal calm to cabin cozy, there’s no wrong answer.
+- id: 77361f3b-2568-48cf-8d4f-a3866a255d3a
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41846
+  total_delivered: 41767
+  total_opens: 20286
+  total_clicks: 106
+  open_rate: 0.4848
+  click_rate: 0.0025
+  total_unsubscribes: 47
+schedule_type: time_based
+_filename: p_em_2026_06_04_hav_d_conv_mp_this_or_that_summer_styles.yaml

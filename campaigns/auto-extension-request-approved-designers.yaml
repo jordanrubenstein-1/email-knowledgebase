@@ -1,0 +1,31 @@
+id: d1ea5b73-54e4-4bbe-ac55-7431267ac955
+name: Auto Extension Request Approved (Designers)
+brand: HAV
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: d1ea5b73-54e4-4bbe-ac55-7431267ac955
+dates:
+  first_sent: '2025-02-06T20:00:00+00:00'
+  last_sent: '2026-06-09T19:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: 2038559a-eb82-49b6-b649-2958f10e7e95
+  channel: email
+  name: Variant 1
+  subject: Your Extension Request for {{api_trigger_properties.${clientName}}}'s project
+    has been approved
+- id: 993782eb-beff-4528-ad1a-8e35bf599a93
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 47
+  total_delivered: 47
+  total_opens: 38
+  total_clicks: 0
+  open_rate: 0.8085
+  click_rate: 0.0
+schedule_type: api_triggered
+_filename: auto-extension-request-approved-designers.yaml

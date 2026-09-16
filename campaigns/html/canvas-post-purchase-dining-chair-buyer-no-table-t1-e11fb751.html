@@ -1,0 +1,168 @@
+<!--
+  BUR Dining Table Rec — T1 (Flow 1B: chair buyers -> table recs)
+  ---------------------------------------------------------------------------
+  Touch 1 of the Flow 1B canvas. Personalization comes from Braze custom
+  attributes written by sync_bur_post_purchase_attributes.py (2:15 AM UTC):
+  post_purchase_product_name (chair line) + post_purchase_rec1-4_{name,img,url}
+  (the 4 dining tables in the chair's finish, co-purchase ordered). Same rec
+  slots as 1A; a user is in exactly one flow at a time.
+  ---------------------------------------------------------------------------
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Your chairs are ready. Is your table?</title>
+<style>
+  @media only screen and (max-width: 480px) {
+    .text-intro { padding: 24px 24px !important; }
+    .text-intro p { font-size: 17px !important; line-height: 1.45 !important; }
+  }
+</style>
+<!--[if mso]>
+<style type="text/css">
+  table, td { border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; }
+  img { -ms-interpolation-mode:bicubic; }
+</style>
+<![endif]-->
+</head>
+<body style="margin:0;padding:0;background-color:#ffffff;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;">
+
+{% if custom_attribute.${post_purchase_product_name} == blank or custom_attribute.${post_purchase_rec1_name} == blank or custom_attribute.${post_purchase_rec1_img} == blank or custom_attribute.${post_purchase_rec1_url} == blank or custom_attribute.${post_purchase_rec2_name} == blank or custom_attribute.${post_purchase_rec2_img} == blank or custom_attribute.${post_purchase_rec2_url} == blank or custom_attribute.${post_purchase_rec3_name} == blank or custom_attribute.${post_purchase_rec3_img} == blank or custom_attribute.${post_purchase_rec3_url} == blank or custom_attribute.${post_purchase_rec4_name} == blank or custom_attribute.${post_purchase_rec4_img} == blank or custom_attribute.${post_purchase_rec4_url} == blank %}{% abort_message("post_purchase rec attributes not set") %}{% endif %}
+
+{% message_extras :key "rec1_url" :value "{{custom_attribute.${post_purchase_rec1_url}}}" %}
+{% message_extras :key "rec2_url" :value "{{custom_attribute.${post_purchase_rec2_url}}}" %}
+{% message_extras :key "rec3_url" :value "{{custom_attribute.${post_purchase_rec3_url}}}" %}
+{% message_extras :key "rec4_url" :value "{{custom_attribute.${post_purchase_rec4_url}}}" %}
+
+<!-- Full-width background wrapper -->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+       style="background-color:#ffffff;">
+  <tr>
+    <td align="center" style="padding:0;">
+
+<!--[if mso]>
+<table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" align="center" style="width:600px;">
+<tr><td>
+<![endif]-->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" align="center"
+       style="font-family:Arial,Helvetica,sans-serif;background-color:#ffffff;max-width:600px;margin:0 auto;">
+
+  <tr>
+    <td style="padding:0;font-size:0;line-height:0;">
+      <a href="https://burrow.com/collections/dining-tables?lid=8kjtrkigwtku" target="_blank" style="text-decoration:none;">
+        <img src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a5684de3cee00008750cc54/original.png?1784055004" width="600" alt="Your Burrow dining chairs deserve the perfect table"
+             style="display:block;width:100%;max-width:600px;height:auto;border:0;">
+      </a>
+    </td>
+  </tr>
+  <!-- Slice 2: text block (cream) -->
+  <tr>
+    <td class="text-intro" style="background-color:#F6EEE3;padding:32px 40px;text-align:center;">
+      <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:21px;color:#1a1a1a;line-height:1.55;">
+        Your {{custom_attribute.${post_purchase_product_name}}} arrived (or are on their way).
+      </p>
+      <p style="margin:12px 0 0 0;font-family:Arial,Helvetica,sans-serif;font-size:21px;color:#1a1a1a;line-height:1.55;">
+        Now all you need is a table to bring it all&nbsp;together.
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding:0;font-size:0;line-height:0;">
+      <a href="https://burrow.com/collections/dining-tables?lid=k7xudm39pwm0" target="_blank" style="text-decoration:none;">
+        <img src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a5684e0361aaf008045a2da/original.png?1784055007" width="600" alt="Explore Burrow dining tables"
+             style="display:block;width:100%;max-width:600px;height:auto;border:0;">
+      </a>
+    </td>
+  </tr>
+  <!-- Slice 4: 2x2 table recommendation grid -->
+  <tr>
+    <td style="padding:8px 20px 8px;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <!-- Rec 1 -->
+          <td width="50%" style="padding:0 8px 24px 0;vertical-align:top;text-align:center;">
+            <a href="{{custom_attribute.${post_purchase_rec1_url}}}" target="_blank" style="text-decoration:none;">
+              <img src="{{custom_attribute.${post_purchase_rec1_img}}}" width="270"
+                   alt="{{custom_attribute.${post_purchase_rec1_name}}}"
+                   style="display:block;width:100%;max-width:270px;height:auto;border:0;">
+            </a>
+            <a href="{{custom_attribute.${post_purchase_rec1_url}}}" target="_blank"
+               style="display:block;margin-top:10px;font-family:Arial,Helvetica,sans-serif;font-size:13px;
+                      color:#1a1a1a;text-decoration:none;line-height:1.4;">
+              {{custom_attribute.${post_purchase_rec1_name}}} &rarr;
+            </a>
+          </td>
+          <!-- Rec 2 -->
+          <td width="50%" style="padding:0 0 24px 8px;vertical-align:top;text-align:center;">
+            <a href="{{custom_attribute.${post_purchase_rec2_url}}}" target="_blank" style="text-decoration:none;">
+              <img src="{{custom_attribute.${post_purchase_rec2_img}}}" width="270"
+                   alt="{{custom_attribute.${post_purchase_rec2_name}}}"
+                   style="display:block;width:100%;max-width:270px;height:auto;border:0;">
+            </a>
+            <a href="{{custom_attribute.${post_purchase_rec2_url}}}" target="_blank"
+               style="display:block;margin-top:10px;font-family:Arial,Helvetica,sans-serif;font-size:13px;
+                      color:#1a1a1a;text-decoration:none;line-height:1.4;">
+              {{custom_attribute.${post_purchase_rec2_name}}} &rarr;
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <!-- Rec 3 -->
+          <td width="50%" style="padding:0 8px 24px 0;vertical-align:top;text-align:center;">
+            <a href="{{custom_attribute.${post_purchase_rec3_url}}}" target="_blank" style="text-decoration:none;">
+              <img src="{{custom_attribute.${post_purchase_rec3_img}}}" width="270"
+                   alt="{{custom_attribute.${post_purchase_rec3_name}}}"
+                   style="display:block;width:100%;max-width:270px;height:auto;border:0;">
+            </a>
+            <a href="{{custom_attribute.${post_purchase_rec3_url}}}" target="_blank"
+               style="display:block;margin-top:10px;font-family:Arial,Helvetica,sans-serif;font-size:13px;
+                      color:#1a1a1a;text-decoration:none;line-height:1.4;">
+              {{custom_attribute.${post_purchase_rec3_name}}} &rarr;
+            </a>
+          </td>
+          <!-- Rec 4 -->
+          <td width="50%" style="padding:0 0 24px 8px;vertical-align:top;text-align:center;">
+            <a href="{{custom_attribute.${post_purchase_rec4_url}}}" target="_blank" style="text-decoration:none;">
+              <img src="{{custom_attribute.${post_purchase_rec4_img}}}" width="270"
+                   alt="{{custom_attribute.${post_purchase_rec4_name}}}"
+                   style="display:block;width:100%;max-width:270px;height:auto;border:0;">
+            </a>
+            <a href="{{custom_attribute.${post_purchase_rec4_url}}}" target="_blank"
+               style="display:block;margin-top:10px;font-family:Arial,Helvetica,sans-serif;font-size:13px;
+                      color:#1a1a1a;text-decoration:none;line-height:1.4;">
+              {{custom_attribute.${post_purchase_rec4_name}}} &rarr;
+            </a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding:0;font-size:0;line-height:0;">
+      <a href="https://burrow.com/collections/dining-tables?lid=nq5ttzqqwzgr" target="_blank" style="text-decoration:none;">
+        <img src="https://braze-images.com/appboy/communication/assets/image_assets/images/6a5684e1a4aad70082ca2415/original.png?1784055008" width="600" alt="Explore all Burrow dining tables"
+             style="display:block;width:100%;max-width:600px;height:auto;border:0;">
+      </a>
+    </td>
+  </tr>
+  <!-- Footer (Burrow shared footer content block — matches 1A) -->
+  <tr>
+    <td style="padding:0;">
+      {{content_blocks.${footer_us} | id: 'cb1'}}
+    </td>
+  </tr>
+
+</table>
+<!--[if mso]>
+</td></tr>
+</table>
+<![endif]-->
+
+    </td>
+  </tr>
+</table>
+</body>
+</html>

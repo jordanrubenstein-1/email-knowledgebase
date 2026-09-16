@@ -1,0 +1,83 @@
+id: fe2a4148-67f9-4073-beac-f377a58e8592
+name: P_EM_2025_11_20_BW_D_Quick_Ship
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: fe2a4148-67f9-4073-beac-f377a58e8592
+dates:
+  send_date: '2025-11-20'
+  inferred_send_type: local_time
+  first_sent: '2025-11-20T00:47:09+00:00'
+  last_sent: '2025-11-20T17:15:28+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 12618a96-c884-4750-8c75-157fe6c6cd1f
+  channel: email
+  name: Variant 1
+  subject: En Route
+  preheader: '30% off quick-ship styles
+
+
+
+    '
+- id: f9093e35-ac78-4c7f-8724-6d17de30e01c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 109310
+  total_delivered: 109001
+  total_opens: 46275
+  total_clicks: 714
+  open_rate: 0.4233
+  click_rate: 0.0065
+  total_revenue: 53499.0
+  total_bounces: 1
+  total_unsubscribes: 224
+  ga4:
+    sessions: 591
+    purchases: 3
+    revenue: 3302.36
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.612831'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-black-friday-cyber-monday-2025-11-14
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-11'
+    end_date: '2025-12-01'
+    discount: "11/11-11/23\n30% off sitewide\nFree shipping on all orders ≥$2k\nUp\
+      \ to 70% off clearance\n\nStarting on Monday, 11/24: \nOur Best Sale of the\
+      \ Year\nUp to 40% Off Sitewide\nPlus free shipping*"
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-black-friday-cyber-monday-2025-11-14
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-11'
+    end_date: '2025-12-01'
+    discount: "11/11-11/23\n30% off sitewide\nFree shipping on all orders ≥$2k\nUp\
+      \ to 70% off clearance\n\nStarting on Monday, 11/24: \nOur Best Sale of the\
+      \ Year\nUp to 40% Off Sitewide\nPlus free shipping*"
+    type: null
+  sale_name: Black Friday / Cyber Monday
+  sale_discount: "11/11-11/23\n30% off sitewide\nFree shipping on all orders ≥$2k\n\
+    Up to 70% off clearance\n\nStarting on Monday, 11/24: \nOur Best Sale of the Year\n\
+    Up to 40% Off Sitewide\nPlus free shipping*"
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:32.016986'
+schedule_type: time_based

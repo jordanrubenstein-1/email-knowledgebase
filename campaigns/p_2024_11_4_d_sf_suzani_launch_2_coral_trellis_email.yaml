@@ -1,0 +1,48 @@
+id: f1b33b9f-cc43-44e0-8c2b-353cbbcabbb1
+name: P_2024_11_4_D_SF_Suzani_Launch_2_Coral_Trellis_Email
+brand: STF
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: f1b33b9f-cc43-44e0-8c2b-353cbbcabbb1
+dates:
+  send_date: '2024-11-04'
+  inferred_send_type: local_time
+  first_sent: '2024-11-03T17:00:05+00:00'
+  last_sent: '2024-11-04T15:00:11+00:00'
+tags:
+- Batch and Blast
+sends:
+- id: 2eeb4ae1-094d-4f66-b230-f16a4bdbd68a
+  channel: email
+  name: Variant 1
+  subject: 'Introducing: Coral Trellis Suzani'
+  preheader: our new bright and bold floral is here!
+  html_file: html/p_2024_11_4_d_sf_suzani_launch_2_coral_trellis_email.html
+  screenshot: screenshots/p_2024_11_4_d_sf_suzani_launch_2_coral_trellis_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6724dc3a5de7740067e139d1/original.gif?1730468921
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6724dcc25cb5410065acd8e7/original.gif?1730469058
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6724dcd19bf9d50065af10a0/original.jpg?1730469072
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6724dceab00e0b006458a965/original.gif?1730469098
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6724dc632d32fa0066dd4b19/original.gif?1730468963
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6724dc55dc326b00641c6cc6/original.gif?1730468949
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6724dc2cb00e0b00725896d9/original.gif?1730468908
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6724dc9d2d32fa0066dd4bac/original.gif?1730469021
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6724dca92d32fa0066dd4bcd/original.gif?1730469033
+- id: 9cd35043-b5a5-4683-bdb8-2d9ec5122715
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 8587
+  total_delivered: 8536
+  total_opens: 2919
+  total_clicks: 103
+  open_rate: 0.3399
+  click_rate: 0.012
+  total_revenue: 1044.0
+  total_unsubscribes: 6
+_filename: p_2024_11_4_d_sf_suzani_launch_2_coral_trellis_email.yaml
+schedule_type: time_based

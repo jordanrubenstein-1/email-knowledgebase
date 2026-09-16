@@ -1,0 +1,75 @@
+id: klaviyo-01K2DDJBBT1Y40R0KM811VNHXP
+name: P_EM_2025_08_13_TI_D_PF_Sunset_Sale_Last_Chance
+brand: TI
+channel: email
+category: reminder
+type: sale
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2025-08-11'
+  send_date: '2025-08-13'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-13T07:00:00+00:00'
+  last_sent: '2025-08-13T07:00:00+00:00'
+sends:
+- id: 01K2DDJBD9HFJFKZ8MPXPWCS05
+  channel: email
+  name: P_EM_2025_08_13_TI_D_PF_Sunset_Sale_Last_Chance
+  subject: 20% Off Sitewide Ends Tonight
+  preheader: Last call before the sun sets.
+  html_file: html/p_em_2025_08_13_ti_d_pf_sunset_sale_last_chance.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/2a229c53-e35f-4f77-aad6-11d5e9ef3dcc.gif
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/d5578b52-d744-4b43-8f4d-f682873d85da.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/48f8b0bf-f674-4de6-83a6-f00ae0bfb57e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/1f62c3a3-05d0-4cd4-b26b-c0e4faf0f931.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/8a5aaa9a-33fa-4796-b8ae-68da2560640d.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/3311b137-96b0-4358-b884-f1fb5f4b85bc.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/27ac32ad-4f0c-4211-8ed4-64fd4f111707.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/b57f2fe4-e494-4546-a7a7-df9df295e927.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/31c2df31-7d63-4ee6-9e34-b0eeb68d82f4.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/2d8f1385-6c88-4408-9f74-6fb92feadca1.png
+  screenshot: screenshots/p_em_2025_08_13_ti_d_pf_sunset_sale_last_chance.png
+performance_summary:
+  total_sends: 110135
+  total_delivered: 109810
+  total_opens: 33677
+  total_clicks: 395
+  unique_opens: 24369
+  unique_clicks: 242
+  open_rate: 0.2213
+  click_rate: 0.0022
+  total_open_rate: 0.3058
+  total_click_rate: 0.0036
+  total_unsubscribes: 42
+  total_bounces: 325
+klaviyo_type: campaign
+klaviyo_campaign_id: 01K2DDJBBT1Y40R0KM811VNHXP
+klaviyo_message_id: 01K2DDJBD9HFJFKZ8MPXPWCS05
+structure:
+  image_count: 21
+  link_count: 22
+  has_gif: true
+  hero_width: 600
+  layout_type: product_grid
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: ti-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: Up to 20% off sitewide
+    type: null
+  primary_sale:
+    id: ti-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: Up to 20% off sitewide
+    type: null
+  sale_name: The Sunset Sale
+  sale_discount: Up to 20% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-03-12T11:18:47.684875'

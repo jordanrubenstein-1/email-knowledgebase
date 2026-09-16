@@ -1,0 +1,35 @@
+id: 05e4f5e6-a20d-42cb-8b66-385df625ae25
+name: P_EM_2025_08_11_HAV_CONV_Sunset_Sale_On_Sale_PT
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 05e4f5e6-a20d-42cb-8b66-385df625ae25
+dates:
+  send_date: '2025-08-11'
+  first_sent: '2025-08-11T03:05:28+00:00'
+  last_sent: '2025-08-12T02:01:29+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: cc615a0f-e0c0-44c1-9a4b-233da4335ff8
+  channel: email
+  name: Variant 1
+  subject: Don’t miss your moment to save 🌅
+  preheader: Up to 15% off ends soon—shop the Sunset Sale now.
+- id: 29260b68-9232-4b86-ba99-b1cd8ad8c959
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 40842
+  total_delivered: 40838
+  total_opens: 22323
+  total_clicks: 71
+  open_rate: 0.5466
+  click_rate: 0.0017
+  total_bounces: 1
+  total_unsubscribes: 48
+schedule_type: time_based
+_filename: p_em_2025_08_11_hav_conv_sunset_sale_on_sale_pt.yaml

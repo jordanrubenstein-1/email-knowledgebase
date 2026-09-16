@@ -1,0 +1,56 @@
+id: 1a19b523-9f94-4732-92ff-1c441840c5eb
+name: P_EM_2025_07_07_STF_TRADE_D_July4th_Combined_Sale_Reminder
+brand: STF
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 1a19b523-9f94-4732-92ff-1c441840c5eb
+dates:
+  send_date: '2025-07-07'
+  inferred_send_type: local_time
+  first_sent: '2025-07-06T20:05:24+00:00'
+  last_sent: '2025-07-07T16:00:35+00:00'
+tags: []
+sends:
+- id: 20f76674-c147-42f9-933e-5641b183f775
+  channel: email
+  name: Variant 1
+  subject: 'IT''S ON: 25% Off Sitewide'
+  preheader: shop our July 4th Sale
+  html_file: html/p_em_2025_07_07_stf_trade_d_july4th_combined_sale_reminder.html
+  screenshot: screenshots/p_em_2025_07_07_stf_trade_d_july4th_combined_sale_reminder.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6866ca20223c500074f66fed/original.png?1751566880
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6866cab323295300665843fe/original.png?1751567026
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6866cb224a31d500771748d3/original.png?1751567138
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6866cacbbc724900659fcb30/original.png?1751567050
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6866ca177426c8006727407c/original.png?1751566869
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6866ca4632fa9b0066c0352c/original.png?1751566917
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6866ca2c345ed30067d55066/original.png?1751566891
+- id: e3ffba18-b375-43c9-9cef-01f5b7c3646d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 3453
+  total_delivered: 3397
+  total_opens: 1839
+  total_clicks: 50
+  open_rate: 0.5326
+  click_rate: 0.0145
+  total_revenue: 5873.0
+  total_unsubscribes: 25
+  ga4:
+    sessions: 43
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.655305'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.227283'
+schedule_type: time_based

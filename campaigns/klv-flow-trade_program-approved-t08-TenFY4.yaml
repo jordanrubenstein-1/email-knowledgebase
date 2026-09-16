@@ -1,0 +1,56 @@
+id: klaviyo-TenFY4
+name: trade-approved_email-04
+brand: TE
+channel: email
+category: other
+type: announcement
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: TeDcxL
+canvas_name: trade_program-approved
+flow_type: other_flow
+sequence_position: 8
+dates:
+  created: '2023-06-29'
+  inferred_send_type: sto
+  first_sent: '2023-06-29'
+  last_sent: '2024-09-03'
+sends:
+- id: TenFY4
+  channel: email
+  name: Message
+  subject: Our best-sellers
+  preheader: Trusted by designers, loved by clients.
+  html_file: html/klv-flow-trade_program-approved-t08-TenFY4.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/dac146b7-7dfc-4851-8cf1-d7978d5e7110.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/3bd67b0d-dec4-4356-999d-fe4f29837184.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/c8c8ffda-5861-4a5e-9fba-b325756c65d6.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/58e06d36-8047-411e-8c2c-48252f8cd94b.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/f91e34fb-904e-47fd-93b0-e892d228246a.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/411dd85c-3c63-4339-b0cf-49d185ad4b77.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/fa246058-dcbe-4436-91f5-d64fcfa2bc54.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/398b64aa-5f98-41ed-a627-7bc145e91901.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/61f219af-4e7f-4020-9282-9fe4231b076e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/55ff2aac-9e77-4a92-a3cb-a7306cb08e32.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: TenFY4
+structure:
+  image_count: 26
+  link_count: 31
+  has_gif: false
+  hero_width: 100
+  layout_type: product_grid

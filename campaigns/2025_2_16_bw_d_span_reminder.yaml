@@ -1,0 +1,74 @@
+id: 8a9fed39-6584-42ad-b4c7-d5f4584de279
+name: 2025_2_16_BW_D_Span_Reminder
+brand: BUR
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 8a9fed39-6584-42ad-b4c7-d5f4584de279
+dates:
+  send_date: '2025-02-16'
+  inferred_send_type: local_time
+  first_sent: '2025-02-15T17:24:07+00:00'
+  last_sent: '2025-02-16T17:15:17+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: fc839dd0-6c54-4ec0-9f10-d438adc1264b
+  channel: email
+  name: Variant 1
+  subject: Have you met Span?
+  preheader: Sit comfortable and sleep comfortably.
+- id: 9efa2d20-58e9-43d9-a3d3-f1611cb1cc36
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 267807
+  total_delivered: 265801
+  total_opens: 92861
+  total_clicks: 625
+  open_rate: 0.3467
+  click_rate: 0.0023
+  total_revenue: 115699.0
+  total_unsubscribes: 125
+  ga4:
+    sessions: 388
+    purchases: 2
+    revenue: 3250.41
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.676616'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:32.814924'
+schedule_type: time_based

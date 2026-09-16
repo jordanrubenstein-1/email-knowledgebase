@@ -1,0 +1,29 @@
+id: 1a80416a-1c07-4d22-b80a-a0a21dbcf2c2
+name: P_SMS_2026_05_09_SF_Swatch_Push
+brand: STF
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: 1a80416a-1c07-4d22-b80a-a0a21dbcf2c2
+dates:
+  send_date: '2026-05-09'
+  last_sent: '2026-05-09'
+tags: []
+sends:
+- id: 2a68fccb-56a8-4946-8467-c69bf23d1fb8
+  channel: sms
+  name: Variant 1
+- id: 4cbd5733-f42a-4c4a-b637-80d6b7f174c2
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 4272
+  total_delivered: 4182
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 1480.0
+_filename: p_sms_2026_05_09_sf_swatch_push.yaml
+schedule_type: time_based

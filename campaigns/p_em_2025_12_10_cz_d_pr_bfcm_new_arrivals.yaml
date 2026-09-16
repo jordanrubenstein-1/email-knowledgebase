@@ -1,0 +1,54 @@
+id: 58e30553-12b5-45cd-8436-2ef5b3bcd150
+name: P_EM_2025_12_10_CZ_D_PR_BFCM_New_Arrivals
+brand: CZ
+channel: email
+category: product_launch
+type: product_launch
+theme: black_friday
+braze_id: 58e30553-12b5-45cd-8436-2ef5b3bcd150
+dates:
+  send_date: '2025-12-10'
+  inferred_send_type: local_time
+  first_sent: '2025-12-09T22:02:19+00:00'
+  last_sent: '2025-12-10T17:16:42+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- newness
+sends:
+- id: 5f6df0ae-7a4f-439c-9575-9f00e3b52d78
+  channel: email
+  name: Variant 1
+  subject: Fresh picks, perfect gifts ✨
+  preheader: New arrivals from our makers.
+  html_file: html/p_em_2025_12_10_cz_d_pr_bfcm_new_arrivals.html
+  screenshot: screenshots/p_em_2025_12_10_cz_d_pr_bfcm_new_arrivals.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69383e482b14650073cfded2/original.gif?1765293640
+- id: 903af03a-1f79-458f-86e3-ba692eaef847
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 114891
+  total_delivered: 114574
+  total_opens: 57050
+  total_clicks: 589
+  open_rate: 0.4966
+  click_rate: 0.0051
+  total_bounces: 28
+  total_unsubscribes: 195
+  ga4:
+    sessions: 554
+    purchases: 2
+    revenue: 780.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.366330'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.102950'
+schedule_type: time_based

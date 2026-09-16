@@ -1,0 +1,32 @@
+id: 9fe65832-5cc7-4bd0-bc1f-d3b855a8f1b2
+name: SEG_2025_02_17_D_HAV_CONV_Cart_Abandon_PDS
+brand: HAV
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: 9fe65832-5cc7-4bd0-bc1f-d3b855a8f1b2
+dates:
+  send_date: '2025-02-17'
+  first_sent: '2025-02-17T23:27:06+00:00'
+  last_sent: '2025-02-18T04:30:07+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 606e7a73-c6e4-4546-bb09-9d75c7c446eb
+  channel: email
+  name: Variant 1
+  subject: Your Cart is on Sale — But Not for Long!
+- id: 8252febc-630e-4c4d-aa0d-b874cefc6095
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1560
+  total_delivered: 1545
+  total_opens: 874
+  total_clicks: 76
+  open_rate: 0.5603
+  click_rate: 0.0487
+  total_unsubscribes: 7
+schedule_type: time_based
+_filename: seg_2025_02_17_d_hav_conv_cart_abandon_pds.yaml

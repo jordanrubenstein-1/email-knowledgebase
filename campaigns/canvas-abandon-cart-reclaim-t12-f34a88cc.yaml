@@ -1,0 +1,25 @@
+id: f34a88cc-0b3d-4ed4-9954-13a334bafcc5
+name: Abandon-Cart- 5
+brand: BUR
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: e46133da-5c6c-41c9-9c7c-864b5110460d
+canvas_name: Abandon Cart - Reclaim
+flow_type: cart_abandonment
+sequence_position: 12
+subject: You left your stuff at our place
+preheader: Don't leave these items behind.
+sends:
+- id: f34a88cc-0b3d-4ed4-9954-13a334bafcc5
+  channel: email
+  name: Abandon-Cart- 5
+  subject: You left your stuff at our place
+  preheader: Don't leave these items behind.
+  html_file: html/canvas-abandon-cart-reclaim-t12-f34a88cc.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-12-20T21:00:00Z'
+  last_sent: '2025-09-13T11:00:00Z'
+performance_summary: {}

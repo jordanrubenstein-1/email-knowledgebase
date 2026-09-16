@@ -1,0 +1,26 @@
+id: 76ebba0a-18e1-46b1-9332-2c6be06ee4da
+name: 070824_SF_B_Ext_Fourth_Of_July_Email
+brand: STF
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 76ebba0a-18e1-46b1-9332-2c6be06ee4da
+dates: {}
+tags:
+- Batch and Blast
+sends:
+- id: a1556fe0-3977-41a2-8ced-00fabd8ffde9
+  channel: email
+  name: Variant 1
+  subject: 20% off EXTENDED
+  preheader: one more day to shop!
+- id: 05425ac5-86a5-4b25-8482-fe8772b2ae98
+  channel: other
+  name: Control Group
+performance_summary: {}
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.308344'
+schedule_type: time_based

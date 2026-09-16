@@ -1,0 +1,35 @@
+id: bc60f7b8-ffe6-4b0f-94da-dc990747b6ac
+name: P_EM_2025_09_16_BW_PT_PM_Subscriber_Flash_Sale_Reminder
+brand: BUR
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: bc60f7b8-ffe6-4b0f-94da-dc990747b6ac
+dates:
+  send_date: '2025-09-16'
+  inferred_send_type: local_time
+  first_sent: '2025-09-16T03:08:05+00:00'
+  last_sent: '2025-09-17T02:01:33+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 078a6ca0-b331-4015-99ed-01c37638c058
+  channel: email
+  name: Variant 1
+  subject: This is it...
+  preheader: Your exclusive Flash Sale ends tonight.
+- id: b49f0f94-81b5-4e42-9807-2e642ae74967
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 20442
+  total_delivered: 20387
+  total_opens: 11522
+  total_clicks: 368
+  open_rate: 0.5636
+  click_rate: 0.018
+  total_revenue: 4067.0
+  total_unsubscribes: 38
+_filename: p_em_2025_09_16_bw_pt_pm_subscriber_flash_sale_reminder.yaml
+schedule_type: time_based

@@ -1,0 +1,62 @@
+id: dbc8fb8b-b4a9-4a70-af99-f554003826ca
+name: P_2024_12_5_ID_Trevor_Project_Campaign_Announcement_Email
+brand: ID
+channel: email
+category: other
+type: product_launch
+theme: null
+braze_id: dbc8fb8b-b4a9-4a70-af99-f554003826ca
+dates:
+  send_date: '2024-12-05'
+  inferred_send_type: scheduled
+  first_sent: '2024-12-05T07:15:58+00:00'
+  last_sent: '2024-12-05T17:15:04+00:00'
+tags: []
+sends:
+- id: 7435cdad-5170-4246-b5ab-dc2061d50bf4
+  channel: email
+  name: Variant 1
+  subject: We Stand with The Trevor Project
+  preheader: Learn more about our holiday giving initiative.
+- id: ea5b3457-feef-4df8-9ecb-3d6fa53ddbda
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 84450
+  total_delivered: 83754
+  total_opens: 27131
+  total_clicks: 409
+  open_rate: 0.3213
+  click_rate: 0.0048
+  total_revenue: 162182.0
+  total_bounces: 1
+  total_unsubscribes: 335
+  ga4:
+    sessions: 279
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.185617'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-cyber-week-ext-2024-12-04
+    name: Cyber Week Ext
+    start_date: '2024-12-04'
+    end_date: '2024-12-10'
+    discount: null
+    type: null
+  primary_sale:
+    id: id-cyber-week-ext-2024-12-04
+    name: Cyber Week Ext
+    start_date: '2024-12-04'
+    end_date: '2024-12-10'
+    discount: null
+    type: null
+  sale_name: Cyber Week Ext
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:43.838989'
+schedule_type: time_based

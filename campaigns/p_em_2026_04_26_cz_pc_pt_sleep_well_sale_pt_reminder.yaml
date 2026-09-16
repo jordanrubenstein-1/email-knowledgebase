@@ -1,0 +1,35 @@
+id: 2061fea5-84ef-441e-a0f1-17403352839e
+name: P_EM_2026_04_26_CZ_PC_PT_Sleep_Well_Sale_PT_Reminder
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 2061fea5-84ef-441e-a0f1-17403352839e
+dates:
+  send_date: '2026-04-26'
+  inferred_send_type: sto
+  first_sent: '2026-04-24T11:08:28+00:00'
+  last_sent: '2026-04-26T09:30:09+00:00'
+tags:
+- batch and blast
+- pm
+- pt
+- sale
+- sale/presidentsday2026
+- sale_feat
+sends:
+- id: 4329137f-ac7e-4762-b8c1-7a0ff73a54a7
+  channel: email
+  name: Variant 1
+  subject: 'A quick reminder to sleep well, at 20% off '
+  html_file: html/p_em_2026_04_26_cz_pc_pt_sleep_well_sale_pt_reminder.html
+  screenshot: screenshots/p_em_2026_04_26_cz_pc_pt_sleep_well_sale_pt_reminder.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f83def4631c700674e669c/original.png?1744322031
+- id: 05dfc7de-4f2c-4e7b-8ad9-5cb8325caea4
+  channel: email
+  name: Control Group
+performance_summary: {}
+_filename: p_em_2026_04_26_cz_pc_pt_sleep_well_sale_pt_reminder.yaml
+schedule_type: time_based

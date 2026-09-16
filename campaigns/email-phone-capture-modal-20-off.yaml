@@ -1,0 +1,23 @@
+id: 1f755542-0635-4fad-b7e2-123534e65848
+name: Email & Phone Capture Modal - 20% Off
+brand: CZ
+channel: email
+category: other
+type: sale
+theme: null
+braze_id: 1f755542-0635-4fad-b7e2-123534e65848
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-04-29T15:00:00+00:00'
+  last_sent: '2026-05-06T22:00:00+00:00'
+tags: []
+sends:
+- id: 124f8b82-e139-4b94-847b-7ae0df004b43
+  channel: other
+  name: Control Group
+- id: 72500dc1-8b06-4f38-8f50-b984a2ba76d9
+  channel: other
+  name: Variant 1
+performance_summary: {}
+_filename: email-phone-capture-modal-20-off.yaml
+schedule_type: action_based

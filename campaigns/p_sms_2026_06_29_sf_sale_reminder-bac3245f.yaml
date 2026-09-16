@@ -1,0 +1,29 @@
+id: bac3245f-a20c-48ad-a65c-95425473c594
+name: P_SMS_2026_06_29_SF_Sale_Reminder
+brand: STF
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: bac3245f-a20c-48ad-a65c-95425473c594
+dates:
+  send_date: '2026-06-29'
+  last_sent: '2026-06-29'
+tags: []
+sends:
+- id: 2a466134-c470-476f-97df-3617ef0593f9
+  channel: sms
+  name: Variant 1
+- id: caf2300c-00f2-405c-9850-a82fd72dd6e3
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 4425
+  total_delivered: 4334
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 192.0
+schedule_type: time_based
+_filename: p_sms_2026_06_29_sf_sale_reminder-bac3245f.yaml

@@ -1,0 +1,31 @@
+id: 65265b08-9ee0-4c46-9950-18229c983896
+name: P_PUSH_2025_11_28_HAV_PC_Black_Friday
+brand: HAV
+channel: push
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 65265b08-9ee0-4c46-9950-18229c983896
+dates:
+  send_date: '2025-11-28'
+  first_sent: '2025-11-28T01:06:12+00:00'
+  last_sent: '2025-11-29T01:01:22+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: e434fb85-48dc-4762-87d7-2406dcdf346e
+  channel: push
+  name: Variant 1
+- id: 30b932db-f10f-40a3-a4bf-f84e9ae5e688
+  channel: push
+  name: Control Group
+performance_summary:
+  total_sends: 73478
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_bounces: 5
+schedule_type: time_based
+_filename: p_push_2025_11_28_hav_pc_black_friday.yaml

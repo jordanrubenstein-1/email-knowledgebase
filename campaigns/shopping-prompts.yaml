@@ -1,0 +1,150 @@
+id: bc3f414e-9d08-434f-b9df-bbe85d4fa045
+name: Shopping Prompts
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: bc3f414e-9d08-434f-b9df-bbe85d4fa045
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-28T03:00:00+00:00'
+  last_sent: '2025-12-13T14:00:00+00:00'
+tags: []
+sends:
+- id: 712cad53-d96b-4bcc-a823-c429f4add6c1
+  channel: email
+  name: TRG_EM_2025_08_HAV_CONV_D_Shopping_Prompt_T2_V1
+  subject: Congrats on your finished design! 🎉
+  preheader: ''
+  step_id: 1a95de1e-16b6-4a7c-9ea4-600ea1300c68
+- id: b843dfdf-f70e-4966-b971-9a6199332ec7
+  channel: email
+  name: TRG_EM_2024_08_HAV_CONV_D_Shopping_Prompt_T5_V1
+  subject: Don't forget to complete your design!
+  preheader: ''
+  step_id: 938f2aaf-2040-427b-b202-73cb4f535056
+- id: 8d4463f0-accd-46c9-838b-31c908a0dd45
+  channel: email
+  name: TRG_EM_2025_08_HAV_CONV_PT_Shopping_Prompt_T3_V1
+  subject: Your design is ready to become reality
+  preheader: ''
+  step_id: eaab73f3-7d5f-45d8-9941-6ad977b13f05
+- id: 15ab43e7-da0e-4b61-93e6-498e266137a3
+  channel: email
+  name: TRG_EM_2025_08_HAV_CONV_PT_Shopping_Prompt_T7_V1
+  subject: We handle the hard part
+  preheader: ''
+  step_id: 17727026-5a59-438f-a856-787f737cee42
+performance_summary:
+  total_entries: 355
+  total_sends: 1235
+  total_delivered: 1235
+  total_opens: 1087
+  total_clicks: 72
+  open_rate: 0.8802
+  click_rate: 0.0583
+  total_unsubscribes: 1
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.300159'
+    source: snowflake
+    channel: email
+canvas_steps:
+- id: 169df9e9-9b5d-4184-8e75-82f576feb0cb
+  name: Step
+  type: delay
+- id: 1a95de1e-16b6-4a7c-9ea4-600ea1300c68
+  name: TRG_EM_2025_08_HAV_CONV_D_Shopping_Prompt_T2_V1
+  type: message
+  channel: email
+  subject: Congrats on your finished design! 🎉
+  preheader: ''
+- id: 32def01a-1608-4c22-9365-202e19f61a1c
+  name: Step 1
+  type: delay
+- id: 938f2aaf-2040-427b-b202-73cb4f535056
+  name: TRG_EM_2024_08_HAV_CONV_D_Shopping_Prompt_T5_V1
+  type: message
+  channel: email
+  subject: Don't forget to complete your design!
+  preheader: ''
+- id: d9c20b5f-41f0-44c6-9f61-49bd52023904
+  name: Push Available?
+  type: audience_paths
+- id: c1874cc1-e163-429e-9e87-3fd22bc318ed
+  name: TRG_PUSH_2025_08_HAV_CONV_PT_Shopping_Prompt_T1_V1
+  type: message
+- id: b967d9fa-4062-4046-a5c6-57354eef884b
+  name: Step 2
+  type: delay
+- id: 7cdecfb9-e98a-42c5-b52d-4f1011f94295
+  name: Email Available?
+  type: audience_paths
+- id: 422c03f9-0ec4-4aee-9720-f7247dff783d
+  name: Step 5
+  type: delay
+- id: 62788552-d0ca-4f97-92fc-ad655bbacb1f
+  name: Push Available?
+  type: audience_paths
+- id: 499c8ab8-827d-4c47-aec4-20356bc5e870
+  name: Push Available?
+  type: audience_paths
+- id: 888420f2-fdba-4e79-87be-175d99a8c781
+  name: TRG_PUSH_2025_08_HAV_CONV_Shopping_Prompt_T6_V1
+  type: message
+- id: 9296fca8-a181-401f-8d61-1830e62353d9
+  name: Email Available?
+  type: audience_paths
+- id: eaab73f3-7d5f-45d8-9941-6ad977b13f05
+  name: TRG_EM_2025_08_HAV_CONV_PT_Shopping_Prompt_T3_V1
+  type: message
+  channel: email
+  subject: Your design is ready to become reality
+  preheader: ''
+- id: 1f01fefe-0d6c-42a4-b4f8-3bb977c99ffe
+  name: Step 3
+  type: delay
+- id: a17c8de6-d2a3-4cb5-a78e-8d5ea103be25
+  name: Email Available?
+  type: audience_paths
+- id: e0a70cf9-a648-429e-ad54-26fbaa566f12
+  name: Step 4
+  type: delay
+- id: 17727026-5a59-438f-a856-787f737cee42
+  name: TRG_EM_2025_08_HAV_CONV_PT_Shopping_Prompt_T7_V1
+  type: message
+  channel: email
+  subject: We handle the hard part
+  preheader: ''
+- id: 5537756e-65d8-48ac-9b37-d948fafa092d
+  name: TRG_PUSH_2025_08_HAV_CONV_Shopping_Prompt_T4_V1
+  type: message
+- id: a02dc302-c9ee-49d0-aaa8-0e8ec110b694
+  name: Step 6
+  type: delay
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: hav_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: hav_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:37.186813'

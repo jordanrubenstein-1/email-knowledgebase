@@ -1,0 +1,49 @@
+id: f370eae9-224d-40a6-92ea-c712f7c240ce
+name: P_EM_2025_09_02_HAV_CONV_D_Items_in_Your_Design_on_Sale
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: f370eae9-224d-40a6-92ea-c712f7c240ce
+dates:
+  send_date: '2025-09-02'
+  inferred_send_type: local_time
+  first_sent: '2025-09-01T21:05:32+00:00'
+  last_sent: '2025-09-02T20:00:48+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: df2684cd-2d54-4cec-b8f8-7fb31707b982
+  channel: email
+  name: Variant 1
+  subject: Your Entire Design Is On Sale…
+  preheader: But hurry, our Labor Day Event ends tonight!
+  html_file: html/p_em_2025_09_02_hav_conv_d_items_in_your_design_on_sale.html
+  screenshot: screenshots/p_em_2025_09_02_hav_conv_d_items_in_your_design_on_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b1bf463f035d0067cec408/original.gif?1756479302
+- id: 2abb8fec-cc02-4bed-bb5f-6fd97953d0bf
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 8902
+  total_delivered: 8882
+  total_opens: 5063
+  total_clicks: 160
+  open_rate: 0.5687
+  click_rate: 0.018
+  total_unsubscribes: 11
+  ga4:
+    sessions: 109
+    purchases: 2
+    revenue: 839.08
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.728945'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.910967'
+schedule_type: time_based

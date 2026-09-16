@@ -1,0 +1,50 @@
+id: af853b5c-70d2-4f14-bf25-d130672fea21
+name: 070724_SF_B_Last_Day_Fourth_Of_July_PM_Email
+brand: STF
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: af853b5c-70d2-4f14-bf25-d130672fea21
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2024-07-07T23:00:18+00:00'
+  last_sent: '2024-07-07T23:01:19+00:00'
+tags:
+- Batch and Blast
+sends:
+- id: 563a4c67-dc7c-47ba-92fa-7fca928b9eaf
+  channel: email
+  name: Variant 1
+  subject: FINAL HOURS! Shop 20% Sitewide
+  preheader: Last call for our Fourth of July Event
+  html_file: html/070724_sf_b_last_day_fourth_of_july_pm_email.html
+  screenshot: screenshots/070724_sf_b_last_day_fourth_of_july_pm_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6684b7ae6a8064006542a007/original.jpg?1719973806
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6684b6d5b4688a007a5ababf/original.jpg?1719973588
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668828082bdc50005b393451/original.jpg?1720199176
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6684b6d549c170007bac7621/original.jpg?1719973588
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6684b6d59c40410070c25fb8/original.jpg?1719973588
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66882808e18a420059321937/original.jpg?1720199176
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6684b6d49c4041005bc2dd34/original.jpg?1719973588
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668826f87e4ec4005acd1c4a/original.gif?1720198904
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668828085d486700663778b4/original.jpg?1720199176
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6681bde9255ebf0070d6be26/original.jpeg?1719778792
+- id: e3e0fa75-bdc7-458a-80c6-cfa59b2d2fc0
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.721737'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.292546'
+schedule_type: time_based

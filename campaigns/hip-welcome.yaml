@@ -1,0 +1,65 @@
+id: 96d71674-a6ce-45c0-8ac3-d220a9be75b2
+name: HIP Welcome
+brand: HAV
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: 96d71674-a6ce-45c0-8ac3-d220a9be75b2
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-09-10T16:00:00+00:00'
+  last_sent: '2025-03-26T17:00:00+00:00'
+tags: []
+sends:
+- id: 366e5c4d-b6fc-44d7-9141-01967a4ec68f
+  channel: email
+  name: TRG_2024_09_HIP_Welcome_Email
+  subject: 'Welcome to Havenly In-Person! 🎉
+
+    '
+  preheader: ''
+  step_id: f7032a75-4fdd-41fa-b45e-8fd9504e387f
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.055554'
+    source: snowflake
+    channel: email
+canvas_steps:
+- id: d9f2fc8f-d860-4a50-b7f8-5eece2b24cdf
+  name: Step 1
+  type: delay
+- id: f7032a75-4fdd-41fa-b45e-8fd9504e387f
+  name: TRG_2024_09_HIP_Welcome_Email
+  type: message
+  channel: email
+  subject: 'Welcome to Havenly In-Person! 🎉
+
+    '
+  preheader: ''
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: hav_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: hav_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:33.415840'

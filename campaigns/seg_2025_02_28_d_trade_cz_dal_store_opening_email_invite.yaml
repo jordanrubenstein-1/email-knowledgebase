@@ -1,0 +1,45 @@
+id: 9f65f3cd-88e7-4c46-bc15-e8d1fbd32bf4
+name: SEG_2025_02_28_D_TRADE_CZ_DAL_Store_Opening_Email_Invite
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 9f65f3cd-88e7-4c46-bc15-e8d1fbd32bf4
+dates:
+  send_date: '2025-02-28'
+  inferred_send_type: local_time
+  first_sent: '2025-02-28T01:01:36+00:00'
+  last_sent: '2025-02-28T19:30:05+00:00'
+tags: []
+sends:
+- id: 32abeac0-a439-4c86-8040-0c2138fcc9f2
+  channel: email
+  name: Variant 1
+  subject: 'You''re Invited: Dallas Grand Opening'
+  preheader: Come celebrate our new store, in the city where our journey began.
+  html_file: html/seg_2025_02_28_d_trade_cz_dal_store_opening_email_invite.html
+  screenshot: screenshots/seg_2025_02_28_d_trade_cz_dal_store_opening_email_invite.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c0abaacb7c47006339e6a0/original.png?1740680105
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c0ada418c5dd0064710719/original.gif?1740680612
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c0ad9c288ab300622bdb19/original.png?1740680603
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c0ad7d43dd4500622e8b68/original.png?1740680572
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b65396084e4000643273a2/original.png?1740002197
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c0ad4018c5dd00647105ea/original.png?1740680511
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c0ad4a310b8c006436bd56/original.png?1740680521
+- id: 8d8a12d8-bcfa-456e-8816-2788b69819a8
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 15543
+  total_delivered: 15287
+  total_opens: 8527
+  total_clicks: 153
+  open_rate: 0.5486
+  click_rate: 0.0098
+  total_revenue: 10564.0
+  total_bounces: 4
+  total_unsubscribes: 40
+_filename: seg_2025_02_28_d_trade_cz_dal_store_opening_email_invite.yaml
+schedule_type: time_based

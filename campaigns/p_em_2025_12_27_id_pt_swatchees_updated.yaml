@@ -1,0 +1,43 @@
+id: a2137581-32c7-4527-8200-95fc0ce942d9
+name: P_EM_2025_12_27_ID_PT_Swatchees_Updated
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: a2137581-32c7-4527-8200-95fc0ce942d9
+dates:
+  send_date: '2025-12-27'
+  inferred_send_type: local_time
+  first_sent: '2025-12-26T17:24:18+00:00'
+  last_sent: '2025-12-27T17:16:09+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: d65dc8e6-be1c-439b-9e68-845a6c78ae1b
+  channel: email
+  name: Variant 1
+  subject: 'A Heads-Up '
+  preheader: Ordering now means faster delivery—and 25% off sitewide.
+- id: 0f64a218-ff8a-42db-a9cb-60bde52444ec
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 15781
+  total_delivered: 15595
+  total_opens: 6154
+  total_clicks: 60
+  open_rate: 0.39
+  click_rate: 0.0038
+  total_revenue: 66875.98
+  total_bounces: 1
+  total_unsubscribes: 32
+  ga4:
+    sessions: 51
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.233281'
+    source: snowflake
+    channel: email
+schedule_type: time_based

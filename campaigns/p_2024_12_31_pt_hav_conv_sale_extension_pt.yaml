@@ -1,0 +1,32 @@
+id: 3f8abe8c-bfea-4d74-8c8f-071ad28250ee
+name: P_2024_12_31_PT_HAV_Conv_Sale_Extension_PT
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 3f8abe8c-bfea-4d74-8c8f-071ad28250ee
+dates:
+  send_date: '2024-12-31'
+  first_sent: '2024-12-30T22:02:14+00:00'
+  last_sent: '2024-12-31T17:15:04+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 3b7f2ca9-ca25-4be9-a083-692823eca3a6
+  channel: email
+  name: Variant 1
+  subject: 'Re: your exclusive code for our End of Year sale'
+- id: bcd43acf-2758-4c42-b08d-241d1ddb6d5b
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 36374
+  total_delivered: 36175
+  total_opens: 22719
+  total_clicks: 307
+  open_rate: 0.6246
+  click_rate: 0.0084
+  total_unsubscribes: 68
+schedule_type: time_based
+_filename: p_2024_12_31_pt_hav_conv_sale_extension_pt.yaml

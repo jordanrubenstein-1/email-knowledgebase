@@ -1,0 +1,75 @@
+id: 894e4ba1-9cfa-4f8c-a881-397a1a8eeab3
+name: 2025_03_23_BW_Bestsellers
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 894e4ba1-9cfa-4f8c-a881-397a1a8eeab3
+dates:
+  send_date: '2025-03-23'
+  inferred_send_type: local_time
+  first_sent: '2025-03-22T17:24:05+00:00'
+  last_sent: '2025-03-23T17:15:11+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: e45f3241-1152-4abe-bffc-f3f5bc660353
+  channel: email
+  name: Variant 1
+  subject: Bestsellers at their best prices
+  preheader: Shop the Spring Event now.
+- id: d96b53c1-4a39-493f-afa3-1c515bed63c9
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 264128
+  total_delivered: 262223
+  total_opens: 88602
+  total_clicks: 435
+  open_rate: 0.3355
+  click_rate: 0.0016
+  total_revenue: 96043.0
+  total_bounces: 4
+  total_unsubscribes: 109
+  ga4:
+    sessions: 195
+    purchases: 2
+    revenue: 2860.07
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.653114'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:32.580258'
+schedule_type: time_based

@@ -1,0 +1,35 @@
+id: 50f836b9-2b62-4842-8bc3-a6494394d8b5
+name: P_EM_2026_04_20_HAV_PC_D_April_Reset_Last_Chance
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 50f836b9-2b62-4842-8bc3-a6494394d8b5
+dates:
+  send_date: '2026-04-20'
+  first_sent: '2026-04-19T18:08:05+00:00'
+  last_sent: '2026-04-20T18:00:26+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 3c81ce73-c8d6-4422-b320-8d9df43f04f8
+  channel: email
+  name: Variant 1
+  subject: 'April Reset Final Bloom '
+  preheader: Last chance to save 50% on interior design services
+- id: 91af6aa3-0dee-4b47-9476-73d6233efc27
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 282360
+  total_delivered: 279660
+  total_opens: 105068
+  total_clicks: 438
+  open_rate: 0.3721
+  click_rate: 0.0016
+  total_bounces: 15
+  total_unsubscribes: 472
+schedule_type: time_based
+_filename: p_em_2026_04_20_hav_pc_d_april_reset_last_chance.yaml

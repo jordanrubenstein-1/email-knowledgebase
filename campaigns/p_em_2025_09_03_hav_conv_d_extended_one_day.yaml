@@ -1,0 +1,35 @@
+id: 46a7c2fa-0091-4157-a6b3-bc3a9b819788
+name: P_EM_2025_09_03_HAV_CONV_D_Extended_One_Day
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 46a7c2fa-0091-4157-a6b3-bc3a9b819788
+dates:
+  send_date: '2025-09-03'
+  first_sent: '2025-09-02T21:34:28+00:00'
+  last_sent: '2025-09-03T17:15:25+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 18368f5f-c505-4d82-8bc8-227c36e9fd3f
+  channel: email
+  name: Variant 1
+  subject: 'Knock, Knock—Sale Is BACK! '
+  preheader: There’s still time for up to 70% off.
+- id: 724e0fee-0a2e-4043-80f3-b7cedc5fd390
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41348
+  total_delivered: 41337
+  total_opens: 21623
+  total_clicks: 142
+  open_rate: 0.523
+  click_rate: 0.0034
+  total_bounces: 1
+  total_unsubscribes: 64
+schedule_type: time_based
+_filename: p_em_2025_09_03_hav_conv_d_extended_one_day.yaml

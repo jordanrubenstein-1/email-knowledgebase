@@ -1,0 +1,52 @@
+id: e0d4084b-8ed6-4933-97a6-400fc2307c59
+name: P_EM_2025_09_19_HAV_PC_D_Get_Guest_Ready_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: e0d4084b-8ed6-4933-97a6-400fc2307c59
+dates:
+  send_date: '2025-09-19'
+  inferred_send_type: local_time
+  first_sent: '2025-09-19T00:24:28+00:00'
+  last_sent: '2025-09-19T18:15:04+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 06e059c3-37b0-4b98-bf69-6af166a14025
+  channel: email
+  name: Variant 1
+  subject: HALF OFF Design Services
+  preheader: Get your house hosting ready
+  html_file: html/p_em_2025_09_19_hav_pc_d_get_guest_ready_sale_reminder.html
+  screenshot: screenshots/p_em_2025_09_19_hav_pc_d_get_guest_ready_sale_reminder.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cc60d41c17d700942efaa0/original.png?1758224596
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cc60cb9181d2007456841b/original.png?1758224587
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cc60bf15c1440075b2abe7/original.gif?1758224575
+- id: 18c9f1c4-6648-46cc-9d6a-df9f7eabb0df
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 232721
+  total_delivered: 231698
+  total_opens: 95719
+  total_clicks: 384
+  open_rate: 0.4113
+  click_rate: 0.0017
+  total_bounces: 2
+  total_unsubscribes: 372
+  ga4:
+    sessions: 207
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.814617'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:45.088957'
+schedule_type: time_based

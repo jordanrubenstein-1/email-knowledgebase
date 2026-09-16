@@ -1,0 +1,57 @@
+id: 89cffc74-3198-439b-ba5d-da9ef14a4c61
+name: P_2024_11_9_D_CZ_PR_Back_in_Stock_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 89cffc74-3198-439b-ba5d-da9ef14a4c61
+dates:
+  send_date: '2024-11-09'
+  inferred_send_type: local_time
+  first_sent: '2024-11-08T17:09:53+00:00'
+  last_sent: '2024-11-09T17:01:08+00:00'
+tags:
+- batch and blast
+sends:
+- id: 087f794c-43ab-4baa-81b8-82c3a9556107
+  channel: email
+  name: Variant 1
+  subject: These best sellers are (finally) back
+  preheader: Just in time for holiday hosting.
+  html_file: html/p_2024_11_9_d_cz_pr_back_in_stock_email.html
+  screenshot: screenshots/p_2024_11_9_d_cz_pr_back_in_stock_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672bb73a16f8480066eaae7e/original.gif?1730918202
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672bb66899232c0065a13132/original.jpg?1730917992
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672bb6ed16f8480066eaad27/original.jpg?1730918125
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672bb6fd16f8480066eaad46/original.jpg?1730918141
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672bb70efffd500065b59985/original.jpg?1730918158
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672bb69099232c0065a1319c/original.jpg?1730918032
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672bb6a68e31020064ccce45/original.jpg?1730918053
+- id: 365f5891-0c09-4b41-9548-23a589dd3f91
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 91641
+  total_delivered: 91073
+  total_opens: 44717
+  total_clicks: 1167
+  open_rate: 0.488
+  click_rate: 0.0127
+  total_revenue: 100233.43
+  total_bounces: 10
+  total_unsubscribes: 113
+  ga4:
+    sessions: 1857
+    purchases: 18
+    revenue: 6513.64
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.262091'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.620784'
+schedule_type: time_based

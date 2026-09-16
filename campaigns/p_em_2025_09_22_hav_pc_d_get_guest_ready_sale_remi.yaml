@@ -1,0 +1,56 @@
+id: cf826418-d0dc-4e8b-a87f-c96827686c13
+name: P_EM_2025_09_22_HAV_PC_D_Get_Guest_Ready_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: cf826418-d0dc-4e8b-a87f-c96827686c13
+dates:
+  send_date: '2025-09-22'
+  inferred_send_type: local_time
+  first_sent: '2025-09-21T18:21:18+00:00'
+  last_sent: '2025-09-22T18:15:04+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 9cecce71-4a60-458e-994e-afb367af15ce
+  channel: email
+  name: Variant 1
+  subject: Great design takes time. Start with 50% off today
+  preheader: Your holiday self will thank you.
+  html_file: html/p_em_2025_09_22_hav_pc_d_get_guest_ready_sale_reminder.html
+  screenshot: screenshots/p_em_2025_09_22_hav_pc_d_get_guest_ready_sale_reminder.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68ccb2f6c5cc860076f9ac87/original.gif?1758245621
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68ccb2714c18240075cacf74/original.png?1758245489
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68ccb2eff0d69b0085f20901/original.png?1758245615
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68ccb28a4c18240075cacf75/original.png?1758245513
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68ccb262b52f400065389b62/original.gif?1758245474
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68ccb269e173800066d72724/original.png?1758245481
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68ccb2a12c9cb7006622d04e/original.png?1758245536
+- id: 2ed44066-d6ee-4fc4-bf53-d98c3cfef9d3
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 235061
+  total_delivered: 234024
+  total_opens: 95618
+  total_clicks: 288
+  open_rate: 0.4068
+  click_rate: 0.0012
+  total_bounces: 10
+  total_unsubscribes: 483
+  ga4:
+    sessions: 187
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.811782'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.990223'
+schedule_type: time_based

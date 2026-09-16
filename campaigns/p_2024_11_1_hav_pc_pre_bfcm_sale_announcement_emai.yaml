@@ -1,0 +1,52 @@
+id: 1189e4a3-fe22-41fd-ae29-a9a00e52bb38
+name: P_2024_11_1_HAV_PC_Pre_BFCM_Sale_Announcement_Email
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: black_friday
+braze_id: 1189e4a3-fe22-41fd-ae29-a9a00e52bb38
+dates:
+  send_date: '2024-11-01'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-01T04:56:06+00:00'
+  last_sent: '2024-11-01T18:15:06+00:00'
+tags: []
+sends:
+- id: f8778e7c-a2b0-47d6-87ae-ca9af272da05
+  channel: email
+  name: Variant 1
+  subject: It’s tiiiiiiime! ⏰
+  preheader: '*Cue Mariah Carey voice*'
+  html_file: html/p_2024_11_1_hav_pc_pre_bfcm_sale_announcement_email.html
+  screenshot: screenshots/p_2024_11_1_hav_pc_pre_bfcm_sale_announcement_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6723e053f881c40065f7488d/original.png?1730404435
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6723e06f1e9f9d00647cf641/original.png?1730404463
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6723e0b34b37f10072d888a3/original.png?1730404530
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6723e062b0923800742bb1f2/original.gif?1730404450
+- id: ad60c59d-aae6-4916-ab2e-ee7139b1a279
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 153331
+  total_delivered: 151609
+  total_opens: 72809
+  total_clicks: 488
+  open_rate: 0.4748
+  click_rate: 0.0032
+  total_bounces: 5
+  total_unsubscribes: 430
+  ga4:
+    sessions: 384
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.849254'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:45.510765'
+schedule_type: time_based

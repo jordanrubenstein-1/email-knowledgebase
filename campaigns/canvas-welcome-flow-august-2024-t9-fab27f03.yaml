@@ -1,0 +1,32 @@
+id: fab27f03-3299-46f1-8c58-9bd5dfa94083
+name: TRG_EM_2024_07_CZ_D_Welcome_Bedding_T2
+brand: CZ
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: c7ee8f4e-f9f7-4e59-87e1-ac78e49ddc23
+canvas_name: Welcome Flow - August 2024
+flow_type: welcome_series
+sequence_position: 9
+subject: Your best rest begins here
+preheader: Bedding ships free, good sleep guaranteed.
+sends:
+- id: fab27f03-3299-46f1-8c58-9bd5dfa94083
+  channel: email
+  name: TRG_EM_2024_07_CZ_D_Welcome_Bedding_T2
+  subject: Your best rest begins here
+  preheader: Bedding ships free, good sleep guaranteed.
+  html_file: html/canvas-welcome-flow-august-2024-t9-fab27f03.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-24T19:00:00Z'
+  last_sent: '2026-08-10T15:00:00Z'
+performance_summary:
+  total_sends: 53
+  total_delivered: 53
+  total_opens: 33
+  total_clicks: 15
+  open_rate: 0.6226
+  click_rate: 0.283
+  total_unsubscribes: 6

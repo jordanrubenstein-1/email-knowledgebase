@@ -1,0 +1,34 @@
+id: 8c4b641f-5882-4cd7-9f53-5be5f0584570
+name: Post Purchase - Dining Chair Buyer No Table
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 8c4b641f-5882-4cd7-9f53-5be5f0584570
+braze_type: canvas
+campaign_type: Triggered Journey
+dates: {}
+tags: []
+sends:
+- id: 1281671e-a814-4f02-873b-465d3d6d529a
+  channel: email
+  name: TRG_EM_2026_07_BW_D_Dining_Chair_Rec_T1_V1
+  subject: Your new table is missing something
+  preheader: ''
+  step_id: 02fdcf93-dbbb-49e8-b614-41437ec592f8
+performance_summary: {}
+canvas_steps:
+- id: 7ab4db1e-5ff0-4e80-a2b1-68f957b4f5ec
+  name: Step 1
+  type: delay
+- id: 02fdcf93-dbbb-49e8-b614-41437ec592f8
+  name: TRG_EM_2026_07_BW_D_Dining_Chair_Rec_T1_V1
+  type: message
+  channel: email
+  subject: Your new table is missing something
+  preheader: ''
+- id: 011131d7-98f4-45ae-9e0d-a4720e943c65
+  name: TRG_EM_2026_07_BW_D_Dining_Table_Rec_T1_V1
+  type: message
+_filename: post-purchase-dining-chair-buyer-no-table.yaml

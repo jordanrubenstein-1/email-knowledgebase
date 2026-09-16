@@ -1,0 +1,35 @@
+id: 184d4baa-a95b-4e6a-9540-f9cb7d21725d
+name: P_EM_2026_03_12_HAV_CONV_D_The_Birthday_Sale_Is_ON
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 184d4baa-a95b-4e6a-9540-f9cb7d21725d
+dates:
+  send_date: '2026-03-12'
+  first_sent: '2026-03-11T17:09:55+00:00'
+  last_sent: '2026-03-12T17:03:39+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 510ee645-a23e-4f40-8e89-31c7f03fd911
+  channel: email
+  name: Variant 1
+  subject: 🎉 The Birthday Sale is ON
+  preheader: Celebrate with savings across every room in your home.
+- id: 4729ef25-07d7-4312-b584-f94b840cb478
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 43238
+  total_delivered: 43214
+  total_opens: 21668
+  total_clicks: 190
+  open_rate: 0.5011
+  click_rate: 0.0044
+  total_bounces: 1
+  total_unsubscribes: 40
+schedule_type: time_based
+_filename: p_em_2026_03_12_hav_conv_d_the_birthday_sale_is_on.yaml

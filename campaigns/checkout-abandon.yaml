@@ -1,0 +1,94 @@
+id: fc4d8fed-126c-46d2-ab34-21225eea8e55
+name: Checkout Abandon
+brand: CZ
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: fc4d8fed-126c-46d2-ab34-21225eea8e55
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2025-11-13T15:00:00+00:00'
+  last_sent: '2025-11-13T15:00:00+00:00'
+tags:
+- cart abandon
+sends:
+- id: 7a2451fc-1a2f-435f-b49d-03d14e4ccec0
+  channel: email
+  name: TRG_EM_2024_08_CZ_D_Cart_Abandon_T3
+  subject: Your cart is waiting...
+  preheader: You are almost there
+  step_id: aec7d5f1-6732-429c-8200-2c8ca31395d9
+- id: 58b0ef59-2e9a-4ad6-a757-035032c58261
+  channel: email
+  name: TRG_EM_2024_08_CZ_D_Cart_Abandon_T2
+  subject: We saved your cart
+  preheader: ''
+  step_id: 1574d9f1-505a-41a5-a15f-324a316139b4
+- id: bbd9bd68-2ad7-4c6d-9e81-9f094d53a480
+  channel: email
+  name: TRG_EM_2024_08_CZ_D_Cart_Abandon_T4
+  subject: Your Cart is Ready
+  preheader: ''
+  step_id: b86aad9e-b67d-4c34-9034-5a6150e2958b
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.540161'
+    source: snowflake
+    channel: email
+canvas_steps:
+- id: aec7d5f1-6732-429c-8200-2c8ca31395d9
+  name: TRG_EM_2024_08_CZ_D_Cart_Abandon_T3
+  type: message
+  channel: email
+  subject: Your cart is waiting...
+  preheader: You are almost there
+- id: 1574d9f1-505a-41a5-a15f-324a316139b4
+  name: TRG_EM_2024_08_CZ_D_Cart_Abandon_T2
+  type: message
+  channel: email
+  subject: We saved your cart
+  preheader: ''
+- id: ef316dec-5a95-44cf-9f77-d8e0bb28fc29
+  name: D3 1 day
+  type: delay
+- id: b86aad9e-b67d-4c34-9034-5a6150e2958b
+  name: TRG_EM_2024_08_CZ_D_Cart_Abandon_T4
+  type: message
+  channel: email
+  subject: Your Cart is Ready
+  preheader: ''
+- id: 6ddf30bf-f729-4b80-98e1-01bc45069773
+  name: D2 40 mins
+  type: delay
+- id: 6390ac00-9b62-45a8-a007-6a06b587bead
+  name: Email Subscribed?
+  type: decision_split
+- id: 22910da6-bf98-470f-b0a0-d00e35e925bb
+  name: D4 1 day
+  type: delay
+- id: 7569d323-1fe0-4d3a-817e-e75502bbf88e
+  name: SMS Opted In?
+  type: decision_split
+- id: 56abb009-466d-4c0d-a0b8-73ea3477a446
+  name: TRG_SMS_2024_08_CZ_D_Cart_Abandon_T1
+  type: message
+- id: 16570df1-a808-4e78-bc3e-1b5ef93a34b6
+  name: Email Subscribed?
+  type: decision_split
+- id: 8c9c64a2-e38e-4a39-95b7-a5602b0b574d
+  name: Email Subscribed?
+  type: decision_split
+- id: 56a43c88-5b09-4c98-ad98-1c9df9857b5c
+  name: D1 20 mins
+  type: action_paths
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.573462'

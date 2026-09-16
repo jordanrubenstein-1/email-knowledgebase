@@ -1,0 +1,34 @@
+id: f15dc178-3ce9-4f25-861a-b36af51c2242
+name: DAL RSVP Confirmation
+brand: CZ
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: a637f38a-d0be-49e3-a490-47a63c386086
+canvas_name: Dallas RSVP Confirmation and Welcome Flow - February 2025
+flow_type: welcome_series
+sequence_position: 4
+subject: You're On The List
+preheader: See you at the grand opening of our Dallas store!
+sends:
+- id: f15dc178-3ce9-4f25-861a-b36af51c2242
+  channel: email
+  name: DAL RSVP Confirmation
+  subject: You're On The List
+  preheader: See you at the grand opening of our Dallas store!
+  html_file: html/canvas-dallas-rsvp-confirmation-and-welcome-flow-february-2025-t4-f15dc178.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-02-22T00:00:00Z'
+  last_sent: '2025-08-29T01:00:00Z'
+performance_summary:
+  total_sends: 161
+  total_delivered: 154
+  total_opens: 123
+  total_clicks: 17
+  open_rate: 0.764
+  click_rate: 0.1056
+  total_unsubscribes: 1
+  total_bounces: 3
+  total_revenue: 3964.0

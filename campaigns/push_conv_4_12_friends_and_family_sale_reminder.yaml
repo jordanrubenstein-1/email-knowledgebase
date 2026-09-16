@@ -1,0 +1,23 @@
+id: 56ef5dac-0ee2-4df2-a3ac-9d2e4ad594e0
+name: PUSH_Conv_4_12_Friends_and_Family_Sale_Reminder
+brand: HAV
+channel: push
+category: reminder
+type: sale
+theme: null
+braze_id: 56ef5dac-0ee2-4df2-a3ac-9d2e4ad594e0
+dates:
+  first_sent: '2025-04-12T03:08:50+00:00'
+  last_sent: '2025-04-13T02:00:41+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: fb1cd8a8-ef32-4cac-86de-ca270e5e775f
+  channel: push
+  name: Variant 1
+- id: b14eecd9-dee7-4eb2-8352-6c8c75068c84
+  channel: push
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: push_conv_4_12_friends_and_family_sale_reminder.yaml

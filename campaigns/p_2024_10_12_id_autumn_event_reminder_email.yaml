@@ -1,0 +1,45 @@
+id: 6a134c6c-dbab-4635-9296-e8d57cb9d7c4
+name: P_2024_10_12_ID_Autumn_Event_Reminder_Email
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: fall
+braze_id: 6a134c6c-dbab-4635-9296-e8d57cb9d7c4
+dates:
+  send_date: '2024-10-12'
+  inferred_send_type: local_time
+  first_sent: '2024-10-11T17:30:12+00:00'
+  last_sent: '2024-10-12T17:15:02+00:00'
+tags: []
+sends:
+- id: 4ad6c9cc-b11c-4aca-a666-4486d327fe8e
+  channel: email
+  name: Variant 1
+  subject: Enjoy 20% Off Custom Furniture
+  preheader: Fall Into Savings 🍁
+- id: 2c69107b-090c-47e9-bf09-cb0ca1463f0e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 55137
+  total_delivered: 54593
+  total_opens: 19825
+  total_clicks: 697
+  open_rate: 0.3596
+  click_rate: 0.0126
+  total_revenue: 255052.04
+  total_unsubscribes: 77
+  ga4:
+    sessions: 737
+    purchases: 6
+    revenue: 13873.54
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.258452'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.179941'
+schedule_type: time_based

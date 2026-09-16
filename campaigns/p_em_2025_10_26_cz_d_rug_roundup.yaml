@@ -1,0 +1,66 @@
+id: ea32db16-275c-4a49-9b17-bd2fa9c2dca6
+name: P_EM_2025_10_26_CZ_D_Rug_Roundup
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: ea32db16-275c-4a49-9b17-bd2fa9c2dca6
+dates:
+  send_date: '2025-10-26'
+  inferred_send_type: scheduled
+  first_sent: '2025-10-26T13:09:37+00:00'
+  last_sent: '2025-10-26T17:15:36+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- prod
+- rugs
+- sale
+- sale_feat
+sends:
+- id: 39026c94-0136-4664-a413-3e1b2727466d
+  channel: email
+  name: Variant 1
+  subject: '20% Off Heirloom Rugs '
+  preheader: Handwoven from master artisans across the globe.
+  html_file: html/p_em_2025_10_26_cz_d_rug_roundup.html
+  screenshot: screenshots/p_em_2025_10_26_cz_d_rug_roundup.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68fbce5fc1a4e10064f0fe23/original.png?1761332831
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68fbcf4827a6370064f26245/original.png?1761333063
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68fbcf5152ee0b0073141cbf/original.png?1761333073
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68fbcf4dd1406100738aec4e/original.png?1761333068
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68fbcecf9e9d0200632246fa/original.png?1761332942
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68fbcf1627a6370064f26028/original.png?1761333014
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68fbcf3dd7fc4100656d7140/original.png?1761333052
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68fbcf33d7fc4100656d7139/original.png?1761333042
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68fbcf4167490000720e6fd7/original.png?1761333057
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68fbce664813e20073be08fc/original.png?1761332837
+- id: d57382c7-d181-4f7c-bf59-3a02cdb0985e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 91641
+  total_delivered: 91290
+  total_opens: 47617
+  total_clicks: 632
+  open_rate: 0.5196
+  click_rate: 0.0069
+  total_bounces: 1
+  total_unsubscribes: 102
+  ga4:
+    sessions: 777
+    purchases: 7
+    revenue: 6509.1
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.669383'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.652214'
+schedule_type: time_based

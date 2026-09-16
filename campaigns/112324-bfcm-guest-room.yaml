@@ -1,0 +1,75 @@
+id: klaviyo-01JD56AD295R26ZTGPJK9VW9QH
+name: '11/23/24: BFCM Guest Room'
+brand: TI
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2024-11-20'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-23T07:00:00+00:00'
+  last_sent: '2024-11-23T07:00:00+00:00'
+sends:
+- id: 01JD56AD337VDEXDVYKNW7F3CE
+  channel: email
+  name: '11/23/24: BFCM Guest Room'
+  subject: Your Guests Will Thank You For This
+  preheader: Shop 25% off sitewide, including guest room essentials.
+  html_file: html/112324-bfcm-guest-room.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/c5349ce2-993d-4912-81a1-def6a6e7cfcf.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/fc4f83a9-879a-4761-a2da-85e2fe700d1c.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/0538d2d2-d01b-4e8a-8e7a-5e5d9e3524be.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/cb797afd-cba5-4b2a-bbc7-c97aac729d62.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/c18db5a7-5aff-4863-a6c2-97ae264096a2.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/00e78030-90ab-43dc-8658-c079ad28425d.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/91b3c069-38d1-4578-9309-82b739dc4bc4.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/48f8b0bf-f674-4de6-83a6-f00ae0bfb57e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/540853c8-8c70-448b-a725-646b49b74abd.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/32191a80-fff4-48be-b3bd-e9de4133f150.jpeg
+  screenshot: screenshots/112324-bfcm-guest-room.png
+performance_summary:
+  total_sends: 103995
+  total_delivered: 103499
+  total_opens: 32103
+  total_clicks: 1827
+  unique_opens: 22564
+  unique_clicks: 247
+  open_rate: 0.217
+  click_rate: 0.0024
+  total_open_rate: 0.3087
+  total_click_rate: 0.0176
+  total_unsubscribes: 37
+  total_bounces: 496
+klaviyo_type: campaign
+klaviyo_campaign_id: 01JD56AD295R26ZTGPJK9VW9QH
+klaviyo_message_id: 01JD56AD337VDEXDVYKNW7F3CE
+structure:
+  image_count: 31
+  link_count: 32
+  has_gif: true
+  hero_width: 600
+  layout_type: product_grid
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: ti-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: ti-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-03-12T11:18:50.279028'

@@ -1,0 +1,33 @@
+id: f7578416-bee0-4385-8ec9-e98e2d81d834
+name: TRG_EM_2024_08_ID_D_Swatch_Get_Started_T1_V1
+brand: ID
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 985f2ea2-f92d-461c-8276-effcef79f7ec
+canvas_name: Swatch Post Purchase
+flow_type: post_purchase
+sequence_position: 1
+subject: Found your fabric match?
+preheader: ''
+sends:
+- id: f7578416-bee0-4385-8ec9-e98e2d81d834
+  channel: email
+  name: TRG_EM_2024_08_ID_D_Swatch_Get_Started_T1_V1
+  subject: Found your fabric match?
+  preheader: ''
+  html_file: html/canvas-swatch-post-purchase-t1-f7578416.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-30T13:00:00Z'
+  last_sent: '2026-04-28T21:00:00Z'
+performance_summary:
+  total_sends: 107601
+  total_delivered: 106646
+  total_opens: 42155
+  total_clicks: 1546
+  open_rate: 0.3918
+  click_rate: 0.0144
+  total_unsubscribes: 374
+  total_bounces: 6

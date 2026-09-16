@@ -1,0 +1,47 @@
+id: 0c66d31d-14d8-4e0b-b3fe-dd4848e38871
+name: P_2024_08_09_D_SF_PR_Sunset_Sale_Trade_Email
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 0c66d31d-14d8-4e0b-b3fe-dd4848e38871
+dates:
+  send_date: '2024-08-09'
+  inferred_send_type: scheduled
+  first_sent: '2024-08-08T23:46:55+00:00'
+  last_sent: '2024-08-09T14:15:01+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: b8df4aaf-9594-413a-8c09-cb7f7b907c8a
+  channel: email
+  name: Variant 1
+  subject: 'TRADE ONLY: 25% OFF'
+  preheader: use code TRADE25OFF
+- id: aed5780f-c037-4e31-bbd7-3e3f71b7860b
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 667
+  total_delivered: 662
+  total_opens: 125
+  total_clicks: 17
+  open_rate: 0.1874
+  click_rate: 0.0255
+  total_revenue: 465.0
+  total_bounces: 3
+  total_unsubscribes: 2
+  ga4:
+    sessions: 21
+    purchases: 1
+    revenue: 371.25
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.117704'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.815828'
+schedule_type: time_based

@@ -1,0 +1,47 @@
+id: 057e84a3-dadd-4f61-806e-d673508735c4
+name: P_EM_2025_09_05_ID_D_Friday_Retail
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 057e84a3-dadd-4f61-806e-d673508735c4
+dates:
+  send_date: '2025-09-05'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-05T21:00:36+00:00'
+  last_sent: '2025-09-05T21:07:37+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: b590e24d-69f4-495a-bf93-57396844d81e
+  channel: email
+  name: Variant 1
+  subject: 25% Off? Free Design Help? It’s All Happening.
+  preheader: Secure your spot, Labor Day savings end soon.
+- id: 625c38fe-2c48-4951-b3c2-68d24b258237
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 133233
+  total_delivered: 131271
+  total_opens: 59900
+  total_clicks: 166
+  open_rate: 0.4496
+  click_rate: 0.0012
+  total_revenue: 286323.99
+  total_bounces: 12
+  total_unsubscribes: 299
+  ga4:
+    sessions: 183
+    purchases: 3
+    revenue: 11216.65
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.155718'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.131520'
+schedule_type: time_based

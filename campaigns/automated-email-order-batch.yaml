@@ -1,0 +1,22 @@
+id: 01c9dad5-9ee0-0018-1b02-d9080c9c0112
+name: Automated Email Order Batch
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 01c9dad5-9ee0-0018-1b02-d9080c9c0112
+dates: {}
+tags: []
+sends:
+- id: 65a9f0c9-d908-47b0-bc66-a5387d54f95a
+  channel: email
+  name: Variant 1
+  subject: '{{api_trigger_properties.${vendorOrderArray}.first.vendor_title}} - Havenly
+    Order'
+- id: c2c2acd2-c509-4e06-b524-729df0c2586f
+  channel: other
+  name: Control Group
+performance_summary: {}
+schedule_type: api_triggered
+_filename: automated-email-order-batch.yaml

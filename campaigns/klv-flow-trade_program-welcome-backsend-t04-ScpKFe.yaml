@@ -1,0 +1,56 @@
+id: klaviyo-ScpKFe
+name: 'trade-approved_email-02 Test #1 August 06, 2024 Variation B'
+brand: TE
+channel: email
+category: other
+type: lifecycle
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: UeHqdT
+canvas_name: trade_program-welcome-backsend2-studio_purchase
+flow_type: welcome_series
+sequence_position: 4
+dates:
+  created: '2024-10-09'
+  inferred_send_type: scheduled
+  first_sent: '2024-10-09'
+  last_sent: '2024-10-09'
+sends:
+- id: ScpKFe
+  channel: email
+  name: Message
+  subject: Discover The Expert Collection
+  preheader: Exclusive pieces that transcend trends.
+  html_file: html/klv-flow-trade_program-welcome-backsend-t04-ScpKFe.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/dac146b7-7dfc-4851-8cf1-d7978d5e7110.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/f6f24afb-268d-4013-b348-ea9f730b3d87.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/d689e431-4307-4698-b213-1575bcb5ff20.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/853fcb0e-3b1c-4ab0-8fb4-91b435fe7e22.gif
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/e272aad3-f1f2-449b-81d1-e643a8358a5e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/3330f754-2e79-42f3-94ef-32753526193a.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/e97760d1-0cbd-448f-8074-21454c7df82a.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/798abbbb-48f4-4491-ab03-73de6cf14166.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/39bc9147-9316-4486-9abb-91b86390ef13.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/9440d89d-ddc6-49f4-b186-a5cee8317a8a.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: ScpKFe
+structure:
+  image_count: 26
+  link_count: 31
+  has_gif: true
+  hero_width: 100
+  layout_type: product_grid

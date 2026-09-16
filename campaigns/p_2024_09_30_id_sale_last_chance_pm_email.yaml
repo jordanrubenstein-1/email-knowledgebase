@@ -1,0 +1,45 @@
+id: b5940b89-f397-43f9-a4be-700314a878f0
+name: P_2024_09_30_ID_Sale_Last_Chance_PM_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: b5940b89-f397-43f9-a4be-700314a878f0
+dates:
+  send_date: '2024-09-30'
+  inferred_send_type: scheduled
+  first_sent: '2024-09-30T17:14:38+00:00'
+  last_sent: '2024-10-01T01:15:02+00:00'
+tags: []
+sends:
+- id: d564bec2-70c9-4eed-aa4c-9d3718eda86c
+  channel: email
+  name: Variant 1
+  subject: Our September Sale ends in 3, 2, 1…
+  preheader: Last chance for 20% off everything ⌛
+- id: 6cf40399-a426-4f48-9d73-c154d50a5747
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 7181
+  total_delivered: 7137
+  total_opens: 4318
+  total_clicks: 185
+  open_rate: 0.6013
+  click_rate: 0.0258
+  total_revenue: 61523.0
+  total_unsubscribes: 5
+  ga4:
+    sessions: 219
+    purchases: 2
+    revenue: 6733.13
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.403018'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.810586'
+schedule_type: time_based

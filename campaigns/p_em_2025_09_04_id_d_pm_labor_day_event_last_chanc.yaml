@@ -1,0 +1,63 @@
+id: 907e3661-647d-46b7-a41b-4cb8b51ea828
+name: P_EM_2025_09_04_ID_D_PM_Labor_Day_Event_Last_Chance
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 907e3661-647d-46b7-a41b-4cb8b51ea828
+dates:
+  send_date: '2025-09-04'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-04T20:33:20+00:00'
+  last_sent: '2025-09-05T02:45:12+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 9f13ebb6-7571-4b94-be62-57824fcd1888
+  channel: email
+  name: Variant 1
+  subject: DO. NOT. MISS. THIS. SALE.
+  preheader: Final hours to save 25% off sitewide.
+- id: bb87e17b-8005-4656-a72a-b68d8c36ea8c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 90069
+  total_delivered: 89566
+  total_opens: 40566
+  total_clicks: 752
+  open_rate: 0.4504
+  click_rate: 0.0083
+  total_revenue: 268794.0
+  total_bounces: 3
+  total_unsubscribes: 176
+  ga4:
+    sessions: 894
+    purchases: 9
+    revenue: 27934.71
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.835735'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-04'
+    discount: 25% off sitewide
+    type: null
+  primary_sale:
+    id: id-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-04'
+    discount: 25% off sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 25% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:39.706976'
+schedule_type: time_based

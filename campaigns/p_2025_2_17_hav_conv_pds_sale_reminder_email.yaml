@@ -1,0 +1,33 @@
+id: f34cb4e9-667f-49fc-be0c-71fb7a3ed29c
+name: P_2025_2_17_HAV_Conv_PDS_Sale_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: f34cb4e9-667f-49fc-be0c-71fb7a3ed29c
+dates:
+  send_date: '2025-02-17'
+  first_sent: '2025-02-16T17:24:18+00:00'
+  last_sent: '2025-02-17T17:15:09+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 0f605cb6-02fa-4f71-825b-a71d1e0e7e1b
+  channel: email
+  name: Variant 1
+  subject: Presidents Day deals too good to last
+  preheader: Don’t miss out on exclusive savings
+- id: ffbd1fad-ca51-47c6-8451-bfdbdda7a14f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 38069
+  total_delivered: 37969
+  total_opens: 21329
+  total_clicks: 209
+  open_rate: 0.5603
+  click_rate: 0.0055
+  total_unsubscribes: 55
+schedule_type: time_based
+_filename: p_2025_2_17_hav_conv_pds_sale_reminder_email.yaml

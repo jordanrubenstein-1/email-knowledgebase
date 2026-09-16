@@ -1,0 +1,55 @@
+id: 4944a1b8-c9aa-45e9-87ab-8a0dd9114e49
+name: P_EM_2025_09_06_PT_CZ_Morocco_Restock
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 4944a1b8-c9aa-45e9-87ab-8a0dd9114e49
+dates:
+  send_date: '2025-09-06'
+  inferred_send_type: local_time
+  first_sent: '2025-09-05T23:44:09+00:00'
+  last_sent: '2025-09-06T17:01:53+00:00'
+tags:
+- am
+- batch and blast
+- dest
+- instock
+- pt
+- sale
+sends:
+- id: ee97eea8-30fe-43b5-9b52-7719887a7331
+  channel: email
+  name: Variant 1
+  subject: Your exclusive back-in-stock news
+  preheader: Shop The Morocco Collection before everyone else.
+  html_file: html/p_em_2025_09_06_pt_cz_morocco_restock.html
+  screenshot: screenshots/p_em_2025_09_06_pt_cz_morocco_restock.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f83def4631c700674e669c/original.png?1744322031
+- id: cf36f7e2-7ab2-45e7-8185-e011b131894f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 104144
+  total_delivered: 103530
+  total_opens: 65334
+  total_clicks: 1932
+  open_rate: 0.6273
+  click_rate: 0.0186
+  total_bounces: 4
+  total_unsubscribes: 312
+  ga4:
+    sessions: 2231
+    purchases: 20
+    revenue: 8321.13
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.576531'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.441522'
+schedule_type: time_based

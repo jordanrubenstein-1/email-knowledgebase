@@ -1,0 +1,35 @@
+id: 67db4ab6-e770-48ac-94ef-8e2c1be366f3
+name: TRG_2024_ID_Cart_Abandon_T2_Email
+brand: ID
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: b6076d51-b7fd-432c-a79c-be2acf40bb52
+canvas_name: Cart Abandon test
+flow_type: cart_abandonment
+sequence_position: 2
+subject: Great choice - you'll love this!
+preheader: 'On the fence? Get expert design advice
+
+  '
+sends:
+- id: 67db4ab6-e770-48ac-94ef-8e2c1be366f3
+  channel: email
+  name: TRG_2024_ID_Cart_Abandon_T2_Email
+  subject: Great choice - you'll love this!
+  preheader: 'On the fence? Get expert design advice
+
+    '
+  html_file: html/canvas-cart-abandon-test-t2-67db4ab6.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-11-13T20:00:00Z'
+  last_sent: '2025-11-21T19:00:00Z'
+performance_summary:
+  total_sends: 12
+  total_delivered: 12
+  total_opens: 6
+  total_clicks: 1
+  open_rate: 0.5
+  click_rate: 0.0833

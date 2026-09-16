@@ -1,0 +1,73 @@
+id: 6b119551-87be-423c-9e81-d368015e2234
+name: Swatch Post Purchase
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 6b119551-87be-423c-9e81-d368015e2234
+braze_type: canvas
+campaign_type: Triggered Journey
+dates: {}
+tags: []
+sends:
+- id: 344387b5-98b1-413b-a25c-1fa6c8bbc134
+  channel: email
+  name: TRG_EM_2025_08_SF_D_Post_Purchase_Swatch_T2_V1
+  subject: Swatches Secured. Now, Let’s Get Inspired.
+  preheader: tap into our favorite spaces to bring your vision to life
+  step_id: 9e786ca3-d53d-420b-96ec-49fa67c9d9ce
+- id: d56fac69-ed61-40b6-ab8e-e9794ef1d59a
+  channel: email
+  name: TRG_EM_2025_08_SF_D_Post_Purchase_Swatch_T1_V1
+  subject: Good Things Are En Route
+  preheader: your swatches are on their way—cue the moodboarding
+  step_id: 59be3583-1b0b-46f8-a79a-343237dcd105
+- id: 285329f1-d842-4a2d-b46c-08b989e4160e
+  channel: email
+  name: TRG_EM_2025_08_SF_D_Post_Purchase_Swatch_T4_V1
+  subject: Welcome to the club
+  preheader: come on in
+  step_id: 94fe2506-736b-439a-acd0-9ba4ea8d8d49
+- id: e294bc45-a32b-4355-9107-7618c66d3a97
+  channel: email
+  name: TRG_EM_2025_08_SF_D_Post_Purchase_Swatch_T3_V1
+  subject: 20% Off? Don’t Miss This Moment
+  preheader: create your signature space with patterns that speak volumes.
+  step_id: 942800d9-a27f-4230-94dd-a4ae233ba13c
+performance_summary: {}
+canvas_steps:
+- id: 9e786ca3-d53d-420b-96ec-49fa67c9d9ce
+  name: TRG_EM_2025_08_SF_D_Post_Purchase_Swatch_T2_V1
+  type: message
+  channel: email
+  subject: Swatches Secured. Now, Let’s Get Inspired.
+  preheader: tap into our favorite spaces to bring your vision to life
+- id: f48fc03c-1b26-4eee-b617-ad2ae82850de
+  name: Step 2
+  type: delay
+- id: 59be3583-1b0b-46f8-a79a-343237dcd105
+  name: TRG_EM_2025_08_SF_D_Post_Purchase_Swatch_T1_V1
+  type: message
+  channel: email
+  subject: Good Things Are En Route
+  preheader: your swatches are on their way—cue the moodboarding
+- id: 4c6be8e0-21d8-4d0d-959a-c262aef018ec
+  name: Step 4
+  type: delay
+- id: 94fe2506-736b-439a-acd0-9ba4ea8d8d49
+  name: TRG_EM_2025_08_SF_D_Post_Purchase_Swatch_T4_V1
+  type: message
+  channel: email
+  subject: Welcome to the club
+  preheader: come on in
+- id: 942800d9-a27f-4230-94dd-a4ae233ba13c
+  name: TRG_EM_2025_08_SF_D_Post_Purchase_Swatch_T3_V1
+  type: message
+  channel: email
+  subject: 20% Off? Don’t Miss This Moment
+  preheader: create your signature space with patterns that speak volumes.
+- id: 3b4c1c98-ec4a-4ecd-8e4c-0f6238ebf679
+  name: Step
+  type: delay
+_filename: swatch-post-purchase-6b119551.yaml

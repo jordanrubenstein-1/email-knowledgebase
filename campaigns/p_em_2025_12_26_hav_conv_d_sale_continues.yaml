@@ -1,0 +1,35 @@
+id: 08bd2b79-b7a3-408f-98da-d383248d79b2
+name: P_EM_2025_12_26_HAV_CONV_D_Sale_Continues
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 08bd2b79-b7a3-408f-98da-d383248d79b2
+dates:
+  send_date: '2025-12-26'
+  first_sent: '2025-12-25T17:23:46+00:00'
+  last_sent: '2025-12-26T17:15:42+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 1323749a-061f-4eb1-917a-d36dcc25a495
+  channel: email
+  name: Variant 1
+  subject: 'NOW: Up to 15% off your favorite home brands'
+  preheader: Don't miss this.
+- id: 07b6c364-993b-4acf-8cbc-c67d3cc7772e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 43315
+  total_delivered: 43264
+  total_opens: 22451
+  total_clicks: 91
+  open_rate: 0.5183
+  click_rate: 0.0021
+  total_bounces: 1
+  total_unsubscribes: 61
+schedule_type: time_based
+_filename: p_em_2025_12_26_hav_conv_d_sale_continues.yaml

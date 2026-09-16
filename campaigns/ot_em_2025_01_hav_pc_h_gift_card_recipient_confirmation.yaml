@@ -1,0 +1,31 @@
+id: ef83b335-1339-8d86-850f-e6f34881b7bd
+name: OT_EM_2025_01_HAV_PC_H_Gift_Card_Recipient_Confirmation
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: ef83b335-1339-8d86-850f-e6f34881b7bd
+dates:
+  first_sent: '2024-09-25T06:00:00+00:00'
+  last_sent: '2026-06-07T06:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: c7df1ab4-66de-425c-af6a-43acf2b73216
+  channel: email
+  name: Variant 1
+  subject: Someone Special Sent You A Gift!
+  preheader: Your dream home awaits.
+- id: 06e4c018-413d-4883-9fad-83b5695b9875
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 13
+  total_delivered: 13
+  total_opens: 16
+  total_clicks: 9
+  open_rate: 1.2308
+  click_rate: 0.6923
+schedule_type: api_triggered
+_filename: ot_em_2025_01_hav_pc_h_gift_card_recipient_confirmation.yaml

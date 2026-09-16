@@ -1,0 +1,50 @@
+{% comment %}
+  Product Grid 4-Column Component
+
+  Four-column category or product navigation grid.
+  Common for category navigation (Seating, Dining, Storage, Bedroom).
+
+  Required variables:
+    col1_image - First column image URL
+    col1_link  - First column link URL
+    col2_image - Second column image URL
+    col2_link  - Second column link URL
+    col3_image - Third column image URL
+    col3_link  - Third column link URL
+    col4_image - Fourth column image URL
+    col4_link  - Fourth column link URL
+
+  Optional variables:
+    col1_alt - First column alt text (default: '')
+    col2_alt - Second column alt text (default: '')
+    col3_alt - Third column alt text (default: '')
+    col4_alt - Fourth column alt text (default: '')
+    container_width - Container width in pixels (default: 600)
+    bg_color - Background color (default: transparent)
+
+  Usage:
+    {% comment %} Category navigation {% endcomment %}
+    {% assign col1_image = 'https://...' %}
+    {% assign col1_link = 'https://...' %}
+    {% assign col1_alt = 'Seating' %}
+    {% assign col2_image = 'https://...' %}
+    {% assign col2_link = 'https://...' %}
+    {% assign col2_alt = 'Dining' %}
+    {% assign col3_image = 'https://...' %}
+    {% assign col3_link = 'https://...' %}
+    {% assign col3_alt = 'Storage' %}
+    {% assign col4_image = 'https://...' %}
+    {% assign col4_link = 'https://...' %}
+    {% assign col4_alt = 'Bedroom' %}
+    {% render 'product_grid_4col' %}
+{% endcomment %}
+
+{% assign container_width = container_width | default: 600 %}
+{% assign col_width = container_width | divided_by: 4 %}
+{% assign col1_alt = col1_alt | default: '' %}
+{% assign col2_alt = col2_alt | default: '' %}
+{% assign col3_alt = col3_alt | default: '' %}
+{% assign col4_alt = col4_alt | default: '' %}
+{% assign bg_color = bg_color | default: 'transparent' %}
+
+<table class="row-content" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;{% if bg_color != 'transparent' %}background-color:{{ bg_color }};{% endif %}color:#000;width:{{ container_width }}px;margin:0 auto" width="{{ container_width }}"><tbody><tr><td class="column column-1" width="25%" style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top"><table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad" style="width:100%"><div class="alignment" align="center" style="line-height:10px"><div style="max-width:{{ col_width }}px"><a href="{{ col1_link }}" target="_blank" style="outline:none" tabindex="-1"><img src="{{ col1_image }}" style="display:block;height:auto;border:0;width:100%" width="{{ col_width }}" alt="{{ col1_alt }}" title="{{ col1_alt }}" height="auto"></a></div></div></td></tr></table></td><td class="column column-2" width="25%" style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top"><table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad" style="width:100%"><div class="alignment" align="center" style="line-height:10px"><div style="max-width:{{ col_width }}px"><a href="{{ col2_link }}" target="_blank" style="outline:none" tabindex="-1"><img src="{{ col2_image }}" style="display:block;height:auto;border:0;width:100%" width="{{ col_width }}" alt="{{ col2_alt }}" title="{{ col2_alt }}" height="auto"></a></div></div></td></tr></table></td><td class="column column-3" width="25%" style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top"><table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad" style="width:100%"><div class="alignment" align="center" style="line-height:10px"><div style="max-width:{{ col_width }}px"><a href="{{ col3_link }}" target="_blank" style="outline:none" tabindex="-1"><img src="{{ col3_image }}" style="display:block;height:auto;border:0;width:100%" width="{{ col_width }}" alt="{{ col3_alt }}" title="{{ col3_alt }}" height="auto"></a></div></div></td></tr></table></td><td class="column column-4" width="25%" style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top"><table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr><td class="pad" style="width:100%"><div class="alignment" align="center" style="line-height:10px"><div style="max-width:{{ col_width }}px"><a href="{{ col4_link }}" target="_blank" style="outline:none" tabindex="-1"><img src="{{ col4_image }}" style="display:block;height:auto;border:0;width:100%" width="{{ col_width }}" alt="{{ col4_alt }}" title="{{ col4_alt }}" height="auto"></a></div></div></td></tr></table></td></tr></tbody></table>

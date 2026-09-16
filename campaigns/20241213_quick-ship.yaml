@@ -1,0 +1,36 @@
+id: e2c68494-e29b-4c81-80c3-7fe14602a939
+name: 20241213_Quick-Ship
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: e2c68494-e29b-4c81-80c3-7fe14602a939
+dates:
+  inferred_send_type: local_time
+  first_sent: '2024-12-12T17:20:45+00:00'
+  last_sent: '2024-12-13T17:15:12+00:00'
+tags: []
+sends:
+- id: 5b8c2930-b623-44c9-8b13-0850f05d51ad
+  channel: email
+  name: Variant 1
+  subject: Order now for a holiday refresh
+  preheader: Designs delivered by the holidays.
+- id: 11f20483-af3f-43ec-8657-d5f6bae32cf5
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 347
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.633296'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.849825'
+schedule_type: time_based

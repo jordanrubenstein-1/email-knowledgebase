@@ -1,0 +1,35 @@
+id: 22812c02-b06f-4c9c-bf65-68bab8a2fdf0
+name: P_EM_2026_03_01_HAV_PC_D_Spring_Inspo
+brand: HAV
+channel: email
+category: other
+type: seasonal
+theme: spring
+braze_id: 22812c02-b06f-4c9c-bf65-68bab8a2fdf0
+dates:
+  send_date: '2026-03-01'
+  first_sent: '2026-02-28T20:06:04+00:00'
+  last_sent: '2026-03-01T21:01:16+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 85aa9be5-31ac-458d-8830-3e5df71f81fd
+  channel: email
+  name: Variant 1
+  subject: Spring Into Your Next Room Refresh
+  preheader: The design ideas you need right now.
+- id: f901446b-5915-4cc0-b8e6-8c26e36d9898
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 264600
+  total_delivered: 263305
+  total_opens: 100243
+  total_clicks: 535
+  open_rate: 0.3788
+  click_rate: 0.002
+  total_bounces: 23
+  total_unsubscribes: 428
+schedule_type: time_based
+_filename: p_em_2026_03_01_hav_pc_d_spring_inspo.yaml

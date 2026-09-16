@@ -1,0 +1,72 @@
+id: klaviyo-TjR6dp
+name: Trade A/B Testing - Opened Emails
+brand: TI
+channel: email
+category: other
+type: announcement
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2020-10-30'
+  inferred_send_type: scheduled
+  first_sent: '2020-10-30T20:00:00+00:00'
+  last_sent: '2020-10-30T20:00:00+00:00'
+sends:
+- id: SJ2MCX
+  channel: email
+  name: Trade A/B Testing - Opened Emails Variation A
+  subject: Moodboard for The Inside
+  preheader: ''
+  html_file: html/trade-ab-testing-opened-emails.html
+  image_urls: []
+  screenshot: screenshots/trade-ab-testing-opened-emails.png
+- id: V9tHL5
+  channel: email
+  name: Trade A/B Testing - Opened Emails Variation B
+  subject: Our top-selling fabrics for trade
+  preheader: ''
+  html_file: html/trade-ab-testing-opened-emails.html
+  image_urls: []
+- id: T2biL5
+  channel: email
+  name: Trade A/B Testing - Opened Emails Variation C
+  subject: The X Bench interior designers are obsessed with
+  preheader: ''
+  html_file: html/trade-ab-testing-opened-emails.html
+  image_urls: []
+- id: YdBsvR
+  channel: email
+  name: Trade A/B Testing - Opened Emails Variation D
+  subject: Looking for feedback
+  preheader: ''
+  html_file: html/trade-ab-testing-opened-emails.html
+  image_urls: []
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_unsubscribes: 0
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T14:56:53.112190'
+    source: snowflake
+    channel: email
+klaviyo_type: campaign
+klaviyo_campaign_id: TjR6dp
+klaviyo_message_id: SJ2MCX
+structure:
+  image_count: 0
+  link_count: 3
+  has_gif: false
+  hero_width: null
+  layout_type: text_only
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-03-12T11:18:49.186543'

@@ -1,0 +1,63 @@
+id: 94bb27fc-6e04-4738-8b53-12b2bf77cfd5
+name: P_EM_2025_07_26_ID_D_Curved_Furniture
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 94bb27fc-6e04-4738-8b53-12b2bf77cfd5
+dates:
+  send_date: '2025-07-26'
+  inferred_send_type: local_time
+  first_sent: '2025-07-25T21:32:08+00:00'
+  last_sent: '2025-07-26T17:15:13+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: dfb8649e-e1cd-4af4-a18d-459f44e9cc88
+  channel: email
+  name: Variant 1
+  subject: 'The Curved Furniture Edit: Now 20% Off'
+  preheader: Soft lines, timeless design—our most-loved silhouettes are on sale.
+- id: 924fa455-6c94-4f92-8708-029ab584627e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 116545
+  total_delivered: 116363
+  total_opens: 52886
+  total_clicks: 752
+  open_rate: 0.4538
+  click_rate: 0.0065
+  total_revenue: 88970.0
+  total_bounces: 6
+  total_unsubscribes: 276
+  ga4:
+    sessions: 929
+    purchases: 3
+    revenue: 10972.34
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.994935'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-the-summer-sale-2025-07-24
+    name: The Summer Sale
+    start_date: '2025-07-24'
+    end_date: '2025-07-31'
+    discount: 20% off sitewide
+    type: null
+  primary_sale:
+    id: id-the-summer-sale-2025-07-24
+    name: The Summer Sale
+    start_date: '2025-07-24'
+    end_date: '2025-07-31'
+    discount: 20% off sitewide
+    type: null
+  sale_name: The Summer Sale
+  sale_discount: 20% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:41.496931'
+schedule_type: time_based

@@ -1,0 +1,34 @@
+id: 7224f0ff-765e-42ed-9358-5d9b4e8d82e6
+name: P_EM_2025_11_03_HAV_CONV_PT_Market_Place_RUG_SALE
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 7224f0ff-765e-42ed-9358-5d9b4e8d82e6
+dates:
+  send_date: '2025-11-03'
+  first_sent: '2025-11-02T23:07:25+00:00'
+  last_sent: '2025-11-03T23:02:20+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 02f697f4-719f-43fc-96e6-12dad043bfda
+  channel: email
+  name: Variant 1
+  subject: The finishing touch your space has been waiting for
+  preheader: Up to 60% off!
+- id: 8de0662a-6d05-4c15-8f30-0cc619529673
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 42785
+  total_delivered: 42744
+  total_opens: 23190
+  total_clicks: 422
+  open_rate: 0.542
+  click_rate: 0.0099
+  total_unsubscribes: 84
+schedule_type: time_based
+_filename: p_em_2025_11_03_hav_conv_pt_market_place_rug_sale.yaml

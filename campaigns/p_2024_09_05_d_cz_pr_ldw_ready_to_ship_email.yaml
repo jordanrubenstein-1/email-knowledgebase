@@ -1,0 +1,60 @@
+id: ddba82c3-d531-4572-862f-d6a48f57309d
+name: P_2024_09_05_D_CZ_PR_LDW_Ready_To_Ship_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: ddba82c3-d531-4572-862f-d6a48f57309d
+dates:
+  send_date: '2024-09-05'
+  inferred_send_type: local_time
+  first_sent: '2024-09-04T21:27:11+00:00'
+  last_sent: '2024-09-05T17:00:17+00:00'
+tags:
+- batch and blast/promo
+sends:
+- id: 3b969c98-5cae-4e5a-9d56-cd136449b717
+  channel: email
+  name: Variant 1
+  subject: In Stock + Ready to Ship (Plus, 20% Off)
+  preheader: In a rush? Shop the sale styles ready to make their way home.
+  html_file: html/p_2024_09_05_d_cz_pr_ldw_ready_to_ship_email.html
+  screenshot: screenshots/p_2024_09_05_d_cz_pr_ldw_ready_to_ship_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf393de13438006590dff3/original.jpg?1724856636
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf38989f61a0007e9d18ca/original.jpg?1724856472
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf38c13d4b400066584746/original.jpg?1724856512
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d85e2cfef67f006610c248/original.jpg?1725455916
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d8c8b0cbe9810065be1302/original.jpg?1725483184
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d8c86ecdd6fa006640c950/original.jpg?1725483117
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d8c8653305b800656a72c1/original.jpg?1725483109
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d8c8888b40350083baadc5/original.jpg?1725483144
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf38ff2fd920006522e9cf/original.jpg?1724856575
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf38ea3ac7c000667d14f0/original.jpg?1724856554
+- id: 5cf7b57c-5b93-4d39-84ad-22a4fb9d53dc
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 72513
+  total_delivered: 72281
+  total_opens: 41127
+  total_clicks: 916
+  open_rate: 0.5672
+  click_rate: 0.0126
+  total_revenue: 108419.5
+  total_bounces: 2
+  total_unsubscribes: 151
+  ga4:
+    sessions: 1103
+    purchases: 15
+    revenue: 5644.95
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.661014'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.577840'
+schedule_type: time_based

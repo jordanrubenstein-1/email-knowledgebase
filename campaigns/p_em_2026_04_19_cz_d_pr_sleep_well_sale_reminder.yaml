@@ -1,0 +1,49 @@
+id: 9de6817d-e00a-4e62-b5d2-770b4e4ea715
+name: P_EM_2026_04_19_CZ_D_PR_Sleep_Well_Sale_Reminder
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 9de6817d-e00a-4e62-b5d2-770b4e4ea715
+dates:
+  send_date: '2026-04-19'
+  inferred_send_type: sto
+  first_sent: '2026-04-18T11:06:31+00:00'
+  last_sent: '2026-04-20T09:30:21+00:00'
+tags:
+- batch and blast
+- d2c
+- designed
+- sale
+- sale/sleepsale2026
+- sale_feat
+sends:
+- id: 07b8485e-57f3-4925-90d6-f0e94dcfdfd9
+  channel: email
+  name: Variant 1
+  subject: A little reminder to sleep well
+  preheader: Take 20% off bedding, bath, and blankets.
+  html_file: html/p_em_2026_04_19_cz_d_pr_sleep_well_sale_reminder.html
+  screenshot: screenshots/p_em_2026_04_19_cz_d_pr_sleep_well_sale_reminder.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69dd32878b665f00c57f2117/original.png?1776104070
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69dd328c8fa27000c17a2f25/original.png?1776104076
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69dd3291f64caa00de0999cb/original.png?1776104080
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69dd328260c50600c4f2ef8c/original.png?1776104065
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69dd3272e70d3400c5a3916b/original.gif?1776104049
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69dd327b1e30df00dc7f2552/original.png?1776104058
+- id: a9cfa653-0e82-434d-9075-832048761d36
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 112025
+  total_delivered: 111664
+  total_opens: 56933
+  total_clicks: 624
+  open_rate: 0.5082
+  click_rate: 0.0056
+  total_bounces: 4
+  total_unsubscribes: 142
+_filename: p_em_2026_04_19_cz_d_pr_sleep_well_sale_reminder.yaml
+schedule_type: time_based

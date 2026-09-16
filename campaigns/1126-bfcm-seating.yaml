@@ -1,0 +1,75 @@
+id: klaviyo-01JDMSGVXA526ADX211KRCT1Y2
+name: '11/26: BFCM Seating'
+brand: TI
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2024-11-26'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-27T07:00:00+00:00'
+  last_sent: '2024-11-27T07:00:00+00:00'
+sends:
+- id: 01JDMSGVY5S2D1BVJX2C7RDSH5
+  channel: email
+  name: '11/26: BFCM Seating'
+  subject: '25% Off: Best-Selling Accent Chairs'
+  preheader: Shop these fan-favorites during The Black Friday Event.
+  html_file: html/1126-bfcm-seating.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/c5349ce2-993d-4912-81a1-def6a6e7cfcf.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/a9005933-572b-47d2-a70f-34bc6c8b3b55.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/78052568-ee2e-4608-9bca-1303e782a060.gif
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/cb797afd-cba5-4b2a-bbc7-c97aac729d62.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/13b7c813-030f-4995-9ca8-a1359c71acc6.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/01cdbcd2-d6e5-4077-afdb-da864b712022.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/91b3c069-38d1-4578-9309-82b739dc4bc4.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/48f8b0bf-f674-4de6-83a6-f00ae0bfb57e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/f4c4de43-48bc-48aa-bebd-f960255ebeb6.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/a1f0ec27-a32f-43af-8bd8-757ea809d414.gif
+  screenshot: screenshots/1126-bfcm-seating.png
+performance_summary:
+  total_sends: 104182
+  total_delivered: 103583
+  total_opens: 33604
+  total_clicks: 1564
+  unique_opens: 23778
+  unique_clicks: 249
+  open_rate: 0.2282
+  click_rate: 0.0024
+  total_open_rate: 0.3226
+  total_click_rate: 0.015
+  total_unsubscribes: 37
+  total_bounces: 599
+klaviyo_type: campaign
+klaviyo_campaign_id: 01JDMSGVXA526ADX211KRCT1Y2
+klaviyo_message_id: 01JDMSGVY5S2D1BVJX2C7RDSH5
+structure:
+  image_count: 28
+  link_count: 29
+  has_gif: true
+  hero_width: 600
+  layout_type: product_grid
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: ti-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: ti-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-03-12T11:18:45.836163'

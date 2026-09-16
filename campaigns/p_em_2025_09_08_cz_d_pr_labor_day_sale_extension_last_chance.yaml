@@ -1,0 +1,53 @@
+id: 1e3da2a6-1c5e-4332-b3c8-5cd37e9a72bf
+name: P_EM_2025_09_08_CZ_D_PR_Labor_Day_Sale_Extension_Last_Chance
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 1e3da2a6-1c5e-4332-b3c8-5cd37e9a72bf
+dates:
+  send_date: '2025-09-08'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-08T05:24:04+00:00'
+  last_sent: '2025-09-08T17:04:08+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale_feat
+sends:
+- id: c4a40ab1-3214-4079-b6e8-cd36b8248528
+  channel: email
+  name: Variant 1
+  subject: 'Don’t Miss Out: 20% Off Everything Ends Tonight'
+  preheader: Final call to bring home our most-loved styles at gentle prices.
+  html_file: html/p_em_2025_09_08_cz_d_pr_labor_day_sale_extension_last_chance.html
+  screenshot: screenshots/p_em_2025_09_08_cz_d_pr_labor_day_sale_extension_last_chance.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b6f7ee352a8800654999da/original.png?1756821486
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b6f75e55b8200095eca916/original.jpg?1756821342
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b6f7dc55b8200065ecaffe/original.png?1756821468
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b6f750c860d40067958a96/original.jpg?1756821328
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b6f756c860d40067958ae9/original.gif?1756821334
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b6f85592da670075c4f780/original.png?1756821589
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b6f85cb3286b0065951b96/original.png?1756821596
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b6f84d92da670085c4f706/original.png?1756821581
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b6f7455a7465006515dcf0/original.jpg?1756821316
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b6f8435765ec006709b446/original.png?1756821571
+- id: 054ad9ff-1228-4c16-aa9d-977d137aaedb
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 114328
+  total_delivered: 114037
+  total_opens: 61191
+  total_clicks: 826
+  open_rate: 0.5352
+  click_rate: 0.0072
+  total_bounces: 10
+  total_unsubscribes: 342
+_filename: p_em_2025_09_08_cz_d_pr_labor_day_sale_extension_last_chance.yaml
+schedule_type: time_based

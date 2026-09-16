@@ -1,0 +1,35 @@
+id: 4a67e47a-17c5-4bde-88fd-5b36e5f9a647
+name: P_2025_1_26_PT_SF_PR_Winter_Refresh_Sale_Reminder_Email_Gmail
+brand: STF
+channel: email
+category: reminder
+type: sale
+theme: winter
+braze_id: 4a67e47a-17c5-4bde-88fd-5b36e5f9a647
+dates:
+  send_date: '2025-01-26'
+  inferred_send_type: local_time
+  first_sent: '2025-01-25T23:16:45+00:00'
+  last_sent: '2025-01-26T16:00:31+00:00'
+tags: []
+sends:
+- id: dc879caa-dfb3-4b02-a6ea-ffb1c11cd24c
+  channel: email
+  name: Variant 1
+  subject: 'ENDING SOON: Winter Refresh Sale'
+  html_file: html/p_2025_1_26_pt_sf_pr_winter_refresh_sale_reminder_email_gmai.html
+  screenshot: screenshots/p_2025_1_26_pt_sf_pr_winter_refresh_sale_reminder_email_gmai.png
+- id: f9cc0ab1-5220-4c01-b986-8ddd81def90f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 779
+  total_delivered: 779
+  total_opens: 627
+  total_clicks: 18
+  open_rate: 0.8049
+  click_rate: 0.0231
+  total_revenue: 5108.5
+  total_unsubscribes: 6
+_filename: p_2025_1_26_pt_sf_pr_winter_refresh_sale_reminder_email_gmai.yaml
+schedule_type: time_based

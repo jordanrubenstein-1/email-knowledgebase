@@ -1,0 +1,53 @@
+id: 50a6fa93-8970-4dd6-9a63-2561a105634b
+name: P_EM_2025_12_30_CZ_D_PR_Bedding_Percale_Spotlight_Year_End_Sale
+brand: CZ
+channel: email
+category: editorial
+type: sale
+theme: null
+braze_id: 50a6fa93-8970-4dd6-9a63-2561a105634b
+dates:
+  send_date: '2025-12-30'
+  inferred_send_type: local_time
+  first_sent: '2025-12-29T21:39:05+00:00'
+  last_sent: '2025-12-30T17:16:15+00:00'
+tags:
+- am
+- batch and blast
+- bedding
+- d2c
+- designed
+- sale
+- sale/yearend2025
+sends:
+- id: a42d6e44-c859-4f73-93cf-29ec0e8c9022
+  channel: email
+  name: Variant 1
+  subject: A Better Night Starts Here
+  preheader: Dreamy organic percale, now up to 25% off.
+  html_file: html/p_em_2025_12_30_cz_d_pr_bedding_percale_spotlight_year_end_s.html
+  screenshot: screenshots/p_em_2025_12_30_cz_d_pr_bedding_percale_spotlight_year_end_s.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951d9f989cfd60063aeeac2/original.png?1766971897
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6952bbc2d9e3ad006470ccb5/original.png?1767029697
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951d9bb893a450064e527fe/original.png?1766971835
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951d99793508e0065067d39/original.png?1766971798
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951d989537b66006358100e/original.png?1766971785
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951d9767fc25f006518afd7/original.png?1766971766
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951da0293508e0065067d65/original.png?1766971905
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951d9424d539a0063426a38/original.png?1766971713
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951d9e21b627c0063bd257d/original.png?1766971873
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951d8b625a50e0063b42dc9/original.png?1766971574
+- id: 7eee32eb-f764-45ce-abce-d47e8582477e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 55077
+  total_delivered: 55011
+  total_opens: 28516
+  total_clicks: 505
+  open_rate: 0.5177
+  click_rate: 0.0092
+  total_unsubscribes: 165
+_filename: p_em_2025_12_30_cz_d_pr_bedding_percale_spotlight_year_end_s.yaml
+schedule_type: time_based

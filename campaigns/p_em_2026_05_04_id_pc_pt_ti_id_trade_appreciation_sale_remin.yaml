@@ -1,0 +1,24 @@
+id: 9888b760-416f-4275-bcd8-c9da8f7980c8
+name: P_EM_2026_05_04_ID_PC_PT_TI_ID_Trade_Appreciation_Sale_Reminder_PT
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 9888b760-416f-4275-bcd8-c9da8f7980c8
+dates:
+  send_date: '2026-05-04'
+  last_sent: '2026-05-04'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 971f7ed6-230c-4c7c-baf8-32d4cdf96934
+  channel: email
+  name: Variant 1
+  subject: Trade Appreciation Event reminder
+- id: 08017dcf-92ad-4384-8ef9-8ee0a5fe3acc
+  channel: email
+  name: Control Group
+performance_summary: {}
+_filename: p_em_2026_05_04_id_pc_pt_ti_id_trade_appreciation_sale_remin.yaml
+schedule_type: time_based

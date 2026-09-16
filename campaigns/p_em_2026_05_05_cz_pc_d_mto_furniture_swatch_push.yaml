@@ -1,0 +1,53 @@
+id: 7a2fcefd-877b-425d-97f7-3796956bb1b7
+name: P_EM_2026_05_05_CZ_PC_D_MTO_Furniture_Swatch_Push
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 7a2fcefd-877b-425d-97f7-3796956bb1b7
+dates:
+  send_date: '2026-05-05'
+  inferred_send_type: local_time
+  first_sent: '2026-05-04T22:14:06+00:00'
+  last_sent: '2026-05-05T18:04:11+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- furniture
+- prod
+- swatch
+sends:
+- id: f85484ae-193f-4736-9d5c-6dbf3956d39b
+  channel: email
+  name: Variant 1
+  subject: Made-to-Order. Made in the USA
+  preheader: Heirloom-quality furniture begins with the perfect swatch.
+  html_file: html/p_em_2026_05_05_cz_pc_d_mto_furniture_swatch_push.html
+  screenshot: screenshots/p_em_2026_05_05_cz_pc_d_mto_furniture_swatch_push.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f36f556d749c009a858def/original.png?1777561428
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f37015958bca007df96895/original.png?1777561621
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f37037587929009c6b586f/original.png?1777561655
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f36f48b27df0007f84cb54/original.png?1777561416
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69eb676c3ce54200c291ed86/original.png?1777035116
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69eb66cb4cb1ab00c24bf54f/original.png?1777034954
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f370251b10f3007f5fca38/original.png?1777561636
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69eb67ad7c014500c37a085f/original.png?1777035180
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69eb66b9539c0c00bec81278/original.png?1777034937
+- id: d0145e3f-67b3-4ea2-b2af-db64a490f0d0
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 43034
+  total_delivered: 42972
+  total_opens: 22220
+  total_clicks: 557
+  open_rate: 0.5163
+  click_rate: 0.0129
+  total_bounces: 2
+  total_unsubscribes: 101
+_filename: p_em_2026_05_05_cz_pc_d_mto_furniture_swatch_push.yaml
+schedule_type: time_based

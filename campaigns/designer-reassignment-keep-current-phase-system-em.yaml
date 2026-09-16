@@ -1,0 +1,61 @@
+id: 495d9cec-138f-90c6-251a-a0ffad0fd137
+name: Designer Reassignment (Keep Current Phase) System Email
+brand: HAV
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 495d9cec-138f-90c6-251a-a0ffad0fd137
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-23T20:00:00+00:00'
+  last_sent: '2025-12-01T15:00:00+00:00'
+tags: []
+sends:
+- id: 8b54a134-5cd0-41ef-ad6b-a38708f565ba
+  channel: email
+  name: Variant 1
+  subject: A new designer has been assigned to you!
+  html_file: html/designer-reassignment-keep-current-phase-system-email.html
+  screenshot: screenshots/designer-reassignment-keep-current-phase-system-email.png
+  image_urls:
+  - http://delivery5.klaviyomail.com/wf/open?upn=7wxTjaUDwiA-2Fko63lLgcG3Xm2SNgKmo2O1JTOrg55qtrOatd7qHLHoID05eVs-2FMh-2BB60Tk-2F2WVHolC9kmQJ4QEzW0g2Y7fcI7IVbhUBbYH-2FxG7s1nWScyrkv6fe4eKt24oJqgqezq-2FT-2BgV3x6xjrALhez9fGamj-2Bm0Ee2ntbA35P4HHFJpfeZsAFeFJHSn5UODP7h8cF-2Fnl00C33KeZ6qbzZhaFZ4cG22betKY1KJ9eRcJZYhOC4hO6B970v0m4egVL097VRczSYvIHEpvhYHc4kYvT7caGMXAD9wNJt-2B7WbAmgLgjTDXo5gPUoo36vu
+- id: 5abfdc3b-4cf9-42a7-aeb2-1c5f14de59fa
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 6
+  total_delivered: 6
+  total_opens: 4
+  total_clicks: 1
+  open_rate: 0.6667
+  click_rate: 0.1667
+  ga4:
+    sessions: 1
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:48.988600'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: hav_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: hav_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:32.499203'
+schedule_type: api_triggered

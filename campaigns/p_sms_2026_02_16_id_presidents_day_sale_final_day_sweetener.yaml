@@ -1,0 +1,31 @@
+id: bd771b6b-f8b2-4bf4-b7a8-99591a9453d5
+name: P_SMS_2026_02_16_ID_Presidents_Day_Sale_Final_Day_Sweetener
+brand: ID
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: bd771b6b-f8b2-4bf4-b7a8-99591a9453d5
+dates:
+  send_date: '2026-02-16'
+  inferred_send_type: local_time
+  first_sent: '2026-02-16T01:08:19+00:00'
+  last_sent: '2026-02-17T01:01:30+00:00'
+tags: []
+sends:
+- id: 59776e22-bb6e-41a0-ac2c-5c54b8157707
+  channel: sms
+  name: Variant 1
+- id: f39cf681-006b-4901-9e76-70e3a6fc57f3
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 49689
+  total_delivered: 46356
+  total_opens: 0
+  total_clicks: 482
+  open_rate: 0.0
+  click_rate: 0.0097
+  total_revenue: 74742.97
+_filename: p_sms_2026_02_16_id_presidents_day_sale_final_day_sweetener.yaml
+schedule_type: time_based

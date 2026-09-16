@@ -1,0 +1,61 @@
+id: 2aa9474c-926f-462e-b59d-e8c418ef81ee
+name: P_2025_1_4_D_SF_2025_Trends_Gmail_Email
+brand: STF
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 2aa9474c-926f-462e-b59d-e8c418ef81ee
+dates:
+  send_date: '2025-01-04'
+  inferred_send_type: local_time
+  first_sent: '2025-01-03T21:39:26+00:00'
+  last_sent: '2025-01-04T16:01:15+00:00'
+tags: []
+sends:
+- id: 73d8a5b6-d301-4a71-b14d-34c4b77eb2ae
+  channel: email
+  name: Variant 1
+  subject: All The Rage For 2025
+  preheader: take a St. Frank approach to 2025 trends
+- id: d6ce6b16-da58-4a70-88b6-645522a2f037
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 752
+  total_delivered: 752
+  total_opens: 602
+  total_clicks: 24
+  open_rate: 0.8005
+  click_rate: 0.0319
+  total_revenue: 837.0
+  total_unsubscribes: 2
+  ga4:
+    sessions: 63
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.145183'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-end-of-year-sale-2025-01-01
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-05'
+    discount: 20% off Sitewide + 30% Off Last Chance Patterns
+    type: null
+  primary_sale:
+    id: stf-end-of-year-sale-2025-01-01
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-05'
+    discount: 20% off Sitewide + 30% Off Last Chance Patterns
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: 20% off Sitewide + 30% Off Last Chance Patterns
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:45.608178'
+schedule_type: time_based

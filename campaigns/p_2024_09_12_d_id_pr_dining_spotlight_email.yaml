@@ -1,0 +1,44 @@
+id: 0a54c99d-8fc8-4bb5-8d8a-18a82f79d36e
+name: P_2024_09_12_D_ID_PR_Dining_Spotlight_Email
+brand: ID
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 0a54c99d-8fc8-4bb5-8d8a-18a82f79d36e
+dates:
+  send_date: '2024-09-12'
+  inferred_send_type: scheduled
+  first_sent: '2024-09-12T06:10:28+00:00'
+  last_sent: '2024-09-12T15:15:00+00:00'
+tags: []
+sends:
+- id: 848d0770-53c3-4ccc-a898-6f3d9a219d3b
+  channel: email
+  name: Variant 1
+  subject: 'WINE & DINE: Designer-loved dining'
+  preheader: Get ahead of the holiday season
+- id: 24a018a6-be6b-423d-8016-2931e1b49a7e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 42585
+  total_delivered: 42176
+  total_opens: 16310
+  total_clicks: 323
+  open_rate: 0.383
+  click_rate: 0.0076
+  total_unsubscribes: 101
+  ga4:
+    sessions: 372
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.157067'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.137607'
+schedule_type: time_based

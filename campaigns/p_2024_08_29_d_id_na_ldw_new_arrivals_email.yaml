@@ -1,0 +1,45 @@
+id: 096cb542-3b2b-4236-bb5d-b44083d3d1f0
+name: P_2024_08_29_D_ID_NA_LDW_New_Arrivals_Email
+brand: ID
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 096cb542-3b2b-4236-bb5d-b44083d3d1f0
+dates:
+  send_date: '2024-08-29'
+  inferred_send_type: scheduled
+  first_sent: '2024-08-28T23:29:03+00:00'
+  last_sent: '2024-08-29T14:05:02+00:00'
+tags: []
+sends:
+- id: 873ffc67-c05a-4edb-a256-44b9953ca400
+  channel: email
+  name: Variant 1
+  subject: This just in
+  preheader: '...and up to 25% off.'
+- id: a67afc8a-a03f-4aad-8deb-9dba04fecce4
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 35444
+  total_delivered: 35314
+  total_opens: 12397
+  total_clicks: 597
+  open_rate: 0.3498
+  click_rate: 0.0168
+  total_bounces: 1
+  total_unsubscribes: 43
+  ga4:
+    sessions: 602
+    purchases: 3
+    revenue: 3545.7
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.248399'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.138892'
+schedule_type: time_based

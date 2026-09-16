@@ -1,0 +1,75 @@
+id: 68dd72f7-f8f6-4f6b-b159-7347ac9fec13
+name: P_2025_06_27_BW_Opera_Highlight
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 68dd72f7-f8f6-4f6b-b159-7347ac9fec13
+dates:
+  send_date: '2025-06-27'
+  inferred_send_type: local_time
+  first_sent: '2025-06-26T18:22:20+00:00'
+  last_sent: '2025-06-27T17:15:24+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: f2172402-15ea-45d0-8d41-9ded9ffdec1d
+  channel: email
+  name: Variant 1
+  subject: Take a bow, Opera
+  preheader: Save 25% on all storage designs.
+- id: 2f787de9-6fa5-49d1-8dad-06fb4ed256d5
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 260127
+  total_delivered: 258332
+  total_opens: 85800
+  total_clicks: 459
+  open_rate: 0.3298
+  click_rate: 0.0018
+  total_revenue: 819.25
+  total_bounces: 6
+  total_unsubscribes: 108
+  ga4:
+    sessions: 201
+    purchases: 1
+    revenue: 852.14
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.669088'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:44.355048'
+schedule_type: time_based

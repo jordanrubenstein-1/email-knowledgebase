@@ -1,0 +1,63 @@
+id: bcbca1ca-1182-4453-87f8-8814b2d18ba8
+name: P_EM_2025_09_16_ID_D_Private_Sale_Last_Chance
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: bcbca1ca-1182-4453-87f8-8814b2d18ba8
+dates:
+  send_date: '2025-09-16'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-16T05:18:56+00:00'
+  last_sent: '2025-09-16T17:16:07+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 1cf84372-2cf1-4e8b-9c17-ef9f8771da2c
+  channel: email
+  name: Variant 1
+  subject: 'FINAL HOURS: 20% Off'
+  preheader: Your exclusive discount ends tonight.
+- id: 51beee32-1032-4e5a-83ae-96d5894215ca
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 202358
+  total_delivered: 201411
+  total_opens: 95216
+  total_clicks: 609
+  open_rate: 0.4705
+  click_rate: 0.003
+  total_revenue: 135562.0
+  total_bounces: 3
+  total_unsubscribes: 574
+  ga4:
+    sessions: 806
+    purchases: 6
+    revenue: 17348.5
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.564058'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-private-sale-lifecycle-retail-only-2025-09-11
+    name: Private Sale - Lifecycle/Retail Only
+    start_date: '2025-09-11'
+    end_date: '2025-09-16'
+    discount: 20% off sitewide with code SEPTVIP
+    type: null
+  primary_sale:
+    id: id-private-sale-lifecycle-retail-only-2025-09-11
+    name: Private Sale - Lifecycle/Retail Only
+    start_date: '2025-09-11'
+    end_date: '2025-09-16'
+    discount: 20% off sitewide with code SEPTVIP
+    type: null
+  sale_name: Private Sale - Lifecycle/Retail Only
+  sale_discount: 20% off sitewide with code SEPTVIP
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:37.014657'
+schedule_type: time_based

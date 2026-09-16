@@ -1,0 +1,59 @@
+id: 7fa60909-0592-4f01-b66a-e8479ef184e3
+name: P_EM_2025_09_24_CZ_D_PR_Fall_Collection_Launch_2
+brand: CZ
+channel: email
+category: product_launch
+type: seasonal
+theme: fall
+braze_id: 7fa60909-0592-4f01-b66a-e8479ef184e3
+dates:
+  send_date: '2025-09-24'
+  inferred_send_type: local_time
+  first_sent: '2025-09-23T22:28:47+00:00'
+  last_sent: '2025-09-24T17:15:43+00:00'
+tags:
+- am
+- batch and blast
+- collect
+- d2c
+- designed
+sends:
+- id: 27b6174d-aecf-4f7c-9fd0-2110f721102e
+  channel: email
+  name: Variant 1
+  subject: Inspired By The Land. Crafted By Hand.
+  preheader: Our fall collection is pure poetry.
+  html_file: html/p_em_2025_09_24_cz_d_pr_fall_collection_launch_2.html
+  screenshot: screenshots/p_em_2025_09_24_cz_d_pr_fall_collection_launch_2.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d31cb0dea446006535ab2e/original.png?1758665903
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d31cb85472360064f85430/original.png?1758665911
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d31c7ee38bdc00653bbe4a/original.png?1758665853
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d31c99b36ccf007738f60b/original.png?1758665880
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d31c42dea4460085359df9/original.png?1758665794
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d31c5d677a630075bac98d/original.png?1758665820
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d31c38dea446006535a502/original.png?1758665783
+- id: 36334f9e-04e6-4056-89a5-23ffb724395b
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 113245
+  total_delivered: 112782
+  total_opens: 60536
+  total_clicks: 693
+  open_rate: 0.5346
+  click_rate: 0.0061
+  total_unsubscribes: 249
+  ga4:
+    sessions: 543
+    purchases: 4
+    revenue: 1134.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.765211'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.765938'
+schedule_type: time_based

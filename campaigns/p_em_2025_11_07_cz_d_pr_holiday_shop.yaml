@@ -1,0 +1,62 @@
+id: 71a50e8d-28d4-44e2-a5dc-68c44ce33b73
+name: P_EM_2025_11_07_CZ_D_PR_Holiday_Shop
+brand: CZ
+channel: email
+category: other
+type: seasonal
+theme: christmas
+braze_id: 71a50e8d-28d4-44e2-a5dc-68c44ce33b73
+dates:
+  send_date: '2025-11-07'
+  inferred_send_type: scheduled
+  first_sent: '2025-11-07T02:19:58+00:00'
+  last_sent: '2025-11-07T17:16:47+00:00'
+tags:
+- am
+- batch and blast
+- catalog
+- collect
+- d2c
+- designed
+sends:
+- id: 8fa76fca-5dae-42b1-ad6d-df257527f985
+  channel: email
+  name: Variant 1
+  subject: New for Holiday
+  preheader: Crafted for celebration and story.
+  html_file: html/p_em_2025_11_07_cz_d_pr_holiday_shop.html
+  screenshot: screenshots/p_em_2025_11_07_cz_d_pr_holiday_shop.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690cef05d45a4d0063ea748f/original.png?1762455301
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690cf975e6c4160065cdc8c1/original.png?1762457972
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690ceefdee958c00631a3bea/original.png?1762455293
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690cf96b9affbf006455a2c8/original.png?1762457962
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690cf92fb95ab0006396f8d1/original.png?1762457902
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690ceee97aefb9006310fbb0/original.gif?1762455273
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690cf8fda06a760063f6b8da/original.png?1762457853
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690cf938ad0ae20063663b84/original.png?1762457912
+- id: ef10f6e2-7861-496e-bc23-625c8a552e6d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 101581
+  total_delivered: 100842
+  total_opens: 57702
+  total_clicks: 1064
+  open_rate: 0.568
+  click_rate: 0.0105
+  total_bounces: 4
+  total_unsubscribes: 126
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.491113'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.052736'
+schedule_type: time_based

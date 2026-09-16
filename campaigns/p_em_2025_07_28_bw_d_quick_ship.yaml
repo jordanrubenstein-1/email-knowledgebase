@@ -1,0 +1,79 @@
+id: 6a122f7e-23b2-485c-9f1b-c231bd5a3f79
+name: P_EM_2025_07_28_BW_D_Quick_Ship
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 6a122f7e-23b2-485c-9f1b-c231bd5a3f79
+dates:
+  send_date: '2025-07-28'
+  inferred_send_type: local_time
+  first_sent: '2025-07-27T18:20:21+00:00'
+  last_sent: '2025-07-28T17:15:24+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: b3995ce9-dabd-4b2f-b0c9-149992dd4510
+  channel: email
+  name: Variant 1
+  subject: Good design travels fast (and FREE)
+  preheader: Shipping’s on us during our Summer Sale
+- id: 5ea7a9bc-1cd0-46b2-b395-bab8bfaa3097
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 250689
+  total_delivered: 249665
+  total_opens: 144097
+  total_clicks: 427
+  open_rate: 0.5748
+  click_rate: 0.0017
+  total_revenue: 17802.0
+  total_bounces: 4
+  total_unsubscribes: 573
+  ga4:
+    sessions: 196
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.520197'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-the-summer-sale-2025-07-24
+    name: The Summer Sale
+    start_date: '2025-07-24'
+    end_date: '2025-07-31'
+    discount: '25% off sitewide
+
+      Free ground shipping on orders >$2k (excl. Pro)'
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-the-summer-sale-2025-07-24
+    name: The Summer Sale
+    start_date: '2025-07-24'
+    end_date: '2025-07-31'
+    discount: '25% off sitewide
+
+      Free ground shipping on orders >$2k (excl. Pro)'
+    type: null
+  sale_name: The Summer Sale
+  sale_discount: '25% off sitewide
+
+    Free ground shipping on orders >$2k (excl. Pro)'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:30.946628'
+schedule_type: time_based

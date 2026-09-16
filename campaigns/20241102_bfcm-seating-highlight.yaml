@@ -1,0 +1,52 @@
+id: 631b2e6a-e64f-4e5d-a2e3-d2e2eeb1783d
+name: 20241102_BFCM-Seating-Highlight
+brand: BUR
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: 631b2e6a-e64f-4e5d-a2e3-d2e2eeb1783d
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2024-11-02T13:30:03+00:00'
+  last_sent: '2024-11-02T13:36:05+00:00'
+tags: []
+sends:
+- id: 50e75bb6-dfac-4cd1-b134-7d505b88dc35
+  channel: email
+  name: Variant 1
+  subject: Our best selling seating, on sale
+  preheader: Prepare for the holidays with Black Friday deals.
+- id: 78b4794d-b904-42cd-a1bd-d60867d965be
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 772
+    purchases: 1
+    revenue: 5477.67
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.539700'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-pre-black-fri-2024-10-30
+    name: Pre Black Fri
+    start_date: '2024-10-30'
+    end_date: '2024-11-12'
+    discount: null
+    type: null
+  primary_sale:
+    id: bur-pre-black-fri-2024-10-30
+    name: Pre Black Fri
+    start_date: '2024-10-30'
+    end_date: '2024-11-12'
+    discount: null
+    type: null
+  sale_name: Pre Black Fri
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:31.208695'
+schedule_type: time_based

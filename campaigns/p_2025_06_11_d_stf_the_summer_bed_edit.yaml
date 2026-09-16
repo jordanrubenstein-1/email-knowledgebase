@@ -1,0 +1,60 @@
+id: 0daf61f4-3917-4d00-a569-a59e35fb4996
+name: P_2025_06_11_D_STF_The_Summer_Bed_Edit
+brand: STF
+channel: email
+category: editorial
+type: seasonal
+theme: summer
+braze_id: 0daf61f4-3917-4d00-a569-a59e35fb4996
+dates:
+  send_date: '2025-06-11'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-11T06:49:03+00:00'
+  last_sent: '2025-06-11T17:00:20+00:00'
+tags:
+- Batch and Blast
+sends:
+- id: 444cf8ac-5f2b-4b20-9e9e-638295279758
+  channel: email
+  name: Variant 1
+  subject: Summer Bedding Had Us A Blast
+  preheader: tell me more, tell me more
+  html_file: html/p_2025_06_11_d_stf_the_summer_bed_edit.html
+  screenshot: screenshots/p_2025_06_11_d_stf_the_summer_bed_edit.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6848921a192d140066b97813/original.png?1749586458
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684891aed1d9110066e45afe/original.png?1749586350
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684891e0391d13006579bcec/original.png?1749586400
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684891e9b021d2006456a1ab/original.png?1749586408
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68489184b8793800648d6810/original.gif?1749586308
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684891f2192d140066b9778d/original.png?1749586417
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684891ffb021d2006456a2b2/original.png?1749586431
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684891d3da58d90066353a30/original.png?1749586386
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684892434728c50064ed077c/original.png?1749586498
+- id: e1fd7c61-1905-4577-986b-fe38436a98a9
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 31018
+  total_delivered: 30654
+  total_opens: 14250
+  total_clicks: 226
+  open_rate: 0.4594
+  click_rate: 0.0073
+  total_revenue: 3278.0
+  total_bounces: 1
+  total_unsubscribes: 80
+  ga4:
+    sessions: 240
+    purchases: 4
+    revenue: 1090.89
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.766474'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.471369'
+schedule_type: time_based

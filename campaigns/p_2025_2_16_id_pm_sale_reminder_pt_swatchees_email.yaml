@@ -1,0 +1,45 @@
+id: 1559bcbb-4024-4b7d-93bc-36b3916ab7c3
+name: P_2025_2_16_ID_PM_Sale_Reminder_PT_Swatchees_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 1559bcbb-4024-4b7d-93bc-36b3916ab7c3
+dates:
+  send_date: '2025-02-16'
+  inferred_send_type: local_time
+  first_sent: '2025-02-16T02:24:39+00:00'
+  last_sent: '2025-02-17T02:15:06+00:00'
+tags: []
+sends:
+- id: f0bd2c7a-d723-4605-b74e-1fab36aca17b
+  channel: email
+  name: Variant 1
+  subject: 'RE: your swatches + Presidents Day deals'
+- id: e07aa884-7397-4f7e-aa43-ca063c5f5df1
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 28209
+  total_delivered: 27914
+  total_opens: 6258
+  total_clicks: 198
+  open_rate: 0.2218
+  click_rate: 0.007
+  total_revenue: 446245.38
+  total_bounces: 1
+  total_unsubscribes: 46
+  ga4:
+    sessions: 368
+    purchases: 3
+    revenue: 10494.31
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.023404'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.532681'
+schedule_type: time_based

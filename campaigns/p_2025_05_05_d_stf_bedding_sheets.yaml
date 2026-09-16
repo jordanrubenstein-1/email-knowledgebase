@@ -1,0 +1,59 @@
+id: f8667690-4d64-42e4-b238-2c1609f976a9
+name: P_2025_05_05_D_STF_Bedding_Sheets
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: f8667690-4d64-42e4-b238-2c1609f976a9
+dates:
+  send_date: '2025-05-05'
+  inferred_send_type: local_time
+  first_sent: '2025-05-04T18:05:34+00:00'
+  last_sent: '2025-05-05T17:00:41+00:00'
+tags: []
+sends:
+- id: 7bbdeeee-dfec-42d9-8ba5-8887832ebe31
+  channel: email
+  name: Variant 1
+  subject: Stay Cool
+  preheader: indulge in crisp cotton percale sheet sets
+  html_file: html/p_2025_05_05_d_stf_bedding_sheets.html
+  screenshot: screenshots/p_2025_05_05_d_stf_bedding_sheets.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6814baab94d0c3007763ee30/original.png?1746188971
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6814bb2c39c12d00654734bf/original.png?1746189100
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6814bb3794d0c3006763f147/original.png?1746189111
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6814bb6c13436a00659a517e/original.png?1746189164
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6814ba870c42ad0064aa6d81/original.gif?1746188934
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6814bab9d1e4870067b92508/original.png?1746188984
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6814bb644d7b420074cde0d3/original.png?1746189156
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6814bae513436a00659a50c8/original.png?1746189029
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6814ba6babd2260067f463fe/original.png?1746188906
+- id: 2dffff20-3253-4838-8d7f-2560471df69c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 18080
+  total_delivered: 17900
+  total_opens: 8249
+  total_clicks: 172
+  open_rate: 0.4562
+  click_rate: 0.0095
+  total_revenue: 6631.0
+  total_bounces: 1
+  total_unsubscribes: 56
+  ga4:
+    sessions: 181
+    purchases: 1
+    revenue: 406.08
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.051754'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.846705'
+schedule_type: time_based

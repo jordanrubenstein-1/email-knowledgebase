@@ -1,0 +1,63 @@
+id: 37074b68-91cb-457f-89bf-eed3a1ac1d39
+name: P_EM_2025_08_29_ID_D_In_Stock
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 37074b68-91cb-457f-89bf-eed3a1ac1d39
+dates:
+  send_date: '2025-08-29'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-29T06:15:41+00:00'
+  last_sent: '2025-08-29T17:15:33+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 5cd80c32-7c6c-4612-ac49-4d0f7ce04667
+  channel: email
+  name: Variant 1
+  subject: New, In Stock, & 20% Off
+  preheader: Our best selling styles at your door in 1-3 weeks.
+- id: 2e6b2c4e-302c-4372-b048-882154d74c8c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 203951
+  total_delivered: 200984
+  total_opens: 98841
+  total_clicks: 782
+  open_rate: 0.4846
+  click_rate: 0.0038
+  total_revenue: 544567.0
+  total_bounces: 10
+  total_unsubscribes: 293
+  ga4:
+    sessions: 1164
+    purchases: 12
+    revenue: 30178.75
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.768226'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-04'
+    discount: 25% off sitewide
+    type: null
+  primary_sale:
+    id: id-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-04'
+    discount: 25% off sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 25% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:38.905317'
+schedule_type: time_based

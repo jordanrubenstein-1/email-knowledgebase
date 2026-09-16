@@ -1,0 +1,75 @@
+id: 0768c951-ad8d-4a43-997f-79d2c9ca7b49
+name: Email & Phone Capture Modal Mobile - BFCM 2025
+brand: STF
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: 0768c951-ad8d-4a43-997f-79d2c9ca7b49
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-11-26T13:00:00+00:00'
+  last_sent: '2025-12-11T06:00:00+00:00'
+tags: []
+sends:
+- id: 9ded96e2-70d6-4523-b0ea-d5cb1532ab97
+  channel: other
+  name: Variant 1
+- id: e1158902-4d72-491d-a61a-451f189b628f
+  channel: other
+  name: Control Group
+- id: 61eddbc9-8b1d-4b6d-95fc-e9fc33f939bb
+  channel: other
+  name: Variant 2
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.932548'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-black-friday-cyber-monday-2025-11-14
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-12'
+    end_date: '2025-12-02'
+    discount: 'Up to 30% Off Sitewide
+
+      30% off fabric + wallpaper + pillows
+
+      20% off everything else'
+    type: null
+  - id: stf-black-friday-cyber-monday-extension-2025-12-03
+    name: Black Friday / Cyber Monday (EXTENSION)
+    start_date: '2025-12-03'
+    end_date: '2025-12-10'
+    discount: 'Up to 30% Off Sitewide
+
+      30% off fabric + wallpaper + pillows
+
+      20% off everything else'
+    type: null
+  primary_sale:
+    id: stf-black-friday-cyber-monday-2025-11-14
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-12'
+    end_date: '2025-12-02'
+    discount: 'Up to 30% Off Sitewide
+
+      30% off fabric + wallpaper + pillows
+
+      20% off everything else'
+    type: null
+  sale_name: Black Friday / Cyber Monday
+  sale_discount: 'Up to 30% Off Sitewide
+
+    30% off fabric + wallpaper + pillows
+
+    20% off everything else'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:38.920524'
+schedule_type: action_based

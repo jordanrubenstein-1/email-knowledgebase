@@ -1,0 +1,38 @@
+id: d7f93450-9db6-4341-b201-64752e15bd23
+name: P_2025_01_16_ID_In_Stock _Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: d7f93450-9db6-4341-b201-64752e15bd23
+dates:
+  send_date: '2025-01-16'
+  inferred_send_type: local_time
+  first_sent: '2025-02-15T19:14:43+00:00'
+  last_sent: '2025-02-16T17:15:13+00:00'
+tags: []
+sends:
+- id: d8ad04bf-be71-4342-a1b8-1cb22db9e628
+  channel: email
+  name: Variant 1
+  subject: IN STOCK & 30% OFF
+  preheader: Shop select designer pieces on sale now.
+- id: 6cd343c1-b8c7-4f52-b78d-16b57a672e44
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 111656
+  total_delivered: 110430
+  total_opens: 29514
+  total_clicks: 1095
+  open_rate: 0.2643
+  click_rate: 0.0098
+  total_revenue: 683042.0
+  total_bounces: 3
+  total_unsubscribes: 69
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.499156'
+schedule_type: time_based

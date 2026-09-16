@@ -1,0 +1,61 @@
+id: 0bb2b299-495e-41c2-af6b-261a3a6750e2
+name: P_EM_2025_07_23_TI_TRADE_PT_Summer_Sale
+brand: TI
+channel: email
+category: sale_promo
+type: sale
+theme: summer
+braze_id: 0bb2b299-495e-41c2-af6b-261a3a6750e2
+dates:
+  send_date: '2025-07-23'
+  inferred_send_type: scheduled
+  first_sent: '2025-07-23T22:11:58+00:00'
+  last_sent: '2025-07-23T22:14:51+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 7efb7981-92c5-4797-858e-f3ab155394ed
+  channel: email
+  name: Variant 1
+  subject: 'Trade Early Access: 25% Off at Interior Define & The Inside'
+- id: 11cd120e-a582-48b9-b3c7-ac954dc6970d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 19985
+  total_delivered: 19482
+  total_opens: 10759
+  total_clicks: 237
+  open_rate: 0.5384
+  click_rate: 0.0119
+  total_revenue: 114819.0
+  total_bounces: 1
+  total_unsubscribes: 42
+  ga4:
+    sessions: 131
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T14:56:51.356492'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: ti-the-summer-sale-2025-07-23
+    name: The Summer Sale
+    start_date: '2025-07-23'
+    end_date: '2025-07-23'
+    discount: Up to 20% off sitewide, Strikethrough
+    type: null
+  primary_sale:
+    id: ti-the-summer-sale-2025-07-23
+    name: The Summer Sale
+    start_date: '2025-07-23'
+    end_date: '2025-07-23'
+    discount: Up to 20% off sitewide, Strikethrough
+    type: null
+  sale_name: The Summer Sale
+  sale_discount: Up to 20% off sitewide, Strikethrough
+  sale_type: null
+_sale_labeled_at: '2026-03-12T11:18:46.057827'

@@ -1,0 +1,34 @@
+id: 154e088d-fbb7-45eb-b538-c69de4701c8d
+name: P_EM_2025_12_04_HAV_CONV_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 154e088d-fbb7-45eb-b538-c69de4701c8d
+dates:
+  send_date: '2025-12-04'
+  first_sent: '2025-12-04T00:21:45+00:00'
+  last_sent: '2025-12-04T17:17:40+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 954fd16d-094a-49d7-8571-5af748ea745f
+  channel: email
+  name: Variant 1
+  subject: The Sale Everyone Waits For
+  preheader: Up to 40% off a home you’ll love. Don’t wait on this.
+- id: f4c79400-33de-4803-9aed-7340f1813192
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 43663
+  total_delivered: 43624
+  total_opens: 22656
+  total_clicks: 183
+  open_rate: 0.5189
+  click_rate: 0.0042
+  total_unsubscribes: 58
+schedule_type: time_based
+_filename: p_em_2025_12_04_hav_conv_sale_reminder.yaml

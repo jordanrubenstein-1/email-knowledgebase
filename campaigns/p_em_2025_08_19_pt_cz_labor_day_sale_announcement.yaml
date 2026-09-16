@@ -1,0 +1,65 @@
+id: 0dc48c16-033b-4736-9a16-e29176beea8e
+name: P_EM_2025_08_19_PT_CZ_Labor_Day_Sale_Announcement
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 0dc48c16-033b-4736-9a16-e29176beea8e
+dates:
+  send_date: '2025-08-19'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-19T04:19:29+00:00'
+  last_sent: '2025-08-19T17:01:57+00:00'
+tags: []
+sends:
+- id: 52a82a38-f017-4e17-8eee-bfb0ca50d95d
+  channel: email
+  name: Variant 1
+  subject: 20% off sitewide starts now
+  html_file: html/p_em_2025_08_19_pt_cz_labor_day_sale_announcement.html
+  screenshot: screenshots/p_em_2025_08_19_pt_cz_labor_day_sale_announcement.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f83def4631c700674e669c/original.png?1744322031
+- id: 08bfbef3-abc0-4543-85be-c69037458562
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 101139
+  total_delivered: 101038
+  total_opens: 54149
+  total_clicks: 1027
+  open_rate: 0.5354
+  click_rate: 0.0102
+  total_revenue: 101129.11
+  total_bounces: 3
+  total_unsubscribes: 145
+  ga4:
+    sessions: 1480
+    purchases: 63
+    revenue: 30005.56
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.616845'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-02'
+    discount: 20% off Sitewide
+    type: null
+  primary_sale:
+    id: cz-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-02'
+    discount: 20% off Sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 20% off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:33.129346'
+schedule_type: time_based

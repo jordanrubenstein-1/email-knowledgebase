@@ -1,0 +1,56 @@
+id: 727aa966-dc40-4a50-b2b7-94ebc82670fd
+name: P_2024_09_02_D_HAV_PR_Conv_LDW_DSG_Reminder_AM_Email
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 727aa966-dc40-4a50-b2b7-94ebc82670fd
+dates:
+  send_date: '2024-09-02'
+  inferred_send_type: scheduled
+  first_sent: '2024-09-02T13:25:01+00:00'
+  last_sent: '2024-09-02T13:25:10+00:00'
+tags: []
+sends:
+- id: e6ca0946-f915-483b-b801-a44fe4f1264d
+  channel: email
+  name: Variant 1
+  subject: Best. Monday. Ever.
+  preheader: Shop up to 70% OFF + extra 5% at Havenly
+  html_file: html/p_2024_09_02_d_hav_pr_conv_ldw_dsg_reminder_am_email.html
+  screenshot: screenshots/p_2024_09_02_d_hav_pr_conv_ldw_dsg_reminder_am_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b7b894bef4d9006487795e/original.jpg?1723316372
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7aba5e8247e00667f05b5/original.jpg?1724361637
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7acf6c05c770066f73242/original.jpg?1724361973
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b7b89cd58c24006600871c/original.jpg?1723316379
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d070f5278f3a00665bcec0/original.jpg?1724936437
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7aba591a4fe006471811c/original.jpg?1724361637
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b7b88dd58c24006600871b/original.jpg?1723316365
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d070cf6e8be90063c6dd9f/original.gif?1724936399
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c7aba5fe4c430066f2e757/original.jpg?1724361637
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d07107a261c70065d30437/original.jpg?1724936455
+- id: 41f2c229-a5af-4d7b-bc8f-1d53367c2544
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 3469
+  total_delivered: 3467
+  total_opens: 1713
+  total_clicks: 3
+  open_rate: 0.4938
+  click_rate: 0.0009
+  ga4:
+    sessions: 1
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:48.968724'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.194494'
+schedule_type: time_based

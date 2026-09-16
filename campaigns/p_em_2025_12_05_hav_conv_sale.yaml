@@ -1,0 +1,35 @@
+id: c6d5e76b-1128-43f8-8216-d9b3a848faa9
+name: P_EM_2025_12_05_HAV_CONV_Sale
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: c6d5e76b-1128-43f8-8216-d9b3a848faa9
+dates:
+  send_date: '2025-12-05'
+  first_sent: '2025-12-04T21:20:13+00:00'
+  last_sent: '2025-12-05T17:16:19+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 5c0d8956-998a-47e6-963b-1631bf8663eb
+  channel: email
+  name: Variant 1
+  subject: Don’t Miss up to 40% Off Top Home Brands
+  preheader: Cyber Week savings won’t last long.
+- id: 8dcf8bde-819e-49c2-b449-205d273070c7
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 43639
+  total_delivered: 43611
+  total_opens: 22712
+  total_clicks: 92
+  open_rate: 0.5205
+  click_rate: 0.0021
+  total_bounces: 1
+  total_unsubscribes: 55
+schedule_type: time_based
+_filename: p_em_2025_12_05_hav_conv_sale.yaml

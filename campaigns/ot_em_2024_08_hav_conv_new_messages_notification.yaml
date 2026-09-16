@@ -1,0 +1,30 @@
+id: c7152df8-5b6f-4fa1-a30d-ba7ec9927e63
+name: OT_EM_2024_08_HAV_CONV_New_Messages_Notification
+brand: HAV
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: c7152df8-5b6f-4fa1-a30d-ba7ec9927e63
+dates:
+  first_sent: '2024-08-22T21:00:00+00:00'
+  last_sent: '2026-06-09T19:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: 48a9e016-7881-4221-a1fb-e4264025a445
+  channel: email
+  name: Variant 1
+  subject: You have new messages from {{api_trigger_properties.${sender}}}
+- id: c06d00d3-038d-4ed9-808b-40caf83267c0
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 15610
+  total_delivered: 15603
+  total_opens: 14665
+  total_clicks: 2849
+  open_rate: 0.9395
+  click_rate: 0.1825
+schedule_type: api_triggered
+_filename: ot_em_2024_08_hav_conv_new_messages_notification.yaml

@@ -1,0 +1,41 @@
+id: 666cf873-a317-418a-bf72-675bf59dfcb9
+name: P_EM_2025_09_30_BW_D_Holiday_Ready_Sale_Last_Chance
+brand: BUR
+channel: email
+category: reminder
+type: sale
+theme: christmas
+braze_id: 666cf873-a317-418a-bf72-675bf59dfcb9
+dates:
+  send_date: '2025-09-30'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-30T03:31:58+00:00'
+  last_sent: '2025-09-30T17:15:49+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 1f8a0059-2706-4a70-9a5f-3333cae791ef
+  channel: email
+  name: Variant 1
+  subject: 'Up to 25% OFF Ends Tonight '
+  preheader: 'It’s now or never
+
+
+
+
+    '
+- id: e6ecebe0-662a-43ae-8d06-b7a5b2e9468d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 237178
+  total_delivered: 234496
+  total_opens: 133219
+  total_clicks: 219
+  open_rate: 0.5617
+  click_rate: 0.0009
+  total_revenue: 22193.0
+  total_bounces: 3
+  total_unsubscribes: 204
+_filename: p_em_2025_09_30_bw_d_holiday_ready_sale_last_chance.yaml
+schedule_type: time_based

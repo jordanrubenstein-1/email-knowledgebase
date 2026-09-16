@@ -1,0 +1,52 @@
+id: f8af0869-aafe-4cd3-9c98-8597775949db
+name: P_EM_2025_09_09_HAV_PC_D_Labor_Day_Event_Extension_Last_Chance
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: f8af0869-aafe-4cd3-9c98-8597775949db
+dates:
+  send_date: '2025-09-09'
+  inferred_send_type: local_time
+  first_sent: '2025-09-08T22:35:39+00:00'
+  last_sent: '2025-09-09T18:15:11+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 333a377b-ef2a-47da-b2f2-7880ff95ea3a
+  channel: email
+  name: Variant 1
+  subject: 'Final Day: 50% Off Design Services'
+  preheader: Trust us—your future self will thank you.
+  html_file: html/p_em_2025_09_09_hav_pc_d_labor_day_event_extension_last_chan.html
+  screenshot: screenshots/p_em_2025_09_09_hav_pc_d_labor_day_event_extension_last_chan.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68becb0971aba200659298fb/original.png?1757334281
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68becb16cdd1a00067ab7d31/original.png?1757334294
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68becb0009806600668e8f62/original.gif?1757334272
+- id: 57595715-0592-49c5-809f-ec42a2214544
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 232963
+  total_delivered: 231409
+  total_opens: 95744
+  total_clicks: 318
+  open_rate: 0.411
+  click_rate: 0.0014
+  total_bounces: 19
+  total_unsubscribes: 565
+  ga4:
+    sessions: 318
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.023912'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.971922'
+schedule_type: time_based

@@ -1,0 +1,52 @@
+id: 55e7af0d-f6ae-4d9b-909b-f98ddcdeee48
+name: 20241104_BFCM-Nomad-Highlight
+brand: BUR
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: 55e7af0d-f6ae-4d9b-909b-f98ddcdeee48
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2024-11-04T21:00:05+00:00'
+  last_sent: '2024-11-04T21:12:32+00:00'
+tags: []
+sends:
+- id: d84bcc8d-4f30-4803-a217-d928f47c55de
+  channel: email
+  name: Variant 1
+  subject: Save on our best selling seating collection, Nomad
+  preheader: Shop Nomad as a sofa, sectional or armchair.
+- id: cfe33cd3-48c0-4777-905a-d3b21ab1b47e
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 617
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.461605'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-pre-black-fri-2024-10-30
+    name: Pre Black Fri
+    start_date: '2024-10-30'
+    end_date: '2024-11-12'
+    discount: null
+    type: null
+  primary_sale:
+    id: bur-pre-black-fri-2024-10-30
+    name: Pre Black Fri
+    start_date: '2024-10-30'
+    end_date: '2024-11-12'
+    discount: null
+    type: null
+  sale_name: Pre Black Fri
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:41.875982'
+schedule_type: time_based

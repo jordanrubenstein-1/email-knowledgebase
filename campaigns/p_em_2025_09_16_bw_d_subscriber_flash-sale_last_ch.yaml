@@ -1,0 +1,73 @@
+id: 339b638e-4d0a-45f7-a68f-0501e8b1df8d
+name: P_EM_2025_09_16_BW_D_Subscriber_Flash Sale_Last_Chance
+brand: BUR
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 339b638e-4d0a-45f7-a68f-0501e8b1df8d
+dates:
+  send_date: '2025-09-16'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-16T02:32:07+00:00'
+  last_sent: '2025-09-16T17:16:21+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: ba8461a5-baef-45d0-b2d3-4631a065a53f
+  channel: email
+  name: Variant 1
+  subject: 20% off is going, going, going…
+  preheader: GONE AT MIDNIGHT
+- id: 9c13e5b1-8d60-4afe-8c54-9b5f3d590fcc
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 241659
+  total_delivered: 239581
+  total_opens: 137819
+  total_clicks: 343
+  open_rate: 0.5703
+  click_rate: 0.0014
+  total_revenue: 7215.0
+  total_bounces: 3
+  total_unsubscribes: 243
+  ga4:
+    sessions: 243
+    purchases: 2
+    revenue: 2696.55
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.466739'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-subscriber-flash-sale-lifecycle-retail-only-2025-09-11
+    name: Subscriber Flash Sale - Lifecycle/Retail Only
+    start_date: '2025-09-11'
+    end_date: '2025-09-16'
+    discount: 20% off sitewide with code SEPTVIP
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-subscriber-flash-sale-lifecycle-retail-only-2025-09-11
+    name: Subscriber Flash Sale - Lifecycle/Retail Only
+    start_date: '2025-09-11'
+    end_date: '2025-09-16'
+    discount: 20% off sitewide with code SEPTVIP
+    type: null
+  sale_name: Subscriber Flash Sale - Lifecycle/Retail Only
+  sale_discount: 20% off sitewide with code SEPTVIP
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:41.932123'
+schedule_type: time_based

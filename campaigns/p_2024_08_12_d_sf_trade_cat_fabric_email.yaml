@@ -1,0 +1,59 @@
+id: 8a3c99dd-6dd8-48f7-ba9f-37392133f317
+name: P_2024_08_12_D_SF_Trade_CAT_Fabric_Email
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 8a3c99dd-6dd8-48f7-ba9f-37392133f317
+dates:
+  send_date: '2024-08-12'
+  inferred_send_type: scheduled
+  first_sent: '2024-08-11T23:48:45+00:00'
+  last_sent: '2024-08-12T14:00:08+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: 6efe1a16-001e-454e-afe1-65f684eb6917
+  channel: email
+  name: Variant 1
+  subject: Need Fabric?
+  preheader: snag it now at 25% off
+  html_file: html/p_2024_08_12_d_sf_trade_cat_fabric_email.html
+  screenshot: screenshots/p_2024_08_12_d_sf_trade_cat_fabric_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b665efd728650065d43aa2/original.jpg?1723229679
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b678f6326a8d0084631ddd/original.jpg?1723234550
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0058f1ba77/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b678f67ca9a0008f7db762/original.jpg?1723234550
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b678f6326a8d00756320e5/original.gif?1723234550
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b678f6a505ca007532ba08/original.gif?1723234550
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b678f6326a8d0091631c30/original.gif?1723234550
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0063f11fb6/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b678f67ca9a000727dc803/original.gif?1723234550
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66b678f6326a8d0066632376/original.jpg?1723234550
+- id: 814d3215-8514-4535-8a76-a08556de88be
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 664
+  total_delivered: 661
+  total_opens: 148
+  total_clicks: 13
+  open_rate: 0.2229
+  click_rate: 0.0196
+  total_revenue: 1187.0
+  total_unsubscribes: 2
+  ga4:
+    sessions: 8
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.778745'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.883869'
+schedule_type: time_based

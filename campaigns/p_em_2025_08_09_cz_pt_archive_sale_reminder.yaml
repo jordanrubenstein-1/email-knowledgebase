@@ -1,0 +1,73 @@
+id: ec7c05ae-2921-4807-a623-876bf6dfc909
+name: P_EM_2025_08_09_CZ_PT_Archive_Sale_Reminder
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: ec7c05ae-2921-4807-a623-876bf6dfc909
+dates:
+  send_date: '2025-08-09'
+  inferred_send_type: local_time
+  first_sent: '2025-08-09T02:09:34+00:00'
+  last_sent: '2025-08-10T01:01:53+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- pt
+- sale
+- sale_feat
+sends:
+- id: 82b0040b-a208-4b04-9f1b-48908f9eac43
+  channel: email
+  name: Variant 1
+  subject: 30+ New Styles Just Added
+  preheader: Up to 65% off - shop before they’re gone.
+  html_file: html/p_em_2025_08_09_cz_pt_archive_sale_reminder.html
+  screenshot: screenshots/p_em_2025_08_09_cz_pt_archive_sale_reminder.png
+- id: 731784a1-b518-498d-82a5-9fd798c6f796
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 56241
+  total_delivered: 56156
+  total_opens: 32921
+  total_clicks: 1310
+  open_rate: 0.5854
+  click_rate: 0.0233
+  total_revenue: 56621.1
+  total_bounces: 7
+  total_unsubscribes: 153
+  ga4:
+    sessions: 1587
+    purchases: 15
+    revenue: 11730.69
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.158969'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: Up to 65% Off Select Categories - Focus on Archive Sale and In Stock
+      Product
+    type: null
+  primary_sale:
+    id: cz-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: Up to 65% Off Select Categories - Focus on Archive Sale and In Stock
+      Product
+    type: null
+  sale_name: The Sunset Sale
+  sale_discount: Up to 65% Off Select Categories - Focus on Archive Sale and In Stock
+    Product
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:39.825794'
+schedule_type: time_based

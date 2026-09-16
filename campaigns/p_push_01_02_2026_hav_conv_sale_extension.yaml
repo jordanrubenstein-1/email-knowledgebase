@@ -1,0 +1,23 @@
+id: 3b785ead-6407-42be-915e-a2659a9d4df6
+name: P_PUSH_01_02_2026_HAV_CONV_Sale_Extension
+brand: HAV
+channel: push
+category: sale_promo
+type: sale
+theme: null
+braze_id: 3b785ead-6407-42be-915e-a2659a9d4df6
+dates:
+  first_sent: '2026-01-02T01:08:35+00:00'
+  last_sent: '2026-01-03T01:01:27+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 09d49173-54aa-4075-8e03-b4ae8557207a
+  channel: push
+  name: Variant 1
+- id: d2f293f9-230b-4110-8095-ccca69bcd691
+  channel: push
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: p_push_01_02_2026_hav_conv_sale_extension.yaml

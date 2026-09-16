@@ -1,0 +1,33 @@
+id: ff0f607e-234e-4bd4-8d5a-49c8930f700b
+name: P_2026_04_13_PT_SF_PR_Lifecycle_Exclusive_Discount_to_Lapsed_Customers
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: ff0f607e-234e-4bd4-8d5a-49c8930f700b
+dates:
+  send_date: '2026-04-13'
+  last_sent: '2026-04-13'
+tags:
+- Batch and Blast
+sends:
+- id: 3502464e-fbdc-4349-809d-8e964ac417c7
+  channel: email
+  name: Variant 1
+  subject: A little more boldness, on us
+  html_file: html/p_2026_04_13_pt_sf_pr_lifecycle_exclusive_discount_to_lapsed.html
+  screenshot: screenshots/p_2026_04_13_pt_sf_pr_lifecycle_exclusive_discount_to_lapsed.png
+- id: 4a064d86-558a-4544-90a8-b936075c3e10
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 4426
+  total_delivered: 4414
+  total_opens: 1952
+  total_clicks: 48
+  open_rate: 0.441
+  click_rate: 0.0108
+  total_revenue: 1560.0
+  total_unsubscribes: 3
+schedule_type: time_based

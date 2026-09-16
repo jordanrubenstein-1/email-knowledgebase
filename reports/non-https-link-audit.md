@@ -1,0 +1,1114 @@
+# Non-HTTPS Link Audit Report
+
+**Files scanned:** 3305
+**Files with issues:** 217
+**Total problematic links:** 838
+
+## Issue Types
+- **`http://` instead of `https://`:** 71 links
+- **Missing protocol (`www.` only):** 9 links
+- **Missing protocol (bare domain):** 758 links
+
+## Summary by Brand
+
+| Brand | Files | Links | Canvas Files |
+|-------|-------|-------|-------------|
+| BUR | 10 | 10 | 0 |
+| CZ | 116 | 609 | 0 |
+| HAV | 39 | 125 | 0 |
+| ID | 43 | 81 | 0 |
+| STF | 9 | 13 | 0 |
+
+## Affected Domains
+
+| Domain | Occurrences |
+|--------|-------------|
+| `havenly.com` | 159 |
+| `interiordefine.com` | 150 |
+| `the-citizenry.com` | 139 |
+| `theinside.com` | 136 |
+| `stfrank.com` | 125 |
+| `burrow.com` | 117 |
+| `havenlybrands.com` | 8 |
+| `app.havenly.com` | 3 |
+| `trade.interiordefine.com` | 1 |
+
+## Canvas Step Details (Lifecycle/Triggered Emails)
+
+These are **active triggered flows** — fixing these has ongoing impact.
+
+No canvas steps found with non-HTTPS links.
+
+## Batch Campaign Details (One-Time Sends)
+
+These are historical sends. Fix the templates to prevent recurrence.
+
+### BUR
+
+- **2025_2_23_BW_D_PDS_Best_of_Sale** (2025-02-22) — 1 link(s) [no protocol (www.)]
+  - `www.burrow.com/presidents-day-sale?lid=9cleofuwrgkp`
+- **2025_2_22_BW_D_PDS_Storage_Highlight** (2025-02-21) — 1 link(s) [no protocol (www.)]
+  - `www.burrow.com/sale?lid=7cwu2ufoddvn`
+- **2025_2_21_BW_D_Sleeper_Sofa_Highlight_PM** (2025-02-20) — 1 link(s) [no protocol (www.)]
+  - `www.burrow.com/presidents-day-sale?lid=htqvrlcy3twt`
+- **2025_2_20_BW_D_Seating_Highlight** (2025-02-20) — 1 link(s) [no protocol (www.)]
+  - `www.burrow.com/presidents-day-sale?lid=cbryqfd6veft`
+- **2025_2_19_BW_D_PDS_Surprise_Extension** (2025-02-18) — 1 link(s) [no protocol (www.)]
+  - `www.burrow.com/sale?lid=5fz9lo9507tt`
+- **2025_2_18_BW_D_PDS_Ends_Soon** (2025-02-17) — 1 link(s) [no protocol (www.)]
+  - `www.burrow.com/sale?lid=zmp1hz0akeyy`
+- **2025_2_17_BW_D_Bestsellers** (2025-02-16) — 1 link(s) [no protocol (www.)]
+  - `www.burrow.com/presidents-day-sale?lid=pgs4j2u5zl1y`
+- **2025_2_15_BW_D_PDS_Reminder** (2025-02-14) — 1 link(s) [no protocol (www.)]
+  - `www.burrow.com/sale?lid=yaymymucfany`
+- **20241209_BFCM-Sale-Ends-Tomorrow** (2024-12-08) — 1 link(s) [no protocol (bare domain)]
+  - `burrow.com/black-friday?lid=3kq8v125beub`
+- **2025_2_23_BW_D_Bestsellers** () — 1 link(s) [no protocol (www.)]
+  - `www.burrow.com/presidents-day-sale?lid=g9lldc8cikw1`
+
+### CZ
+
+- **P_EM_2025_10_22_CZ_D_PR_Anniversary_Sale_Last_Chance** (2025-10-21) — 4 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=r9fs61830a5r`
+  - `interiordefine.com?lid=7cf50wyr4ilt`
+  - `theinside.com?lid=708ss76v9pr2`
+  - `stfrank.com?lid=8z6f50qdmqxa`
+- **P_EM_2025_10_21_CZ_D_PR_Laurel_Collection_Makers** (2025-10-21) — 1 link(s) [http://]
+  - `http://the-citizenry.com/products/laurel-armchair?UPHOLSTERY=20&lid=6ftd90z10ikn`
+- **P_EM_2025_10_18_CZ_D_PR_Entertaining_Essentials** (2025-10-17) — 4 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=lii0i9b6ehen`
+  - `interiordefine.com?lid=274mt46dap1b`
+  - `theinside.com?lid=1omj2q8dfnlg`
+  - `stfrank.com?lid=kov03l6veqrc`
+- **P_EM_2025_10_16_CZ_D_PR_Anniversary_Sale_Reminder** (2025-10-16) — 4 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=j9kmuxomb0wq`
+  - `interiordefine.com?lid=dsnuj848wqjh`
+  - `theinside.com?lid=qoqihdice8bz`
+  - `stfrank.com?lid=qjfj0h3nyddz`
+- **P_EM_2025_10_12_CZ_D_PR_GTL_Autumn_Living_Room** (2025-10-12) — 4 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=gzdu8g49jugw`
+  - `interiordefine.com?lid=23z7dly6q5vz`
+  - `theinside.com?lid=enesdyjfejme`
+  - `stfrank.com?lid=rrqlprr1lq9i`
+- **P_EM_2025_10_09_CZ_D_PR_Anniversary_Sale_Announcement** (2025-10-09) — 4 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=btya1kva80j3`
+  - `interiordefine.com?lid=6r4ie6u879lu`
+  - `theinside.com?lid=zbt8r7zeoccq`
+  - `stfrank.com?lid=ijhzeb8v8rsz`
+- **P_EM_2025_10_08_CZ_D_PR_Anniversary_Sale_EA** (2025-10-08) — 4 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=w53z92o3f5kn`
+  - `interiordefine.com?lid=yhcnxniijyzv`
+  - `theinside.com?lid=be4uck86j0zl`
+  - `stfrank.com?lid=hqpai2jbnz4f`
+- **P_EM_2025_09_30_CZ_D_PR_The_Weekender_Sale_Last_Chance** (2025-09-30) — 4 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=ism9n9mo24jx`
+  - `interiordefine.com?lid=gdpd6l8rvak5`
+  - `theinside.com?lid=32cw4di1bb4n`
+  - `stfrank.com?lid=tmladgjmntq1`
+- **P_EM_2025_09_26_CZ_D_PR_The_Weekender_Sale** (2025-09-26) — 4 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=yhdopdtw4ol6`
+  - `interiordefine.com?lid=1ovt7gododhr`
+  - `theinside.com?lid=dt8ul4o8n98d`
+  - `stfrank.com?lid=ocsryuwfyhhx`
+- **P_EM_2025_09_25_CZ_D_PR_Fall_Collection_Launch_3** (2025-09-24) — 1 link(s) [http://]
+  - `http://the-citizenry.com/products/astrid-hand-knotted-area-rug?v=46971956134075&lid=pwvbqdiphwgk`
+- **P_EM_2025_09_22_CZ_D_PR_Bedding_Refresh_Sale_Last_Chance_Reminder** (2025-09-21) — 4 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=rbxhorugsb0s`
+  - `interiordefine.com?lid=jtjj0u2pa98k`
+  - `theinside.com?lid=bfix4opmdn25`
+  - `stfrank.com?lid=fp5kr5th0g8i`
+- **P_EM_2025_09_18_CZ_D_PR_Bedding_Refresh_Sale_Reminder** (2025-09-18) — 4 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=98rqnwh665sm`
+  - `interiordefine.com?lid=ck0cni2hw6r6`
+  - `theinside.com?lid=k1k9llbw16iz`
+  - `stfrank.com?lid=qqyzsxd48rlc`
+- **P_EM_2025_09_16_CZ_D_PR_Bedding_Refresh_Sale** (2025-09-16) — 4 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=r6rw3pwozela`
+  - `interiordefine.com?lid=xv7rfvruebgw`
+  - `theinside.com?lid=yr0dz8ss18xe`
+  - `stfrank.com?lid=u97gdlzzfe2u`
+- **P_EM_2025_09_15_CZ_D_PR_Bedding_Refresh_Sale** (2025-09-15) — 4 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=tadqwy7g3qhb`
+  - `interiordefine.com?lid=vdpw8s1fb0jg`
+  - `theinside.com?lid=e6m08uqxvrhs`
+  - `stfrank.com?lid=xkhieskb9yvw`
+- **P_EM_2025_09_08_CZ_D_PR_Labor_Day_Sale_Extension_Last_Chance** (2025-09-08) — 4 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=1tdo6dcntaqs`
+  - `interiordefine.com?lid=mkeo8mfm4hgq`
+  - `theinside.com?lid=4ivsxc463s0g`
+  - `stfrank.com?lid=2ufge3816d3r`
+- **P_EM_2025_09_03_CZ_D_PR_Labor_Day_Sale_Extension_Announcement** (2025-09-03) — 4 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=j3n3qb2zg9x0`
+  - `interiordefine.com?lid=piurx7budz22`
+  - `theinside.com?lid=f1r31xyy20jz`
+  - `stfrank.com?lid=wy5be7ru2r85`
+- **P_EM_2025_09_02_CZ_D_PR_Labor_Day_Last_Chance_AM** (2025-09-02) — 4 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=rujrurz0zm5q`
+  - `interiordefine.com?lid=kaeeih7e4o8x`
+  - `theinside.com?lid=x5egn3q3q4kk`
+  - `stfrank.com?lid=zfsh59eg1xz0`
+- **P_EM_2025_09_01_CZ_D_PR_Labor_Day_Event_Sale_Reminder_AM** (2025-08-31) — 4 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=08jgj5bwfwnb`
+  - `interiordefine.com?lid=jx0ku7wucquy`
+  - `theinside.com?lid=bm3h3a5lsbdl`
+  - `stfrank.com?lid=dcabvlmn48dn`
+- **P_EM_2025_08_29_CZ_D_PR_LDW_Sale_Sweetener** (2025-08-29) — 4 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=27z6e8kfzfkv`
+  - `interiordefine.com?lid=n9bo6hnp8a7g`
+  - `theinside.com?lid=wjkvrfm5qg9y`
+  - `stfrank.com?lid=8j1hof6eagxk`
+- **P_EM_2025_08_28_CZ_D_PR_Labor_Day_Event_Sale_Reminder** (2025-08-28) — 4 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=msq5ppe7cl8k`
+  - `interiordefine.com?lid=0272ednmig6d`
+  - `theinside.com?lid=l8pkjzys92tj`
+  - `stfrank.com?lid=i987j9npfl9p`
+- **P_EM_2025_08_25_CZ_D_PR_Labor_Day_Event_Sale_Categories** (2025-08-25) — 4 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=g13yyftpnoii`
+  - `interiordefine.com?lid=w25mgadup7rj`
+  - `theinside.com?lid=ecihakni0817`
+  - `stfrank.com?lid=eszk2hsm34xc`
+- **P_EM_2025_08_20_CZ_D_PR_Labor_Day_Event_Announcement** (2025-08-20) — 4 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=l9f9bvveeras`
+  - `interiordefine.com?lid=ki7qt1j80bgg`
+  - `theinside.com?lid=7vqovpwshfve`
+  - `stfrank.com?lid=kv79hg8qffjy`
+- **P_EM_2025_08_13_CZ_D_PR_Flash_Sale_Last_Chance** (2025-08-13) — 4 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=iu7y4tllu0jz`
+  - `interiordefine.com?lid=llcugjd6wrlr`
+  - `theinside.com?lid=1e9ai7bmweq3`
+  - `stfrank.com?lid=zi1bd3ofszw9`
+- **P_EM_2025_08_12_CZ_D_PR_Flash_Sale** (2025-08-12) — 4 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=n5ctgpptb4v9`
+  - `interiordefine.com?lid=pd389l9md5kq`
+  - `theinside.com?lid=jzto0xzcsmsg`
+  - `stfrank.com?lid=1w0q94ps0mbd`
+- **P_EM_2025_08_07_CZ_D_PR_Sunset_Sale** (2025-08-06) — 4 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=4htmxun229s2`
+  - `interiordefine.com?lid=1yxdli2ulmz7`
+  - `theinside.com?lid=zufln4np2yoh`
+  - `stfrank.com?lid=f5l3bc20kqzl`
+- **P_EM_2025_07_31_CZ_D_PR_Bedroom_Event_Sale_Announcement** (2025-07-30) — 4 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=zv072wka6li5`
+  - `interiordefine.com?lid=oadr9wbklseg`
+  - `theinside.com?lid=gknhhgst6sdg`
+  - `stfrank.com?lid=5j51d681rzii`
+- **P_EM_2025_07_27_CZ_D_PR_Build_Your_Bedroom** (2025-07-26) — 1 link(s) [http://]
+  - `http://the-citizenry.com/products/helm-armchair?v=44731228389563&lid=qwjicl129qpg`
+- **P_EM_2025_07_25_CZ_D_PR_Bedroom_Event_Sale_Announcement** (2025-07-25) — 4 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=vai4cphc5o0f`
+  - `interiordefine.com?lid=tcxxqkpr6y4e`
+  - `theinside.com?lid=br5c37mkczua`
+  - `stfrank.com?lid=f726lkfkho4f`
+- **P_EM_2025_07_24_CZ_D_PR_EA_Bedroom_Event_Last_Chance** (2025-07-24) — 4 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=c0pkgk65kxsj`
+  - `interiordefine.com?lid=py523hawmivl`
+  - `theinside.com?lid=88lrh9ikail0`
+  - `stfrank.com?lid=dd446oq4zk4d`
+- **P_EM_2025_07_09_CZ_D_PR_Sale_Extension_Announcement** (2025-07-09) — 5 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=rey00caquat7`
+  - `interiordefine.com?lid=rtnzm66omgqn`
+  - `theinside.com?lid=1aazou83d0cq`
+  - `burrow.com?lid=99ektogllons`
+  - `stfrank.com?lid=ap5sq1mdwoe7`
+- **P_EM_2025_07_08_CZ_D_PR_Last_Chance_PM** (2025-07-08) — 5 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=l5ue7qzmxffh`
+  - `interiordefine.com?lid=voyqq3ki5odi`
+  - `theinside.com?lid=vdqiagcjw3hp`
+  - `burrow.com?lid=b99perkfgaj4`
+  - `stfrank.com?lid=g71dthdnevao`
+- **P_EM_2025_07_08_CZ_D_PR_Last_Chance_AM** (2025-07-08) — 5 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=xvgsn4l6bvqq`
+  - `interiordefine.com?lid=gkvp5ptlhlom`
+  - `theinside.com?lid=ema9ncqyxqpr`
+  - `burrow.com?lid=ah9zj4tlckoz`
+  - `stfrank.com?lid=u6tfd90uf0rw`
+- **P_EM_2025_07_07_CZ_D_PR_Sale_Reminder** (2025-07-07) — 5 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=mr2utenk3vr5`
+  - `interiordefine.com?lid=c40ozthqc534`
+  - `theinside.com?lid=f4c9ztyy4hbw`
+  - `burrow.com?lid=ylxmhpcg6fi8`
+  - `stfrank.com?lid=paq50v3cpaav`
+- **P_EM_2025_07_04_CZ_TRADE_D_July_4th_Sale_Reminder** (2025-07-03) — 3 link(s) [no protocol (bare domain)]
+  - `theinside.com?lid=3k7hxuf8y7im`
+  - `interiordefine.com?lid=f4ootwp8vgnv`
+  - `stfrank.com?lid=ax6nzaipm0o7`
+- **P_EM_2025_07_04_CZ_D_PR_Sale_By_Category** (2025-07-03) — 5 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=d0g0qji159jq`
+  - `interiordefine.com?lid=rfwmxzwbcppd`
+  - `theinside.com?lid=oo6heaoiec06`
+  - `burrow.com?lid=kczqbxany0ca`
+  - `stfrank.com?lid=srgjfwrrgk95`
+- **P_2025_06_24_CZ_July_4th_Sale_Categories_Email** (2025-06-24) — 5 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=c9odl0falwxv`
+  - `theinside.com?lid=00kuodniry89`
+  - `the-citizenry.com?lid=sfop9s16otbw`
+  - `burrow.com?lid=32wl4hrwyv1u`
+  - `stfrank.com?lid=ls1i96xm2k0k`
+- **P_2025_06_23_CZ_AM_July_4th_Sale_Announcement_Email** (2025-06-23) — 5 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=749zsgml6f0l`
+  - `theinside.com?lid=tbxdh5znq79w`
+  - `the-citizenry.com?lid=u21fj9a27j1x`
+  - `burrow.com?lid=ekfa4uo78ao3`
+  - `stfrank.com?lid=adrucdwrhvlu`
+- **P_2025_06_22_PT_CZ_July_4th_EA_Last_Chance_Emai** (2025-06-21) — 1 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=58wbg4mdzuoi`
+- **P_2025_06_16_CZ_Summer_Retreat_Sale_Last_Chance_Email** (2025-06-16) — 5 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=qztg2d6eibsm`
+  - `theinside.com?lid=kneob2u330bt`
+  - `the-citizenry.com?lid=jz1x9iyx5ky7`
+  - `burrow.com?lid=rxz232knfofa`
+  - `stfrank.com?lid=sj2fwb1suwv8`
+- **P_2025_06_12_CZ_Summer_Retreat_Sale_Announcement** (2025-06-12) — 5 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=0h94ym5pct33`
+  - `theinside.com?lid=knb1nmwii05c`
+  - `the-citizenry.com?lid=rg3g67kxzcgn`
+  - `burrow.com?lid=ewykct7c9aj1`
+  - `stfrank.com?lid=tbknilr8zbd2`
+- **P_2025_06_07_PT_PM_CZ_Lapsed_Non_Purchaser_Offer_Email** (2025-06-07) — 1 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=gkbm02v84ie9`
+- **P_2025_06_02_CZ_MDW_Extension_Last_Chance_Email** (2025-06-01) — 6 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=n56p4p3rhio7`
+  - `the-citizenry.com?lid=f5o4qghxqhl5`
+  - `stfrank.com?lid=aci9zospwmqg`
+  - `burrow.com?lid=53ak3j5vxdfj`
+  - `theinside.com?lid=jk4m8ofob00v`
+  - `the-citizenry.com?lid=u5ry82yy9788`
+- **P_2025_06_01_CZ_MDW_Back_In_Stock_Email** (2025-05-31) — 6 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=p8g7j8y21wsp`
+  - `the-citizenry.com?lid=mz6mopykej0q`
+  - `stfrank.com?lid=dz13r0dyn2q6`
+  - `burrow.com?lid=yzwshtyoaa3p`
+  - `theinside.com?lid=a3htzmd6g1pb`
+  - `the-citizenry.com?lid=r95fitoxisr1`
+- **P_2025_05_30_PT_PM_CZ_MDW_Free_Shipping_Pillows_Email** (2025-05-30) — 1 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=zvogqazwaa3r`
+- **P_2025_05_29_CZ_MDW_Extension_Archive_Sale_Email** (2025-05-29) — 6 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=jar6pk525k5s`
+  - `the-citizenry.com?lid=je4xdoh28eta`
+  - `stfrank.com?lid=r7aky3mhz83a`
+  - `burrow.com?lid=k7wpg0lxwib5`
+  - `theinside.com?lid=zybbkurk0vb9`
+  - `the-citizenry.com?lid=yvt5hbb9euga`
+- **P_2025_05_29_CZ_Pillows_Free_Shipping_Offer_Email** (2025-05-29) — 6 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=3phuw5z660jt`
+  - `the-citizenry.com?lid=xh47mj9t5xh1`
+  - `stfrank.com?lid=tezrj1azto6j`
+  - `burrow.com?lid=u1mx3rs9ggwi`
+  - `theinside.com?lid=65vmmixqx790`
+  - `the-citizenry.com?lid=4jq9mgb8g7ie`
+- **P_2025_05_28_CZ_MDW_Extension_Announcement_Email** (2025-05-28) — 6 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=s5zfg3mdw5t2`
+  - `the-citizenry.com?lid=6e4c458fmcdp`
+  - `stfrank.com?lid=d82p0dfm0i4z`
+  - `burrow.com?lid=x70cl9pb522c`
+  - `theinside.com?lid=2ov1dyw5swtw`
+  - `the-citizenry.com?lid=zom94yxhewzu`
+- **P_2025_05_27_CZ_PM_MDW_Last_Chance_Email** (2025-05-27) — 6 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=7j8svd6yfu53`
+  - `the-citizenry.com?lid=b0dtrkarr6o6`
+  - `stfrank.com?lid=1a9wkivfiltq`
+  - `burrow.com?lid=q196bq3svk5d`
+  - `theinside.com?lid=gb8zkv5zrqcr`
+  - `the-citizenry.com?lid=grvu6ike84lm`
+- **P_2025_05_27_CZ_Trade_MDW_Last_Chance_Email** (2025-05-27) — 3 link(s) [no protocol (bare domain)]
+  - `theinside.com?lid=oqvpabmkvitd`
+  - `interiordefine.com?lid=dqfjve2qm0lz`
+  - `stfrank.com?lid=lwk9r555ixrt`
+- **P_2025_05_27_CZ_MDW_AM_Last_Chance_Email** (2025-05-27) — 6 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=zeoez4fhjh4y`
+  - `the-citizenry.com?lid=nqtfyi91xckg`
+  - `stfrank.com?lid=66pjmt7vg69q`
+  - `burrow.com?lid=bkjrxj9mkx5t`
+  - `theinside.com?lid=7zgd6jhf0qgl`
+  - `the-citizenry.com?lid=9xv7c5ylbrhr`
+- **P_2025_05_26_PT_PM_CZ_MDW_Sale_Reminder_Email** (2025-05-26) — 2 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=taftzye7de29`
+  - `the-citizenry.com?lid=3x7yiwjhi4en`
+- **P_2025_05_26_CZ_MDW_AM_Sale_Reminder_Email** (2025-05-26) — 6 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=xaub3ki1a3hs`
+  - `the-citizenry.com?lid=1hsuxft631ki`
+  - `stfrank.com?lid=9t2wwgt02py3`
+  - `burrow.com?lid=ech9ujultov5`
+  - `theinside.com?lid=o4k4eqsa8ksn`
+  - `the-citizenry.com?lid=lcvk0ub5f94i`
+- **P_2025_05_25_CZ_MDW_Breezy_Bedding_Email** (2025-05-24) — 6 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=czc2dy51lrv3`
+  - `the-citizenry.com?lid=2hw7dlpu3ymn`
+  - `stfrank.com?lid=ezdbm0xfazln`
+  - `burrow.com?lid=4hd1phoysamg`
+  - `theinside.com?lid=ww7ptl2u0jhm`
+  - `the-citizenry.com?lid=ivvh0213k3hh`
+- **P_2025_05_24_CZ_PM_MDW_Sale_Picks_Under_150_Email** (2025-05-24) — 6 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=6c29c7p6uu9j`
+  - `the-citizenry.com?lid=e8ce5m07evae`
+  - `stfrank.com?lid=wkf9jior2zmv`
+  - `burrow.com?lid=szhw4rz5ia2v`
+  - `theinside.com?lid=ul49uhsi5h12`
+  - `the-citizenry.com?lid=d1jbzvvcerfz`
+- **P_2025_05_24_CZ_MDW_In_Stock_Rugs_Email** (2025-05-24) — 6 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=t59p4v2puxsk`
+  - `the-citizenry.com?lid=cfckfwp2ud1r`
+  - `stfrank.com?lid=p1vuit9clrq4`
+  - `burrow.com?lid=4zm1uqtt1r1q`
+  - `theinside.com?lid=tq6smexm2rs9`
+  - `the-citizenry.com?lid=6ujel8hz6coa`
+- **P_2025_05_23_CZ_Trade_MDW_In_Stock_Rugs** (2025-05-23) — 1 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=pmjale7b5a5p`
+- **P_2025_05_23_CZ_MDW_In_Stock_Ready_To_Ship_Email** (2025-05-23) — 6 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=zl3vuu7t568g`
+  - `the-citizenry.com?lid=kn638pqnz7ai`
+  - `stfrank.com?lid=j9ydvuckwbpo`
+  - `burrow.com?lid=38f8prk08vl1`
+  - `theinside.com?lid=bg1finqr9zb5`
+  - `the-citizenry.com?lid=7t2ukotzthl2`
+- **P_2025_05_22_CZ_MDW_Summer_Edit_Email** (2025-05-22) — 6 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=koilhj5mzzzp`
+  - `the-citizenry.com?lid=kcdmyaf57ot4`
+  - `stfrank.com?lid=6r4rsma0sbd6`
+  - `burrow.com?lid=er1fhqp8adta`
+  - `theinside.com?lid=z67qdygzy4zt`
+  - `the-citizenry.com?lid=1zzladpwg3uj`
+- **P_2025_05_21_CZ_MDW_Archive_Sale_Email** (2025-05-21) — 6 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=lkdsp6mqj5ky`
+  - `the-citizenry.com?lid=tiarhlevbqfl`
+  - `stfrank.com?lid=aegow2j78snw`
+  - `burrow.com?lid=q5e7rqlcfsaf`
+  - `theinside.com?lid=3d2cqp2vn2n2`
+  - `the-citizenry.com?lid=0cept4gxlxbp`
+- **P_2025_05_20_CZ_MDW_Little_White_Bedroom_Email** (2025-05-20) — 6 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=8o43yfkkuxya`
+  - `the-citizenry.com?lid=a3ourfp1d6v1`
+  - `stfrank.com?lid=gwh5wvhrtygl`
+  - `burrow.com?lid=6jcns2kkvu34`
+  - `theinside.com?lid=ftxjy9uvvf8p`
+  - `the-citizenry.com?lid=1w06s0ombmze`
+- **P_2025_05_19_CZ_MDW_Spring_Rug_Roundup_Email** (2025-05-19) — 6 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=k4zx8tkp81ia`
+  - `the-citizenry.com?lid=ohb2knber3fz`
+  - `stfrank.com?lid=luunolju3cua`
+  - `burrow.com?lid=mwywc47pk64l`
+  - `theinside.com?lid=fpilzvlutlua`
+  - `the-citizenry.com?lid=q8bgcs5hj6d9`
+- **P_2025_05_18_CZ_MDW_Woven_Wall_Email** (2025-05-17) — 6 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=gajsszw5t153`
+  - `the-citizenry.com?lid=f7kg95bh0s7m`
+  - `stfrank.com?lid=m8onbgrsx882`
+  - `burrow.com?lid=26zpo1s2qfvi`
+  - `theinside.com?lid=pkedtujx9jgg`
+  - `the-citizenry.com?lid=p3bstbgg7jz3`
+- **P_2025_05_17_CZ_MDW_Back_In_Stock_Email** (2025-05-16) — 6 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=wem2au5wcyul`
+  - `the-citizenry.com?lid=ql3of4t56b7w`
+  - `stfrank.com?lid=cuvzn8r1w19o`
+  - `burrow.com?lid=2o07reh9xern`
+  - `theinside.com?lid=xu44033v6ise`
+  - `the-citizenry.com?lid=sz4w3071vlm0`
+- **P_2025_05_16_CZ_TRADE_MDW_Categories_Email** (2025-05-16) — 6 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=xdv5n8yyj8ga`
+  - `the-citizenry.com?lid=5asvy7s7w24d`
+  - `stfrank.com?lid=ksit3fc110qm`
+  - `burrow.com?lid=xtc1t3hnqpp3`
+  - `theinside.com?lid=3f3e4hgbsktw`
+  - `the-citizenry.com?lid=j3qhv0jc66i0`
+- **P_2025_05_16_CZ_MDW_Categories_Email** (2025-05-16) — 6 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=m1hcpwgr2dxl`
+  - `the-citizenry.com?lid=9uweryiu0gfr`
+  - `stfrank.com?lid=vzlxvlh223xi`
+  - `burrow.com?lid=twgdznfjx4d1`
+  - `theinside.com?lid=ela1vypwq871`
+  - `the-citizenry.com?lid=b5ik4k3oasnl`
+- **P_2025_05_15_CZ_MDW_Sale_Announcement_Email** (2025-05-15) — 6 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=uyjt2bme2jfv`
+  - `the-citizenry.com?lid=zqu1w4rqfsw4`
+  - `stfrank.com?lid=ys9vlm2tb9o7`
+  - `burrow.com?lid=c8l4dp6lyvkh`
+  - `theinside.com?lid=m8wz760hojxb`
+  - `the-citizenry.com?lid=l4x9i9emgl7t`
+- **P_2025_05_13_PT_CZ_Memorial_Day_EA_Announcement_Email** (2025-05-13) — 2 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=lrxjgh62ijj2`
+  - `the-citizenry.com?lid=e6k4fymcs0qt`
+- **P_2025_05_05_CZ_Weekend_Sale_Last_Chance_Email** (2025-05-05) — 6 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=vdjqiftmmn4p`
+  - `stfrank.com?lid=mts0a01sq20r`
+  - `interiordefine.com?lid=31dkx59wbj29`
+  - `burrow.com?lid=5j5hxwjexyyy`
+  - `theinside.com?lid=zgl2tajmk9q1`
+  - `the-citizenry.com?lid=p59cmqf4d5j1`
+- **P_2025_05_03_CZ_Weekend_Flash_Sale_Reminder_Email** (2025-05-02) — 6 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=qvywy3xtu396`
+  - `stfrank.com?lid=lvmojbvz4lf3`
+  - `interiordefine.com?lid=cgcng004j9nn`
+  - `burrow.com?lid=zaeiymonbe15`
+  - `theinside.com?lid=qjrwr9nfkz77`
+  - `the-citizenry.com?lid=t4gjkp4dss4i`
+- **P_2025_05_01_CZ_Weekend_Flash_Sale_Announcement_Email** (2025-05-01) — 6 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=h7aptrzer1da`
+  - `stfrank.com?lid=uaws4pg2lv5x`
+  - `interiordefine.com?lid=x88qlgifmlee`
+  - `burrow.com?lid=e3ojh7x2g37r`
+  - `theinside.com?lid=kn0x4j4bs154`
+  - `the-citizenry.com?lid=gso8egiw6v1v`
+- **P_2025_04_23_CZ_Fresh_Foundations_Sale_Last_Chance_AM_Email** (2025-04-23) — 5 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=u0yplpyf2osr`
+  - `stfrank.com?lid=nsxoqtfevd60`
+  - `interiordefine.com?lid=pi9d3i3z7nud`
+  - `burrow.com?lid=rlm3r260qt98`
+  - `theinside.com?lid=b71phr9d4igv`
+- **P_2025_04_23_PT_CZ_GWP_Contingency_Reminder** (2025-04-22) — 1 link(s) [http://]
+  - `http://the-citizenry.com/?lid=c9rxhfjkx4gr`
+- **P_2025_04_22_CZ_Earth_Day_GWP_Email** (2025-04-22) — 1 link(s) [http://]
+  - `http://the-citizenry.com/?lid=dev1qdn8jz1b`
+- **P_2025_04_20_CZ_Artful_Accents_Email** (2025-04-20) — 5 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=5h7xgai0h655`
+  - `stfrank.com?lid=pge3cmd056ws`
+  - `interiordefine.com?lid=rwa5y1ln3wjq`
+  - `burrow.com?lid=vvbji4alpt7i`
+  - `theinside.com?lid=1ugm5hzopnbs`
+- **P_2025_04_19_CZ_The_Layered_Bed_Email** (2025-04-18) — 5 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=y14hs1qm2vp0`
+  - `stfrank.com?lid=ghq32hl8qu88`
+  - `interiordefine.com?lid=wmu3twiskg0u`
+  - `burrow.com?lid=3se1uay5ws0j`
+  - `theinside.com?lid=xohq2tqin8iq`
+- **P_2025_04_17_CZ_Fresh_Foundations_Sale_Reminder_Email** (2025-04-17) — 5 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=o5z5f7elv0le`
+  - `stfrank.com?lid=g5ubyd43o0k7`
+  - `interiordefine.com?lid=i745dvh13o8r`
+  - `burrow.com?lid=mnuyzjmw4bew`
+  - `theinside.com?lid=w7kjj6c5r5cw`
+- **P_2025_04_15_CZ_Fresh_Foundations_Rugs_Email** (2025-04-15) — 5 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=vm6kzzg938q5`
+  - `stfrank.com?lid=myhur7r8kx87`
+  - `interiordefine.com?lid=o1pgvvms9yb3`
+  - `burrow.com?lid=8h59gthmwvuw`
+  - `theinside.com?lid=r8u0tu55oss5`
+- **P_2025_04_14_CZ_Fresh_Foundations_Sale_Announcement_Email** (2025-04-14) — 5 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=i39mtyubdvrz`
+  - `stfrank.com?lid=z9ftgoxthipz`
+  - `interiordefine.com?lid=l0f4ubnkhbux`
+  - `burrow.com?lid=3ajjduoh0w06`
+  - `theinside.com?lid=1xqzcjbwaoh5`
+- **P_2025_03_24_CZ_The_Spring_Event_AM_Last_Chance_Email** (2025-03-24) — 6 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=ckq2qdz4iikv`
+  - `stfrank.com?lid=yvpjiwwbrurl`
+  - `interiordefine.com?lid=sq37wbe8aoyd`
+  - `burrow.com?lid=24bu43fre2f6`
+  - `theinside.com?lid=emjh4tfz1g99`
+  - `the-citizenry.com?lid=vlibuclkykac`
+- **P_2025_03_23_CZ_The_Spring_Event_Spring_Palette_Email** (2025-03-22) — 6 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=kpumlmtfycwv`
+  - `stfrank.com?lid=pnwiu1naneh8`
+  - `interiordefine.com?lid=6ve3h6chgmss`
+  - `burrow.com?lid=woorijipjv0k`
+  - `theinside.com?lid=i08h3nrr4gxm`
+  - `the-citizenry.com?lid=on8sfpvmrcde`
+- **P_2025_03_21_CZ_The_Spring_Event_Elevated_Bath_Essentials_Email** (2025-03-21) — 6 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=qr3hknlfuzof`
+  - `stfrank.com?lid=zv5ujaxeml2t`
+  - `interiordefine.com?lid=lu1xe5lz0veb`
+  - `burrow.com?lid=ocxdnposn90t`
+  - `theinside.com?lid=89gneig0ekkt`
+  - `the-citizenry.com?lid=gsugfcw0zmoh`
+- **P_2025_03_20_CZ_The_Spring_Event_Bedroom_Refresh_Email** (2025-03-20) — 6 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=4vckr8fu47p0`
+  - `stfrank.com?lid=eekst8yxew25`
+  - `interiordefine.com?lid=yecx6pdbwcsp`
+  - `burrow.com?lid=0igcediorqth`
+  - `theinside.com?lid=njddbsbdrpy5`
+  - `the-citizenry.com?lid=01nvhu9dt4mz`
+- **P_2025_03_19_CZ_The_Spring_Event_Bestselling_Bedding_Email** (2025-03-19) — 13 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=uwsvt2sqep9b`
+  - `stfrank.com?lid=ayes1rm2xy03`
+  - `interiordefine.com?lid=4mpu0e3d4odr`
+  - `burrow.com?lid=3doz9175s0h1`
+  - `theinside.com?lid=9rvmjo2xe0mc`
+  - `the-citizenry.com?lid=jsqme4jvn4bv`
+  - `havenly.com?lid=qjh78b4conxv`
+  - `havenly.com?lid=n1yvk2pteehd`
+  - `interiordefine.com?lid=cx5xp563u8xl`
+  - `burrow.com?lid=fafjbn7pgqiq`
+  - `theinside.com?lid=6ablp6xlshn0`
+  - `the-citizenry.com?lid=u773w1ilgzy3`
+  - `stfrank.com?lid=ax8quxtey83y`
+- **P_2025_03_18_CZ_The_Spring_Event_Archive_Sale_Email** (2025-03-18) — 6 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=zrtvay54ovzy`
+  - `stfrank.com?lid=7ivw7wum40cs`
+  - `interiordefine.com?lid=155gogjmrevf`
+  - `burrow.com?lid=v3abczxos634`
+  - `theinside.com?lid=xytsxgn07u84`
+  - `the-citizenry.com?lid=j4w4lf0amel3`
+- **P_2025_03_17_CZ_Rug_Roundup_Email** (2025-03-17) — 13 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=sx5qwtrosp7f`
+  - `stfrank.com?lid=pzv76s253vuo`
+  - `interiordefine.com?lid=pgs906cfi4bx`
+  - `burrow.com?lid=vyantmg7k76i`
+  - `theinside.com?lid=3i975g3fu7no`
+  - `the-citizenry.com?lid=cf6nb6q3vmee`
+  - `havenly.com?lid=sdgupu542obm`
+  - `havenly.com?lid=sooky66j86wl`
+  - `interiordefine.com?lid=k23n0q6wp8cb`
+  - `burrow.com?lid=dgl1ybsnhgvf`
+  - `theinside.com?lid=gtbauvzkr357`
+  - `the-citizenry.com?lid=7gw60xlarz7k`
+  - `stfrank.com?lid=l5eltga3uaks`
+- **P_2025_03_16_CZ_Spring_Styling_Tips_Email** (2025-03-16) — 13 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=hjjrgcnw9jwn`
+  - `stfrank.com?lid=delkdxxy25mr`
+  - `interiordefine.com?lid=r2ksxwkqotrl`
+  - `burrow.com?lid=fyyqpt0l7ve9`
+  - `theinside.com?lid=qklnp84pv8mf`
+  - `the-citizenry.com?lid=t58kivkojxu7`
+  - `havenly.com?lid=0hk0lbaln6i5`
+  - `havenly.com?lid=3g5z7eihqi15`
+  - `interiordefine.com?lid=xyz93gomim6e`
+  - `burrow.com?lid=o3xxul0c6qzq`
+  - `theinside.com?lid=vv7yj8y6pay3`
+  - `the-citizenry.com?lid=ogrk7pfvd1ij`
+  - `stfrank.com?lid=7mr8q4i9w8rv`
+- **P_2025_03_14_CZ_Spring_Event_Custom_Heirloom_Furniture_Email** (2025-03-15) — 14 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=fnk6bf6ctho7`
+  - `havenly.com?lid=2xx06btvxuxf`
+  - `stfrank.com?lid=pqdaxfdndbi6`
+  - `interiordefine.com?lid=mzu7m7hhirxw`
+  - `burrow.com?lid=8kx98baybm8z`
+  - `theinside.com?lid=4akreqd6g3yq`
+  - `the-citizenry.com?lid=iqv33inypjy7`
+  - `havenly.com?lid=9pxqaetgd13f`
+  - `havenly.com?lid=1juspbltuq73`
+  - `interiordefine.com?lid=8r03y5crblcq`
+  - `burrow.com?lid=x1x6xes5k8ga`
+  - `theinside.com?lid=c5m0wwavsoet`
+  - `the-citizenry.com?lid=kv4zg9zezvf1`
+  - `stfrank.com?lid=2wjilow1ozj6`
+- **P_2025_03_14_D_CZ_Spring_Event_Launch** (2025-03-14) — 14 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=rkcgp11god61`
+  - `havenly.com?lid=3s1rmvjolsri`
+  - `stfrank.com?lid=syuymhik99o9`
+  - `interiordefine.com?lid=x8mzdwo6peiw`
+  - `burrow.com?lid=dbdo52bdevlc`
+  - `theinside.com?lid=9tm7j7zktnt5`
+  - `the-citizenry.com?lid=2f4qit3pp4n6`
+  - `havenly.com?lid=h5g8xa5h9a1i`
+  - `havenly.com?lid=3gl18ze0lga2`
+  - `interiordefine.com?lid=m8j7ua83mxzk`
+  - `burrow.com?lid=2phujzj8k28n`
+  - `theinside.com?lid=v3ngvnxmx68m`
+  - `the-citizenry.com?lid=aky08c1xwokv`
+  - `stfrank.com?lid=xtl8nvtk41xa`
+- **P_2025_03_13_D_CZ_Spring_Event_EA_Last_Chance_Email** (2025-03-13) — 14 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=alvpc8gb1aj0`
+  - `havenly.com?lid=01u967fkg3pg`
+  - `stfrank.com?lid=1w81b2vtni6r`
+  - `interiordefine.com?lid=dm561p1swkz1`
+  - `burrow.com?lid=6z6nesyvyv70`
+  - `theinside.com?lid=h2zc71xyvn16`
+  - `the-citizenry.com?lid=ds59wubggjew`
+  - `havenly.com?lid=px167w8eg9al`
+  - `havenly.com?lid=v9giaywlyelp`
+  - `interiordefine.com?lid=qtt8cl67n6m9`
+  - `burrow.com?lid=45absumh6uxk`
+  - `theinside.com?lid=mj8gudsiv927`
+  - `the-citizenry.com?lid=ao75epvnj6sb`
+  - `stfrank.com?lid=58vjr3mbeciq`
+- **P_2025_03_12_D_CZ_Spring_Event_EA_Launch** (2025-03-12) — 14 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=bpv2ehhr3uss`
+  - `havenly.com?lid=nkiv593ywtf9`
+  - `stfrank.com?lid=te5ops9l35ih`
+  - `interiordefine.com?lid=2aio35flx26e`
+  - `burrow.com?lid=e8c9bubytnw4`
+  - `theinside.com?lid=pc1hf2gj2tu2`
+  - `the-citizenry.com?lid=iuzp0c8a34pj`
+  - `havenly.com?lid=76q3h5yq45qd`
+  - `havenly.com?lid=l84rojemt86a`
+  - `interiordefine.com?lid=uod8tcdsbxre`
+  - `burrow.com?lid=fti9n2b4dz21`
+  - `theinside.com?lid=c9le3wywdj0s`
+  - `the-citizenry.com?lid=8uuwn248h34o`
+  - `stfrank.com?lid=kkagzd60v1a8`
+- **P_2025_03_11_D_CZ_The_Layered_Bedroom_Email** (2025-03-11) — 4 link(s) [no protocol (bare domain), http://]
+  - `http://the-citizenry.com/pages/the-layered-bed/?lid=rqseom3dhol7#bedroom-furniture`
+  - `http://the-citizenry.com/pages/the-layered-bed/?lid=7wah21p9ie7b#rugs`
+  - `http://the-citizenry.com/pages/the-layered-bed/?lid=dxncsslwl97g#pillows`
+  - `havenly.com?lid=iexmp3du5dqm`
+- **P_2025_03_10_D_CZ_Rug_Size_And_Style_Guide_Email** (2025-03-09) — 6 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=yeaj66spdc19`
+  - `stfrank.com?lid=xomtkk80xgvg`
+  - `interiordefine.com?lid=34pg944hdcny`
+  - `burrow.com?lid=fpocag7um8lh`
+  - `theinside.com?lid=o5ev27ob14gt`
+  - `the-citizenry.com?lid=6fdjsufwkcml`
+- **P_2025_03_07_D_CZ_TRADE_Introducing_STF** (2025-03-07) — 8 link(s) [no protocol (bare domain)]
+  - `stfrank.com?lid=aa2ru20o46n0`
+  - `stfrank.com?lid=v7ltazk2mnzb`
+  - `stfrank.com?lid=s0l1dmgvczrn`
+  - `stfrank.com?lid=dmp6jf0bskua`
+  - `stfrank.com?lid=n31uwy55283e`
+  - `stfrank.com?lid=x99r2gut154o`
+  - `stfrank.com?lid=bnqsylmytrsk`
+  - `stfrank.com?lid=fdooonh6h61b`
+- **P_2025_02_24_D_CZ_PDS_Extension_Last_Chance_AM** (2025-02-23) — 6 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=lvnke0fqdq81`
+  - `stfrank.com?lid=sc17krog37a7`
+  - `interiordefine.com?lid=skjcklxp1da3`
+  - `burrow.com?lid=hmz1wuwjl9vm`
+  - `theinside.com?lid=akajnssvf3n8`
+  - `the-citizenry.com?lid=egl5f1fuki9w`
+- **P_2025_2_23_D_CZ_PDS_Extension_Designer_Approved_Furniture** (2025-02-22) — 6 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=sae7as5twfv6`
+  - `stfrank.com?lid=5aau2mreghla`
+  - `interiordefine.com?lid=n2bcwa11t0xb`
+  - `burrow.com?lid=kfj3hj9y52dy`
+  - `theinside.com?lid=ptekfsoziklh`
+  - `the-citizenry.com?lid=on8uycv1ab43`
+- **P_2025_2_22_D_CZ_PDS_Extension_GTL_Bedroom_Retreat** (2025-02-21) — 6 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=vhg71827p8ef`
+  - `stfrank.com?lid=o7gwtn6a0ps0`
+  - `interiordefine.com?lid=gzz3i5v6eabn`
+  - `burrow.com?lid=0dxj4f1v381x`
+  - `theinside.com?lid=3y7zuc21lhsm`
+  - `the-citizenry.com?lid=qp34qlk08ait`
+- **P_2025_2_21_D_CZ_PDS_Extension_Furniture_By_Room** (2025-02-20) — 6 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=snsv9tik46ro`
+  - `stfrank.com?lid=bp9qpi2quoqb`
+  - `interiordefine.com?lid=lltu96u758d4`
+  - `burrow.com?lid=0raa9slkm2qx`
+  - `theinside.com?lid=5slu3zxx198w`
+  - `the-citizenry.com?lid=4bbkwl9mkib9`
+- **P_2025_2_20_D_CZ_PDS_Extension_Bedding_Layers** (2025-02-19) — 6 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=2afrh08sfjja`
+  - `stfrank.com?lid=z8tovre4hxfj`
+  - `interiordefine.com?lid=ekabvcjzrmsk`
+  - `burrow.com?lid=27cpaumt1xb4`
+  - `theinside.com?lid=ah782zo04map`
+  - `the-citizenry.com?lid=u7ukrmjvdb4q`
+- **P_2025_2_19_D_CZ_PDS_Extension_Launch** (2025-02-19) — 6 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=9tfoyzusuohc`
+  - `stfrank.com?lid=wqsbbgtxzltz`
+  - `interiordefine.com?lid=yyxh50lqspoz`
+  - `burrow.com?lid=wbdmay2c2ivr`
+  - `theinside.com?lid=s93k49tyq9b5`
+  - `the-citizenry.com?lid=sws93cpbccr0`
+- **P_2025_2_18_D_CZ_PD_AM_Last_Chance** (2025-02-17) — 6 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=egw02tlsreke`
+  - `stfrank.com?lid=jkfw9avixh3f`
+  - `interiordefine.com?lid=52pw6p2bqde6`
+  - `burrow.com?lid=9icxydvvifb2`
+  - `theinside.com?lid=jogb4fojsrhz`
+  - `the-citizenry.com?lid=n115g43n9y6q`
+- **P_2025_2_17_D_CZ_PD_PM_Sale_Reminder** (2025-02-17) — 6 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=vito9itv1r2w`
+  - `stfrank.com?lid=p3zgpqg4zizv`
+  - `interiordefine.com?lid=nopfgzqn2zi8`
+  - `burrow.com?lid=u06wg6dex3at`
+  - `theinside.com?lid=y21ibnpq4n65`
+  - `the-citizenry.com?lid=eksaz91gjqks`
+- **P_2025_2_17_D_CZ_PD_AM_Most_Loved_Styles** (2025-02-16) — 6 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=bxsfmkhw3c6d`
+  - `stfrank.com?lid=jccb10ygyjr2`
+  - `interiordefine.com?lid=u1blmwzyg9t6`
+  - `burrow.com?lid=6xv1m1q8lsc7`
+  - `theinside.com?lid=gsab0ig4qekg`
+  - `the-citizenry.com?lid=9ps426ysvlkv`
+- **P_2025_2_16_D_CZ_PD_GTL_The_Layered_Living_Room** (2025-02-15) — 6 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=0ght8c32za5k`
+  - `stfrank.com?lid=hswu18qubp6y`
+  - `interiordefine.com?lid=idzvyru0oljq`
+  - `burrow.com?lid=cube1g6ykd3v`
+  - `theinside.com?lid=s5ilinvi17dp`
+  - `the-citizenry.com?lid=7wlaz8r8ktw9`
+- **P_2025_02_13_D_CZ_Presidents_Day_Event_Launch** (2025-02-12) — 5 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=cdgi0lrxei10`
+  - `stfrank.com?lid=wa0ugigl9cnv`
+  - `interiordefine.com?lid=w6npri4pv3fz`
+  - `burrow.com?lid=stdlat7glffs`
+  - `theinside.com?lid=c34fn2r8jsvl`
+- **P_2025_2_12_D_CZ_PD_EA_Launch_AM** (2025-02-12) — 5 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=2qxfv9zjlbxu`
+  - `stfrank.com?lid=eu2p4te4u425`
+  - `interiordefine.com?lid=23evh13tq9fq`
+  - `burrow.com?lid=hvbpgz1qrslz`
+  - `theinside.com?lid=vytn5xrnkvwj`
+- **Copy of P_2025_03_12_D_CZ_The_Spring_Event_EA_Launch** () — 7 link(s) [no protocol (bare domain), http://]
+  - `http://the-citizenry.com/?lid=rddkz26s89ib`
+  - `havenly.com?lid=q3vjgyrmud3v`
+  - `stfrank.com?lid=ujigmdes2yga`
+  - `interiordefine.com?lid=a9scc8m11yvb`
+  - `burrow.com?lid=bg9o7een11pu`
+  - `theinside.com?lid=vyxoe98gamyn`
+  - `the-citizenry.com?lid=34hk1iziznje`
+- **Copy of P_2025_04_14_CZ_Fresh_Foundations_Sale_Announcement_Email** () — 5 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=aiper9x54pl8`
+  - `stfrank.com?lid=5k0ccsbz4qst`
+  - `interiordefine.com?lid=k7ul3ddr8bpk`
+  - `burrow.com?lid=2o93ctylq81a`
+  - `theinside.com?lid=hv2be23msmmz`
+- **Copy of P_2025_04_23_PT_CZ_GWP_Contingency_Reminder** () — 1 link(s) [http://]
+  - `http://the-citizenry.com/?lid=hllifs1ssfl1`
+- **Copy of P_2025_05_29_CZ_MDW_Extension_Archive_Sale_Email** () — 6 link(s) [no protocol (bare domain)]
+  - `the-citizenry.com?lid=a4rlscctcsxd`
+  - `the-citizenry.com?lid=zfcfnpkncdtk`
+  - `stfrank.com?lid=xp9a25y4d1a4`
+  - `burrow.com?lid=towiip3uhacr`
+  - `theinside.com?lid=2ja9rzlj2la8`
+  - `the-citizenry.com?lid=5rbpg7mhkptd`
+- **Copy of P_2025_2_17_D_CZ_PD_AM_Most_Loved_Styles** () — 6 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=4ww85dzr45cu`
+  - `stfrank.com?lid=msrau4rz6qsv`
+  - `interiordefine.com?lid=coet5lf2zlr8`
+  - `burrow.com?lid=4sipsicikdf4`
+  - `theinside.com?lid=4035s42nkdep`
+  - `the-citizenry.com?lid=qzc4gkkdyjl2`
+- **Copy of P_EM_2025_07_04_CZ_D_PR_Sale_By_Category** () — 5 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=2e9v3lf1ybsw`
+  - `interiordefine.com?lid=absf7umtf2ro`
+  - `theinside.com?lid=hn0huib533kw`
+  - `burrow.com?lid=ejwi8n6q9o4q`
+  - `stfrank.com?lid=fd4pzj39ju41`
+- **Copy of P_EM_2025_07_07_CZ_D_PR_Sale_Reminder** () — 5 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=3ousp2q49zc6`
+  - `interiordefine.com?lid=v0l1q2ybus6y`
+  - `theinside.com?lid=8hmi9wbjbywb`
+  - `burrow.com?lid=cspewpfzul0d`
+  - `stfrank.com?lid=0smqmhnyz2ic`
+- **Copy of P_EM_2025_09_02_CZ_D_PR_Labor_Day_Last_Chance_AM** () — 4 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=32il6ghdpdap`
+  - `interiordefine.com?lid=dbkedme4n2ld`
+  - `theinside.com?lid=fulxr8dwm5ts`
+  - `stfrank.com?lid=4jwny87cu10m`
+- **Copy of P_EM_2025_09_03_CZ_D_PR_Labor_Day_Sale_Extension_Announcement** () — 4 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=gyxgky9a0t1c`
+  - `interiordefine.com?lid=k20sg6276kr3`
+  - `theinside.com?lid=3vjwc82o13ml`
+  - `stfrank.com?lid=2thskbl0hk17`
+- **P_2025_03_12_D_CZ_The_Spring_Event_EA_Launch** () — 7 link(s) [no protocol (bare domain), http://]
+  - `http://the-citizenry.com/?lid=96f03855kfw1`
+  - `havenly.com?lid=x1aprbxsq0zr`
+  - `stfrank.com?lid=zfttk587ozr2`
+  - `interiordefine.com?lid=bu8h7d7x3bet`
+  - `burrow.com?lid=9fcuv7wydbel`
+  - `theinside.com?lid=9few2als2kyr`
+  - `the-citizenry.com?lid=n7efpkptauyh`
+- **Test_Campaign_For_Footer** () — 4 link(s) [no protocol (bare domain), http://]
+  - `http://the-citizenry.com/pages/the-layered-bed/?lid=fdit0u13ecrz#bedroom-furniture`
+  - `http://the-citizenry.com/pages/the-layered-bed/?lid=3tfbstxjk52q#rugs`
+  - `http://the-citizenry.com/pages/the-layered-bed/?lid=6oay1l5r4d4p#pillows`
+  - `havenly.com?lid=rkzkbvf2ix7g`
+
+### HAV
+
+- **P_2025_2_24_HAV_Conv_PDW_Sale_Last_Chance_Email** (2025-02-24) — 5 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=62vufgfu6ba9`
+  - `havenly.com?lid=cwff40cj7ye3`
+  - `interiordefine.com?lid=axinhkk4uuzi`
+  - `burrow.com?lid=19i9nzzuyl56`
+  - `theinside.com?lid=57a6z4zak9rz`
+- **P_2025_2_20_HAV_PC_PDW_Sale_Ext_Last_Chance_Email** (2025-02-20) — 6 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=8zgwz1gwvfsv`
+  - `havenly.com?lid=fzjuft78svkf`
+  - `havenly.com?lid=pe8hye5g7inh`
+  - `interiordefine.com?lid=i9srt3bp10u4`
+  - `burrow.com?lid=mdy6v8tsip5b`
+  - `theinside.com?lid=789v6oniwwys`
+- **P_2025_2_20_HAV_Conv_PDW_Sale_Ext_Announcement_Email** (2025-02-20) — 5 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=gh8devxxucdg`
+  - `havenly.com?lid=d68byg0j6ayh`
+  - `interiordefine.com?lid=ix9y4bnnadsa`
+  - `burrow.com?lid=3lvxni0mojnq`
+  - `theinside.com?lid=5fhgl3mi5mlb`
+- **P_2025_2_19_HAV_Conv_PDW_Sale_Last_Chance_Email** (2025-02-19) — 5 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=1nduxl86bf26`
+  - `havenly.com?lid=mfghe2slhd77`
+  - `interiordefine.com?lid=3v92c4i6505v`
+  - `burrow.com?lid=fotluyts10ek`
+  - `theinside.com?lid=ngvgprv6012u`
+- **P_2025_2_18_HAV_PC_PDW_Surprise_Ext_Announcement_Email** (2025-02-18) — 5 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=qsq74luvhe8o`
+  - `havenly.com?lid=fytrrhaczi5r`
+  - `interiordefine.com?lid=kkzw1cg0jumc`
+  - `burrow.com?lid=5rubxbxzxr86`
+  - `theinside.com?lid=8np1vfsijvjd`
+- **P_2025_2_17_HAV_Conv_PDS_Sale_Reminder_Email** (2025-02-16) — 5 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=rhs5qptl599k`
+  - `havenly.com?lid=d7co4r1pra2j`
+  - `interiordefine.com?lid=kplh1one1v55`
+  - `burrow.com?lid=kc06xo2sga3w`
+  - `theinside.com?lid=z0o0c4w3x2j3`
+- **P_2025_2_17_HAV_PC_PDS_Sale_Reminder_Email** (2025-02-16) — 5 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=kct7by2pkg7g`
+  - `havenly.com?lid=lgzkizngju19`
+  - `interiordefine.com?lid=8ny53ldu9p49`
+  - `burrow.com?lid=5t19ljikfwle`
+  - `theinside.com?lid=tqg7oqz5foy4`
+- **P_2025_2_16_HAV_Conv_PDW_Sale_Reminder_Email** (2025-02-15) — 5 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=c9p4h3e9wbuq`
+  - `havenly.com?lid=lrk932eawk1h`
+  - `interiordefine.com?lid=opszk09pahmg`
+  - `burrow.com?lid=zjiv47c4po2r`
+  - `theinside.com?lid=vah13sijvf35`
+- **P_2025_2_16_HAV_PC_PDW_Sale_Reminder_Email** (2025-02-15) — 5 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=ac9cxlfrxx2m`
+  - `havenly.com?lid=vortoqg91af1`
+  - `interiordefine.com?lid=ufz291rgun5j`
+  - `burrow.com?lid=23o8lthpiawx`
+  - `theinside.com?lid=ee3wwljemrnf`
+- **P_2025_2_13_HAV_PC_PDS_Sale_Reminder_Email** (2025-02-13) — 5 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=9tsh8b67i3cy`
+  - `havenly.com?lid=gknduyovxtrm`
+  - `interiordefine.com?lid=4eccay8wbgnf`
+  - `burrow.com?lid=kuqvcu0a9v8w`
+  - `theinside.com?lid=ptiaeubbdxuc`
+- **P_2025_2_13_HAV_Conv_PDS_Sale_Reminder_Email** (2025-02-13) — 5 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=rclkdhyeek83`
+  - `havenly.com?lid=vizkg68d1tnx`
+  - `interiordefine.com?lid=wjfpp4wmz3lf`
+  - `burrow.com?lid=4kz90sc4acgi`
+  - `theinside.com?lid=gxzk6zjnysue`
+- **P_2025_2_10_HAV_Conv_PDS_Announcement_Email** (2025-02-10) — 5 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=0eofuogbxkbm`
+  - `havenly.com?lid=o2kv5bule7c0`
+  - `interiordefine.com?lid=48puj4t6tdeg`
+  - `burrow.com?lid=3io1kdiu7mpw`
+  - `theinside.com?lid=c0za6wc40ilq`
+- **P_2025_2_10_HAV_PC_Sale_Reminder_Email** (2025-02-09) — 5 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=5v5ga0gwrf1y`
+  - `havenly.com?lid=tc79mvuxl0rx`
+  - `interiordefine.com?lid=4woqp0qy426j`
+  - `burrow.com?lid=jh3efrgaiya2`
+  - `theinside.com?lid=6rwe3qzzvnol`
+- **P_2025_2_7_HAV_PC_Sale_Reminder_Email** (2025-02-07) — 2 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=5nxbogyduk8l`
+  - `burrow.com?lid=2yi6qp289cdu`
+- **P_2025_2_4_HAV_PC_PDW_Sale_Announcement_Email** (2025-02-05) — 5 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=jqa6hvuns0k0`
+  - `havenly.com?lid=nbfnh4rhlh3w`
+  - `interiordefine.com?lid=pysi88zdv6oa`
+  - `burrow.com?lid=ojrd3ssdpxei`
+  - `theinside.com?lid=twq6a9ldyojy`
+- **P_2025_1_28_HAV_Conv_Jan_Merch_Sale_Last_Chance** (2025-01-27) — 3 link(s) [no protocol (bare domain)]
+  - `havenly.com/shop?lid=z1nuynbk6cir`
+  - `havenly.com?lid=mrq3s54qh6e9`
+  - `havenly.com?lid=cb2k18vrjepn`
+- **P_2025_1_26_HAV_Conv_Jan_Merch_Sale_Reminder** (2025-01-25) — 8 link(s) [no protocol (bare domain)]
+  - `burrow.com?lid=t3tgze6vtzap`
+  - `havenly.com?lid=u6e67ihrucid`
+  - `havenly.com?lid=31cpqwm2klv5`
+  - `havenly.com?lid=cvq4v9wokei8`
+  - `interiordefine.com?lid=7bzndlzqa12e`
+  - `burrow.com?lid=cprqnjgi85g9`
+  - `theinside.com?lid=uskbgjyeskxg`
+  - `havenly.com/?lid=jf8j8ob5nj9r`
+- **P_2025_1_23_D_HAV_Conv_Hideaway_Sale_Banner_Email** (2025-01-24) — 1 link(s) [no protocol (bare domain)]
+  - `havenly.com/shop?lid=myg91q1apiyr`
+- **P_2025_1_23_HAV_PC_Jan_Event_Extension_Reminder_Email** (2025-01-23) — 2 link(s) [no protocol (bare domain)]
+  - `burrow.com?lid=p9cmhqw9vqtd`
+  - `theinside.com?lid=pvqwndftps33`
+- **P_2025_1_23_D_HAV_PC_Hideaway_Sale_Banner_Email** (2025-01-23) — 1 link(s) [no protocol (bare domain)]
+  - `havenly.com/?lid=y5ju7u9gn500#packages`
+- **P_2025_1_26_HAV_PC_Jan_DPS_Event_Extension_Last_Chance_D** (2025-01-21) — 2 link(s) [no protocol (bare domain)]
+  - `burrow.com?lid=iozyy666jggh`
+  - `theinside.com?lid=gdph31994emx`
+- **P_2025_1_22_HAV_Conv_Jan_Merch_Sale_Reminder** (2025-01-21) — 3 link(s) [no protocol (bare domain)]
+  - `burrow.com?lid=hk77ldrdjvvf`
+  - `burrow.com?lid=ti96hz81nct4`
+  - `theinside.com?lid=6nzutpqhc077`
+- **P_2025_1_21_HAV_PC_Jan_Event_Extension_Email** (2025-01-20) — 2 link(s) [no protocol (bare domain)]
+  - `burrow.com?lid=dwyu2bl5ggrf`
+  - `theinside.com?lid=peok2jmuqbes`
+- **P_2025_1_17_HAV_PC_Jan_Event_Reminder_Email** (2025-01-17) — 3 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=w7zu4o1264vn`
+  - `havenly.com?lid=ofagzo4ysmet`
+  - `havenly.com/shop?lid=7eub38lpnjry`
+- **P_2025_1_16_HAV_Conv_Jan_Merch_Sale_Announcement_Email** (2025-01-16) — 3 link(s) [no protocol (bare domain)]
+  - `havenly.com/shop?lid=h8925fgn8814`
+  - `havenly.com?lid=ji48xyqv5l6x`
+  - `havenly.com?lid=htx0uhijacnt`
+- **OT_EM_2025_01_HAV_CONV_Order_ETA_Update** (2025-01-08) — 1 link(s) [http://]
+  - `http://www.havenly.com/?lid=1niyc5np24xv`
+- **Shopping List Updated** (2025-01-08) — 2 link(s) [no protocol (bare domain)]
+  - `havenly.com/room/shop/{{ api_trigger_properties.room_id }}`
+  - `havenly.com/room/shop/{{ api_trigger_properties.room_id }}`
+- **P_2024_12_29_D_HAV_Merch_Rendering_round_up_Best_of_2024_D** (2024-12-28) — 1 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=9aebs2kpa51z`
+- **P_2024_12_29_D_HAV_PC_Rendering_round_up_Best_of_2024_D** (2024-12-28) — 1 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=uu5wbhy5fhua`
+- **Rooms Past Due Email (Designers)** (2024-09-24) — 1 link(s) [http://]
+  - `http://app.havenly.com/rooms/view/{{ room.roomId }}`
+- **Rooms Due for Publish System Email (Designers)** (2024-09-23) — 1 link(s) [http://]
+  - `http://app.havenly.com/rooms/view/{{ room.roomId }}`
+- **Board Revision Needed System Email (Designers)** (2024-09-23) — 1 link(s) [http://]
+  - `http://havenly.com/boards/view_by_room/{{room.room_id}}`
+- **Rooms Due Tomorrow System Email (Designers)** (2024-08-27) — 1 link(s) [http://]
+  - `http://app.havenly.com/rooms/view/{{ room.roomId }}?lid=jw14j84zbcmr`
+- **OT_EM_2024_08_HAV_CONV_H_Final_Concept_Ready** (2024-08-26) — 1 link(s) [no protocol (bare domain)]
+  - `havenly.com/room/home/{{api_trigger_properties.${room_id}}}?lid=vwgwwaki2by9`
+- **OT_EM_2024_08_HAV_CONV_H_Concept_Ready** (2024-08-23) — 1 link(s) [no protocol (bare domain)]
+  - `havenly.com/room/home/{{api_trigger_properties.${room_id}}}?lid=9jwjroshcpo5`
+- **OT_EM_2025_05_HAV_CONV_H_Design_Ready** (2024-08-22) — 2 link(s) [no protocol (bare domain)]
+  - `havenly.com/room/home/{{api_trigger_properties.${room_id}}}`
+  - `havenly.com/room/home/{{api_trigger_properties.${room_id}}}`
+- **OT_EM_2025_07_HAV_CONV_H_Ideas_Ready** (2024-08-20) — 3 link(s) [no protocol (bare domain)]
+  - `havenly.com/room/home/{{api_trigger_properties.${room_id}}}`
+  - `havenly.com/room/home/{{api_trigger_properties.${room_id}}}`
+  - `havenly.com/room/home/{{api_trigger_properties.${room_id}}}`
+- **BB-Ideas Ready System Email** () — 2 link(s) [no protocol (bare domain)]
+  - `havenly.com/room/home/{{api_trigger_properties.${room_id}}}`
+  - `havenly.com/room/home/{{api_trigger_properties.${room_id}}}`
+- **Copy of P_2025_2_20_HAV_PC_PDW_Sale_Ext_Last_Chance_Email** () — 6 link(s) [no protocol (bare domain)]
+  - `havenly.com?lid=kkgas6f23rcf`
+  - `havenly.com?lid=luu32brh3j8o`
+  - `havenly.com?lid=mxjc5pzpofb3`
+  - `interiordefine.com?lid=l7ywz2xqyzgd`
+  - `burrow.com?lid=xmvld0hjk6lq`
+  - `theinside.com?lid=lzjjf1lg1zi7`
+
+### ID
+
+- **P_EM_2025_12_09_ID_D_Cyber_Week_Reminder_Final_Hours** (2025-12-08) — 2 link(s) [http://]
+  - `http://interiordefine.com/rugs?lid=0cfdxfp4ujde`
+  - `http://interiordefine.com/?lid=49kr5fkxybl2`
+- **P_EM_2025_12_08_ID_D_Cyber_Week_Reminder_Last_Chance** (2025-12-07) — 2 link(s) [http://]
+  - `http://interiordefine.com/rugs?lid=t955gql1ldjx`
+  - `http://interiordefine.com/?lid=7njl4jqvjto5`
+- **P_EM_2025_12_06_ID_D_Cyber_Week_Reminder_Designed_Version** (2025-12-05) — 2 link(s) [http://]
+  - `http://interiordefine.com/rugs?lid=4jro4c0y4fsa`
+  - `http://interiordefine.com/?lid=ff8r9r4je9wr`
+- **P_EM_2025_11_27_ID_D_Sip_And_Sit_Event_Reminder_PM** (2025-11-27) — 1 link(s) [http://]
+  - `http://interiordefine.com/?lid=qt245xm0d8a2`
+- **P_EM_2025_11_25_ID_D_Sip_And_Sit_Event_Reminder** (2025-11-25) — 1 link(s) [http://]
+  - `http://interiordefine.com/?lid=hesjl5e8an9z`
+- **P_EM_2025_11_22_ID_D_PM_BFCM_Reminder_Engaged_List** (2025-11-22) — 1 link(s) [http://]
+  - `http://interiordefine.com/?lid=7j5xsyu9ozm9`
+- **P_EM_2025_11_21_ID_D_Sip_And_Sit_Event_Reminder** (2025-11-21) — 1 link(s) [http://]
+  - `http://interiordefine.com/?lid=j5yio1198thk`
+- **P_EM_2025_11_21_ID_D_Sectional_Buying_Guide_BFCM_Resend** (2025-11-21) — 1 link(s) [http://]
+  - `http://interiordefine.com/?lid=63ggjxqak0hv`
+- **P_EM_2025_11_20_ID_D_James_Collection_Designed_Version** (2025-11-19) — 1 link(s) [http://]
+  - `http://interiordefine.com/?lid=5uwkxs9yfqfu`
+- **P_EM_2025_11_19_ID_D_Sip_And_Sit_Event_Invitation** (2025-11-19) — 1 link(s) [http://]
+  - `http://interiordefine.com/?lid=vo96ya0eju9s`
+- **P_EM_2025_11_19_ID_D_BFCM_Reminder** (2025-11-18) — 1 link(s) [http://]
+  - `http://interiordefine.com/?lid=rd5rs047ur2c`
+- **P_EM_2025_11_18_ID_D_Just_Launched_New_In_Stock_Styles** (2025-11-18) — 1 link(s) [http://]
+  - `http://interiordefine.com/?lid=7bqedghcylfd`
+- **P_EM_2025_11_17_ID_D_Swatch_Talk_Fall_Foliage** (2025-11-16) — 1 link(s) [http://]
+  - `http://interiordefine.com/?lid=puddk0e7gp5h`
+- **P_EM_2025_11_16_ID_D_Sectional_Buying_Guide_BFCM** (2025-11-15) — 1 link(s) [http://]
+  - `http://interiordefine.com/?lid=oies1z9tdmym`
+- **P_EM_2025_11_15_ID_D_BNDL_Designed_Version** (2025-11-15) — 1 link(s) [http://]
+  - `http://interiordefine.com/?lid=sz2kxr8licso`
+- **P_EM_2025_11_13_ID_D_Black_Friday_Launch** (2025-11-13) — 1 link(s) [http://]
+  - `http://interiordefine.com/?lid=50gotzauiwlz`
+- **P_EM_2025_10_19_ID_D_Hosting_Season_Dining_Essentials** (2025-10-19) — 1 link(s) [no protocol (bare domain)]
+  - `interiordefine.com/dining/all-custom-dining-seating/custom-dining-benches?lid=jd9cfb2bqakp`
+- **P_EM_2025_10_13_ID_TRADE_In_Stock** (2025-10-12) — 1 link(s) [http://]
+  - `http://interiordefine.com/bedroom?page=1&lid=jr33x5va7skf`
+- **P_EM_2025_09_05_ALL_TRADE_PT_Labor_Day_Last_Chance_PM** (2025-09-05) — 4 link(s) [http://]
+  - `http://interiordefine.com/?lid=wu0s062mnh6u`
+  - `http://the-citizenry.com/?lid=fnxxfocsyr2u`
+  - `http://theinside.com/?lid=h1rxwyl2k6w0`
+  - `http://stfrank.com/?lid=4qpbko2qtybn`
+- **P_2025_07_14_ID_Trade_PT_HBT_Intro_PT_Email** (2025-07-14) — 1 link(s) [no protocol (bare domain)]
+  - `trade.interiordefine.com?lid=wd7v3rkcdnhf`
+- **P_2025_07_07_ID_PT_PM_Sale_Swatches_Reminder_Email** (2025-07-07) — 1 link(s) [http://]
+  - `http://interiordefine.com/?lid=cnbejh7ig0h0`
+- **P_2025_07_07_ID_PT_PM_Sale_Carters_Reminder_Email** (2025-07-07) — 1 link(s) [http://]
+  - `http://interiordefine.com/?lid=ja6k5i1j5klf`
+- **P_2025_07_03_ID_PT_PM_Friday_Retail_Email** (2025-07-03) — 1 link(s) [http://]
+  - `http://interiordefine.com/?lid=8hiz9sqzlklz`
+- **P_2025_07_02_ID_PT_July_4th_Sale_Reminder_Email** (2025-07-02) — 1 link(s) [http://]
+  - `http://interiordefine.com/?lid=6xryeukvsouj`
+- **P_2025_06_17_ID_PT_July_4th_Email_Early_Access_Last_Chance_Email** (2025-06-17) — 1 link(s) [http://]
+  - `http://interiordefine.com/?lid=b4v0ujat5dnb`
+- **P_2025_06_16_ID_PT_July_4th_EA_Announcement_Email** (2025-06-16) — 1 link(s) [http://]
+  - `http://interiordefine.com/?lid=ldjhqrs82uqy`
+- **P_2025_05_26_ID_PT_PM_Memorial_Day_Sale_Reminder_Email** (2025-05-26) — 1 link(s) [http://]
+  - `http://interiordefine.com/?lid=e12ol64npu1e`
+- **P_2025_05_26_ID_AM_Memorial_Day_Sale_Reminder_Email** (2025-05-25) — 5 link(s) [no protocol (bare domain)]
+  - `interiordefine.com?lid=62a267xd3fic`
+  - `havenly.com?lid=jjxpdghacx6t`
+  - `interiordefine.com?lid=jn5rk4vgtxhh`
+  - `burrow.com?lid=m9q5yilvlcdy`
+  - `theinside.com?lid=4fvsdyomqm2s`
+- **P_2025_05_23_ID_PT_PM_Seg_QuotedProducts_In_Stock_Email** (2025-05-23) — 1 link(s) [http://]
+  - `http://interiordefine.com/?lid=ns3tnxblsgii`
+- **P_2025_05_13_ID_PT_MDW_EA_Last_Chance_Cart_Abandon_Email** (2025-05-13) — 1 link(s) [http://]
+  - `http://interiordefine.com/?lid=mv59d16w0mjw`
+- **P_2025_05_13_ID_PT_MDW_EA_Last_Chance_Swatchees_Email** (2025-05-13) — 1 link(s) [http://]
+  - `http://interiordefine.com/?lid=pso871i97otx`
+- **P_2025_05_13_ID_PT_MDW_EA_Last_Chance_Full_File_Email** (2025-05-13) — 1 link(s) [http://]
+  - `http://interiordefine.com/?lid=3cxo5w3hxodu`
+- **P_2025_05_09_ID_Trade_PT_MDW_Sale_EA_Email** (2025-05-09) — 1 link(s) [http://]
+  - `http://interiordefine.com/?lid=ej12ktr0r32u`
+- **P_2025_05_09_ID_PT_MDW_Sale_EA_Announcement_Email** (2025-05-09) — 1 link(s) [http://]
+  - `http://interiordefine.com/?lid=5czmdpg4go0s`
+- **2025_04_13_ID_Friends_Sale_Reminder_Email** (2025-04-12) — 5 link(s) [no protocol (bare domain)]
+  - `interiordefine.com?lid=8w4klk8n30n8`
+  - `havenly.com?lid=97b0h6fjt50r`
+  - `interiordefine.com?lid=stqvt71x283q`
+  - `burrow.com?lid=fajlc2rjlpi3`
+  - `theinside.com?lid=6pdp3q1372jn`
+- **2025_04_10_ID_Friends_Family_Sale_Start_Email** (2025-04-10) — 5 link(s) [no protocol (bare domain)]
+  - `interiordefine.com?lid=7pbw2jzx50ar`
+  - `havenly.com?lid=xn1tp9bv65u3`
+  - `interiordefine.com?lid=eorok412g9mt`
+  - `burrow.com?lid=6ahsyvnqfdxz`
+  - `theinside.com?lid=h9lh3izreye8`
+- **2025_03_26_ID_Spring_Event_Extension_Email** (2025-03-26) — 6 link(s) [no protocol (bare domain)]
+  - `interiordefine.com?lid=hw5ddvw404y4`
+  - `havenly.com?lid=eil1djv1fhss`
+  - `stfrank.com?lid=x3ezaao3ndpj`
+  - `interiordefine.com?lid=vnxm8xp02l3b`
+  - `burrow.com?lid=fxo9jbphmb62`
+  - `theinside.com?lid=42nb9k9kbp0p`
+- **2025_03_25_ID_Sale_Last_Chance_PM_Email** (2025-03-25) — 7 link(s) [no protocol (bare domain)]
+  - `interiordefine.com?lid=9t7jan2xuid2`
+  - `havenly.com?lid=2rgsk9ihnnen`
+  - `stfrank.com?lid=gxeyb5mq5z8v`
+  - `interiordefine.com?lid=ge5ribwrhsg1`
+  - `burrow.com?lid=5opl9pn183gi`
+  - `theinside.com?lid=gd3cpdueg7c9`
+  - `the-citizenry.com?lid=zeh9ynk497gt`
+- **2025_03_25_ID_Sale_Last_Chance_Email** (2025-03-25) — 7 link(s) [no protocol (bare domain)]
+  - `interiordefine.com?lid=qe9nuaxbtomm`
+  - `havenly.com?lid=l67jzzaf7eo7`
+  - `stfrank.com?lid=bduyvevz7926`
+  - `interiordefine.com?lid=879bymlrpj6m`
+  - `burrow.com?lid=ruh95w1wfpa9`
+  - `theinside.com?lid=59de979s9hft`
+  - `the-citizenry.com?lid=tl1l7jowzn0i`
+- **P_2025_2_25_ID_TRADE_Sale_Last_Chance_PT_Email** (2025-02-25) — 1 link(s) [http://]
+  - `http://theinside.com/products/english-roll-arm-chair-natural-blue-swallows-natural-turned-wood-leg-legs-95062?lid=08v...`
+- **P_2025_2_11_PT_ID_Recent_Purchasers_Hav_Mini_Email** (2025-02-12) — 1 link(s) [http://]
+  - `http://havenly.com/?lid=5eljezsqdj3u`
+- **P_2024_08_22_PT_ID_Labor_Day_EA_Email** (2024-08-21) — 3 link(s) [no protocol (bare domain)]
+  - `interiordefine.com?lid=id45afgi52wn`
+  - `interiordefine.com?lid=lsbqhfsru8i4`
+  - `interiordefine.com?lid=49t9atppbxey`
+- **Copy of P_EM_2025_12_08_ID_D_Cyber_Week_Reminder_Last_Chance** () — 2 link(s) [http://]
+  - `http://interiordefine.com/rugs?lid=xkpq0r3ybkcm`
+  - `http://interiordefine.com/?lid=8jujnivfilxa`
+
+### STF
+
+- **P_2025_05_19_D_STF_TRADE_Newness** (2025-05-18) — 1 link(s) [no protocol (bare domain)]
+  - `stfrank.com?lid=qjmy37j1h0s0`
+- **P_2025_04_02_D_STF_TRADE_Newness** (2025-04-02) — 1 link(s) [http://]
+  - `http://stfrank.com/products/shell-daisy-suzani-fabric?variant=30281975791682&lid=5tt0jtztyg8v`
+- **P_2025_1_26_D_SF_LA_Fire_Relief_Email_Gmail** (2025-01-25) — 2 link(s) [http://]
+  - `http://havenlybrands.com/project-comfort?lid=ihmo906wwfik`
+  - `http://havenlybrands.com/project-comfort?lid=qyhprwad3bdn`
+- **P_2025_1_26_D_SF_LA_Fire_Relief_Email_Microsoft** (2025-01-25) — 2 link(s) [http://]
+  - `http://havenlybrands.com/project-comfort?lid=58ayelzykvu1`
+  - `http://havenlybrands.com/project-comfort?lid=upn9rsb97eiq`
+- **P_2025_1_26_D_SF_LA_Fire_Relief_Email_Recent** (2025-01-25) — 2 link(s) [http://]
+  - `http://havenlybrands.com/project-comfort?lid=c9a3mb6z11h5`
+  - `http://havenlybrands.com/project-comfort?lid=mwfctjjx6xzi`
+- **P_2025_1_26_D_SF_LA_Fire_Relief_Email** (2025-01-25) — 2 link(s) [http://]
+  - `http://havenlybrands.com/project-comfort?lid=c1n0pbp6lwyh`
+  - `http://havenlybrands.com/project-comfort?lid=4aifhxfu9toc`
+- **Copy of P_2025_04_02_D_STF_TRADE_Newness** () — 1 link(s) [http://]
+  - `http://stfrank.com/products/shell-daisy-suzani-fabric?variant=30281975791682&lid=qczooepl0prm`
+- **Copy of P_2025_05_19_D_STF_TRADE_Newness** () — 1 link(s) [no protocol (bare domain)]
+  - `stfrank.com?lid=00ebyio8w4qf`
+- **Test_P_2025_04_02_D_STF_POTM_Fuchsia_Daisy_Suzani** () — 1 link(s) [http://]
+  - `http://stfrank.com/products/shell-daisy-suzani-fabric?variant=30281975791682&lid=lty4xlbyde4t`

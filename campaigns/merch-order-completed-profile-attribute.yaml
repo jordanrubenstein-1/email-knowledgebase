@@ -1,0 +1,24 @@
+id: 58ad092b-81e7-495d-af8d-a108bad34d97
+name: Merch Order Completed Profile Attribute
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 58ad092b-81e7-495d-af8d-a108bad34d97
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2026-06-23T14:00:00+00:00'
+  last_sent: '2026-06-23T15:00:00+00:00'
+tags: []
+sends: []
+performance_summary:
+  total_entries: 4
+  note: Canvas entries found but no message sends in analytics period
+canvas_steps:
+- id: 242a56a3-a5f8-43d1-87f4-4b44bd9ab30b
+  name: Last stage merch_order_completed
+  type: user_update
+_filename: merch-order-completed-profile-attribute.yaml

@@ -1,0 +1,35 @@
+id: 290de4aa-2023-4220-9fc6-7c91896a7d0b
+name: P_EM_2025_09_05_HAV_CONV_D_Tiered_Sale
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 290de4aa-2023-4220-9fc6-7c91896a7d0b
+dates:
+  send_date: '2025-09-05'
+  first_sent: '2025-09-04T20:54:16+00:00'
+  last_sent: '2025-09-05T17:15:41+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: aa533767-0bb3-4bef-a8f9-d2b4b972e722
+  channel: email
+  name: Variant 1
+  subject: GONE IN A FLASH ⚡
+  preheader: Shop the sale before it’s too late.
+- id: 56c8c321-f432-48e3-a7e8-6d22d4da7d03
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41397
+  total_delivered: 41363
+  total_opens: 21659
+  total_clicks: 109
+  open_rate: 0.5232
+  click_rate: 0.0026
+  total_bounces: 1
+  total_unsubscribes: 61
+schedule_type: time_based
+_filename: p_em_2025_09_05_hav_conv_d_tiered_sale.yaml

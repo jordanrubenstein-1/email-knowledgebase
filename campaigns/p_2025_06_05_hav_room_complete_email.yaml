@@ -1,0 +1,32 @@
+id: 96ddf8af-1c8b-44ba-afad-3805d4d76875
+name: P_2025_06_05_HAV_Room_Complete_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 96ddf8af-1c8b-44ba-afad-3805d4d76875
+dates:
+  send_date: '2025-06-05'
+  first_sent: '2025-06-04T22:07:28+00:00'
+  last_sent: '2025-06-05T21:00:43+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 9be6160d-fc7d-4cbc-913b-10765e96d489
+  channel: email
+  name: Variant 1
+  subject: Excited to work with you - Let’s get started!
+- id: aad54808-88ae-476f-9b08-8326e76aba63
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 782
+  total_delivered: 780
+  total_opens: 598
+  total_clicks: 39
+  open_rate: 0.7647
+  click_rate: 0.0499
+  total_unsubscribes: 1
+schedule_type: time_based
+_filename: p_2025_06_05_hav_room_complete_email.yaml

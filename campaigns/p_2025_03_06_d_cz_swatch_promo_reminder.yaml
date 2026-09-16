@@ -1,0 +1,55 @@
+id: 1f0cd552-8b0b-4bd2-9e2d-85eec1627cc3
+name: P_2025_03_06_D_CZ_Swatch_Promo_Reminder
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 1f0cd552-8b0b-4bd2-9e2d-85eec1627cc3
+dates:
+  send_date: '2025-03-06'
+  inferred_send_type: scheduled
+  first_sent: '2025-03-06T03:10:15+00:00'
+  last_sent: '2025-03-06T17:01:32+00:00'
+tags: []
+sends:
+- id: 07f3bbb3-703b-49a6-978a-b8567f18f3ce
+  channel: email
+  name: Variant 1
+  subject: 'Limited Time Only: 5 Free Swatches'
+  preheader: Timeless pieces, custom-made for you.
+  html_file: html/p_2025_03_06_d_cz_swatch_promo_reminder.html
+  screenshot: screenshots/p_2025_03_06_d_cz_swatch_promo_reminder.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c8cc2c94808f00659951de/original.png?1741212715
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c8cc3a2ad8e70068e22961/original.png?1741212729
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c8cc11b0741300666c8b5d/original.png?1741212689
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c8cc1794808f0065994fb2/original.png?1741212695
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c8cc4594808f006599523a/original.png?1741212740
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c8cc23da019800750dcee9/original.png?1741212706
+- id: 83957348-f6d9-44c5-b974-be972d3048c7
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 90560
+  total_delivered: 89802
+  total_opens: 47492
+  total_clicks: 399
+  open_rate: 0.5244
+  click_rate: 0.0044
+  total_revenue: 73074.45
+  total_bounces: 5
+  total_unsubscribes: 102
+  ga4:
+    sessions: 447
+    purchases: 21
+    revenue: 1338.98
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.433420'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.864466'
+schedule_type: time_based

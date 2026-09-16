@@ -1,0 +1,35 @@
+id: 8aab6f58-2e17-49bf-9b3d-dd2442640fbe
+name: P_EM_2026_03_20_TRADE_All_D_PR_Spring_Sale
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: spring
+braze_id: 8aab6f58-2e17-49bf-9b3d-dd2442640fbe
+dates:
+  send_date: '2026-03-20'
+  inferred_send_type: local_time
+  first_sent: '2026-03-19T21:23:54+00:00'
+  last_sent: '2026-03-20T19:01:50+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: f5507275-315e-46b9-920d-8d41553063ef
+  channel: email
+  name: Variant 1
+  subject: Spring Just Got Better
+  preheader: The Citizenry and St Frank now live— this weekend only.
+- id: f62ee864-054d-49f0-aea3-a9793653e8e2
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 20476
+  total_delivered: 19838
+  total_opens: 9163
+  total_clicks: 83
+  open_rate: 0.4475
+  click_rate: 0.0041
+  total_revenue: 84877.97
+  total_bounces: 2
+  total_unsubscribes: 38
+schedule_type: time_based

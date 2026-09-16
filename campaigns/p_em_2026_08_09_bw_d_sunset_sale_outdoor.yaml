@@ -1,0 +1,34 @@
+id: 655eb537-cde4-425a-85af-15e46df4d738
+name: P_EM_2026_08_09_BW_D_Sunset_Sale_Outdoor
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 655eb537-cde4-425a-85af-15e46df4d738
+dates:
+  send_date: '2026-08-09'
+  last_sent: '2026-08-09'
+tags:
+- Batch&Blast
+sends:
+- id: a89f33f5-ee22-4a67-8f60-a4ebd1778e15
+  channel: email
+  name: Variant 1
+  subject: Summer’s not over yet. Save up to 30% off outdoor favorites
+  preheader: There’s still time to take it outside.
+- id: 478c6afa-67b3-447e-b63a-5e9ffacccc6a
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 95227
+  total_delivered: 94828
+  total_opens: 37800
+  total_clicks: 329
+  open_rate: 0.3969
+  click_rate: 0.0035
+  total_revenue: 67267.0
+  total_bounces: 1
+  total_unsubscribes: 184
+schedule_type: time_based
+_filename: p_em_2026_08_09_bw_d_sunset_sale_outdoor.yaml

@@ -1,0 +1,66 @@
+id: d4172cd5-ecc4-4c5c-8d48-0c4306cfd3b5
+name: P_2024_1_2_D_CZ_EOY_Event_Last_Chance_Email
+brand: CZ
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: d4172cd5-ecc4-4c5c-8d48-0c4306cfd3b5
+dates:
+  send_date: '2024-01-02'
+  inferred_send_type: local_time
+  first_sent: '2025-01-01T17:07:20+00:00'
+  last_sent: '2025-01-02T17:00:44+00:00'
+tags: []
+sends:
+- id: 227ac1a4-40d5-4c41-84ec-45521510bb49
+  channel: email
+  name: Variant 1
+  subject: Final Hours To Claim These Styles
+  preheader: 'Ending soon: up to 60% off last batch styles.'
+  html_file: html/p_2024_1_2_d_cz_eoy_event_last_chance_email.html
+  screenshot: screenshots/p_2024_1_2_d_cz_eoy_event_last_chance_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6772d39df9da1e006554cd93/original.jpg?1735578525
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676a0e52236f060065574ab2/original.jpg?1735003730
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6772d404fd7cd2006619c740/original.jpg?1735578627
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6772d4429c132c00651bd994/original.jpg?1735578690
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6772d37da908f80064d3a008/original.jpg?1735578493
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6772d45cab1053006614492e/original.jpg?1735578715
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676a0e797c5eda00650e83d0/original.jpg?1735003769
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676a0e3c7c5eda00650e83c2/original.jpg?1735003708
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676a0e92cd9a95006592c0aa/original.jpg?1735003794
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676a0e62675b230064a52a64/original.jpg?1735003746
+- id: 4271e85b-7c35-423b-8e63-3397176351fd
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 1495
+    purchases: 14
+    revenue: 11804.57
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.155477'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-23'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: cz_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-23'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:39.669419'
+schedule_type: time_based

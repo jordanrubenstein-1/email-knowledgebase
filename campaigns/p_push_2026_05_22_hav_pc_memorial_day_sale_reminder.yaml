@@ -1,0 +1,31 @@
+id: a018c0ed-f58a-4de4-8ff3-daf16d92ea33
+name: P_PUSH_2026_05_22_HAV_PC_Memorial_Day_Sale_Reminder
+brand: HAV
+channel: push
+category: reminder
+type: sale
+theme: null
+braze_id: a018c0ed-f58a-4de4-8ff3-daf16d92ea33
+dates:
+  send_date: '2026-05-22'
+  first_sent: '2026-05-22T02:06:27+00:00'
+  last_sent: '2026-05-23T01:05:45+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 5cbfc4cf-60d2-4295-8ddd-be802a76ecf5
+  channel: push
+  name: Variant 1
+- id: a8441518-b168-4d27-ae6a-6f5d74aad9d3
+  channel: push
+  name: Control Group
+performance_summary:
+  total_sends: 67357
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_bounces: 250
+schedule_type: time_based
+_filename: p_push_2026_05_22_hav_pc_memorial_day_sale_reminder.yaml

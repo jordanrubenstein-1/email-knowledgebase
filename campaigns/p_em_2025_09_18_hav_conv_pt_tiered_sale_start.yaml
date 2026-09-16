@@ -1,0 +1,34 @@
+id: 9e244720-98fb-4067-ab71-4eaeaf79e211
+name: P_EM_2025_09_18_HAV_CONV_PT_TIERED_SALE_START
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 9e244720-98fb-4067-ab71-4eaeaf79e211
+dates:
+  send_date: '2025-09-18'
+  first_sent: '2025-09-18T02:24:08+00:00'
+  last_sent: '2025-09-19T01:15:05+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 5d1b049c-f348-4350-a7dc-0d4a07276710
+  channel: email
+  name: Variant 1
+  subject: 'The Holiday-Ready Sale Is Here '
+  preheader: Up to 15% off everything starts today
+- id: 9d46dc27-a769-4d48-af5c-b3787be6f4ee
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41835
+  total_delivered: 41808
+  total_opens: 22526
+  total_clicks: 103
+  open_rate: 0.5384
+  click_rate: 0.0025
+  total_unsubscribes: 77
+schedule_type: time_based
+_filename: p_em_2025_09_18_hav_conv_pt_tiered_sale_start.yaml

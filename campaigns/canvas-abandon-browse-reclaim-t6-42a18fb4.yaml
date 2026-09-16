@@ -1,0 +1,25 @@
+id: 42a18fb4-d095-497d-9598-06448c5465ac
+name: TRG_EM_2025_08_BW_D_Abandon_Browse_Seating_T6_V1
+brand: BUR
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 49e4e79d-21f1-4dae-8d15-258349f633b7
+canvas_name: Abandon Browse - Reclaim
+flow_type: browse_abandonment
+sequence_position: 6
+subject: Get to know some of our seating collections.
+preheader: Seat it for yourself.
+sends:
+- id: 42a18fb4-d095-497d-9598-06448c5465ac
+  channel: email
+  name: TRG_EM_2025_08_BW_D_Abandon_Browse_Seating_T6_V1
+  subject: Get to know some of our seating collections.
+  preheader: Seat it for yourself.
+  html_file: html/canvas-abandon-browse-reclaim-t6-42a18fb4.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-11-14T17:00:00Z'
+  last_sent: '2025-09-13T11:00:00Z'
+performance_summary: {}
