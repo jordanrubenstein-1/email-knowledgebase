@@ -1,0 +1,34 @@
+id: d308232f-4faf-4080-b3ea-a2d545ad5be5
+name: TRG_EM_2024_11_BW_D_Abandon_Cart_T1_V1
+brand: BUR
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: ce496bd7-4611-4dea-829c-5a9bba5dc120
+canvas_name: '[NEW - Shopify] Abandoned cart and browse'
+flow_type: cart_abandonment
+sequence_position: 1
+subject: You left your stuff at our place
+preheader: Don't leave these items behind.
+sends:
+- id: d308232f-4faf-4080-b3ea-a2d545ad5be5
+  channel: email
+  name: TRG_EM_2024_11_BW_D_Abandon_Cart_T1_V1
+  subject: You left your stuff at our place
+  preheader: Don't leave these items behind.
+  html_file: html/canvas-new-shopify-abandoned-cart-and-browse-t1-d308232f.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-11-03T20:00:00Z'
+  last_sent: '2026-01-20T23:00:00Z'
+performance_summary:
+  total_sends: 1417
+  total_delivered: 1391
+  total_opens: 826
+  total_clicks: 81
+  open_rate: 0.5829
+  click_rate: 0.0572
+  total_unsubscribes: 8
+  total_bounces: 2
+  total_revenue: 175577.69

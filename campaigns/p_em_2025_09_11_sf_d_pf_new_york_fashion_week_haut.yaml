@@ -1,0 +1,61 @@
+id: 037a9ad6-b358-401c-a811-ba0d357b1089
+name: P_EM_2025_09_11_SF_D_PF_New_York_Fashion_Week_Haute_Decor
+brand: STF
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 037a9ad6-b358-401c-a811-ba0d357b1089
+dates:
+  send_date: '2025-09-11'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-11T04:55:58+00:00'
+  last_sent: '2025-09-11T17:01:37+00:00'
+tags:
+- Batch and Blast
+- am
+- collect
+- d2c
+- designed
+sends:
+- id: 4d5ab4c5-630b-4871-8790-19253bed235c
+  channel: email
+  name: Variant 1
+  subject: The Season’s Boldest Looks
+  preheader: where fashion meets interiors
+  html_file: html/p_em_2025_09_11_sf_d_pf_new_york_fashion_week_haute_decor.html
+  screenshot: screenshots/p_em_2025_09_11_sf_d_pf_new_york_fashion_week_haute_decor.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c1da9b99541a0064650f0d/original.jpg?1757534874
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c1da9f2f5f930076792aed/original.jpg?1757534879
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c1daaa2f5f930066792d38/original.jpg?1757534889
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c1da5b0597b000754a1838/original.png?1757534810
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c1da6f56387a00659ac6f7/original.png?1757534831
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c1da7a99541a0093650cf3/original.jpg?1757534841
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c1daa52f5f930086792661/original.jpg?1757534885
+- id: 1953ed8d-bca5-48cb-868d-da427177b171
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39730
+  total_delivered: 39523
+  total_opens: 17812
+  total_clicks: 212
+  open_rate: 0.4483
+  click_rate: 0.0053
+  total_bounces: 1
+  total_unsubscribes: 52
+  ga4:
+    sessions: 204
+    purchases: 2
+    revenue: 822.75
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.002282'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.238788'
+schedule_type: time_based

@@ -1,0 +1,56 @@
+id: b49995da-cfb6-48a9-94ad-54ca8da1059a
+name: P_2025_1_26_D_CZ_Pillows_by_Pattern_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: b49995da-cfb6-48a9-94ad-54ca8da1059a
+dates:
+  send_date: '2025-01-26'
+  inferred_send_type: local_time
+  first_sent: '2025-01-25T17:06:42+00:00'
+  last_sent: '2025-01-26T17:01:46+00:00'
+tags: []
+sends:
+- id: c8a9eb07-bebd-4d96-9d92-9258e16b8ba5
+  channel: email
+  name: Variant 1
+  subject: Pillow Talk
+  preheader: The easiest way to spruce up your space
+  html_file: html/p_2025_1_26_d_cz_pillows_by_pattern_email.html
+  screenshot: screenshots/p_2025_1_26_d_cz_pillows_by_pattern_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6793f7933e8f4e00658b488a/original.jpg?1737750419
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6793f862cf8ca600665dcdcf/original.jpg?1737750625
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6793f7ba63ee630066d93815/original.jpg?1737750457
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6793f8a3e7574e0065eaafb3/original.jpg?1737750690
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6793f8844deaa90064db20a3/original.jpg?1737750660
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6793f8f901819200653e967d/original.jpg?1737750777
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6793f840051ab70086f230d3/original.jpg?1737750591
+- id: cd5a6ea2-e86d-4474-9334-0e11669c1f6e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 96292
+  total_delivered: 95586
+  total_opens: 48902
+  total_clicks: 1014
+  open_rate: 0.5079
+  click_rate: 0.0105
+  total_revenue: 57654.11
+  total_bounces: 2
+  total_unsubscribes: 158
+  ga4:
+    sessions: 1238
+    purchases: 9
+    revenue: 4697.37
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.996305'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.531121'
+schedule_type: time_based

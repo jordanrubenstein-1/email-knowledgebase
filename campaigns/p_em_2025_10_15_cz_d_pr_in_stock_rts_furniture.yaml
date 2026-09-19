@@ -1,0 +1,81 @@
+id: 33049df4-539e-4259-8a73-2296c5b250a5
+name: P_EM_2025_10_15_CZ_D_PR_In_Stock_RTS_Furniture
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 33049df4-539e-4259-8a73-2296c5b250a5
+dates:
+  send_date: '2025-10-15'
+  inferred_send_type: local_time
+  first_sent: '2025-10-15T01:01:33+00:00'
+  last_sent: '2025-10-15T17:15:21+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- furniture/rts furniture
+- instock
+- sale
+sends:
+- id: 1228933d-0b3a-4124-95c1-d2d2f475fd5d
+  channel: email
+  name: Variant 1
+  subject: Slow Craft. Delivered Fast.
+  preheader: 20% off in stock furniture, ready to ship today.
+  html_file: html/p_em_2025_10_15_cz_d_pr_in_stock_rts_furniture.html
+  screenshot: screenshots/p_em_2025_10_15_cz_d_pr_in_stock_rts_furniture.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68eebc7fab4da700637dee4f/original.png?1760476287
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68eebd08c20b86006349cd21/original.png?1760476424
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68eebd3eec584b0063aee097/original.png?1760476478
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68eebc3e2ef0c70092a96345/original.png?1760476222
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68eebd03c20b86006349ccfc/original.png?1760476418
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68eebcadec584b0063aeda84/original.png?1760476332
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68eebcba2ef0c70063a96968/original.png?1760476345
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68eebc47220bce008398b2b4/original.png?1760476230
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68eebceed8f9cf008451ecc2/original.png?1760476398
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68eebcf9ec584b0063aede17/original.png?1760476409
+- id: 8edaa4ad-beba-45fd-8fe3-f61cfddec6af
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 112202
+  total_delivered: 111472
+  total_opens: 56993
+  total_clicks: 687
+  open_rate: 0.5079
+  click_rate: 0.0061
+  total_bounces: 7
+  total_unsubscribes: 163
+  ga4:
+    sessions: 661
+    purchases: 8
+    revenue: 4759.3
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.616116'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-anniversary-sale-2025-10-09
+    name: The Anniversary Sale
+    start_date: '2025-10-09'
+    end_date: '2025-10-22'
+    discount: 20% Off Sitewide
+    type: null
+  primary_sale:
+    id: cz-the-anniversary-sale-2025-10-09
+    name: The Anniversary Sale
+    start_date: '2025-10-09'
+    end_date: '2025-10-22'
+    discount: 20% Off Sitewide
+    type: null
+  sale_name: The Anniversary Sale
+  sale_discount: 20% Off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:44.597721'
+schedule_type: time_based

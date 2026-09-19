@@ -1,0 +1,38 @@
+id: 077bffc6-87bc-46b8-b511-ee2a899be4fe
+name: P_SMS_2026_01_02_BW_End_of_Year_Sale_Ext
+brand: BUR
+channel: sms
+category: sale_promo
+type: sale
+theme: null
+braze_id: 077bffc6-87bc-46b8-b511-ee2a899be4fe
+dates:
+  send_date: '2026-01-02'
+  inferred_send_type: local_time
+  first_sent: '2026-01-02T01:08:28+00:00'
+  last_sent: '2026-01-03T01:01:03+00:00'
+tags: []
+sends:
+- id: 2c9799b6-a671-446b-a22d-42e9d112dc9a
+  channel: sms
+  name: Variant 1
+- id: 86548757-dc84-45a5-bd3c-ec541a18c0b5
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 6513
+  total_delivered: 6412
+  total_opens: 0
+  total_clicks: 204
+  open_rate: 0.0
+  click_rate: 0.0313
+  total_revenue: 16189.0
+  ga4:
+    sessions: 143
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.880418'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

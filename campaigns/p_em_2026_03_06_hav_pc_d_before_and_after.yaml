@@ -1,0 +1,35 @@
+id: 9c352279-ec80-40b1-bc0e-8f41b029db18
+name: P_EM_2026_03_06_HAV_PC_D_Before_and_After
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 9c352279-ec80-40b1-bc0e-8f41b029db18
+dates:
+  send_date: '2026-03-06'
+  first_sent: '2026-03-06T02:55:49+00:00'
+  last_sent: '2026-03-07T02:03:49+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: c2b45d5a-c9e1-4ba4-8344-4c685cdd6178
+  channel: email
+  name: Variant 1
+  subject: Your Home, Refreshed and Reimagined
+  preheader: See what a designer touch can do.
+- id: 20fd7d01-9d00-4f7d-bae5-82489925a81a
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 81575
+  total_delivered: 80884
+  total_opens: 38281
+  total_clicks: 301
+  open_rate: 0.4693
+  click_rate: 0.0037
+  total_bounces: 4
+  total_unsubscribes: 85
+schedule_type: time_based
+_filename: p_em_2026_03_06_hav_pc_d_before_and_after.yaml

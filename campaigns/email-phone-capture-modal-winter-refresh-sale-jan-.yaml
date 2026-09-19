@@ -1,0 +1,39 @@
+id: c9ebcdfd-fb47-44fd-9070-296156301e60
+name: Email & Phone Capture Modal - Winter Refresh Sale, Jan 2025
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: winter
+braze_id: c9ebcdfd-fb47-44fd-9070-296156301e60
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-01-15T07:00:00+00:00'
+  last_sent: '2026-01-28T06:00:00+00:00'
+tags: []
+sends:
+- id: 1c9ee57d-6156-4668-87bf-48e53ef889f7
+  channel: other
+  name: Variant 1
+- id: 25105e7f-3cd9-446d-b896-3a5495bfd297
+  channel: other
+  name: Control Group
+- id: 014197fa-3d50-4411-8a2b-57e49700af22
+  channel: other
+  name: Variant 2
+- id: a53fefca-593d-43b1-bf3a-f52d460ec141
+  channel: other
+  name: Variant 3
+- id: e81548d7-dafe-48c3-b7b8-0300fbab4453
+  channel: other
+  name: Variant 4
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.226077'
+    source: snowflake
+    channel: email
+schedule_type: action_based

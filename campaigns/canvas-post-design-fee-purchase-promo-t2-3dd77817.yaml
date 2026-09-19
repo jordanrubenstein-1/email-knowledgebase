@@ -1,0 +1,31 @@
+id: 3dd77817-42ef-45d8-a63e-754c32db2135
+name: TRG_EM_2026_06_HAV_CONV_PT_Welcome_Gift_T2_V1_B
+brand: HAV
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 86cd4a3d-cfbe-4c05-bb65-54685272d461
+canvas_name: Post-Design Fee Purchase Promo
+flow_type: design_abandonment
+sequence_position: 2
+subject: Your space is waiting — don't forget your $100 off
+preheader: ''
+sends:
+- id: 3dd77817-42ef-45d8-a63e-754c32db2135
+  channel: email
+  name: TRG_EM_2026_06_HAV_CONV_PT_Welcome_Gift_T2_V1_B
+  subject: Your space is waiting — don't forget your $100 off
+  preheader: ''
+  html_file: html/canvas-post-design-fee-purchase-promo-t2-3dd77817.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-06-26T15:00:00Z'
+  last_sent: '2026-07-09T17:00:00Z'
+performance_summary:
+  total_sends: 281
+  total_delivered: 282
+  total_opens: 201
+  total_clicks: 11
+  open_rate: 0.7153
+  click_rate: 0.0391

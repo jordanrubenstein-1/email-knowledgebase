@@ -1,0 +1,81 @@
+id: 0fb37e84-38d0-442c-b947-e91a916fe4c6
+name: P_2024_10_28_D_SF_PR_Fall_Best_Sellers_Email
+brand: STF
+channel: email
+category: other
+type: seasonal
+theme: fall
+braze_id: 0fb37e84-38d0-442c-b947-e91a916fe4c6
+dates:
+  send_date: '2024-10-28'
+  inferred_send_type: local_time
+  first_sent: '2024-10-27T17:00:01+00:00'
+  last_sent: '2024-10-28T14:00:11+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: 3a82e2b3-c7ea-4209-b6b2-852eec627649
+  channel: email
+  name: Variant 1
+  subject: Best of the Best
+  preheader: trending fall styles
+  html_file: html/p_2024_10_28_d_sf_pr_fall_best_sellers_email.html
+  screenshot: screenshots/p_2024_10_28_d_sf_pr_fall_best_sellers_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671bb1088406320066c6302e/original.gif?1729868040
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671bb468edbde10065365f48/original.gif?1729868904
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671bb116c5e20e0065f39165/original.gif?1729868054
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671bb125effa0500800f1983/original.gif?1729868068
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671bb43e24e7800063785490/original.jpg?1729868862
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671bb459edbde10065365f31/original.gif?1729868889
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671bb07637a8240065cc455b/original.gif?1729867894
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671bb1348406320083c617d9/original.jpg?1729868084
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/671bb0f75d1ffb007478c826/original.jpg?1729868023
+- id: 924ca3a1-2264-435f-80be-131e046c7c95
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 9617
+  total_delivered: 9568
+  total_opens: 2983
+  total_clicks: 86
+  open_rate: 0.3102
+  click_rate: 0.0089
+  total_revenue: 4501.0
+  total_unsubscribes: 10
+  ga4:
+    sessions: 81
+    purchases: 1
+    revenue: 792.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.908915'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-30-off-fabric-wallpaper-curtains-category-strikethrough-2024-10-25
+    name: 30% off fabric/wallpaper/curtains category (strikethrough)
+    start_date: '2024-10-25'
+    end_date: '2024-10-30'
+    discount: null
+    type: null
+  - id: stf-flash-sale-2024-10-25
+    name: Flash Sale
+    start_date: '2024-10-25'
+    end_date: '2024-10-30'
+    discount: null
+    type: null
+  primary_sale:
+    id: stf-30-off-fabric-wallpaper-curtains-category-strikethrough-2024-10-25
+    name: 30% off fabric/wallpaper/curtains category (strikethrough)
+    start_date: '2024-10-25'
+    end_date: '2024-10-30'
+    discount: null
+    type: null
+  sale_name: 30% off fabric/wallpaper/curtains category (strikethrough)
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:38.014508'
+schedule_type: time_based

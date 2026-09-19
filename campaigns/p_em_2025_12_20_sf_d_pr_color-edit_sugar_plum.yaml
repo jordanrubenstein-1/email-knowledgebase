@@ -1,0 +1,59 @@
+id: 087a293e-9e8d-4fa7-9cda-ada215868e62
+name: P_EM_2025_12_20_SF_D_PR_Color Edit_Sugar_Plum
+brand: STF
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 087a293e-9e8d-4fa7-9cda-ada215868e62
+dates:
+  send_date: '2025-12-20'
+  inferred_send_type: local_time
+  first_sent: '2025-12-21T17:05:32+00:00'
+  last_sent: '2025-12-22T17:03:13+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: 42934b0c-442d-448e-9a73-b70fb4e665a9
+  channel: email
+  name: Variant 1
+  subject: Visions of sugar plums
+  preheader: bold pattern in sweet, saturated hues.
+  html_file: html/p_em_2025_12_20_sf_d_pr_color-edit_sugar_plum.html
+  screenshot: screenshots/p_em_2025_12_20_sf_d_pr_color-edit_sugar_plum.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69454e507a7bd30063e8f1b7/original.gif?1766149712
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69454e99e43d220063bc09ea/original.png?1766149784
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69454e8be8009a0063bbe676/original.png?1766149770
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69454e7d431b31006300dd3d/original.png?1766149757
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69454ea09f69c10063795392/original.png?1766149792
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69454e846dce4d0064ad6e0e/original.png?1766149764
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69454e747298800063c71cec/original.png?1766149747
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69454e923ca8360065f29c8b/original.png?1766149777
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69454e461354c9006449a0a3/original.png?1766149701
+- id: 1a68ce24-9bf0-4c7a-ae98-a71787d2d0ca
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39789
+  total_delivered: 39334
+  total_opens: 14732
+  total_clicks: 160
+  open_rate: 0.3703
+  click_rate: 0.004
+  total_bounces: 3
+  total_unsubscribes: 35
+  ga4:
+    sessions: 161
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.043800'
+    source: snowflake
+    channel: email
+schedule_type: time_based

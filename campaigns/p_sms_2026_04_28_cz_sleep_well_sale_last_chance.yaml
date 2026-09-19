@@ -1,0 +1,28 @@
+id: 131efa41-088c-4ed1-b0ad-60a61d9d124c
+name: P_SMS_2026_04_28_CZ_Sleep_Well_Sale_Last_Chance
+brand: CZ
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: 131efa41-088c-4ed1-b0ad-60a61d9d124c
+dates:
+  send_date: '2026-04-28'
+  last_sent: '2026-04-28'
+tags: []
+sends:
+- id: 4db1d3c6-0e9a-4157-8ca0-e185eeb3a751
+  channel: sms
+  name: Variant 1
+- id: 3f22a81d-56f1-44a8-9716-8c19bf43621a
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 20248
+  total_delivered: 18808
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+_filename: p_sms_2026_04_28_cz_sleep_well_sale_last_chance.yaml
+schedule_type: time_based

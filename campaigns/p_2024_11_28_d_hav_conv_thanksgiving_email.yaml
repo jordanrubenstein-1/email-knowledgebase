@@ -1,0 +1,33 @@
+id: 60d358d0-b701-4349-907b-2ff5d8661c27
+name: P_2024_11_28_D_HAV_CONV_Thanksgiving_Email
+brand: HAV
+channel: email
+category: other
+type: seasonal
+theme: null
+braze_id: 60d358d0-b701-4349-907b-2ff5d8661c27
+dates:
+  send_date: '2024-11-28'
+  first_sent: '2024-11-28T01:15:15+00:00'
+  last_sent: '2024-11-28T17:15:09+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 32c89ac1-f4cc-4df2-8231-91535f52e6c4
+  channel: email
+  name: Variant 1
+  subject: Serving Thanks (And Style)
+  preheader: 'From us to you: up to 80% off sitewide!'
+- id: da12d0ec-91c4-40f3-8941-dbe39626d746
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 35606
+  total_delivered: 35560
+  total_opens: 19815
+  total_clicks: 176
+  open_rate: 0.5565
+  click_rate: 0.0049
+  total_unsubscribes: 51
+schedule_type: time_based
+_filename: p_2024_11_28_d_hav_conv_thanksgiving_email.yaml

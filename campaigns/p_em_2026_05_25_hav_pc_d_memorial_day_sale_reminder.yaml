@@ -1,0 +1,35 @@
+id: 20623c82-cf56-4628-aa74-6ea6a01d9f64
+name: P_EM_2026_05_25_HAV_PC_D_Memorial_Day_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 20623c82-cf56-4628-aa74-6ea6a01d9f64
+dates:
+  send_date: '2026-05-25'
+  first_sent: '2026-05-24T11:08:29+00:00'
+  last_sent: '2026-05-26T09:30:27+00:00'
+  inferred_send_type: sto
+tags:
+- BLASTS-2025
+sends:
+- id: e487593a-88b3-46f0-bd56-7a08182fa5e1
+  channel: email
+  name: Variant 1
+  subject: One last thing before the weekend ends
+  preheader: Final days to save 50% on interior design services
+- id: e2e58e1b-b490-44fa-87ae-1ffe930795b2
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 67939
+  total_delivered: 67780
+  total_opens: 27325
+  total_clicks: 284
+  open_rate: 0.4022
+  click_rate: 0.0042
+  total_bounces: 1
+  total_unsubscribes: 195
+schedule_type: time_based
+_filename: p_em_2026_05_25_hav_pc_d_memorial_day_sale_reminder.yaml

@@ -1,0 +1,46 @@
+id: f75bb62c-8940-423c-b8e7-7eef11c40af2
+name: P_EM_2026_02_23_HAV_PC_D_Presidents_Day_Sale_Ext_Ends
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: f75bb62c-8940-423c-b8e7-7eef11c40af2
+dates:
+  send_date: '2026-02-23'
+  inferred_send_type: local_time
+  first_sent: '2026-02-22T22:08:08+00:00'
+  last_sent: '2026-02-23T23:01:49+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: b7d230ca-8eee-405b-a5a7-6ba409a7b6b3
+  channel: email
+  name: Variant 1
+  subject: Final Hours. 50% Off Interior Design Services.
+  preheader: The Presidents Day Sale wraps tonight.
+  html_file: html/p_em_2026_02_23_hav_pc_d_presidents_day_sale_ext_ends.html
+  screenshot: screenshots/p_em_2026_02_23_hav_pc_d_presidents_day_sale_ext_ends.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/699881117c8d9e0063a5b9d3/original.gif?1771602193
+- id: c7df4b38-f356-440e-8775-43e4ab74c2de
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 263655
+  total_delivered: 262818
+  total_opens: 95827
+  total_clicks: 489
+  open_rate: 0.3635
+  click_rate: 0.0019
+  total_bounces: 15
+  total_unsubscribes: 395
+  ga4:
+    sessions: 273
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.337524'
+    source: snowflake
+    channel: email
+schedule_type: time_based

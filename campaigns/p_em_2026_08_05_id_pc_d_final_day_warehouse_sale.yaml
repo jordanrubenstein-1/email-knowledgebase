@@ -1,0 +1,34 @@
+id: d6b4d1be-aa53-49ae-802e-e8920d5b1b1b
+name: P_EM_2026_08_05_ID_PC_D_Final_Day_Warehouse_Sale
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: d6b4d1be-aa53-49ae-802e-e8920d5b1b1b
+dates:
+  send_date: '2026-08-05'
+  last_sent: '2026-08-05'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: b9a23b98-9eed-493b-9373-6ffbed696f2a
+  channel: email
+  name: Variant 1
+  subject: Today is your last chance at 60% off
+  preheader: Shop the Warehouse Sale before it closes at midnight.
+- id: ebf960d4-d614-4fe0-ac91-5c48f225dc2f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 236014
+  total_delivered: 234509
+  total_opens: 93607
+  total_clicks: 1254
+  open_rate: 0.3966
+  click_rate: 0.0053
+  total_revenue: 164635.93
+  total_bounces: 12
+  total_unsubscribes: 211
+schedule_type: time_based
+_filename: p_em_2026_08_05_id_pc_d_final_day_warehouse_sale.yaml

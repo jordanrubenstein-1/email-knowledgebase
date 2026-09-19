@@ -1,0 +1,36 @@
+id: 013eab48-e2a5-4a18-a1ed-ff0e533c51fa
+name: P_2024_10_13_D_SF_PR_Autumn_Event_Bedding_Reminder_Email
+brand: STF
+channel: email
+category: reminder
+type: announcement
+theme: fall
+braze_id: 013eab48-e2a5-4a18-a1ed-ff0e533c51fa
+dates:
+  send_date: '2024-10-13'
+  inferred_send_type: local_time
+  first_sent: '2024-10-12T17:00:04+00:00'
+  last_sent: '2024-10-13T14:00:25+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: 88324f47-54aa-477b-ad9c-34464224c19d
+  channel: email
+  name: Variant 1
+  subject: 25% Off Bedding For A Limited Time
+  preheader: Don’t snooze on this offer
+- id: cb160cb7-e471-49f2-9451-cc9ef53c76bc
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 9973
+  total_delivered: 9924
+  total_opens: 3133
+  total_clicks: 174
+  open_rate: 0.3141
+  click_rate: 0.0174
+  total_revenue: 6230.4
+  total_bounces: 1
+  total_unsubscribes: 9
+_filename: p_2024_10_13_d_sf_pr_autumn_event_bedding_reminder_email.yaml
+schedule_type: time_based

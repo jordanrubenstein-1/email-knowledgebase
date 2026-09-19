@@ -1,0 +1,23 @@
+id: 0192f0a4-83b8-404e-a893-687b2662e689
+name: Step 1
+brand: CZ
+channel: sms
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 4fd617f5-36aa-4d67-90d0-33230a4fbd31
+canvas_name: Checkout Abandoned SMS journey
+flow_type: checkout_abandonment
+sequence_position: 1
+body: 'The Citizenry: Did this design catch your eye? Finish Your Order: {{triggerEvent.checkout.link}}
+  .'
+sends:
+- id: 0192f0a4-83b8-404e-a893-687b2662e689
+  channel: sms
+  name: Step 1
+  body: 'The Citizenry: Did this design catch your eye? Finish Your Order: {{triggerEvent.checkout.link}}
+    .'
+dates:
+  first_sent: null
+  last_sent: null
+performance_summary: {}

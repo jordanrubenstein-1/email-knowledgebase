@@ -1,0 +1,58 @@
+id: 061f2674-d688-4d88-a3ad-7849ede8841a
+name: 2025_05_08_HAV_Conv_D_Memorial_Day_Early_Access_Sale_Launch
+brand: HAV
+channel: email
+category: product_launch
+type: sale
+theme: null
+braze_id: 061f2674-d688-4d88-a3ad-7849ede8841a
+dates:
+  send_date: '2025-05-08'
+  inferred_send_type: local_time
+  first_sent: '2025-05-07T20:21:20+00:00'
+  last_sent: '2025-05-08T17:15:10+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 6990c8e2-28b6-4ef0-acdd-ffa00a8eeb66
+  channel: email
+  name: Variant 1
+  subject: 'VIP EARLY ACCESS: Up to 20% off Sitewide'
+  preheader: Be first to save during The Memorial Day Event.
+  html_file: html/2025_05_08_hav_conv_d_memorial_day_early_access_sale_launch.html
+  screenshot: screenshots/2025_05_08_hav_conv_d_memorial_day_early_access_sale_launch.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681bbe2a7cdcbc0065f4fdf6/original.png?1746648618
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681bbe5c77d7360065e0700b/original.png?1746648668
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681bbea3d8afa20064137ef3/original.png?1746648738
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681bbe4936930e006483cf35/original.png?1746648649
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681bbe745128f10066df6647/original.png?1746648692
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681bbe524741270076642ada/original.png?1746648658
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681bbe1b36930e006483cea9/original.gif?1746648603
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681bbe6a30abe70076480ef6/original.png?1746648682
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681bbe99d8afa200731376af/original.png?1746648729
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681bbeb539098e00660587ef/original.png?1746648757
+- id: 59ccad9d-eafe-4d10-a1ea-76a4471da7b8
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 39501
+  total_delivered: 39426
+  total_opens: 21212
+  total_clicks: 174
+  open_rate: 0.537
+  click_rate: 0.0044
+  total_unsubscribes: 34
+  ga4:
+    sessions: 287
+    purchases: 7
+    revenue: 23046.8
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.725377'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.817502'
+schedule_type: time_based

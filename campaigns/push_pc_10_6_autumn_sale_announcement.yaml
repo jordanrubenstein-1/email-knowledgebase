@@ -1,0 +1,23 @@
+id: 3390d1c3-c07d-468e-900a-e046a12a9c16
+name: PUSH_PC_10_6_Autumn_Sale_Announcement
+brand: HAV
+channel: push
+category: sale_promo
+type: sale
+theme: fall
+braze_id: 3390d1c3-c07d-468e-900a-e046a12a9c16
+dates:
+  first_sent: '2024-10-06T19:00:58+00:00'
+  last_sent: '2024-10-07T00:15:01+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: c5ee8671-9ae5-4286-bbca-cb7b6a2e3b55
+  channel: push
+  name: Variant 1
+- id: adb1970e-4a30-4b4f-a136-e24aed019262
+  channel: push
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: push_pc_10_6_autumn_sale_announcement.yaml

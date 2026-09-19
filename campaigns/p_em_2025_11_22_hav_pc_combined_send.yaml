@@ -1,0 +1,35 @@
+id: f9a3ec28-2108-43ab-8fdf-c4af84447640
+name: P_EM_2025_11_22_HAV_PC_Combined_Send
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: f9a3ec28-2108-43ab-8fdf-c4af84447640
+dates:
+  send_date: '2025-11-22'
+  first_sent: '2025-11-21T20:10:12+00:00'
+  last_sent: '2025-11-22T20:15:42+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: c5a04963-6f37-46f9-93e5-c445573f3775
+  channel: email
+  name: Variant 1
+  subject: It’s The Sale You’ve Been Waiting For
+  preheader: BIG savings on expert interior design!
+- id: 36bdec80-df81-4b1b-a8cc-c25be1ad20b3
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 251742
+  total_delivered: 250994
+  total_opens: 101164
+  total_clicks: 440
+  open_rate: 0.4019
+  click_rate: 0.0017
+  total_bounces: 7
+  total_unsubscribes: 316
+schedule_type: time_based
+_filename: p_em_2025_11_22_hav_pc_combined_send.yaml

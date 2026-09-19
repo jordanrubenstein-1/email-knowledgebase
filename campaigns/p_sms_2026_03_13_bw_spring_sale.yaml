@@ -1,0 +1,30 @@
+id: 3ebe8382-3c11-48a8-b133-2d293da510ff
+name: P_SMS_2026_03_13_BW_Spring_Sale
+brand: BUR
+channel: sms
+category: sale_promo
+type: sale
+theme: spring
+braze_id: 3ebe8382-3c11-48a8-b133-2d293da510ff
+dates:
+  send_date: '2026-03-13'
+  inferred_send_type: local_time
+  first_sent: '2026-03-13T01:07:35+00:00'
+  last_sent: '2026-03-14T01:01:52+00:00'
+tags: []
+sends:
+- id: a2ba83bd-09d3-4ee4-b70a-c3c29db333eb
+  channel: sms
+  name: Variant 1
+- id: 76dd9de5-01cb-497b-8635-6f4590362add
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 6919
+  total_delivered: 6712
+  total_opens: 0
+  total_clicks: 225
+  open_rate: 0.0
+  click_rate: 0.0325
+  total_revenue: 5493.0
+schedule_type: time_based

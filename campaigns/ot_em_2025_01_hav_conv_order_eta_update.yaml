@@ -1,0 +1,30 @@
+id: 35cbecbc-2aff-d681-afc7-f3619bf36c3d
+name: OT_EM_2025_01_HAV_CONV_Order_ETA_Update
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 35cbecbc-2aff-d681-afc7-f3619bf36c3d
+dates:
+  first_sent: '2025-01-08T19:00:00+00:00'
+  last_sent: '2026-06-09T18:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: 7978c35f-9f96-480b-88c3-398adea39797
+  channel: email
+  name: Variant 1
+  subject: 'We have an update on your order - Order #{{api_trigger_properties.${order_number}}}'
+- id: 3f02e011-3846-450e-b60f-fd3fb0280351
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 6
+  total_delivered: 6
+  total_opens: 50
+  total_clicks: 3
+  open_rate: 8.3333
+  click_rate: 0.5
+schedule_type: api_triggered
+_filename: ot_em_2025_01_hav_conv_order_eta_update.yaml

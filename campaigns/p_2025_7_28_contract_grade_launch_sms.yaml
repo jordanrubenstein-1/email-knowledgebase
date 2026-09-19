@@ -1,0 +1,30 @@
+id: 0d46cba6-cefb-4001-8401-e4df9ef2cbb8
+name: P_2025_7_28_Contract_Grade_Launch_SMS
+brand: ID
+channel: sms
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 0d46cba6-cefb-4001-8401-e4df9ef2cbb8
+dates:
+  send_date: '2025-07-28'
+  inferred_send_type: local_time
+  first_sent: '2025-07-28T01:18:21+00:00'
+  last_sent: '2025-07-29T00:10:09+00:00'
+tags: []
+sends:
+- id: 0e179af6-c934-49b6-8a93-c556d328e3ad
+  channel: other
+  name: Variant 1
+- id: a4e9693d-99dd-4d5e-8a9f-9ed2ad463931
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 54547
+  total_delivered: 52350
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 2690.0
+schedule_type: time_based

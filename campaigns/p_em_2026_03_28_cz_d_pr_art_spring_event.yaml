@@ -1,0 +1,53 @@
+id: 0a53bd90-2e89-489c-8b7f-37fe106194f9
+name: P_EM_2026_03_28_CZ_D_PR_Art_Spring_Event
+brand: CZ
+channel: email
+category: sale_promo
+type: seasonal
+theme: spring
+braze_id: 0a53bd90-2e89-489c-8b7f-37fe106194f9
+dates:
+  send_date: '2026-03-28'
+  inferred_send_type: local_time
+  first_sent: '2026-03-27T20:09:20+00:00'
+  last_sent: '2026-03-28T20:04:00+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- prod
+- prod/art
+- sale
+- sale/spring2026
+sends:
+- id: fdbb0249-2bd0-4600-882c-612aa7d47224
+  channel: email
+  name: Variant 1
+  subject: Walls With a Story
+  preheader: Up to 25% off handcrafted art shaped by global craft traditions.
+  html_file: html/p_em_2026_03_28_cz_d_pr_art_spring_event.html
+  screenshot: screenshots/p_em_2026_03_28_cz_d_pr_art_spring_event.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c2e33c48195000632a4a6f/original.png?1774379836
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c2e3245a0de20063c121a3/original.png?1774379811
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69baa84c383d69006424743e/original.png?1773840459
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c2e2c306caf2006385e469/original.png?1774379713
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c2e31478ce090063b5a345/original.png?1774379795
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69baa82b42d479006327a3fc/original.png?1773840427
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69baa8268b22b800633b3815/original.png?1773840421
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69baa8367abb0c0063578b61/original.png?1773840438
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69baa83d8999040064e24236/original.png?1773840444
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69baa82178c83f00734327f5/original.png?1773840417
+- id: 833dbc37-400a-46a4-8e42-15c0ff6fdaa8
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 112098
+  total_delivered: 111903
+  total_opens: 53636
+  total_clicks: 531
+  open_rate: 0.4785
+  click_rate: 0.0047
+  total_unsubscribes: 72
+schedule_type: time_based

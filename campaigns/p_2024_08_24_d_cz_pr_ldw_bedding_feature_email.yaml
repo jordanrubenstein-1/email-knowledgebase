@@ -1,0 +1,59 @@
+id: 9c0d1793-d87a-4931-bfd2-8253c601c7b0
+name: P_2024_08_24_D_CZ_PR_LDW_Bedding_Feature_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 9c0d1793-d87a-4931-bfd2-8253c601c7b0
+dates:
+  send_date: '2024-08-24'
+  inferred_send_type: local_time
+  first_sent: '2024-08-23T18:05:02+00:00'
+  last_sent: '2024-08-24T17:05:02+00:00'
+tags:
+- batch and blast/promo
+sends:
+- id: 27d19287-8015-40da-bf29-43ac88fee8cd
+  channel: email
+  name: Variant 1
+  subject: Your Fall Bedding Refresh
+  preheader: For a limited time, claim 20% off all bedding.
+  html_file: html/p_2024_08_24_d_cz_pr_ldw_bedding_feature_email.html
+  screenshot: screenshots/p_2024_08_24_d_cz_pr_ldw_bedding_feature_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c5fb85ab6d4a0065d57113/original.jpg?1724251012
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c5fb6de4a17d00731106bf/original.jpg?1724250988
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c3b15b5d73f90065335405/original.jpg?1724100955
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c3affed1cc8300655ea5fe/original.jpg?1724100606
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c5fbd6e4a17d007311071c/original.jpg?1724251093
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c5fb4812195b0065f2935f/original.jpg?1724250952
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c3b12d9ee9190066b6d2d1/original.jpg?1724100909
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c64a544bfb7b0066bfb084/original.jpg?1724271188
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c3b0ded1cc8300655eb21e/original.jpg?1724100830
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c3b18241ab69006449dc3c/original.jpg?1724100994
+- id: 727f349b-0011-48de-a27c-0cd9925dde97
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 44220
+  total_delivered: 44010
+  total_opens: 28211
+  total_clicks: 698
+  open_rate: 0.638
+  click_rate: 0.0158
+  total_revenue: 93227.41
+  total_unsubscribes: 109
+  ga4:
+    sessions: 1013
+    purchases: 26
+    revenue: 7233.46
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.640980'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.465329'
+schedule_type: time_based

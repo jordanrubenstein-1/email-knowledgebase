@@ -1,0 +1,30 @@
+id: dbed45c6-b3f7-41e5-bc3d-e81e8a33e25f
+name: P_2025_4_04_Swatch_Push_SMS
+brand: ID
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: dbed45c6-b3f7-41e5-bc3d-e81e8a33e25f
+dates:
+  send_date: '2025-04-04'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-04T18:32:09+00:00'
+  last_sent: '2025-04-04T18:34:19+00:00'
+tags: []
+sends:
+- id: 99f5f23c-02f3-4f1e-95a8-a2dc4d631153
+  channel: push
+  name: Variant 1
+- id: f492c654-b843-44e3-ba49-516f651ac2d9
+  channel: push
+  name: Control Group
+performance_summary:
+  total_sends: 60015
+  total_delivered: 49872
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 10335.0
+schedule_type: time_based

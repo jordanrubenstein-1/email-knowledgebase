@@ -1,0 +1,36 @@
+id: aefb5fa9-60ea-40fc-b87b-57f514cfa0ad
+name: P_EM_2026_04_11_ID_D_PR_Dining_Roundup_ STO_Variant
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: aefb5fa9-60ea-40fc-b87b-57f514cfa0ad
+dates:
+  send_date: '2026-04-11'
+  inferred_send_type: sto
+  first_sent: '2026-04-10T11:08:43+00:00'
+  last_sent: '2026-04-12T08:55:13+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 2feda4c6-0a3f-45b5-82a8-84d9b0c01ca1
+  channel: email
+  name: Variant 1
+  subject: 25% off the dining collection
+  preheader: Tables and chairs designed for gathering around.
+- id: ef4e4da3-b966-42a7-8a2f-8d331f2cd426
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 66156
+  total_delivered: 66057
+  total_opens: 25293
+  total_clicks: 333
+  open_rate: 0.3823
+  click_rate: 0.005
+  total_revenue: 43963.97
+  total_bounces: 1
+  total_unsubscribes: 100
+_filename: p_em_2026_04_11_id_d_pr_dining_roundup_-sto_variant.yaml
+schedule_type: time_based

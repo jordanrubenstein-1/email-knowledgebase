@@ -1,0 +1,49 @@
+id: 068a7180-618f-4865-af3f-5222955f1e69
+name: P_2025_2_1_HAV_Conv_2025_Paint_Trends_That’ll_Make_Your_Walls_(And_Heart)_Sing_D
+brand: HAV
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 068a7180-618f-4865-af3f-5222955f1e69
+dates:
+  send_date: '2025-02-01'
+  inferred_send_type: scheduled
+  first_sent: '2025-02-01T14:15:00+00:00'
+  last_sent: '2025-02-01T14:16:44+00:00'
+tags: []
+sends:
+- id: fe4fc944-b1a7-4ad1-b2e4-c3cf526d5e8a
+  channel: email
+  name: Variant 1
+  subject: 2025 Paint Trends We 💞
+  preheader: No white walls here.
+  html_file: html/p_2025_2_1_hav_conv_2025_paint_trends_thatll_make_your_walls.html
+  screenshot: screenshots/p_2025_2_1_hav_conv_2025_paint_trends_thatll_make_your_walls.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679d161565a322006692ef60/original.gif?1738348053
+- id: 4ba51eaa-0da3-490c-b536-05bbf8b7f82b
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 37583
+  total_delivered: 37469
+  total_opens: 22086
+  total_clicks: 531
+  open_rate: 0.5877
+  click_rate: 0.0141
+  total_bounces: 1
+  total_unsubscribes: 54
+  ga4:
+    sessions: 606
+    purchases: 2
+    revenue: 3011.64
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.438842'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.152566'
+schedule_type: time_based

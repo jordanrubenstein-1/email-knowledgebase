@@ -1,0 +1,68 @@
+id: 4bcca73a-2ec3-4e67-bef7-b27e750f3c71
+name: P_2024_10_28_ID_Flash_Sale_Announcement_Email
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 4bcca73a-2ec3-4e67-bef7-b27e750f3c71
+dates:
+  send_date: '2024-10-28'
+  inferred_send_type: scheduled
+  first_sent: '2024-10-28T16:19:20+00:00'
+  last_sent: '2024-10-28T16:19:33+00:00'
+tags: []
+sends:
+- id: e64109fd-ffc5-465f-b434-4d8e7a6a5982
+  channel: email
+  name: Variant 1
+  subject: 'It’s Happening: 20% Off Sitewide!'
+  preheader: Shop the sale before it’s gone in a flash.
+- id: f24ff287-5f5a-488e-ace1-5c866a83dd50
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 60022
+  total_delivered: 59618
+  total_opens: 20529
+  total_clicks: 633
+  open_rate: 0.342
+  click_rate: 0.0105
+  total_revenue: 189352.26
+  total_bounces: 2
+  total_unsubscribes: 105
+  ga4:
+    sessions: 1090
+    purchases: 13
+    revenue: 37826.17
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.998562'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-20-off-strikethrough-2024-10-28
+    name: 20% off (strikethrough)
+    start_date: '2024-10-28'
+    end_date: '2024-10-31'
+    discount: null
+    type: null
+  - id: id-flash-sale-2024-10-28
+    name: Flash Sale
+    start_date: '2024-10-28'
+    end_date: '2024-10-31'
+    discount: null
+    type: null
+  primary_sale:
+    id: id-20-off-strikethrough-2024-10-28
+    name: 20% off (strikethrough)
+    start_date: '2024-10-28'
+    end_date: '2024-10-31'
+    discount: null
+    type: null
+  sale_name: 20% off (strikethrough)
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:41.525015'
+schedule_type: time_based

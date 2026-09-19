@@ -1,0 +1,32 @@
+id: ad9ee8ed-be0c-4e87-b3cc-7f0cb76292c6
+name: P_2025_1_12_HAV_Conv_Bedroom_Event_PT_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: ad9ee8ed-be0c-4e87-b3cc-7f0cb76292c6
+dates:
+  send_date: '2025-01-12'
+  first_sent: '2025-01-12T01:03:58+00:00'
+  last_sent: '2025-01-12T17:15:03+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 5329dc36-2b1b-4733-92f2-0561e061fe10
+  channel: email
+  name: Variant 1
+  subject: 'Re: your exclusive 20% off code…'
+- id: c61ff28d-79c3-4317-abaf-9ed4a639ed83
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 36901
+  total_delivered: 36844
+  total_opens: 22586
+  total_clicks: 265
+  open_rate: 0.6121
+  click_rate: 0.0072
+  total_unsubscribes: 76
+schedule_type: time_based
+_filename: p_2025_1_12_hav_conv_bedroom_event_pt_reminder_email.yaml

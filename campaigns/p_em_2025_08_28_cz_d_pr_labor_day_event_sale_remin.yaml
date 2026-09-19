@@ -1,0 +1,81 @@
+id: 0c0c0d06-bc9b-4ff7-818a-6ac898e5423c
+name: P_EM_2025_08_28_CZ_D_PR_Labor_Day_Event_Sale_Reminder
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 0c0c0d06-bc9b-4ff7-818a-6ac898e5423c
+dates:
+  send_date: '2025-08-28'
+  inferred_send_type: local_time
+  first_sent: '2025-08-28T05:31:11+00:00'
+  last_sent: '2025-08-29T01:03:34+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale_feat
+sends:
+- id: 331b3fd9-9582-44d6-904d-d097bf07e0d8
+  channel: email
+  name: Variant 1
+  subject: Our Most Coveted Pieces
+  preheader: Yours for 20% off.
+  html_file: html/p_em_2025_08_28_cz_d_pr_labor_day_event_sale_reminder.html
+  screenshot: screenshots/p_em_2025_08_28_cz_d_pr_labor_day_event_sale_reminder.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a4e3e6ddc0fa0065752f23/original.png?1755636710
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68af5addafc1ff0065183323/original.png?1756322525
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68af5afaf86890006407f569/original.png?1756322554
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68af5b88f86890007407f7b6/original.png?1756322696
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68af5bae1bd6260064cd2e77/original.png?1756322734
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68af5af37a32f300671786a3/original.png?1756322547
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68af5b96e4b03100656d6dbd/original.png?1756322710
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68af5ba3f86890009207f456/original.png?1756322723
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68af5ad2954bf40067da8bd7/original.png?1756322513
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68af5be3fbec970084ba8289/original.png?1756322787
+- id: f74bffee-7c3d-44d0-a8af-38fd487eee76
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 113919
+  total_delivered: 113055
+  total_opens: 61013
+  total_clicks: 1196
+  open_rate: 0.5356
+  click_rate: 0.0105
+  total_revenue: 9139.56
+  total_bounces: 113
+  total_unsubscribes: 313
+  ga4:
+    sessions: 1206
+    purchases: 15
+    revenue: 4724.12
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.041738'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-02'
+    discount: 20% off Sitewide
+    type: null
+  primary_sale:
+    id: cz-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-02'
+    discount: 20% off Sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 20% off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:38.202166'
+schedule_type: time_based

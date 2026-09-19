@@ -1,0 +1,59 @@
+id: 603b0648-b59e-4b41-89fe-c573110dfed5
+name: P_2025_03_19_CZ_The_Spring_Event_Bestselling_Bedding_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: seasonal
+theme: spring
+braze_id: 603b0648-b59e-4b41-89fe-c573110dfed5
+dates:
+  send_date: '2025-03-19'
+  inferred_send_type: scheduled
+  first_sent: '2025-03-19T05:42:44+00:00'
+  last_sent: '2025-03-19T17:02:39+00:00'
+tags: []
+sends:
+- id: 9f8d0933-e570-415f-8f31-664f63ff1815
+  channel: email
+  name: Variant 1
+  subject: 'Rest Easy: 20% Off Bedding'
+  preheader: Indulge in our luxe, best-selling bedding during The Spring Event.
+  html_file: html/p_2025_03_19_cz_the_spring_event_bestselling_bedding_email.html
+  screenshot: screenshots/p_2025_03_19_cz_the_spring_event_bestselling_bedding_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0d21872d82d0068a9187d/original.png?1741738520
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0da796380bd0064fa96f6/original.png?1741740664
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d30342903ad600661de33c/original.png?1741882177
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d86ea2ed86400065b43327/original.png?1742237345
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d3035096fce90076a0d5d0/original.png?1741882191
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d86dc6a47ce6006526f5f7/original.png?1742237126
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0d6b83f7a830067be4efd/original.png?1741739704
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0da698bd1170075ffaeb3/original.png?1741740649
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0d6e48bd1170066ffe255/original.png?1741739748
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0d1d27f0c140066a8824c/original.png?1741738449
+- id: cd484929-e999-497e-bbcc-520112208217
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 91533
+  total_delivered: 90750
+  total_opens: 47754
+  total_clicks: 520
+  open_rate: 0.5217
+  click_rate: 0.0057
+  total_revenue: 80948.17
+  total_bounces: 4
+  total_unsubscribes: 119
+  ga4:
+    sessions: 851
+    purchases: 14
+    revenue: 4615.52
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.934095'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.731014'
+schedule_type: time_based

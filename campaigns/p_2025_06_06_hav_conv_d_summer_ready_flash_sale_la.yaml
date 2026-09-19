@@ -1,0 +1,57 @@
+id: ef1609c2-d465-408a-8715-7a98e4dbbf94
+name: P_2025_06_06_HAV_Conv_D_Summer_Ready_Flash_Sale_Launch
+brand: HAV
+channel: email
+category: product_launch
+type: sale
+theme: summer
+braze_id: ef1609c2-d465-408a-8715-7a98e4dbbf94
+dates:
+  send_date: '2025-06-06'
+  inferred_send_type: local_time
+  first_sent: '2025-06-05T19:26:11+00:00'
+  last_sent: '2025-06-06T17:17:25+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 0cea4619-04e8-4403-a99e-514a9bda787a
+  channel: email
+  name: Variant 1
+  subject: FLASH SALE ALERT!
+  preheader: Get your home summer ready with UP TO 30% OFF
+  html_file: html/p_2025_06_06_hav_conv_d_summer_ready_flash_sale_launch.html
+  screenshot: screenshots/p_2025_06_06_hav_conv_d_summer_ready_flash_sale_launch.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6841ec32c576ad0075cfccd3/original.png?1749150770
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6841eb3ef70467006594a47c/original.gif?1749150526
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6841ebdfc576ad0066cfce4f/original.png?1749150687
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6841eb65a344c5006449da26/original.png?1749150565
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6841ebab1666150076519bfd/original.png?1749150635
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6841ebb85e79b70064ea30e0/original.png?1749150648
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6841eb9ea03e9d0066e37af0/original.png?1749150621
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6841eb80df10a300659a1555/original.png?1749150592
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6841eb7416661500865190f0/original.png?1749150580
+- id: f8bb1977-8c0f-4a55-b1c7-9a05803491b5
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 40219
+  total_delivered: 40126
+  total_opens: 21587
+  total_clicks: 233
+  open_rate: 0.5367
+  click_rate: 0.0058
+  total_unsubscribes: 41
+  ga4:
+    sessions: 260
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.488965'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.086129'
+schedule_type: time_based

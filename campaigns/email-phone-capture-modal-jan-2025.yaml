@@ -1,0 +1,39 @@
+id: e9838982-7af0-4ecf-8e26-7c4dcc49f136
+name: Email & Phone Capture Modal - Jan 2025
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: e9838982-7af0-4ecf-8e26-7c4dcc49f136
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-01-28T07:00:00+00:00'
+  last_sent: '2026-01-29T20:00:00+00:00'
+tags: []
+sends:
+- id: d11371e5-11a1-4534-a029-4e15a7da3261
+  channel: other
+  name: Variant 1
+- id: 3074541f-3c4c-4e2f-9ae2-96fe6a1d9f4b
+  channel: other
+  name: Control Group
+- id: cd1b7671-bd73-475a-8c9c-a245e3e96bda
+  channel: other
+  name: Variant 2
+- id: f9dbe291-d265-4c55-af1a-5ce33821556e
+  channel: other
+  name: Variant 3
+- id: c4690643-4053-4a34-a5ee-482d8cc3b7d9
+  channel: other
+  name: Variant 4
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.017839'
+    source: snowflake
+    channel: email
+schedule_type: action_based

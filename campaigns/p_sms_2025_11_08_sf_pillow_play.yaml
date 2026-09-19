@@ -1,0 +1,37 @@
+id: 9efb7e51-8fa7-4b2b-8c42-688b58d2eef5
+name: P_SMS_2025_11_08_SF_Pillow_Play
+brand: STF
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: 9efb7e51-8fa7-4b2b-8c42-688b58d2eef5
+dates:
+  send_date: '2025-11-08'
+  inferred_send_type: local_time
+  first_sent: '2025-11-07T23:02:56+00:00'
+  last_sent: '2025-11-08T18:30:18+00:00'
+tags: []
+sends:
+- id: 086ea854-db97-4016-939a-3a2a93818ad3
+  channel: sms
+  name: Variant 1
+- id: 58153edc-e5d2-417d-8db9-0d1be061f5e6
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 4458
+  total_delivered: 4397
+  total_opens: 0
+  total_clicks: 272
+  open_rate: 0.0
+  click_rate: 0.061
+  ga4:
+    sessions: 292
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.665406'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

@@ -1,0 +1,57 @@
+id: klaviyo-UnLHf7
+name: 'The Bed Sale: email 3'
+brand: TI
+channel: email
+category: sale_promo
+type: sale
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2021-03-16'
+  inferred_send_type: scheduled
+  first_sent: '2021-03-21T19:30:00+00:00'
+  last_sent: '2021-03-21T19:30:00+00:00'
+sends:
+- id: 01GF932PGDF8C65WTKW5H7J3VT
+  channel: email
+  name: 'The Bed Sale: email 3'
+  subject: 'Ends tonight: The Bed Sale.'
+  preheader: 20% off the bed of your dreams.
+  html_file: html/the-bed-sale-email-3.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/cc32de4b-c73a-4e7e-b1d6-8dda4b85b1d4.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/c47e3a4e-8597-4098-9167-1d556868b6c4.gif
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/064365fc-fd1a-4c06-a73a-24199f09400f.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/9eadeabe-1260-49e7-917b-0a7f876501f8.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/2e5b4e28-3a6f-4a47-9a4f-3836e87b3f94.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/efc79951-ab82-4798-b6b5-95b803f03f17.png
+  screenshot: screenshots/the-bed-sale-email-3.png
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_unsubscribes: 0
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T14:56:53.462486'
+    source: snowflake
+    channel: email
+klaviyo_type: campaign
+klaviyo_campaign_id: UnLHf7
+klaviyo_message_id: 01GF932PGDF8C65WTKW5H7J3VT
+structure:
+  image_count: 6
+  link_count: 7
+  has_gif: true
+  hero_width: 600
+  layout_type: product_grid
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-03-12T11:18:49.847868'

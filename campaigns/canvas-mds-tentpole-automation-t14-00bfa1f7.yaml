@@ -1,0 +1,33 @@
+id: 00bfa1f7-54a2-41f1-8f55-c18392580f11
+name: P_EM_2026_BW_D_TPA_T14_Last_Two_Days
+brand: BUR
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 291c554b-03ab-48cc-9767-8d8dede9d28f
+canvas_name: MDS Tentpole Automation
+flow_type: other_flow
+sequence_position: 14
+subject: '{% catalog_items sale-emails 20260525 %}{{ items[0].subject_line }}'
+preheader: '{% catalog_items sale-emails 20260525 %}{{ items[0].preheader }}'
+sends:
+- id: 00bfa1f7-54a2-41f1-8f55-c18392580f11
+  channel: email
+  name: P_EM_2026_BW_D_TPA_T14_Last_Two_Days
+  subject: '{% catalog_items sale-emails 20260525 %}{{ items[0].subject_line }}'
+  preheader: '{% catalog_items sale-emails 20260525 %}{{ items[0].preheader }}'
+  html_file: html/canvas-mds-tentpole-automation-t14-00bfa1f7.html
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2026-05-05T07:00:00Z'
+  last_sent: '2026-05-05T17:00:00Z'
+performance_summary:
+  total_sends: 68393
+  total_delivered: 67381
+  total_opens: 35610
+  total_clicks: 97
+  open_rate: 0.5207
+  click_rate: 0.0014
+  total_unsubscribes: 44
+  total_revenue: 27749.0

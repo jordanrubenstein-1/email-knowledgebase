@@ -1,0 +1,31 @@
+id: 3d6223c5-4f1b-bc72-d0c3-b345324bab5b
+name: User Referral Transactional Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 3d6223c5-4f1b-bc72-d0c3-b345324bab5b
+dates:
+  first_sent: '2024-08-23T17:00:00+00:00'
+  last_sent: '2026-06-01T12:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: cfb203d6-aa04-4882-a922-ae0402b46a40
+  channel: email
+  name: Variant 1
+  subject: "{% if api_trigger_properties.${referrerName} %}\n  {{api_trigger_properties.${referrerName}}}\n\
+    {% else %}\n  Your friend\n{% endif %} gifted you $50 off!"
+- id: 459fa5bd-5bbe-4a87-9417-e9acea8c4db6
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 5
+  total_delivered: 5
+  total_opens: 5
+  total_clicks: 2
+  open_rate: 1.0
+  click_rate: 0.4
+schedule_type: api_triggered
+_filename: user-referral-transactional-email.yaml

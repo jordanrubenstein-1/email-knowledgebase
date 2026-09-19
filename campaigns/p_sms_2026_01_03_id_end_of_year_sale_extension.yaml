@@ -1,0 +1,30 @@
+id: bb7bdfe5-0c61-491f-9a4c-d527b28203dc
+name: P_SMS_2026_01_03_ID_End_Of_Year_Sale_Extension
+brand: ID
+channel: sms
+category: sale_promo
+type: sale
+theme: null
+braze_id: bb7bdfe5-0c61-491f-9a4c-d527b28203dc
+dates:
+  send_date: '2026-01-03'
+  inferred_send_type: local_time
+  first_sent: '2026-01-03T01:07:17+00:00'
+  last_sent: '2026-01-04T01:00:44+00:00'
+tags: []
+sends:
+- id: bd509172-5e43-4774-b034-97008e3caf32
+  channel: sms
+  name: Variant 1
+- id: 25641d79-95cc-4c55-90a6-65070ad34c85
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 49679
+  total_delivered: 47759
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 3700.0
+schedule_type: time_based

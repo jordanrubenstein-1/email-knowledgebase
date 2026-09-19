@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Havenly</title>
+  <!--[if mso]>
+  <noscript>
+    <xml>
+      <o:OfficeDocumentSettings>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+  </noscript>
+  <![endif]-->
+</head>
+
+<body style="margin: 0; padding: 0; background-color: #f4f4f4;">
+  <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="600" style="max-width: 600px; width: 100%; margin: 0 auto;">
+    
+    <!-- Top Border + Logo -->
+    <tr>
+      <td bgcolor="#ed6b4d" width="35" rowspan="3" style="background-color: #ed6b4d;">
+        <div style="font-size: 1px; line-height: 1px;">&nbsp;</div>
+      </td>
+
+      <td bgcolor="#c2b04a" style="background-color: #c2b04a; padding: 16px 20px;">
+        <a href="https://havenly.com/?lid=rhkato8al379" style="display: block; text-decoration: none;">
+          <img src="https://braze-images.com/appboy/communication/assets/image_assets/images/697a85e045042100652b5d66/original.png?1769637344" 
+               alt="HAVENLY" 
+               width="120" 
+               style="display: block; max-width: 100%; height: auto;" />
+        </a>
+      </td>
+
+      <td bgcolor="#e59400" width="35" rowspan="3" style="background-color: #e59400;">
+        <div style="font-size: 1px; line-height: 1px;">&nbsp;</div>
+      </td>
+    </tr>
+
+    <!-- Email Body -->
+    <tr>
+      <td bgcolor="#FFFFFF" width="530" style="background-color: #FFFFFF; vertical-align: top;">
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+          <tr>
+            <td style="padding: 24px 20px 36px 20px; font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.5; color: #333333;">
+              
+                           Hi {{${first_name} | default: 'there'}},
+              <br><br>
+
+              Thanks again for choosing me for your interior design project! I just wanted to pop in and answer a few questions we hear all the time before people get started.
+<br><br>
+ 
+<strong>Which design package should I choose?</strong>
+<br>
+If you want the smoothest experience, I recommend our 
+<a href="https://havenly.com/pricing?lid=imndm2jsxb4q" style="color: #1871d8; text-decoration: underline;">Full Package</a>. 
+It’s our most popular option and includes a 3D rendering of your space, so you can see the full design come to life before purchasing a single piece.
+<br><br>
+ 
+<strong>Can you work with my budget?</strong>
+<br>
+Absolutely. Havenly designers work across every style and price point. Whether you're furnishing a room from scratch or just refreshing a few pieces, we'll help you create a space that works for you.
+<br><br>
+ 
+<strong>Can I see examples of your design work?</strong>
+<br>
+Of course! Check out 
+<a href="https://havenly.com/interior-designers/{{custom_attribute.${preferredDesigner}.firstName | downcase}}-{{custom_attribute.${preferredDesigner}.lastName | downcase}}-{{custom_attribute.${preferredDesigner}.id}}?lid=oydxwojn422u" style="color: #1871d8; text-decoration: underline;">my portfolio here</a>.
+<br><br>
+ 
+Once you get started, we’ll connect for a 1:1 kickoff to share your vision, inspiration, and goals for the space. Ready to make it official?
+<br><br>
+ 
+<a href="https://havenly.com/pricing?lid=ndkhyqibfyv6#design-packages" style="color: #1871d8; text-decoration: underline;">Start your design today &rarr;</a>
+<br><br>
+ 
+Best,
+<br>
+{{custom_attribute.${preferredDesigner}.firstName}}
+
+    <!-- Bottom Logo Bar -->
+    <tr>
+      <td bgcolor="#304561" style="background-color: #304561; padding: 28px 20px; text-align: right;">
+        <a href="https://havenly.com/?lid=ejjco5lgm7sr" style="display: inline-block; text-decoration: none;">
+          <img src="https://braze-images.com/appboy/communication/assets/image_assets/images/697a85e4b446f100635ef81c/original.png?1769637348" 
+               alt="H" 
+               width="40" 
+               style="display: block; max-width: 100%; height: auto;" />
+        </a>
+      </td>
+    </tr>
+
+  </table>
+
+  <!-- Footer -->
+  <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="max-width: 600px; width: 100%; margin: 0 auto; background-color: #f4f4f4;">
+    <tr>
+      <td align="center" style="padding: 8px 20px 4px 20px;">
+        {{content_blocks.${unsubscribe} | id: 'cb1'}}
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>

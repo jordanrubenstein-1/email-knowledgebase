@@ -1,0 +1,46 @@
+id: 7930b35d-124a-449c-b49d-09e25b2c729d
+name: P_2025_02_11_ID_Rug_Research_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 7930b35d-124a-449c-b49d-09e25b2c729d
+dates:
+  send_date: '2025-02-11'
+  inferred_send_type: scheduled
+  first_sent: '2025-02-12T20:18:33+00:00'
+  last_sent: '2025-02-13T02:00:16+00:00'
+tags: []
+sends:
+- id: 9ec35dcf-a037-4228-af8f-b553896f037b
+  channel: email
+  name: Variant 1
+  subject: We want to hear from you
+  preheader: Share your feedback for a chance to win a Havenly gift card.
+- id: 7f18e468-c07a-403b-818e-4cde1b3d80e9
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 110184
+  total_delivered: 108921
+  total_opens: 29233
+  total_clicks: 641
+  open_rate: 0.2653
+  click_rate: 0.0058
+  total_revenue: 228850.4
+  total_bounces: 2
+  total_unsubscribes: 102
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.636330'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.768710'
+schedule_type: time_based

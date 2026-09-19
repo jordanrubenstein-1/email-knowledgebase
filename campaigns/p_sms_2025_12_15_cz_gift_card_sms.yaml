@@ -1,0 +1,37 @@
+id: a2fd8a6b-a5f6-4997-a21f-fdeaaa2fac11
+name: P_SMS_2025_12_15_CZ_Gift_Card_SMS
+brand: CZ
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: a2fd8a6b-a5f6-4997-a21f-fdeaaa2fac11
+dates:
+  send_date: '2025-12-15'
+  inferred_send_type: local_time
+  first_sent: '2025-12-15T01:07:35+00:00'
+  last_sent: '2025-12-16T01:02:46+00:00'
+tags: []
+sends:
+- id: b5d2a811-0428-4da8-a99c-01956a283f88
+  channel: sms
+  name: Variant 1
+- id: 20552e2b-351f-4bed-b12b-e31d98b499a9
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 19958
+  total_delivered: 18881
+  total_opens: 0
+  total_clicks: 80
+  open_rate: 0.0
+  click_rate: 0.004
+  ga4:
+    sessions: 66
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.389689'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

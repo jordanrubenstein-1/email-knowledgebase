@@ -1,0 +1,56 @@
+id: klaviyo-XCd4b8
+name: post-purchase-trade-email-03
+brand: TE
+channel: email
+category: other
+type: announcement
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: RGxBns
+canvas_name: flow-sr_post-purchase_trade
+flow_type: post_purchase
+sequence_position: 3
+dates:
+  created: '2025-04-08'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-08'
+  last_sent: '2025-04-08'
+sends:
+- id: XCd4b8
+  channel: email
+  name: Message
+  subject: Unlock up to 25% off
+  preheader: Deeper discounts, only for trade members.
+  html_file: html/klv-flow-flow-sr_post-purchase_trade-t03-XCd4b8.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/7088a35f-a032-4f4e-93d2-cf46795e5af4.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/4db9e9a9-5402-4313-9bcc-dfc8d9b1138b.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/25541d4e-e587-494e-b2ff-cd9c34175a5e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/4d0ac559-e372-404d-acc8-0a00d83087ab.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/8eb84d30-71ca-467d-b525-61fed5d9114a.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/5580b020-5621-4ebb-ab1f-7f2f971de1a4.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/b97c6c4f-4781-4ddf-b5fa-30ad23d5cf3b.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/38721e31-0619-4f32-8436-b87026c45ec8.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/297f26ba-015e-460f-b52c-cc687d7f413e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/d52d0a71-4d68-4cc5-8291-d3cb2813116f.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: XCd4b8
+structure:
+  image_count: 21
+  link_count: 27
+  has_gif: false
+  hero_width: 100
+  layout_type: product_grid

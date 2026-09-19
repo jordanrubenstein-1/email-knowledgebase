@@ -1,0 +1,30 @@
+id: b96bea2a-7840-405e-8d2e-9690e38d6d4f
+name: P_SMS_2025_12_20_ID_Leather_Highlight
+brand: ID
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: b96bea2a-7840-405e-8d2e-9690e38d6d4f
+dates:
+  send_date: '2025-12-20'
+  inferred_send_type: local_time
+  first_sent: '2025-12-20T01:08:07+00:00'
+  last_sent: '2025-12-21T01:01:38+00:00'
+tags: []
+sends:
+- id: 29c0b9a0-9f9d-4644-8565-7bc1fce84e76
+  channel: sms
+  name: Variant 1
+- id: 9a4111f2-314c-4b34-9d26-a3964c673521
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 50000
+  total_delivered: 48062
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 5645.0
+schedule_type: time_based

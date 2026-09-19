@@ -1,0 +1,62 @@
+id: 600a9eef-a671-4dd8-8289-2d8a1595efe1
+name: P_EM_2025_07_29_CZ_D_PR_Archive_Sale
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 600a9eef-a671-4dd8-8289-2d8a1595efe1
+dates:
+  send_date: '2025-07-29'
+  inferred_send_type: local_time
+  first_sent: '2025-07-28T23:31:22+00:00'
+  last_sent: '2025-07-29T19:01:38+00:00'
+tags:
+- am
+- archive
+- batch and blast
+- d2c
+- designed
+- sale
+sends:
+- id: 076d9a47-75c1-4342-8f1d-e51587068442
+  channel: email
+  name: Variant 1
+  subject: 'The Archive Sale: Up To 65% Off'
+  preheader: 'These favorites won’t last long. '
+  html_file: html/p_em_2025_07_29_cz_d_pr_archive_sale.html
+  screenshot: screenshots/p_em_2025_07_29_cz_d_pr_archive_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6883a1356ab1f60064faa56b/original.png?1753456949
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6883a151c68da90065c63560/original.png?1753456977
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6883a165c68da90084c62a5d/original.png?1753456997
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6883a130c68da90065c633b1/original.gif?1753456944
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6883a15d2eb2ce0074b7f06a/original.png?1753456989
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6883a146794a8f0075b6aa9e/original.png?1753456965
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6883a106e847fe0094326268/original.png?1753456902
+- id: 56e8dc9e-4d21-4f8c-b218-ca429636491d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 101247
+  total_delivered: 101162
+  total_opens: 51523
+  total_clicks: 1555
+  open_rate: 0.5089
+  click_rate: 0.0154
+  total_revenue: 70682.15
+  total_bounces: 9
+  total_unsubscribes: 131
+  ga4:
+    sessions: 2160
+    purchases: 22
+    revenue: 9846.92
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.462138'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.689439'
+schedule_type: time_based

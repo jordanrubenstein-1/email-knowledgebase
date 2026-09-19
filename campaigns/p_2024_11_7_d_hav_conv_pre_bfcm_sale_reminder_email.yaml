@@ -1,0 +1,34 @@
+id: d93e32ae-5cfa-49ea-a0e8-1f037ad9e82e
+name: P_2024_11_7_D_HAV_Conv_Pre_BFCM_Sale_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: black_friday
+braze_id: d93e32ae-5cfa-49ea-a0e8-1f037ad9e82e
+dates:
+  send_date: '2024-11-07'
+  first_sent: '2024-11-07T06:13:27+00:00'
+  last_sent: '2024-11-07T17:15:05+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 89d9371b-8c46-4cd4-b5c2-b1f8676932dc
+  channel: email
+  name: Variant 1
+  subject: 'PSA: early shoppers get the BEST deal'
+  preheader: Save on design services now, make the most of Black Friday later.
+- id: a12c4b49-930d-4aeb-9bbe-957c85e35b50
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 34866
+  total_delivered: 34830
+  total_opens: 20148
+  total_clicks: 159
+  open_rate: 0.5779
+  click_rate: 0.0046
+  total_bounces: 1
+  total_unsubscribes: 56
+schedule_type: time_based
+_filename: p_2024_11_7_d_hav_conv_pre_bfcm_sale_reminder_email.yaml

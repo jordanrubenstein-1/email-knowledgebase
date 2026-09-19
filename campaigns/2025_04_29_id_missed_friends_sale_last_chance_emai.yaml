@@ -1,0 +1,47 @@
+id: 97665717-d130-4284-96f1-85157f898b05
+name: 2025_04_29_ID_Missed_Friends_Sale_Last_Chance_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 97665717-d130-4284-96f1-85157f898b05
+dates:
+  send_date: '2025-04-29'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-29T05:50:49+00:00'
+  last_sent: '2025-04-29T17:15:11+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 7945dd65-b8d1-4924-af20-8ceea7667703
+  channel: email
+  name: Variant 1
+  subject: Not You Missing 20% Off Sitewide 🙄
+  preheader: Hurry, sale expires @ midnight!
+- id: 186ba636-59a2-4b7e-b4a2-816667bb9e2f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 157758
+  total_delivered: 155637
+  total_opens: 36976
+  total_clicks: 452
+  open_rate: 0.2344
+  click_rate: 0.0029
+  total_revenue: 266038.25
+  total_bounces: 3
+  total_unsubscribes: 95
+  ga4:
+    sessions: 439
+    purchases: 4
+    revenue: 13608.64
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.670225'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.119036'
+schedule_type: time_based

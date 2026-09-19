@@ -1,0 +1,33 @@
+id: f89fd539-cae2-499f-bbaa-583d8d7c97a9
+name: P_2024_09_02_D_ID_PR_AM_Labor_Day_Sale_Reminder _Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: f89fd539-cae2-499f-bbaa-583d8d7c97a9
+dates:
+  send_date: '2024-09-02'
+  inferred_send_type: local_time
+  first_sent: '2024-09-01T18:05:01+00:00'
+  last_sent: '2024-09-02T14:05:03+00:00'
+tags: []
+sends:
+- id: ce7cd785-89f7-4eec-bd56-98a733e5dc9d
+  channel: email
+  name: Variant 1
+  subject: Time off. Sale on.
+  preheader: Shop the Labor Day Event.
+- id: ccfda46d-bc8b-4c15-b8ed-6f446f721e70
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 37549
+  total_delivered: 37449
+  total_opens: 13408
+  total_clicks: 850
+  open_rate: 0.3571
+  click_rate: 0.0226
+  total_unsubscribes: 61
+_filename: p_2024_09_02_d_id_pr_am_labor_day_sale_reminder-_email.yaml
+schedule_type: time_based

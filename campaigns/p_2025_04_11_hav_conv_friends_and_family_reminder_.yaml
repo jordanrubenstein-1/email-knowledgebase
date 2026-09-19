@@ -1,0 +1,48 @@
+id: 3d0422bf-9900-41a0-8a34-c9c89d92e5d5
+name: P_2025_04_11_HAV_Conv_Friends_and_Family_Reminder_PT
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 3d0422bf-9900-41a0-8a34-c9c89d92e5d5
+dates:
+  send_date: '2025-04-11'
+  inferred_send_type: local_time
+  first_sent: '2025-04-10T20:55:07+00:00'
+  last_sent: '2025-04-11T17:15:19+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: ef757c6a-267c-4ed8-a165-2535b3229779
+  channel: email
+  name: Variant 1
+  subject: A friendly sale reminder... (don't miss it!)
+  html_file: html/p_2025_04_11_hav_conv_friends_and_family_reminder_pt.html
+  screenshot: screenshots/p_2025_04_11_hav_conv_friends_and_family_reminder_pt.png
+  image_urls:
+  - https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/c731630f24214e43807c7369ca8ebacd/Havenly_Wordmark_RGB_Charcoal_Brown%20%281%29.png
+- id: ad37e739-6248-4f74-b7b3-15a6a75d4ec4
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 39290
+  total_delivered: 39189
+  total_opens: 22646
+  total_clicks: 175
+  open_rate: 0.5764
+  click_rate: 0.0045
+  total_unsubscribes: 44
+  ga4:
+    sessions: 202
+    purchases: 3
+    revenue: 7702.12
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.516853'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.641562'
+schedule_type: time_based

@@ -1,0 +1,45 @@
+id: 39bba7a6-718a-445e-a49c-842b6206e240
+name: P_2024_10_27_ID_Slipcovered_Collections_Email
+brand: ID
+channel: email
+category: product_launch
+type: announcement
+theme: null
+braze_id: 39bba7a6-718a-445e-a49c-842b6206e240
+dates:
+  send_date: '2024-10-27'
+  inferred_send_type: local_time
+  first_sent: '2024-10-26T19:43:55+00:00'
+  last_sent: '2024-10-27T17:15:03+00:00'
+tags: []
+sends:
+- id: 0423faee-72d8-4021-8f5c-bde0cb7a4d86
+  channel: email
+  name: Variant 1
+  subject: 'NEW ARRIVALS: Slipcovered Furniture'
+  preheader: Slip into style!
+- id: e45fd2e5-359d-4129-b6bf-de41f0b1b1f0
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 59544
+  total_delivered: 59106
+  total_opens: 21362
+  total_clicks: 868
+  open_rate: 0.3588
+  click_rate: 0.0146
+  total_revenue: 162942.76
+  total_unsubscribes: 119
+  ga4:
+    sessions: 1122
+    purchases: 1
+    revenue: 3825.25
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.360277'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:45.823160'
+schedule_type: time_based

@@ -1,0 +1,30 @@
+id: 90fb1549-481b-48a1-a432-f4c6a4e286a6
+name: P_SMS_2026_02_10_CZ_Presidents_Day_Sale_Launch_Frequency_Test
+brand: CZ
+channel: sms
+category: product_launch
+type: sale
+theme: null
+braze_id: 90fb1549-481b-48a1-a432-f4c6a4e286a6
+dates:
+  send_date: '2026-02-10'
+  inferred_send_type: local_time
+  first_sent: '2026-02-10T01:08:50+00:00'
+  last_sent: '2026-02-11T01:01:48+00:00'
+tags: []
+sends:
+- id: 08558358-8184-478f-a9e4-7aa8036754dc
+  channel: sms
+  name: Variant 1
+- id: f2d70f87-371f-4400-b88c-afd31f7fc44b
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 7764
+  total_delivered: 7281
+  total_opens: 0
+  total_clicks: 87
+  open_rate: 0.0
+  click_rate: 0.0112
+_filename: p_sms_2026_02_10_cz_presidents_day_sale_launch_frequency_tes.yaml
+schedule_type: time_based

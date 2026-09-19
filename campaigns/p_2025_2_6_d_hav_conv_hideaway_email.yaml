@@ -1,0 +1,34 @@
+id: 74bbed25-9843-49d3-b270-044f8b22467c
+name: P_2025_2_6_D_HAV_Conv_Hideaway_Email
+brand: HAV
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 74bbed25-9843-49d3-b270-044f8b22467c
+dates:
+  send_date: '2025-02-06'
+  first_sent: '2025-02-06T22:52:45+00:00'
+  last_sent: '2025-02-06T22:54:55+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 222716a6-2610-4e3a-96ce-c0f6451c726d
+  channel: email
+  name: Variant 1
+  subject: 'The #1 home trend of 2025…'
+  preheader: According to Zillow
+- id: 75e2094d-42e8-49c8-a6ff-8e95d1c68855
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 37792
+  total_delivered: 37732
+  total_opens: 21588
+  total_clicks: 1157
+  open_rate: 0.5712
+  click_rate: 0.0306
+  total_bounces: 3
+  total_unsubscribes: 53
+schedule_type: time_based
+_filename: p_2025_2_6_d_hav_conv_hideaway_email.yaml

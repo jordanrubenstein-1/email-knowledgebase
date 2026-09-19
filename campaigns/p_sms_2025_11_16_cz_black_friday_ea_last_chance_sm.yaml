@@ -1,0 +1,37 @@
+id: e8f3fe3d-6c14-4754-bb1d-101d4f38c02d
+name: P_SMS_2025_11_16_CZ_Black_Friday_EA_Last_Chance_SMS
+brand: CZ
+channel: sms
+category: reminder
+type: announcement
+theme: null
+braze_id: e8f3fe3d-6c14-4754-bb1d-101d4f38c02d
+dates:
+  send_date: '2025-11-16'
+  inferred_send_type: local_time
+  first_sent: '2025-11-16T05:34:53+00:00'
+  last_sent: '2025-11-17T01:02:18+00:00'
+tags: []
+sends:
+- id: f5bbb5bc-b1ff-4ad3-9e7c-a5776073c94c
+  channel: sms
+  name: Variant 1
+- id: b18ffb84-1d6e-446f-b188-5b0bc57fbf38
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 20754
+  total_delivered: 20155
+  total_opens: 0
+  total_clicks: 232
+  open_rate: 0.0
+  click_rate: 0.0112
+  ga4:
+    sessions: 254
+    purchases: 3
+    revenue: 1098.75
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.584524'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

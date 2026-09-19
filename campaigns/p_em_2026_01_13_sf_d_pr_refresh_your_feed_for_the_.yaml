@@ -1,0 +1,58 @@
+id: aab1240f-6522-42df-8cf5-a3bb4a235431
+name: P_EM_2026_01_13_SF_D_PR_Refresh_Your_Feed_for_the_New_Year
+brand: STF
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: aab1240f-6522-42df-8cf5-a3bb4a235431
+dates:
+  send_date: '2026-01-13'
+  inferred_send_type: local_time
+  first_sent: '2026-01-12T23:05:49+00:00'
+  last_sent: '2026-01-13T23:03:33+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: 737b9c19-1cf2-4108-a10e-ebc4c8129ecf
+  channel: email
+  name: Variant 1
+  subject: See it Our Way
+  preheader: follow St. Frank on Pinterest.
+  html_file: html/p_em_2026_01_13_sf_d_pr_refresh_your_feed_for_the_new_year.html
+  screenshot: screenshots/p_em_2026_01_13_sf_d_pr_refresh_your_feed_for_the_new_year.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6960700905bc3900633d0bae/original.png?1767927817
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69606ffea52e5d0063e89d0b/original.png?1767927806
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6960702c4929910065d49980/original.png?1767927851
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6964ead857d7ba00651688bc/original.png?1768221400
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6964eb30f65bb50065403c94/original.png?1768221486
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696070214929910065d4997f/original.png?1767927841
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6964ea7aa6b2c70075be2046/original.gif?1768221306
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696070161df979006387861d/original.png?1767927829
+- id: 1b7933f1-e971-4178-9d81-1fad0ca264a6
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 38919
+  total_delivered: 38614
+  total_opens: 13142
+  total_clicks: 153
+  open_rate: 0.3377
+  click_rate: 0.0039
+  total_bounces: 4
+  total_unsubscribes: 37
+  ga4:
+    sessions: 139
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.861314'
+    source: snowflake
+    channel: email
+schedule_type: time_based

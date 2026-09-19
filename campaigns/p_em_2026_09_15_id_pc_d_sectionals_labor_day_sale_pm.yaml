@@ -1,0 +1,34 @@
+id: 1c32482e-6a70-46d2-a381-21555159fdef
+name: P_EM_2026_09_15_ID_PC_D_Sectionals_Labor_Day_Sale_PM
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 1c32482e-6a70-46d2-a381-21555159fdef
+dates:
+  send_date: '2026-09-15'
+  first_sent: '2026-09-15T03:07:29+00:00'
+  last_sent: '2026-09-15T21:00:00+00:00'
+  inferred_send_type: local_time
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: a23657a7-b4a0-4bcb-9be7-99ee1b7d3bce
+  channel: email
+  name: Variant 1
+  subject: 'Final Hours: The Labor Day Event'
+  preheader: This is it. The last chance for sitewide savings up to 60% off.
+- id: ab415451-65ab-495c-9fc8-8e2e4e978cb1
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 19732
+  total_delivered: 19694
+  total_opens: 2725
+  total_clicks: 68
+  open_rate: 0.1381
+  click_rate: 0.0034
+  total_unsubscribes: 13
+schedule_type: time_based
+_filename: p_em_2026_09_15_id_pc_d_sectionals_labor_day_sale_pm.yaml

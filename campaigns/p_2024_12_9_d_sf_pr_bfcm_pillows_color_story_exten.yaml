@@ -1,0 +1,74 @@
+id: 5057d854-b505-48af-8ed9-aa73159fb95a
+name: P_2024_12_9_D_SF_PR_BFCM_Pillows_Color_Story_Extension_Email
+brand: STF
+channel: email
+category: editorial
+type: announcement
+theme: black_friday
+braze_id: 5057d854-b505-48af-8ed9-aa73159fb95a
+dates:
+  send_date: '2024-12-09'
+  inferred_send_type: local_time
+  first_sent: '2024-12-08T17:09:33+00:00'
+  last_sent: '2024-12-09T15:00:46+00:00'
+tags: []
+sends:
+- id: 3181c298-0af6-4f69-ab76-f2e3dd7b39af
+  channel: email
+  name: Variant 1
+  subject: 'Pillow Picks: Plum 💜'
+  preheader: the sweetest shade of the season
+  html_file: html/p_2024_12_9_d_sf_pr_bfcm_pillows_color_story_extension_email.html
+  screenshot: screenshots/p_2024_12_9_d_sf_pr_bfcm_pillows_color_story_extension_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/675361607c94a500656577df/original.gif?1733517664
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67536105c2bdf10064a5ae3b/original.jpg?1733517573
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67533f007289490065f16a7d/original.jpg?1733508864
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674f63cfa7aa370063a77020/original.gif?1733256143
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6753612a90b2f800661731c2/original.gif?1733517610
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6753618be4bf5c0065081377/original.jpg?1733517706
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67536093da43dd0064208254/original.jpg?1733517459
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674f6418a7aa370063a77080/original.gif?1733256216
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/675360e67c94a50065657736/original.gif?1733517542
+- id: 67a45d6c-5228-492e-b665-54bbb6723055
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 3679
+  total_delivered: 3641
+  total_opens: 1879
+  total_clicks: 55
+  open_rate: 0.5107
+  click_rate: 0.0149
+  total_revenue: 4726.0
+  total_unsubscribes: 6
+  ga4:
+    sessions: 41
+    purchases: 1
+    revenue: 104.53
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.845372'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-cyber-week-ext-2024-12-03
+    name: Cyber Week Ext
+    start_date: '2024-12-03'
+    end_date: '2024-12-10'
+    discount: null
+    type: null
+  primary_sale:
+    id: stf-cyber-week-ext-2024-12-03
+    name: Cyber Week Ext
+    start_date: '2024-12-03'
+    end_date: '2024-12-10'
+    discount: null
+    type: null
+  sale_name: Cyber Week Ext
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:35.844281'
+schedule_type: time_based

@@ -1,0 +1,58 @@
+id: 5bf0643e-dbc6-4144-be24-d2eb6074e11d
+name: P_EM_2025_09_11_CZ_D_PR_Oaxaca_Collection
+brand: CZ
+channel: email
+category: product_launch
+type: announcement
+theme: null
+braze_id: 5bf0643e-dbc6-4144-be24-d2eb6074e11d
+dates:
+  send_date: '2025-09-11'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-11T17:21:14+00:00'
+  last_sent: '2025-09-11T17:23:39+00:00'
+tags:
+- am
+- batch and blast
+- collect
+- d2c
+- designed
+sends:
+- id: a81cba2a-9ef7-443c-b440-ae6a35a38d8a
+  channel: email
+  name: Variant 1
+  subject: The Oaxaca Collection
+  preheader: Escape to the city known for artistry and craft.
+  html_file: html/p_em_2025_09_11_cz_d_pr_oaxaca_collection.html
+  screenshot: screenshots/p_em_2025_09_11_cz_d_pr_oaxaca_collection.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c1d6fa7d22590066e6c54c/original.png?1757533946
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c1d6bd958308006666274b/original.png?1757533884
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c1d6c35ef4990066b8e48b/original.gif?1757533891
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c1d6e37d22590066e6c48d/original.png?1757533923
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c1d6d895830800666628ed/original.png?1757533912
+- id: 4ad107d9-1506-4424-ba65-e706681a1e13
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 114789
+  total_delivered: 114248
+  total_opens: 63310
+  total_clicks: 2132
+  open_rate: 0.5515
+  click_rate: 0.0186
+  total_bounces: 222
+  total_unsubscribes: 235
+  ga4:
+    sessions: 2538
+    purchases: 5
+    revenue: 1620.3
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.605356'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.413795'
+schedule_type: time_based

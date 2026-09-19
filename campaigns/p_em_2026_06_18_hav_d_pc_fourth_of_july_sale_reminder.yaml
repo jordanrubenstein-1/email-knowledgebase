@@ -1,0 +1,33 @@
+id: 5dbc004d-e682-4634-bc18-03b24dae3f30
+name: P_EM_2026_06_18_HAV_D_PC_Fourth_of_July_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 5dbc004d-e682-4634-bc18-03b24dae3f30
+dates:
+  send_date: '2026-06-18'
+  last_sent: '2026-06-18'
+tags:
+- BLASTS-2025
+sends:
+- id: 8b6cc9de-fd01-4cce-9672-391326e7e6ff
+  channel: email
+  name: Variant 1
+  subject: A Havenly designer for only $99
+  preheader: A custom designed space for half the price.
+- id: 227ad769-323c-4c5c-bc17-df79c1b52e9f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 286726
+  total_delivered: 283401
+  total_opens: 101330
+  total_clicks: 430
+  open_rate: 0.3534
+  click_rate: 0.0015
+  total_bounces: 17
+  total_unsubscribes: 405
+schedule_type: time_based
+_filename: p_em_2026_06_18_hav_d_pc_fourth_of_july_sale_reminder.yaml

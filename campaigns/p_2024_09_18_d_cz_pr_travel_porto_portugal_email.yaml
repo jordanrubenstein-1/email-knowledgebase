@@ -1,0 +1,56 @@
+id: 21791cff-b390-4970-937e-be2fd4420082
+name: P_2024_09_18_D_CZ_PR_Travel_Porto_Portugal_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 21791cff-b390-4970-937e-be2fd4420082
+dates:
+  send_date: '2024-09-18'
+  inferred_send_type: local_time
+  first_sent: '2024-09-17T20:30:38+00:00'
+  last_sent: '2024-09-18T17:00:21+00:00'
+tags:
+- batch and blast
+sends:
+- id: 81ec1c81-1fc7-4f58-a72f-f3a034564fd7
+  channel: email
+  name: Variant 1
+  subject: The Porto Guide
+  preheader: Scenic views, world-class wine, and excellent architecture, explore this
+    uniquely charming coastal city.
+  html_file: html/p_2024_09_18_d_cz_pr_travel_porto_portugal_email.html
+  screenshot: screenshots/p_2024_09_18_d_cz_pr_travel_porto_portugal_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e9a13181db5f00645dc2a8/original.jpg?1726587184
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e9a12381db5f00645dc274/original.jpg?1726587170
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e9a1a139cc2b006382e0c1/original.jpg?1726587297
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e9a1882536f10066dfb9a3/original.jpg?1726587272
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66e9a1b12536f10075dfabc1/original.jpg?1726587313
+- id: 7a03fb15-4426-4b18-aecb-6631e6df3d4e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 73181
+  total_delivered: 72952
+  total_opens: 42269
+  total_clicks: 934
+  open_rate: 0.5776
+  click_rate: 0.0128
+  total_revenue: 34119.28
+  total_bounces: 3
+  total_unsubscribes: 191
+  ga4:
+    sessions: 1086
+    purchases: 2
+    revenue: 414.04
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.508893'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.720402'
+schedule_type: time_based

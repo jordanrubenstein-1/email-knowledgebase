@@ -1,0 +1,33 @@
+id: 24b88f9a-9861-4a6b-a748-e9b47f2e3426
+name: P_2024_09_15_D_HAV_PR_Conv_Hosting_Favorites_for_Fall_Email
+brand: HAV
+channel: email
+category: other
+type: seasonal
+theme: fall
+braze_id: 24b88f9a-9861-4a6b-a748-e9b47f2e3426
+dates:
+  send_date: '2024-09-15'
+  first_sent: '2024-09-14T18:28:18+00:00'
+  last_sent: '2024-09-15T17:15:07+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 7c4c0d9b-4499-48e0-9415-dbae0ce19d7f
+  channel: email
+  name: Variant 1
+  subject: Host with the most!
+  preheader: The holidays are just around the corner
+- id: 3d98f424-4daa-4822-8f4f-1710b45bfe23
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 35722
+  total_delivered: 35603
+  total_opens: 20934
+  total_clicks: 273
+  open_rate: 0.586
+  click_rate: 0.0076
+  total_unsubscribes: 180
+schedule_type: time_based
+_filename: p_2024_09_15_d_hav_pr_conv_hosting_favorites_for_fall_email.yaml

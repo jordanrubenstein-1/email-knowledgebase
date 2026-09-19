@@ -1,0 +1,35 @@
+id: 026ec313-03ba-45f7-a700-30184cda3925
+name: P_EM_2026_05_01_HAV_PC_D_Memorial_Day_Sale_Launch
+brand: HAV
+channel: email
+category: product_launch
+type: sale
+theme: null
+braze_id: 026ec313-03ba-45f7-a700-30184cda3925
+dates:
+  send_date: '2026-05-01'
+  first_sent: '2026-05-01T21:22:12+00:00'
+  last_sent: '2026-05-02T04:30:12+00:00'
+  inferred_send_type: scheduled
+tags:
+- BLASTS-2025
+sends:
+- id: 3b57203d-af63-4de7-9dee-68af9ab6dad3
+  channel: email
+  name: Variant 1
+  subject: Summer starts now
+  preheader: 50% off Havenly interior design packages.
+- id: da40296f-041d-4ae5-b625-c316c80921d6
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 268711
+  total_delivered: 266701
+  total_opens: 105327
+  total_clicks: 1678
+  open_rate: 0.392
+  click_rate: 0.0062
+  total_bounces: 21
+  total_unsubscribes: 504
+schedule_type: time_based
+_filename: p_em_2026_05_01_hav_pc_d_memorial_day_sale_launch.yaml

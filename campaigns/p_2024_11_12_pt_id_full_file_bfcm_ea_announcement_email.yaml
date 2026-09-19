@@ -1,0 +1,33 @@
+id: b8575b36-6e4a-48bf-a924-5e9516f24513
+name: P_2024_11_12_PT_ID_Full_File_BFCM_EA_Announcement_Email
+brand: ID
+channel: email
+category: sale_promo
+type: product_launch
+theme: black_friday
+braze_id: b8575b36-6e4a-48bf-a924-5e9516f24513
+dates:
+  send_date: '2024-11-12'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-12T03:06:06+00:00'
+  last_sent: '2024-11-12T17:15:06+00:00'
+tags: []
+sends:
+- id: 8c453e6c-6d58-4e0e-bc05-04e6a9678c39
+  channel: email
+  name: Variant 1
+  subject: 'VIP EARLY ACCESS: unlock up to 25% off'
+- id: 89b92621-660e-4ea0-81bd-1fbfd154de14
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 43738
+  total_delivered: 43523
+  total_opens: 15403
+  total_clicks: 467
+  open_rate: 0.3522
+  click_rate: 0.0107
+  total_revenue: 82701.0
+  total_unsubscribes: 82
+_filename: p_2024_11_12_pt_id_full_file_bfcm_ea_announcement_email.yaml
+schedule_type: time_based

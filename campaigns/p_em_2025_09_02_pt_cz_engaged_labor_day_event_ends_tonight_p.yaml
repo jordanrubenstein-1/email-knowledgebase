@@ -1,0 +1,43 @@
+id: 073ab964-a57e-4ea4-9a45-9a383f72a0fe
+name: P_EM_2025_09_02_PT_CZ_Engaged_Labor_Day_Event_Ends_Tonight_PM
+brand: CZ
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 073ab964-a57e-4ea4-9a45-9a383f72a0fe
+dates:
+  send_date: '2025-09-02'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-02T22:53:34+00:00'
+  last_sent: '2025-09-02T23:21:10+00:00'
+tags:
+- batch and blast
+- pm
+- pt
+- sale
+- sale_feat
+- seg
+sends:
+- id: fac45cdf-8a4a-4690-991f-c4375dfd4f8f
+  channel: email
+  name: Variant 1
+  subject: 'Final Hours: Labor Day savings end at midnight'
+  html_file: html/p_em_2025_09_02_pt_cz_engaged_labor_day_event_ends_tonight_p.html
+  screenshot: screenshots/p_em_2025_09_02_pt_cz_engaged_labor_day_event_ends_tonight_p.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f83def4631c700674e669c/original.png?1744322031
+- id: ad83cd63-1914-4304-8627-f80081e0cd8e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 24533
+  total_delivered: 24504
+  total_opens: 16742
+  total_clicks: 516
+  open_rate: 0.6824
+  click_rate: 0.021
+  total_bounces: 1
+  total_unsubscribes: 141
+_filename: p_em_2025_09_02_pt_cz_engaged_labor_day_event_ends_tonight_p.yaml
+schedule_type: time_based

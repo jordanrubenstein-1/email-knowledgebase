@@ -1,0 +1,56 @@
+id: 1ae6f46c-66eb-475e-af6d-c52e53f65fad
+name: P_2025_04_22_D_HAV_Conv_Friends_Family_Event_Last_Chance
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 1ae6f46c-66eb-475e-af6d-c52e53f65fad
+dates:
+  send_date: '2025-04-22'
+  inferred_send_type: local_time
+  first_sent: '2025-04-21T20:51:04+00:00'
+  last_sent: '2025-04-22T17:15:31+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 2bdae428-cc0f-4aff-834a-31d1f709ff83
+  channel: email
+  name: Variant 1
+  subject: Last Chance For Sitewide Savings!
+  preheader: Check out today before it’s too late.
+  html_file: html/p_2025_04_22_d_hav_conv_friends_family_event_last_chance.html
+  screenshot: screenshots/p_2025_04_22_d_hav_conv_friends_family_event_last_chance.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68041e93b864c80063a9a0e1/original.png?1745100435
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68041ea2f9d82f0062d5b068/original.png?1745100450
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68041e5d47d0300062715541/original.png?1745100380
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68041e8c408444006320d75f/original.png?1745100428
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68041e9a467e500062c10d6c/original.png?1745100442
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68041e4f7a0d6f00622fda59/original.gif?1745100367
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68041e85408444006320d75e/original.png?1745100421
+- id: d7673297-0ee0-4264-a51a-08bcef74b658
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 39360
+  total_delivered: 39276
+  total_opens: 21227
+  total_clicks: 109
+  open_rate: 0.5393
+  click_rate: 0.0028
+  total_bounces: 1
+  total_unsubscribes: 48
+  ga4:
+    sessions: 93
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.352606'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.787558'
+schedule_type: time_based

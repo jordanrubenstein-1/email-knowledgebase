@@ -1,0 +1,47 @@
+id: 370fed21-812b-4d71-b5b8-152470e8a8ba
+name: P_2025_05_15_ID_New_Arrivals_Round_Up_Email
+brand: ID
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 370fed21-812b-4d71-b5b8-152470e8a8ba
+dates:
+  send_date: '2025-05-15'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-15T07:30:08+00:00'
+  last_sent: '2025-05-15T17:15:08+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 13c25df9-345e-4761-b879-cbc3ab93c478
+  channel: email
+  name: Variant 1
+  subject: NEW & 25% OFF
+  preheader: Your new obsession has arrived.
+- id: 5bfe4946-f53a-46c7-a38d-aa0a54b82535
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 161474
+  total_delivered: 159402
+  total_opens: 37958
+  total_clicks: 600
+  open_rate: 0.2351
+  click_rate: 0.0037
+  total_revenue: 165508.0
+  total_bounces: 3
+  total_unsubscribes: 93
+  ga4:
+    sessions: 747
+    purchases: 2
+    revenue: 4209.14
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.555707'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.924375'
+schedule_type: time_based

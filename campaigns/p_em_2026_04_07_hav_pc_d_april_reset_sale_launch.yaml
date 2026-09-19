@@ -1,0 +1,35 @@
+id: 69206b11-315a-4cb2-90c3-12559e4cb8f8
+name: P_EM_2026_04_07_HAV_PC_D_April_Reset_Sale_Launch
+brand: HAV
+channel: email
+category: product_launch
+type: sale
+theme: null
+braze_id: 69206b11-315a-4cb2-90c3-12559e4cb8f8
+dates:
+  send_date: '2026-04-07'
+  first_sent: '2026-04-06T18:05:59+00:00'
+  last_sent: '2026-04-07T18:00:36+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 9a4e3d32-3964-4b7f-b2f0-1a6706d9c21c
+  channel: email
+  name: Variant 1
+  subject: Your April reset begins here
+  preheader: 50% off Havenly interior design packages.
+- id: bece8d15-41f0-4d3b-acf9-df5e103a1687
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 279475
+  total_delivered: 276124
+  total_opens: 102381
+  total_clicks: 509
+  open_rate: 0.3663
+  click_rate: 0.0018
+  total_bounces: 6
+  total_unsubscribes: 557
+schedule_type: time_based
+_filename: p_em_2026_04_07_hav_pc_d_april_reset_sale_launch.yaml

@@ -1,0 +1,75 @@
+id: d5eed390-dae3-4500-8b64-c3b2eacdc68c
+name: P_2024_12_28_D_CZ_EOY_Event_Furniture_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: d5eed390-dae3-4500-8b64-c3b2eacdc68c
+dates:
+  send_date: '2024-12-28'
+  inferred_send_type: local_time
+  first_sent: '2024-12-27T23:10:34+00:00'
+  last_sent: '2024-12-28T17:02:25+00:00'
+tags: []
+sends:
+- id: 47cf542d-37d0-4a3a-bd8a-6bf4b2b7043a
+  channel: email
+  name: Variant 1
+  subject: 'Only A Few Left: Heirloom Furniture'
+  preheader: Get up to 35% off last batch furniture styles.
+  html_file: html/p_2024_12_28_d_cz_eoy_event_furniture_email.html
+  screenshot: screenshots/p_2024_12_28_d_cz_eoy_event_furniture_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676ee364e2902a006475fcde/original.jpg?1735320419
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676ee4c01d798000647b6db6/original.jpg?1735320768
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676ee34d1d798000647b6d10/original.jpg?1735320397
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676ee3caa00dc4006425a468/original.jpg?1735320522
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676a0e52236f060065574ab2/original.jpg?1735003730
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676a0e797c5eda00650e83d0/original.jpg?1735003769
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676a0e3c7c5eda00650e83c2/original.jpg?1735003708
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676a0e92cd9a95006592c0aa/original.jpg?1735003794
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676a0e62675b230064a52a64/original.jpg?1735003746
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676ee385c80ba600659b3366/original.jpg?1735320453
+- id: 83ba5f89-06cb-470b-acda-a3fb622c7588
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 96254
+  total_delivered: 95565
+  total_opens: 47758
+  total_clicks: 1066
+  open_rate: 0.4962
+  click_rate: 0.0111
+  total_revenue: 66762.61
+  total_bounces: 1
+  total_unsubscribes: 152
+  ga4:
+    sessions: 1508
+    purchases: 6
+    revenue: 3246.56
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.590994'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-23'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: cz_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-23'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:44.213832'
+schedule_type: time_based

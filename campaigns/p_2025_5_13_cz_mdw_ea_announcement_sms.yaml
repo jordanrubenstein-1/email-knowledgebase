@@ -1,0 +1,38 @@
+id: 077d073f-5c31-45f5-a791-2e51707dd675
+name: P_2025_5_13_CZ_MDW_EA_Announcement_SMS
+brand: CZ
+channel: sms
+category: sale_promo
+type: product_launch
+theme: null
+braze_id: 077d073f-5c31-45f5-a791-2e51707dd675
+dates:
+  send_date: '2025-05-13'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-13T22:37:07+00:00'
+  last_sent: '2025-05-13T22:37:52+00:00'
+tags: []
+sends:
+- id: 3e4eb44e-c771-47cb-9c2c-9be2b1501065
+  channel: other
+  name: Variant 1
+- id: 665c07ad-606c-4ea2-8a35-706a60aacf70
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 24054
+  total_delivered: 23373
+  total_opens: 0
+  total_clicks: 431
+  open_rate: 0.0
+  click_rate: 0.0179
+  total_revenue: 18124.86
+  ga4:
+    sessions: 901
+    purchases: 10
+    revenue: 3395.61
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.986657'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

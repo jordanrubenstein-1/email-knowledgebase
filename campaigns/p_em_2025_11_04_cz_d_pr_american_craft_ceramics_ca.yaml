@@ -1,0 +1,62 @@
+id: c536b849-18ca-4a37-ac52-9e83fab83334
+name: P_EM_2025_11_04_CZ_D_PR_American_Craft_Ceramics_Candles
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: c536b849-18ca-4a37-ac52-9e83fab83334
+dates:
+  send_date: '2025-11-04'
+  inferred_send_type: scheduled
+  first_sent: '2025-11-04T03:57:13+00:00'
+  last_sent: '2025-11-04T17:15:42+00:00'
+tags:
+- accents
+- am
+- batch and blast
+- catalog
+- collect
+- d2c
+- designed
+- prod
+sends:
+- id: 1f5e1852-508c-4d3a-ad16-5a06ade3261c
+  channel: email
+  name: Variant 1
+  subject: Heirloom Accents for the Table
+  preheader: Crafted to last and going fast.
+  html_file: html/p_em_2025_11_04_cz_d_pr_american_craft_ceramics_candles.html
+  screenshot: screenshots/p_em_2025_11_04_cz_d_pr_american_craft_ceramics_candles.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69090eabfab4780063722005/original.png?1762201258
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69090ebcf9c2150063ae7dbf/original.png?1762201275
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69090ed48a33940063116189/original.png?1762201300
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69090e698b09dc006580ffee/original.png?1762201192
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69090e7ec5ea7f0063e83ffa/original.png?1762201214
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69090ee5e9bed200634a88df/original.png?1762201316
+- id: ec00ff59-b334-42c3-847d-dcc33c3a5940
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 101521
+  total_delivered: 100785
+  total_opens: 57752
+  total_clicks: 699
+  open_rate: 0.5689
+  click_rate: 0.0069
+  total_bounces: 2
+  total_unsubscribes: 160
+  ga4:
+    sessions: 736
+    purchases: 8
+    revenue: 1458.85
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.239714'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.334306'
+schedule_type: time_based

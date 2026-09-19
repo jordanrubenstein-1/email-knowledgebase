@@ -1,0 +1,53 @@
+id: 4957a686-0dc2-4130-b91f-d7b95cc7780d
+name: P_EM_2026_04_17_CZ_D_PR_Earth_Day_Sleep_Well_Sale
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 4957a686-0dc2-4130-b91f-d7b95cc7780d
+dates:
+  send_date: '2026-04-17'
+  inferred_send_type: sto
+  first_sent: '2026-04-16T11:08:13+00:00'
+  last_sent: '2026-04-18T09:31:06+00:00'
+tags:
+- batch and blast
+- d2c
+- designed
+- event
+- sale
+- sale/sleepsale2026
+sends:
+- id: 66c2c53b-0607-4f97-b6ce-12bc8bb8652a
+  channel: email
+  name: Variant 1
+  subject: It all starts with the hands that make it
+  preheader: Plus, get 20% off bedding and bath during the Sleep Well Sale.
+  html_file: html/p_em_2026_04_17_cz_d_pr_earth_day_sleep_well_sale.html
+  screenshot: screenshots/p_em_2026_04_17_cz_d_pr_earth_day_sleep_well_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69d8202621ec9f00ac5c2d19/original.png?1775771686
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69dceb5ee23b1900ab1f0989/original.png?1776085853
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69dcea8d60dcbc00ae1a68c6/original.png?1776085644
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69dcea7839c79c00c455d65e/original.png?1776085624
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69d82045471ac600aca183a2/original.png?1775771717
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69dceb772a7cfb00ac81a1d9/original.png?1776085879
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69dceb4ea1d16900aa879084/original.png?1776085837
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69d820524590ae00ac50b2c3/original.png?1775771729
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69dceb1872974c00aafaae41/original.png?1776085783
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69d8205d0d4b4b00aaa605cf/original.png?1775771740
+- id: 8c64c152-1ef1-4f20-9d15-6b396bd5a66e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 40077
+  total_delivered: 40016
+  total_opens: 19100
+  total_clicks: 449
+  open_rate: 0.4766
+  click_rate: 0.0112
+  total_bounces: 1
+  total_unsubscribes: 69
+_filename: p_em_2026_04_17_cz_d_pr_earth_day_sleep_well_sale.yaml
+schedule_type: time_based

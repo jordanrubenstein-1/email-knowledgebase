@@ -1,0 +1,53 @@
+id: 9e241dfa-3c32-4c2c-99bf-b7e29dcbb602
+name: P_EM_2025_09_30_CZ_D_PR_The_Weekender_Sale_Last_Chance
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 9e241dfa-3c32-4c2c-99bf-b7e29dcbb602
+dates:
+  send_date: '2025-09-30'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-30T03:44:47+00:00'
+  last_sent: '2025-09-30T17:01:56+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale_feat
+sends:
+- id: d09b7a43-dc7b-444e-b865-b8c88944c3b6
+  channel: email
+  name: Variant 1
+  subject: The Countdown is On…
+  preheader: 20% off sitewide ends at midnight.
+  html_file: html/p_em_2025_09_30_cz_d_pr_the_weekender_sale_last_chance.html
+  screenshot: screenshots/p_em_2025_09_30_cz_d_pr_the_weekender_sale_last_chance.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d595069a91dd0087ac3a91/original.png?1758827781
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d593f3d10b020067088c1d/original.png?1758827507
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68dae684d7a5ff009262b526/original.png?1759176323
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d5955b0e3f6c00648dafd7/original.png?1758827867
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d59567cffcae0083770bf9/original.png?1758827879
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d593b7823a13006427a0d0/original.png?1758827447
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d59ec395628d0074c17844/original.png?1758830274
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d59ee295628d0064c1796f/original.png?1758830305
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d5950cf7823d0067019c08/original.png?1758827788
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d5946fe3cee40086a743ec/original.png?1758827631
+- id: fa8393e3-15ba-4b85-a897-9cfa9cd9cade
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 112279
+  total_delivered: 111875
+  total_opens: 58975
+  total_clicks: 722
+  open_rate: 0.5253
+  click_rate: 0.0064
+  total_bounces: 33
+  total_unsubscribes: 186
+_filename: p_em_2025_09_30_cz_d_pr_the_weekender_sale_last_chance.yaml
+schedule_type: time_based

@@ -1,0 +1,44 @@
+id: 7d55b87d-cff6-4ac0-a22f-501bb659db17
+name: P_2025_05_25_ID_Soho_Sip_and_Sit_Reminder_Email
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 7d55b87d-cff6-4ac0-a22f-501bb659db17
+dates:
+  send_date: '2025-05-25'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-25T16:12:40+00:00'
+  last_sent: '2025-05-25T16:13:03+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: b8bfc1e3-2b02-4633-80f7-2bb6d3173bfd
+  channel: email
+  name: Variant 1
+  subject: 'Reminder: mimosas on us this weekend at our Soho store! 🥂'
+  preheader: Champagne, shopping, and 25% off everything.
+- id: 98459958-92ec-4bb7-aa4e-679eab5e7f31
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 2476
+  total_delivered: 2453
+  total_opens: 427
+  total_clicks: 1
+  open_rate: 0.1725
+  click_rate: 0.0004
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.529775'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.550468'
+schedule_type: time_based

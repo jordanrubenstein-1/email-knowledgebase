@@ -1,0 +1,62 @@
+id: d891ca23-72e6-4a55-bda9-8a6f1bbd3a5d
+name: P_2025_01_04_ID_New_Year_New_Bedroom_Email
+brand: ID
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: d891ca23-72e6-4a55-bda9-8a6f1bbd3a5d
+dates:
+  send_date: '2025-01-04'
+  inferred_send_type: local_time
+  first_sent: '2025-01-04T00:04:38+00:00'
+  last_sent: '2025-01-04T17:15:14+00:00'
+tags: []
+sends:
+- id: e312d7a4-e0eb-4cd4-996b-385f22da7553
+  channel: email
+  name: Variant 1
+  subject: Refresh your guest room like 🫰
+  preheader: Stay awhile.
+- id: 7a3c815c-01bc-4595-869b-4ab3ba43385e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 93457
+  total_delivered: 92594
+  total_opens: 27277
+  total_clicks: 675
+  open_rate: 0.2919
+  click_rate: 0.0072
+  total_revenue: 117819.34
+  total_bounces: 15
+  total_unsubscribes: 198
+  ga4:
+    sessions: 659
+    purchases: 1
+    revenue: 1941.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.720344'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-end-of-year-sale-extension-2025-01-03
+    name: End of Year Sale (EXTENSION)
+    start_date: '2024-12-26'
+    end_date: '2025-01-06'
+    discount: 25% off sitewide
+    type: null
+  primary_sale:
+    id: id-end-of-year-sale-extension-2025-01-03
+    name: End of Year Sale (EXTENSION)
+    start_date: '2024-12-26'
+    end_date: '2025-01-06'
+    discount: 25% off sitewide
+    type: null
+  sale_name: End of Year Sale (EXTENSION)
+  sale_discount: 25% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:38.547349'
+schedule_type: time_based

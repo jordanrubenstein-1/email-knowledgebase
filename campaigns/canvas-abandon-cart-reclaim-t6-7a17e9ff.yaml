@@ -1,0 +1,33 @@
+id: 7a17e9ff-1ec8-4bd7-a3f4-c7c2d04ae18c
+name: Abandon-Cart-4
+brand: BUR
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: e46133da-5c6c-41c9-9c7c-864b5110460d
+canvas_name: Abandon Cart - Reclaim
+flow_type: cart_abandonment
+sequence_position: 6
+subject: '{{content_blocks.${2025Q3_Abandon_SL_Email4_Promo}}}'
+preheader: Don't miss this offer.
+sends:
+- id: 7a17e9ff-1ec8-4bd7-a3f4-c7c2d04ae18c
+  channel: email
+  name: Abandon-Cart-4
+  subject: '{{content_blocks.${2025Q3_Abandon_SL_Email4_Promo}}}'
+  preheader: Don't miss this offer.
+  html_file: html/canvas-abandon-cart-reclaim-t6-7a17e9ff.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-12-20T21:00:00Z'
+  last_sent: '2025-09-13T11:00:00Z'
+performance_summary:
+  total_sends: 5080
+  total_delivered: 5060
+  total_opens: 2208
+  total_clicks: 188
+  open_rate: 0.4346
+  click_rate: 0.037
+  total_unsubscribes: 27
+  total_revenue: 49304.0

@@ -1,0 +1,35 @@
+id: 4c8fd6de-c349-4896-85f4-81a5ffe02d52
+name: 20241107_BFCM-Havenly-Trade
+brand: HAV
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: 4c8fd6de-c349-4896-85f4-81a5ffe02d52
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2024-11-07T20:00:00+00:00'
+  last_sent: '2024-11-07T20:02:07+00:00'
+tags: []
+sends:
+- id: 8ac8848c-0634-45ed-8390-f01b2c87c110
+  channel: email
+  name: Variant 1
+  subject: An exciting update for our Trade Partners
+  preheader: Access to trade benefits for Havenly Brands.
+- id: 70a08729-c150-4796-9d56-50fce1760edf
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:48.800430'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:29.931597'

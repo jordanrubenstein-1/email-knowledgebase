@@ -1,0 +1,32 @@
+id: 0df2bb2b-9836-4bc4-b5aa-8f3512186163
+name: TRG_EM_2024_07_CZ_D_Welcome_T3
+brand: CZ
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 57657eee-e9b8-4613-a42c-3adb310acef0
+canvas_name: Soho Event RSVP Confirmation - Nov 2025
+flow_type: other_flow
+sequence_position: 1
+subject: The Well-Traveled Home
+preheader: Bring home the best craftsmanship from around the globe. Fair Trade. Guaranteed.
+sends:
+- id: 0df2bb2b-9836-4bc4-b5aa-8f3512186163
+  channel: email
+  name: TRG_EM_2024_07_CZ_D_Welcome_T3
+  subject: The Well-Traveled Home
+  preheader: Bring home the best craftsmanship from around the globe. Fair Trade.
+    Guaranteed.
+  html_file: html/canvas-soho-event-rsvp-confirmation-nov-2025-t1-0df2bb2b.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-11-05T22:00:00Z'
+  last_sent: '2025-11-15T16:00:00Z'
+performance_summary:
+  total_sends: 22
+  total_delivered: 22
+  total_opens: 20
+  total_clicks: 0
+  open_rate: 0.9091
+  click_rate: 0.0

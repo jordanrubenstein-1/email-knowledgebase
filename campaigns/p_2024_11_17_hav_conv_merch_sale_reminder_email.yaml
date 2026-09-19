@@ -1,0 +1,33 @@
+id: 720d1b8a-ae67-4428-83de-57d9ff6b74cc
+name: P_2024_11_17_HAV_Conv_Merch_Sale_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 720d1b8a-ae67-4428-83de-57d9ff6b74cc
+dates:
+  send_date: '2024-11-17'
+  first_sent: '2024-11-17T01:26:45+00:00'
+  last_sent: '2024-11-17T17:15:07+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 69721240-7280-4449-9f79-e171333a6389
+  channel: email
+  name: Variant 1
+  subject: 'ICYMI: Get Up To 70% Off Sitewide!'
+  preheader: The deals you’ve been waiting for all year, only at Havenly.
+- id: 45b40ec9-4093-4c66-8d8f-7102581fa4c7
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 35163
+  total_delivered: 35126
+  total_opens: 20260
+  total_clicks: 424
+  open_rate: 0.5762
+  click_rate: 0.0121
+  total_unsubscribes: 48
+schedule_type: time_based
+_filename: p_2024_11_17_hav_conv_merch_sale_reminder_email.yaml

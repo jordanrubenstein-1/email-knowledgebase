@@ -1,0 +1,33 @@
+id: 2dd62fe8-8693-47bf-ada7-603486b1bd53
+name: P_2024_08_12_D_HAV_PC_Activation_Prompt_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 2dd62fe8-8693-47bf-ada7-603486b1bd53
+dates:
+  send_date: '2024-08-12'
+  first_sent: '2024-08-12T13:05:00+00:00'
+  last_sent: '2024-08-12T13:05:07+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: f8281324-a156-49b7-b027-ba5b59a77c07
+  channel: email
+  name: Variant 1
+  subject: Your new home is waiting!
+  preheader: Start your design project today.
+- id: 78890c6e-5fc7-4f86-92b3-fd2aeab31c54
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 210
+  total_delivered: 210
+  total_opens: 136
+  total_clicks: 23
+  open_rate: 0.6476
+  click_rate: 0.1095
+  total_unsubscribes: 5
+schedule_type: time_based
+_filename: p_2024_08_12_d_hav_pc_activation_prompt_email.yaml

@@ -1,0 +1,30 @@
+id: dafa051b-d0ec-4db2-8baa-ba9716b1bc45
+name: P_SMS_2025_12_19_ID_End_of_Year_Sale_In_Stock
+brand: ID
+channel: sms
+category: sale_promo
+type: sale
+theme: null
+braze_id: dafa051b-d0ec-4db2-8baa-ba9716b1bc45
+dates:
+  send_date: '2025-12-19'
+  inferred_send_type: local_time
+  first_sent: '2025-12-19T01:08:38+00:00'
+  last_sent: '2025-12-20T01:01:31+00:00'
+tags: []
+sends:
+- id: aaadec8f-e93d-420d-8a2e-5853e7e53746
+  channel: sms
+  name: Variant 1
+- id: 63b707ec-16b8-4742-b81b-bcbe116ab087
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 50041
+  total_delivered: 47348
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 2345.0
+schedule_type: time_based

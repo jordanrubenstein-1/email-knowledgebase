@@ -1,0 +1,32 @@
+id: 7b9f0066-df7d-417b-a20e-4021a8dfd198
+name: SEG_2024_10_27_HAV_PT_Complete_Room_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 7b9f0066-df7d-417b-a20e-4021a8dfd198
+dates:
+  send_date: '2024-10-27'
+  first_sent: '2024-10-27T13:43:02+00:00'
+  last_sent: '2024-10-27T22:40:02+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 9885c5b6-d5ea-4bf7-bb2a-1ec44803c0d3
+  channel: email
+  name: Variant 1
+  subject: Excited to work with you!
+- id: 820972ed-0ab9-469e-9fc0-b77467e091ea
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 401
+  total_delivered: 399
+  total_opens: 354
+  total_clicks: 42
+  open_rate: 0.8828
+  click_rate: 0.1047
+  total_unsubscribes: 3
+schedule_type: time_based
+_filename: seg_2024_10_27_hav_pt_complete_room_email.yaml

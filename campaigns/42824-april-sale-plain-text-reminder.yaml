@@ -1,0 +1,51 @@
+id: klaviyo-01HWE8T45JCF2VSNAV5317DN81
+name: '4/28/24: April Sale - Plain Text Reminder'
+brand: TI
+channel: email
+category: reminder
+type: sale
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2024-04-26'
+  inferred_send_type: scheduled
+  first_sent: '2024-04-28T08:15:00+00:00'
+  last_sent: '2024-04-28T08:15:00+00:00'
+sends:
+- id: 01HWE8T48TEPCC3A7NBRW4CV1J
+  channel: email
+  name: '4/28/24: April Sale - Plain Text Reminder'
+  subject: '2 DAYS LEFT: 20% off sitewide'
+  preheader: ''
+  html_file: html/42824-april-sale-plain-text-reminder.html
+  image_urls: []
+  screenshot: screenshots/42824-april-sale-plain-text-reminder.png
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_unsubscribes: 0
+  ga4:
+    sessions: 185
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T14:56:52.097853'
+    source: snowflake
+    channel: email
+klaviyo_type: campaign
+klaviyo_campaign_id: 01HWE8T45JCF2VSNAV5317DN81
+klaviyo_message_id: 01HWE8T48TEPCC3A7NBRW4CV1J
+structure:
+  image_count: 0
+  link_count: 4
+  has_gif: false
+  hero_width: null
+  layout_type: text_only
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-03-12T11:18:47.446408'

@@ -1,0 +1,88 @@
+id: a3c3b187-602f-4448-8bf8-b5c0e598f01c
+name: P_EM_2025_11_15_SF_D_PR_BFCM_Official_Launch
+brand: STF
+channel: email
+category: product_launch
+type: product_launch
+theme: black_friday
+braze_id: a3c3b187-602f-4448-8bf8-b5c0e598f01c
+dates:
+  send_date: '2025-11-15'
+  inferred_send_type: local_time
+  first_sent: '2025-11-14T17:50:56+00:00'
+  last_sent: '2025-11-15T17:01:32+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: 21c01212-6138-4cc4-8e11-c97068a55efa
+  channel: email
+  name: Variant 1
+  subject: 'The Sale Of The Season: Black Friday is Here'
+  preheader: Up to 30% off sitewide
+  html_file: html/p_em_2025_11_15_sf_d_pr_bfcm_official_launch.html
+  screenshot: screenshots/p_em_2025_11_15_sf_d_pr_bfcm_official_launch.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69171102bbcfc500642465cc/original.png?1763119361
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6913b8fec87c770063c7c490/original.png?1762900222
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6913b8e7e5d927006310ce42/original.png?1762900199
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691710f8919d1f0063436921/original.png?1763119351
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6913b906e7d48d0063fa5327/original.png?1762900230
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6913b8b1f561a80063800de5/original.png?1762900145
+- id: 4dbd3ac7-6559-4f35-88b6-239dab8e3eaf
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39391
+  total_delivered: 39086
+  total_opens: 17275
+  total_clicks: 337
+  open_rate: 0.4386
+  click_rate: 0.0086
+  total_bounces: 4
+  total_unsubscribes: 61
+  ga4:
+    sessions: 429
+    purchases: 6
+    revenue: 3111.73
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.046074'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-black-friday-cyber-monday-2025-11-14
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-12'
+    end_date: '2025-12-02'
+    discount: 'Up to 30% Off Sitewide
+
+      30% off fabric + wallpaper + pillows
+
+      20% off everything else'
+    type: null
+  primary_sale:
+    id: stf-black-friday-cyber-monday-2025-11-14
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-12'
+    end_date: '2025-12-02'
+    discount: 'Up to 30% Off Sitewide
+
+      30% off fabric + wallpaper + pillows
+
+      20% off everything else'
+    type: null
+  sale_name: Black Friday / Cyber Monday
+  sale_discount: 'Up to 30% Off Sitewide
+
+    30% off fabric + wallpaper + pillows
+
+    20% off everything else'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:42.712422'
+schedule_type: time_based

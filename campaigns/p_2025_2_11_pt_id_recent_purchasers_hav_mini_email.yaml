@@ -1,0 +1,42 @@
+id: 1c580bad-b6b0-4604-b58c-d54064e0b5e0
+name: P_2025_2_11_PT_ID_Recent_Purchasers_Hav_Mini_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 1c580bad-b6b0-4604-b58c-d54064e0b5e0
+dates:
+  send_date: '2025-02-11'
+  inferred_send_type: scheduled
+  first_sent: '2025-02-12T18:53:07+00:00'
+  last_sent: '2025-02-12T18:53:38+00:00'
+tags: []
+sends:
+- id: 3a836413-6cbb-4cb6-be57-fd7fc308b949
+  channel: email
+  name: Variant 1
+  subject: A Special Thank You – A Free Havenly Mini Design Just for You
+- id: aa425d0c-6ffc-4477-b40e-159aafd14a12
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 89
+  total_delivered: 88
+  total_opens: 31
+  total_clicks: 7
+  open_rate: 0.3483
+  click_rate: 0.0787
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.710371'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.482086'
+schedule_type: time_based

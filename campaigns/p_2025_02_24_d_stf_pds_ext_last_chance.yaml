@@ -1,0 +1,62 @@
+id: d5d69c87-a2d8-4499-bea4-d1157dce79ac
+name: P_2025_02_24_D_STF_PDS_Ext_Last_Chance
+brand: STF
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: d5d69c87-a2d8-4499-bea4-d1157dce79ac
+dates:
+  send_date: '2025-02-24'
+  inferred_send_type: local_time
+  first_sent: '2025-02-23T17:06:00+00:00'
+  last_sent: '2025-02-24T17:00:40+00:00'
+tags: []
+sends:
+- id: f794d4e5-cd14-4a07-a917-43ab1970342e
+  channel: email
+  name: Variant 1
+  subject: 'FINAL HOURS: Shop 20% Off SItewide'
+  preheader: this is it!
+- id: 5117e8d3-8eb1-43ec-ad92-35efb8a4fbe8
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 8897
+  total_delivered: 8785
+  total_opens: 5119
+  total_clicks: 156
+  open_rate: 0.5754
+  click_rate: 0.0175
+  total_revenue: 16763.0
+  total_bounces: 1
+  total_unsubscribes: 41
+  ga4:
+    sessions: 203
+    purchases: 6
+    revenue: 2180.32
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.149532'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-st-frank-2025-02-19
+    name: St Frank
+    start_date: '2025-02-19'
+    end_date: '2025-02-24'
+    discount: Sitewide 20% off B2C, Trade 25%
+    type: null
+  primary_sale:
+    id: stf-st-frank-2025-02-19
+    name: St Frank
+    start_date: '2025-02-19'
+    end_date: '2025-02-24'
+    discount: Sitewide 20% off B2C, Trade 25%
+    type: null
+  sale_name: St Frank
+  sale_discount: Sitewide 20% off B2C, Trade 25%
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:45.994123'
+schedule_type: time_based

@@ -1,0 +1,32 @@
+id: ee4af96d-c38a-4ee7-82c6-41edc41cfc81
+name: SEG_EM_2026_01_28_CZ_PT_Bedding_Sale
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: ee4af96d-c38a-4ee7-82c6-41edc41cfc81
+dates:
+  send_date: '2026-01-28'
+  last_sent: '2026-01-28'
+tags:
+- am
+- batch and blast
+- pt
+- sale
+- sale/winterRefesh2026
+- sale_feat
+sends:
+- id: 72d00fef-233b-42b6-bcb3-58afbb80cebe
+  channel: email
+  name: Variant 1
+  subject: Bedding is back - and 20% off (ends tomorrow)
+  html_file: html/seg_em_2026_01_28_cz_pt_bedding_sale.html
+  screenshot: screenshots/seg_em_2026_01_28_cz_pt_bedding_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f83def4631c700674e669c/original.png?1744322031
+- id: 2fd56f88-3af2-4073-80b5-1728977378ca
+  channel: email
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based

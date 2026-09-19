@@ -1,0 +1,34 @@
+id: 26d26933-0c5c-449a-a076-e1d6d20e834e
+name: P_EM_2025_09_02_HAV_PC_FINAL_DAY_PM_PT
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 26d26933-0c5c-449a-a076-e1d6d20e834e
+dates:
+  send_date: '2025-09-02'
+  first_sent: '2025-09-02T22:39:54+00:00'
+  last_sent: '2025-09-02T22:42:31+00:00'
+  inferred_send_type: scheduled
+tags:
+- BLASTS-2025
+sends:
+- id: 466f3b43-f8b5-45c1-b856-6a1d76bccfcd
+  channel: email
+  name: Variant 1
+  subject: 'Last chance: 50% off design ends tonight ⏳'
+- id: 490538cb-3512-4e91-947b-762be0798eb7
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 58719
+  total_delivered: 58590
+  total_opens: 30453
+  total_clicks: 313
+  open_rate: 0.5186
+  click_rate: 0.0053
+  total_bounces: 2
+  total_unsubscribes: 142
+schedule_type: time_based
+_filename: p_em_2025_09_02_hav_pc_final_day_pm_pt.yaml

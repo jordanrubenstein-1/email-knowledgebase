@@ -1,0 +1,56 @@
+id: af9d9095-7e6f-4f06-9e02-108bef9eadf5
+name: P_2024_09_21_D_HAV_PR_HAV_CONV_SHOP_Four_Hands_Art_Collection_Email
+brand: HAV
+channel: email
+category: product_launch
+type: announcement
+theme: null
+braze_id: af9d9095-7e6f-4f06-9e02-108bef9eadf5
+dates:
+  send_date: '2024-09-21'
+  inferred_send_type: local_time
+  first_sent: '2024-09-20T22:18:35+00:00'
+  last_sent: '2024-09-21T17:15:04+00:00'
+tags: []
+sends:
+- id: 82da5645-4f68-46e0-a70e-ff458ccdd778
+  channel: email
+  name: Variant 1
+  subject: 'NEW & EXCLUSIVE: Four Hands x Havenly Art Collection'
+  preheader: Shop 100+ exclusive works from 15 independent artists
+  html_file: html/p_2024_09_21_d_hav_pr_hav_conv_shop_four_hands_art_collectio.html
+  screenshot: screenshots/p_2024_09_21_d_hav_pr_hav_conv_shop_four_hands_art_collectio.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ed6b6baaac860065bd379b/original.jpg?1726835563
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ed69b4f429dc0064d1c4d6/original.jpg?1726835123
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ed6b49f429dc0064d1c6dd/original.jpg?1726835529
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ed6afc36a99a006425c330/original.jpg?1726835451
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ed6ba888d347006396cf69/original.jpg?1726835623
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ed6b0888d347007296c6ab/original.jpg?1726835464
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ed6aae88d347006396ce4f/original.jpg?1726835374
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ed6b3936a99a007325a635/original.jpg?1726835513
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ed6b5ef429dc0064d1c70f/original.jpg?1726835550
+- id: 2b005195-1642-4877-96e4-1ccbef8d1d28
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 35726
+  total_delivered: 35681
+  total_opens: 19122
+  total_clicks: 300
+  open_rate: 0.5352
+  click_rate: 0.0084
+  total_unsubscribes: 56
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.588290'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.901909'
+schedule_type: time_based

@@ -1,0 +1,32 @@
+id: 3f4b8445-982e-42bd-8021-bc4771b75aed
+name: P_2024_08_19_PT_HAV_CONV_Safavieh_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 3f4b8445-982e-42bd-8021-bc4771b75aed
+dates:
+  send_date: '2024-08-19'
+  first_sent: '2024-08-19T23:00:01+00:00'
+  last_sent: '2024-08-19T23:00:35+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 1efabce0-c84d-4f55-a579-de72ff0be596
+  channel: email
+  name: Variant 1
+  subject: Don't miss this *exclusive* offer | 20% off Safavieh
+- id: ad94e22c-9c55-450b-80d7-ff9bc66dee62
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 10430
+  total_delivered: 10424
+  total_opens: 6460
+  total_clicks: 289
+  open_rate: 0.6194
+  click_rate: 0.0277
+  total_unsubscribes: 54
+schedule_type: time_based
+_filename: p_2024_08_19_pt_hav_conv_safavieh_reminder_email.yaml

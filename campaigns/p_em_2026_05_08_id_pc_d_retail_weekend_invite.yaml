@@ -1,0 +1,36 @@
+id: 8baeb25e-46b1-4795-949c-997ad003a72f
+name: P_EM_2026_05_08_ID_PC_D_Retail_Weekend_Invite
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 8baeb25e-46b1-4795-949c-997ad003a72f
+dates:
+  send_date: '2026-05-08'
+  inferred_send_type: scheduled
+  first_sent: '2026-05-07T22:05:22+00:00'
+  last_sent: '2026-05-08'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 062875eb-2dd5-4940-b1b7-d43426fecdc2
+  channel: email
+  name: Variant 1
+  subject: Early access to the Memorial Day Event. Up to 30% off
+  preheader: Stop by your nearest store to try it all in person.
+- id: 7036f84c-883d-482e-9537-52541cb0681c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 113378
+  total_delivered: 111347
+  total_opens: 45464
+  total_clicks: 209
+  open_rate: 0.401
+  click_rate: 0.0018
+  total_revenue: 104092.97
+  total_bounces: 20
+  total_unsubscribes: 95
+_filename: p_em_2026_05_08_id_pc_d_retail_weekend_invite.yaml
+schedule_type: time_based

@@ -1,0 +1,46 @@
+id: cd9a853a-f957-4914-8c32-fa16bd3fbf6e
+name: P_2024_10_21_ID_Autumn_Event_BNDL_Email
+brand: ID
+channel: email
+category: sale_promo
+type: announcement
+theme: fall
+braze_id: cd9a853a-f957-4914-8c32-fa16bd3fbf6e
+dates:
+  send_date: '2024-10-21'
+  inferred_send_type: local_time
+  first_sent: '2024-10-20T21:20:48+00:00'
+  last_sent: '2024-10-21T17:15:04+00:00'
+tags: []
+sends:
+- id: 729eac1f-aced-4148-acbc-b72e9a695cfd
+  channel: email
+  name: Variant 1
+  subject: Check out with 20% off + pick a fabric later!
+  preheader: Don’t miss out on our Autumn Event
+- id: ea7eae7e-8fa2-4700-80a2-47aad5821219
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 57949
+  total_delivered: 57552
+  total_opens: 19034
+  total_clicks: 423
+  open_rate: 0.3285
+  click_rate: 0.0073
+  total_revenue: 836122.33
+  total_bounces: 2
+  total_unsubscribes: 88
+  ga4:
+    sessions: 389
+    purchases: 4
+    revenue: 12465.18
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.017814'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.462277'
+schedule_type: time_based

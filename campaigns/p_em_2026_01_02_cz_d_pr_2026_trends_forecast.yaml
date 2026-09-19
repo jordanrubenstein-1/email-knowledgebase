@@ -1,0 +1,61 @@
+id: 7a382349-9e25-4627-971b-bbe8f9ffe1ea
+name: P_EM_2026_01_02_CZ_D_PR_2026_Trends_Forecast
+brand: CZ
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 7a382349-9e25-4627-971b-bbe8f9ffe1ea
+dates:
+  send_date: '2026-01-02'
+  inferred_send_type: local_time
+  first_sent: '2026-01-01T17:21:33+00:00'
+  last_sent: '2026-01-02T17:17:21+00:00'
+tags:
+- am
+- batch and blast
+- catalog
+- d2c
+- designed
+- sale
+- sale/yearend2025
+sends:
+- id: f314a7a2-4ac5-4e49-8f5e-583591856c4b
+  channel: email
+  name: Variant 1
+  subject: Trends Shaping the Year Ahead
+  preheader: Enjoy up to 25% off as you step into 2026.
+  html_file: html/p_em_2026_01_02_cz_d_pr_2026_trends_forecast.html
+  screenshot: screenshots/p_em_2026_01_02_cz_d_pr_2026_trends_forecast.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69545dae95b73e006367afd5/original.png?1767136686
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951d9bb893a450064e527fe/original.png?1766971835
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951d99793508e0065067d39/original.png?1766971798
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69545da3413a000073b5bfbb/original.png?1767136674
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69545e3ae3197f00638de0ed/original.png?1767136826
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69545bd292d73b0063f9f75a/original.png?1767136210
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951d9424d539a0063426a38/original.png?1766971713
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951d9767fc25f006518afd7/original.png?1766971766
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951d989537b66006358100e/original.png?1766971785
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951d951893a450064e527f2/original.png?1766971729
+- id: 4b0c8b7e-917b-43d3-aee8-c6b85a157aea
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 114429
+  total_delivered: 114122
+  total_opens: 58189
+  total_clicks: 702
+  open_rate: 0.5085
+  click_rate: 0.0061
+  total_bounces: 5
+  total_unsubscribes: 245
+  ga4:
+    sessions: 603
+    purchases: 2
+    revenue: 294.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.741777'
+    source: snowflake
+    channel: email
+schedule_type: time_based

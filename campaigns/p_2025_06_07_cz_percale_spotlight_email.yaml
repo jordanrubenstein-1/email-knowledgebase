@@ -1,0 +1,58 @@
+id: 90505319-e4ea-4905-b7a7-a133848e4bd1
+name: P_2025_06_07_CZ_Percale_Spotlight_Email
+brand: CZ
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 90505319-e4ea-4905-b7a7-a133848e4bd1
+dates:
+  send_date: '2025-06-07'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-07T07:12:50+00:00'
+  last_sent: '2025-06-07T17:00:54+00:00'
+tags: []
+sends:
+- id: dfb5736e-8467-4322-a2b5-c5036af80da5
+  channel: email
+  name: Variant 1
+  subject: 'Bedding Spotlight: Organic Percale'
+  preheader: Rest easy.
+  html_file: html/p_2025_06_07_cz_percale_spotlight_email.html
+  screenshot: screenshots/p_2025_06_07_cz_percale_spotlight_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684366a32fc7100067b5a347/original.png?1749247650
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6843673fb49f6100649aafcd/original.png?1749247807
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68436b2f17fb0a006772e604/original.png?1749248815
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6843671e06e48d00679a47ad/original.png?1749247773
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684366d7033bd40075428001/original.png?1749247702
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68436696da7d580075701ed8/original.png?1749247638
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68436b3f17fb0a006772e630/original.png?1749248831
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68436b3906e48d00679a53b8/original.png?1749248824
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684366a917fb0a006772dd4d/original.png?1749247657
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6843671606e48d00679a4793/original.png?1749247766
+- id: ba187801-dc9c-4aaf-ae3f-c002ba45c329
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 99485
+  total_delivered: 99026
+  total_opens: 52129
+  total_clicks: 530
+  open_rate: 0.524
+  click_rate: 0.0053
+  total_revenue: 33993.17
+  total_unsubscribes: 127
+  ga4:
+    sessions: 593
+    purchases: 9
+    revenue: 2554.33
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.519798'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.360508'
+schedule_type: time_based

@@ -1,0 +1,50 @@
+id: 11ded510-d6dc-4cc6-8ee6-91f365dae221
+name: P_2025_06_08_HAV_PC_Fourth_of_July_Reminder_Correction_PT_PM
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 11ded510-d6dc-4cc6-8ee6-91f365dae221
+dates:
+  send_date: '2025-06-08'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-08T16:00:04+00:00'
+  last_sent: '2025-06-08T16:06:34+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 7e036a78-e332-4f43-8e6b-d107293e2bea
+  channel: email
+  name: Variant 1
+  subject: Oops!
+  preheader: We made a mistake in our last email
+  html_file: html/p_2025_06_08_hav_pc_fourth_of_july_reminder_correction_pt_pm.html
+  screenshot: screenshots/p_2025_06_08_hav_pc_fourth_of_july_reminder_correction_pt_pm.png
+  image_urls:
+  - https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/c731630f24214e43807c7369ca8ebacd/Havenly_Wordmark_RGB_Charcoal_Brown%20%281%29.png
+- id: 272a9e2f-e447-49e9-959e-e1deab9ba925
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 222030
+  total_delivered: 218860
+  total_opens: 99959
+  total_clicks: 568
+  open_rate: 0.4502
+  click_rate: 0.0026
+  total_bounces: 2
+  total_unsubscribes: 516
+  ga4:
+    sessions: 490
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:48.919688'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.574657'
+schedule_type: time_based

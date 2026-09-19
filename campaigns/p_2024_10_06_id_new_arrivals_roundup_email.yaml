@@ -1,0 +1,45 @@
+id: 3deb2188-1c64-4c71-af76-d1a994f87c8e
+name: P_2024_10_06_ID_New_Arrivals_Roundup_Email
+brand: ID
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 3deb2188-1c64-4c71-af76-d1a994f87c8e
+dates:
+  send_date: '2024-10-06'
+  inferred_send_type: scheduled
+  first_sent: '2024-10-06T07:06:51+00:00'
+  last_sent: '2024-10-06T17:15:04+00:00'
+tags: []
+sends:
+- id: 673e0137-363e-49e8-b8bc-a219fbdb9b53
+  channel: email
+  name: Variant 1
+  subject: THIS JUST IN
+  preheader: A bunch of new arrivals – going fast!
+- id: 0c953ecd-846e-4fed-99dc-1f2bc4da938f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 53508
+  total_delivered: 52425
+  total_opens: 20194
+  total_clicks: 844
+  open_rate: 0.3774
+  click_rate: 0.0158
+  total_revenue: 139741.5
+  total_unsubscribes: 137
+  ga4:
+    sessions: 1398
+    purchases: 2
+    revenue: 8790.13
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.675285'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.160178'
+schedule_type: time_based

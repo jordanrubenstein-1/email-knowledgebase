@@ -1,0 +1,54 @@
+id: 13d64c0c-fb2d-4def-a57f-1572b9c9dadc
+name: P_2025_03_20_HAV_PC_Hideaway_Plus_Birthday_Sale_Banner
+brand: HAV
+channel: email
+category: editorial
+type: sale
+theme: null
+braze_id: 13d64c0c-fb2d-4def-a57f-1572b9c9dadc
+dates:
+  send_date: '2025-03-20'
+  inferred_send_type: local_time
+  first_sent: '2025-03-20T02:08:09+00:00'
+  last_sent: '2025-03-21T03:00:12+00:00'
+tags:
+- HideawayEmails
+sends:
+- id: 1dc4009b-63ab-4320-a635-616f01b6968c
+  channel: email
+  name: Variant 1
+  subject: This “dated” kitchen color is trending
+  preheader: And we’re here for it
+  html_file: html/p_2025_03_20_hav_pc_hideaway_plus_birthday_sale_banner.html
+  screenshot: screenshots/p_2025_03_20_hav_pc_hideaway_plus_birthday_sale_banner.png
+  image_urls:
+  - https://images.scalero.io/email_assets/2207/EHZ94QJAIIKNRK9XEWVERR1WAU8C8YFAYEOME1WDA9E7692UTZ4NKC6ZS882NMYU.png
+  - https://havenly.com/blog/wp-content/uploads/2024/09/grayscale-kitchen-1500x970.jpg
+  - https://havenly.com/blog/wp-content/uploads/2025/03/color-palette-14.jpg
+  - https://havenly.com/blog/wp-content/uploads/2024/08/kyliefitts_havenly-theinside_875syorkst_39-1500x970.jpg
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67db32952f85660075f17276/original.png?1742418580
+- id: cdfe1409-96f8-4b22-8844-24c3d114c83f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 198091
+  total_delivered: 194521
+  total_opens: 88893
+  total_clicks: 2626
+  open_rate: 0.4487
+  click_rate: 0.0133
+  total_bounces: 23
+  total_unsubscribes: 239
+  ga4:
+    sessions: 3663
+    purchases: 2
+    revenue: 1360.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.336246'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.607211'
+schedule_type: time_based

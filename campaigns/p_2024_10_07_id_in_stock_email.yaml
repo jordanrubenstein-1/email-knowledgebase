@@ -1,0 +1,45 @@
+id: f1a16e68-b512-4149-a2a7-683a9227ea7e
+name: P_2024_10_07_ID_In_stock_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: f1a16e68-b512-4149-a2a7-683a9227ea7e
+dates:
+  send_date: '2024-10-07'
+  inferred_send_type: scheduled
+  first_sent: '2024-10-07T05:16:18+00:00'
+  last_sent: '2024-10-07T17:15:04+00:00'
+tags: []
+sends:
+- id: 6f38fcdc-db20-417a-8516-2e55850307d3
+  channel: email
+  name: Variant 1
+  subject: 30% OFF sofas, chairs, & more
+  preheader: For a limited time only!
+- id: eda64874-e53e-4df8-abcf-0f08a9d8bca9
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 53815
+  total_delivered: 53258
+  total_opens: 18028
+  total_clicks: 1391
+  open_rate: 0.335
+  click_rate: 0.0258
+  total_revenue: 200883.5
+  total_unsubscribes: 73
+  ga4:
+    sessions: 2999
+    purchases: 19
+    revenue: 56277.47
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.271219'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.438041'
+schedule_type: time_based

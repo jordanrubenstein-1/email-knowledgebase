@@ -1,0 +1,33 @@
+id: 3a4dc115-793f-4e45-b54d-9874314a1404
+name: P_2025_04_08_HAV_CTV_Survey_Resend
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 3a4dc115-793f-4e45-b54d-9874314a1404
+dates:
+  send_date: '2025-04-08'
+  first_sent: '2025-04-08T03:06:42+00:00'
+  last_sent: '2025-04-09T02:00:18+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 9d65c197-736b-4c7c-ba66-a963d26be31a
+  channel: email
+  name: Variant 1
+  subject: Please answer two short questions to improve Havenly
+  preheader: We need your help!
+- id: 56edde1f-a397-4df8-ac58-dd82b9234385
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 8397
+  total_delivered: 8383
+  total_opens: 5116
+  total_clicks: 11
+  open_rate: 0.6093
+  click_rate: 0.0013
+  total_unsubscribes: 15
+schedule_type: time_based
+_filename: p_2025_04_08_hav_ctv_survey_resend.yaml

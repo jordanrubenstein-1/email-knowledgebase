@@ -1,0 +1,56 @@
+id: klaviyo-01JYPR5PJ2H4P4R97ZBXE4S1ZR
+name: '07-01-25 | Private Sale: Surprise Extension | Shopping'
+brand: TE
+channel: email
+category: sale_promo
+type: sale
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2025-06-26'
+  inferred_send_type: scheduled
+  first_sent: '2025-07-01T13:00:00+00:00'
+  last_sent: '2025-07-01T13:00:00+00:00'
+sends:
+- id: 01JYPR5PKKCCMSZT6316JP34WP
+  channel: email
+  name: '07-01-25 | Private Sale: Surprise Extension | Shopping Variation A'
+  subject: Surprise! We extended your Private Sale
+  preheader: 20% off (almost) everything!
+  html_file: html/07-01-25-private-sale-surprise-extension-shopping.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/dac146b7-7dfc-4851-8cf1-d7978d5e7110.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/42baa8d7-afab-4d2b-ad02-3c18d6a1c9ae.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/03798e82-7136-4b31-8695-8ee2b6e9c424.jpeg
+- id: 01JYPRBA7WS8DPN57QG0W1PAZV
+  channel: email
+  name: '07-01-25 | Private Sale: Surprise Extension | Shopping Variation B'
+  subject: 'VIP Update: Extra days to enjoy 20% off'
+  preheader: Enjoy your Private Sale through the long weekend.
+  html_file: html/07-01-25-private-sale-surprise-extension-shopping.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/dac146b7-7dfc-4851-8cf1-d7978d5e7110.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/42baa8d7-afab-4d2b-ad02-3c18d6a1c9ae.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/03798e82-7136-4b31-8695-8ee2b6e9c424.jpeg
+performance_summary:
+  total_sends: 7438
+  total_delivered: 7431
+  total_opens: 6184
+  total_clicks: 134
+  open_rate: 0.5555
+  click_rate: 0.0132
+  total_unsubscribes: 20
+  total_bounces: 7
+  unique_opens: 4132
+  unique_clicks: 98
+  total_open_rate: 0.8314
+  total_click_rate: 0.018
+klaviyo_type: campaign
+klaviyo_campaign_id: 01JYPR5PJ2H4P4R97ZBXE4S1ZR
+klaviyo_message_id: 01JYPR5PKKCCMSZT6316JP34WP
+structure:
+  image_count: 4
+  link_count: 10
+  has_gif: false
+  hero_width: 100
+  layout_type: editorial

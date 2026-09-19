@@ -1,0 +1,28 @@
+id: d1317278-cd9f-4ce2-957d-a1fcaf4c33e5
+name: P_SMS_2026_07_25_SF_Summer_Sale_Reminder
+brand: STF
+channel: sms
+category: reminder
+type: sale
+theme: summer
+braze_id: d1317278-cd9f-4ce2-957d-a1fcaf4c33e5
+dates:
+  send_date: '2026-07-25'
+  last_sent: '2026-07-25'
+tags: []
+sends:
+- id: 3e2a49da-5381-40a8-9ca2-cd1186cbb33a
+  channel: sms
+  name: Variant 1
+- id: 75461af7-2762-47fd-8d7a-ce9640ce580b
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 4441
+  total_delivered: 4346
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+schedule_type: time_based
+_filename: p_sms_2026_07_25_sf_summer_sale_reminder.yaml

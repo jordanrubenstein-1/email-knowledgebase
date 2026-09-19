@@ -1,0 +1,35 @@
+id: a79cadac-d43e-4226-981e-c9a4b41961a6
+name: P_EM_2026_02_07_ID_D_PF_Bestsellers_Presidents_Day_Sale_EA_PM
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: a79cadac-d43e-4226-981e-c9a4b41961a6
+dates:
+  send_date: '2026-02-07'
+  inferred_send_type: local_time
+  first_sent: '2026-02-07T00:10:13+00:00'
+  last_sent: '2026-02-07T22:04:47+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 9abcaa76-685c-4693-8d4b-6f681683e57b
+  channel: email
+  name: Variant 1
+  subject: Customer Favorites, Up to 30% Off
+  preheader: Shop best-reviewed pieces and see why they’re loved.
+- id: 27faa7d6-a8f5-4b5e-9685-bdd553a0d5dc
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 114744
+  total_delivered: 114595
+  total_opens: 45573
+  total_clicks: 674
+  open_rate: 0.3972
+  click_rate: 0.0059
+  total_revenue: 226701.91
+  total_unsubscribes: 154
+_filename: p_em_2026_02_07_id_d_pf_bestsellers_presidents_day_sale_ea_p.yaml
+schedule_type: time_based

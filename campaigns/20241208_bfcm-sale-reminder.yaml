@@ -1,0 +1,52 @@
+id: 2a6f53a5-1baa-4e49-84b7-835c18a4c93b
+name: 20241208_BFCM-Sale-Reminder
+brand: BUR
+channel: email
+category: reminder
+type: sale
+theme: black_friday
+braze_id: 2a6f53a5-1baa-4e49-84b7-835c18a4c93b
+dates:
+  inferred_send_type: local_time
+  first_sent: '2024-12-07T17:20:52+00:00'
+  last_sent: '2024-12-08T17:15:08+00:00'
+tags: []
+sends:
+- id: bd0277ea-fcde-4e0e-b691-e810f5fc261e
+  channel: email
+  name: Variant 1
+  subject: Your sale picks
+  preheader: Refresh your home for the holidays.
+- id: 60ff4738-c33f-414e-912c-47e660d94b5b
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 556
+    purchases: 1
+    revenue: 496.08
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.525343'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-cyber-week-ext-2024-12-04
+    name: Cyber Week Ext
+    start_date: '2024-12-04'
+    end_date: '2024-12-10'
+    discount: null
+    type: null
+  primary_sale:
+    id: bur-cyber-week-ext-2024-12-04
+    name: Cyber Week Ext
+    start_date: '2024-12-04'
+    end_date: '2024-12-10'
+    discount: null
+    type: null
+  sale_name: Cyber Week Ext
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:42.703802'
+schedule_type: time_based

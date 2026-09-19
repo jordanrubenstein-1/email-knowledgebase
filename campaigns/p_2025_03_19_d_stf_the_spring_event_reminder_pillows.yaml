@@ -1,0 +1,47 @@
+id: 4d69ea6f-ed0d-4253-9370-45a2c2134c1f
+name: P_2025_03_19_D_STF_The_Spring_Event_Reminder_Pillows
+brand: STF
+channel: email
+category: reminder
+type: seasonal
+theme: spring
+braze_id: 4d69ea6f-ed0d-4253-9370-45a2c2134c1f
+dates:
+  send_date: '2025-03-19'
+  inferred_send_type: local_time
+  first_sent: '2025-03-18T21:58:13+00:00'
+  last_sent: '2025-03-19T17:00:42+00:00'
+tags: []
+sends:
+- id: 48bd814b-1fe4-4b51-ba20-7675750a4dfe
+  channel: email
+  name: Variant 1
+  subject: Pile on pillows at 25% off
+  preheader: for a limited time during our Spring Event
+  html_file: html/p_2025_03_19_d_stf_the_spring_event_reminder_pillows.html
+  screenshot: screenshots/p_2025_03_19_d_stf_the_spring_event_reminder_pillows.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d9bc9bd6d49b006653bb9e/original.png?1742322843
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d9bcb516ae430066d2fd29/original.png?1742322869
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d9bc38a12a11006595e3f9/original.png?1742322743
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d9bbf6a12a11009495bdcc/original.gif?1742322677
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d9bc3175e6a40066423923/original.png?1742322737
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d9bcaba12a11007595c928/original.png?1742322859
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d9bc8ca12a11006595e54a/original.png?1742322827
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d9bc84d6d49b006653bb71/original.png?1742322819
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d9bc0054507c0074c82353/original.png?1742322688
+- id: abfa0469-348c-4f33-9fe4-3e102ad7f423
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 10682
+  total_delivered: 10571
+  total_opens: 6256
+  total_clicks: 192
+  open_rate: 0.5857
+  click_rate: 0.018
+  total_revenue: 7117.0
+  total_unsubscribes: 41
+_filename: p_2025_03_19_d_stf_the_spring_event_reminder_pillows.yaml
+schedule_type: time_based

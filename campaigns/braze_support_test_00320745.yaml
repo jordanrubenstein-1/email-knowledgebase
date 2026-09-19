@@ -1,0 +1,37 @@
+id: 73569500-5eaa-454a-8b3c-32d3f2826641
+name: Braze_Support_Test_00320745
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 73569500-5eaa-454a-8b3c-32d3f2826641
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-12-12T01:00:00+00:00'
+  last_sent: '2025-12-20T12:00:00+00:00'
+tags: []
+sends:
+- id: d28c9cff-0ee9-4a26-bfa9-cb6907b7d399
+  channel: other
+  name: Control Group
+- id: c417fc8b-dd73-4eba-bc6c-6b4bad04b0aa
+  channel: other
+  name: Variant 1
+- id: 96148fcd-171d-4342-9f8f-04dfce0cd38b
+  channel: other
+  name: Variant 2
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.601429'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.893534'
+schedule_type: action_based

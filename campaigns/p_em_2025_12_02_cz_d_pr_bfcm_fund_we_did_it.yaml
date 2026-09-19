@@ -1,0 +1,90 @@
+id: 63e420d8-f572-4eda-ac03-eb9f54c39e08
+name: P_EM_2025_12_02_CZ_D_PR_BFCM_Fund_We_Did_It
+brand: CZ
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: 63e420d8-f572-4eda-ac03-eb9f54c39e08
+dates:
+  send_date: '2025-12-02'
+  inferred_send_type: local_time
+  first_sent: '2025-12-02T03:23:39+00:00'
+  last_sent: '2025-12-03T02:02:44+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale/bfcm
+sends:
+- id: ef442e08-3818-4735-a943-ddbdfd04390a
+  channel: email
+  name: Variant 1
+  subject: We Reached Our Goal!
+  preheader: Together, we made Black Friday count for more.
+  html_file: html/p_em_2025_12_02_cz_d_pr_bfcm_fund_we_did_it.html
+  screenshot: screenshots/p_em_2025_12_02_cz_d_pr_bfcm_fund_we_did_it.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692e10a42a421d0071d18751/original.png?1764626596
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692db38fb82599007301b92c/original.png?1764602766
+- id: cbdc59df-faa8-488c-a153-9093a2422e5a
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 58479
+  total_delivered: 58425
+  total_opens: 31390
+  total_clicks: 424
+  open_rate: 0.5368
+  click_rate: 0.0073
+  total_bounces: 1
+  total_unsubscribes: 113
+  ga4:
+    sessions: 277
+    purchases: 5
+    revenue: 1413.8
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.559950'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-cyber-week-extension-2025-12-02
+    name: Cyber Week Extension
+    start_date: '2025-12-02'
+    end_date: '2025-12-02'
+    discount: 'Tuesday 12/2 - Monday, 12/8
+
+      20% Off Sitewide
+
+      Up to 70% Off Archive Sale
+
+      (Fresh Cuts + New Markdowns)'
+    type: null
+  primary_sale:
+    id: cz-cyber-week-extension-2025-12-02
+    name: Cyber Week Extension
+    start_date: '2025-12-02'
+    end_date: '2025-12-02'
+    discount: 'Tuesday 12/2 - Monday, 12/8
+
+      20% Off Sitewide
+
+      Up to 70% Off Archive Sale
+
+      (Fresh Cuts + New Markdowns)'
+    type: null
+  sale_name: Cyber Week Extension
+  sale_discount: 'Tuesday 12/2 - Monday, 12/8
+
+    20% Off Sitewide
+
+    Up to 70% Off Archive Sale
+
+    (Fresh Cuts + New Markdowns)'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:32.302623'
+schedule_type: time_based

@@ -1,0 +1,36 @@
+id: 45f31e61-b421-4471-bde3-35cf131ca3ef
+name: P_2025_07_09_ID_July_4th_Sale_Extension_Announcement_Email
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 45f31e61-b421-4471-bde3-35cf131ca3ef
+dates:
+  send_date: '2025-07-09'
+  inferred_send_type: scheduled
+  first_sent: '2025-07-09T06:19:56+00:00'
+  last_sent: '2025-07-09T17:15:14+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 9d00a82a-fec9-4736-beab-8d378731b99d
+  channel: email
+  name: Variant 1
+  subject: 'By popular demand: THE SALE IS BACK.'
+  preheader: We’re not good at goodbyes.
+- id: 36f6b215-b2e2-47a0-9616-048a7979b236
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 198445
+  total_delivered: 196157
+  total_opens: 90174
+  total_clicks: 1097
+  open_rate: 0.4544
+  click_rate: 0.0055
+  total_revenue: 203879.0
+  total_bounces: 6
+  total_unsubscribes: 378
+_filename: p_2025_07_09_id_july_4th_sale_extension_announcement_email.yaml
+schedule_type: time_based

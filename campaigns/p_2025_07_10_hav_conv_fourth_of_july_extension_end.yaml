@@ -1,0 +1,32 @@
+id: 98d8abb3-7fb1-456a-9ec5-3694761cabcc
+name: P_2025_07_10_HAV_Conv_Fourth_of_July_Extension_Ends_Tonight_PT
+brand: HAV
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 98d8abb3-7fb1-456a-9ec5-3694761cabcc
+dates:
+  send_date: '2025-07-10'
+  last_sent: '2025-07-10'
+tags:
+- BLASTS-2025
+sends:
+- id: abf38d34-7aac-4a47-808b-f367079086ea
+  channel: email
+  name: Variant 1
+  subject: This is it (seriously)
+  preheader: Final hours for Fourth of July Savings
+  html_file: html/p_2025_07_10_hav_conv_fourth_of_july_extension_ends_tonight_.html
+  screenshot: screenshots/p_2025_07_10_hav_conv_fourth_of_july_extension_ends_tonight_.png
+  image_urls:
+  - https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/c731630f24214e43807c7369ca8ebacd/Havenly_Wordmark_RGB_Charcoal_Brown%20%281%29.png
+- id: bf5c9dc5-b7d7-4ad7-a431-28e91507d17c
+  channel: other
+  name: Control Group
+performance_summary: {}
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.719807'
+schedule_type: time_based

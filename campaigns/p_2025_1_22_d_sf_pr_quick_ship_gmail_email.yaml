@@ -1,0 +1,58 @@
+id: 69da5cdc-4860-4eab-a12d-44818df0f3e7
+name: P_2025_1_22_D_SF_PR_Quick_Ship_Gmail_Email
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 69da5cdc-4860-4eab-a12d-44818df0f3e7
+dates:
+  send_date: '2025-01-22'
+  inferred_send_type: local_time
+  first_sent: '2025-01-22T00:36:54+00:00'
+  last_sent: '2025-01-22T16:01:50+00:00'
+tags: []
+sends:
+- id: 763de441-0efe-4fa5-b340-1141ae65b845
+  channel: email
+  name: Variant 1
+  subject: On Our Way!
+  preheader: ready-to-ship styles now 20% off
+  html_file: html/p_2025_1_22_d_sf_pr_quick_ship_gmail_email.html
+  screenshot: screenshots/p_2025_1_22_d_sf_pr_quick_ship_gmail_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678fde217214370073ea17d7/original.gif?1737481760
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678fde122652bb0067eef3a9/original.gif?1737481746
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678fdf21aff5f80066cdcaec/original.gif?1737482017
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678fddaad94f3d0065faa098/original.gif?1737481642
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678fde386ae2e10066163657/original.gif?1737481784
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678fded26ae2e100661637d2/original.gif?1737481938
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678fdef26ae2e1006616383d/original.gif?1737481970
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678fdee03276a70064702549/original.gif?1737481952
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678fde9bd9c04e0064506f1a/original.gif?1737481883
+- id: c7fbaaed-06bd-4b76-a7af-f61a681bd818
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 731
+  total_delivered: 731
+  total_opens: 564
+  total_clicks: 21
+  open_rate: 0.7715
+  click_rate: 0.0287
+  total_revenue: 444.0
+  total_unsubscribes: 2
+  ga4:
+    sessions: 24
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.830772'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:35.390614'
+schedule_type: time_based

@@ -1,0 +1,29 @@
+id: b8d70e6c-55c9-4484-ac24-8a706d1bd984
+name: P_SMS_2026_08_02_ID_Warehouse_Sale
+brand: ID
+channel: sms
+category: sale_promo
+type: sale
+theme: null
+braze_id: b8d70e6c-55c9-4484-ac24-8a706d1bd984
+dates:
+  send_date: '2026-08-02'
+  last_sent: '2026-08-02'
+tags: []
+sends:
+- id: 8fd8113f-8e30-4fae-bea0-110362b25aac
+  channel: sms
+  name: Variant 1
+- id: e39cdcf9-18df-4956-a509-08e811c4dce6
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 53057
+  total_delivered: 49416
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 13505.0
+schedule_type: time_based
+_filename: p_sms_2026_08_02_id_warehouse_sale.yaml

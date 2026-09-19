@@ -1,0 +1,57 @@
+id: c883f236-3dae-47e9-b7f3-4da989d1bf1c
+name: P_2025_2_6_D_CZ_Heirloom_Bed_Launch_Email
+brand: CZ
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: c883f236-3dae-47e9-b7f3-4da989d1bf1c
+dates:
+  send_date: '2025-02-06'
+  inferred_send_type: local_time
+  first_sent: '2025-02-06T00:05:28+00:00'
+  last_sent: '2025-02-06T17:01:21+00:00'
+tags: []
+sends:
+- id: a5a8fae9-b252-4126-b312-d35dadf0aa9e
+  channel: email
+  name: Variant 1
+  subject: Introducing New Heirloom Beds
+  preheader: Timeless design. Heritage craftsmanship.
+  html_file: html/p_2025_2_6_d_cz_heirloom_bed_launch_email.html
+  screenshot: screenshots/p_2025_2_6_d_cz_heirloom_bed_launch_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67a3ecdfd31efe0065dfe0cf/original.png?1738796254
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67a3ec87023c680066046635/original.png?1738796166
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67a3ec92a7a9b80066e1538b/original.png?1738796177
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67a3ecba0154f800655a37a9/original.png?1738796218
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67a3ecf5e0a89c00687c006f/original.png?1738796276
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67a3ecadd31efe0065dfde41/original.png?1738796204
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67a3ed134b0f990066c5777c/original.png?1738796307
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67a3ec9c0154f800655a3768/original.png?1738796187
+- id: d88d64a5-0456-427b-9b4e-a4a106c871fa
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 96157
+  total_delivered: 95438
+  total_opens: 47445
+  total_clicks: 843
+  open_rate: 0.4934
+  click_rate: 0.0088
+  total_revenue: 53254.94
+  total_bounces: 4
+  total_unsubscribes: 126
+  ga4:
+    sessions: 977
+    purchases: 4
+    revenue: 1127.92
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.462046'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.158254'
+schedule_type: time_based

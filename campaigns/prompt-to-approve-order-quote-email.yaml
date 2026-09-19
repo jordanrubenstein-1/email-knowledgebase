@@ -1,0 +1,30 @@
+id: 2f64febf-a648-3afc-7950-d5e0b23d80da
+name: Prompt to Approve Order Quote Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 2f64febf-a648-3afc-7950-d5e0b23d80da
+dates:
+  first_sent: '2025-01-08T19:00:00+00:00'
+  last_sent: '2026-06-09T15:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: f55b8b41-0b33-4b4b-9fa2-c0797ed40553
+  channel: email
+  name: Variant 1
+  subject: 'Please approve your order quote - Order #{{api_trigger_properties.${order_number}}}'
+- id: a72c8881-ab77-470e-b0a3-8bd3e9c4dbc4
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 74
+  total_delivered: 74
+  total_opens: 82
+  total_clicks: 60
+  open_rate: 1.1081
+  click_rate: 0.8108
+schedule_type: api_triggered
+_filename: prompt-to-approve-order-quote-email.yaml

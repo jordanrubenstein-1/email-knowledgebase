@@ -1,0 +1,47 @@
+id: 175176e4-87fa-4038-ab7b-e8f01ca8d37c
+name: P_EM_2025_12_16_TRADE_ALL_D_PR_Perks_Reminder
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 175176e4-87fa-4038-ab7b-e8f01ca8d37c
+dates:
+  send_date: '2025-12-16'
+  inferred_send_type: local_time
+  first_sent: '2025-12-15T21:13:24+00:00'
+  last_sent: '2025-12-16T19:00:28+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 7fcaef09-94a3-42bf-99fc-8b07311c1034
+  channel: email
+  name: Variant 1
+  subject: Your Trade Benefits, Unlocked 🔓
+  preheader: Enjoy exclusive savings and support across all Havenly brands.
+- id: 6567f218-c8c4-4eb7-a3cd-0dd9110fd262
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 19882
+  total_delivered: 19244
+  total_opens: 8857
+  total_clicks: 93
+  open_rate: 0.4455
+  click_rate: 0.0047
+  total_revenue: 76835.0
+  total_bounces: 3
+  total_unsubscribes: 30
+  ga4:
+    sessions: 84
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.009699'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.655736'
+schedule_type: time_based

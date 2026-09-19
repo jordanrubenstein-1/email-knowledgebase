@@ -1,0 +1,80 @@
+id: 931bd434-2624-4129-a3c7-5005947eb446
+name: P_EM_2025_09_16_CZ_D_PR_Bedding_Refresh_Sale
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 931bd434-2624-4129-a3c7-5005947eb446
+dates:
+  send_date: '2025-09-16'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-16T05:07:17+00:00'
+  last_sent: '2025-09-16T17:16:42+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale_feat
+sends:
+- id: 003f7a3c-6467-4709-b88a-c167abb6b25f
+  channel: email
+  name: Variant 1
+  subject: Your Dream Bedroom
+  preheader: 20% off best sellers designed for deeper rest.
+  html_file: html/p_em_2025_09_16_cz_d_pr_bedding_refresh_sale.html
+  screenshot: screenshots/p_em_2025_09_16_cz_d_pr_bedding_refresh_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c47e9b3bf8a40065d03226/original.png?1757707931
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c83a09c5639b0067c2b867/original.png?1757952520
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c83a202823a00066053868/original.png?1757952544
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c83a172823a0006605382e/original.png?1757952534
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c47ea55017110074d9f2da/original.png?1757707941
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c83af81bb53800665a9911/original.png?1757952760
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c47eab604c7500874148a5/original.png?1757707947
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c83add0c8c110067202aff/original.png?1757952732
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c83acf6cb6c60075575a08/original.png?1757952718
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68c47ea0dec7b700753153e3/original.png?1757707935
+- id: 2da5623c-2187-4450-99e8-e21c36351c24
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 113227
+  total_delivered: 112928
+  total_opens: 61316
+  total_clicks: 981
+  open_rate: 0.5415
+  click_rate: 0.0087
+  total_bounces: 16
+  total_unsubscribes: 213
+  ga4:
+    sessions: 1022
+    purchases: 15
+    revenue: 3846.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.839875'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-bedroom-refresh-sale-2025-09-15
+    name: Bedroom Refresh Sale
+    start_date: '2025-09-15'
+    end_date: '2025-09-22'
+    discount: 20% Off Bedding, Rugs, and Furniture
+    type: null
+  primary_sale:
+    id: cz-bedroom-refresh-sale-2025-09-15
+    name: Bedroom Refresh Sale
+    start_date: '2025-09-15'
+    end_date: '2025-09-22'
+    discount: 20% Off Bedding, Rugs, and Furniture
+    type: null
+  sale_name: Bedroom Refresh Sale
+  sale_discount: 20% Off Bedding, Rugs, and Furniture
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:35.387082'
+schedule_type: time_based

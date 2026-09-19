@@ -1,0 +1,31 @@
+id: fc7e9670-4443-4c9c-a2cc-7711bbf98dd1
+name: P_EM_2026_07_25_HAV_PC_PT_Summer_Sale_Check_In
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: summer
+braze_id: fc7e9670-4443-4c9c-a2cc-7711bbf98dd1
+dates:
+  send_date: '2026-07-25'
+  last_sent: '2026-07-25'
+tags: []
+sends:
+- id: 2abc6551-0e40-4905-946a-2e8964ddd8b3
+  channel: email
+  name: Variant 1
+  subject: The Summer Sale is still on ☀️
+- id: 7d5c9360-0021-4a93-a7c4-a6e309b12841
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 284532
+  total_delivered: 283869
+  total_opens: 103557
+  total_clicks: 552
+  open_rate: 0.364
+  click_rate: 0.0019
+  total_bounces: 1
+  total_unsubscribes: 434
+schedule_type: time_based
+_filename: p_em_2026_07_25_hav_pc_pt_summer_sale_check_in.yaml

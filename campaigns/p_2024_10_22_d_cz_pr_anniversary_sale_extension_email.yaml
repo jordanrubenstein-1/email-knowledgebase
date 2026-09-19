@@ -1,0 +1,50 @@
+id: 33dbc0aa-382c-4281-b856-d19b82636393
+name: P_2024_10_22_D_CZ_PR_Anniversary_Sale_Extension_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 33dbc0aa-382c-4281-b856-d19b82636393
+dates:
+  send_date: '2024-10-22'
+  inferred_send_type: local_time
+  first_sent: '2024-10-21T17:00:01+00:00'
+  last_sent: '2024-10-22T17:00:26+00:00'
+tags:
+- batch and blast/promo
+sends:
+- id: 30b8e840-fa4a-4b5e-91d6-bdaf4e71707f
+  channel: email
+  name: Variant 1
+  subject: One More Day To Save
+  preheader: Because you deserve an extra chance to claim up to 20% off our most iconic
+    styles.
+  html_file: html/p_2024_10_22_d_cz_pr_anniversary_sale_extension_email.html
+  screenshot: screenshots/p_2024_10_22_d_cz_pr_anniversary_sale_extension_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6710118a5129910082fcfdce/original.jpg?1729106314
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6712b1b0e512ee0064dce4a2/original.jpg?1729278384
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6703f74605047b0065b70338/original.jpg?1728313158
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6703f6897dabb900649131c8/original.jpg?1728312968
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6712e9a11bde8c0065202540/original.jpg?1729292705
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6703f6d230f4e000645d0a7f/original.jpg?1728313042
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6703f674e8102a00658f2ccf/original.jpg?1728312948
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6703f697eb85880066057724/original.jpg?1728312982
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6703f73a7dabb9006491331d/original.jpg?1728313146
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6703f6a8ecd1410064e01211/original.jpg?1728313000
+- id: 9488f0f1-e77e-4f02-9696-8367912c730c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 91026
+  total_delivered: 90476
+  total_opens: 43157
+  total_clicks: 647
+  open_rate: 0.4741
+  click_rate: 0.0071
+  total_revenue: 117101.49
+  total_bounces: 1
+  total_unsubscribes: 144
+_filename: p_2024_10_22_d_cz_pr_anniversary_sale_extension_email.yaml
+schedule_type: time_based

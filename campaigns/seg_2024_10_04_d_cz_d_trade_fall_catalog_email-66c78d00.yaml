@@ -1,0 +1,44 @@
+id: 66c78d00-708f-4b8b-b715-c537110120e3
+name: SEG_2024_10_04_D_CZ_D_Trade_Fall_Catalog_Email
+brand: CZ
+channel: email
+category: other
+type: seasonal
+theme: fall
+braze_id: 66c78d00-708f-4b8b-b715-c537110120e3
+dates:
+  send_date: '2024-10-04'
+  inferred_send_type: local_time
+  first_sent: '2024-10-03T21:44:30+00:00'
+  last_sent: '2024-10-04T17:00:11+00:00'
+tags: []
+sends:
+- id: a3ee31c6-71dd-4639-a388-171e4e258f9d
+  channel: email
+  name: Variant 1
+  subject: 'Trade Exclusive: Fall Catalog First Look'
+  preheader: Find inspiration in our latest catalog.
+  html_file: html/seg_2024_10_04_d_cz_d_trade_fall_catalog_email.html
+  screenshot: screenshots/seg_2024_10_04_d_cz_d_trade_fall_catalog_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66fea9ed9406cd007229c271/original.jpg?1727965677
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66feb19bb584fb00667859b4/original.jpg?1727967643
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66fd86bc5719a70063d4a25c/original.jpg?1727891131
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66fea9a29406cd006329c3fa/original.jpg?1727965601
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66fd86d55ea4a100745e1684/original.jpg?1727891157
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66fea9d8b584fb0066784425/original.jpg?1727965656
+- id: 477519a8-a889-486f-8588-c2eef56a089b
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 10982
+  total_delivered: 10929
+  total_opens: 5755
+  total_clicks: 197
+  open_rate: 0.524
+  click_rate: 0.0179
+  total_revenue: 12507.0
+  total_bounces: 7
+  total_unsubscribes: 33
+_filename: seg_2024_10_04_d_cz_d_trade_fall_catalog_email-66c78d00.yaml
+schedule_type: time_based

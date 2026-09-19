@@ -1,0 +1,36 @@
+id: f6439b37-def2-44ba-be0c-023eed2682b4
+name: P_EM_2025_10_04_BW_D_Get_Holiday_Ready_Hosting_Edit
+brand: BUR
+channel: email
+category: editorial
+type: seasonal
+theme: christmas
+braze_id: f6439b37-def2-44ba-be0c-023eed2682b4
+dates:
+  send_date: '2025-10-04'
+  inferred_send_type: scheduled
+  first_sent: '2025-10-04T02:52:21+00:00'
+  last_sent: '2025-10-04T17:15:10+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: c7ddc4aa-7eb8-40f0-8e2d-7dff3446f430
+  channel: email
+  name: Variant 1
+  subject: Get holiday hosting-ready with up to 35% off
+  preheader: Everything you need for your best hosting season yet
+- id: e546b29b-fbd7-45cb-a2f4-47072dad5bf0
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 237538
+  total_delivered: 233055
+  total_opens: 134462
+  total_clicks: 300
+  open_rate: 0.5661
+  click_rate: 0.0013
+  total_revenue: 37167.0
+  total_bounces: 10
+  total_unsubscribes: 152
+_filename: p_em_2025_10_04_bw_d_get_holiday_ready_hosting_edit.yaml
+schedule_type: time_based

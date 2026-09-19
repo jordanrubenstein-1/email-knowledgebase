@@ -1,0 +1,33 @@
+id: 9b911620-d21a-450c-aca3-946a7817849c
+name: P_EM_2026_06_30_ID_PC_D_Sale_Reminder
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 9b911620-d21a-450c-aca3-946a7817849c
+dates:
+  send_date: '2026-06-30'
+  last_sent: '2026-06-30'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: ddb7a5cd-8ba6-45a8-942f-868571d73581
+  channel: email
+  name: Variant 1
+  subject: Up to 30% off sitewide & up to 60% off select styles
+  preheader: Summer savings are still happening.
+- id: 3255086d-06b7-4d77-a257-58c5f3ca2287
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 232834
+  total_delivered: 231086
+  total_opens: 91702
+  total_clicks: 684
+  open_rate: 0.3939
+  click_rate: 0.0029
+  total_revenue: 443258.73
+  total_unsubscribes: 208
+schedule_type: time_based
+_filename: p_em_2026_06_30_id_pc_d_sale_reminder.yaml

@@ -1,0 +1,30 @@
+id: ea933d1a-c9f7-4139-ae33-5c7068f093c9
+name: P_SMS_2026_09_18_ID_Free_Swatches
+brand: ID
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: ea933d1a-c9f7-4139-ae33-5c7068f093c9
+dates:
+  send_date: '2026-09-18'
+  first_sent: '2026-09-18T02:06:41+00:00'
+  last_sent: '2026-09-18T12:00:00+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: ef5aae3e-6db6-4c7f-90eb-bec35d528f98
+  channel: sms
+  name: Variant 1
+- id: c3bab0d1-fbde-4506-b9b2-1034bc608e45
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 42
+  total_delivered: 26
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+schedule_type: time_based
+_filename: p_sms_2026_09_18_id_free_swatches.yaml

@@ -1,0 +1,30 @@
+id: f400517b-48f9-4ce7-490f-77ebc985e990
+name: Board Revision Needed System Email (Designers)
+brand: HAV
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: f400517b-48f9-4ce7-490f-77ebc985e990
+dates:
+  first_sent: '2024-09-23T21:00:00+00:00'
+  last_sent: '2026-05-21T09:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: df8eb2b7-dd09-4ada-944b-d667c1dcf306
+  channel: email
+  name: Variant 1
+  subject: Revision Needed
+- id: ce214b36-6f34-4e8c-98df-2768b561cc32
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1
+  total_delivered: 1
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+schedule_type: api_triggered
+_filename: board-revision-needed-system-email-designers.yaml

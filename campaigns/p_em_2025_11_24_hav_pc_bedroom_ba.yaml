@@ -1,0 +1,35 @@
+id: c167dbd2-9919-4057-a963-0a0a1597cf10
+name: P_EM_2025_11_24_HAV_PC_Bedroom_B/A
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: c167dbd2-9919-4057-a963-0a0a1597cf10
+dates:
+  send_date: '2025-11-24'
+  first_sent: '2025-11-23T19:22:21+00:00'
+  last_sent: '2025-11-24T20:15:22+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: c6dee9e8-8a2f-42f7-b5ab-adac56bd711d
+  channel: email
+  name: Variant 1
+  subject: 'PSA: The Black Friday Sale Is Still On!'
+  preheader: Start your dream room for only $89
+- id: e7e19158-f244-458f-93f0-4c2884295e97
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 91780
+  total_delivered: 91534
+  total_opens: 34827
+  total_clicks: 322
+  open_rate: 0.3795
+  click_rate: 0.0035
+  total_bounces: 3
+  total_unsubscribes: 239
+schedule_type: time_based
+_filename: p_em_2025_11_24_hav_pc_bedroom_ba.yaml

@@ -1,0 +1,30 @@
+id: 6934e087-9cdc-44c5-a8c2-2676b6990a25
+name: 20250831_Labor_Day_Sale_48_Hours_SMS
+brand: BUR
+channel: sms
+category: sale_promo
+type: sale
+theme: null
+braze_id: 6934e087-9cdc-44c5-a8c2-2676b6990a25
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-08-31T02:07:07+00:00'
+  last_sent: '2025-09-01T01:00:35+00:00'
+tags: []
+sends:
+- id: a77cfdd1-5303-4928-851e-1b02c419a62a
+  channel: other
+  name: Variant 1
+- id: 9ad24fa3-eb1a-4f41-a10a-44428f15314e
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 227
+    purchases: 3
+    revenue: 6270.85
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.689847'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

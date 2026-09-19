@@ -1,0 +1,51 @@
+id: 0a48a687-b63e-475c-9402-58c4f4a6189a
+name: 071624_SF_B_Al_Fresco_Email
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 0a48a687-b63e-475c-9402-58c4f4a6189a
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2024-07-16T03:01:03+00:00'
+  last_sent: '2024-07-16T14:15:03+00:00'
+tags:
+- Batch and Blast
+- Batch and Blast/non-promo
+sends:
+- id: 3641df20-b0a1-4925-bf66-091a9a3c6baf
+  channel: email
+  name: Variant 1
+  subject: 'Take It Outside: Al Fresco Entertaining'
+  preheader: elevate your hosting game with chic trays
+  html_file: html/071624_sf_b_al_fresco_email.html
+  screenshot: screenshots/071624_sf_b_al_fresco_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669156504e66f90058cf07d2/original.jpg?1720800848
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669156cf7e782200590d34e3/original.jpg?1720800975
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6691563d04d08e005aad177f/original.jpg?1720800828
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0058f1ba77/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668d909d7f86bc005a7d7659/original.jpg?1720553629
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669156ad4e66f90058cf08ba/original.jpg?1720800941
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6691568804d08e0065ad0f9d/original.jpg?1720800904
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0063f11fb6/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668d909d27ef2d005a4fa46e/original.jpg?1720553629
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6681bde9255ebf0070d6be26/original.jpeg?1719778792
+- id: e9e4c644-5867-4112-b172-a3e50a7a367a
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 36
+    purchases: 3
+    revenue: 402.17
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.824607'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:35.096834'
+schedule_type: time_based

@@ -1,0 +1,51 @@
+id: 25d7d3d3-55b9-46d2-98a4-d4aaf1fd3b70
+name: P_2024_10_11_ID_Friday_Retail_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 25d7d3d3-55b9-46d2-98a4-d4aaf1fd3b70
+dates:
+  send_date: '2024-10-11'
+  inferred_send_type: scheduled
+  first_sent: '2024-10-11T05:20:49+00:00'
+  last_sent: '2024-10-11T17:15:03+00:00'
+tags: []
+sends:
+- id: 0fe3a42d-ee3a-4922-aaed-85973ec7d67f
+  channel: email
+  name: Postcard Version
+  subject: Going quick! Book your free design cosultation
+  preheader: We're here to help
+- id: 9aa4cc68-4b3d-49ca-9d8d-8b6e9fb5e4e8
+  channel: other
+  name: Control Group
+- id: a354f917-64e5-417f-9d6a-8a5da4d0c409
+  channel: email
+  name: Old Version
+  subject: Going quick! Book your free design cosultation
+  preheader: We're here to help
+performance_summary:
+  total_sends: 55017
+  total_delivered: 54457
+  total_opens: 18096
+  total_clicks: 285
+  open_rate: 0.3289
+  click_rate: 0.0052
+  total_revenue: 300310.04
+  total_bounces: 1
+  total_unsubscribes: 81
+  ga4:
+    sessions: 385
+    purchases: 3
+    revenue: 6059.73
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.691952'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.278896'
+schedule_type: time_based

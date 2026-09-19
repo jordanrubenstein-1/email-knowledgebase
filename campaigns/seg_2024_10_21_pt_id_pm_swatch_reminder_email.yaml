@@ -1,0 +1,44 @@
+id: df0aeb91-721d-4db5-bc41-79de5d792147
+name: SEG_2024_10_21_PT_ID_PM_Swatch_Reminder_Email
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: df0aeb91-721d-4db5-bc41-79de5d792147
+dates:
+  send_date: '2024-10-21'
+  inferred_send_type: scheduled
+  first_sent: '2024-10-21T20:00:24+00:00'
+  last_sent: '2024-10-22T00:15:03+00:00'
+tags: []
+sends:
+- id: d8e7c856-1ccf-4b79-ba89-074c9fefc5b1
+  channel: email
+  name: Variant 1
+  subject: 'RE: Your fabric swatch order + 20% off'
+- id: 33f75ef3-23b4-49e5-bf1f-3e79190bf121
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 15759
+  total_delivered: 15567
+  total_opens: 4991
+  total_clicks: 165
+  open_rate: 0.3167
+  click_rate: 0.0105
+  total_revenue: 455440.62
+  total_unsubscribes: 38
+  ga4:
+    sessions: 262
+    purchases: 5
+    revenue: 13204.23
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.001080'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.245623'
+schedule_type: time_based

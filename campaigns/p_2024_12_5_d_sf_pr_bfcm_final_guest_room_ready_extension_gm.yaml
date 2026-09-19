@@ -1,0 +1,47 @@
+id: 6e36581d-2bf9-4f0a-addf-02c3d83515d0
+name: P_2024_12_5_D_SF_PR_BFCM_Final_Guest_Room_Ready_EXTENSION_Gmail
+brand: STF
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: 6e36581d-2bf9-4f0a-addf-02c3d83515d0
+dates:
+  send_date: '2024-12-05'
+  inferred_send_type: scheduled
+  first_sent: '2024-12-05T01:13:29+00:00'
+  last_sent: '2024-12-05T16:00:07+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: 7a97468e-0067-4f21-a0d6-0013496df8ab
+  channel: email
+  name: Variant 1
+  subject: Impress Your Guests
+  preheader: refresh your guest room with up to 35% off
+  html_file: html/p_2024_12_5_d_sf_pr_bfcm_final_guest_room_ready_extension_gm.html
+  screenshot: screenshots/p_2024_12_5_d_sf_pr_bfcm_final_guest_room_ready_extension_gm.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6750be91b28b590064a3f5cd/original.gif?1733344913
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6750bdac3f1ca60066d08fc3/original.gif?1733344683
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674f63cfa7aa370063a77020/original.gif?1733256143
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6750bdc73fa31c00651f16b3/original.gif?1733344711
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6750be41ae87a1006451c6b1/original.gif?1733344833
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674f6418a7aa370063a77080/original.gif?1733256216
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674f63beab95690065d86611/original.gif?1733256126
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674f63dfa7aa370063a77042/original.gif?1733256158
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6750bde5b28b590064a3f46f/original.jpg?1733344741
+- id: afefbdf0-e1e7-4704-bdc7-039ad5438cd2
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 2203
+  total_delivered: 2202
+  total_opens: 1212
+  total_clicks: 20
+  open_rate: 0.5502
+  click_rate: 0.0091
+  total_revenue: 714.0
+_filename: p_2024_12_5_d_sf_pr_bfcm_final_guest_room_ready_extension_gm.yaml
+schedule_type: time_based

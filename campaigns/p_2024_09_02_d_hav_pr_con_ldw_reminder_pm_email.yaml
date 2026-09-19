@@ -1,0 +1,33 @@
+id: 8fe7a088-f214-41ae-8318-7cec4396da66
+name: P_2024_09_02_D_HAV_PR_CON_LDW_Reminder_PM_Email
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 8fe7a088-f214-41ae-8318-7cec4396da66
+dates:
+  send_date: '2024-09-02'
+  first_sent: '2024-09-02T18:21:41+00:00'
+  last_sent: '2024-09-03T02:15:01+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 3d7703bf-933b-42fe-af29-d24d473c0391
+  channel: email
+  name: Variant 1
+  subject: Up to 70% off (+ extra markdowns)
+  preheader: ends tomorrow
+- id: 39ff0283-53b8-4909-83f3-5ce025a1cf3e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 21151
+  total_delivered: 21126
+  total_opens: 15660
+  total_clicks: 401
+  open_rate: 0.7404
+  click_rate: 0.019
+  total_unsubscribes: 50
+schedule_type: time_based
+_filename: p_2024_09_02_d_hav_pr_con_ldw_reminder_pm_email.yaml

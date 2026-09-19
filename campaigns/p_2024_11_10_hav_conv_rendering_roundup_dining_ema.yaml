@@ -1,0 +1,53 @@
+id: 40d6f44a-c7be-4f6f-b3c3-4c63650def13
+name: P_2024_11_10_HAV_Conv_Rendering_Roundup_Dining_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 40d6f44a-c7be-4f6f-b3c3-4c63650def13
+dates:
+  send_date: '2024-11-10'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-10T04:41:40+00:00'
+  last_sent: '2024-11-10T17:15:06+00:00'
+tags: []
+sends:
+- id: f5f81315-a765-4e32-b7df-117304998391
+  channel: email
+  name: Variant 1
+  subject: Dreamy Dining Rooms 😍
+  preheader: Be our guest.
+  html_file: html/p_2024_11_10_hav_conv_rendering_roundup_dining_email.html
+  screenshot: screenshots/p_2024_11_10_hav_conv_rendering_roundup_dining_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672d10f41cecf5006555594e/original.jpg?1731006708
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672d11632b10a9007328cd75/original.jpg?1731006819
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6730387d3294f90064e468af/original.jpg?1731213436
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672d10e32b10a9006428df95/original.jpg?1731006691
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672d10d32a07240073df61d4/original.jpg?1731006675
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672d114fa2c69a00710a10f7/original.jpg?1731006799
+- id: 163f7d58-60f4-4b8b-a9f8-56d047516510
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 35047
+  total_delivered: 35000
+  total_opens: 20564
+  total_clicks: 397
+  open_rate: 0.5868
+  click_rate: 0.0113
+  total_unsubscribes: 55
+  ga4:
+    sessions: 599
+    purchases: 5
+    revenue: 4001.55
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.176901'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:35.416313'
+schedule_type: time_based

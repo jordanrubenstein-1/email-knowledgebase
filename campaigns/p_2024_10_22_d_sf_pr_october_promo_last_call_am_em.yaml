@@ -1,0 +1,59 @@
+id: 054bb356-c925-4e3a-b926-8816fe56650a
+name: P_2024_10_22_D_SF_PR_OCTOBER_PROMO_Last_Call_AM_Email
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 054bb356-c925-4e3a-b926-8816fe56650a
+dates:
+  send_date: '2024-10-22'
+  inferred_send_type: local_time
+  first_sent: '2024-10-21T20:15:46+00:00'
+  last_sent: '2024-10-22T14:00:29+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: 58269dff-0b11-4c6c-a802-380e9612bd5d
+  channel: email
+  name: Variant 1
+  subject: ENDING TONIGHT! 25% OFF 🚨
+  preheader: now’s your chance to shop our Autumn Event
+  html_file: html/p_2024_10_22_d_sf_pr_october_promo_last_call_am_email.html
+  screenshot: screenshots/p_2024_10_22_d_sf_pr_october_promo_last_call_am_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6681bde9255ebf0070d6be26/original.jpeg?1719778792
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67165ca7e57a060073973983/original.jpg?1729518759
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d2072ed7005a83200b/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67165cf142b3e4006654b320/original.jpg?1729518833
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67165c58d3bafc00643c9b7f/original.jpg?1729518680
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668828085d4867005b380d70/original.jpg?1720199176
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66882808c84d43005953de9b/original.jpg?1720199176
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0063f11fb6/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d2cf6ae5005ac74b8b/original.jpg?1720752082
+- id: 53449211-39b2-4958-9b41-58393417e3a7
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 9700
+  total_delivered: 9650
+  total_opens: 3012
+  total_clicks: 90
+  open_rate: 0.3105
+  click_rate: 0.0093
+  total_revenue: 2023.25
+  total_unsubscribes: 13
+  ga4:
+    sessions: 65
+    purchases: 2
+    revenue: 390.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.848667'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.046357'
+schedule_type: time_based

@@ -1,0 +1,37 @@
+id: 4a645bc3-605a-4a0a-a772-1d73a185f22a
+name: P_SMS_2025_11_18_SF_BFCM_Reminder
+brand: STF
+channel: sms
+category: reminder
+type: announcement
+theme: black_friday
+braze_id: 4a645bc3-605a-4a0a-a772-1d73a185f22a
+dates:
+  send_date: '2025-11-18'
+  inferred_send_type: scheduled
+  first_sent: '2025-11-18T18:54:05+00:00'
+  last_sent: '2025-11-18T23:31:13+00:00'
+tags: []
+sends:
+- id: 6fe3aea5-fc2d-4ce2-8f4e-c6826b7c4f7a
+  channel: sms
+  name: Variant 1
+- id: 2a2f2af4-9d86-48ed-96a2-5a131b073bd5
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 4412
+  total_delivered: 4349
+  total_opens: 0
+  total_clicks: 153
+  open_rate: 0.0
+  click_rate: 0.0347
+  ga4:
+    sessions: 165
+    purchases: 1
+    revenue: 156.07
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.995694'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

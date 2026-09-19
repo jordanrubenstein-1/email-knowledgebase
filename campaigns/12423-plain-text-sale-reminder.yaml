@@ -1,0 +1,51 @@
+id: klaviyo-01HGKPT4YCGA8360KBA3VQER01
+name: '12/4/23: Plain Text Sale Reminder'
+brand: TI
+channel: email
+category: reminder
+type: sale
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2023-12-01'
+  inferred_send_type: scheduled
+  first_sent: '2023-12-04T08:15:00+00:00'
+  last_sent: '2023-12-04T08:15:00+00:00'
+sends:
+- id: 01HGKPT52ZTW8KYR01PRZH07W8
+  channel: email
+  name: '12/4/23: Plain Text Sale Reminder'
+  subject: Missed Black Friday? 25% off EXTENDED!
+  preheader: ''
+  html_file: html/12423-plain-text-sale-reminder.html
+  image_urls: []
+  screenshot: screenshots/12423-plain-text-sale-reminder.png
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_unsubscribes: 0
+  ga4:
+    sessions: 175
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T14:56:52.996445'
+    source: snowflake
+    channel: email
+klaviyo_type: campaign
+klaviyo_campaign_id: 01HGKPT4YCGA8360KBA3VQER01
+klaviyo_message_id: 01HGKPT52ZTW8KYR01PRZH07W8
+structure:
+  image_count: 0
+  link_count: 4
+  has_gif: false
+  hero_width: null
+  layout_type: text_only
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-03-12T11:18:48.963832'

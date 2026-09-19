@@ -1,0 +1,58 @@
+id: 435a2f12-4e99-45af-9162-65c65c9a3781
+name: P_2024_11_30_HAV_PC_Sale_Reminder_Living_Room_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 435a2f12-4e99-45af-9162-65c65c9a3781
+dates:
+  send_date: '2024-11-30'
+  inferred_send_type: local_time
+  first_sent: '2024-11-30T01:21:06+00:00'
+  last_sent: '2024-11-30T18:15:05+00:00'
+tags: []
+sends:
+- id: d172b6c0-fd9d-48fa-ab12-e056f4561fac
+  channel: email
+  name: Variant 1
+  subject: Your Dream House. Half The Price.
+  preheader: It doesn’t get better than that.
+  html_file: html/p_2024_11_30_hav_pc_sale_reminder_living_room_email.html
+  screenshot: screenshots/p_2024_11_30_hav_pc_sale_reminder_living_room_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67368440103f8e007266f8f1/original.jpg?1731626048
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6749eabc2b4c5a0064b308d6/original.png?1732897467
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6736844d990e3f006581a530/original.gif?1731626061
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6736840de2ee8300658a8253/original.gif?1731625997
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6749eaccf6c54f006474d38d/original.png?1732897484
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6749eb2b3aae0b006302a7e5/original.png?1732897578
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6749eaf23aae0b006302a7af/original.png?1732897522
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6749f73ad00a93006366cff5/original.png?1732900666
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6749eae1c94beb0064089fec/original.png?1732897505
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673683ef6b30f000645b95a7/original.gif?1731625967
+- id: 44cb1638-d740-45df-af4e-0265f8121bf4
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 163024
+  total_delivered: 160968
+  total_opens: 74121
+  total_clicks: 533
+  open_rate: 0.4547
+  click_rate: 0.0033
+  total_bounces: 5
+  total_unsubscribes: 405
+  ga4:
+    sessions: 288
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.721162'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.758700'
+schedule_type: time_based

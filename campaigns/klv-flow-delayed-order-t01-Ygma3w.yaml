@@ -1,0 +1,52 @@
+id: klaviyo-Ygma3w
+name: TRG_EM_2024_01_TI_D_Delayed_Order_T1_V1
+brand: TI
+channel: email
+category: other
+type: announcement
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: RpkW38
+canvas_name: Delayed Order
+flow_type: other_flow
+sequence_position: 1
+dates:
+  created: '2021-01-21'
+  inferred_send_type: sto
+  first_sent: '2021-01-21'
+  last_sent: '2025-07-15'
+sends:
+- id: Ygma3w
+  channel: email
+  name: Message
+  subject: We are still working on your order.
+  preheader: ''
+  html_file: html/klv-flow-delayed-order-t01-Ygma3w.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/a3c77b51-036d-4186-a457-48034a524d57.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/1f3a45aa-a88d-49ff-93fe-1f8d50d335c8.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/69a68883-3bce-41ac-802d-c532d6fa1f13.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/dccf9ff5-8748-4e56-89b2-548bc39a42d2.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/eca135b9-dda2-4bd5-b0ec-1ad5df376ab2.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/48f8b0bf-f674-4de6-83a6-f00ae0bfb57e.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: Ygma3w
+structure:
+  image_count: 6
+  link_count: 8
+  has_gif: false
+  hero_width: 600
+  layout_type: product_grid

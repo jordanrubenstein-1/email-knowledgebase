@@ -1,0 +1,36 @@
+id: 30fd067c-e586-4824-af9c-cfe196173efd
+name: P_2025_06_23_ID_Trade_July_4th_Combined_Sale_Announcement_Email
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 30fd067c-e586-4824-af9c-cfe196173efd
+dates:
+  send_date: '2025-06-23'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-23T05:55:48+00:00'
+  last_sent: '2025-06-23T17:15:12+00:00'
+tags:
+- TRADE-EMAIL
+sends:
+- id: bc852b4b-ee1f-4474-aa35-fd62911a55a7
+  channel: email
+  name: Variant 1
+  subject: 'Trade Perks, Activated: Up to 30% Off '
+  preheader: Unlock exclusive trade savings during the Fourth of July Sale.
+- id: 532b49d5-b3c9-461d-8c03-1e3fab74b446
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 20258
+  total_delivered: 19709
+  total_opens: 10653
+  total_clicks: 174
+  open_rate: 0.5259
+  click_rate: 0.0086
+  total_revenue: 130633.0
+  total_bounces: 4
+  total_unsubscribes: 61
+_filename: p_2025_06_23_id_trade_july_4th_combined_sale_announcement_em.yaml
+schedule_type: time_based

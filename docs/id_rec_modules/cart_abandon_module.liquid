@@ -1,0 +1,67 @@
+{% comment %}
+================================================================================
+CART ABANDON — "You May Also Like" Module
+================================================================================
+PURPOSE: Show 6 product recommendations (2×3 grid) based on the highest-value
+         category in the user's most recent cart.
+
+SIGNAL:  `top_cart_category` custom attribute (written by the existing Cart
+          Viewed webhook). Format: "Furniture > Sofas" or "Furniture > Sectionals
+          > Corner Sectionals". We extract L2 here and route to the matching
+          Braze Content Block.
+
+WHERE TO INSERT: In the Cart Abandon canvas email step, paste this block below
+                 the main email body content (e.g. after the cart items table and
+                 before the footer). The module renders nothing if the cart signal
+                 is missing — no empty space left behind.
+
+CONTENT BLOCKS REQUIRED (create via id_recommendation_blocks.py):
+  id_recs_sofas, id_recs_sectionals, id_recs_chairs, id_recs_ottomans,
+  id_recs_rugs, id_recs_dining_seating, id_recs_dining_tables, id_recs_beds,
+  id_recs_accent_tables, id_recs_lighting, id_recs_art, id_recs_pillows,
+  id_recs_benches
+
+FALLBACK: If top_cart_category is blank or unrecognized, the entire module is
+          suppressed ({% unless %} guard). No hardcoded fallback category is
+          shown — a blank section is better than an irrelevant one for cart.
+================================================================================
+{% endcomment %}
+
+{% comment %} ── Parse L2 from top_cart_category ──────────────────────────── {% endcomment %}
+{% assign top_cart_parts = custom_attribute.${top_cart_category} | split: ' > ' %}
+{% assign rec_category   = top_cart_parts[1] | default: top_cart_parts[0] | default: '' %}
+
+{% comment %} ── Render module only when we have a valid signal ─────────────── {% endcomment %}
+{% unless rec_category == blank %}
+
+{% comment %} ── Route to the matching content block ──────────────────────── {% endcomment %}
+{% if rec_category == 'Sofas' %}
+  {% content_blocks.id_recs_sofas %}
+{% elsif rec_category == 'Sectionals' %}
+  {% content_blocks.id_recs_sectionals %}
+{% elsif rec_category == 'Chairs' or rec_category == 'Chair' %}
+  {% content_blocks.id_recs_chairs %}
+{% elsif rec_category == 'Ottomans' or rec_category == 'Ottoman' %}
+  {% content_blocks.id_recs_ottomans %}
+{% elsif rec_category == 'Rugs' or rec_category == 'Rug' %}
+  {% content_blocks.id_recs_rugs %}
+{% elsif rec_category == 'Dining Seating' or rec_category == 'Dining Chairs & Stools' or rec_category == 'Dining Chairs' %}
+  {% content_blocks.id_recs_dining_seating %}
+{% elsif rec_category == 'Dining Tables' or rec_category == 'Dining Table' %}
+  {% content_blocks.id_recs_dining_tables %}
+{% elsif rec_category == 'Beds' or rec_category == 'Bed' %}
+  {% content_blocks.id_recs_beds %}
+{% elsif rec_category == 'Tables' or rec_category == 'Coffee Tables' or rec_category == 'Accent Tables' or rec_category == 'Side Tables' %}
+  {% content_blocks.id_recs_accent_tables %}
+{% elsif rec_category == 'Lighting' %}
+  {% content_blocks.id_recs_lighting %}
+{% elsif rec_category == 'Artwork' or rec_category == 'Art' %}
+  {% content_blocks.id_recs_art %}
+{% elsif rec_category == 'Pillows' or rec_category == 'Throw Pillows' %}
+  {% content_blocks.id_recs_pillows %}
+{% elsif rec_category == 'Benches' or rec_category == 'Bench' %}
+  {% content_blocks.id_recs_benches %}
+{% comment %} Unknown category — suppress rather than show wrong products {% endcomment %}
+{% endif %}
+
+{% endunless %}

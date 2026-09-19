@@ -1,0 +1,61 @@
+id: 84b71f02-e299-4e52-8e93-b7ad31053030
+name: P_EM_2025_08_21_ID_PT_Baltimore_Sip_Sit
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 84b71f02-e299-4e52-8e93-b7ad31053030
+dates:
+  send_date: '2025-08-21'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-21T22:49:32+00:00'
+  last_sent: '2025-08-21T22:49:58+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 0c8bbc77-99f0-4269-8985-12e1a85b08cf
+  channel: email
+  name: Variant 1
+  subject: 'Hey Baltimore! Weekend Plans? '
+- id: 7a6a061c-07d5-4425-8eec-727e06b4ebc0
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 7110
+  total_delivered: 7049
+  total_opens: 4026
+  total_clicks: 16
+  open_rate: 0.5662
+  click_rate: 0.0023
+  total_revenue: 3885.0
+  total_unsubscribes: 21
+  ga4:
+    sessions: 9
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.505481'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-04'
+    discount: 25% off sitewide
+    type: null
+  primary_sale:
+    id: id-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-04'
+    discount: 25% off sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 25% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:36.242182'
+schedule_type: time_based

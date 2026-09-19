@@ -1,0 +1,33 @@
+id: e7d5a58a-20e3-4c58-8e68-13e85e0cdcf1
+name: P_EM_2026_03_27_BW_PT_Stores_Spring_Break
+brand: BUR
+channel: email
+category: other
+type: seasonal
+theme: spring
+braze_id: e7d5a58a-20e3-4c58-8e68-13e85e0cdcf1
+dates:
+  send_date: '2026-03-27'
+  inferred_send_type: local_time
+  first_sent: '2026-03-27T02:05:32+00:00'
+  last_sent: '2026-03-28T02:02:47+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 32d38e0f-4284-4f47-a66d-d62bda0515d3
+  channel: email
+  name: Variant 1
+  subject: A spring break stop worth making
+- id: 3a6b3cb0-557c-41fe-9ad4-34e57826cf00
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 97186
+  total_delivered: 96974
+  total_opens: 39787
+  total_clicks: 426
+  open_rate: 0.4094
+  click_rate: 0.0044
+  total_revenue: 121671.0
+  total_unsubscribes: 103
+schedule_type: time_based

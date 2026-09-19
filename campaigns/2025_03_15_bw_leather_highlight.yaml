@@ -1,0 +1,75 @@
+id: ae7e614b-5e1d-463d-b43b-f5fa434815a3
+name: 2025_03_15_BW_Leather_Highlight
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: ae7e614b-5e1d-463d-b43b-f5fa434815a3
+dates:
+  send_date: '2025-03-15'
+  inferred_send_type: local_time
+  first_sent: '2025-03-14T17:24:42+00:00'
+  last_sent: '2025-03-15T17:15:58+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: be563aed-c2a8-43f6-94ff-a5a9c6b8d25e
+  channel: email
+  name: Variant 1
+  subject: Save up to 25% on leather seating
+  preheader: Premium, sustainable fabrics that age to perfection.
+- id: 28235a61-8c8a-4161-ab70-c30dd4e09553
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 264949
+  total_delivered: 262708
+  total_opens: 89827
+  total_clicks: 447
+  open_rate: 0.339
+  click_rate: 0.0017
+  total_revenue: 69063.0
+  total_bounces: 1
+  total_unsubscribes: 96
+  ga4:
+    sessions: 233
+    purchases: 1
+    revenue: 1747.94
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.488961'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:30.493148'
+schedule_type: time_based

@@ -1,0 +1,58 @@
+id: 4db578bb-846b-41d7-b9d9-2814559687a2
+name: 2025_04_04_HAV_PC_D_Friends_Family_Sale_Launch_Email
+brand: HAV
+channel: email
+category: product_launch
+type: sale
+theme: null
+braze_id: 4db578bb-846b-41d7-b9d9-2814559687a2
+dates:
+  send_date: '2025-04-04'
+  inferred_send_type: local_time
+  first_sent: '2025-04-03T22:23:01+00:00'
+  last_sent: '2025-04-04T18:15:05+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 1eda3fde-5e15-45fc-81fc-8d1fdb8fc2eb
+  channel: email
+  name: Variant 1
+  subject: 'It’s On: The Friends & Family Event'
+  preheader: 40% off design services starts now!
+  html_file: html/2025_04_04_hav_pc_d_friends_family_sale_launch_email.html
+  screenshot: screenshots/2025_04_04_hav_pc_d_friends_family_sale_launch_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67eef4dcb5610a0075007a3c/original.png?1743713499
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67eef4c5146bc900661edb95/original.png?1743713477
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67eef4b5146bc900661edb8f/original.gif?1743713461
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67eef4d3c75db4006783c3f1/original.gif?1743713491
+- id: 1677fc36-d6dc-4e75-aa4f-f117c488fadf
+  channel: other
+  name: Control Group
+- id: 3fc58050-f658-4ad8-a546-0a36e65a41d0
+  channel: email
+  name: Variant 2
+  subject: 'It’s On: The Friends & Family Event'
+  preheader: 40% off design services starts now!
+performance_summary:
+  total_sends: 200681
+  total_delivered: 196884
+  total_opens: 87123
+  total_clicks: 388
+  open_rate: 0.4341
+  click_rate: 0.0019
+  total_bounces: 13
+  total_unsubscribes: 307
+  ga4:
+    sessions: 438
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:48.916337'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.527913'
+schedule_type: time_based

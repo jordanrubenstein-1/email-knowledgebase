@@ -1,0 +1,51 @@
+id: 57cbf9ea-1ac7-47ab-a0c7-61cc1383134f
+name: BFCM 2024 Lightbox Modal - V2
+brand: BUR
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: 57cbf9ea-1ac7-47ab-a0c7-61cc1383134f
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2024-11-01T01:00:00+00:00'
+  last_sent: '2024-11-01T02:00:00+00:00'
+tags:
+- lightbox
+sends:
+- id: 00a1e3ef-be9a-4be7-951b-80ca527f61fe
+  channel: other
+  name: Variant 1
+- id: 52e7ef88-f2b7-4dce-bdb7-486a4bd2cb78
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.767190'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-pre-black-fri-2024-10-30
+    name: Pre Black Fri
+    start_date: '2024-10-30'
+    end_date: '2024-11-12'
+    discount: null
+    type: null
+  primary_sale:
+    id: bur-pre-black-fri-2024-10-30
+    name: Pre Black Fri
+    start_date: '2024-10-30'
+    end_date: '2024-11-12'
+    discount: null
+    type: null
+  sale_name: Pre Black Fri
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:33.961304'
+schedule_type: action_based

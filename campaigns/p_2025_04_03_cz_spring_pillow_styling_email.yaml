@@ -1,0 +1,57 @@
+id: 1fabc958-78d3-4f51-971c-41fe4f1bca91
+name: P_2025_04_03_CZ_Spring_Pillow_Styling_Email
+brand: CZ
+channel: email
+category: other
+type: seasonal
+theme: spring
+braze_id: 1fabc958-78d3-4f51-971c-41fe4f1bca91
+dates:
+  send_date: '2025-04-03'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-03T05:10:35+00:00'
+  last_sent: '2025-04-03T17:02:04+00:00'
+tags: []
+sends:
+- id: d4b91d34-8324-44cf-8b93-cd57a20d6caa
+  channel: email
+  name: Variant 1
+  subject: The More Pillows, The Better
+  preheader: Pile on the personality with new mix and match pillows.
+  html_file: html/p_2025_04_03_cz_spring_pillow_styling_email.html
+  screenshot: screenshots/p_2025_04_03_cz_spring_pillow_styling_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ec5a6d79d81e0064bc9bf5/original.png?1743542893
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ec5aac001a7f0066f905be/original.png?1743542955
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ec5ac379d81e0064bc9dda/original.png?1743542978
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ec5a7901bef50084d8afb2/original.png?1743542905
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ec5a33095b36007689c3e7/original.png?1743542834
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ec5a3f01bef50064d8af81/original.png?1743542846
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ec5aa5a5d5fd0064ea0d34/original.png?1743542948
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ec5a481d99270066360699/original.png?1743542855
+- id: be909c73-6724-4d8c-a5d1-47a8cbcb312d
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 94030
+  total_delivered: 93226
+  total_opens: 49167
+  total_clicks: 509
+  open_rate: 0.5229
+  click_rate: 0.0054
+  total_revenue: 73822.39
+  total_bounces: 4
+  total_unsubscribes: 145
+  ga4:
+    sessions: 499
+    purchases: 2
+    revenue: 562.44
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.363949'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.893733'
+schedule_type: time_based

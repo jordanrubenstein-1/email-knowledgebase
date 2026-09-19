@@ -1,0 +1,33 @@
+id: 5c213234-310d-48ee-bd48-0d4e6c58d40c
+name: P_EM_2025_12_29_HAV_CONV_PT_Sale_Reminder_Why_Havenly
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 5c213234-310d-48ee-bd48-0d4e6c58d40c
+dates:
+  send_date: '2025-12-29'
+  first_sent: '2025-12-28T17:21:57+00:00'
+  last_sent: '2025-12-29T17:15:56+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 531ae29b-e537-4e30-b228-08566585312f
+  channel: email
+  name: Variant 1
+  subject: Design your space. Love your home. End the year right.
+- id: 88fe5045-36ab-426f-964d-feb70529f07f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 43308
+  total_delivered: 43254
+  total_opens: 23598
+  total_clicks: 185
+  open_rate: 0.5449
+  click_rate: 0.0043
+  total_unsubscribes: 89
+schedule_type: time_based
+_filename: p_em_2025_12_29_hav_conv_pt_sale_reminder_why_havenly.yaml

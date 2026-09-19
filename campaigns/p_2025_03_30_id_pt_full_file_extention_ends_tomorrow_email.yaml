@@ -1,0 +1,35 @@
+id: ac7b6d9b-198b-4acd-b708-59c923c0195f
+name: P_2025_03_30_ID_PT_Full_File_Extention_Ends_Tomorrow_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: ac7b6d9b-198b-4acd-b708-59c923c0195f
+dates:
+  send_date: '2025-03-30'
+  inferred_send_type: local_time
+  first_sent: '2025-03-30T01:23:00+00:00'
+  last_sent: '2025-03-31T01:15:05+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 2f461396-4fb3-45e5-b86b-d293083ea29b
+  channel: email
+  name: Variant 1
+  subject: 'RE: Your exclusive code expires tomorrow'
+- id: 43f60c3a-3b04-41e0-9ff4-3130f759590c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 138576
+  total_delivered: 136546
+  total_opens: 35238
+  total_clicks: 458
+  open_rate: 0.2543
+  click_rate: 0.0033
+  total_revenue: 151160.75
+  total_bounces: 1
+  total_unsubscribes: 171
+_filename: p_2025_03_30_id_pt_full_file_extention_ends_tomorrow_email.yaml
+schedule_type: time_based

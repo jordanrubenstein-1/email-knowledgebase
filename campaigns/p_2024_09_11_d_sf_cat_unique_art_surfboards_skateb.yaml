@@ -1,0 +1,59 @@
+id: bd4b013d-29df-45a0-829f-16132ee40136
+name: P_2024_09_11_D_SF_CAT_Unique_Art_Surfboards_Skateboards_Email
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: bd4b013d-29df-45a0-829f-16132ee40136
+dates:
+  send_date: '2024-09-11'
+  inferred_send_type: local_time
+  first_sent: '2024-09-10T18:00:03+00:00'
+  last_sent: '2024-09-11T14:00:21+00:00'
+tags:
+- Batch and Blast/non-promo
+sends:
+- id: 56ab0e75-aef5-413f-96ab-7c153f313e86
+  channel: email
+  name: Variant 1
+  subject: 'Skate or Surf: Elevate Your Home With Bold Art'
+  preheader: decked out decor
+  html_file: html/p_2024_09_11_d_sf_cat_unique_art_surfboards_skateboards_emai.html
+  screenshot: screenshots/p_2024_09_11_d_sf_cat_unique_art_surfboards_skateboards_emai.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d8b8e9e1f8e50091e2bd9c/original.gif?1725479145
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d8b8eae1f8e50082e2bee3/original.gif?1725479145
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d8b8eb591a3400742b2319/original.gif?1725479147
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0058f1ba77/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d8b1d47325240065b90791/original.gif?1725477332
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d8b8e9591a3400922b1afe/original.gif?1725479145
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d8b8ea591a3400652b2de1/original.gif?1725479145
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0063f11fb6/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6681bde9255ebf0070d6be26/original.jpeg?1719778792
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d8b8eb591a3400652b2de2/original.gif?1725479147
+- id: 33b47b57-a684-470f-9260-a126309d07c8
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 7612
+  total_delivered: 7430
+  total_opens: 2768
+  total_clicks: 111
+  open_rate: 0.3636
+  click_rate: 0.0146
+  total_revenue: 1899.0
+  total_unsubscribes: 7
+  ga4:
+    sessions: 43
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.953801'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.468954'
+schedule_type: time_based

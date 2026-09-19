@@ -1,0 +1,35 @@
+id: df431434-8d61-4e92-80d9-c93776d655e8
+name: P_EM_2026_03_27_ID_D_PR_Store_Promo_Spring_Sale_PM
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: spring
+braze_id: df431434-8d61-4e92-80d9-c93776d655e8
+dates:
+  send_date: '2026-03-27'
+  inferred_send_type: local_time
+  first_sent: '2026-03-27T02:08:21+00:00'
+  last_sent: '2026-03-28T02:03:09+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 98bd3064-e9eb-40a3-8081-7fd99a9a256b
+  channel: email
+  name: Variant 1
+  subject: You're Invited
+  preheader: Come sip, spill, and save up to 30% during The Spring Refresh Sale.
+- id: 979396e8-de20-404e-a0fc-fa1b0bb3f3f2
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 113511
+  total_delivered: 111611
+  total_opens: 47192
+  total_clicks: 295
+  open_rate: 0.4157
+  click_rate: 0.0026
+  total_revenue: 164021.92
+  total_bounces: 2
+  total_unsubscribes: 73
+schedule_type: time_based

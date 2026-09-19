@@ -1,0 +1,72 @@
+id: 88fe2a8e-914e-492a-a779-dadca05fb7d3
+name: P_2024_1_2_D_SF_PROMO_Last_Chance_Gmail_Email
+brand: STF
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 88fe2a8e-914e-492a-a779-dadca05fb7d3
+dates:
+  send_date: '2024-01-02'
+  inferred_send_type: local_time
+  first_sent: '2025-01-01T18:07:46+00:00'
+  last_sent: '2025-01-02T16:00:30+00:00'
+tags: []
+sends:
+- id: 5ae65d0f-de51-4012-bf7d-a0c2a8b821c0
+  channel: email
+  name: Variant 1
+  subject: 'Last Chance: 20% Off Sitewide'
+  preheader: don’t snooze on this offer 😴
+  html_file: html/p_2024_1_2_d_sf_promo_last_chance_gmail_email.html
+  screenshot: screenshots/p_2024_1_2_d_sf_promo_last_chance_gmail_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676f01a56474530065c3f887/original.gif?1735328164
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6769dd5d0fbbc500643cc5f9/original.jpg?1734991197
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676f02363b85f000754ebc53/original.gif?1735328310
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67730530b776c60066dae9fc/original.gif?1735591216
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676f016e8f0d490064a3bac4/original.jpg?1735328110
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676f01f6e2902a0064761982/original.gif?1735328246
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67728565ed5b6e0064a507f5/original.jpg?1735558500
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676f01886474530065c3f87d/original.jpg?1735328136
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676f01d463fe0d0065a96004/original.gif?1735328212
+- id: 498034f4-264d-44c9-97dc-394806072304
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 23
+    purchases: 1
+    revenue: 356.07
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.722283'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-end-of-year-sale-2025-01-01
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-05'
+    discount: 20% off Sitewide + 30% Off Last Chance Patterns
+    type: null
+  - id: stf_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: stf-end-of-year-sale-2025-01-01
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-05'
+    discount: 20% off Sitewide + 30% Off Last Chance Patterns
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: 20% off Sitewide + 30% Off Last Chance Patterns
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:32.318314'
+schedule_type: time_based

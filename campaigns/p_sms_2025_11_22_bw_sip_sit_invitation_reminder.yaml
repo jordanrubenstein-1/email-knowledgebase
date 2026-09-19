@@ -1,0 +1,37 @@
+id: d2760bb3-a3a4-4293-a5bc-fbe8c1a28654
+name: P_SMS_2025_11_22_BW_Sip_Sit_Invitation_Reminder
+brand: BUR
+channel: sms
+category: reminder
+type: announcement
+theme: null
+braze_id: d2760bb3-a3a4-4293-a5bc-fbe8c1a28654
+dates:
+  send_date: '2025-11-22'
+  inferred_send_type: local_time
+  first_sent: '2025-11-21T22:44:41+00:00'
+  last_sent: '2025-11-22T18:31:02+00:00'
+tags: []
+sends:
+- id: 6105ec31-a3bc-468c-bfd1-1cbb210167b4
+  channel: sms
+  name: Variant 1
+- id: cb321a22-8574-46ad-a259-b43c0f5addf8
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 366
+  total_delivered: 355
+  total_opens: 0
+  total_clicks: 7
+  open_rate: 0.0
+  click_rate: 0.0191
+  ga4:
+    sessions: 4
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.823624'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

@@ -1,0 +1,48 @@
+id: 36c2d366-cfe0-44ff-8140-83f41ee2fc9f
+name: P_2025_06_19_HAV_Conv_Fourth_of_July_Early_Access_PT
+brand: HAV
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 36c2d366-cfe0-44ff-8140-83f41ee2fc9f
+dates:
+  send_date: '2025-06-19'
+  inferred_send_type: local_time
+  first_sent: '2025-06-18T18:54:17+00:00'
+  last_sent: '2025-06-19T17:15:17+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 3d5ca271-28fb-49c5-9b2b-596dfd6e99f9
+  channel: email
+  name: Variant 1
+  subject: Early access to Fourth of July savings, just for you
+  html_file: html/p_2025_06_19_hav_conv_fourth_of_july_early_access_pt.html
+  screenshot: screenshots/p_2025_06_19_hav_conv_fourth_of_july_early_access_pt.png
+  image_urls:
+  - https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/c731630f24214e43807c7369ca8ebacd/Havenly_Wordmark_RGB_Charcoal_Brown%20%281%29.png
+- id: c6034f20-ebc3-4be5-9cac-5f7b21de860f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 40388
+  total_delivered: 40313
+  total_opens: 22575
+  total_clicks: 178
+  open_rate: 0.559
+  click_rate: 0.0044
+  total_unsubscribes: 44
+  ga4:
+    sessions: 236
+    purchases: 3
+    revenue: 5803.98
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:48.795959'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:29.895966'
+schedule_type: time_based

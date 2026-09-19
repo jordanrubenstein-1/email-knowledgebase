@@ -1,0 +1,59 @@
+id: d89d4bab-439c-4835-b7dc-388eea9b5493
+name: P_2025_2_1_D_CZ_Monthly_Edit_Email
+brand: CZ
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: d89d4bab-439c-4835-b7dc-388eea9b5493
+dates:
+  send_date: '2025-02-01'
+  inferred_send_type: local_time
+  first_sent: '2025-01-31T17:07:45+00:00'
+  last_sent: '2025-02-01T17:01:17+00:00'
+tags: []
+sends:
+- id: 876d0d2c-91ab-4865-a9a0-6d718b07b2ea
+  channel: email
+  name: Variant 1
+  subject: The February Edit
+  preheader: An inside look at what's trending.
+  html_file: html/p_2025_2_1_d_cz_monthly_edit_email.html
+  screenshot: screenshots/p_2025_2_1_d_cz_monthly_edit_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bb8b67f62260083cbc57f/original.png?1738258613
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bb84efc66df006541c41f/original.png?1738258510
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bf7ae95f44c0064ab8613/original.png?1738274734
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bdc0469189d0064b93795/original.png?1738267651
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bba8649705300656a1177/original.png?1738259078
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bb59005d91a0065c5a9b9/original.png?1738257807
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bba2a95cd180064f00030/original.png?1738258986
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bb6841eaa460066d25c63/original.png?1738258052
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67746653f926b40082353958/original.jpg?1735681619
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bbecc1eaa460066d26f8c/original.png?1738260172
+- id: 37682016-07d9-4e70-a159-72e85de5433c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 96279
+  total_delivered: 95573
+  total_opens: 48315
+  total_clicks: 783
+  open_rate: 0.5018
+  click_rate: 0.0081
+  total_revenue: 46560.97
+  total_bounces: 4
+  total_unsubscribes: 139
+  ga4:
+    sessions: 1039
+    purchases: 4
+    revenue: 1977.22
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.912899'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.487948'
+schedule_type: time_based

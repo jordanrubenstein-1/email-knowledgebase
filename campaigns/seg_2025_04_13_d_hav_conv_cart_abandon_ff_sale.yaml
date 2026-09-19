@@ -1,0 +1,33 @@
+id: 861f564a-c5f8-48e3-b5f1-e6bf1439ffdd
+name: SEG_2025_04_13_D_HAV_CONV_Cart_Abandon_F&F_Sale
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 861f564a-c5f8-48e3-b5f1-e6bf1439ffdd
+dates:
+  send_date: '2025-04-13'
+  first_sent: '2025-04-12T22:23:13+00:00'
+  last_sent: '2025-04-13T21:15:03+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 36180067-aa0e-4609-9635-d6c22b18844d
+  channel: email
+  name: Variant 1
+  subject: Items In Your Design Are On Sale
+  preheader: Shop the lowest prices on your favorite brands.
+- id: fee919a3-80be-475e-8d13-88bdf648519c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1540
+  total_delivered: 1528
+  total_opens: 825
+  total_clicks: 79
+  open_rate: 0.5357
+  click_rate: 0.0513
+  total_unsubscribes: 7
+schedule_type: time_based
+_filename: seg_2025_04_13_d_hav_conv_cart_abandon_ff_sale.yaml

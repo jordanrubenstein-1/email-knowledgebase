@@ -1,0 +1,33 @@
+id: 5fc5c3eb-1751-4960-ab21-2afd233d7096
+name: P_2024_12_30_Merch_HAV_PC_Sale_Last_Chance
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 5fc5c3eb-1751-4960-ab21-2afd233d7096
+dates:
+  send_date: '2024-12-30'
+  first_sent: '2024-12-29T17:24:48+00:00'
+  last_sent: '2024-12-30T17:15:09+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 4463c3d5-d095-4a04-b29e-187eed12aa59
+  channel: email
+  name: Variant 1
+  subject: 'Treat Yourself: The End of Year Sale'
+  preheader: Full-priced items, now up to 15% off!
+- id: 7646113d-dc1f-4d15-a070-300f53bfb0c6
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 36315
+  total_delivered: 36105
+  total_opens: 20094
+  total_clicks: 233
+  open_rate: 0.5533
+  click_rate: 0.0064
+  total_unsubscribes: 71
+schedule_type: time_based
+_filename: p_2024_12_30_merch_hav_pc_sale_last_chance.yaml

@@ -1,0 +1,43 @@
+id: 1192e687-ec47-428f-bfe1-57cc7523cd77
+name: P_EM_2026_01_23_ID_D_PR_Categories_Dining
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 1192e687-ec47-428f-bfe1-57cc7523cd77
+dates:
+  send_date: '2026-01-23'
+  inferred_send_type: local_time
+  first_sent: '2026-01-23T03:09:37+00:00'
+  last_sent: '2026-01-24T03:01:27+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 72230b6a-121a-478d-ad11-e557fde90e2b
+  channel: email
+  name: Variant 1
+  subject: '25% Off Hosting Essentials '
+  preheader: Where form, function, and good company meet.
+- id: b6e6d5bb-df85-4a13-bb6f-637f5c1cdbcb
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 104655
+  total_delivered: 104479
+  total_opens: 40010
+  total_clicks: 406
+  open_rate: 0.3823
+  click_rate: 0.0039
+  total_revenue: 225550.96
+  total_bounces: 2
+  total_unsubscribes: 138
+  ga4:
+    sessions: 378
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.301710'
+    source: snowflake
+    channel: email
+schedule_type: time_based

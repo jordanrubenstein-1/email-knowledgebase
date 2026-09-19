@@ -1,0 +1,36 @@
+id: 753c1d57-0a77-49e8-93f9-d2bf8241b58e
+name: P_EM_2026_04_22_ID_D_PR_April_Reset_Sale_Extended
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 753c1d57-0a77-49e8-93f9-d2bf8241b58e
+dates:
+  send_date: '2026-04-22'
+  inferred_send_type: scheduled
+  first_sent: '2026-04-21T22:09:43+00:00'
+  last_sent: '2026-04-22'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: e83268c0-2085-477e-b94b-b2327b28c445
+  channel: email
+  name: Variant 1
+  subject: We changed our minds
+  preheader: 25% off sitewide has been extended.
+- id: 9788502f-f85b-4e47-a73f-0b30397dfee6
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 131977
+  total_delivered: 131799
+  total_opens: 51546
+  total_clicks: 723
+  open_rate: 0.3906
+  click_rate: 0.0055
+  total_revenue: 132629.93
+  total_bounces: 3
+  total_unsubscribes: 162
+_filename: p_em_2026_04_22_id_d_pr_april_reset_sale_extended.yaml
+schedule_type: time_based

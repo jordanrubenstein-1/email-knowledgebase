@@ -1,0 +1,39 @@
+id: f4943afb-c3ea-4d5a-8bfb-c52348dc6f32
+name: P_EM_2025_09_05_SF_D_PR_Labor_Day_Event_Sale_Extension
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: f4943afb-c3ea-4d5a-8bfb-c52348dc6f32
+dates:
+  send_date: '2025-09-05'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-05T04:21:40+00:00'
+  last_sent: '2025-09-05T17:01:40+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: 9289540a-5cfd-40ee-837a-c7fddb24a018
+  channel: email
+  name: Variant 1
+  subject: 'A Private Invitation: 25% Off Is Back'
+  preheader: only for our subscribers (that means you!)
+- id: df20fa48-d62c-44ce-aeb8-047a6f852372
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 40046
+  total_delivered: 39860
+  total_opens: 18147
+  total_clicks: 278
+  open_rate: 0.4532
+  click_rate: 0.0069
+  total_unsubscribes: 44
+_filename: p_em_2025_09_05_sf_d_pr_labor_day_event_sale_extension.yaml
+schedule_type: time_based

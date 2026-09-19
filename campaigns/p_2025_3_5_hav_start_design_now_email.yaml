@@ -1,0 +1,33 @@
+id: 7a14cf8d-249c-49ff-9ace-b7b7e07b3e69
+name: P_2025_3_5_HAV_Start_Design_Now_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 7a14cf8d-249c-49ff-9ace-b7b7e07b3e69
+dates:
+  send_date: '2025-03-05'
+  first_sent: '2025-03-05T23:51:17+00:00'
+  last_sent: '2025-03-05T23:51:28+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: b2617534-6943-45e2-8448-e6399bb57a0f
+  channel: email
+  name: Variant 1
+  subject: Your designer is waiting - let’s get started!
+- id: a80fc117-5831-480e-87b3-09333f86c239
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1181
+  total_delivered: 1173
+  total_opens: 926
+  total_clicks: 22
+  open_rate: 0.7841
+  click_rate: 0.0186
+  total_bounces: 2
+  total_unsubscribes: 3
+schedule_type: time_based
+_filename: p_2025_3_5_hav_start_design_now_email.yaml

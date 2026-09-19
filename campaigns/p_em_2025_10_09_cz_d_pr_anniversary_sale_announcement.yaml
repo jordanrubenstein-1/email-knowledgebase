@@ -1,0 +1,53 @@
+id: f610f0c3-ba5a-42f4-be65-b951d2b85a76
+name: P_EM_2025_10_09_CZ_D_PR_Anniversary_Sale_Announcement
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: f610f0c3-ba5a-42f4-be65-b951d2b85a76
+dates:
+  send_date: '2025-10-09'
+  inferred_send_type: local_time
+  first_sent: '2025-10-09T02:05:39+00:00'
+  last_sent: '2025-10-09T17:15:17+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale_feat
+sends:
+- id: 6f2d939e-5c23-4510-842f-e8ae1125789d
+  channel: email
+  name: Variant 1
+  subject: 'NOW OPEN: The Anniversary Sale'
+  preheader: Celebrate with 20% Off Sitewide
+  html_file: html/p_em_2025_10_09_cz_d_pr_anniversary_sale_announcement.html
+  screenshot: screenshots/p_em_2025_10_09_cz_d_pr_anniversary_sale_announcement.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e6e8e48d362e00634e4163/original.png?1759963363
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e6e814bbf1df009363464a/original.png?1759963155
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e6e831bbf1df0063636208/original.png?1759963184
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e6e8d20b4a6400638fd8f7/original.png?1759963346
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e6e7f7d87b41009130940d/original.png?1759963127
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e6e7ec9db6d100633938eb/original.png?1759963116
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e6e8ad9db6d10063393e38/original.png?1759963309
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e6e8dd2f6e0e00635df346/original.png?1759963357
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e6e7bb4a630d006395c86a/original.png?1759963067
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68e6e824f5e2e30063d87126/original.png?1759963172
+- id: fd6b1b80-d693-4e9f-9a7e-ece29a89c17c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 111708
+  total_delivered: 111186
+  total_opens: 59068
+  total_clicks: 1153
+  open_rate: 0.5288
+  click_rate: 0.0103
+  total_bounces: 200
+  total_unsubscribes: 146
+_filename: p_em_2025_10_09_cz_d_pr_anniversary_sale_announcement.yaml
+schedule_type: time_based

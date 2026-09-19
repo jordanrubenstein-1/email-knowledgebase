@@ -1,0 +1,44 @@
+id: ec6f2b89-42d6-4553-8817-0eca4c3dd4bb
+name: P_2025_02_28_ID_Dallas_Grand_Opening
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: ec6f2b89-42d6-4553-8817-0eca4c3dd4bb
+dates:
+  send_date: '2025-02-28'
+  inferred_send_type: scheduled
+  first_sent: '2025-02-28T20:51:46+00:00'
+  last_sent: '2025-02-28T23:15:06+00:00'
+tags:
+- GeoTargeted-Email
+sends:
+- id: f3a83465-24f8-4a11-96a1-29b436a899dd
+  channel: email
+  name: Variant 1
+  subject: 'You''re Invited: The Citizenry Dallas'
+  preheader: Celebrate the grand opening of our partner brand's new store.
+- id: 7e566082-2c50-4f78-af5f-3042991a89bb
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 819
+  total_delivered: 806
+  total_opens: 174
+  total_clicks: 2
+  open_rate: 0.2125
+  click_rate: 0.0024
+  ga4:
+    sessions: 4
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.927270'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.772107'
+schedule_type: time_based

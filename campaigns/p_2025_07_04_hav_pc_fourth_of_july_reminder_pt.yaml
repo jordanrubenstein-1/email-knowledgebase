@@ -1,0 +1,35 @@
+id: 80eff36e-2b25-42d6-ba0a-740bd2bcc332
+name: P_2025_07_04_HAV_PC_Fourth_of_July_Reminder_PT
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 80eff36e-2b25-42d6-ba0a-740bd2bcc332
+dates:
+  send_date: '2025-07-04'
+  first_sent: '2025-07-04T03:09:33+00:00'
+  last_sent: '2025-07-05T03:00:24+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 080cc4b5-1013-422a-97c3-82162f0a2fa9
+  channel: email
+  name: Variant 1
+  subject: Cue the fireworks...
+  preheader: (and the savings)
+- id: efd273ad-1e25-4722-8bc3-69b8a0c092c7
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 225646
+  total_delivered: 222279
+  total_opens: 97616
+  total_clicks: 354
+  open_rate: 0.4326
+  click_rate: 0.0016
+  total_bounces: 7
+  total_unsubscribes: 269
+schedule_type: time_based
+_filename: p_2025_07_04_hav_pc_fourth_of_july_reminder_pt.yaml

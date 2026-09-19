@@ -1,0 +1,35 @@
+id: c44f660c-7309-4a7f-9c93-6dd8bc37abc3
+name: P_EM_2026_03_10_BW_PT_Spring_Sale_EA_Test_PT_Variant
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: spring
+braze_id: c44f660c-7309-4a7f-9c93-6dd8bc37abc3
+dates:
+  send_date: '2026-03-10'
+  inferred_send_type: local_time
+  first_sent: '2026-03-10T01:17:44+00:00'
+  last_sent: '2026-03-10T17:15:31+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 69c651db-7d78-4617-97bb-d196e0ae6a1d
+  channel: email
+  name: Variant 1
+  subject: 'Final Stretch: 2 Days Left to Save'
+- id: 3a9007d7-a26e-485e-8b1c-a3b446695a66
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 115411
+  total_delivered: 115078
+  total_opens: 61884
+  total_clicks: 300
+  open_rate: 0.5362
+  click_rate: 0.0026
+  total_revenue: 17451.0
+  total_bounces: 2
+  total_unsubscribes: 161
+_filename: p_em_2026_03_10_bw_pt_spring_sale_ea_test_pt_variant.yaml
+schedule_type: time_based

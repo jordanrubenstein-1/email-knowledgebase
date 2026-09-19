@@ -1,0 +1,59 @@
+id: f2908aea-1628-461b-b9ef-d14ff25b39ad
+name: P_2024_08_23_D_SF_PR_LDW_Promo_Annoucement_Email
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: f2908aea-1628-461b-b9ef-d14ff25b39ad
+dates:
+  send_date: '2024-08-23'
+  inferred_send_type: local_time
+  first_sent: '2024-08-22T18:05:20+00:00'
+  last_sent: '2024-08-23T14:05:03+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: c2fe562f-fa1a-432a-a386-baef871b7714
+  channel: email
+  name: Variant 1
+  subject: 'IT’S HERE: 20% OFF'
+  preheader: snag your favorites during our Labor Day Event
+  html_file: html/p_2024_08_23_d_sf_pr_ldw_promo_annoucement_email.html
+  screenshot: screenshots/p_2024_08_23_d_sf_pr_ldw_promo_annoucement_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c3c2ee7feaed0066d58381/original.gif?1724105454
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c4a785aa2d4d006583106d/original.gif?1724163973
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0058f1ba77/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c3c2ee7682c600752e028e/original.jpg?1724105454
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c3c2ef1479b70064bb6465/original.jpg?1724105454
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c3c2ee7feaed0084d5822d/original.gif?1724105454
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c3c2eef1d8e9008142cb75/original.jpg?1724105454
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c3c2ef1ff5da0066fae8df/original.jpg?1724105454
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c3c2ee1ff5da0083fadf01/original.gif?1724105454
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66c3c2ee7feaed0075d58271/original.gif?1724105454
+- id: f00b5766-4efa-429d-b0fe-cb00720f0aec
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 4944
+  total_delivered: 4821
+  total_opens: 2575
+  total_clicks: 365
+  open_rate: 0.5208
+  click_rate: 0.0738
+  total_revenue: 5815.0
+  total_unsubscribes: 11
+  ga4:
+    sessions: 82
+    purchases: 2
+    revenue: 408.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.890190'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.320532'
+schedule_type: time_based

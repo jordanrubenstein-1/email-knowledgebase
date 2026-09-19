@@ -1,0 +1,30 @@
+id: 64c42d80-4c15-4bbb-bb94-cd552e3ca803
+name: 20250730_Summer_Flash_Sale_Ends_Tomorrow_SMS
+brand: BUR
+channel: sms
+category: sale_promo
+type: sale
+theme: summer
+braze_id: 64c42d80-4c15-4bbb-bb94-cd552e3ca803
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-07-30T02:07:28+00:00'
+  last_sent: '2025-07-31T01:00:29+00:00'
+tags: []
+sends:
+- id: 3090b23f-1da6-4d37-ac02-8ee844488b95
+  channel: other
+  name: Variant 1
+- id: 6de088b6-769e-4c52-8df8-b35941053d0d
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 134
+    purchases: 4
+    revenue: 5299.42
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.479029'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

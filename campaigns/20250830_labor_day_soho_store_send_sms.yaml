@@ -1,0 +1,30 @@
+id: 97dfacaa-6b18-463c-9300-1d4309c09f96
+name: 20250830_Labor_Day_SoHo_Store_Send_SMS
+brand: BUR
+channel: sms
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 97dfacaa-6b18-463c-9300-1d4309c09f96
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-08-30T02:09:34+00:00'
+  last_sent: '2025-08-30T22:01:57+00:00'
+tags: []
+sends:
+- id: 1f5fd9bb-cba5-470b-9635-3b7b65352d9e
+  channel: other
+  name: Variant 1
+- id: 15644bb8-de52-46e5-973c-b7a599c15007
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 1
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.652267'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

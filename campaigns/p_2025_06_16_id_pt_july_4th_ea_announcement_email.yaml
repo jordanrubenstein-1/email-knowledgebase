@@ -1,0 +1,47 @@
+id: fadf04e4-c851-408c-9cbe-e5827f99d236
+name: P_2025_06_16_ID_PT_July_4th_EA_Announcement_Email
+brand: ID
+channel: email
+category: sale_promo
+type: product_launch
+theme: null
+braze_id: fadf04e4-c851-408c-9cbe-e5827f99d236
+dates:
+  send_date: '2025-06-16'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-16T05:36:27+00:00'
+  last_sent: '2025-06-16T17:15:12+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 0fce5c19-12e0-41c7-8702-39938d341b94
+  channel: email
+  name: Variant 1
+  subject: 'Exclusive Invite: Up to 25% Off Before Anyone Else 🔥
+
+    '
+- id: da7a0c93-ff4f-41ec-8e29-25d12dcf1a7b
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 176574
+  total_delivered: 174513
+  total_opens: 40603
+  total_clicks: 606
+  open_rate: 0.2299
+  click_rate: 0.0034
+  total_revenue: 190814.39
+  total_unsubscribes: 158
+  ga4:
+    sessions: 723
+    purchases: 3
+    revenue: 7408.18
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.630058'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.734285'
+schedule_type: time_based

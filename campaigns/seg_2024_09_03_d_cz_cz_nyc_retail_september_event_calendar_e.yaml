@@ -1,0 +1,40 @@
+id: b93b4fa6-9c0c-41b9-87a5-246aa9de9066
+name: SEG_2024_09_03_D_CZ_CZ_NYC_Retail_September_Event_Calendar_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: b93b4fa6-9c0c-41b9-87a5-246aa9de9066
+dates:
+  send_date: '2024-09-03'
+  inferred_send_type: local_time
+  first_sent: '2024-09-02T19:00:03+00:00'
+  last_sent: '2024-09-03T15:00:28+00:00'
+tags: []
+sends:
+- id: 9b12319a-6574-4242-8a42-5aaec6e302a1
+  channel: email
+  name: Variant 1
+  subject: 'You''re Invited: The Fall Design Series'
+  preheader: Join us for upcoming workshops & events at our Soho Flagship.
+  html_file: html/seg_2024_09_03_d_cz_cz_nyc_retail_september_event_calendar_e.html
+  screenshot: screenshots/seg_2024_09_03_d_cz_cz_nyc_retail_september_event_calendar_e.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cfb3cce8748500654bf8f5/original.jpg?1724888012
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cfb3d5e8748500654bf917/original.jpg?1724888021
+- id: 125847d2-71db-4964-a2b1-fd8442cdaa93
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 13645
+  total_delivered: 13636
+  total_opens: 7726
+  total_clicks: 52
+  open_rate: 0.5662
+  click_rate: 0.0038
+  total_revenue: 19935.05
+  total_bounces: 1
+  total_unsubscribes: 15
+_filename: seg_2024_09_03_d_cz_cz_nyc_retail_september_event_calendar_e.yaml
+schedule_type: time_based

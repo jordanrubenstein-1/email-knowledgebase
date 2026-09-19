@@ -1,0 +1,57 @@
+id: 69643fcc-2511-44fe-a3bc-f5ea4f59b816
+name: Trade_2025_1_31_D_SF_PR_Kuba_Cloth_Launch_Email
+brand: STF
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 69643fcc-2511-44fe-a3bc-f5ea4f59b816
+dates:
+  send_date: '2025-01-31'
+  inferred_send_type: local_time
+  first_sent: '2025-01-30T22:48:07+00:00'
+  last_sent: '2025-01-31T19:00:10+00:00'
+tags: []
+sends:
+- id: 24dc41ea-7ee6-495c-9f41-1e64938d06e9
+  channel: email
+  name: Variant 1
+  subject: NEW PRINTS JUST LANDED
+  preheader: Get to know our newest patterns in pillows, fabric, and wallpaper
+  html_file: html/trade_2025_1_31_d_sf_pr_kuba_cloth_launch_email.html
+  screenshot: screenshots/trade_2025_1_31_d_sf_pr_kuba_cloth_launch_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bd90569189d0064b92edb/original.gif?1738266885
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bd72093ab1200656e8418/original.gif?1738266400
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bd75e1531b60064ac10c9/original.gif?1738266462
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bd9e418ec4b00639f07d3/original.jpg?1738267107
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bd70701c02100656a5fd7/original.gif?1738266375
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bd9990427170064d967dd/original.gif?1738267033
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bd817af64c30064d25e9b/original.gif?1738266647
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bd9d0ca1b0c00663bfea2/original.jpg?1738267088
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bdf9f1531b60074ac1217/original.gif?1738268575
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679bd97269189d0064b9300c/original.gif?1738266994
+- id: fb45b6eb-726d-4386-a6f8-cb1c7b2761fc
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1036
+  total_delivered: 1016
+  total_opens: 615
+  total_clicks: 15
+  open_rate: 0.5936
+  click_rate: 0.0145
+  total_unsubscribes: 5
+  ga4:
+    sessions: 25
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.944412'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.134409'
+schedule_type: time_based

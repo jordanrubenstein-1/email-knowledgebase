@@ -1,0 +1,88 @@
+id: 24f0ccb2-1d18-41f6-9436-e5300ddf8d3c
+name: Abandon Browse - Product Viewed
+brand: BUR
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: 24f0ccb2-1d18-41f6-9436-e5300ddf8d3c
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-01-17T03:00:00+00:00'
+  last_sent: '2026-04-09T18:00:00+00:00'
+tags:
+- abandon browse
+sends:
+- id: 5f05131f-52ae-4ed9-9535-0c4821e53994
+  channel: email
+  name: TRG_EM_2026_02_BW_D_Abandon_Browse_T3_V2
+  subject: Choosing furniture takes time
+  preheader: We’ll keep things simple when you come back.
+  step_id: b468ab39-b7cb-46f7-a5cc-455f4229a248
+- id: a3b17256-efef-45f3-a39f-76864a4e2881
+  channel: email
+  name: TRG_EM_2026_02_BW_D_Abandon_Browse_T1_V2
+  subject: Still thinking it over?
+  preheader: Your picks are right where you left them.
+  step_id: 19d3117b-76c3-4282-b725-44d145200923
+- id: d37d0bfe-bce9-46b7-a632-051a5240510f
+  channel: email
+  name: TRG_EM_2026_02_BW_D_Abandon_Browse_T3_V2
+  subject: We Like Your Style
+  preheader: And we saved your cart.
+  step_id: 0f8ea375-499b-440a-b857-08b02e20eead
+performance_summary: {}
+canvas_steps:
+- id: 39fa1d20-b63e-4d41-abd4-87f5290a40f8
+  name: Step 1
+  type: delay
+- id: 14a19942-1f9b-408c-a3d8-dee585b7b89f
+  name: Step
+  type: delay
+- id: f5fe03b8-534a-485d-8ed7-1376824b7742
+  name: Step 3
+  type: delay
+- id: 70d5f925-ebe1-4cb8-9d11-45f5d7152f0e
+  name: SMS Opted In?
+  type: audience_paths
+- id: def3581f-83af-4d98-81e2-aca8ea80c916
+  name: TRG_SMS_2026_01_BW_Abandon_Browse_T5_V1
+  type: message
+- id: 81307f77-b56b-4e0f-b70f-37574f61163c
+  name: Step 4
+  type: delay
+- id: a1757876-d149-4b3c-bc04-23f010b76f71
+  name: TRG_SMS_2026_01_BW_Abandon_Browse_T2_V1
+  type: message
+- id: 44d99f34-5c9e-450b-a623-3893550ef6eb
+  name: Step 5
+  type: delay
+- id: b468ab39-b7cb-46f7-a5cc-455f4229a248
+  name: TRG_EM_2026_02_BW_D_Abandon_Browse_T3_V2
+  type: message
+  channel: email
+  subject: Choosing furniture takes time
+  preheader: We’ll keep things simple when you come back.
+- id: 19d3117b-76c3-4282-b725-44d145200923
+  name: TRG_EM_2026_02_BW_D_Abandon_Browse_T1_V2
+  type: message
+  channel: email
+  subject: Still thinking it over?
+  preheader: Your picks are right where you left them.
+- id: 0f8ea375-499b-440a-b857-08b02e20eead
+  name: TRG_EM_2026_02_BW_D_Abandon_Browse_T3_V2
+  type: message
+  channel: email
+  subject: We Like Your Style
+  preheader: And we saved your cart.
+- id: a435a349-e522-4cac-b079-15c60608cde9
+  name: SMS Opted In?
+  type: audience_paths
+- id: 8105b55d-9b50-4f03-a982-0759b0047dd7
+  name: Email available?
+  type: audience_paths
+- id: 238bb080-8f3b-47ba-a8cf-5fa0d51126c4
+  name: Email available? 1
+  type: audience_paths

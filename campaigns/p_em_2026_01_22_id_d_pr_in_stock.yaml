@@ -1,0 +1,43 @@
+id: 86e9c69b-b65a-4b6a-ad46-dc96bc96cc70
+name: P_EM_2026_01_22_ID_D_PR_In_Stock
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 86e9c69b-b65a-4b6a-ad46-dc96bc96cc70
+dates:
+  send_date: '2026-01-22'
+  inferred_send_type: local_time
+  first_sent: '2026-01-22T01:06:38+00:00'
+  last_sent: '2026-01-23T01:04:28+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: deaf510c-6614-4e0e-8322-7a7766f637cc
+  channel: email
+  name: Variant 1
+  subject: In Stock And Ready When You Are
+  preheader: 25% off and delivered in 1–3 weeks.
+- id: fcad70b5-ca8a-4596-b622-faf55733f7c4
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 192007
+  total_delivered: 180496
+  total_opens: 76838
+  total_clicks: 751
+  open_rate: 0.4002
+  click_rate: 0.0039
+  total_revenue: 229823.92
+  total_bounces: 9599
+  total_unsubscribes: 235
+  ga4:
+    sessions: 899
+    purchases: 5
+    revenue: 18285.35
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.954770'
+    source: snowflake
+    channel: email
+schedule_type: time_based

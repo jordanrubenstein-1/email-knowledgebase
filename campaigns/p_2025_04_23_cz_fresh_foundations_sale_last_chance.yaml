@@ -1,0 +1,59 @@
+id: f21b0010-bcec-411b-b38b-e85ca5e1118e
+name: P_2025_04_23_CZ_Fresh_Foundations_Sale_Last_Chance_AM_Email
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: f21b0010-bcec-411b-b38b-e85ca5e1118e
+dates:
+  send_date: '2025-04-23'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-23T05:51:25+00:00'
+  last_sent: '2025-04-23T17:02:50+00:00'
+tags: []
+sends:
+- id: eb91c07f-2f21-4ec9-a203-f113ef3351e6
+  channel: email
+  name: Variant 1
+  subject: 'Ends Today: Up To 50% Off'
+  preheader: Save big on small-batch styles.
+  html_file: html/p_2025_04_23_cz_fresh_foundations_sale_last_chance_am_email.html
+  screenshot: screenshots/p_2025_04_23_cz_fresh_foundations_sale_last_chance_am_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6807bfc7e4f5f80064e4950e/original.png?1745338311
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6807c005500bf20062a21b97/original.png?1745338372
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f9a7f211ee1c0067116b6d/original.png?1744414705
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6807bf91e4f5f80064e49468/original.png?1745338256
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f9a7b46166da0067ff4990/original.png?1744414644
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f9a7c289573000677633b5/original.png?1744414658
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6807bfb3957f6c006210337e/original.png?1745338291
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6807bf800d2c1100624138ba/original.png?1745338239
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6802d847a0ebea0062caf8f7/original.png?1745016903
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6802d852b4e8ee00643dd09f/original.png?1745016914
+- id: 122fbe20-7e03-4e35-8517-88652f06cf21
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 95044
+  total_delivered: 94592
+  total_opens: 49488
+  total_clicks: 1086
+  open_rate: 0.5207
+  click_rate: 0.0114
+  total_revenue: 94389.35
+  total_bounces: 19
+  total_unsubscribes: 114
+  ga4:
+    sessions: 1615
+    purchases: 28
+    revenue: 14224.72
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.386597'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.305187'
+schedule_type: time_based

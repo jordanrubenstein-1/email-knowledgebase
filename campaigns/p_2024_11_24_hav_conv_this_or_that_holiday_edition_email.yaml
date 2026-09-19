@@ -1,0 +1,33 @@
+id: 161f4695-0ee7-47be-93f9-4bf5d2855531
+name: P_2024_11_24_HAV_Conv_This_or_That_Holiday_Edition_Email
+brand: HAV
+channel: email
+category: editorial
+type: seasonal
+theme: christmas
+braze_id: 161f4695-0ee7-47be-93f9-4bf5d2855531
+dates:
+  send_date: '2024-11-24'
+  first_sent: '2024-11-24T05:43:58+00:00'
+  last_sent: '2024-11-24T17:15:09+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 06090c13-6601-4c5f-ac21-4827a26fb5ad
+  channel: email
+  name: Variant 1
+  subject: 'This or That: Holiday Edition'
+  preheader: Born to be Camp Chic. Forced to be Moody Cabin.
+- id: 29cbdf80-591c-4dc5-9fe3-a920cf79e63c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 35440
+  total_delivered: 35283
+  total_opens: 19864
+  total_clicks: 281
+  open_rate: 0.5605
+  click_rate: 0.0079
+  total_unsubscribes: 43
+schedule_type: time_based
+_filename: p_2024_11_24_hav_conv_this_or_that_holiday_edition_email.yaml

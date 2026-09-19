@@ -1,0 +1,78 @@
+id: f3666d67-1cbf-4f29-89c0-f7dcda83ec31
+name: P_EM_2025_08_21_SF_D_PR_Labor_Day_Event
+brand: STF
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: f3666d67-1cbf-4f29-89c0-f7dcda83ec31
+dates:
+  send_date: '2025-08-21'
+  inferred_send_type: local_time
+  first_sent: '2025-08-20T20:50:49+00:00'
+  last_sent: '2025-08-21T17:00:34+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: 39cd0e07-0281-4d42-a4b0-704d97adaeea
+  channel: email
+  name: Variant 1
+  subject: 'The Sale Of The Season: Shop 25% Off'
+  preheader: our labor day event is here
+  html_file: html/p_em_2025_08_21_sf_d_pr_labor_day_event.html
+  screenshot: screenshots/p_em_2025_08_21_sf_d_pr_labor_day_event.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a6210b200ff40075c96bb1/original.png?1755717899
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a621066b3744006740e92b/original.png?1755717893
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a620d26ff4c70065cc4ee3/original.gif?1755717842
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a620f79d5d640073521ab0/original.png?1755717879
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a620e442235000647b8940/original.png?1755717859
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a6211163a61e00867ac46a/original.png?1755717905
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68a620fe860e860065e1f34e/original.png?1755717886
+- id: 63c5aa34-f7c4-4d07-aeed-ca7d956c033a
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 40537
+  total_delivered: 40440
+  total_opens: 18674
+  total_clicks: 375
+  open_rate: 0.4607
+  click_rate: 0.0093
+  total_revenue: 11359.0
+  total_unsubscribes: 100
+  ga4:
+    sessions: 470
+    purchases: 8
+    revenue: 4484.69
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.725379'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-the-labor-day-event-2025-08-21
+    name: The Labor Day Event
+    start_date: '2025-08-21'
+    end_date: '2025-09-04'
+    discount: 25% off Sitewide
+    type: null
+  primary_sale:
+    id: stf-the-labor-day-event-2025-08-21
+    name: The Labor Day Event
+    start_date: '2025-08-21'
+    end_date: '2025-09-04'
+    discount: 25% off Sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 25% off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:32.371507'
+schedule_type: time_based

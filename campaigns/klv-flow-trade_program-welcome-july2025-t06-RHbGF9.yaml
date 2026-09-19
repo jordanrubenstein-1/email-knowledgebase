@@ -1,0 +1,56 @@
+id: klaviyo-RHbGF9
+name: trade-approved_email-08
+brand: TE
+channel: email
+category: other
+type: lifecycle
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: Yt9GVK
+canvas_name: trade_program-welcome-July2025
+flow_type: welcome_series
+sequence_position: 6
+dates:
+  created: '2025-07-23'
+  inferred_send_type: sto
+  first_sent: '2025-07-23'
+  last_sent: '2026-07-15'
+sends:
+- id: RHbGF9
+  channel: email
+  name: Message
+  subject: Loved by the trade. Exclusively ours.
+  preheader: Stop giving your clients déjà vu…
+  html_file: html/klv-flow-trade_program-welcome-july2025-t06-RHbGF9.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/dac146b7-7dfc-4851-8cf1-d7978d5e7110.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/86604533-f43b-467d-9450-f68fb6a9ecfd.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/8a4f2095-e78e-4e47-80ea-bce418c83a7f.gif
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/40da33b9-7589-45f8-a8fe-d8ebff622ad0.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/a6d82893-7353-49aa-805d-3e651c7a0e1e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/e7f061aa-36d4-4891-8cfa-d2f18deddbf0.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/cc1d059c-1cc5-45cb-ac8f-cccd38e735d2.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/2daecf8e-8260-4fd6-a7bb-16cca6222d7e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/f763c537-f5ec-49ad-9010-dae906540a08.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/addc526a-552a-4c25-be58-3cbdc4240980.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: RHbGF9
+structure:
+  image_count: 23
+  link_count: 29
+  has_gif: true
+  hero_width: 100
+  layout_type: product_grid

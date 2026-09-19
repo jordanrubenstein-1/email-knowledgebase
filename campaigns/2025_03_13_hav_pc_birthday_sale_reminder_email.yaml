@@ -1,0 +1,35 @@
+id: ce68cf69-7b7b-4add-9674-acf374e54288
+name: 2025_03_13_HAV_PC_Birthday_Sale_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: ce68cf69-7b7b-4add-9674-acf374e54288
+dates:
+  send_date: '2025-03-13'
+  first_sent: '2025-03-12T21:50:11+00:00'
+  last_sent: '2025-03-13T18:15:04+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 4ccba86a-95d0-4a53-bbf8-e98de5d7e494
+  channel: email
+  name: Variant 1
+  subject: 50% Off Room Designs + FREE Birthday Cash!
+  preheader: Our Birthday Sale only happens once a year…
+- id: 229dd657-c2a3-4cd6-af0a-99dd26ebb3a5
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 195556
+  total_delivered: 191988
+  total_opens: 85889
+  total_clicks: 433
+  open_rate: 0.4392
+  click_rate: 0.0022
+  total_bounces: 5
+  total_unsubscribes: 308
+schedule_type: time_based
+_filename: 2025_03_13_hav_pc_birthday_sale_reminder_email.yaml

@@ -1,0 +1,35 @@
+id: 9ced9833-8167-4803-be73-4f4673a4c92a
+name: P_EM_2026_02_06_ID_D_Sip_And_Sit_Event_Reminder
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 9ced9833-8167-4803-be73-4f4673a4c92a
+dates:
+  send_date: '2026-02-06'
+  inferred_send_type: local_time
+  first_sent: '2026-02-06T02:08:22+00:00'
+  last_sent: '2026-02-07T02:02:11+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 5283578a-4090-4df4-812f-a0bb06ef1f1a
+  channel: email
+  name: Variant 1
+  subject: Champagne, Shopping, and Up to 30% Off
+  preheader: Weekend plans? Stop by your local Interior Define!
+- id: 353db973-7478-4d76-9f6c-730a48d78ca0
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 115757
+  total_delivered: 113869
+  total_opens: 46573
+  total_clicks: 245
+  open_rate: 0.4023
+  click_rate: 0.0021
+  total_revenue: 110617.98
+  total_bounces: 11
+  total_unsubscribes: 73
+schedule_type: time_based

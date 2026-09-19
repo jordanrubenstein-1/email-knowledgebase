@@ -1,0 +1,34 @@
+id: 633fb407-3c43-43ac-8742-e399f5b59237
+name: P_EM_2025_07_31_HAV_CONV_D_Summer_Sale_Launch_Ends_Tonight
+brand: HAV
+channel: email
+category: product_launch
+type: sale
+theme: summer
+braze_id: 633fb407-3c43-43ac-8742-e399f5b59237
+dates:
+  send_date: '2025-07-31'
+  first_sent: '2025-07-30T19:18:11+00:00'
+  last_sent: '2025-07-31T17:15:41+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 9e20101c-921e-4c59-896c-2e59d0bb8bb8
+  channel: email
+  name: Variant 1
+  subject: Last chance to save sitewide!
+  preheader: Shop the final hours of our Summer Sale
+- id: 4541c4b0-1535-4be0-bbc0-986ba677c7fe
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 40826
+  total_delivered: 40819
+  total_opens: 21460
+  total_clicks: 119
+  open_rate: 0.5256
+  click_rate: 0.0029
+  total_unsubscribes: 55
+schedule_type: time_based
+_filename: p_em_2025_07_31_hav_conv_d_summer_sale_launch_ends_tonight.yaml

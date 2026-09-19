@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Your Ordering call</title></head>
+<body style="margin:0;background:#f6f3ee;color:#362b24;font-family:Arial,sans-serif;line-height:1.6">
+<table role="presentation" style="width:100%;max-width:600px;margin:auto;background:#fff;padding:32px"><tr><td>
+<p style="font-size:20px;letter-spacing:3px">HAVENLY</p>
+<h1 style="font-size:26px;font-weight:400">Your ordering call is tomorrow</h1>
+<p>Hi {{api_trigger_properties.${first_name} | escape}},</p>
+<p>Your 30-minute call with {{api_trigger_properties.${host_name} | escape}}, your ordering concierge, is scheduled for <strong>{{api_trigger_properties.${call_date} | escape}} at {{api_trigger_properties.${call_time} | escape}}</strong>.</p>
+<p>Bring your questions about products, your shopping list, or placing an order.</p>
+<p><a href="{{api_trigger_properties.${zoom_link}}}" style="color:#362b24;text-decoration:underline">Join your call</a></p>
+<p><a href="{{api_trigger_properties.${project_link}}}" style="color:#362b24;text-decoration:underline">View your project</a></p>
+<p>If you need help with this appointment, contact your concierge in your project chat.</p>
+</td></tr></table>
+</body></html>

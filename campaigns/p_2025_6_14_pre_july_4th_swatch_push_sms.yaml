@@ -1,0 +1,30 @@
+id: a350a8c2-fc28-4ef8-b4b8-6ad406331ea5
+name: P_2025_6_14_Pre_July_4th_Swatch_Push_SMS
+brand: ID
+channel: sms
+category: sale_promo
+type: announcement
+theme: null
+braze_id: a350a8c2-fc28-4ef8-b4b8-6ad406331ea5
+dates:
+  send_date: '2025-06-14'
+  inferred_send_type: local_time
+  first_sent: '2025-06-14T01:21:48+00:00'
+  last_sent: '2025-06-15T00:15:14+00:00'
+tags: []
+sends:
+- id: 76c042fb-e588-47df-adb6-af8bc6bf96dc
+  channel: push
+  name: Variant 1
+- id: 23ca14ab-4986-4a8e-ae52-3d5781bf898d
+  channel: push
+  name: Control Group
+performance_summary:
+  total_sends: 57338
+  total_delivered: 53815
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 945.0
+schedule_type: time_based

@@ -1,0 +1,52 @@
+id: df652a28-51e8-4a82-ab3a-b5a8bbf01633
+name: P_EM_2025_07_31_HAV_PC_D_Sale_Extension_Ends_Tonight
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: df652a28-51e8-4a82-ab3a-b5a8bbf01633
+dates:
+  send_date: '2025-07-31'
+  inferred_send_type: local_time
+  first_sent: '2025-07-30T20:44:18+00:00'
+  last_sent: '2025-07-31T18:15:08+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: ae918226-320e-4713-9d36-dffb2292dc73
+  channel: email
+  name: Variant 1
+  subject: 'Final Hours: 50% Off Ends Tonight'
+  preheader: Don’t miss your last shot to save big.
+  html_file: html/p_em_2025_07_31_hav_pc_d_sale_extension_ends_tonight.html
+  screenshot: screenshots/p_em_2025_07_31_hav_pc_d_sale_extension_ends_tonight.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688a76bc20d4680065f52631/original.gif?1753904828
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688a76d520d4680075f51cd8/original.png?1753904852
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/688a76f001f96100644ed8f1/original.png?1753904880
+- id: 9c6bb120-0931-44a6-9f18-125274b21c6c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 228314
+  total_delivered: 227795
+  total_opens: 94992
+  total_clicks: 268
+  open_rate: 0.4161
+  click_rate: 0.0012
+  total_bounces: 6
+  total_unsubscribes: 398
+  ga4:
+    sessions: 160
+    purchases: 1
+    revenue: 745.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.262953'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.672807'
+schedule_type: time_based

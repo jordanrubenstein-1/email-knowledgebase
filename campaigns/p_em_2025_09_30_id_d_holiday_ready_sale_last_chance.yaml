@@ -1,0 +1,36 @@
+id: a694e830-42f5-437b-bb99-b845b3d558aa
+name: P_EM_2025_09_30_ID_D_Holiday_Ready_Sale_Last_Chance
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: christmas
+braze_id: a694e830-42f5-437b-bb99-b845b3d558aa
+dates:
+  send_date: '2025-09-30'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-30T03:37:26+00:00'
+  last_sent: '2025-09-30T17:15:35+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 83979fbd-814f-4b9f-bc57-4b21ec939cf4
+  channel: email
+  name: Variant 1
+  subject: 20% OFF ENDS AT MIDNIGHT
+  preheader: With Delivery By Early December
+- id: 8b1e4503-aacf-4765-ba2a-68186513af42
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 200551
+  total_delivered: 199354
+  total_opens: 93214
+  total_clicks: 570
+  open_rate: 0.4648
+  click_rate: 0.0028
+  total_revenue: 556325.87
+  total_bounces: 6
+  total_unsubscribes: 257
+_filename: p_em_2025_09_30_id_d_holiday_ready_sale_last_chance.yaml
+schedule_type: time_based

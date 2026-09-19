@@ -1,0 +1,46 @@
+id: be1f7029-db0d-408d-b914-316ff5faa400
+name: P_EM_2026_04_18_SF_D_Category_Feature_Furniture
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: be1f7029-db0d-408d-b914-316ff5faa400
+dates:
+  send_date: '2026-04-18'
+  inferred_send_type: local_time
+  first_sent: '2026-04-17T11:06:51+00:00'
+  last_sent: '2026-04-18T03:00:00+00:00'
+tags:
+- Batch and Blast
+sends:
+- id: 287f9c0f-0c92-4f54-99a1-f1cca990f1c7
+  channel: email
+  name: Variant 1
+  subject: Why settle for ordinary furniture
+  preheader: Shop made-to-order pieces in signature St. Frank prints.
+  html_file: html/p_em_2026_04_18_sf_d_category_feature_furniture.html
+  screenshot: screenshots/p_em_2026_04_18_sf_d_category_feature_furniture.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69dd6123d7d48d00ac56b04c/original.gif?1776116003
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69dd610ba0c41900afc81fad/original.png?1776115979
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69dd610b915dcf00aaed0a6c/original.png?1776115979
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69dd610b20ba6000add0c02a/original.png?1776115979
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69dd610b3a401000ad4b9e07/original.png?1776115979
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69dd610b164fce00aa299959/original.png?1776115979
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69dd610b938b5000aa9b700b/original.png?1776115979
+- id: 1a25b7b8-e760-4f65-a0fa-9725b3a3d2a7
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 36407
+  total_delivered: 36246
+  total_opens: 11207
+  total_clicks: 158
+  open_rate: 0.3078
+  click_rate: 0.0043
+  total_revenue: 39432.0
+  total_bounces: 1
+  total_unsubscribes: 21
+_filename: p_em_2026_04_18_sf_d_category_feature_furniture.yaml
+schedule_type: time_based

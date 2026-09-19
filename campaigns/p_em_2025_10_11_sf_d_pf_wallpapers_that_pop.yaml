@@ -1,0 +1,68 @@
+id: 64307a5b-2b60-454b-ae8b-ce4fdfff5d71
+name: P_EM_2025_10_11_SF_D_PF_Wallpapers_That_Pop
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 64307a5b-2b60-454b-ae8b-ce4fdfff5d71
+dates:
+  send_date: '2025-10-11'
+  inferred_send_type: local_time
+  first_sent: '2025-10-10T17:08:59+00:00'
+  last_sent: '2025-10-11T17:00:41+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- prod
+- sale
+- wallpaper
+sends:
+- id: edac36d0-fe24-4b77-93fe-453f1ff35d9d
+  channel: email
+  name: Variant 1
+  subject: 'Walls Worth The Drama     '
+  preheader: pattern drench your space at 25% off
+- id: a0fd307e-c3b5-4912-86b9-0f3fa3e3e412
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39678
+  total_delivered: 39281
+  total_opens: 18335
+  total_clicks: 182
+  open_rate: 0.4621
+  click_rate: 0.0046
+  total_bounces: 1
+  total_unsubscribes: 49
+  ga4:
+    sessions: 176
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.071608'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-the-gallery-sale-2025-10-09
+    name: The Gallery Sale
+    start_date: '2025-10-09'
+    end_date: '2025-10-21'
+    discount: 25% off Art + Wallpaper + Curtains
+    type: null
+  primary_sale:
+    id: stf-the-gallery-sale-2025-10-09
+    name: The Gallery Sale
+    start_date: '2025-10-09'
+    end_date: '2025-10-21'
+    discount: 25% off Art + Wallpaper + Curtains
+    type: null
+  sale_name: The Gallery Sale
+  sale_discount: 25% off Art + Wallpaper + Curtains
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:43.465883'
+schedule_type: time_based

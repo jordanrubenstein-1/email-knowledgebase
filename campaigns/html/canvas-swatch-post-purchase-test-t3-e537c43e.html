@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+body{margin:0;padding:0}
+p{margin:0 0 14px 0;line-height:1.5}
+a{color:#1871D8;text-decoration:underline}
+</style>
+</head>
+<body style="margin:0;padding:0;background-color:#ffffff;">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="background-color:#ffffff;">
+<tr><td align="center">
+<table width="600" border="0" cellpadding="20" cellspacing="0">
+<tr><td style="color:#101b24;font-family:Arial,sans-serif;font-size:14px;font-weight:400;line-height:150%;text-align:left;">
+
+{%- assign shopping = event_properties.shopping_for | default: "" -%}
+{%- assign style = event_properties.design_style | default: "" -%}
+
+<p>Hi {{${first_name} | default: 'there'}},</p>
+
+<p>Just checking in &#8212; have you had a chance to look through your swatches in your space yet?</p>
+
+<p>A quick tip:<br>
+Try narrowing it down to your top 2&#8211;3 favorites and look at them at different times of day. Lighting can completely change how a fabric feels.</p>
+
+{% if style contains "Family-Friendly" %}
+<p>If durability is important, this is also a great time to think about performance fabrics &#8212; they&#8217;re designed to handle everyday life.</p>
+{% endif %}
+
+{% if shopping contains "Sofas" or shopping contains "Sectionals" %}
+<p>Since this is a larger piece, getting the fabric right now makes a huge difference long-term.</p>
+{% endif %}
+
+<p>If you're close to deciding, we’re happy to help you finalize everything — or answer any last questions.</p>
+
+<p>And if you want a bit more guidance, our design experts have been in touch and we are always available (online or in-store) at no cost.</p>
+
+<p>Just reply here — we’d love to connect you with your design expert and help you find the right fit.</p>
+
+<p>Best,<br>The Interior Define Team</p>
+
+</td></tr>
+<tr><td style="color:#101b24;font-family:Arial,sans-serif;font-size:9px;font-weight:400;line-height:normal;text-align:left;">
+
+<p>Copyright &copy; {{ 'now' | date: '%Y' }}, Interior Define, All rights reserved.<br>
+3200 Cherry Creek South Drive, Suite 210, Denver, CO 80209</p>
+
+<p>If you would rather not receive future emails from us, you may <a href="{{${set_user_to_unsubscribed_url}}}" style="color:#1871D8;text-decoration:underline;">unsubscribe</a>.</p>
+
+</td></tr>
+</table>
+</td></tr>
+</table>
+</body>
+</html>

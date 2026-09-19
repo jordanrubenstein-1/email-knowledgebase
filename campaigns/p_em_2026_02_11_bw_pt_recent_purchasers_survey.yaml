@@ -1,0 +1,33 @@
+id: cbc74af7-a2f8-402f-84cd-ac4f3e2dfcd9
+name: P_EM_2026_02_11_BW_PT_Recent_Purchasers_Survey
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: cbc74af7-a2f8-402f-84cd-ac4f3e2dfcd9
+dates:
+  send_date: '2026-02-11'
+  inferred_send_type: local_time
+  first_sent: '2026-02-11T00:31:20+00:00'
+  last_sent: '2026-02-12T00:05:52+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 81efc78f-3408-48f1-aa64-e94c0356fd4e
+  channel: email
+  name: Variant 1
+  subject: We’d love your feedback
+- id: 2778b1b9-aebe-4915-8899-ec5435ca945f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 9671
+  total_delivered: 9626
+  total_opens: 4828
+  total_clicks: 157
+  open_rate: 0.4992
+  click_rate: 0.0162
+  total_revenue: 8124.0
+  total_unsubscribes: 39
+schedule_type: time_based

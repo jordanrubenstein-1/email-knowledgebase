@@ -1,0 +1,78 @@
+id: 7c638ad4-62de-435a-becb-80fd8995b264
+name: P_EM_2025_08_13_SF_D_PR_Sunset_Sale_Last_Chance
+brand: STF
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 7c638ad4-62de-435a-becb-80fd8995b264
+dates:
+  send_date: '2025-08-13'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-13T03:35:19+00:00'
+  last_sent: '2025-08-13T17:00:10+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: fd8b8183-1d0f-48c2-9da0-e49e4d2e7a81
+  channel: email
+  name: Variant 1
+  subject: Don't Let the Sun Set on 20% Off
+  preheader: it’s your last chance to save on standout style
+  html_file: html/p_em_2025_08_13_sf_d_pr_sunset_sale_last_chance.html
+  screenshot: screenshots/p_em_2025_08_13_sf_d_pr_sunset_sale_last_chance.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6893b60a407827007455f642/original.png?1754510858
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689bb4135713660076a94c0c/original.gif?1755034643
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6893b625aae5f00072576264/original.png?1754510884
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6893b611fb8c0c0073f2e055/original.png?1754510865
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6893b62e407827008455f5e3/original.png?1754510894
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6893b5fbc28b7a009423c60e/original.png?1754510843
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6893b63547b20f00644649ff/original.png?1754510901
+- id: 81bf642e-9b56-4df6-81a2-654959f39c31
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 40759
+  total_delivered: 40682
+  total_opens: 18897
+  total_clicks: 236
+  open_rate: 0.4636
+  click_rate: 0.0058
+  total_revenue: 8848.02
+  total_unsubscribes: 130
+  ga4:
+    sessions: 259
+    purchases: 7
+    revenue: 6723.62
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.828198'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off Sitewide
+    type: null
+  primary_sale:
+    id: stf-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off Sitewide
+    type: null
+  sale_name: The Sunset Sale
+  sale_discount: 20% off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:35.312181'
+schedule_type: time_based

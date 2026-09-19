@@ -1,0 +1,80 @@
+id: fb634382-bf3b-4af4-a7f1-62ddc4451141
+name: P_EM_2025_09_02_CZ_D_PR_Labor_Day_Last_Chance_AM
+brand: CZ
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: fb634382-bf3b-4af4-a7f1-62ddc4451141
+dates:
+  send_date: '2025-09-02'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-02T04:22:45+00:00'
+  last_sent: '2025-09-02T17:03:08+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale_feat
+sends:
+- id: e2051762-1f6c-4ba6-a2a2-9f13188115c7
+  channel: email
+  name: Variant 1
+  subject: The Countdown Is On…
+  preheader: Last chance to shop our Labor Day Event.
+  html_file: html/p_em_2025_09_02_cz_d_pr_labor_day_last_chance_am.html
+  screenshot: screenshots/p_em_2025_09_02_cz_d_pr_labor_day_last_chance_am.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b21461f9d5aa0077079673/original.png?1756501089
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b21403b909f70064e99aa4/original.jpg?1756500995
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b21468f9d5aa0067079ad2/original.png?1756501096
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b203349a6c2200651e67f8/original.png?1756496692
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b2146e3496a20076fe1895/original.png?1756501101
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b2140cf9d5aa0067079a2f/original.gif?1756501004
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b2148fb2a7fa0066ce8b58/original.png?1756501134
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b21454cf23c60066253ebd/original.png?1756501075
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b21495b9cbeb006566f45c/original.png?1756501141
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b2033bb7894d0065dd4479/original.png?1756496699
+- id: 16daa2f9-da01-4694-927c-8c40059f2bfa
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 114525
+  total_delivered: 114268
+  total_opens: 60886
+  total_clicks: 838
+  open_rate: 0.5316
+  click_rate: 0.0073
+  total_bounces: 46
+  total_unsubscribes: 426
+  ga4:
+    sessions: 649
+    purchases: 11
+    revenue: 5477.87
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.283981'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-02'
+    discount: 20% off Sitewide
+    type: null
+  primary_sale:
+    id: cz-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-02'
+    discount: 20% off Sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 20% off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:40.811683'
+schedule_type: time_based

@@ -1,0 +1,47 @@
+id: 14855fa7-8e2b-4e5a-9fd6-199e02b5f13f
+name: P_EM_2025_12_12_ID_D_Dining
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 14855fa7-8e2b-4e5a-9fd6-199e02b5f13f
+dates:
+  send_date: '2025-12-12'
+  inferred_send_type: local_time
+  first_sent: '2025-12-11T21:44:10+00:00'
+  last_sent: '2025-12-12T17:16:20+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 2f56fc3c-00fa-4a81-bfae-de9906e63353
+  channel: email
+  name: Variant 1
+  subject: Set the Table for Style
+  preheader: Refined, durable dining pieces built to host it all.
+- id: 7b3ab82e-0a59-48f1-a9c4-3722e1ff830a
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 123237
+  total_delivered: 123161
+  total_opens: 47494
+  total_clicks: 426
+  open_rate: 0.3854
+  click_rate: 0.0035
+  total_revenue: 38953.75
+  total_bounces: 1
+  total_unsubscribes: 179
+  ga4:
+    sessions: 426
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.335455'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.042795'
+schedule_type: time_based

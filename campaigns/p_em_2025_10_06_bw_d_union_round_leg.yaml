@@ -1,0 +1,78 @@
+id: 25e6003f-72e9-4517-84c5-cd42b5a8abc2
+name: P_EM_2025_10_06_BW_D_Union_Round_Leg
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 25e6003f-72e9-4517-84c5-cd42b5a8abc2
+dates:
+  send_date: '2025-10-06'
+  inferred_send_type: scheduled
+  first_sent: '2025-10-06T03:26:08+00:00'
+  last_sent: '2025-10-06T17:15:43+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 82568c33-5fb2-44ee-ab82-ed23d435a2cf
+  channel: email
+  name: Variant 1
+  subject: Save big on big comfort
+  preheader: 'Our most spacious, modular design is now on sale
+
+
+
+
+    '
+- id: 9beada42-ff10-4240-b2f9-d300542774cc
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 236311
+  total_delivered: 232956
+  total_opens: 131991
+  total_clicks: 358
+  open_rate: 0.5585
+  click_rate: 0.0015
+  total_revenue: 32327.0
+  total_bounces: 1
+  total_unsubscribes: 198
+  ga4:
+    sessions: 176
+    purchases: 1
+    revenue: 853.86
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.617879'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-the-fall-sale-2025-10-02
+    name: The Fall Sale
+    start_date: '2025-10-02'
+    end_date: '2025-10-27'
+    discount: Up to 35% Off Sitewide
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-the-fall-sale-2025-10-02
+    name: The Fall Sale
+    start_date: '2025-10-02'
+    end_date: '2025-10-27'
+    discount: Up to 35% Off Sitewide
+    type: null
+  sale_name: The Fall Sale
+  sale_discount: Up to 35% Off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:32.024868'
+schedule_type: time_based

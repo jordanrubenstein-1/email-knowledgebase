@@ -1,0 +1,62 @@
+id: 5d7e7d31-d094-44d3-8a60-f6615c17d3e3
+name: Winter Refresh Modal - Email and SMS
+brand: BUR
+channel: email
+category: other
+type: seasonal
+theme: winter
+braze_id: 5d7e7d31-d094-44d3-8a60-f6615c17d3e3
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-01-16T16:00:00+00:00'
+  last_sent: '2025-01-29T14:00:00+00:00'
+tags: []
+sends:
+- id: 7d0772a1-72fb-42ca-8e35-fc20734bcd70
+  channel: other
+  name: Variant 1
+- id: ed6ceb4c-cad2-4908-ac23-ac3af95942b5
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.529310'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:31.070514'
+schedule_type: action_based

@@ -1,0 +1,37 @@
+id: 5fccd566-2bb7-40e1-b32d-bd2d955aebc5
+name: P_EM_2026_06_03_BW_D_TPA_Daily_Catalog_POC_JAKE_ONLY
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 5fccd566-2bb7-40e1-b32d-bd2d955aebc5
+dates:
+  send_date: '2026-06-03'
+  first_sent: '2026-06-03T15:07:25+00:00'
+  last_sent: '2026-06-03T15:10:30+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: c59e3303-638e-4bb5-8db7-ee8790ea3e32
+  channel: email
+  name: Variant 1
+  subject: '{% if force_date %}{% assign email_id = force_date %}{% else %}{% assign
+    email_id = ''now'' | date: ''%Y%m%d'' %}{% endif %}{% catalog_items bur_poc_highlights
+    {{ email_id }} %}{% if items[0].subject_line == blank %}{% abort_message(''no
+    row for this date'') %}{% endif %}{{ items[0].subject_line }}'
+  preheader: '{% if force_date %}{% assign email_id = force_date %}{% else %}{% assign
+    email_id = ''now'' | date: ''%Y%m%d'' %}{% endif %}{% catalog_items bur_poc_highlights
+    {{ email_id }} %}{{ items[0].preheader }}'
+- id: da7c67ea-7138-4299-80a1-8199a54b7fdd
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 2
+  total_delivered: 2
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+schedule_type: time_based
+_filename: p_em_2026_06_03_bw_d_tpa_daily_catalog_poc_jake_only.yaml

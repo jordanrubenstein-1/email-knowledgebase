@@ -1,0 +1,40 @@
+id: 69a2228e-3dac-454f-90e7-79ce3aa9f85d
+name: P_2024_08_13_PT_HAV_Seg_Moes_Collection_Promo_Email
+brand: HAV
+channel: email
+category: product_launch
+type: sale
+theme: null
+braze_id: 69a2228e-3dac-454f-90e7-79ce3aa9f85d
+dates:
+  send_date: '2024-08-13'
+  inferred_send_type: scheduled
+  first_sent: '2024-09-14T21:35:01+00:00'
+  last_sent: '2024-09-14T21:35:13+00:00'
+tags: []
+sends:
+- id: fb7d21f0-17a5-4488-b194-e58c47c7e181
+  channel: email
+  name: Variant 1
+  subject: 20% Off Moe’s Home Collection |  Only at Havenly
+  html_file: html/p_2024_08_13_pt_hav_seg_moes_collection_promo_email.html
+  screenshot: screenshots/p_2024_08_13_pt_hav_seg_moes_collection_promo_email.png
+  image_urls:
+  - https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/c731630f24214e43807c7369ca8ebacd/Havenly_Wordmark_RGB_Charcoal_Brown%20%281%29.png
+- id: 27a1b7ae-85ad-49cc-84fc-9db5265092ea
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 203
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.040775'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.233987'
+schedule_type: time_based

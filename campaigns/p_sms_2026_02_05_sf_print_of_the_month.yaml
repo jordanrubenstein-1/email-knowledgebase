@@ -1,0 +1,37 @@
+id: fa3512cd-ac6b-45b9-8195-804c748ef7a5
+name: P_SMS_2026_02_05_SF_Print_of_the_Month
+brand: STF
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: fa3512cd-ac6b-45b9-8195-804c748ef7a5
+dates:
+  send_date: '2026-02-05'
+  inferred_send_type: local_time
+  first_sent: '2026-02-05T01:05:17+00:00'
+  last_sent: '2026-02-06T00:00:13+00:00'
+tags: []
+sends:
+- id: d6701c03-a68c-4122-9805-465aa9229f22
+  channel: sms
+  name: Variant 1
+- id: cf02ca45-ee3e-46ac-bd14-60aa7c23c625
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 4135
+  total_delivered: 4065
+  total_opens: 0
+  total_clicks: 160
+  open_rate: 0.0
+  click_rate: 0.0387
+  ga4:
+    sessions: 177
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.699532'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

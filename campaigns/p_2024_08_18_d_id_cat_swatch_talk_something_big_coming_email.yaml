@@ -1,0 +1,33 @@
+id: b4c7a62a-e935-4fd5-aaf3-3aad05fbb251
+name: P_2024_08_18_D_ID_CAT_Swatch_Talk_Something_Big_Coming_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: b4c7a62a-e935-4fd5-aaf3-3aad05fbb251
+dates:
+  send_date: '2024-08-18'
+  inferred_send_type: local_time
+  first_sent: '2024-08-18T04:00:03+00:00'
+  last_sent: '2024-08-19T00:00:11+00:00'
+tags: []
+sends:
+- id: df6e8f12-b230-4336-ad9a-6031171b5d7e
+  channel: email
+  name: Variant 1
+  subject: 'HINT HINT: Something big is coming'
+  preheader: Get free swatches now!
+- id: 1d1f7ea0-e40f-44b7-942b-fadb6b0510c0
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1039
+  total_delivered: 1039
+  total_opens: 668
+  total_clicks: 89
+  open_rate: 0.6429
+  click_rate: 0.0857
+  total_unsubscribes: 5
+_filename: p_2024_08_18_d_id_cat_swatch_talk_something_big_coming_email.yaml
+schedule_type: time_based

@@ -1,0 +1,68 @@
+id: 2ff5f4b4-c5c3-4346-8ec8-2b86c449202a
+name: P_EM_2025_09_28_PT_CZ_Archive_Sale_PM
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 2ff5f4b4-c5c3-4346-8ec8-2b86c449202a
+dates:
+  send_date: '2025-09-28'
+  inferred_send_type: local_time
+  first_sent: '2025-09-28T02:08:31+00:00'
+  last_sent: '2025-09-29T02:03:15+00:00'
+tags:
+- archive
+- batch and blast
+- pm
+- pt
+- sale
+sends:
+- id: 6635c9bf-b50b-4626-9a19-5abfcb4f3bbe
+  channel: email
+  name: Variant 1
+  subject: 'New Styles: Shop up to 65% off before they’re gone'
+  html_file: html/p_em_2025_09_28_pt_cz_archive_sale_pm.html
+  screenshot: screenshots/p_em_2025_09_28_pt_cz_archive_sale_pm.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f83def4631c700674e669c/original.png?1744322031
+- id: cb81cf31-27f3-470d-b1f1-806d4777b80d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 26246
+  total_delivered: 26187
+  total_opens: 18130
+  total_clicks: 1306
+  open_rate: 0.6908
+  click_rate: 0.0498
+  total_unsubscribes: 71
+  ga4:
+    sessions: 1643
+    purchases: 19
+    revenue: 11382.75
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.629238'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-weekender-sale-2025-09-26
+    name: Weekender Sale
+    start_date: '2025-09-26'
+    end_date: '2025-09-30'
+    discount: 20% Off Sitewide
+    type: null
+  primary_sale:
+    id: cz-weekender-sale-2025-09-26
+    name: Weekender Sale
+    start_date: '2025-09-26'
+    end_date: '2025-09-30'
+    discount: 20% Off Sitewide
+    type: null
+  sale_name: Weekender Sale
+  sale_discount: 20% Off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:44.751421'
+schedule_type: time_based

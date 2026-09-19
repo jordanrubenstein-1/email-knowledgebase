@@ -1,0 +1,48 @@
+id: ecd3e243-1f98-480d-8910-d39a12c99e7c
+name: P_2025_05_16_ID_Friday_Retail_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: ecd3e243-1f98-480d-8910-d39a12c99e7c
+dates:
+  send_date: '2025-05-16'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-16T20:43:59+00:00'
+  last_sent: '2025-05-16T20:44:22+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 07fe1b53-3411-44b9-ac99-8df054b190fa
+  channel: email
+  name: Variant 1
+  subject: 'Free Design Help? Yes, Please. '
+  preheader: Book your session with our design experts (spots are going fast) — and
+    enjoy 25% off everything.
+- id: 9a1a3fae-bc6a-4dab-a6d0-3d4cec574666
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 41743
+  total_delivered: 41586
+  total_opens: 19732
+  total_clicks: 294
+  open_rate: 0.4727
+  click_rate: 0.007
+  total_revenue: 57817.0
+  total_bounces: 1
+  total_unsubscribes: 40
+  ga4:
+    sessions: 233
+    purchases: 1
+    revenue: 3515.2
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.545377'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.821132'
+schedule_type: time_based

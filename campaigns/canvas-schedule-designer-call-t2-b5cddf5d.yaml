@@ -1,0 +1,31 @@
+id: b5cddf5d-0d00-476f-b05b-aa2d940ddb44
+name: TRG_EM_2026_09_HAV_CONV_PT_Schedule_Designer_Call_T2_V1
+brand: HAV
+channel: email
+category: editorial
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: b899c757-65b3-4987-90cb-74a8ef156eae
+canvas_name: Schedule Designer Call
+flow_type: other_flow
+sequence_position: 2
+subject: Why the Design Discovery call matters
+preheader: ''
+sends:
+- id: b5cddf5d-0d00-476f-b05b-aa2d940ddb44
+  channel: email
+  name: TRG_EM_2026_09_HAV_CONV_PT_Schedule_Designer_Call_T2_V1
+  subject: Why the Design Discovery call matters
+  preheader: ''
+  html_file: html/canvas-schedule-designer-call-t2-b5cddf5d.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-09-11T18:00:00Z'
+  last_sent: '2026-09-14T13:00:00Z'
+performance_summary:
+  total_sends: 5
+  total_delivered: 5
+  total_opens: 2
+  total_clicks: 0
+  open_rate: 0.4
+  click_rate: 0.0

@@ -1,0 +1,35 @@
+id: 5a0ca101-b793-440d-9299-7c8b16ec3c2e
+name: P_EM_2026_03_12_BW_PT_Early_Access_Ends_Test_PT_Variant
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 5a0ca101-b793-440d-9299-7c8b16ec3c2e
+dates:
+  send_date: '2026-03-12'
+  inferred_send_type: local_time
+  first_sent: '2026-03-11T20:08:55+00:00'
+  last_sent: '2026-03-12T20:00:52+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 152927f1-4ee4-497e-bc48-acb6bca48081
+  channel: email
+  name: Variant 1
+  subject: Early access ends tonight
+- id: 7d0f417c-c649-48b7-878f-6a8e199449f1
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 116388
+  total_delivered: 115653
+  total_opens: 61645
+  total_clicks: 291
+  open_rate: 0.5297
+  click_rate: 0.0025
+  total_revenue: 29555.0
+  total_bounces: 5
+  total_unsubscribes: 159
+_filename: p_em_2026_03_12_bw_pt_early_access_ends_test_pt_variant.yaml
+schedule_type: time_based

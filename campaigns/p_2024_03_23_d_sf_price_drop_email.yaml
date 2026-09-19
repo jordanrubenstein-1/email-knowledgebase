@@ -1,0 +1,40 @@
+id: 79e26a87-e8ed-4e2f-aada-9e17a6dabccb
+name: P_2024_03_23_D_SF_Price_Drop_Email
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 79e26a87-e8ed-4e2f-aada-9e17a6dabccb
+dates:
+  send_date: '2024-03-23'
+  last_sent: '2024-03-23'
+tags: []
+sends:
+- id: 51ea0ef4-769f-4fda-b1b0-dba2379c2d14
+  channel: email
+  name: Variant 1
+  subject: Your Crush Is On Sale ❤️‍🔥
+  preheader: claim it during The Spring Event
+  html_file: html/p_2024_03_23_d_sf_price_drop_email.html
+  screenshot: screenshots/p_2024_03_23_d_sf_price_drop_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676ef4e8c5114100649ae0ed/original.gif?1735324904
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dda09ad9b2820065a10198/original.gif?1742577818
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dda0327d215c007624ab63/original.gif?1742577714
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dda0d87d215c008624aa4e/original.png?1742577880
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676ef50a003ce80065642bb3/original.gif?1735324938
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dda5b8b4f23100664dc064/original.jpg?1742579127
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676ef4f11d798000647b7cec/original.jpg?1735324913
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dda01e5064cd006549eae7/original.gif?1742577694
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dda094d9b2820065a10196/original.gif?1742577812
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dda5bd47280a0066ee56e2/original.jpg?1742579133
+- id: cd314221-d743-4bd7-bde4-810d088d42b2
+  channel: other
+  name: Control Group
+performance_summary: {}
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.028390'
+schedule_type: time_based

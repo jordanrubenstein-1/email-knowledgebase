@@ -1,0 +1,60 @@
+id: 86229999-25a4-4895-b186-a1f798c5fb12
+name: P_2024_09_07_D_CZ_PR_LDW_One_More_Day_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 86229999-25a4-4895-b186-a1f798c5fb12
+dates:
+  send_date: '2024-09-07'
+  inferred_send_type: local_time
+  first_sent: '2024-09-06T21:38:55+00:00'
+  last_sent: '2024-09-07T17:00:21+00:00'
+tags:
+- batch and blast/promo
+sends:
+- id: ac147ab1-9d64-4986-b031-c6a56d7a695d
+  channel: email
+  name: Variant 1
+  subject: Our Biggest Sale Is Almost Over
+  preheader: Don't miss your chance to save 20% off sitewide.
+  html_file: html/p_2024_09_07_d_cz_pr_ldw_one_more_day_email.html
+  screenshot: screenshots/p_2024_09_07_d_cz_pr_ldw_one_more_day_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66db73da85a1230065fc091f/original.jpg?1725658074
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66db5d62179d7c0064dc40e2/original.jpg?1725652321
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66db73ae2191c900669736e2/original.jpg?1725658029
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66db73bd0f20eb00655c2383/original.jpg?1725658044
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66db73c71a9db200643def89/original.jpg?1725658055
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66db5d76179d7c0064dc40ee/original.jpg?1725652342
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66db49ea12af8f007339d7af/original.jpg?1725647338
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66db567c3c946200654e3dd7/original.jpg?1725650556
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66db4a25d71fb80065084b86/original.jpg?1725647397
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66db73cf1a9db200733dead4/original.jpg?1725658063
+- id: c8303d7d-92c1-4719-acdf-8b583dbc224c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 72772
+  total_delivered: 72496
+  total_opens: 40522
+  total_clicks: 1063
+  open_rate: 0.5568
+  click_rate: 0.0146
+  total_revenue: 159785.25
+  total_bounces: 4
+  total_unsubscribes: 101
+  ga4:
+    sessions: 1366
+    purchases: 28
+    revenue: 16480.17
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.876413'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:35.998717'
+schedule_type: time_based

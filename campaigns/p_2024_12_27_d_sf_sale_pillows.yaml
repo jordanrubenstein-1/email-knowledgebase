@@ -1,0 +1,81 @@
+id: 0837aec4-615a-4e54-b9bf-208194765fa3
+name: P_2024_12_27_D_SF_Sale_Pillows
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 0837aec4-615a-4e54-b9bf-208194765fa3
+dates:
+  send_date: '2024-12-27'
+  inferred_send_type: local_time
+  first_sent: '2024-12-26T17:09:47+00:00'
+  last_sent: '2024-12-27T17:00:20+00:00'
+tags: []
+sends:
+- id: 99598efc-ceca-46d8-bd80-3b96890ccf49
+  channel: email
+  name: Variant 1
+  subject: Pile on Print at 20% Off
+  preheader: snag your faves during our End of Year Sale
+  html_file: html/p_2024_12_27_d_sf_sale_pillows.html
+  screenshot: screenshots/p_2024_12_27_d_sf_sale_pillows.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6769dd5d0fbbc500643cc5f9/original.jpg?1734991197
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6769d8f15297000063b25aaa/original.gif?1734990065
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6769d9913870460066596aff/original.gif?1734990225
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6769d9210fbbc500643cc0da/original.gif?1734990113
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6769d96b1f851900652954ff/original.jpg?1734990187
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6769d9755297000063b25b9b/original.gif?1734990197
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6769d9855297000063b25baf/original.gif?1734990213
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6769d9db5479ee00658f1228/original.gif?1734990299
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67699965fb08fe00638da717/original.jpg?1734973797
+- id: 73b0a41a-7882-4b71-9fcb-d7a9beb2c038
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 3883
+  total_delivered: 3834
+  total_opens: 2102
+  total_clicks: 94
+  open_rate: 0.5413
+  click_rate: 0.0242
+  total_revenue: 1932.0
+  total_bounces: 1
+  total_unsubscribes: 8
+  ga4:
+    sessions: 74
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.649597'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-end-of-year-sale-2025-01-01
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-05'
+    discount: 20% off Sitewide + 30% Off Last Chance Patterns
+    type: null
+  - id: stf_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: stf-end-of-year-sale-2025-01-01
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-05'
+    discount: 20% off Sitewide + 30% Off Last Chance Patterns
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: 20% off Sitewide + 30% Off Last Chance Patterns
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:30.159893'
+schedule_type: time_based

@@ -1,0 +1,75 @@
+id: klaviyo-01JCNYZJDHR61032YY2SHQJQXT
+name: '11/16: BFCM Beds'
+brand: TI
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2024-11-14'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-16T07:00:00+00:00'
+  last_sent: '2024-11-16T07:00:00+00:00'
+sends:
+- id: 01JCNYZJEG8APZ24964SM60675
+  channel: email
+  name: '11/16: BFCM Beds'
+  subject: Don’t Sleep On These Savings
+  preheader: Our top bed picks, on sale now.
+  html_file: html/1116-bfcm-beds.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/c5349ce2-993d-4912-81a1-def6a6e7cfcf.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/e759981b-52c4-411a-958f-8c4f7d9327fc.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/cb797afd-cba5-4b2a-bbc7-c97aac729d62.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/49beb528-7326-4e2d-b9c4-a93dc7522b8f.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/3159e4ce-c12c-4dd3-9837-960e27fd8e16.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/4f7f1d34-e2a4-4fed-8510-997235e32d72.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/91b3c069-38d1-4578-9309-82b739dc4bc4.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/48f8b0bf-f674-4de6-83a6-f00ae0bfb57e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/4c794b49-b285-4d4e-be51-1b4c00ea20e5.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/ae28487e-1bda-48c7-865b-0cc622fea62f.jpeg
+  screenshot: screenshots/1116-bfcm-beds.png
+performance_summary:
+  total_sends: 103797
+  total_delivered: 103263
+  total_opens: 33824
+  total_clicks: 1317
+  unique_opens: 23480
+  unique_clicks: 139
+  open_rate: 0.2262
+  click_rate: 0.0013
+  total_open_rate: 0.3259
+  total_click_rate: 0.0127
+  total_unsubscribes: 44
+  total_bounces: 534
+klaviyo_type: campaign
+klaviyo_campaign_id: 01JCNYZJDHR61032YY2SHQJQXT
+klaviyo_message_id: 01JCNYZJEG8APZ24964SM60675
+structure:
+  image_count: 26
+  link_count: 27
+  has_gif: true
+  hero_width: 600
+  layout_type: product_grid
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: ti-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: ti-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-03-12T11:18:50.407889'

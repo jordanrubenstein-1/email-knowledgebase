@@ -1,0 +1,25 @@
+id: 70e1710c-197a-4366-b3db-ef0b3717015b
+name: TRG_EM_2025_03_CZ_D_Post_Purchase_Swatch_T3
+brand: CZ
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 39dd5934-499d-47b9-9b68-d413becf70d2
+canvas_name: Swatch Post Purchase
+flow_type: post_purchase
+sequence_position: 3
+subject: Thoughts on your swatches?
+preheader: ''
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-09-05T15:00:00Z'
+  last_sent: '2025-08-29T00:00:00Z'
+performance_summary: {}
+sends:
+- id: 70e1710c-197a-4366-b3db-ef0b3717015b
+  channel: email
+  name: TRG_EM_2025_03_CZ_D_Post_Purchase_Swatch_T3
+  subject: Thoughts on your swatches?
+  preheader: ''
+  html_file: html/canvas-swatch-post-purchase-t3-70e1710c.html

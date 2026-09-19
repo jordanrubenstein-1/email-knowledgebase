@@ -1,0 +1,35 @@
+id: 87dc58da-cc99-47ca-bea8-a908d977cac4
+name: 2025_03_18_HAV_PC_Birthday_Sale_Last_Chance_AM
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 87dc58da-cc99-47ca-bea8-a908d977cac4
+dates:
+  send_date: '2025-03-18'
+  first_sent: '2025-03-17T23:24:30+00:00'
+  last_sent: '2025-03-18T18:15:09+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 7a5b642c-c7a2-4dc1-af2b-2e4f884ecb2b
+  channel: email
+  name: Variant 1
+  subject: DON’T MISS THE PARTY!
+  preheader: 50% off design services ends tonight.
+- id: 93e77ac1-3503-4a62-9258-aebe62c67980
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 196973
+  total_delivered: 193264
+  total_opens: 85826
+  total_clicks: 420
+  open_rate: 0.4357
+  click_rate: 0.0021
+  total_bounces: 147
+  total_unsubscribes: 314
+schedule_type: time_based
+_filename: 2025_03_18_hav_pc_birthday_sale_last_chance_am.yaml

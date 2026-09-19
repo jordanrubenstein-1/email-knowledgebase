@@ -1,0 +1,30 @@
+id: 10754d67-baf8-4965-9357-a2b8f35768e9
+name: P_SMS_2026_01_27_ID_Winter_Refresh_Last_Chance
+brand: ID
+channel: sms
+category: reminder
+type: seasonal
+theme: winter
+braze_id: 10754d67-baf8-4965-9357-a2b8f35768e9
+dates:
+  send_date: '2026-01-27'
+  inferred_send_type: local_time
+  first_sent: '2026-01-27T01:09:11+00:00'
+  last_sent: '2026-01-28T01:02:25+00:00'
+tags: []
+sends:
+- id: 359abfe7-039f-4afa-82e6-150b755ce1f0
+  channel: sms
+  name: Variant 1
+- id: d0eb8da3-3d3d-453f-9f42-3373f759502a
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 49477
+  total_delivered: 47156
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 13770.0
+schedule_type: time_based

@@ -1,0 +1,58 @@
+id: 55303b16-d38f-40cc-beda-b6ee7bd14228
+name: P_2025_05_30_D_STF_MDW_Promo_UGC_Wallpaper
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 55303b16-d38f-40cc-beda-b6ee7bd14228
+dates:
+  send_date: '2025-05-30'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-30T03:17:20+00:00'
+  last_sent: '2025-05-30T17:00:47+00:00'
+tags: []
+sends:
+- id: cc9010ee-3a78-4d95-bf91-828341ac9b98
+  channel: email
+  name: Variant 1
+  subject: 'Wallpaper That Talks Back - 30% Off '
+  preheader: you made us look good
+  html_file: html/p_2025_05_30_d_stf_mdw_promo_ugc_wallpaper.html
+  screenshot: screenshots/p_2025_05_30_d_stf_mdw_promo_ugc_wallpaper.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68379b97101c520067169843/original.png?1748474774
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68379b56101c520067169720/original.png?1748474710
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68379b0c6f4580006656c2bc/original.png?1748474635
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68379b5b101c520067169721/original.png?1748474715
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68379b8f6f4580006656c4bf/original.png?1748474766
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68379ba2fc419200662f5591/original.png?1748474786
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68379b06101c520085168a6f/original.png?1748474630
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68379a9c5c74390065f6655f/original.png?1748474524
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68379b6239e2320064241593/original.png?1748474722
+- id: 4ea7d035-35f8-45af-b301-37533252edb8
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 26044
+  total_delivered: 25743
+  total_opens: 12888
+  total_clicks: 214
+  open_rate: 0.4949
+  click_rate: 0.0082
+  total_revenue: 14143.0
+  total_unsubscribes: 35
+  ga4:
+    sessions: 279
+    purchases: 4
+    revenue: 843.93
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.716362'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.100808'
+schedule_type: time_based

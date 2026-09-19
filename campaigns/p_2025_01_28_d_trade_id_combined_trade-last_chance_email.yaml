@@ -1,0 +1,35 @@
+id: 4820229c-70e1-4aef-88d2-2e42387519d5
+name: P_2025_01_28_D_TRADE_ID_Combined_Trade Last_Chance_Email
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 4820229c-70e1-4aef-88d2-2e42387519d5
+dates:
+  send_date: '2025-01-28'
+  inferred_send_type: scheduled
+  first_sent: '2025-01-28T20:25:00+00:00'
+  last_sent: '2025-01-28T20:25:29+00:00'
+tags: []
+sends:
+- id: b79ce99f-cc8a-43a1-879a-c81f62f637b3
+  channel: email
+  name: Variant 1
+  subject: Last Call For Trade-Only Discounts
+  preheader: Get up to 25% off our partner brands.
+- id: a08c1306-bc08-437f-884f-b674f445fe0c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 16860
+  total_delivered: 16510
+  total_opens: 5186
+  total_clicks: 216
+  open_rate: 0.3076
+  click_rate: 0.0128
+  total_revenue: 170020.0
+  total_bounces: 8
+  total_unsubscribes: 21
+_filename: p_2025_01_28_d_trade_id_combined_trade-last_chance_email.yaml
+schedule_type: time_based

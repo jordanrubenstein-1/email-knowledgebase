@@ -1,0 +1,62 @@
+id: 384fcb30-e32a-478f-b765-05602cf5fac7
+name: P_EM_2025_08_26_CZ_TRADE_D_Fall_Preview
+brand: CZ
+channel: email
+category: other
+type: seasonal
+theme: fall
+braze_id: 384fcb30-e32a-478f-b765-05602cf5fac7
+dates:
+  send_date: '2025-08-26'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-26T20:22:27+00:00'
+  last_sent: '2025-08-26T20:24:55+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 8931b834-6b6f-4a38-8a77-cd6c6d1726da
+  channel: email
+  name: Variant 1
+  subject: 'Just In From The Citizenry: The Fall Preview'
+  preheader: Cozy up to a new season at home.
+- id: 6a6354e5-4c5b-4388-b403-502daa2bcca1
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 19847
+  total_delivered: 19263
+  total_opens: 10290
+  total_clicks: 151
+  open_rate: 0.5185
+  click_rate: 0.0076
+  total_revenue: 219371.0
+  total_bounces: 7
+  total_unsubscribes: 44
+  ga4:
+    sessions: 175
+    purchases: 1
+    revenue: 274.28
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.429169'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-02'
+    discount: 20% off Sitewide
+    type: null
+  primary_sale:
+    id: cz-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-02'
+    discount: 20% off Sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 20% off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:30.771647'

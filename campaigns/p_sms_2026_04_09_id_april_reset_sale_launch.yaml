@@ -1,0 +1,30 @@
+id: 1df93fd3-c148-4081-a6e7-7379e9b413e5
+name: P_SMS_2026_04_09_ID_April_Reset_Sale_Launch
+brand: ID
+channel: sms
+category: product_launch
+type: sale
+theme: null
+braze_id: 1df93fd3-c148-4081-a6e7-7379e9b413e5
+dates:
+  send_date: '2026-04-09'
+  inferred_send_type: local_time
+  first_sent: '2026-04-09T02:07:15+00:00'
+  last_sent: '2026-04-09T18:00:00+00:00'
+tags: []
+sends:
+- id: 163a8943-c1aa-48ad-9ea6-eaf11e48aa80
+  channel: sms
+  name: Variant 1
+- id: 0623ef31-9cb7-4036-abda-67fa6685388b
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 49537
+  total_delivered: 47079
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 32159.99
+schedule_type: time_based

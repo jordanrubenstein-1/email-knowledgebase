@@ -1,0 +1,32 @@
+id: dced3651-861b-4ceb-ad29-b8f76c470f1f
+name: P_EM_2025_08_29_HAV_CONV_Labor_Day_Design_Check_In_PM_PT
+brand: HAV
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: dced3651-861b-4ceb-ad29-b8f76c470f1f
+dates:
+  send_date: '2025-08-29'
+  first_sent: '2025-08-29T18:00:05+00:00'
+  last_sent: '2025-08-29T18:02:17+00:00'
+  inferred_send_type: scheduled
+tags:
+- BLASTS-2025
+sends:
+- id: 0f1417a3-5cf2-45ae-9d23-9590ab192bbb
+  channel: email
+  name: Variant 1
+  subject: Design Project Check-in
+- id: e2d1abd5-c427-4091-8c64-0df1db3c3fa2
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 38
+  total_delivered: 38
+  total_opens: 35
+  total_clicks: 1
+  open_rate: 0.9211
+  click_rate: 0.0263
+schedule_type: time_based
+_filename: p_em_2025_08_29_hav_conv_labor_day_design_check_in_pm_pt.yaml

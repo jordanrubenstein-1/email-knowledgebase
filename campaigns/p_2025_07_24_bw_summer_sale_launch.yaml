@@ -1,0 +1,79 @@
+id: 7f8bfe1e-4bc2-4345-a385-672d6dc1c7ca
+name: P_2025_07_24_BW_Summer_Sale_Launch
+brand: BUR
+channel: email
+category: product_launch
+type: sale
+theme: summer
+braze_id: 7f8bfe1e-4bc2-4345-a385-672d6dc1c7ca
+dates:
+  send_date: '2025-07-24'
+  inferred_send_type: local_time
+  first_sent: '2025-07-23T22:41:58+00:00'
+  last_sent: '2025-07-24T17:17:17+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 5da1adc2-ab4e-4b38-b4ca-831b85449e2c
+  channel: email
+  name: Variant 1
+  subject: 'HEATING UP: Shop 25% Off + Free Shipping'
+  preheader: Our Summer Sale is HERE
+- id: fd62849c-93b1-487c-a534-bbd53792b8fd
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 253681
+  total_delivered: 251448
+  total_opens: 144294
+  total_clicks: 294
+  open_rate: 0.5688
+  click_rate: 0.0012
+  total_revenue: 15837.25
+  total_bounces: 3
+  total_unsubscribes: 529
+  ga4:
+    sessions: 195
+    purchases: 4
+    revenue: 7259.8
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.180608'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-the-summer-sale-2025-07-24
+    name: The Summer Sale
+    start_date: '2025-07-24'
+    end_date: '2025-07-31'
+    discount: '25% off sitewide
+
+      Free ground shipping on orders >$2k (excl. Pro)'
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-the-summer-sale-2025-07-24
+    name: The Summer Sale
+    start_date: '2025-07-24'
+    end_date: '2025-07-31'
+    discount: '25% off sitewide
+
+      Free ground shipping on orders >$2k (excl. Pro)'
+    type: null
+  sale_name: The Summer Sale
+  sale_discount: '25% off sitewide
+
+    Free ground shipping on orders >$2k (excl. Pro)'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:38.650055'
+schedule_type: time_based

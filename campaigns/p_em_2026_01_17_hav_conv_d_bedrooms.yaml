@@ -1,0 +1,35 @@
+id: 3f488ef5-f35a-4e53-b0ad-2af92e564191
+name: P_EM_2026_01_17_HAV_CONV_D_Bedrooms
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 3f488ef5-f35a-4e53-b0ad-2af92e564191
+dates:
+  send_date: '2026-01-17'
+  first_sent: '2026-01-16T23:55:36+00:00'
+  last_sent: '2026-01-17T21:04:15+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 1df1c4a2-2b7a-4065-b20f-f4622402efc7
+  channel: email
+  name: Variant 1
+  subject: Sweet Dreams Start Here. Up to 35% Off.
+  preheader: Design a bedroom you won’t want to leave.
+- id: a5b82d03-cc98-478a-9558-f0b9e6228afc
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 43166
+  total_delivered: 43128
+  total_opens: 22327
+  total_clicks: 113
+  open_rate: 0.5172
+  click_rate: 0.0026
+  total_bounces: 1
+  total_unsubscribes: 45
+schedule_type: time_based
+_filename: p_em_2026_01_17_hav_conv_d_bedrooms.yaml

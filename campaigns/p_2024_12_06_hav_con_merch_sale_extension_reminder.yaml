@@ -1,0 +1,58 @@
+id: 28530299-96d0-4e8a-9447-ebcc4c3fb981
+name: P_2024_12_06_HAV_CON_Merch_Sale_Extension_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 28530299-96d0-4e8a-9447-ebcc4c3fb981
+dates:
+  send_date: '2024-12-06'
+  inferred_send_type: local_time
+  first_sent: '2024-12-06T02:00:32+00:00'
+  last_sent: '2024-12-06T17:15:10+00:00'
+tags: []
+sends:
+- id: a9ab509c-74c9-46af-b895-66cee2befb7e
+  channel: email
+  name: Variant 1
+  subject: Weekend Plans? Shop The Sale!
+  preheader: Get up to 15% off full-priced items while you can.
+  html_file: html/p_2024_12_06_hav_con_merch_sale_extension_reminder_email.html
+  screenshot: screenshots/p_2024_12_06_hav_con_merch_sale_extension_reminder_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6735098ede61a400649c1a7a/original.gif?1731529102
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67522531149f4400659e1589/original.png?1733436720
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6749eae1c94beb0064089fec/original.png?1732897505
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6752215a1c9d0f00663657e9/original.png?1733435738
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6749eb52d00a93006366bdfa/original.png?1732897618
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6749eb123aae0b006302a7d3/original.png?1732897553
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673509a6d3e8b400655f49b1/original.gif?1731529126
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/675226aaaa2b2600634c3a14/original.png?1733437098
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6749eaccf6c54f006474d38d/original.png?1732897484
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6749eb2b3aae0b006302a7e5/original.png?1732897578
+- id: 0ba770ef-39d5-4cc1-a3a7-9686024140bf
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 35972
+  total_delivered: 35916
+  total_opens: 19856
+  total_clicks: 109
+  open_rate: 0.552
+  click_rate: 0.003
+  total_bounces: 1
+  total_unsubscribes: 53
+  ga4:
+    sessions: 70
+    purchases: 1
+    revenue: 199.9
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.794627'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.646204'
+schedule_type: time_based

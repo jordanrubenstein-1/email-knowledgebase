@@ -1,0 +1,74 @@
+id: 2bb65455-6b63-4c86-a858-0d082fc74205
+name: P_2024_11_24_D_SF_PR_Designer_Home_Microsoft_Email
+brand: STF
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 2bb65455-6b63-4c86-a858-0d082fc74205
+dates:
+  send_date: '2024-11-24'
+  inferred_send_type: local_time
+  first_sent: '2024-11-23T17:37:18+00:00'
+  last_sent: '2024-11-24T15:30:04+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: a6a1cb7c-5400-40b2-9ad5-eecc870f2bdd
+  channel: email
+  name: Variant 1
+  subject: Step Inside Our Pattern-Filled Dream Home
+  preheader: chez St. Frank
+  html_file: html/p_2024_11_24_d_sf_pr_designer_home_microsoft_email.html
+  screenshot: screenshots/p_2024_11_24_d_sf_pr_designer_home_microsoft_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674100c2745f9a0065680a92/original.gif?1732313282
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67379b6ce0f83e0064150bfa/original.jpg?1731697516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674100d41dc1b70065b05ed3/original.gif?1732313300
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67410098f4e4fc00646d14de/original.gif?1732313240
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67379c6f8dcbcb006680ca41/original.gif?1731697775
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6740b2cc9b840e0065ac2d09/original.gif?1732293324
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/674100fbb4a67f0075a17fab/original.gif?1732313339
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6740b3120396820063809d3a/original.jpg?1732293394
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6740f620e132400064d38e92/original.jpg?1732310559
+- id: b9a3000f-3070-4d26-b3da-72e91239e8ed
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 300
+  total_delivered: 300
+  total_opens: 86
+  total_clicks: 7
+  open_rate: 0.2867
+  click_rate: 0.0233
+  total_revenue: 87.5
+  ga4:
+    sessions: 14
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.700313'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: stf-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:31.531757'
+schedule_type: time_based

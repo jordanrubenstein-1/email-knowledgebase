@@ -1,0 +1,45 @@
+id: a666fab6-d8a5-4e01-9879-8852265d17dc
+name: P_2024_08_27_D_ID_CAT_LDW_Swatch_Talk_Email
+brand: ID
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: a666fab6-d8a5-4e01-9879-8852265d17dc
+dates:
+  send_date: '2024-08-27'
+  inferred_send_type: local_time
+  first_sent: '2024-08-26T23:01:33+00:00'
+  last_sent: '2024-08-27T14:05:01+00:00'
+tags: []
+sends:
+- id: bbd67eb9-595c-4bb5-ab26-08e745079a2a
+  channel: email
+  name: Variant 1
+  subject: 'Swatch talk: Sale edition'
+  preheader: Take up to 25% off fan-favorite fabrics.
+- id: 79d539ea-e394-4161-8191-fa6c05b1f7b7
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 35219
+  total_delivered: 35111
+  total_opens: 13676
+  total_clicks: 310
+  open_rate: 0.3883
+  click_rate: 0.0088
+  total_bounces: 3
+  total_unsubscribes: 64
+  ga4:
+    sessions: 361
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.192772'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.475216'
+schedule_type: time_based

@@ -1,0 +1,29 @@
+id: 28a47aa8-e6f0-4d6b-a4bc-8645e6a797fe
+name: P_SMS_2026_05_27_SF_Memorial_Day_Event_Last_Day
+brand: STF
+channel: sms
+category: reminder
+type: announcement
+theme: null
+braze_id: 28a47aa8-e6f0-4d6b-a4bc-8645e6a797fe
+dates:
+  send_date: '2026-05-27'
+  last_sent: '2026-05-27'
+tags: []
+sends:
+- id: 2db10765-8ea6-41dd-b0c5-488173203c81
+  channel: sms
+  name: Variant 1
+- id: 098c5dd6-ccc1-4ddc-9e2a-3a84af4c6fab
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 4352
+  total_delivered: 4253
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 18.0
+schedule_type: time_based
+_filename: p_sms_2026_05_27_sf_memorial_day_event_last_day.yaml

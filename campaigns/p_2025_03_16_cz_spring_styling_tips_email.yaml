@@ -1,0 +1,59 @@
+id: 14e0e5ea-ef9b-42e4-a054-f0aade984213
+name: P_2025_03_16_CZ_Spring_Styling_Tips_Email
+brand: CZ
+channel: email
+category: editorial
+type: seasonal
+theme: spring
+braze_id: 14e0e5ea-ef9b-42e4-a054-f0aade984213
+dates:
+  send_date: '2025-03-16'
+  inferred_send_type: local_time
+  first_sent: '2025-03-16T00:51:54+00:00'
+  last_sent: '2025-03-16T17:01:06+00:00'
+tags: []
+sends:
+- id: 4a69a586-9a31-45aa-8609-89602e3f87d5
+  channel: email
+  name: Variant 1
+  subject: Designer-Approved Spring Styling Tips
+  preheader: Refresh your space with up to 30% off select styles.
+  html_file: html/p_2025_03_16_cz_spring_styling_tips_email.html
+  screenshot: screenshots/p_2025_03_16_cz_spring_styling_tips_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d4bca22338370064ade2ff/original.png?1741995170
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0d21872d82d0068a9187d/original.png?1741738520
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0da796380bd0064fa96f6/original.png?1741740664
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d4bde2bb33170065fee369/original.png?1741995490
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d30342903ad600661de33c/original.png?1741882177
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d4bcb2e67ad1006678a0e0/original.png?1741995185
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d3035096fce90076a0d5d0/original.png?1741882191
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0d6b83f7a830067be4efd/original.png?1741739704
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0da698bd1170075ffaeb3/original.png?1741740649
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0d6e48bd1170066ffe255/original.png?1741739748
+- id: 294cbd44-5909-461d-8da1-3342d89c1da7
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 91467
+  total_delivered: 90684
+  total_opens: 48203
+  total_clicks: 507
+  open_rate: 0.527
+  click_rate: 0.0055
+  total_revenue: 67350.94
+  total_bounces: 1
+  total_unsubscribes: 129
+  ga4:
+    sessions: 649
+    purchases: 6
+    revenue: 1901.05
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.499423'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.126857'
+schedule_type: time_based

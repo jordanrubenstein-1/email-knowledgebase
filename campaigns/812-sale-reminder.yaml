@@ -1,0 +1,58 @@
+id: klaviyo-01J4Q9TAJEB18Y7MW1S5QFDYC1
+name: '8/12: Sale Reminder'
+brand: TI
+channel: email
+category: reminder
+type: sale
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2024-08-07'
+  inferred_send_type: scheduled
+  first_sent: '2024-08-12T07:15:00+00:00'
+  last_sent: '2024-08-12T07:15:00+00:00'
+sends:
+- id: 01J4Q9TAP6F0XK0515PXQ8Y5RP
+  channel: email
+  name: '8/12: Sale Reminder'
+  subject: This sale is BRIGHT 😎
+  preheader: Save before the sun sets
+  html_file: html/812-sale-reminder.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/bfcd097e-ea86-4bf1-94dc-725bc68d44c0.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/6d166095-660d-4371-ba16-13df0bfe6248.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/83ac3a72-8629-40e1-8103-37d6c4dcfb94.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/a357017e-6aaf-421d-8247-6a8acd9970b8.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/dd36b13d-2821-4d7a-b5cf-8427bcae637d.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/0b5e742a-5c54-44d9-9c80-ebfdc08fe5d8.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/a1255019-940a-42d5-a930-3557ccee018a.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/ed9f6698-4aef-4a25-810d-3e1a0b84f43b.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/48f8b0bf-f674-4de6-83a6-f00ae0bfb57e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/0bbad023-9c58-48b4-8de9-8b141454c906.jpeg
+  screenshot: screenshots/812-sale-reminder.png
+performance_summary:
+  total_sends: 105053
+  total_delivered: 104571
+  total_opens: 30106
+  total_clicks: 1645
+  unique_opens: 21811
+  unique_clicks: 731
+  open_rate: 0.2076
+  click_rate: 0.007
+  total_open_rate: 0.2866
+  total_click_rate: 0.0157
+  total_unsubscribes: 68
+  total_bounces: 482
+klaviyo_type: campaign
+klaviyo_campaign_id: 01J4Q9TAJEB18Y7MW1S5QFDYC1
+klaviyo_message_id: 01J4Q9TAP6F0XK0515PXQ8Y5RP
+structure:
+  image_count: 20
+  link_count: 21
+  has_gif: false
+  hero_width: 600
+  layout_type: product_grid
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-03-12T11:18:50.172758'

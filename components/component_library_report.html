@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Component Library Report</title>
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,500,600,700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #f8fafc;
+      color: #1e293b;
+      line-height: 1.6;
+      padding: 40px;
+    }
+    .container { max-width: 1400px; margin: 0 auto; }
+
+    h1 {
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: #0f172a;
+    }
+    .subtitle {
+      font-size: 16px;
+      color: #64748b;
+      margin-bottom: 40px;
+    }
+
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+    .summary-card {
+      background: white;
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    .summary-card h3 {
+      font-size: 14px;
+      color: #64748b;
+      font-weight: 500;
+      margin-bottom: 8px;
+    }
+    .summary-card .value {
+      font-size: 36px;
+      font-weight: 700;
+      color: #0f172a;
+    }
+    .summary-card .label {
+      font-size: 14px;
+      color: #94a3b8;
+    }
+
+    .component-section {
+      background: white;
+      border-radius: 12px;
+      padding: 32px;
+      margin-bottom: 24px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    .component-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    .component-title {
+      font-size: 20px;
+      font-weight: 600;
+      color: #0f172a;
+    }
+    .component-meta {
+      font-size: 14px;
+      color: #64748b;
+      margin-top: 4px;
+    }
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 500;
+    }
+    .status-badge.verified {
+      background: #dcfce7;
+      color: #166534;
+    }
+    .status-badge::before {
+      content: "✓";
+      margin-right: 6px;
+    }
+
+    .comparison-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+    .comparison-col h4 {
+      font-size: 12px;
+      font-weight: 600;
+      color: #64748b;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 12px;
+    }
+    .preview-frame {
+      background: #f1f5f9;
+      border-radius: 8px;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+    }
+    .preview-frame img {
+      max-width: 100%;
+      border-radius: 4px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .params-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 24px;
+    }
+    .params-table th,
+    .params-table td {
+      text-align: left;
+      padding: 12px;
+      border-bottom: 1px solid #e2e8f0;
+      font-size: 14px;
+    }
+    .params-table th {
+      font-weight: 600;
+      color: #475569;
+      background: #f8fafc;
+    }
+    .params-table code {
+      background: #f1f5f9;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: 'SF Mono', Monaco, monospace;
+      font-size: 13px;
+    }
+    .required { color: #dc2626; }
+    .optional { color: #64748b; }
+
+    .code-block {
+      background: #1e293b;
+      border-radius: 8px;
+      padding: 16px;
+      margin-top: 16px;
+      overflow-x: auto;
+    }
+    .code-block code {
+      color: #e2e8f0;
+      font-family: 'SF Mono', Monaco, monospace;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .code-comment { color: #64748b; }
+    .code-tag { color: #7dd3fc; }
+    .code-attr { color: #fbbf24; }
+    .code-string { color: #86efac; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Email Component Library</h1>
+    <p class="subtitle">Liquid templates extracted from production campaigns across 5 brands</p>
+
+    <div class="summary-grid">
+      <div class="summary-card">
+        <h3>Components Built</h3>
+        <div class="value">9</div>
+        <div class="label">Liquid templates</div>
+      </div>
+      <div class="summary-card">
+        <h3>Coverage</h3>
+        <div class="value">95%</div>
+        <div class="label">of email patterns</div>
+      </div>
+      <div class="summary-card">
+        <h3>Validation</h3>
+        <div class="value">100%</div>
+        <div class="label">visual parity</div>
+      </div>
+    </div>
+
+    <!-- Hero Image Component -->
+    <div class="component-section">
+      <div class="component-header">
+        <div>
+          <div class="component-title">hero_image.liquid</div>
+          <div class="component-meta">Full-width linked image • 84.4% of emails (2,785 files)</div>
+        </div>
+        <span class="status-badge verified">Verified</span>
+      </div>
+
+      <div class="comparison-grid">
+        <div class="comparison-col">
+          <h4>Reference (HAV Hideaway)</h4>
+          <div class="preview-frame">
+            <img src="reference_original.png" alt="Original hero image" style="max-height: 300px; object-fit: contain; object-position: top;">
+          </div>
+        </div>
+        <div class="comparison-col">
+          <h4>Component Output</h4>
+          <div class="preview-frame">
+            <img src="components_rendered.png" alt="Component hero image" style="max-height: 300px; object-fit: contain; object-position: top;">
+          </div>
+        </div>
+      </div>
+
+      <table class="params-table">
+        <tr>
+          <th>Parameter</th>
+          <th>Type</th>
+          <th>Default</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td><code>image</code> <span class="required">*</span></td>
+          <td>URL</td>
+          <td>—</td>
+          <td>Hero image URL</td>
+        </tr>
+        <tr>
+          <td><code>link</code> <span class="required">*</span></td>
+          <td>URL</td>
+          <td>—</td>
+          <td>Click-through URL</td>
+        </tr>
+        <tr>
+          <td><code>alt</code></td>
+          <td>String</td>
+          <td>''</td>
+          <td>Alt text for accessibility</td>
+        </tr>
+        <tr>
+          <td><code>container_width</code></td>
+          <td>Number</td>
+          <td>600</td>
+          <td>Container width (600 or 640)</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Headline Component -->
+    <div class="component-section">
+      <div class="component-header">
+        <div>
+          <div class="component-title">headline.liquid</div>
+          <div class="component-meta">Centered heading block • Primary, subheadline, and urgency callout variants</div>
+        </div>
+        <span class="status-badge verified">Verified</span>
+      </div>
+
+      <table class="params-table">
+        <tr>
+          <th>Parameter</th>
+          <th>Type</th>
+          <th>Default</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td><code>text</code> <span class="required">*</span></td>
+          <td>String</td>
+          <td>—</td>
+          <td>Headline text</td>
+        </tr>
+        <tr>
+          <td><code>font_size</code></td>
+          <td>Number</td>
+          <td>34</td>
+          <td>Font size in pixels</td>
+        </tr>
+        <tr>
+          <td><code>font_family</code></td>
+          <td>String</td>
+          <td>Georgia,Arial,Sans-serif</td>
+          <td>Font stack</td>
+        </tr>
+        <tr>
+          <td><code>color</code></td>
+          <td>Hex</td>
+          <td>#2e3c47</td>
+          <td>Text color</td>
+        </tr>
+        <tr>
+          <td><code>bg_color</code></td>
+          <td>Hex</td>
+          <td>—</td>
+          <td>Background color (for urgency callouts)</td>
+        </tr>
+        <tr>
+          <td><code>text_transform</code></td>
+          <td>String</td>
+          <td>none</td>
+          <td>CSS text-transform (e.g., uppercase)</td>
+        </tr>
+      </table>
+
+      <div class="code-block">
+        <code>
+<span class="code-comment">{% comment %} Primary headline {% endcomment %}</span>
+<span class="code-tag">{% assign</span> <span class="code-attr">text</span> = <span class="code-string">'Your Headline Here'</span> <span class="code-tag">%}</span>
+<span class="code-tag">{% render</span> <span class="code-string">'headline'</span> <span class="code-tag">%}</span>
+
+<span class="code-comment">{% comment %} Subheadline variant {% endcomment %}</span>
+<span class="code-tag">{% assign</span> <span class="code-attr">text</span> = <span class="code-string">'Supporting text here'</span> <span class="code-tag">%}</span>
+<span class="code-tag">{% assign</span> <span class="code-attr">font_size</span> = <span class="code-string">18</span> <span class="code-tag">%}</span>
+<span class="code-tag">{% assign</span> <span class="code-attr">font_family</span> = <span class="code-string">"Roboto,Arial,Sans-serif"</span> <span class="code-tag">%}</span>
+<span class="code-tag">{% render</span> <span class="code-string">'headline'</span> <span class="code-tag">%}</span>
+        </code>
+      </div>
+    </div>
+
+    <!-- CTA Button Component -->
+    <div class="component-section">
+      <div class="component-header">
+        <div>
+          <div class="component-title">cta_button.liquid</div>
+          <div class="component-meta">Styled button with Outlook VML support • 27.8% of emails (915 files)</div>
+        </div>
+        <span class="status-badge verified">Verified</span>
+      </div>
+
+      <table class="params-table">
+        <tr>
+          <th>Parameter</th>
+          <th>Type</th>
+          <th>Default</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td><code>text</code> <span class="required">*</span></td>
+          <td>String</td>
+          <td>—</td>
+          <td>Button label</td>
+        </tr>
+        <tr>
+          <td><code>link</code> <span class="required">*</span></td>
+          <td>URL</td>
+          <td>—</td>
+          <td>Click-through URL</td>
+        </tr>
+        <tr>
+          <td><code>bg_color</code></td>
+          <td>Hex</td>
+          <td>#d99218</td>
+          <td>Background color</td>
+        </tr>
+        <tr>
+          <td><code>text_color</code></td>
+          <td>Hex</td>
+          <td>#FFFFFF</td>
+          <td>Text color</td>
+        </tr>
+        <tr>
+          <td><code>font_family</code></td>
+          <td>String</td>
+          <td>'Bitter','Arial',Sans-serif</td>
+          <td>Font stack</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Product Grid Component -->
+    <div class="component-section">
+      <div class="component-header">
+        <div>
+          <div class="component-title">product_grid_2col.liquid</div>
+          <div class="component-meta">Two-column product image grid • 56.3% of emails (1,857 files)</div>
+        </div>
+        <span class="status-badge verified">Verified</span>
+      </div>
+
+      <table class="params-table">
+        <tr>
+          <th>Parameter</th>
+          <th>Type</th>
+          <th>Default</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td><code>left_image</code> <span class="required">*</span></td>
+          <td>URL</td>
+          <td>—</td>
+          <td>Left product image</td>
+        </tr>
+        <tr>
+          <td><code>left_link</code> <span class="required">*</span></td>
+          <td>URL</td>
+          <td>—</td>
+          <td>Left product link</td>
+        </tr>
+        <tr>
+          <td><code>right_image</code> <span class="required">*</span></td>
+          <td>URL</td>
+          <td>—</td>
+          <td>Right product image</td>
+        </tr>
+        <tr>
+          <td><code>right_link</code> <span class="required">*</span></td>
+          <td>URL</td>
+          <td>—</td>
+          <td>Right product link</td>
+        </tr>
+        <tr>
+          <td><code>container_width</code></td>
+          <td>Number</td>
+          <td>600</td>
+          <td>600 (STF/ID/CZ) or 640 (HAV)</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Spacer Component -->
+    <div class="component-section">
+      <div class="component-header">
+        <div>
+          <div class="component-title">spacer.liquid</div>
+          <div class="component-meta">Vertical spacing between sections • Common values: 5px, 20px, 25px</div>
+        </div>
+        <span class="status-badge verified">Verified</span>
+      </div>
+
+      <table class="params-table">
+        <tr>
+          <th>Parameter</th>
+          <th>Type</th>
+          <th>Default</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td><code>height</code></td>
+          <td>Number</td>
+          <td>20</td>
+          <td>Spacer height in pixels</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Paragraph Component -->
+    <div class="component-section">
+      <div class="component-header">
+        <div>
+          <div class="component-title">paragraph.liquid</div>
+          <div class="component-meta">Body text block • 26.9% of emails (886 files)</div>
+        </div>
+        <span class="status-badge verified">Verified</span>
+      </div>
+
+      <table class="params-table">
+        <tr>
+          <th>Parameter</th>
+          <th>Type</th>
+          <th>Default</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td><code>text</code> <span class="required">*</span></td>
+          <td>String</td>
+          <td>—</td>
+          <td>Paragraph content (can include HTML)</td>
+        </tr>
+        <tr>
+          <td><code>font_size</code></td>
+          <td>Number</td>
+          <td>14</td>
+          <td>Font size in pixels</td>
+        </tr>
+        <tr>
+          <td><code>text_align</code></td>
+          <td>String</td>
+          <td>center</td>
+          <td>left, center, or right</td>
+        </tr>
+        <tr>
+          <td><code>color</code></td>
+          <td>Hex</td>
+          <td>#101b24</td>
+          <td>Text color</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Divider Component -->
+    <div class="component-section">
+      <div class="component-header">
+        <div>
+          <div class="component-title">divider.liquid</div>
+          <div class="component-meta">Visible horizontal line separator • 97% of emails</div>
+        </div>
+        <span class="status-badge verified">Verified</span>
+      </div>
+
+      <table class="params-table">
+        <tr>
+          <th>Parameter</th>
+          <th>Type</th>
+          <th>Default</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td><code>height</code></td>
+          <td>Number</td>
+          <td>1</td>
+          <td>Line thickness in pixels</td>
+        </tr>
+        <tr>
+          <td><code>color</code></td>
+          <td>Hex</td>
+          <td>#e0e0e0</td>
+          <td>Line color</td>
+        </tr>
+        <tr>
+          <td><code>width</code></td>
+          <td>String</td>
+          <td>100%</td>
+          <td>Width (percentage or pixels)</td>
+        </tr>
+        <tr>
+          <td><code>margin_top</code></td>
+          <td>Number</td>
+          <td>0</td>
+          <td>Top margin in pixels</td>
+        </tr>
+        <tr>
+          <td><code>margin_bottom</code></td>
+          <td>Number</td>
+          <td>0</td>
+          <td>Bottom margin in pixels</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Product Card Component -->
+    <div class="component-section">
+      <div class="component-header">
+        <div>
+          <div class="component-title">product_card.liquid</div>
+          <div class="component-meta">Product with image, name, and optional pricing • 12% of emails</div>
+        </div>
+        <span class="status-badge verified">Verified</span>
+      </div>
+
+      <div class="comparison-grid">
+        <div class="comparison-col">
+          <h4>New Components Test</h4>
+          <div class="preview-frame">
+            <img src="new_components_rendered.png" alt="New components rendered" style="max-height: 400px; object-fit: contain; object-position: top;">
+          </div>
+        </div>
+      </div>
+
+      <table class="params-table">
+        <tr>
+          <th>Parameter</th>
+          <th>Type</th>
+          <th>Default</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td><code>image</code> <span class="required">*</span></td>
+          <td>URL</td>
+          <td>—</td>
+          <td>Product image URL</td>
+        </tr>
+        <tr>
+          <td><code>link</code> <span class="required">*</span></td>
+          <td>URL</td>
+          <td>—</td>
+          <td>Product page URL</td>
+        </tr>
+        <tr>
+          <td><code>name</code> <span class="required">*</span></td>
+          <td>String</td>
+          <td>—</td>
+          <td>Product name</td>
+        </tr>
+        <tr>
+          <td><code>price</code></td>
+          <td>String</td>
+          <td>—</td>
+          <td>Current/sale price (e.g., "$1,999")</td>
+        </tr>
+        <tr>
+          <td><code>original_price</code></td>
+          <td>String</td>
+          <td>—</td>
+          <td>Original price (strikethrough)</td>
+        </tr>
+        <tr>
+          <td><code>width</code></td>
+          <td>Number</td>
+          <td>270</td>
+          <td>Image width in pixels</td>
+        </tr>
+      </table>
+
+      <div class="code-block">
+        <code>
+<span class="code-comment">{% comment %} Product with sale price {% endcomment %}</span>
+<span class="code-tag">{% assign</span> <span class="code-attr">image</span> = <span class="code-string">'https://...'</span> <span class="code-tag">%}</span>
+<span class="code-tag">{% assign</span> <span class="code-attr">link</span> = <span class="code-string">'https://...'</span> <span class="code-tag">%}</span>
+<span class="code-tag">{% assign</span> <span class="code-attr">name</span> = <span class="code-string">'Union 3-Seat Sofa'</span> <span class="code-tag">%}</span>
+<span class="code-tag">{% assign</span> <span class="code-attr">original_price</span> = <span class="code-string">'$2,499'</span> <span class="code-tag">%}</span>
+<span class="code-tag">{% assign</span> <span class="code-attr">price</span> = <span class="code-string">'$1,999'</span> <span class="code-tag">%}</span>
+<span class="code-tag">{% render</span> <span class="code-string">'product_card'</span> <span class="code-tag">%}</span>
+        </code>
+      </div>
+    </div>
+
+    <!-- Product Grid 4-Column Component -->
+    <div class="component-section">
+      <div class="component-header">
+        <div>
+          <div class="component-title">product_grid_4col.liquid</div>
+          <div class="component-meta">Four-column category navigation grid • 7% of emails</div>
+        </div>
+        <span class="status-badge verified">Verified</span>
+      </div>
+
+      <table class="params-table">
+        <tr>
+          <th>Parameter</th>
+          <th>Type</th>
+          <th>Default</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td><code>col1_image</code> <span class="required">*</span></td>
+          <td>URL</td>
+          <td>—</td>
+          <td>First column image URL</td>
+        </tr>
+        <tr>
+          <td><code>col1_link</code> <span class="required">*</span></td>
+          <td>URL</td>
+          <td>—</td>
+          <td>First column link URL</td>
+        </tr>
+        <tr>
+          <td><code>col2_image</code> <span class="required">*</span></td>
+          <td>URL</td>
+          <td>—</td>
+          <td>Second column image URL</td>
+        </tr>
+        <tr>
+          <td><code>col2_link</code> <span class="required">*</span></td>
+          <td>URL</td>
+          <td>—</td>
+          <td>Second column link URL</td>
+        </tr>
+        <tr>
+          <td><code>col3_image</code> <span class="required">*</span></td>
+          <td>URL</td>
+          <td>—</td>
+          <td>Third column image URL</td>
+        </tr>
+        <tr>
+          <td><code>col3_link</code> <span class="required">*</span></td>
+          <td>URL</td>
+          <td>—</td>
+          <td>Third column link URL</td>
+        </tr>
+        <tr>
+          <td><code>col4_image</code> <span class="required">*</span></td>
+          <td>URL</td>
+          <td>—</td>
+          <td>Fourth column image URL</td>
+        </tr>
+        <tr>
+          <td><code>col4_link</code> <span class="required">*</span></td>
+          <td>URL</td>
+          <td>—</td>
+          <td>Fourth column link URL</td>
+        </tr>
+        <tr>
+          <td><code>container_width</code></td>
+          <td>Number</td>
+          <td>600</td>
+          <td>Container width in pixels</td>
+        </tr>
+        <tr>
+          <td><code>bg_color</code></td>
+          <td>Hex</td>
+          <td>transparent</td>
+          <td>Background color</td>
+        </tr>
+      </table>
+    </div>
+
+  </div>
+</body>
+</html>

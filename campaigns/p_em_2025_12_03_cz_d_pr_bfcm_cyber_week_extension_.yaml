@@ -1,0 +1,64 @@
+id: 564f44a3-70f7-4a49-ad58-a5c685b00d1a
+name: P_EM_2025_12_03_CZ_D_PR_BFCM_Cyber_Week_Extension_Updated
+brand: CZ
+channel: email
+category: sale_promo
+type: seasonal
+theme: black_friday
+braze_id: 564f44a3-70f7-4a49-ad58-a5c685b00d1a
+dates:
+  send_date: '2025-12-03'
+  inferred_send_type: local_time
+  first_sent: '2025-12-03T02:10:49+00:00'
+  last_sent: '2025-12-03T17:16:08+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- instock
+- sale
+- sale/bfcm
+sends:
+- id: ee5cc2d7-edfa-4c01-bd9a-c944ae892b97
+  channel: email
+  name: Variant 1
+  subject: Back in Stock for the Holidays
+  preheader: Shop 20% off restocked favorites while they last.
+  html_file: html/p_em_2025_12_03_cz_d_pr_bfcm_cyber_week_extension_updated.html
+  screenshot: screenshots/p_em_2025_12_03_cz_d_pr_bfcm_cyber_week_extension_updated.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692f497e583dab006325e903/original.png?1764706686
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692f49c8aa1bdf0063c30960/original.png?1764706760
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692f49ddb273540065567e88/original.png?1764706781
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692f49f381a3670063d0a4ab/original.png?1764706803
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692f4998c119a400634d1520/original.png?1764706711
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692f49e51c90c90064667b57/original.png?1764706788
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692f49d0b03025006397fa6a/original.png?1764706767
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692f49b48282c7006362ce59/original.png?1764706739
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692f498bb03025006397fa2c/original.png?1764706698
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692f49c359d9ed006494a97f/original.png?1764706755
+- id: 37fb8048-b724-450a-89ee-ddbef734e109
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 58590
+  total_delivered: 58496
+  total_opens: 31153
+  total_clicks: 1034
+  open_rate: 0.5317
+  click_rate: 0.0176
+  total_unsubscribes: 162
+  ga4:
+    sessions: 1080
+    purchases: 11
+    revenue: 2611.9
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.558861'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.875648'
+schedule_type: time_based

@@ -1,0 +1,43 @@
+id: ff26f4da-8374-42df-9ecf-d0323201087b
+name: P_EM_2026_01_18_BW_D_Quick_Ship
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: ff26f4da-8374-42df-9ecf-d0323201087b
+dates:
+  send_date: '2026-01-18'
+  inferred_send_type: local_time
+  first_sent: '2026-01-17T19:09:47+00:00'
+  last_sent: '2026-01-18T19:02:48+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: b8ac2bf9-d43e-4b24-9c36-ef884dd7796d
+  channel: email
+  name: Variant 1
+  subject: Winter Refresh Sale, Up to 35% Off
+  preheader: Delivered fast so you’re ready before kickoff.
+- id: bcba7f76-12a8-42ea-ac8a-eed5229df715
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 115356
+  total_delivered: 114933
+  total_opens: 48221
+  total_clicks: 525
+  open_rate: 0.418
+  click_rate: 0.0046
+  total_revenue: 75493.0
+  total_bounces: 1
+  total_unsubscribes: 244
+  ga4:
+    sessions: 493
+    purchases: 3
+    revenue: 5054.27
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.655780'
+    source: snowflake
+    channel: email
+schedule_type: time_based

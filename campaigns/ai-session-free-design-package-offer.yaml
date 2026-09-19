@@ -1,0 +1,52 @@
+id: 2039a7ad-4d59-4db6-a3a0-ce7f0686e6ee
+name: AI Session Free Design Package Offer
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 2039a7ad-4d59-4db6-a3a0-ce7f0686e6ee
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-04-15T19:00:00+00:00'
+  last_sent: '2026-04-17T20:00:00+00:00'
+tags: []
+sends:
+- id: 0238867a-7497-4a25-b8dc-9e222e0b0c6f
+  channel: email
+  name: TRG_EM_2026_03_HAV_PC_PT_AI_Session_Design_Package_Offer_T1_V1
+  subject: '{{custom_attribute.${email_subject_line}}}'
+  preheader: ''
+  step_id: fe293922-14f8-4362-9228-0cfafcdfdb4c
+- id: 11ad63e4-9855-45cb-879f-2f63cbd2c56f
+  channel: email
+  name: TRG_EM_2026_03_HAV_PC_PT_AI_Session_Design_Package_Offer_T2_V1
+  subject: Unlock Your Free Design Package
+  preheader: ''
+  step_id: e70a5a6b-04e6-4b27-a0a3-dd7208c73c92
+performance_summary: {}
+canvas_steps:
+- id: fe293922-14f8-4362-9228-0cfafcdfdb4c
+  name: TRG_EM_2026_03_HAV_PC_PT_AI_Session_Design_Package_Offer_T1_V1
+  type: message
+  channel: email
+  subject: '{{custom_attribute.${email_subject_line}}}'
+  preheader: ''
+- id: 81467cde-1068-4751-99ef-9d31401baf25
+  name: Step
+  type: delay
+- id: 2d66f611-82c9-42e8-868f-d36ed27a0f8d
+  name: Has data?
+  type: audience_paths
+- id: e70a5a6b-04e6-4b27-a0a3-dd7208c73c92
+  name: TRG_EM_2026_03_HAV_PC_PT_AI_Session_Design_Package_Offer_T2_V1
+  type: message
+  channel: email
+  subject: Unlock Your Free Design Package
+  preheader: ''
+- id: fbbd9041-4f9c-4fb5-9e83-066f97717871
+  name: Step 1
+  type: delay
+_filename: ai-session-free-design-package-offer.yaml

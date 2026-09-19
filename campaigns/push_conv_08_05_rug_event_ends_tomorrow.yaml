@@ -1,0 +1,23 @@
+id: d2624ac3-37cc-4229-9350-a30dd28dd802
+name: PUSH_CONV_08_05_Rug_Event_Ends_Tomorrow
+brand: HAV
+channel: push
+category: sale_promo
+type: announcement
+theme: null
+braze_id: d2624ac3-37cc-4229-9350-a30dd28dd802
+dates:
+  first_sent: '2025-08-05T02:07:39+00:00'
+  last_sent: '2025-08-06T01:00:18+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: cd5c0e56-151a-41e0-a320-126c75ea800e
+  channel: push
+  name: Variant 1
+- id: 4befddaa-00b2-44ca-8038-45ed3309a262
+  channel: push
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: push_conv_08_05_rug_event_ends_tomorrow.yaml

@@ -1,0 +1,49 @@
+id: e1817e86-cf01-4b8d-827c-6ead2b4991e0
+name: P_2024_10_20_D_CZ_ME_Anniversary_Sale_Best_Sellers_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: e1817e86-cf01-4b8d-827c-6ead2b4991e0
+dates:
+  send_date: '2024-10-20'
+  inferred_send_type: local_time
+  first_sent: '2024-10-19T17:00:01+00:00'
+  last_sent: '2024-10-20T17:00:21+00:00'
+tags:
+- batch and blast/promo
+sends:
+- id: fd6b46ab-6a91-4513-9fbd-521115cb7c57
+  channel: email
+  name: Variant 1
+  subject: 20% Off Our Most Iconic Styles
+  preheader: Time is running out to shop our Anniversary Sale.
+  html_file: html/p_2024_10_20_d_cz_me_anniversary_sale_best_sellers_email.html
+  screenshot: screenshots/p_2024_10_20_d_cz_me_anniversary_sale_best_sellers_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67115c2a13f9530066e2cd03/original.jpg?1729190954
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67115e7359cb580074e0dc90/original.jpg?1729191539
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6711608eec015100847c966a/original.jpg?1729192078
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67115a97623b7e00738e5248/original.jpg?1729190551
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6711610cd6674d00647e7a30/original.jpg?1729192204
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67115bc259cb580066e0e0b4/original.jpg?1729190850
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67115c41623b7e00648e6332/original.jpg?1729190977
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67115c1b59cb580066e0e1d6/original.jpg?1729190939
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67115e8459cb580066e0e923/original.jpg?1729191556
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67115a0f59cb580066e0d9ee/original.jpg?1729190415
+- id: a7754a54-cca3-43dd-9d22-472cae7da9bb
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 90563
+  total_delivered: 90014
+  total_opens: 44358
+  total_clicks: 783
+  open_rate: 0.4898
+  click_rate: 0.0086
+  total_revenue: 136009.85
+  total_bounces: 1
+  total_unsubscribes: 104
+_filename: p_2024_10_20_d_cz_me_anniversary_sale_best_sellers_email.yaml
+schedule_type: time_based

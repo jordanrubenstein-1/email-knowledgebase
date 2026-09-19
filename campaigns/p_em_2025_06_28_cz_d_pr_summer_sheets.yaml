@@ -1,0 +1,56 @@
+id: 20e0528d-bf46-47cf-b7af-c72b6d434a7d
+name: P_EM_2025_06_28_CZ_D_PR_Summer_Sheets
+brand: CZ
+channel: email
+category: other
+type: seasonal
+theme: summer
+braze_id: 20e0528d-bf46-47cf-b7af-c72b6d434a7d
+dates:
+  send_date: '2025-06-28'
+  inferred_send_type: local_time
+  first_sent: '2025-06-27T23:28:14+00:00'
+  last_sent: '2025-06-28T17:01:36+00:00'
+tags: []
+sends:
+- id: c2000863-8c95-4c44-b76b-afe8ad245b75
+  channel: email
+  name: Variant 1
+  subject: The Bedding That Editors Swear By
+  preheader: 20% off during the Fourth of July Event.
+  html_file: html/p_em_2025_06_28_cz_d_pr_summer_sheets.html
+  screenshot: screenshots/p_em_2025_06_28_cz_d_pr_summer_sheets.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685eee53cf2d10007589da68/original.png?1751051858
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685eee9cf423f90066937f4a/original.png?1751051932
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685eedcc11fbc10065b39400/original.png?1751051723
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685ef0eba0051500770306a0/original.gif?1751052523
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685eee285901480065f85fd5/original.png?1751051816
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685eee83cf2d10006589e64f/original.png?1751051906
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685eee6e5901480065f860d2/original.png?1751051886
+- id: 29a3a106-26c5-49b0-aee5-fa985c553110
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 100427
+  total_delivered: 99901
+  total_opens: 52647
+  total_clicks: 558
+  open_rate: 0.5242
+  click_rate: 0.0056
+  total_revenue: 79685.54
+  total_bounces: 37
+  total_unsubscribes: 129
+  ga4:
+    sessions: 637
+    purchases: 8
+    revenue: 2740.04
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.383394'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.151484'
+schedule_type: time_based

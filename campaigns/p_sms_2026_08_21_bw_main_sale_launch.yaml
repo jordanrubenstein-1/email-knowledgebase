@@ -1,0 +1,29 @@
+id: b61f0a22-b50f-4531-b7b2-3c6b4439e651
+name: P_SMS_2026_08_21_BW_Main_Sale_Launch
+brand: BUR
+channel: sms
+category: product_launch
+type: sale
+theme: null
+braze_id: b61f0a22-b50f-4531-b7b2-3c6b4439e651
+dates:
+  send_date: '2026-08-21'
+  last_sent: '2026-08-21'
+tags: []
+sends:
+- id: 97cdd890-f005-4d12-a7df-6df407fc7612
+  channel: sms
+  name: Variant 1
+- id: 9c9c629c-2871-42f8-ac5b-7b18347e9aa6
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 12333
+  total_delivered: 11613
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 17610.0
+schedule_type: time_based
+_filename: p_sms_2026_08_21_bw_main_sale_launch.yaml

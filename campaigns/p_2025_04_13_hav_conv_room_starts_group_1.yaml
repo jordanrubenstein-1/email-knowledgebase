@@ -1,0 +1,32 @@
+id: f1f81e41-8a4a-4d77-bf85-3ee3b96e379b
+name: P_2025_04_13_HAV_Conv_Room_Starts_Group_1
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: f1f81e41-8a4a-4d77-bf85-3ee3b96e379b
+dates:
+  send_date: '2025-04-13'
+  first_sent: '2025-04-12T18:24:53+00:00'
+  last_sent: '2025-04-13T17:15:03+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 74832d3a-4a68-4fb1-b821-f57350069dec
+  channel: email
+  name: Variant 1
+  subject: Your designer is waiting - let’s get started!
+- id: d434ef72-4e8b-4f67-a80e-17dedef017cf
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 830
+  total_delivered: 824
+  total_opens: 686
+  total_clicks: 24
+  open_rate: 0.8265
+  click_rate: 0.0289
+schedule_type: time_based
+_filename: p_2025_04_13_hav_conv_room_starts_group_1.yaml

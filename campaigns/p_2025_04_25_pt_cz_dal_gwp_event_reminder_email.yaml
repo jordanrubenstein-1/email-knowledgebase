@@ -1,0 +1,46 @@
+id: c189824a-e64d-4016-ac3c-163be5d6d36f
+name: P_2025_04_25_PT_CZ_DAL_GWP_Event_Reminder_Email
+brand: CZ
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: c189824a-e64d-4016-ac3c-163be5d6d36f
+dates:
+  send_date: '2025-04-25'
+  inferred_send_type: local_time
+  first_sent: '2025-04-25T01:23:56+00:00'
+  last_sent: '2025-04-25T21:15:13+00:00'
+tags: []
+sends:
+- id: 960b3421-034a-4f18-8c46-f8db5767d3c6
+  channel: email
+  name: Variant 1
+  subject: 'Saturday only: stop by for a gift—on us!'
+  html_file: html/p_2025_04_25_pt_cz_dal_gwp_event_reminder_email.html
+  screenshot: screenshots/p_2025_04_25_pt_cz_dal_gwp_event_reminder_email.png
+- id: ea0b86c2-c5cb-4d1a-8623-adff68e23f36
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1056
+  total_delivered: 1044
+  total_opens: 588
+  total_clicks: 10
+  open_rate: 0.5568
+  click_rate: 0.0095
+  total_revenue: 458.0
+  total_unsubscribes: 1
+  ga4:
+    sessions: 13
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.657057'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.535261'
+schedule_type: time_based

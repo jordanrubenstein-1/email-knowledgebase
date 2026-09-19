@@ -1,0 +1,36 @@
+id: 6472b222-7bb4-4301-ba49-f353b34cee36
+name: P_EM_2025_11_30_ID_D_BFCM_Pet_Approved_Performance_Fabrics
+brand: ID
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: 6472b222-7bb4-4301-ba49-f353b34cee36
+dates:
+  send_date: '2025-11-30'
+  inferred_send_type: local_time
+  first_sent: '2025-11-29T17:23:58+00:00'
+  last_sent: '2025-11-30T17:16:03+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: a6a82f0a-a052-4ef6-8711-be6a8fd37b08
+  channel: email
+  name: Variant 1
+  subject: Pet-Approved + Up to 35% Off Ends Soon
+  preheader: Your Pups 🤝 Our Performance Fabrics
+- id: b7da827b-fb6a-48ff-845b-2033d6a037bc
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 122090
+  total_delivered: 122012
+  total_opens: 49876
+  total_clicks: 580
+  open_rate: 0.4085
+  click_rate: 0.0048
+  total_revenue: 1523573.79
+  total_bounces: 1
+  total_unsubscribes: 206
+_filename: p_em_2025_11_30_id_d_bfcm_pet_approved_performance_fabrics.yaml
+schedule_type: time_based

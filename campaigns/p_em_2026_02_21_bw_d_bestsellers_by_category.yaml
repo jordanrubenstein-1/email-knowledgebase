@@ -1,0 +1,35 @@
+id: ee89c7a0-a4f0-4468-b42e-6e190bc6dea6
+name: P_EM_2026_02_21_BW_D_Bestsellers_by_Category
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: ee89c7a0-a4f0-4468-b42e-6e190bc6dea6
+dates:
+  send_date: '2026-02-21'
+  inferred_send_type: local_time
+  first_sent: '2026-02-20T21:55:25+00:00'
+  last_sent: '2026-02-21T21:03:48+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 7fe61570-f9f2-4418-bd15-cdfab8a2b082
+  channel: email
+  name: Variant 1
+  subject: Up to 35% off our bestsellers
+  preheader: Modular designs that adapt to your space and simplify your setup.
+- id: e75238f1-44e9-4b66-8804-9fec1c8053e5
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 188683
+  total_delivered: 187396
+  total_opens: 102358
+  total_clicks: 329
+  open_rate: 0.5425
+  click_rate: 0.0017
+  total_revenue: 66480.0
+  total_bounces: 3
+  total_unsubscribes: 157
+schedule_type: time_based

@@ -1,0 +1,48 @@
+id: ea6cdbe8-1747-4ad1-9c7f-65128fb8b7d0
+name: P_2025_06_20_PT_STF_Early_Access_4th_Of_July
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: ea6cdbe8-1747-4ad1-9c7f-65128fb8b7d0
+dates:
+  send_date: '2025-06-20'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-20T03:32:35+00:00'
+  last_sent: '2025-06-20T17:00:33+00:00'
+tags: []
+sends:
+- id: d5f5959d-e5a9-42c5-947d-a04151d2c54f
+  channel: email
+  name: Variant 1
+  subject: 'Subscriber Exclusive: 20% Off'
+  preheader: be the first to shop our 4th of July Sale
+  html_file: html/p_2025_06_20_pt_stf_early_access_4th_of_july.html
+  screenshot: screenshots/p_2025_06_20_pt_stf_early_access_4th_of_july.png
+- id: 983538ba-f9f9-4460-809f-66c15ea4e93c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 33688
+  total_delivered: 33303
+  total_opens: 15848
+  total_clicks: 237
+  open_rate: 0.4704
+  click_rate: 0.007
+  total_revenue: 15854.0
+  total_bounces: 1
+  total_unsubscribes: 81
+  ga4:
+    sessions: 280
+    purchases: 7
+    revenue: 1004.64
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.056457'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.108571'
+schedule_type: time_based

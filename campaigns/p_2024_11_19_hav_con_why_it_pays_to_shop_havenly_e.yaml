@@ -1,0 +1,57 @@
+id: a547bd0b-4a64-4db1-9db2-765469fa31f0
+name: P_2024_11_19_HAV_Con_Why_it_Pays_to_Shop_Havenly_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: a547bd0b-4a64-4db1-9db2-765469fa31f0
+dates:
+  send_date: '2024-11-19'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-19T04:43:37+00:00'
+  last_sent: '2024-11-19T17:15:05+00:00'
+tags: []
+sends:
+- id: 3af16066-742e-4545-9313-c3de24093a6f
+  channel: email
+  name: Variant 1
+  subject: Why Is Everyone Shopping at Havenly?
+  preheader: We’re so glad you asked!
+  html_file: html/p_2024_11_19_hav_con_why_it_pays_to_shop_havenly_email.html
+  screenshot: screenshots/p_2024_11_19_hav_con_why_it_pays_to_shop_havenly_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673c16708ea5f30065f23203/original.jpg?1731991152
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673c1677b4f4770063265bd0/original.jpg?1731991158
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6735125833d75e0065a8f892/original.gif?1731531352
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67351280797b4b0065550eba/original.gif?1731531391
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673512363e31b60065724a65/original.gif?1731531318
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6735123e1dc72e006563ff4b/original.gif?1731531326
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673c16905c5b5d0073acede6/original.jpg?1731991183
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673bfb7df3783e007343d447/original.gif?1731984253
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6735126a57a63f006630630a/original.gif?1731531370
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67351260a67dd60063e65b9c/original.gif?1731531360
+- id: 81dfc779-3171-45be-8e66-60c1d73407e5
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 35154
+  total_delivered: 35109
+  total_opens: 19959
+  total_clicks: 168
+  open_rate: 0.5678
+  click_rate: 0.0048
+  total_unsubscribes: 62
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:48.918455'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.557516'
+schedule_type: time_based

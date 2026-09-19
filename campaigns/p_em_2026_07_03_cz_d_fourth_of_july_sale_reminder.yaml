@@ -1,0 +1,34 @@
+id: 5f117493-2772-41c0-819a-d094b9e2506d
+name: P_EM_2026_07_03_CZ_D_Fourth_Of_July_Sale_Reminder
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 5f117493-2772-41c0-819a-d094b9e2506d
+dates:
+  send_date: '2026-07-03'
+  first_sent: '2026-07-02T22:06:22+00:00'
+  last_sent: '2026-07-03T15:00:00+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: d0c7bbe8-871d-4acb-8b11-716a0e69fc7e
+  channel: email
+  name: Variant 1
+  subject: 'Don''t forget: 25% off sitewide'
+  preheader: Gather the pieces that make summer linger.
+- id: 54f66b93-6ac4-427b-a431-826271c5d7ae
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 118676
+  total_delivered: 118137
+  total_opens: 56567
+  total_clicks: 712
+  open_rate: 0.4767
+  click_rate: 0.006
+  total_bounces: 5
+  total_unsubscribes: 98
+schedule_type: time_based
+_filename: p_em_2026_07_03_cz_d_fourth_of_july_sale_reminder.yaml

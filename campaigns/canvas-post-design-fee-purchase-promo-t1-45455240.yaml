@@ -1,0 +1,31 @@
+id: 45455240-9c99-4413-b7be-1c576b7964c4
+name: TRG_EM_2026_06_HAV_CONV_PT_Welcome_Gift_T1_V1_B
+brand: HAV
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 86cd4a3d-cfbe-4c05-bb65-54685272d461
+canvas_name: Post-Design Fee Purchase Promo
+flow_type: design_abandonment
+sequence_position: 1
+subject: Welcome — here's $100 off to get you started ✨
+preheader: ''
+sends:
+- id: 45455240-9c99-4413-b7be-1c576b7964c4
+  channel: email
+  name: TRG_EM_2026_06_HAV_CONV_PT_Welcome_Gift_T1_V1_B
+  subject: Welcome — here's $100 off to get you started ✨
+  preheader: ''
+  html_file: html/canvas-post-design-fee-purchase-promo-t1-45455240.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-06-26T15:00:00Z'
+  last_sent: '2026-07-09T17:00:00Z'
+performance_summary:
+  total_sends: 287
+  total_delivered: 287
+  total_opens: 240
+  total_clicks: 16
+  open_rate: 0.8362
+  click_rate: 0.0557

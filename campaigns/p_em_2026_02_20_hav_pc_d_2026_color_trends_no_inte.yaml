@@ -1,0 +1,53 @@
+id: 8fea2426-5c51-41b6-bc83-284369803cf6
+name: P_EM_2026_02_20_HAV_PC_D_2026_Color_Trends_NO_INTELLIGENT_TIMING
+brand: HAV
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 8fea2426-5c51-41b6-bc83-284369803cf6
+dates:
+  send_date: '2026-02-20'
+  inferred_send_type: local_time
+  first_sent: '2026-02-19T17:20:52+00:00'
+  last_sent: '2026-02-20T17:15:48+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: bde7d34c-28b1-44b2-b3d3-c28f7687e20b
+  channel: email
+  name: Variant 1
+  subject: This year, we’re warming things up
+  preheader: Save 50% on Havenly design packages and refresh your space
+  html_file: html/p_em_2026_02_20_hav_pc_d_2026_color_trends_no_intelligent_ti.html
+  screenshot: screenshots/p_em_2026_02_20_hav_pc_d_2026_color_trends_no_intelligent_ti.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698bc588a05739006340fa7c/original.png?1770767751
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698bc4da77526d0065e6424a/original.png?1770767577
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698bc57af34562006592147f/original.png?1770767737
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698bc483d532aa0064d9364c/original.png?1770767490
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698bc52e88a22e006348311a/original.png?1770767661
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698bc542af3a610063af6f5d/original.png?1770767681
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698bc48f7cadf600638cd4e1/original.png?1770767502
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698bc5b185a84500634c2e33/original.png?1770767793
+- id: 82e100cb-7ce3-46f8-9e26-8e2973faf306
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 131583
+  total_delivered: 131184
+  total_opens: 48655
+  total_clicks: 216
+  open_rate: 0.3698
+  click_rate: 0.0016
+  total_bounces: 1
+  total_unsubscribes: 176
+  ga4:
+    sessions: 126
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:48.793275'
+    source: snowflake
+    channel: email
+schedule_type: time_based

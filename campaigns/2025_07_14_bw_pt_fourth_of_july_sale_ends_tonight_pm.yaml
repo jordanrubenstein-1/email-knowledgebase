@@ -1,0 +1,36 @@
+id: 0e740ed9-9353-4489-8d4a-66187a816ae1
+name: 2025_07_14_BW_PT_Fourth_of_July_Sale_Ends_Tonight_PM
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 0e740ed9-9353-4489-8d4a-66187a816ae1
+dates:
+  send_date: '2025-07-14'
+  inferred_send_type: local_time
+  first_sent: '2025-07-14T03:09:23+00:00'
+  last_sent: '2025-07-15T03:00:11+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: f9cde816-09fa-4163-b2df-ab8489bc22e0
+  channel: email
+  name: Variant 1
+  subject: This is it (seriously)
+  preheader: Fourth of July savings end tonight.
+- id: 8f36fdfb-5f98-4bf0-b2b3-38fdd64d97c2
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 256308
+  total_delivered: 254406
+  total_opens: 153290
+  total_clicks: 738
+  open_rate: 0.5981
+  click_rate: 0.0029
+  total_revenue: 2173.5
+  total_bounces: 4
+  total_unsubscribes: 220
+_filename: 2025_07_14_bw_pt_fourth_of_july_sale_ends_tonight_pm.yaml
+schedule_type: time_based

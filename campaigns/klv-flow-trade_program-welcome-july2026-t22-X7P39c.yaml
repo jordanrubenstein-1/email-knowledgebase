@@ -1,0 +1,56 @@
+id: klaviyo-X7P39c
+name: TRG_EM_2026_09_D_TE_Welcome_Flow_T10
+brand: TE
+channel: email
+category: other
+type: lifecycle
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: YsRZpa
+canvas_name: trade_program-welcome-July2026
+flow_type: welcome_series
+sequence_position: 22
+dates:
+  created: '2026-07-14'
+  inferred_send_type: sto
+  first_sent: '2026-07-14'
+  last_sent: '2026-08-25'
+sends:
+- id: X7P39c
+  channel: email
+  name: Message
+  subject: Loved by the trade. Exclusively ours.
+  preheader: Stop giving your clients déjà vu…
+  html_file: html/klv-flow-trade_program-welcome-july2026-t22-X7P39c.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/adf6b0b1-e173-40ed-ab20-928814e78d39.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/cf4a453f-7b28-4794-9bc3-3baf2f013742.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/d2b27fd0-2eba-4bb1-9524-dc77ab5fe7bb.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/592d6c15-c07e-41ae-b3e1-4b2dfb5a8f03.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/03281aec-ff35-465d-9249-053566776b6b.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/1b16087f-0fc8-43dd-bf3d-b144eb957ac7.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/155bb20c-3580-460f-8ef3-54fd1d9d629e.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/bf94b2e8-968b-4a2e-a279-88ff503a3dad.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/0e30b8cf-a4ce-4778-bbfd-428cf9a339f6.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/96487f5d-5af7-410a-ae0f-90709363ccde.png
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: X7P39c
+structure:
+  image_count: 21
+  link_count: 24
+  has_gif: false
+  hero_width: 600
+  layout_type: product_grid

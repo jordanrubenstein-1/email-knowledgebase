@@ -1,0 +1,52 @@
+id: 36309e71-4592-402a-a39e-b06fbb4e65d7
+name: P_EM_2025_07_07_CZ_PT_Sale_Ends_Tomorrow_PM
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 36309e71-4592-402a-a39e-b06fbb4e65d7
+dates:
+  send_date: '2025-07-07'
+  inferred_send_type: scheduled
+  first_sent: '2025-07-07T22:35:36+00:00'
+  last_sent: '2025-07-07T22:36:57+00:00'
+tags:
+- batch and blast
+- d2c
+- pm
+- pt
+- sale
+- sale_feat
+sends:
+- id: 1335630b-5145-4346-a600-6ee426d1ac08
+  channel: email
+  name: Variant 1
+  subject: Still thinking it over? Your picks are 20% off for one more day.
+  html_file: html/p_em_2025_07_07_cz_pt_sale_ends_tomorrow_pm.html
+  screenshot: screenshots/p_em_2025_07_07_cz_pt_sale_ends_tomorrow_pm.png
+- id: 90712370-1804-46bf-9683-59fea49280de
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 1909
+  total_delivered: 1901
+  total_opens: 1167
+  total_clicks: 57
+  open_rate: 0.6113
+  click_rate: 0.0299
+  total_revenue: 36623.98
+  total_unsubscribes: 13
+  ga4:
+    sessions: 73
+    purchases: 8
+    revenue: 4590.08
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.401539'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.455556'
+schedule_type: time_based

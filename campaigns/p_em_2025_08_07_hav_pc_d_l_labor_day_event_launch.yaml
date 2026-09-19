@@ -1,0 +1,35 @@
+id: d1c77abf-9a0b-4e06-8709-1bea7ebe90dc
+name: P_EM_2025_08_07_HAV_PC_D_L_Labor_Day_Event_Launch
+brand: HAV
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: d1c77abf-9a0b-4e06-8709-1bea7ebe90dc
+dates:
+  send_date: '2025-08-07'
+  first_sent: '2025-08-06T21:56:35+00:00'
+  last_sent: '2025-08-07T18:15:08+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: a15bc0d6-0a88-402a-988d-416657f2f3a5
+  channel: email
+  name: Variant 1
+  subject: IT’S HERE!
+  preheader: The Labor Day Event = 50% Off
+- id: c27057b6-a982-49c0-8a3f-54accf2fde06
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 229982
+  total_delivered: 229545
+  total_opens: 95826
+  total_clicks: 480
+  open_rate: 0.4167
+  click_rate: 0.0021
+  total_bounces: 21
+  total_unsubscribes: 468
+schedule_type: time_based
+_filename: p_em_2025_08_07_hav_pc_d_l_labor_day_event_launch.yaml

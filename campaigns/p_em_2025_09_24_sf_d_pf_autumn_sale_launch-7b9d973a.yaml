@@ -1,0 +1,40 @@
+id: 7b9d973a-5d5b-4f44-99cf-88d23317b966
+name: P_EM_2025_09_24_SF_D_PF_Autumn_Sale_Launch
+brand: STF
+channel: email
+category: product_launch
+type: sale
+theme: fall
+braze_id: 7b9d973a-5d5b-4f44-99cf-88d23317b966
+dates:
+  send_date: '2025-09-24'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-24T17:38:51+00:00'
+  last_sent: '2025-09-25T00:02:29+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: ecbaef06-5222-4342-b0cd-44d9d2d95e2f
+  channel: email
+  name: Variant 1
+  subject: 'IT’S ON: 20% Off Sitewide'
+  preheader: shop the autumn event.
+- id: 003002b2-98c3-41d8-9427-4e1f0ab24f72
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 40245
+  total_delivered: 39596
+  total_opens: 18268
+  total_clicks: 316
+  open_rate: 0.4539
+  click_rate: 0.0079
+  total_bounces: 3
+  total_unsubscribes: 45
+_filename: p_em_2025_09_24_sf_d_pf_autumn_sale_launch-7b9d973a.yaml
+schedule_type: time_based

@@ -1,0 +1,66 @@
+id: b2c6f840-c959-4fb0-9f5b-f34d5aa23555
+name: Swatch Cart Abandon
+brand: ID
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: b2c6f840-c959-4fb0-9f5b-f34d5aa23555
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-02-01T11:00:00+00:00'
+  last_sent: '2026-06-14T16:00:00+00:00'
+tags: []
+sends:
+- id: 07b33cb7-4f5d-4d83-996d-a84da64ed383
+  channel: email
+  name: TRG_EM_2026_01_ID_HTML_Swatch_Cart_Abandon_T1_V1
+  subject: Your free swatches are waiting
+  preheader: Touch, see, and compare before you commit
+  step_id: b85a4701-93a8-422e-bfee-1597591cf352
+- id: d04605bb-4f33-4a28-a1f8-ab37a09402f6
+  channel: email
+  name: TRG_EM_2026_01_ID_HTML_Swatch_Cart_Abandon_T2_V1
+  subject: Design confidence starts with your swatches
+  preheader: Don’t forget your free swatches - they’re the first step
+  step_id: 88280596-9e0b-4dd4-a26a-6f26ff75ef5c
+performance_summary:
+  total_entries: 6313
+  total_sends: 308
+  total_delivered: 302
+  total_opens: 159
+  total_clicks: 7
+  open_rate: 0.5162
+  click_rate: 0.0227
+  total_revenue: 31270.0
+  total_conversions: 14
+  total_unsubscribes: 2
+  total_bounces: 1
+canvas_steps:
+- id: f9967a22-d0a6-4b90-99eb-dc5489d4be55
+  name: Step
+  type: delay
+- id: b85a4701-93a8-422e-bfee-1597591cf352
+  name: TRG_EM_2026_01_ID_HTML_Swatch_Cart_Abandon_T1_V1
+  type: message
+  channel: email
+  subject: Your free swatches are waiting
+  preheader: Touch, see, and compare before you commit
+- id: df168aa3-b04a-42ea-a5b7-187005898ad1
+  name: Step 2
+  type: delay
+- id: 88280596-9e0b-4dd4-a26a-6f26ff75ef5c
+  name: TRG_EM_2026_01_ID_HTML_Swatch_Cart_Abandon_T2_V1
+  type: message
+  channel: email
+  subject: Design confidence starts with your swatches
+  preheader: Don’t forget your free swatches - they’re the first step
+- id: 0bdbdf6f-624a-45fa-9092-b8f0902db44b
+  name: Email Subscribed?
+  type: audience_paths
+- id: 63f6ff6e-cc1b-4820-be2e-57b9b9e0be64
+  name: Email Subscribed?
+  type: audience_paths
+_filename: swatch-cart-abandon.yaml

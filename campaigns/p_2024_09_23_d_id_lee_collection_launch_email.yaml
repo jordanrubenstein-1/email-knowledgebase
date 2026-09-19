@@ -1,0 +1,46 @@
+id: 6449f91c-d831-44bb-90bd-a4b24830fa70
+name: P_2024_09_23_D_ID_Lee_Collection_Launch_Email
+brand: ID
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 6449f91c-d831-44bb-90bd-a4b24830fa70
+dates:
+  send_date: '2024-09-23'
+  inferred_send_type: local_time
+  first_sent: '2024-09-22T18:15:03+00:00'
+  last_sent: '2024-09-23T15:15:03+00:00'
+tags: []
+sends:
+- id: 8afaef5a-1226-42c4-8add-e25037f7d58b
+  channel: email
+  name: Variant 1
+  subject: 'Introducing: The Lee Collection'
+  preheader: Sleek, streamlined, and ultra-comfortable.
+- id: 726eec3c-a12b-4955-8cc1-60eed0691a78
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 46757
+  total_delivered: 46256
+  total_opens: 20487
+  total_clicks: 641
+  open_rate: 0.4382
+  click_rate: 0.0137
+  total_revenue: 271996.0
+  total_bounces: 2
+  total_unsubscribes: 118
+  ga4:
+    sessions: 848
+    purchases: 3
+    revenue: 6267.44
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.793536'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.186802'
+schedule_type: time_based

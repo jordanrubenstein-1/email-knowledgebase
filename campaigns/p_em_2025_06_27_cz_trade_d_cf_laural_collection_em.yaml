@@ -1,0 +1,57 @@
+id: 5f2ea39d-b8cf-41b2-99f8-f9b5c12c7133
+name: P_EM_2025_06_27_CZ_TRADE_D_CF_Laural_Collection_Email
+brand: CZ
+channel: email
+category: product_launch
+type: announcement
+theme: null
+braze_id: 5f2ea39d-b8cf-41b2-99f8-f9b5c12c7133
+dates:
+  send_date: '2025-06-27'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-27T16:08:45+00:00'
+  last_sent: '2025-06-27T16:10:30+00:00'
+tags: []
+sends:
+- id: 7cbbd1e5-2ea7-49b8-895a-e8ee92c57af2
+  channel: email
+  name: Variant 1
+  subject: The Laurel Collection
+  preheader: Now 25% off for the Fourth of July
+  html_file: html/p_em_2025_06_27_cz_trade_d_cf_laural_collection_email.html
+  screenshot: screenshots/p_em_2025_06_27_cz_trade_d_cf_laural_collection_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685db8e38b94280067d088c4/original.png?1750972643
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685db97df26a3c0065559932/original.png?1750972796
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685db8f68b94280076d08675/original.png?1750972662
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685db8c98b94280067d0886e/original.png?1750972617
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685db9642c005300655745fa/original.png?1750972771
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685dc15cbba43f0065e11ba8/original.png?1750974811
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6831011d5dc83200671fe5d6/original.png?1748042013
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/685db9412c005300655744d4/original.png?1750972737
+- id: a7e6d5df-4d20-4884-ac65-b44b0b1b391e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 16775
+  total_delivered: 16432
+  total_opens: 8446
+  total_clicks: 168
+  open_rate: 0.5035
+  click_rate: 0.01
+  total_revenue: 8971.14
+  total_bounces: 9
+  total_unsubscribes: 53
+  ga4:
+    sessions: 119
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.671150'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:45.301664'
+schedule_type: time_based

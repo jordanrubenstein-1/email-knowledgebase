@@ -1,0 +1,31 @@
+id: 43cc06d6-c0ad-4319-8d6f-d0ee0b58e0a7
+name: Studio 6 Follow Up 3D Room Generated
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 43cc06d6-c0ad-4319-8d6f-d0ee0b58e0a7
+braze_type: canvas
+campaign_type: Triggered Journey
+dates: {}
+tags: []
+sends:
+- id: 17f36cd5-00f4-4b29-990c-21277954a92c
+  channel: email
+  name: OT_EM_2026_06_HAV_CONV_H_Studio6_Follow_Up_3D_Room_Generated
+  subject: Your room, ready to make it real?
+  preheader: Shop every piece from your final design—or get help bringing it all together.
+  step_id: 908cfc89-27bb-4ee1-a23f-d0f9dde68ea8
+performance_summary: {}
+canvas_steps:
+- id: 652a1f13-ad43-43ba-909c-f5369a8ed6da
+  name: Step
+  type: delay
+- id: 908cfc89-27bb-4ee1-a23f-d0f9dde68ea8
+  name: OT_EM_2026_06_HAV_CONV_H_Studio6_Follow_Up_3D_Room_Generated
+  type: message
+  channel: email
+  subject: Your room, ready to make it real?
+  preheader: Shop every piece from your final design—or get help bringing it all together.
+_filename: studio-6-follow-up-3d-room-generated.yaml

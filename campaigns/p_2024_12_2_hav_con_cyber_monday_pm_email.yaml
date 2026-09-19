@@ -1,0 +1,32 @@
+id: de0e756f-86d8-4ded-9012-c72b74a5ea3f
+name: P_2024_12_2_HAV_CON_Cyber_Monday_PM_Email
+brand: HAV
+channel: email
+category: sale_promo
+type: seasonal
+theme: null
+braze_id: de0e756f-86d8-4ded-9012-c72b74a5ea3f
+dates:
+  send_date: '2024-12-02'
+  first_sent: '2024-12-02T19:21:20+00:00'
+  last_sent: '2024-12-03T01:50:02+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: df2f8294-ca98-4729-a7ed-a25813d1c93a
+  channel: email
+  name: Variant 1
+  subject: 'THIS IS IT: Last chance to save!'
+  preheader: Only hours left for up to 80% off
+- id: 66b7777e-a70a-482e-8970-cd3944143308
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 9
+  total_delivered: 9
+  total_opens: 7
+  total_clicks: 0
+  open_rate: 0.7778
+  click_rate: 0.0
+schedule_type: time_based
+_filename: p_2024_12_2_hav_con_cyber_monday_pm_email.yaml

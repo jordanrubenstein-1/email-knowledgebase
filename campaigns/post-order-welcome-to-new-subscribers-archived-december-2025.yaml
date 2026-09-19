@@ -1,0 +1,127 @@
+id: bfd26abe-5df3-412a-9a94-fc8d62a227c5
+name: Post Order Welcome to New Subscribers - Archived December 2025
+brand: BUR
+channel: email
+category: other
+type: product_launch
+theme: null
+braze_id: bfd26abe-5df3-412a-9a94-fc8d62a227c5
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-10-31T02:00:00+00:00'
+  last_sent: '2025-12-16T21:00:00+00:00'
+tags: []
+sends:
+- id: bdaf43d3-6fe6-4ac5-8676-303894395cd3
+  channel: email
+  name: TRG_EM_2024_11_BW_D_Welcome_New_Purchaser_T1_V1
+  subject: Welcome to Burrow!
+  preheader: You're in.
+  step_id: 48211846-b952-42e8-bcb7-e117355b7139
+- id: 3c398204-2924-4cca-9e92-e74139b47be4
+  channel: email
+  name: TRG_EM_2024_11_BW_D_Welcome_New_Purchaser_T2_V1
+  subject: Meet our bestselling sofa collections
+  preheader: Plus, 15% off your next order.
+  step_id: 91539a98-0ff5-4fa9-900c-6686548372f7
+- id: 3a772b9d-aaba-46f7-a252-1bc7e8b1166d
+  channel: email
+  name: TRG_EM_2024_11_BW_D_Welcome_New_Purchaser_T3_V1
+  subject: Fabrics that stand the test of… life
+  preheader: Plus, 15% off your next order.
+  step_id: 7c18e54f-3f4a-444f-bbac-9702e16d20e9
+- id: 10ebb8c8-1efc-40d6-85db-c5e6560e8f7c
+  channel: email
+  name: TRG_EM_2024_11_BW_D_Welcome_New_Purchaser_T4_V1
+  subject: Tell Us About Yourself
+  preheader: We’d Love to Learn More About You
+  step_id: 7e75a5b2-7dd8-46b9-947c-60cc1139eae8
+- id: 7400197a-d7b3-4133-b294-e9076c3cb1ab
+  channel: email
+  name: TRG_EM_2024_11_BW_D_Welcome_New_Purchaser_T5_V1
+  subject: Our best designs, delivered to you in as little as a week
+  preheader: Plus, 15% off your next order.
+  step_id: 434665d6-8b71-4cb4-929a-c05f49390905
+- id: 144a1884-b110-4236-a4d2-f91dd4cf85ae
+  channel: email
+  name: OT_EM_2025_06_BW_H_Order_Confirmation_New_Subscriber_T1_V1
+  subject: ⚡ Order confirmation from Burrow
+  preheader: Your receipt, delivery details, and more.
+  step_id: e4145b90-b76c-4186-baf5-1e9f25a70792
+- id: 4f4aeee4-b04b-4841-b902-db34d9343e73
+  channel: email
+  name: OT_EM_2025_06_BW_H_Order_Confirmation_T1_V1
+  subject: ⚡ Order confirmation from Burrow
+  preheader: Your receipt, delivery details, and more.
+  step_id: 25ffa5d6-09b2-406b-9b99-ce16c21a7d99
+performance_summary: {}
+canvas_steps:
+- id: 48211846-b952-42e8-bcb7-e117355b7139
+  name: TRG_EM_2024_11_BW_D_Welcome_New_Purchaser_T1_V1
+  type: message
+  channel: email
+  subject: Welcome to Burrow!
+  preheader: You're in.
+- id: e0f54d16-ad25-4c0d-aa85-94ea575bf9d5
+  name: ''
+  type: delay
+- id: 91539a98-0ff5-4fa9-900c-6686548372f7
+  name: TRG_EM_2024_11_BW_D_Welcome_New_Purchaser_T2_V1
+  type: message
+  channel: email
+  subject: Meet our bestselling sofa collections
+  preheader: Plus, 15% off your next order.
+- id: 0cb6def6-2881-4f3b-afe0-76048ef2d442
+  name: ''
+  type: delay
+- id: 7c18e54f-3f4a-444f-bbac-9702e16d20e9
+  name: TRG_EM_2024_11_BW_D_Welcome_New_Purchaser_T3_V1
+  type: message
+  channel: email
+  subject: Fabrics that stand the test of… life
+  preheader: Plus, 15% off your next order.
+- id: dc3de0bb-afa1-4fba-a304-6287b7ac631b
+  name: ''
+  type: delay
+- id: 7e75a5b2-7dd8-46b9-947c-60cc1139eae8
+  name: TRG_EM_2024_11_BW_D_Welcome_New_Purchaser_T4_V1
+  type: message
+  channel: email
+  subject: Tell Us About Yourself
+  preheader: We’d Love to Learn More About You
+- id: 59b3151d-0920-4621-8ec4-60ff09ce923d
+  name: ''
+  type: delay
+- id: 434665d6-8b71-4cb4-929a-c05f49390905
+  name: TRG_EM_2024_11_BW_D_Welcome_New_Purchaser_T5_V1
+  type: message
+  channel: email
+  subject: Our best designs, delivered to you in as little as a week
+  preheader: Plus, 15% off your next order.
+- id: c1ddd2ff-ce05-4e56-8cb4-08ff3e3616de
+  name: Step
+  type: delay
+- id: e4145b90-b76c-4186-baf5-1e9f25a70792
+  name: OT_EM_2025_06_BW_H_Order_Confirmation_New_Subscriber_T1_V1
+  type: message
+  channel: email
+  subject: ⚡ Order confirmation from Burrow
+  preheader: Your receipt, delivery details, and more.
+- id: 310d46c9-d5c1-4745-bf45-fac8d059baa3
+  name: Step 2
+  type: delay
+- id: 25ffa5d6-09b2-406b-9b99-ce16c21a7d99
+  name: OT_EM_2025_06_BW_H_Order_Confirmation_T1_V1
+  type: message
+  channel: email
+  subject: ⚡ Order confirmation from Burrow
+  preheader: Your receipt, delivery details, and more.
+- id: 650e9d09-936a-4f46-bbdc-ab0bf97843ae
+  name: Already Received Welcome Drip?
+  type: audience_paths
+- id: 018fc383-ccd2-4ea3-b2fb-8c89c263bb83
+  name: New email subscribers? 1
+  type: audience_paths
+_filename: post-order-welcome-to-new-subscribers-archived-december-2025.yaml

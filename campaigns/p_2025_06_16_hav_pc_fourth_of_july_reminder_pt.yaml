@@ -1,0 +1,35 @@
+id: 7d50eeaa-3d8a-4f88-90d5-fd5344582502
+name: P_2025_06_16_HAV_PC_Fourth_of_July_Reminder_PT
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 7d50eeaa-3d8a-4f88-90d5-fd5344582502
+dates:
+  send_date: '2025-06-16'
+  first_sent: '2025-06-15T18:22:06+00:00'
+  last_sent: '2025-06-16T18:15:06+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 5a70d47a-5556-40c7-8068-d0af57fabcc8
+  channel: email
+  name: Variant 1
+  subject: Things are heating up...
+  preheader: Get interior design services for HALF OFF
+- id: 6faa9fb9-f18e-4286-b63f-79ed4685a7d7
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 222049
+  total_delivered: 218794
+  total_opens: 95722
+  total_clicks: 344
+  open_rate: 0.4311
+  click_rate: 0.0015
+  total_bounces: 7
+  total_unsubscribes: 450
+schedule_type: time_based
+_filename: p_2025_06_16_hav_pc_fourth_of_july_reminder_pt.yaml

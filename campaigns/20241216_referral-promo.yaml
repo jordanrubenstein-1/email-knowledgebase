@@ -1,0 +1,36 @@
+id: 422f8164-8872-4e6b-9005-221334e90299
+name: 20241216_Referral-Promo
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 422f8164-8872-4e6b-9005-221334e90299
+dates:
+  inferred_send_type: local_time
+  first_sent: '2024-12-15T17:24:03+00:00'
+  last_sent: '2024-12-16T17:15:06+00:00'
+tags: []
+sends:
+- id: 7ffbf289-da23-4a44-a696-5d930521dadc
+  channel: email
+  name: Variant 1
+  subject: Refer a friend and get a $50 Amazon gift card
+  preheader: The season of giving just got a little more luxurious.
+- id: 22af53b7-3926-475c-8c24-7f9dbb8e8e79
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 230
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.396244'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.162678'
+schedule_type: time_based

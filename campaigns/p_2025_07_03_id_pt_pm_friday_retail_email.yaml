@@ -1,0 +1,46 @@
+id: e23a5f50-d9f2-4af2-adf2-2bfbc9f3e931
+name: P_2025_07_03_ID_PT_PM_Friday_Retail_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: e23a5f50-d9f2-4af2-adf2-2bfbc9f3e931
+dates:
+  send_date: '2025-07-03'
+  inferred_send_type: scheduled
+  first_sent: '2025-07-03T22:17:04+00:00'
+  last_sent: '2025-07-03T22:18:15+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 1a0a189a-aabe-4e25-9d67-812f8b3be65d
+  channel: email
+  name: Variant 1
+  subject: Your Fourth of July weekend plans? Handled.
+- id: efbd71d5-3d25-480d-826c-330992966997
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 14769
+  total_delivered: 14586
+  total_opens: 12044
+  total_clicks: 37
+  open_rate: 0.8155
+  click_rate: 0.0025
+  total_revenue: 9525.0
+  total_bounces: 2
+  total_unsubscribes: 34
+  ga4:
+    sessions: 46
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.774885'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.997479'
+schedule_type: time_based

@@ -1,0 +1,47 @@
+id: 1aad5c42-9d09-4064-97ca-02d6a5ad5ae3
+name: P_2025_05_30_PT_PM_CZ_MDW_Free_Shipping_Pillows_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 1aad5c42-9d09-4064-97ca-02d6a5ad5ae3
+dates:
+  send_date: '2025-05-30'
+  inferred_send_type: local_time
+  first_sent: '2025-05-30T02:15:12+00:00'
+  last_sent: '2025-05-31T01:10:07+00:00'
+tags: []
+sends:
+- id: bb612465-0558-4fea-9f41-60c6ba569e8b
+  channel: email
+  name: Variant 1
+  subject: Just for You — Free Shipping on All Pillows Ends Tonight
+  html_file: html/p_2025_05_30_pt_pm_cz_mdw_free_shipping_pillows_email.html
+  screenshot: screenshots/p_2025_05_30_pt_pm_cz_mdw_free_shipping_pillows_email.png
+- id: 4e048221-94b4-4910-938f-8baf34fcf6e5
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 24127
+  total_delivered: 24097
+  total_opens: 16195
+  total_clicks: 442
+  open_rate: 0.6712
+  click_rate: 0.0183
+  total_revenue: 58678.92
+  total_bounces: 1
+  total_unsubscribes: 65
+  ga4:
+    sessions: 516
+    purchases: 5
+    revenue: 2244.77
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.402568'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.343410'
+schedule_type: time_based

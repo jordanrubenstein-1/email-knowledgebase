@@ -1,0 +1,82 @@
+id: fad6f29e-4af0-4af6-b22a-3a11a908a3ca
+name: P_EM_2025_08_09_CZ_D_PR_Well_Traveled_Home
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: fad6f29e-4af0-4af6-b22a-3a11a908a3ca
+dates:
+  send_date: '2025-08-09'
+  inferred_send_type: local_time
+  first_sent: '2025-08-08T22:08:44+00:00'
+  last_sent: '2025-08-09T21:01:26+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- gtl
+- sale
+sends:
+- id: e2d1e69d-6e1f-44ff-9353-e3e3cfa4d588
+  channel: email
+  name: Variant 1
+  subject: The Art of the Well-Traveled Home
+  preheader: Shop 20% off decor handcrafted around the globe.
+  html_file: html/p_em_2025_08_09_cz_d_pr_well_traveled_home.html
+  screenshot: screenshots/p_em_2025_08_09_cz_d_pr_well_traveled_home.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68951d6b158aaa006385ba8f/original.png?1754602858
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68951e582f2d9e006209d7b2/original.png?1754603096
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68951e17158aaa006385c06e/original.png?1754603031
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68951e2ac80f4400637d7fa6/original.png?1754603050
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68951d5cf7c57500645f7022/original.png?1754602843
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68951e46f7c57500645f7e4f/original.png?1754603077
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68951d96c80f4400637d7470/original.png?1754602902
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68951e92c80f4400637d860a/original.png?1754603153
+- id: e482221c-cf52-4053-af1e-e218f0d97a92
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 99837
+  total_delivered: 99731
+  total_opens: 53130
+  total_clicks: 708
+  open_rate: 0.5322
+  click_rate: 0.0071
+  total_revenue: 55524.21
+  total_bounces: 20
+  total_unsubscribes: 97
+  ga4:
+    sessions: 791
+    purchases: 4
+    revenue: 1464.93
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.481075'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: Up to 65% Off Select Categories - Focus on Archive Sale and In Stock
+      Product
+    type: null
+  primary_sale:
+    id: cz-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: Up to 65% Off Select Categories - Focus on Archive Sale and In Stock
+      Product
+    type: null
+  sale_name: The Sunset Sale
+  sale_discount: Up to 65% Off Select Categories - Focus on Archive Sale and In Stock
+    Product
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:31.384686'
+schedule_type: time_based

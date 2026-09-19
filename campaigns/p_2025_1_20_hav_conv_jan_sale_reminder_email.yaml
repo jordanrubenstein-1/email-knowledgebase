@@ -1,0 +1,32 @@
+id: 74dc3f8e-29ca-428a-855b-dc86d4e446b5
+name: P_2025_1_20_HAV_Conv_Jan_Sale_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 74dc3f8e-29ca-428a-855b-dc86d4e446b5
+dates:
+  send_date: '2025-01-20'
+  first_sent: '2025-01-19T17:24:05+00:00'
+  last_sent: '2025-01-20T17:15:14+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 1fe609bb-c211-4417-8f74-99597d92cf48
+  channel: email
+  name: Variant 1
+  subject: 'PSA: last day to buy more, save more!'
+- id: cc7b7a50-b708-41bc-b5de-49c4abeed922
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 37087
+  total_delivered: 37003
+  total_opens: 21594
+  total_clicks: 128
+  open_rate: 0.5823
+  click_rate: 0.0035
+  total_unsubscribes: 59
+schedule_type: time_based
+_filename: p_2025_1_20_hav_conv_jan_sale_reminder_email.yaml

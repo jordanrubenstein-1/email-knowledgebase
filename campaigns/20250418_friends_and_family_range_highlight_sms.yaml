@@ -1,0 +1,30 @@
+id: 64c4cfad-91ec-4c10-88dc-2b066ba6d784
+name: 20250418_Friends_and_Family_Range_Highlight_SMS
+brand: BUR
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: 64c4cfad-91ec-4c10-88dc-2b066ba6d784
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-04-18T02:05:50+00:00'
+  last_sent: '2025-04-19T01:00:32+00:00'
+tags: []
+sends:
+- id: ac89d744-c1fc-44e0-94ad-15a691f9ada2
+  channel: other
+  name: Variant 1
+- id: 2b1ba98f-284a-4bea-b7e1-98ed531326ff
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 170
+    purchases: 2
+    revenue: 1015.52
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.776517'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

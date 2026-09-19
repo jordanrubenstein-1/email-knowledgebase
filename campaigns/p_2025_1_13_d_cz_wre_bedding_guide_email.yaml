@@ -1,0 +1,59 @@
+id: 425cad4f-e330-4472-b31e-d5e6c48383de
+name: P_2025_1_13_D_CZ_WRE_Bedding_Guide_Email
+brand: CZ
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 425cad4f-e330-4472-b31e-d5e6c48383de
+dates:
+  send_date: '2025-01-13'
+  inferred_send_type: local_time
+  first_sent: '2025-01-12T17:06:24+00:00'
+  last_sent: '2025-01-13T17:01:13+00:00'
+tags: []
+sends:
+- id: 067f1130-4f85-42a3-9abe-d9b09bf5aabe
+  channel: email
+  name: Variant 1
+  subject: This Is Not A Dream
+  preheader: Get 20% off luxe bedding essentials.
+  html_file: html/p_2025_1_13_d_cz_wre_bedding_guide_email.html
+  screenshot: screenshots/p_2025_1_13_d_cz_wre_bedding_guide_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67818f87795f710063f7226f/original.jpg?1736544135
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677e7a05c1d43e0073f48eea/original.jpg?1736342020
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677e7a263cb75b00654a505c/original.jpg?1736342054
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67818f77f74cf70066cb52c8/original.jpg?1736544118
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67818f2a795f710072f70d7b/original.jpg?1736544041
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67818f5253d6a200637d9f9b/original.jpg?1736544082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677e7a41e683de006501493b/original.jpg?1736342081
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677e7a9881635b0066e2c55b/original.jpg?1736342167
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6781906ff74cf70066cb5811/original.jpg?1736544366
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67818f4353d6a200637d9f8e/original.jpg?1736544067
+- id: b6fa9b0f-772a-415e-b61d-6ac3c3633e94
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 95728
+  total_delivered: 95014
+  total_opens: 46106
+  total_clicks: 728
+  open_rate: 0.4816
+  click_rate: 0.0076
+  total_revenue: 88546.02
+  total_bounces: 5
+  total_unsubscribes: 140
+  ga4:
+    sessions: 1082
+    purchases: 18
+    revenue: 6813.87
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.997611'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.559100'
+schedule_type: time_based

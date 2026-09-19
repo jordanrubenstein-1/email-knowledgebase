@@ -1,0 +1,75 @@
+id: fbd2e7e9-e534-477e-8381-8cba5357e7c5
+name: P_EM_2025_08_05_BW_D_Airmail_Highlight
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: fbd2e7e9-e534-477e-8381-8cba5357e7c5
+dates:
+  send_date: '2025-08-05'
+  inferred_send_type: local_time
+  first_sent: '2025-08-05T01:52:42+00:00'
+  last_sent: '2025-08-05T17:15:23+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 3eaa9c62-176c-4a06-ad79-43cc69db1d86
+  channel: email
+  name: Variant 1
+  subject: Our new spin on lounging
+  preheader: Shop our first-ever swivel chair
+- id: 5551b44b-7c78-4022-93e6-3a03d2f3cdf6
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 246439
+  total_delivered: 245909
+  total_opens: 142982
+  total_clicks: 497
+  open_rate: 0.5802
+  click_rate: 0.002
+  total_revenue: 25216.5
+  total_bounces: 9
+  total_unsubscribes: 319
+  ga4:
+    sessions: 286
+    purchases: 1
+    revenue: 499.1
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.446587'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:41.672474'
+schedule_type: time_based

@@ -1,0 +1,68 @@
+{% set default_items = [
+  {
+    "icon_url": "https://e.hypermatic.com/476f3811476e6b5fa94b33ef6c3784ae.png",
+    "label": "Order Free<br>Swatches",
+    "url": "https://swatches.interiordefine.com/"
+  },
+  {
+    "icon_url": "https://e.hypermatic.com/147157c3463a077e473597afdf5f7712.png",
+    "label": "Book Free<br>Design Services",
+    "url": "https://www.interiordefine.com/design-services"
+  },
+  {
+    "icon_url": "https://e.hypermatic.com/7668baea74413ac2de6869abb2dfe29b.png",
+    "label": "Sign Up<br>For Catalog",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSfFPCAOb1Y6ujsRW3OaHt5tCBJ8Yc2TooqXyDsqWl_jFhMKCA/viewform"
+  }
+] %}
+{% set bar_items = items if items is defined else default_items %}
+<!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:600px;" width="600"><tr><td style="line-height:0;font-size:0;mso-line-height-rule:exactly;"><![endif]-->
+<div class="r e y" style="background:{{ colors.bg }};background-color:{{ colors.bg }};margin:0px auto;max-width:600px;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:{{ colors.bg }};background-color:{{ colors.bg }};width:100%;">
+<tbody>
+<tr>
+<td style="border:none;direction:ltr;font-size:0;padding:4px 16px 4px 16px;text-align:center;">
+<div class="ok hj w" style="font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direction:ltr;">
+{% for item in bar_items %}
+<div class="j hj m" style="font-size:0;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:32.1009%;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border:none;vertical-align:middle;" width="100%">
+<tbody>
+<tr>
+<td align="center" class="i m" style="font-size:0;padding:0;padding-bottom:8px;word-break:break-word;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0;">
+<tbody>
+<tr>
+<td style="width:40px;">
+<img alt="" src="{{ item.icon_url }}" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="40">
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align="center" class="b rl xb" style="font-size:0;padding:0;padding-bottom:0;word-break:break-word;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;width:183px;line-height:100%;">
+<tbody>
+<tr>
+<td align="center" bgcolor="transparent" role="presentation" style="background:transparent;border:none;cursor:auto;mso-padding-alt:0px 0px 12px 0px;vertical-align:middle;" valign="middle">
+<a href="{{ item.url }}" style="display:inline-block;width:183px;color:{{ colors.text }};font-family:'Arial', sans-serif;font-size:13px;font-weight:normal;line-height:100%;margin:0;text-decoration:none;text-transform:none;padding:0px 0px 12px 0px;mso-padding-alt:0;" target="_blank">
+<span style="font-size:11px;font-family:'Arial', sans-serif;font-weight:700;color:{{ colors.text }};line-height:118%;mso-line-height-alt:13px;">{{ item.label }}</span>
+</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+{% endfor %}
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso | IE]></td></tr></table><![endif]-->

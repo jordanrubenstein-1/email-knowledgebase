@@ -1,0 +1,52 @@
+id: 03baf614-a3e3-4916-bdfa-6bc344f8b8f3
+name: P_EM_2026_03_06_SF_D_PR_Product_Feature_Spring_Pillows
+brand: STF
+channel: email
+category: other
+type: seasonal
+theme: spring
+braze_id: 03baf614-a3e3-4916-bdfa-6bc344f8b8f3
+dates:
+  send_date: '2026-03-06'
+  inferred_send_type: local_time
+  first_sent: '2026-03-05T22:54:50+00:00'
+  last_sent: '2026-03-06T21:00:43+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- print
+sends:
+- id: 9b3a4cb7-f3ec-4903-a7ce-bcf36b4cae20
+  channel: email
+  name: Variant 1
+  subject: Pillows Worth Fighting Over
+  preheader: bold prints to refresh for spring
+  html_file: html/p_em_2026_03_06_sf_d_pr_product_feature_spring_pillows.html
+  screenshot: screenshots/p_em_2026_03_06_sf_d_pr_product_feature_spring_pillows.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a9ddbbf94e5000717c2d3f/original.png?1772740027
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a9dda617284500734a1ef3/original.gif?1772740006
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a9ddaf9ea4ae00638ab07e/original.png?1772740015
+- id: 79a45315-850e-4ae0-b481-12806a5abfcf
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 37244
+  total_delivered: 36751
+  total_opens: 12111
+  total_clicks: 187
+  open_rate: 0.3252
+  click_rate: 0.005
+  total_bounces: 3
+  total_unsubscribes: 16
+  ga4:
+    sessions: 191
+    purchases: 1
+    revenue: 260.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.057399'
+    source: snowflake
+    channel: email
+schedule_type: time_based

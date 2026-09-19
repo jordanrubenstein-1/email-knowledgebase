@@ -1,0 +1,62 @@
+id: 2db5692e-179e-42b7-bdd5-1101386ff447
+name: P_EM_2025_08_18_SF_D_PR_5_Star_Guest_Room
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 2db5692e-179e-42b7-bdd5-1101386ff447
+dates:
+  send_date: '2025-08-18'
+  inferred_send_type: local_time
+  first_sent: '2025-08-17T18:09:41+00:00'
+  last_sent: '2025-08-18T17:00:42+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- stl
+sends:
+- id: d3c5bfe6-9c7c-48df-850b-8ef37e21ed0f
+  channel: email
+  name: Variant 1
+  subject: Impress Your Guests
+  preheader: statement style so good, they’ll never want to leave.
+  html_file: html/p_em_2025_08_18_sf_d_pr_5_star_guest_room.html
+  screenshot: screenshots/p_em_2025_08_18_sf_d_pr_5_star_guest_room.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689e5cb2aeb8ec006523820f/original.png?1755208881
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689e5cd8e64ecc0065247fd7/original.png?1755208919
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689e5ccd41a8050076e00f3b/original.png?1755208909
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689e5c440413ea0074491a88/original.png?1755208771
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689e5c9aa942e80076f7a1b6/original.png?1755208858
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689e5cabe64ecc0065247edd/original.png?1755208874
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689e5c64e64ecc0065247c55/original.png?1755208804
+- id: 2c5e48cf-ef7a-4eff-a608-7cdaa53e06d8
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 40843
+  total_delivered: 40753
+  total_opens: 18812
+  total_clicks: 205
+  open_rate: 0.4606
+  click_rate: 0.005
+  total_revenue: 8529.8
+  total_bounces: 1
+  total_unsubscribes: 162
+  ga4:
+    sessions: 192
+    purchases: 2
+    revenue: 130.16
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.764913'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.432401'
+schedule_type: time_based

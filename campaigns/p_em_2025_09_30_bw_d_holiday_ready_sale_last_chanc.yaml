@@ -1,0 +1,78 @@
+id: 666cf873-a317-418a-bf72-675bf59dfcb9
+name: P_EM_2025_09_30_BW_D_Holiday_Ready_Sale_Last_Chance
+brand: BUR
+channel: email
+category: reminder
+type: sale
+theme: christmas
+braze_id: 666cf873-a317-418a-bf72-675bf59dfcb9
+dates:
+  send_date: '2025-09-30'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-30T03:31:58+00:00'
+  last_sent: '2025-09-30T17:15:49+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 1f8a0059-2706-4a70-9a5f-3333cae791ef
+  channel: email
+  name: Variant 1
+  subject: 'Up to 25% OFF Ends Tonight '
+  preheader: 'It’s now or never
+
+
+
+
+    '
+- id: e6ecebe0-662a-43ae-8d06-b7a5b2e9468d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 237178
+  total_delivered: 234496
+  total_opens: 133219
+  total_clicks: 219
+  open_rate: 0.5617
+  click_rate: 0.0009
+  total_revenue: 22193.0
+  total_bounces: 3
+  total_unsubscribes: 204
+  ga4:
+    sessions: 165
+    purchases: 1
+    revenue: 1993.36
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.808907'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-holiday-ready-sale-2025-09-17
+    name: Holiday-Ready Sale
+    start_date: '2025-09-17'
+    end_date: '2025-09-30'
+    discount: "20% off orders < $2k / 25% off orders > $2k\n + up to 50% off clearance"
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-holiday-ready-sale-2025-09-17
+    name: Holiday-Ready Sale
+    start_date: '2025-09-17'
+    end_date: '2025-09-30'
+    discount: "20% off orders < $2k / 25% off orders > $2k\n + up to 50% off clearance"
+    type: null
+  sale_name: Holiday-Ready Sale
+  sale_discount: "20% off orders < $2k / 25% off orders > $2k\n + up to 50% off clearance"
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:34.488682'
+schedule_type: time_based

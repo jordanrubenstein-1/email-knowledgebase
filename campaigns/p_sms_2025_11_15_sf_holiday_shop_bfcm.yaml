@@ -1,0 +1,37 @@
+id: cfba6547-75b6-423e-adbc-67c6ff280eee
+name: P_SMS_2025_11_15_SF_Holiday_shop_BFCM
+brand: STF
+channel: sms
+category: sale_promo
+type: seasonal
+theme: christmas
+braze_id: cfba6547-75b6-423e-adbc-67c6ff280eee
+dates:
+  send_date: '2025-11-15'
+  inferred_send_type: local_time
+  first_sent: '2025-11-14T20:36:35+00:00'
+  last_sent: '2025-11-15T18:30:45+00:00'
+tags: []
+sends:
+- id: 954f83cb-b0ce-46aa-b01e-e2e32aabad3a
+  channel: sms
+  name: Variant 1
+- id: d4abd10d-a77a-4420-b885-434160579f56
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 4417
+  total_delivered: 4354
+  total_opens: 0
+  total_clicks: 136
+  open_rate: 0.0
+  click_rate: 0.0308
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.785470'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

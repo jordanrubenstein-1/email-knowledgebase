@@ -1,0 +1,23 @@
+id: e8ff3c42-7550-4815-8b45-c95cb0edf730
+name: Step 1
+brand: ID
+channel: sms
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: c332a739-bc00-4a95-94d0-889d57b260fd
+canvas_name: 03_2025_SMS_BrowseAbandonment
+flow_type: other_flow
+sequence_position: 1
+body: 'Interior Define: Hey there! We noticed you eyeing something on our site...come
+  back and shop now: {{canvas_entry_properties.${url}}}'
+sends:
+- id: e8ff3c42-7550-4815-8b45-c95cb0edf730
+  channel: sms
+  name: Step 1
+  body: 'Interior Define: Hey there! We noticed you eyeing something on our site...come
+    back and shop now: {{canvas_entry_properties.${url}}}'
+dates:
+  first_sent: null
+  last_sent: null
+performance_summary: {}

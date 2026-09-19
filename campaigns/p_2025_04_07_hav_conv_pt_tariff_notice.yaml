@@ -1,0 +1,33 @@
+id: 841f8336-cd08-4196-9314-03484c9a32fa
+name: P_2025_04_07_HAV_CONV_PT_Tariff_Notice
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 841f8336-cd08-4196-9314-03484c9a32fa
+dates:
+  send_date: '2025-04-07'
+  first_sent: '2025-04-07T03:09:01+00:00'
+  last_sent: '2025-04-08T02:00:10+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 2c5c6918-ffe6-4cd8-97d1-6e335a82ff4a
+  channel: email
+  name: Variant 1
+  subject: An important heads-up (and a little extra savings)
+- id: 7f2b4c6f-193b-42ef-b289-e527141938f5
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 7432
+  total_delivered: 7417
+  total_opens: 5207
+  total_clicks: 58
+  open_rate: 0.7006
+  click_rate: 0.0078
+  total_unsubscribes: 8
+schedule_type: time_based
+_filename: p_2025_04_07_hav_conv_pt_tariff_notice.yaml

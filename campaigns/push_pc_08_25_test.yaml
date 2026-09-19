@@ -1,0 +1,23 @@
+id: b6739267-c9a6-45bb-8382-63c16883c52b
+name: PUSH_PC_08_25_Test
+brand: HAV
+channel: push
+category: other
+type: announcement
+theme: null
+braze_id: b6739267-c9a6-45bb-8382-63c16883c52b
+dates:
+  first_sent: '2025-08-25T22:51:38+00:00'
+  last_sent: '2025-08-25T22:51:45+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 16ee51cd-f568-4832-b783-f33719948dba
+  channel: push
+  name: Variant 1
+- id: 2b468594-bf80-4c8d-a1db-74695e718baf
+  channel: push
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: push_pc_08_25_test.yaml

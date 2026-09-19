@@ -1,0 +1,63 @@
+id: f0d9bde1-3d60-4f47-a61f-a3cddf2abaa1
+name: P_EM_2025_10_10_ID_D_Traditional_Edit
+brand: ID
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: f0d9bde1-3d60-4f47-a61f-a3cddf2abaa1
+dates:
+  send_date: '2025-10-10'
+  inferred_send_type: local_time
+  first_sent: '2025-10-10T01:54:07+00:00'
+  last_sent: '2025-10-10T17:15:15+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 66f1daf1-140e-435e-8dec-315ec22e719f
+  channel: email
+  name: Variant 1
+  subject: A Modern Twist on Traditional
+  preheader: Classic design, contemporary comfort — all at 20% off.
+- id: 961dc4af-6c4a-49f6-853e-a0a0e9f262fc
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 200083
+  total_delivered: 199005
+  total_opens: 92807
+  total_clicks: 671
+  open_rate: 0.4638
+  click_rate: 0.0034
+  total_revenue: 167490.88
+  total_bounces: 2
+  total_unsubscribes: 242
+  ga4:
+    sessions: 702
+    purchases: 1
+    revenue: 1142.04
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.826878'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-the-autumn-event-2025-10-09
+    name: The Autumn Event
+    start_date: '2025-10-09'
+    end_date: '2025-10-21'
+    discount: 20% off sitewide
+    type: null
+  primary_sale:
+    id: id-the-autumn-event-2025-10-09
+    name: The Autumn Event
+    start_date: '2025-10-09'
+    end_date: '2025-10-21'
+    discount: 20% off sitewide
+    type: null
+  sale_name: The Autumn Event
+  sale_discount: 20% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:39.652045'
+schedule_type: time_based

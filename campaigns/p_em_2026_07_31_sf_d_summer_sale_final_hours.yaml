@@ -1,0 +1,32 @@
+id: 97f65582-52f1-4307-b570-9d7881d527ba
+name: P_EM_2026_07_31_SF_D_Summer_Sale_Final_Hours
+brand: STF
+channel: email
+category: reminder
+type: sale
+theme: summer
+braze_id: 97f65582-52f1-4307-b570-9d7881d527ba
+dates:
+  send_date: '2026-07-31'
+  last_sent: '2026-07-31'
+tags: []
+sends:
+- id: ce70115a-95e1-4af3-bee5-fafd2b7199b6
+  channel: email
+  name: Variant 1
+  subject: 'FINAL HOURS: 20% off sitewide'
+  preheader: The Summer Sale ends tonight. Last call.
+- id: 2a930674-99e6-4ffa-b992-ec1e43e63eb3
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 36991
+  total_delivered: 36262
+  total_opens: 11523
+  total_clicks: 124
+  open_rate: 0.3115
+  click_rate: 0.0034
+  total_bounces: 1
+  total_unsubscribes: 31
+schedule_type: time_based
+_filename: p_em_2026_07_31_sf_d_summer_sale_final_hours.yaml

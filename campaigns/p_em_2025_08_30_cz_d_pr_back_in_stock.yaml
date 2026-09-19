@@ -1,0 +1,73 @@
+id: 34862bec-2666-49cf-830c-793721d920ff
+name: P_EM_2025_08_30_CZ_D_PR_Back_In_Stock
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 34862bec-2666-49cf-830c-793721d920ff
+dates:
+  send_date: '2025-08-30'
+  inferred_send_type: local_time
+  first_sent: '2025-08-29T23:30:30+00:00'
+  last_sent: '2025-08-30T17:02:47+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- instock
+sends:
+- id: ea5b3b70-da8c-4dff-a454-c41c7be09cbf
+  channel: email
+  name: Variant 1
+  subject: Welcome Back, Best Sellers (& They’re 25% Off)
+  preheader: Shop fan-favorite styles before they're gone again.
+  html_file: html/p_em_2025_08_30_cz_d_pr_back_in_stock.html
+  screenshot: screenshots/p_em_2025_08_30_cz_d_pr_back_in_stock.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b0ebcae010d40066433344/original.png?1756425161
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b0ebb5dd138d00659e0c02/original.png?1756425141
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b0ebd919ca3f0065fcb2e2/original.png?1756425177
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b0ebacba1f1a0077c7a3e2/original.gif?1756425132
+- id: 8dd02d12-d6e6-4563-9789-69407c1f7ee6
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 115028
+  total_delivered: 114687
+  total_opens: 63330
+  total_clicks: 1325
+  open_rate: 0.5506
+  click_rate: 0.0115
+  total_bounces: 5
+  total_unsubscribes: 447
+  ga4:
+    sessions: 1303
+    purchases: 5
+    revenue: 3768.5
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.771518'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-02'
+    discount: 20% off Sitewide
+    type: null
+  primary_sale:
+    id: cz-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-02'
+    discount: 20% off Sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 20% off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:34.825631'
+schedule_type: time_based

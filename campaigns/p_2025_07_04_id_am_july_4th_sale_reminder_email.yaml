@@ -1,0 +1,47 @@
+id: a910c4ca-abb6-4c25-8ba0-5cff8f4aed27
+name: P_2025_07_04_ID_AM_July_4th_Sale_Reminder_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: a910c4ca-abb6-4c25-8ba0-5cff8f4aed27
+dates:
+  send_date: '2025-07-04'
+  inferred_send_type: local_time
+  first_sent: '2025-07-03T20:59:33+00:00'
+  last_sent: '2025-07-04T17:15:22+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: aa371f8e-aa3f-4bee-b057-c0ceade77b39
+  channel: email
+  name: Variant 1
+  subject: The Sale’s Still On (But Not for Long)
+  preheader: Save up to 25% on our most-loved styles.
+- id: e9fbf9ab-7139-4344-b092-22248aa8c004
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 193265
+  total_delivered: 190962
+  total_opens: 86342
+  total_clicks: 704
+  open_rate: 0.4468
+  click_rate: 0.0036
+  total_revenue: 252684.0
+  total_bounces: 5
+  total_unsubscribes: 266
+  ga4:
+    sessions: 760
+    purchases: 4
+    revenue: 10476.64
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.070463'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.077730'
+schedule_type: time_based

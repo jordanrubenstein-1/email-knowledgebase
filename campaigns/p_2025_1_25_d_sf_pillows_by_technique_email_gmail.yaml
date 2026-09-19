@@ -1,0 +1,45 @@
+id: 2ad598ca-a28f-49bb-b718-54af48feabad
+name: P_2025_1_25_D_SF_Pillows_By_Technique_Email_Gmail
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 2ad598ca-a28f-49bb-b718-54af48feabad
+dates:
+  send_date: '2025-01-25'
+  inferred_send_type: scheduled
+  first_sent: '2025-01-25T01:04:50+00:00'
+  last_sent: '2025-01-25T16:00:12+00:00'
+tags: []
+sends:
+- id: 76915019-d29c-4be4-b151-e9191649cad8
+  channel: email
+  name: Variant 1
+  subject: Your Pillow Picks now 20% off
+  preheader: pile on pillows
+- id: 1cb09725-0b40-4b7b-b522-8f8f60c519f7
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 768
+  total_delivered: 768
+  total_opens: 608
+  total_clicks: 29
+  open_rate: 0.7917
+  click_rate: 0.0378
+  total_revenue: 5463.5
+  total_unsubscribes: 3
+  ga4:
+    sessions: 46
+    purchases: 1
+    revenue: 160.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.061245'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.296335'
+schedule_type: time_based

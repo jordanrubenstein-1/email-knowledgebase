@@ -1,0 +1,48 @@
+id: 5ab6ac16-dca5-4e93-9639-f312bd8af7be
+name: P_EM_2026_02_05_HAV_CONV_D_Presidents_Day_Sale_Starts
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 5ab6ac16-dca5-4e93-9639-f312bd8af7be
+dates:
+  send_date: '2026-02-05'
+  inferred_send_type: local_time
+  first_sent: '2026-02-04T22:18:21+00:00'
+  last_sent: '2026-02-05T17:04:32+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 8c13a46d-a7af-45ea-bb31-e65732f2da0d
+  channel: email
+  name: Variant 1
+  subject: It starts now 🎉
+  preheader: 'Presidents Day savings just dropped: The more you shop, the more you
+    save'
+  html_file: html/p_em_2026_02_05_hav_conv_d_presidents_day_sale_starts.html
+  screenshot: screenshots/p_em_2026_02_05_hav_conv_d_presidents_day_sale_starts.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6983745044b21c0071b4f504/original.gif?1770222672
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6983745b5aeaa10063d35957/original.png?1770222682
+- id: 18fc0ac5-62fa-44fb-ac7d-3b88b4d2b79b
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 42941
+  total_delivered: 42924
+  total_opens: 21217
+  total_clicks: 152
+  open_rate: 0.4941
+  click_rate: 0.0035
+  total_bounces: 1
+  total_unsubscribes: 47
+  ga4:
+    sessions: 219
+    purchases: 2
+    revenue: 2542.69
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.021846'
+    source: snowflake
+    channel: email
+schedule_type: time_based

@@ -1,0 +1,56 @@
+id: 013a344b-5ce9-4e44-89f2-88d11168aeaa
+name: P_EM_2026_01_06_SF_D_PR_Color_of_the_Year
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 013a344b-5ce9-4e44-89f2-88d11168aeaa
+dates:
+  send_date: '2026-01-06'
+  inferred_send_type: local_time
+  first_sent: '2026-01-06T00:28:13+00:00'
+  last_sent: '2026-01-06T17:00:41+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: 13a86537-11fe-4a64-8f17-042dca58f4f7
+  channel: email
+  name: Variant 1
+  subject: Iconic in white
+  preheader: our take on Pantone's color of the year.
+  html_file: html/p_em_2026_01_06_sf_d_pr_color_of_the_year.html
+  screenshot: screenshots/p_em_2026_01_06_sf_d_pr_color_of_the_year.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/695bb7d0d4716f0065b82c0b/original.png?1767618512
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/695bb7c6c5d1e80065f50de2/original.png?1767618502
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/695bb79ed207c50063cde279/original.png?1767618462
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/695bb775457397006501203d/original.png?1767618420
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/695bb7d8644a3d0063a06301/original.png?1767618519
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/695bb7bd2ac76900645a0871/original.png?1767618492
+- id: ea407ba5-36b1-4ea0-9a2a-759e3725eaff
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 38908
+  total_delivered: 38719
+  total_opens: 16118
+  total_clicks: 136
+  open_rate: 0.4143
+  click_rate: 0.0035
+  total_bounces: 3
+  total_unsubscribes: 65
+  ga4:
+    sessions: 136
+    purchases: 2
+    revenue: 315.72
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.730710'
+    source: snowflake
+    channel: email
+schedule_type: time_based

@@ -1,0 +1,57 @@
+id: 8d2a1a7e-c78d-4c63-9c28-0b22cc32cb6c
+name: P_2024_09_02_D_CZ_PR_LDW_Launch_Email
+brand: CZ
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 8d2a1a7e-c78d-4c63-9c28-0b22cc32cb6c
+dates:
+  send_date: '2024-09-02'
+  inferred_send_type: local_time
+  first_sent: '2024-09-01T17:55:01+00:00'
+  last_sent: '2024-09-02T16:55:01+00:00'
+tags: []
+sends:
+- id: bbae9c39-4da7-4d7b-85a0-abe5f490fff5
+  channel: email
+  name: Variant 1
+  subject: Our Biggest Sale Ever.
+  preheader: Shop 20% off everything during the Labor Day Event.
+  html_file: html/p_2024_09_02_d_cz_pr_ldw_launch_email.html
+  screenshot: screenshots/p_2024_09_02_d_cz_pr_ldw_launch_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf39523d4b400066584913/original.jpg?1724856657
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf393de13438006590dff3/original.jpg?1724856636
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf38989f61a0007e9d18ca/original.jpg?1724856472
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf38c13d4b400066584746/original.jpg?1724856512
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf39203d4b400066584859/original.jpg?1724856607
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66d1e17beee1e5006415cee1/original.gif?1725030779
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf38ff2fd920006522e9cf/original.jpg?1724856575
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66cf38ea3ac7c000667d14f0/original.jpg?1724856554
+- id: 350e8d9c-c393-462a-acad-1bd6dd650c98
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 71821
+  total_delivered: 71612
+  total_opens: 38917
+  total_clicks: 1069
+  open_rate: 0.5419
+  click_rate: 0.0149
+  total_revenue: 237121.26
+  total_bounces: 1
+  total_unsubscribes: 108
+  ga4:
+    sessions: 1249
+    purchases: 18
+    revenue: 9067.54
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.567390'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.958307'
+schedule_type: time_based

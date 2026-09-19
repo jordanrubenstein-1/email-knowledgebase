@@ -1,0 +1,35 @@
+id: 774e96ce-8c38-41fa-bed7-b08bbed4736b
+name: P_2025_05_02_D_HAV_Conv_Weekender_Flash_Sale
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 774e96ce-8c38-41fa-bed7-b08bbed4736b
+dates:
+  send_date: '2025-05-02'
+  first_sent: '2025-05-01T18:22:05+00:00'
+  last_sent: '2025-05-02T17:15:14+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 030d575d-9fa7-48f3-8e72-a844619c12fa
+  channel: email
+  name: Variant 1
+  subject: Your Weekend Just Got 20% Better.
+  preheader: Save on select brands this weekend, only at Havenly.
+- id: b6f9654d-8720-4a1c-8629-b1de36fc955a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 39352
+  total_delivered: 39269
+  total_opens: 21072
+  total_clicks: 178
+  open_rate: 0.5355
+  click_rate: 0.0045
+  total_bounces: 2
+  total_unsubscribes: 37
+schedule_type: time_based
+_filename: p_2025_05_02_d_hav_conv_weekender_flash_sale.yaml

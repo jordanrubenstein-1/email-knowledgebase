@@ -1,0 +1,35 @@
+id: 21e3178b-fa88-4d47-8d14-455b466641d6
+name: P_EM_2026_03_26_BW_D_Newness_Roundup_STO_Variant
+brand: BUR
+channel: email
+category: other
+type: product_launch
+theme: null
+braze_id: 21e3178b-fa88-4d47-8d14-455b466641d6
+dates:
+  send_date: '2026-03-26'
+  inferred_send_type: sto
+  first_sent: '2026-03-25T10:05:11+00:00'
+  last_sent: '2026-03-27T07:30:56+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: ceac2df7-f383-4c00-bf93-055639626643
+  channel: email
+  name: Variant 1
+  subject: New Outdoor Drops Have Landed
+  preheader: 'Spring Sale: Save up to 30% sitewide.'
+- id: 1ead017a-d17a-4895-85a4-0b0cce60f06e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 117446
+  total_delivered: 116386
+  total_opens: 62355
+  total_clicks: 185
+  open_rate: 0.5309
+  click_rate: 0.0016
+  total_revenue: 50476.0
+  total_bounces: 6
+  total_unsubscribes: 93
+schedule_type: time_based

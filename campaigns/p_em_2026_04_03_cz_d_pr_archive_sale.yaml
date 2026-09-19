@@ -1,0 +1,45 @@
+id: 3c481c23-dcc0-4e63-ab18-8b7a0810818c
+name: P_EM_2026_04_03_CZ_D_PR_Archive_Sale
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 3c481c23-dcc0-4e63-ab18-8b7a0810818c
+dates:
+  send_date: '2026-04-03'
+  last_sent: '2026-04-03'
+tags:
+- am
+- archive
+- batch and blast
+- d2c
+- designed
+sends:
+- id: ab25d9de-0087-4ec6-888a-b4d640c5902c
+  channel: email
+  name: Variant 1
+  subject: 'From the Archive: Up to 70% Off'
+  preheader: Claim these pieces before they're gone for good.
+  html_file: html/p_em_2026_04_03_cz_d_pr_archive_sale.html
+  screenshot: screenshots/p_em_2026_04_03_cz_d_pr_archive_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69cbfe4d8170ec006368daf6/original.png?1774976589
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69cbfe770409ee006376f824/original.png?1774976631
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69cbfe687be4780074e02382/original.png?1774976615
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69cbfe402dad250073749f47/original.gif?1774976576
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69cbfe5790257d0063c93834/original.png?1774976598
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69cbfe7165ee230072d8a0a5/original.png?1774976624
+- id: 3f053f12-585f-41fe-adad-24e6545c71f3
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 51442
+  total_delivered: 51364
+  total_opens: 25346
+  total_clicks: 1268
+  open_rate: 0.4927
+  click_rate: 0.0246
+  total_bounces: 4
+  total_unsubscribes: 75
+schedule_type: time_based

@@ -1,0 +1,73 @@
+id: 821b0dec-76be-4ad2-9e13-8574dd166eda
+name: P_EM_2025_09_25_BW_D_Best Seat_in_the_House
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 821b0dec-76be-4ad2-9e13-8574dd166eda
+dates:
+  send_date: '2025-09-25'
+  inferred_send_type: local_time
+  first_sent: '2025-09-24T21:48:01+00:00'
+  last_sent: '2025-09-25T17:15:13+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: c0624344-60c9-4fb6-9eb3-43f2fffd5faf
+  channel: email
+  name: Variant 1
+  subject: The best seat in the house
+  preheader: Everyone’s favorite seat, now up to 25% off
+- id: 51c140f8-0db0-4a3f-934f-8808ddc1d9f7
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 239661
+  total_delivered: 236700
+  total_opens: 134200
+  total_clicks: 355
+  open_rate: 0.56
+  click_rate: 0.0015
+  total_revenue: 43884.0
+  total_bounces: 4
+  total_unsubscribes: 255
+  ga4:
+    sessions: 288
+    purchases: 1
+    revenue: 340.26
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.295181'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-holiday-ready-sale-2025-09-17
+    name: Holiday-Ready Sale
+    start_date: '2025-09-17'
+    end_date: '2025-09-30'
+    discount: "20% off orders < $2k / 25% off orders > $2k\n + up to 50% off clearance"
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-holiday-ready-sale-2025-09-17
+    name: Holiday-Ready Sale
+    start_date: '2025-09-17'
+    end_date: '2025-09-30'
+    discount: "20% off orders < $2k / 25% off orders > $2k\n + up to 50% off clearance"
+    type: null
+  sale_name: Holiday-Ready Sale
+  sale_discount: "20% off orders < $2k / 25% off orders > $2k\n + up to 50% off clearance"
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:40.181513'
+schedule_type: time_based

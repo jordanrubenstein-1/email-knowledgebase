@@ -1,0 +1,34 @@
+id: b7104895-4468-4d80-ad7b-939922385411
+name: P_EM_2026_07_31_ID_PC_D_Summer_Sale_Final_Day
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: summer
+braze_id: b7104895-4468-4d80-ad7b-939922385411
+dates:
+  send_date: '2026-07-31'
+  last_sent: '2026-07-31'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: b5afa4d0-ed00-4481-9512-6cb725bb6a37
+  channel: email
+  name: Variant 1
+  subject: 'Last chance: 25% off sitewide'
+  preheader: The Summer Sale ends today — shop before it's gone.
+- id: d934e947-f6b1-4800-89a5-b9f1a50664b7
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 235124
+  total_delivered: 234075
+  total_opens: 95071
+  total_clicks: 487
+  open_rate: 0.4043
+  click_rate: 0.0021
+  total_revenue: 353660.62
+  total_bounces: 3
+  total_unsubscribes: 145
+schedule_type: time_based
+_filename: p_em_2026_07_31_id_pc_d_summer_sale_final_day.yaml

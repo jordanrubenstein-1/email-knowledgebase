@@ -1,0 +1,46 @@
+id: 152b2670-1b30-4b60-850b-ea7faaee9b5e
+name: P_2024_12_25_ID_UGC_Looks_of_the_Year_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 152b2670-1b30-4b60-850b-ea7faaee9b5e
+dates:
+  send_date: '2024-12-25'
+  inferred_send_type: local_time
+  first_sent: '2024-12-24T17:24:31+00:00'
+  last_sent: '2024-12-25T17:15:05+00:00'
+tags: []
+sends:
+- id: fca07c38-aa4b-46c0-b3f1-3f7ce0dd551d
+  channel: email
+  name: Variant 1
+  subject: 'Year in Review: Favorite Spaces'
+  preheader: Styled by you. Loved by us.
+- id: 0cacc900-a596-456d-a62f-8dfb6ebd8b60
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 91589
+  total_delivered: 90641
+  total_opens: 26697
+  total_clicks: 450
+  open_rate: 0.2915
+  click_rate: 0.0049
+  total_revenue: 84445.0
+  total_bounces: 2
+  total_unsubscribes: 97
+  ga4:
+    sessions: 567
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.453274'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:35.447134'
+schedule_type: time_based

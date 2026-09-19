@@ -1,0 +1,72 @@
+id: 637c85a6-c2ab-40cd-9600-5c3560c73465
+name: P_EM_2025_09_26_BW_PT_Holiday_Ready_Sale_Final_Weekend_PM
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: christmas
+braze_id: 637c85a6-c2ab-40cd-9600-5c3560c73465
+dates:
+  send_date: '2025-09-26'
+  inferred_send_type: local_time
+  first_sent: '2025-09-26T03:58:28+00:00'
+  last_sent: '2025-09-27T02:00:46+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: bf810d68-8b91-41be-925b-e93d47af434d
+  channel: email
+  name: Variant 1
+  subject: FINAL WEEKEND TO SAVE!
+  preheader: Up to 25% off ends soon.
+- id: 2ce92487-252f-4963-a8e1-e7d5f0e9f2e8
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 24657
+  total_delivered: 24562
+  total_opens: 13841
+  total_clicks: 326
+  open_rate: 0.5613
+  click_rate: 0.0132
+  total_revenue: 23266.0
+  total_unsubscribes: 24
+  ga4:
+    sessions: 178
+    purchases: 2
+    revenue: 2124.16
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.494280'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-holiday-ready-sale-2025-09-17
+    name: Holiday-Ready Sale
+    start_date: '2025-09-17'
+    end_date: '2025-09-30'
+    discount: "20% off orders < $2k / 25% off orders > $2k\n + up to 50% off clearance"
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-holiday-ready-sale-2025-09-17
+    name: Holiday-Ready Sale
+    start_date: '2025-09-17'
+    end_date: '2025-09-30'
+    discount: "20% off orders < $2k / 25% off orders > $2k\n + up to 50% off clearance"
+    type: null
+  sale_name: Holiday-Ready Sale
+  sale_discount: "20% off orders < $2k / 25% off orders > $2k\n + up to 50% off clearance"
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:42.231207'
+schedule_type: time_based

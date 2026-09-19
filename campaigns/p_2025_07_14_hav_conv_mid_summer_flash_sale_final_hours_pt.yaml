@@ -1,0 +1,33 @@
+id: e4513640-8de7-42f0-adcb-d9010361b939
+name: P_2025_07_14_HAV_Conv_Mid_Summer_Flash_Sale_Final_Hours_PT
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: summer
+braze_id: e4513640-8de7-42f0-adcb-d9010361b939
+dates:
+  send_date: '2025-07-14'
+  first_sent: '2025-07-13T18:20:50+00:00'
+  last_sent: '2025-07-14T17:15:10+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: acb6290e-6284-45fe-834a-4d196cbf3f60
+  channel: email
+  name: Variant 1
+  subject: Last call for Flash Sale Savings...
+- id: eed3b03d-da3f-4751-835c-5081530f0d44
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 40640
+  total_delivered: 40554
+  total_opens: 22239
+  total_clicks: 158
+  open_rate: 0.5472
+  click_rate: 0.0039
+  total_unsubscribes: 67
+schedule_type: time_based
+_filename: p_2025_07_14_hav_conv_mid_summer_flash_sale_final_hours_pt.yaml

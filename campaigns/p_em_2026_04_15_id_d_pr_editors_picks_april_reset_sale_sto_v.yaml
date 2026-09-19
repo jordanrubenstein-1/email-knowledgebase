@@ -1,0 +1,36 @@
+id: ebffb243-db3e-4e8e-b5ec-9516ca99da98
+name: P_EM_2026_04_15_ID_D_PR_Editors_Picks_April_Reset_Sale_STO_Variant
+brand: ID
+channel: email
+category: editorial
+type: sale
+theme: null
+braze_id: ebffb243-db3e-4e8e-b5ec-9516ca99da98
+dates:
+  send_date: '2026-04-15'
+  inferred_send_type: sto
+  first_sent: '2026-04-14T11:06:54+00:00'
+  last_sent: '2026-04-16T08:40:57+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: cae42067-dd2d-485c-b7df-a104ed9bf8bb
+  channel: email
+  name: Variant 1
+  subject: Take 25% off our editor’s picks
+  preheader: Our team's favorite pieces, now with a little extra incentive.
+- id: 20f31865-9f51-45fd-b947-12b447c9cc8f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 66009
+  total_delivered: 65883
+  total_opens: 24043
+  total_clicks: 286
+  open_rate: 0.3642
+  click_rate: 0.0043
+  total_revenue: 93008.96
+  total_bounces: 1
+  total_unsubscribes: 105
+_filename: p_em_2026_04_15_id_d_pr_editors_picks_april_reset_sale_sto_v.yaml
+schedule_type: time_based

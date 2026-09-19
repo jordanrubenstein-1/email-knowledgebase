@@ -1,0 +1,54 @@
+id: c3c8339c-09b2-405e-82c6-ec54347d7671
+name: P_2024_11_10_D_HAV_PC_Rendering_Roundup_Dining_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: c3c8339c-09b2-405e-82c6-ec54347d7671
+dates:
+  send_date: '2024-11-10'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-10T04:35:41+00:00'
+  last_sent: '2024-11-10T18:15:01+00:00'
+tags: []
+sends:
+- id: 56772fd1-5074-4cfe-aa1a-d2f08f0e5415
+  channel: email
+  name: Variant 1
+  subject: Dreamy Dining Rooms 😍
+  preheader: Be our guest.
+  html_file: html/p_2024_11_10_d_hav_pc_rendering_roundup_dining_email.html
+  screenshot: screenshots/p_2024_11_10_d_hav_pc_rendering_roundup_dining_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672d10f41cecf5006555594e/original.jpg?1731006708
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672d11632b10a9007328cd75/original.jpg?1731006819
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673037a14e8c650065334b09/original.gif?1731213217
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672d10e32b10a9006428df95/original.jpg?1731006691
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672d10d32a07240073df61d4/original.jpg?1731006675
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/672d114fa2c69a00710a10f7/original.jpg?1731006799
+- id: 317f191e-fdf7-422f-bacb-4d69092086f1
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 156588
+  total_delivered: 154725
+  total_opens: 75574
+  total_clicks: 906
+  open_rate: 0.4826
+  click_rate: 0.0058
+  total_bounces: 2
+  total_unsubscribes: 325
+  ga4:
+    sessions: 871
+    purchases: 1
+    revenue: 1234.05
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.029391'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.047455'
+schedule_type: time_based

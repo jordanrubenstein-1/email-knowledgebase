@@ -1,0 +1,25 @@
+id: 54171a32-77ca-4f83-a08a-49753688d9eb
+name: TRG_EM_2026_09_HAV_CONV_PT_Missed_Call_T2_V1
+brand: HAV
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: f0029284-a2b3-4a7d-8d79-b56df7517e9c
+canvas_name: Missed Designer Call
+flow_type: other_flow
+sequence_position: 2
+subject: Your space is still waiting on one conversation
+preheader: ''
+sends:
+- id: 54171a32-77ca-4f83-a08a-49753688d9eb
+  channel: email
+  name: TRG_EM_2026_09_HAV_CONV_PT_Missed_Call_T2_V1
+  subject: Your space is still waiting on one conversation
+  preheader: ''
+  html_file: html/canvas-missed-designer-call-t2-54171a32.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-09-11T20:00:00Z'
+  last_sent: '2026-09-14T13:00:00Z'
+performance_summary: {}

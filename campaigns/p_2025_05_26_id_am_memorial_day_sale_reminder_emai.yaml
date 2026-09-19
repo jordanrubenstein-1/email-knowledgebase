@@ -1,0 +1,47 @@
+id: 1052e1b9-7c79-4627-b64e-fdec382756b3
+name: P_2025_05_26_ID_AM_Memorial_Day_Sale_Reminder_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 1052e1b9-7c79-4627-b64e-fdec382756b3
+dates:
+  send_date: '2025-05-26'
+  inferred_send_type: local_time
+  first_sent: '2025-05-25T18:22:40+00:00'
+  last_sent: '2025-05-26T17:15:13+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: c61288d6-d190-47fb-92f1-996196a6d1e7
+  channel: email
+  name: Variant 1
+  subject: 'TODAY’S THE DAY! Shop Sitewide Savings '
+  preheader: 25% off ends soon.
+- id: e9e5959e-f59d-41a6-acbe-33c830421fc1
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 166736
+  total_delivered: 164574
+  total_opens: 39340
+  total_clicks: 472
+  open_rate: 0.2359
+  click_rate: 0.0028
+  total_revenue: 741115.25
+  total_bounces: 26
+  total_unsubscribes: 108
+  ga4:
+    sessions: 447
+    purchases: 9
+    revenue: 26197.99
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.405252'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.829699'
+schedule_type: time_based

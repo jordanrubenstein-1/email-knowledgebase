@@ -1,0 +1,35 @@
+id: da79696f-4095-4efb-9aa1-26daedfca90f
+name: OT_EM_2026_03_HAV_CONV_H_Schedule_Design_Review
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: da79696f-4095-4efb-9aa1-26daedfca90f
+dates:
+  first_sent: '2026-03-24T16:00:00+00:00'
+  last_sent: '2026-06-09T10:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: e1dd1a68-b752-435f-b836-14c328dae540
+  channel: email
+  name: Variant 1
+  subject: Schedule your design review
+  preheader: 'Hi {{${first_name} | default: ''there''}}, Your design is ready, and
+    the next step is to review it live with your designer. During a Design Review
+    call, you’ll walk through the design in 3D, review and refine products, share
+    feedback, and work together to finalize your shopping list and overall design
+    direction.'
+- id: ffc79de8-4097-4806-ae73-f3cd073229ca
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 614
+  total_delivered: 613
+  total_opens: 542
+  total_clicks: 107
+  open_rate: 0.8827
+  click_rate: 0.1743
+schedule_type: api_triggered
+_filename: ot_em_2026_03_hav_conv_h_schedule_design_review.yaml

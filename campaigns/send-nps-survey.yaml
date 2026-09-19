@@ -1,0 +1,29 @@
+id: 1d9531a8-f09e-4a03-8139-08bb80093ab0
+name: Send NPS Survey
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 1d9531a8-f09e-4a03-8139-08bb80093ab0
+dates:
+  first_sent: '2024-09-08T03:00:00+00:00'
+  last_sent: '2026-06-09T17:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: 3e2c4a50-eeff-4a43-af03-990cd3e46439
+  channel: other
+  name: Variant 1
+- id: dbb358be-fd98-4bab-9dbc-217b2a2721d5
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 630
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+schedule_type: action_based
+_filename: send-nps-survey.yaml

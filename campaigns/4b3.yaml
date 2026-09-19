@@ -1,0 +1,33 @@
+id: 7a3f03d3-5f15-481c-a4b0-8392a8b2db65
+name: 4b3
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 7a3f03d3-5f15-481c-a4b0-8392a8b2db65
+dates: {}
+tags: []
+sends:
+- id: a0dd0ba7-4e7f-4c96-a0d3-ae47bccdcbb6
+  channel: email
+  name: Variant 1
+  subject: Review your design in 3D with your designer
+  preheader: 'Hi {{${first_name} | default: ''there''}}, We noticed your Design Review
+    hasn’t been scheduled yet. Reviewing your design live with your designer allows
+    you to walk through the space in 3D, understand key design decisions, share feedback,
+    and make updates together.'
+- id: 3be2d338-a05c-43b2-8ba3-c848694a740b
+  channel: other
+  name: Control Group
+- id: 6ee29f85-d3fc-4268-83ca-44a73bdca03d
+  channel: email
+  name: Variant 2
+  subject: Review your design in 3D with your designer
+  preheader: 'Hi {{${first_name} | default: ''there''}}, We noticed your Design Review
+    hasn’t been scheduled yet. Reviewing your design live with your designer allows
+    you to walk through the space in 3D, understand key design decisions, share feedback,
+    and make updates together.'
+performance_summary: {}
+schedule_type: api_triggered
+_filename: 4b3.yaml

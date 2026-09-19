@@ -1,0 +1,59 @@
+id: eed43784-3fb7-4266-9b13-d4a6f3351094
+name: P_2025_1_12_D_CZ_WRE_Cozy_Winter_Bed_Email
+brand: CZ
+channel: email
+category: other
+type: seasonal
+theme: winter
+braze_id: eed43784-3fb7-4266-9b13-d4a6f3351094
+dates:
+  send_date: '2025-01-12'
+  inferred_send_type: local_time
+  first_sent: '2025-01-11T17:05:08+00:00'
+  last_sent: '2025-01-12T17:01:09+00:00'
+tags: []
+sends:
+- id: d920c1e8-9aa9-4d91-b9ea-55f587ae77da
+  channel: email
+  name: Variant 1
+  subject: Your Dream Bed, Now 20% Off
+  preheader: Stock up on bedding essentials during The Winter Retreat Event.
+  html_file: html/p_2025_1_12_d_cz_wre_cozy_winter_bed_email.html
+  screenshot: screenshots/p_2025_1_12_d_cz_wre_cozy_winter_bed_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67818052f193f30066ea05f2/original.jpg?1736540241
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677e7a05c1d43e0073f48eea/original.jpg?1736342020
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677e7a263cb75b00654a505c/original.jpg?1736342054
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677fcb0227673600640b1a05/original.jpg?1736428290
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677fcb5baf3a5c006678bc04/original.jpg?1736428378
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677fcb2b04d2fb0065512614/original.jpg?1736428331
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677fcc17c045ef0066f5a61a/original.jpg?1736428566
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677fcab92d0d0f0064246d31/original.jpg?1736428216
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677fcb8aaf3a5c006678bc16/original.jpg?1736428426
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677fcbce5e902e00645bcacc/original.jpg?1736428494
+- id: 81494a29-84d3-46ad-b527-e18a14abc471
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 95735
+  total_delivered: 95028
+  total_opens: 46923
+  total_clicks: 790
+  open_rate: 0.4901
+  click_rate: 0.0083
+  total_revenue: 97456.05
+  total_bounces: 1
+  total_unsubscribes: 158
+  ga4:
+    sessions: 1270
+    purchases: 23
+    revenue: 7165.51
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.935433'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.745716'
+schedule_type: time_based

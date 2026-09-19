@@ -1,0 +1,43 @@
+id: 5bb4fde9-f06e-4336-99b2-7b06814d7097
+name: P_EM_2026_01_12_ID_D_PR_Swatch_Talk_Winter_Blues
+brand: ID
+channel: email
+category: other
+type: seasonal
+theme: winter
+braze_id: 5bb4fde9-f06e-4336-99b2-7b06814d7097
+dates:
+  send_date: '2026-01-12'
+  inferred_send_type: local_time
+  first_sent: '2026-01-12T05:08:24+00:00'
+  last_sent: '2026-01-13T05:03:07+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: e2123f4a-8883-4cfd-9de0-5a8a2075ec9e
+  channel: email
+  name: Variant 1
+  subject: Rethinking the winter blues
+  preheader: 'Swatch Talk: cozy, layered, and anything but gloomy.'
+- id: 2108621a-616c-4dc1-a765-524531961d86
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 210329
+  total_delivered: 208269
+  total_opens: 94642
+  total_clicks: 538
+  open_rate: 0.45
+  click_rate: 0.0026
+  total_revenue: 109188.93
+  total_bounces: 9
+  total_unsubscribes: 365
+  ga4:
+    sessions: 461
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.023714'
+    source: snowflake
+    channel: email
+schedule_type: time_based

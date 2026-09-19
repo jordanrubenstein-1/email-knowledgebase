@@ -1,0 +1,43 @@
+id: b1058f64-24d1-4237-9d06-cc6c88c278c6
+name: P_2024_10_24_D_CZ_PR_Color_Edit_Fall_Foliage_Resend_Email
+brand: CZ
+channel: email
+category: editorial
+type: seasonal
+theme: fall
+braze_id: b1058f64-24d1-4237-9d06-cc6c88c278c6
+dates:
+  send_date: '2024-10-24'
+  inferred_send_type: local_time
+  first_sent: '2024-10-23T17:00:03+00:00'
+  last_sent: '2024-10-24T17:00:47+00:00'
+tags:
+- batch and blast
+sends:
+- id: 1f6ef7a6-fc36-4a24-864a-f168ce86a968
+  channel: email
+  name: Variant 1
+  subject: 'Color Edit: Fall Foliage'
+  preheader: From warm amber to shades of crimson, feast on fall's nature-inspired
+    palette.
+  html_file: html/p_2024_10_24_d_cz_pr_color_edit_fall_foliage_resend_email.html
+  screenshot: screenshots/p_2024_10_24_d_cz_pr_color_edit_fall_foliage_resend_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6717ddaf081ea20073d97515/original.jpg?1729617327
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6717ddd98d1bf200654ec648/original.jpg?1729617369
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6717ddc18d1bf200654ec632/original.jpg?1729617345
+- id: 65eb51ac-6ffc-4edb-ba98-f30edbf3e9e9
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 91429
+  total_delivered: 90885
+  total_opens: 44631
+  total_clicks: 783
+  open_rate: 0.4881
+  click_rate: 0.0086
+  total_revenue: 60915.44
+  total_bounces: 1
+  total_unsubscribes: 139
+_filename: p_2024_10_24_d_cz_pr_color_edit_fall_foliage_resend_email.yaml
+schedule_type: time_based

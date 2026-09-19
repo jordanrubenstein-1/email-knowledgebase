@@ -1,0 +1,40 @@
+id: 19be6d74-349b-44e0-8e0f-b41430e31fca
+name: P_EM_2025_10_21_SF_D_PF_The_Gallery_Sale_Last_Chance
+brand: STF
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 19be6d74-349b-44e0-8e0f-b41430e31fca
+dates:
+  send_date: '2025-10-21'
+  inferred_send_type: local_time
+  first_sent: '2025-10-20T21:50:03+00:00'
+  last_sent: '2025-10-21T17:00:27+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: 64f3fafb-8041-4c27-90db-eed34a8227ca
+  channel: email
+  name: Variant 1
+  subject: 'FINAL HOURS: Shop 25% Off'
+  preheader: it’s closing time…
+- id: 4b80b574-5b7e-4d58-b5a3-b1d5dbd2ac9c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39425
+  total_delivered: 39274
+  total_opens: 17720
+  total_clicks: 153
+  open_rate: 0.4495
+  click_rate: 0.0039
+  total_bounces: 1
+  total_unsubscribes: 44
+_filename: p_em_2025_10_21_sf_d_pf_the_gallery_sale_last_chance.yaml
+schedule_type: time_based

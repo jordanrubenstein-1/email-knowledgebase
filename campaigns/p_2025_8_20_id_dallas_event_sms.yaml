@@ -1,0 +1,29 @@
+id: 140c8c6b-3860-453d-b825-57e724a14c0d
+name: P_2025_8_20_ID_Dallas_Event_SMS
+brand: ID
+channel: sms
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 140c8c6b-3860-453d-b825-57e724a14c0d
+dates:
+  send_date: '2025-08-20'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-20T21:26:46+00:00'
+  last_sent: '2025-08-20T21:27:05+00:00'
+tags: []
+sends:
+- id: c0165f7d-88a8-40bc-8296-0e7504da9f63
+  channel: other
+  name: Variant 1
+- id: 6c01b329-bea0-43fa-87c3-9044be1313cf
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 288
+  total_delivered: 287
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+schedule_type: time_based

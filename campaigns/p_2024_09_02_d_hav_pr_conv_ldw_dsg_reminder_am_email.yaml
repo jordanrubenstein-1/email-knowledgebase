@@ -1,0 +1,32 @@
+id: 727aa966-dc40-4a50-b2b7-94ebc82670fd
+name: P_2024_09_02_D_HAV_PR_Conv_LDW_DSG_Reminder_AM_Email
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 727aa966-dc40-4a50-b2b7-94ebc82670fd
+dates:
+  send_date: '2024-09-02'
+  first_sent: '2024-09-02T13:25:01+00:00'
+  last_sent: '2024-09-02T13:25:10+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: e6ca0946-f915-483b-b801-a44fe4f1264d
+  channel: email
+  name: Variant 1
+  subject: Best. Monday. Ever.
+  preheader: Shop up to 70% OFF + extra 5% at Havenly
+- id: 41f2c229-a5af-4d7b-bc8f-1d53367c2544
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 3469
+  total_delivered: 3467
+  total_opens: 1713
+  total_clicks: 3
+  open_rate: 0.4938
+  click_rate: 0.0009
+schedule_type: time_based
+_filename: p_2024_09_02_d_hav_pr_conv_ldw_dsg_reminder_am_email.yaml

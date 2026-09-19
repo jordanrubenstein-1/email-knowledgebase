@@ -1,0 +1,31 @@
+id: fd44a860-3dbf-42e7-a173-53ae562f0a10
+name: P_SMS_2026_04_25_BW_April_Reset_Extension_Still_Going
+brand: BUR
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: fd44a860-3dbf-42e7-a173-53ae562f0a10
+dates:
+  send_date: '2026-04-25'
+  inferred_send_type: local_time
+  first_sent: '2026-04-25T02:09:17+00:00'
+  last_sent: '2026-04-26T01:01:27+00:00'
+tags: []
+sends:
+- id: b777902b-4a83-431b-bb19-5965b1bc64d9
+  channel: sms
+  name: Variant 1
+- id: c84d41fe-17f4-4b0d-924a-f9f67c5e2f0f
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 8325
+  total_delivered: 8006
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 32229.0
+_filename: p_sms_2026_04_25_bw_april_reset_extension_still_goi-fd44a860.yaml
+schedule_type: time_based

@@ -1,0 +1,52 @@
+id: 587016dc-ab1b-49ad-ad3e-6e7d9bab77ba
+name: P_EM_2026_04_04_CZ_D_PR_UGC_Bedroom
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 587016dc-ab1b-49ad-ad3e-6e7d9bab77ba
+dates:
+  send_date: '2026-04-04'
+  inferred_send_type: local_time
+  first_sent: '2026-04-04T02:09:11+00:00'
+  last_sent: '2026-04-05T02:01:50+00:00'
+tags:
+- am
+- batch and blast
+- bedding
+- d2c
+- designed
+- ugc
+sends:
+- id: 1a2074d5-5923-41c6-90d2-e9a6ad61369e
+  channel: email
+  name: Variant 1
+  subject: Real homes, real style
+  preheader: A bedroom look we love, The Citizenry IRL.
+  html_file: html/p_em_2026_04_04_cz_d_pr_ugc_bedroom.html
+  screenshot: screenshots/p_em_2026_04_04_cz_d_pr_ugc_bedroom.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69cd6bfe0969750071e4a8b9/original.png?1775070205
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69cd6bde1d39f20063657a12/original.png?1775070174
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69cd6bed3e86aa00620f19c4/original.png?1775070188
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69cd6bc371097e00636264f0/original.png?1775070146
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69cd6bd4ae971800639aaab8/original.png?1775070163
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69cd6bcd124f0c00637d8f27/original.png?1775070156
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69cd6c052436ec0063566fa4/original.png?1775070213
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69cd6b9c9e332f0063d00e97/original.png?1775070108
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69cd6bf47ab5970064ff4cda/original.png?1775070196
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69cd6b21b125fa00633ad65d/original.png?1775069983
+- id: cf0e44be-b7c4-4b9d-bb72-ecf4a9d581cc
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 113212
+  total_delivered: 112514
+  total_opens: 54985
+  total_clicks: 620
+  open_rate: 0.4857
+  click_rate: 0.0055
+  total_bounces: 5
+  total_unsubscribes: 167
+schedule_type: time_based

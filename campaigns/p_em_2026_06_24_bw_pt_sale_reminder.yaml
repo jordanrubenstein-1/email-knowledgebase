@@ -1,0 +1,33 @@
+id: 288842c1-fa6e-4162-bc76-c580e270e422
+name: P_EM_2026_06_24_BW_PT_Sale_Reminder
+brand: BUR
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 288842c1-fa6e-4162-bc76-c580e270e422
+dates:
+  send_date: '2026-06-24'
+  last_sent: '2026-06-24'
+tags:
+- Batch&Blast
+sends:
+- id: 2ed0ba08-a79e-4f68-ac9c-5a316f0ff084
+  channel: email
+  name: Variant 1
+  subject: Just a reminder. Up to 50% off.
+- id: b9aea2b9-2203-41c4-b0a5-a2d214fdeb54
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 230950
+  total_delivered: 228429
+  total_opens: 115094
+  total_clicks: 537
+  open_rate: 0.4984
+  click_rate: 0.0023
+  total_revenue: 89930.8
+  total_bounces: 7
+  total_unsubscribes: 179
+schedule_type: time_based
+_filename: p_em_2026_06_24_bw_pt_sale_reminder.yaml

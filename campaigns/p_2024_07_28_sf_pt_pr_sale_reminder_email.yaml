@@ -1,0 +1,51 @@
+id: 5b2f8f5c-e9b6-4ff6-8745-bf9fa3caa6dc
+name: P_2024_07_28_SF_PT_PR_Sale_Reminder_Email
+brand: STF
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 5b2f8f5c-e9b6-4ff6-8745-bf9fa3caa6dc
+dates:
+  send_date: '2024-07-28'
+  inferred_send_type: local_time
+  first_sent: '2024-07-27T18:15:01+00:00'
+  last_sent: '2024-07-28T14:15:02+00:00'
+tags:
+- Batch and Blast
+sends:
+- id: 2b1d538d-7843-43ce-8f66-9593f3ed1bb0
+  channel: email
+  name: Variant 1
+  subject: 'Did you hear?
+
+    '
+  preheader: Shop 20% off pillows
+  html_file: html/p_2024_07_28_sf_pt_pr_sale_reminder_email.html
+  screenshot: screenshots/p_2024_07_28_sf_pt_pr_sale_reminder_email.png
+- id: e4dedba3-b3cb-44ce-8134-780ec43a33bf
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 8601
+  total_delivered: 8596
+  total_opens: 2041
+  total_clicks: 90
+  open_rate: 0.2373
+  click_rate: 0.0105
+  total_revenue: 865.0
+  total_bounces: 1
+  total_unsubscribes: 13
+  ga4:
+    sessions: 31
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.661857'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.488564'
+schedule_type: time_based

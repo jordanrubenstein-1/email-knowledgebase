@@ -1,0 +1,35 @@
+id: 4a4b37b0-af19-4250-9673-c2d860e7deaf
+name: P_2025_05_27_HAV_PC_D_Memorial_Day_Sale_Ends_Soon
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 4a4b37b0-af19-4250-9673-c2d860e7deaf
+dates:
+  send_date: '2025-05-27'
+  first_sent: '2025-05-26T18:21:04+00:00'
+  last_sent: '2025-05-27T18:15:05+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 3d36302f-50a8-435f-b9b6-13b4df75020c
+  channel: email
+  name: Variant 1
+  subject: Don’t let the clock run out—50% off ends tonight
+  preheader: Your dream space (and this deal) won’t wait.
+- id: 830f0432-7821-49a1-a8f1-4591bed8d363
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 219440
+  total_delivered: 215991
+  total_opens: 91473
+  total_clicks: 320
+  open_rate: 0.4168
+  click_rate: 0.0015
+  total_bounces: 9
+  total_unsubscribes: 346
+schedule_type: time_based
+_filename: p_2025_05_27_hav_pc_d_memorial_day_sale_ends_soon.yaml
