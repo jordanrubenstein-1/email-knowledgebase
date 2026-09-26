@@ -1,0 +1,35 @@
+id: e8525c5b-1530-41f0-ab3b-3f87c85c9b87
+name: P_EM_2026_02_02_HAV_PC_D_Before_And_After
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: e8525c5b-1530-41f0-ab3b-3f87c85c9b87
+dates:
+  send_date: '2026-02-02'
+  first_sent: '2026-02-01T17:22:57+00:00'
+  last_sent: '2026-02-02T18:15:10+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 30dbdd37-640c-4694-a880-4ca790fd4471
+  channel: email
+  name: Variant 1
+  subject: Designing made delightful
+  preheader: From first click to final room, we’ve got you.
+- id: 8ea63cef-3ab5-4e0a-9dac-534117bec331
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 259499
+  total_delivered: 258282
+  total_opens: 100842
+  total_clicks: 510
+  open_rate: 0.3886
+  click_rate: 0.002
+  total_bounces: 19
+  total_unsubscribes: 486
+schedule_type: time_based
+_filename: p_em_2026_02_02_hav_pc_d_before_and_after.yaml

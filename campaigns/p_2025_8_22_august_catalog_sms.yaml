@@ -1,0 +1,30 @@
+id: e8e51d76-9132-412a-a8ce-23a5f3bcafae
+name: P_2025_8_22_August_Catalog_SMS
+brand: ID
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: e8e51d76-9132-412a-a8ce-23a5f3bcafae
+dates:
+  send_date: '2025-08-22'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-22T21:55:15+00:00'
+  last_sent: '2025-08-22T23:55:41+00:00'
+tags: []
+sends:
+- id: 2069775c-cf8d-4c46-aa7a-04f22890a46f
+  channel: other
+  name: Variant 1
+- id: 554fe0d4-f390-4b8f-8e4e-6b25ec631e2d
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 53639
+  total_delivered: 51917
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 20401.0
+schedule_type: time_based

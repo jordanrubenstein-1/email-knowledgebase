@@ -1,0 +1,53 @@
+id: 0d8d074d-4418-4989-bf72-5cc41aa27c57
+name: P_EM_2026_02_16_CZ_D_PR_Furniture_By_Room_Presidents_Day_Sale_PM
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 0d8d074d-4418-4989-bf72-5cc41aa27c57
+dates:
+  send_date: '2026-02-16'
+  inferred_send_type: local_time
+  first_sent: '2026-02-16T03:09:52+00:00'
+  last_sent: '2026-02-17T03:01:24+00:00'
+tags:
+- batch and blast
+- d2c
+- designed
+- furniture
+- pm
+- sale
+- sale/presidentsday2026
+sends:
+- id: 7d230712-efa2-4a91-889a-8a9db48d9d59
+  channel: email
+  name: Variant 1
+  subject: Up to 25% Off Heirloom Furniture
+  preheader: Handcrafted pieces designed to anchor a room and tell a story.
+  html_file: html/p_em_2026_02_16_cz_d_pr_furniture_by_room_presidents_day_sal.html
+  screenshot: screenshots/p_em_2026_02_16_cz_d_pr_furniture_by_room_presidents_day_sal.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698e0c20c4f1ac00645001b5/original.png?1770916896
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698e0c39909a0f0063533349/original.png?1770916921
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698e0c5bc5af2700635f8862/original.png?1770916955
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698f2e118d44b50063c0a05c/original.png?1770991120
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698f2eca64bd4b00644fa74e/original.png?1770991306
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698f2e4adbb136006521c116/original.png?1770991177
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698e0c52b490d00065216fea/original.png?1770916945
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698f2ea8298eef006533114e/original.png?1770991271
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698f2e8f5ca2760063b06cc2/original.png?1770991246
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698f2ebc9bb9f900636c814d/original.png?1770991291
+- id: 8ab64004-ea1c-47ae-8c44-3b782162f521
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 55519
+  total_delivered: 55456
+  total_opens: 28179
+  total_clicks: 613
+  open_rate: 0.5076
+  click_rate: 0.011
+  total_bounces: 2
+  total_unsubscribes: 84
+schedule_type: time_based

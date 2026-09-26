@@ -1,0 +1,33 @@
+id: 63ce9ddc-b9ea-4fcc-b88d-a5fa1484d337
+name: P_2024_08_27_HAV_DPS_Plain_Text_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 63ce9ddc-b9ea-4fcc-b88d-a5fa1484d337
+dates:
+  send_date: '2024-08-27'
+  first_sent: '2024-08-26T23:08:25+00:00'
+  last_sent: '2024-08-27T13:07:14+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 8f8a1b98-58fd-4ece-8876-4169bf14f70b
+  channel: email
+  name: Variant 1
+  subject: 'RE: your 50% off promo code'
+- id: 226efaa4-b75a-4225-80f3-89228352c2e5
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 47485
+  total_delivered: 47380
+  total_opens: 23823
+  total_clicks: 347
+  open_rate: 0.5017
+  click_rate: 0.0073
+  total_bounces: 1
+  total_unsubscribes: 197
+schedule_type: time_based
+_filename: p_2024_08_27_hav_dps_plain_text_reminder_email.yaml

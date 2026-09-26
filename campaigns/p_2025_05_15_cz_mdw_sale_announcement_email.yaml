@@ -1,0 +1,59 @@
+id: 8d3a58e0-cfdf-4552-b0fd-3a607cad0abc
+name: P_2025_05_15_CZ_MDW_Sale_Announcement_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 8d3a58e0-cfdf-4552-b0fd-3a607cad0abc
+dates:
+  send_date: '2025-05-15'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-15T07:34:01+00:00'
+  last_sent: '2025-05-15T17:02:48+00:00'
+tags: []
+sends:
+- id: dad62ff9-6192-4149-b40c-abb4005324fe
+  channel: email
+  name: Variant 1
+  subject: '20% Off Sitewide: The Memorial Day Event'
+  preheader: We don’t do this every day…
+  html_file: html/p_2025_05_15_cz_mdw_sale_announcement_email.html
+  screenshot: screenshots/p_2025_05_15_cz_mdw_sale_announcement_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6825051d3978950064497292/original.png?1747256605
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682501fb7b7c530065649c08/original.png?1747255802
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682503b5dd21350087206750/original.png?1747256244
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682503817d6ee7006773b15b/original.png?1747256193
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6825038add213500672067d5/original.png?1747256202
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6825051173e6540066fdea3c/original.png?1747256592
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682504341c57270084958b20/original.png?1747256372
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682501d800007a00649f8f0a/original.png?1747255768
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682504447d6ee7006773b877/original.png?1747256388
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682501eb3978950064495523/original.png?1747255786
+- id: 25d63be8-3aef-4912-aa6e-82f3d987c75d
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 95210
+  total_delivered: 94056
+  total_opens: 48840
+  total_clicks: 905
+  open_rate: 0.513
+  click_rate: 0.0095
+  total_revenue: 110524.24
+  total_bounces: 696
+  total_unsubscribes: 87
+  ga4:
+    sessions: 1732
+    purchases: 36
+    revenue: 16568.45
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.057502'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.376877'
+schedule_type: time_based

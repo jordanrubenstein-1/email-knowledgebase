@@ -1,0 +1,75 @@
+id: klaviyo-01JE423D5T8SSVDG1DHTSH4V2R
+name: '12/4: BFCM Sale Reminder'
+brand: TI
+channel: email
+category: reminder
+type: sale
+theme: black_friday
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2024-12-02'
+  inferred_send_type: scheduled
+  first_sent: '2024-12-04T07:00:00+00:00'
+  last_sent: '2024-12-04T07:00:00+00:00'
+sends:
+- id: 01JE423D6VFPN4R7SG9KGD5V6V
+  channel: email
+  name: '12/4: BFCM Sale Reminder'
+  subject: Happy Cyber Week To All
+  preheader: Celebrate with 25% off sitewide, happening now!
+  html_file: html/124-bfcm-sale-reminder.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/eca135b9-dda2-4bd5-b0ec-1ad5df376ab2.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/2e3daca5-b1f9-4c5c-832a-0697083ae5d1.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/b398c3ca-c7f5-41f2-bedc-27a54cf334fb.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/f79639ea-2127-4bf9-bd62-79ccf190e17b.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/eb048962-6d40-41f5-a633-9fe0ec481682.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/48f8b0bf-f674-4de6-83a6-f00ae0bfb57e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/dccf9ff5-8748-4e56-89b2-548bc39a42d2.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/dad1408b-01a8-441f-a82b-4a08d28ee44f.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/f560fb4c-d9b7-4c1e-b03c-7223b18786bd.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/10badb4a-5092-4c0c-b1d1-d4dcb18ec616.jpeg
+  screenshot: screenshots/124-bfcm-sale-reminder.png
+performance_summary:
+  total_sends: 104408
+  total_delivered: 103200
+  total_opens: 33911
+  total_clicks: 629
+  unique_opens: 24426
+  unique_clicks: 224
+  open_rate: 0.2339
+  click_rate: 0.0021
+  total_open_rate: 0.3248
+  total_click_rate: 0.006
+  total_unsubscribes: 53
+  total_bounces: 1208
+klaviyo_type: campaign
+klaviyo_campaign_id: 01JE423D5T8SSVDG1DHTSH4V2R
+klaviyo_message_id: 01JE423D6VFPN4R7SG9KGD5V6V
+structure:
+  image_count: 17
+  link_count: 18
+  has_gif: false
+  hero_width: 600
+  layout_type: product_grid
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: ti-cyber-week-ext-2024-12-03
+    name: Cyber Week Ext
+    start_date: '2024-12-03'
+    end_date: '2024-12-10'
+    discount: null
+    type: null
+  primary_sale:
+    id: ti-cyber-week-ext-2024-12-03
+    name: Cyber Week Ext
+    start_date: '2024-12-03'
+    end_date: '2024-12-10'
+    discount: null
+    type: null
+  sale_name: Cyber Week Ext
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-03-12T11:18:45.883239'

@@ -1,0 +1,35 @@
+id: 413ad574-bb34-495f-9a37-acf414fac187
+name: P_EM_2026_05_04_BW_PT_Settle_Into_Spring_Sale_Hours_Left
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: spring
+braze_id: 413ad574-bb34-495f-9a37-acf414fac187
+dates:
+  send_date: '2026-05-04'
+  inferred_send_type: scheduled
+  first_sent: '2026-05-04T16:07:45+00:00'
+  last_sent: '2026-05-05T02:04:24+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 183f08ff-185e-4035-acbc-0aca988948b9
+  channel: email
+  name: Variant 1
+  subject: 'a few hours left to save '
+- id: 55aed115-cbd9-49c9-87b7-ffd91c8ac34f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 93505
+  total_delivered: 93284
+  total_opens: 38368
+  total_clicks: 587
+  open_rate: 0.4103
+  click_rate: 0.0063
+  total_revenue: 59426.0
+  total_bounces: 2
+  total_unsubscribes: 216
+_filename: p_em_2026_05_04_bw_pt_settle_into_spring_sale_hours_left.yaml
+schedule_type: time_based

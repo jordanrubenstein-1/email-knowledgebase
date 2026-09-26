@@ -1,0 +1,34 @@
+id: 0cc204d9-3bad-4f18-b054-6d4ef15310f8
+name: TRG_EM_2024_11_BW_D_Grow_Welcome_T1_V1
+brand: BUR
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 307124fd-04f2-467f-8a83-8228c8810da8
+canvas_name: Welcome Flow - Grow
+flow_type: welcome_series
+sequence_position: 1
+subject: Thanks for checking out Burrow! {{content_blocks.${2025Q3_Welcome_SL_Email1_Promo}}}
+preheader: You're in.
+sends:
+- id: 0cc204d9-3bad-4f18-b054-6d4ef15310f8
+  channel: email
+  name: TRG_EM_2024_11_BW_D_Grow_Welcome_T1_V1
+  subject: Thanks for checking out Burrow! {{content_blocks.${2025Q3_Welcome_SL_Email1_Promo}}}
+  preheader: You're in.
+  html_file: html/canvas-welcome-flow-grow-t1-0cc204d9.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-11-23T17:00:00Z'
+  last_sent: '2025-09-03T04:00:00Z'
+performance_summary:
+  total_sends: 357078
+  total_delivered: 356501
+  total_opens: 134748
+  total_clicks: 7771
+  open_rate: 0.3774
+  click_rate: 0.0218
+  total_unsubscribes: 9251
+  total_bounces: 47
+  total_revenue: 284240.0

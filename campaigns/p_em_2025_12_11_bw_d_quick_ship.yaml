@@ -1,0 +1,75 @@
+id: 9883b621-ab38-49c3-a38c-7f5f80c3fd5e
+name: P_EM_2025_12_11_BW_D_Quick_Ship
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 9883b621-ab38-49c3-a38c-7f5f80c3fd5e
+dates:
+  send_date: '2025-12-11'
+  inferred_send_type: local_time
+  first_sent: '2025-12-10T22:06:45+00:00'
+  last_sent: '2025-12-11T17:16:13+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 0a83bf1e-ca16-4d09-9287-cc11e310331a
+  channel: email
+  name: Variant 1
+  subject: Smarter design. Faster delivery.
+  preheader: Lounge-ready styles that ship in days—not months.
+- id: 609acabc-6c5e-446c-9761-f2034411403f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 107414
+  total_delivered: 107005
+  total_opens: 44077
+  total_clicks: 350
+  open_rate: 0.4103
+  click_rate: 0.0033
+  total_revenue: 13661.0
+  total_bounces: 2
+  total_unsubscribes: 238
+  ga4:
+    sessions: 190
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.423063'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:41.530028'
+schedule_type: time_based

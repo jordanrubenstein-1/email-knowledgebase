@@ -1,0 +1,57 @@
+id: d1bc37c4-6387-4b20-a35a-2b6839db702d
+name: P_EM_2025_12_02_SF_D_PR_Final_Day_BFCM
+brand: STF
+channel: email
+category: reminder
+type: announcement
+theme: black_friday
+braze_id: d1bc37c4-6387-4b20-a35a-2b6839db702d
+dates:
+  send_date: '2025-12-02'
+  inferred_send_type: scheduled
+  first_sent: '2025-12-02T12:13:31+00:00'
+  last_sent: '2025-12-02T17:15:41+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: 04b50f9d-1cdd-4862-bf84-5aa4c4f0ab20
+  channel: email
+  name: Variant 1
+  subject: 'FINAL CALL: Up to 30% Off'
+  preheader: don’t miss out on sitewide savings
+  html_file: html/p_em_2025_12_02_sf_d_pr_final_day_bfcm.html
+  screenshot: screenshots/p_em_2025_12_02_sf_d_pr_final_day_bfcm.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692db6d470343c0063a25f3d/original.png?1764603604
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692db6e037634f0064d926c2/original.png?1764603616
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692db661c331b5006538bb7b/original.png?1764603489
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692db6aceab94600659db3b2/original.png?1764603564
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692db6c1d8122a00657161bd/original.png?1764603585
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692db6cbcfd520006368c6ab/original.png?1764603595
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692db66de419ff006393826e/original.png?1764603500
+- id: db1b396d-14b0-43c9-9c07-0cf7dd72fc5d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39478
+  total_delivered: 39217
+  total_opens: 15344
+  total_clicks: 176
+  open_rate: 0.3887
+  click_rate: 0.0045
+  total_bounces: 2
+  total_unsubscribes: 67
+  ga4:
+    sessions: 183
+    purchases: 4
+    revenue: 1120.5
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.931936'
+    source: snowflake
+    channel: email
+schedule_type: time_based

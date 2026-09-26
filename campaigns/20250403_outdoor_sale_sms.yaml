@@ -1,0 +1,30 @@
+id: 8fd4f47a-4a5d-4cb7-8094-21db09b64562
+name: 20250403_Outdoor_Sale_SMS
+brand: BUR
+channel: sms
+category: sale_promo
+type: sale
+theme: null
+braze_id: 8fd4f47a-4a5d-4cb7-8094-21db09b64562
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-04-03T01:05:37+00:00'
+  last_sent: '2025-04-04T01:00:27+00:00'
+tags: []
+sends:
+- id: cf74a65d-b752-480f-b3a5-9e77ce548d23
+  channel: other
+  name: Variant 1
+- id: 807cde16-7860-46e4-a39f-c5a34a9ba2bf
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 143
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.342992'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

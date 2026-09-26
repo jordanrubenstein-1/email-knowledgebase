@@ -1,0 +1,58 @@
+id: 5bf90130-f170-4868-86c4-2a9dfeaac3d8
+name: P_EM_2026_01_14_CZ_D_PR_Fresh_Foundations_Rug
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 5bf90130-f170-4868-86c4-2a9dfeaac3d8
+dates:
+  send_date: '2026-01-14'
+  inferred_send_type: scheduled
+  first_sent: '2026-01-14T18:00:06+00:00'
+  last_sent: '2026-01-14T18:11:06+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- prod
+- rugs
+sends:
+- id: 2e5ba4ab-f7c2-4c56-9eb4-6a585f086eb7
+  channel: email
+  name: Variant 1
+  subject: Start From the Ground Up
+  preheader: Handwoven rugs that set the tone for every room.
+  html_file: html/p_em_2026_01_14_cz_d_pr_fresh_foundations_rug.html
+  screenshot: screenshots/p_em_2026_01_14_cz_d_pr_fresh_foundations_rug.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69669a7ec06c8b0064244067/original.png?1768331902
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69669f4ba34e3200635ff1d7/original.png?1768333130
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69669ac3058381006349e683/original.png?1768331970
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69669aceb6c6920063504ae1/original.png?1768331982
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69669a95fc39590074927df0/original.png?1768331924
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69669ab1d6925300635c3c39/original.png?1768331952
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69669a871820d90064abae7c/original.png?1768331910
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69669aa567b99a006320e500/original.png?1768331940
+- id: 9e301c99-666b-4b80-a7c6-8540de773bfc
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 114629
+  total_delivered: 113836
+  total_opens: 56697
+  total_clicks: 709
+  open_rate: 0.4946
+  click_rate: 0.0062
+  total_bounces: 29
+  total_unsubscribes: 190
+  ga4:
+    sessions: 654
+    purchases: 3
+    revenue: 611.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.517662'
+    source: snowflake
+    channel: email
+schedule_type: time_based

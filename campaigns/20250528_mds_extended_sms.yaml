@@ -1,0 +1,30 @@
+id: 4f447461-eeca-45a7-89ae-f9407e105c9a
+name: 20250528_MDS_Extended_SMS
+brand: BUR
+channel: sms
+category: reminder
+type: announcement
+theme: null
+braze_id: 4f447461-eeca-45a7-89ae-f9407e105c9a
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-05-28T02:07:45+00:00'
+  last_sent: '2025-05-29T01:01:02+00:00'
+tags: []
+sends:
+- id: af19966a-3f62-4c21-ab46-6acb53f22210
+  channel: other
+  name: Variant 1
+- id: e0960836-2ced-414d-a610-b17834a3ef1a
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 186
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.448622'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

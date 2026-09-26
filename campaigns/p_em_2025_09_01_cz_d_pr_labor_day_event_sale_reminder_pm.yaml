@@ -1,0 +1,52 @@
+id: 41165d38-8f5f-4e48-b9a2-ea985d4b2f6a
+name: P_EM_2025_09_01_CZ_D_PR_Labor_Day_Event_Sale_Reminder_PM
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 41165d38-8f5f-4e48-b9a2-ea985d4b2f6a
+dates:
+  send_date: '2025-09-01'
+  inferred_send_type: local_time
+  first_sent: '2025-09-01T03:20:21+00:00'
+  last_sent: '2025-09-02T02:17:06+00:00'
+tags:
+- batch and blast
+- d2c
+- designed
+- pm
+- sale
+- sale_feat
+sends:
+- id: 7b155f25-6322-47ca-85db-ca3b0ecb479d
+  channel: email
+  name: Variant 1
+  subject: 'Final Hours: Your Exclusive Labor Day Offer'
+  preheader: Unlock 25% off before midnight.
+  html_file: html/p_em_2025_09_01_cz_d_pr_labor_day_event_sale_reminder_pm.html
+  screenshot: screenshots/p_em_2025_09_01_cz_d_pr_labor_day_event_sale_reminder_pm.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b20f0fe675c10075ea72af/original.png?1756499727
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b203349a6c2200651e67f8/original.png?1756496692
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b20e795116560077aeef69/original.png?1756499575
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b20ea65116560077aeefc6/original.png?1756499622
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b20e6f5116560067aef982/original.png?1756499567
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b20ed7e675c10094ea6c55/original.png?1756499671
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b20f07c360ca008560d3d9/original.png?1756499719
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b2032e14e5840067ea779c/original.png?1756496686
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b2033bb7894d0065dd4479/original.png?1756496699
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68b2032814e5840067ea7757/original.png?1756496680
+- id: cb490d95-fcb1-4b12-a5f7-143dd9ab08c2
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 24547
+  total_delivered: 24517
+  total_opens: 15977
+  total_clicks: 700
+  open_rate: 0.6509
+  click_rate: 0.0285
+  total_unsubscribes: 89
+_filename: p_em_2025_09_01_cz_d_pr_labor_day_event_sale_reminder_pm.yaml
+schedule_type: time_based

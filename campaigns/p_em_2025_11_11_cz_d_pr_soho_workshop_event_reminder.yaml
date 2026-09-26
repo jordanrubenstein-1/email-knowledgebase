@@ -1,0 +1,43 @@
+id: 0f11a5e8-cd68-418a-b7ac-be061ac93faf
+name: P_EM_2025_11_11_CZ_D_PR_Soho_Workshop_Event_Reminder
+brand: CZ
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 0f11a5e8-cd68-418a-b7ac-be061ac93faf
+dates:
+  send_date: '2025-11-11'
+  inferred_send_type: scheduled
+  first_sent: '2025-11-11T23:00:11+00:00'
+  last_sent: '2025-11-11T23:04:50+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- event
+- seg
+sends:
+- id: f69ab454-a5d4-4ca1-8dcb-52eef8c50579
+  channel: email
+  name: Variant 1
+  subject: This Saturday at Soho
+  preheader: You don't want to miss this.
+  html_file: html/p_em_2025_11_11_cz_d_pr_soho_workshop_event_reminder.html
+  screenshot: screenshots/p_em_2025_11_11_cz_d_pr_soho_workshop_event_reminder.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691278e849081800645e44b9/original.png?1762818278
+- id: a687af6b-f1c0-45b0-b80d-9a06ee966ed7
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 9873
+  total_delivered: 9820
+  total_opens: 6184
+  total_clicks: 34
+  open_rate: 0.6264
+  click_rate: 0.0034
+  total_unsubscribes: 3
+_filename: p_em_2025_11_11_cz_d_pr_soho_workshop_event_reminder.yaml
+schedule_type: time_based

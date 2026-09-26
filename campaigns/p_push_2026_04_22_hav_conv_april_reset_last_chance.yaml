@@ -1,0 +1,31 @@
+id: e504e3af-9934-473b-8dea-14845cab4fdc
+name: P_PUSH_2026_04_22_HAV_CONV_April_Reset_Last_Chance
+brand: HAV
+channel: push
+category: reminder
+type: announcement
+theme: null
+braze_id: e504e3af-9934-473b-8dea-14845cab4fdc
+dates:
+  send_date: '2026-04-22'
+  first_sent: '2026-04-22T02:06:57+00:00'
+  last_sent: '2026-04-23T01:02:34+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 3fe638fa-8ea6-45d5-8844-8e9c112aeb22
+  channel: push
+  name: Variant 1
+- id: 68e9c997-2be3-48c6-a283-df2b212661ee
+  channel: push
+  name: Control Group
+performance_summary:
+  total_sends: 46595
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_bounces: 26
+schedule_type: time_based
+_filename: p_push_2026_04_22_hav_conv_april_reset_last_chance.yaml

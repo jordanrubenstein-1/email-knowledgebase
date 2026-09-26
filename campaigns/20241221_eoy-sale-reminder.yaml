@@ -1,0 +1,80 @@
+id: f559f3e8-c2b2-4acd-9345-8c14b1dd734a
+name: 20241221_EOY-Sale-Reminder
+brand: BUR
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: f559f3e8-c2b2-4acd-9345-8c14b1dd734a
+dates:
+  inferred_send_type: local_time
+  first_sent: '2024-12-20T20:31:25+00:00'
+  last_sent: '2024-12-21T17:15:09+00:00'
+tags: []
+sends:
+- id: 128ccf0f-b125-420b-97ff-32883d6de70c
+  channel: email
+  name: Variant 1
+  subject: Finish the year with savings
+  preheader: 20% off seating during our End of Year Sale.
+- id: 5c14852f-eb38-4d33-a29b-279e64dd3b49
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 417
+    purchases: 1
+    revenue: 386.54
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.273858'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  - id: bur-end-of-year-sale-extension-2025-01-01
+    name: End of Year Sale (EXTENSION)
+    start_date: '2024-12-20'
+    end_date: '2025-01-05'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  - id: bur_eoy_2024_12_20
+    name: End of Year Sale
+    start_date: '2024-12-19'
+    end_date: '2024-12-31'
+    discount: null
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:39.694999'
+schedule_type: time_based

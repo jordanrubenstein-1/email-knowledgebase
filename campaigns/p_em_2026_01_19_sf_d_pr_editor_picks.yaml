@@ -1,0 +1,57 @@
+id: e6712a3b-0ce1-4383-827d-936a44f896a7
+name: P_EM_2026_01_19_SF_D_PR_Editor_Picks
+brand: STF
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: e6712a3b-0ce1-4383-827d-936a44f896a7
+dates:
+  send_date: '2026-01-19'
+  inferred_send_type: local_time
+  first_sent: '2026-01-18T19:08:30+00:00'
+  last_sent: '2026-01-19T19:01:01+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: 72766859-e825-427e-ac64-7b11953257ef
+  channel: email
+  name: Variant 1
+  subject: 'Up to 20% Off: Our Iconic Picks'
+  preheader: today’s the day, shop now
+  html_file: html/p_em_2026_01_19_sf_d_pr_editor_picks.html
+  screenshot: screenshots/p_em_2026_01_19_sf_d_pr_editor_picks.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696ac56189cf210064471dae/original.png?1768605024
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696ac576c9cb820064422787/original.png?1768605046
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696ac536dbd78a0063611ae2/original.png?1768604981
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696ac56ba99d4e00631973c6/original.png?1768605035
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696ac55240635c00656cb891/original.png?1768605010
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696ac5466174c700632b109a/original.png?1768604997
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696ac581dc1cd800630d0d1e/original.png?1768605057
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696ac51c2cc3280064f9d76c/original.png?1768604955
+- id: 039d0b99-6b0c-4111-847a-10f960a1f126
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 38884
+  total_delivered: 38667
+  total_opens: 13679
+  total_clicks: 153
+  open_rate: 0.3518
+  click_rate: 0.0039
+  total_unsubscribes: 67
+  ga4:
+    sessions: 145
+    purchases: 1
+    revenue: 256.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.951852'
+    source: snowflake
+    channel: email
+schedule_type: time_based

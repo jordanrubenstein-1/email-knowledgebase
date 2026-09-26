@@ -1,0 +1,40 @@
+id: 86cd4a3d-cfbe-4c05-bb65-54685272d461
+name: Post-Design Fee Purchase Promo
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 86cd4a3d-cfbe-4c05-bb65-54685272d461
+braze_type: canvas
+campaign_type: Triggered Journey
+dates: {}
+tags: []
+sends: []
+performance_summary: {}
+canvas_steps:
+- id: 18131b52-681c-4063-b343-9c8c4c8af869
+  name: Step 2
+  type: delay
+- id: 8c612a6e-3704-46e7-9c8f-22f23c05ebe8
+  name: Step 5
+  type: delay
+- id: 7f32123e-9e2f-42e1-a5bc-71b8fa3796ae
+  name: Step
+  type: delay
+- id: 94465a72-2881-491b-aa7a-df5d0daeb484
+  name: Step 6
+  type: message
+- id: f5a4e5db-c81b-4c63-b749-fc72b6f251a8
+  name: Step 1
+  type: message
+- id: 2aa03ec1-7fe3-410a-a62f-600b1321969f
+  name: Step 4
+  type: delay
+- id: 11d4c1ee-9508-45eb-8093-236563c001f6
+  name: Step 7
+  type: message
+- id: 5aafb9e5-1c0f-451a-8abb-c852e707f464
+  name: Step 3
+  type: decision_split
+_filename: post-design-fee-purchase-promo.yaml

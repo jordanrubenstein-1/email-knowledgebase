@@ -1,0 +1,35 @@
+id: 48ec2c89-8df8-4377-b241-42493f57503f
+name: P_EM_2026_02_02_TRADE_ALL_D_PR_Appreciation_Launch
+brand: ID
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 48ec2c89-8df8-4377-b241-42493f57503f
+dates:
+  send_date: '2026-02-02'
+  inferred_send_type: local_time
+  first_sent: '2026-02-01T19:05:07+00:00'
+  last_sent: '2026-02-02T19:01:20+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 65b4301e-0901-4bb9-a31c-254b86d56c1c
+  channel: email
+  name: Variant 1
+  subject: 'Our Thank-You: 25% Off'
+  preheader: Exclusive savings on Havenly Brands, just for our trade community.
+- id: e71f757a-4b4c-4d1b-916f-be3d96ee7c51
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 19717
+  total_delivered: 19047
+  total_opens: 8593
+  total_clicks: 133
+  open_rate: 0.4358
+  click_rate: 0.0067
+  total_revenue: 81921.74
+  total_bounces: 5
+  total_unsubscribes: 37
+schedule_type: time_based

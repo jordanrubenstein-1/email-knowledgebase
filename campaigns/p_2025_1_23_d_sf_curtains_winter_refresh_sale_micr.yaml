@@ -1,0 +1,56 @@
+id: b476a2dd-1fa4-461d-8d44-d969d1de4f79
+name: P_2025_1_23_D_SF_CURTAINS_WINTER_REFRESH_SALE_Microsoft
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: winter
+braze_id: b476a2dd-1fa4-461d-8d44-d969d1de4f79
+dates:
+  send_date: '2025-01-23'
+  inferred_send_type: scheduled
+  first_sent: '2025-01-23T04:00:23+00:00'
+  last_sent: '2025-01-23T15:30:03+00:00'
+tags: []
+sends:
+- id: bb5e291c-71eb-49be-a6a4-95705f565662
+  channel: email
+  name: Variant 1
+  subject: Custom Curtains 20% Off
+  preheader: pick your print
+  html_file: html/p_2025_1_23_d_sf_curtains_winter_refresh_sale_microsoft.html
+  screenshot: screenshots/p_2025_1_23_d_sf_curtains_winter_refresh_sale_microsoft.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67915e58380e5d00767774b9/original.gif?1737580119
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679154dfa9d38b00735f75eb/original.gif?1737577695
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678ab90d385c820065d7de2c/original.jpg?1737144589
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679153c49943ff00658fe3e7/original.gif?1737577412
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679157a848521900667dcfc2/original.gif?1737578408
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6791552361f6ee00657ce5b7/original.gif?1737577763
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679153f8baa3c700624272f7/original.jpg?1737577463
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6791548f48521900667dc433/original.gif?1737577615
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67915500d3e3ca0065ef9983/original.gif?1737577728
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679153446225bd0074541ae4/original.gif?1737577284
+- id: 3680fd7f-9d71-4020-bacb-1d1d855b5dc7
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 96
+  total_delivered: 96
+  total_opens: 54
+  total_clicks: 4
+  open_rate: 0.5625
+  click_rate: 0.0417
+  ga4:
+    sessions: 8
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.761265'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.306842'
+schedule_type: time_based

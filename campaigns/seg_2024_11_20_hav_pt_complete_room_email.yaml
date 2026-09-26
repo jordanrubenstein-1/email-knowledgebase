@@ -1,0 +1,31 @@
+id: 59a4f54b-605d-4971-957f-aa290d2aec56
+name: SEG_2024_11_20_HAV_PT_Complete_Room_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 59a4f54b-605d-4971-957f-aa290d2aec56
+dates:
+  send_date: '2024-11-20'
+  first_sent: '2024-11-20T20:18:26+00:00'
+  last_sent: '2024-11-20T20:18:31+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 52b4ccc7-fa75-4d18-ba57-f1401e12e8aa
+  channel: email
+  name: Variant 1
+  subject: Let's complete your design before the holidays!
+- id: 96abae77-4895-4905-87e9-30401596e2ba
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 78
+  total_delivered: 78
+  total_opens: 61
+  total_clicks: 6
+  open_rate: 0.7821
+  click_rate: 0.0769
+schedule_type: time_based
+_filename: seg_2024_11_20_hav_pt_complete_room_email.yaml

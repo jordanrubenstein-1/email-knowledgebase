@@ -1,0 +1,30 @@
+id: 64cce1d0-7b1a-4371-8efb-c462be015dfa
+name: P_2025_11_13_ID_Black_Friday_Launch_SMS
+brand: ID
+channel: sms
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 64cce1d0-7b1a-4371-8efb-c462be015dfa
+dates:
+  send_date: '2025-11-13'
+  inferred_send_type: local_time
+  first_sent: '2025-11-13T01:09:10+00:00'
+  last_sent: '2025-11-14T01:01:03+00:00'
+tags: []
+sends:
+- id: c957272e-b85a-47cf-ab3c-22b0665c15b1
+  channel: other
+  name: Variant 1
+- id: 75001730-9530-4af8-8cf2-45158b8181bc
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 51112
+  total_delivered: 48828
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 14259.0
+schedule_type: time_based

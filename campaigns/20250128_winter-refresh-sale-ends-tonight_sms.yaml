@@ -1,0 +1,30 @@
+id: 3073b264-7a04-4a8c-8927-22bd66dae95a
+name: 20250128_Winter-Refresh-Sale-Ends-Tonight_SMS
+brand: BUR
+channel: sms
+category: sale_promo
+type: sale
+theme: winter
+braze_id: 3073b264-7a04-4a8c-8927-22bd66dae95a
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2025-01-28T14:25:14+00:00'
+  last_sent: '2025-01-29T03:30:04+00:00'
+tags: []
+sends:
+- id: 7c7cb99b-7326-4b7d-86a6-256f40a07a8e
+  channel: other
+  name: Variant 1
+- id: c7710c9a-be7b-49d7-9c6f-ae78fd860443
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 153
+    purchases: 3
+    revenue: 3738.38
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.175392'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

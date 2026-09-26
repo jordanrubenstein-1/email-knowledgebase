@@ -1,0 +1,33 @@
+id: b29188c6-d0a6-4c0a-993e-fa7a35637d88
+name: P_2025_3_3_HAV_Conv_PT_Last_Layers_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: b29188c6-d0a6-4c0a-993e-fa7a35637d88
+dates:
+  send_date: '2025-03-03'
+  first_sent: '2025-03-03T22:51:44+00:00'
+  last_sent: '2025-03-03T22:51:57+00:00'
+  inferred_send_type: scheduled
+tags:
+- BLASTS-2025
+sends:
+- id: 00413034-11ba-4bb3-8f72-b64ba6e4c0b4
+  channel: email
+  name: Variant 1
+  subject: You deserve up to 20% off
+- id: 0d41f945-6b48-4dc0-b364-5a15781a77bf
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 38466
+  total_delivered: 38394
+  total_opens: 22796
+  total_clicks: 274
+  open_rate: 0.5926
+  click_rate: 0.0071
+  total_unsubscribes: 56
+schedule_type: time_based
+_filename: p_2025_3_3_hav_conv_pt_last_layers_email.yaml

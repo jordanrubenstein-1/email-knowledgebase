@@ -1,0 +1,52 @@
+id: a22083d1-a2d8-49c8-87fb-1345b03340c1
+name: P_EM_2026_02_07_CZ_D_PR_Presidents_Day_Sale_Categories
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: a22083d1-a2d8-49c8-87fb-1345b03340c1
+dates:
+  send_date: '2026-02-07'
+  inferred_send_type: local_time
+  first_sent: '2026-02-07T02:07:51+00:00'
+  last_sent: '2026-02-08T02:04:36+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale/presidentsday2026
+- sale_feat
+sends:
+- id: ca64ebcf-f235-4456-800e-ab192d20efb2
+  channel: email
+  name: Variant 1
+  subject: Most Loved Styles, Up to 25% Off
+  preheader: Presidents Day Sale savings on customer favorites.
+  html_file: html/p_em_2026_02_07_cz_d_pr_presidents_day_sale_categories.html
+  screenshot: screenshots/p_em_2026_02_07_cz_d_pr_presidents_day_sale_categories.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6986003aa44c0c006319d6e6/original.png?1770389561
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6985ffbb9737ea006449436d/original.png?1770389434
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6985fff48673680064d89c7c/original.png?1770389491
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6985ff5e8425fe00638c6406/original.png?1770389342
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69860021ca8e3100641dc390/original.png?1770389537
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6985ffd8c29e7e00644614f8/original.png?1770389464
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6985ff0a63a9b200648296af/original.gif?1770389258
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6985fef7eeeb780064cba807/original.png?1770389239
+- id: 02e6bbc8-0613-4b9c-91e2-b04a4430df30
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 55889
+  total_delivered: 55821
+  total_opens: 28569
+  total_clicks: 670
+  open_rate: 0.5112
+  click_rate: 0.012
+  total_bounces: 1
+  total_unsubscribes: 87
+_filename: p_em_2026_02_07_cz_d_pr_presidents_day_sale_categories.yaml
+schedule_type: time_based

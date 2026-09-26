@@ -1,0 +1,80 @@
+id: d2908776-d152-4b66-965e-c13db5f6ac2e
+name: Email & Phone Capture Modal Mobile
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: d2908776-d152-4b66-965e-c13db5f6ac2e
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-10-03T18:00:00+00:00'
+  last_sent: '2025-12-21T05:00:00+00:00'
+tags: []
+sends:
+- id: 3f3671b9-aed3-46f2-9824-408b98d34ccc
+  channel: other
+  name: Variant 1
+- id: 9fed1968-109b-4876-b1ed-671c4d4b425e
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.954505'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-the-gallery-sale-2025-10-09
+    name: The Gallery Sale
+    start_date: '2025-10-09'
+    end_date: '2025-10-21'
+    discount: 25% off Art + Wallpaper + Curtains
+    type: null
+  - id: stf-black-friday-cyber-monday-2025-11-14
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-12'
+    end_date: '2025-12-02'
+    discount: 'Up to 30% Off Sitewide
+
+      30% off fabric + wallpaper + pillows
+
+      20% off everything else'
+    type: null
+  - id: stf-black-friday-cyber-monday-extension-2025-12-03
+    name: Black Friday / Cyber Monday (EXTENSION)
+    start_date: '2025-12-03'
+    end_date: '2025-12-10'
+    discount: 'Up to 30% Off Sitewide
+
+      30% off fabric + wallpaper + pillows
+
+      20% off everything else'
+    type: null
+  - id: stf-black-friday-cyber-monday-ea-2025-11-12
+    name: Black Friday / Cyber Monday (EA)
+    start_date: '2025-11-12'
+    end_date: '2025-11-13'
+    discount: 'Up to 30% Off Sitewide
+
+      30% off fabric + wallpaper + pillows
+
+      20% off everything else'
+    type: null
+  primary_sale:
+    id: stf-the-gallery-sale-2025-10-09
+    name: The Gallery Sale
+    start_date: '2025-10-09'
+    end_date: '2025-10-21'
+    discount: 25% off Art + Wallpaper + Curtains
+    type: null
+  sale_name: The Gallery Sale
+  sale_discount: 25% off Art + Wallpaper + Curtains
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:39.492020'
+schedule_type: action_based

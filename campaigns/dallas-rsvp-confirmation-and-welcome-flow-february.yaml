@@ -1,0 +1,223 @@
+id: a637f38a-d0be-49e3-a490-47a63c386086
+name: Dallas RSVP Confirmation and Welcome Flow - February 2025
+brand: CZ
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: a637f38a-d0be-49e3-a490-47a63c386086
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-02-22T00:00:00+00:00'
+  last_sent: '2025-08-29T01:00:00+00:00'
+tags: []
+sends:
+- id: ae93d6f7-866d-481c-9be9-e6c0c9fcf7a6
+  channel: email
+  name: TRG_2024_07_CZ_Welcome_T2_Email
+  subject: The Well-Traveled Home
+  preheader: Bring home the best craftsmanship from around the globe. Fair Trade.
+    Guaranteed.
+  step_id: 5b876f8b-15a0-4bce-aa22-9b69eeb937f6
+- id: 7465c9bb-387d-48a2-8058-3a755d9e081b
+  channel: email
+  name: TRG_2024_07_CZ_Welcome_T1_Email
+  subject: Welcome to The Citizenry
+  preheader: Thanks for joining the journey. Country by country, we travel the globe
+    to bring the world's best craftsmanship home to you.
+  step_id: 0d7be09c-c14c-4465-8def-55398b4b2988
+- id: 35173002-bc64-48ce-8aff-9b480dfdbe85
+  channel: email
+  name: TRG_2024_07_CZ_Welcome_T3_Email
+  subject: Iconic For A Reason
+  preheader: Elevate your home with our iconic linen bedding. Sustainably made in
+    Portugal.
+  step_id: fb783c2b-e914-4f5d-81a7-f01b4eb1be1f
+- id: f15dc178-3ce9-4f25-861a-b36af51c2242
+  channel: email
+  name: DAL RSVP Confirmation
+  subject: You're On The List
+  preheader: See you at the grand opening of our Dallas store!
+  step_id: b9ec3abc-f355-4e39-acbb-1d5eac9e182f
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.264715'
+    source: snowflake
+    channel: email
+canvas_steps:
+- id: 7a7d2ddc-a770-49a7-9da1-cb637753c036
+  name: Step 1
+  type: delay
+- id: e5705e5c-e439-46d0-9d1f-8f3157fc1175
+  name: Step
+  type: delay
+- id: 5b876f8b-15a0-4bce-aa22-9b69eeb937f6
+  name: TRG_2024_07_CZ_Welcome_T2_Email
+  type: message
+  channel: email
+  subject: The Well-Traveled Home
+  preheader: Bring home the best craftsmanship from around the globe. Fair Trade.
+    Guaranteed.
+- id: 0d7be09c-c14c-4465-8def-55398b4b2988
+  name: TRG_2024_07_CZ_Welcome_T1_Email
+  type: message
+  channel: email
+  subject: Welcome to The Citizenry
+  preheader: Thanks for joining the journey. Country by country, we travel the globe
+    to bring the world's best craftsmanship home to you.
+- id: fb783c2b-e914-4f5d-81a7-f01b4eb1be1f
+  name: TRG_2024_07_CZ_Welcome_T3_Email
+  type: message
+  channel: email
+  subject: Iconic For A Reason
+  preheader: Elevate your home with our iconic linen bedding. Sustainably made in
+    Portugal.
+- id: 3ff00929-5d8f-4e3c-8ea7-032fd3975458
+  name: Step 2
+  type: delay
+- id: b9ec3abc-f355-4e39-acbb-1d5eac9e182f
+  name: DAL RSVP Confirmation
+  type: message
+  channel: email
+  subject: You're On The List
+  preheader: See you at the grand opening of our Dallas store!
+- id: faade80b-609d-4f1a-997a-3a0597b19525
+  name: has not received welcome canvas
+  type: decision_split
+- id: 8fe083a7-6887-474f-9d05-326245381ae6
+  name: Step 3
+  type: delay
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-citizenry-2025-02-19
+    name: The Citizenry
+    start_date: '2025-02-19'
+    end_date: '2025-02-24'
+    discount: 'Up to 20% Off Select Categories
+
+      20% Off Rugs + Bedding, 15% Off Furniture, Baskets, + Accents
+
+      + Up to 60% off Archive Sale
+
+
+      EXTENSION OFFER
+
+      Up to 20% Select Categories
+
+      20% off Bedding, 15% Off Furniture
+
+      + Up to 60% off Archive Sale'
+    type: null
+  - id: cz-the-citizenry-2025-03-12
+    name: The Citizenry
+    start_date: '2025-03-12'
+    end_date: '2025-03-13'
+    discount: "The Spring Event\nUp to 30% Off Select Categories: ALL MTO Furniture,\
+      \ Bedding, + Bath at 20%, plus SELECT (overstocked) Rugs at 20-30%\nArchive\
+      \ Sale up to 65%  including Fresh Cuts!\nTrade: 25% Off \nFree Swatch Promo\
+      \ (up to 5 swatches) 3/1-3/10"
+    type: null
+  - id: cz-the-citizenry-2025-04-11
+    name: The Citizenry
+    start_date: '2025-04-11'
+    end_date: '2025-04-13'
+    discount: 'Fresh Foundations
+
+      Up to 50% Off Select Rugs (tiered strikethrough)
+
+      15% Off Bedding, Pillows, and Accents (flat strikethrough)
+
+      No Trade Discount'
+    type: null
+  - id: cz-the-citizenry-2025-05-13
+    name: The Citizenry
+    start_date: '2025-05-13'
+    end_date: '2025-05-14'
+    discount: "The Memorial Day Event \n20% off Sitewide (Trade 25% off sitewide)\
+      \ inc MTO\nUp to 65% Archive Sale\nRETAIL ONLY EA VIA CODE - 5/7-5/12\nEarly\
+      \ Access: No code; EA messaging and strikethrough live on-site from 5/13"
+    type: null
+  - id: cz-the-citizenry-2025-06-12
+    name: The Citizenry
+    start_date: '2025-06-12'
+    end_date: '2025-06-12'
+    discount: 'The Summer Retreat Sale -- NO CODE NEEDED
+
+      20% Off Bedding, Bath, Baskets, Tableware, and Select Furniture (stocked funiture
+      only), + Up to 65% off Archive Sale
+
+      Trade: No Additional Offer'
+    type: null
+  - id: cz-the-citizenry-2025-07-08
+    name: The Citizenry
+    start_date: '2025-07-08'
+    end_date: '2025-07-08'
+    discount: 'The Fourth of July Event - NO CODE NEEDED
+
+      20% Off Sitewide, lean into In Stock/Ready to Ship
+
+      25% Off Sitewide for Trade'
+    type: null
+  - id: cz-the-bedroom-event-2025-07-23
+    name: The Bedroom Event
+    start_date: '2025-07-23'
+    end_date: '2025-07-24'
+    discount: 20% off Bedding, Pillows, Bedroom Furniture
+    type: null
+  - id: cz-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: Up to 65% Off Select Categories - Focus on Archive Sale and In Stock
+      Product
+    type: null
+  - id: cz-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-02'
+    discount: 20% off Sitewide
+    type: null
+  primary_sale:
+    id: cz-the-citizenry-2025-02-19
+    name: The Citizenry
+    start_date: '2025-02-19'
+    end_date: '2025-02-24'
+    discount: 'Up to 20% Off Select Categories
+
+      20% Off Rugs + Bedding, 15% Off Furniture, Baskets, + Accents
+
+      + Up to 60% off Archive Sale
+
+
+      EXTENSION OFFER
+
+      Up to 20% Select Categories
+
+      20% off Bedding, 15% Off Furniture
+
+      + Up to 60% off Archive Sale'
+    type: null
+  sale_name: The Citizenry
+  sale_discount: 'Up to 20% Off Select Categories
+
+    20% Off Rugs + Bedding, 15% Off Furniture, Baskets, + Accents
+
+    + Up to 60% off Archive Sale
+
+
+    EXTENSION OFFER
+
+    Up to 20% Select Categories
+
+    20% off Bedding, 15% Off Furniture
+
+    + Up to 60% off Archive Sale'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:40.684624'

@@ -1,0 +1,31 @@
+id: 7c676b48-8b15-46ae-b835-fc3a9516228a
+name: Magic Login Transactional Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 7c676b48-8b15-46ae-b835-fc3a9516228a
+dates:
+  first_sent: '2024-10-16T22:00:00+00:00'
+  last_sent: '2026-06-09T19:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: aab076c1-69e4-4631-8af7-3723c7da2d6f
+  channel: email
+  name: Variant 1
+  subject: Login to Havenly
+- id: 7cee6c8d-b374-4894-8065-b5cd84a9438c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 6272
+  total_delivered: 6264
+  total_opens: 6326
+  total_clicks: 4994
+  open_rate: 1.0086
+  click_rate: 0.7962
+  total_bounces: 2
+schedule_type: api_triggered
+_filename: magic-login-transactional-email.yaml

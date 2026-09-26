@@ -1,0 +1,23 @@
+id: c27da0da-d14d-47f1-9524-f90a6777eb72
+name: P_EM_2026_06_24_TRADE_PT_ID_Trade_Offer_Boost_Reminder
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: c27da0da-d14d-47f1-9524-f90a6777eb72
+dates:
+  send_date: '2026-06-24'
+  last_sent: '2026-06-24'
+tags: []
+sends:
+- id: 9e9ff36c-2a83-4c90-9a49-2933b5beae2f
+  channel: email
+  name: Variant 1
+  subject: 'Reminder: We updated your Trade discount'
+- id: 925720a4-6459-4ec8-b98b-51411ae38607
+  channel: email
+  name: Control Group
+performance_summary: {}
+_filename: p_em_2026_06_24_trade_pt_id_trade_offer_boost_reminder.yaml
+schedule_type: time_based

@@ -1,0 +1,30 @@
+id: 6f267ec3-ef9f-47fd-a6a7-106488bda51d
+name: P_2025_6_06_ID_Weekender_Sale_Last_Chance_SMS
+brand: ID
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: 6f267ec3-ef9f-47fd-a6a7-106488bda51d
+dates:
+  send_date: '2025-06-06'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-09T21:49:40+00:00'
+  last_sent: '2025-06-09T21:51:24+00:00'
+tags: []
+sends:
+- id: f60a4221-1117-46c3-9a17-87fa66b4b3ea
+  channel: other
+  name: Variant 1
+- id: c4053ac7-4873-442d-8cda-2f8493f251db
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 57789
+  total_delivered: 39187
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 4597.0
+schedule_type: time_based

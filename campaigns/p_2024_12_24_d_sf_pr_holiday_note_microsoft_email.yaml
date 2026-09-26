@@ -1,0 +1,56 @@
+id: 0a6f6ac7-13e5-4004-8709-26f9ba7abd2a
+name: P_2024_12_24_D_SF_PR_Holiday_Note_Microsoft_Email
+brand: STF
+channel: email
+category: other
+type: seasonal
+theme: christmas
+braze_id: 0a6f6ac7-13e5-4004-8709-26f9ba7abd2a
+dates:
+  send_date: '2024-12-24'
+  inferred_send_type: scheduled
+  first_sent: '2024-12-24T00:41:39+00:00'
+  last_sent: '2024-12-24T15:30:04+00:00'
+tags: []
+sends:
+- id: f5a58508-7ba0-4c28-93f4-d0824f97e687
+  channel: email
+  name: Variant 1
+  subject: Merry & Bright ✨
+  preheader: sending warm wishes for a bright and joyful holiday
+  html_file: html/p_2024_12_24_d_sf_pr_holiday_note_microsoft_email.html
+  screenshot: screenshots/p_2024_12_24_d_sf_pr_holiday_note_microsoft_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67699441cb3ce1006462ad99/original.jpg?1734972480
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6769941781bd5e00642601eb/original.gif?1734972439
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676994b7c899a600651d802c/original.gif?1734972599
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67699454413653006551dd90/original.gif?1734972500
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6769947390e9aa006551fb66/original.jpg?1734972531
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67699488413653006551ddc2/original.gif?1734972552
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67699374e02f6300664e0cad/original.jpg?1734972276
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67699392f6800f0084289fcf/original.gif?1734972306
+- id: 551c47d9-a1e0-4293-b6e0-fce694951bda
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 125
+  total_delivered: 125
+  total_opens: 41
+  total_clicks: 0
+  open_rate: 0.328
+  click_rate: 0.0
+  total_revenue: 165.0
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.810811'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.636842'
+schedule_type: time_based

@@ -1,0 +1,58 @@
+id: 31f52147-80c3-46b3-81e6-cbd3b6f2e4ae
+name: P_2024_09_25_D_CZ_PR_Fall_Launch_2_Email
+brand: CZ
+channel: email
+category: product_launch
+type: seasonal
+theme: fall
+braze_id: 31f52147-80c3-46b3-81e6-cbd3b6f2e4ae
+dates:
+  send_date: '2024-09-25'
+  inferred_send_type: local_time
+  first_sent: '2024-09-24T22:24:08+00:00'
+  last_sent: '2024-09-25T17:00:17+00:00'
+tags:
+- batch and blast
+sends:
+- id: da35a151-227d-4723-a88d-b61abf1f419d
+  channel: email
+  name: Variant 1
+  subject: New For Fall
+  preheader: Rugs. Furniture. Bedding. Shop our newest designs for fall.
+  html_file: html/p_2024_09_25_d_cz_pr_fall_launch_2_email.html
+  screenshot: screenshots/p_2024_09_25_d_cz_pr_fall_launch_2_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66f1c9f67c31cc007437d904/original.jpg?1727121910
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66f1ca507c31cc006537ec04/original.jpg?1727122000
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66f1cace0512b60064e4f3dd/original.jpg?1727122126
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66f1c9d47c31cc007437d8d5/original.jpg?1727121876
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66f1ca651cb2db00641bd758/original.jpg?1727122021
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66f1c9b6ce57a400666755ae/original.jpg?1727121846
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66f313b673427500630794da/original.jpg?1727206326
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66f1ca10ce57a40066675754/original.jpg?1727121935
+- id: 558b5c97-0a5b-4432-b268-95038164fabe
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 79897
+  total_delivered: 77883
+  total_opens: 42366
+  total_clicks: 1008
+  open_rate: 0.5303
+  click_rate: 0.0126
+  total_revenue: 68001.85
+  total_bounces: 1444
+  total_unsubscribes: 175
+  ga4:
+    sessions: 1262
+    purchases: 14
+    revenue: 6271.35
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.872875'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:35.978512'
+schedule_type: time_based

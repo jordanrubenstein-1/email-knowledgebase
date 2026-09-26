@@ -1,0 +1,47 @@
+id: klaviyo-R5ycnU
+name: 'Email #2'
+brand: TI
+channel: email
+category: other
+type: announcement
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: VJAhTY
+canvas_name: Trade Loyalty Status Upgrade
+flow_type: other_flow
+sequence_position: 2
+dates:
+  created: '2021-03-08'
+  inferred_send_type: sto
+  first_sent: '2021-03-08'
+  last_sent: '2022-01-20'
+sends:
+- id: R5ycnU
+  channel: email
+  name: Message
+  subject: You are now a Platinum Trade Member.
+  preheader: You've qualified for some new perks!
+  html_file: html/klv-flow-trade-loyalty-status-upgrade-t02-R5ycnU.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/88b02a1a-282b-4892-9b07-db78aaab8148.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: R5ycnU
+structure:
+  image_count: 1
+  link_count: 2
+  has_gif: false
+  hero_width: 600
+  layout_type: hero_only

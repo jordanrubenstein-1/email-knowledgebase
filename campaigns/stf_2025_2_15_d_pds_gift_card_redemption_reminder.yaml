@@ -1,0 +1,40 @@
+id: 4deac240-336f-4f9d-bb2c-74bfd884b622
+name: STF_2025_2_15_D_PDS_Gift_Card_Redemption_Reminder
+brand: STF
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 4deac240-336f-4f9d-bb2c-74bfd884b622
+dates:
+  send_date: '2025-02-15'
+  last_sent: '2025-02-15'
+tags: []
+sends:
+- id: b84da571-a0c6-4805-bad1-5477eb33f897
+  channel: email
+  name: Variant 1
+  subject: 'Re: Your Gift Card'
+  preheader: time to treat yourself
+  html_file: html/stf_2025_2_15_d_pds_gift_card_redemption_reminder.html
+  screenshot: screenshots/stf_2025_2_15_d_pds_gift_card_redemption_reminder.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af5843c844330065c8e20e/original.jpg?1739544643
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af587e344ef300751ee3e1/original.jpg?1739544702
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af5824d3549b0066eac686/original.jpg?1739544612
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af586d8da1ba00651e16d0/original.jpg?1739544684
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af5770d3549b0066eac3c5/original.jpg?1739544431
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af57c9275dae00653d4f24/original.jpg?1739544521
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af57d6a7db3800765ee662/original.jpg?1739544534
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af57de744dc50067715089/original.jpg?1739544541
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af57fd2b74d50066747a78/original.jpg?1739544572
+- id: 8133be88-bb8f-4e77-8579-84008b542f1e
+  channel: other
+  name: Control Group
+performance_summary: {}
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.833738'
+schedule_type: time_based

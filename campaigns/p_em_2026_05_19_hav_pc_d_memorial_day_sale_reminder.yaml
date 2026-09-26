@@ -1,0 +1,35 @@
+id: 1b0bee5f-fa0e-42c8-b2b7-d32ca1475627
+name: P_EM_2026_05_19_HAV_PC_D_Memorial_Day_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 1b0bee5f-fa0e-42c8-b2b7-d32ca1475627
+dates:
+  send_date: '2026-05-19'
+  first_sent: '2026-05-18T16:31:43+00:00'
+  last_sent: '2026-05-20T09:30:42+00:00'
+  inferred_send_type: sto
+tags:
+- BLASTS-2025
+sends:
+- id: 85af2abd-6db8-4045-b723-c20b7d56d7eb
+  channel: email
+  name: Variant 1
+  subject: A designer-approved summer refresh
+  preheader: Save 50% on design services during our Memorial Day event.
+- id: 33b5007a-ebaa-48e5-a925-a61b2a1a479c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 68492
+  total_delivered: 68340
+  total_opens: 28096
+  total_clicks: 334
+  open_rate: 0.4102
+  click_rate: 0.0049
+  total_bounces: 2
+  total_unsubscribes: 213
+schedule_type: time_based
+_filename: p_em_2026_05_19_hav_pc_d_memorial_day_sale_reminder.yaml

@@ -1,0 +1,31 @@
+id: deab2db8-7b9b-4f80-8ba3-029a2e7ffacc
+name: TRG_EM_2026_09_HAV_CONV_PT_Missed_Call_T3_V1
+brand: HAV
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: f0029284-a2b3-4a7d-8d79-b56df7517e9c
+canvas_name: Missed Designer Call
+flow_type: other_flow
+sequence_position: 3
+subject: Ready when you are
+preheader: ''
+sends:
+- id: deab2db8-7b9b-4f80-8ba3-029a2e7ffacc
+  channel: email
+  name: TRG_EM_2026_09_HAV_CONV_PT_Missed_Call_T3_V1
+  subject: Ready when you are
+  preheader: ''
+  html_file: html/canvas-missed-designer-call-t3-deab2db8.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-09-11T20:00:00Z'
+  last_sent: '2026-09-21T12:00:00Z'
+performance_summary:
+  total_sends: 33
+  total_delivered: 33
+  total_opens: 21
+  total_clicks: 0
+  open_rate: 0.6364
+  click_rate: 0.0

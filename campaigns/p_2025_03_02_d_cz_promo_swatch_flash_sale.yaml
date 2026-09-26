@@ -1,0 +1,59 @@
+id: 7659cfb1-7982-427e-a9dd-c4f9737ae87d
+name: P_2025_03_02_D_CZ_Promo_Swatch_Flash_Sale
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 7659cfb1-7982-427e-a9dd-c4f9737ae87d
+dates:
+  send_date: '2025-03-02'
+  inferred_send_type: local_time
+  first_sent: '2025-03-01T17:09:28+00:00'
+  last_sent: '2025-03-02T17:02:09+00:00'
+tags: []
+sends:
+- id: 27f7d6f5-7a6e-41e9-8664-2d3b54cc417c
+  channel: email
+  name: Variant 1
+  subject: 'Just For You: 5 Free Swatches'
+  preheader: Get a head start on major savings (coming soon)...
+  html_file: html/p_2025_03_02_d_cz_promo_swatch_flash_sale.html
+  screenshot: screenshots/p_2025_03_02_d_cz_promo_swatch_flash_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c24979055e6400622e2c69/original.png?1740786041
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c249fe7006330064da068f/original.png?1740786173
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c249efb6e95a0064540801/original.png?1740786159
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c24a6799fef700621091b9/original.png?1740786278
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c24a0bdc6bc70062d83ec1/original.png?1740786186
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c24a11cbdcdd006405ac22/original.png?1740786193
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c24a2699fef700621090f7/original.png?1740786213
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c249df055e6400622e2d68/original.png?1740786143
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c24a5f7006330064da070c/original.png?1740786271
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67c249747006330064da055a/original.png?1740786036
+- id: ef8c5d07-24d5-4f49-829d-41545f5892aa
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 91044
+  total_delivered: 90292
+  total_opens: 47999
+  total_clicks: 521
+  open_rate: 0.5272
+  click_rate: 0.0057
+  total_revenue: 47607.11
+  total_bounces: 2
+  total_unsubscribes: 123
+  ga4:
+    sessions: 803
+    purchases: 32
+    revenue: 109.4
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.852771'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:35.570582'
+schedule_type: time_based

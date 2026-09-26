@@ -1,0 +1,58 @@
+id: c4ad97c1-8b22-4924-abdf-e4319720112b
+name: P_2025_04_05_D_STF_New_Printed_Table_Linens
+brand: STF
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: c4ad97c1-8b22-4924-abdf-e4319720112b
+dates:
+  send_date: '2025-04-05'
+  inferred_send_type: local_time
+  first_sent: '2025-04-04T22:03:05+00:00'
+  last_sent: '2025-04-05T17:00:38+00:00'
+tags: []
+sends:
+- id: 92a5ebf4-65e1-462c-84d9-bdd37fada13e
+  channel: email
+  name: Variant 1
+  subject: 'NEW IN: Patterned Table Linens'
+  preheader: you asked and we delivered
+  html_file: html/p_2025_04_05_d_stf_new_printed_table_linens.html
+  screenshot: screenshots/p_2025_04_05_d_stf_new_printed_table_linens.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f00b0078e2250075f9dd84/original.png?1743784704
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f00b2f9c1e1b0076e0676a/original.png?1743784751
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f00af278e2250065f9e7e3/original.gif?1743784689
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f00aa0baf6c00066643fd3/original.png?1743784607
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f00b1f7533e00067aaa775/original.png?1743784734
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f00b10be14a80064275dc2/original.png?1743784719
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f00b174512990066494bca/original.png?1743784727
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f00ad14f2db80066a12179/original.png?1743784657
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f00b29d0ec460085e451a6/original.png?1743784745
+- id: 685289b0-84fa-493f-a02a-a045691dba7d
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 11681
+  total_delivered: 11560
+  total_opens: 6788
+  total_clicks: 311
+  open_rate: 0.5811
+  click_rate: 0.0266
+  total_revenue: 7106.0
+  total_unsubscribes: 23
+  ga4:
+    sessions: 411
+    purchases: 2
+    revenue: 292.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.952997'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.456745'
+schedule_type: time_based

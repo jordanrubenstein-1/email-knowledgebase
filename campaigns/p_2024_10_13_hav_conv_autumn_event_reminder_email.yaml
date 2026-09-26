@@ -1,0 +1,33 @@
+id: 51efc7cb-2983-4430-9f14-3213fc8b6b5f
+name: P_2024_10_13_HAV_Conv_Autumn_Event_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: fall
+braze_id: 51efc7cb-2983-4430-9f14-3213fc8b6b5f
+dates:
+  send_date: '2024-10-13'
+  first_sent: '2024-10-12T17:15:02+00:00'
+  last_sent: '2024-10-13T17:15:02+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 37b39b4c-a050-4403-9951-cef948c824a3
+  channel: email
+  name: Variant 1
+  subject: Fall into savings 🍁
+  preheader: Save up to 25% now and skip the Black Friday lines
+- id: 3b61eb45-2bd4-4a89-968f-00a12a3001ca
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 36402
+  total_delivered: 36376
+  total_opens: 20880
+  total_clicks: 213
+  open_rate: 0.5736
+  click_rate: 0.0059
+  total_unsubscribes: 58
+schedule_type: time_based
+_filename: p_2024_10_13_hav_conv_autumn_event_reminder_email.yaml

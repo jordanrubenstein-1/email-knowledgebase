@@ -1,0 +1,31 @@
+id: 5e6e3cbe-418f-431f-3ac7-704a5592f05d
+name: Extension Request Denied (Designers)
+brand: HAV
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 5e6e3cbe-418f-431f-3ac7-704a5592f05d
+dates:
+  first_sent: '2024-09-27T21:00:00+00:00'
+  last_sent: '2026-06-07T20:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: 33a91250-847e-40b0-95d6-24455c77ede7
+  channel: email
+  name: Variant 1
+  subject: Your Extension Request for {{api_trigger_properties.${clientName}}}'s project
+    has been denied
+- id: ebb37e1c-0246-4968-9202-318b5b92c921
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 7
+  total_delivered: 7
+  total_opens: 5
+  total_clicks: 0
+  open_rate: 0.7143
+  click_rate: 0.0
+schedule_type: api_triggered
+_filename: extension-request-denied-designers.yaml

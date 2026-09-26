@@ -1,0 +1,46 @@
+id: 8c4e0293-a5fb-426c-b45d-d1f81092e5a1
+name: P_2024_09_21_D_ID_PR_Bedroom_Feature_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 8c4e0293-a5fb-426c-b45d-d1f81092e5a1
+dates:
+  send_date: '2024-09-21'
+  inferred_send_type: local_time
+  first_sent: '2024-09-20T22:07:05+00:00'
+  last_sent: '2024-09-21T15:15:02+00:00'
+tags: []
+sends:
+- id: cc456cbe-3b87-481d-bc70-f4677a2f2325
+  channel: email
+  name: Variant 1
+  subject: Get guest-ready in time for the holidays
+  preheader: It’s (almost) hosting season
+- id: 65801547-d8e6-43c2-b13f-9fb2e2dce721
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 46101
+  total_delivered: 45609
+  total_opens: 16675
+  total_clicks: 397
+  open_rate: 0.3617
+  click_rate: 0.0086
+  total_revenue: 121633.0
+  total_bounces: 2
+  total_unsubscribes: 88
+  ga4:
+    sessions: 404
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.278855'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.458355'
+schedule_type: time_based

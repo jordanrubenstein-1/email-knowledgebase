@@ -1,0 +1,53 @@
+id: 8450c574-fb24-44d4-a1a5-f97e4fa8ee11
+name: P_EM_2026_04_20_CZ_D_PR_Florals_Sleep_Sale
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 8450c574-fb24-44d4-a1a5-f97e4fa8ee11
+dates:
+  send_date: '2026-04-20'
+  inferred_send_type: sto
+  first_sent: '2026-04-19T11:07:47+00:00'
+  last_sent: '2026-04-21T09:31:58+00:00'
+tags:
+- batch and blast
+- d2c
+- designed
+- sale
+- sale/sleepsale2026
+- sale_feat
+sends:
+- id: 44a10845-d949-4a9a-833f-b0517f87b9fb
+  channel: email
+  name: Variant 1
+  subject: A study in florals, now 20% off
+  preheader: Softly patterned pillows, quilts, and rugs in the Sleep Well Sale.
+  html_file: html/p_em_2026_04_20_cz_d_pr_florals_sleep_sale.html
+  screenshot: screenshots/p_em_2026_04_20_cz_d_pr_florals_sleep_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69e11a1e92c86500c87de0a1/original.png?1776359966
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69dd32878b665f00c57f2117/original.png?1776104070
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69dd328c8fa27000c17a2f25/original.png?1776104076
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69e11905d5aa7f00acdc2156/original.png?1776359685
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69e147123c351a00c8e75434/original.png?1776371474
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69e118f509678d00ac9f9fae/original.png?1776359668
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69e11a3fbcc23800ae8c9b51/original.png?1776359998
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69e11aa8e1b9d200ac1e3704/original.png?1776360104
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69e1195c324e8900ac52e629/original.png?1776359771
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69dd328260c50600c4f2ef8c/original.png?1776104065
+- id: d051abc5-4b13-434b-a176-d34041789a96
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 47816
+  total_delivered: 47738
+  total_opens: 24957
+  total_clicks: 709
+  open_rate: 0.5219
+  click_rate: 0.0148
+  total_bounces: 2
+  total_unsubscribes: 98
+_filename: p_em_2026_04_20_cz_d_pr_florals_sleep_sale.yaml
+schedule_type: time_based

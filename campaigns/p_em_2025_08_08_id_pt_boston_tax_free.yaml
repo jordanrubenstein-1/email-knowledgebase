@@ -1,0 +1,61 @@
+id: 8dce0fa8-98b0-4122-83b6-9ef8d1393a4f
+name: P_EM_2025_08_08_ID_PT_Boston_Tax_Free
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 8dce0fa8-98b0-4122-83b6-9ef8d1393a4f
+dates:
+  send_date: '2025-08-08'
+  inferred_send_type: scheduled
+  first_sent: '2025-08-08T18:41:58+00:00'
+  last_sent: '2025-08-08T18:42:26+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 2e23bf2b-cb67-47c7-b97c-9f3361b3c023
+  channel: email
+  name: Variant 1
+  subject: Hey Boston, it's tax-free weekend
+- id: f4e5c67b-60ab-4c5c-804d-1e9a8cecbf2c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 992
+  total_delivered: 992
+  total_opens: 590
+  total_clicks: 10
+  open_rate: 0.5948
+  click_rate: 0.0101
+  total_revenue: 9770.0
+  total_unsubscribes: 2
+  ga4:
+    sessions: 19
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.039489'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off sitewide
+    type: null
+  primary_sale:
+    id: id-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off sitewide
+    type: null
+  sale_name: The Sunset Sale
+  sale_discount: 20% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:42.069162'
+schedule_type: time_based

@@ -1,0 +1,53 @@
+id: klaviyo-XLZuVm
+name: TRG_EM_2026_08_D_TRADE_TE_Welcome_Email_T2
+brand: TE
+channel: email
+category: other
+type: lifecycle
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: YsRZpa
+canvas_name: trade_program-welcome-July2026
+flow_type: welcome_series
+sequence_position: 13
+dates:
+  created: '2026-07-14'
+  inferred_send_type: sto
+  first_sent: '2026-07-14'
+  last_sent: '2026-08-25'
+sends:
+- id: XLZuVm
+  channel: email
+  name: Message
+  subject: Your trade perks, explained
+  preheader: Every purchase across every brand counts.
+  html_file: html/klv-flow-trade_program-welcome-july2026-t13-XLZuVm.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/adf6b0b1-e173-40ed-ab20-928814e78d39.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/33d2f792-704f-4eac-8d5f-c0a33bcc0982.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/e2737790-1322-4c48-94ea-b19425d008e7.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/4e78e8bb-0e2a-4c4f-bd48-05741db30c08.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/c840e097-346d-4242-afd5-7e63d3828cbf.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/84aa7949-b3c8-4ac5-b200-0df25714cd12.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/03798e82-7136-4b31-8695-8ee2b6e9c424.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: XLZuVm
+structure:
+  image_count: 7
+  link_count: 10
+  has_gif: false
+  hero_width: 600
+  layout_type: product_grid

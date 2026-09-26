@@ -1,0 +1,35 @@
+id: 132c39c4-4d22-4f15-86cc-01679e4ee7f8
+name: P_EM_2026_06_10_HAV_D_PC_Fourth_of_July_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 132c39c4-4d22-4f15-86cc-01679e4ee7f8
+dates:
+  send_date: '2026-06-10'
+  first_sent: '2026-06-09T18:23:23+00:00'
+  last_sent: '2026-06-10T15:00:00+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 92f10cc1-4202-40b7-adec-857220261134
+  channel: email
+  name: Variant 1
+  subject: Your dream room for $99. Yes, really
+  preheader: Our Fourth of July Sale is live. Don't miss it.
+- id: b772989e-5dda-4947-857c-281febaeb1ff
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 284274
+  total_delivered: 283611
+  total_opens: 100792
+  total_clicks: 443
+  open_rate: 0.3546
+  click_rate: 0.0016
+  total_bounces: 6
+  total_unsubscribes: 481
+schedule_type: time_based
+_filename: p_em_2026_06_10_hav_d_pc_fourth_of_july_sale_reminder.yaml

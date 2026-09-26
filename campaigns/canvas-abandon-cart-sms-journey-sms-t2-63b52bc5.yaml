@@ -1,0 +1,23 @@
+id: 63b52bc5-39d1-4cfb-aa40-032c0f985c42
+name: Abandon_Cart_SMS_Step_1
+brand: CZ
+channel: sms
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 985b4237-ce23-4337-8c96-596bf6936706
+canvas_name: Abandon cart SMS journey
+flow_type: cart_abandonment
+sequence_position: 2
+body: 'The Citizenry: Going, going... Handcrafted in small batches, don''t miss out
+  on the styles you were eyeing. Check out now: https://thecitizenry.attn.tv/a-2bKBKWdoT0'
+sends:
+- id: 63b52bc5-39d1-4cfb-aa40-032c0f985c42
+  channel: sms
+  name: Abandon_Cart_SMS_Step_1
+  body: 'The Citizenry: Going, going... Handcrafted in small batches, don''t miss
+    out on the styles you were eyeing. Check out now: https://thecitizenry.attn.tv/a-2bKBKWdoT0'
+dates:
+  first_sent: null
+  last_sent: null
+performance_summary: {}

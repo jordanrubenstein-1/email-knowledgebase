@@ -1,0 +1,33 @@
+id: 257cf444-938a-46d8-8b08-a1d65058c68d
+name: P_EM_2026_09_24_SF_D_Trend_Report_Fall
+brand: STF
+channel: email
+category: editorial
+type: seasonal
+theme: fall
+braze_id: 257cf444-938a-46d8-8b08-a1d65058c68d
+dates:
+  send_date: '2026-09-24'
+  first_sent: '2026-09-24T00:41:14+00:00'
+  last_sent: '2026-09-24T11:00:00+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 0685cf28-0ac0-4e51-9f06-9357890053ad
+  channel: email
+  name: Variant 1
+  subject: The fall trends worth knowing
+  preheader: Layered luxury, warm windows, and statement walls.
+- id: ea265f9b-e025-4d62-9c48-a25318022618
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 2435
+  total_delivered: 2395
+  total_opens: 408
+  total_clicks: 2
+  open_rate: 0.1676
+  click_rate: 0.0008
+  total_unsubscribes: 2
+schedule_type: time_based
+_filename: p_em_2026_09_24_sf_d_trend_report_fall.yaml

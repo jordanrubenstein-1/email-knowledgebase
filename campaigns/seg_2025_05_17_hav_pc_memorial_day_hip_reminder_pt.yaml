@@ -1,0 +1,35 @@
+id: ae35faa8-dbdc-4ac1-93d5-eafa8fe6f0ec
+name: SEG_2025_05_17_HAV_PC_Memorial_Day_HIP_Reminder_PT
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: ae35faa8-dbdc-4ac1-93d5-eafa8fe6f0ec
+dates:
+  send_date: '2025-05-17'
+  first_sent: '2025-05-17T03:08:53+00:00'
+  last_sent: '2025-05-18T02:00:28+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 54c47c38-b25e-4bb7-8549-9e429aac9921
+  channel: email
+  name: Variant 1
+  subject: ' In-Person Interior Design Is Now in {{${city} | default: ''Your City''}}'
+  preheader: Real designers. Real spaces. Real results.
+- id: 9861e500-9e5c-43a8-a318-0e5bc2cd8b38
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 11498
+  total_delivered: 11110
+  total_opens: 6288
+  total_clicks: 227
+  open_rate: 0.5469
+  click_rate: 0.0197
+  total_bounces: 200
+  total_unsubscribes: 217
+schedule_type: time_based
+_filename: seg_2025_05_17_hav_pc_memorial_day_hip_reminder_pt.yaml

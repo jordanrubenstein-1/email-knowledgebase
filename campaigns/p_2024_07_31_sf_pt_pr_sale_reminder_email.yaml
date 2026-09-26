@@ -1,0 +1,48 @@
+id: b535b6ee-915a-4542-9d8a-91f944739a93
+name: P_2024_07_31_SF_PT_PR_Sale_Reminder_Email
+brand: STF
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: b535b6ee-915a-4542-9d8a-91f944739a93
+dates:
+  send_date: '2024-07-31'
+  inferred_send_type: scheduled
+  first_sent: '2024-07-31T16:32:47+00:00'
+  last_sent: '2024-07-31T23:15:07+00:00'
+tags:
+- Batch and Blast
+sends:
+- id: bfe52fb5-1be8-4dc4-8557-25de5ed0c0cc
+  channel: email
+  name: Variant 1
+  subject: 'Only A Few Hours Left: 20% Off Pillows '
+  preheader: our Summer Tent Sale ends at midnight
+  html_file: html/p_2024_07_31_sf_pt_pr_sale_reminder_email.html
+  screenshot: screenshots/p_2024_07_31_sf_pt_pr_sale_reminder_email.png
+- id: 7f134e4a-96c7-49f1-bee8-967ea1196928
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1575
+  total_delivered: 1575
+  total_opens: 634
+  total_clicks: 68
+  open_rate: 0.4025
+  click_rate: 0.0432
+  total_revenue: 865.0
+  total_unsubscribes: 11
+  ga4:
+    sessions: 56
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.942058'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.090959'
+schedule_type: time_based

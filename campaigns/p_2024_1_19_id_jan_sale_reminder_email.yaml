@@ -1,0 +1,38 @@
+id: 591f2913-3b33-46df-a8b0-ee5bf8b85695
+name: P_2024_1_19_ID_Jan_Sale_Reminder_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 591f2913-3b33-46df-a8b0-ee5bf8b85695
+dates:
+  send_date: '2024-01-19'
+  inferred_send_type: local_time
+  first_sent: '2025-01-18T21:21:01+00:00'
+  last_sent: '2025-01-19T17:15:04+00:00'
+tags: []
+sends:
+- id: ee5b3635-673c-4c06-b038-1728488ff835
+  channel: email
+  name: Variant 1
+  subject: 'Don’t Miss It: 20% Off Sitewide'
+  preheader: Shop The Refresh Sale while you still can.
+- id: 8fa15f02-7585-4502-ab02-eed105440816
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 98284
+  total_delivered: 97328
+  total_opens: 26497
+  total_clicks: 536
+  open_rate: 0.2696
+  click_rate: 0.0055
+  total_revenue: 172668.75
+  total_bounces: 1
+  total_unsubscribes: 119
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.038798'
+schedule_type: time_based

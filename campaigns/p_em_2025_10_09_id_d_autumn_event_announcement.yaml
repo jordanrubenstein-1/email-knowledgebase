@@ -1,0 +1,63 @@
+id: e96de948-3324-4ada-841c-e109a6f8ebb0
+name: P_EM_2025_10_09_ID_D_Autumn_Event_Announcement
+brand: ID
+channel: email
+category: sale_promo
+type: product_launch
+theme: fall
+braze_id: e96de948-3324-4ada-841c-e109a6f8ebb0
+dates:
+  send_date: '2025-10-09'
+  inferred_send_type: local_time
+  first_sent: '2025-10-08T19:38:38+00:00'
+  last_sent: '2025-10-09T17:15:14+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 23ad84dc-229e-4246-88dc-539656a69cb4
+  channel: email
+  name: Variant 1
+  subject: The Autumn Event is here
+  preheader: 20% off custom furniture
+- id: ed6e530b-cf5b-42c9-ab7a-7440baf69bff
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 202683
+  total_delivered: 198590
+  total_opens: 94491
+  total_clicks: 894
+  open_rate: 0.4662
+  click_rate: 0.0044
+  total_revenue: 179623.92
+  total_bounces: 7
+  total_unsubscribes: 277
+  ga4:
+    sessions: 1253
+    purchases: 16
+    revenue: 40851.48
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.972976'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-the-autumn-event-2025-10-09
+    name: The Autumn Event
+    start_date: '2025-10-09'
+    end_date: '2025-10-21'
+    discount: 20% off sitewide
+    type: null
+  primary_sale:
+    id: id-the-autumn-event-2025-10-09
+    name: The Autumn Event
+    start_date: '2025-10-09'
+    end_date: '2025-10-21'
+    discount: 20% off sitewide
+    type: null
+  sale_name: The Autumn Event
+  sale_discount: 20% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:41.342278'
+schedule_type: time_based

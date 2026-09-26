@@ -1,0 +1,249 @@
+id: 3a481fde-abf3-46d3-a663-534dc3b69e6d
+name: Cart Abandon
+brand: STF
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: 3a481fde-abf3-46d3-a663-534dc3b69e6d
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-07-16T00:00:00+00:00'
+  last_sent: '2025-12-22T02:00:00+00:00'
+tags: []
+sends:
+- id: 7991fc84-25b1-41a7-8f8c-938d631b49fc
+  channel: email
+  name: TRG_EM_2024_07_SF_D_Cart_Abandon_Returning_Customer_Free_Shipping_T1_V1
+  subject: You have exceptional taste
+  preheader: free shipping on your cart
+  step_id: 90e3dfa0-0678-4419-ad65-bdb791063494
+- id: 749f70ad-02a9-4c20-a5aa-50131caefe7d
+  channel: email
+  name: TRG_EM_2024_07_SF_D_Cart_Abandon_Returning_Customer_Free_Shipping_T2_V1
+  subject: Free shipping on your cart, just because
+  preheader: it's a great day to shop
+  step_id: 721261bd-b33a-41b9-af57-f370232a0c0d
+- id: 318f4438-d576-44cb-8c21-b83cff0595b1
+  channel: email
+  name: TRG_EM_2025_03_SF_D_Cart_Abandon_New_Customer_T1_V1
+  subject: You have exceptional taste
+  preheader: '{{content_blocks.${2025Q3_AC_PH_Email1_Promo}}}'
+  step_id: 559c5801-1059-4aa6-87ea-b43cda5e842f
+- id: a2af0074-9973-4455-ba5f-b2ff5851a258
+  channel: email
+  name: TRG_EM_2025_03_SF_D_Cart_Abandon_New_Customer_T2_V1
+  subject: '{{content_blocks.${2025Q3_AC_SL_Email2_Promo}}}'
+  preheader: it's a great day to shop
+  step_id: 7dba9a5c-667c-4a34-a336-c12ea0643fd8
+performance_summary:
+  total_entries: 695
+  total_sends: 51
+  total_delivered: 51
+  total_opens: 37
+  total_clicks: 0
+  open_rate: 0.7255
+  click_rate: 0.0
+  total_conversions: 115
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.735180'
+    source: snowflake
+    channel: email
+canvas_steps:
+- id: 90e3dfa0-0678-4419-ad65-bdb791063494
+  name: TRG_EM_2024_07_SF_D_Cart_Abandon_Returning_Customer_Free_Shipping_T1_V1
+  type: message
+  channel: email
+  subject: You have exceptional taste
+  preheader: free shipping on your cart
+- id: 9ed7a43f-bd1c-41cf-b55b-238d92d2ff65
+  name: Email Subscribed?
+  type: decision_split
+- id: 721261bd-b33a-41b9-af57-f370232a0c0d
+  name: TRG_EM_2024_07_SF_D_Cart_Abandon_Returning_Customer_Free_Shipping_T2_V1
+  type: message
+  channel: email
+  subject: Free shipping on your cart, just because
+  preheader: it's a great day to shop
+- id: bad5cba2-2163-4ffc-bf4c-af8411be7c0f
+  name: New vs. Repeat Customers
+  type: decision_split
+- id: 559c5801-1059-4aa6-87ea-b43cda5e842f
+  name: TRG_EM_2025_03_SF_D_Cart_Abandon_New_Customer_T1_V1
+  type: message
+  channel: email
+  subject: You have exceptional taste
+  preheader: '{{content_blocks.${2025Q3_AC_PH_Email1_Promo}}}'
+- id: 7dba9a5c-667c-4a34-a336-c12ea0643fd8
+  name: TRG_EM_2025_03_SF_D_Cart_Abandon_New_Customer_T2_V1
+  type: message
+  channel: email
+  subject: '{{content_blocks.${2025Q3_AC_SL_Email2_Promo}}}'
+  preheader: it's a great day to shop
+- id: f296f036-4d27-43bd-8904-a9d86b7527e4
+  name: Step 4
+  type: delay
+- id: e9c4f738-3383-428c-92bb-09a2585c358a
+  name: Delay
+  type: delay
+- id: 47d22863-3e59-45d2-a6e4-330c10447e9d
+  name: Delay
+  type: delay
+- id: 94a747a6-cf5c-4127-91af-5e8d2003dc42
+  name: TRG_SMS_2025_07_SF_Cart_Abandon_New_Customer_Promo_T1_V1
+  type: message
+- id: 3b48a033-b59e-463f-88b1-e2b70450580e
+  name: New vs. Repeat Customers
+  type: decision_split
+- id: 719e5166-50a1-493d-9bfe-8b6d4f6685c9
+  name: TRG_SMS_2025_07_SF_Cart_Abandon_Returning_Customer_T1_V1
+  type: message
+- id: 8d8eec44-57ac-45f1-886b-a7dc5e010932
+  name: SMS Subscribed?
+  type: decision_split
+- id: 84f4bf0a-7e5d-4489-bf49-33a1ff959474
+  name: Step 5
+  type: delay
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-st-frank-2025-02-19
+    name: St Frank
+    start_date: '2025-02-19'
+    end_date: '2025-02-24'
+    discount: Sitewide 20% off B2C, Trade 25%
+    type: null
+  - id: stf-st-frank-2025-05-13
+    name: St Frank
+    start_date: '2025-05-13'
+    end_date: '2025-05-13'
+    discount: "The Memorial Day Event\n30% off sitewide (B2C) \n35% off Trade\nEarly\
+      \ Access: No code; EA messaging and strikethrough live on-site from 5/13"
+    type: null
+  - id: stf-st-frank-2025-07-08
+    name: St Frank
+    start_date: '2025-07-08'
+    end_date: '2025-07-08'
+    discount: 'Fourth of July Sale -- SITEWIDE, NO CODE NEEDED
+
+      20% Off Sitewide | 25% Off Sitewide for Trade'
+    type: null
+  - id: stf-the-pillow-event-2025-07-25
+    name: The Pillow Event
+    start_date: '2025-07-25'
+    end_date: '2025-07-31'
+    discount: 20% Off All Pillows
+    type: null
+  - id: stf-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off Sitewide
+    type: null
+  - id: stf-the-labor-day-event-2025-08-21
+    name: The Labor Day Event
+    start_date: '2025-08-21'
+    end_date: '2025-09-04'
+    discount: 25% off Sitewide
+    type: null
+  - id: stf-the-autumn-event-2025-09-24
+    name: The Autumn Event
+    start_date: '2025-09-24'
+    end_date: '2025-09-30'
+    discount: 20% Off Sitewide
+    type: null
+  - id: stf-the-gallery-sale-2025-10-09
+    name: The Gallery Sale
+    start_date: '2025-10-09'
+    end_date: '2025-10-21'
+    discount: 25% off Art + Wallpaper + Curtains
+    type: null
+  - id: stf-black-friday-cyber-monday-2025-11-14
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-12'
+    end_date: '2025-12-02'
+    discount: 'Up to 30% Off Sitewide
+
+      30% off fabric + wallpaper + pillows
+
+      20% off everything else'
+    type: null
+  - id: stf-black-friday-cyber-monday-extension-2025-12-03
+    name: Black Friday / Cyber Monday (EXTENSION)
+    start_date: '2025-12-03'
+    end_date: '2025-12-10'
+    discount: 'Up to 30% Off Sitewide
+
+      30% off fabric + wallpaper + pillows
+
+      20% off everything else'
+    type: null
+  - id: stf-black-friday-cyber-monday-ea-2025-11-12
+    name: Black Friday / Cyber Monday (EA)
+    start_date: '2025-11-12'
+    end_date: '2025-11-13'
+    discount: 'Up to 30% Off Sitewide
+
+      30% off fabric + wallpaper + pillows
+
+      20% off everything else'
+    type: null
+  - id: stf-end-of-year-sale-2025-01-01
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-05'
+    discount: 20% off Sitewide + 30% Off Last Chance Patterns
+    type: null
+  - id: stf-30-off-fabric-wallpaper-curtains-category-strikethrough-2024-10-25
+    name: 30% off fabric/wallpaper/curtains category (strikethrough)
+    start_date: '2024-10-25'
+    end_date: '2024-10-30'
+    discount: null
+    type: null
+  - id: stf-flash-sale-2024-10-25
+    name: Flash Sale
+    start_date: '2024-10-25'
+    end_date: '2024-10-30'
+    discount: null
+    type: null
+  - id: stf-early-access-2024-11-12
+    name: Early Access
+    start_date: '2024-11-12'
+    end_date: '2024-11-14'
+    discount: null
+    type: null
+  - id: stf-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-02'
+    discount: null
+    type: null
+  - id: stf-cyber-week-ext-2024-12-03
+    name: Cyber Week Ext
+    start_date: '2024-12-03'
+    end_date: '2024-12-10'
+    discount: null
+    type: null
+  - id: stf_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: stf-st-frank-2025-02-19
+    name: St Frank
+    start_date: '2025-02-19'
+    end_date: '2025-02-24'
+    discount: Sitewide 20% off B2C, Trade 25%
+    type: null
+  sale_name: St Frank
+  sale_discount: Sitewide 20% off B2C, Trade 25%
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:32.637354'

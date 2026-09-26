@@ -1,0 +1,35 @@
+id: 57413916-d992-4e99-af4b-5edb01ac68a2
+name: TRG_EM_2024_07_CZ_D_Welcome_T4
+brand: CZ
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: c7ee8f4e-f9f7-4e59-87e1-ac78e49ddc23
+canvas_name: Welcome Flow - August 2024
+flow_type: welcome_series
+sequence_position: 3
+subject: Iconic For A Reason
+preheader: Elevate your home with our iconic linen bedding. Sustainably made in Portugal.
+sends:
+- id: 57413916-d992-4e99-af4b-5edb01ac68a2
+  channel: email
+  name: TRG_EM_2024_07_CZ_D_Welcome_T4
+  subject: Iconic For A Reason
+  preheader: Elevate your home with our iconic linen bedding. Sustainably made in
+    Portugal.
+  html_file: html/canvas-welcome-flow-august-2024-t3-57413916.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-24T19:00:00Z'
+  last_sent: '2026-08-17T13:00:00Z'
+performance_summary:
+  total_sends: 98793
+  total_delivered: 96764
+  total_opens: 34585
+  total_clicks: 1441
+  open_rate: 0.3501
+  click_rate: 0.0146
+  total_unsubscribes: 802
+  total_bounces: 656
+  total_revenue: 299.0

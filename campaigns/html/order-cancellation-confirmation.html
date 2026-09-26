@@ -1,0 +1,789 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta content="width=device-width" name="viewport">
+  <title>Havenly</title>
+</head>
+
+<body
+  style="-moz-box-sizing: border-box; -ms-text-size-adjust: 100%; -webkit-box-sizing: border-box; -webkit-text-size-adjust: 100%; Margin: 0; box-sizing: border-box; color: #0a0a0a; font-family: Helvetica, Arial, serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0; min-width: 100%; padding: 0; text-align: left; width: 100% !important;">
+  <style type="text/css">
+    @media only screen {
+      html {
+        min-height: 100%;
+        background: #fafafa
+      }
+    }
+
+    @media only screen and (max-width: 739px) {
+      .small-float-center {
+        margin: 0 auto !important;
+        float: none !important;
+        text-align: center !important
+      }
+
+      .small-text-center {
+        text-align: center !important
+      }
+
+      .small-text-left {
+        text-align: left !important
+      }
+
+      .small-text-right {
+        text-align: right !important
+      }
+    }
+
+    @media only screen and (max-width: 739px) {
+      .bodycopy {
+        font-size: 22px !important;
+        padding: 70px 74px 70px 74px !important;
+      }
+    }
+
+    @media only screen and (max-width: 739px) {
+      .button {
+        font-size: 18px !important;
+        width: 200px !important;
+      }
+    }
+
+    @media only screen and (max-width: 739px) {
+      .hide-for-large {
+        display: block !important;
+        width: auto !important;
+        overflow: visible !important;
+        max-height: none !important;
+        font-size: inherit !important;
+        line-height: inherit !important
+      }
+    }
+
+    @media only screen and (max-width: 739px) {
+
+      table.body table.container .hide-for-large,
+      table.body table.container .row.hide-for-large {
+        display: table !important;
+        width: 100% !important
+      }
+    }
+
+    @media only screen and (max-width: 739px) {
+      table.body table.container .callout-inner.hide-for-large {
+        display: table-cell !important;
+        width: 100% !important
+      }
+    }
+
+    @media only screen and (max-width: 739px) {
+      table.body table.container .show-for-large {
+        display: none !important;
+        width: 0;
+        mso-hide: all;
+        overflow: hidden
+      }
+    }
+
+    @media only screen and (max-width: 739px) {
+      table.body img {
+        width: auto;
+        height: auto
+      }
+
+      table.body center {
+        min-width: 0 !important
+      }
+
+      table.body .container {
+        width: 100% !important
+      }
+
+      table.body .columns,
+      table.body .column {
+        height: auto !important;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-left: 30px !important;
+        padding-right: 30px !important
+      }
+
+      table.body .columns .column,
+      table.body .columns .columns,
+      table.body .column .column,
+      table.body .column .columns {
+        padding-left: 0 !important;
+        padding-right: 0 !important
+      }
+
+      table.body .collapse .columns,
+      table.body .collapse .column {
+        padding-left: 0 !important;
+        padding-right: 0 !important
+      }
+
+      table.body table.columns td.expander,
+      table.body table.columns th.expander {
+        display: none !important
+      }
+
+      table.body .right-text-pad,
+      table.body .text-pad-right {
+        padding-left: 10px !important
+      }
+
+      table.body .left-text-pad,
+      table.body .text-pad-left {
+        padding-right: 10px !important
+      }
+
+      table.menu {
+        width: 100% !important
+      }
+
+      table.menu td,
+      table.menu th {
+        width: auto !important;
+        display: inline-block !important
+      }
+
+    }
+
+    @media only screen and (max-width: 739px) {
+
+      .large-border-right,
+      .large-border-right-white {
+        border-right: none !important
+      }
+
+      .non-query-only {
+        display: none !important
+      }
+
+      table.body th.no-pad-sides-mobile {
+        padding-left: 10px !important;
+        padding-right: 10px !important
+      }
+    }
+
+    @media only screen and (min-width: 739px) {
+      .query-only {
+        display: none !important
+      }
+    }
+
+    @media only screen and (max-width: 596px) {
+      .hide-for-large {
+        display: block !important
+      }
+
+      .responsive-spacer {
+        margin: 0;
+        padding: 0;
+        height: 30px !important
+      }
+
+    }
+  </style>
+  <!-- Visually Hidden Preheader Text : BEGIN -->
+  <div
+    style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: sans-serif;">
+  </div>
+  <!--
+    Visually Hidden Preheader Text : END -->
+
+  <table class="body"
+    style="Margin: 0; background: #fafafa; border-collapse: collapse; border-spacing: 0; color: #0a0a0a; font-family: Helvetica, Arial, serif; font-size: 16px; font-weight: normal; height: 100%; line-height: 1.3; margin: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+    <tr style="padding: 0; text-align: left; vertical-align: top;">
+      <td align="center" class="center"
+        style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica, Arial, serif; font-size: 16px; font-weight: normal; hyphens: auto; line-height: 1.3; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"
+        valign="top">
+        <center data-parsed="" style="min-width: 739px; width: 100%;">
+
+          <table align="center" class="container float-center"
+            style="Margin: 0 auto; background: #fafafa; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 739px;">
+            <tbody>
+              <tr style="padding: 0; text-align: left; vertical-align: top;">
+                <td
+                  style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica, Arial, serif; font-size: 16px; font-weight: normal; hyphens: auto; line-height: 1.3; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+                  <!-- START HEADER -->
+                  {{content_blocks.${api_trig_header} | id: 'cb1'}}
+                  <!-- END HEADER -->
+
+                  <table class="spacer"
+                    style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+                    <tbody>
+                      <tr style="padding: 0; text-align: left; vertical-align: top;">
+                        <td height="45px"
+                          style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica, Arial, serif; font-size: 30px; font-weight: normal; hyphens: auto; line-height: 45px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: center; vertical-align: top; word-wrap: break-word;">
+                           </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <!-- 740px Text -->
+                  <table width="740" class="deviceWidth" border="0" cellpadding="0" cellspacing="0" align="left">
+                    <tr>
+                      <td valign="top" align="left" class=""
+                        style="font-family: 'Sailec-Regular', Helvetica, Arial, sans-serif; font-size:16px; letter-spacing:0.01em; line-height:2em; color:#000000; text-align:left; padding:50px 74px 50px 74px; background-color:#ffffff; hyphens: none">
+                        Hi {{ api_trigger_properties.first_name }},
+
+                        <br><br>This email is your confirmation that we have cancelled order
+                        <strong>#{{ api_trigger_properties.order_number }}</strong>. We apologize for any inconvenience.
+                        <br><br>
+
+                        We want to make sure you have the items you need to make your design dreams a reality. If you
+                        need help finding alternatives, email us at <a href="mailto:hello@havenly.com"
+                          style="color:#AF6D47;cursor:pointer;font-family:'Sailec-Regular', Helvetica, Arial, serif;text-align:left;"
+                          target="_blank">hello@havenly.com</a>.<br><br>
+
+                        {% if api_trigger_properties.order_note %}
+                        <font color="#AF6D47"><strong>A note from the ordering team:</strong><br>
+                          <i>{{ api_trigger_properties.order_note }}</i>
+                        </font>
+                        {% endif %}
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- end 740px Text -->
+
+                  <!-- START 30px tall spacer -->
+                  <table class="spacer"
+                    style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+                    <tbody>
+                      <tr style="padding: 0; text-align: left; vertical-align: top;">
+                        <td height="30px"
+                          style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #fafafa; font-family: Helvetica, Arial, serif; font-size: 30px; font-weight: normal; hyphens: auto; line-height: 45px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: center; vertical-align: top; word-wrap: break-word;">
+                          .</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- END 30px tall spacer -->
+
+                  <!-- Item Cancellation Details -->
+                  <table width="740" class="deviceWidth" border="0" cellpadding="0" cellspacing="0" align="center">
+                    <tr>
+                      <td bgcolor="FAFAFA">
+                        <table width="85%" class="deviceWidth" border="0" cellpadding="0" cellspacing="0"
+                          align="center">
+                          <tr>
+                            <td valign="top" align="center" class=""
+                              style="font-family: 'Sailec-regular', Helvetica, Arial, sans-serif; font-size:20px; letter-spacing:0em; line-height:1.5em; color:#000000; text-align:left; padding:0px 0px 10px 18px; background-color:#fafafa">
+                              <strong>Item Cancellation Details</strong>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+                  {% for order in api_trigger_properties.all_confirmed_orders %}
+                  <!-- Vendor Name Here -->
+                  <table width="740" class="deviceWidth" border="0" cellpadding="0" cellspacing="0" align="center">
+                    <tr>
+                      <td bgcolor="FAFAFA">
+                        <table width="85%" class="deviceWidth" border="0" cellpadding="0" cellspacing="0"
+                          align="center">
+                          <tr>
+                            <td valign="top" align="center" class=""
+                              style="font-family: 'Sailec-Regular', Helvetica, Arial, sans-serif; font-size:15px; letter-spacing:0em; line-height:1.5em; color:#000000; text-align:left; padding:12px 30px 10px 18px; background-color:#EEEEEE">
+                              <strong>{{ order.vendor }}</strong>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+                  {% for product in order.products %}
+                  <!-- Product Summary -->
+                  <table width="740" class="deviceWidth" border="0" cellpadding="0" cellspacing="0" align="center">
+                    <tr>
+                      <td bgcolor="FAFAFA">
+                        <table width="630" class="deviceWidth" cellpadding="0" cellspacing="0" align="center"
+                          style="border-top:1pt solid #EEEEEE;">
+                          <tr>
+                            <td>
+                              <table>
+                                <tr>
+                                  <td bgcolor="#FFFFFF" class="product" width="100"
+                                    style="font-family:'Sailec-Regular', Helvetica, Arial; padding:10px 0px 10px 20px;">
+                                    <a href="{{ product.product_link }}" style="color:#738494;text-decoration:none;">
+                                      <img width="90" src="{{ product.image }}" alt="{{ product.name }}"
+                                        style="width:100px;  display:block; border:none;" class="deviceWidth"
+                                        border="0">
+                                  </td>
+                                  <td bgcolor="#FFFFFF" width="500" align="left" style="padding:20px 0px 20px 30px">
+                                    <table width="450" cellpadding="0" cellspacing="0" style="padding-right:10px;">
+                                      <tr>
+                                        <td class="copy"
+                                          style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:15px;line-height:1.8em;letter-spacing:0em;color:#000000;text-align:left;">
+                                          <a href="{{ product.product_link }}"
+                                            style="color: #000000; text-decoration:none"><strong>{{ product.name
+                                              }}</strong></a>
+                                        </td>
+                                        <td width="50" class="copy"
+                                          style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:15px;line-height:1.8em;letter-spacing:0em;color:#000000;text-align:left;">
+                                          <strong>Qty</strong>
+                                        </td>
+                                        <td width="60" class="copy"
+                                          style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:15px;line-height:1.8em;letter-spacing:0em;color:#000000;text-align:right;">
+                                          <strong>Price</strong>
+                                        </td>
+                                        <td width="90" class="vendor"
+                                          style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:15px;line-height:1.8em;letter-spacing:0em;color:#000000;text-align:right;">
+                                          <strong>Subtotal</strong>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        {% if product.order_status %}
+                                        {% if product.order_status.error %}
+                                        <td
+                                          style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;line-height:1.8em;letter-spacing:0em;color:#FF5050;text-align:left;">
+                                          {{product.order_status.status}}{% if product.order_status.detail %}:{% endif
+                                          %}
+                                          <strong>{{product.order_status.detail}}</strong>
+                                        </td>
+                                        {% else %}
+                                        <td
+                                          style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;line-height:1.8em;letter-spacing:0em;text-align:left;">
+                                          {{product.order_status.status}}{% if product.order_status.detail %}:{% endif
+                                          %}
+                                          <strong>{{product.order_status.detail}}</strong>
+                                        </td>
+                                        {% endif %}
+                                        {% else %}
+                                        <td></td>
+                                        {% endif %}
+
+                                        <td
+                                          style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;line-height:1.8em;letter-spacing:0em;color:#000000;text-align:left;">
+                                          {% if product.order_status.canceled %}<strike>{% endif %}{{product.quantity}}{% if
+                                            product.order_status.canceled %}</strike>{% endif %}
+                                        </td>
+                                        <td class="vendor"
+                                          style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;line-height:1.8em;letter-spacing:0em;color:#000000;text-align:right;">
+                                          {% if product.price.discounted_price %}
+                                          {% if product.order_status.canceled %}<strike>{% endif %}
+                                            ${{product.price.discounted_price}}
+                                            {% if product.order_status.canceled %}</strike>{% endif %}
+                                          <br>
+                                          {% endif %}
+                                          {% if product.price.discounted_price %}<font color="#AAAAAA">{% endif %}
+                                            {% if product.price.discounted_price %}<strike>{% endif %}
+                                              {% if product.order_status.canceled %}<strike>{% endif %}
+                                                ${{product.price.retail_price}}
+                                                {% if product.price.discounted_price %}</strike>{% endif %}
+                                              {% if product.order_status.canceled %}</strike>{% endif %}
+                                            {% if product.price.discounted_price %}</font>{% endif %}
+                                        </td>
+                                        <td class="vendor"
+                                          style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;line-height:1.8em;letter-spacing:0em;color:#000000;text-align:right;">
+                                          {% if product.order_status.canceled %}<strike>{% endif %}
+                                            ${{product.price.subtotal}}
+                                            {% if product.order_status.canceled %}</strike>{% endif %}
+                                        </td>
+                                      </tr>
+                                      {% if product.price_match %}
+                                      <tr>
+                                        <td
+                                          style="font-family:Sailec, Helvetica, Arial, sans-serif;font-size:14px;line-height:1.8em;letter-spacing:0em;color:#AF6D47;text-align:left;">
+                                          <strong>{{product.price_match}}</strong>
+                                        </td>
+                                      </tr>
+                                      {% endif %}
+                                      {% if product.eta %}
+                                      <tr>
+                                        <td
+                                          style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;line-height:1.8em;letter-spacing:0em;color:#000000;text-align:left;">
+                                          ETA: <strong>{{product.eta}}</strong>
+                                        </td>
+                                      </tr>
+                                      {% endif %}
+
+                                      <tr>
+                                        <td
+                                          style="font-family:Sailec, Helvetica, Arial, sans-serif;font-size:14px;line-height:1.8em;letter-spacing:0em;color:#AF6D47;text-align:left;">
+                                          <strong></strong>
+                                        </td>
+                                      </tr>
+
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- end Product Summary -->
+                  <!-- Delivery Note -->
+                  {% if product.delivery_note %}
+                  <table width="740" class="deviceWidth" border="0" cellpadding="0" cellspacing="0" align="center">
+                    <tr>
+                      <td bgcolor="FAFAFA">
+                        <table width="85%" class="deviceWidth" border="0" cellpadding="0" cellspacing="0"
+                          align="center">
+                          <tr>
+                            <td valign="top" align="center" class="subtext4"
+                              style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;letter-spacing:0em;line-height:1.8em;color:#000000;text-align:left;padding:30px 30px 30px 30px;background-color:#FFFFFF;">
+                              <strong>Delivery Note:</strong> <i>{{product.delivery_note}}</i>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  {% endif %}
+                  <!-- end Dlivery Note -->
+                  <!-- Ordering Team Note -->
+                  {% if product.ordering_team_note %}
+                  <table width="740" class="deviceWidth" border="0" cellpadding="0" cellspacing="0" align="center">
+                    <tr>
+                      <td bgcolor="FAFAFA">
+                        <table width="85%" class="deviceWidth" border="0" cellpadding="0" cellspacing="0"
+                          align="center">
+                          <tr>
+                            <td valign="top" align="center" class="subtext4"
+                              style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;letter-spacing:0em;line-height:1.8em;color:#000000;text-align:left;padding:30px 30px 30px 30px;background-color:#FFFFFF;">
+                              <strong>Note from the ordering team:</strong> <i>{{product.ordering_team_note}}</i>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  {% endif %}
+                  <!-- end Ordering Team Note -->
+                  {% endfor %}
+                  <!-- end Product Loop -->
+                  <!-- Vendor Totals -->
+                  <table width="630" cellpadding="0" cellspacing="0" align="center">
+                    <tr>
+                      <td align="right" width="240" bgcolor="FFFFFF"
+                        style="padding:30px 30px 30px 0px; border-top:1pt solid #EEEEEE">
+                        <table width="350" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td
+                              style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;0em;line-height:1.8em;color:#000000;text-align:right">
+                              <strong>{{order.vendor}} Tax:</strong>
+                            </td>
+                            <td class=""
+                              style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;0em;line-height:1.8em;color:#000000;text-align:right">
+                              ${{order.order_totals.tax}}</td>
+                          </tr>
+                          <tr>
+                            <td
+                              style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;0em;line-height:1.8em;color:#000000;text-align:right">
+                              <strong>{{order.vendor}} Shipping:</strong>
+                            </td>
+                            <td class=""
+                              style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;0em;line-height:1.8em;color:#000000;text-align:right">
+                              ${{order.order_totals.shipping}}</td>
+                          </tr>
+                          {% if order.order_totals.surcharge %}
+                          <tr>
+                            <td
+                              style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;0em;line-height:1.8em;color:#000000;text-align:right">
+                              <strong>{{order.vendor}} Surcharge:</strong>
+                            </td>
+                            <td class=""
+                              style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;0em;line-height:1.8em;color:#000000;text-align:right">
+                              ${{order.order_totals.surcharge}}</td>
+                          </tr>
+                          {% endif %}
+                          {% if order.order_totals.codes.vendor.codes %}
+                          {% for code in order.order_totals.codes.vendor.codes %}
+                          <tr>
+                            <td
+                              style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;0em;line-height:1.8em;color:#000000;text-align:right">
+                              <font color="#AF6D47"><strong>{{code}} Applied!</strong></font>
+                            </td>
+                            <td class=""
+                              style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;0em;line-height:1.8em;color:#000000;text-align:right">
+                            </td>
+                          </tr>
+                          {% endfor %}
+                          {% if order.order_totals.codes.vendor.discount %}
+                          <tr>
+                            <td
+                              style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;0em;line-height:1.8em;color:#000000;text-align:right">
+                              <strong>{{order.vendor}} Discount:</strong>
+                            </td>
+                            <td class=""
+                              style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;0em;line-height:1.8em;color:#000000;text-align:right">
+                              -${{order.order_totals.codes.vendor.discount}}</td>
+                          </tr>
+                          {% endif %}
+                          {% endif %}
+                          {% if order.order_totals.codes.havenly.code %}
+                          <tr>
+                            <td
+                              style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;0em;line-height:1.8em;color:#000000;text-align:right">
+                              <font color="#AF6D47"><strong>{{order.order_totals.codes.havenly.code}} Applied!</strong>
+                              </font>
+                            </td>
+                            <td class=""
+                              style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;0em;line-height:1.8em;color:#000000;text-align:right">
+                            </td>
+                          </tr>
+
+                          {% if order.order_totals.codes.havenly.discount %}
+                          <tr>
+                            <td
+                              style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;0em;line-height:1.8em;color:#000000;text-align:right">
+                              <strong>Havenly Discount:</strong>
+                            </td>
+                            <td class=""
+                              style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;0em;line-height:1.8em;color:#000000;text-align:right">
+                              -${{order.order_totals.codes.havenly.discount}}</td>
+                          </tr>
+                          {% endif %}
+                          {% endif %}
+                          <tr>
+                            <td
+                              style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;0em;line-height:1.8em;color:#000000;text-align:right">
+                              <strong>{{vendor}} Total:</strong>
+                            </td>
+                            <td class=""
+                              style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;0em;line-height:1.8em;color:#000000;text-align:right">
+                              ${{order.order_totals.total}}</td>
+                          </tr>
+
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- end Vendor Totals -->
+
+                  {% endfor %}
+                  <!-- end Order Loop -->
+                  <!-- START 30px tall spacer -->
+                  <table class="spacer"
+                    style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+                    <tbody>
+                      <tr style="padding: 0; text-align: left; vertical-align: top;">
+                        <td height="30px"
+                          style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #FAFAFA; font-family: Helvetica, Arial, serif; font-size: 30px; font-weight: normal; hyphens: auto; line-height: 45px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: center; vertical-align: top; word-wrap: break-word;">
+                          .</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- END 30px tall spacer -->
+
+
+                  <!-- Order Totals -->
+                  <table width="740" class="deviceWidth" border="0" cellpadding="0" cellspacing="0" align="center">
+                    <tr>
+                      <td bgcolor="FAFAFA">
+                        <table width="85%" class="deviceWidth" border="0" cellpadding="0" cellspacing="0"
+                          align="center">
+                          <tr>
+                            <td valign="top" align="center" class=""
+                              style="font-family: 'Sailec-regular', Helvetica, Arial, sans-serif; font-size:20px; letter-spacing:0em; line-height:1.5em; color:#000000; text-align:left; padding:0px 0px 10px 18px; background-color:#fafafa">
+                              <strong>Final Order Total</strong>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- end Order Totals -->
+
+
+
+
+                  <!-- Final Order Totals -->
+                  <table width="630" cellpadding="0" cellspacing="0" align="center">
+                    <tr>
+                      <td align="right" width="240" bgcolor="FFFFFF" style="padding:30px 43px 30px 0px;">
+                        <table width="350" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td
+                              style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;0em;line-height:1.8em;color:#000000;text-align:right">
+                              <strong>Subtotal:</strong>
+                            </td>
+                            <td class=""
+                              style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;0em;line-height:1.8em;color:#000000;text-align:right">
+                              ${{api_trigger_properties.final.subtotal}}</td>
+                          </tr>
+                          <tr>
+                            <td
+                              style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;0em;line-height:1.8em;color:#000000;text-align:right">
+                              <strong>Shipping:</strong>
+                            </td>
+                            <td class=""
+                              style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;0em;line-height:1.8em;color:#000000;text-align:right">
+                              ${{api_trigger_properties.final.shipping}}</td>
+                          </tr>
+                          <tr>
+                            <td
+                              style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;0em;line-height:1.8em;color:#000000;text-align:right">
+                              <strong>Tax:</strong>
+                            </td>
+                            <td class=""
+                              style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;0em;line-height:1.8em;color:#000000;text-align:right">
+                              ${{api_trigger_properties.final.tax}}</td>
+                          </tr>
+                          {% for order in all_confirmed_orders %}
+                          {% if order.order_totals.surcharge %}
+                          <tr>
+                            <td
+                              style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;0em;line-height:1.8em;color:#000000;text-align:right">
+                              <strong>{{order.vendor}} Surcharge:</strong>
+                            </td>
+                            <td class=""
+                              style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;0em;line-height:1.8em;color:#000000;text-align:right">
+                              ${{order.order_totals.surcharge}}</td>
+                          </tr>
+                          {% endif %}
+                          {% endfor %}
+                          {% if api_trigger_properties.final.vendor_discount %}
+                          <tr>
+                            <td
+                              style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;0em;line-height:1.8em;color:#000000;text-align:right">
+                              <strong>Vendor Discounts:</strong>
+                            </td>
+                            <td class=""
+                              style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;0em;line-height:1.8em;color:#000000;text-align:right">
+                              -${{api_trigger_properties.final.vendor_discount}}</td>
+                          </tr>
+                          {% endif %}
+                          {% if api_trigger_properties.final.havenly_discount %}
+                          <tr>
+                            <td
+                              style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;0em;line-height:1.8em;color:#000000;text-align:right">
+                              <strong>Havenly Discounts:</strong>
+                            </td>
+                            <td class=""
+                              style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;0em;line-height:1.8em;color:#000000;text-align:right">
+                              -${{api_trigger_properties.final.havenly_discount}}</td>
+                          </tr>
+                          {% endif %}
+                          {% if api_trigger_properties.final.registry_discount %}
+                          <tr>
+                            <td
+                              style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;0em;line-height:1.8em;color:#000000;text-align:right">
+                              <strong>Registry Discount:</strong>
+                            </td>
+                            <td class=""
+                              style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:14px;0em;line-height:1.8em;color:#000000;text-align:right">
+                              -${{api_trigger_properties.final.registry_discount}}</td>
+                          </tr>
+                          {% endif %}
+                          <tr>
+                            <td
+                              style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:18px;0em;line-height:1.8em;color:#AF6D47;text-align:right">
+                              <strong>Total:</strong>
+                            </td>
+                            <td class=""
+                              style="font-family:'Sailec-Regular', Helvetica, Arial, sans-serif;font-size:18px;0em;line-height:1.8em;color:#AF6D47;text-align:right">
+                              ${{api_trigger_properties.final.total}}</td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- end Final Order Totals -->
+
+
+
+                  <!-- START 30px tall spacer -->
+                  <table class="spacer"
+                    style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+                    <tbody>
+                      <tr style="padding: 0; text-align: left; vertical-align: top;">
+                        <td height="30px"
+                          style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #FAFAFA; font-family: Helvetica, Arial, serif; font-size: 30px; font-weight: normal; hyphens: auto; line-height: 45px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: center; vertical-align: top; word-wrap: break-word;">
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- END 30px tall spacer -->
+
+
+
+                  <!-- START 30px tall spacer -->
+                  <table class="spacer"
+                    style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+                    <tbody>
+                      <tr style="padding: 0; text-align: left; vertical-align: top;">
+                        <td height="30px"
+                          style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #FAFAFA; font-family: Helvetica, Arial, serif; font-size: 30px; font-weight: normal; hyphens: auto; line-height: 45px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: center; vertical-align: top; word-wrap: break-word;">
+                          .</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- END 30px tall spacer -->
+
+
+
+
+                  <!-- START 30px tall spacer -->
+                  <table class="spacer"
+                    style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+                    <tbody>
+                      <tr style="padding: 0; text-align: left; vertical-align: top;">
+                        <td height="50px"
+                          style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; background-color: #FFFFFF; font-family: Helvetica, Arial, serif; font-size: 30px; font-weight: normal; hyphens: auto; line-height: 45px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: center; vertical-align: top; word-wrap: break-word;">
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- END 30px tall spacer -->
+
+                  <!-- Bullet Proof Button -->
+                  <div>
+                    <table width="740" class="deviceWidth" border="0" cellpadding="0" cellspacing="0" align="center">
+                      <tr>
+                        <td align="left" width="740" class="deviceWidth"
+                          style="padding:0px 0px 40px 74px;background-color:#ffffff">
+                          <a class="button" href="{{api_trigger_properties.clients_order_dashboard}}"
+                            style="background-color:#000000; border-radius: 100px;color:#ffffff; display:block; font-family: 'Sailec-Regular', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.5em; letter-spacing:0.01em; padding: 20px 0px 20px 0px; text-align:center; text-decoration:none; width:200px; -webkit-text-size-adjust:none;">View
+                            My Orders</a>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                  <!-- end Bullet Proof Button -->
+
+
+                  <!-- 740px Text -->
+                  <table width="740" class="deviceWidth" border="0" cellpadding="0" cellspacing="0" align="left">
+                    <tr>
+                      <td valign="top" align="left" class=""
+                        style="font-family: 'Sailec-Regular', Helvetica, Arial, sans-serif; font-size:16px; letter-spacing:0.01em; line-height:2em; color:#000000; text-align:left; padding:0px 74px 50px 74px; background-color:#ffffff; hyphens: none">
+                        If you have any questions, don't hesitate to reach out. Email us at <a
+                          href="mailto:hello@havenly.com"
+                          style="color:#AF6D47;cursor:pointer;font-family:'Sailec-Regular', Helvetica, Arial, serif;text-align:left;"
+                          target="_blank">hello@havenly.com</a>.
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- end 740px Text -->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+        </center>
+      </td>
+    </tr>
+    {{content_blocks.${pre_converted_footer} | id: 'cb2'}}
+  </table>
+
+  <!-- prevent Gmail on iOS font size manipulation -->
+  <div style="display:none; white-space:nowrap; font:15px courier; line-height:0;">                                     
+                         </div>
+  <img
+    src="http://delivery5.klaviyomail.com/wf/open?upn=7wxTjaUDwiA-2Fko63lLgcG3Xm2SNgKmo2O1JTOrg55qtrOatd7qHLHoID05eVs-2FMh-2BB60Tk-2F2WVHolC9kmQJ4QEzW0g2Y7fcI7IVbhUBbYH-2FxG7s1nWScyrkv6fe4eKt24oJqgqezq-2FT-2BgV3x6xjrALhez9fGamj-2Bm0Ee2ntbA35P4HHFJpfeZsAFeFJHSn5UODP7h8cF-2Fnl00C33KeZ6qbzZhaFZ4cG22betKY1KJ9eRcJZYhOC4hO6B970v0m4egVL097VRczSYvIHEpvhYHc4kYvT7caGMXAD9wNJt-2B7WbAmgLgjTDXo5gPUoo36vu"
+    alt="" width="1" height="1" border="0"
+    style="height:1px !important;width:1px !important;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;">
+</body>
+
+</html>

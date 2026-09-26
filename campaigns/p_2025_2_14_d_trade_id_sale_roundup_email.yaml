@@ -1,0 +1,46 @@
+id: 5c4a197f-980b-4402-af10-d8034d82b717
+name: P_2025_2_14_D_TRADE_ID_Sale_Roundup_Email
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 5c4a197f-980b-4402-af10-d8034d82b717
+dates:
+  send_date: '2025-02-14'
+  inferred_send_type: scheduled
+  first_sent: '2025-02-14T21:21:06+00:00'
+  last_sent: '2025-02-14T21:22:19+00:00'
+tags: []
+sends:
+- id: 77da1e05-472c-4a29-8718-554073985fef
+  channel: email
+  name: Variant 1
+  subject: 'Trade Only: Up To 30% Off Our Family Of Brands'
+  preheader: Don't miss it.
+- id: 2588c41f-19c9-4ab0-97d9-7f43c3910ff2
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 17209
+  total_delivered: 16841
+  total_opens: 4987
+  total_clicks: 178
+  open_rate: 0.2898
+  click_rate: 0.0103
+  total_revenue: 126819.0
+  total_bounces: 5
+  total_unsubscribes: 20
+  ga4:
+    sessions: 179
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.931284'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.848205'
+schedule_type: time_based

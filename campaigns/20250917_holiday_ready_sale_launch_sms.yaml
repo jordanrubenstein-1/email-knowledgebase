@@ -1,0 +1,30 @@
+id: e801dbb4-8030-47d2-99a0-93a0958010a9
+name: 20250917_Holiday_Ready_Sale_Launch_SMS
+brand: BUR
+channel: sms
+category: product_launch
+type: sale
+theme: christmas
+braze_id: e801dbb4-8030-47d2-99a0-93a0958010a9
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-09-17T02:05:59+00:00'
+  last_sent: '2025-09-18T01:00:08+00:00'
+tags: []
+sends:
+- id: 5188c9fb-ab6f-4092-af4d-13abb14c3e88
+  channel: other
+  name: Variant 1
+- id: a8176c81-74a1-4b4e-b654-c6944c6e6f5a
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 187
+    purchases: 1
+    revenue: 3018.88
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.595276'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

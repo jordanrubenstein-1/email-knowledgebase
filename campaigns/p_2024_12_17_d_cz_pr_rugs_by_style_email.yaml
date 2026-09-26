@@ -1,0 +1,57 @@
+id: e7ae2582-c5f1-4486-829b-79ec58120208
+name: P_2024_12_17_D_CZ_PR_Rugs_by_Style_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: e7ae2582-c5f1-4486-829b-79ec58120208
+dates:
+  send_date: '2024-12-17'
+  inferred_send_type: local_time
+  first_sent: '2024-12-17T01:01:32+00:00'
+  last_sent: '2024-12-17T17:01:16+00:00'
+tags: []
+sends:
+- id: d478d79d-8f8f-4a8e-8d91-4f326f6c386a
+  channel: email
+  name: Variant 1
+  subject: Shop Rugs By Style
+  preheader: Heirloom-quality rugs, handwoven to perfection.
+  html_file: html/p_2024_12_17_d_cz_pr_rugs_by_style_email.html
+  screenshot: screenshots/p_2024_12_17_d_cz_pr_rugs_by_style_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67607a8f5493210064ebadfd/original.jpg?1734376078
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6760c79502aa210065265f7e/original.jpg?1734395797
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67607b77752ee900655ca405/original.jpg?1734376311
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6760c7b743d63d0064a51fac/original.jpg?1734395831
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67607adee571ab00646f4ba1/original.jpg?1734376158
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67607b355c82df0075269d72/original.jpg?1734376244
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67607bdbe571ab00646f4d86/original.jpg?1734376411
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67607ab25c82df006626a4cf/original.jpg?1734376113
+- id: 9e93634a-d5e1-4fc3-8e78-4c9e8a8b1dc5
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 96109
+  total_delivered: 95443
+  total_opens: 46774
+  total_clicks: 597
+  open_rate: 0.4867
+  click_rate: 0.0062
+  total_revenue: 51820.94
+  total_bounces: 2
+  total_unsubscribes: 144
+  ga4:
+    sessions: 697
+    purchases: 4
+    revenue: 4263.61
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.438475'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:30.933240'
+schedule_type: time_based

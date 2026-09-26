@@ -1,0 +1,21 @@
+id: 01aa84b0-1cf2-427e-9f7e-0b0b4a101a9d
+name: Audience Share
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 01aa84b0-1cf2-427e-9f7e-0b0b4a101a9d
+braze_type: canvas
+campaign_type: Triggered Journey
+dates: {}
+tags: []
+sends: []
+performance_summary: {}
+canvas_steps:
+- id: 4ffaca1b-6b05-4df7-9da3-1546263fa82c
+  name: Google Ads Sync
+  type: audience_sync
+- id: b0c8f267-b358-4972-89e0-8fc60bd7fc0e
+  name: Meta
+  type: audience_sync

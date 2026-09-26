@@ -1,0 +1,47 @@
+id: 7d60da80-6e9d-46f9-946a-64298c9d5aef
+name: P_2025_05_08_ID_Livability_Spotlight_Email
+brand: ID
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 7d60da80-6e9d-46f9-946a-64298c9d5aef
+dates:
+  send_date: '2025-05-08'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-08T07:46:36+00:00'
+  last_sent: '2025-05-08T17:15:08+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 5f05d0f3-17e0-440c-a300-8c46b5fc5ddf
+  channel: email
+  name: Variant 1
+  subject: Life Happens. Our Fabrics Handle It.
+  preheader: Order 10 FREE Swatches Today!
+- id: ede1da0c-aa4b-4213-883e-48fedac44ea3
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 159090
+  total_delivered: 157060
+  total_opens: 37184
+  total_clicks: 347
+  open_rate: 0.2337
+  click_rate: 0.0022
+  total_revenue: 153371.05
+  total_bounces: 2
+  total_unsubscribes: 95
+  ga4:
+    sessions: 245
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.090478'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.635497'
+schedule_type: time_based

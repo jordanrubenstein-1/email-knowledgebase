@@ -1,0 +1,48 @@
+id: cac1852e-0c85-4cf0-adba-8ccf0ce2c9ad
+name: P_2025_06_23_CZ_AM_July_4th_Sale_Announcement_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: cac1852e-0c85-4cf0-adba-8ccf0ce2c9ad
+dates:
+  send_date: '2025-06-23'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-23T05:48:27+00:00'
+  last_sent: '2025-06-23T17:01:14+00:00'
+tags: []
+sends:
+- id: 97bf1561-a089-4e77-8d51-2d2e730c015d
+  channel: email
+  name: Variant 1
+  subject: 'Now Open: The 4th Of July Event'
+  preheader: Save 20% off sitewide.
+  html_file: html/p_2025_06_23_cz_am_july_4th_sale_announcement_email.html
+  screenshot: screenshots/p_2025_06_23_cz_am_july_4th_sale_announcement_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6855a1ce3997930075e7efe8/original.png?1750442446
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6855a1d8f68bcb00676b1cb7/original.png?1750442456
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6855a0120e82d4006457f35b/original.png?1750442002
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6855a1de1402c20067c8f701/original.png?1750442461
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6855a0e81402c20077c8e6a7/original.png?1750442215
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6855a0df3e4f9200656c6af3/original.png?1750442206
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6855a11cd400f20066c74cbf/original.png?1750442267
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6855a0d31402c20077c8e665/original.png?1750442195
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6855b543cfab8e0066a45ad9/original.png?1750447427
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68559ecc3e4f9200756c54da/original.gif?1750441676
+- id: 6f0d10ab-d92e-49fe-b930-0c5107ccdd2c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 101334
+  total_delivered: 100865
+  total_opens: 51860
+  total_clicks: 818
+  open_rate: 0.5118
+  click_rate: 0.0081
+  total_revenue: 72912.93
+  total_bounces: 1
+  total_unsubscribes: 120
+_filename: p_2025_06_23_cz_am_july_4th_sale_announcement_email.yaml
+schedule_type: time_based

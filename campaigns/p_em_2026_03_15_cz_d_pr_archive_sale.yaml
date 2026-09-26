@@ -1,0 +1,39 @@
+id: 125346c5-6057-4b0d-8edc-fae3f22d078a
+name: P_EM_2026_03_15_CZ_D_PR_Archive_Sale
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 125346c5-6057-4b0d-8edc-fae3f22d078a
+dates:
+  send_date: '2026-03-15'
+  inferred_send_type: local_time
+  first_sent: '2026-03-15T04:06:23+00:00'
+  last_sent: '2026-03-16T04:03:52+00:00'
+tags:
+- am
+- archive
+- batch and blast
+- d2c
+- designed
+sends:
+- id: 8f209cba-ced9-4a04-a415-924968bab49b
+  channel: email
+  name: Variant 1
+  subject: Up to 70% Off. Almost Gone.
+  preheader: Archive pieces won’t be restocked once they sell out.
+  html_file: html/p_em_2026_03_15_cz_d_pr_archive_sale.html
+  screenshot: screenshots/p_em_2026_03_15_cz_d_pr_archive_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b4541f3a25b100716391a9/original.png?1773425694
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b4542b1a00d7006392738f/original.png?1773425706
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b4541607028e0063be904f/original.png?1773425685
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b4542556fb9200637b824a/original.png?1773425701
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b4540f9acf600072311fd3/original.png?1773425679
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69b4540188024500735e453f/original.gif?1773425665
+- id: dcd73d10-d015-4122-ae27-4ce1c4abd8cd
+  channel: email
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based

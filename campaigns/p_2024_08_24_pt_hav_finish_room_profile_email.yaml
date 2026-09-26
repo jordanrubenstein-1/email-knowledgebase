@@ -1,0 +1,32 @@
+id: e5c1a1de-cb99-4971-805e-c3690cc52c1c
+name: P_2024_08_24_PT_HAV_Finish_Room_Profile_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: e5c1a1de-cb99-4971-805e-c3690cc52c1c
+dates:
+  send_date: '2024-08-24'
+  first_sent: '2024-08-25T03:00:03+00:00'
+  last_sent: '2024-08-25T22:00:21+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 09395ec1-a596-4e64-8694-7f49c6900cd1
+  channel: email
+  name: Variant 1
+  subject: Let’s get started on your Havenly design
+- id: 84e5baa3-2739-4eff-82b1-80fb564a9517
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 510
+  total_delivered: 510
+  total_opens: 439
+  total_clicks: 79
+  open_rate: 0.8608
+  click_rate: 0.1549
+  total_unsubscribes: 2
+schedule_type: time_based
+_filename: p_2024_08_24_pt_hav_finish_room_profile_email.yaml

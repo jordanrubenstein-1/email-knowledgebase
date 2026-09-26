@@ -1,0 +1,49 @@
+id: eae63b59-32e6-48ea-ab1d-3b4922bff2a4
+name: P_2025_06_27_HAV_Conv_Fourth_of_July_Flash_Final_Hours_PT
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: eae63b59-32e6-48ea-ab1d-3b4922bff2a4
+dates:
+  send_date: '2025-06-27'
+  inferred_send_type: local_time
+  first_sent: '2025-06-26T18:23:51+00:00'
+  last_sent: '2025-06-27T17:15:15+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 52acf18a-8318-4420-acf7-0c073a476262
+  channel: email
+  name: Variant 1
+  subject: 'Final hours for your exclusive flash offer '
+  html_file: html/p_2025_06_27_hav_conv_fourth_of_july_flash_final_hours_pt.html
+  screenshot: screenshots/p_2025_06_27_hav_conv_fourth_of_july_flash_final_hours_pt.png
+  image_urls:
+  - https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/c731630f24214e43807c7369ca8ebacd/Havenly_Wordmark_RGB_Charcoal_Brown%20%281%29.png
+- id: f80912f9-3583-44de-960b-595f17b60df8
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 40439
+  total_delivered: 40355
+  total_opens: 22159
+  total_clicks: 87
+  open_rate: 0.548
+  click_rate: 0.0022
+  total_bounces: 1
+  total_unsubscribes: 61
+  ga4:
+    sessions: 67
+    purchases: 1
+    revenue: 2097.9
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:48.935168'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.729792'
+schedule_type: time_based

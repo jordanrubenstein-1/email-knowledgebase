@@ -1,0 +1,46 @@
+id: c68ac83d-6d81-4ffc-810a-ba0ad0555fa5
+name: P_EM_2026_02_04_HAV_PC_D_Presidents_Day_Sale_Starts
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: c68ac83d-6d81-4ffc-810a-ba0ad0555fa5
+dates:
+  send_date: '2026-02-04'
+  inferred_send_type: local_time
+  first_sent: '2026-02-03T22:50:26+00:00'
+  last_sent: '2026-02-04T18:01:11+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: ac9249eb-642a-4c7d-8e09-bd1576e450e2
+  channel: email
+  name: Variant 1
+  subject: It starts now 🎉
+  preheader: Take 50% off your design package this Presidents Day
+  html_file: html/p_em_2026_02_04_hav_pc_d_presidents_day_sale_starts.html
+  screenshot: screenshots/p_em_2026_02_04_hav_pc_d_presidents_day_sale_starts.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698233c9817d2000656779c1/original.gif?1770140617
+- id: 72e1f1a3-a474-4d4f-8d28-0cb63fb50910
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 258899
+  total_delivered: 257470
+  total_opens: 96863
+  total_clicks: 578
+  open_rate: 0.3741
+  click_rate: 0.0022
+  total_bounces: 23
+  total_unsubscribes: 557
+  ga4:
+    sessions: 396
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.033542'
+    source: snowflake
+    channel: email
+schedule_type: time_based

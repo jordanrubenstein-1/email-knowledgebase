@@ -1,0 +1,23 @@
+id: 5e4e73cb-87bb-4fb8-a110-fec6078108f2
+name: Popup_HAV_CONV_Labor_Day_Event_EA
+brand: HAV
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 5e4e73cb-87bb-4fb8-a110-fec6078108f2
+dates:
+  first_sent: '2026-08-18T14:00:00+00:00'
+  last_sent: '2026-08-19T11:00:00+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 9993b266-d569-41ba-9805-77b86ac292e7
+  channel: other
+  name: Control Group
+- id: 746c930e-a898-4c9b-ac96-673631fb12ee
+  channel: other
+  name: Variant 1
+performance_summary: {}
+schedule_type: action_based
+_filename: popup_hav_conv_labor_day_event_ea.yaml

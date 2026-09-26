@@ -1,0 +1,30 @@
+id: 0b27221d-89d3-4256-aaa1-af442513b193
+name: P_SMS_2025_10_04_CZ_Pennybrook_Cottage_Giveaway_Last_Chance_SMS
+brand: CZ
+channel: sms
+category: reminder
+type: announcement
+theme: null
+braze_id: 0b27221d-89d3-4256-aaa1-af442513b193
+dates:
+  send_date: '2025-10-04'
+  inferred_send_type: local_time
+  first_sent: '2025-10-04T03:03:08+00:00'
+  last_sent: '2025-10-05T01:01:37+00:00'
+tags: []
+sends:
+- id: bb64fb36-7c81-49fa-bf81-d334d340b3dd
+  channel: sms
+  name: Variant 1
+- id: 4f3ee57e-808e-4c69-a7d8-3ac971373c69
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 21393
+  total_delivered: 19898
+  total_opens: 0
+  total_clicks: 437
+  open_rate: 0.0
+  click_rate: 0.0204
+_filename: p_sms_2025_10_04_cz_pennybrook_cottage_giveaway_last_chance_.yaml
+schedule_type: time_based

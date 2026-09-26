@@ -1,0 +1,65 @@
+id: df3c7f61-61ba-4e9f-9de2-8870ff2a3881
+name: P_EM_2025_12_06_CZ_D_PR_BFCM_Gifts_By_Price
+brand: CZ
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: df3c7f61-61ba-4e9f-9de2-8870ff2a3881
+dates:
+  send_date: '2025-12-06'
+  inferred_send_type: local_time
+  first_sent: '2025-12-05T20:16:31+00:00'
+  last_sent: '2025-12-06T17:16:10+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- holiday
+- sale
+- sale/bfcm
+sends:
+- id: f72dabff-53c1-4507-b9df-433bbfffca49
+  channel: email
+  name: Variant 1
+  subject: Check Everyone Off Your List
+  preheader: Shop gifts by price, now 20% off sitewide.
+  html_file: html/p_em_2025_12_06_cz_d_pr_bfcm_gifts_by_price.html
+  screenshot: screenshots/p_em_2025_12_06_cz_d_pr_bfcm_gifts_by_price.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6931cbbb5c62a60064286462/original.png?1764871098
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6931cbd626a86100739cbd74/original.png?1764871125
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692f49c8aa1bdf0063c30960/original.png?1764706760
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692f49ddb273540065567e88/original.png?1764706781
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6931cb807bee4900630f5544/original.png?1764871039
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6931cc3f7263f700637772af/original.png?1764871230
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692f49c359d9ed006494a97f/original.png?1764706755
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6931cb695aa19d0063005147/original.png?1764871017
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6931cc078a01a40073954d3f/original.png?1764871174
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/692f49d0b03025006397fa6a/original.png?1764706767
+- id: 9219eac4-4994-4647-b7df-6d8d3bc93c99
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 114859
+  total_delivered: 114678
+  total_opens: 58747
+  total_clicks: 730
+  open_rate: 0.5115
+  click_rate: 0.0064
+  total_bounces: 13
+  total_unsubscribes: 168
+  ga4:
+    sessions: 673
+    purchases: 8
+    revenue: 2107.1
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.751871'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.661833'
+schedule_type: time_based

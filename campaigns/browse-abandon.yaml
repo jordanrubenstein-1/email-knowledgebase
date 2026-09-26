@@ -1,0 +1,200 @@
+id: 4782a148-345e-4baa-aec7-c8e57875ddaf
+name: Browse Abandon
+brand: ID
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: 4782a148-345e-4baa-aec7-c8e57875ddaf
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-08-27T19:00:00+00:00'
+  last_sent: '2025-12-13T14:00:00+00:00'
+tags: []
+sends:
+- id: d2292460-e7e6-4cdf-90d1-859ad19c47f5
+  channel: email
+  name: Step 1
+  subject: Pick up where you left off
+  preheader: Still picturing your perfect piece? We saved it for you.
+  step_id: 633cb242-6638-49fc-ae06-bf537c6ed9cb
+- id: 9f343c2c-c036-48bb-a226-c6473d7590bb
+  channel: email
+  name: TRG_EM_2025_08_ID_D_Product_Browse_Abandon_T1_V1
+  subject: Ready to make it yours?
+  preheader: You were eyeing it…
+  step_id: 57f457c3-0a94-4fe1-910f-db00a2558de8
+- id: b48460a4-a0a5-4601-a94b-fff63e636d54
+  channel: email
+  name: TRG_EM_2025_08_ID_D_Product_Browse_Abandon_T2_V1
+  subject: Your next move?
+  preheader: Add it to your cart
+  step_id: 88a8ab00-7b3e-43ca-96f9-a954ef63ef5e
+- id: 3f109d5f-d789-403b-888a-e3e627ddafc8
+  channel: email
+  name: TRG_EM_2025_08_ID_D_Product_Browse_Abandon_T3_V1
+  subject: 'From browsing to building: let’s go'
+  preheader: Get started on your own or use our free design services
+  step_id: a63dca85-6a29-4d77-bf59-b77ba0d0041d
+- id: 97a27613-21a3-4af1-9de7-f81200057181
+  channel: email
+  name: TRG_EM_2025_08_ID_D_Product_Browse_Abandon_T4_V1
+  subject: Every fabric, every detail - exactly how you want it
+  preheader: Let’s finish what you started
+  step_id: 19894003-666a-4867-b820-53098a844c55
+performance_summary:
+  total_entries: 393032
+  total_sends: 17289
+  total_delivered: 17173
+  total_opens: 10600
+  total_clicks: 341
+  open_rate: 0.6131
+  click_rate: 0.0197
+  total_revenue: 870365.5
+  total_conversions: 249
+  total_unsubscribes: 94
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.737424'
+    source: snowflake
+    channel: email
+canvas_steps:
+- id: 8374b9af-2b70-42f2-b17d-ebe8122d407b
+  name: Step 2
+  type: user_update
+- id: 1becfdf8-5c6a-44ff-b7c9-78ea8cac788d
+  name: Step
+  type: action_paths
+- id: 633cb242-6638-49fc-ae06-bf537c6ed9cb
+  name: Step 1
+  type: message
+  channel: email
+  subject: Pick up where you left off
+  preheader: Still picturing your perfect piece? We saved it for you.
+- id: 57f457c3-0a94-4fe1-910f-db00a2558de8
+  name: TRG_EM_2025_08_ID_D_Product_Browse_Abandon_T1_V1
+  type: message
+  channel: email
+  subject: Ready to make it yours?
+  preheader: You were eyeing it…
+- id: 88a8ab00-7b3e-43ca-96f9-a954ef63ef5e
+  name: TRG_EM_2025_08_ID_D_Product_Browse_Abandon_T2_V1
+  type: message
+  channel: email
+  subject: Your next move?
+  preheader: Add it to your cart
+- id: a63dca85-6a29-4d77-bf59-b77ba0d0041d
+  name: TRG_EM_2025_08_ID_D_Product_Browse_Abandon_T3_V1
+  type: message
+  channel: email
+  subject: 'From browsing to building: let’s go'
+  preheader: Get started on your own or use our free design services
+- id: 19894003-666a-4867-b820-53098a844c55
+  name: TRG_EM_2025_08_ID_D_Product_Browse_Abandon_T4_V1
+  type: message
+  channel: email
+  subject: Every fabric, every detail - exactly how you want it
+  preheader: Let’s finish what you started
+- id: 2ad28f35-9b23-4864-9129-d2daabf85c16
+  name: Step 5
+  type: delay
+- id: 04040c3c-95a6-4ede-981e-42d990a473fd
+  name: Step 4
+  type: delay
+- id: 818c689a-213e-4e44-954a-78f48ed47ac8
+  name: Step 6
+  type: delay
+- id: 6a02bf19-986f-4739-b757-385a5dcc6da2
+  name: Step 3
+  type: action_paths
+- id: ae80779f-29c5-47bc-b519-59e7ebf1fae6
+  name: Email available?
+  type: audience_paths
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-04'
+    discount: 25% off sitewide
+    type: null
+  - id: id-private-sale-lifecycle-retail-only-2025-09-11
+    name: Private Sale - Lifecycle/Retail Only
+    start_date: '2025-09-11'
+    end_date: '2025-09-16'
+    discount: 20% off sitewide with code SEPTVIP
+    type: null
+  - id: id-holiday-ready-sale-2025-09-18
+    name: Holiday-Ready Sale
+    start_date: '2025-09-18'
+    end_date: '2025-09-30'
+    discount: 20% off sitewide
+    type: null
+  - id: id-the-autumn-event-2025-10-09
+    name: The Autumn Event
+    start_date: '2025-10-09'
+    end_date: '2025-10-21'
+    discount: 20% off sitewide
+    type: null
+  - id: id-backpocket-retail-only-offer-via-lifecycle-black-friday-preview-pre-price-changes-2025-10-24
+    name: Backpocket Retail Only Offer Via Lifecycle Black Friday Preview Pre Price
+      Changes
+    start_date: '2025-10-24'
+    end_date: '2025-10-26'
+    discount: '25% Off $2999<
+
+      30% Off $3000+
+
+      Including In Stock'
+    type: null
+  - id: id-black-friday-now-2025-10-27
+    name: Black Friday Now
+    start_date: '2025-10-27'
+    end_date: '2025-11-03'
+    discount: '25% Off $2999<
+
+      30% Off $3000+
+
+      Including In Stock'
+    type: null
+  - id: id-black-friday-cyber-monday-2025-11-13
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-11'
+    end_date: '2025-12-02'
+    discount: "25% Off $2999<\n30% Off $3000\nIncluding In Stock\n\nBlack Friday to\
+      \ Cyber Monday Only \n25% Off $2999<\n30% Off $3000-$3999\n35% Off $4000+\n\
+      Including In Stock"
+    type: null
+  - id: id-black-friday-cyber-monday-extension-2025-12-03
+    name: Black Friday / Cyber Monday (EXTENSION)
+    start_date: '2025-12-03'
+    end_date: '2025-12-09'
+    discount: "25% Off $2999<\n30% Off $3000\nIncluding In Stock\n\nBlack Friday to\
+      \ Cyber Monday Only \n25% Off $2999<\n30% Off $3000-$3999\n35% Off $4000+\n\
+      Including In Stock"
+    type: null
+  - id: id-black-friday-cyber-monday-ea-2025-11-11
+    name: Black Friday / Cyber Monday (EA)
+    start_date: '2025-11-11'
+    end_date: '2025-11-12'
+    discount: "25% Off $2999<\n30% Off $3000\nIncluding In Stock\n\nBlack Friday to\
+      \ Cyber Monday Only \n25% Off $2999<\n30% Off $3000-$3999\n35% Off $4000+\n\
+      Including In Stock"
+    type: null
+  primary_sale:
+    id: id-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-04'
+    discount: 25% off sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 25% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:38.676015'

@@ -1,0 +1,36 @@
+id: e16659cc-1185-45cb-8df8-50a8d7c5f5d1
+name: P_EM_2026_02_11_ID_D_PF_New_Arrivals_Presidents_Day_Sale
+brand: ID
+channel: email
+category: product_launch
+type: sale
+theme: null
+braze_id: e16659cc-1185-45cb-8df8-50a8d7c5f5d1
+dates:
+  send_date: '2026-02-11'
+  inferred_send_type: local_time
+  first_sent: '2026-02-10T22:33:04+00:00'
+  last_sent: '2026-02-11T21:03:32+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 7660b6af-35a9-4009-86df-83ca422fd69d
+  channel: email
+  name: Variant 1
+  subject: Shop New Arrivals Up To 30% Off
+  preheader: A rare moment to save during our Presidents Day Sale.
+- id: 0b061a9a-28d7-401a-8669-39fe334a9f05
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 194747
+  total_delivered: 194079
+  total_opens: 83228
+  total_clicks: 575
+  open_rate: 0.4274
+  click_rate: 0.003
+  total_revenue: 346067.89
+  total_bounces: 3
+  total_unsubscribes: 251
+_filename: p_em_2026_02_11_id_d_pf_new_arrivals_presidents_day_sale.yaml
+schedule_type: time_based

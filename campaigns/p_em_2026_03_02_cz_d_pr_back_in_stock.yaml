@@ -1,0 +1,46 @@
+id: 8a2c8a93-a9a2-46ef-b7bf-badfcdf60b29
+name: P_EM_2026_03_02_CZ_D_PR_Back_in_Stock
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 8a2c8a93-a9a2-46ef-b7bf-badfcdf60b29
+dates:
+  send_date: '2026-03-02'
+  inferred_send_type: local_time
+  first_sent: '2026-03-01T19:07:20+00:00'
+  last_sent: '2026-03-02T19:04:57+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- instock
+sends:
+- id: cdd827eb-0e35-4e0f-9301-ceaed3fd7aab
+  channel: email
+  name: Variant 1
+  subject: The Return of the Favorites
+  preheader: Most-loved styles return. And up to 70% off the archive.
+  html_file: html/p_em_2026_03_02_cz_d_pr_back_in_stock.html
+  screenshot: screenshots/p_em_2026_03_02_cz_d_pr_back_in_stock.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a1e29a3b8ffd0063379c39/original.png?1772216985
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a1e24c02ae5700636406cd/original.png?1772216908
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a1e28c5b88370063f0b00a/original.png?1772216972
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a1e255cde1d50063d2474d/original.png?1772216916
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69a1e29296314200643f4314/original.png?1772216978
+- id: 94d7f8d6-dff3-4e69-a5ef-c679260637ba
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 112891
+  total_delivered: 112129
+  total_opens: 53482
+  total_clicks: 1102
+  open_rate: 0.4737
+  click_rate: 0.0098
+  total_bounces: 6
+  total_unsubscribes: 175
+schedule_type: time_based

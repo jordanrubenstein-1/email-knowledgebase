@@ -1,0 +1,36 @@
+id: 50496f67-bee7-4eb0-bd74-613f5dbd0ed9
+name: P_EM_2026_09_18_TRADE_TE_PC_D_Fall_Trends
+brand: ID
+channel: email
+category: editorial
+type: seasonal
+theme: fall
+braze_id: 50496f67-bee7-4eb0-bd74-613f5dbd0ed9
+dates:
+  send_date: '2026-09-18'
+  first_sent: '2026-09-17T20:58:12+00:00'
+  last_sent: '2026-09-18T12:00:00+00:00'
+  inferred_send_type: local_time
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: fd41d0a3-eaa2-438c-ad58-c7fcc005ddf5
+  channel: email
+  name: Variant 1
+  subject: 'The Expert: 6 fall trends'
+  preheader: Your trade-exclusive first look.
+- id: 937ba6a2-3061-479b-ae33-438866d033f1
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 13717
+  total_delivered: 13664
+  total_opens: 3674
+  total_clicks: 33
+  open_rate: 0.2678
+  click_rate: 0.0024
+  total_revenue: 7730.0
+  total_bounces: 1
+  total_unsubscribes: 20
+schedule_type: time_based
+_filename: p_em_2026_09_18_trade_te_pc_d_fall_trends.yaml

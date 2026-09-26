@@ -1,0 +1,33 @@
+id: bf8e3d9d-4210-45aa-b778-cdd39e5e47a4
+name: P_2024_09_08_HAV_DPS_PM_PT_Missed_Sale_Email
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: bf8e3d9d-4210-45aa-b778-cdd39e5e47a4
+dates:
+  send_date: '2024-09-08'
+  first_sent: '2024-09-07T18:15:01+00:00'
+  last_sent: '2024-09-08T17:15:02+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 587fbad0-2f31-4ccf-ae3a-96c16ccbbe4e
+  channel: email
+  name: Variant 1
+  subject: Your code for the extended LDW sale | Last weekend!
+- id: 35393d75-dbff-493b-bde7-0dea427f9a1b
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 86564
+  total_delivered: 85827
+  total_opens: 47878
+  total_clicks: 562
+  open_rate: 0.5531
+  click_rate: 0.0065
+  total_bounces: 2
+  total_unsubscribes: 423
+schedule_type: time_based
+_filename: p_2024_09_08_hav_dps_pm_pt_missed_sale_email.yaml

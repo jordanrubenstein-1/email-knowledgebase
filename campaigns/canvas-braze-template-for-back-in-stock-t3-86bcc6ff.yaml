@@ -1,0 +1,24 @@
+id: 86bcc6ff-3f4b-49f9-9f5c-1fe9054a28c5
+name: Email
+brand: CZ
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: e2317c1c-435a-4abb-9f74-b2dd8b4e3b7c
+canvas_name: Braze Template For Back In Stock
+flow_type: back_in_stock
+sequence_position: 3
+subject: Refreshed stock! Act fast before it's too late!
+preheader: ''
+sends:
+- id: 86bcc6ff-3f4b-49f9-9f5c-1fe9054a28c5
+  channel: email
+  name: Email
+  subject: Refreshed stock! Act fast before it's too late!
+  preheader: ''
+  html_file: html/canvas-braze-template-for-back-in-stock-t3-86bcc6ff.html
+dates:
+  first_sent: null
+  last_sent: null
+performance_summary: {}

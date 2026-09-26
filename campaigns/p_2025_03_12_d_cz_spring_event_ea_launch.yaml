@@ -1,0 +1,84 @@
+id: 81f47caf-d1c3-427f-b804-28a1f09d5ff5
+name: P_2025_03_12_D_CZ_Spring_Event_EA_Launch
+brand: CZ
+channel: email
+category: product_launch
+type: seasonal
+theme: spring
+braze_id: 81f47caf-d1c3-427f-b804-28a1f09d5ff5
+dates:
+  send_date: '2025-03-12'
+  inferred_send_type: scheduled
+  first_sent: '2025-03-12T04:48:06+00:00'
+  last_sent: '2025-03-12T17:01:24+00:00'
+tags: []
+sends:
+- id: c04a879a-f355-4572-b90c-852c324b454e
+  channel: email
+  name: Variant 1
+  subject: 'Just For You: Early Access'
+  preheader: Get up to 30% off select styles before everyone else.
+  html_file: html/p_2025_03_12_d_cz_spring_event_ea_launch.html
+  screenshot: screenshots/p_2025_03_12_d_cz_spring_event_ea_launch.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0d1a71bcac60067f2d7e8/original.png?1741738406
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0d21872d82d0068a9187d/original.png?1741738520
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0d1c1b32a9100775665fd/original.png?1741738433
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0d6b83f7a830067be4efd/original.png?1741739704
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0d6e48bd1170066ffe255/original.png?1741739748
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0d1b1c7fe8a0066f3ee40/original.png?1741738416
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0d1d27f0c140066a8824c/original.png?1741738449
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0d9bef776ca0064627924/original.png?1741740477
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0d1edc7fe8a0066f3ef76/original.png?1741738477
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67d0d20d6380bd0074fa5c9a/original.png?1741738509
+- id: 712b98f0-7df7-4711-8ffa-97840de9c15c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 90902
+  total_delivered: 90134
+  total_opens: 47302
+  total_clicks: 1159
+  open_rate: 0.5204
+  click_rate: 0.0127
+  total_revenue: 88330.41
+  total_bounces: 2
+  total_unsubscribes: 100
+  ga4:
+    sessions: 2654
+    purchases: 35
+    revenue: 18399.92
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.836517'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-citizenry-2025-03-12
+    name: The Citizenry
+    start_date: '2025-03-12'
+    end_date: '2025-03-13'
+    discount: "The Spring Event\nUp to 30% Off Select Categories: ALL MTO Furniture,\
+      \ Bedding, + Bath at 20%, plus SELECT (overstocked) Rugs at 20-30%\nArchive\
+      \ Sale up to 65%  including Fresh Cuts!\nTrade: 25% Off \nFree Swatch Promo\
+      \ (up to 5 swatches) 3/1-3/10"
+    type: null
+  primary_sale:
+    id: cz-the-citizenry-2025-03-12
+    name: The Citizenry
+    start_date: '2025-03-12'
+    end_date: '2025-03-13'
+    discount: "The Spring Event\nUp to 30% Off Select Categories: ALL MTO Furniture,\
+      \ Bedding, + Bath at 20%, plus SELECT (overstocked) Rugs at 20-30%\nArchive\
+      \ Sale up to 65%  including Fresh Cuts!\nTrade: 25% Off \nFree Swatch Promo\
+      \ (up to 5 swatches) 3/1-3/10"
+    type: null
+  sale_name: The Citizenry
+  sale_discount: "The Spring Event\nUp to 30% Off Select Categories: ALL MTO Furniture,\
+    \ Bedding, + Bath at 20%, plus SELECT (overstocked) Rugs at 20-30%\nArchive Sale\
+    \ up to 65%  including Fresh Cuts!\nTrade: 25% Off \nFree Swatch Promo (up to\
+    \ 5 swatches) 3/1-3/10"
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:35.354724'
+schedule_type: time_based

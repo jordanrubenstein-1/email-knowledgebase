@@ -1,0 +1,33 @@
+id: 5a73dc88-67ad-4f6c-a560-992adfc4a498
+name: P_2025_2_18_HAV_Conv_PM_PT_PDW_Sale_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 5a73dc88-67ad-4f6c-a560-992adfc4a498
+dates:
+  send_date: '2025-02-18'
+  first_sent: '2025-02-18T23:10:31+00:00'
+  last_sent: '2025-02-18T23:11:42+00:00'
+  inferred_send_type: scheduled
+tags:
+- BLASTS-2025
+sends:
+- id: 11779731-09eb-48d7-87d2-50c593476ce6
+  channel: email
+  name: Variant 1
+  subject: ENDING TONIGHT! Your exclusive Presidents’ Day offers
+- id: b89a6dee-02b7-4834-98a1-1e00cd1fa355
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 25196
+  total_delivered: 25175
+  total_opens: 15780
+  total_clicks: 188
+  open_rate: 0.6263
+  click_rate: 0.0075
+  total_unsubscribes: 43
+schedule_type: time_based
+_filename: p_2025_2_18_hav_conv_pm_pt_pdw_sale_reminder_email.yaml

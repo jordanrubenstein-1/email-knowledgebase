@@ -1,0 +1,35 @@
+id: 8d6a6b69-c3d4-4411-9528-6b85cd0d470c
+name: TRG_EM_CZ_2024_08_Product_Browse_T1
+brand: CZ
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: a05de6df-1375-46bd-a676-be24e4f9328e
+canvas_name: Product Browse
+flow_type: browse_abandonment
+sequence_position: 9
+subject: 'Don''t Miss Out: A style you loved is going quick!'
+preheader: Come back and shop our selection of thoughtfully designed & ethically crafted
+  goods for your home
+sends:
+- id: 8d6a6b69-c3d4-4411-9528-6b85cd0d470c
+  channel: email
+  name: TRG_EM_CZ_2024_08_Product_Browse_T1
+  subject: 'Don''t Miss Out: A style you loved is going quick!'
+  preheader: Come back and shop our selection of thoughtfully designed & ethically
+    crafted goods for your home
+  html_file: html/canvas-product-browse-t9-8d6a6b69.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-05-02T18:00:00Z'
+  last_sent: '2026-08-24T13:00:00Z'
+performance_summary:
+  total_sends: 18160
+  total_delivered: 18086
+  total_opens: 11969
+  total_clicks: 1091
+  open_rate: 0.6591
+  click_rate: 0.0601
+  total_unsubscribes: 188
+  total_bounces: 1

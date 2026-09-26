@@ -1,0 +1,37 @@
+id: 2d5ee7f9-02c0-463f-831d-865f5a7156ba
+name: P_SMS_2025_09_22_SF_Introducing_New_Number
+brand: STF
+channel: sms
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 2d5ee7f9-02c0-463f-831d-865f5a7156ba
+dates:
+  send_date: '2025-09-22'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-22T17:10:25+00:00'
+  last_sent: '2025-09-22T20:30:12+00:00'
+tags: []
+sends:
+- id: 888ac36f-e714-4b0f-900b-97b5e2c54cf1
+  channel: sms
+  name: Variant 1
+- id: 55683ad3-39eb-45e6-aabd-40715344b209
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 4812
+  total_delivered: 4750
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.926769'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

@@ -1,0 +1,45 @@
+id: e412d2b2-2621-4b48-8644-462752454054
+name: P_2024_09_16_D_ID_PR_In_Stock_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: e412d2b2-2621-4b48-8644-462752454054
+dates:
+  send_date: '2024-09-16'
+  inferred_send_type: local_time
+  first_sent: '2024-09-15T18:15:01+00:00'
+  last_sent: '2024-09-16T15:15:03+00:00'
+tags: []
+sends:
+- id: 8ad9316d-d18c-4ba6-9964-67cd98cf54bf
+  channel: email
+  name: Variant 1
+  subject: IN STOCK & 30% OFF
+  preheader: Shop all sale!
+- id: cf15c7a1-8d25-4cd5-949d-e1a3997c4589
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 44192
+  total_delivered: 43658
+  total_opens: 16109
+  total_clicks: 1133
+  open_rate: 0.3645
+  click_rate: 0.0256
+  total_bounces: 2
+  total_unsubscribes: 78
+  ga4:
+    sessions: 2439
+    purchases: 7
+    revenue: 15702.78
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.005845'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.635669'
+schedule_type: time_based

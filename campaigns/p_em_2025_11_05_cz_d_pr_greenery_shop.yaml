@@ -1,0 +1,62 @@
+id: 8dfbad4f-d25e-417c-a05b-ce09f91726c6
+name: P_EM_2025_11_05_CZ_D_PR_Greenery_Shop
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 8dfbad4f-d25e-417c-a05b-ce09f91726c6
+dates:
+  send_date: '2025-11-05'
+  inferred_send_type: local_time
+  first_sent: '2025-11-04T22:29:03+00:00'
+  last_sent: '2025-11-05T17:16:20+00:00'
+tags:
+- accents
+- am
+- batch and blast
+- collect
+- d2c
+- designed
+- prod
+sends:
+- id: a8ccabcf-17c5-4556-8efc-dad9cf5f1b8a
+  channel: email
+  name: Variant 1
+  subject: The Greenery Shop
+  preheader: Festive decor with an organic touch.
+  html_file: html/p_em_2025_11_05_cz_d_pr_greenery_shop.html
+  screenshot: screenshots/p_em_2025_11_05_cz_d_pr_greenery_shop.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690a295373ac580063eded64/original.png?1762273618
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690a2926a8868c0065c971a6/original.png?1762273574
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690a288bc874f500653c9a1e/original.png?1762273418
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690a296d2df7340062dab670/original.png?1762273644
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690a297dccb826006413053d/original.png?1762273660
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690a2984494aaa0063129f87/original.png?1762273667
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690a295d532ccc0065602e64/original.png?1762273629
+- id: cc2a047e-3767-4967-8dea-3a25c9eb2369
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 101871
+  total_delivered: 101126
+  total_opens: 57993
+  total_clicks: 919
+  open_rate: 0.5693
+  click_rate: 0.009
+  total_bounces: 1
+  total_unsubscribes: 154
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.521187'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.384361'
+schedule_type: time_based

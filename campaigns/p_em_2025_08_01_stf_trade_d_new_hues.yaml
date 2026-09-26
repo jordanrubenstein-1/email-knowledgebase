@@ -1,0 +1,46 @@
+id: deaddad2-c19c-4695-aa76-b72dfdde4a22
+name: P_EM_2025_08_01_STF_TRADE_D_New_Hues
+brand: STF
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: deaddad2-c19c-4695-aa76-b72dfdde4a22
+dates:
+  send_date: '2025-08-01'
+  inferred_send_type: local_time
+  first_sent: '2025-08-01T03:07:52+00:00'
+  last_sent: '2025-08-01T19:00:19+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: e0063dd6-7a10-4721-9f62-bbf5b686ebbd
+  channel: email
+  name: Variant 1
+  subject: 'JUST DROPPED: New St. Frank Hues'
+  preheader: your favorite patterns, reimagined.
+- id: 829ee989-d21a-4556-8325-863e685f4641
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 19873
+  total_delivered: 19294
+  total_opens: 10123
+  total_clicks: 136
+  open_rate: 0.5094
+  click_rate: 0.0068
+  total_revenue: 55200.0
+  total_bounces: 1
+  total_unsubscribes: 64
+  ga4:
+    sessions: 131
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.813576'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.729442'

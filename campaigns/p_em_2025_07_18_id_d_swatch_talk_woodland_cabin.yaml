@@ -1,0 +1,64 @@
+id: 8fb3e247-96cf-41cc-8488-2b18f26d5b48
+name: P_EM_2025_07_18_ID_D_Swatch_Talk_Woodland_Cabin
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 8fb3e247-96cf-41cc-8488-2b18f26d5b48
+dates:
+  send_date: '2025-07-18'
+  inferred_send_type: local_time
+  first_sent: '2025-07-17T23:10:25+00:00'
+  last_sent: '2025-07-18T17:15:18+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: af2c2dbd-5f91-4b33-a3c1-e7ff4e0a3f5a
+  channel: email
+  name: Variant 1
+  subject: The Woods Are Calling
+  preheader: Explore nature-inspired hues that ground your space in style. Order 10
+    free swatches.
+- id: 4f216f90-a0fb-45d3-ae75-217fbdb1f978
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 118473
+  total_delivered: 117022
+  total_opens: 53213
+  total_clicks: 648
+  open_rate: 0.4492
+  click_rate: 0.0055
+  total_revenue: 98268.75
+  total_bounces: 7
+  total_unsubscribes: 349
+  ga4:
+    sessions: 771
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.743368'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-private-sale-retail-only-2025-07-11
+    name: Private Sale - Retail Only
+    start_date: '2025-07-11'
+    end_date: '2025-07-21'
+    discount: 20% off sitewide
+    type: null
+  primary_sale:
+    id: id-private-sale-retail-only-2025-07-11
+    name: Private Sale - Retail Only
+    start_date: '2025-07-11'
+    end_date: '2025-07-21'
+    discount: 20% off sitewide
+    type: null
+  sale_name: Private Sale - Retail Only
+  sale_discount: 20% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:38.687962'
+schedule_type: time_based

@@ -1,0 +1,113 @@
+id: 92edad56-37fd-484c-97c9-f8b7ea13d716
+name: P_EM_2025_11_20_CZ_D_PR_BFCM_Reminder
+brand: CZ
+channel: email
+category: reminder
+type: announcement
+theme: black_friday
+braze_id: 92edad56-37fd-484c-97c9-f8b7ea13d716
+dates:
+  send_date: '2025-11-20'
+  inferred_send_type: local_time
+  first_sent: '2025-11-20T00:51:08+00:00'
+  last_sent: '2025-11-20T17:15:57+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale/bfcm
+sends:
+- id: 79bfe5d9-d8d7-4c32-80fe-9910bd725d5f
+  channel: email
+  name: Variant 1
+  subject: 'We Never Do This: 25% Off Sitewide'
+  preheader: 'Celebrate the art of slow living with our Black Friday Event '
+  html_file: html/p_em_2025_11_20_cz_d_pr_bfcm_reminder.html
+  screenshot: screenshots/p_em_2025_11_20_cz_d_pr_bfcm_reminder.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691c96215f45c200632e0019/original.png?1763481119
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691c9728f6b6a100639f1b89/original.png?1763481384
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691c96558f849b006394082c/original.png?1763481173
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691c96d7f1662600654d99bf/original.png?1763481303
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691c9704883c4a0063f09da1/original.png?1763481347
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691c96c55f45c200632e0143/original.png?1763481285
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691c9715e1b1ad0064fbc15f/original.png?1763481364
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691c96ebf14c60006335717f/original.png?1763481323
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691c97477c6e41006450b511/original.png?1763481415
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/691c96df883c4a0082f0412a/original.png?1763481310
+- id: 92f08599-71cb-45e6-b0c5-f8e140690ab3
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 112441
+  total_delivered: 112287
+  total_opens: 57603
+  total_clicks: 1290
+  open_rate: 0.5123
+  click_rate: 0.0115
+  total_bounces: 7
+  total_unsubscribes: 135
+  ga4:
+    sessions: 1612
+    purchases: 30
+    revenue: 14991.15
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.080246'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-black-friday-cyber-monday-2025-11-17
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-14'
+    end_date: '2025-12-01'
+    discount: '11/14 - 11/16 Early Access
+
+      11/17 - 12/1 Main Event
+
+      11/28 Black Friday Fund
+
+
+      25% Off Sitewide
+
+      Up to 70% Off Archive Sale
+
+      (Fresh Cuts of go forward, overstocked products)'
+    type: null
+  primary_sale:
+    id: cz-black-friday-cyber-monday-2025-11-17
+    name: Black Friday / Cyber Monday
+    start_date: '2025-11-14'
+    end_date: '2025-12-01'
+    discount: '11/14 - 11/16 Early Access
+
+      11/17 - 12/1 Main Event
+
+      11/28 Black Friday Fund
+
+
+      25% Off Sitewide
+
+      Up to 70% Off Archive Sale
+
+      (Fresh Cuts of go forward, overstocked products)'
+    type: null
+  sale_name: Black Friday / Cyber Monday
+  sale_discount: '11/14 - 11/16 Early Access
+
+    11/17 - 12/1 Main Event
+
+    11/28 Black Friday Fund
+
+
+    25% Off Sitewide
+
+    Up to 70% Off Archive Sale
+
+    (Fresh Cuts of go forward, overstocked products)'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:38.744165'
+schedule_type: time_based

@@ -1,0 +1,46 @@
+id: c40424e8-58bc-4980-ac9d-c59f9e687027
+name: P_EM_2026_02_13_HAV_CONV_D_Designer_Favorites_Sale_Starts
+brand: HAV
+channel: email
+category: editorial
+type: sale
+theme: null
+braze_id: c40424e8-58bc-4980-ac9d-c59f9e687027
+dates:
+  send_date: '2026-02-13'
+  inferred_send_type: local_time
+  first_sent: '2026-02-13T00:05:30+00:00'
+  last_sent: '2026-02-13T17:15:59+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: bdb85f40-ae46-4be4-bd76-755e5e3f9049
+  channel: email
+  name: Variant 1
+  subject: The Presidents Day Sale just got better
+  preheader: Select designer brands are now 20% off, for a limited time.
+  html_file: html/p_em_2026_02_13_hav_conv_d_designer_favorites_sale_starts.html
+  screenshot: screenshots/p_em_2026_02_13_hav_conv_d_designer_favorites_sale_starts.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698de385c99ec90063c0e1e1/original.png?1770906500
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/698de39110f24b0064d380f9/original.gif?1770906513
+- id: ef074976-3445-4867-b4b9-991fa60d4c5f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 43018
+  total_delivered: 42985
+  total_opens: 22163
+  total_clicks: 144
+  open_rate: 0.5152
+  click_rate: 0.0033
+  total_unsubscribes: 49
+  ga4:
+    sessions: 134
+    purchases: 4
+    revenue: 7255.5
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.062594'
+    source: snowflake
+    channel: email
+schedule_type: time_based

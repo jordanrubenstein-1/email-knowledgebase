@@ -1,0 +1,39 @@
+id: d84f0380-322e-4ff9-961a-a645302f1f9f
+name: P_EM_2026_05_26_CZ_PC_D_Memorial_Day_Sale_Last_Day
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: d84f0380-322e-4ff9-961a-a645302f1f9f
+dates:
+  send_date: '2026-05-26'
+  last_sent: '2026-05-26'
+tags:
+- batch and blast
+- d2c
+- designed
+- instock
+- pm
+- sale
+- sale/mds2026
+sends:
+- id: 384f0100-87d4-4318-bb57-03584110b76b
+  channel: email
+  name: Variant 1
+  subject: 'FINAL HOURS: The Memorial Day Sale'
+  preheader: Last chance to shop 20% off sitewide.
+- id: 28197f39-fc4e-4cf6-b307-ef6fb6d36800
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 115040
+  total_delivered: 114882
+  total_opens: 54049
+  total_clicks: 503
+  open_rate: 0.4698
+  click_rate: 0.0044
+  total_bounces: 1
+  total_unsubscribes: 126
+schedule_type: time_based
+_filename: p_em_2026_05_26_cz_pc_d_memorial_day_sale_last_day-d84f0380.yaml

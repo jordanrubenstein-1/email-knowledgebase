@@ -1,0 +1,58 @@
+id: fc12b518-38f8-493f-82a0-59ff95f63994
+name: 2025_04_10_HAV_Conv_Friends_and_Family_Event_Launch
+brand: HAV
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: fc12b518-38f8-493f-82a0-59ff95f63994
+dates:
+  send_date: '2025-04-10'
+  inferred_send_type: local_time
+  first_sent: '2025-04-09T19:40:21+00:00'
+  last_sent: '2025-04-10T17:15:04+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 4965ee43-76d3-45ff-bf62-91562dff16d6
+  channel: email
+  name: Variant 1
+  subject: 'It''s On: The Friends & Family Event!'
+  preheader: Shop up to 15% off sitewide.
+  html_file: html/2025_04_10_hav_conv_friends_and_family_event_launch.html
+  screenshot: screenshots/2025_04_10_hav_conv_friends_and_family_event_launch.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f6bcc12d480500661e345c/original.png?1744223425
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f6bcfe5275700065eaff9b/original.png?1744223486
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f6bd3d2d480500661e35de/original.png?1744223549
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f6bce9e4a2560064be435e/original.png?1744223465
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e71a77db61480077ed438c/original.png?1743198838
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f6bcf6124165007692ab7e/original.png?1744223477
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f6bcd09cdc690065e559c6/original.png?1744223440
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f6bce0e4a2560064be4323/original.png?1744223455
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e71a570f9b490075f35160/original.png?1743198807
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e71a83aaad20006483f6d1/original.png?1743198851
+- id: 20b7603a-afe2-4927-9985-0d7d57cc6b2c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 39284
+  total_delivered: 39204
+  total_opens: 21261
+  total_clicks: 131
+  open_rate: 0.5412
+  click_rate: 0.0033
+  total_unsubscribes: 39
+  ga4:
+    sessions: 126
+    purchases: 1
+    revenue: 4549.1
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.677935'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.142570'
+schedule_type: time_based

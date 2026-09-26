@@ -1,0 +1,30 @@
+id: a4336c87-6417-48f2-a383-f66118c67234
+name: P_SMS_2026_04_14_CZ_Swatch_Push
+brand: CZ
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: a4336c87-6417-48f2-a383-f66118c67234
+dates:
+  send_date: '2026-04-14'
+  inferred_send_type: local_time
+  first_sent: '2026-04-17T21:05:07+00:00'
+  last_sent: '2026-04-18T20:02:31+00:00'
+tags: []
+sends:
+- id: 7e07638e-2461-4b50-a179-9bb20302f45c
+  channel: sms
+  name: Variant 1
+- id: cc2ef4f0-10bb-4ee8-9d74-fa11acfa87b0
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 20174
+  total_delivered: 17179
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+_filename: p_sms_2026_04_14_cz_swatch_push.yaml
+schedule_type: time_based

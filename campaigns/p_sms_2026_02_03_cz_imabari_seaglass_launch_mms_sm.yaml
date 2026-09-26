@@ -1,0 +1,29 @@
+id: c0fa666a-8c48-4228-b8d2-d1b50b3beb87
+name: P_SMS_2026_02_03_CZ_Imabari_Seaglass_Launch_MMS_SMS
+brand: CZ
+channel: sms
+category: product_launch
+type: product_launch
+theme: null
+braze_id: c0fa666a-8c48-4228-b8d2-d1b50b3beb87
+dates:
+  send_date: '2026-02-03'
+  inferred_send_type: scheduled
+  first_sent: '2026-02-03T18:57:40+00:00'
+  last_sent: '2026-02-04T01:15:25+00:00'
+tags: []
+sends:
+- id: 41076ecc-c723-44ba-9973-8f844a6cadea
+  channel: sms
+  name: Variant 1
+- id: 032983ad-bbd1-4625-88d2-faf4d6702238
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 19275
+  total_delivered: 17787
+  total_opens: 0
+  total_clicks: 471
+  open_rate: 0.0
+  click_rate: 0.0244
+schedule_type: time_based

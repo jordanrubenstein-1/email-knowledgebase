@@ -1,0 +1,86 @@
+id: 57782c35-784b-4ccd-84a6-f2a83548dc02
+name: Schedule Designer Call - Backfill
+brand: HAV
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 57782c35-784b-4ccd-84a6-f2a83548dc02
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2026-09-24T16:00:00+00:00'
+  last_sent: '2026-09-24T16:00:00+00:00'
+tags: []
+sends:
+- id: 166a518f-fbc7-4df7-af1d-210562110207
+  channel: email
+  name: TRG_EM_2026_09_HAV_CONV_PT_Schedule_Designer_Call_Backfill_T1_V1
+  subject: You're one step from meeting your designer
+  preheader: ''
+  step_id: 39922294-1942-4e20-967a-1855c4eb2f64
+- id: 679d8bc8-657f-456a-a2a3-2e1741898418
+  channel: email
+  name: TRG_EM_2026_09_HAV_CONV_PT_Schedule_Designer_Call_Backfill_T2_V1
+  subject: Why the Design Discovery call matters
+  preheader: ''
+  step_id: 1582cdf3-9e6a-4fed-bde6-85101ac7c72f
+- id: e7bb4f15-db23-4751-a03c-527905f2c603
+  channel: email
+  name: TRG_EM_2026_09_HAV_CONV_PT_Schedule_Designer_Call_Backfill_T4_V1
+  subject: One last note about your Design Discovery call
+  preheader: ''
+  step_id: 8f298089-7aab-416f-9600-432482440c46
+- id: 92220381-1fc2-472b-a926-f47bcf27125d
+  channel: email
+  name: TRG_EM_2026_09_HAV_CONV_PT_Schedule_Designer_Call_Backfill_T3_V1
+  subject: Your designer is still holding a spot for you
+  preheader: ''
+  step_id: 402999a2-8c21-42a7-a397-afe6643535b7
+performance_summary:
+  total_entries: 6
+  total_sends: 6
+  total_delivered: 6
+  total_opens: 6
+  total_clicks: 1
+  open_rate: 1.0
+  click_rate: 0.1667
+canvas_steps:
+- id: 39922294-1942-4e20-967a-1855c4eb2f64
+  name: TRG_EM_2026_09_HAV_CONV_PT_Schedule_Designer_Call_Backfill_T1_V1
+  type: message
+  channel: email
+  subject: You're one step from meeting your designer
+  preheader: ''
+- id: fdee00a2-0981-425c-abfb-15e78984c2d9
+  name: Step 4
+  type: delay
+- id: b678512e-12b7-4cf0-8c44-b11442e40a4e
+  name: Step 3
+  type: delay
+- id: 97d6bc1d-d4d6-493c-9ace-5845504394e3
+  name: Step 2
+  type: delay
+- id: d93f612f-cdb6-4e20-97da-fb1935824210
+  name: Step 1
+  type: delay
+- id: 1582cdf3-9e6a-4fed-bde6-85101ac7c72f
+  name: TRG_EM_2026_09_HAV_CONV_PT_Schedule_Designer_Call_Backfill_T2_V1
+  type: message
+  channel: email
+  subject: Why the Design Discovery call matters
+  preheader: ''
+- id: 8f298089-7aab-416f-9600-432482440c46
+  name: TRG_EM_2026_09_HAV_CONV_PT_Schedule_Designer_Call_Backfill_T4_V1
+  type: message
+  channel: email
+  subject: One last note about your Design Discovery call
+  preheader: ''
+- id: 402999a2-8c21-42a7-a397-afe6643535b7
+  name: TRG_EM_2026_09_HAV_CONV_PT_Schedule_Designer_Call_Backfill_T3_V1
+  type: message
+  channel: email
+  subject: Your designer is still holding a spot for you
+  preheader: ''
+_filename: schedule-designer-call-backfill.yaml

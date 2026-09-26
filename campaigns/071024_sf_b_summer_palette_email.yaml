@@ -1,0 +1,38 @@
+id: 8038d938-94e2-4de0-8da5-160522bc2907
+name: 071024_SF_B_Summer_Palette_Email
+brand: STF
+channel: email
+category: editorial
+type: seasonal
+theme: summer
+braze_id: 8038d938-94e2-4de0-8da5-160522bc2907
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2024-07-10T16:00:04+00:00'
+  last_sent: '2024-07-10T16:01:04+00:00'
+tags:
+- Batch and Blast
+- Batch and Blast/non-promo
+sends:
+- id: dcdc55d0-c49f-4359-a0b3-4f035a7c3271
+  channel: email
+  name: Variant 1
+  subject: Golden Hour ☀️
+  preheader: sunny pillow picks
+- id: 4e6c295b-00b0-4b4d-8ae6-85057f3394e1
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 21
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.067686'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.363279'
+schedule_type: time_based

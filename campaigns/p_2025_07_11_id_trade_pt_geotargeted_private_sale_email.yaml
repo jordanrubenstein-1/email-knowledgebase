@@ -1,0 +1,35 @@
+id: 84a17228-1f8b-4f81-a00d-23b5a43e4230
+name: P_2025_07_11_ID_Trade_PT_Geotargeted_Private_Sale_Email
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 84a17228-1f8b-4f81-a00d-23b5a43e4230
+dates:
+  send_date: '2025-07-11'
+  inferred_send_type: scheduled
+  first_sent: '2025-07-11T18:06:22+00:00'
+  last_sent: '2025-07-11T18:07:00+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 0905bfc3-dac8-4247-89a9-287a948354d4
+  channel: email
+  name: Variant 1
+  subject: 'You''re Invited: Private Trade Sale — 25% Off Just for Designers'
+- id: 9ff968d2-9d80-4b1d-bd82-1bf35a5dc420
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 20188
+  total_delivered: 19691
+  total_opens: 11407
+  total_clicks: 431
+  open_rate: 0.565
+  click_rate: 0.0213
+  total_revenue: 75020.0
+  total_bounces: 10
+  total_unsubscribes: 56
+_filename: p_2025_07_11_id_trade_pt_geotargeted_private_sale_email.yaml
+schedule_type: time_based

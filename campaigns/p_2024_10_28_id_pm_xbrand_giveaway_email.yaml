@@ -1,0 +1,68 @@
+id: 0150b581-5d88-47c6-b288-b6af3b476da2
+name: P_2024_10_28_ID_PM_XBrand_Giveaway_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 0150b581-5d88-47c6-b288-b6af3b476da2
+dates:
+  send_date: '2024-10-28'
+  inferred_send_type: scheduled
+  first_sent: '2024-10-28T19:17:37+00:00'
+  last_sent: '2024-10-29T02:10:03+00:00'
+tags: []
+sends:
+- id: 9a8fe754-d975-4d37-85c8-7faab9f32c5e
+  channel: email
+  name: Variant 1
+  subject: 'Enter Now: Merry Everything Giveaway ✨'
+  preheader: Celebrate the season with a $7,000 shopping spree to our family of home
+    brands!
+- id: 5c8d46c3-1364-4f0e-88f7-818a463d7580
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 41571
+  total_delivered: 41341
+  total_opens: 24985
+  total_clicks: 1537
+  open_rate: 0.601
+  click_rate: 0.037
+  total_revenue: 163373.26
+  total_unsubscribes: 105
+  ga4:
+    sessions: 170
+    purchases: 1
+    revenue: 3710.75
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.996701'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-20-off-strikethrough-2024-10-28
+    name: 20% off (strikethrough)
+    start_date: '2024-10-28'
+    end_date: '2024-10-31'
+    discount: null
+    type: null
+  - id: id-flash-sale-2024-10-28
+    name: Flash Sale
+    start_date: '2024-10-28'
+    end_date: '2024-10-31'
+    discount: null
+    type: null
+  primary_sale:
+    id: id-20-off-strikethrough-2024-10-28
+    name: 20% off (strikethrough)
+    start_date: '2024-10-28'
+    end_date: '2024-10-31'
+    discount: null
+    type: null
+  sale_name: 20% off (strikethrough)
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:41.501941'
+schedule_type: time_based

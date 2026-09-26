@@ -1,0 +1,35 @@
+id: a5e16478-1d81-498c-9cd5-4a176211ae1c
+name: P_EM_2026_04_22_HAV_CONV_D_April_Reset_Last_Chance
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: a5e16478-1d81-498c-9cd5-4a176211ae1c
+dates:
+  send_date: '2026-04-22'
+  first_sent: '2026-04-21T18:07:08+00:00'
+  last_sent: '2026-04-22T17:01:32+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: f03ef9e6-ff80-429f-93f9-dc42df9ade2f
+  channel: email
+  name: Variant 1
+  subject: 'April Reset Final Bloom '
+  preheader: 'Last chance to save more '
+- id: 67142cac-20f5-4824-80e4-9a7f842a9868
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41623
+  total_delivered: 41482
+  total_opens: 21305
+  total_clicks: 79
+  open_rate: 0.5119
+  click_rate: 0.0019
+  total_bounces: 1
+  total_unsubscribes: 60
+schedule_type: time_based
+_filename: p_em_2026_04_22_hav_conv_d_april_reset_last_chance.yaml

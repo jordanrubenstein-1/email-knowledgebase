@@ -1,0 +1,48 @@
+id: klaviyo-01J6CVEF8M8Q12QVMM5E19KZAS
+name: '9/5/24: LDW Sale Reminder PT'
+brand: TI
+channel: email
+category: reminder
+type: sale
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2024-08-28'
+  inferred_send_type: scheduled
+  first_sent: '2024-09-05T07:15:00+00:00'
+  last_sent: '2024-09-05T07:15:00+00:00'
+sends:
+- id: 01J6CVEFC1B7XMFAQCXAC1SA73
+  channel: email
+  name: '9/5/24: LDW Sale Reminder PT'
+  subject: It's your lucky day.
+  preheader: ''
+  html_file: html/9524-ldw-sale-reminder-pt.html
+  image_urls: []
+  screenshot: screenshots/9524-ldw-sale-reminder-pt.png
+performance_summary:
+  total_sends: 101287
+  total_delivered: 100777
+  total_opens: 34499
+  total_clicks: 233
+  unique_opens: 23969
+  unique_clicks: 182
+  open_rate: 0.2366
+  click_rate: 0.0018
+  total_open_rate: 0.3406
+  total_click_rate: 0.0023
+  total_unsubscribes: 94
+  total_bounces: 510
+klaviyo_type: campaign
+klaviyo_campaign_id: 01J6CVEF8M8Q12QVMM5E19KZAS
+klaviyo_message_id: 01J6CVEFC1B7XMFAQCXAC1SA73
+structure:
+  image_count: 0
+  link_count: 2
+  has_gif: false
+  hero_width: null
+  layout_type: text_only
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-03-12T11:18:49.566374'

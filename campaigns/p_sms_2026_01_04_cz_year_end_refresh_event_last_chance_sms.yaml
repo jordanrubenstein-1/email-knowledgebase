@@ -1,0 +1,30 @@
+id: 40b6aef9-3e13-49df-ae49-2dbf70e13a6a
+name: P_SMS_2026_01_04_CZ_Year_End_Refresh_Event_Last_Chance_SMS
+brand: CZ
+channel: sms
+category: reminder
+type: announcement
+theme: null
+braze_id: 40b6aef9-3e13-49df-ae49-2dbf70e13a6a
+dates:
+  send_date: '2026-01-04'
+  inferred_send_type: local_time
+  first_sent: '2026-01-04T01:07:11+00:00'
+  last_sent: '2026-01-05T01:03:23+00:00'
+tags: []
+sends:
+- id: 5fbd68f4-b452-4b4e-b322-5bd665a7524f
+  channel: sms
+  name: Variant 1
+- id: 41063046-b6ce-4780-b6d3-ee4e485e2ee4
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 19685
+  total_delivered: 19144
+  total_opens: 0
+  total_clicks: 179
+  open_rate: 0.0
+  click_rate: 0.0091
+_filename: p_sms_2026_01_04_cz_year_end_refresh_event_last_chance_sms.yaml
+schedule_type: time_based

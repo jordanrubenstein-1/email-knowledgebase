@@ -1,0 +1,31 @@
+id: 0e8f2e86-5939-45e4-975c-230e97675902
+name: P_SMS_2026_02_10_BW_Pet_Friendly
+brand: BUR
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: 0e8f2e86-5939-45e4-975c-230e97675902
+dates:
+  send_date: '2026-02-10'
+  inferred_send_type: local_time
+  first_sent: '2026-02-10T01:08:26+00:00'
+  last_sent: '2026-02-11T01:00:54+00:00'
+tags: []
+sends:
+- id: 6d8a1241-e735-4c7e-bd27-3eaf568b92c3
+  channel: sms
+  name: Variant 1
+- id: 8e7f502a-4d83-4b79-b039-b9b1874dcd07
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 6693
+  total_delivered: 6494
+  total_opens: 0
+  total_clicks: 225
+  open_rate: 0.0
+  click_rate: 0.0336
+  total_revenue: 1588.0
+_filename: p_sms_2026_02_10_bw_pet_friendly-0e8f2e86.yaml
+schedule_type: time_based

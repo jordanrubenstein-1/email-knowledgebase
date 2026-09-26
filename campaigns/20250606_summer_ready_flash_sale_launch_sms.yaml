@@ -1,0 +1,30 @@
+id: ea52c271-2494-4bba-939b-b271f7a17dc5
+name: 20250606_Summer_Ready_Flash_Sale_Launch_SMS
+brand: BUR
+channel: sms
+category: product_launch
+type: sale
+theme: summer
+braze_id: ea52c271-2494-4bba-939b-b271f7a17dc5
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-06-06T02:08:51+00:00'
+  last_sent: '2025-06-07T01:00:37+00:00'
+tags: []
+sends:
+- id: 523a7d10-6035-4de5-8606-7513a7991875
+  channel: other
+  name: Variant 1
+- id: 59f93253-4f19-4abd-9604-d106374bfe3e
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 184
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.837512'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

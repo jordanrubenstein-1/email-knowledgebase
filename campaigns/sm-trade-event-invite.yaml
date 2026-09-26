@@ -1,0 +1,52 @@
+id: klaviyo-01HC0Q93J7N2675D2FGX6BENEQ
+name: SM Trade Event Invite
+brand: TI
+channel: email
+category: sale_promo
+type: announcement
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2023-10-05'
+  inferred_send_type: scheduled
+  first_sent: '2023-10-05T20:46:35+00:00'
+  last_sent: '2023-10-05T20:46:35+00:00'
+sends:
+- id: 01HC0Q93JT81S508KJRJE9FT1B
+  channel: email
+  name: SM Trade Event Invite
+  subject: '*YOU’RE INVITED* || Santa Monica Designer Trade Event'
+  preheader: ''
+  html_file: html/sm-trade-event-invite.html
+  image_urls:
+  - https://d2axdqolvqmdvx.cloudfront.net/d71eb511-ca50-4865-ae45-27b3ef2a93e0/Trade_SantaMonicaEventInvite_Final.jpg
+  screenshot: screenshots/sm-trade-event-invite.png
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_unsubscribes: 0
+  ga4:
+    sessions: 8
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T14:56:53.772993'
+    source: snowflake
+    channel: email
+klaviyo_type: campaign
+klaviyo_campaign_id: 01HC0Q93J7N2675D2FGX6BENEQ
+klaviyo_message_id: 01HC0Q93JT81S508KJRJE9FT1B
+structure:
+  image_count: 1
+  link_count: 2
+  has_gif: false
+  hero_width: null
+  layout_type: hero_only
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-03-12T11:18:50.430099'

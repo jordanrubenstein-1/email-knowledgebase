@@ -1,0 +1,36 @@
+id: 1af287cd-088b-4dca-90c3-293d5a777c59
+name: P_EM_2025_12_06_ID_D_BFCM_Cyber_Week_Reminder_Emailify_Version
+brand: ID
+channel: email
+category: reminder
+type: seasonal
+theme: black_friday
+braze_id: 1af287cd-088b-4dca-90c3-293d5a777c59
+dates:
+  send_date: '2025-12-06'
+  inferred_send_type: local_time
+  first_sent: '2025-12-05T19:50:14+00:00'
+  last_sent: '2025-12-06T17:16:15+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: baabdd69-37a2-4bef-aed8-7acc6e470a99
+  channel: email
+  name: Control Group
+- id: 71fd83ee-706c-4e4c-ae08-c28d38e21c56
+  channel: email
+  name: Unnamed Variant 1
+  subject: Your Next Order = Up to 30% Off
+  preheader: Only during the Cyber Week Event.
+performance_summary:
+  total_sends: 104462
+  total_delivered: 104198
+  total_opens: 48001
+  total_clicks: 396
+  open_rate: 0.4595
+  click_rate: 0.0038
+  total_revenue: 103963.89
+  total_bounces: 2
+  total_unsubscribes: 116
+_filename: p_em_2025_12_06_id_d_bfcm_cyber_week_reminder_emailify_versi.yaml
+schedule_type: time_based

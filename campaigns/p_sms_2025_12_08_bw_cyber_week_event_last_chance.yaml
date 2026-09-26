@@ -1,0 +1,38 @@
+id: 559db67e-10cf-49cf-9be3-e5707057d44e
+name: P_SMS_2025_12_08_BW_Cyber_Week_Event_Last_Chance
+brand: BUR
+channel: sms
+category: reminder
+type: seasonal
+theme: null
+braze_id: 559db67e-10cf-49cf-9be3-e5707057d44e
+dates:
+  send_date: '2025-12-08'
+  inferred_send_type: local_time
+  first_sent: '2025-12-08T01:05:44+00:00'
+  last_sent: '2025-12-09T01:01:32+00:00'
+tags: []
+sends:
+- id: 485baf1c-7d39-4670-a373-4634a73f4509
+  channel: sms
+  name: Variant 1
+- id: e5eb1783-7294-4c4a-baee-6574fcc144f1
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 6339
+  total_delivered: 6250
+  total_opens: 0
+  total_clicks: 170
+  open_rate: 0.0
+  click_rate: 0.0268
+  total_revenue: 10169.0
+  ga4:
+    sessions: 111
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.843890'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

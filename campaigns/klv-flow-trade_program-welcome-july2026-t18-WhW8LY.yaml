@@ -1,0 +1,47 @@
+id: klaviyo-WhW8LY
+name: TRG_EM_2026_08_PT_TRADE_TE_Welcome_T4 Variation A
+brand: TE
+channel: email
+category: other
+type: lifecycle
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: YsRZpa
+canvas_name: trade_program-welcome-July2026
+flow_type: welcome_series
+sequence_position: 18
+dates:
+  created: '2026-07-14'
+  inferred_send_type: sto
+  first_sent: '2026-07-14'
+  last_sent: '2026-08-25'
+sends:
+- id: WhW8LY
+  channel: email
+  name: Message
+  subject: Excited to work with you!
+  preheader: ''
+  html_file: html/klv-flow-trade_program-welcome-july2026-t18-WhW8LY.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/de4acf1d-9cd0-40b5-8f19-ce1c6066bb74.png
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: WhW8LY
+structure:
+  image_count: 1
+  link_count: 3
+  has_gif: false
+  hero_width: 400
+  layout_type: hero_only

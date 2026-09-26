@@ -1,0 +1,51 @@
+id: bb056e6c-a7db-4389-9783-42cac7bd7a28
+name: P_2024_09_24_D_ID_PR_TRADE_ID_Sale_Start _Email
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: bb056e6c-a7db-4389-9783-42cac7bd7a28
+dates:
+  send_date: '2024-09-24'
+  inferred_send_type: scheduled
+  first_sent: '2024-09-24T16:41:55+00:00'
+  last_sent: '2024-09-24T16:42:05+00:00'
+tags: []
+sends:
+- id: 66d9c20f-8a68-46be-816c-82488875895c
+  channel: email
+  name: Variant A - Combined
+  subject: The September Sale starts NOW!
+  preheader: 25% off all custom furniture
+- id: 6e924c57-679c-4c58-bd8d-b88c84da0f66
+  channel: other
+  name: Control Group
+- id: 9458595f-1fb7-47e5-976f-9ca90a6c3cac
+  channel: email
+  name: Variant B - Separate
+  subject: The September Sale starts NOW!
+  preheader: 25% off all custom furniture
+performance_summary:
+  total_sends: 2850
+  total_delivered: 2822
+  total_opens: 1278
+  total_clicks: 64
+  open_rate: 0.4484
+  click_rate: 0.0225
+  total_revenue: 12185.0
+  total_bounces: 1
+  total_unsubscribes: 14
+  ga4:
+    sessions: 78
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.125800'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.974588'
+schedule_type: time_based

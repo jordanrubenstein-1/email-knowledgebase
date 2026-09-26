@@ -1,0 +1,49 @@
+id: d777ac17-931c-47cf-89f9-3c92b226b558
+name: P_EM_2025_10_21_HAV_CONV_PT_FINAL_DAY_AUTUMN_SALE_PM
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: fall
+braze_id: d777ac17-931c-47cf-89f9-3c92b226b558
+dates:
+  send_date: '2025-10-21'
+  inferred_send_type: scheduled
+  first_sent: '2025-10-21T19:20:50+00:00'
+  last_sent: '2025-10-21T19:23:50+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 049c58e9-b6bc-470f-9556-5a0ac81ed7ff
+  channel: email
+  name: Variant 1
+  subject: Final hours to save up to 15%
+  preheader: Last Chance for Autumn Savings
+  html_file: html/p_em_2025_10_21_hav_conv_pt_final_day_autumn_sale_pm.html
+  screenshot: screenshots/p_em_2025_10_21_hav_conv_pt_final_day_autumn_sale_pm.png
+  image_urls:
+  - https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/c731630f24214e43807c7369ca8ebacd/Havenly_Wordmark_RGB_Charcoal_Brown%20%281%29.png
+- id: 4e815439-4fdb-4c6d-8b78-980599e5e0c1
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41983
+  total_delivered: 41949
+  total_opens: 22203
+  total_clicks: 75
+  open_rate: 0.5289
+  click_rate: 0.0018
+  total_unsubscribes: 51
+  ga4:
+    sessions: 66
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.866777'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:46.007796'
+schedule_type: time_based

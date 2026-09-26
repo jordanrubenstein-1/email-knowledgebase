@@ -1,0 +1,36 @@
+id: de0d3b18-c023-46c6-ad73-0c12d46744e4
+name: P_EM_2026_04_28_ID_PC_PT_April_Reset_Hours_Left
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: de0d3b18-c023-46c6-ad73-0c12d46744e4
+dates:
+  send_date: '2026-04-28'
+  inferred_send_type: local_time
+  first_sent: '2026-04-28T02:38:01+00:00'
+  last_sent: '2026-04-29T01:31:43+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: bbf66e12-97c7-4fdb-88ed-61346bcb1e78
+  channel: email
+  name: Variant 1
+  subject: 'ENDS TONIGHT: 25% off sitewide'
+  preheader: Not sure on fabric yet? Buy Now Decide Later has you covered.
+- id: b51e441d-ce27-4aa6-b37f-bd9d166de5d7
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 131567
+  total_delivered: 131364
+  total_opens: 54041
+  total_clicks: 553
+  open_rate: 0.4107
+  click_rate: 0.0042
+  total_revenue: 249010.42
+  total_bounces: 1
+  total_unsubscribes: 304
+_filename: p_em_2026_04_28_id_pc_pt_april_reset_hours_left.yaml
+schedule_type: time_based

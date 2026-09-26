@@ -1,0 +1,29 @@
+id: 4c70f2f3-a907-4844-8942-44ebdaca612a
+name: P_SMS_2026_02_11_CZ_PDS_Rugs
+brand: CZ
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: 4c70f2f3-a907-4844-8942-44ebdaca612a
+dates:
+  send_date: '2026-02-11'
+  inferred_send_type: local_time
+  first_sent: '2026-02-11T01:08:51+00:00'
+  last_sent: '2026-02-12T01:00:32+00:00'
+tags: []
+sends:
+- id: e58a8a2a-0591-4a30-bbb9-690731928cba
+  channel: sms
+  name: Variant 1
+- id: 4346277e-9be2-4ff6-a33e-278c7abdfa98
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 11491
+  total_delivered: 11076
+  total_opens: 0
+  total_clicks: 303
+  open_rate: 0.0
+  click_rate: 0.0264
+schedule_type: time_based

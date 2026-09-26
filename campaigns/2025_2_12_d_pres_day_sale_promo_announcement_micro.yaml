@@ -1,0 +1,55 @@
+id: b30e0736-8ea9-4af7-9f88-03da90fd17ca
+name: 2025_2_12_D_Pres_Day_Sale_PROMO_ANNOUNCEMENT_Microsoft
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: b30e0736-8ea9-4af7-9f88-03da90fd17ca
+dates:
+  send_date: '2025-02-12'
+  inferred_send_type: scheduled
+  first_sent: '2025-02-12T03:32:40+00:00'
+  last_sent: '2025-02-12T15:30:07+00:00'
+tags: []
+sends:
+- id: 0e00b467-3949-485e-a70d-cfefdea2b6a7
+  channel: email
+  name: Variant 1
+  subject: 'Now Open: The Presidents Day Sale'
+  preheader: shop 20% off sitewide
+  html_file: html/2025_2_12_d_pres_day_sale_promo_announcement_microsoft.html
+  screenshot: screenshots/2025_2_12_d_pres_day_sale_promo_announcement_microsoft.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ab464b76fa57006621bc9f/original.jpg?1739277899
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ab467edc85010076ef1044/original.jpg?1739277949
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67abb9e9ae348e0077035b16/original.jpg?1739307497
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ab45907487c30067502459/original.jpg?1739277712
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ab45ccdc85010066ef1460/original.jpg?1739277772
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ab46880dd0f00064af2caa/original.jpg?1739277960
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ab46517487c30067502503/original.jpg?1739277905
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ab45f00dd0f00064af2c03/original.jpg?1739277808
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ab45e47df8440067cca9e6/original.jpg?1739277796
+- id: 9b24c6ad-c398-425c-9ca1-7abbfae8f2c4
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 153
+  total_delivered: 153
+  total_opens: 62
+  total_clicks: 3
+  open_rate: 0.4052
+  click_rate: 0.0196
+  ga4:
+    sessions: 2
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.820653'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:35.028286'
+schedule_type: time_based

@@ -1,0 +1,36 @@
+id: a743f5e8-7e95-47cd-8242-b4f7f40627fa
+name: P_EM_2026_04_06_ID_TRADE_PT_Lapsed_Re_Activation_Version_B_Treatment
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: a743f5e8-7e95-47cd-8242-b4f7f40627fa
+dates:
+  send_date: '2026-04-06'
+  inferred_send_type: local_time
+  first_sent: '2026-04-05T20:08:42+00:00'
+  last_sent: '2026-04-06T19:00:32+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 39e8a0be-2587-4a15-9a88-cb9c860749d5
+  channel: email
+  name: Variant 1
+  subject: An exclusive Interior Define offer just for you
+  preheader: As a thank-you for your partnership, here's something a little extra.
+- id: 9bd40a27-1b42-4181-9047-f832afaeb1b2
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 1429
+  total_delivered: 1410
+  total_opens: 677
+  total_clicks: 29
+  open_rate: 0.4738
+  click_rate: 0.0203
+  total_revenue: 11750.0
+  total_bounces: 1
+  total_unsubscribes: 11
+_filename: p_em_2026_04_06_id_trade_pt_lapsed_re_activation_version_b_t.yaml
+schedule_type: time_based

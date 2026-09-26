@@ -1,0 +1,37 @@
+id: 003cae46-d3fd-476e-a963-e63ab4221147
+name: P_SMS_2026_02_14_SF_Valentine's_Day_Blush_Feature
+brand: STF
+channel: sms
+category: other
+type: seasonal
+theme: valentines
+braze_id: 003cae46-d3fd-476e-a963-e63ab4221147
+dates:
+  send_date: '2026-02-14'
+  inferred_send_type: local_time
+  first_sent: '2026-02-14T02:09:16+00:00'
+  last_sent: '2026-02-15T01:00:22+00:00'
+tags: []
+sends:
+- id: 4ee77010-9651-43d0-b877-09f1692f043d
+  channel: sms
+  name: Variant 1
+- id: a8204b4b-6e89-4818-8a5f-ceeaac4678b7
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 4146
+  total_delivered: 4071
+  total_opens: 0
+  total_clicks: 121
+  open_rate: 0.0
+  click_rate: 0.0292
+  ga4:
+    sessions: 123
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.088724'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

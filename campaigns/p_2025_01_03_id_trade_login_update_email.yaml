@@ -1,0 +1,62 @@
+id: 592cc17a-545f-49cb-badf-1266337e3803
+name: P_2025_01_03_ID_TRADE_Login_Update_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 592cc17a-545f-49cb-badf-1266337e3803
+dates:
+  send_date: '2025-01-03'
+  inferred_send_type: scheduled
+  first_sent: '2025-01-03T20:44:06+00:00'
+  last_sent: '2025-01-03T20:44:25+00:00'
+tags: []
+sends:
+- id: 39def0b5-d57c-4a5a-b7f7-0066fefb63cf
+  channel: email
+  name: Variant 1
+  subject: 'Update: Your Trade Account'
+  preheader: Accessing your perks is now easier than ever.
+- id: f57ac149-0c25-47a9-ac78-7b63a9b2bff9
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 16408
+  total_delivered: 16015
+  total_opens: 5701
+  total_clicks: 897
+  open_rate: 0.3475
+  click_rate: 0.0547
+  total_revenue: 40615.0
+  total_bounces: 13
+  total_unsubscribes: 46
+  ga4:
+    sessions: 1391
+    purchases: 16
+    revenue: 44041.9
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.575537'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-end-of-year-sale-extension-2025-01-03
+    name: End of Year Sale (EXTENSION)
+    start_date: '2024-12-26'
+    end_date: '2025-01-06'
+    discount: 25% off sitewide
+    type: null
+  primary_sale:
+    id: id-end-of-year-sale-extension-2025-01-03
+    name: End of Year Sale (EXTENSION)
+    start_date: '2024-12-26'
+    end_date: '2025-01-06'
+    discount: 25% off sitewide
+    type: null
+  sale_name: End of Year Sale (EXTENSION)
+  sale_discount: 25% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:37.136339'
+schedule_type: time_based

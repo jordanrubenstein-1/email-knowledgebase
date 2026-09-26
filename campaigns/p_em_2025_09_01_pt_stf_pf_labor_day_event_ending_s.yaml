@@ -1,0 +1,67 @@
+id: b784dc29-30c9-4df1-9f82-5ae6894fc85e
+name: P_EM_2025_09_01_PT_STF_PF_Labor_Day_Event_Ending_Soon
+brand: STF
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: b784dc29-30c9-4df1-9f82-5ae6894fc85e
+dates:
+  send_date: '2025-09-01'
+  inferred_send_type: local_time
+  first_sent: '2025-08-31T18:05:05+00:00'
+  last_sent: '2025-09-01T17:00:35+00:00'
+tags:
+- Batch and Blast
+- am
+- pt
+- sale
+- sale-feat
+sends:
+- id: 44ccea75-952a-4439-8f68-1b665424b640
+  channel: email
+  name: Variant 1
+  subject: 25% off sitewide is going... going...
+  preheader: Almost gone. Don't miss it.
+  html_file: html/p_em_2025_09_01_pt_stf_pf_labor_day_event_ending_soon.html
+  screenshot: screenshots/p_em_2025_09_01_pt_stf_pf_labor_day_event_ending_soon.png
+- id: 9ff2cf61-85c2-4577-8bec-5fd71b67b3d1
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 40039
+  total_delivered: 39827
+  total_opens: 18449
+  total_clicks: 248
+  open_rate: 0.4608
+  click_rate: 0.0062
+  total_unsubscribes: 104
+  ga4:
+    sessions: 220
+    purchases: 5
+    revenue: 1989.92
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.869360'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-the-labor-day-event-2025-08-21
+    name: The Labor Day Event
+    start_date: '2025-08-21'
+    end_date: '2025-09-04'
+    discount: 25% off Sitewide
+    type: null
+  primary_sale:
+    id: stf-the-labor-day-event-2025-08-21
+    name: The Labor Day Event
+    start_date: '2025-08-21'
+    end_date: '2025-09-04'
+    discount: 25% off Sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 25% off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:36.712462'
+schedule_type: time_based

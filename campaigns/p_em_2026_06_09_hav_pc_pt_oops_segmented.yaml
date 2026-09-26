@@ -1,0 +1,32 @@
+id: 50e4f20b-0217-4b8c-a9e4-8ccf11ef392e
+name: P_EM_2026_06_09_HAV_PC_PT_Oops_Segmented
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 50e4f20b-0217-4b8c-a9e4-8ccf11ef392e
+dates:
+  send_date: '2026-06-09'
+  first_sent: '2026-06-09T13:53:43+00:00'
+  last_sent: '2026-06-09T13:54:22+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 511e27e3-3c06-4c4a-b954-6c5b6d048085
+  channel: email
+  name: Variant 1
+  subject: 'Oops: Your 50% off, back and working'
+- id: 4c7620e9-74ec-4946-81b0-a5ca8cd9419c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 755
+  total_delivered: 753
+  total_opens: 379
+  total_clicks: 236
+  open_rate: 0.502
+  click_rate: 0.3126
+  total_unsubscribes: 3
+schedule_type: time_based
+_filename: p_em_2026_06_09_hav_pc_pt_oops_segmented.yaml

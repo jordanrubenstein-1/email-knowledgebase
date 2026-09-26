@@ -1,0 +1,65 @@
+id: 1d8692ee-98b4-4987-8ad2-caf5b5b5930c
+name: P_EM_2025_07_14_SF_D_PR_New_Colors
+brand: STF
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 1d8692ee-98b4-4987-8ad2-caf5b5b5930c
+dates:
+  send_date: '2025-07-14'
+  inferred_send_type: local_time
+  first_sent: '2025-07-13T18:09:22+00:00'
+  last_sent: '2025-07-14T17:00:25+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- new
+- print
+sends:
+- id: fd2e9968-f9e9-4b20-89b0-f89e5e2a3362
+  channel: email
+  name: Variant 1
+  subject: 'JUST DROPPED: New Hues'
+  preheader: your favorite patterns, reimagined.
+  html_file: html/p_em_2025_07_14_sf_d_pr_new_colors.html
+  screenshot: screenshots/p_em_2025_07_14_sf_d_pr_new_colors.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686d659c8ffcc200650f1f52/original.png?1751999900
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686d64aab763060075e13c8f/original.png?1751999658
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686d653373203c00663305b2/original.png?1751999795
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686d652b3ae566006622dfe1/original.png?1751999787
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686d653e75e4ec0065aff3bd/original.png?1751999806
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686d647db84c5d00656b3452/original.png?1751999612
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686d657573203c00763300dc/original.png?1751999861
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686d65a68ffcc200650f1f6f/original.png?1751999910
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686d649c75e4ec0065afed7a/original.png?1751999643
+- id: 7afc0085-5f86-4242-adfd-cd30b146c437
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 42409
+  total_delivered: 41909
+  total_opens: 18715
+  total_clicks: 498
+  open_rate: 0.4413
+  click_rate: 0.0117
+  total_revenue: 3983.0
+  total_bounces: 3
+  total_unsubscribes: 145
+  ga4:
+    sessions: 527
+    purchases: 2
+    revenue: 580.02
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.775365'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.702572'
+schedule_type: time_based

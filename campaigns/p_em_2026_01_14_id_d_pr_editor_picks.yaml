@@ -1,0 +1,43 @@
+id: 1f55afca-7b79-46d1-ac5b-ef9736fded29
+name: P_EM_2026_01_14_ID_D_PR_Editor_Picks
+brand: ID
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 1f55afca-7b79-46d1-ac5b-ef9736fded29
+dates:
+  send_date: '2026-01-14'
+  inferred_send_type: local_time
+  first_sent: '2026-01-13T20:58:04+00:00'
+  last_sent: '2026-01-14T17:06:56+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: e5a8fc38-02fe-49aa-be0b-710374921899
+  channel: email
+  name: Variant 1
+  subject: Editor Approved ✔️
+  preheader: Our most talked-about designs, all in one place.
+- id: 73338153-c6e0-4625-9b94-c36dd5a6d034
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 122217
+  total_delivered: 122061
+  total_opens: 46423
+  total_clicks: 497
+  open_rate: 0.3798
+  click_rate: 0.0041
+  total_revenue: 135269.96
+  total_bounces: 5
+  total_unsubscribes: 231
+  ga4:
+    sessions: 496
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.764204'
+    source: snowflake
+    channel: email
+schedule_type: time_based

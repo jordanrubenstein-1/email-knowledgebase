@@ -1,0 +1,35 @@
+id: ba828a64-2e0c-4807-bb7b-bb590ae080ab
+name: P_EM_2026_02_14_HAV_PC_D_Valentines_Day
+brand: HAV
+channel: email
+category: other
+type: seasonal
+theme: valentines
+braze_id: ba828a64-2e0c-4807-bb7b-bb590ae080ab
+dates:
+  send_date: '2026-02-14'
+  first_sent: '2026-02-14T00:39:48+00:00'
+  last_sent: '2026-02-15T01:00:42+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 41e34834-0e3f-4b32-affe-9a173f335877
+  channel: email
+  name: Variant 1
+  subject: We’ve Got A Crush…
+  preheader: Design looks we can’t get enough of 😍
+- id: 5ae9509b-e19a-431e-accd-28609ef0c6ea
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 261524
+  total_delivered: 260692
+  total_opens: 103529
+  total_clicks: 529
+  open_rate: 0.3959
+  click_rate: 0.002
+  total_bounces: 10
+  total_unsubscribes: 356
+schedule_type: time_based
+_filename: p_em_2026_02_14_hav_pc_d_valentines_day.yaml

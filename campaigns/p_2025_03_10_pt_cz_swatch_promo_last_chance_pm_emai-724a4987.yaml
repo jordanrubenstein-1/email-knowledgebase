@@ -1,0 +1,35 @@
+id: 724a4987-338c-4e55-978b-5c23dbf1b6d6
+name: P_2025_03_10_PT_CZ_Swatch_Promo_Last_Chance_PM_Email
+brand: CZ
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 724a4987-338c-4e55-978b-5c23dbf1b6d6
+dates:
+  send_date: '2025-03-10'
+  inferred_send_type: scheduled
+  first_sent: '2025-03-10T18:29:25+00:00'
+  last_sent: '2025-03-11T02:00:42+00:00'
+tags: []
+sends:
+- id: 28d3d406-12f8-4e02-91f4-f6acd45b649a
+  channel: email
+  name: Variant 1
+  subject: Last chance for 5 free swatches!
+  html_file: html/p_2025_03_10_pt_cz_swatch_promo_last_chance_pm_email.html
+  screenshot: screenshots/p_2025_03_10_pt_cz_swatch_promo_last_chance_pm_email.png
+- id: 7376a434-67e6-4805-971c-da46465e1e33
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 23739
+  total_delivered: 23707
+  total_opens: 16307
+  total_clicks: 514
+  open_rate: 0.6869
+  click_rate: 0.0217
+  total_revenue: 68898.06
+  total_unsubscribes: 117
+_filename: p_2025_03_10_pt_cz_swatch_promo_last_chance_pm_emai-724a4987.yaml
+schedule_type: time_based

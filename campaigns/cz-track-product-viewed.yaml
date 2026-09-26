@@ -1,0 +1,33 @@
+id: 3ac8bcd6-0bdd-47c4-b908-34b61ba0a4b3
+name: CZ - Track Product Viewed
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 3ac8bcd6-0bdd-47c4-b908-34b61ba0a4b3
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-03-26T00:00:00+00:00'
+  last_sent: '2026-04-09T18:00:00+00:00'
+tags: []
+sends: []
+performance_summary: {}
+canvas_steps:
+- id: a8f55b88-51de-4205-97a1-05e3586fbe24
+  name: Set last_viewed
+  type: user_update
+- id: 9bb9ecd2-32c8-421c-8c13-70101927919c
+  name: Set rec_anchor (view)
+  type: user_update
+- id: 75ef0499-3a79-401a-b64d-2e82e2f1e303
+  name: Set rec_anchor (view)
+  type: user_update
+- id: 54fd3b0d-d0ce-4c6f-a17a-0cf35f307f5b
+  name: Set rec_anchor (view)
+  type: user_update
+- id: 4c4a17c8-907a-4488-868f-8c0449a55da3
+  name: Update anchor?
+  type: audience_paths

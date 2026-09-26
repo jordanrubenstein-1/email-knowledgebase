@@ -1,0 +1,79 @@
+id: ac6e9b40-0787-469f-a8ab-51ef20d070ea
+name: P_EM_2025_09_27_CZ_D_PR_The_Weekend_Getaway_Giveaway
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: ac6e9b40-0787-469f-a8ab-51ef20d070ea
+dates:
+  send_date: '2025-09-27'
+  inferred_send_type: local_time
+  first_sent: '2025-09-26T19:38:41+00:00'
+  last_sent: '2025-09-27T17:15:31+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- dest
+- giveaway
+sends:
+- id: dc11ed6f-85d9-4f5f-bda1-4b7c72132106
+  channel: email
+  name: Variant 1
+  subject: Your Citizenry Retreat Awaits
+  preheader: Enter to win a New England getaway for two.
+  html_file: html/p_em_2025_09_27_cz_d_pr_the_weekend_getaway_giveaway.html
+  screenshot: screenshots/p_em_2025_09_27_cz_d_pr_the_weekend_getaway_giveaway.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d6dacfe350c60066cebb9c/original.png?1758911183
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d593f3d10b020067088c1d/original.png?1758827507
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d6bf470b4e1800746bbd4f/original.jpg?1758904135
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d6bf37f98812006467dfda/original.jpg?1758904119
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d6bf238c7fe800659105e4/original.gif?1758904099
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d6dac771e2df00676425da/original.png?1758911175
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d6bf17b6f8310065615150/original.jpg?1758904086
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d6cc34faf95f00659d53bf/original.png?1758907443
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d5946fe3cee40086a743ec/original.png?1758827631
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d6daa02dd9030067842ff3/original.png?1758911136
+- id: e928a8eb-0d93-40c7-aa3e-b79d53433e7c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 91
+  total_delivered: 90
+  total_opens: 44
+  total_clicks: 2
+  open_rate: 0.4835
+  click_rate: 0.022
+  total_unsubscribes: 2
+  ga4:
+    sessions: 1
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.091910'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-weekender-sale-2025-09-26
+    name: Weekender Sale
+    start_date: '2025-09-26'
+    end_date: '2025-09-30'
+    discount: 20% Off Sitewide
+    type: null
+  primary_sale:
+    id: cz-weekender-sale-2025-09-26
+    name: Weekender Sale
+    start_date: '2025-09-26'
+    end_date: '2025-09-30'
+    discount: 20% Off Sitewide
+    type: null
+  sale_name: Weekender Sale
+  sale_discount: 20% Off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:38.844764'
+schedule_type: time_based

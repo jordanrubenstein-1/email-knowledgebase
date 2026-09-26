@@ -1,0 +1,30 @@
+id: 70c8e9f5-b447-45a2-a52f-d69a8d76e9a4
+name: P_SMS_2026_03_19_ID_SMS_Sleepers
+brand: ID
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: 70c8e9f5-b447-45a2-a52f-d69a8d76e9a4
+dates:
+  send_date: '2026-03-19'
+  inferred_send_type: local_time
+  first_sent: '2026-03-19T01:07:52+00:00'
+  last_sent: '2026-03-20T01:02:13+00:00'
+tags: []
+sends:
+- id: 2055e316-2f2a-496d-aa1c-325f1cb660f2
+  channel: sms
+  name: Variant 1
+- id: 4a4a050d-f71e-4c9e-ab56-cfe8a64dbb9a
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 49581
+  total_delivered: 47396
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 6515.99
+schedule_type: time_based

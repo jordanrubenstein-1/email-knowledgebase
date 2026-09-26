@@ -1,0 +1,108 @@
+# Personalization Rules Configuration
+# Defines when and how personalized components are shown in email campaigns
+
+version: "1.0.0"
+
+personalization_rules:
+  - id: carted_items_module
+    name: Carted Items Module
+    description: Shows items currently in user's cart or recently carted
+    priority: 1  # Highest priority - check cart first
+    trigger_conditions:
+      - event: cart_added
+        time_window_days: 7
+        min_items: 1
+        data_source: event_properties.${cartItems}
+    component_options:
+      - type: carted_items
+        content_block_id: ${carted_items_module}
+        default_percentage: 60
+        description: Direct display of carted items
+      - type: recommended_based_on_cart
+        content_block_id: ${recommended_from_cart_module}
+        default_percentage: 40
+        description: Recommendations based on items in cart
+  
+  - id: viewed_items_module
+    name: Viewed Items Module
+    description: Shows recently viewed products when no cart data available
+    priority: 2  # Second priority - check views if no cart
+    trigger_conditions:
+      - event: product_viewed
+        time_window_days: 7
+        min_items: 1
+        data_source: event_properties.${viewedItems}
+        fallback_if_no_cart: true
+    component_options:
+      - type: viewed_items
+        content_block_id: ${viewed_items_module}
+        default_percentage: 60
+        description: Direct display of viewed items
+      - type: recommended_based_on_views
+        content_block_id: ${recommended_from_views_module}
+        default_percentage: 40
+        description: Recommendations based on viewed items
+  
+  - id: popular_items_module
+    name: Most Popular Items
+    description: Fallback module showing trending/popular items when no behavioral data
+    priority: 3  # Lowest priority - fallback only
+    trigger_conditions:
+      - fallback: true  # Show if no cart/view data available
+    component_options:
+      - type: popular_items
+        content_block_id: ${popular_items_module}
+        default_percentage: 100
+        description: Most popular or trending items
+
+# Brand-specific overrides
+# These override default percentages and time windows per brand
+brand_overrides:
+  ID:
+    carted_items_module:
+      time_window_days: 14  # ID has longer consideration period
+      component_options:
+        - type: carted_items
+          default_percentage: 70  # ID prefers showing cart items more often
+        - type: recommended_based_on_cart
+          default_percentage: 30
+  
+  CZ:
+    viewed_items_module:
+      time_window_days: 10
+      component_options:
+        - type: viewed_items
+          default_percentage: 50
+        - type: recommended_based_on_views
+          default_percentage: 50
+  
+  HAV:
+    carted_items_module:
+      time_window_days: 5  # HAV has shorter windows
+      min_items: 2  # Require at least 2 items
+
+# Campaign type preferences
+# Some campaign types may prefer certain personalization approaches
+campaign_type_preferences:
+  sale_promo:
+    preferred_modules:
+      - carted_items_module
+      - recommended_from_cart
+    rationale: "Sales benefit from showing items already in cart"
+  
+  product_launch:
+    preferred_modules:
+      - viewed_items_module
+      - recommended_from_views
+    rationale: "New products benefit from showing related viewed items"
+  
+  editorial:
+    preferred_modules:
+      - popular_items_module
+    rationale: "Editorial content works better with popular/trending items"
+
+# A/B split configuration
+ab_split:
+  method: random_seed  # Use Braze's user.${random_seed} for consistent splits
+  seed_attribute: user.${random_seed}
+  modulo_base: 100  # Split percentages are out of 100

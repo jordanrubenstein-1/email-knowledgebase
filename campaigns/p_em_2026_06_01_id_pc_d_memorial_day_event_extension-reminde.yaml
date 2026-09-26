@@ -1,0 +1,36 @@
+id: 0ca1e04f-5139-4b28-894a-3ea6c020edea
+name: P_EM_2026_06_01_ID_PC_D_Memorial_Day_Event_Extension Reminder
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 0ca1e04f-5139-4b28-894a-3ea6c020edea
+dates:
+  send_date: '2026-06-01'
+  first_sent: '2026-05-31T19:05:34+00:00'
+  last_sent: '2026-06-01T18:04:18+00:00'
+  inferred_send_type: local_time
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 36e39c24-f707-434e-96b7-e7c0795aefdf
+  channel: email
+  name: Variant 1
+  subject: The Memorial Day Event is still on
+  preheader: Up to 30% off sitewide, extended for a limited time.
+- id: 2f5801d7-bba4-4df2-bf5a-cdd2113f1d43
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 229375
+  total_delivered: 228766
+  total_opens: 89082
+  total_clicks: 496
+  open_rate: 0.3884
+  click_rate: 0.0022
+  total_revenue: 265214.97
+  total_bounces: 5
+  total_unsubscribes: 231
+schedule_type: time_based
+_filename: p_em_2026_06_01_id_pc_d_memorial_day_event_extension-reminde.yaml

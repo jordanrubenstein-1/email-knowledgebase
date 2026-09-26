@@ -1,0 +1,29 @@
+id: 26deaad5-90e3-4e0b-808a-405e94a7889b
+name: P_SMS_2026_06_02_BW_Memorial_Day_Extension_Last_Day
+brand: BUR
+channel: sms
+category: reminder
+type: announcement
+theme: null
+braze_id: 26deaad5-90e3-4e0b-808a-405e94a7889b
+dates:
+  send_date: '2026-06-02'
+  last_sent: '2026-06-02'
+tags: []
+sends:
+- id: 7fdf036f-2431-4121-92d5-007095617100
+  channel: sms
+  name: Variant 1
+- id: 29248dde-3c54-479d-86bc-2d507efbe6c4
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 10218
+  total_delivered: 9709
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 8936.0
+schedule_type: time_based
+_filename: p_sms_2026_06_02_bw_memorial_day_extension_last_day.yaml

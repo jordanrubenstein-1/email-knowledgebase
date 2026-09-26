@@ -1,0 +1,30 @@
+id: 222fb8fe-47de-4612-be16-a5f06a4a725d
+name: PUSH_Conv_4_22_Friends_and_Family_Sale_Ends_Tonight
+brand: HAV
+channel: push
+category: sale_promo
+type: sale
+theme: null
+braze_id: 222fb8fe-47de-4612-be16-a5f06a4a725d
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2025-04-22T13:11:52+00:00'
+  last_sent: '2025-04-23T02:00:35+00:00'
+tags: []
+sends:
+- id: 1144362a-05a0-4c29-a886-e8edab0193fc
+  channel: push
+  name: Variant 1
+- id: 95134fa7-2566-43f2-8772-8ffb81879a10
+  channel: push
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.487859'
+    source: snowflake
+    channel: push
+schedule_type: time_based

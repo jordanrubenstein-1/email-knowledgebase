@@ -1,0 +1,35 @@
+id: bb975108-93e2-4aa4-a9c3-5fc878d13348
+name: P_EM_2026_02_13_TRADE_ALL_D_PR_Presidents_Day_Sale_Reminder
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: bb975108-93e2-4aa4-a9c3-5fc878d13348
+dates:
+  send_date: '2026-02-13'
+  inferred_send_type: local_time
+  first_sent: '2026-02-12T22:54:40+00:00'
+  last_sent: '2026-02-13T19:01:37+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 6e435900-1856-4260-aba3-10a9b3904b86
+  channel: email
+  name: Variant 1
+  subject: The Presidents Day Sale is in full swing
+  preheader: Styles your clients love, now on sale.
+- id: 91de9a72-07bf-4f72-a24e-b81ce4ad30f6
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 19818
+  total_delivered: 19148
+  total_opens: 9048
+  total_clicks: 76
+  open_rate: 0.4566
+  click_rate: 0.0038
+  total_revenue: 131120.0
+  total_unsubscribes: 35
+_filename: p_em_2026_02_13_trade_all_d_pr_presidents_day_sale_reminder.yaml
+schedule_type: time_based

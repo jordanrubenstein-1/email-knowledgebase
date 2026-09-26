@@ -1,0 +1,25 @@
+id: 78b86dd1-eb8f-4364-a243-d1ed7ad0a510
+name: P_EM_2026_09_28_HAV_CONV_D_Flash_Sale_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 78b86dd1-eb8f-4364-a243-d1ed7ad0a510
+dates:
+  send_date: '2026-09-28'
+  last_sent: '2026-09-28'
+tags:
+- BLASTS-2025
+sends:
+- id: e96e3c40-965e-4476-a2c3-5bd58c321769
+  channel: email
+  name: Variant 1
+  subject: Don't miss up to 15% off
+  preheader: This Flash Sale won't stick around.
+- id: f31246f8-bec8-4445-866c-1201e7bf4915
+  channel: email
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: p_em_2026_09_28_hav_conv_d_flash_sale_reminder.yaml

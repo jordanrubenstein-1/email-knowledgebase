@@ -1,0 +1,50 @@
+id: cd413011-cdfa-49a4-ade7-e9f3f72b047a
+name: Welcome $25 Off - Labor Day Sale
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: cd413011-cdfa-49a4-ade7-e9f3f72b047a
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-08-28T19:00:00+00:00'
+  last_sent: '2025-09-01T17:00:00+00:00'
+tags: []
+sends:
+- id: b32c206d-69a3-4374-8576-1c98a6ce17d0
+  channel: other
+  name: Variant 1
+- id: 21d67dfd-8883-427e-860f-8739c8b73884
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.789369'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-02'
+    discount: 20% off Sitewide
+    type: null
+  primary_sale:
+    id: cz-the-labor-day-event-2025-08-19
+    name: The Labor Day Event
+    start_date: '2025-08-19'
+    end_date: '2025-09-02'
+    discount: 20% off Sitewide
+    type: null
+  sale_name: The Labor Day Event
+  sale_discount: 20% off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:34.984732'
+schedule_type: action_based

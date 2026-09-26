@@ -1,0 +1,52 @@
+id: klaviyo-TVcVmW
+name: 'Welcome Email #1: Never Purchased'
+brand: TE
+channel: email
+category: other
+type: lifecycle
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: S8M3Rt
+canvas_name: welcome-series_before-4/3/22
+flow_type: welcome_series
+sequence_position: 1
+dates:
+  created: '2022-05-22'
+  inferred_send_type: sto
+  first_sent: '2022-05-22'
+  last_sent: '2023-04-04'
+sends:
+- id: TVcVmW
+  channel: email
+  name: Message
+  subject: Welcome to The Expert
+  preheader: The world's top designers are now on call
+  html_file: html/klv-flow-welcome-series_before-4322-t01-TVcVmW.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/3c2a8432-4d47-47f3-9d48-96e60e19e948.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/47dc25f4-73b9-4024-b594-77b6292b7f93.gif
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/91cb6d77-4a7b-4464-86ec-69a288e4b1f0.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/bebaf477-8eec-46f3-b654-90652c32bb05.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/1bfbda3b-0a13-49ef-b0a8-08f124dff915.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/Ti25p8/images/03798e82-7136-4b31-8695-8ee2b6e9c424.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: TVcVmW
+structure:
+  image_count: 6
+  link_count: 8
+  has_gif: true
+  hero_width: 600
+  layout_type: product_grid

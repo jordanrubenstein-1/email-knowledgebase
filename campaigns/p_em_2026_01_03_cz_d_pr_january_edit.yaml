@@ -1,0 +1,61 @@
+id: 4fe38e42-9994-4c20-80ef-07efb49cacef
+name: P_EM_2026_01_03_CZ_D_PR_January_Edit
+brand: CZ
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: 4fe38e42-9994-4c20-80ef-07efb49cacef
+dates:
+  send_date: '2026-01-03'
+  inferred_send_type: local_time
+  first_sent: '2026-01-02T23:12:45+00:00'
+  last_sent: '2026-01-03T17:17:40+00:00'
+tags:
+- am
+- batch and blast
+- catalog
+- d2c
+- designed
+- sale
+- sale/yearend2025
+sends:
+- id: 34628b54-6c34-4cdf-9d19-bede0659b4be
+  channel: email
+  name: Variant 1
+  subject: The January Edit
+  preheader: Here’s to a fresh start and a home renewed.
+  html_file: html/p_em_2026_01_03_cz_d_pr_january_edit.html
+  screenshot: screenshots/p_em_2026_01_03_cz_d_pr_january_edit.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951d9bb893a450064e527fe/original.png?1766971835
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6956f99e6a84180064c3c25d/original.png?1767307677
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6956f9c943801f0063a86962/original.png?1767307720
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951d99793508e0065067d39/original.png?1766971798
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951d989537b66006358100e/original.png?1766971785
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6956fa9120890e0063e93b0b/original.png?1767307920
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6956fa24a014d80063bd4d96/original.png?1767307811
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951d9424d539a0063426a38/original.png?1766971713
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6951d9767fc25f006518afd7/original.png?1766971766
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6956f9865b0e7e006438038c/original.png?1767307653
+- id: 182e3feb-a868-4365-93f9-ba04941c1d87
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 114322
+  total_delivered: 114096
+  total_opens: 59539
+  total_clicks: 898
+  open_rate: 0.5208
+  click_rate: 0.0079
+  total_bounces: 8
+  total_unsubscribes: 230
+  ga4:
+    sessions: 881
+    purchases: 6
+    revenue: 4739.9
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.679125'
+    source: snowflake
+    channel: email
+schedule_type: time_based

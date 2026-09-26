@@ -1,0 +1,42 @@
+id: 19d0a87b-73d2-4c0f-a13f-00836bbb0614
+name: P_2025_1_26_D_SF_LA_Fire_Relief_Email_Microsoft
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 19d0a87b-73d2-4c0f-a13f-00836bbb0614
+dates:
+  send_date: '2025-01-26'
+  inferred_send_type: local_time
+  first_sent: '2025-01-25T17:35:12+00:00'
+  last_sent: '2025-01-26T15:30:00+00:00'
+tags: []
+sends:
+- id: 38352b63-ee81-463e-a844-b729c746f40f
+  channel: email
+  name: Variant 1
+  subject: 'Project Comfort: we stand with LA'
+  preheader: Sign up today for free furnishings and design support
+  html_file: html/p_2025_1_26_d_sf_la_fire_relief_email_microsoft.html
+  screenshot: screenshots/p_2025_1_26_d_sf_la_fire_relief_email_microsoft.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6793cda03f24f5006365e116/original.png?1737739679
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6793cd7d46e97b0065b158bb/original.png?1737739645
+- id: 69d292b9-a2f5-48f5-b508-5197f77648ef
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.968071'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.956269'
+schedule_type: time_based

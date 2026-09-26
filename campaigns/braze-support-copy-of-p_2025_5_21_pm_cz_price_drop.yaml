@@ -1,0 +1,30 @@
+id: 542d1b87-6211-4e0f-be6d-5960a6bded18
+name: Braze Support Copy of P_2025_5_21_PM_CZ_Price_Drop_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 542d1b87-6211-4e0f-be6d-5960a6bded18
+dates:
+  send_date: '2025-05-21'
+  last_sent: '2025-05-21'
+tags:
+- batch and blast/promo
+sends:
+- id: 32144cba-4170-4696-bab6-5d89954e5c3c
+  channel: email
+  name: Variant 1
+  subject: That Style You Love? It's On Sale
+  preheader: Don't miss our Memorial Day Event, happening now.
+  html_file: html/braze-support-copy-of-p_2025_5_21_pm_cz_price_drop_email.html
+  screenshot: screenshots/braze-support-copy-of-p_2025_5_21_pm_cz_price_drop_email.png
+- id: d33c7de6-4a80-4c2e-b5be-67f5fe3e1195
+  channel: other
+  name: Control Group
+performance_summary: {}
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.959801'
+schedule_type: time_based

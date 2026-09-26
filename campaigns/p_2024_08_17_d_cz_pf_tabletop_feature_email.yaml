@@ -1,0 +1,56 @@
+id: 58755984-49a9-4a86-8214-5d243dd859c3
+name: P_2024_08_17_D_CZ_PF_Tabletop_Feature_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 58755984-49a9-4a86-8214-5d243dd859c3
+dates:
+  send_date: '2024-08-17'
+  inferred_send_type: local_time
+  first_sent: '2024-08-16T20:23:05+00:00'
+  last_sent: '2024-08-17T17:00:07+00:00'
+tags:
+- batch and blast
+sends:
+- id: c96d2c35-9a5a-4fb4-bfa8-197e251e5008
+  channel: email
+  name: Variant 1
+  subject: Set The Table
+  preheader: Greet your guests with unique serving essentials handcrafted around the
+    globe.
+  html_file: html/p_2024_08_17_d_cz_pf_tabletop_feature_email.html
+  screenshot: screenshots/p_2024_08_17_d_cz_pf_tabletop_feature_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66bf6acbcabf1800645f4372/original.jpg?1723820747
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66bf6a94c96c8f0092187ec1/original.jpg?1723820691
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66bf6ad9712429006419e35d/original.jpg?1723820761
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66bfc2f71162b90066af0b1b/original.jpg?1723843319
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66bf6a83712429006419e166/original.jpg?1723820675
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66bfc2ff1162b90066af0b6b/original.jpg?1723843326
+- id: 0e784b8d-3f09-4528-895b-8d9787346123
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 37951
+  total_delivered: 37905
+  total_opens: 23803
+  total_clicks: 633
+  open_rate: 0.6272
+  click_rate: 0.0167
+  total_revenue: 32938.79
+  total_unsubscribes: 62
+  ga4:
+    sessions: 547
+    purchases: 4
+    revenue: 1158.02
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.366625'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.951582'
+schedule_type: time_based

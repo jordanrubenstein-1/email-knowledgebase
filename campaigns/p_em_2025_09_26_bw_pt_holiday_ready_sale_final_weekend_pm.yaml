@@ -1,0 +1,35 @@
+id: 637c85a6-c2ab-40cd-9600-5c3560c73465
+name: P_EM_2025_09_26_BW_PT_Holiday_Ready_Sale_Final_Weekend_PM
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: christmas
+braze_id: 637c85a6-c2ab-40cd-9600-5c3560c73465
+dates:
+  send_date: '2025-09-26'
+  inferred_send_type: local_time
+  first_sent: '2025-09-26T03:58:28+00:00'
+  last_sent: '2025-09-27T02:00:46+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: bf810d68-8b91-41be-925b-e93d47af434d
+  channel: email
+  name: Variant 1
+  subject: FINAL WEEKEND TO SAVE!
+  preheader: Up to 25% off ends soon.
+- id: 2ce92487-252f-4963-a8e1-e7d5f0e9f2e8
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 24657
+  total_delivered: 24562
+  total_opens: 13841
+  total_clicks: 326
+  open_rate: 0.5613
+  click_rate: 0.0132
+  total_revenue: 23266.0
+  total_unsubscribes: 24
+_filename: p_em_2025_09_26_bw_pt_holiday_ready_sale_final_weekend_pm.yaml
+schedule_type: time_based

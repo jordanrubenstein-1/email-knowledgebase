@@ -1,0 +1,34 @@
+id: 974f722f-e32c-48d1-8157-6998435952d3
+name: P_EM_2026_08_17_BW_D_Warehouse_Sale_Feature
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 974f722f-e32c-48d1-8157-6998435952d3
+dates:
+  send_date: '2026-08-17'
+  last_sent: '2026-08-17'
+tags:
+- Batch&Blast
+sends:
+- id: c13a1c8b-cb26-429c-b134-a21b1c012e28
+  channel: email
+  name: Variant 1
+  subject: Warehouse sale styles won't last
+  preheader: Shop up to 50% off clearance styles before they’re gone forever.
+- id: 774c6114-b562-4510-8a4d-87c718065bf9
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 224734
+  total_delivered: 223658
+  total_opens: 112733
+  total_clicks: 667
+  open_rate: 0.5016
+  click_rate: 0.003
+  total_revenue: 105233.0
+  total_bounces: 3
+  total_unsubscribes: 159
+schedule_type: time_based
+_filename: p_em_2026_08_17_bw_d_warehouse_sale_feature.yaml

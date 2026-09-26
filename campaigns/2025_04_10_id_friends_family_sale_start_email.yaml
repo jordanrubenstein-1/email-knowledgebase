@@ -1,0 +1,47 @@
+id: 97b0c488-e889-4d0c-867a-ae102f4e08e9
+name: 2025_04_10_ID_Friends_Family_Sale_Start_Email
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 97b0c488-e889-4d0c-867a-ae102f4e08e9
+dates:
+  send_date: '2025-04-10'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-10T06:26:34+00:00'
+  last_sent: '2025-04-10T17:15:04+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 04d790b1-64ca-4537-8f4b-dccafc4f7116
+  channel: email
+  name: Variant 1
+  subject: 'HAPPENING NOW: 20% OFF SITEWIDE'
+  preheader: The Friends & Family Sale
+- id: 10973d57-ba39-44a3-a867-1a3ca2461ade
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 151190
+  total_delivered: 148944
+  total_opens: 35040
+  total_clicks: 556
+  open_rate: 0.2318
+  click_rate: 0.0037
+  total_revenue: 167091.0
+  total_bounces: 7
+  total_unsubscribes: 76
+  ga4:
+    sessions: 932
+    purchases: 9
+    revenue: 24062.97
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.867047'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.025242'
+schedule_type: time_based

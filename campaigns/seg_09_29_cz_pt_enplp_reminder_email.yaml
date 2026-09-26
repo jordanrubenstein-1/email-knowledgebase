@@ -1,0 +1,37 @@
+id: cc7f2ffa-5aee-4c5d-bc13-6d469274b88a
+name: SEG_09_29_CZ_PT_ENPLP_Reminder_Email
+brand: CZ
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: cc7f2ffa-5aee-4c5d-bc13-6d469274b88a
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2024-09-29T13:16:41+00:00'
+  last_sent: '2024-09-30T02:10:03+00:00'
+tags: []
+sends:
+- id: ed204f87-ae6a-4198-a7cd-0518e81aa33f
+  channel: email
+  name: Variant 1
+  subject: ' Your 15% off is about to expire...'
+  html_file: html/seg_09_29_cz_pt_enplp_reminder_email.html
+  screenshot: screenshots/seg_09_29_cz_pt_enplp_reminder_email.png
+- id: 1902977c-6da8-466b-8e90-41d575bd8b29
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 557
+    purchases: 9
+    revenue: 2590.35
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.008500'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.729625'
+schedule_type: time_based

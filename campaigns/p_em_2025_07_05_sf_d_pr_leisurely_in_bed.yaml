@@ -1,0 +1,66 @@
+id: 5375a0bd-409e-4787-bb00-6cc61f2f22e8
+name: P_EM_2025_07_05_SF_D_PR_Leisurely_In_Bed
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 5375a0bd-409e-4787-bb00-6cc61f2f22e8
+dates:
+  send_date: '2025-07-05'
+  inferred_send_type: local_time
+  first_sent: '2025-07-04T18:07:41+00:00'
+  last_sent: '2025-07-05T17:00:21+00:00'
+tags:
+- Batch and Blast
+- am
+- bedding
+- d2c
+- designed
+- prod
+- sale
+sends:
+- id: 377b19e5-1b3a-4887-8e3e-8e52bee41e6d
+  channel: email
+  name: Variant 1
+  subject: Bedding so soft, you’ll reschedule your morning.
+  preheader: now 20% off
+  html_file: html/p_em_2025_07_05_sf_d_pr_leisurely_in_bed.html
+  screenshot: screenshots/p_em_2025_07_05_sf_d_pr_leisurely_in_bed.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6864543c7b53c40066453d46/original.png?1751405628
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686454357b53c40066453cf7/original.png?1751405621
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686458c610857b006515ee30/original.png?1751406789
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686457ee5886520075b0612f/original.png?1751406573
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686454563c6fd300958477ef/original.png?1751405654
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6864541d2182e40065051203/original.png?1751405596
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6864545cdd2da90064aeefff/original.png?1751405660
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686457f710857b007515e679/original.gif?1751406583
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6864544cd3bc430074d467e2/original.png?1751405644
+- id: 2180f920-4b93-437d-b6fc-d1363721432f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39914
+  total_delivered: 39424
+  total_opens: 18086
+  total_clicks: 230
+  open_rate: 0.4531
+  click_rate: 0.0058
+  total_revenue: 13161.0
+  total_bounces: 9
+  total_unsubscribes: 78
+  ga4:
+    sessions: 275
+    purchases: 4
+    revenue: 874.27
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.769042'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.570646'
+schedule_type: time_based

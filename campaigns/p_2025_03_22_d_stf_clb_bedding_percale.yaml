@@ -1,0 +1,59 @@
+id: 0fdab41c-b182-4f0c-9283-98250a7c9da2
+name: P_2025_03_22_D_STF_CLB_Bedding_Percale
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 0fdab41c-b182-4f0c-9283-98250a7c9da2
+dates:
+  send_date: '2025-03-22'
+  inferred_send_type: local_time
+  first_sent: '2025-03-21T20:50:50+00:00'
+  last_sent: '2025-03-22T17:00:51+00:00'
+tags: []
+sends:
+- id: 7858911a-6e52-426e-af55-812a375a5739
+  channel: email
+  name: Variant 1
+  subject: Our best-selling blue bedding is now in cotton percale
+  preheader: make it yours at 20% off during our Spring Event
+  html_file: html/p_2025_03_22_d_stf_clb_bedding_percale.html
+  screenshot: screenshots/p_2025_03_22_d_stf_clb_bedding_percale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dc457b64e1a70075a14ac5/original.png?1742488955
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dc45a20399880076136148/original.png?1742488993
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dc4575d78ce8006629795e/original.png?1742488948
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dc45af039988006613770e/original.png?1742489007
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dc453ac64d5700660998b2/original.gif?1742488890
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dc45c65e23a100667ed102/original.png?1742489029
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dc45cea20c6f0064ae6f88/original.png?1742489038
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dc45bd64e1a70066a15606/original.png?1742489021
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67dc456bf448de0065974618/original.png?1742488939
+- id: 46ca8714-6031-4aad-963b-fcc7c3cb88aa
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 11150
+  total_delivered: 11035
+  total_opens: 6579
+  total_clicks: 179
+  open_rate: 0.59
+  click_rate: 0.0161
+  total_revenue: 10721.0
+  total_bounces: 1
+  total_unsubscribes: 36
+  ga4:
+    sessions: 227
+    purchases: 3
+    revenue: 1276.19
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.959633'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.598279'
+schedule_type: time_based

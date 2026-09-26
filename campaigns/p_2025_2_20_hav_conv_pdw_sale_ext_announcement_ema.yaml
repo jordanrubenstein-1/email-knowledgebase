@@ -1,0 +1,58 @@
+id: 161eb600-8180-42c6-a645-291accd0d51d
+name: P_2025_2_20_HAV_Conv_PDW_Sale_Ext_Announcement_Email
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 161eb600-8180-42c6-a645-291accd0d51d
+dates:
+  send_date: '2025-02-20'
+  inferred_send_type: scheduled
+  first_sent: '2025-02-20T06:28:39+00:00'
+  last_sent: '2025-02-20T17:15:42+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 0bceb7fc-ba56-4f06-90c8-3e240da06074
+  channel: email
+  name: Variant 1
+  subject: SURPRISE! Sale Extended
+  preheader: There’s still time for up to 15% off furniture + decor.
+  html_file: html/p_2025_2_20_hav_conv_pdw_sale_ext_announcement_email.html
+  screenshot: screenshots/p_2025_2_20_hav_conv_pdw_sale_ext_announcement_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67aa2622f7e6920064281628/original.png?1739204130
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67aa263eb56c040065ac52fc/original.png?1739204157
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67aa2615b1a4f10075d618a0/original.png?1739204117
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67aa2631b1a4f10065d62238/original.png?1739204145
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b65a25f914a50065567c8d/original.png?1740003877
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b65a2c25aeeb007419a4bd/original.png?1740003883
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67a25ae37d3f490065194a3b/original.png?1738693347
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b65a583494f70067ebd8fd/original.png?1740003928
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67afdebd38c0a800740aac65/original.png?1739579069
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67b65a04d5d05e007450ff11/original.gif?1740003844
+- id: a00745fb-07e1-4789-833b-e2fc279d2d27
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 38346
+  total_delivered: 38186
+  total_opens: 21358
+  total_clicks: 190
+  open_rate: 0.557
+  click_rate: 0.005
+  total_unsubscribes: 43
+  ga4:
+    sessions: 230
+    purchases: 2
+    revenue: 1039.03
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.264249'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.683006'
+schedule_type: time_based

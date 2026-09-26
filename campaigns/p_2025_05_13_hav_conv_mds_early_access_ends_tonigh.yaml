@@ -1,0 +1,48 @@
+id: 13fcac55-ba87-411a-9417-0b55662b3df2
+name: P_2025_05_13_HAV_Conv_MDS_Early_Access_Ends_Tonight_PT
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 13fcac55-ba87-411a-9417-0b55662b3df2
+dates:
+  send_date: '2025-05-13'
+  inferred_send_type: local_time
+  first_sent: '2025-05-12T18:23:51+00:00'
+  last_sent: '2025-05-13T17:15:09+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: bdd4d7bf-f824-4ef7-8a37-7b3b80df2c43
+  channel: email
+  name: Variant 1
+  subject: Savings up to 20% ends TONIGHT!
+  html_file: html/p_2025_05_13_hav_conv_mds_early_access_ends_tonight_pt.html
+  screenshot: screenshots/p_2025_05_13_hav_conv_mds_early_access_ends_tonight_pt.png
+  image_urls:
+  - https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/c731630f24214e43807c7369ca8ebacd/Havenly_Wordmark_RGB_Charcoal_Brown%20%281%29.png
+- id: 52ef2dee-20fc-428e-a767-0ce442e7ff26
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 39613
+  total_delivered: 39542
+  total_opens: 21910
+  total_clicks: 162
+  open_rate: 0.5531
+  click_rate: 0.0041
+  total_unsubscribes: 50
+  ga4:
+    sessions: 191
+    purchases: 3
+    revenue: 7536.28
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:48.961744'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.134398'
+schedule_type: time_based

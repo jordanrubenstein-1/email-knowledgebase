@@ -1,0 +1,41 @@
+id: 70094240-8721-40ca-8e9b-5184e1d5cead
+name: P_EM_2026_02_26_CZ_D_PR_Spring_Preview_With_STO
+brand: CZ
+channel: email
+category: other
+type: seasonal
+theme: spring
+braze_id: 70094240-8721-40ca-8e9b-5184e1d5cead
+dates:
+  send_date: '2026-02-26'
+  inferred_send_type: sto
+  first_sent: '2026-02-25T10:07:47+00:00'
+  last_sent: '2026-02-27T08:25:14+00:00'
+tags:
+- am
+- batch and blast
+- catalog
+- d2c
+- designed
+sends:
+- id: 4738f2e6-6be3-4650-a2f0-566666ec5cc3
+  channel: email
+  name: Variant 1
+  subject: Looking Ahead to Spring
+  preheader: New pieces shaped by lighter layers and softer tones.
+  html_file: html/p_em_2026_02_26_cz_d_pr_spring_preview_with_sto.html
+  screenshot: screenshots/p_em_2026_02_26_cz_d_pr_spring_preview_with_sto.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/699cc41f0962330063db8665/original.gif?1771881503
+- id: 5c608982-057e-45d4-a3e4-31cbfdfd807e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 56746
+  total_delivered: 56628
+  total_opens: 27618
+  total_clicks: 483
+  open_rate: 0.4867
+  click_rate: 0.0085
+  total_unsubscribes: 103
+schedule_type: time_based

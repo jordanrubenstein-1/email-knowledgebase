@@ -1,0 +1,75 @@
+id: bf58dfaa-6bc8-4267-ad06-315e1c6e3527
+name: P_EM_2025_08_02_BW_D_Referral_Promo
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: bf58dfaa-6bc8-4267-ad06-315e1c6e3527
+dates:
+  send_date: '2025-08-02'
+  inferred_send_type: local_time
+  first_sent: '2025-08-02T03:09:44+00:00'
+  last_sent: '2025-08-03T02:00:42+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 0feff393-6a84-4c34-bb01-e8d480a1216f
+  channel: email
+  name: Variant 1
+  subject: Share Burrow. Get rewarded. Everyone wins.
+  preheader: Because your friends deserve great furniture, too
+- id: 66a7784e-5512-44c8-a5ee-57fee84ba07b
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 25694
+  total_delivered: 25657
+  total_opens: 14058
+  total_clicks: 359
+  open_rate: 0.5471
+  click_rate: 0.014
+  total_revenue: 13339.0
+  total_bounces: 1
+  total_unsubscribes: 54
+  ga4:
+    sessions: 145
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.585862'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:31.643084'
+schedule_type: time_based

@@ -1,0 +1,48 @@
+id: 4841d0da-caa1-455d-965e-a13ebff00189
+name: P_2024_08_27_PT_HAV_Merch_Plain_Text_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 4841d0da-caa1-455d-965e-a13ebff00189
+dates:
+  send_date: '2024-08-27'
+  inferred_send_type: scheduled
+  first_sent: '2024-08-26T23:14:30+00:00'
+  last_sent: '2024-08-27T13:05:46+00:00'
+tags: []
+sends:
+- id: 6e9442a0-7747-4bb4-80ec-107833019608
+  channel: email
+  name: Variant 1
+  subject: Your discount is now up to 70% off
+  html_file: html/p_2024_08_27_pt_hav_merch_plain_text_reminder_email.html
+  screenshot: screenshots/p_2024_08_27_pt_hav_merch_plain_text_reminder_email.png
+  image_urls:
+  - https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/c731630f24214e43807c7369ca8ebacd/Havenly_Wordmark_RGB_Charcoal_Brown%20%281%29.png
+- id: ee8ff5f3-176a-403c-8588-65f5e2366eef
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 25595
+  total_delivered: 25572
+  total_opens: 14854
+  total_clicks: 811
+  open_rate: 0.5803
+  click_rate: 0.0317
+  total_bounces: 1
+  total_unsubscribes: 63
+  ga4:
+    sessions: 1007
+    purchases: 11
+    revenue: 31741.34
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.504374'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.491510'
+schedule_type: time_based

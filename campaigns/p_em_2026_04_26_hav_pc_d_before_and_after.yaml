@@ -1,0 +1,35 @@
+id: 7c877e47-3833-4e44-9b0c-b52534c8d134
+name: P_EM_2026_04_26_HAV_PC_D_Before_and_After
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 7c877e47-3833-4e44-9b0c-b52534c8d134
+dates:
+  send_date: '2026-04-26'
+  first_sent: '2026-04-25T11:08:41+00:00'
+  last_sent: '2026-04-27T09:05:08+00:00'
+  inferred_send_type: sto
+tags:
+- BLASTS-2025
+sends:
+- id: fc722181-7f2b-4742-b97b-b75d2d134f5f
+  channel: email
+  name: Variant 1
+  subject: Wait until you see the “before”
+  preheader: Inside a sunroom transformation by a Havenly designer.
+- id: 307e79bf-8262-41eb-a5ec-cebd4e6c8cb8
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 284019
+  total_delivered: 280549
+  total_opens: 112854
+  total_clicks: 477
+  open_rate: 0.3973
+  click_rate: 0.0017
+  total_bounces: 19
+  total_unsubscribes: 309
+schedule_type: time_based
+_filename: p_em_2026_04_26_hav_pc_d_before_and_after.yaml

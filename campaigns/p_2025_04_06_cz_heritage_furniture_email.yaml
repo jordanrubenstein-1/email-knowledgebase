@@ -1,0 +1,54 @@
+id: 398a8dac-9d5c-48d2-9b27-8c412cfc4a40
+name: P_2025_04_06_CZ_Heritage_Furniture_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 398a8dac-9d5c-48d2-9b27-8c412cfc4a40
+dates:
+  send_date: '2025-04-06'
+  inferred_send_type: local_time
+  first_sent: '2025-04-05T21:47:24+00:00'
+  last_sent: '2025-04-06T17:02:00+00:00'
+tags: []
+sends:
+- id: 5544f190-c1bb-4005-8bf2-68defbca59ea
+  channel: email
+  name: Variant 1
+  subject: Handcrafted For You, Designed For Generations
+  preheader: Discover heirloom furniture from master artisans.
+  html_file: html/p_2025_04_06_cz_heritage_furniture_email.html
+  screenshot: screenshots/p_2025_04_06_cz_heritage_furniture_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67eebf58fdf5270066571b57/original.png?1743699799
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67eebf277addc80064fa5c4f/original.png?1743699750
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67eebf479ad03700650a0854/original.png?1743699782
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67eebf3afdf5270066571ad7/original.png?1743699769
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67eebf64fdf52700755701a6/original.png?1743699811
+- id: 009f6912-b2b9-469a-9a2a-32e4aaa251ea
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 95198
+  total_delivered: 94381
+  total_opens: 50397
+  total_clicks: 579
+  open_rate: 0.5294
+  click_rate: 0.0061
+  total_revenue: 37696.21
+  total_bounces: 1
+  total_unsubscribes: 132
+  ga4:
+    sessions: 609
+    purchases: 1
+    revenue: 62.69
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.692579'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.981561'
+schedule_type: time_based

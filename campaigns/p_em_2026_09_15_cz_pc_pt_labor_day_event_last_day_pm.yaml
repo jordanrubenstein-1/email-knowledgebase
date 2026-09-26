@@ -1,0 +1,37 @@
+id: afd36102-9b4d-4d1e-b47d-dfabed5bf10c
+name: P_EM_2026_09_15_CZ_PC_PT_Labor_Day_Event_Last_Day_PM
+brand: CZ
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: afd36102-9b4d-4d1e-b47d-dfabed5bf10c
+dates:
+  send_date: '2026-09-15'
+  first_sent: '2026-09-15T03:09:24+00:00'
+  last_sent: '2026-09-15T21:00:00+00:00'
+  inferred_send_type: local_time
+tags:
+- batch and blast
+- pm
+- pt
+- sale
+- sale_feat
+sends:
+- id: 466b71a7-c274-48d9-bece-336b29defbef
+  channel: email
+  name: Variant 1
+  subject: 'FINAL HOURS: save 25% sitewide'
+- id: ca8f7454-348b-40c9-bbb9-f18e906ead6f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 43538
+  total_delivered: 43508
+  total_opens: 20059
+  total_clicks: 422
+  open_rate: 0.4607
+  click_rate: 0.0097
+  total_unsubscribes: 106
+schedule_type: time_based
+_filename: p_em_2026_09_15_cz_pc_pt_labor_day_event_last_day_pm.yaml

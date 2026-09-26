@@ -1,0 +1,38 @@
+id: 2a4bc5da-0009-43d4-b1e2-2da7f36679c8
+name: P_EM_2025_06_27_CZ_PT_PD_Price_Drop
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 2a4bc5da-0009-43d4-b1e2-2da7f36679c8
+dates:
+  send_date: '2025-06-27'
+  last_sent: '2025-06-27'
+tags:
+- batch and blast/promo
+sends:
+- id: caf7563f-d680-4e59-aa8d-02adb74ad121
+  channel: email
+  name: Variant 1
+  subject: That Style You Love? It's On Sale
+  preheader: Don't miss our Fourth of July Sale - 20% off sitewide
+  html_file: html/p_em_2025_06_27_cz_pt_pd_price_drop.html
+  screenshot: screenshots/p_em_2025_06_27_cz_pt_pd_price_drop.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6717c06c07b094007275ce31/original.gif?1729609836
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6717c0ff25ffbb00919d1752/original.gif?1729609983
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6717c115f7d0eb0063f47c8a/original.gif?1729610005
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6717c10b9c35f00075d6bc41/original.gif?1729609995
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6717c1bb25ffbb00669d1d99/original.gif?1729610171
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6717c1a2b79c7f0065c64a3b/original.gif?1729610146
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6717c1229c35f00066d6cc1e/original.jpg?1729610018
+- id: b6d25af2-5f6d-4399-897b-aa98973acbc5
+  channel: email
+  name: Control Group
+performance_summary: {}
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.373762'
+schedule_type: time_based

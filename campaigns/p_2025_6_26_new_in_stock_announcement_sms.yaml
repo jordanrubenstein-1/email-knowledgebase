@@ -1,0 +1,30 @@
+id: d6f89bfa-3343-4183-b4e2-5143692a62a9
+name: P_2025_6_26_NEW_In_Stock_Announcement_SMS
+brand: ID
+channel: sms
+category: product_launch
+type: product_launch
+theme: null
+braze_id: d6f89bfa-3343-4183-b4e2-5143692a62a9
+dates:
+  send_date: '2025-06-26'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-26T20:48:23+00:00'
+  last_sent: '2025-06-26T20:50:37+00:00'
+tags: []
+sends:
+- id: f629ed82-2dc1-43c8-ae95-27a83cf3ac40
+  channel: other
+  name: Variant 1
+- id: 34d0d71d-8197-40bc-82b3-39c1b3d6fcd5
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 57027
+  total_delivered: 50276
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 18090.0
+schedule_type: time_based

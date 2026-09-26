@@ -1,0 +1,80 @@
+id: 2ed0bb9b-1328-402d-b280-6d68e954014e
+name: P_2025_1_1_D_SF_PROMO_Bedding_Gmail_Email
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 2ed0bb9b-1328-402d-b280-6d68e954014e
+dates:
+  send_date: '2025-01-01'
+  inferred_send_type: local_time
+  first_sent: '2024-12-31T18:07:21+00:00'
+  last_sent: '2025-01-01T16:00:38+00:00'
+tags: []
+sends:
+- id: 999421cc-4935-4a98-88c6-21437024fb43
+  channel: email
+  name: Variant 1
+  subject: New Year, New Bedding ✨ Now 20% Off
+  preheader: shop now during our End of Year Sale
+  html_file: html/p_2025_1_1_d_sf_promo_bedding_gmail_email.html
+  screenshot: screenshots/p_2025_1_1_d_sf_promo_bedding_gmail_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6769dd5d0fbbc500643cc5f9/original.jpg?1734991197
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6772791131a25a0066dd1e32/original.jpg?1735555344
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6769d9913870460066596aff/original.gif?1734990225
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6769d9755297000063b25b9b/original.gif?1734990197
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6769d9855297000063b25baf/original.gif?1734990213
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677278ccd2f7cf0065fd2f7d/original.jpg?1735555276
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6772822a90750700646eacfe/original.gif?1735557674
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6769d9db5479ee00658f1228/original.gif?1734990299
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/677278ed31a25a0066dd1e1e/original.jpg?1735555308
+- id: 89b00fe3-f1a2-44ab-9c19-7df7bc6e266c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 758
+  total_delivered: 758
+  total_opens: 607
+  total_clicks: 27
+  open_rate: 0.8008
+  click_rate: 0.0356
+  total_revenue: 852.0
+  total_unsubscribes: 7
+  ga4:
+    sessions: 31
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.991449'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-end-of-year-sale-2025-01-01
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-05'
+    discount: 20% off Sitewide + 30% Off Last Chance Patterns
+    type: null
+  - id: stf_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: stf-end-of-year-sale-2025-01-01
+    name: End of Year Sale
+    start_date: '2024-12-26'
+    end_date: '2025-01-05'
+    discount: 20% off Sitewide + 30% Off Last Chance Patterns
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: 20% off Sitewide + 30% Off Last Chance Patterns
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:40.727472'
+schedule_type: time_based

@@ -1,0 +1,59 @@
+id: cc4baf91-d906-4d06-b93e-16e7196e2b7e
+name: P_2025_05_19_CZ_MDW_Spring_Rug_Roundup_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: seasonal
+theme: spring
+braze_id: cc4baf91-d906-4d06-b93e-16e7196e2b7e
+dates:
+  send_date: '2025-05-19'
+  inferred_send_type: local_time
+  first_sent: '2025-05-19T07:18:45+00:00'
+  last_sent: '2025-05-20T06:59:44+00:00'
+tags: []
+sends:
+- id: 5b91b24d-a21b-447a-a0c9-c95cb66e2a8c
+  channel: email
+  name: Variant 1
+  subject: Iconic Rugs, Now 20% Off
+  preheader: Discover timeless designs worth investing in.
+  html_file: html/p_2025_05_19_cz_mdw_spring_rug_roundup_email.html
+  screenshot: screenshots/p_2025_05_19_cz_mdw_spring_rug_roundup_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6827c1b491a2ae00664cb95a/original.png?1747435955
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6827c190a779fa0066f2f16f/original.png?1747435920
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6827c2aa9348dc0067c3db40/original.png?1747436201
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6825051d3978950064497292/original.png?1747256605
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6827c2b4bb44ad0065e4f45d/original.png?1747436212
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6827c1cd76f4640065b91952/original.png?1747435980
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6825051173e6540066fdea3c/original.png?1747256592
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682504341c57270084958b20/original.png?1747256372
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682504447d6ee7006773b877/original.png?1747256388
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682504ce73e6540066fde81c/original.png?1747256525
+- id: 678104df-ae9c-4c6f-98f7-4ee84643678e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 95700
+  total_delivered: 95229
+  total_opens: 50209
+  total_clicks: 743
+  open_rate: 0.5246
+  click_rate: 0.0078
+  total_revenue: 84607.38
+  total_bounces: 2
+  total_unsubscribes: 121
+  ga4:
+    sessions: 1178
+    purchases: 5
+    revenue: 2478.89
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.036171'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.145354'
+schedule_type: time_based

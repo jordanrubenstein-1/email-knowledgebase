@@ -1,0 +1,56 @@
+id: d4182375-4063-4330-99ed-85c8ba92f964
+name: P_2024_12_6_D_CZ_Alpaca_Throws_Testimonials_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: d4182375-4063-4330-99ed-85c8ba92f964
+dates:
+  send_date: '2024-12-06'
+  inferred_send_type: scheduled
+  first_sent: '2024-12-06T03:05:11+00:00'
+  last_sent: '2024-12-06T17:02:44+00:00'
+tags: []
+sends:
+- id: 6b16b214-9ade-4ad0-b656-5ff99422ffd2
+  channel: email
+  name: Variant 1
+  subject: 'Most-Coveted Gift: Alpaca Throws'
+  preheader: Best sellers (and gifts) for a reason.
+  html_file: html/p_2024_12_6_d_cz_alpaca_throws_testimonials_email.html
+  screenshot: screenshots/p_2024_12_6_d_cz_alpaca_throws_testimonials_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/675266a2549101006694b2ee/original.jpg?1733453474
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/675266bea44f4700659e73df/original.jpg?1733453502
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/675266b63e939b0064457cc8/original.jpg?1733453493
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/675266acdce3c100650c6808/original.jpg?1733453483
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67526693dce3c100650c67c8/original.jpg?1733453459
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/675266c7549101006694b367/original.gif?1733453511
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6752669ac7eac70064bb4fc7/original.jpg?1733453466
+- id: 3a92a654-6780-4de1-b608-7264596657fd
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 96215
+  total_delivered: 95574
+  total_opens: 47833
+  total_clicks: 846
+  open_rate: 0.4971
+  click_rate: 0.0088
+  total_revenue: 64609.79
+  total_bounces: 3
+  total_unsubscribes: 234
+  ga4:
+    sessions: 849
+    purchases: 5
+    revenue: 1742.95
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.502304'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.177460'
+schedule_type: time_based

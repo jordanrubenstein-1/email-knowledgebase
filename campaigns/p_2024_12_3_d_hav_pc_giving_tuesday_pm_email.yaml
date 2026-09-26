@@ -1,0 +1,33 @@
+id: e2b0b996-5f8e-48cd-ab65-0d6017f2e502
+name: P_2024_12_3_D_HAV_PC_Giving_Tuesday_PM_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: e2b0b996-5f8e-48cd-ab65-0d6017f2e502
+dates:
+  send_date: '2024-12-03'
+  first_sent: '2024-12-03T19:56:10+00:00'
+  last_sent: '2024-12-04T02:10:09+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 09012df5-2e24-4e09-a00d-4f32a0fce497
+  channel: email
+  name: Variant 1
+  subject: 'Cyber Week Extension: Get 50% Off'
+  preheader: Make every purchase count this Giving Tuesday.
+- id: 120eb838-73a0-4234-9aff-cde30a34aebf
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 26439
+  total_delivered: 26341
+  total_opens: 15112
+  total_clicks: 182
+  open_rate: 0.5716
+  click_rate: 0.0069
+  total_unsubscribes: 97
+schedule_type: time_based
+_filename: p_2024_12_3_d_hav_pc_giving_tuesday_pm_email.yaml

@@ -1,0 +1,34 @@
+id: 7490d458-0845-4ae4-af5b-c3e3b237c0f3
+name: P_EM_2026_04_21_BW_D_April_Reset_Ends_Tonight_Last_Chance
+brand: BUR
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 7490d458-0845-4ae4-af5b-c3e3b237c0f3
+dates:
+  send_date: '2026-04-21'
+  last_sent: '2026-04-21'
+tags:
+- Batch&Blast
+sends:
+- id: 95639f50-6735-45bc-b7b1-de9d6c9f1f13
+  channel: email
+  name: Variant 1
+  subject: FINAL HOURS
+  preheader: 25% off sitewide ends at midnight.
+- id: b74ac9ae-63cc-4142-974b-2f07c5724a4f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 233780
+  total_delivered: 231480
+  total_opens: 124185
+  total_clicks: 374
+  open_rate: 0.5312
+  click_rate: 0.0016
+  total_revenue: 75187.0
+  total_bounces: 1
+  total_unsubscribes: 192
+_filename: p_em_2026_04_21_bw_d_april_reset_ends_tonight_last_chance.yaml
+schedule_type: time_based

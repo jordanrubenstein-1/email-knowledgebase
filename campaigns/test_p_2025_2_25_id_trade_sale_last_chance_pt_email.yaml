@@ -1,0 +1,23 @@
+id: 0a8adb62-5873-43e8-9a72-fbf4b879f7c8
+name: TEST_P_2025_2_25_ID_TRADE_Sale_Last_Chance_PT_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 0a8adb62-5873-43e8-9a72-fbf4b879f7c8
+dates:
+  send_date: '2025-02-25'
+  last_sent: '2025-02-25'
+tags: []
+sends:
+- id: 21a0ba61-f826-44aa-8c7a-8db8c1a43809
+  channel: email
+  name: Variant 1
+  subject: Introducing The Trade Hub!
+- id: b00452ef-3a62-4ef9-8048-c0784b4d13e7
+  channel: other
+  name: Control Group
+performance_summary: {}
+_filename: test_p_2025_2_25_id_trade_sale_last_chance_pt_email.yaml
+schedule_type: time_based

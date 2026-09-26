@@ -1,0 +1,23 @@
+id: 577e45dc-f6a5-4f39-bdf8-5d5dd744eb39
+name: PUSH_CONV_09_18_Tiered_Sale
+brand: HAV
+channel: push
+category: sale_promo
+type: sale
+theme: null
+braze_id: 577e45dc-f6a5-4f39-bdf8-5d5dd744eb39
+dates:
+  first_sent: '2025-09-18T02:06:11+00:00'
+  last_sent: '2025-09-19T01:01:18+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 8304a008-c166-4cce-abc4-50f2dc976ca6
+  channel: push
+  name: Variant 1
+- id: 2f23a43f-26b1-43e0-add6-b2c5bbb64094
+  channel: push
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: push_conv_09_18_tiered_sale.yaml

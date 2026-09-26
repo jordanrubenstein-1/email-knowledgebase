@@ -1,0 +1,22 @@
+id: 241f1b67-e416-4d7d-a1cc-0c0b503b05f6
+name: OT_EM_2026_09_HAV_CONV_Ordering_Concierge_Call_Reminde
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 241f1b67-e416-4d7d-a1cc-0c0b503b05f6
+dates: {}
+tags: []
+sends:
+- id: f9db604a-7c85-4f0a-a08a-2761ce4783cf
+  channel: email
+  name: Variant 1
+  subject: Your Ordering call is tomorrow
+  preheader: Your 30-minute call with your ordering concierge is tomorrow
+- id: a33b3d25-06d3-4f90-aecb-341ffae42f0f
+  channel: email
+  name: Control Group
+performance_summary: {}
+schedule_type: api_triggered
+_filename: ot_em_2026_09_hav_conv_ordering_concierge_call_reminde.yaml

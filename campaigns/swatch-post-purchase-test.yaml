@@ -1,0 +1,101 @@
+id: a03f9f42-a59a-459d-aade-e37c3d67daa5
+name: Swatch Post Purchase Test
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: a03f9f42-a59a-459d-aade-e37c3d67daa5
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2026-04-27T22:00:00+00:00'
+  last_sent: '2026-04-28T00:00:00+00:00'
+tags: []
+sends:
+- id: cb7a182d-8e4e-4cf8-9eea-8e94ec9fe6e8
+  channel: email
+  name: Step
+  subject: '{%- assign shopping = event_properties.shopping_for | default: '''' -%}{%-
+    if shopping != '''' -%}Found "the one" for your {{shopping | downcase}}?{%- else
+    -%}Found "the one" for your space?{%- endif -%}'
+  preheader: ''
+  step_id: 51344f4d-0c63-44f5-9dca-8da6904455e5
+- id: 3026559e-86bf-4704-b252-08cb5c2b86e0
+  channel: email
+  name: Step 4
+  subject: '{%- assign shopping = canvas_entry_properties.shopping_for | default:
+    '''' -%}{%- if shopping != '''' -%}Found "the one" for your {{shopping | downcase}}?{%-
+    else -%}Found "the one" for your space?{%- endif -%}'
+  preheader: ''
+  step_id: 74daad51-9e8c-4225-9d6f-85ee951e8901
+- id: bf0bd79c-306b-4bbc-81f8-f5d0bd9534ae
+  channel: email
+  name: Step 2
+  subject: '{%- assign style = event_properties.design_style | default: '''' -%}{%-
+    if style != '''' -%}Your {{style | downcase}} space is coming together{%- else
+    -%}Your space is coming together{%- endif -%}'
+  preheader: ''
+  step_id: aa0984dd-f3fc-40d9-b6e9-a23367dc0714
+- id: e537c43e-b94b-4e7f-8d71-f0a91f4866df
+  channel: email
+  name: Step 3
+  subject: '{%- assign shopping = event_properties.shopping_for | default: '''' -%}{%-
+    if shopping != '''' -%}Want help choosing the right {{shopping | downcase}}?{%-
+    else -%}Want help choosing the right piece?{%- endif -%}'
+  preheader: ''
+  step_id: 92351a5d-8fdf-4069-981b-c9bef9508186
+- id: 07274ea7-ec6f-4e39-910b-f3023565e888
+  channel: email
+  name: Step 1
+  subject: Just ask. A designer is ready to chat right now.
+  preheader: Don't guess. Just ask us.
+  step_id: 3b2e8dd7-d151-4671-9e7f-740d27350363
+performance_summary: {}
+canvas_steps:
+- id: 6c9cf252-3f04-48ac-960f-36d4120582e6
+  name: Step 5
+  type: delay
+- id: 51344f4d-0c63-44f5-9dca-8da6904455e5
+  name: Step
+  type: message
+  channel: email
+  subject: '{%- assign shopping = event_properties.shopping_for | default: '''' -%}{%-
+    if shopping != '''' -%}Found "the one" for your {{shopping | downcase}}?{%- else
+    -%}Found "the one" for your space?{%- endif -%}'
+  preheader: ''
+- id: 9effd37c-7d98-4852-827d-bdddc0d0a85e
+  name: Jordan?
+  type: audience_paths
+- id: 74daad51-9e8c-4225-9d6f-85ee951e8901
+  name: Step 4
+  type: message
+  channel: email
+  subject: '{%- assign shopping = canvas_entry_properties.shopping_for | default:
+    '''' -%}{%- if shopping != '''' -%}Found "the one" for your {{shopping | downcase}}?{%-
+    else -%}Found "the one" for your space?{%- endif -%}'
+  preheader: ''
+- id: aa0984dd-f3fc-40d9-b6e9-a23367dc0714
+  name: Step 2
+  type: message
+  channel: email
+  subject: '{%- assign style = event_properties.design_style | default: '''' -%}{%-
+    if style != '''' -%}Your {{style | downcase}} space is coming together{%- else
+    -%}Your space is coming together{%- endif -%}'
+  preheader: ''
+- id: 92351a5d-8fdf-4069-981b-c9bef9508186
+  name: Step 3
+  type: message
+  channel: email
+  subject: '{%- assign shopping = event_properties.shopping_for | default: '''' -%}{%-
+    if shopping != '''' -%}Want help choosing the right {{shopping | downcase}}?{%-
+    else -%}Want help choosing the right piece?{%- endif -%}'
+  preheader: ''
+- id: 3b2e8dd7-d151-4671-9e7f-740d27350363
+  name: Step 1
+  type: message
+  channel: email
+  subject: Just ask. A designer is ready to chat right now.
+  preheader: Don't guess. Just ask us.
+_filename: swatch-post-purchase-test.yaml

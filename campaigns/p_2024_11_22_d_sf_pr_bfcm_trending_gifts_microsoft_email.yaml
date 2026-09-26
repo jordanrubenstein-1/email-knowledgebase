@@ -1,0 +1,48 @@
+id: 569654a8-5c28-44ef-8099-0f68e279bef0
+name: P_2024_11_22_D_SF_PR_BFCM_Trending_Gifts_Microsoft_Email
+brand: STF
+channel: email
+category: reminder
+type: announcement
+theme: black_friday
+braze_id: 569654a8-5c28-44ef-8099-0f68e279bef0
+dates:
+  send_date: '2024-11-22'
+  inferred_send_type: local_time
+  first_sent: '2024-11-22T00:23:18+00:00'
+  last_sent: '2024-11-22T16:00:13+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: 275edab0-462d-4a9e-bc4c-69ae3c7cfc36
+  channel: email
+  name: Variant 1
+  subject: Our top gifting picks
+  preheader: now at the best prices of the year
+  html_file: html/p_2024_11_22_d_sf_pr_bfcm_trending_gifts_microsoft_email.html
+  screenshot: screenshots/p_2024_11_22_d_sf_pr_bfcm_trending_gifts_microsoft_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673cc23a7d86bf0066f9cbf3/original.gif?1732035130
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673ccfa6cc1ffd006320286e/original.gif?1732038566
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673cd012b0db47006418a956/original.gif?1732038674
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673cd0f4c6576b00656f15c5/original.gif?1732038900
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673cc266da00900066830f9d/original.gif?1732035174
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673cc17f9b766c0064f530e8/original.gif?1732034943
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673ccebc0bee5b0064f720ce/original.gif?1732038332
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673cc0239b766c0064f52cda/original.jpg?1732034595
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673cd09ddcb34200631f81fe/original.gif?1732038813
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/673ccff30c4bd70066ba3695/original.gif?1732038643
+- id: 96ff8221-1f62-45d0-bbad-72e1ba52f085
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 296
+  total_delivered: 296
+  total_opens: 81
+  total_clicks: 4
+  open_rate: 0.2736
+  click_rate: 0.0135
+  total_revenue: 4.8
+  total_unsubscribes: 1
+_filename: p_2024_11_22_d_sf_pr_bfcm_trending_gifts_microsoft_email.yaml
+schedule_type: time_based

@@ -1,0 +1,58 @@
+id: 99f63739-e5da-43a0-af65-8ac0ab9bd514
+name: P_EM_2025_07_18_CZ_D_PR_Back_In_Stock
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 99f63739-e5da-43a0-af65-8ac0ab9bd514
+dates:
+  send_date: '2025-07-18'
+  inferred_send_type: local_time
+  first_sent: '2025-07-17T23:16:04+00:00'
+  last_sent: '2025-07-18T19:01:12+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- instock
+sends:
+- id: 0402f187-c350-4976-a04d-c2ab320efd3a
+  channel: email
+  name: Variant 1
+  subject: Welcome Back, Best Sellers
+  preheader: Shop fan-favorite styles before they're gone again.
+  html_file: html/p_em_2025_07_18_cz_d_pr_back_in_stock.html
+  screenshot: screenshots/p_em_2025_07_18_cz_d_pr_back_in_stock.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687964b4d9ff5400663c5faf/original.png?1752786099
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687964c5aea2a100655e6d5a/original.png?1752786116
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687964d963070f007599e017/original.png?1752786137
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687964bb3b05220067532946/original.png?1752786106
+- id: 1111851a-cdf0-4ac7-8514-fd7426607617
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 99959
+  total_delivered: 99219
+  total_opens: 51770
+  total_clicks: 779
+  open_rate: 0.5179
+  click_rate: 0.0078
+  total_revenue: 51412.5
+  total_bounces: 137
+  total_unsubscribes: 137
+  ga4:
+    sessions: 866
+    purchases: 7
+    revenue: 1121.76
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.955852'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.028644'
+schedule_type: time_based

@@ -1,0 +1,30 @@
+id: 60101803-0103-4a27-a1cb-a0ef0f77c705
+name: P_2025_5_23_ID_MDW_Sip_Sit_Retail_SMS
+brand: ID
+channel: sms
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 60101803-0103-4a27-a1cb-a0ef0f77c705
+dates:
+  send_date: '2025-05-23'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-23T18:44:36+00:00'
+  last_sent: '2025-05-23T18:44:45+00:00'
+tags: []
+sends:
+- id: 6c790d64-b083-4915-a2a2-ae2a041e560b
+  channel: other
+  name: Variant 1
+- id: af5c8eae-62f6-4d9a-a7a5-922987fbb009
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 237
+  total_delivered: 229
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 6420.0
+schedule_type: time_based

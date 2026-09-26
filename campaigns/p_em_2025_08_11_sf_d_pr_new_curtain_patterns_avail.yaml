@@ -1,0 +1,69 @@
+id: 3de9a2b5-f3a4-4fa1-b37c-23af7b852b6f
+name: P_EM_2025_08_11_SF_D_PR_New_Curtain_Patterns_Available
+brand: STF
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 3de9a2b5-f3a4-4fa1-b37c-23af7b852b6f
+dates:
+  send_date: '2025-08-11'
+  inferred_send_type: local_time
+  first_sent: '2025-08-11T00:17:59+00:00'
+  last_sent: '2025-08-11T17:00:18+00:00'
+tags:
+- Batch and Blast
+- am
+- curtains
+- d2c
+- designed
+- prod
+- sale
+sends:
+- id: 03e44407-d616-472e-9191-a938122a9cea
+  channel: email
+  name: Variant 1
+  subject: NEW Curtain Prints Are Here
+  preheader: And Ready To Steal The Spotlight
+- id: 5d86e9af-fe71-4b9a-8917-79ac8ba3186f
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41094
+  total_delivered: 41014
+  total_opens: 18937
+  total_clicks: 417
+  open_rate: 0.4608
+  click_rate: 0.0101
+  total_revenue: 11208.0
+  total_bounces: 2
+  total_unsubscribes: 92
+  ga4:
+    sessions: 518
+    purchases: 4
+    revenue: 97.8
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.081102'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off Sitewide
+    type: null
+  primary_sale:
+    id: stf-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off Sitewide
+    type: null
+  sale_name: The Sunset Sale
+  sale_discount: 20% off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:43.654136'
+schedule_type: time_based

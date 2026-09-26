@@ -1,0 +1,58 @@
+id: 5075f181-095b-49f2-b925-4c4a17258002
+name: P_EM_2026_01_17_SF_D_PR_Pillow_Feature
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 5075f181-095b-49f2-b925-4c4a17258002
+dates:
+  send_date: '2026-01-17'
+  inferred_send_type: local_time
+  first_sent: '2026-01-16T22:05:05+00:00'
+  last_sent: '2026-01-17T22:00:35+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: e33d35e1-e746-43b1-887c-fed74ae6166d
+  channel: email
+  name: Variant 1
+  subject: Layer Liberally
+  preheader: pillows are 20% off during the winter refresh sale.
+  html_file: html/p_em_2026_01_17_sf_d_pr_pillow_feature.html
+  screenshot: screenshots/p_em_2026_01_17_sf_d_pr_pillow_feature.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696a4d4b9c308000645fbcfd/original.png?1768574283
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696a4d8361e78e006315708e/original.png?1768574338
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696a4d20c7848f00642db61a/original.png?1768574239
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696a4d35ec640e0063474add/original.png?1768574260
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696a4d63f19a710065a468fa/original.png?1768574307
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696a4d0e25a0f400638dbdf4/original.gif?1768574222
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696a4d566b14350065042748/original.png?1768574294
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696a4d03cf9060006595bd77/original.png?1768574210
+- id: 977b0405-43f7-4f3a-ba38-41207d687bf2
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 38900
+  total_delivered: 38652
+  total_opens: 14882
+  total_clicks: 212
+  open_rate: 0.3826
+  click_rate: 0.0054
+  total_bounces: 2
+  total_unsubscribes: 39
+  ga4:
+    sessions: 230
+    purchases: 2
+    revenue: 757.2
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.776054'
+    source: snowflake
+    channel: email
+schedule_type: time_based

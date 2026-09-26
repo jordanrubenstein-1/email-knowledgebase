@@ -1,0 +1,33 @@
+id: 55524b9d-3cdf-4d9e-9818-d605b068ee99
+name: P_2025_2_13_HAV_Conv_PDS_Sale_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 55524b9d-3cdf-4d9e-9818-d605b068ee99
+dates:
+  send_date: '2025-02-13'
+  first_sent: '2025-02-13T05:51:12+00:00'
+  last_sent: '2025-02-13T17:15:14+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: a1937ec2-0e12-49a8-8496-95a4145ebabe
+  channel: email
+  name: Variant 1
+  subject: 'ICYMI: Up To 70% Off Sitewide'
+  preheader: The best deals, only at Havenly.
+- id: ea638ca7-87bd-4a89-90cf-f362c3dbf19a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 37894
+  total_delivered: 37793
+  total_opens: 21102
+  total_clicks: 264
+  open_rate: 0.5569
+  click_rate: 0.007
+  total_unsubscribes: 45
+schedule_type: time_based
+_filename: p_2025_2_13_hav_conv_pds_sale_reminder_email.yaml

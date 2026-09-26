@@ -1,0 +1,46 @@
+id: b60746bf-0c89-49bb-9692-a9d302f14c74
+name: P_2025_03_13_TRADE_ID_Spring_Event_Announcement_Email
+brand: ID
+channel: email
+category: sale_promo
+type: seasonal
+theme: spring
+braze_id: b60746bf-0c89-49bb-9692-a9d302f14c74
+dates:
+  send_date: '2025-03-13'
+  inferred_send_type: scheduled
+  first_sent: '2025-03-13T20:00:18+00:00'
+  last_sent: '2025-03-13T20:02:58+00:00'
+tags: []
+sends:
+- id: e1d81a8b-d90a-4a29-9c21-a28e3422361b
+  channel: email
+  name: Variant 1
+  subject: 'Trade Only: Up To 30% Off Our Brands'
+  preheader: Don't miss our spring sales.
+- id: 8a52cadf-f99a-4388-90b7-d9a1b26bfdc3
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 17775
+  total_delivered: 17377
+  total_opens: 4893
+  total_clicks: 191
+  open_rate: 0.2753
+  click_rate: 0.0107
+  total_revenue: 77637.0
+  total_bounces: 10
+  total_unsubscribes: 19
+  ga4:
+    sessions: 176
+    purchases: 3
+    revenue: 4725.75
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.845238'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.801433'
+schedule_type: time_based

@@ -1,0 +1,38 @@
+id: d064e7d1-3fba-4bb1-a9f5-b926af7a4130
+name: P_SMS_2025_08_07_CZ_Sunset_Sale_Announcement
+brand: CZ
+channel: sms
+category: sale_promo
+type: sale
+theme: null
+braze_id: d064e7d1-3fba-4bb1-a9f5-b926af7a4130
+dates:
+  send_date: '2025-08-07'
+  inferred_send_type: local_time
+  first_sent: '2025-08-07T01:33:18+00:00'
+  last_sent: '2025-08-08T00:25:12+00:00'
+tags: []
+sends:
+- id: a7d29286-1915-4cdf-bedf-1e07063401b8
+  channel: sms
+  name: Variant 1
+- id: c3aa4b7b-19d0-4687-986d-9c5e9ab6eff7
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 23256
+  total_delivered: 22893
+  total_opens: 0
+  total_clicks: 506
+  open_rate: 0.0
+  click_rate: 0.0218
+  total_revenue: 4649.0
+  ga4:
+    sessions: 442
+    purchases: 3
+    revenue: 972.62
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.910023'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

@@ -1,0 +1,31 @@
+id: a3157fb1-01c7-4aa8-9078-84be05776e7b
+name: TRG_EM_2026_09_HAV_CONV_PT_Schedule_Designer_Call_T3_V1
+brand: HAV
+channel: email
+category: editorial
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: b899c757-65b3-4987-90cb-74a8ef156eae
+canvas_name: Schedule Designer Call
+flow_type: other_flow
+sequence_position: 3
+subject: Your designer is still holding a spot for you
+preheader: ''
+sends:
+- id: a3157fb1-01c7-4aa8-9078-84be05776e7b
+  channel: email
+  name: TRG_EM_2026_09_HAV_CONV_PT_Schedule_Designer_Call_T3_V1
+  subject: Your designer is still holding a spot for you
+  preheader: ''
+  html_file: html/canvas-schedule-designer-call-t3-a3157fb1.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-09-11T18:00:00Z'
+  last_sent: '2026-09-21T11:00:00Z'
+performance_summary:
+  total_sends: 56
+  total_delivered: 56
+  total_opens: 31
+  total_clicks: 5
+  open_rate: 0.5536
+  click_rate: 0.0893

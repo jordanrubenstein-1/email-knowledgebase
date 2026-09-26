@@ -1,0 +1,23 @@
+id: fa97a76b-38d2-4a8f-a7dd-019e723bef20
+name: PUSH_CONV_07_29_Summer_Sale_Ends_Tonight
+brand: HAV
+channel: push
+category: sale_promo
+type: sale
+theme: summer
+braze_id: fa97a76b-38d2-4a8f-a7dd-019e723bef20
+dates:
+  first_sent: '2025-07-29T18:30:41+00:00'
+  last_sent: '2025-07-30T01:00:29+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: cab7ccd8-3e21-497f-b4c2-170cbf5c4bc8
+  channel: push
+  name: Variant 1
+- id: 246e5d29-45f5-41f4-9482-5952849f9ef7
+  channel: push
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: push_conv_07_29_summer_sale_ends_tonight.yaml

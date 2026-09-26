@@ -1,0 +1,35 @@
+id: 5a4cf537-6fdb-4591-b463-c5f67be0774c
+name: P_2025_06_03_HAV_Conv_D_Summer_Refresh_Sale_Ends_Tonight
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: summer
+braze_id: 5a4cf537-6fdb-4591-b463-c5f67be0774c
+dates:
+  send_date: '2025-06-03'
+  first_sent: '2025-06-02T18:43:37+00:00'
+  last_sent: '2025-06-03T17:15:25+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 58011261-1afd-4669-9b8d-0c8469918dfb
+  channel: email
+  name: Variant 1
+  subject: 'LAST CALL: Up to 30% Off, Only at Havenly'
+  preheader: Exclusive savings, gone at midnight. You know what to do.
+- id: 5c3d9547-703e-4671-a127-59b27ffd635f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 40286
+  total_delivered: 40209
+  total_opens: 21474
+  total_clicks: 109
+  open_rate: 0.533
+  click_rate: 0.0027
+  total_bounces: 1
+  total_unsubscribes: 58
+schedule_type: time_based
+_filename: p_2025_06_03_hav_conv_d_summer_refresh_sale_ends_tonight.yaml

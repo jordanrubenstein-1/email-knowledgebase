@@ -1,0 +1,33 @@
+id: c5af005a-cb20-4998-bd0b-d3a9c32454fe
+name: P_EM_2025_10_16_HAV_CONV_PT_Targeted_Room_Start
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: c5af005a-cb20-4998-bd0b-d3a9c32454fe
+dates:
+  send_date: '2025-10-16'
+  first_sent: '2025-10-16T01:21:39+00:00'
+  last_sent: '2025-10-16T22:15:06+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 6bc7d25d-b89e-449a-8ec3-eb64567e9cfe
+  channel: email
+  name: Variant 1
+  subject: Excited to work with you - Let’s get started!
+- id: c66c1ffe-bc4e-4a01-97f1-cc9c5ba54ace
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 374
+  total_delivered: 372
+  total_opens: 268
+  total_clicks: 20
+  open_rate: 0.7166
+  click_rate: 0.0535
+  total_unsubscribes: 1
+schedule_type: time_based
+_filename: p_em_2025_10_16_hav_conv_pt_targeted_room_start.yaml

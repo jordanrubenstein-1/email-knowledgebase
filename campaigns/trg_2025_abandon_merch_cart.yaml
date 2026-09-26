@@ -1,0 +1,25 @@
+id: aaf9e006-6edb-41e1-b070-ea28f6c9472e
+name: TRG_2025_Abandon_Merch_Cart
+brand: HAV
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: aaf9e006-6edb-41e1-b070-ea28f6c9472e
+dates:
+  first_sent: '2025-05-14T17:00:00+00:00'
+  last_sent: '2026-04-03T00:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: 51db9e36-d92a-43fc-a0c9-bd27580fe66d
+  channel: email
+  name: Variant 1
+  subject: One Click Away From The Best Prices…
+  preheader: We saved your cart for you!
+- id: 1ff434a1-3833-4308-9b64-eebd1a7a6a6d
+  channel: other
+  name: Control Group
+performance_summary: {}
+schedule_type: action_based
+_filename: trg_2025_abandon_merch_cart.yaml

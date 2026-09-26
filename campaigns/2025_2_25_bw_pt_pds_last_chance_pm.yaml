@@ -1,0 +1,75 @@
+id: a76972a0-f403-43f6-b4b0-046e0a655acf
+name: 2025_2_25_BW_PT_PDS_Last_Chance_PM
+brand: BUR
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: a76972a0-f403-43f6-b4b0-046e0a655acf
+dates:
+  send_date: '2025-02-25'
+  inferred_send_type: scheduled
+  first_sent: '2025-02-25T22:53:10+00:00'
+  last_sent: '2025-02-26T05:00:25+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 5db87274-81b1-472d-a23e-db156f9facca
+  channel: email
+  name: Variant 1
+  subject: Last chance for free shipping and sitewide savings
+  preheader: Ends tonight at midnight.
+- id: 4b26c6ad-7672-413d-8e33-337ca5956205
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 107405
+  total_delivered: 107370
+  total_opens: 88167
+  total_clicks: 431
+  open_rate: 0.8209
+  click_rate: 0.004
+  total_revenue: 32590.0
+  total_bounces: 1
+  total_unsubscribes: 108
+  ga4:
+    sessions: 259
+    purchases: 2
+    revenue: 345.13
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.736561'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: '25% Off Orders $2999 & Below
+
+    30% Off Orders $3K+
+
+    Up to 70% off clearance'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:33.600585'
+schedule_type: time_based

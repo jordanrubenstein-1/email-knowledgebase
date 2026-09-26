@@ -1,0 +1,30 @@
+id: 954027d6-d683-44b2-883e-5d4a077c19cd
+name: 20250704_Fourth_of_July_Sale_Today_SMS
+brand: BUR
+channel: sms
+category: sale_promo
+type: sale
+theme: null
+braze_id: 954027d6-d683-44b2-883e-5d4a077c19cd
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-07-04T02:06:47+00:00'
+  last_sent: '2025-07-05T01:00:49+00:00'
+tags: []
+sends:
+- id: 96a8466f-9195-476e-ba13-d3b00b6bbeda
+  channel: other
+  name: Variant 1
+- id: 22d7d9a6-25ac-42a3-9910-35dfc19f008a
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 177
+    purchases: 3
+    revenue: 4450.14
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.760325'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

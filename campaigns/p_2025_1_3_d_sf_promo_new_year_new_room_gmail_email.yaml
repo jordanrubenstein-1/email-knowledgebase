@@ -1,0 +1,47 @@
+id: 6d719fed-7cf1-4a44-a14d-d1c1ccca9548
+name: P_2025_1_3_D_SF_PROMO_New_Year_New_Room_Gmail_Email
+brand: STF
+channel: email
+category: product_launch
+type: sale
+theme: null
+braze_id: 6d719fed-7cf1-4a44-a14d-d1c1ccca9548
+dates:
+  send_date: '2025-01-03'
+  inferred_send_type: local_time
+  first_sent: '2025-01-03T00:08:42+00:00'
+  last_sent: '2025-01-03T16:00:07+00:00'
+tags: []
+sends:
+- id: 50fcf1dc-e94f-412d-9486-03e2b9fc347b
+  channel: email
+  name: Variant 1
+  subject: 2025 Looking Fine 🤩
+  preheader: new year, new room
+  html_file: html/p_2025_1_3_d_sf_promo_new_year_new_room_gmail_email.html
+  screenshot: screenshots/p_2025_1_3_d_sf_promo_new_year_new_room_gmail_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6776e1dbd1ebc100644b9536/original.gif?1735844315
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6776e1fa790cf80072d40202/original.gif?1735844346
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6776e11ac3659e00643e260a/original.gif?1735844122
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6776e035c3659e00733def7d/original.gif?1735843893
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6776e0a517f43700667936de/original.gif?1735844004
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6776e214f21bbe0066bb47f7/original.gif?1735844372
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6776e231cb9f7600653bfae1/original.jpg?1735844400
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6776e18fa36a3c0065efea8e/original.jpg?1735844239
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6776e1bad1ebc100704b83b7/original.gif?1735844282
+- id: 81036242-6459-498a-86ea-84f2bfa1062b
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 756
+  total_delivered: 756
+  total_opens: 599
+  total_clicks: 28
+  open_rate: 0.7923
+  click_rate: 0.037
+  total_revenue: 921.0
+  total_unsubscribes: 5
+_filename: p_2025_1_3_d_sf_promo_new_year_new_room_gmail_email.yaml
+schedule_type: time_based

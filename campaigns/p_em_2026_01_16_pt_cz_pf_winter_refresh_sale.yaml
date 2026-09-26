@@ -1,0 +1,50 @@
+id: 745566b5-8e88-4b6e-9c5c-1bef2480f43a
+name: P_EM_2026_01_16_PT_CZ_PF_Winter_Refresh_Sale
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: winter
+braze_id: 745566b5-8e88-4b6e-9c5c-1bef2480f43a
+dates:
+  send_date: '2026-01-16'
+  inferred_send_type: local_time
+  first_sent: '2026-01-15T22:00:39+00:00'
+  last_sent: '2026-01-16T17:04:59+00:00'
+tags:
+- am
+- batch and blast
+- pt
+- sale
+- sale/winterRefesh2026
+- sale_feat
+sends:
+- id: c75bb114-954b-4055-a6f4-0b420ba817ef
+  channel: email
+  name: Variant 1
+  subject: VIP Early Access, Just For You
+  html_file: html/p_em_2026_01_16_pt_cz_pf_winter_refresh_sale.html
+  screenshot: screenshots/p_em_2026_01_16_pt_cz_pf_winter_refresh_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67f83def4631c700674e669c/original.png?1744322031
+- id: 7373cecc-3da8-4e25-a7d6-e37721b0d862
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 114234
+  total_delivered: 113555
+  total_opens: 59222
+  total_clicks: 879
+  open_rate: 0.5184
+  click_rate: 0.0077
+  total_bounces: 10
+  total_unsubscribes: 182
+  ga4:
+    sessions: 1043
+    purchases: 26
+    revenue: 10471.3
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.259509'
+    source: snowflake
+    channel: email
+schedule_type: time_based

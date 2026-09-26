@@ -1,0 +1,31 @@
+id: ae0cf4a9-51c3-4238-b40e-836460adb6e7
+name: TRG_EM_2026_06_HAV_CONV_PT_Welcome_Gift_T4_V1_B
+brand: HAV
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 86cd4a3d-cfbe-4c05-bb65-54685272d461
+canvas_name: Post-Design Fee Purchase Promo
+flow_type: design_abandonment
+sequence_position: 4
+subject: 'Last chance: your $100 off expires today'
+preheader: ''
+sends:
+- id: ae0cf4a9-51c3-4238-b40e-836460adb6e7
+  channel: email
+  name: TRG_EM_2026_06_HAV_CONV_PT_Welcome_Gift_T4_V1_B
+  subject: 'Last chance: your $100 off expires today'
+  preheader: ''
+  html_file: html/canvas-post-design-fee-purchase-promo-t4-ae0cf4a9.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-06-26T15:00:00Z'
+  last_sent: '2026-07-09T17:00:00Z'
+performance_summary:
+  total_sends: 26
+  total_delivered: 26
+  total_opens: 7
+  total_clicks: 0
+  open_rate: 0.2692
+  click_rate: 0.0

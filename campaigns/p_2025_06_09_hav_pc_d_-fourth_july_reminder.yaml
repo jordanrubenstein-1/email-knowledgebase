@@ -1,0 +1,35 @@
+id: 685ed905-58db-4eac-9611-b9c7b6b8bc4f
+name: P_2025_06_09_HAV_PC_D_ Fourth_July_Reminder
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 685ed905-58db-4eac-9611-b9c7b6b8bc4f
+dates:
+  send_date: '2025-06-09'
+  first_sent: '2025-06-08T18:22:42+00:00'
+  last_sent: '2025-06-09T18:15:07+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 5c5431ca-ff72-45e0-836a-af915fab57c9
+  channel: email
+  name: Variant 1
+  subject: Half Off Your Dream Home
+  preheader: ' Yes, you read that right.'
+- id: 0bf81178-3025-4f9b-b74b-155c4df20bb0
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 221538
+  total_delivered: 218422
+  total_opens: 92146
+  total_clicks: 452
+  open_rate: 0.4159
+  click_rate: 0.002
+  total_bounces: 1
+  total_unsubscribes: 373
+schedule_type: time_based
+_filename: p_2025_06_09_hav_pc_d_-fourth_july_reminder.yaml

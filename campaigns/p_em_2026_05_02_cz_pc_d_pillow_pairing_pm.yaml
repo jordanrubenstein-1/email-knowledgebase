@@ -1,0 +1,50 @@
+id: 8f1e2160-0c63-4072-9ea3-64b8cb964687
+name: P_EM_2026_05_02_CZ_PC_D_Pillow_Pairing_PM
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 8f1e2160-0c63-4072-9ea3-64b8cb964687
+dates:
+  send_date: '2026-05-02'
+  inferred_send_type: local_time
+  first_sent: '2026-05-02T03:07:08+00:00'
+  last_sent: '2026-05-03T02:04:57+00:00'
+tags:
+- batch and blast
+- d2c
+- designed
+- pillows
+- pm
+- prod
+sends:
+- id: 2bc02248-1361-44b0-bd9e-53731ac8945b
+  channel: email
+  name: Variant 1
+  subject: A better mix starts here
+  preheader: 'Pillows that are layered just right. '
+  html_file: html/p_em_2026_05_02_cz_pc_d_pillow_pairing_pm.html
+  screenshot: screenshots/p_em_2026_05_02_cz_pc_d_pillow_pairing_pm.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69efc5e27cc388007f764622/original.png?1777321442
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69efc583fbbf2c0081ab98f8/original.png?1777321347
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f1fcfff4d2cb0081e19ff0/original.png?1777466622
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69efc527f52d04008190732a/original.png?1777321255
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69efc593282af50081d4ca6b/original.png?1777321362
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69f231e9e6f9d5007f89e80f/original.png?1777480168
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69efc519da3b89008195c33d/original.png?1777321240
+- id: 719dc448-9b1c-448a-961f-7ded8ab439ce
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 43282
+  total_delivered: 43208
+  total_opens: 23417
+  total_clicks: 536
+  open_rate: 0.541
+  click_rate: 0.0124
+  total_bounces: 1
+  total_unsubscribes: 87
+_filename: p_em_2026_05_02_cz_pc_d_pillow_pairing_pm.yaml
+schedule_type: time_based

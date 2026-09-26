@@ -1,0 +1,61 @@
+id: a179b656-0c7e-43c1-920f-eb1c3926f187
+name: P_2024_12_10_D_SF_PR_BFCM_Last_Chance_Extension_Gmail_Email
+brand: STF
+channel: email
+category: reminder
+type: announcement
+theme: black_friday
+braze_id: a179b656-0c7e-43c1-920f-eb1c3926f187
+dates:
+  send_date: '2024-12-10'
+  inferred_send_type: local_time
+  first_sent: '2024-12-09T23:15:24+00:00'
+  last_sent: '2024-12-10T16:00:37+00:00'
+tags: []
+sends:
+- id: 231df2a5-87d0-41f5-aa76-939715f594b2
+  channel: email
+  name: Variant 1
+  subject: 'ENDING TONIGHT: up to 35% Off'
+  preheader: don’t miss our sitewide savings
+- id: aa865d34-397f-432f-b3ac-1f7d5a3f343d
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 710
+  total_delivered: 710
+  total_opens: 524
+  total_clicks: 20
+  open_rate: 0.738
+  click_rate: 0.0282
+  total_revenue: 185.0
+  total_unsubscribes: 3
+  ga4:
+    sessions: 28
+    purchases: 1
+    revenue: 185.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.112000'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-cyber-week-ext-2024-12-03
+    name: Cyber Week Ext
+    start_date: '2024-12-03'
+    end_date: '2024-12-10'
+    discount: null
+    type: null
+  primary_sale:
+    id: stf-cyber-week-ext-2024-12-03
+    name: Cyber Week Ext
+    start_date: '2024-12-03'
+    end_date: '2024-12-10'
+    discount: null
+    type: null
+  sale_name: Cyber Week Ext
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:44.607510'
+schedule_type: time_based

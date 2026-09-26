@@ -1,0 +1,22 @@
+id: bb2ee702-99fd-4e95-a12a-c4ed09c308ae
+name: P_SMS_2026_09_29_BW_Free_Shipping_Reminder
+brand: BUR
+channel: sms
+category: reminder
+type: announcement
+theme: null
+braze_id: bb2ee702-99fd-4e95-a12a-c4ed09c308ae
+dates:
+  send_date: '2026-09-29'
+  last_sent: '2026-09-29'
+tags: []
+sends:
+- id: f74c6b62-627a-4b38-a528-df6aef74da41
+  channel: sms
+  name: Variant 1
+- id: 9f5b61d0-f10f-40df-b800-b3a058034879
+  channel: sms
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: p_sms_2026_09_29_bw_free_shipping_reminder.yaml

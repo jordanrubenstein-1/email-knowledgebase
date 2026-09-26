@@ -1,0 +1,29 @@
+id: a89e851f-9998-4784-b05b-91dc6f9bd070
+name: P_SMS_2026_02_10_CZ_Presidents_Day_Sale_Launch
+brand: CZ
+channel: sms
+category: product_launch
+type: sale
+theme: null
+braze_id: a89e851f-9998-4784-b05b-91dc6f9bd070
+dates:
+  send_date: '2026-02-10'
+  inferred_send_type: local_time
+  first_sent: '2026-02-10T01:08:00+00:00'
+  last_sent: '2026-02-11T01:01:35+00:00'
+tags: []
+sends:
+- id: 7b538bba-0c16-4184-b421-0c45d38d6627
+  channel: sms
+  name: Variant 1
+- id: 76d1a379-1774-4cc2-a019-dd0d4d3fe357
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 11501
+  total_delivered: 10467
+  total_opens: 0
+  total_clicks: 128
+  open_rate: 0.0
+  click_rate: 0.0111
+schedule_type: time_based

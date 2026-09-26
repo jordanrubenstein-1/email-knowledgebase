@@ -1,0 +1,35 @@
+id: b1d4a40b-29bc-48e1-befd-cbdda83726fc
+name: Trade_2024_12_2_ID_TRADE_Cyber_Monday_Reminder_Email
+brand: ID
+channel: email
+category: reminder
+type: seasonal
+theme: null
+braze_id: b1d4a40b-29bc-48e1-befd-cbdda83726fc
+dates:
+  send_date: '2024-12-02'
+  inferred_send_type: scheduled
+  first_sent: '2024-12-02T18:24:19+00:00'
+  last_sent: '2024-12-02T18:24:50+00:00'
+tags: []
+sends:
+- id: b67aba7e-ba89-406f-b88f-804283e950e9
+  channel: email
+  name: Variant 1
+  subject: Celebrate Cyber Monday with Trade-Only Deals!
+  preheader: From our family of brands, to your home.
+- id: 52b3d725-f6ed-450f-9e68-c8774d6b1aba
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 16210
+  total_delivered: 15858
+  total_opens: 4765
+  total_clicks: 144
+  open_rate: 0.294
+  click_rate: 0.0089
+  total_revenue: 219485.0
+  total_bounces: 6
+  total_unsubscribes: 59
+_filename: trade_2024_12_2_id_trade_cyber_monday_reminder_email.yaml
+schedule_type: time_based

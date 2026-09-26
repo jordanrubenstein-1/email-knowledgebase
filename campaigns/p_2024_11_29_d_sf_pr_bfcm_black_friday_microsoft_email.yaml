@@ -1,0 +1,33 @@
+id: 7d733e98-a408-4f6f-ab83-7dfd8a8dcd64
+name: P_2024_11_29_D_SF_PR_BFCM_Black_Friday_Microsoft_Email
+brand: STF
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: 7d733e98-a408-4f6f-ab83-7dfd8a8dcd64
+dates:
+  send_date: '2024-11-29'
+  inferred_send_type: local_time
+  first_sent: '2024-11-28T17:36:43+00:00'
+  last_sent: '2024-11-29T15:30:07+00:00'
+tags: []
+sends:
+- id: 14b45c1a-5af1-4986-bc5d-728766b19562
+  channel: email
+  name: Variant 1
+  subject: The Friday of all Fridays
+  preheader: celebrate with up to 35% off everything
+- id: befa596b-6305-4b21-aa31-9d09c61e6a61
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 299
+  total_delivered: 299
+  total_opens: 108
+  total_clicks: 2
+  open_rate: 0.3612
+  click_rate: 0.0067
+  total_unsubscribes: 1
+_filename: p_2024_11_29_d_sf_pr_bfcm_black_friday_microsoft_email.yaml
+schedule_type: time_based

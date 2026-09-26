@@ -1,0 +1,35 @@
+id: 20bd4357-424e-418b-ae0a-7cfcb609e5d0
+name: P_EM_2026_03_01_BW_D_Smart_Sectionals
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 20bd4357-424e-418b-ae0a-7cfcb609e5d0
+dates:
+  send_date: '2026-03-01'
+  inferred_send_type: local_time
+  first_sent: '2026-02-28T17:22:08+00:00'
+  last_sent: '2026-03-01T17:15:51+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: f8ca88f2-3fae-486e-81b6-d98bb6209d1f
+  channel: email
+  name: Variant 1
+  subject: Stretch Out Smarter
+  preheader: 'And take 25% off during the Flash Sale. '
+- id: e088217f-2d3c-4839-bacd-1979b79ecf31
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 234450
+  total_delivered: 233321
+  total_opens: 126884
+  total_clicks: 329
+  open_rate: 0.5412
+  click_rate: 0.0014
+  total_revenue: 18803.0
+  total_bounces: 5
+  total_unsubscribes: 184
+schedule_type: time_based

@@ -1,0 +1,30 @@
+id: 9cdd0626-5cc2-487c-aa77-f83966e96163
+name: P_SMS_2026_02_06_ID_Presidents_Day_Sale
+brand: ID
+channel: sms
+category: sale_promo
+type: sale
+theme: null
+braze_id: 9cdd0626-5cc2-487c-aa77-f83966e96163
+dates:
+  send_date: '2026-02-06'
+  inferred_send_type: local_time
+  first_sent: '2026-02-05T22:37:04+00:00'
+  last_sent: '2026-02-06T18:01:47+00:00'
+tags: []
+sends:
+- id: bc094508-c325-413d-8c34-bd859c3374ce
+  channel: sms
+  name: Variant 1
+- id: 882768dc-63da-409b-9804-44a317262049
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 49666
+  total_delivered: 47602
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 37500.0
+schedule_type: time_based

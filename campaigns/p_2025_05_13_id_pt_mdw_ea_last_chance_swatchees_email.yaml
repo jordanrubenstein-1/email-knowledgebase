@@ -1,0 +1,35 @@
+id: 89c26cc9-ab46-4fc6-a89d-1ff78f3ab981
+name: P_2025_05_13_ID_PT_MDW_EA_Last_Chance_Swatchees_Email
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 89c26cc9-ab46-4fc6-a89d-1ff78f3ab981
+dates:
+  send_date: '2025-05-13'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-13T18:09:04+00:00'
+  last_sent: '2025-05-13T18:10:00+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: ae557fcd-8cc4-407b-b929-fca3c18f510b
+  channel: email
+  name: Variant 1
+  subject: 'RE: your swatch order + 25% off sitewide'
+- id: dfa50128-f227-4a6a-b401-734dc04e5d48
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 66441
+  total_delivered: 65715
+  total_opens: 12785
+  total_clicks: 347
+  open_rate: 0.1924
+  click_rate: 0.0052
+  total_revenue: 86464.0
+  total_bounces: 2
+  total_unsubscribes: 81
+_filename: p_2025_05_13_id_pt_mdw_ea_last_chance_swatchees_email.yaml
+schedule_type: time_based

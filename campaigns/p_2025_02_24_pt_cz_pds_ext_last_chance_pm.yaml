@@ -1,0 +1,109 @@
+id: 89972a9e-5424-47c0-839c-83086c8f8a33
+name: P_2025_02_24_PT_CZ_PDS_Ext_Last_Chance_PM
+brand: CZ
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: 89972a9e-5424-47c0-839c-83086c8f8a33
+dates:
+  send_date: '2025-02-24'
+  inferred_send_type: local_time
+  first_sent: '2025-02-24T02:07:36+00:00'
+  last_sent: '2025-02-25T02:00:51+00:00'
+tags: []
+sends:
+- id: 364fab22-672b-4f9b-9711-604fbd4aad64
+  channel: email
+  name: Variant 1
+  subject: Only hours left for up to 20% off...
+  html_file: html/p_2025_02_24_pt_cz_pds_ext_last_chance_pm.html
+  screenshot: screenshots/p_2025_02_24_pt_cz_pds_ext_last_chance_pm.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67afc3b3f721fd0066be66af/original.png?1739572146
+  - https://www.the-citizenry.com/cdn/shop/files/TheCitizenry_PrestonHollow_0210_Final.jpg?format=webp&v=1726550972&width=1000
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67afc3ff5c9bda0064519816/original.png?1739572222
+  - https://www.the-citizenry.com/cdn/shop/files/TheCitizenry_PrestonHollow_311_Final_2.jpg?format=webp&v=1726550968&width=1000
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67afc3968093f40065d88d30/original.png?1739572117
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67afc4124df3d0006618202f/original.png?1739572242
+- id: 38e034ef-750b-47b5-82a3-5d8497331103
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 24392
+  total_delivered: 24361
+  total_opens: 16570
+  total_clicks: 519
+  open_rate: 0.6793
+  click_rate: 0.0213
+  total_revenue: 45644.18
+  total_bounces: 2
+  total_unsubscribes: 45
+  ga4:
+    sessions: 738
+    purchases: 7
+    revenue: 1651.45
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.182337'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-the-citizenry-2025-02-19
+    name: The Citizenry
+    start_date: '2025-02-19'
+    end_date: '2025-02-24'
+    discount: 'Up to 20% Off Select Categories
+
+      20% Off Rugs + Bedding, 15% Off Furniture, Baskets, + Accents
+
+      + Up to 60% off Archive Sale
+
+
+      EXTENSION OFFER
+
+      Up to 20% Select Categories
+
+      20% off Bedding, 15% Off Furniture
+
+      + Up to 60% off Archive Sale'
+    type: null
+  primary_sale:
+    id: cz-the-citizenry-2025-02-19
+    name: The Citizenry
+    start_date: '2025-02-19'
+    end_date: '2025-02-24'
+    discount: 'Up to 20% Off Select Categories
+
+      20% Off Rugs + Bedding, 15% Off Furniture, Baskets, + Accents
+
+      + Up to 60% off Archive Sale
+
+
+      EXTENSION OFFER
+
+      Up to 20% Select Categories
+
+      20% off Bedding, 15% Off Furniture
+
+      + Up to 60% off Archive Sale'
+    type: null
+  sale_name: The Citizenry
+  sale_discount: 'Up to 20% Off Select Categories
+
+    20% Off Rugs + Bedding, 15% Off Furniture, Baskets, + Accents
+
+    + Up to 60% off Archive Sale
+
+
+    EXTENSION OFFER
+
+    Up to 20% Select Categories
+
+    20% off Bedding, 15% Off Furniture
+
+    + Up to 60% off Archive Sale'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:40.017822'
+schedule_type: time_based

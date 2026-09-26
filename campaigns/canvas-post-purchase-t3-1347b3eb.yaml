@@ -1,0 +1,26 @@
+id: 1347b3eb-de24-4089-ba1b-257b6fe292c6
+name: TRG_EM_2024_29_11_BFCM_Black_Friday_Fund_T1
+brand: CZ
+channel: email
+category: sale_promo
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: ed85be62-ad24-41ee-8ff7-b2f667368156
+canvas_name: Post Purchase
+flow_type: post_purchase
+sequence_position: 3
+subject: Thank You For Joining The Fund
+preheader: Your purchase has power.
+sends:
+- id: 1347b3eb-de24-4089-ba1b-257b6fe292c6
+  channel: email
+  name: TRG_EM_2024_29_11_BFCM_Black_Friday_Fund_T1
+  subject: Thank You For Joining The Fund
+  preheader: Your purchase has power.
+  html_file: html/canvas-post-purchase-t3-1347b3eb.html
+dates:
+  send_date: '2024-29-11'
+  inferred_send_type: sto
+  first_sent: '2025-05-02T19:00:00Z'
+  last_sent: '2026-08-17T12:00:00Z'
+performance_summary: {}

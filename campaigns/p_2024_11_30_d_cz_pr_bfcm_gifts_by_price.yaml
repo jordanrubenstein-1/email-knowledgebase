@@ -1,0 +1,75 @@
+id: 9ba2be7f-3023-441b-a550-db51d69a62da
+name: P_2024_11_30_D_CZ_PR_BFCM_Gifts_by_Price
+brand: CZ
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: 9ba2be7f-3023-441b-a550-db51d69a62da
+dates:
+  send_date: '2024-11-30'
+  inferred_send_type: local_time
+  first_sent: '2024-11-29T18:04:43+00:00'
+  last_sent: '2024-11-30T17:02:04+00:00'
+tags: []
+sends:
+- id: bf564791-408d-4be9-9b1b-ef9eb88c13d5
+  channel: email
+  name: Variant 1
+  subject: Check Everyone Off Your List
+  preheader: Shop gifts by price, now up to 35% off.
+  html_file: html/p_2024_11_30_d_cz_pr_bfcm_gifts_by_price.html
+  screenshot: screenshots/p_2024_11_30_d_cz_pr_bfcm_gifts_by_price.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6747a423a3b88200641d77cd/original.jpg?1732748323
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6747c2758c230d006358841e/original.jpg?1732756085
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6747a4228088f90073254d52/original.jpg?1732748322
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6747a4225a196500836a1ace/original.jpg?1732748322
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6747c2768fa813006589053f/original.jpg?1732756085
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6747a4214b5d500065e6a3b3/original.jpg?1732748321
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6747c25f0fe679006331008e/original.jpg?1732756063
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6747a4228088f900642569d7/original.jpg?1732748322
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6737dc5069dd3a0064763677/original.jpg?1731714128
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6747a4225a196500666a2469/original.jpg?1732748321
+- id: 83b81cb1-6b14-459b-a30a-5d01c3ca70bd
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 94270
+  total_delivered: 93648
+  total_opens: 45649
+  total_clicks: 839
+  open_rate: 0.4842
+  click_rate: 0.0089
+  total_revenue: 305303.33
+  total_bounces: 1
+  total_unsubscribes: 171
+  ga4:
+    sessions: 1251
+    purchases: 17
+    revenue: 12792.3
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.766879'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-01'
+    discount: null
+    type: null
+  primary_sale:
+    id: cz-bfcm-2024-11-15
+    name: BFCM
+    start_date: '2024-11-15'
+    end_date: '2024-12-01'
+    discount: null
+    type: null
+  sale_name: BFCM
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:34.787100'
+schedule_type: time_based

@@ -1,0 +1,75 @@
+id: klaviyo-01JEEGS45G1E2H7X2WHGWGQKAR
+name: '12/9: TRADE BFCM Combined Last Chance Reminder'
+brand: TI
+channel: email
+category: reminder
+type: announcement
+theme: black_friday
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2024-12-06'
+  inferred_send_type: scheduled
+  first_sent: '2024-12-09T08:30:00+00:00'
+  last_sent: '2024-12-09T08:30:00+00:00'
+sends:
+- id: 01JEEGS46DMRC6ET684BBJB1KG
+  channel: email
+  name: '12/9: TRADE BFCM Combined Last Chance Reminder'
+  subject: 'Last Chance: Trade-Exclusive Discounts!'
+  preheader: Final hours for up to 40% off our family of brands.
+  html_file: html/129-trade-bfcm-combined-last-chance-reminder.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/eca135b9-dda2-4bd5-b0ec-1ad5df376ab2.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/b7829bf6-d6f5-4e8c-a083-2427f5457ea9.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/b398c3ca-c7f5-41f2-bedc-27a54cf334fb.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/e388a50f-9e53-4ab2-9195-24f942b7bf3e.gif
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/eb048962-6d40-41f5-a633-9fe0ec481682.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/48f8b0bf-f674-4de6-83a6-f00ae0bfb57e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/dccf9ff5-8748-4e56-89b2-548bc39a42d2.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/dad1408b-01a8-441f-a82b-4a08d28ee44f.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/f560fb4c-d9b7-4c1e-b03c-7223b18786bd.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/1ea0487b-b19e-44b6-a73b-3129515c6062.jpeg
+  screenshot: screenshots/129-trade-bfcm-combined-last-chance-reminder.png
+performance_summary:
+  total_sends: 11121
+  total_delivered: 10987
+  total_opens: 4342
+  total_clicks: 355
+  unique_opens: 2724
+  unique_clicks: 75
+  open_rate: 0.2449
+  click_rate: 0.0067
+  total_open_rate: 0.3904
+  total_click_rate: 0.0319
+  total_unsubscribes: 11
+  total_bounces: 134
+klaviyo_type: campaign
+klaviyo_campaign_id: 01JEEGS45G1E2H7X2WHGWGQKAR
+klaviyo_message_id: 01JEEGS46DMRC6ET684BBJB1KG
+structure:
+  image_count: 17
+  link_count: 18
+  has_gif: true
+  hero_width: 600
+  layout_type: product_grid
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: ti-cyber-week-ext-2024-12-03
+    name: Cyber Week Ext
+    start_date: '2024-12-03'
+    end_date: '2024-12-10'
+    discount: null
+    type: null
+  primary_sale:
+    id: ti-cyber-week-ext-2024-12-03
+    name: Cyber Week Ext
+    start_date: '2024-12-03'
+    end_date: '2024-12-10'
+    discount: null
+    type: null
+  sale_name: Cyber Week Ext
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-03-12T11:18:47.207013'

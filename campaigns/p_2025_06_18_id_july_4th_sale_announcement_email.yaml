@@ -1,0 +1,47 @@
+id: f546d14a-8843-4a73-b555-6315df7b23c4
+name: P_2025_06_18_ID_July_4th_Sale_Announcement_Email
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: f546d14a-8843-4a73-b555-6315df7b23c4
+dates:
+  send_date: '2025-06-18'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-18T05:27:26+00:00'
+  last_sent: '2025-06-18T17:15:17+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 90db7948-9a33-4c68-bd39-2b01233136ea
+  channel: email
+  name: Variant 1
+  subject: Impatient? Us Too. The 4th of July Sale Is Live.
+  preheader: Save up to 25% off sitewide.
+- id: cc31b629-7a74-45cf-9a7d-167470853908
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 191896
+  total_delivered: 189731
+  total_opens: 85937
+  total_clicks: 1828
+  open_rate: 0.4478
+  click_rate: 0.0095
+  total_revenue: 139763.0
+  total_bounces: 7
+  total_unsubscribes: 855
+  ga4:
+    sessions: 1937
+    purchases: 7
+    revenue: 18077.29
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.319632'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:45.053886'
+schedule_type: time_based

@@ -1,0 +1,52 @@
+id: 8a660c9a-d969-4f73-b9a1-d6a218a0c378
+name: P_2025_03_31_D_CZ_Back_In_Stock_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 8a660c9a-d969-4f73-b9a1-d6a218a0c378
+dates:
+  send_date: '2025-03-31'
+  inferred_send_type: scheduled
+  first_sent: '2025-03-31T04:59:52+00:00'
+  last_sent: '2025-03-31T17:00:52+00:00'
+tags: []
+sends:
+- id: 887e2272-1a0c-4baf-88e1-e00bc5041058
+  channel: email
+  name: Variant 1
+  subject: These Best Sellers Are Back
+  preheader: Bring them home before someone else does.
+  html_file: html/p_2025_03_31_d_cz_back_in_stock_email.html
+  screenshot: screenshots/p_2025_03_31_d_cz_back_in_stock_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e73286a5c8a10065ccad17/original.png?1743204997
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e7328c0f697500644fa968/original.png?1743205003
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e7321b0ac9710067f1b1e0/original.png?1743204891
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67e732260ac9710067f1b1e2/original.png?1743204901
+- id: e52b0567-37e6-422d-af89-961bc14941f4
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 92651
+  total_delivered: 91854
+  total_opens: 48056
+  total_clicks: 814
+  open_rate: 0.5187
+  click_rate: 0.0088
+  total_revenue: 54314.08
+  total_unsubscribes: 127
+  ga4:
+    sessions: 1201
+    purchases: 10
+    revenue: 2735.28
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.620754'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.243992'
+schedule_type: time_based

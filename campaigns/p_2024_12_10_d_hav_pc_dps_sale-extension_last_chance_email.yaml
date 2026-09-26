@@ -1,0 +1,34 @@
+id: d6a3c3c7-cd46-4c30-ad51-7270e6a816ef
+name: P_2024_12_10_D_HAV_PC_DPS_Sale Extension_Last_Chance_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: d6a3c3c7-cd46-4c30-ad51-7270e6a816ef
+dates:
+  send_date: '2024-12-10'
+  first_sent: '2024-12-10T01:18:43+00:00'
+  last_sent: '2024-12-10T18:15:02+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 55ce2a99-c35c-4f5c-836d-4656c544f465
+  channel: email
+  name: Variant 1
+  subject: 'ENDS @ MIDNIGHT: 50% Off Design Services!'
+  preheader: Last chance to shop the best sale. We mean it.
+- id: 646e1691-fc9e-4458-8b30-3ccbebe05014
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 170129
+  total_delivered: 167902
+  total_opens: 79733
+  total_clicks: 564
+  open_rate: 0.4687
+  click_rate: 0.0033
+  total_bounces: 18
+  total_unsubscribes: 558
+schedule_type: time_based
+_filename: p_2024_12_10_d_hav_pc_dps_sale-extension_last_chance_email.yaml

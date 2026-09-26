@@ -1,0 +1,47 @@
+id: 26483edf-810c-43ea-a3c7-cb53474b33cf
+name: P_2025_06_13_ID_AM_Limited_Time_Collections_Email
+brand: ID
+channel: email
+category: product_launch
+type: announcement
+theme: null
+braze_id: 26483edf-810c-43ea-a3c7-cb53474b33cf
+dates:
+  send_date: '2025-06-13'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-13T15:51:48+00:00'
+  last_sent: '2025-06-13T15:54:41+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: e44dda4a-6c51-477b-b3cd-9001568a813c
+  channel: email
+  name: Variant 1
+  subject: These designer-favorites are back for a limited time
+  preheader: Shop now before they're gone again!
+- id: 98237c96-e221-4c41-b0f6-f2d7e195a5f6
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 172240
+  total_delivered: 170204
+  total_opens: 39405
+  total_clicks: 658
+  open_rate: 0.2288
+  click_rate: 0.0038
+  total_revenue: 68874.0
+  total_bounces: 2
+  total_unsubscribes: 80
+  ga4:
+    sessions: 789
+    purchases: 2
+    revenue: 6518.92
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.897778'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.500949'
+schedule_type: time_based

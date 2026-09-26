@@ -1,0 +1,58 @@
+id: da26a551-8eaa-4b58-8b43-e82d7e62222a
+name: P_2025_2_11_D_SF_Custom_Curtains_Trade
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: da26a551-8eaa-4b58-8b43-e82d7e62222a
+dates:
+  send_date: '2025-02-11'
+  inferred_send_type: scheduled
+  first_sent: '2025-02-11T21:53:44+00:00'
+  last_sent: '2025-02-11T21:54:04+00:00'
+tags: []
+sends:
+- id: d779db37-07a7-42e1-a1f9-e51309a656e1
+  channel: email
+  name: Variant 1
+  subject: Custom Curtains for Every Space
+  preheader: Bring them home with your Trade-exclusive discount.
+  html_file: html/p_2025_2_11_d_sf_custom_curtains_trade.html
+  screenshot: screenshots/p_2025_2_11_d_sf_custom_curtains_trade.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6791523a61e03d0063324d89/original.gif?1737577018
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67abc5a492db6100764fcd28/original.jpg?1739310500
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679154c1d3e3ca0075ef907f/original.gif?1737577665
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6791541a6225bd0074541bb3/original.gif?1737577498
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6791552361f6ee00657ce5b7/original.gif?1737577763
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679154dfa9d38b00735f75eb/original.gif?1737577695
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67abc5d4ebb63b0066c1a925/original.gif?1739310548
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/679153f8baa3c700624272f7/original.jpg?1737577463
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6791548f48521900667dc433/original.gif?1737577615
+- id: 9e3aaeba-922d-4b9b-9459-0b757c998835
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 1053
+  total_delivered: 1031
+  total_opens: 671
+  total_clicks: 23
+  open_rate: 0.6372
+  click_rate: 0.0218
+  total_revenue: 5983.0
+  total_unsubscribes: 6
+  ga4:
+    sessions: 24
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.723970'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.332956'
+schedule_type: time_based

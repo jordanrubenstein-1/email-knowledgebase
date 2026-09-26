@@ -1,0 +1,37 @@
+id: 6f334b0a-549a-4774-8449-7dbdcc8e25e5
+name: P_SMS_2026_01_06_CZ_Refresh_Your_Space_SMS
+brand: CZ
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: 6f334b0a-549a-4774-8449-7dbdcc8e25e5
+dates:
+  send_date: '2026-01-06'
+  inferred_send_type: local_time
+  first_sent: '2026-01-06T01:05:42+00:00'
+  last_sent: '2026-01-07T01:01:00+00:00'
+tags: []
+sends:
+- id: 8553f9f6-8fdc-4a4e-8a3d-1e58eced04ad
+  channel: sms
+  name: Variant 1
+- id: f8b8a774-51a3-4c6a-9a42-80fd82437920
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 19636
+  total_delivered: 18322
+  total_opens: 0
+  total_clicks: 182
+  open_rate: 0.0
+  click_rate: 0.0093
+  ga4:
+    sessions: 164
+    purchases: 1
+    revenue: 83.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.880387'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

@@ -1,0 +1,44 @@
+id: fe550f9b-e0db-47e8-bf10-eee8a0a076ca
+name: SEG_2024_10_22_PT_ID_PM_Autumn_Event_LC_Email
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: fall
+braze_id: fe550f9b-e0db-47e8-bf10-eee8a0a076ca
+dates:
+  send_date: '2024-10-22'
+  inferred_send_type: scheduled
+  first_sent: '2024-10-22T23:18:01+00:00'
+  last_sent: '2024-10-22T23:18:35+00:00'
+tags: []
+sends:
+- id: 09a9a1c4-9168-4cfa-a108-0b3a00e3761a
+  channel: email
+  name: Variant 1
+  subject: 'RE: Last Call - Your 20% off at Interior Define'
+- id: 3e7de520-87a0-40c3-8c47-68ea4bd81c78
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 11930
+  total_delivered: 11861
+  total_opens: 7574
+  total_clicks: 491
+  open_rate: 0.6349
+  click_rate: 0.0412
+  total_revenue: 168030.0
+  total_unsubscribes: 256
+  ga4:
+    sessions: 417
+    purchases: 7
+    revenue: 22898.88
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.899077'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:40.505712'
+schedule_type: time_based

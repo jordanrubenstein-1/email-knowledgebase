@@ -1,0 +1,37 @@
+id: 257bc5d8-dbc5-4b38-bb14-660c681b7ccf
+name: P_SMS_2025_12_08_Gifts _Holiday
+brand: STF
+channel: sms
+category: other
+type: seasonal
+theme: christmas
+braze_id: 257bc5d8-dbc5-4b38-bb14-660c681b7ccf
+dates:
+  send_date: '2025-12-08'
+  inferred_send_type: local_time
+  first_sent: '2025-12-08T01:08:58+00:00'
+  last_sent: '2025-12-08T23:01:34+00:00'
+tags: []
+sends:
+- id: 9282edcd-4d32-4ddc-8b77-275ae5c80c27
+  channel: sms
+  name: Variant 1
+- id: 185c0743-c75a-44a2-9a71-ae25b8666eea
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 4293
+  total_delivered: 4227
+  total_opens: 0
+  total_clicks: 109
+  open_rate: 0.0
+  click_rate: 0.0254
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.696984'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

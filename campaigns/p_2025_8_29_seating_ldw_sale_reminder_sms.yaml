@@ -1,0 +1,30 @@
+id: f1bed56c-4a49-466e-a296-0204cae4645f
+name: P_2025_8_29_Seating_LDW_Sale_Reminder_SMS
+brand: ID
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: f1bed56c-4a49-466e-a296-0204cae4645f
+dates:
+  send_date: '2025-08-29'
+  inferred_send_type: local_time
+  first_sent: '2025-08-28T23:24:27+00:00'
+  last_sent: '2025-08-29T21:20:23+00:00'
+tags: []
+sends:
+- id: b87884fe-e32f-4ccb-b641-17ff9b7df231
+  channel: other
+  name: Variant 1
+- id: e0179f26-2611-42e9-a5f1-7407ced55c6f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 53302
+  total_delivered: 51072
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 56259.0
+schedule_type: time_based

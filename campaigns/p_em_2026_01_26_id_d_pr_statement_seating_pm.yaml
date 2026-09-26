@@ -1,0 +1,42 @@
+id: 9b2934a6-cc77-4b2b-b48c-c578c169c9a1
+name: P_EM_2026_01_26_ID_D_PR_Statement_Seating_PM
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 9b2934a6-cc77-4b2b-b48c-c578c169c9a1
+dates:
+  send_date: '2026-01-26'
+  inferred_send_type: sto
+  first_sent: '2026-01-24T00:07:06+00:00'
+  last_sent: '2026-01-27T00:00:43+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: d56aa482-eb27-4f68-90d3-caa65fce976c
+  channel: email
+  name: Control Group
+- id: 0cee071d-bc59-44a2-972d-b140bd4b89aa
+  channel: email
+  name: Unnamed Variant
+  subject: The Chair That Changes the Room
+  preheader: Sculptural shapes, comfortable support, and made-to-order finishes.
+performance_summary:
+  total_sends: 1354
+  total_delivered: 1318
+  total_opens: 12086
+  total_clicks: 205
+  open_rate: 8.9261
+  click_rate: 0.1514
+  total_revenue: 323639.91
+  total_unsubscribes: 83
+  ga4:
+    sessions: 988
+    purchases: 1
+    revenue: 1710.09
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.581768'
+    source: snowflake
+    channel: email
+schedule_type: time_based

@@ -1,0 +1,47 @@
+id: d1ce9c38-d281-47fd-9457-28f85c37e390
+name: P_2025_06_11_HAV_Room_Complete_Email_PT_From_Designer
+brand: HAV
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: d1ce9c38-d281-47fd-9457-28f85c37e390
+dates:
+  send_date: '2025-06-11'
+  inferred_send_type: local_time
+  first_sent: '2025-06-10T22:07:46+00:00'
+  last_sent: '2025-06-11T21:00:20+00:00'
+tags: []
+sends:
+- id: 891d2bd7-4365-41f9-a2eb-a740e0ac4dcf
+  channel: email
+  name: Variant 1
+  subject: Let’s get started! - Excited to work with you
+  html_file: html/p_2025_06_11_hav_room_complete_email_pt_from_designer.html
+  screenshot: screenshots/p_2025_06_11_hav_room_complete_email_pt_from_designer.png
+  image_urls:
+  - https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/c731630f24214e43807c7369ca8ebacd/Havenly_Wordmark_RGB_Charcoal_Brown%20%281%29.png
+- id: 1caf3186-0eee-4ae0-9815-f55ba73a914b
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 774
+  total_delivered: 772
+  total_opens: 667
+  total_clicks: 77
+  open_rate: 0.8618
+  click_rate: 0.0995
+  total_unsubscribes: 2
+  ga4:
+    sessions: 167
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.229366'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.079761'
+schedule_type: time_based

@@ -1,0 +1,60 @@
+id: d2d30b74-ae86-45eb-a478-e286c9f60343
+name: P_EM_2025_07_12_CZ_D_PR_Kitchen_Styling
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: d2d30b74-ae86-45eb-a478-e286c9f60343
+dates:
+  send_date: '2025-07-12'
+  inferred_send_type: local_time
+  first_sent: '2025-07-11T23:06:32+00:00'
+  last_sent: '2025-07-12T19:03:03+00:00'
+tags:
+- am
+- batch and blast
+- catalog
+- d2c
+- designed
+sends:
+- id: 04b2caf7-8420-480a-a6f9-b124dffa2734
+  channel: email
+  name: Variant 1
+  subject: The Art of Kitchen Styling
+  preheader: Bring heirloom craftsmanship to the heart of your home.
+  html_file: html/p_em_2025_07_12_cz_d_pr_kitchen_styling.html
+  screenshot: screenshots/p_em_2025_07_12_cz_d_pr_kitchen_styling.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686edde9bb44020067f567dc/original.png?1752096232
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686ede34203dc8008413551c/original.png?1752096307
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686ede27ac5a3e00754aae96/original.png?1752096294
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686edde067d5750067a9238b/original.png?1752096224
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686ede0a1557a80076ba1ed1/original.png?1752096265
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/686ede171dcab30065738da1/original.png?1752096279
+- id: 08cede31-58bd-4fb8-b05f-ee2a915b4ff1
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 100072
+  total_delivered: 99561
+  total_opens: 52929
+  total_clicks: 1020
+  open_rate: 0.5289
+  click_rate: 0.0102
+  total_revenue: 56404.18
+  total_bounces: 4
+  total_unsubscribes: 127
+  ga4:
+    sessions: 1238
+    purchases: 9
+    revenue: 3558.98
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.638031'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.419672'
+schedule_type: time_based

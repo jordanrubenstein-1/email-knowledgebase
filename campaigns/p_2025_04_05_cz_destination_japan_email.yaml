@@ -1,0 +1,58 @@
+id: 82d5661f-e994-4972-8383-608ff0de7829
+name: P_2025_04_05_CZ_Destination_Japan_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 82d5661f-e994-4972-8383-608ff0de7829
+dates:
+  send_date: '2025-04-05'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-05T15:58:02+00:00'
+  last_sent: '2025-04-05T17:40:53+00:00'
+tags: []
+sends:
+- id: 5141bcc3-ac55-4601-8aa9-74c37fe8560f
+  channel: email
+  name: Variant 1
+  subject: Your Ticket To Kyoto
+  preheader: The sacred city that perfects the art of slow living.
+  html_file: html/p_2025_04_05_cz_destination_japan_email.html
+  screenshot: screenshots/p_2025_04_05_cz_destination_japan_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67eebddbcf532100655a64e9/original.jpg?1743699418
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67eebde014c87a0075a02568/original.jpg?1743699424
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67eebdf44155de00655bec3c/original.jpg?1743699444
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67eebe289b21890066f925d5/original.jpg?1743699495
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67eebe024155de00755bd8e1/original.jpg?1743699457
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67eebdfb9b21890066f924c0/original.jpg?1743699450
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67eec4e82bcf4f0066844a1d/original.jpg?1743701224
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67eebe097addc80064fa567f/original.jpg?1743699465
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67eebdedea5b4a00641e2bdd/original.gif?1743699437
+- id: 1befaea5-7103-4a41-963a-8a64622c1d20
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 95267
+  total_delivered: 94447
+  total_opens: 51797
+  total_clicks: 2249
+  open_rate: 0.5437
+  click_rate: 0.0236
+  total_revenue: 56513.54
+  total_bounces: 1
+  total_unsubscribes: 122
+  ga4:
+    sessions: 3130
+    purchases: 10
+    revenue: 3888.58
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.550419'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.152141'
+schedule_type: time_based

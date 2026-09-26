@@ -1,0 +1,35 @@
+id: a5b6439c-db33-41eb-807e-080f75e0c4a5
+name: P_2025_2_27_HAV_PC_Activation_Prompt_Email
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: a5b6439c-db33-41eb-807e-080f75e0c4a5
+dates:
+  send_date: '2025-02-27'
+  first_sent: '2025-02-27T06:24:12+00:00'
+  last_sent: '2025-02-27T18:15:06+00:00'
+  inferred_send_type: scheduled
+tags:
+- Activation-prompt
+sends:
+- id: b96dfe58-59d0-4e64-a6fa-939c7dc867d9
+  channel: email
+  name: Variant 1
+  subject: Let's kickoff your room makeover!
+  preheader: Start your interior design project today
+- id: e95e1b8b-c515-4e8f-9989-0644d89b9764
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 185727
+  total_delivered: 182603
+  total_opens: 84557
+  total_clicks: 370
+  open_rate: 0.4553
+  click_rate: 0.002
+  total_bounces: 1
+  total_unsubscribes: 298
+schedule_type: time_based
+_filename: p_2025_2_27_hav_pc_activation_prompt_email.yaml

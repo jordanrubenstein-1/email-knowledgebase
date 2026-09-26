@@ -1,0 +1,50 @@
+id: 6042033f-b7a9-4413-bee5-5477080b1a9b
+name: 2025_05_17_HAV_CONV_Best_Kid_and_Pet_Friendly_Couches
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 6042033f-b7a9-4413-bee5-5477080b1a9b
+dates:
+  send_date: '2025-05-17'
+  inferred_send_type: local_time
+  first_sent: '2025-05-16T22:08:59+00:00'
+  last_sent: '2025-05-17T21:00:21+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 10e6c249-21ae-4eb7-b786-45ca7ce9e41b
+  channel: email
+  name: Variant 1
+  subject: ' 23 kid and pet-friendly sofas we 💕'
+  preheader: ' Designer vetted and approved.'
+  html_file: html/2025_05_17_hav_conv_best_kid_and_pet_friendly_couches.html
+  screenshot: screenshots/2025_05_17_hav_conv_best_kid_and_pet_friendly_couches.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682771bcd87edf00672aaee5/original.png?1747415483
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682771471cd8340085748e9d/original.gif?1747415367
+- id: dd55f84a-bac8-4f98-9b2f-92ad24a2e20c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 39714
+  total_delivered: 39633
+  total_opens: 21957
+  total_clicks: 332
+  open_rate: 0.5529
+  click_rate: 0.0084
+  total_unsubscribes: 32
+  ga4:
+    sessions: 573
+    purchases: 3
+    revenue: 9095.7
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:48.962939'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.145275'
+schedule_type: time_based

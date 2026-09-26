@@ -1,0 +1,43 @@
+id: 92faf972-b5f6-4bc5-b739-6786a04328e6
+name: TRG_EM_2024_08_ID_D_Cart_Abandon_T4_V2
+brand: ID
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 90ff3c97-7866-46d1-b1df-1a97c60ef691
+canvas_name: Cart Abandon - Cart Viewed
+flow_type: cart_abandonment
+sequence_position: 4
+subject: Don’t let your cart expire
+preheader: '{% assign eoy_sale_start = "2025-12-18 07:00:00" | date: "%s" %}{% assign
+  eoy_sale_end       = "2026-01-06 07:00:00" | date: "%s" %}{% assign now        =
+  ''now'' | date: "%s" %}{% if now >= eoy_sale_start and now <= eoy_sale_end %}Your
+  25% off ends soon{% else %}Your selections are still saved for you{% endif %}
+
+  '
+sends:
+- id: 92faf972-b5f6-4bc5-b739-6786a04328e6
+  channel: email
+  name: TRG_EM_2024_08_ID_D_Cart_Abandon_T4_V2
+  subject: Don’t let your cart expire
+  preheader: '{% assign eoy_sale_start = "2025-12-18 07:00:00" | date: "%s" %}{% assign
+    eoy_sale_end       = "2026-01-06 07:00:00" | date: "%s" %}{% assign now        =
+    ''now'' | date: "%s" %}{% if now >= eoy_sale_start and now <= eoy_sale_end %}Your
+    25% off ends soon{% else %}Your selections are still saved for you{% endif %}
+
+    '
+  html_file: html/canvas-cart-abandon-cart-viewed-t4-92faf972.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-12-10T05:00:00Z'
+  last_sent: '2026-05-25T17:00:00Z'
+performance_summary:
+  total_sends: 10913
+  total_delivered: 10835
+  total_opens: 5820
+  total_clicks: 174
+  open_rate: 0.5333
+  click_rate: 0.0159
+  total_unsubscribes: 31
+  total_revenue: 66799.74

@@ -1,0 +1,33 @@
+id: e4ad4518-5412-4685-a5d2-0c459944314e
+name: P_2025_04_25_HAV_Conv_Indoor_Outdoor_Sale_Reminder_PT
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: e4ad4518-5412-4685-a5d2-0c459944314e
+dates:
+  send_date: '2025-04-25'
+  first_sent: '2025-04-24T18:55:42+00:00'
+  last_sent: '2025-04-25T17:15:19+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 99522940-daa7-4d27-a5c2-f3aa1d44d7cd
+  channel: email
+  name: Variant 1
+  subject: Discounts on our favorite seasonal designs
+- id: 88c2976d-03c3-47b9-bea5-746e68ba0969
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 39333
+  total_delivered: 39250
+  total_opens: 22338
+  total_clicks: 258
+  open_rate: 0.5679
+  click_rate: 0.0066
+  total_unsubscribes: 49
+schedule_type: time_based
+_filename: p_2025_04_25_hav_conv_indoor_outdoor_sale_reminder_pt.yaml

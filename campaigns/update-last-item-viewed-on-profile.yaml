@@ -1,0 +1,29 @@
+id: 7756c836-190d-4aab-890a-9ee756d35130
+name: Update Last Item Viewed on Profile
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 7756c836-190d-4aab-890a-9ee756d35130
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: scheduled
+  first_sent: '2025-06-29T03:00:00+00:00'
+  last_sent: '2025-06-29T03:00:00+00:00'
+tags: []
+sends: []
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.177626'
+    source: snowflake
+    channel: email
+canvas_steps:
+- id: a8478145-02c1-484a-a649-4dffb43773d5
+  name: Step
+  type: user_update

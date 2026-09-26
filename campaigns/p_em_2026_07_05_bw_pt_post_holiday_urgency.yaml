@@ -1,0 +1,33 @@
+id: 1297c23d-2000-4bce-b0b8-b128afbab075
+name: P_EM_2026_07_05_BW_PT_Post_Holiday_Urgency
+brand: BUR
+channel: email
+category: other
+type: seasonal
+theme: christmas
+braze_id: 1297c23d-2000-4bce-b0b8-b128afbab075
+dates:
+  send_date: '2026-07-05'
+  last_sent: '2026-07-05'
+tags:
+- Batch&Blast
+sends:
+- id: f1f43838-5cf1-40fc-bfc4-05dbead01936
+  channel: email
+  name: Variant 1
+  subject: The holiday's over. The savings aren't.
+- id: fd15f2f2-dd8c-4b58-aca4-7dedec385540
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 228069
+  total_delivered: 227276
+  total_opens: 117567
+  total_clicks: 394
+  open_rate: 0.5155
+  click_rate: 0.0017
+  total_revenue: 138156.0
+  total_bounces: 2
+  total_unsubscribes: 219
+schedule_type: time_based
+_filename: p_em_2026_07_05_bw_pt_post_holiday_urgency.yaml

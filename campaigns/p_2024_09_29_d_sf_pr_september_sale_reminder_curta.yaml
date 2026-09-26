@@ -1,0 +1,46 @@
+id: 55978b2b-833d-4e6b-a1e9-8adc5293b911
+name: P_2024_09_29_D_SF_PR_September_Sale_Reminder_Curtains_Email
+brand: STF
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 55978b2b-833d-4e6b-a1e9-8adc5293b911
+dates:
+  send_date: '2024-09-29'
+  inferred_send_type: local_time
+  first_sent: '2024-09-28T17:00:07+00:00'
+  last_sent: '2024-09-29T14:00:28+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: 751e0e84-32b6-4773-b6f0-4c6d48e2fa81
+  channel: email
+  name: Variant 1
+  subject: 'One More Day: 30% Off'
+  preheader: shop curtains, fabric, and wallpaper on sale
+- id: 25475fe9-e826-45fd-8bfd-954a96879695
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 10701
+  total_delivered: 10470
+  total_opens: 2838
+  total_clicks: 97
+  open_rate: 0.2652
+  click_rate: 0.0091
+  total_revenue: 6679.8
+  total_unsubscribes: 15
+  ga4:
+    sessions: 80
+    purchases: 1
+    revenue: 50.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.081965'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.683851'
+schedule_type: time_based

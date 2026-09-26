@@ -1,0 +1,64 @@
+id: 8957096c-fd86-4def-9c09-b1bdf5a1d691
+name: P_EM_2025_07_20_SF_D_PR_Wall_Drama
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 8957096c-fd86-4def-9c09-b1bdf5a1d691
+dates:
+  send_date: '2025-07-20'
+  inferred_send_type: scheduled
+  first_sent: '2025-07-20T03:37:00+00:00'
+  last_sent: '2025-07-20T17:00:49+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- prod
+sends:
+- id: 69dee886-125a-4261-b07e-bacc753c90ed
+  channel: email
+  name: Variant 1
+  subject: Here For The (Wall) Drama
+  preheader: let your walls do the talking
+  html_file: html/p_em_2025_07_20_sf_d_pr_wall_drama.html
+  screenshot: screenshots/p_em_2025_07_20_sf_d_pr_wall_drama.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687a9a6a69d77700667fe021/original.png?1752865385
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687a99e6a9a0ec0083d2be38/original.png?1752865253
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687a9ada4ffdd300640ec92a/original.png?1752865498
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687a9ad3ca478d00674b1649/original.png?1752865491
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687a9aee25ee5900651b02b7/original.png?1752865518
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687a9ae0a3e1760065599554/original.png?1752865504
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687a9ae8a036b300662b5c5e/original.png?1752865512
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687a9aa1a3e1760065599255/original.png?1752865440
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687a9ac3ca478d00674b15b3/original.png?1752865475
+- id: b17b4841-0bd5-4d75-a2d7-0ee867b56bef
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 43127
+  total_delivered: 42609
+  total_opens: 19734
+  total_clicks: 333
+  open_rate: 0.4576
+  click_rate: 0.0077
+  total_revenue: 6411.0
+  total_bounces: 10
+  total_unsubscribes: 116
+  ga4:
+    sessions: 381
+    purchases: 2
+    revenue: 1398.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.877059'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.980210'
+schedule_type: time_based

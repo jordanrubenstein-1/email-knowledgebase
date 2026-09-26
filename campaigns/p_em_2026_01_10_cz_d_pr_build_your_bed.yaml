@@ -1,0 +1,58 @@
+id: 877f557d-0665-42be-b8c7-65008773018b
+name: P_EM_2026_01_10_CZ_D_PR_Build_Your_Bed
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 877f557d-0665-42be-b8c7-65008773018b
+dates:
+  send_date: '2026-01-10'
+  inferred_send_type: local_time
+  first_sent: '2026-01-10T01:07:34+00:00'
+  last_sent: '2026-01-11T01:06:55+00:00'
+tags:
+- am
+- batch and blast
+- bedding
+- d2c
+- designed
+- prod
+sends:
+- id: 505020c3-a14e-4245-9d36-1bcb06efc75a
+  channel: email
+  name: Variant 1
+  subject: Your Best Rest Begins Here
+  preheader: Bedding ships free, good sleep guaranteed.
+  html_file: html/p_em_2026_01_10_cz_d_pr_build_your_bed.html
+  screenshot: screenshots/p_em_2026_01_10_cz_d_pr_build_your_bed.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69610b6a2c312600647e5f17/original.png?1767967593
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69610be391941f0063162cfc/original.png?1767967715
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69610bb0a004ee00649826e1/original.png?1767967664
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69610b8124f53f006454e009/original.png?1767967616
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69610bf73c4a2d006557078b/original.png?1767967735
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69610b3b48e67900635064d9/original.png?1767967547
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69610bd13aa23600743cea1f/original.png?1767967696
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69610a6a03120c0064063d34/original.gif?1767967338
+- id: 248f8c6a-6048-4220-8413-4f873df677e1
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 114139
+  total_delivered: 113833
+  total_opens: 58749
+  total_clicks: 555
+  open_rate: 0.5147
+  click_rate: 0.0049
+  total_bounces: 20
+  total_unsubscribes: 191
+  ga4:
+    sessions: 459
+    purchases: 6
+    revenue: 3071.6
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.699131'
+    source: snowflake
+    channel: email
+schedule_type: time_based

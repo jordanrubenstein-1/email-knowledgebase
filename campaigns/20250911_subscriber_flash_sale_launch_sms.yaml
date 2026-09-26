@@ -1,0 +1,30 @@
+id: 535f2bb6-51d2-422e-8cb2-139ca9c8db5c
+name: 20250911_Subscriber_Flash_Sale_Launch_SMS
+brand: BUR
+channel: sms
+category: product_launch
+type: sale
+theme: null
+braze_id: 535f2bb6-51d2-422e-8cb2-139ca9c8db5c
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-09-11T04:54:01+00:00'
+  last_sent: '2025-09-12T01:00:46+00:00'
+tags: []
+sends:
+- id: e2f38e77-1186-4ceb-bcf8-e034b0085fcc
+  channel: other
+  name: Variant 1
+- id: f58aca71-deb5-488d-918c-ce33a3d5d58a
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 134
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.840833'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

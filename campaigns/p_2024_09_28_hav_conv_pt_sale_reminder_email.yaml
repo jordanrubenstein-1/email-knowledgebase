@@ -1,0 +1,32 @@
+id: f54fb7d4-514c-49db-b74f-449653d0d583
+name: P_2024_09_28_HAV_CONV_PT_Sale_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: f54fb7d4-514c-49db-b74f-449653d0d583
+dates:
+  send_date: '2024-09-28'
+  first_sent: '2024-09-28T00:25:19+00:00'
+  last_sent: '2024-09-28T17:15:04+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 79baf79f-c892-49a8-b6e0-55be8ae32a8b
+  channel: email
+  name: Variant 1
+  subject: 'RE: your exclusive promo code'
+- id: 2ce8e710-fb68-439b-b79f-78b7543953ed
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 35832
+  total_delivered: 35766
+  total_opens: 22030
+  total_clicks: 321
+  open_rate: 0.6148
+  click_rate: 0.009
+  total_unsubscribes: 63
+schedule_type: time_based
+_filename: p_2024_09_28_hav_conv_pt_sale_reminder_email.yaml

@@ -1,0 +1,59 @@
+id: 1bb94a49-3c71-4654-a20e-880bf40655b3
+name: P_2025_05_21_CZ_MDW_Archive_Sale_Email
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 1bb94a49-3c71-4654-a20e-880bf40655b3
+dates:
+  send_date: '2025-05-21'
+  inferred_send_type: local_time
+  first_sent: '2025-05-21T05:16:45+00:00'
+  last_sent: '2025-05-22T06:59:45+00:00'
+tags: []
+sends:
+- id: 7eee752f-9696-472a-b7d1-83e16f20bfeb
+  channel: email
+  name: Variant 1
+  subject: 'Before They Go: Up To 65% Off'
+  preheader: Bring home styles in their final run while you still can.
+  html_file: html/p_2025_05_21_cz_mdw_archive_sale_email.html
+  screenshot: screenshots/p_2025_05_21_cz_mdw_archive_sale_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682cebba5efb0d006450eb11/original.png?1747774394
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682cebce3c073f006502c416/original.png?1747774413
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682d0025f190360065d3d943/original.png?1747779620
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6825051d3978950064497292/original.png?1747256605
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682ceac93c073f006502bcbc/original.png?1747774152
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682cec955b87ca0066e9dd35/original.png?1747774612
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6825051173e6540066fdea3c/original.png?1747256592
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682504341c57270084958b20/original.png?1747256372
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682504447d6ee7006773b877/original.png?1747256388
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/682cec885b87ca0066e9dd05/original.png?1747774599
+- id: 03e9b457-1f12-4590-87f3-b6c2f5f8f21e
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 96224
+  total_delivered: 95740
+  total_opens: 51214
+  total_clicks: 1463
+  open_rate: 0.5322
+  click_rate: 0.0152
+  total_revenue: 97460.86
+  total_bounces: 2
+  total_unsubscribes: 90
+  ga4:
+    sessions: 2789
+    purchases: 32
+    revenue: 16268.3
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.497631'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:31.571541'
+schedule_type: time_based

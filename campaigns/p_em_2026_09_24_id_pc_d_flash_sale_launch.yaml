@@ -1,0 +1,32 @@
+id: 003cae02-a099-432c-b0b8-87eb791d2776
+name: P_EM_2026_09_24_ID_PC_D_Flash_Sale_Launch
+brand: ID
+channel: email
+category: product_launch
+type: sale
+theme: null
+braze_id: 003cae02-a099-432c-b0b8-87eb791d2776
+dates:
+  send_date: '2026-09-24'
+  first_sent: '2026-09-24T10:45:04+00:00'
+  last_sent: '2026-09-24T10:00:00+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 546adc99-17fc-4337-9d86-7630e90ad344
+  channel: email
+  name: Variant 1
+  subject: 'The Flash Sale is here: 25-30% off everything'
+  preheader: Now is the time to buy the piece you have been eyeing.
+- id: a0f4c16b-8e34-4513-9b7b-ecd7ab25e510
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 529
+  total_delivered: 523
+  total_opens: 99
+  total_clicks: 6
+  open_rate: 0.1871
+  click_rate: 0.0113
+schedule_type: time_based
+_filename: p_em_2026_09_24_id_pc_d_flash_sale_launch.yaml

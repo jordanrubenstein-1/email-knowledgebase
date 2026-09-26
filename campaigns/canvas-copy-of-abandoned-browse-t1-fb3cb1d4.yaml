@@ -1,0 +1,24 @@
+id: fb3cb1d4-12e6-4229-af8d-33d8a35c6372
+name: Reminder 2
+brand: BUR
+channel: email
+category: reminder
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 16177c88-f1ea-4a8c-a4e8-c151856a1d28
+canvas_name: Copy of Abandoned browse
+flow_type: browse_abandonment
+sequence_position: 1
+subject: Still thinking it over?
+preheader: ''
+sends:
+- id: fb3cb1d4-12e6-4229-af8d-33d8a35c6372
+  channel: email
+  name: Reminder 2
+  subject: Still thinking it over?
+  preheader: ''
+  html_file: html/canvas-copy-of-abandoned-browse-t1-fb3cb1d4.html
+dates:
+  first_sent: null
+  last_sent: null
+performance_summary: {}

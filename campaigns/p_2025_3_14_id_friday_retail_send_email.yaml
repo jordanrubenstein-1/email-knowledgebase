@@ -1,0 +1,47 @@
+id: 792b01a7-da96-4196-991d-3b23240476a7
+name: P_2025_3_14_ID_Friday_Retail_Send_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 792b01a7-da96-4196-991d-3b23240476a7
+dates:
+  send_date: '2025-03-14'
+  inferred_send_type: scheduled
+  first_sent: '2025-03-14T05:38:24+00:00'
+  last_sent: '2025-03-14T17:15:08+00:00'
+tags:
+- Retail-Send
+sends:
+- id: ccf9c2f5-bae4-430c-8d58-f1ad6db6a33a
+  channel: email
+  name: Variant 1
+  subject: Weekend plans? SHOP THE SALE!
+  preheader: Our design experts are ready to help.
+- id: 51b55a2f-cc5f-4bc2-b79b-907e1347b522
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 123624
+  total_delivered: 122324
+  total_opens: 30033
+  total_clicks: 368
+  open_rate: 0.2429
+  click_rate: 0.003
+  total_revenue: 176082.0
+  total_bounces: 1
+  total_unsubscribes: 79
+  ga4:
+    sessions: 429
+    purchases: 2
+    revenue: 4087.06
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.239306'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:32.942617'
+schedule_type: time_based

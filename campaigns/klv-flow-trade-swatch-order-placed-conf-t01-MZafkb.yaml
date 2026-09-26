@@ -1,0 +1,56 @@
+id: klaviyo-MZafkb
+name: TRG_EM_2024_01_TI_Trade_D_Order_Confirmation_Swatch_Order_T1_V1
+brand: TI
+channel: email
+category: other
+type: announcement
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: PWQDxs
+canvas_name: '[TRADE] Swatch Order Placed - CONFIRMATION'
+flow_type: swatch_followup
+sequence_position: 1
+dates:
+  created: '2020-03-06'
+  inferred_send_type: sto
+  first_sent: '2020-03-06'
+  last_sent: '2025-07-15'
+sends:
+- id: MZafkb
+  channel: email
+  name: Message
+  subject: Your swatch order is confirmed
+  preheader: Heading your way soon
+  html_file: html/klv-flow-trade-swatch-order-placed-conf-t01-MZafkb.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/191b235b-cebc-46b7-99a6-b5ad151917f4.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/63e6a003-1df7-4321-a7d7-09e920341243.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/601b6746-08e4-4ea6-a290-4046ce7b510a.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/fb054699-9524-4a6f-a0ec-d74e6b8c0c29.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/8deea1c9-9a1a-4784-89c8-b59ba70fc9ba.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/60608e35-9f41-4774-ad6b-67310d75ceb2.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/f2727453-e467-4119-a22e-dd974e0e91b8.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/8f7c621f-2578-4e82-bf9c-381b46dc9f6a.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/21e4d33c-75ad-4a7f-bf95-a3fdff24abf1.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/4bdd8ea9-7dc5-48a2-ad86-04a53434c8a1.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: MZafkb
+structure:
+  image_count: 22
+  link_count: 21
+  has_gif: false
+  hero_width: 600
+  layout_type: product_grid

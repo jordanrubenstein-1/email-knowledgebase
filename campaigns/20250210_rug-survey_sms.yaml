@@ -1,0 +1,30 @@
+id: d1bc6115-730a-4efd-a338-64c8cee315d0
+name: 20250210_Rug-Survey_SMS
+brand: BUR
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: d1bc6115-730a-4efd-a338-64c8cee315d0
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-02-10T03:05:40+00:00'
+  last_sent: '2025-02-11T03:00:05+00:00'
+tags: []
+sends:
+- id: 12fd6e21-7897-4d11-8234-3291fe07aaa3
+  channel: other
+  name: Variant 1
+- id: a26cb7c1-a471-475d-afc8-cea959b38bc7
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.842957'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

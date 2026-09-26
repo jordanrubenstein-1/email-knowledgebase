@@ -1,0 +1,30 @@
+id: 9f56b514-3eec-4e8b-a12b-56ebc8886916
+name: 20250531_MDS_Extension_Ends_Soon_SMS
+brand: BUR
+channel: sms
+category: reminder
+type: announcement
+theme: null
+braze_id: 9f56b514-3eec-4e8b-a12b-56ebc8886916
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-05-31T02:05:29+00:00'
+  last_sent: '2025-06-01T01:00:35+00:00'
+tags: []
+sends:
+- id: b4c8e550-5f6c-45e2-ad55-c3e6393ce4b6
+  channel: other
+  name: Variant 1
+- id: 947e5b97-9220-44c0-8281-921ce8c2e972
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 133
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.496263'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

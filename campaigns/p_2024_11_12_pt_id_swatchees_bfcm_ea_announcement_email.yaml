@@ -1,0 +1,33 @@
+id: e0a4a6a2-384f-4876-b6ad-9d41ea44108e
+name: P_2024_11_12_PT_ID_Swatchees_BFCM_EA_Announcement_Email
+brand: ID
+channel: email
+category: sale_promo
+type: product_launch
+theme: black_friday
+braze_id: e0a4a6a2-384f-4876-b6ad-9d41ea44108e
+dates:
+  send_date: '2024-11-12'
+  inferred_send_type: scheduled
+  first_sent: '2024-11-12T02:31:09+00:00'
+  last_sent: '2024-11-12T16:15:04+00:00'
+tags: []
+sends:
+- id: 1d9fba41-ec86-443f-afdb-3cacf5bb8425
+  channel: email
+  name: Variant 1
+  subject: 'VIP EARLY ACCESS: unlock up to 25% off'
+- id: c363aa3d-ea78-487a-b761-b2c78cd0fd16
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 21853
+  total_delivered: 21616
+  total_opens: 5952
+  total_clicks: 326
+  open_rate: 0.2724
+  click_rate: 0.0149
+  total_revenue: 275790.0
+  total_unsubscribes: 36
+_filename: p_2024_11_12_pt_id_swatchees_bfcm_ea_announcement_email.yaml
+schedule_type: time_based

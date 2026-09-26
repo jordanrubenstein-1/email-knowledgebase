@@ -1,0 +1,47 @@
+id: 1ef78721-966c-48c9-a008-7d0a7e1c0566
+name: P_2025_05_04_ID_Quick_Ship_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 1ef78721-966c-48c9-a008-7d0a7e1c0566
+dates:
+  send_date: '2025-05-04'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-04T07:36:32+00:00'
+  last_sent: '2025-05-04T17:15:05+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 3359b48b-eb43-41f5-b8c8-ca7d457df47a
+  channel: email
+  name: Variant 1
+  subject: Get It Fast
+  preheader: Two of our most adored collections, on their way to you.
+- id: af69125a-2161-4c1f-b4fb-2c03c1835e31
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 158311
+  total_delivered: 156325
+  total_opens: 37823
+  total_clicks: 617
+  open_rate: 0.2389
+  click_rate: 0.0039
+  total_revenue: 75073.4
+  total_bounces: 3
+  total_unsubscribes: 124
+  ga4:
+    sessions: 763
+    purchases: 2
+    revenue: 9592.32
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.477534'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:35.750125'
+schedule_type: time_based

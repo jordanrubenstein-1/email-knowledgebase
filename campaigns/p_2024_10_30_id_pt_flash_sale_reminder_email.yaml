@@ -1,0 +1,67 @@
+id: ae606bf6-5246-4224-9484-88c8481d48b8
+name: P_2024_10_30_ID_PT_Flash_Sale_Reminder_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: ae606bf6-5246-4224-9484-88c8481d48b8
+dates:
+  send_date: '2024-10-30'
+  inferred_send_type: scheduled
+  first_sent: '2024-10-30T05:25:17+00:00'
+  last_sent: '2024-10-30T17:15:05+00:00'
+tags: []
+sends:
+- id: 488357b8-9875-4998-9511-aa0a710afb5e
+  channel: email
+  name: Variant 1
+  subject: 'ICYMI: Shop 20% Off Sitewide'
+- id: fbbe2afa-3705-4812-8323-af1293f31438
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 60135
+  total_delivered: 59749
+  total_opens: 21535
+  total_clicks: 440
+  open_rate: 0.3581
+  click_rate: 0.0073
+  total_revenue: 196515.5
+  total_bounces: 1
+  total_unsubscribes: 135
+  ga4:
+    sessions: 636
+    purchases: 6
+    revenue: 18523.85
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.596826'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-20-off-strikethrough-2024-10-28
+    name: 20% off (strikethrough)
+    start_date: '2024-10-28'
+    end_date: '2024-10-31'
+    discount: null
+    type: null
+  - id: id-flash-sale-2024-10-28
+    name: Flash Sale
+    start_date: '2024-10-28'
+    end_date: '2024-10-31'
+    discount: null
+    type: null
+  primary_sale:
+    id: id-20-off-strikethrough-2024-10-28
+    name: 20% off (strikethrough)
+    start_date: '2024-10-28'
+    end_date: '2024-10-31'
+    discount: null
+    type: null
+  sale_name: 20% off (strikethrough)
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:37.375354'
+schedule_type: time_based

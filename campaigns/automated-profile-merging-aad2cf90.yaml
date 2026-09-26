@@ -1,0 +1,31 @@
+id: aad2cf90-923a-4bc3-a7df-074600822035
+name: Automated Profile Merging
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: aad2cf90-923a-4bc3-a7df-074600822035
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-08-28T22:00:00+00:00'
+  last_sent: '2026-04-21T20:00:00+00:00'
+tags:
+- customer
+sends:
+- id: 4bc10500-3be9-4fe2-b007-994415db8fb6
+  channel: other
+  name: Variant 1
+- id: 04921762-edf9-4b7e-be6c-2d91b3406c8d
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 10458
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 364465.92
+_filename: automated-profile-merging-aad2cf90.yaml
+schedule_type: action_based

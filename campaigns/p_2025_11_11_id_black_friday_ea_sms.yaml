@@ -1,0 +1,30 @@
+id: 7d0a1c8a-3433-4e18-a812-459529f61363
+name: P_2025_11_11_ID_Black_Friday_EA_SMS
+brand: ID
+channel: sms
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 7d0a1c8a-3433-4e18-a812-459529f61363
+dates:
+  send_date: '2025-11-11'
+  inferred_send_type: local_time
+  first_sent: '2025-11-11T05:09:17+00:00'
+  last_sent: '2025-11-12T01:02:58+00:00'
+tags: []
+sends:
+- id: ab9aa272-3e23-4a4d-a25d-0b6640d0dbd6
+  channel: other
+  name: Variant 1
+- id: b32f723f-660a-43a4-b172-c6075b7deebc
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 51149
+  total_delivered: 48676
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 56915.0
+schedule_type: time_based

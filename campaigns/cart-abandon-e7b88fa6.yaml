@@ -1,0 +1,83 @@
+id: e7b88fa6-566d-498d-bbae-9c0b680f9c03
+name: Cart Abandon
+brand: CZ
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: e7b88fa6-566d-498d-bbae-9c0b680f9c03
+braze_type: canvas
+campaign_type: Triggered Journey
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-08-29T00:00:00+00:00'
+  last_sent: '2025-11-20T14:00:00+00:00'
+tags:
+- cart abandon
+sends:
+- id: dddb2703-8ab6-4f02-92af-e8ab8279286b
+  channel: email
+  name: TRG_EM_2024_08_CZ_D_Cart_Abandon_T3
+  subject: Your cart is waiting...
+  preheader: You are almost there
+  step_id: a4522f13-eebf-4267-b83c-c33412ac5da8
+- id: bd8a5547-5325-4418-b4b1-0023ba270545
+  channel: email
+  name: TRG_EM_2024_08_CZ_D_Cart_Abandon_T2
+  subject: We saved your cart
+  preheader: ''
+  step_id: 72479df6-ef0a-4364-94ee-3c09b6a6e287
+- id: 7fce9b4b-a47d-4e76-994c-f6ffa848193e
+  channel: email
+  name: TRG_EM_2024_08_CZ_D_Cart_Abandon_T4
+  subject: Your Cart is Ready
+  preheader: ''
+  step_id: ac02e316-2d14-4c2f-931a-1adca7908b32
+performance_summary: {}
+canvas_steps:
+- id: a4522f13-eebf-4267-b83c-c33412ac5da8
+  name: TRG_EM_2024_08_CZ_D_Cart_Abandon_T3
+  type: message
+  channel: email
+  subject: Your cart is waiting...
+  preheader: You are almost there
+- id: 72479df6-ef0a-4364-94ee-3c09b6a6e287
+  name: TRG_EM_2024_08_CZ_D_Cart_Abandon_T2
+  type: message
+  channel: email
+  subject: We saved your cart
+  preheader: ''
+- id: c0d69cec-ab26-4f1b-8f03-969faf29c4e5
+  name: D3 1 day
+  type: delay
+- id: ac02e316-2d14-4c2f-931a-1adca7908b32
+  name: TRG_EM_2024_08_CZ_D_Cart_Abandon_T4
+  type: message
+  channel: email
+  subject: Your Cart is Ready
+  preheader: ''
+- id: 2033d7d5-1713-42b5-ab6e-de947c22dd26
+  name: D2 40 mins
+  type: delay
+- id: 12bf24ae-9819-4643-8fc6-c1a3e47e48dd
+  name: Email Subscribed?
+  type: decision_split
+- id: e90e3277-cfea-4ab1-8154-5ce214f749e1
+  name: D4 1 day
+  type: delay
+- id: c2a4b0fc-2aaa-4f7e-b400-755f55210a2b
+  name: SMS Opted In?
+  type: decision_split
+- id: b23dc92b-948e-40ae-a9a5-bf7f339c900f
+  name: TRG_SMS_2024_08_CZ_D_Cart_Abandon_T1
+  type: message
+- id: d32057bc-f0d4-4ad9-9997-164795ad41da
+  name: Email Subscribed?
+  type: decision_split
+- id: b0bee549-673a-455c-9dbf-fde3eed5b293
+  name: Email Subscribed?
+  type: decision_split
+- id: 8a53eb36-3332-4f0a-85f8-f38a25ab19b2
+  name: D1 20 mins
+  type: action_paths
+_filename: cart-abandon-e7b88fa6.yaml

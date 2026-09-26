@@ -1,0 +1,56 @@
+id: klaviyo-UBPHGC
+name: TRG_EM_2024_01_TI_D_Shipping_Confirmation_Non_Swatch_Order_T1_V1
+brand: TI
+channel: email
+category: other
+type: product_launch
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: TsqSNL
+canvas_name: '[NEW] Shipped: NONSWATCH Order Shipped'
+flow_type: swatch_followup
+sequence_position: 1
+dates:
+  created: '2021-08-03'
+  inferred_send_type: sto
+  first_sent: '2021-08-03'
+  last_sent: '2026-06-20'
+sends:
+- id: UBPHGC
+  channel: email
+  name: Message
+  subject: Great news! Items from order {{ event|lookup:'order_id' }} shipped.
+  preheader: Track your items here.
+  html_file: html/klv-flow-new-shipped-nonswatch-order-sh-t01-UBPHGC.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/67a9093e-bf9f-4df5-85f3-eacf0a52ba12.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/eda527ca-ffa7-4577-85d7-8e71e9bf63a8.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/392736ed-6da6-449a-8646-35d5d6a0cf9c.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/cef32bea-a4cc-4f24-aca8-15e18b7cbfb7.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/92d4f85a-e648-4016-9732-56d261c5e3e0.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/b398c3ca-c7f5-41f2-bedc-27a54cf334fb.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/69a68883-3bce-41ac-802d-c532d6fa1f13.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/dccf9ff5-8748-4e56-89b2-548bc39a42d2.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/eca135b9-dda2-4bd5-b0ec-1ad5df376ab2.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/48f8b0bf-f674-4de6-83a6-f00ae0bfb57e.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: UBPHGC
+structure:
+  image_count: 11
+  link_count: 11
+  has_gif: false
+  hero_width: 600
+  layout_type: product_grid

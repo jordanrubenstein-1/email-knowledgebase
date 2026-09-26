@@ -1,0 +1,38 @@
+id: a0821948-8a3a-48ce-95a5-c82a39d2e7d0
+name: P_2024_1_16_ID_Jan_Sale_Announcement_Email
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: a0821948-8a3a-48ce-95a5-c82a39d2e7d0
+dates:
+  send_date: '2024-01-16'
+  inferred_send_type: scheduled
+  first_sent: '2025-01-16T05:57:08+00:00'
+  last_sent: '2025-01-16T17:15:05+00:00'
+tags: []
+sends:
+- id: 6dcfafab-605e-4cfe-9c80-3f985518754f
+  channel: email
+  name: Variant 1
+  subject: Start 2025 With 20% Off Sitewide
+  preheader: The Refresh Sale starts now.
+- id: 4545bfa5-9ad4-4ab9-8236-b9f3201e3856
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 97127
+  total_delivered: 96168
+  total_opens: 26106
+  total_clicks: 681
+  open_rate: 0.2688
+  click_rate: 0.007
+  total_revenue: 150642.0
+  total_bounces: 1
+  total_unsubscribes: 96
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.782601'
+schedule_type: time_based

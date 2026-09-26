@@ -1,0 +1,62 @@
+id: 49a729ff-e2ef-4d9c-812c-c7b984a0b1cb
+name: P_2025_07_13_ID_D_GTL_Classic_But_Colorful_Email
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 49a729ff-e2ef-4d9c-812c-c7b984a0b1cb
+dates:
+  send_date: '2025-07-13'
+  inferred_send_type: local_time
+  first_sent: '2025-07-12T18:23:27+00:00'
+  last_sent: '2025-07-13T17:15:14+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 8e019bbc-6b42-4c68-a0e6-8404ce2f38f4
+  channel: email
+  name: Variant 1
+  subject: A Fresh Take on Traditional
+  preheader: The furniture trend that’s both familiar and fresh.
+- id: d201e335-244a-4178-b2d6-d42d2787c280
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 117811
+  total_delivered: 116393
+  total_opens: 53414
+  total_clicks: 685
+  open_rate: 0.4534
+  click_rate: 0.0058
+  total_revenue: 148217.34
+  total_unsubscribes: 366
+  ga4:
+    sessions: 706
+    purchases: 1
+    revenue: 2594.65
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.367305'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-private-sale-retail-only-2025-07-11
+    name: Private Sale - Retail Only
+    start_date: '2025-07-11'
+    end_date: '2025-07-21'
+    discount: 20% off sitewide
+    type: null
+  primary_sale:
+    id: id-private-sale-retail-only-2025-07-11
+    name: Private Sale - Retail Only
+    start_date: '2025-07-11'
+    end_date: '2025-07-21'
+    discount: 20% off sitewide
+    type: null
+  sale_name: Private Sale - Retail Only
+  sale_discount: 20% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:34.388917'
+schedule_type: time_based

@@ -1,0 +1,33 @@
+id: 17de4cf3-3960-459f-b28f-2cb3a103bd82
+name: P_EM_2026_07_31_BW_D_Summer_Sale_Final_Hours_Morning
+brand: BUR
+channel: email
+category: reminder
+type: sale
+theme: summer
+braze_id: 17de4cf3-3960-459f-b28f-2cb3a103bd82
+dates:
+  send_date: '2026-07-31'
+  last_sent: '2026-07-31'
+tags:
+- Batch&Blast
+sends:
+- id: b7df64d9-a8de-4937-b33f-b63d0a965a55
+  channel: email
+  name: Variant 1
+  subject: Last call on the Summer Sale
+  preheader: Up to 30% off sitewide ends tonight.
+- id: 3bf91beb-72b4-4c90-bba0-f86f4026b49d
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 225728
+  total_delivered: 224881
+  total_opens: 117194
+  total_clicks: 412
+  open_rate: 0.5192
+  click_rate: 0.0018
+  total_revenue: 44449.0
+  total_unsubscribes: 127
+schedule_type: time_based
+_filename: p_em_2026_07_31_bw_d_summer_sale_final_hours_morning.yaml

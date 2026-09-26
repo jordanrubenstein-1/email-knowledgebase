@@ -1,0 +1,33 @@
+id: 034cd5a5-17f5-4e18-937d-6fa0eb442c30
+name: P_2024_10_10_HAV_Conv_Sale_Annoucement_Email
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 034cd5a5-17f5-4e18-937d-6fa0eb442c30
+dates:
+  send_date: '2024-10-10'
+  first_sent: '2024-10-10T00:16:44+00:00'
+  last_sent: '2024-10-10T17:15:03+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 1ffdc3a8-7318-42aa-b00e-87beefc76fb4
+  channel: email
+  name: Variant 1
+  subject: 'On Now: Our Autumn Event'
+  preheader: Up to 25% off fan-favorite brands
+- id: a297f9ee-afbe-4e3e-a0d7-110cea0a8596
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 36308
+  total_delivered: 36280
+  total_opens: 20516
+  total_clicks: 310
+  open_rate: 0.5651
+  click_rate: 0.0085
+  total_unsubscribes: 52
+schedule_type: time_based
+_filename: p_2024_10_10_hav_conv_sale_annoucement_email.yaml

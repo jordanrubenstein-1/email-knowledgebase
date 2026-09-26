@@ -1,0 +1,30 @@
+id: 9e5cba44-b98b-49a3-a837-e720b31c048a
+name: P_SMS_2026_02_27_BW_Quick_Ship
+brand: BUR
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: 9e5cba44-b98b-49a3-a837-e720b31c048a
+dates:
+  send_date: '2026-02-27'
+  inferred_send_type: scheduled
+  first_sent: '2026-02-27T16:30:28+00:00'
+  last_sent: '2026-02-28T01:01:16+00:00'
+tags: []
+sends:
+- id: 0e9e0f2d-d3a8-431e-8d5b-6ff432320c2e
+  channel: sms
+  name: Variant 1
+- id: 08e82772-473b-470d-ad86-4d2c7faca88b
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 6841
+  total_delivered: 6645
+  total_opens: 0
+  total_clicks: 249
+  open_rate: 0.0
+  click_rate: 0.0364
+  total_revenue: 4921.0
+schedule_type: time_based

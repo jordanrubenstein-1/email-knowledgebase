@@ -1,0 +1,61 @@
+id: ab63b89c-6ed3-4e9c-9c5c-39b9d208ee36
+name: P_EM_2025_09_18_SF_D_PF_Milan_Fashion_Week
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: ab63b89c-6ed3-4e9c-9c5c-39b9d208ee36
+dates:
+  send_date: '2025-09-18'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-18T03:35:25+00:00'
+  last_sent: '2025-09-18T17:00:28+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- dest
+sends:
+- id: d801f5cf-f634-441e-b864-c62f8f6703fc
+  channel: email
+  name: Variant 1
+  subject: Ciao, Milano
+  preheader: inside the city that defines design
+  html_file: html/p_em_2025_09_18_sf_d_pf_milan_fashion_week.html
+  screenshot: screenshots/p_em_2025_09_18_sf_d_pf_milan_fashion_week.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cb0781f58d0b0065158c79/original.png?1758136192
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cb07fd9bb97c0065be07ce/original.png?1758136317
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cb07e39bb97c0065be05ab/original.png?1758136291
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cb075b17b54c00677267af/original.png?1758136154
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cb07f02ea9bc0075597565/original.png?1758136303
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cb07f7f066e600724d6f64/original.png?1758136310
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68cb07e963df770064938397/original.png?1758136297
+- id: 657ad3c8-ea8c-4d37-8b0a-7f1723c3e059
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 39770
+  total_delivered: 39363
+  total_opens: 17928
+  total_clicks: 215
+  open_rate: 0.4508
+  click_rate: 0.0054
+  total_bounces: 1
+  total_unsubscribes: 73
+  ga4:
+    sessions: 242
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.786010'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.081615'
+schedule_type: time_based

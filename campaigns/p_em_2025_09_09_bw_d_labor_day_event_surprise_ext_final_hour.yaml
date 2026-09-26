@@ -1,0 +1,36 @@
+id: fae53062-12b9-466a-baa5-350b905cc052
+name: P_EM_2025_09_09_BW_D_Labor_Day_Event_Surprise_Ext_Final_Hours
+brand: BUR
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: fae53062-12b9-466a-baa5-350b905cc052
+dates:
+  send_date: '2025-09-09'
+  inferred_send_type: local_time
+  first_sent: '2025-09-08T20:58:30+00:00'
+  last_sent: '2025-09-09T17:15:34+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 28ac75b2-6830-4d89-9ef4-8a1667eb8321
+  channel: email
+  name: Variant 1
+  subject: FINAL DAY For 25% Off + Free Shipping
+  preheader: Don’t miss 70% off clearance & 50% off outdoor favorites
+- id: 8d00a626-1403-4d56-9d01-843af96cabd7
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 244267
+  total_delivered: 242164
+  total_opens: 139026
+  total_clicks: 338
+  open_rate: 0.5692
+  click_rate: 0.0014
+  total_revenue: 36770.3
+  total_bounces: 3
+  total_unsubscribes: 239
+_filename: p_em_2025_09_09_bw_d_labor_day_event_surprise_ext_final_hour.yaml
+schedule_type: time_based

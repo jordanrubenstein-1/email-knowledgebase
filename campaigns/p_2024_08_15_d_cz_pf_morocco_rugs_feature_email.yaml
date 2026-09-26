@@ -1,0 +1,54 @@
+id: c34b3cc1-04f8-4399-a938-240ec035dc27
+name: P_2024_08_15_D_CZ_PF_Morocco_Rugs_Feature_Email
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: c34b3cc1-04f8-4399-a938-240ec035dc27
+dates:
+  send_date: '2024-08-15'
+  inferred_send_type: local_time
+  first_sent: '2024-08-14T19:45:06+00:00'
+  last_sent: '2024-08-15T17:00:09+00:00'
+tags:
+- batch and blast
+sends:
+- id: 22c0ef9e-7f49-44b5-b3ca-2962dee201f1
+  channel: email
+  name: Variant 1
+  subject: Enduring Traditions. The Art of Beni Ourain Rugs.
+  preheader: Trace the artistry in these one-of-a-kind heirloom rugs.
+  html_file: html/p_2024_08_15_d_cz_pf_morocco_rugs_feature_email.html
+  screenshot: screenshots/p_2024_08_15_d_cz_pf_morocco_rugs_feature_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ba2bebed73d80065a4badc/original.jpg?1723476971
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ba2c2773c0ae0066a0c280/original.jpg?1723477030
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ba2bfafa5c4c0074403dc1/original.jpg?1723476986
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/66ba2c36ed73d80065a4bb2d/original.jpg?1723477046
+- id: 2aa02fd1-c0f3-4118-8f44-3c6826932611
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 37787
+  total_delivered: 37744
+  total_opens: 23272
+  total_clicks: 608
+  open_rate: 0.6159
+  click_rate: 0.0161
+  total_revenue: 31318.79
+  total_bounces: 2
+  total_unsubscribes: 58
+  ga4:
+    sessions: 490
+    purchases: 1
+    revenue: 530.87
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.314184'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.206152'
+schedule_type: time_based

@@ -1,0 +1,33 @@
+id: f76c4cb8-51fa-49b1-808e-7d2ba416764b
+name: P_2024_11_15_D_SF_PR_BFCM_Announcement_Microsoft_Email
+brand: STF
+channel: email
+category: sale_promo
+type: product_launch
+theme: black_friday
+braze_id: f76c4cb8-51fa-49b1-808e-7d2ba416764b
+dates:
+  send_date: '2024-11-15'
+  inferred_send_type: local_time
+  first_sent: '2024-11-14T17:35:51+00:00'
+  last_sent: '2024-11-15T14:30:11+00:00'
+tags:
+- Batch and Blast/promo
+sends:
+- id: da9c329a-a92d-419b-aae6-558eba00eb3f
+  channel: email
+  name: Variant 1
+  subject: 'It’s On: The Black Friday Event'
+  preheader: up to 35% off sitewide starts now
+- id: 7d1ca133-d33a-4f37-ae1d-42cd9b4895a4
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 115
+  total_delivered: 115
+  total_opens: 48
+  total_clicks: 5
+  open_rate: 0.4174
+  click_rate: 0.0435
+_filename: p_2024_11_15_d_sf_pr_bfcm_announcement_microsoft_email.yaml
+schedule_type: time_based

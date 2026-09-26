@@ -1,0 +1,54 @@
+id: d4a1fb39-0e62-44ff-a7df-0a219de6b4f9
+name: P_EM_2026_01_18_CZ_D_PR_Sateen_Winter_Refresh_Sale_EA
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: winter
+braze_id: d4a1fb39-0e62-44ff-a7df-0a219de6b4f9
+dates:
+  send_date: '2026-01-18'
+  inferred_send_type: local_time
+  first_sent: '2026-01-17T20:07:54+00:00'
+  last_sent: '2026-01-18T20:03:27+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale/winterRefesh2026
+- sale_feat
+sends:
+- id: d758b29a-f21c-4947-941e-c8c3c5a862f7
+  channel: email
+  name: Variant 1
+  subject: Made for Slow Mornings
+  preheader: Sateen layers, now 20% off.
+  html_file: html/p_em_2026_01_18_cz_d_pr_sateen_winter_refresh_sale_ea.html
+  screenshot: screenshots/p_em_2026_01_18_cz_d_pr_sateen_winter_refresh_sale_ea.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6969544632ccbc00637e121a/original.png?1768510534
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696954899288500065a34ae7/original.png?1768510601
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69694f45ccfe7e0063d415a1/original.png?1768509253
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69694f57b1bdef0063b95519/original.png?1768509271
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/696954a08147090063f21f4b/original.png?1768510624
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69695495c7ffa000638c0f16/original.png?1768510612
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69694ef90e6e3f0065f19b92/original.png?1768509176
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69694f34ce97dc0065769cc0/original.png?1768509236
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69695429f07b0100643611ae/original.png?1768510504
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69694f4cccfe7e0063d415a2/original.png?1768509260
+- id: e88f7470-98bc-4dc3-9ba6-c385d4266620
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 52735
+  total_delivered: 52669
+  total_opens: 27525
+  total_clicks: 505
+  open_rate: 0.5219
+  click_rate: 0.0096
+  total_bounces: 1
+  total_unsubscribes: 97
+_filename: p_em_2026_01_18_cz_d_pr_sateen_winter_refresh_sale_ea.yaml
+schedule_type: time_based

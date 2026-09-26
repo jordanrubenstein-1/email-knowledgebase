@@ -1,0 +1,23 @@
+id: 5f59eab9-0756-4841-98c0-d17a6b846e73
+name: Popup_HAV_CONV_Flash_Sale
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 5f59eab9-0756-4841-98c0-d17a6b846e73
+dates:
+  first_sent: '2026-09-24T16:00:00+00:00'
+  last_sent: '2026-09-25T12:00:00+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 950060fd-faa4-4ec4-bbcb-ec55e4330de2
+  channel: other
+  name: Control Group
+- id: 558de067-1985-423e-87d6-436de61ed4bb
+  channel: other
+  name: Variant 1
+performance_summary: {}
+schedule_type: action_based
+_filename: popup_hav_conv_flash_sale-5f59eab9.yaml

@@ -1,0 +1,31 @@
+id: c6d88fd4-a66f-4d89-a769-9235ec79dcba
+name: TRG_EM_2025_08_ID_D_Product_Browse_Abandon_T2_V2
+brand: ID
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 7a0b3741-1541-4f67-b013-bfa88886c99d
+canvas_name: Browse Abandon - JR Test
+flow_type: browse_abandonment
+sequence_position: 2
+subject: Your next move?
+preheader: Add it to your cart
+sends:
+- id: c6d88fd4-a66f-4d89-a769-9235ec79dcba
+  channel: email
+  name: TRG_EM_2025_08_ID_D_Product_Browse_Abandon_T2_V2
+  subject: Your next move?
+  preheader: Add it to your cart
+  html_file: html/canvas-browse-abandon-jr-test-t2-c6d88fd4.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-04-19T00:00:00Z'
+  last_sent: '2026-05-24T20:00:00Z'
+performance_summary:
+  total_sends: 16
+  total_delivered: 16
+  total_opens: 17
+  total_clicks: 1
+  open_rate: 1.0625
+  click_rate: 0.0625

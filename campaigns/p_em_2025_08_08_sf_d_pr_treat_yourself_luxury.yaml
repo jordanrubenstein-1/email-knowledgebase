@@ -1,0 +1,82 @@
+id: 837c1265-3e2c-4a6a-a3b4-bfe7ab9b4599
+name: P_EM_2025_08_08_SF_D_PR_Treat_Yourself_Luxury
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 837c1265-3e2c-4a6a-a3b4-bfe7ab9b4599
+dates:
+  send_date: '2025-08-08'
+  inferred_send_type: local_time
+  first_sent: '2025-08-08T00:11:43+00:00'
+  last_sent: '2025-08-08T17:00:28+00:00'
+tags:
+- Batch and Blast
+- am
+- bedding
+- d2c
+- designed
+- prod
+- sale
+sends:
+- id: d69c0209-8121-430e-ad17-e2aebc44d879
+  channel: email
+  name: Variant 1
+  subject: Upgrade Your Bed With 20% Off
+  preheader: luxury looks good on you
+  html_file: html/p_em_2025_08_08_sf_d_pr_treat_yourself_luxury.html
+  screenshot: screenshots/p_em_2025_08_08_sf_d_pr_treat_yourself_luxury.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6893b60a407827007455f642/original.png?1754510858
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689507978ee6620063a38607/original.png?1754597271
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6893b625aae5f00072576264/original.png?1754510884
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6893b611fb8c0c0073f2e055/original.png?1754510865
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6893b62e407827008455f5e3/original.png?1754510894
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689507a3e4d1eb006387c84f/original.png?1754597282
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6893b5fbc28b7a009423c60e/original.png?1754510843
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/689507bd611549006159f53c/original.png?1754597308
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6893b63547b20f00644649ff/original.png?1754510901
+- id: bb0343c1-167b-4c1d-b1de-0aa5be01d508
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41254
+  total_delivered: 41171
+  total_opens: 18984
+  total_clicks: 220
+  open_rate: 0.4602
+  click_rate: 0.0053
+  total_revenue: 9464.0
+  total_bounces: 2
+  total_unsubscribes: 77
+  ga4:
+    sessions: 238
+    purchases: 3
+    revenue: 813.73
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.044409'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off Sitewide
+    type: null
+  primary_sale:
+    id: stf-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off Sitewide
+    type: null
+  sale_name: The Sunset Sale
+  sale_discount: 20% off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:42.685426'
+schedule_type: time_based

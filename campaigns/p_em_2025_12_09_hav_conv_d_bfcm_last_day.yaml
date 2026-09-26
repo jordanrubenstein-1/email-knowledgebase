@@ -1,0 +1,34 @@
+id: b140f41e-c11b-4099-b25a-8c0b1624a05b
+name: P_EM_2025_12_09_HAV_CONV_D_BFCM_Last_Day
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: black_friday
+braze_id: b140f41e-c11b-4099-b25a-8c0b1624a05b
+dates:
+  send_date: '2025-12-09'
+  first_sent: '2025-12-08T23:10:29+00:00'
+  last_sent: '2025-12-09T17:16:11+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: 88651466-af0f-46df-91f8-e820c75c648b
+  channel: email
+  name: Variant 1
+  subject: Hey, Cyber Week sales end tonight!
+  preheader: The final hours to love your space a little more.
+- id: 37751c47-1c73-4b01-8e20-ee095f02437b
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 43686
+  total_delivered: 43636
+  total_opens: 22473
+  total_clicks: 110
+  open_rate: 0.5144
+  click_rate: 0.0025
+  total_unsubscribes: 76
+schedule_type: time_based
+_filename: p_em_2025_12_09_hav_conv_d_bfcm_last_day.yaml

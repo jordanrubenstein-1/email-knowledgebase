@@ -1,0 +1,36 @@
+id: b1cad8b2-aec1-435b-a716-4cdacd51b99b
+name: 2025_03_31_ID_Sale_Reminder_BNDL_Last_Chance_PM_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: b1cad8b2-aec1-435b-a716-4cdacd51b99b
+dates:
+  send_date: '2025-03-31'
+  inferred_send_type: scheduled
+  first_sent: '2025-03-31T22:25:53+00:00'
+  last_sent: '2025-03-31T22:28:16+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: d38cadb7-026d-445f-a0c7-a41150d6b34b
+  channel: email
+  name: Variant 1
+  subject: Being indecisive is understandable.
+  preheader: Missing an EXCLUSIVE 25% OFF deal? Not so much.
+- id: 4b61ab8b-7dee-492e-b7b6-4163fd98c477
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 139314
+  total_delivered: 137269
+  total_opens: 33021
+  total_clicks: 468
+  open_rate: 0.237
+  click_rate: 0.0034
+  total_revenue: 115533.0
+  total_bounces: 5
+  total_unsubscribes: 78
+_filename: 2025_03_31_id_sale_reminder_bndl_last_chance_pm_email.yaml
+schedule_type: time_based

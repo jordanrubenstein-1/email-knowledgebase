@@ -1,0 +1,63 @@
+id: e02d200e-ca96-4f95-9568-0cb21f5170d7
+name: P_EM_2025_09_25_CZ_D_PR_Fall_Collection_Launch_3
+brand: CZ
+channel: email
+category: product_launch
+type: seasonal
+theme: fall
+braze_id: e02d200e-ca96-4f95-9568-0cb21f5170d7
+dates:
+  send_date: '2025-09-25'
+  inferred_send_type: local_time
+  first_sent: '2025-09-24T21:57:40+00:00'
+  last_sent: '2025-09-25T17:15:22+00:00'
+tags:
+- am
+- batch and blast
+- collect
+- d2c
+- designed
+sends:
+- id: 1ff477b4-bedd-42ca-b032-08de669c236d
+  channel: email
+  name: Variant 1
+  subject: Don’t Miss Our New Icons
+  preheader: This season’s must-haves, worth collecting.
+  html_file: html/p_em_2025_09_25_cz_d_pr_fall_collection_launch_3.html
+  screenshot: screenshots/p_em_2025_09_25_cz_d_pr_fall_collection_launch_3.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d43a17cd58ff00659a3607/original.png?1758738966
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d43a0fa91c8600644ce509/original.png?1758738959
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d43a8ea91c8600644ceaa0/original.png?1758739085
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d43b7c9ace4600668c9aeb/original.png?1758739323
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d43a67a91c8600644ce8c2/original.png?1758739047
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d43b4c307dee00673afc80/original.png?1758739276
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d43b6151ba790085efea3c/original.png?1758739297
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d43b6a648b030076af6247/original.png?1758739306
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d43a840aef990083603454/original.png?1758739075
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68d43b5b9ace4600668c97de/original.png?1758739290
+- id: 16e0cb82-35c2-4cdb-9961-f5510ed97015
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 113180
+  total_delivered: 112764
+  total_opens: 60287
+  total_clicks: 691
+  open_rate: 0.5327
+  click_rate: 0.0061
+  total_bounces: 2
+  total_unsubscribes: 216
+  ga4:
+    sessions: 597
+    purchases: 5
+    revenue: 2934.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.959778'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:37.053536'
+schedule_type: time_based

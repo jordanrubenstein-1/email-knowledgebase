@@ -1,0 +1,30 @@
+id: db595e0d-74b1-4d75-97cc-d2247ddc8caa
+name: P_2025_7_04_4th_Of_July_Sale_Reminder_SMS
+brand: ID
+channel: sms
+category: reminder
+type: sale
+theme: null
+braze_id: db595e0d-74b1-4d75-97cc-d2247ddc8caa
+dates:
+  send_date: '2025-07-04'
+  inferred_send_type: local_time
+  first_sent: '2025-07-04T01:22:32+00:00'
+  last_sent: '2025-07-05T00:15:16+00:00'
+tags: []
+sends:
+- id: 034779bc-0c29-4362-aaf7-adddbf3d93cb
+  channel: other
+  name: Variant 1
+- id: 5eddd6b0-4e9b-465e-9dc5-838eab5cc226
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 56958
+  total_delivered: 53420
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 39940.0
+schedule_type: time_based

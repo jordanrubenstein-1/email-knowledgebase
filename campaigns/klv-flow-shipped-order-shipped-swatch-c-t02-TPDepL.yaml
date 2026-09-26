@@ -1,0 +1,56 @@
+id: klaviyo-TPDepL
+name: Customer Swatch Email 3. Get Started
+brand: TI
+channel: email
+category: other
+type: announcement
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: UsEh2p
+canvas_name: 'Shipped: Order Shipped SWATCH (clone)'
+flow_type: swatch_followup
+sequence_position: 2
+dates:
+  created: '2023-09-12'
+  inferred_send_type: scheduled
+  first_sent: '2023-09-12'
+  last_sent: '2023-09-12'
+sends:
+- id: TPDepL
+  channel: email
+  name: Message
+  subject: Your next step ✨
+  preheader: Bring your swatches to life
+  html_file: html/klv-flow-shipped-order-shipped-swatch-c-t02-TPDepL.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/16fa1673-cc1f-4f35-9ede-d20a42c61e53.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/31ccacc2-38cf-46df-8db0-0d6cfa3d9882.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/d049f6e9-4dc4-4e7f-8537-2cb3dcedf848.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/ea06264c-4225-48a0-b36e-7141fe72993d.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/6fc4bbed-b876-46d1-99f3-a5f99ff84942.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/f5cb9293-48bb-4ce2-ab49-76bf2f6dac0e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/3b8be331-0031-435e-85c5-284dca6f02da.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/51b7f048-4b60-4630-b081-20241c535df5.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/6868b2fe-128a-46d3-a84b-3450443a6b65.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/b67ea126-62ce-4fbc-8215-129d280734bb.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: TPDepL
+structure:
+  image_count: 29
+  link_count: 30
+  has_gif: false
+  hero_width: 600
+  layout_type: product_grid

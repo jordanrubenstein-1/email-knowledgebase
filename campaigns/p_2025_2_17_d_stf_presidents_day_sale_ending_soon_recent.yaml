@@ -1,0 +1,48 @@
+id: 47a59459-17a1-4efc-814a-fe023f00eb4a
+name: P_2025_2_17_D_STF_Presidents_Day_Sale_Ending_Soon_Recent
+brand: STF
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 47a59459-17a1-4efc-814a-fe023f00eb4a
+dates:
+  send_date: '2025-02-17'
+  inferred_send_type: local_time
+  first_sent: '2025-02-16T17:23:43+00:00'
+  last_sent: '2025-02-17T17:15:06+00:00'
+tags: []
+sends:
+- id: bbee7f10-966f-434c-89de-e3ad2eb7a9ce
+  channel: email
+  name: Variant 1
+  subject: Ending Soon! 20% Off Sitewide
+  preheader: you’re not gonna want to miss this!
+  html_file: html/p_2025_2_17_d_stf_presidents_day_sale_ending_soon_recent.html
+  screenshot: screenshots/p_2025_2_17_d_stf_presidents_day_sale_ending_soon_recent.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af608507b8b40065d84790/original.jpg?1739546757
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af6077a7db3800675f1208/original.jpg?1739546743
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af60426fcf0d0066ca2252/original.jpg?1739546689
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af606ef9a0ab0065bea3e1/original.jpg?1739546733
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af60498da1ba00651e228a/original.jpg?1739546697
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af60f407b8b40065d848ea/original.jpg?1739546868
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af60336fcf0d0066ca21d6/original.gif?1739546675
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af60e27f1d9e0065e7f577/original.jpg?1739546850
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67af60ed4e18d00074a8bbc8/original.jpg?1739546861
+- id: 49900996-897b-4e86-a664-ee018dd79c34
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 3062
+  total_delivered: 3048
+  total_opens: 1787
+  total_clicks: 64
+  open_rate: 0.5836
+  click_rate: 0.0209
+  total_revenue: 10522.0
+  total_bounces: 1
+  total_unsubscribes: 24
+_filename: p_2025_2_17_d_stf_presidents_day_sale_ending_soon_recent.yaml
+schedule_type: time_based

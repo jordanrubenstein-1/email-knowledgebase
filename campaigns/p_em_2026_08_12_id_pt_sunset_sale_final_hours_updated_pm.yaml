@@ -1,0 +1,35 @@
+id: 7a241bbd-300c-47ab-8717-365a8aef9187
+name: P_EM_2026_08_12_ID_PT_Sunset_Sale_Final_Hours_Updated_PM
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 7a241bbd-300c-47ab-8717-365a8aef9187
+dates:
+  send_date: '2026-08-12'
+  first_sent: '2026-08-12T22:02:47+00:00'
+  last_sent: '2026-08-12T22:16:00+00:00'
+  inferred_send_type: scheduled
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 655afcb1-614a-4681-8719-9a85c8c6097e
+  channel: email
+  name: Variant 1
+  subject: 'FINAL HOURS: the Flash Sale ends tonight'
+- id: bd6a34b2-e933-4d45-bdb8-5b60d0280780
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 126256
+  total_delivered: 126130
+  total_opens: 48242
+  total_clicks: 626
+  open_rate: 0.3821
+  click_rate: 0.005
+  total_revenue: 142567.94
+  total_bounces: 3
+  total_unsubscribes: 210
+schedule_type: time_based
+_filename: p_em_2026_08_12_id_pt_sunset_sale_final_hours_updated_pm.yaml

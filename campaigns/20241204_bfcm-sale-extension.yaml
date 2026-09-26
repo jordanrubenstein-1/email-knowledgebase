@@ -1,0 +1,61 @@
+id: 0fdb7e38-15b9-4b16-a2cf-df752de92d38
+name: 20241204_BFCM-Sale-Extension
+brand: BUR
+channel: email
+category: sale_promo
+type: sale
+theme: black_friday
+braze_id: 0fdb7e38-15b9-4b16-a2cf-df752de92d38
+dates:
+  inferred_send_type: local_time
+  first_sent: '2024-12-03T21:52:30+00:00'
+  last_sent: '2024-12-04T17:15:41+00:00'
+tags: []
+sends:
+- id: bee7c852-55bf-43cb-8ffb-8853fc5f64c6
+  channel: email
+  name: Variant 1
+  subject: Sale, extended!
+  preheader: Up to 25% off sitewide
+- id: a603e3bd-d07e-4345-bdb5-a35f7601831d
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 774
+    purchases: 6
+    revenue: 7951.75
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.602395'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-20-off-2000-25-off-4000-30-off-4k-strikethrough-up-to-60-off-select-styles-2024-11-27
+    name: 20% off <$2000 / 25% off <$4000 / 30% off $4K+ (strikethrough) + up to 60%
+      off Select Styles
+    start_date: '2024-11-27'
+    end_date: '2024-12-03'
+    discount: null
+    type: null
+  - id: bur-cyber-week-ext-2024-12-04
+    name: Cyber Week Ext
+    start_date: '2024-12-04'
+    end_date: '2024-12-10'
+    discount: null
+    type: null
+  primary_sale:
+    id: bur-20-off-2000-25-off-4000-30-off-4k-strikethrough-up-to-60-off-select-styles-2024-11-27
+    name: 20% off <$2000 / 25% off <$4000 / 30% off $4K+ (strikethrough) + up to 60%
+      off Select Styles
+    start_date: '2024-11-27'
+    end_date: '2024-12-03'
+    discount: null
+    type: null
+  sale_name: 20% off <$2000 / 25% off <$4000 / 30% off $4K+ (strikethrough) + up to
+    60% off Select Styles
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:31.929210'
+schedule_type: time_based

@@ -1,0 +1,59 @@
+id: 5a4cf537-6fdb-4591-b463-c5f67be0774c
+name: P_2025_06_03_HAV_Conv_D_Summer_Refresh_Sale_Ends_Tonight
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: summer
+braze_id: 5a4cf537-6fdb-4591-b463-c5f67be0774c
+dates:
+  send_date: '2025-06-03'
+  inferred_send_type: local_time
+  first_sent: '2025-06-02T18:43:37+00:00'
+  last_sent: '2025-06-03T17:15:25+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 58011261-1afd-4669-9b8d-0c8469918dfb
+  channel: email
+  name: Variant 1
+  subject: 'LAST CALL: Up to 30% Off, Only at Havenly'
+  preheader: Exclusive savings, gone at midnight. You know what to do.
+  html_file: html/p_2025_06_03_hav_conv_d_summer_refresh_sale_ends_tonight.html
+  screenshot: screenshots/p_2025_06_03_hav_conv_d_summer_refresh_sale_ends_tonight.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683deab060c7b200648c12a8/original.png?1748888239
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683deabddae7a60065569e4e/original.png?1748888252
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683deb34b33ce100669d9cb6/original.png?1748888371
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683deb50fc61dd00655a2568/original.png?1748888399
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683dead40f5da000647949e8/original.png?1748888276
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683deac88129f300666b0645/original.png?1748888264
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683deb3ddae7a60075568678/original.png?1748888381
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683deb4546209c0065bbc962/original.png?1748888389
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683deaebd6d8940072aa2ef4/original.png?1748888298
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/683dea448129f300666b03de/original.gif?1748888132
+- id: 5c3d9547-703e-4671-a127-59b27ffd635f
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 40286
+  total_delivered: 40209
+  total_opens: 21474
+  total_clicks: 109
+  open_rate: 0.533
+  click_rate: 0.0027
+  total_bounces: 1
+  total_unsubscribes: 58
+  ga4:
+    sessions: 105
+    purchases: 3
+    revenue: 1579.67
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.261694'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.653634'
+schedule_type: time_based

@@ -1,0 +1,24 @@
+id: fd5ba62b-fa51-47a6-a6f8-1c1173058463
+name: Step
+brand: CZ
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: acd1c042-11f5-40d4-9abd-82a3cb2682c6
+canvas_name: Trade Welcome Series
+flow_type: welcome_series
+sequence_position: 1
+subject: You're on the list!
+preheader: You'll be the first to know when the next batch lands
+sends:
+- id: fd5ba62b-fa51-47a6-a6f8-1c1173058463
+  channel: email
+  name: Step
+  subject: You're on the list!
+  preheader: You'll be the first to know when the next batch lands
+  html_file: html/canvas-trade-welcome-series-t1-fd5ba62b.html
+dates:
+  first_sent: null
+  last_sent: null
+performance_summary: {}

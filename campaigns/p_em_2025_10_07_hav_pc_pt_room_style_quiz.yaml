@@ -1,0 +1,36 @@
+id: faacba81-87d4-4229-bde2-e469927da127
+name: P_EM_2025_10_07_HAV_PC_PT_ROOM_STYLE_QUIZ
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: faacba81-87d4-4229-bde2-e469927da127
+dates:
+  send_date: '2025-10-07'
+  first_sent: '2025-10-07T02:09:47+00:00'
+  last_sent: '2025-10-08T03:00:11+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+- Pre-converted
+sends:
+- id: d36d5cd5-5914-40ba-ae39-d7fac25cc1a7
+  channel: email
+  name: Variant 1
+  subject: Design your {{custom_attribute.${currentRoom}}} now & shop it for Black
+    Friday savings.
+- id: c537962e-9ad9-46d6-8aae-be2df65f488e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 48845
+  total_delivered: 48246
+  total_opens: 20023
+  total_clicks: 232
+  open_rate: 0.4099
+  click_rate: 0.0047
+  total_bounces: 3
+  total_unsubscribes: 122
+schedule_type: time_based
+_filename: p_em_2025_10_07_hav_pc_pt_room_style_quiz.yaml

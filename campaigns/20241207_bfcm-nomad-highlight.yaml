@@ -1,0 +1,52 @@
+id: 841ddfd5-821c-4828-a953-bb94a279d02f
+name: 20241207_BFCM-Nomad-Highlight
+brand: BUR
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_id: 841ddfd5-821c-4828-a953-bb94a279d02f
+dates:
+  inferred_send_type: local_time
+  first_sent: '2024-12-06T17:24:52+00:00'
+  last_sent: '2024-12-07T17:15:25+00:00'
+tags: []
+sends:
+- id: b75f44b5-330b-4033-a998-ea5dc7c5b0db
+  channel: email
+  name: Variant 1
+  subject: 25% off our Nomad collection
+  preheader: The internet's favorite sofa
+- id: 192a6ac3-0145-4316-bb26-a7db8dbc7455
+  channel: other
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 535
+    purchases: 2
+    revenue: 2320.93
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.749640'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-cyber-week-ext-2024-12-04
+    name: Cyber Week Ext
+    start_date: '2024-12-04'
+    end_date: '2024-12-10'
+    discount: null
+    type: null
+  primary_sale:
+    id: bur-cyber-week-ext-2024-12-04
+    name: Cyber Week Ext
+    start_date: '2024-12-04'
+    end_date: '2024-12-10'
+    discount: null
+    type: null
+  sale_name: Cyber Week Ext
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:45.260724'
+schedule_type: time_based

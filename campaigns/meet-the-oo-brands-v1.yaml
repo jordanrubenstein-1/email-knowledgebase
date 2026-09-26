@@ -1,0 +1,110 @@
+id: c83b5d87-212a-4c6e-a555-7a1f9b52b866
+name: Meet the O&O Brands v1
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: c83b5d87-212a-4c6e-a555-7a1f9b52b866
+braze_type: canvas
+campaign_type: Triggered Journey
+dates: {}
+tags:
+- Automated-Lifecycle-Campaigns
+sends:
+- id: d7731ac1-6698-45c5-a8e0-63781b55468c
+  channel: email
+  name: Step 2
+  subject: CUSTOM bedroom essentials for less
+  preheader: Shop our favorites.
+  step_id: 83f21185-a51b-429c-adc5-1f5fde92411b
+- id: 3dc5b2ee-3c72-4255-ae56-fb04ea2e26f7
+  channel: email
+  name: Step 4
+  subject: 'SHOP: Custom Sofas & Accent Chairs Designers Love'
+  preheader: And they're actually affordable.
+  step_id: 9ad63af4-2f8c-4fff-8383-4978a8f42e16
+- id: 6a00cf6c-ca34-475c-a2fc-cc4c7fcc5d99
+  channel: email
+  name: Step 7
+  subject: 'SHOP: Custom Sofas & Accent Chairs Designers Love'
+  preheader: And they're actually affordable.
+  step_id: e81dea63-f0c7-4016-b15e-e6284252b92b
+- id: 5252ebbe-c877-44e9-ae33-d786da625a85
+  channel: email
+  name: Step 5
+  subject: 'DESIGNER FAVES: Custom sofas & sectionals'
+  preheader: That are *actually* affordable.
+  step_id: 2f9085d6-33ad-4908-b51b-8ed7ad194291
+- id: 60e59e05-cb32-402c-a56c-ede884c6afa8
+  channel: email
+  name: Step 9
+  subject: 'SHOP: Custom Sofas & Accent Chairs Designers Love'
+  preheader: And they're actually affordable.
+  step_id: fea3afc7-798b-4345-bc00-2142211727d8
+- id: 39fa5439-ecfc-44fc-994a-32fe5007a2ab
+  channel: email
+  name: Step 11
+  subject: 'SHOP: Custom Beds Designers Love'
+  preheader: And they're actually affordable.
+  step_id: 021821aa-4930-4529-b8ed-e4e772e1adb6
+performance_summary: {}
+canvas_steps:
+- id: 62914d81-1e40-4b4f-874c-852ef1f0a78e
+  name: Step
+  type: decision_split
+- id: a2e526b9-a359-49fa-b2ab-16621208e544
+  name: Step 1
+  type: decision_split
+- id: 83f21185-a51b-429c-adc5-1f5fde92411b
+  name: Step 2
+  type: message
+  channel: email
+  subject: CUSTOM bedroom essentials for less
+  preheader: Shop our favorites.
+- id: 6c8fae89-fe94-475c-982d-c8ccc941546e
+  name: Step 3
+  type: delay
+- id: 9ad63af4-2f8c-4fff-8383-4978a8f42e16
+  name: Step 4
+  type: message
+  channel: email
+  subject: 'SHOP: Custom Sofas & Accent Chairs Designers Love'
+  preheader: And they're actually affordable.
+- id: 60891fd8-589d-4fd0-90a0-e45b1189f219
+  name: Step 6
+  type: delay
+- id: e81dea63-f0c7-4016-b15e-e6284252b92b
+  name: Step 7
+  type: message
+  channel: email
+  subject: 'SHOP: Custom Sofas & Accent Chairs Designers Love'
+  preheader: And they're actually affordable.
+- id: 2f9085d6-33ad-4908-b51b-8ed7ad194291
+  name: Step 5
+  type: message
+  channel: email
+  subject: 'DESIGNER FAVES: Custom sofas & sectionals'
+  preheader: That are *actually* affordable.
+- id: d6990add-2821-470b-be13-294537209cd2
+  name: Step 8
+  type: delay
+- id: fea3afc7-798b-4345-bc00-2142211727d8
+  name: Step 9
+  type: message
+  channel: email
+  subject: 'SHOP: Custom Sofas & Accent Chairs Designers Love'
+  preheader: And they're actually affordable.
+- id: 51ebd5f9-0711-4de6-aa3b-509db10cb431
+  name: Step 10
+  type: delay
+- id: 021821aa-4930-4529-b8ed-e4e772e1adb6
+  name: Step 11
+  type: message
+  channel: email
+  subject: 'SHOP: Custom Beds Designers Love'
+  preheader: And they're actually affordable.
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.391463'

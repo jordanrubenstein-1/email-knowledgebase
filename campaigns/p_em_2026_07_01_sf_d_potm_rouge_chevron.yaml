@@ -1,0 +1,36 @@
+id: a582f064-8b2e-4b4b-9ec7-b29a1ad26cba
+name: P_EM_2026_07_01_SF_D_POTM_Rouge_Chevron
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: a582f064-8b2e-4b4b-9ec7-b29a1ad26cba
+dates:
+  send_date: '2026-07-01'
+  first_sent: '2026-06-30T21:28:09+00:00'
+  last_sent: '2026-07-01T15:00:00+00:00'
+  inferred_send_type: local_time
+tags:
+- Batch and Blast
+sends:
+- id: 3807c341-d500-4a05-9bca-c3255163b6ee
+  channel: email
+  name: Variant 1
+  subject: The Print of the Month is 20% off
+  preheader: 'Shop the Fourth of July Event now. '
+- id: 0895c687-861b-4ffc-a4cd-0555049ea20c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 36808
+  total_delivered: 36500
+  total_opens: 11272
+  total_clicks: 88
+  open_rate: 0.3062
+  click_rate: 0.0024
+  total_revenue: 19450.5
+  total_bounces: 2
+  total_unsubscribes: 18
+schedule_type: time_based
+_filename: p_em_2026_07_01_sf_d_potm_rouge_chevron.yaml

@@ -1,0 +1,75 @@
+id: klaviyo-01JEEFBWW4QJQW72ABXH3541CS
+name: '12/8: BFCM Ext Dining Bestsellers'
+brand: TI
+channel: email
+category: sale_promo
+type: announcement
+theme: black_friday
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2024-12-06'
+  inferred_send_type: scheduled
+  first_sent: '2024-12-08T07:00:00+00:00'
+  last_sent: '2024-12-08T07:00:00+00:00'
+sends:
+- id: 01JEEFBWX9NGBMADMCT3T3M6AS
+  channel: email
+  name: '12/8: BFCM Ext Dining Bestsellers'
+  subject: Fine Dining, Right at Home
+  preheader: Shop these best sellers at 25% off.
+  html_file: html/128-bfcm-ext-dining-bestsellers.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/eca135b9-dda2-4bd5-b0ec-1ad5df376ab2.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/4216db99-9859-4826-8ec6-6880af297ef4.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/70abec81-dfc3-40df-90f4-65b25a5a5b69.gif
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/d032fea5-7695-4605-9206-33ffd6f2568d.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/eb048962-6d40-41f5-a633-9fe0ec481682.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/48f8b0bf-f674-4de6-83a6-f00ae0bfb57e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/ba399ed2-8235-41d3-961f-4a1347ffa11a.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/47eb794c-7315-44b6-a482-e695c6089257.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/c034ab81-9793-46d3-a8a4-c839926f3073.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/085eb7e3-803e-4413-8e91-3f10f50ed303.jpeg
+  screenshot: screenshots/128-bfcm-ext-dining-bestsellers.png
+performance_summary:
+  total_sends: 104540
+  total_delivered: 103067
+  total_opens: 33897
+  total_clicks: 679
+  unique_opens: 24587
+  unique_clicks: 267
+  open_rate: 0.2352
+  click_rate: 0.0026
+  total_open_rate: 0.3242
+  total_click_rate: 0.0065
+  total_unsubscribes: 36
+  total_bounces: 1473
+klaviyo_type: campaign
+klaviyo_campaign_id: 01JEEFBWW4QJQW72ABXH3541CS
+klaviyo_message_id: 01JEEFBWX9NGBMADMCT3T3M6AS
+structure:
+  image_count: 22
+  link_count: 23
+  has_gif: true
+  hero_width: 600
+  layout_type: product_grid
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: ti-cyber-week-ext-2024-12-03
+    name: Cyber Week Ext
+    start_date: '2024-12-03'
+    end_date: '2024-12-10'
+    discount: null
+    type: null
+  primary_sale:
+    id: ti-cyber-week-ext-2024-12-03
+    name: Cyber Week Ext
+    start_date: '2024-12-03'
+    end_date: '2024-12-10'
+    discount: null
+    type: null
+  sale_name: Cyber Week Ext
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-03-12T11:18:49.853495'

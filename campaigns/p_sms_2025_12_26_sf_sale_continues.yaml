@@ -1,0 +1,37 @@
+id: 21e4062b-c5fa-4381-ba7d-4cd409b7fc36
+name: P_SMS_2025_12_26_SF_Sale_Continues
+brand: STF
+channel: sms
+category: sale_promo
+type: sale
+theme: null
+braze_id: 21e4062b-c5fa-4381-ba7d-4cd409b7fc36
+dates:
+  send_date: '2025-12-26'
+  inferred_send_type: local_time
+  first_sent: '2025-12-26T01:05:51+00:00'
+  last_sent: '2025-12-26T23:04:13+00:00'
+tags: []
+sends:
+- id: c8fe3855-59ce-4530-ba83-6f69c86a7600
+  channel: sms
+  name: Variant 1
+- id: f77f7556-2db1-4f11-bbb7-540187a34c62
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 4215
+  total_delivered: 4140
+  total_opens: 0
+  total_clicks: 271
+  open_rate: 0.0
+  click_rate: 0.0643
+  ga4:
+    sessions: 269
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.728781'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

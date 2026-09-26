@@ -1,0 +1,47 @@
+id: 6d01f8db-a855-45a6-bdf1-b553cb59ebd1
+name: P_2024_08_21_PT_CZ_PR_Labor_Day_Launch_Email
+brand: CZ
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 6d01f8db-a855-45a6-bdf1-b553cb59ebd1
+dates:
+  send_date: '2024-08-21'
+  inferred_send_type: local_time
+  first_sent: '2024-08-21T04:00:01+00:00'
+  last_sent: '2024-08-22T03:00:12+00:00'
+tags:
+- batch and blast/promo
+sends:
+- id: b424a1b7-76b5-4cb0-aea4-e5d37c96a360
+  channel: email
+  name: Variant 1
+  subject: 'Re: Save 20% Off Sitewide'
+  html_file: html/p_2024_08_21_pt_cz_pr_labor_day_launch_email.html
+  screenshot: screenshots/p_2024_08_21_pt_cz_pr_labor_day_launch_email.png
+- id: 9529f9fb-3e8f-4f34-91d5-add23a200b60
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 43336
+  total_delivered: 43286
+  total_opens: 30934
+  total_clicks: 986
+  open_rate: 0.7138
+  click_rate: 0.0228
+  total_revenue: 128799.98
+  total_unsubscribes: 50
+  ga4:
+    sessions: 1399
+    purchases: 40
+    revenue: 20210.07
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.355405'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.804431'
+schedule_type: time_based

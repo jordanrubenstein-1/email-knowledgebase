@@ -1,0 +1,37 @@
+id: 9ecf3fc8-bead-4c24-9409-1f59f0f36523
+name: P_EM_2025_11_07_HAV_PC_D_Black_Friday_HERE
+brand: HAV
+channel: email
+category: sale_promo
+type: announcement
+theme: null
+braze_id: 9ecf3fc8-bead-4c24-9409-1f59f0f36523
+dates:
+  send_date: '2025-11-07'
+  first_sent: '2025-11-06T19:33:46+00:00'
+  last_sent: '2025-11-07T20:15:37+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: a28e78d2-1dd8-4e5d-a582-10cbb12f3cff
+  channel: email
+  name: Variant 1
+  subject: 'Our BIGGEST Sale of the Season is Here
+
+    '
+  preheader: Shop the Black Friday Sale now.
+- id: 234d8f6b-4f7d-4e71-8bfa-b160af9ea530
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 251982
+  total_delivered: 247955
+  total_opens: 99589
+  total_clicks: 494
+  open_rate: 0.3952
+  click_rate: 0.002
+  total_bounces: 95
+  total_unsubscribes: 461
+schedule_type: time_based
+_filename: p_em_2025_11_07_hav_pc_d_black_friday_here.yaml

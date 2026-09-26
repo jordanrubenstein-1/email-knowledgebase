@@ -1,0 +1,47 @@
+id: c09df3fa-9d45-4da7-86dd-baf2426d944b
+name: P_2025_05_14_ID_MDW_Sale_Launch_Email
+brand: ID
+channel: email
+category: product_launch
+type: sale
+theme: null
+braze_id: c09df3fa-9d45-4da7-86dd-baf2426d944b
+dates:
+  send_date: '2025-05-14'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-14T06:56:13+00:00'
+  last_sent: '2025-05-14T17:15:12+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: ca330f2b-ea9b-4854-a54e-b4fc73578899
+  channel: email
+  name: Variant 1
+  subject: THE MEMORIAL DAY EVENT IS HERE
+  preheader: Shop 25% off sitewide.
+- id: d74f2eeb-2e31-4aab-988b-fe576379b3f3
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 161218
+  total_delivered: 159080
+  total_opens: 38257
+  total_clicks: 557
+  open_rate: 0.2373
+  click_rate: 0.0035
+  total_revenue: 138559.0
+  total_bounces: 2
+  total_unsubscribes: 84
+  ga4:
+    sessions: 771
+    purchases: 2
+    revenue: 2175.65
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.976186'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.364733'
+schedule_type: time_based

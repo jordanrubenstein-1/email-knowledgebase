@@ -1,0 +1,40 @@
+id: 1996adf8-b6aa-4503-be54-2daa0ec8d4f7
+name: Soft Bounce Winback
+brand: ID
+channel: email
+category: other
+type: lifecycle
+theme: null
+braze_id: 1996adf8-b6aa-4503-be54-2daa0ec8d4f7
+braze_type: canvas
+campaign_type: Triggered Journey
+dates: {}
+tags: []
+sends: []
+performance_summary: {}
+canvas_steps:
+- id: abe22fc9-70a8-47af-990e-fbc7418153ac
+  name: Step 2
+  type: user_update
+- id: b811776e-f28e-4706-8ee3-a0ac44ac1006
+  name: Step
+  type: message
+- id: a13c9a1b-4e26-4a30-bfb6-ad1777771cda
+  name: Step 1
+  type: audience_paths
+- id: baf5b3b6-5e2d-4aae-9898-0e68d4daad68
+  name: Step 4
+  type: delay
+- id: dfdc5a2c-656c-4a69-a84e-28eaf2513f9a
+  name: Step 3
+  type: delay
+- id: 4c15b6d1-d15c-4054-94ea-8185b7e312a4
+  name: Step 5
+  type: message
+- id: cf953de5-1127-4e5d-91f2-a884c9fb7b27
+  name: Step 6
+  type: delay
+- id: e770ed40-361e-48d4-858c-5a0967c45158
+  name: Step 7
+  type: audience_paths
+_filename: soft-bounce-winback.yaml

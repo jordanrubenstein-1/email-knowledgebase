@@ -1,0 +1,35 @@
+id: ada97089-f990-405c-9758-4d96f7de76c2
+name: P_2025_06_17_ID_PT_July_4th_Email_Early_Access_Last_Chance_Email
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: null
+braze_id: ada97089-f990-405c-9758-4d96f7de76c2
+dates:
+  send_date: '2025-06-17'
+  inferred_send_type: local_time
+  first_sent: '2025-06-17T00:17:51+00:00'
+  last_sent: '2025-06-17T17:15:12+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: eb7ff56b-1ba4-4955-bd93-292bb932c6de
+  channel: email
+  name: Variant 1
+  subject: 'THIS IS NOT A DRILL: Your exclusive sale access expires tonight'
+- id: 1d14100c-6251-4123-9be5-beaf127bd4ad
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 192109
+  total_delivered: 189824
+  total_opens: 43489
+  total_clicks: 658
+  open_rate: 0.2264
+  click_rate: 0.0034
+  total_revenue: 199478.39
+  total_bounces: 163
+  total_unsubscribes: 251
+_filename: p_2025_06_17_id_pt_july_4th_email_early_access_last_chance_e.yaml
+schedule_type: time_based

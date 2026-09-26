@@ -1,0 +1,63 @@
+id: 450e540e-0cdc-4550-844a-d10c6fec44db
+name: P_EM_2025_08_09_ID_D_Sunset_Sale_Reminder
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: 450e540e-0cdc-4550-844a-d10c6fec44db
+dates:
+  send_date: '2025-08-09'
+  inferred_send_type: local_time
+  first_sent: '2025-08-08T21:04:05+00:00'
+  last_sent: '2025-08-09T17:15:16+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 29a7ca57-1b6f-49ee-b0bd-22b3821d8dcd
+  channel: email
+  name: Variant 1
+  subject: Summer’s Not Over, But This Sale Will Be
+  preheader: Hurry! 20% off sitewide won’t last forever.
+- id: 30f52bd6-a595-4923-842f-3255ff23a046
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 190964
+  total_delivered: 190571
+  total_opens: 87036
+  total_clicks: 717
+  open_rate: 0.4558
+  click_rate: 0.0038
+  total_revenue: 156327.0
+  total_bounces: 2
+  total_unsubscribes: 335
+  ga4:
+    sessions: 745
+    purchases: 5
+    revenue: 17948.11
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.683638'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off sitewide
+    type: null
+  primary_sale:
+    id: id-the-sunset-sale-2025-08-07
+    name: The Sunset Sale
+    start_date: '2025-08-07'
+    end_date: '2025-08-13'
+    discount: 20% off sitewide
+    type: null
+  sale_name: The Sunset Sale
+  sale_discount: 20% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:38.225651'
+schedule_type: time_based

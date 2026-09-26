@@ -1,0 +1,47 @@
+id: b1d0a428-361a-465e-9e9b-d2959270bfc5
+name: P_2025_06_02_TRADE_ID_Sale_Extension_Last_Chance_Email
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: b1d0a428-361a-465e-9e9b-d2959270bfc5
+dates:
+  send_date: '2025-06-02'
+  inferred_send_type: scheduled
+  first_sent: '2025-06-02T19:48:51+00:00'
+  last_sent: '2025-06-02T19:49:09+00:00'
+tags:
+- TRADE-EMAIL
+sends:
+- id: 57cfffaa-38cb-42ce-ba1e-4f28904bf23e
+  channel: email
+  name: Variant 1
+  subject: 'Up to 30% Off Sitewide Ends TONIGHT '
+  preheader: Last call to shop extra special trade savings.
+- id: d995d739-480a-48e4-9f98-f0b4e937b8c8
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 19086
+  total_delivered: 18596
+  total_opens: 5075
+  total_clicks: 129
+  open_rate: 0.2659
+  click_rate: 0.0068
+  total_revenue: 118745.47
+  total_bounces: 8
+  total_unsubscribes: 21
+  ga4:
+    sessions: 105
+    purchases: 1
+    revenue: 1964.25
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.713738'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.501110'
+schedule_type: time_based

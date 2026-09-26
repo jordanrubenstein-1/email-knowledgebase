@@ -1,0 +1,35 @@
+id: f53cc63f-1b58-4bc1-ad06-54317e3c95fc
+name: P_EM_2025_08_27_HAV_PC_D_L_Mid_Promo_Sweetener
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: f53cc63f-1b58-4bc1-ad06-54317e3c95fc
+dates:
+  send_date: '2025-08-27'
+  first_sent: '2025-08-27T06:10:51+00:00'
+  last_sent: '2025-08-27T18:15:13+00:00'
+  inferred_send_type: scheduled
+tags:
+- BLASTS-2025
+sends:
+- id: 34153466-d94f-4f68-b7d2-5056d8a09f33
+  channel: email
+  name: Variant 1
+  subject: Bonus Savings Just Dropped
+  preheader: 48 HOURS ONLY!
+- id: fe763c7a-d0c1-4bf1-a82a-109513cd91f1
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 225317
+  total_delivered: 224227
+  total_opens: 94561
+  total_clicks: 563
+  open_rate: 0.4197
+  click_rate: 0.0025
+  total_bounces: 2
+  total_unsubscribes: 605
+schedule_type: time_based
+_filename: p_em_2025_08_27_hav_pc_d_l_mid_promo_sweetener.yaml

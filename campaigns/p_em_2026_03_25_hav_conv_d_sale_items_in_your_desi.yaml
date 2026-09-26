@@ -1,0 +1,29 @@
+id: b7cf1159-f4a8-4fbc-b2aa-50275e4a6946
+name: P_EM_2026_03_25_HAV_CONV_D_SALE_ITEMS_IN_YOUR_DESIGN
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: b7cf1159-f4a8-4fbc-b2aa-50275e4a6946
+dates:
+  send_date: '2026-03-25'
+  last_sent: '2026-03-25'
+tags:
+- BLASTS-2025
+sends:
+- id: e350fb8c-5cc3-45b4-9f60-d1396d23f63e
+  channel: email
+  name: Variant 1
+  subject: Our birthday sale just got sweeter
+  preheader: Two days to save even more on your design!
+  html_file: html/p_em_2026_03_25_hav_conv_d_sale_items_in_your_design.html
+  screenshot: screenshots/p_em_2026_03_25_hav_conv_d_sale_items_in_your_design.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c2edbad171d00063d9a420/original.png?1774382521
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69c2edddfdb749006397ec3e/original.gif?1774382557
+- id: b6621655-a361-4155-a01e-3c07d9324f7c
+  channel: email
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based

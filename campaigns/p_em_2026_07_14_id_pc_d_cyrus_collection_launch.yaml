@@ -1,0 +1,36 @@
+id: bafac841-1a1b-4ac8-b997-d8372a8d0148
+name: P_EM_2026_07_14_ID_PC_D_Cyrus_Collection_Launch
+brand: ID
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: bafac841-1a1b-4ac8-b997-d8372a8d0148
+dates:
+  send_date: '2026-07-14'
+  first_sent: '2026-07-14T18:53:40+00:00'
+  last_sent: '2026-07-15T02:06:01+00:00'
+  inferred_send_type: scheduled
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 984c6163-b735-4dc3-a50f-eb7a4138871b
+  channel: email
+  name: Variant 1
+  subject: Something new just dropped. Meet Cyrus.
+  preheader: A modern transitional sofa, fully customizable and made to order.
+- id: cf8603cf-6deb-41b4-bb35-8895a0ca4a91
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 233602
+  total_delivered: 232051
+  total_opens: 95588
+  total_clicks: 943
+  open_rate: 0.4092
+  click_rate: 0.004
+  total_revenue: 107103.95
+  total_bounces: 7
+  total_unsubscribes: 225
+schedule_type: time_based
+_filename: p_em_2026_07_14_id_pc_d_cyrus_collection_launch.yaml

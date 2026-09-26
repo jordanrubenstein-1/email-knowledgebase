@@ -1,0 +1,30 @@
+id: 67e07ca1-e0b0-41a4-a543-ef9828a9190f
+name: P_SMS_2026_04_01_BW_Sun_Out_Flash_Sale_Launch
+brand: BUR
+channel: sms
+category: product_launch
+type: sale
+theme: null
+braze_id: 67e07ca1-e0b0-41a4-a543-ef9828a9190f
+dates:
+  send_date: '2026-04-01'
+  inferred_send_type: scheduled
+  first_sent: '2026-04-01T01:09:16+00:00'
+  last_sent: '2026-04-01T15:00:00+00:00'
+tags: []
+sends:
+- id: b136f632-c44a-4ede-9d62-5f9b2255de5e
+  channel: sms
+  name: Variant 1
+- id: 52918890-6070-489e-a79d-081a9dc02521
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 7383
+  total_delivered: 7139
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 12217.0
+schedule_type: time_based

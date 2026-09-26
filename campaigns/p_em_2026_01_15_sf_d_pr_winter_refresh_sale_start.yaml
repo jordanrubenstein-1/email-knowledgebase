@@ -1,0 +1,56 @@
+id: 8cced5fc-531b-47fc-b1a0-9f3e00462fba
+name: P_EM_2026_01_15_SF_D_PR_Winter_Refresh_Sale_Start
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: winter
+braze_id: 8cced5fc-531b-47fc-b1a0-9f3e00462fba
+dates:
+  send_date: '2026-01-15'
+  inferred_send_type: local_time
+  first_sent: '2026-01-15T00:07:55+00:00'
+  last_sent: '2026-01-16T00:01:59+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- sale-feat
+sends:
+- id: 7b034612-b5dd-493c-9cf5-9b34cde60af4
+  channel: email
+  name: Variant 1
+  subject: 20% Off Select Styles, Now Live
+  preheader: winter gets a rewrite.
+  html_file: html/p_em_2026_01_15_sf_d_pr_winter_refresh_sale_start.html
+  screenshot: screenshots/p_em_2026_01_15_sf_d_pr_winter_refresh_sale_start.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69681d2a67278d0065780f10/original.png?1768430889
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69681cf38d026800633be51e/original.png?1768430834
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69681d325c431a006493256b/original.png?1768430898
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69681cd482d15f0063f78daf/original.gif?1768430804
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69681d3ed70a7c00639257ee/original.png?1768430910
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/69681d47e13e0a0064e9f9a2/original.png?1768430918
+- id: 66396498-4755-44e7-8bb0-fb1f8080d6e4
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 38912
+  total_delivered: 38696
+  total_opens: 13557
+  total_clicks: 169
+  open_rate: 0.3484
+  click_rate: 0.0043
+  total_bounces: 2
+  total_unsubscribes: 27
+  ga4:
+    sessions: 191
+    purchases: 3
+    revenue: 248.74
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.643864'
+    source: snowflake
+    channel: email
+schedule_type: time_based

@@ -1,0 +1,33 @@
+id: 3fb8053f-bad8-4180-93a3-e35818d9bef3
+name: Email 3
+brand: BUR
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 2fccfb4d-7b98-460d-9d19-98e33e89aa25
+canvas_name: Welcome Flow - General
+flow_type: welcome_series
+sequence_position: 11
+subject: Get with the best
+preheader: Shop our most popular designs.
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-11-01T00:00:00Z'
+  last_sent: '2025-12-13T14:00:00Z'
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 14
+    last_synced: '2026-02-06T16:28:52.604188'
+    source: snowflake
+    channel: email
+sends:
+- id: 3fb8053f-bad8-4180-93a3-e35818d9bef3
+  channel: email
+  name: Email 3
+  subject: Get with the best
+  preheader: Shop our most popular designs.
+  html_file: html/canvas-welcome-flow-general-t11-3fb8053f.html

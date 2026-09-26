@@ -1,0 +1,78 @@
+id: 625506b8-b517-4ec8-ace5-3744ad5de23a
+name: P_EM_2025_10_05_BW_D_Swatch_Push
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 625506b8-b517-4ec8-ace5-3744ad5de23a
+dates:
+  send_date: '2025-10-05'
+  inferred_send_type: local_time
+  first_sent: '2025-10-04T21:04:39+00:00'
+  last_sent: '2025-10-05T17:15:30+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: e0627134-d668-4044-b310-efa06e6cca5a
+  channel: email
+  name: Variant 1
+  subject: Free Swatches. Delivered Fast.
+  preheader: 'Did someone say free?
+
+
+
+
+    '
+- id: 4afa628f-9f82-4360-8bc9-4e320a7fafda
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 237177
+  total_delivered: 233619
+  total_opens: 134409
+  total_clicks: 248
+  open_rate: 0.5667
+  click_rate: 0.001
+  total_revenue: 35642.0
+  total_bounces: 3
+  total_unsubscribes: 176
+  ga4:
+    sessions: 162
+    purchases: 2
+    revenue: 3349.25
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:53.194221'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-the-fall-sale-2025-10-02
+    name: The Fall Sale
+    start_date: '2025-10-02'
+    end_date: '2025-10-27'
+    discount: Up to 35% Off Sitewide
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-the-fall-sale-2025-10-02
+    name: The Fall Sale
+    start_date: '2025-10-02'
+    end_date: '2025-10-27'
+    discount: Up to 35% Off Sitewide
+    type: null
+  sale_name: The Fall Sale
+  sale_discount: Up to 35% Off Sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:38.928662'
+schedule_type: time_based

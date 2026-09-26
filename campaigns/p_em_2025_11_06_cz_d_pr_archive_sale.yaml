@@ -1,0 +1,59 @@
+id: 403213c7-3582-4338-85ea-49aa92503f81
+name: P_EM_2025_11_06_CZ_D_PR_Archive_Sale
+brand: CZ
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 403213c7-3582-4338-85ea-49aa92503f81
+dates:
+  send_date: '2025-11-06'
+  inferred_send_type: scheduled
+  first_sent: '2025-11-06T03:59:28+00:00'
+  last_sent: '2025-11-06T17:16:05+00:00'
+tags:
+- am
+- archive
+- batch and blast
+- d2c
+- designed
+sends:
+- id: 564bbaf8-2afb-4ae9-82e1-0221cf823a13
+  channel: email
+  name: Variant 1
+  subject: 'Fresh Cuts: Now Up to 65% Off'
+  preheader: Claim new sale styles before they’re gone for good.
+  html_file: html/p_em_2025_11_06_cz_d_pr_archive_sale.html
+  screenshot: screenshots/p_em_2025_11_06_cz_d_pr_archive_sale.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690bd2d3337b6b0063acb005/original.png?1762382546
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690bd2e897750b0063314bbd/original.png?1762382567
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690bd2e06204f30063966db6/original.png?1762382560
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690bd2be5489b000632a8a44/original.png?1762382526
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690bd2b2569d0400640e51ff/original.gif?1762382514
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/690bd2eefe05a7006351b4c7/original.png?1762382574
+- id: 0240c7fd-e68b-4254-acaa-8f49fbf9e342
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 101444
+  total_delivered: 100697
+  total_opens: 57557
+  total_clicks: 1271
+  open_rate: 0.5674
+  click_rate: 0.0125
+  total_bounces: 3
+  total_unsubscribes: 116
+  ga4:
+    sessions: 1508
+    purchases: 9
+    revenue: 3698.5
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.343574'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:29.908464'
+schedule_type: time_based

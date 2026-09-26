@@ -1,0 +1,33 @@
+id: cee56b6a-6fd7-4a9f-9c35-8ca37e03a49a
+name: P_2025_2_10_HAV_Conv_PDS_Announcement_Email
+brand: HAV
+channel: email
+category: other
+type: product_launch
+theme: null
+braze_id: cee56b6a-6fd7-4a9f-9c35-8ca37e03a49a
+dates:
+  send_date: '2025-02-10'
+  first_sent: '2025-02-10T16:27:29+00:00'
+  last_sent: '2025-02-10T16:27:44+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: c54af1ed-9d42-41f9-b977-1b8ab602989f
+  channel: email
+  name: Variant 1
+  subject: Up To 70% Off Starts Now!
+  preheader: Shop Havenly-exclusive deals during our Presidents Day Sale.
+- id: 7501a996-8342-427e-a82c-aa8fdaa71bd5
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 37951
+  total_delivered: 37894
+  total_opens: 20486
+  total_clicks: 445
+  open_rate: 0.5398
+  click_rate: 0.0117
+  total_unsubscribes: 65
+schedule_type: time_based
+_filename: p_2025_2_10_hav_conv_pds_announcement_email.yaml

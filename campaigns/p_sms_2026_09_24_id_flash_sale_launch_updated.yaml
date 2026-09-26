@@ -1,0 +1,30 @@
+id: 7f4b76f5-a63a-4a72-a2d1-fe3adf44e8a3
+name: P_SMS_2026_09_24_ID_Flash_Sale_Launch_Updated
+brand: ID
+channel: sms
+category: product_launch
+type: sale
+theme: null
+braze_id: 7f4b76f5-a63a-4a72-a2d1-fe3adf44e8a3
+dates:
+  send_date: '2026-09-24'
+  first_sent: '2026-09-24T02:08:56+00:00'
+  last_sent: '2026-09-24T12:00:00+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: 6f1f9c6c-4597-4ebc-b84b-5a56287587b3
+  channel: sms
+  name: Variant 1
+- id: ca479773-887e-47a3-8f26-fcb2ecef8da6
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 42
+  total_delivered: 28
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+schedule_type: time_based
+_filename: p_sms_2026_09_24_id_flash_sale_launch_updated.yaml

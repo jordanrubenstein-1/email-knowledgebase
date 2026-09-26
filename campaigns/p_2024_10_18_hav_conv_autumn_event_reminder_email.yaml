@@ -1,0 +1,33 @@
+id: 7b92eab2-6902-4dd6-877c-7baac72d88cc
+name: P_2024_10_18_HAV_Conv_Autumn_Event_Reminder_Email
+brand: HAV
+channel: email
+category: reminder
+type: announcement
+theme: fall
+braze_id: 7b92eab2-6902-4dd6-877c-7baac72d88cc
+dates:
+  send_date: '2024-10-18'
+  first_sent: '2024-10-18T05:21:53+00:00'
+  last_sent: '2024-10-18T17:15:03+00:00'
+  inferred_send_type: scheduled
+tags: []
+sends:
+- id: f85b7df1-fcfe-435d-98df-31f411fcb8e0
+  channel: email
+  name: Variant 1
+  subject: Hurry! Don’t miss out on up to 25% off furniture & decor
+  preheader: Beat the Black Friday rush
+- id: 4dea8929-5e6e-42db-b4da-a6f0e836b76a
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 36590
+  total_delivered: 36560
+  total_opens: 20959
+  total_clicks: 272
+  open_rate: 0.5728
+  click_rate: 0.0074
+  total_unsubscribes: 54
+schedule_type: time_based
+_filename: p_2024_10_18_hav_conv_autumn_event_reminder_email.yaml

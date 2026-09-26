@@ -1,0 +1,61 @@
+id: klaviyo-01HSEVR7HAA89JNHT4HACM0PDG
+name: '3/22/24: Sale Reminder'
+brand: TI
+channel: email
+category: reminder
+type: sale
+braze_type: campaign
+campaign_type: One-Time Send
+dates:
+  created: '2024-03-20'
+  inferred_send_type: scheduled
+  first_sent: '2024-03-22T06:30:00+00:00'
+  last_sent: '2024-03-22T06:30:00+00:00'
+sends:
+- id: 01HSEVR7P61AVWQY9MX7KG4X5K
+  channel: email
+  name: '3/22/24: Sale Reminder'
+  subject: New arrivals, ALL 20% OFF
+  preheader: Prep your home for spring
+  html_file: html/32224-sale-reminder.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/358e43e2-38cc-4fcb-bb7d-4fc4a733d4a8.gif
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/8dd4f1ba-d9ac-489a-83b3-53c02e42fe60.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/a340c265-919f-4c82-91ac-9666940d3910.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/daad0b6f-06fb-46c8-82d2-e4e602d16a0c.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/3efedaa5-cb0f-443e-8696-2c13f839c3ba.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/1b9a2507-ba66-4a22-8420-1fd692712b20.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/9127f688-c5c7-4c6d-a078-3fe86ca8176b.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/48f8b0bf-f674-4de6-83a6-f00ae0bfb57e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/7ec65941-2d26-4c86-8e33-acab0f88ceca.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/b398c3ca-c7f5-41f2-bedc-27a54cf334fb.jpeg
+  screenshot: screenshots/32224-sale-reminder.png
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_unsubscribes: 0
+  ga4:
+    sessions: 256
+    purchases: 4
+    revenue: 1345.72
+    attribution_window_days: 7
+    last_synced: '2026-04-17T14:56:53.625819'
+    source: snowflake
+    channel: email
+klaviyo_type: campaign
+klaviyo_campaign_id: 01HSEVR7HAA89JNHT4HACM0PDG
+klaviyo_message_id: 01HSEVR7P61AVWQY9MX7KG4X5K
+structure:
+  image_count: 19
+  link_count: 20
+  has_gif: true
+  hero_width: 564
+  layout_type: product_grid
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-03-12T11:18:50.154844'

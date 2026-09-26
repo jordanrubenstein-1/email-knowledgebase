@@ -1,0 +1,25 @@
+id: 11ad63e4-9855-45cb-879f-2f63cbd2c56f
+name: TRG_EM_2026_03_HAV_PC_PT_AI_Session_Design_Package_Offer_T2_V1
+brand: HAV
+channel: email
+category: sale_promo
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 2039a7ad-4d59-4db6-a3a0-ce7f0686e6ee
+canvas_name: AI Session Free Design Package Offer
+flow_type: other_flow
+sequence_position: 2
+subject: Unlock Your Free Design Package
+preheader: ''
+sends:
+- id: 11ad63e4-9855-45cb-879f-2f63cbd2c56f
+  channel: email
+  name: TRG_EM_2026_03_HAV_PC_PT_AI_Session_Design_Package_Offer_T2_V1
+  subject: Unlock Your Free Design Package
+  preheader: ''
+  html_file: html/canvas-ai-session-free-design-package-offer-t2-11ad63e4.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2026-04-15T19:00:00Z'
+  last_sent: '2026-04-17T20:00:00Z'
+performance_summary: {}

@@ -1,0 +1,36 @@
+id: 801a4bdf-7027-42e6-8c4d-241b059480ef
+name: P_EM_2026_05_15_D_TRADE_ID_PR_In_Stock_Quick_Ship
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 801a4bdf-7027-42e6-8c4d-241b059480ef
+dates:
+  send_date: '2026-05-15'
+  inferred_send_type: local_time
+  first_sent: '2026-05-14T22:13:57+00:00'
+  last_sent: '2026-05-15T18:05:26+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 0d855008-b7cf-43ea-8287-b2bed0c3bb1e
+  channel: email
+  name: Variant 1
+  subject: Ready on deadline
+  preheader: Our quick ship and in-stock designs are ready to deliver.
+- id: 43956423-46bb-45e7-b72a-78d71155d9d6
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 22186
+  total_delivered: 21485
+  total_opens: 10173
+  total_clicks: 104
+  open_rate: 0.4585
+  click_rate: 0.0047
+  total_revenue: 71540.97
+  total_bounces: 1
+  total_unsubscribes: 37
+_filename: p_em_2026_05_15_d_trade_id_pr_in_stock_quick_ship.yaml
+schedule_type: time_based

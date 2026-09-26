@@ -1,0 +1,40 @@
+id: f8bbfb30-67c0-4e39-9bb8-8537a9864d9f
+name: P_EM_2026_05_14_CZ_PC_D_B2C_Bedding
+brand: CZ
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: f8bbfb30-67c0-4e39-9bb8-8537a9864d9f
+dates:
+  send_date: '2026-05-14'
+  inferred_send_type: local_time
+  first_sent: '2026-05-14T03:10:21+00:00'
+  last_sent: '2026-05-15T02:01:28+00:00'
+tags:
+- batch and blast
+- d2c
+- designed
+- event
+- sale
+- sale/sleepsale2026
+sends:
+- id: 1a49a409-fe7d-415b-b4f1-ba8af13932eb
+  channel: email
+  name: Variant 1
+  subject: Your best sleep starts with the right linen
+  preheader: 25% off bedding during the Memorial Day Sale.
+- id: 1ee77380-0bff-40a6-90d3-6ef4a2774ab1
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 91800
+  total_delivered: 91502
+  total_opens: 44251
+  total_clicks: 416
+  open_rate: 0.482
+  click_rate: 0.0045
+  total_bounces: 15
+  total_unsubscribes: 116
+_filename: p_em_2026_05_14_cz_pc_d_b2c_bedding.yaml
+schedule_type: time_based

@@ -1,0 +1,30 @@
+id: 79c6f9e5-6d8c-424a-b7ca-d931d1626152
+name: PUSH_CONV_10_06_ENCORE_Sale_Directs_to_PACKAGE_TYPES
+brand: HAV
+channel: push
+category: sale_promo
+type: sale
+theme: null
+braze_id: 79c6f9e5-6d8c-424a-b7ca-d931d1626152
+dates:
+  inferred_send_type: local_time
+  first_sent: '2025-10-06T01:09:38+00:00'
+  last_sent: '2025-10-07T01:00:25+00:00'
+tags: []
+sends:
+- id: 745210ed-ab62-4143-add0-188c76f8c3d1
+  channel: push
+  name: Variant 1
+- id: 9e6785e2-6680-4e16-8fbf-2e66f7593212
+  channel: push
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.852777'
+    source: snowflake
+    channel: push
+schedule_type: time_based

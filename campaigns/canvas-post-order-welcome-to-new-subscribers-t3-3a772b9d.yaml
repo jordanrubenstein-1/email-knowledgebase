@@ -1,0 +1,41 @@
+id: 3a772b9d-aaba-46f7-a252-1bc7e8b1166d
+name: TRG_EM_2024_11_BW_D_Welcome_New_Purchaser_T3_V1
+brand: BUR
+channel: email
+category: product_launch
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: bfd26abe-5df3-412a-9a94-fc8d62a227c5
+canvas_name: Post Order Welcome to New Subscribers
+flow_type: welcome_series
+sequence_position: 3
+subject: Fabrics that stand the test of… life
+preheader: Plus, 15% off your next order.
+dates:
+  inferred_send_type: sto
+  first_sent: '2025-10-31T02:00:00Z'
+  last_sent: '2025-12-13T14:00:00Z'
+performance_summary:
+  total_sends: 1281
+  total_delivered: 1262
+  total_opens: 779
+  total_clicks: 78
+  open_rate: 0.6081
+  click_rate: 0.0609
+  total_unsubscribes: 26
+  total_revenue: 16111.0
+  ga4:
+    sessions: 47
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 14
+    last_synced: '2026-02-06T16:28:53.550791'
+    source: snowflake
+    channel: email
+sends:
+- id: 3a772b9d-aaba-46f7-a252-1bc7e8b1166d
+  channel: email
+  name: TRG_EM_2024_11_BW_D_Welcome_New_Purchaser_T3_V1
+  subject: Fabrics that stand the test of… life
+  preheader: Plus, 15% off your next order.
+  html_file: html/canvas-post-order-welcome-to-new-subscribers-archived-december-2025-t3-3a772b9d.html

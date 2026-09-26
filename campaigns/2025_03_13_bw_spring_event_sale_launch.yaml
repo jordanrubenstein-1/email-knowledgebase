@@ -1,0 +1,94 @@
+id: 3167613e-ee2c-4b00-8e51-34b6eb029b90
+name: 2025_03_13_BW_Spring_Event_Sale_Launch
+brand: BUR
+channel: email
+category: product_launch
+type: sale
+theme: spring
+braze_id: 3167613e-ee2c-4b00-8e51-34b6eb029b90
+dates:
+  send_date: '2025-03-13'
+  inferred_send_type: local_time
+  first_sent: '2025-03-12T19:54:01+00:00'
+  last_sent: '2025-03-13T17:15:20+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 7f761977-84ff-4b5d-8807-30a969615c46
+  channel: email
+  name: Variant 1
+  subject: Our Spring Event Sale is here
+  preheader: Save up to 25% sitewide.
+- id: 63b87750-63a8-4e27-ad4d-cae678b5fb1d
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 265144
+  total_delivered: 263301
+  total_opens: 90496
+  total_clicks: 482
+  open_rate: 0.3413
+  click_rate: 0.0018
+  total_revenue: 66805.0
+  total_bounces: 1
+  total_unsubscribes: 109
+  ga4:
+    sessions: 348
+    purchases: 2
+    revenue: 637.12
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.896006'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: bur-burrow-2025-03-11
+    name: Burrow
+    start_date: '2025-03-11'
+    end_date: '2025-03-12'
+    discount: 'The Spring Event
+
+      20% off <$2k / 25% ≥$2k sitewide (strikethrough in cart) | code-based early
+      access for RETAIL ONLY: [SPRING25]
+
+      + up to 70% off Clearance
+
+      FREE SHIP on all orders'
+    type: null
+  - id: bur-end-of-year-sale-2025-12-18
+    name: End of Year Sale
+    start_date: '2024-12-20'
+    end_date: '2025-12-31'
+    discount: '25% Off Orders $2999 & Below
+
+      30% Off Orders $3K+
+
+      Up to 70% off clearance'
+    type: null
+  primary_sale:
+    id: bur-burrow-2025-03-11
+    name: Burrow
+    start_date: '2025-03-11'
+    end_date: '2025-03-12'
+    discount: 'The Spring Event
+
+      20% off <$2k / 25% ≥$2k sitewide (strikethrough in cart) | code-based early
+      access for RETAIL ONLY: [SPRING25]
+
+      + up to 70% off Clearance
+
+      FREE SHIP on all orders'
+    type: null
+  sale_name: Burrow
+  sale_discount: 'The Spring Event
+
+    20% off <$2k / 25% ≥$2k sitewide (strikethrough in cart) | code-based early access
+    for RETAIL ONLY: [SPRING25]
+
+    + up to 70% off Clearance
+
+    FREE SHIP on all orders'
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:35.681631'
+schedule_type: time_based

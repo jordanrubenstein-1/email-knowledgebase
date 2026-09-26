@@ -1,0 +1,57 @@
+id: 1a7274db-bafc-490d-9412-fb62d81152ab
+name: P_2025_1_16_HAV_Conv_Jan_Merch_Sale_Announcement_Email
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: 1a7274db-bafc-490d-9412-fb62d81152ab
+dates:
+  send_date: '2025-01-16'
+  inferred_send_type: scheduled
+  first_sent: '2025-01-16T05:49:33+00:00'
+  last_sent: '2025-01-16T17:15:07+00:00'
+tags: []
+sends:
+- id: b0bfe61f-d955-490d-98bd-28f848117449
+  channel: email
+  name: Variant 1
+  subject: The Winter Refresh Sale Is On!
+  preheader: Use code WINTER2025 for up to 15% off furniture and decor.
+  html_file: html/p_2025_1_16_hav_conv_jan_merch_sale_announcement_email.html
+  screenshot: screenshots/p_2025_1_16_hav_conv_jan_merch_sale_announcement_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67368432288b0900660794b7/original.gif?1731626034
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678803e906a7e4006585cd17/original.png?1736967145
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6788016eb75aa500741c31db/original.png?1736966509
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6788023ad7efb4006584bb81/original.png?1736966714
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678801f811434b0065ffaa4e/original.png?1736966648
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6736844d990e3f006581a530/original.gif?1731626061
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6788028606a7e4006585c86c/original.png?1736966789
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6788039511434b0073ff9a56/original.png?1736967061
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67880263f7335300647af6c2/original.png?1736966754
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67880279d7efb4006584bbc8/original.png?1736966777
+- id: 1538c073-7428-4e20-8efb-ad6721780aac
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 36948
+  total_delivered: 36888
+  total_opens: 20439
+  total_clicks: 203
+  open_rate: 0.5532
+  click_rate: 0.0055
+  total_unsubscribes: 73
+  ga4:
+    sessions: 217
+    purchases: 3
+    revenue: 7424.59
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.422460'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:38.891928'
+schedule_type: time_based

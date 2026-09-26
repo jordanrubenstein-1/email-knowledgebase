@@ -1,0 +1,75 @@
+id: b3ddd417-aa25-4ad0-9f69-09e3139e5f45
+name: P_2024_12_26_D_CZ_EOY_Event_Launch_2_Email
+brand: CZ
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: b3ddd417-aa25-4ad0-9f69-09e3139e5f45
+dates:
+  send_date: '2024-12-26'
+  inferred_send_type: local_time
+  first_sent: '2024-12-25T17:09:15+00:00'
+  last_sent: '2024-12-26T17:00:57+00:00'
+tags: []
+sends:
+- id: f0e105d5-0e90-442f-964b-7a16d3b64b9c
+  channel: email
+  name: Variant 1
+  subject: 'Now Open: The End of Year Event'
+  preheader: Shop up to 60% off last batch styles.
+  html_file: html/p_2024_12_26_d_cz_eoy_event_launch_2_email.html
+  screenshot: screenshots/p_2024_12_26_d_cz_eoy_event_launch_2_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676a0b4d675b230064a5295c/original.gif?1735002957
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676a0e52236f060065574ab2/original.jpg?1735003730
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676a0b3b7c5eda00650e831d/original.jpg?1735002938
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676a0e3c7c5eda00650e83c2/original.jpg?1735003708
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676a0e797c5eda00650e83d0/original.jpg?1735003769
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676a0e92cd9a95006592c0aa/original.jpg?1735003794
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676a0e62675b230064a52a64/original.jpg?1735003746
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676a0b9af7a2ff00650f7a28/original.jpg?1735003034
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676a0b9262b4d6006424f531/original.jpg?1735003026
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/676a0d8ecd9a95006592c074/original.jpg?1735003534
+- id: 6eb9a43c-7d40-45c6-b499-deb793983b57
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 96250
+  total_delivered: 95560
+  total_opens: 47661
+  total_clicks: 1613
+  open_rate: 0.4952
+  click_rate: 0.0168
+  total_revenue: 76924.58
+  total_bounces: 1
+  total_unsubscribes: 150
+  ga4:
+    sessions: 2741
+    purchases: 22
+    revenue: 12456.34
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.470292'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-23'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  primary_sale:
+    id: cz_eoy_2024_12_26
+    name: End of Year Sale
+    start_date: '2024-12-23'
+    end_date: '2025-01-02'
+    discount: null
+    type: null
+  sale_name: End of Year Sale
+  sale_discount: null
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:31.288469'
+schedule_type: time_based

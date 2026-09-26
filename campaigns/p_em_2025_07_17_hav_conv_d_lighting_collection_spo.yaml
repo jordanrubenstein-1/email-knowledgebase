@@ -1,0 +1,55 @@
+id: f7b3a150-856a-4916-be7f-f935aba06a63
+name: P_EM_2025_07_17_HAV_CONV_D_Lighting_Collection_Spotlight
+brand: HAV
+channel: email
+category: editorial
+type: announcement
+theme: null
+braze_id: f7b3a150-856a-4916-be7f-f935aba06a63
+dates:
+  send_date: '2025-07-17'
+  inferred_send_type: local_time
+  first_sent: '2025-07-16T18:24:54+00:00'
+  last_sent: '2025-07-17T17:15:23+00:00'
+tags:
+- BLASTS-2025
+sends:
+- id: 0fba38d3-b3cb-45fb-b295-762c5320b7ec
+  channel: email
+  name: Variant 1
+  subject: 'JUST IN: Exclusive Lighting Drop'
+  preheader: ' Designer-approved styles, only at Havenly. Now 25% off.'
+  html_file: html/p_em_2025_07_17_hav_conv_d_lighting_collection_spotlight.html
+  screenshot: screenshots/p_em_2025_07_17_hav_conv_d_lighting_collection_spotlight.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6877c9c94f4b260067f13c25/original.png?1752680904
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6877ca1543d4e10067db8f79/original.png?1752680981
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6877ca2943d4e10086db84f6/original.png?1752681001
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6877ca22033321007681d6ac/original.png?1752680994
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6877ca3d43d4e10067db9106/original.png?1752681021
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6877ca1b4f4b260076f13d49/original.png?1752680987
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6877c9c14f4b260067f13bd0/original.gif?1752680897
+- id: f3190380-bd6f-4488-894d-3fda7a55af89
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 40602
+  total_delivered: 40509
+  total_opens: 21453
+  total_clicks: 203
+  open_rate: 0.5284
+  click_rate: 0.005
+  total_unsubscribes: 57
+  ga4:
+    sessions: 248
+    purchases: 1
+    revenue: 1162.98
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.096606'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.173241'
+schedule_type: time_based

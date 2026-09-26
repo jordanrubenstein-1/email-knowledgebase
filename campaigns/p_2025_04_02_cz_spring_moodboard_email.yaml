@@ -1,0 +1,56 @@
+id: de29e556-fe1c-4ac4-8438-c27df32f9e82
+name: P_2025_04_02_CZ_Spring_Moodboard_Email
+brand: CZ
+channel: email
+category: other
+type: seasonal
+theme: spring
+braze_id: de29e556-fe1c-4ac4-8438-c27df32f9e82
+dates:
+  send_date: '2025-04-02'
+  inferred_send_type: scheduled
+  first_sent: '2025-04-02T02:07:55+00:00'
+  last_sent: '2025-04-02T17:01:22+00:00'
+tags: []
+sends:
+- id: bf0dc29c-3360-44ca-9143-c4805b5de5b8
+  channel: email
+  name: Variant 1
+  subject: A Love Letter To Spring
+  preheader: Breathe new life into your space.
+  html_file: html/p_2025_04_02_cz_spring_moodboard_email.html
+  screenshot: screenshots/p_2025_04_02_cz_spring_moodboard_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ec561b001a7f0084f8ea75/original.gif?1743541787
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ec563663ed880067e2db07/original.jpg?1743541814
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ec5643dfb9d500652e67b7/original.jpg?1743541827
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ec5611001a7f0084f8ea74/original.jpg?1743541777
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ec56249ca1d8006705f8f7/original.jpg?1743541796
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ec562d49e98400751f67e8/original.jpg?1743541805
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67ec563ddfb9d500652e6755/original.jpg?1743541821
+- id: 1220aeba-b436-448c-b236-96d108d495d3
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 92738
+  total_delivered: 91928
+  total_opens: 47990
+  total_clicks: 461
+  open_rate: 0.5175
+  click_rate: 0.005
+  total_revenue: 63192.18
+  total_bounces: 5
+  total_unsubscribes: 108
+  ga4:
+    sessions: 461
+    purchases: 2
+    revenue: 820.02
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.775674'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.875426'
+schedule_type: time_based

@@ -1,0 +1,59 @@
+id: fffb0b08-c5e7-4b7a-aa9a-d8a5d7b4bcaa
+name: P_2025_06_07_D_STF_Promo_Outdoor_Styling
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: fffb0b08-c5e7-4b7a-aa9a-d8a5d7b4bcaa
+dates:
+  send_date: '2025-06-07'
+  inferred_send_type: local_time
+  first_sent: '2025-06-06T23:26:45+00:00'
+  last_sent: '2025-06-07T17:00:26+00:00'
+tags: []
+sends:
+- id: 64556aa4-99ad-44d6-a783-99b679bb5170
+  channel: email
+  name: Variant 1
+  subject: The Art of Al Fresco
+  preheader: cult-coveted decor for your most stylish summer yet
+  html_file: html/p_2025_06_07_d_stf_promo_outdoor_styling.html
+  screenshot: screenshots/p_2025_06_07_d_stf_promo_outdoor_styling.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68422c37f198f4007650db04/original.png?1749167159
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68422c2f0dacbb0076e2bf04/original.png?1749167151
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68432b495ce0d4006749cc48/original.jpg?1749232457
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684225fa2aab570083b0e531/original.png?1749165561
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68432b6b8f50df0065350967/original.jpg?1749232491
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684225ef2b2566006549d957/original.gif?1749165551
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/684229462f70ed006472e5f5/original.jpg?1749166406
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68432b2b60513500748187bd/original.jpg?1749232426
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68432b5b5ce0d4008749b215/original.jpg?1749232475
+- id: bf18002d-2146-4a95-b2ef-e1caa2e85978
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 31143
+  total_delivered: 30787
+  total_opens: 14934
+  total_clicks: 239
+  open_rate: 0.4795
+  click_rate: 0.0077
+  total_revenue: 7634.0
+  total_bounces: 14
+  total_unsubscribes: 87
+  ga4:
+    sessions: 289
+    purchases: 4
+    revenue: 1044.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.767133'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:33.474362'
+schedule_type: time_based

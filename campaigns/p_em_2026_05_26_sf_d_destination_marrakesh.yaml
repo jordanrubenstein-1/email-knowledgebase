@@ -1,0 +1,33 @@
+id: 4a413a90-d362-4d10-80d1-52aa80d88069
+name: P_EM_2026_05_26_SF_D_Destination_Marrakesh
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 4a413a90-d362-4d10-80d1-52aa80d88069
+dates:
+  send_date: '2026-05-26'
+  last_sent: '2026-05-26'
+tags:
+- Batch and Blast
+sends:
+- id: f1227e74-8226-4ae8-a639-83699e515127
+  channel: email
+  name: Variant 1
+  subject: The Memorial Day Sale meets Marrakesh
+  preheader: Saffron, indigo, terracotta, and 20% off sitewide.
+- id: f16b65f3-e6c5-4edb-92e0-6c669237bfde
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 36691
+  total_delivered: 36452
+  total_opens: 11617
+  total_clicks: 147
+  open_rate: 0.3166
+  click_rate: 0.004
+  total_revenue: 9816.0
+  total_unsubscribes: 19
+schedule_type: time_based
+_filename: p_em_2026_05_26_sf_d_destination_marrakesh.yaml

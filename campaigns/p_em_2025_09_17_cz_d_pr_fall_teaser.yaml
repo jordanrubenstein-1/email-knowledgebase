@@ -1,0 +1,74 @@
+id: 87a7ce8c-2360-45a6-8878-52598e0c36ab
+name: P_EM_2025_09_17_CZ_D_PR_Fall_Teaser
+brand: CZ
+channel: email
+category: other
+type: seasonal
+theme: fall
+braze_id: 87a7ce8c-2360-45a6-8878-52598e0c36ab
+dates:
+  send_date: '2025-09-17'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-17T17:30:11+00:00'
+  last_sent: '2025-09-17T17:34:18+00:00'
+tags:
+- am
+- batch and blast
+- collect
+- d2c
+- designed
+- sale
+sends:
+- id: 6e8d9900-08f8-41d6-9e80-c8bedc1b2d09
+  channel: email
+  name: Variant 1
+  subject: Your First Look at Fall 2025
+  preheader: A new season of craft lands 09.23.25.
+  html_file: html/p_em_2025_09_17_cz_d_pr_fall_teaser.html
+  screenshot: screenshots/p_em_2025_09_17_cz_d_pr_fall_teaser.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68caabba82ce1400856856ae/original.png?1758112698
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68caabe9a5253500657f4266/original.png?1758112744
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68caabcf48fd9a0065d5e119/original.png?1758112718
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/68caabb382ce140065685af8/original.png?1758112691
+- id: d09c51f4-dc55-4a99-8ecd-c4757872a7aa
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 113754
+  total_delivered: 113398
+  total_opens: 61614
+  total_clicks: 1098
+  open_rate: 0.5416
+  click_rate: 0.0097
+  total_bounces: 14
+  total_unsubscribes: 191
+  ga4:
+    sessions: 1004
+    purchases: 5
+    revenue: 1076.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.627284'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: cz-bedroom-refresh-sale-2025-09-15
+    name: Bedroom Refresh Sale
+    start_date: '2025-09-15'
+    end_date: '2025-09-22'
+    discount: 20% Off Bedding, Rugs, and Furniture
+    type: null
+  primary_sale:
+    id: cz-bedroom-refresh-sale-2025-09-15
+    name: Bedroom Refresh Sale
+    start_date: '2025-09-15'
+    end_date: '2025-09-22'
+    discount: 20% Off Bedding, Rugs, and Furniture
+    type: null
+  sale_name: Bedroom Refresh Sale
+  sale_discount: 20% Off Bedding, Rugs, and Furniture
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:33.288107'
+schedule_type: time_based

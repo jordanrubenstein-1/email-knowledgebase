@@ -1,0 +1,35 @@
+id: f8ad1cc0-9b8c-4a61-a3b3-79babdc8cf5d
+name: P_EM_2025_10_30_HAV_CONV_D_MARKETPLACE_RUG_SALE
+brand: HAV
+channel: email
+category: sale_promo
+type: sale
+theme: null
+braze_id: f8ad1cc0-9b8c-4a61-a3b3-79babdc8cf5d
+dates:
+  send_date: '2025-10-30'
+  first_sent: '2025-10-30T01:23:34+00:00'
+  last_sent: '2025-10-31T01:15:19+00:00'
+  inferred_send_type: local_time
+tags:
+- BLASTS-2025
+sends:
+- id: c97a41f5-ac06-4532-9366-6bf1f353dc2e
+  channel: email
+  name: Variant 1
+  subject: 'STARTS NOW: The Rug Event'
+  preheader: Roll in the savings with up 60% off premium rugs.
+- id: 198def56-c7d0-4ce3-af8a-9d1dbc745b5c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 34081
+  total_delivered: 34063
+  total_opens: 17450
+  total_clicks: 186
+  open_rate: 0.512
+  click_rate: 0.0055
+  total_bounces: 3
+  total_unsubscribes: 32
+schedule_type: time_based
+_filename: p_em_2025_10_30_hav_conv_d_marketplace_rug_sale.yaml

@@ -1,0 +1,59 @@
+id: b5bdd837-fbf4-4726-a772-d3a678eaeace
+name: P_2025_2_12_D_CZ_PD_EA_Launch_AM
+brand: CZ
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: b5bdd837-fbf4-4726-a772-d3a678eaeace
+dates:
+  send_date: '2025-02-12'
+  inferred_send_type: scheduled
+  first_sent: '2025-02-12T02:05:05+00:00'
+  last_sent: '2025-02-12T17:00:53+00:00'
+tags: []
+sends:
+- id: 9785fac5-fb0a-4223-a225-eb474bfc595f
+  channel: email
+  name: Variant 1
+  subject: Early Access, Just For You
+  preheader: Be the first to shop up to 20% off.
+  html_file: html/p_2025_2_12_d_cz_pd_ea_launch_am.html
+  screenshot: screenshots/p_2025_2_12_d_cz_pd_ea_launch_am.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67aa330a63e7830071bba440/original.png?1739207434
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67aa2935b56c040075ac5311/original.png?1739204916
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67aa27eb33f68100766c33bf/original.png?1739204587
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67aa27b063e7830071bb835d/original.png?1739204528
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67aa32b170bc2c007688b279/original.png?1739207345
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67aa27ca33f68100666c3489/original.png?1739204553
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67aa335863e7830071bba589/original.png?1739207512
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67aa2bed33f68100766c35af/original.png?1739205613
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67aa32c21a942400755c1fef/original.png?1739207361
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67aa280f85c96b0067816a9c/original.png?1739204623
+- id: b8f114e7-d954-40b9-8227-a51c20834561
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 96185
+  total_delivered: 95466
+  total_opens: 46973
+  total_clicks: 1126
+  open_rate: 0.4884
+  click_rate: 0.0117
+  total_revenue: 131609.22
+  total_bounces: 1
+  total_unsubscribes: 106
+  ga4:
+    sessions: 2400
+    purchases: 42
+    revenue: 19539.9
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.580213'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:44.126601'
+schedule_type: time_based

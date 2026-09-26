@@ -1,0 +1,35 @@
+id: e8f88e91-a3d9-4766-a9e1-82b1f7efbf0a
+name: P_EM_2026_02_19_BW_PT_Recent_Purchasers_Survey_Resend
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: e8f88e91-a3d9-4766-a9e1-82b1f7efbf0a
+dates:
+  send_date: '2026-02-19'
+  inferred_send_type: local_time
+  first_sent: '2026-02-19T02:07:24+00:00'
+  last_sent: '2026-02-20T02:00:36+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: f0925ad4-a2e8-48ee-810d-3e0d44545c33
+  channel: email
+  name: Variant 1
+  subject: Tell us what you think. Win a $500 Amazon gift card.
+- id: 01097e5f-de5a-4fa3-b6c7-5f13727b4f02
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 7048
+  total_delivered: 6997
+  total_opens: 3319
+  total_clicks: 207
+  open_rate: 0.4709
+  click_rate: 0.0294
+  total_revenue: 16133.0
+  total_bounces: 2
+  total_unsubscribes: 57
+_filename: p_em_2026_02_19_bw_pt_recent_purchasers_survey_resend.yaml
+schedule_type: time_based

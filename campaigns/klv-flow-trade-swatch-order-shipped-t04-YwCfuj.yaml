@@ -1,0 +1,56 @@
+id: klaviyo-YwCfuj
+name: TRG_EM_2024_01_TI_Trade_D_Shipping_Confirmation_Swatch_Order_T5_V1
+brand: TI
+channel: email
+category: other
+type: announcement
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: QyPJqw
+canvas_name: '[TRADE] Swatch Order -- SHIPPED'
+flow_type: swatch_followup
+sequence_position: 4
+dates:
+  created: '2020-03-09'
+  inferred_send_type: sto
+  first_sent: '2020-03-09'
+  last_sent: '2026-04-22'
+sends:
+- id: YwCfuj
+  channel: email
+  name: Message
+  subject: Need More Swatches?
+  preheader: Order more — they're free!
+  html_file: html/klv-flow-trade-swatch-order-shipped-t04-YwCfuj.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/909383a9-6ce6-475e-83b0-f5630e47624f.gif
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/4bdd8ea9-7dc5-48a2-ad86-04a53434c8a1.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/17413e7a-22d2-444a-a7b8-6a6ed954c4af.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/5b46fe0f-7a12-4519-87ce-4caa7c28d539.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/d069db59-1314-4879-8c7f-630c42cc9f43.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/35c1a2b7-2374-4991-84ab-4e950fd9a5c7.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/92d4f85a-e648-4016-9732-56d261c5e3e0.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/b398c3ca-c7f5-41f2-bedc-27a54cf334fb.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/69a68883-3bce-41ac-802d-c532d6fa1f13.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/dccf9ff5-8748-4e56-89b2-548bc39a42d2.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: YwCfuj
+structure:
+  image_count: 12
+  link_count: 13
+  has_gif: true
+  hero_width: 600
+  layout_type: product_grid

@@ -1,0 +1,35 @@
+id: 51aae8b5-82b8-4661-8857-b133526590e9
+name: P_EM_2026_03_22_ID_D_PR_Outdoors_Spring_Sale
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: spring
+braze_id: 51aae8b5-82b8-4661-8857-b133526590e9
+dates:
+  send_date: '2026-03-22'
+  inferred_send_type: local_time
+  first_sent: '2026-03-21T17:06:43+00:00'
+  last_sent: '2026-03-22T17:05:07+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: a632cbce-2f86-484b-923b-3e2699698d8b
+  channel: email
+  name: Variant 1
+  subject: 'Spring Refresh Sale: 25% off sitewide'
+  preheader: Outdoor pieces, arriving just in time for summer.
+- id: f4561861-e467-4cac-9a0c-9b055c0e352e
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 219730
+  total_delivered: 218458
+  total_opens: 92442
+  total_clicks: 517
+  open_rate: 0.4207
+  click_rate: 0.0024
+  total_revenue: 197761.91
+  total_bounces: 2
+  total_unsubscribes: 252
+schedule_type: time_based

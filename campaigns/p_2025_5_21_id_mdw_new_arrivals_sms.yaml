@@ -1,0 +1,30 @@
+id: fc1550ed-ecda-4e9a-82a8-2d5c80bc0ab3
+name: P_2025_5_21_ID_MDW_New_Arrivals_SMS
+brand: ID
+channel: sms
+category: product_launch
+type: product_launch
+theme: null
+braze_id: fc1550ed-ecda-4e9a-82a8-2d5c80bc0ab3
+dates:
+  send_date: '2025-05-21'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-21T21:59:35+00:00'
+  last_sent: '2025-05-21T22:02:45+00:00'
+tags: []
+sends:
+- id: 9d93e6e6-8aec-48dc-a086-0723d1e74229
+  channel: other
+  name: Variant 1
+- id: bc32cf47-087d-481a-b0dd-a02b76645b71
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 58381
+  total_delivered: 54755
+  total_opens: 0
+  total_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_revenue: 3285.0
+schedule_type: time_based

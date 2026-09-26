@@ -1,0 +1,37 @@
+id: 2835b609-c6f7-48d1-bbbf-2fe105618229
+name: P_SMS_2025_11_05_SF_Custom_Furniture
+brand: STF
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: 2835b609-c6f7-48d1-bbbf-2fe105618229
+dates:
+  send_date: '2025-11-05'
+  inferred_send_type: local_time
+  first_sent: '2025-11-04T22:24:26+00:00'
+  last_sent: '2025-11-05T18:30:25+00:00'
+tags: []
+sends:
+- id: fe03a259-e0fc-46f3-b394-773795c5651f
+  channel: sms
+  name: Variant 1
+- id: a5fa29ce-4c2a-41db-883d-cce7e4b2ba9c
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 4463
+  total_delivered: 4396
+  total_opens: 0
+  total_clicks: 325
+  open_rate: 0.0
+  click_rate: 0.0728
+  ga4:
+    sessions: 328
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.646314'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

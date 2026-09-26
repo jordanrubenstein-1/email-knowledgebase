@@ -1,0 +1,35 @@
+id: fd894d3f-7f3c-4bc7-b95d-4161e54df936
+name: P_EM_2026_09_25_ID_PC_D_Flash_Sale_Reminder
+brand: ID
+channel: email
+category: reminder
+type: sale
+theme: null
+braze_id: fd894d3f-7f3c-4bc7-b95d-4161e54df936
+dates:
+  send_date: '2026-09-25'
+  first_sent: '2026-09-24T21:56:21+00:00'
+  last_sent: '2026-09-25T12:00:00+00:00'
+  inferred_send_type: scheduled
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 95c9ee7c-b1ce-46cf-a99b-80c8878f96e3
+  channel: email
+  name: Variant 1
+  subject: 25-30% off everything is still live
+  preheader: Order now while the Flash Sale lasts.
+- id: 299d878f-440a-4652-9d35-24b3f59a7858
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 56461
+  total_delivered: 40651
+  total_opens: 1666
+  total_clicks: 76
+  open_rate: 0.0295
+  click_rate: 0.0013
+  total_bounces: 1
+  total_unsubscribes: 10
+schedule_type: time_based
+_filename: p_em_2026_09_25_id_pc_d_flash_sale_reminder.yaml

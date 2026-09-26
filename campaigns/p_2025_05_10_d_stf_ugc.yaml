@@ -1,0 +1,59 @@
+id: 624f90af-5750-4696-915a-7a6c9de13208
+name: P_2025_05_10_D_STF_UGC
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 624f90af-5750-4696-915a-7a6c9de13208
+dates:
+  send_date: '2025-05-10'
+  inferred_send_type: scheduled
+  first_sent: '2025-05-10T05:32:07+00:00'
+  last_sent: '2025-05-10T17:00:41+00:00'
+tags: []
+sends:
+- id: 7c0c054b-457b-4c94-aa51-98401ca2a9aa
+  channel: email
+  name: Variant 1
+  subject: You Made Us Blush
+  preheader: your Suzani style is giving us all the spring vibes
+  html_file: html/p_2025_05_10_d_stf_ugc.html
+  screenshot: screenshots/p_2025_05_10_d_stf_ugc.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681bc9c511f4390075b9f2da/original.png?1746651589
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681bc9606aeaac0075445e8c/original.png?1746651487
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681bc9d0c43dfa0066c35761/original.png?1746651600
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681bc9a2506b5e0065b8c8de/original.png?1746651553
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681bc9c0d3229f0065ea21e2/original.png?1746651584
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681bc9cbc43dfa0076c349fa/original.png?1746651594
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681bc983696d4e0066830e06/original.png?1746651523
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681bc9d582dfb1006623633e/original.png?1746651605
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/681bc9b4506b5e0065b8c96c/original.gif?1746651572
+- id: 47b63309-ca7b-491e-9a65-7b047229e7b6
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 20446
+  total_delivered: 20206
+  total_opens: 10337
+  total_clicks: 167
+  open_rate: 0.5056
+  click_rate: 0.0082
+  total_revenue: 2383.0
+  total_bounces: 29
+  total_unsubscribes: 49
+  ga4:
+    sessions: 213
+    purchases: 3
+    revenue: 111.71
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.864018'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:36.592574'
+schedule_type: time_based

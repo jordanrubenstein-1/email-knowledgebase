@@ -1,0 +1,61 @@
+id: d267360d-dfa8-4685-a8c4-8b8bf149d4df
+name: P_EM_2025_07_22_CZ_D_PR_Washable_Rugs_Collection_Launch
+brand: CZ
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: d267360d-dfa8-4685-a8c4-8b8bf149d4df
+dates:
+  send_date: '2025-07-22'
+  inferred_send_type: scheduled
+  first_sent: '2025-07-22T05:17:57+00:00'
+  last_sent: '2025-07-22T17:02:40+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+sends:
+- id: 67860525-3461-4e41-a65a-9284625fb74d
+  channel: email
+  name: Variant 1
+  subject: 'Just In: The Washable Wool Collection'
+  preheader: The only rugs made with 100% natural wool—and designed to go in the wash.
+  html_file: html/p_em_2025_07_22_cz_d_pr_washable_rugs_collection_launch.html
+  screenshot: screenshots/p_em_2025_07_22_cz_d_pr_washable_rugs_collection_launch.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687eb1a22fc4bc0067653d4e/original.png?1753133473
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687eb18555c07e0064013543/original.png?1753133444
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687eb368435cae0067c40ca7/original.png?1753133928
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687eab4eb852ed0065586030/original.gif?1753131854
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687eb1f8db28190076672ab2/original.png?1753133559
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687eb11a55c07e006401315b/original.png?1753133337
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687eb09755c07e0064012d83/original.png?1753133206
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/687f1e54e8248300655bf007/original.png?1753161299
+- id: 84e1f265-31d0-4079-8dd1-6815dd7e5f5b
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 100744
+  total_delivered: 100159
+  total_opens: 52062
+  total_clicks: 778
+  open_rate: 0.5168
+  click_rate: 0.0077
+  total_revenue: 57259.0
+  total_bounces: 1
+  total_unsubscribes: 126
+  ga4:
+    sessions: 856
+    purchases: 1
+    revenue: 55.2
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.121541'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:39.341668'
+schedule_type: time_based

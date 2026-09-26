@@ -1,0 +1,59 @@
+id: 601f5523-c700-4bb4-8c1b-2d5fb0cb1673
+name: TRADE_2024_10_08_D_SF_Launch_Email
+brand: STF
+channel: email
+category: product_launch
+type: product_launch
+theme: null
+braze_id: 601f5523-c700-4bb4-8c1b-2d5fb0cb1673
+dates:
+  send_date: '2024-10-08'
+  inferred_send_type: scheduled
+  first_sent: '2024-10-08T14:00:02+00:00'
+  last_sent: '2024-10-08T14:01:11+00:00'
+tags: []
+sends:
+- id: 991af91e-3fa2-450b-b63b-311ed3e6ee11
+  channel: email
+  name: Variant 1
+  subject: 'You''ve Been Upgraded: New Trade Perks'
+  preheader: one trade program, four brands
+  html_file: html/trade_2024_10_08_d_sf_launch_email.html
+  screenshot: screenshots/trade_2024_10_08_d_sf_launch_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/670457aa7c7a500065b77af1/original.jpg?1728337834
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0058f1ba77/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/670457874d18f20072ad27bc/original.gif?1728337799
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/670457b5f57872006683aa73/original.gif?1728337845
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6704579fd5095a0073329143/original.gif?1728337823
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67004e581dbfc50075dcdd1a/original.gif?1728073304
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67045792d5095a006432999f/original.gif?1728337810
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/669097d314f3ac0063f11fb6/original.jpg?1720752082
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67004e581dbfc50066dcf60a/original.gif?1728073304
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67004e5852915700739b2b64/original.gif?1728073304
+- id: b2c86bb8-789e-4b8d-bdd0-7860015695e6
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 983
+  total_delivered: 974
+  total_opens: 283
+  total_clicks: 27
+  open_rate: 0.2879
+  click_rate: 0.0275
+  total_revenue: 2137.7
+  total_bounces: 3
+  total_unsubscribes: 5
+  ga4:
+    sessions: 39
+    purchases: 2
+    revenue: 130.61
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:12.816932'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:34.904334'
+schedule_type: time_based

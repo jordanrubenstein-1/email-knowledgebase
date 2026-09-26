@@ -1,0 +1,38 @@
+id: 8e18757c-7e0d-4008-aad7-a79b85b7ea3c
+name: P_SMS_2025_09_23_BW_Bestsellers
+brand: BUR
+channel: sms
+category: other
+type: announcement
+theme: null
+braze_id: 8e18757c-7e0d-4008-aad7-a79b85b7ea3c
+dates:
+  send_date: '2025-09-23'
+  inferred_send_type: local_time
+  first_sent: '2025-09-23T03:18:31+00:00'
+  last_sent: '2025-09-24T01:01:33+00:00'
+tags: []
+sends:
+- id: 8f3fad96-21a6-4aae-a00c-f6a53c252a2f
+  channel: sms
+  name: Variant 1
+- id: a41213b7-44d4-4ae0-a699-9b5b38566efa
+  channel: sms
+  name: Control Group
+performance_summary:
+  total_sends: 6255
+  total_delivered: 6161
+  total_opens: 0
+  total_clicks: 1252
+  open_rate: 0.0
+  click_rate: 0.2002
+  total_revenue: 6948.0
+  ga4:
+    sessions: 115
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:52.718447'
+    source: snowflake
+    channel: sms
+schedule_type: time_based

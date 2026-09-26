@@ -1,0 +1,31 @@
+id: 6cf3cfd6-a7ee-4950-b6fc-a9d3078f9ebd
+name: P_PUSH_2026_03_18_HAV_CONV_See_Your_Space_Transformed
+brand: HAV
+channel: push
+category: other
+type: announcement
+theme: null
+braze_id: 6cf3cfd6-a7ee-4950-b6fc-a9d3078f9ebd
+dates:
+  send_date: '2026-03-18'
+  inferred_send_type: local_time
+  first_sent: '2026-03-18T01:06:38+00:00'
+  last_sent: '2026-03-19T01:00:59+00:00'
+tags: []
+sends:
+- id: ac0ca832-319b-4787-bb2b-d9ef84a6841f
+  channel: push
+  name: Variant 1
+- id: f01a4ad7-0d7a-44d6-9475-fd046f824345
+  channel: push
+  name: Control Group
+performance_summary:
+  ga4:
+    sessions: 0
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:47:49.332428'
+    source: snowflake
+    channel: push
+schedule_type: time_based

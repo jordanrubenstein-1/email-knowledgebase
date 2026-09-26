@@ -1,0 +1,56 @@
+id: klaviyo-RAKJEL
+name: TRG_EM_2023_04_TI_D_Welcome_NoSwatch_T2_V1
+brand: TI
+channel: email
+category: other
+type: product_launch
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: SmPgUp
+canvas_name: Welcome Series - NEW
+flow_type: welcome_series
+sequence_position: 9
+dates:
+  created: '2023-04-28'
+  inferred_send_type: sto
+  first_sent: '2023-04-28'
+  last_sent: '2026-06-24'
+sends:
+- id: RAKJEL
+  channel: email
+  name: Message
+  subject: We make decorating fun and easy
+  preheader: Get started with FREE swatches
+  html_file: html/klv-flow-welcome-series-new-t09-RAKJEL.html
+  image_urls:
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/1dc9c011-dbea-42df-8d02-bb18d6125a4c.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/9eeaef97-944e-4e36-9ac7-62c625e3442b.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/c865c43a-fdc9-4c8b-b3aa-929bc6907df9.png
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/9411c1cc-00ee-49aa-9542-367bc3e136be.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/2223b4db-1433-48a6-a573-f55cd242ce66.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/5e5c2694-4987-4933-91ae-ad705947bd3e.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/a0c6d60d-fc0b-4d49-8a39-757a8253d3f4.gif
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/1ae3450d-1040-48fc-ad56-512eb9eac34d.jpeg
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/5525c1fe-3e26-4fce-a5ad-311426138dfb.gif
+  - https://d3k81ch9hvuctc.cloudfront.net/company/LD9fJi/images/0fa2a527-7dc1-4acb-9089-abc334e96566.jpeg
+performance_summary:
+  total_sends: 0
+  total_delivered: 0
+  total_opens: 0
+  total_clicks: 0
+  unique_opens: 0
+  unique_clicks: 0
+  open_rate: 0.0
+  click_rate: 0.0
+  total_open_rate: 0.0
+  total_click_rate: 0.0
+  total_unsubscribes: 0
+  total_bounces: 0
+klaviyo_type: flow
+klaviyo_message_id: RAKJEL
+structure:
+  image_count: 23
+  link_count: 24
+  has_gif: true
+  hero_width: 600
+  layout_type: product_grid

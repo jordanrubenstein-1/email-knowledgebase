@@ -1,0 +1,47 @@
+id: f24f4348-65ff-4883-84b5-d89641893c49
+name: P_2025_1_21_D_SF_WALLPAPER_WINTER_REFRESH_SALE_Gmail_Email
+brand: STF
+channel: email
+category: sale_promo
+type: sale
+theme: winter
+braze_id: f24f4348-65ff-4883-84b5-d89641893c49
+dates:
+  send_date: '2025-01-21'
+  inferred_send_type: local_time
+  first_sent: '2025-01-20T18:09:27+00:00'
+  last_sent: '2025-01-21T16:00:13+00:00'
+tags: []
+sends:
+- id: cc2249c2-f026-41ad-bf9f-5abb67282d56
+  channel: email
+  name: Variant 1
+  subject: 'ICYMI: 20% Off Wallpaper'
+  preheader: over 60 bold patterns on sale now
+  html_file: html/p_2025_1_21_d_sf_wallpaper_winter_refresh_sale_gmail_email.html
+  screenshot: screenshots/p_2025_1_21_d_sf_wallpaper_winter_refresh_sale_gmail_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678abc5a63e60a00739e7866/original.gif?1737145434
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678abd75d6aed400659242bd/original.gif?1737145717
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678abcc0385c820065d7e5ff/original.gif?1737145536
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678abc9923bb0400738ae2c9/original.gif?1737145497
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678abe08b0aa5200660e1941/original.jpg?1737145863
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678a62aadbd33900664a074d/original.jpg?1737122473
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678abdd145395c006548d7a8/original.gif?1737145808
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678abda563e60a00659e8cc1/original.gif?1737145765
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678abd42cdcb570064a16759/original.gif?1737145666
+- id: 7b9ff117-a473-483b-968f-4addd9504550
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 727
+  total_delivered: 727
+  total_opens: 552
+  total_clicks: 14
+  open_rate: 0.7593
+  click_rate: 0.0193
+  total_revenue: 240.0
+  total_unsubscribes: 2
+_filename: p_2025_1_21_d_sf_wallpaper_winter_refresh_sale_gmail_email.yaml
+schedule_type: time_based

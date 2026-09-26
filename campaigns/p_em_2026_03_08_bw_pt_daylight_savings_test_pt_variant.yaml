@@ -1,0 +1,35 @@
+id: 6129df0c-8bce-4958-9297-f93b8eaf671b
+name: P_EM_2026_03_08_BW_PT_Daylight_Savings_Test_PT_Variant
+brand: BUR
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 6129df0c-8bce-4958-9297-f93b8eaf671b
+dates:
+  send_date: '2026-03-08'
+  inferred_send_type: local_time
+  first_sent: '2026-03-07T17:21:37+00:00'
+  last_sent: '2026-03-08T17:16:18+00:00'
+tags:
+- Batch&Blast
+sends:
+- id: 066562f1-1351-4a22-a4cc-37a84f5277e1
+  channel: email
+  name: Variant 1
+  subject: Lose an hour. Gain the glow.
+- id: 9712134a-7952-4da7-8f33-6faa04734d64
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 118231
+  total_delivered: 117237
+  total_opens: 63732
+  total_clicks: 230
+  open_rate: 0.539
+  click_rate: 0.0019
+  total_revenue: 40142.0
+  total_bounces: 1
+  total_unsubscribes: 117
+_filename: p_em_2026_03_08_bw_pt_daylight_savings_test_pt_variant.yaml
+schedule_type: time_based

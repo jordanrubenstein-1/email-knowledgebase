@@ -1,0 +1,35 @@
+id: 8ea44cd1-a98f-40c6-bcd9-eb153a2ce760
+name: P_2024_12_10_ID_BFCM_Extension_Last_Chance_AM_Email
+brand: ID
+channel: email
+category: reminder
+type: announcement
+theme: black_friday
+braze_id: 8ea44cd1-a98f-40c6-bcd9-eb153a2ce760
+dates:
+  send_date: '2024-12-10'
+  inferred_send_type: local_time
+  first_sent: '2024-12-10T01:36:53+00:00'
+  last_sent: '2024-12-10T17:15:04+00:00'
+tags: []
+sends:
+- id: 20c2c1b3-7daf-4f76-aa68-7c782b5d2883
+  channel: email
+  name: Variant 1
+  subject: 'Last Chance: Up To 25% Off Sitewide'
+  preheader: Trust us, you don’t want to miss this.
+- id: e8d21148-5c40-4773-8d6f-be8b8ec004e0
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 87599
+  total_delivered: 86873
+  total_opens: 26594
+  total_clicks: 507
+  open_rate: 0.3036
+  click_rate: 0.0058
+  total_revenue: 270389.63
+  total_bounces: 4
+  total_unsubscribes: 124
+_filename: p_2024_12_10_id_bfcm_extension_last_chance_am_email.yaml
+schedule_type: time_based

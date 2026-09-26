@@ -1,0 +1,61 @@
+id: 7ea78279-6a1c-42ad-a670-065b26bf09e6
+name: P_EM_2025_12_08_CZ_D_PR_BFCM_Cyber_Week_Extension_Final_Hours
+brand: CZ
+channel: email
+category: reminder
+type: seasonal
+theme: black_friday
+braze_id: 7ea78279-6a1c-42ad-a670-065b26bf09e6
+dates:
+  send_date: '2025-12-08'
+  inferred_send_type: local_time
+  first_sent: '2025-12-07T17:22:36+00:00'
+  last_sent: '2025-12-08T17:17:16+00:00'
+tags:
+- am
+- batch and blast
+- d2c
+- designed
+- sale
+- sale/bfcm
+sends:
+- id: 4322bad2-0261-4f47-8230-18d14c7e75a9
+  channel: email
+  name: Variant 1
+  subject: 'Only Hours Left: Shop 20% Off Sitewide'
+  preheader: Don’t miss your chance to invest in pieces that endure.
+  html_file: html/p_em_2025_12_08_cz_d_pr_bfcm_cyber_week_extension_final_hour.html
+  screenshot: screenshots/p_em_2025_12_08_cz_d_pr_bfcm_cyber_week_extension_final_hour.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6932ff081a6e920063467044/original.png?1764949767
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6932fdbb9c2cbd0063ffd7e1/original.gif?1764949435
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6932fefd09dc580063ae04e2/original.png?1764949756
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6932fee861d87a0064bcbc24/original.png?1764949736
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6932febeb183de00737130cb/original.png?1764949694
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/693300cd5867f50063f64d02/original.png?1764950220
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6932ff1106a2e70063a2d50d/original.png?1764949776
+- id: 0f653647-b3f0-4eeb-9ff2-23cd037d4f7a
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 114723
+  total_delivered: 114595
+  total_opens: 56862
+  total_clicks: 595
+  open_rate: 0.4956
+  click_rate: 0.0052
+  total_bounces: 7
+  total_unsubscribes: 175
+  ga4:
+    sessions: 503
+    purchases: 9
+    revenue: 3623.1
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.345931'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:41.616747'
+schedule_type: time_based

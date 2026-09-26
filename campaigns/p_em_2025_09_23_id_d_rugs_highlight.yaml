@@ -1,0 +1,63 @@
+id: a9ac3cd3-f91d-4dc5-ad3f-798ff7926f1d
+name: P_EM_2025_09_23_ID_D_Rugs_Highlight
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: a9ac3cd3-f91d-4dc5-ad3f-798ff7926f1d
+dates:
+  send_date: '2025-09-23'
+  inferred_send_type: scheduled
+  first_sent: '2025-09-23T03:24:03+00:00'
+  last_sent: '2025-09-23T17:15:11+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 8e77a5c5-ddc6-4c2b-83a3-d9d57869b874
+  channel: email
+  name: Variant 1
+  subject: Designer Rug Roundup
+  preheader: Shop 20% Off Trending Styles
+- id: 8dabc7fa-47c1-4733-a182-f99f888409f7
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 201115
+  total_delivered: 199976
+  total_opens: 94711
+  total_clicks: 777
+  open_rate: 0.4709
+  click_rate: 0.0039
+  total_revenue: 159084.95
+  total_bounces: 3
+  total_unsubscribes: 350
+  ga4:
+    sessions: 757
+    purchases: 1
+    revenue: 1302.79
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:54.323574'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: id-holiday-ready-sale-2025-09-18
+    name: Holiday-Ready Sale
+    start_date: '2025-09-18'
+    end_date: '2025-09-30'
+    discount: 20% off sitewide
+    type: null
+  primary_sale:
+    id: id-holiday-ready-sale-2025-09-18
+    name: Holiday-Ready Sale
+    start_date: '2025-09-18'
+    end_date: '2025-09-30'
+    discount: 20% off sitewide
+    type: null
+  sale_name: Holiday-Ready Sale
+  sale_discount: 20% off sitewide
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:33.951678'
+schedule_type: time_based

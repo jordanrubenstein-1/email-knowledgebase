@@ -1,0 +1,23 @@
+id: 5219fe9c-b0a2-45ab-b7a7-159fbc825352
+name: P_PUSH_12_31_2025_HAV_PC_Final_Hours
+brand: HAV
+channel: push
+category: reminder
+type: announcement
+theme: null
+braze_id: 5219fe9c-b0a2-45ab-b7a7-159fbc825352
+dates:
+  first_sent: '2025-12-31T01:07:00+00:00'
+  last_sent: '2026-01-01T01:01:17+00:00'
+  inferred_send_type: local_time
+tags: []
+sends:
+- id: 54ad6b4d-dabe-43ea-a1ba-e3344d21d245
+  channel: push
+  name: Variant 1
+- id: df656933-bc95-4f98-9941-0192e1223bde
+  channel: push
+  name: Control Group
+performance_summary: {}
+schedule_type: time_based
+_filename: p_push_12_31_2025_hav_pc_final_hours.yaml

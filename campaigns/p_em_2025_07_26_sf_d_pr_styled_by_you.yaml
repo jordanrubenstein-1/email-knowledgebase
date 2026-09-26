@@ -1,0 +1,67 @@
+id: cc03fd29-32ee-4438-9ee2-c4beebd48850
+name: P_EM_2025_07_26_SF_D_PR_Styled_By_You
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: cc03fd29-32ee-4438-9ee2-c4beebd48850
+dates:
+  send_date: '2025-07-26'
+  inferred_send_type: local_time
+  first_sent: '2025-07-26T00:06:44+00:00'
+  last_sent: '2025-07-26T17:00:57+00:00'
+tags:
+- Batch and Blast
+- am
+- d2c
+- designed
+- sale
+- ugc
+sends:
+- id: 88580511-4131-4d64-ab17-c5a2f15082b7
+  channel: email
+  name: Variant 1
+  subject: 'We ❤️ Your Style '
+  preheader: your homes. our pieces. serious inspiration.
+- id: 852486be-e974-4c7c-bebb-d57986b66d7a
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 41919
+  total_delivered: 41831
+  total_opens: 19338
+  total_clicks: 158
+  open_rate: 0.4613
+  click_rate: 0.0038
+  total_revenue: 8728.0
+  total_unsubscribes: 76
+  ga4:
+    sessions: 172
+    purchases: 5
+    revenue: 928.44
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.090429'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: true
+  matching_sales:
+  - id: stf-the-pillow-event-2025-07-25
+    name: The Pillow Event
+    start_date: '2025-07-25'
+    end_date: '2025-07-31'
+    discount: 20% Off All Pillows
+    type: null
+  primary_sale:
+    id: stf-the-pillow-event-2025-07-25
+    name: The Pillow Event
+    start_date: '2025-07-25'
+    end_date: '2025-07-31'
+    discount: 20% Off All Pillows
+    type: null
+  sale_name: The Pillow Event
+  sale_discount: 20% Off All Pillows
+  sale_type: null
+_sale_labeled_at: '2026-01-28T15:17:43.883268'
+schedule_type: time_based

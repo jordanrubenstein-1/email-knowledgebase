@@ -1,0 +1,35 @@
+id: ac8e8258-1328-4227-bc1c-ea9bf54bba05
+name: P_EM_2026_03_19_ID_D_PR_Sleepers_Spring_Sale
+brand: ID
+channel: email
+category: sale_promo
+type: sale
+theme: spring
+braze_id: ac8e8258-1328-4227-bc1c-ea9bf54bba05
+dates:
+  send_date: '2026-03-19'
+  inferred_send_type: local_time
+  first_sent: '2026-03-18T23:10:16+00:00'
+  last_sent: '2026-03-19T17:07:00+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 447dc377-0d85-4985-964c-b9ed5e03c54d
+  channel: email
+  name: Variant 1
+  subject: 4 sleeper sofas we swear by
+  preheader: 25% off staff favorites during the Spring Refresh Sale.
+- id: a8203341-7f12-4cc2-ab04-bd5b5c28518a
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 220056
+  total_delivered: 217147
+  total_opens: 90425
+  total_clicks: 697
+  open_rate: 0.4109
+  click_rate: 0.0032
+  total_revenue: 159051.89
+  total_bounces: 12
+  total_unsubscribes: 293
+schedule_type: time_based

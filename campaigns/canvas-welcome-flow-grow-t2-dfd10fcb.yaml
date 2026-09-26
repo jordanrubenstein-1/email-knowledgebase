@@ -1,0 +1,25 @@
+id: dfd10fcb-d0b3-4eba-9d26-7118e14d1d20
+name: Step 2
+brand: BUR
+channel: email
+category: other
+braze_type: canvas_step
+campaign_type: Triggered Journey
+canvas_id: 307124fd-04f2-467f-8a83-8228c8810da8
+canvas_name: Welcome Flow - Grow
+flow_type: welcome_series
+sequence_position: 2
+subject: Welcome to Burrow! Take 15% off your first purchase
+preheader: You're in.
+sends:
+- id: dfd10fcb-d0b3-4eba-9d26-7118e14d1d20
+  channel: email
+  name: Step 2
+  subject: Welcome to Burrow! Take 15% off your first purchase
+  preheader: You're in.
+  html_file: html/canvas-welcome-flow-grow-t2-dfd10fcb.html
+dates:
+  inferred_send_type: sto
+  first_sent: '2024-11-23T17:00:00Z'
+  last_sent: '2025-09-03T04:00:00Z'
+performance_summary: {}

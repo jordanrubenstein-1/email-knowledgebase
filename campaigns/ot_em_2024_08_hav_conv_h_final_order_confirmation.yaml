@@ -1,0 +1,30 @@
+id: ea3f6f84-0fdb-ab60-90cb-38eac46c72b6
+name: OT_EM_2024_08_HAV_CONV_H_Final_Order_Confirmation
+brand: HAV
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: ea3f6f84-0fdb-ab60-90cb-38eac46c72b6
+dates:
+  first_sent: '2024-08-23T16:00:00+00:00'
+  last_sent: '2026-06-09T18:00:00+00:00'
+  inferred_send_type: sto
+tags: []
+sends:
+- id: 03383ebe-2e08-4e9f-a757-a3c9b68f198e
+  channel: email
+  name: Variant 1
+  subject: 'Your order has been confirmed! - Order #{{api_trigger_properties.${order_number}}}'
+- id: db098b79-c6b0-494e-bafa-e7880db5d06c
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 802
+  total_delivered: 802
+  total_opens: 919
+  total_clicks: 126
+  open_rate: 1.1459
+  click_rate: 0.1571
+schedule_type: api_triggered
+_filename: ot_em_2024_08_hav_conv_h_final_order_confirmation.yaml

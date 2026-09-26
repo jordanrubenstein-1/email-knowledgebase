@@ -1,0 +1,46 @@
+id: a3468ee1-d629-4211-961a-920799759469
+name: P_2024_10_24_D_SF_Holiday_Launch_2_Email
+brand: STF
+channel: email
+category: product_launch
+type: seasonal
+theme: christmas
+braze_id: a3468ee1-d629-4211-961a-920799759469
+dates:
+  send_date: '2024-10-24'
+  inferred_send_type: scheduled
+  first_sent: '2024-10-23T23:03:25+00:00'
+  last_sent: '2024-10-24T14:01:05+00:00'
+tags:
+- Batch and Blast/non-promo
+sends:
+- id: 38707779-6ef6-4289-b0d5-f5891d20952b
+  channel: email
+  name: Variant 1
+  subject: Unwrap Your Holiday Style
+  preheader: holiday decor in bold prints
+- id: b722a6af-c03c-4b56-bbce-539345170823
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 9664
+  total_delivered: 9625
+  total_opens: 3042
+  total_clicks: 94
+  open_rate: 0.3148
+  click_rate: 0.0097
+  total_revenue: 2658.1
+  total_unsubscribes: 4
+  ga4:
+    sessions: 64
+    purchases: 0
+    revenue: 0.0
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.077715'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:43.527639'
+schedule_type: time_based

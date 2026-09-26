@@ -1,0 +1,59 @@
+id: 75abe18b-e377-4211-9e78-6d0ea74f47c3
+name: P_2025_1_25_D_SF_Pillows_By_Technique_Email
+brand: STF
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 75abe18b-e377-4211-9e78-6d0ea74f47c3
+dates:
+  send_date: '2025-01-25'
+  inferred_send_type: local_time
+  first_sent: '2025-01-25T01:02:19+00:00'
+  last_sent: '2025-01-25T17:00:08+00:00'
+tags: []
+sends:
+- id: 55b38f3c-8ce6-42b9-bd42-2b82b8b6c3d1
+  channel: email
+  name: Variant 1
+  subject: Your Pillow Picks now 20% off
+  preheader: pile on pillows
+  html_file: html/p_2025_1_25_d_sf_pillows_by_technique_email.html
+  screenshot: screenshots/p_2025_1_25_d_sf_pillows_by_technique_email.png
+  image_urls:
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6793fb6598c2a6006439c371/original.gif?1737751397
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6793fb2401819200653e9bd9/original.jpg?1737751332
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/668eff5cc8fe26005ab94290/original.jpg?1720647516
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678a62aadbd33900664a074d/original.jpg?1737122473
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6793fb4c01819200753e85b0/original.gif?1737751372
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67926b7f8386a80066de5331/original.gif?1737649023
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6793fb9290b226006613f896/original.gif?1737751442
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/6793fbad63ee630066d93fae/original.gif?1737751468
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/67926ba39cad5b0075237332/original.gif?1737649059
+  - https://braze-images.com/appboy/communication/assets/image_assets/images/678ab90d385c820065d7de2c/original.jpg?1737144589
+- id: 1e9a010b-e96d-4840-9848-4ebd0058ad0c
+  channel: other
+  name: Control Group
+performance_summary:
+  total_sends: 3789
+  total_delivered: 3738
+  total_opens: 2130
+  total_clicks: 60
+  open_rate: 0.5622
+  click_rate: 0.0158
+  total_revenue: 935.0
+  total_bounces: 1
+  total_unsubscribes: 10
+  ga4:
+    sessions: 73
+    purchases: 3
+    revenue: 640.41
+    attribution_window_days: 7
+    last_synced: '2026-04-17T13:48:13.047679'
+    source: snowflake
+    channel: email
+sale_period:
+  during_sale: false
+  matching_sales: []
+_sale_labeled_at: '2026-01-28T15:17:42.770053'
+schedule_type: time_based

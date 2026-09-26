@@ -1,0 +1,44 @@
+# Klaviyo metric volume anomaly watch-lists, per brand.
+#
+# Consumed by scripts/monitor_klaviyo_anomalies.py. Covers TI and TE (the two
+# Klaviyo-only brands) — mirrors data/braze_anomaly_config.yaml's shape and
+# scripts/utils/anomaly_detector.py's evaluate_series() logic, but pulls
+# volume from Klaviyo's Query Metric Aggregates API instead of the Snowflake
+# datashare. No freshness gate is needed here — Klaviyo's API is real-time,
+# not a once-daily batch feed, so that whole failure mode doesn't apply.
+#
+# metric_name: exact NAME value as returned by Klaviyo's /api/metrics/ for
+#   that brand's account. Verify against live data before adding — metric
+#   naming is NOT consistent even within a single brand (TI and TE both have
+#   multiple near-duplicate-sounding metrics from parallel/legacy
+#   integrations; several return 0 events and are dead).
+# description: why this metric matters (shown in comments/PRs, not in alerts)
+#
+# Known gap: TE has zero sale-schedule records in data/sale_schedules.yaml,
+# so the sale-exclusion baseline logic is a silent no-op for TE until TE
+# gets sale records — the hard-zero tier still protects it regardless.
+
+metrics:
+  TI:
+    - metric_name: "ProductAddedToCart"
+      description: "Cart additions — top-of-funnel site tracking health check"
+    - metric_name: "ProductViewed"
+      description: "PDP view — highest-volume site event, good canary for site-side tracking breaking entirely"
+    - metric_name: "OrderPlaced"
+      description: "Order-level purchase completion (not ProductOrdered, which is line-item-level and double-counts multi-item orders)"
+  TE:
+    - metric_name: "Showroom Add to Cart"
+      description: "Cart additions — Title Case naming family; ADD_TO_CART_SHOWROOM (ALL_CAPS family) also exists but with ~4.5x lower volume, likely a different/legacy integration"
+    - metric_name: "Showroom View Product"
+      description: "PDP view — Title Case naming family"
+    - metric_name: "Showroom OR Consultations Purchase"
+      description: "Union of Showroom Purchase + Consultations Purchase — TE's two revenue lines rolled into one purchase-completion signal"
+
+# Default anomaly thresholds — override per-entry by adding the same key
+# inside a metric dict above. Same semantics as data/braze_anomaly_config.yaml.
+defaults:
+  drop_threshold_pct: 25       # Tier 2: alert if recent 2-day avg < this % of the 4-week non-sale baseline
+                               # (kept in lockstep with data/braze_anomaly_config.yaml — lowered 50 → 25 on
+                               # 2026-07-17 so post-sale lulls stop firing false partial-drop alerts.)
+  recent_window_days: 2
+  baseline_weeks: 4

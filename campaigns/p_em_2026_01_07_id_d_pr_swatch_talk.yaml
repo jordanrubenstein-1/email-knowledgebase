@@ -1,0 +1,42 @@
+id: 8bbedb24-7cdb-4964-9a63-7f8640377670
+name: P_EM_2026_01_07_ID_D_PR_Swatch_Talk
+brand: ID
+channel: email
+category: other
+type: announcement
+theme: null
+braze_id: 8bbedb24-7cdb-4964-9a63-7f8640377670
+dates:
+  send_date: '2026-01-07'
+  inferred_send_type: local_time
+  first_sent: '2026-01-07T00:01:46+00:00'
+  last_sent: '2026-01-07T19:01:45+00:00'
+tags:
+- PROMO-BLAST-2025
+sends:
+- id: 2e22fac6-15a7-40d4-af32-321d817ac6ae
+  channel: email
+  name: Variant 1
+  subject: Your 2026 Fabric Forecast
+  preheader: Soft neutrals, bold color, endless options.
+- id: f7a9ad3e-c813-48b9-bcd8-ea64d17368f0
+  channel: email
+  name: Control Group
+performance_summary:
+  total_sends: 121395
+  total_delivered: 121244
+  total_opens: 48629
+  total_clicks: 693
+  open_rate: 0.4006
+  click_rate: 0.0057
+  total_revenue: 53641.99
+  total_unsubscribes: 260
+  ga4:
+    sessions: 691
+    purchases: 2
+    revenue: 1235.34
+    attribution_window_days: 7
+    last_synced: '2026-02-06T16:28:55.111610'
+    source: snowflake
+    channel: email
+schedule_type: time_based
